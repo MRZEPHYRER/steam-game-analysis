@@ -32,3 +32,6 @@ logs/*.log
 '@ | Set-Content .gitignore -Encoding UTF8
 # Temporary test outputs
 /test/
+
+# Raw API responses
+/data/raw/
