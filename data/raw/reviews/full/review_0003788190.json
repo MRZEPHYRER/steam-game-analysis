@@ -1,0 +1,73 @@
+{
+  "appid": 3788190,
+  "requested_at": "2026-09-13T19:39:58.237794+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 3,
+      "total_negative": 6,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "231580230",
+        "author": {
+          "steamid": "76561198375192305",
+          "personaname": "sry町隆史",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198375192305/",
+          "num_games_owned": 0,
+          "num_reviews": 32,
+          "playtime_forever": 56,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 56,
+          "last_played": 1785321012,
+          "avatar": "0caeeee1d363911d9033730f53e1a1fb4b00809e"
+        },
+        "language": "japanese",
+        "review": "このゲームをプレイするなら糞して寝た方がいい。\nその方が君にとって有意義な時間を過ごせる。\n",
+        "timestamp_created": 1785321807,
+        "timestamp_updated": 1785321807,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756401267",
+        "hardware": {
+          "system_ram": "32694",
+          "os": "Windows 11",
+          "cpu_name": "AMD Ryzen 7 5700X 8-Core Processor             ",
+          "adapter_description": "NVIDIA GeForce RTX 4060 Ti",
+          "vram_size": 7949
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB2pLTzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

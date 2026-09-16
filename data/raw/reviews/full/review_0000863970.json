@@ -1,0 +1,66 @@
+{
+  "appid": 863970,
+  "requested_at": "2026-09-13T18:41:09.573143+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 6,
+      "total_negative": 1,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "90475464",
+        "author": {
+          "steamid": "76561198346536112",
+          "personaname": "ByDo-CoRe",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198346536112/",
+          "num_games_owned": 0,
+          "num_reviews": 54,
+          "playtime_forever": 233,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 90,
+          "last_played": 1691847737,
+          "avatar": "e976c99bcf6b378a3ff8079b7353d8ddc3cd55b1"
+        },
+        "language": "english",
+        "review": "Totally Amazing Shoot Em Up even in its early access stage. \nGorgeous pixel art work and impressive graphics with no bugs or glitches so far. \nSmooth controls (XBOX Controller), Very good catchy music. \nLots of challenging stages with loads of variety of enemies and you will fight a big boss after completing five stages. \n7 Different ships to chose from after you have unlocked them. \nThere is also a shop for power-ups and health to buy. \nOverall i highly recommend this game.\nPlease help support it if you love Awesome games like this one.\nExcellent work guys and look forward to future updates.\nBoth Thumbs UP :)\n\nSHOOT EM UPS 4 LIFE!!!",
+        "timestamp_created": 1618680702,
+        "timestamp_updated": 1618835100,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.552358150482177734",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1618506199",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY8+2AAAAAFP+Gs6qAAAAB4vJHZAg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

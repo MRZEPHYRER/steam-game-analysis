@@ -1,0 +1,66 @@
+{
+  "appid": 1925940,
+  "requested_at": "2026-09-13T18:45:41.554507+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 0,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "212300538",
+        "author": {
+          "steamid": "76561198201342585",
+          "personaname": "Darshana [FR]",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/imthebestofall/",
+          "num_games_owned": 0,
+          "num_reviews": 186,
+          "playtime_forever": 327,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 320,
+          "last_played": 1768483556,
+          "avatar": "53281fadb7a4647b00e8802aa7e44d62b0eb36d0"
+        },
+        "language": "french",
+        "review": "EN 🔷 This walking simulator is a perfect balance between Liminal space, the Backrooms and the SCP Foundation. It's short (3-4 hours), but it's good. \r\nThe atmosphere is on point. The power cuts were annoying in a good way, but the visual effects in the last level were hard on my eyes.\r\nGraphics are nice.\r\nMultiple endings.\r\nI can play with my controller and that's great. :D\r\n\r\n------------------------------------------------------\r\nFR 🔷 Ce walking simulator offre un équilibre parfait entre Liminal Space, The Backrooms et la Fondation SCP. Court mais intense (3-4 heures), il propose une ambiance immersive et des graphismes soignés. Les coupures de courant étaient agaçantes dans le bon sens, mais les effets visuels du dernier niveau étaient difficiles pour mes yeux.\r\nPlusieurs fins sont possibles.\r\nPossibilité de jouer à la manette, et c'est génial. :D",
+        "timestamp_created": 1764594053,
+        "timestamp_updated": 1764594053,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.672725141048431396",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761488465",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWi6YAAAAAFP+WG9qAAAAB6r+6pBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

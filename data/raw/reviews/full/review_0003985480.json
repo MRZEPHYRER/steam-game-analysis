@@ -1,0 +1,66 @@
+{
+  "appid": 3985480,
+  "requested_at": "2026-09-13T20:08:15.065863+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "207932385",
+        "author": {
+          "steamid": "76561199483805980",
+          "personaname": "EddyD",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199483805980/",
+          "num_games_owned": 0,
+          "num_reviews": 59,
+          "playtime_forever": 162,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 162,
+          "last_played": 1761881819,
+          "avatar": "d21165f9248b1bbc657089d52bc143a1594a6cef"
+        },
+        "language": "english",
+        "review": "I would like to recommend this game, but the enemies cause waaaaay too much damage, and the protagonist has to stop to shoot. It's fun up until a difficulty spike in one certain stage. This game desperately needs an \"easy\" mode.😢\n\n[edit] I managed to achieve \"Ending A.\" I still don't recommend it.",
+        "timestamp_created": 1761800097,
+        "timestamp_updated": 1761881867,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761181654",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABxvpmZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

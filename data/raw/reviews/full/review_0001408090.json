@@ -1,0 +1,71 @@
+{
+  "appid": 1408090,
+  "requested_at": "2026-09-13T18:42:51.546231+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 4,
+      "review_score_desc": "Mostly Negative",
+      "total_positive": 3,
+      "total_negative": 8,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "206749918",
+        "author": {
+          "steamid": "76561198307840576",
+          "personaname": "MagicQuill42",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/magicquill42/",
+          "num_games_owned": 0,
+          "num_reviews": 19,
+          "playtime_forever": 198,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 198,
+          "last_played": 1760486755,
+          "avatar": "d956bc4013e234d687e01e910297bd80cde68345"
+        },
+        "language": "english",
+        "review": "I am trying to be fair to this game because I was so excited to see this team create another game after Dream Daddy (which is a personal favorite of mine) but I'm honestly just feeling disappointed. And the feeling grows the longer I play despite giving it my best fair shot. I don't think coming out around the same time as Date Everything (another \"date the nearby objects\" game) did it a lot of favors but even just comparing it to it's predecessor game, The Office Type feels unfinished. Like it never left demo. \n- You cannot name or at all customize the player character.\n- The events in the relationship route almost seem torn between acting like the characters are already dating and like they're only just starting to flirt\n- There's almost no purpose to the \"scenes\" inside \"Your Apartment\" the way there would be in a different game like Your Best Friend, Dungeon Boyfriend, or Arcade Spirits\n- the \"dates\" feel like they're doing a lot of telling and not showing like I do not feel like I'm getting to know anyone, I'm just hitting dialoge buttons until it's time to play the minigame again. It's very difficult to tell if my choices even matter. \n- This almost feels like they wanted to make the three match minigame instead of another dating sim but somehow turned one into a vessel for the other. \n- The characters almost don't seem to know each other past the opening scene like Ben and Sylvia were introduced as brother and sister but then despite Sylvia repeatedly reffering to her sibling she never mentions Ben by name agian. I've never made a video game myself but I feel like that of all things should be a simple \"if ben option select = sylvia substitute dialog brother = true\" type of thing where her text box adjusts to which pen you selected. I don't know. But it makes the world feel emptier. Or if that's not the sibling she's reffering to then any kind of indicator that there's more than the two of them would be good. But in general the fact that the Intern seems to become everyones only friend is... disappointing. \n- Genuienly thought at first that the location you picked during date events influenced your score while playing the minigame because the characters would make different faces based on what you hover over but it seems to only change the backdrop you play in front of and some occasional flavor text. \n- Something about the font choice for the textbox genuienly throws me off and feels unfinished but I couldn't tell you what it is. The dialog in general also just doesn't have the same heart and humor as Dream Daddy did. Like I hate to make the comparison so often but was this even the same team that made the previous game? Or did they just use the same art style?\n- God 30 days is too long for an endless cycle of dialog and three match game. \n\nIt's not a bad game, necessarily. but it's not the game I was excited for and I can't tell if these are actually problems or just not the way I would have done it. But the fact that this game came out in June (?) and it's now October and I am struggling to find so much as a YT playthrough of it online is very telling to me, frankly.\nAnd I just wish I wasn't... bored. :( I wanted to like this game and it feels like a big unfinished letdown.",
+        "timestamp_created": 1760486853,
+        "timestamp_updated": 1760486853,
+        "voted_up": false,
+        "votes_up": 26,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.769221067428588867",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753369238",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUnZaAAAAAFP+iddWAAAAB+jdiUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0310000000001764,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4203610,
+  "requested_at": "2026-09-13T20:25:49.410225+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224127093",
+        "author": {
+          "steamid": "76561198713084425",
+          "personaname": "MouseClickPlays",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198713084425/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 49,
+          "last_played": 1777195536,
+          "avatar": "d1a7450f04434a50f218463055cbeec75adfe754"
+        },
+        "language": "english",
+        "review": "I’m the first to review this, and honestly? It’s surprisingly high quality. The visuals are great, the maps are well-designed, and the city rebuilding mechanic adds a nice layer of progression. The final boss fight against Danav the dragon is a cool goal to work toward.\n\nThe only thing holding it back is that ammo is very scarce...  and because drops are RNG, you can get \n\"soft-locked\" where you have no way to kill enemies and have to restart the level. If the dev adds ammo stacking or guaranteed drops, this is an easy recommendation.",
+        "timestamp_created": 1777196150,
+        "timestamp_updated": 1777196150,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766680078",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFcAAAAAAAAFP+AAAAAAAAB1h/3WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3675290,
+  "requested_at": "2026-09-13T19:30:36.335464+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 16,
+      "total_negative": 1,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "215474996",
+        "author": {
+          "steamid": "76561198039863301",
+          "personaname": "Snabisch",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Snabisch/",
+          "num_games_owned": 6061,
+          "num_reviews": 603,
+          "playtime_forever": 291,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1768046684,
+          "avatar": "c786054e61d84e91d540cbc5e7b64278ddd286fd"
+        },
+        "language": "spanish",
+        "review": "Siempre es un placer encontrarse en la biblioteca de Steam con un juego que apuesta por ese pixel art tan característico, heredado directamente de los clásicos de la NES. Ese estilo visual tiene algo especial: no importa cuántos años pasen, sigue transmitiendo una mezcla de nostalgia y encanto que pocos géneros logran igualar. Y aunque este título quizá no llegue al nivel de otros indies más reconocidos dentro del panorama actual, es evidente que detrás hay un trabajo muy cuidado, hecho con cariño y dedicación, que merece ser valorado.\n\nLa banda sonora acompaña de maravilla, aportando ese toque atmosférico que te mete de lleno en cada fase. Y hablando de fases, el diseño es sorprendentemente variado. No se limita a avanzar y repartir puñetazos sin más; el juego se las ingenia para cambiar el ritmo con niveles donde conduces vehículos o afrontas situaciones completamente distintas, lo que mantiene la experiencia fresca y entretenida.\n\nLo curioso es que lo tenía comprado desde hace bastante tiempo, pero por una razón u otra nunca le había dado una oportunidad real. Quedó ahí, perdido entre tantos otros juegos pendientes. Pero por fin me he reencontrado con él, le he dedicado el tiempo que se merece y ahora sí que lo estoy disfrutando como toca. \n\nA veces solo hace falta el momento adecuado para redescubrir pequeñas joyas que teníamos olvidadas.",
+        "timestamp_created": 1767873452,
+        "timestamp_updated": 1767874962,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754611216",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB0s/y1Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

@@ -1,0 +1,300 @@
+{
+  "requested_at": "2026-09-13T06:48:45.299212+00:00",
+  "request_params": {
+    "appids": 4086280,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4086280,
+  "payload": {
+    "4086280": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Witchy Tower",
+        "steam_appid": 4086280,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Witchy Tower is an arcade platformer with one simple goal: Climb the infinite tower and avoid the consequences of your actions!</p><h2 class=\"bb_tag\" >Features </h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Addictive 2D tower-climbing gameplay</p></li><li><p class=\"bb_paragraph\" >Two modes</p></li><li><p class=\"bb_paragraph\" >Six unlockable characters</p></li><li><p class=\"bb_paragraph\" >Easy modding, play anyone you want: Simply use the template and drop your sprites into the game's &quot;Characters&quot;</p></li><li><p class=\"bb_paragraph\" >15 Biomes</p></li><li><p class=\"bb_paragraph\" >31 Achievements</p></li><li><p class=\"bb_paragraph\" >Infinite fun</p></li><li><p class=\"bb_paragraph\" >Featuring Bossy</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Witchy Tower is an arcade platformer with one simple goal: Climb the infinite tower and avoid the consequences of your actions!</p><h2 class=\"bb_tag\" >Features </h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Addictive 2D tower-climbing gameplay</p></li><li><p class=\"bb_paragraph\" >Two modes</p></li><li><p class=\"bb_paragraph\" >Six unlockable characters</p></li><li><p class=\"bb_paragraph\" >Easy modding, play anyone you want: Simply use the template and drop your sprites into the game's &quot;Characters&quot;</p></li><li><p class=\"bb_paragraph\" >15 Biomes</p></li><li><p class=\"bb_paragraph\" >31 Achievements</p></li><li><p class=\"bb_paragraph\" >Infinite fun</p></li><li><p class=\"bb_paragraph\" >Featuring Bossy</p></li></ul>",
+        "short_description": "A witchy arcade platformer about climbing an infinite tower and avoiding the consequences of your actions.",
+        "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Danish<strong>*</strong>, Dutch<strong>*</strong>, Finnish, Norwegian, Simplified Chinese<strong>*</strong>, Swedish, Croatian<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/2e9e20fc52bedf92303e226376ce19f64ed6427a/header.jpg?t=1761988634",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/196e4e912ebcb8c02f23e3f5a54e03b233bd56b6/capsule_231x87.jpg?t=1761988634",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/196e4e912ebcb8c02f23e3f5a54e03b233bd56b6/capsule_184x69.jpg?t=1761988634",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> 1GHz<br></li><li><strong>Memory:</strong> 150 MB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Changefairy"
+        ],
+        "publishers": [
+          "Changefairy"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1432436
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Witchy Tower",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1432436,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Witchy Tower - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/3f7ad46b09860598d2e54676de42190e53bbe0de/ss_3f7ad46b09860598d2e54676de42190e53bbe0de.600x338.jpg?t=1761988634",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/3f7ad46b09860598d2e54676de42190e53bbe0de/ss_3f7ad46b09860598d2e54676de42190e53bbe0de.1920x1080.jpg?t=1761988634"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/4a4b42c587f7f54b7ec6f7f61cee9214fb620527/ss_4a4b42c587f7f54b7ec6f7f61cee9214fb620527.600x338.jpg?t=1761988634",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/4a4b42c587f7f54b7ec6f7f61cee9214fb620527/ss_4a4b42c587f7f54b7ec6f7f61cee9214fb620527.1920x1080.jpg?t=1761988634"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/0330498d188cd9880f9d1c5b0e50543b2d73f578/ss_0330498d188cd9880f9d1c5b0e50543b2d73f578.600x338.jpg?t=1761988634",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/0330498d188cd9880f9d1c5b0e50543b2d73f578/ss_0330498d188cd9880f9d1c5b0e50543b2d73f578.1920x1080.jpg?t=1761988634"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/76659f4ecf3e5c4507bd8c461b3fd83f4e44e4ea/ss_76659f4ecf3e5c4507bd8c461b3fd83f4e44e4ea.600x338.jpg?t=1761988634",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/76659f4ecf3e5c4507bd8c461b3fd83f4e44e4ea/ss_76659f4ecf3e5c4507bd8c461b3fd83f4e44e4ea.1920x1080.jpg?t=1761988634"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/97b034c8f0972d4f0c7146f8af809d3e93decb45/ss_97b034c8f0972d4f0c7146f8af809d3e93decb45.600x338.jpg?t=1761988634",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4086280/97b034c8f0972d4f0c7146f8af809d3e93decb45/ss_97b034c8f0972d4f0c7146f8af809d3e93decb45.1920x1080.jpg?t=1761988634"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257217058,
+            "name": "Witchy_Tower_Main_Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217058/085e4cc30d801d04715ef1ef690afdb4e8552a30/movie_600x337.jpg?t=1760796188",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4086280/2114878728/8dd7524020f7b6e03a41d98d5eade454911ff654/1760365928/dash_av1.mpd?t=1760796188",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4086280/2114878728/8dd7524020f7b6e03a41d98d5eade454911ff654/1760365928/dash_h264.mpd?t=1760796188",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4086280/2114878728/8dd7524020f7b6e03a41d98d5eade454911ff654/1760365928/hls_264_master.m3u8?t=1760796188",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 31,
+          "highlighted": [
+            {
+              "icon": "1f3d4576a3c14a831c8a3151bd4f6a746a6e7bfc.jpg",
+              "localized_name": "Another Round!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Another Round!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/1f3d4576a3c14a831c8a3151bd4f6a746a6e7bfc.jpg"
+            },
+            {
+              "icon": "02a425075ac18f04721a60c0bd53c30c49013b91.jpg",
+              "localized_name": "Thoroughly Parentally Disciplined",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thoroughly Parentally Disciplined",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/02a425075ac18f04721a60c0bd53c30c49013b91.jpg"
+            },
+            {
+              "icon": "68aed408bb94c91b2035185c86b4d92543a9b348.jpg",
+              "localized_name": "He's worried about you",
+              "archived": 0,
+              "hidden": 0,
+              "name": "He's worried about you",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/68aed408bb94c91b2035185c86b4d92543a9b348.jpg"
+            },
+            {
+              "icon": "30e04107b2a027cf04831204d19b91a340515cdf.jpg",
+              "localized_name": "Vampire Princess",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Vampire Princess",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/30e04107b2a027cf04831204d19b91a340515cdf.jpg"
+            },
+            {
+              "icon": "262d4a1f4636e6c053338c1fe9179cde0ebae23d.jpg",
+              "localized_name": "Hexnex Brain",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hexnex Brain",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/262d4a1f4636e6c053338c1fe9179cde0ebae23d.jpg"
+            },
+            {
+              "icon": "2036933039212c595c6bd87743094b65a6a6ce43.jpg",
+              "localized_name": "The leader of the Bunch",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The leader of the Bunch",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/2036933039212c595c6bd87743094b65a6a6ce43.jpg"
+            },
+            {
+              "icon": "da7fcbed0ca1a15776e45ee3275adebe8aa1f48d.jpg",
+              "localized_name": "Started the Climb",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Started the Climb",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/da7fcbed0ca1a15776e45ee3275adebe8aa1f48d.jpg"
+            },
+            {
+              "icon": "c0efba617007d17346957d02a836a28f9ea2d0c3.jpg",
+              "localized_name": "Double the Distance",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Double the Distance",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/c0efba617007d17346957d02a836a28f9ea2d0c3.jpg"
+            },
+            {
+              "icon": "3043dd3cfb10e0c7ae22b47cad87dfe48f0b3dfe.jpg",
+              "localized_name": "THIS! IS! WITCHY TOWER!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "THIS! IS! WITCHY TOWER!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/3043dd3cfb10e0c7ae22b47cad87dfe48f0b3dfe.jpg"
+            },
+            {
+              "icon": "9e081df86b08de4f333d29a408a6f0a0d4b11e0c.jpg",
+              "localized_name": "Getting rough now",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Getting rough now",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4086280/9e081df86b08de4f333d29a408a6f0a0d4b11e0c.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "Changefairy@protonmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4086280?t=1761988634",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4086280?t=1761988634",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

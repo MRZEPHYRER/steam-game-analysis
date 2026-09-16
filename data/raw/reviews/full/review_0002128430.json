@@ -1,0 +1,75 @@
+{
+  "appid": 2128430,
+  "requested_at": "2026-09-13T18:47:38.950975+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 2,
+      "total_negative": 6,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "210647190",
+        "author": {
+          "steamid": "76561198251657048",
+          "personaname": "Dave Johnson",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Dave_L_Johnson/",
+          "num_games_owned": 0,
+          "num_reviews": 177,
+          "playtime_forever": 34,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1779115243,
+          "avatar": "312446da0be550e263ebb906e1f74b818865ed3b"
+        },
+        "language": "english",
+        "review": "[h1] Not ready for Early-Access, but keep an eye on it. [/h1]\n*From the perspective of someone that grew up playing several iterations of Sid Meier's Pirates,\nThe systems are all in-place currently, but everything is either barebones or painful to interact with as it stands.\n\nEverything I'm about to say for the next few lines is negative as hell, but it's because I want to see these things fixed as soon as possible to give this game the chance it deserves;\n\n>Almost every menu I opened, starting with the town-management menu, has bugs.\nBoth visual and gameplay. Buttons doing nothing until they're clicked multiple times (inventory), background flickering when hovering over stuff (town \"skill\" menu\", the works.\n\n>Character creation (for some reason) has even less visual options than it did in the playtest.\nNot a huge deal, but I don't understand removing options that were available before, like alternate faces?\n\n>I don't know if they're married to their current mini-map in the upper right corner, but I find that \"transparent ink-stain\" style is very irritating to deal with.\nThere are no actual symmetrical edges to the map, it's just a big amorphous Nickelodeon blob.\n\n>Instead of having sail positions (Press W once for half sail, press it again for full sail), you hold the button down until it gets up to full speed.\nIt feels imprecise and annoying, more like driving a forklift uphill than it feels like sailing.\n\n>There's this weird \"chromatic abberation\" style vignette around the entire screen when you're sailing that makes everything outside the center appear blurry and washed-out.\nThere don't appear to be any specific graphical options aside from Resolution/Refresh Rate and generic \"Low/Med/High/Ultra\" graphical settings.\n\n>Got into ship combat and it felt good, but transferring cargo between ships afterward was bugged to hell and back.\nThere is no \"transfer all\" button that I was able to find, and individually moving stuff from 1 inventory to another had a failure rate of about 70%.\n\n>Finally, I got frustrated enough with the minimap that I decided to hit \"Tab\" and try to see if there was a full map in the menus, and it got me into an endless loading-screen.\nTapped tab again, and the screen would disappear / reappear instantly.\n\nAlt-F4'd and got outta there.\n\nIt's a really good start, good \"bones\" for a Sid Meier's Pirates successor, but it's a longggg way from being finished.\nMuch more of a Beta than an Early Access experience from what I've seen.\n\nI would recommend keeping an eye on it and seeing how they progress over the coming weeks/months- I've seen a lot of these \"spiritual successor\" games come-and-go, launching to \"Mixed\" reviews and causing the developers to immediately give up and leave.\nThis game isn't the same generic Unity Asset Store slop that I've seen a lot in the past, they've actually tried to make something substantially similar to a \"Pirates! Spiritual Successor\",\nand it LOOKS the part, it FEELS the part, it SOUNDS the part, but it just needs more fleshing-out and polish.\n\nTLDR; I'd say that this game feels closer to Sid Meier's Pirates than Windward Horizon does, it's a way better game than Buccaneers!, it's a way WAY better game than Caribbean Legend, \nthe only thing that's holding it back right now is Bugfixing and Finishwork.\n\nCheers to the developers, I hope to see your game find success.",
+        "timestamp_created": 1764102233,
+        "timestamp_updated": 1764102233,
+        "voted_up": true,
+        "votes_up": 51,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.814570724964141846",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764097104",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTtWWAAAAAFP+oQ90AAAAB2icejBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999999,
+  "transport_error_count": 0
+}

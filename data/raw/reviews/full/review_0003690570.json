@@ -1,0 +1,66 @@
+{
+  "appid": 3690570,
+  "requested_at": "2026-09-13T19:32:17.243049+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 13,
+      "total_negative": 4,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "208865428",
+        "author": {
+          "steamid": "76561198064255146",
+          "personaname": "大葱·小黄瓜君",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/npc763/",
+          "num_games_owned": 1033,
+          "num_reviews": 357,
+          "playtime_forever": 98,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1762755757,
+          "avatar": "216bcf3755d283d03815809ed950393aeda28e0d"
+        },
+        "language": "schinese",
+        "review": "本来看了true end以为是还会有后传之类的，结果翻评论区发现是true end乱用。我唯一觉得很值得夸奖的是CV，她真的很卖力。其他的我可以忍受，但是很难推荐给别人",
+        "timestamp_created": 1762756566,
+        "timestamp_updated": 1762756566,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.576526343822479248",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762507739",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYeDAAAAAAFP+Jy5qAAAAB0ieGcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

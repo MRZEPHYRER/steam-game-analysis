@@ -1,0 +1,66 @@
+{
+  "appid": 3461520,
+  "requested_at": "2026-09-13T19:17:19.141562+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 34,
+      "total_negative": 0,
+      "total_reviews": 34
+    },
+    "reviews": [
+      {
+        "recommendationid": "230116751",
+        "author": {
+          "steamid": "76561198945811111",
+          "personaname": "叶怀归",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198945811111/",
+          "num_games_owned": 838,
+          "num_reviews": 140,
+          "playtime_forever": 127,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 127,
+          "last_played": 1783660830,
+          "avatar": "9fd2dfd816777d1d4122447f8793615b3a1ff023"
+        },
+        "language": "schinese",
+        "review": "核心玩法为培育小鸡+收集图鉴，比较简单，不挂机全流程2h左右，数值把控尚可，流程丝滑，小鸡很可爱，培育不卡母本形态，只需考虑等级就行。目前体验不佳的是机器人收蛋太慢了，浪费掉不少，手动收又比较累（顾上小鸡就顾不上收蛋了）。推荐给喜欢轻松休闲游戏的玩家。",
+        "timestamp_created": 1783685142,
+        "timestamp_updated": 1783685142,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.6875",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754928137",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWQAAAAAAAFP+YAAAAAAAB/2OntBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8899999999998727,
+  "transport_error_count": 0
+}

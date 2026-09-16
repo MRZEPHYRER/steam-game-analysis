@@ -1,0 +1,66 @@
+{
+  "appid": 2357350,
+  "requested_at": "2026-09-13T18:50:02.322146+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 4,
+      "total_reviews": 22
+    },
+    "reviews": [
+      {
+        "recommendationid": "213045791",
+        "author": {
+          "steamid": "76561198028131031",
+          "personaname": "Persephone",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/PillzTakeNoSkillz/",
+          "num_games_owned": 0,
+          "num_reviews": 57,
+          "playtime_forever": 26,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 26,
+          "last_played": 1765456174,
+          "avatar": "6652a35b3a1d80a79e72a521c68dd5541ca58d23"
+        },
+        "language": "english",
+        "review": "I wish I enjoyed this game more, but I'm afraid to say that I found Primal Fray to be just a bit boring and tedious. Enough so to the point where I didn't really continue to give it a chance.\n\nLet me start of with the positives: I like the artstyle. The pixel art looks nice, and the creature designs are interesting enough.\n\nUnfortunately, that's kind of where my compliments end. It's not like this is the worst game I've ever played, it's not insultingly bad or anything. It just feels a bit uninspiring.\n\nThe sound design is lacking. The music is really forgettable, and even a bit annoying in how boring it is. The animations are sluggish - and I swear that sometimes, on the map navigation, my commands get eaten by how slow the game is.\n\nThe gameplay feels like it should be a lot more involved than it is, but because of how tediously slow everything is, my brain kind of just turns off. I also felt like, at least at in what I've played, there's a disturbing lack of synergies. Not necessarily in that there are to synergies, but that making use out of them just isn't particularly worth your time. Because sure, you could spend your turns setting up a big play, but the maps are so small, and your units can't path through each other, and the enemies have low enough HP, and a bunch of other stuff that just makes it so that it's just better to cast your basic damaging ability on an enemy.\n\nEspecially that \"your units can't path through each other\" served to kill my enjoyment of the gameplay, because it made any kind of combo so much harder to pull off. I get why it might've been done, but unfortunately, it served to slow down the maps a lot. Especially because you don't get to decide the turn order of your units. it seems based on your units speed stat? Not that I know where i would find that speed stat.\n\nPerhaps the only thing that mustered up any kind of feeling about this game in me was the meta progression. And not in a good sense. I really wish roguelike creators would stop adding in \"+5% damage\" upgrades. They never feel good, because you can't feel them at all. I want some interesting upgrades, something that actually makes me excited to unlock them. Yes, small, incremental stat upgrades [i]can[/i] work, but you have to know what you're getting into. It's more for games where you build up a lot of these small upgrades, allowing you to start of runs way stronger than before. Not for a roguelike in which you're supposed to be doing the same run every time.\n\nAnd worse than that, I already don't think 5% (scaling up to 25%) damage is in any way exciting to unlock, but the game goes out of it's way to make it even less interesting, by limiting that damage upgrade to one specific unit colour. So it's not 5% damage overall, it's 5% damage for green units (or other colours). \n\nThere are other meta upgrades that are slightly more interesting than that, to be fair, but you have to go through this ♥♥♥♥ to start off with, and that just soured my mood on this game.\n\nOverall, I would not recommend Primal Fray, it was tedious and boring. I paid ~€9,75 for this, and after I post this review, I'm going to be looking to see if I can still get a refund. That's not something I do often, even for games I dislike. Unfortunately, it's not that I particularly dislike this game, it's that I can't muster up the energy to care for it at all. \n\nWith that said, the steam posts give me the impression that this game is a passion project made by a solo developer, or perhaps a small team, and I do want to emphasise that they still deserve to be proud of the game. It's not an easy thing to develop a video game, and I do not think my non-enjoyment of the game should cancel out the effort that went into making it, nor should it reflect negatively upon its creators. I would much sit through a hundred of these small indie games that I don't end up liking, than a single game without a soul, whether it be AI or corporate garbage.\n\nI hope this review doesn't discourage the developer(s) from sticking with their jobs and/or hobbies. I think the game shows promise for future projects. But in its current state, as a consumer, I cannot recommend it.",
+        "timestamp_created": 1765458492,
+        "timestamp_updated": 1765458492,
+        "voted_up": false,
+        "votes_up": 13,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.627472579479217529",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764010628",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXc1aAAAAAFP+QUQkAAAAB/odqsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

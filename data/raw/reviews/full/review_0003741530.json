@@ -1,0 +1,71 @@
+{
+  "appid": 3741530,
+  "requested_at": "2026-09-13T19:36:10.031055+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 30,
+      "total_negative": 0,
+      "total_reviews": 30
+    },
+    "reviews": [
+      {
+        "recommendationid": "218600845",
+        "author": {
+          "steamid": "76561199817326146",
+          "personaname": "Osennww",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199817326146/",
+          "num_games_owned": 83,
+          "num_reviews": 18,
+          "playtime_forever": 166,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 166,
+          "last_played": 1771390706,
+          "avatar": "c14740e30fbd1cc5efdd42b8b0e13b83f8e12964"
+        },
+        "language": "brazilian",
+        "review": "Quase 3 horas da minha vida sendo completamente HUMILHADO por esse jogo!\n\n“Ah, mas o gráfico é simples”\nSIMPLES É O CARA***. Isso aqui é tortura psicológica em formato de indie.\n\nVocê erra por 1 pixel.\nUM.\nPIXEL.\nE volta tudo.\n\nA última conquista? ZERAR O SAVE INTEIRO SEM MORRER NENHUMA VEZ E COLETAR TODAS AS MOEDAS!!\n\nSem.\nMorrer.\nNenhuma.\nVez.\n\nQuem fez isso não é humano, é entidade sobrenatural.\n\nVou ficar com meus 16/18 e preservar o resto da minha dignidade. Platina não é pra mim não.\n\nDito isso… recomendo demais.\n\nSe você gosta de desafio de verdade, de passar raiva, falar “agora vai” 50 vezes e ainda assim continuar jogando, esse jogo é perfeito.\n\nNota: 10/10, me fez questionar minhas escolhas de vida.",
+        "timestamp_created": 1771391200,
+        "timestamp_updated": 1771391568,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.579288065433502197",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759184171",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYaguAAAAAFP+KJhwAAAAB92PLBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

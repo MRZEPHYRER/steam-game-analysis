@@ -1,0 +1,71 @@
+{
+  "appid": 3489240,
+  "requested_at": "2026-09-13T19:18:49.273459+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 20,
+      "total_negative": 6,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "208409332",
+        "author": {
+          "steamid": "76561198018041888",
+          "personaname": "Dakuwanga",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/uwubober/",
+          "num_games_owned": 511,
+          "num_reviews": 25,
+          "playtime_forever": 486,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 367,
+          "last_played": 1762447606,
+          "avatar": "b2c185c809d885453bae1462c6a9aefe2165df87"
+        },
+        "language": "english",
+        "review": "[h1]The one where Asterix & Obelix go East[/h1]\n\n\nA fairly simple 3D Asterix platformer title. The basic objective is to simply reach the end of the level. In addition to Romans, the levels often feature puzzles that require the right Gaul. Such as Asterix for moving through narrow spaces or Obelix to push large stone blocks. Nothing truly complicated.\n\nIn addition, there are a few chariot race/escape (from a giant barrel or a lava wave respectively) levels and a couple of boss levels. \n\n\n[h3]Combat[/h3]\n\nOn the whole, the game focuses more on platformer aspects than providing fancy combat. The Gauls can punch and perform a charged rush attack. The latter will take out shields and knock heavy enemies out with a single hit. (Obelix can also perform a crush attack when jumping). The catch is that both Asterix and Obelix have only three hearts, with losing all three or falling into a pit sending you back to the last checkpoint. In solo play, switching between Asterix and Obelix enables you to take more hits, as the two have separate health bars. Except in the Indomitable mode, there is only a single health bar.      \n\n\n[h3]Collectibles[/h3]\n\nThe game features collectibles in the form of Parthian coins and cuneiform tablets. Minor difference to previous Asterix games is that it is necessary to collect some of the Parthian coins, a total of 30, to unlock three of the four regions of Babylonia. But it shouldn't be too much trouble, I'd argue most of the coins aren't that hard to find. \n\nAs usual, there are also Roman helmets to collect. Collecting enough will unlock couple additional outfits for Asterix and Obelix. So no need to worry about costume/skin DLC:s this time around.\n\n\n[h3]Levels and music[/h3]\n\nPredictably, the levels feature a lot of eastern style buildings and music. Including a ziggurat and the hanging gardens of Babylon. Personally, the level environments don't look half bad. For a simplistic 3D platformer.\n\n\n[h2]Verdict[/h2]\n\n\n[h3]6,7/10[/h3]\n\n\nAncient Babylonia provides a nice change of scenery for the adventures of the two Gauls. However, at the end of the day, the journey doesn't deliver much that people who played the prior Asterix games have not seen before. It's also fairly short - it took me roughly 6 hours to complete the Adventure mode on normal difficulty. And I may have replayed a level or two a couple of times. \n\nOn the other hand, the way I see it, the game offers more variety and replay value, and is more entertaining than the cash grab fiasco that is [i]The Ram from Hibernia[/i].   \n\n\nAll in all, whether you'll enjoy this game or not most likely depends on how big a fan of Asterix you are.\n\nDo you want a fast-paced and action-packed Beat 'em Up like the original two [i]Asterix & Obelix: XXL[/i] titles?\n\n[b]Buy something else.[/b]\n\n\nAre you a fan of Asterix, platformer games, or both? \n\nGo ahead and enjoy.",
+        "timestamp_created": 1762278377,
+        "timestamp_updated": 1762278377,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.71088564395904541",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761814904",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVyEOAAAAAFP+a/lAAAAAB0r4KbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.905999999999949,
+  "transport_error_count": 0
+}

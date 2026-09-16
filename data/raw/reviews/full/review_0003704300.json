@@ -1,0 +1,71 @@
+{
+  "appid": 3704300,
+  "requested_at": "2026-09-13T19:33:06.215081+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 173,
+      "total_negative": 18,
+      "total_reviews": 191
+    },
+    "reviews": [
+      {
+        "recommendationid": "207044178",
+        "author": {
+          "steamid": "76561198987909303",
+          "personaname": "EleanoraManticore_TTV",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198987909303/",
+          "num_games_owned": 0,
+          "num_reviews": 397,
+          "playtime_forever": 270,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 270,
+          "last_played": 1760820872,
+          "avatar": "3bee5915b0130ad3fc30fef98bc07cae0930fd51"
+        },
+        "language": "english",
+        "review": "[H1]When “just one more item” turns into 3h45 of spiritual growth[/H1]\n\nI went in expecting another cozy FIND ALL game and got smacked in the face by the most challenging (but fair) entry of the whole series. Around 3h45 hours later, a few hints lighter and maybe one mild headache richer (thanks, 2.5D!), I was still grinning.\n\nAs always, the art is delightful, every item you uncover splashes the world with color, and you can choose which objects to hunt next, a little unique something I [i]love[/i] about this series The hints recharge quickly (just be cautious if you’re chasing 100%), and they’re mercifully vague rather than giving you the full answer. Between levels, you get cute spot-the-difference puzzles that break up the pace nicely, and the pop/anime culture references scattered around are pure joy. Interactive zones are clear, zoom is just right, and the achievements won’t overwhelm your profile too much. Basically, it’s another FIND ALL hit, but one that bites a little harder than usual.\n\nNow, about that difficulty curve: the jump between the first level and the rest is steep. If you’re going for 100%, take your time with the first one and resist using hints early. The 2.5D visuals might also mess with sensitive eyes during longer sessions, but that’s more a personal quirk than a flaw.\n\nIn conclusion, FIND ALL 9: Fantasy is a whimsical, tricky, and deeply rewarding entry in the series : cozy but challenging, cute but ruthless, and absolutely perfect to get in the Halloween mood with a little bit of magic.\n\n[quote]For more reviews like this one, please check out [url=https://store.steampowered.com/curator/45639970-Ele%2527s-Little-Recommendation-Corner/][b]Ele's Little Recommendation Corner[/b][/url]![/quote]",
+        "timestamp_created": 1760825482,
+        "timestamp_updated": 1760825482,
+        "voted_up": true,
+        "votes_up": 30,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.776865363121032715",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760411373",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUdnOAAAAAFP+jcFAAAAABy5eeVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

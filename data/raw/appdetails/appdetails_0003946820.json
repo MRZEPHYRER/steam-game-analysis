@@ -1,0 +1,308 @@
+{
+  "requested_at": "2026-09-13T06:00:35.549776+00:00",
+  "request_params": {
+    "appids": 3946820,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3946820,
+  "payload": {
+    "3946820": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Idle Idle",
+        "steam_appid": 3946820,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Idle Idle</strong></p><p class=\"bb_paragraph\" >A relaxing idle game that's all about comfort, tranquility and immersing yourself in the relaxation. No jarring sounds here, just soothing idle gameplay with gentle progression and an aesthetic that is gentle on the eyes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Get relaxed, earn and use your zen to purchase never-before-seen items such as the one and only &quot;Comfy Armchair&quot;.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Idle Idle isn't about grinding, it's about presence, reflection and low-pressure fun.</p><p class=\"bb_paragraph\" >Need a mental breather, a creative recharge or just a calming digital space to inhabit? Then Idle Idle is the game for you!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Idle Idle</strong></p><p class=\"bb_paragraph\" >A relaxing idle game that's all about comfort, tranquility and immersing yourself in the relaxation. No jarring sounds here, just soothing idle gameplay with gentle progression and an aesthetic that is gentle on the eyes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Get relaxed, earn and use your zen to purchase never-before-seen items such as the one and only &quot;Comfy Armchair&quot;.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Idle Idle isn't about grinding, it's about presence, reflection and low-pressure fun.</p><p class=\"bb_paragraph\" >Need a mental breather, a creative recharge or just a calming digital space to inhabit? Then Idle Idle is the game for you!</p>",
+        "short_description": "Idle Idle is a soothing idle game focused on comfort, calm, and gentle progression. Earn zen, unlock unique items and relax in a peaceful digital space. No grinding, just presence, reflection, and low-pressure fun",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/99344e26ba2f9081c17d023669c9cc0efd924fd4/header.jpg?t=1757656867",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/08e111e7f8ec09b7b559309e0f6b0a50b21c441a/capsule_231x87.jpg?t=1757656867",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/08e111e7f8ec09b7b559309e0f6b0a50b21c441a/capsule_184x69.jpg?t=1757656867",
+        "website": "https://www.instagram.com/idleidlegame/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or later<br></li><li><strong>Processor:</strong> 2.0GHz or faster x86-compatible processor<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Idle Idle"
+        ],
+        "publishers": [
+          "Idle Idle"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1386231
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Idle Idle",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1386231,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Idle Idle - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/7ababe2173d826709223b36d20d42c40d0f7040a/ss_7ababe2173d826709223b36d20d42c40d0f7040a.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/7ababe2173d826709223b36d20d42c40d0f7040a/ss_7ababe2173d826709223b36d20d42c40d0f7040a.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/bff1aeea86ef93ffce1f09ba27ada576de09a2cc/ss_bff1aeea86ef93ffce1f09ba27ada576de09a2cc.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/bff1aeea86ef93ffce1f09ba27ada576de09a2cc/ss_bff1aeea86ef93ffce1f09ba27ada576de09a2cc.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/6c218b8d6e181c2671ddc21b828f002073942e4d/ss_6c218b8d6e181c2671ddc21b828f002073942e4d.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/6c218b8d6e181c2671ddc21b828f002073942e4d/ss_6c218b8d6e181c2671ddc21b828f002073942e4d.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/be8226ffc52c90f2a3fca53065cce2a168f1efe8/ss_be8226ffc52c90f2a3fca53065cce2a168f1efe8.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/be8226ffc52c90f2a3fca53065cce2a168f1efe8/ss_be8226ffc52c90f2a3fca53065cce2a168f1efe8.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/daefa2fec8fa97a4f7c590625d9cef487f6e02d2/ss_daefa2fec8fa97a4f7c590625d9cef487f6e02d2.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/daefa2fec8fa97a4f7c590625d9cef487f6e02d2/ss_daefa2fec8fa97a4f7c590625d9cef487f6e02d2.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/b906bf9a18c4d1b9f04b994b7d3e37a586bbf69f/ss_b906bf9a18c4d1b9f04b994b7d3e37a586bbf69f.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/b906bf9a18c4d1b9f04b994b7d3e37a586bbf69f/ss_b906bf9a18c4d1b9f04b994b7d3e37a586bbf69f.1920x1080.jpg?t=1757656867"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/558a6e190900ad31e16332834800a6b7c7a5a15a/ss_558a6e190900ad31e16332834800a6b7c7a5a15a.600x338.jpg?t=1757656867",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946820/558a6e190900ad31e16332834800a6b7c7a5a15a/ss_558a6e190900ad31e16332834800a6b7c7a5a15a.1920x1080.jpg?t=1757656867"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257185341,
+            "name": "Idle Idle Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257185341/23710ba96b2923c65fc7c5134a6e9d0c9f47b489/movie_600x337.jpg?t=1755620734",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3946820/1832118826/8a8482936cad1377c9da4cdb6c12149c5f2b0ad9/1755599495/dash_av1.mpd?t=1755620734",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3946820/1832118826/8a8482936cad1377c9da4cdb6c12149c5f2b0ad9/1755599495/dash_h264.mpd?t=1755620734",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3946820/1832118826/8a8482936cad1377c9da4cdb6c12149c5f2b0ad9/1755599495/hls_264_master.m3u8?t=1755620734",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 49,
+          "highlighted": [
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "Cursed to put my hands on everything",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cursed to put my hands on everything",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "Everyone is someone!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Everyone is someone!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "Not everyone is someone!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Not everyone is someone!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "Nice try, someone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Nice try, someone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "Biscuit Button-Presser",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Biscuit Button-Presser",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "I... am Steve",
+              "archived": 0,
+              "hidden": 0,
+              "name": "I... am Steve",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg",
+              "localized_name": "The final (final) final update",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The final (final) final update",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ecca4827b60aaa1aa309ca8ca48a10f99804c6f1.jpg"
+            },
+            {
+              "icon": "3a3017fef62cd0ca46e1b5914d81fd4533d2300c.jpg",
+              "localized_name": "Idle Idle Idle",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Idle Idle Idle",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/3a3017fef62cd0ca46e1b5914d81fd4533d2300c.jpg"
+            },
+            {
+              "icon": "ee13fc242dee93d3d3cf2010030dec6a220a714b.jpg",
+              "localized_name": "You thought it was over",
+              "archived": 0,
+              "hidden": 1,
+              "name": "You thought it was over",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/ee13fc242dee93d3d3cf2010030dec6a220a714b.jpg"
+            },
+            {
+              "icon": "5262370cf41ea74481d0b0bed4fd3bfaf37660c5.jpg",
+              "localized_name": "And so it begins",
+              "archived": 0,
+              "hidden": 0,
+              "name": "And so it begins",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3946820/5262370cf41ea74481d0b0bed4fd3bfaf37660c5.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 11, 2025"
+        },
+        "support_info": {
+          "url": "https://www.instagram.com/idleidlegame/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3946820?t=1757656867",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3946820?t=1757656867",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

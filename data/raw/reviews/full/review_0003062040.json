@@ -1,0 +1,66 @@
+{
+  "appid": 3062040,
+  "requested_at": "2026-09-13T19:02:46.262129+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "220471913",
+        "author": {
+          "steamid": "76561198878170520",
+          "personaname": "BayernHerz",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/bayernherz2001/",
+          "num_games_owned": 823,
+          "num_reviews": 611,
+          "playtime_forever": 214,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 214,
+          "last_played": 1773291817,
+          "avatar": "f3d05db4d8557efbcdbfb337f4176abe9fcb5c1b"
+        },
+        "language": "english",
+        "review": "The rubber-banding is atrocious on medium difficulty, so I'd recommend this for a casual playthrough to enjoy some mindless racing looking at pretty visuals.",
+        "timestamp_created": 1773291863,
+        "timestamp_updated": 1773291863,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753355132",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbAAAAAAAAFP+AAAAAAAAB5poTJBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

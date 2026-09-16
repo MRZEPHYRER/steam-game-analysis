@@ -1,0 +1,66 @@
+{
+  "appid": 4007780,
+  "requested_at": "2026-09-13T20:10:58.042156+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "207821669",
+        "author": {
+          "steamid": "76561198267924691",
+          "personaname": "mndlika",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/mndlika/",
+          "num_games_owned": 2354,
+          "num_reviews": 77,
+          "playtime_forever": 134,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 134,
+          "last_played": 1761684580,
+          "avatar": "e1a5368cc862e6a0af444c98f250a2758f388e2b"
+        },
+        "language": "english",
+        "review": "I really don't know what I feel about this game. The atmosphere is good, but the story seemed a bit incomplete. I don't know if it was intentional (future game) or not, but it just presented a lot of questions and no real answers.  [SPOILER]Hot scene was unnecessary. The moment was inappropriate, and it broke the survival atmosphere completely.[/SPOILER]\n\nMixed feelings though. I liked the core idea, but I don't know about the execution. Wish for a true end.\n",
+        "timestamp_created": 1761684897,
+        "timestamp_updated": 1761684897,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760585278",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB1tuOYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0150000000003274,
+  "transport_error_count": 0
+}

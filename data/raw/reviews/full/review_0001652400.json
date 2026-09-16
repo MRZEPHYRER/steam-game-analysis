@@ -1,0 +1,66 @@
+{
+  "appid": 1652400,
+  "requested_at": "2026-09-13T18:44:07.889377+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "218883618",
+        "author": {
+          "steamid": "76561198104919865",
+          "personaname": "PsyTurtle",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/PsyTurtle/",
+          "num_games_owned": 251,
+          "num_reviews": 7,
+          "playtime_forever": 2870,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2311,
+          "last_played": 1788091126,
+          "avatar": "582827aba66261ddba56ee155c944b10736587bc"
+        },
+        "language": "turkish",
+        "review": "Kısaca: Kendi oyun şirketinizi kurup, geliştirip sattığınız oyunlardan gelir elde ettiğiniz güzel bir simulasyon. Single veya coop ve/veya pvp seçenekleri sunması gerçekten pozitif. Üstelik düşük sistemlerde de çalıştırıyor.\n\nDetay vermek gerekirse; Geliştiricinin bir önceki oyununda olduğu gibi garajda başlayan maceramız oyun fuarına kadar gidebiliyor (bkz. paylaştığım ekran görüntüleri). Başlangıçta kargoculuk, elektrik saati okuma v.s gibi işler yapıyoruz. Sonrasında varlık üretip satma, freelance işler ve tabii kendi oyunumuz! Oyunda programlama, grafik, oyun motoru gibi çeşitli alanlarda uzmanlaşabildiğimiz gibi yetenekli npcleri işe alarak bazılarını veya hepsini onlara yaptırmak da mümkün. Geliştirdiğiniz oyunun genel kalitesi, reklam ve pazarlama, takipçi sayınız (veya başka yayıncıya verecekseniz onun takipçi sayısı), oyun hakkındaki beklenti v.b gibi bir çok detay oyununuzun satışlarına etki ediyor. Genel oyun kalitesine etki eden de bir çok detay mevcut. İşçilerinizin yeteneklerinden çalışma şartlarına, verdiğiniz primlere, yapacağınız harcamalar ve yatırımlardan rakiplerinizin durumuna kadar bir çok etmene dikkat etmeli, doğru adımlar atmalısınız.\n\nSonuç olarak; single başlangıçta biraz karışık ve sıkıcı gibi görünse de kendinizi kaptırdığınızda saatlerce oynatacak bir oyun. Henüz oynama şansım olmadı ama arkadaşlarla herkes tek veya 2şerli gruplar şeklinde zevkli olur gibi duruyor.",
+        "timestamp_created": 1771697014,
+        "timestamp_updated": 1771697014,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.627719581127166748",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765987734",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXchMAAAAAFP+QWSEAAAABy4vzCBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2819999999999254,
+  "transport_error_count": 0
+}

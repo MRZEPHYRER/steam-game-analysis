@@ -1,0 +1,68 @@
+{
+  "appid": 1298430,
+  "requested_at": "2026-09-13T18:42:30.143342+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 7,
+      "total_negative": 3,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "222185549",
+        "author": {
+          "steamid": "76561198019696881",
+          "personaname": "Diahborne",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198019696881/",
+          "num_games_owned": 394,
+          "num_reviews": 44,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1774971756,
+          "avatar": "aefc37d45fd356f73f2e85843bcbebeaa6ef48db"
+        },
+        "language": "english",
+        "review": "I love this game. It's a great singleplayer RTS with roleplaying elements. It reminds me a lot of Warcraft, but with some interesting features added in like objectives that give you extra units and build options for towers, and outposts. The game is pretty fun!",
+        "timestamp_created": 1774971959,
+        "timestamp_updated": 1774971959,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.611848831176757812",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1775042858,
+        "developer_response": "Thank you for your review and support. I am making the RPG campaign mode and the first map will be available in the middle of this month, wish you like it then:)",
+        "app_release_date": "1761239922",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXw1WAAAAAFP+OURGAAAAB9hMnPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

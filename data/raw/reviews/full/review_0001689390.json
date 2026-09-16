@@ -1,0 +1,77 @@
+{
+  "appid": 1689390,
+  "requested_at": "2026-09-13T18:44:20.754039+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 28,
+      "total_negative": 4,
+      "total_reviews": 32
+    },
+    "reviews": [
+      {
+        "recommendationid": "215567871",
+        "author": {
+          "steamid": "76561198053330330",
+          "personaname": "Rudeus Greyrat",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Riku818/",
+          "num_games_owned": 0,
+          "num_reviews": 97,
+          "playtime_forever": 1639,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1639,
+          "last_played": 1767969064,
+          "avatar": "4cf26037382d7ab415846aa89e348908d0e8309c"
+        },
+        "language": "english",
+        "review": "I personally did not like this game because it feels like amateur game design.\nI did not refund it and decided to do everything in it to leave a full review.\n\nThe Good:\n-Inventory is large\n-Enemies take different scales of damage based on weapon\n\nThe Bad:\n-Enemy AI is awful. They stand around and let you kill them.\n-Most enemies can be stun locked with any weapon.\n-The mace deals top damage on everything.\n-All weapons swing the same making all melee boring\n-\"Spellcasting\" or shooting an orb from rod, is boring and slow.\n-Arrows are weak and near impossible to pick up off ground because of lack or reticle or focal point\n-Sound effects are AWFUL. The same sound from every enemy except the dragon.\n-Weapons swing through the enemy.\n-Level design is awful. I feel this way because most of the terrain is excessively hilly with one way to go making things feel very linear which this game is not intending for. \nOne would think if a game is 90% platformer, the moving physics should be good. \nThey are not yet. They are too floaty and aloof. Many of the traversal puzzles require precise movement.\n-Merchants are far and few between and do not refresh stock. Ever. \n which again is a problem because sometimes the only solution to these jumping puzzles is a jump potion\n (enemies should have a chance to drop these by the way)\n\nSuggestions:\nMerchants refresh stock per rest\nWider selection\nMake weapons more unique or variant weapons\nSome type of upgrade mechanic\nEnemies should have low chance to drop rare loot\nTighten player moving mechanics\nMAP! with (discovered) save and trader locations\nDiversify sound effects\n \n\nIn summary, the game is in early access and it shows. This is certainly the dev's first game and he will need to work on it. In my opinion it is not in a state to be released yet. Check on this title in 2 years and see if they dev turned this still yet unformed clay into a grand statue.",
+        "timestamp_created": 1767971640,
+        "timestamp_updated": 1770881011,
+        "voted_up": false,
+        "votes_up": 16,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.706101536750793457",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1768156206,
+        "developer_response": "Hi Rudeus Greyrat, \n\nThank you very much for your review! Thank you for giving Mythrealm a full play through and providing your honest feedback. \n\nSo honestly, I think all of your criticisms are very valid and reasonable and these are definitely areas of the game that we will work to improve. I'll just address each point you make and explain our plans to improve the game in that area: \n\n- \"Enemy AI is awful.\" - Totally fair point. We definitely need to improve the AI! We will definitely fix and upgrade this. \n- \"Stunlocking enemies\" -This will be fixed in the next update / patch. \n- \"The Mace deals top damage\" - This is a bug. We'll fix this. \n- \"All weapons swing the same.\" - We'll work to improve this. \n- \"Spellcasting is slow.\" - We're working on fixing / improving this. \n- \"Arrows are weak and difficult to collect\" - We'll improve it.  \n- \"Sound effects are awful.\" - Yeah sorry this area needs a lot of work. \n- \"Weapon swings though enemy\" - This is a bug. We'll fix it. \n- \"The Level design is awful.\" -  I feel this is a matter of opinion. Gonna have to disagree with you on this one. But thanks for the feedback - we can always improve!\n- \"Merchants are too few.\" - Fair point. Many more merchants will come in future updates. Merchant inventory should update. Agreed! We'll improve it.\n- \"More sources for jump potions.\" - Agreed!   \n\nTo reply to your suggestions: \n- \"Merchants should refresh stock per rest.\"  - Agreed. Great suggestion! \n- \"Wider selection\". - Agreed! \n- \"Make weapons more unique\" - Working on it!\n- \"Some type of upgrade mechanic.\" - This is not planned - sorry. But item variety will be vastly increased during Early Access. \n- \"Enemies should drop rare loot.\" Great suggestion. Thanks!  \n- \"Tighten player moving mechanics\" - We'll try! \n- \"Map!\" - Map Menu is coming in the next update! \n- \"Diversify SFX\" - Absolutely agree. We'll improve this for sure. \n\nThanks very much for your feedback. Your criticisms are valid and very helpful for us to help focus our work on improving the game.  I really like your metaphor of the game being unformed clay we can turn into a grand statue. That's definitely our  goal!  \n\nThanks very much for your helpful feedback and review Rudeus. Thanks for playing Mythrealm!  \n\nBest regards,\nDyotoOrion\nDelta Video Games. \n",
+        "app_release_date": "1761582580",
+        "reactions": [
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFV4MIAAAAAFP+aYY0AAAAB/36m2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.078999999999951,
+  "transport_error_count": 0
+}

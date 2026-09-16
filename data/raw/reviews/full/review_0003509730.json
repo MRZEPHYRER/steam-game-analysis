@@ -1,0 +1,66 @@
+{
+  "appid": 3509730,
+  "requested_at": "2026-09-13T19:19:53.029263+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "207745105",
+        "author": {
+          "steamid": "76561198188443251",
+          "personaname": "lancelot",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198188443251/",
+          "num_games_owned": 302,
+          "num_reviews": 82,
+          "playtime_forever": 176,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 176,
+          "last_played": 1761509111,
+          "avatar": "96da05323cddb3f0d5e99e5a265e96c5c86c2bd1"
+        },
+        "language": "english",
+        "review": "Jackie Hart: Headhunter is a very enjoyable narrative adventure game from the developer of Drawn Down. It's not a very typical one, since we don't get many narrative adventures of the 2D side-scroller type. There are a few easy puzzles, but mostly the game is about following the narrative and occasionally making choices.\n\nThe writing is good, the dialogs are witty, and the characters are interesting (Keith is probably the star of the show). There are many funny moments, especially when the world of paranormal crimes suddenly clashes with some mundane but awkward situation. The game maintains a satisfying pace; there are no infodumps or exceedingly long dialogs, and bits of lore are introduced sparingly.\n\nThe game also has high-quality voice acting.\n\nSome of the dramatic moments suffer from the graphics and animations being too simplistic, and also it's too easy to accidentally skip a dialog line during those more dynamic scenes.\n\nOne other minor issue is the lack of volume controls.\n",
+        "timestamp_created": 1761599244,
+        "timestamp_updated": 1761599244,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.592575788497924805",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761308774",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYJgMAAAAAFP+L2YgAAAABxhb6YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

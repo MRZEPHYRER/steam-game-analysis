@@ -1,0 +1,260 @@
+{
+  "requested_at": "2026-09-13T06:31:02.013589+00:00",
+  "request_params": {
+    "appids": 4028620,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4028620,
+  "payload": {
+    "4028620": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Alibi for love",
+        "steam_appid": 4028620,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4056340,
+          4151180
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >似是而非的恋爱故事，电波系视觉小说。</p><p class=\"bb_paragraph\" >在好友的邀请下，边缘加入了推理社。</p><p class=\"bb_paragraph\" >她会在这里遇到什么样的人，又会发生怎样的故事呢？</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >你将以边缘视角加入推理社，与社员们对话，开启属于你们的故事。</p><p class=\"bb_paragraph\" >主角为女性，主角有自杀倾向，可攻略角色有男有女，存在推理小说《占星术杀人魔法》、《首无·作祟之物》、《X的悲剧》、《Y的悲剧》的部分剧透。没有需要解开的谜题，没有长篇大论的说教，只有一个女孩放弃追求死亡的故事。</p><p class=\"bb_paragraph\" >如果阅读这个故事的观众，能从中感受到一点生活的乐趣，就再好不过了。</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >似是而非的恋爱故事，电波系视觉小说。</p><p class=\"bb_paragraph\" >在好友的邀请下，边缘加入了推理社。</p><p class=\"bb_paragraph\" >她会在这里遇到什么样的人，又会发生怎样的故事呢？</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >你将以边缘视角加入推理社，与社员们对话，开启属于你们的故事。</p><p class=\"bb_paragraph\" >主角为女性，主角有自杀倾向，可攻略角色有男有女，存在推理小说《占星术杀人魔法》、《首无·作祟之物》、《X的悲剧》、《Y的悲剧》的部分剧透。没有需要解开的谜题，没有长篇大论的说教，只有一个女孩放弃追求死亡的故事。</p><p class=\"bb_paragraph\" >如果阅读这个故事的观众，能从中感受到一点生活的乐趣，就再好不过了。</p>",
+        "short_description": "这是一部电波系视觉小说，你将以边缘视角加入推理社，与社员们对话，开启似是而非的恋爱故事。",
+        "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/c16755d7f7c50eff679891164fc999c5d426fc04/header.jpg?t=1763746002",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/f3da59ca1ab00ad0553691192676076d0e912e93/capsule_231x87.jpg?t=1763746002",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/f3da59ca1ab00ad0553691192676076d0e912e93/capsule_184x69.jpg?t=1763746002",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows7及以上<br></li><li><strong>Processor:</strong> Intel Core i3 2GHz及以上<br></li><li><strong>Memory:</strong> 1 GB RAM</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Memory:</strong> 1 GB RAM</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Memory:</strong> 1 GB RAM</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "边勿"
+        ],
+        "publishers": [
+          "边勿"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1413321
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Alibi for love",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1413321,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "恋爱的不在场证明 - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/dfd7001c3ebcdc0abda6f4e5f37316ac350b47b1/ss_dfd7001c3ebcdc0abda6f4e5f37316ac350b47b1.600x338.jpg?t=1763746002",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/dfd7001c3ebcdc0abda6f4e5f37316ac350b47b1/ss_dfd7001c3ebcdc0abda6f4e5f37316ac350b47b1.1920x1080.jpg?t=1763746002"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/7d5e3baa4dc3f3f6232be43476fbcd666f402498/ss_7d5e3baa4dc3f3f6232be43476fbcd666f402498.600x338.jpg?t=1763746002",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/7d5e3baa4dc3f3f6232be43476fbcd666f402498/ss_7d5e3baa4dc3f3f6232be43476fbcd666f402498.1920x1080.jpg?t=1763746002"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/e8eb1a2866e701428175aa8cec449e05efc0c1de/ss_e8eb1a2866e701428175aa8cec449e05efc0c1de.600x338.jpg?t=1763746002",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/e8eb1a2866e701428175aa8cec449e05efc0c1de/ss_e8eb1a2866e701428175aa8cec449e05efc0c1de.1920x1080.jpg?t=1763746002"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/c521c5725424bc839824645ea88dc0ab7b8673e4/ss_c521c5725424bc839824645ea88dc0ab7b8673e4.600x338.jpg?t=1763746002",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/c521c5725424bc839824645ea88dc0ab7b8673e4/ss_c521c5725424bc839824645ea88dc0ab7b8673e4.1920x1080.jpg?t=1763746002"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/0cb1f4df626dbbd122b4241d852310941be1b7cb/ss_0cb1f4df626dbbd122b4241d852310941be1b7cb.600x338.jpg?t=1763746002",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/0cb1f4df626dbbd122b4241d852310941be1b7cb/ss_0cb1f4df626dbbd122b4241d852310941be1b7cb.1920x1080.jpg?t=1763746002"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257223747,
+            "name": "恋爱的不在场证明",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257223747/0262050b0fb232c785dc7275f79b0f8665c7416b/movie_600x337.jpg?t=1762431920",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4028620/581212916/fc881a066ccc9db999485f26d54d68775750ec9e/1761672053/dash_av1.mpd?t=1762431920",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4028620/581212916/fc881a066ccc9db999485f26d54d68775750ec9e/1761672053/dash_h264.mpd?t=1762431920",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4028620/581212916/fc881a066ccc9db999485f26d54d68775750ec9e/1761672053/hls_264_master.m3u8?t=1762431920",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 4,
+          "highlighted": [
+            {
+              "icon": "1f352f28e3217031b2f3648ac5ec549bc7a20be5.jpg",
+              "localized_name": "容易受伤的女人",
+              "archived": 0,
+              "hidden": 0,
+              "name": "容易受伤的女人",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4028620/1f352f28e3217031b2f3648ac5ec549bc7a20be5.jpg"
+            },
+            {
+              "icon": "b05953d683e0ed36f64d278b1c8f1a88f4def259.jpg",
+              "localized_name": "约定",
+              "archived": 0,
+              "hidden": 0,
+              "name": "约定",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4028620/b05953d683e0ed36f64d278b1c8f1a88f4def259.jpg"
+            },
+            {
+              "icon": "116e8e2717f0b87d4afc6f951f7953e46918f8ff.jpg",
+              "localized_name": "偿还",
+              "archived": 0,
+              "hidden": 0,
+              "name": "偿还",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4028620/116e8e2717f0b87d4afc6f951f7953e46918f8ff.jpg"
+            },
+            {
+              "icon": "2b8b404d0937479a9935916110c79d1318d2103d.jpg",
+              "localized_name": "如风",
+              "archived": 0,
+              "hidden": 1,
+              "name": "如风",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4028620/2b8b404d0937479a9935916110c79d1318d2103d.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "1632380602@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4028620?t=1763746002",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028620/970a837dac4b25bc6c4606bd09a42c83d6bc0faf/page_bg_raw.jpg?t=1763746002",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "本游戏包含以下成人内容：\r\n自杀：主角产生过自杀倾向\r\n流血：游戏包含人物受伤cg"
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nTemas sensíveis"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Selbstmord"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "15",
+            "required_age": "15",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

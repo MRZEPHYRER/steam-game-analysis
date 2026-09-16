@@ -1,0 +1,66 @@
+{
+  "appid": 3838140,
+  "requested_at": "2026-09-13T19:47:17.449187+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 2,
+      "total_negative": 3,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "206839341",
+        "author": {
+          "steamid": "76561199213158351",
+          "personaname": "シマたん",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199213158351/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 57,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1767193057,
+          "avatar": "fc1ca42a8da89a6d0810d756254e13b5e8a27bfd"
+        },
+        "language": "japanese",
+        "review": "非常に高難易度です。一輪車に乗ったヤギを操作するのですが、開始して操作をしないと横に倒れます。操作をしても横に倒れます。どうやったら真っすぐに保てるのか？真っすぐに進む事も困難です。\r\nWASDで操作するのですがWを押しても真っすぐには進みません。ただしAとDによる回転だけは非常にスムーズに回転します。カメラ操作も癖が強く真っすぐにするのに慣れが必要でした。\r\n",
+        "timestamp_created": 1760603253,
+        "timestamp_updated": 1760603253,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757581255",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB94oOVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3782410,
+  "requested_at": "2026-09-13T19:39:30.514030+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 9,
+      "total_negative": 2,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "214651045",
+        "author": {
+          "steamid": "76561199483012807",
+          "personaname": "Lagging Leland",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199483012807/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 169,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 169,
+          "last_played": 1766794539,
+          "avatar": "87c0c72e4b2215d99f34c3bf3a419967f8a31984"
+        },
+        "language": "english",
+        "review": "Bought the game because I was looking for something similar to Faith The Unholy Trinity. This was an interesting game, I'd be lying to say that its perfect but it was interesting and worth the few bucks I paid for it. It has a very cryptic story, one that you have to piece together on your own but at times it felt too cryptic for me to understand (and I like cryptic storytelling). Some reviews claim that the game is just a \"walking simulator\" but I don't see how that's much of a critique considering several horror games, including psychological horror games are also \"walking simulators,\" walking is sort of part of the horror and there's more than that in the game. Some things I found very creative were how movie clips were spliced in to explain aspects of the story, that was very nice. Also, having to review and edit the company messages was also a very cool way of giving the player gameplay and explaining the story. Keep making games, keep improving and never stop creating. I heard you wanted at least 10 reviews for the game, so here you go!\n\nPros:\n\nGood game design\n\nDecent soundtrack\n\nInteresting mystery\n\nGreat aesthetic\n\nCons: \n\nThe story is a bit too cryptic",
+        "timestamp_created": 1767109445,
+        "timestamp_updated": 1767109510,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.506172835826873779",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751382413",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ4GUAAAAAFP+AykcAAAAB1iuqyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1400000000003274,
+  "transport_error_count": 0
+}

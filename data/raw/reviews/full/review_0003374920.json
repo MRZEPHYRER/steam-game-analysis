@@ -1,0 +1,66 @@
+{
+  "appid": 3374920,
+  "requested_at": "2026-09-13T19:13:08.057632+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 2,
+      "total_negative": 6,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "217736339",
+        "author": {
+          "steamid": "76561199054430982",
+          "personaname": "dr horse",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/46644664466446/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 144,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 144,
+          "last_played": 1770391776,
+          "avatar": "2334e5b377375479eab650a7c43350743be6f5ee"
+        },
+        "language": "english",
+        "review": "fallout 4 ahh dialogue options \n\nhyped up because the art for this game actually looked good, rather than the corporate stuff that CoG loves \n\nsmartest thing in the story is how the demo ends at the perfect time for you to spend your money \n\nbuy it if you have nothing else to read but dont bother if you have better CoG games\n\nthis isnt an RO game, even with the option enabled (frankly dont bother)\n\nworldbuilding seems cool with interesting stuff that I wish was explored more, but unfortunately is not\n\nif you wanna have fun just cheat and pick the weirdest options",
+        "timestamp_created": 1770422316,
+        "timestamp_updated": 1770422316,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.530633687973022461",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755180483",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZYyeAAAAAFP+D69CAAAABzycy+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

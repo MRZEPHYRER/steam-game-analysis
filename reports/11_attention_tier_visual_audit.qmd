@@ -1,0 +1,117 @@
+---
+title: "Step 6B.1 Attention Tier 模型冻结"
+subtitle: "四级 attention intensity 的简洁可视化审计"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+data_dir <- file.path("..", "data", "analysis", "attention")
+figure_dir <- file.path("..", "figures", "attention")
+read_6b1 <- function(name) read.csv(file.path(data_dir, name),
+  stringsAsFactors = FALSE, check.names = FALSE, encoding = "UTF-8")
+tier <- read_6b1("step6b1_tier_distribution.csv")
+sample <- read_6b1("step6b1_model_sample.csv")
+fit <- read_6b1("step6b1_ordinal_fit.csv")
+coef <- read_6b1("step6b1_ordinal_coefficients.csv")
+parallel <- read_6b1("step6b1_parallel_odds_audit.csv")
+threshold_fit <- read_6b1("step6b1_threshold_fit_audit.csv")
+price <- read_6b1("step6b1_price_tier_probabilities.csv")
+free_paid <- read_6b1("step6b1_free_paid_probabilities.csv")
+high100 <- read_6b1("step6b1_high100_fit.csv")
+direction <- read_6b1("step6b1_direction_comparison.csv")
+criteria <- read_6b1("step6b1_freeze_criteria.csv")
+decision <- read_6b1("step6b1_stage_decision.csv")
+portfolio <- read_6b1("step6b1_portfolio_summary.csv")
+stopifnot(sample$positive_population_n == 2241, sample$model_n == 2240,
+  all(fit$numerical_stability), decision$proportional_odds_assumption == "APPROXIMATE")
+```
+
+# 为什么放弃原始 count model
+
+Step 6B 的原始评论数模型未冻结：review volume 极端集中，Top 1% 游戏占约 65% 评论量，删去头部后参数和价格曲线明显漂移。这个失败保留为方法记录。Step 6B.1 不再修复 count likelihood，而是把正评论游戏压缩为四个有序 attention tier。
+
+# Attention Tier 定义
+
+Tier 1 为 1–9 条，Tier 2 为 10–99 条，Tier 3 为 100–999 条，Tier 4 为 1000+ 条。顺序固定为 `Tier1 < Tier2 < Tier3 < Tier4`。759 款零评论游戏仍由 Step 6A entry model 处理，不进入本模型。
+
+```{r}
+knitr::kable(sample, caption = "正评论总体与模型样本")
+knitr::kable(tier, digits = 2, caption = "Attention tier 分布")
+knitr::include_graphics(file.path(figure_dir, "64_attention_tier_distribution.png"))
+```
+
+# Ordinal Logistic
+
+```{r}
+knitr::kable(fit, digits = 4, caption = "Cumulative ordinal logistic 拟合审计")
+knitr::kable(coef[!grepl("tier_price_spline", coef$term), ], digits = 4,
+  caption = "非价格样条项：更高 attention tier 的 OR 与 95% CI")
+knitr::include_graphics(file.path(figure_dir, "66_attention_tier_or.png"))
+```
+
+OR 大于 1 表示与处于更高 attention tier 的更高 odds 相关，不表示评论数增加多少倍。价格样条系数不逐项解释。所有结果均为条件关联，不是因果效应。
+
+# Proportional-Odds Audit
+
+```{r}
+knitr::kable(threshold_fit, digits = 4, caption = "三个边界的 binary logit 数值审计")
+knitr::kable(parallel[, c("term", "ordinal_estimate", "tier2plus_estimate",
+  "tier3plus_estimate", "tier4_estimate", "all_exact_directions_agree",
+  "major_direction_reversal")], digits = 3,
+  caption = "Threshold-specific parallel-lines diagnostic")
+```
+
+三个边界模型均收敛、设计矩阵满秩且无巨大标准误。若要求每个微小系数的精确正负号完全相同，部分弱效应并不一致；但没有幅度较大的方向反转。因此 proportional-odds assumption 记为 **APPROXIMATE**，而不是完全 PASS。
+
+# Price Tier Probability
+
+```{r}
+knitr::kable(price, digits = 4, caption = "代表性付费价格的预测 tier probability")
+knitr::include_graphics(file.path(figure_dir, "65_attention_tier_price_probabilities.png"))
+```
+
+在固定上市天数、Windows only 且七个题材均为0的参考情景中，价格提高时概率质量由 Tier 1 向较高 tier 移动。这是样本内关联，不能解释成调价会造成更多评论。
+
+# Free / Platform / Genre
+
+```{r}
+knitr::kable(free_paid, digits = 4, caption = "Free 与 paid reference 的预测概率")
+```
+
+正评论样本中的免费游戏只有34款，属于 sparse subgroup。`is_free` 的 OR 与预测概率只作带有高度不确定性的次要结果，不作为 headline finding。平台与题材同样以 OR、方向和区间解释，不强调单个 p-value。
+
+# High-100 Robustness
+
+```{r}
+knitr::kable(high100, digits = 4, caption = "唯一预设 High-100 logistic 稳健性模型")
+knitr::include_graphics(file.path(figure_dir, "67_high100_logistic_or.png"))
+knitr::include_graphics(file.path(figure_dir, "68_ordinal_vs_high100_direction.png"))
+```
+
+High-100 与 ordinal 模型不存在主要方向或幅度矛盾；价格形状的 Spearman 相关为1。Indie 的弱效应符号不同，但两者均接近零，不构成主要矛盾。
+
+# Final Conclusion
+
+```{r}
+knitr::kable(portfolio, caption = "Portfolio Summary")
+```
+
+四级 ordinal model 回避了原始 count 模型被极少数爆款支配的问题，同时保留了 attention intensity 的顺序信息。代价是失去 tier 内的原始评论数差异。
+
+# Freeze Decision
+
+```{r}
+knitr::kable(criteria, caption = "Step 6B.1 冻结门槛")
+knitr::kable(decision, caption = "Step 6B.1 决定")
+```
+
+本轮采用 Case B：proportional odds 近似成立，High-100 方向广泛一致。报告渲染和数据库审计均已完成，模型已冻结。停止模型开发，不进入 GAM、partial proportional odds、multinomial、Random Forest、XGBoost、新阈值或新交互。

@@ -1,0 +1,107 @@
+{
+  "appid": 2780980,
+  "requested_at": "2026-09-13T18:55:34.779997+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 14256,
+      "total_negative": 2310,
+      "total_reviews": 16566
+    },
+    "reviews": [
+      {
+        "recommendationid": "207275782",
+        "author": {
+          "steamid": "76561198073295936",
+          "personaname": "Polar Bean",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/polarbean/",
+          "num_games_owned": 449,
+          "num_reviews": 29,
+          "playtime_forever": 2184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2045,
+          "last_played": 1778906784,
+          "avatar": "ac0cc5973ec04797de8fc370bf95bf625186f6a2"
+        },
+        "language": "english",
+        "review": "I love this game, and it's one of my all time favorite social deduction games. I love the proximity voice chat, I love being able to play as dissident and win as a pacifist by hiding key items, even letting you win when dead if employees can't finish in time, I love the character customization and animations. It's a great game and amazing fun with friends.\n\nHowever, with the recent announcement from the devs, I cannot in good conscience recommend this game. \n\nThe devs announced that they're calling the game done and moving on to other projects, and did so with a very disrespectful tone towards players and fans of the game. As an example of this, here is an excerpt from this announcement regarding their roadmap, which included goals such as new game modes, a new map, new tasks, and a handful of craftable items:\n\n[i]\"The goals mentioned earlier were part of our Kickstarter campaign, and even the first milestone was reached with some difficulty. Since we didn’t reach the others, we simply focused on finishing the game as quickly as possible so we could move on to the next project.\"[/i]\n\nIt's a very bold statement, because to me it both says they don't care about the game, nor the money fans of it invested into the development of it. They've even gone as far as wiping all evidence of the aforementioned road map from their website and social media.\n\nI sympathize with wanting to move on to new projects, but ending development on this one in such a disrespectful way is not a good look for those future projects.",
+        "timestamp_created": 1761091209,
+        "timestamp_updated": 1761091209,
+        "voted_up": false,
+        "votes_up": 255,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.922415494918823242",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1721649631",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 3
+          },
+          {
+            "reaction_type": 15,
+            "count": 3
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRjTwAAAAAFP+2EbIAAAAB28NiWBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

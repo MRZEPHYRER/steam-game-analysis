@@ -1,0 +1,143 @@
+{
+  "appid": 1425980,
+  "requested_at": "2026-09-13T18:43:02.205414+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1447,
+      "total_negative": 77,
+      "total_reviews": 1524
+    },
+    "reviews": [
+      {
+        "recommendationid": "207951902",
+        "author": {
+          "steamid": "76561199073098581",
+          "personaname": "techpapa",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/techpapa/",
+          "num_games_owned": 0,
+          "num_reviews": 6,
+          "playtime_forever": 244,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1764085850,
+          "avatar": "a62856f7b5889cf7d7b35cc8e84905b38e7bd520"
+        },
+        "language": "english",
+        "review": "My ode to a Rock\n\nI once chased glory, loot, and fame,\nBut every quest just felt the same.\nThen came a game that didn’t try,\nNo HUD, no score, just earth and sky.\n\nNo dragons slain, no kingdoms saved,\nJust quiet peace, the calm I'd craved.\nWhile gamers scream and pixels poar,\nMy rock just sat and gave me so much more.\n\nNo patches, bugs, or micro-trans pain,\nJust stillness running through my brain.\nI’ve found my place, I’ve found my tone\nNot player one… but player stone.",
+        "timestamp_created": 1761826400,
+        "timestamp_updated": 1761826759,
+        "voted_up": true,
+        "votes_up": 251,
+        "votes_funny": 57,
+        "weighted_vote_score": "0.95033794641494751",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1740942087",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 3
+          },
+          {
+            "reaction_type": 34,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 55
+          },
+          {
+            "reaction_type": 17,
+            "count": 27
+          },
+          {
+            "reaction_type": 13,
+            "count": 16
+          },
+          {
+            "reaction_type": 18,
+            "count": 11
+          },
+          {
+            "reaction_type": 16,
+            "count": 9
+          },
+          {
+            "reaction_type": 14,
+            "count": 6
+          },
+          {
+            "reaction_type": 11,
+            "count": 4
+          },
+          {
+            "reaction_type": 1,
+            "count": 4
+          },
+          {
+            "reaction_type": 2,
+            "count": 3
+          },
+          {
+            "reaction_type": 8,
+            "count": 3
+          },
+          {
+            "reaction_type": 9,
+            "count": 2
+          },
+          {
+            "reaction_type": 21,
+            "count": 2
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 20,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 3,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQ/kUAAAAAFP+5pK0AAAAB+gaOZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

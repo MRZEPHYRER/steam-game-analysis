@@ -1,0 +1,66 @@
+{
+  "appid": 3045660,
+  "requested_at": "2026-09-13T19:02:10.264658+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 92,
+      "total_negative": 12,
+      "total_reviews": 104
+    },
+    "reviews": [
+      {
+        "recommendationid": "210019026",
+        "author": {
+          "steamid": "76561198344899815",
+          "personaname": "赛博妖精会不会长出电子丁丁",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198344899815/",
+          "num_games_owned": 228,
+          "num_reviews": 96,
+          "playtime_forever": 120,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 120,
+          "last_played": 1763999867,
+          "avatar": "81e97f249f2c6724c7cf83ddec651479dc4f031e"
+        },
+        "language": "schinese",
+        "review": "一开始以为是类幸存者游戏，但其实是肉鸽弹幕游戏。\n画风很可爱，梗也超级多。音乐很有ZUN味儿（？）\n很想给好评但是目前问题有点大，看看后面更新会不会好点。\n目前问题：\n一：虽然适配手柄但是用手柄玩操作极其别扭。人物的平A会有无法取消后摇的强制位移。\n二：难度有些不合理，自认为也不是什么弹幕游戏苦手但是默认黑白卡了近一小时也没打过去。\n三：目前没有感觉到肉鸽游戏带来的爽感，不知道是数值给的太保守还是怎么样，尝试多种流派都不太行。\n四：深度有，但是不多。\n局内有配方凑齐特定的酒后会给强力BUFF，但酒和弹幕的池子太大太大了，起码目前到现在我就凑齐过一个。\n主要还是上面的问题，没有说那种我凑齐某弹幕+酒带来质变的化学反应。\n四：蓝绿P放在生存池子真的很有问题。\n抽生存池子基本冲着血或者盾去的，结果疯狂来蓝绿P，而且这东西局内对于人物提升是毫无作用的。\n五：音乐有些单一，道中到魔理沙一直是同一首曲子，一直听有点疲劳。而且游戏内的建筑模型似乎有问题，经常翻滚到某个墙角台阶就会卡住。\n大部分评论也是吐槽难度问题，希望后续能够有所改动。\n毕竟肉鸽游戏都是奔着爽来的，第一关就挫败感这么大太打击玩家的热情了。",
+        "timestamp_created": 1764000900,
+        "timestamp_updated": 1764001399,
+        "voted_up": false,
+        "votes_up": 19,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.694347739219665527",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763603733",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWHPAAAAAAFP+Y4GUAAAAByrZShBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

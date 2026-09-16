@@ -1,0 +1,230 @@
+{
+  "requested_at": "2026-09-13T06:14:14.997509+00:00",
+  "request_params": {
+    "appids": 3981740,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3981740,
+  "payload": {
+    "3981740": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "BEAN",
+        "steam_appid": 3981740,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>BEAN</strong> is a fast-paced 1–4 player platform shooter where chaos meets competition. Dash, jump, and shield your way across the battlefield to outlast and outsmart your friends. The goal is simple—be the first to collect 5 stars.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >1-4 Players with Online Multiplayer</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Rocket Launchers, Chihuahuas, Laxatives, and more!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>BEAN</strong> is a fast-paced 1–4 player platform shooter where chaos meets competition. Dash, jump, and shield your way across the battlefield to outlast and outsmart your friends. The goal is simple—be the first to collect 5 stars.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >1-4 Players with Online Multiplayer</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Rocket Launchers, Chihuahuas, Laxatives, and more!</p>",
+        "short_description": "BEAN is a platform shooter where chaos meets competition. Dash, jump, and shield your way across the battlefield to outlast and outsmart your friends. The goal is simple—be the first to collect 5 stars.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/7da7c580314d3531c3993b67f57f68e9956404d1/header.jpg?t=1761346749",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/a944eb9825c551fbdcb635695940691f600aa797/capsule_231x87.jpg?t=1761346749",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/a944eb9825c551fbdcb635695940691f600aa797/capsule_184x69.jpg?t=1761346749",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Microsoft® Windows® 7 / 8 / 10 / 11<br></li><li><strong>Processor:</strong> 1.2GHz processor<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> DirectX Compatible graphics card with at least 32MB of video memory<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Two Dudes Studio"
+        ],
+        "publishers": [
+          "JeroniGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1397808
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy BEAN",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1397808,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "BEAN - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b8d7001990c0388d229fc255001f29eb8146743e/ss_b8d7001990c0388d229fc255001f29eb8146743e.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b8d7001990c0388d229fc255001f29eb8146743e/ss_b8d7001990c0388d229fc255001f29eb8146743e.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/6ef037fc48a961988e521f8819ac1daad9d5218e/ss_6ef037fc48a961988e521f8819ac1daad9d5218e.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/6ef037fc48a961988e521f8819ac1daad9d5218e/ss_6ef037fc48a961988e521f8819ac1daad9d5218e.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/ce8dd0520dd86ed1e207a41510840840c92d1ab2/ss_ce8dd0520dd86ed1e207a41510840840c92d1ab2.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/ce8dd0520dd86ed1e207a41510840840c92d1ab2/ss_ce8dd0520dd86ed1e207a41510840840c92d1ab2.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/15c122379b35978e2c0e73ae51d6aee57da80523/ss_15c122379b35978e2c0e73ae51d6aee57da80523.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/15c122379b35978e2c0e73ae51d6aee57da80523/ss_15c122379b35978e2c0e73ae51d6aee57da80523.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/8e70be975255685df261f1182735a7570a853273/ss_8e70be975255685df261f1182735a7570a853273.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/8e70be975255685df261f1182735a7570a853273/ss_8e70be975255685df261f1182735a7570a853273.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b7eaa59727e0a4fd2e96ba90ae32700f9f0e7d0f/ss_b7eaa59727e0a4fd2e96ba90ae32700f9f0e7d0f.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b7eaa59727e0a4fd2e96ba90ae32700f9f0e7d0f/ss_b7eaa59727e0a4fd2e96ba90ae32700f9f0e7d0f.1920x1080.jpg?t=1761346749"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b5014e1bc783b5571ea9e5b9183c5b9b97467659/ss_b5014e1bc783b5571ea9e5b9183c5b9b97467659.600x338.jpg?t=1761346749",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981740/b5014e1bc783b5571ea9e5b9183c5b9b97467659/ss_b5014e1bc783b5571ea9e5b9183c5b9b97467659.1920x1080.jpg?t=1761346749"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257210113,
+            "name": "BEAN Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257210113/e54dc394ad7ef55c98f753e185ee35dd54c1aeba/movie_600x337.jpg?t=1759331758",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3981740/1023465219/0f8c29bd90e141274e62266196227e740ecb1bb0/1759331165/dash_av1.mpd?t=1759331758",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3981740/1023465219/0f8c29bd90e141274e62266196227e740ecb1bb0/1759331165/dash_h264.mpd?t=1759331758",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3981740/1023465219/0f8c29bd90e141274e62266196227e740ecb1bb0/1759331165/hls_264_master.m3u8?t=1759331758",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "https://lourencoafonso.github.io/TwoDudesStudio/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3981740?t=1761346749",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3981740?t=1761346749",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "Cartoon Gunfights with Small Blood Particles when Cartoon Bean Characters are Hit. No Gore When Shot."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

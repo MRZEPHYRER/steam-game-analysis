@@ -1,0 +1,66 @@
+{
+  "appid": 3047090,
+  "requested_at": "2026-09-13T19:02:12.487865+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "204837819",
+        "author": {
+          "steamid": "76561198185249134",
+          "personaname": "FLASHpipi",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198185249134/",
+          "num_games_owned": 174,
+          "num_reviews": 8,
+          "playtime_forever": 313,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 26,
+          "last_played": 1758811607,
+          "avatar": "6889e542266ff1eca9c32d7f405a723a0e19f756"
+        },
+        "language": "schinese",
+        "review": "做的很好，鬼影子没看见被新手教程那个那一嗓子给我吓到了，不许再做了。",
+        "timestamp_created": 1758427424,
+        "timestamp_updated": 1758427424,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.624786794185638428",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758420016",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYgRcAAAAAFP+P+QUAAAAB7u7KNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1399999999998727,
+  "transport_error_count": 0
+}

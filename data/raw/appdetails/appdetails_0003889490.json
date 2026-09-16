@@ -1,0 +1,249 @@
+{
+  "requested_at": "2026-09-12T17:47:39.988897+00:00",
+  "request_params": {
+    "appids": 3889490,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3889490,
+  "payload": {
+    "3889490": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Desk Dino",
+        "steam_appid": 3889490,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Some naughty pixel dinos run around on your computer desktop, being some good accompany while you're working, studying or relaxing. Feed them or play with them, it's on your mark. Don't worry, they won't bite. Enjoy your lovely dino.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Some naughty pixel dinos run around on your computer desktop, being some good accompany while you're working, studying or relaxing. Feed them or play with them, it's on your mark. Don't worry, they won't bite. Enjoy your lovely dino.</p>",
+        "short_description": "Some naughty pixel dinos run around on your computer desktop, being some good accompany while you're working, studying or relaxing. Feed them or play with them, it's on your mark. Don't worry, they won't bite. Enjoy your dino.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/4dc8132e9bae6a028bb8d7483cde33e73453e931/header.jpg?t=1759326113",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/ddfde18ce6f8f987606b12d152c20826b3e6369e/capsule_231x87.jpg?t=1759326113",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/ddfde18ce6f8f987606b12d152c20826b3e6369e/capsule_184x69.jpg?t=1759326113",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 / 11<br></li><li><strong>Processor:</strong> Intel i3 Dual Core<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X 10.9+<br></li><li><strong>Processor:</strong> 2.6 GHz Intel Core i3<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Storage:</strong> 125 MB available space</li></ul>"
+        },
+        "linux_requirements": [],
+        "developers": [
+          "SimpleDev"
+        ],
+        "publishers": [
+          "SimpleDev"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1367231
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Desk Dino",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1367231,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Desk Dino - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/e6a70e18b370a234efae8f9b254cceac23d8e87c/ss_e6a70e18b370a234efae8f9b254cceac23d8e87c.600x338.jpg?t=1759326113",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/e6a70e18b370a234efae8f9b254cceac23d8e87c/ss_e6a70e18b370a234efae8f9b254cceac23d8e87c.1920x1080.jpg?t=1759326113"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/f3a9d5b73d3b8ec45349115e61a94083bd52be64/ss_f3a9d5b73d3b8ec45349115e61a94083bd52be64.600x338.jpg?t=1759326113",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/f3a9d5b73d3b8ec45349115e61a94083bd52be64/ss_f3a9d5b73d3b8ec45349115e61a94083bd52be64.1920x1080.jpg?t=1759326113"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/67170f9d07f61ed8466bee73becd9153e15b1478/ss_67170f9d07f61ed8466bee73becd9153e15b1478.600x338.jpg?t=1759326113",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/67170f9d07f61ed8466bee73becd9153e15b1478/ss_67170f9d07f61ed8466bee73becd9153e15b1478.1920x1080.jpg?t=1759326113"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/a26b435513a153f2d397edfc3d0252ae53d1739e/ss_a26b435513a153f2d397edfc3d0252ae53d1739e.600x338.jpg?t=1759326113",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/a26b435513a153f2d397edfc3d0252ae53d1739e/ss_a26b435513a153f2d397edfc3d0252ae53d1739e.1920x1080.jpg?t=1759326113"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/f3807da7f94f34f5880005cbdbdd8ae4c201300a/ss_f3807da7f94f34f5880005cbdbdd8ae4c201300a.600x338.jpg?t=1759326113",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/f3807da7f94f34f5880005cbdbdd8ae4c201300a/ss_f3807da7f94f34f5880005cbdbdd8ae4c201300a.1920x1080.jpg?t=1759326113"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257206026,
+            "name": "Desk Dino",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257206026/bc0262ed5153fcd55f289a1d723f0e270b3e3778/movie_600x337.jpg?t=1758792989",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3889490/1193608347/6f86cc2c1641867a94206ecc2c86052a95e61891/1758791490/dash_av1.mpd?t=1758792989",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3889490/1193608347/6f86cc2c1641867a94206ecc2c86052a95e61891/1758791490/dash_h264.mpd?t=1758792989",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3889490/1193608347/6f86cc2c1641867a94206ecc2c86052a95e61891/1758791490/hls_264_master.m3u8?t=1758792989",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "50646b104e599297f6645b77d2489462e8b81072.jpg",
+              "localized_name": "Dino",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dino",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/50646b104e599297f6645b77d2489462e8b81072.jpg"
+            },
+            {
+              "icon": "e19f26d68994b5029fa3f761f6087387a06b534e.jpg",
+              "localized_name": "Dino",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dino",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/e19f26d68994b5029fa3f761f6087387a06b534e.jpg"
+            },
+            {
+              "icon": "06cf99828393d21b54b39be2a72c90a95f913711.jpg",
+              "localized_name": "Dino",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dino",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/06cf99828393d21b54b39be2a72c90a95f913711.jpg"
+            },
+            {
+              "icon": "34a8bcae9154297c8fc66df25fe4d9bef56d9bd6.jpg",
+              "localized_name": "Dino",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dino",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/34a8bcae9154297c8fc66df25fe4d9bef56d9bd6.jpg"
+            },
+            {
+              "icon": "37d84e02a2e4f079eb680fe53f248c3d64521fda.jpg",
+              "localized_name": "Meat",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Meat",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/37d84e02a2e4f079eb680fe53f248c3d64521fda.jpg"
+            },
+            {
+              "icon": "7a1e0723428753d1a7e8bcb8f5e3fafadefcf75b.jpg",
+              "localized_name": "Dino Family",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dino Family",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3889490/7a1e0723428753d1a7e8bcb8f5e3fafadefcf75b.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "yang.wang.contact@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3889490?t=1759326113",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3889490/96dcfc3c7cece7dc00afe78a1c7596310d58997b/page_bg_raw.jpg?t=1759326113",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3535110,
+  "requested_at": "2026-09-13T19:21:04.764198+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 2,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "217916495",
+        "author": {
+          "steamid": "76561198983233439",
+          "personaname": "Mupinstienika",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198983233439/",
+          "num_games_owned": 479,
+          "num_reviews": 161,
+          "playtime_forever": 27,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 27,
+          "last_played": 1770610685,
+          "avatar": "d28e28b723298ea0d579f4ffa6e9352e198c182b"
+        },
+        "language": "english",
+        "review": "I haven't played it too much yet, maybe just 30 minutes. So far its pretty fun and very satisfying when the towers crumble. I like the unlock system, the items and boosters make it feel like an rpg which is nice. The 3d worlds are cozy and comfy. The strategy aspect is a little light as I was expecting something more brain busting, but this reminds me more of tetris where positioning and planning ahead is more important that logical deduction.",
+        "timestamp_created": 1770611009,
+        "timestamp_updated": 1770611009,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.502369701862335205",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754312635",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZ892AAAAAFP+ATakAAAAB/xKS/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

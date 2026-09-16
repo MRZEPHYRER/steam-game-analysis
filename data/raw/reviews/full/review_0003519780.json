@@ -1,0 +1,66 @@
+{
+  "appid": 3519780,
+  "requested_at": "2026-09-13T19:20:16.019671+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 1,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "220309030",
+        "author": {
+          "steamid": "76561198012455327",
+          "personaname": "SchwhatNow the DreamCrusher",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/SchwhatNow/",
+          "num_games_owned": 0,
+          "num_reviews": 50,
+          "playtime_forever": 26,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 26,
+          "last_played": 1773095419,
+          "avatar": "4bf3650b9b33619a9e044d2ad9010c589e59d748"
+        },
+        "language": "english",
+        "review": "A very bare bones tower defense with a lot of small errors at the time of playing. The gameplay isn't particularly enthralling as there was little to no difficulty, towers quickly spiral out of control with buffs applied to them that last forever, and the optimization on special effects is quite poor as my game would drop from 144 fps to about 60 during waves in the low 20's from the fire and explosion effects going on. \r\n\r\nThis is not a 1.0 project, this still needs time to cook. It's cheap so I can't fault it on that account but, ultimately, I'm not seeing much that I want to actually spend my time on with this one.",
+        "timestamp_created": 1773095592,
+        "timestamp_updated": 1773095592,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 1,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753724602",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB24rTIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9850000000001273,
+  "transport_error_count": 0
+}

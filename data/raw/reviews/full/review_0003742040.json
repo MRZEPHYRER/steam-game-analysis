@@ -1,0 +1,66 @@
+{
+  "appid": 3742040,
+  "requested_at": "2026-09-13T19:36:14.084659+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "209228001",
+        "author": {
+          "steamid": "76561197995337987",
+          "personaname": "Moz",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/MozCymru/",
+          "num_games_owned": 934,
+          "num_reviews": 96,
+          "playtime_forever": 25,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "last_played": 1763158275,
+          "avatar": "4a3cd881ed04ec08de58c052625ebcb7186c0581"
+        },
+        "language": "english",
+        "review": "This is an easy recommend from me. The overall aesthetic is very charming and the puzzles escalate and build off each other wonderfully.\n\n[b]FULL VIDEO - https://www.youtube.com/watch?v=_kxw8qx-Vpo[/b]",
+        "timestamp_created": 1763158310,
+        "timestamp_updated": 1765973716,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753299173",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABxjpKeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.016000000000531,
+  "transport_error_count": 0
+}

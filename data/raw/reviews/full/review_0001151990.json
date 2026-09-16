@@ -1,0 +1,72 @@
+{
+  "appid": 1151990,
+  "requested_at": "2026-09-13T18:41:54.164273+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 72,
+      "total_negative": 4,
+      "total_reviews": 76
+    },
+    "reviews": [
+      {
+        "recommendationid": "206701250",
+        "author": {
+          "steamid": "76561198031550400",
+          "personaname": "andrew sp",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/pere3x/",
+          "num_games_owned": 1962,
+          "num_reviews": 97,
+          "playtime_forever": 805,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 653,
+          "deck_playtime_at_review": 517,
+          "last_played": 1764425966,
+          "avatar": "f132f89b2e1e4907a5591dcdb39b3f54f8b52ced"
+        },
+        "language": "russian",
+        "review": "[h2]Slowburn[/h2]\n\nЭтот sliding sokoban можно обвинить лишь в одном - он слишком долго разгоняется. По началу даже кажется, что это казуальная мобильная игра для метро. Но ведь не всегда же нам страдать и напрягать серое вещество с первых минут? Как говорится, любишь сокобан - люби и медленно разгоняющийся!\n\nЗамысла и дизайна комнат тут вагон и маленькая тележка, первую половину игры так и хочется катить слайм к выходу припевая Smoooth operaatooor. А поздние уровни и механики по-хорошему заставляют поскрипеть извилинами и получить приятное облегчение таки подобрав подход и решение. Ох, как хороши местные идеи и реализация!\n\nИскушенный игрок конечно заметит, что тему с секретами, опциональными коллектаблами или альтернативными решениями не раскрыли. По началу играешь и то тут то там обращаешь внимание на всякие дорожки и ответвления, которые можно было бы использовать для дополнительной мотивации игрока. Но на деле оказывается, что все это бутафория - на них не то что ничего нет, так на них и заехать зачастую нельзя. Жаль.\n\nТем не менее, игра уходит в список лучших, исключительный респект. Обратите внимание, если любите сокобан и интересуетесь инди-сценой.",
+        "timestamp_created": 1760438128,
+        "timestamp_updated": 1760438128,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.669795334339141846",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1756387200",
+        "reactions": [
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXmqaAAAAAFP+Vu9eAAAAByrMCUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.078999999999951,
+  "transport_error_count": 0
+}

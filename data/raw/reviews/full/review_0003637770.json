@@ -1,0 +1,66 @@
+{
+  "appid": 3637770,
+  "requested_at": "2026-09-13T19:28:06.468574+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 22,
+      "total_negative": 1,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "207449498",
+        "author": {
+          "steamid": "76561199634574421",
+          "personaname": "Инкассация Яиц",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199634574421/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 54,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 54,
+          "last_played": 1761301756,
+          "avatar": "3670b9ed12e8f07e72327afd0f9adfbca36cfab1"
+        },
+        "language": "russian",
+        "review": "Я на потере сигнала пока искал 3-ий, приблизился к экрану чтобы не потерять координату, спасибо ищу координаты туалета .",
+        "timestamp_created": 1761298464,
+        "timestamp_updated": 1761298464,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.549795329570770264",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761235222",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZAQyAAAAAFP+GX66AAAAB62a2XBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1399999999998727,
+  "transport_error_count": 0
+}

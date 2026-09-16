@@ -1,0 +1,66 @@
+{
+  "appid": 4021980,
+  "requested_at": "2026-09-13T20:12:18.917684+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "219719949",
+        "author": {
+          "steamid": "76561197995498126",
+          "personaname": "BxBender [GER]",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/BxBender/",
+          "num_games_owned": 2650,
+          "num_reviews": 831,
+          "playtime_forever": 258,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 255,
+          "last_played": 1773513192,
+          "avatar": "ae3be2be6fc7899c177f880582e64b3efb01d4e8"
+        },
+        "language": "german",
+        "review": "Schickey Mickey ^^\r\n\r\nEin schönes casual game der Gnomes Macher.\r\nDas Time-Management-Spiel ist eher für normale Spieler gedacht, die es etwas entspannter haben möchten.\r\nExperten gehen zu Herkules und Co.\r\nDie Grafik ist meistens sehr schön, manchmal sind die Karten aber etwas detailarm hingeschmiert.\r\nDie Missionen und Level sind nichts besonderes und bieten nicht viel Abwechslung.\r\nAlles in allem hat man öfters den Eindruck, als wäre die Mobilplattform der Ausgangspunkt der Entwicklung gewesen.\r\nAuch gibt es wenig Zwischensequenzen und keine Personen, die einem dazwischenfunken.\r\nAber das Spiel macht trotzdem viel Spaß und man spielt es gerne am Stück durch.\r\nMan kann sehen, wo es noch Bruchteile der Sammelitems gibt.\r\nSteam Errungenschaften und Sammelkarten gibt es wohl vom Hersteller für keines seiner Spiele, zumindest habe ich immer Pech mit deren Games.\r\nDie neueren Titel sind mittlerweile ziemlich teuer geworden, das kennt man von Herkules ja auch.\r\nIch würde daher immer auf einen 50% Deal warten, oder wie ich hier auf mindestens 70%.\r\nWeil es recht leicht war, habe ich unter 5 Stunden dafür gebraucht, dann ist das ein vernünftiger Gegenwert.\r\n\r\nFazit: nice, with mice ^^",
+        "timestamp_created": 1772556134,
+        "timestamp_updated": 1772556134,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.546887338161468506",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758592790",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZD+cAAAAAFP+GAJ+AAAAB9kJXGBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.358999999999469,
+  "transport_error_count": 0
+}

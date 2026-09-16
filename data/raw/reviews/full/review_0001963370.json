@@ -1,0 +1,71 @@
+{
+  "appid": 1963370,
+  "requested_at": "2026-09-13T18:46:15.846301+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 4518,
+      "total_negative": 2442,
+      "total_reviews": 6960
+    },
+    "reviews": [
+      {
+        "recommendationid": "232325408",
+        "author": {
+          "steamid": "76561198115321598",
+          "personaname": "Mommy Lilith",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Gothmommyys/",
+          "num_games_owned": 0,
+          "num_reviews": 26,
+          "playtime_forever": 1338,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1338,
+          "last_played": 1711604403,
+          "avatar": "b5d80d7f0ee20bfafd3c8b50ad8c14f6f38aa086"
+        },
+        "language": "english",
+        "review": "DO NOT BUY THE DEV HAS ABAND THIS GAME LIKE THERE PRIOR GAME! DO NOT FALL FOR THE TRAP...\n\nSupported this game and holy i regret it. to many bugs and game runs bad",
+        "timestamp_created": 1786170146,
+        "timestamp_updated": 1786170146,
+        "voted_up": false,
+        "votes_up": 70,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.870770931243896484",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1673693602",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSlacAAAAAFP+vdWyAAAABwkqD2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

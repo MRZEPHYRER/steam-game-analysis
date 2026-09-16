@@ -1,0 +1,73 @@
+{
+  "appid": 3351040,
+  "requested_at": "2026-09-13T19:11:52.171306+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "203403310",
+        "author": {
+          "steamid": "76561198121105918",
+          "personaname": "kopierkatze",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/kopierkatze/",
+          "num_games_owned": 1258,
+          "num_reviews": 79,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1756839096,
+          "avatar": "c877baabea22f1f5fc3a94c68db337b34a362f9d"
+        },
+        "language": "english",
+        "review": "Poorly optimized, bugged decorations, bugged achievements. Where to start complaining? Why are you releasing your game like that? Because cozy gamers will buy them anyways?\n\nMy experience: buy as many dogs as possible, get rich fast, buy every farm tile, get fps drops for no reason, restart the game, see your few decorations reset to default position, don't get half or more of the achievements and get bored in under an hour, because there's not much to do and your decorations might not stay where you put them.",
+        "timestamp_created": 1756839397,
+        "timestamp_updated": 1756839397,
+        "voted_up": false,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.669444739818572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1756938299,
+        "developer_response": "Thanks for taking the time to share your feedback. We’re sorry your experience was frustrating. The issues you mentioned have been addressed in the latest patch, and we’ll continue working on further improvements.",
+        "app_release_date": "1756832546",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWnHEAAAAAFP+VsF+AAAAB+gvaHBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

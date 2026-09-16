@@ -1,0 +1,66 @@
+{
+  "appid": 3988540,
+  "requested_at": "2026-09-13T20:08:34.427418+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "208835651",
+        "author": {
+          "steamid": "76561199487254945",
+          "personaname": "Ƹ̵̡Ӝ̵●KIRITO●Ӝ̵Ʒ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199487254945/",
+          "num_games_owned": 0,
+          "num_reviews": 36,
+          "playtime_forever": 65,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 65,
+          "last_played": 1762719712,
+          "avatar": "5e54c5091fffa0172dcbc5d0844bd3e9c413ee0b"
+        },
+        "language": "french",
+        "review": "Pour y avoir jouer 1H il es bien  forcement y a pas encore enormement d'armes vu que il vient juste de sortir mais il a un bon potentiel  c' est un style de jeu comme le mode zombie des black ops ou tu dois survivre. Tu peux auguementer les capacités de ton perso et choisir une arme principal,une secondaire,une lame et un style de grenade.\n\nSeul chose pour l' instant il es pas multijoueurs !\nUNE AUTRE CHOSE IL ES JOUABLE SANS PROBLEME A LA MANETTE !",
+        "timestamp_created": 1762720106,
+        "timestamp_updated": 1762720331,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762526939",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABzxNKcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

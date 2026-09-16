@@ -1,0 +1,66 @@
+{
+  "appid": 3916180,
+  "requested_at": "2026-09-13T19:59:19.082244+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 62,
+      "total_negative": 14,
+      "total_reviews": 76
+    },
+    "reviews": [
+      {
+        "recommendationid": "222464377",
+        "author": {
+          "steamid": "76561198364375006",
+          "personaname": "平章军国重事",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198364375006/",
+          "num_games_owned": 299,
+          "num_reviews": 35,
+          "playtime_forever": 245,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 245,
+          "last_played": 1766832051,
+          "avatar": "0bc0152bc9a14b5fd384709407d2d5fb5ada0128"
+        },
+        "language": "schinese",
+        "review": "目前来说只能算还不错，打发时间还行；但是25年11月3号发行的游戏，11月24号是最后一个更新。那我只能说作者应该摆了；因此不建议买",
+        "timestamp_created": 1775277640,
+        "timestamp_updated": 1775277640,
+        "voted_up": false,
+        "votes_up": 23,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.698479592800140381",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762154998",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWB8iAAAAAFP+ZZ8sAAAAB5l9HQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.17200000000048,
+  "transport_error_count": 0
+}

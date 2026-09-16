@@ -1,0 +1,190 @@
+---
+title: "Review Attention Hurdle Modeling"
+subtitle: "Step 6A entry, Step 6B count audit, Step 6B.1 tier freeze"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+data_dir <- file.path("..", "data", "analysis", "attention")
+figure_dir <- file.path("..", "figures", "attention")
+read_6a <- function(name) read.csv(file.path(data_dir, name), check.names = FALSE,
+  stringsAsFactors = FALSE, encoding = "UTF-8")
+market <- read_6a("step6a_market_outcome_summary.csv")
+free_paid <- read_6a("step6a_free_paid_summary.csv")
+fit <- read_6a("step6a_primary_fit.csv")
+coef <- read_6a("step6a_primary_coefficients.csv")
+functional <- read_6a("step6a_functional_form_decision.csv")
+calibration <- read_6a("step6a_calibration.csv")
+auc <- read_6a("step6a_auc.csv")
+separation <- read_6a("step6a_separation_diagnostics.csv")
+stopifnot(market$market_n == 3000, fit$converged, sum(separation$n_flagged) == 0)
+```
+
+# Research question
+
+Step 6A models whether a game obtains at least one Steam review. This is review attention entry, not reception, sales, owners, or a count-volume model.
+
+# Market outcome
+
+```{r}
+knitr::kable(market, digits = 4, caption = "Market review-entry outcome")
+knitr::kable(free_paid, digits = 5, caption = "Free and paid raw review-entry rates")
+```
+
+# Primary linear Logistic
+
+Primary uses `is_free`, a paid-only standardized log-price component, standardized days since release, four pre-specified platform segments, and seven genres. Free rows receive a price component of zero. One missing paid-price game and one non-pre-specified Platform Other game remain in market descriptions but are excluded from the 2,998-row model.
+
+```{r}
+knitr::kable(fit, digits = 5, caption = "Primary fit")
+knitr::kable(coef, digits = 5, caption = "Primary odds ratios and 95% intervals")
+```
+
+```{r}
+#| fig-cap: "Primary review-entry odds ratios"
+knitr::include_graphics(file.path(figure_dir, "39_attention_entry_primary_or.png"))
+```
+
+# Functional form
+
+```{r}
+knitr::kable(functional, digits = 5, caption = "Pre-specified linear versus spline df=3 audit")
+```
+
+Days does not gain AIC under the spline sensitivity. Paid price shows materially lower spline AIC and a visibly different probability curve, so the single linear paid-price term is inadequate across the observed range.
+
+```{r}
+#| fig-cap: "Paid-price linear and spline probability curves"
+knitr::include_graphics(file.path(figure_dir, "36_paid_price_review_entry_curve.png"))
+```
+
+# Diagnostics
+
+```{r}
+knitr::kable(calibration, digits = 5, caption = "In-sample calibration deciles")
+knitr::kable(auc, digits = 5, caption = "In-sample ROC AUC")
+knitr::kable(separation, caption = "Separation diagnostics")
+```
+
+# Step 6A decision
+
+The Step 6A audit is complete, but the linear price specification is not ready to freeze. The linear model remains as a benchmark. No count model was fitted in Step 6A.
+
+# Step 6A.1 Nonlinear Specification Freeze
+
+```{r}
+fit_6a1 <- read_6a("step6a1_primary_fit.csv")
+comparison_6a1 <- read_6a("step6a1_linear_vs_nonlinear.csv")
+basis_6a1 <- read_6a("step6a1_spline_basis_definition.csv")
+support_6a1 <- read_6a("step6a1_price_support.csv")
+peak_6a1 <- read_6a("step6a1_peak_audit.csv")
+contrasts_6a1 <- read_6a("step6a1_price_contrasts.csv")
+scores_6a1 <- read_6a("step6a1_auc_brier.csv")
+criteria_6a1 <- read_6a("step6a1_freeze_criteria.csv")
+decision_6a1 <- read_6a("step6a1_stage_decision.csv")
+stopifnot(fit_6a1$n_games == 2998, fit_6a1$converged)
+```
+
+The final entry candidate replaces only the paid-price linear term with a frozen, centered natural spline with df=3. Free rows retain zero in all spline-basis columns, days remains linear, and the sample and all other predictors stay unchanged.
+
+```{r}
+knitr::kable(comparison_6a1, digits = 5, caption = "Linear benchmark and nonlinear primary comparison")
+knitr::kable(basis_6a1, digits = 6, caption = "Frozen spline basis definition")
+knitr::kable(support_6a1, digits = 3, caption = "Paid-price support audit")
+```
+
+```{r}
+#| fig-cap: "Final nonlinear paid-price curve and central support"
+knitr::include_graphics(file.path(figure_dir, "45_price_nonlinear_primary_curve.png"))
+```
+
+The fitted peak is descriptive, not an optimal or causal price. Interpretation centers on the paid-price 5th to 95th percentile because the high-price tail is sparse.
+
+```{r}
+knitr::kable(peak_6a1, digits = 5, caption = "Descriptive fitted peak and plateau")
+knitr::kable(contrasts_6a1, digits = 5, caption = "Representative price probability contrasts")
+knitr::kable(scores_6a1, digits = 6, caption = "In-sample AUC, Brier score, and log loss")
+```
+
+```{r}
+#| fig-cap: "Nonlinear price-curve sensitivity"
+knitr::include_graphics(file.path(figure_dir, "50_nonlinear_price_sensitivity.png"))
+```
+
+```{r}
+knitr::kable(criteria_6a1, caption = "Nonlinear primary freeze criteria")
+knitr::kable(decision_6a1, caption = "Step 6A.1 decision")
+```
+
+The Step 6A.1 entry model remains frozen. Its odds ratios do not compare directly with Step 6B count ratios.
+
+# Step 6B Positive Review-Count Intensity
+
+```{r}
+sample_6b <- read_6a("step6b_model_sample_audit.csv")
+distribution_6b <- read_6a("step6b_count_distribution.csv")
+model_6b <- read_6a("step6b_model_comparison.csv")
+exposure_6b <- read_6a("step6b_exposure_audit.csv")
+tail_6b <- read_6a("step6b_tail_sensitivity.csv")
+decision_6b <- read_6a("step6b_stage_decision.csv")
+stopifnot(sample_6b$positive_n == 2241, sample_6b$model_n == 2240)
+knitr::kable(sample_6b, caption = "Positive-count population and model sample")
+knitr::kable(distribution_6b, digits = 2, caption = "Positive review-volume distribution")
+knitr::kable(model_6b[, c("model_id", "aic", "theta", "converged")], digits = 4,
+  caption = "Poisson, ordinary NB2, and zero-truncated NB2")
+knitr::kable(exposure_6b, digits = 4, caption = "Exposure specification audit")
+```
+
+Step 6B estimates $E(Y\mid Y>0)$ for games already reviewed; 759 zero-review games are excluded. The 2,240-row count model retains 34 free games and excludes only one paid game with missing current price. Poisson is severely overdispersed. Zero-truncated NB2 has the lowest comparable AIC, but a near-boundary dispersion parameter, severe head concentration, unstable tail sensitivity, and count-bin residual mismatch prevent freezing.
+
+```{r}
+#| fig-cap: "Positive-count observed and fitted count bins"
+knitr::include_graphics(file.path(figure_dir, "55_count_rootogram.png"))
+knitr::kable(tail_6b, digits = 4, caption = "Head-game sensitivity")
+knitr::kable(decision_6b, caption = "Step 6B freeze decision")
+```
+
+The full Chinese visual audit is in `10_attention_count_visual_audit.html`. The Step 6B candidate remains diagnostic, not frozen. Review count is not sales, owners, or revenue. No causal conclusion or Step 6C model follows from this audit.
+
+# Step 6B.1 Fast Attention Tier Model Freeze
+
+```{r}
+tier_6b1 <- read_6a("step6b1_tier_distribution.csv")
+ordinal_6b1 <- read_6a("step6b1_ordinal_fit.csv")
+parallel_6b1 <- read_6a("step6b1_parallel_odds_audit.csv")
+price_6b1 <- read_6a("step6b1_price_tier_probabilities.csv")
+high100_6b1 <- read_6a("step6b1_high100_fit.csv")
+decision_6b1 <- read_6a("step6b1_stage_decision.csv")
+stopifnot(sum(tier_6b1$n_games) == 2241, ordinal_6b1$n_games == 2240)
+knitr::kable(tier_6b1, digits = 2, caption = "Four ordered attention tiers")
+knitr::kable(ordinal_6b1, digits = 4, caption = "Final ordinal attention-intensity model")
+```
+
+The raw Step 6B count model remains a documented diagnostic failure and is not deleted. Step 6B.1 replaces it as the portfolio-level attention-intensity model by defining Tier 1 as 1–9 reviews, Tier 2 as 10–99, Tier 3 as 100–999, and Tier 4 as 1000+.
+
+The cumulative ordinal logistic model uses the same 2,240-row positive-count price-complete sample, a newly estimated df=3 paid-price spline, ordinary `log(days)` covariate, free status, platform, and seven pre-specified genres. It converges with a full-rank design and valid probabilities.
+
+```{r}
+#| fig-cap: "Attention tiers among reviewed games"
+knitr::include_graphics(file.path(figure_dir, "64_attention_tier_distribution.png"))
+#| fig-cap: "Predicted attention-tier probabilities by paid price"
+knitr::include_graphics(file.path(figure_dir, "65_attention_tier_price_probabilities.png"))
+```
+
+Threshold-specific binary logits indicate that proportional odds holds approximately rather than exactly: several weak coefficients change sign, but there are no major direction reversals. The single pre-specified High-100 logistic robustness model broadly agrees with the ordinal model, including the paid-price probability shape.
+
+```{r}
+knitr::kable(high100_6b1, digits = 4, caption = "High-100 robustness model")
+knitr::kable(decision_6b1, caption = "Step 6B.1 freeze decision")
+```
+
+An ordinal OR above 1 indicates higher odds of belonging to a higher attention tier; it is not a review-count multiplier. Associations are not causal. The free subgroup contains only 34 reviewed games and remains highly uncertain. The concise Chinese audit is in `11_attention_tier_visual_audit.html`.

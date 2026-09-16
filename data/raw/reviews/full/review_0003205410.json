@@ -1,0 +1,66 @@
+{
+  "appid": 3205410,
+  "requested_at": "2026-09-13T19:07:11.172828+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "208770435",
+        "author": {
+          "steamid": "76561199002377944",
+          "personaname": "EMoneyG",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199002377944/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 2292,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1779556473,
+          "avatar": "3d12e0c0578120118eb8ee89640f452935570176"
+        },
+        "language": "english",
+        "review": "I feel like I have barely scratched the surface of all the customization and strategy, but it's great to have a tennis game that reflects the complexity of the sport and lets you think ahead instead of just button mashing. Fun game!",
+        "timestamp_created": 1762657022,
+        "timestamp_updated": 1762657060,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762491674",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAABz2LKcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

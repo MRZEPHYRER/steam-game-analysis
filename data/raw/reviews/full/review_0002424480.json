@@ -1,0 +1,66 @@
+{
+  "appid": 2424480,
+  "requested_at": "2026-09-13T18:50:44.893361+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 8,
+      "total_negative": 5,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "212485134",
+        "author": {
+          "steamid": "76561197971452371",
+          "personaname": "[VENINI]LordKayatt",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/pekayatt/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 91,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 91,
+          "last_played": 1734815287,
+          "avatar": "a9ffd89701269a9dd7e8545b49b31a9c2747a5d7"
+        },
+        "language": "brazilian",
+        "review": "Eu já era fan do primeiro No Heroes Here.\nNão posso negar que virei fan da Mad Mimic, mas em específico desses jogos coach coop.\n\nParabéns pelo trabalho e achei demais! Jogo com minha esposa e filhinha!",
+        "timestamp_created": 1764778743,
+        "timestamp_updated": 1764778743,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1730221385",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB+wMiqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.140999999999849,
+  "transport_error_count": 0
+}

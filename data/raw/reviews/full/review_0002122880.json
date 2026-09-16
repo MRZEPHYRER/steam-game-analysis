@@ -1,0 +1,66 @@
+{
+  "appid": 2122880,
+  "requested_at": "2026-09-13T18:47:32.721091+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 63,
+      "total_negative": 25,
+      "total_reviews": 88
+    },
+    "reviews": [
+      {
+        "recommendationid": "213737444",
+        "author": {
+          "steamid": "76561197979164093",
+          "personaname": "relativistic",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197979164093/",
+          "num_games_owned": 424,
+          "num_reviews": 9,
+          "playtime_forever": 1493,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 982,
+          "last_played": 1776572643,
+          "avatar": "70b2a962dc69764729e86c8a451dfe3e006afe3d"
+        },
+        "language": "english",
+        "review": "Having great fun playing this with my 9-year-old daughter, when we were looking for a coop after It Takes Two. The puzzles are just the right level for the two of us. I can't always solve them instantly so she can help, but not so hard that she gets frustrated. The different mechanics are lots of fun to mess with, and the game oozes charm everywhere you go. Great time for us.",
+        "timestamp_created": 1766245232,
+        "timestamp_updated": 1766245232,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.601655483245849609",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762873090",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX94cAAAAAFP+NAwgAAAAB0/quvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

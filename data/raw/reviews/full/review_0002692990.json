@@ -1,0 +1,107 @@
+{
+  "appid": 2692990,
+  "requested_at": "2026-09-13T18:54:15.638259+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 1141,
+      "total_negative": 1162,
+      "total_reviews": 2303
+    },
+    "reviews": [
+      {
+        "recommendationid": "227248916",
+        "author": {
+          "steamid": "76561198998537724",
+          "personaname": "Nemo_Semi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/nemo_semi/",
+          "num_games_owned": 91,
+          "num_reviews": 4,
+          "playtime_forever": 230,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 230,
+          "last_played": 1780679334,
+          "avatar": "d52843e0de6f450d8cdff2fda6335850fd646c62"
+        },
+        "language": "russian",
+        "review": "По ощущениям сюжет и геймплей для этой хуеты писал новорожденный недоношенный гидроцефал - сюжета ♥♥♥♥♥ нет, просто ходи как еблан с деменцией по лесу, смотри на 5 заскриптованых скримеров и собирай нарисованные калом разработчика \"руны\". Маршруты строятся ♥♥♥♥♥ не по оптимальному пути, мне кажется слепой справился бы с этой задачей лучше. Механики тоже ебанутейшие - собирай батарейки, иначе умер ♥♥♥♥♥.  Ещё по лесу ходит маразматик с ножом(один, ВСЕГО ОДИН ♥♥♥♥♥), клоун со скоростью передвижения чуть меньше инвалидной коляски разработчика, и мишка Тедди Беар(единсвенная положительная вещь в игре, но тоже ОДИН). Скорее всего у автора просто умер последний нейрон в мозгу, когда он добавлял этих невъебически разнообразных мобов в игру, ведь других оправданий тому, что их ВСЕГО 3 ♥♥♥♥♥, НЕ ВИДОВ, А ПРОСТО 3 ♥♥♥♥♥, ПО ВСЕЙ КАРТЕ ХОДИТ ВСЕГО 3 МОБА, КОТОРЫХ ВЫ ДАЙ БОГ УВИДИТЕ 2-3 РАЗА ЗА ПРОХОЖДЕНИЕ, у меня нет. Умер от скримера 1 раз, когда увидел мать разработчика. В общем игра была бы намного круче если бы по лесу просто гуляло 500 мишек Тедди Беар и всё, такой симулятор секса со скримерами. Ставлю 10/10 медведю за харизму и 0 ♥♥♥♥♥ за подобное дерьмище разработчику сея поноса.",
+        "timestamp_created": 1780680237,
+        "timestamp_updated": 1780680237,
+        "voted_up": false,
+        "votes_up": 154,
+        "votes_funny": 82,
+        "weighted_vote_score": "0.905430376529693604",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764784489",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 17
+          },
+          {
+            "reaction_type": 28,
+            "count": 14
+          },
+          {
+            "reaction_type": 29,
+            "count": 7
+          },
+          {
+            "reaction_type": 35,
+            "count": 3
+          },
+          {
+            "reaction_type": 27,
+            "count": 2
+          },
+          {
+            "reaction_type": 30,
+            "count": 2
+          },
+          {
+            "reaction_type": 34,
+            "count": 2
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFR5DMAAAAAFP+z5SGAAAAB0sfHiBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2783460,
+  "requested_at": "2026-09-13T18:55:41.223877+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "218381031",
+        "author": {
+          "steamid": "76561198933570598",
+          "personaname": "solid_blk",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198933570598/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 11917,
+          "playtime_last_two_weeks": 490,
+          "playtime_at_review": 2798,
+          "last_played": 1789194552,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "運勢占い代わりに毎日１回プレイしています\nもっと色々な占いのバージョンを増やしてほしいです",
+        "timestamp_created": 1771161718,
+        "timestamp_updated": 1771161718,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.537572264671325684",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763396333",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZP6GAAAAAFP+EzykAAAAB3rofBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.890999999999849,
+  "transport_error_count": 0
+}

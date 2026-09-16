@@ -1,0 +1,250 @@
+{
+  "requested_at": "2026-09-13T06:47:49.357958+00:00",
+  "request_params": {
+    "appids": 4081960,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4081960,
+  "payload": {
+    "4081960": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Push and Plunder",
+        "steam_appid": 4081960,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >In push and Plunder every level is a labyrinth of ladders, boxes, barrels, fire, and more! Your goal is to reclaim your lost treasure in every level! You will need to think outside of the box and push your logical reasoning to the limits to solve these brain busting puzzles. Fortunately, you have the aid of magic potions that can change the world around you. Conquer each level to beat the game, and make your own maddening puzzles in the level editor.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >In push and Plunder every level is a labyrinth of ladders, boxes, barrels, fire, and more! Your goal is to reclaim your lost treasure in every level! You will need to think outside of the box and push your logical reasoning to the limits to solve these brain busting puzzles. Fortunately, you have the aid of magic potions that can change the world around you. Conquer each level to beat the game, and make your own maddening puzzles in the level editor.</p>",
+        "short_description": "Push and Plunder is a Sokoban-like puzzle platformer where your goal is to navigate a maze of boxes, barrels, and more to reclaim your lost treasure. These brain busting puzzles are sure to be a challenge but with the help of your magic potions you are sure to conquer in the end!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/3b01f1950a56b2b76f11d18320ff2787f5c7936c/header.jpg?t=1766869585",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/cf478f096c5a3549fb7a845793689a92128e6b5c/capsule_231x87.jpg?t=1766869585",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/cf478f096c5a3549fb7a845793689a92128e6b5c/capsule_184x69.jpg?t=1766869585",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Core i3 Processor or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated graphics card with 512MB RAM and Webgl enabled<br></li><li><strong>Storage:</strong> 150 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong>  Intel Core i7 Processor or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated graphics card with 4096MB RAM and Webgl enabled<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "JK's Gamedev"
+        ],
+        "publishers": [
+          "JK's Gamedev"
+        ],
+        "demos": [
+          {
+            "appid": 4202800,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1431042
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Push and Plunder",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1431042,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Push and Plunder - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/e67f97bb604d5bd151575d7a80f432ef1d97b9f3/ss_e67f97bb604d5bd151575d7a80f432ef1d97b9f3.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/e67f97bb604d5bd151575d7a80f432ef1d97b9f3/ss_e67f97bb604d5bd151575d7a80f432ef1d97b9f3.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b673ed9e7a80b2fc5e96e3e7e9b7e7f22dfdd155/ss_b673ed9e7a80b2fc5e96e3e7e9b7e7f22dfdd155.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b673ed9e7a80b2fc5e96e3e7e9b7e7f22dfdd155/ss_b673ed9e7a80b2fc5e96e3e7e9b7e7f22dfdd155.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/53fd146bc81b635698f7b8b205c9c7c0e3e50e8a/ss_53fd146bc81b635698f7b8b205c9c7c0e3e50e8a.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/53fd146bc81b635698f7b8b205c9c7c0e3e50e8a/ss_53fd146bc81b635698f7b8b205c9c7c0e3e50e8a.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/789e81be0033b313763120c2e4734f0f74913a26/ss_789e81be0033b313763120c2e4734f0f74913a26.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/789e81be0033b313763120c2e4734f0f74913a26/ss_789e81be0033b313763120c2e4734f0f74913a26.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b428c3e1089287de2e847d07e379992db9a9fa71/ss_b428c3e1089287de2e847d07e379992db9a9fa71.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b428c3e1089287de2e847d07e379992db9a9fa71/ss_b428c3e1089287de2e847d07e379992db9a9fa71.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/aa95e2a59b4f7f236d2cca2cb3969d50462ab306/ss_aa95e2a59b4f7f236d2cca2cb3969d50462ab306.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/aa95e2a59b4f7f236d2cca2cb3969d50462ab306/ss_aa95e2a59b4f7f236d2cca2cb3969d50462ab306.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/74df61eb211f81318e142246da45281562621c9c/ss_74df61eb211f81318e142246da45281562621c9c.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/74df61eb211f81318e142246da45281562621c9c/ss_74df61eb211f81318e142246da45281562621c9c.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/c603345addecdee39e961f93eebd2818ccdaea6d/ss_c603345addecdee39e961f93eebd2818ccdaea6d.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/c603345addecdee39e961f93eebd2818ccdaea6d/ss_c603345addecdee39e961f93eebd2818ccdaea6d.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/9911297089736d9f9cef3a07240a2cdcdbac3a4c/ss_9911297089736d9f9cef3a07240a2cdcdbac3a4c.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/9911297089736d9f9cef3a07240a2cdcdbac3a4c/ss_9911297089736d9f9cef3a07240a2cdcdbac3a4c.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/1b31339a2a3f2f28e44263178226070f8ba29f6b/ss_1b31339a2a3f2f28e44263178226070f8ba29f6b.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/1b31339a2a3f2f28e44263178226070f8ba29f6b/ss_1b31339a2a3f2f28e44263178226070f8ba29f6b.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b0a5a678166a0443db80083e4d44ac86dda492a4/ss_b0a5a678166a0443db80083e4d44ac86dda492a4.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/b0a5a678166a0443db80083e4d44ac86dda492a4/ss_b0a5a678166a0443db80083e4d44ac86dda492a4.1920x1080.jpg?t=1766869585"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/6edd5258ceed16088a77045944538daa4fd16bf3/ss_6edd5258ceed16088a77045944538daa4fd16bf3.600x338.jpg?t=1766869585",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/6edd5258ceed16088a77045944538daa4fd16bf3/ss_6edd5258ceed16088a77045944538daa4fd16bf3.1920x1080.jpg?t=1766869585"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257219063,
+            "name": "Push and Plunder Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257219063/789e81be0033b313763120c2e4734f0f74913a26/movie_600x337.jpg?t=1761234382",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4081960/1476315433/d2a06e4a0643aef1da6fb3f0f80257ac98bd78da/1760677949/dash_av1.mpd?t=1761234382",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4081960/1476315433/d2a06e4a0643aef1da6fb3f0f80257ac98bd78da/1760677949/dash_h264.mpd?t=1761234382",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4081960/1476315433/d2a06e4a0643aef1da6fb3f0f80257ac98bd78da/1760677949/hls_264_master.m3u8?t=1761234382",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 27, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "jks.gamedev101@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4081960?t=1766869585",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4081960/e6798b9d03f6fbb04de0d594c11f0a73ca0ac8c2/page_bg_raw.jpg?t=1766869585",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

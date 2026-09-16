@@ -1,0 +1,73 @@
+{
+  "appid": 3070880,
+  "requested_at": "2026-09-13T19:03:11.568106+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 656,
+      "total_negative": 174,
+      "total_reviews": 830
+    },
+    "reviews": [
+      {
+        "recommendationid": "205466514",
+        "author": {
+          "steamid": "76561198110986006",
+          "personaname": "tjomagavk",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tjomagavk/",
+          "num_games_owned": 128,
+          "num_reviews": 2,
+          "playtime_forever": 1053,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1053,
+          "last_played": 1784373844,
+          "avatar": "2049ffca79d1e32952c701f1e86fca438e18efc8"
+        },
+        "language": "english",
+        "review": "During Early Access, the developer/publisher presented a roadmap with promised features and content. However, almost all of these promises were later removed, and the game was pushed into full release without delivering the majority of the announced content. On top of that, the game still contains numerous bugs, and the functionality many players purchased the game for was never implemented.",
+        "timestamp_created": 1759146789,
+        "timestamp_updated": 1759146789,
+        "voted_up": false,
+        "votes_up": 28,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.752530455589294434",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1784300474,
+        "developer_response": "Hey! We are a completely new indie developer team and we just recently acquired the rights to this game. We are fully committed to its development and have just released our first major update featuring Steam Cloud support, new production machines, worker Alex, and expansions. Check it out and let us know what you think!",
+        "app_release_date": "1745243996",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFU8wwAAAAAFP+gUucAAAAByueWPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

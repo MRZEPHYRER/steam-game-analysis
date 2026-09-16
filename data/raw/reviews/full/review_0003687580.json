@@ -1,0 +1,71 @@
+{
+  "appid": 3687580,
+  "requested_at": "2026-09-13T19:31:49.628006+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 1,
+      "total_reviews": 22
+    },
+    "reviews": [
+      {
+        "recommendationid": "209282139",
+        "author": {
+          "steamid": "76561198020372455",
+          "personaname": "Baazlabeth",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198020372455/",
+          "num_games_owned": 0,
+          "num_reviews": 11,
+          "playtime_forever": 483,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 127,
+          "last_played": 1768863027,
+          "avatar": "da4a0415fde869141d5f17143e204f743058e486"
+        },
+        "language": "german",
+        "review": "Richtig schöner Indie Geheimtipp. \nDas Game ist super stimmig in Sachen Optik und Sound und macht Spaß!\n\nEs ist leicht zu erlernen, auch wenn es kein wirkliches Tutorial gibt, dafür gibt es in game einen Menüpunkt mit Spielehilfen, welche super sind. \n\nDas Gefühl \"ah, ein lvl geht noch!\" trat direkt ein. \n\nEmpfehlung!",
+        "timestamp_created": 1763212896,
+        "timestamp_updated": 1763227572,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762956271",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB7xayeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.20299999999952,
+  "transport_error_count": 0
+}

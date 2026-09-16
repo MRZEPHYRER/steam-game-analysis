@@ -1,0 +1,66 @@
+{
+  "appid": 3877280,
+  "requested_at": "2026-09-13T19:53:36.111719+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "220271849",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 585,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 585,
+          "last_played": 1773043315,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Moxie is a casual puzzle game developed and published by ggame that focuses on delivering a simple, relaxed jigsaw-style puzzle experience. Rather than building a large narrative or introducing complicated mechanics, the game centers entirely on the process of reconstructing images from scattered puzzle pieces. The design philosophy behind the game is minimalistic and straightforward, presenting players with a calm environment where the primary goal is to assemble images piece by piece. This approach makes the game accessible to a wide audience, especially those who enjoy quiet puzzle-solving sessions without time pressure or complex rules.\n\nThe gameplay follows the traditional structure of digital jigsaw puzzles. Each level begins with an image that has been divided into numerous fragments and randomly arranged across the board. Players must drag and reposition these pieces until they align correctly and reveal the completed picture. Unlike physical jigsaw puzzles that involve uniquely shaped pieces, the fragments in Moxie are arranged in a grid-like format, making them easier to manipulate with a mouse. The process of gradually discovering where each piece belongs forms the core challenge of the game, requiring players to rely on visual clues such as colors, patterns, and shapes within the image.\n\nOne of the features included to help players during the puzzle-solving process is the ability to preview the completed image. This allows players to temporarily view what the finished picture should look like, providing a useful reference when trying to determine the placement of more difficult pieces. While experienced puzzle players may prefer to rely purely on observation and deduction, this optional feature ensures that newcomers or casual players do not become stuck for long periods of time.\n\nThe game includes a modest selection of images that serve as the basis for its puzzles. Each completed puzzle unlocks its corresponding illustration in a gallery, allowing players to view the finished artwork once it has been assembled. This gallery system acts as the primary reward structure, encouraging players to continue solving puzzles in order to collect the full set of images available in the game. The pictures themselves are colorful and stylized, providing visual variety that keeps the puzzles from feeling completely identical.\n\nDifficulty in Moxie is adjustable through the number of pieces used in each puzzle. Easier settings divide the images into fewer fragments, making the puzzle quicker to complete and less mentally demanding. Higher difficulty options increase the number of pieces, which adds complexity and requires more careful observation to determine how the fragments connect. This flexibility allows players to tailor the challenge to their preferences, whether they want a quick and relaxing activity or a slightly more demanding puzzle.\n\nVisually, the game adopts a clean and colorful presentation that supports its casual tone. The puzzle pieces are clearly defined, and the interface is designed to keep the board uncluttered so players can focus entirely on assembling the image. The illustrations themselves feature bright colors and stylized subjects that make them visually appealing once completed. While the graphics are not technically advanced, they serve their purpose effectively by providing recognizable patterns and details that help guide the puzzle-solving process.\n\nThe audio design is subtle and unobtrusive, reinforcing the relaxed atmosphere of the game. Gentle background music accompanies the puzzles, creating a calm environment that encourages concentration. Sound effects are minimal and typically occur when players move puzzle pieces or complete a section of the image. These small audio cues provide satisfying feedback without interrupting the player’s focus.\n\nOne of the strengths of Moxie is how easy it is to approach. The controls are simple, the rules are immediately understandable, and players can begin solving puzzles within seconds of starting the game. This makes it ideal for short play sessions where players want to relax and engage in a quiet mental activity. Because there is no time limit or competitive pressure, players can take as long as they need to complete each puzzle.\n\nHowever, the game’s simplicity also highlights some of its limitations. The gameplay loop remains the same throughout the entire experience, and there are no additional puzzle mechanics or alternative modes introduced as players progress. While the adjustable difficulty adds some variety, the act of dragging pieces into place does not evolve into more complex puzzle systems. As a result, the gameplay can start to feel repetitive after completing multiple puzzles in succession.\n\nAnother limitation is the relatively small amount of content available. With only a few dozen images to assemble, the game can be completed fairly quickly by players who are experienced with jigsaw puzzles. Once the gallery is fully unlocked, there are few incentives to continue playing beyond revisiting previously completed puzzles.\n\nDespite these shortcomings, Moxie still succeeds at providing a calm and straightforward puzzle experience. The game does not attempt to innovate within the puzzle genre but instead focuses on offering a simple digital space where players can enjoy assembling images at their own pace. For fans of jigsaw puzzles who are looking for a relaxing and uncomplicated activity, the game delivers a brief but enjoyable experience.\n\nOverall, Moxie is a modest casual puzzle title that emphasizes accessibility and relaxation over depth or innovation. Its clean presentation, simple mechanics, and adjustable difficulty make it easy for anyone to pick up and enjoy. While the limited content and repetitive gameplay prevent it from offering long-term engagement, it still serves as a pleasant diversion for players who appreciate quiet puzzle-solving games.\n\nRating: 5/10",
+        "timestamp_created": 1773062360,
+        "timestamp_updated": 1773062360,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.439999997615814209",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754360410",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbMzMAAAAAFP9wo9cAAAAB5zqLIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9219999999995707,
+  "transport_error_count": 0
+}

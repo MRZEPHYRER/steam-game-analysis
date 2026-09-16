@@ -1,0 +1,288 @@
+---
+title: "Step 5F Wilson 与 Empirical Bayes 评分调整可视化审计"
+subtitle: "游戏层级评分可靠性、不确定性与总体信息收缩"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+model_dir <- file.path("..", "data", "analysis", "modeling")
+figure_dir <- file.path("..", "figures", "modeling")
+read_5f <- function(name) read.csv(file.path(model_dir, name), stringsAsFactors = FALSE,
+  check.names = FALSE, encoding = "UTF-8")
+figure_5f <- function(name) file.path(figure_dir, name)
+ratings <- read_5f("step5f_rating_estimates.csv")
+wilson_examples <- read_5f("step5f_wilson_examples.csv")
+wilson_validation <- read_5f("step5f_wilson_validation.csv")
+priors <- read_5f("step5f_eb_prior_parameters.csv")
+weights <- read_5f("step5f_weight_demonstration.csv")
+bins <- read_5f("step5f_review_count_bin_summary.csv")
+distributions <- read_5f("step5f_rating_distribution_summary.csv")
+rank_correlations <- read_5f("step5f_rank_correlations.csv")
+topk <- read_5f("step5f_topk_overlap.csv")
+movers_up <- read_5f("step5f_rank_movers_up.csv")
+movers_down <- read_5f("step5f_rank_movers_down.csv")
+low_confidence <- read_5f("step5f_high_raw_low_confidence.csv")
+strong_shrinkage <- read_5f("step5f_high_raw_strong_shrinkage.csv")
+high_n <- read_5f("step5f_high_n_preservation.csv")
+sensitivity <- read_5f("step5f_eb_prior_sensitivity.csv")
+top_eb <- read_5f("step5f_top_eb_games.csv")
+top_wilson <- read_5f("step5f_top_wilson_games.csv")
+fit_warnings <- read_5f("step5f_fit_warnings.csv")
+stopifnot(nrow(ratings) == 2241, all(wilson_validation$validation_pass),
+  all(priors$convergence_code == 0), all(priors$starts_agree),
+  sum(fit_warnings$warning_count) == 0)
+compact_games <- function(x, n = 20) {
+  fields <- c("appid", "name", "total_reviews", "raw_positive_rate",
+    "wilson_lower_95", "eb_posterior_mean", "eb_shrinkage_pp",
+    "raw_rank", "wilson_rank", "eb_rank")
+  x[seq_len(min(nrow(x), n)), intersect(fields, names(x)), drop = FALSE]
+}
+```
+
+# Step 5F 分析目的
+
+本阶段回答单个游戏的 observed positive rate 有多可靠，以及在评论数差异巨大时如何形成更稳健的 game-level rating estimate。这里不加入 price、genre、platform 或 release regression，也不作因果解释。
+
+# 为什么 Raw Positive Rate 会误导
+
+Raw positive rate 是观察到的描述性比例。低评论数时只可能取少数离散值，因此 0%、50%、100% 很常见；相同 Raw rate 并不代表相同精度。
+
+```{r}
+#| fig-cap: "Raw positive rate 与评论数；低 n 区域呈现明显离散带"
+knitr::include_graphics(figure_5f("26_raw_rate_vs_review_count.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 低评论数区是否出现 0%、50%、100% 等 rational banding？
+- 高评论数区的比例是否更连续？
+:::
+
+# 样本定义
+
+完整 market sample 为 3,000 个游戏；759 个零评论游戏保留在市场总体，但不具有 observed reception outcome，因此不进入 Wilson 或 EB estimation。评分总体为全部 `total_reviews > 0` 的 2,241 个游戏，同时保留 free 与 paid games。
+
+# Wilson Score Interval
+
+使用 $z=1.959963984\ldots$ 的非连续性校正 95% Wilson score interval。闭式公式已用 Base R 成熟数值求根器反演 score test 交叉验证。
+
+```{r}
+knitr::kable(wilson_validation[, c("positive_reviews", "total_reviews", "wilson_lower_95",
+  "wilson_upper_95", "lower_absolute_difference", "upper_absolute_difference",
+  "validation_pass")], digits = 10,
+  caption = "表：Wilson 闭式公式与 score-test 数值反演验证")
+```
+
+Wilson interval 是频率学派 sampling uncertainty interval，不是 shrinkage estimator。Wilson lower 可用于保守排序，但不是 posterior estimate，也不是“调整后评分”。
+
+# 相同 Raw Rate、不同 Denominator
+
+```{r}
+knitr::kable(wilson_examples[, c("example_group", "positive_reviews", "total_reviews",
+  "raw_positive_rate", "wilson_lower_95", "wilson_upper_95", "wilson_width")],
+  digits = 5, caption = "表：Wilson denominator examples")
+```
+
+```{r}
+#| fig-cap: "同为 100% 或 50% Raw rate 时，Wilson 区间随 denominator 改变"
+knitr::include_graphics(figure_5f("25_wilson_denominator_geometry.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 同为 100% 评分时，1/1 与 1000/1000 的区间是否明显不同？
+- 同为 50% 时，区间是否随 denominator 单调收窄？
+:::
+
+```{r}
+#| fig-cap: "Wilson interval width 与评论数"
+knitr::include_graphics(figure_5f("27_wilson_width_vs_review_count.png"))
+```
+
+# Empirical Bayes Prior
+
+Primary prior 由全部 n>0 游戏的 Beta-Binomial marginal likelihood 确定性估计；n>=10 与 n>=20 prior 只用于敏感性分析，并应用到同一个 2,241-game evaluation population。
+
+```{r}
+knitr::kable(priors[, c("prior_id", "minimum_reviews_for_prior_fit", "n_games", "alpha",
+  "beta", "prior_mean", "prior_precision_ess", "prior_variance", "prior_mode",
+  "convergence_code", "gradient_max_abs", "hessian_min_eigenvalue", "starts_agree")],
+  digits = 7, caption = "表：EB prior parameters 与优化诊断")
+```
+
+全部 n>0 游戏估计 prior 会让大量低 n 游戏参与总体分布估计，因此替代 prior 的敏感性结果必须与 Primary 一并审计。
+
+# EB Shrinkage 机制
+
+Posterior mean 是 Raw rate 与 prior mean 的加权平均；`data_weight = n/(n+ESS)`。低 n 权重更偏向 prior，高 n 更由自身数据主导。
+
+```{r}
+knitr::kable(weights, digits = 5, caption = "表：Primary prior ESS 下的数据与 prior 权重")
+```
+
+```{r}
+#| fig-cap: "Raw rate 与 EB posterior mean；虚线为 45° 参考线"
+knitr::include_graphics(figure_5f("28_raw_vs_eb_rating.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 低 n 极端评分是否向 prior mean 收缩？
+- 高评论数游戏是否靠近 45° 线？
+:::
+
+# Raw vs EB 分布
+
+```{r}
+knitr::kable(distributions, digits = 5, caption = "表：Raw 与 EB rating 分布摘要")
+```
+
+```{r}
+#| fig-cap: "Raw positive rate 与 EB posterior mean 的固定箱宽直方图"
+knitr::include_graphics(figure_5f("30_raw_vs_eb_distribution.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Raw 0%/100% 堆积是否在 EB 中明显缓和？
+- EB 是否保留总体排序信息而减少低 n 极端值？
+:::
+
+# Review Count 与 Shrinkage
+
+```{r}
+knitr::kable(bins, digits = 5, caption = "表：Review-count bin shrinkage summary")
+```
+
+```{r}
+#| fig-cap: "EB − Raw 与评论数；零线表示无收缩"
+knitr::include_graphics(figure_5f("29_eb_shrinkage_vs_review_count.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- EB 是否主要收缩低评论数游戏？
+- 评论数增大后，收缩带是否快速靠近零？
+:::
+
+# Raw / Wilson / EB 排名比较
+
+Raw ranking 按 rate 降序、review count 降序、AppID 升序；评论数只作为 tie-break，不是 Raw rating weight。Wilson ranking 按 lower bound 降序、评论数降序、AppID 升序；EB 按 posterior mean 降序、AppID 升序。
+
+```{r}
+knitr::kable(rank_correlations, digits = 5, caption = "表：Raw/Wilson/EB rank correlations")
+knitr::kable(topk, digits = 5, caption = "表：Top-K overlap")
+```
+
+```{r}
+#| fig-cap: "Raw Top 50 在 Wilson 与 EB 排名中的位置"
+knitr::include_graphics(figure_5f("31_raw_wilson_eb_rank_comparison.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Raw 评分最高的游戏在 Wilson/EB 排序中是否明显重新排列？
+- 排名移动是否主要来自 Raw 100% ties 与低 denominator？
+:::
+
+# 最大排名变化游戏
+
+Rank movement 不是纯连续指标，尤其 Raw rate 有大量 ties；以下结果必须连同 Raw rate、review count 与 adjusted metric 解读。
+
+```{r}
+knitr::kable(compact_games(movers_up, 15), digits = 5, caption = "表：最大向上排名变化（前 15）")
+knitr::kable(compact_games(movers_down, 15), digits = 5, caption = "表：最大向下排名变化（前 15）")
+```
+
+# 高评分低置信度案例
+
+预设 descriptive flag 为 `raw >= 95%` 且 `Wilson lower < 80%`；强下调 flag 为 `raw >= 95%` 且 EB 向下收缩至少 5 个百分点。这些 cutoff 没有按结果优化。
+
+```{r}
+knitr::kable(compact_games(low_confidence), digits = 5, caption = "表：High-raw / low-confidence cases")
+knitr::kable(compact_games(strong_shrinkage), digits = 5, caption = "表：High-raw / strong-shrinkage cases")
+```
+
+```{r}
+#| fig-cap: "绝对 EB 收缩最大的 20 个游戏"
+knitr::include_graphics(figure_5f("34_most_shrunk_games.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 大幅收缩案例是否基本都是低评论数游戏？
+- 上调与下调是否分别对应 Raw rate 低于与高于 prior mean？
+:::
+
+# Prior Sensitivity
+
+```{r}
+knitr::kable(sensitivity, digits = 7, caption = "表：Prior sensitivity summary")
+```
+
+```{r}
+#| fig-cap: "n<20 游戏采用替代 prior 后，相对 Primary EB 的百分点差异"
+knitr::include_graphics(figure_5f("32_eb_prior_sensitivity.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Prior sensitivity 是否主要集中在低 n 游戏？
+- n>=10 与 n>=20 prior 的方向与幅度是否一致？
+:::
+
+# 高评论数游戏稳定性
+
+```{r}
+knitr::kable(high_n, digits = 7, caption = "表：total_reviews >= 1000 的 EB 高 n 保真审计")
+```
+
+# Top Adjusted Games
+
+```{r}
+knitr::kable(compact_games(top_eb), digits = 5, caption = "表：Top 20 EB ranking")
+knitr::kable(compact_games(top_wilson), digits = 5, caption = "表：Top 20 Wilson-lower ranking")
+```
+
+```{r}
+#| fig-cap: "Top 20 EB posterior mean 与 95% equal-tailed credible interval"
+knitr::include_graphics(figure_5f("33_top_adjusted_games.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 排名前列是否同时具有较高 Raw rate 与足够 denominator？
+- EB ranking 不应被称为真实质量排名。
+:::
+
+# 人工审计清单
+
+- Wilson validation 是否全部通过，且所有区间落在 [0,1]？
+- EB posterior mean 是否严格落在 (0,1)，权重之和是否为 1？
+- 三个 prior 是否收敛、梯度接近零、Hessian 正定、固定起点一致？
+- 高 n 游戏是否基本保留 Raw rate？
+- 替代 prior 的影响是否透明呈现，而非替代 Primary？
+- 零评论游戏是否完全排除于 rating estimator？
+
+# 阶段性结论
+
+Raw rate 是观察性描述指标；Wilson lower 是 conservative uncertainty-aware ranking；EB posterior mean 是 population-informed shrinkage estimate。Beta-binomial 仍是主要推断回归，HIGH85 Logistic 仍是次要门槛分析。本阶段不作因果解释，也不启动零评论、attention 或 hurdle modeling。

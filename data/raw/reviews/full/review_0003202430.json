@@ -1,0 +1,66 @@
+{
+  "appid": 3202430,
+  "requested_at": "2026-09-13T19:07:00.413431+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "198824515",
+        "author": {
+          "steamid": "76561198812257085",
+          "personaname": "Oussail",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Oussail/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 70,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1751547719,
+          "avatar": "e61655969ced9410f84f8eed07d70e26511c0637"
+        },
+        "language": "english",
+        "review": "I played Tiny Devils with a couple of friends last night and we ended up screaming at each other in the best way possible 😂 The courses are super random and the power-ups are just pure chaos (those bees are evil).\n\nNB : Perfect if you're into messing with your friends. Can’t wait to see what updates come next.",
+        "timestamp_created": 1751544258,
+        "timestamp_updated": 1751544258,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751284628",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbAAAAAAAAFP+AAAAAAAABzpLr2BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

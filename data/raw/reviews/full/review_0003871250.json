@@ -1,0 +1,71 @@
+{
+  "appid": 3871250,
+  "requested_at": "2026-09-13T19:52:49.228712+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 26,
+      "total_negative": 0,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "214486940",
+        "author": {
+          "steamid": "76561198030136048",
+          "personaname": "Viking Blonde",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198030136048/",
+          "num_games_owned": 4404,
+          "num_reviews": 138,
+          "playtime_forever": 230,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 230,
+          "last_played": 1766900565,
+          "avatar": "2f2223693b8518513d0be3ff3a451dc74e83621c"
+        },
+        "language": "english",
+        "review": "An unapologetic return to the whimsy-chaos that made Envirobear 2000 so good, Summit Drive is a special blend of wanting to yeet your mouse into the sun and enjoying a lovely little drive\n\nI highly recommend it, doubly so if you are streaming it",
+        "timestamp_created": 1766959933,
+        "timestamp_updated": 1766959933,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.603839695453643799",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766170817",
+        "reactions": [
+          {
+            "reaction_type": 3,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFX7FcAAAAAFP+NSqEAAAAB8+ZmyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000004802,
+  "transport_error_count": 0
+}

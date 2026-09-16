@@ -1,0 +1,66 @@
+{
+  "appid": 3136490,
+  "requested_at": "2026-09-13T19:05:02.698050+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 37,
+      "total_negative": 9,
+      "total_reviews": 46
+    },
+    "reviews": [
+      {
+        "recommendationid": "222802562",
+        "author": {
+          "steamid": "76561198014449077",
+          "personaname": "TemplarGFX",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198014449077/",
+          "num_games_owned": 0,
+          "num_reviews": 64,
+          "playtime_forever": 131,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1775724649,
+          "avatar": "30bc4d9b64f9cdbcc2c9b3e3c2e097979c66ae65"
+        },
+        "language": "english",
+        "review": "Great concept much like Gladiabots, but unfortunately where in Gladiabots the 5 minute timer worked and felt appropriate this game has it too, and here its entirely inappropriate.  Having such a small amount of time in a resource gathering game means a whole swathe of tactics are just not possible in how you play these types of games. \n\nMost of the time just when your push is finally getting some damage on the timer ends.  sure you win because you did more damage but it is in no way satisfying to spend 4 minutes getting ready to push and then having that push ended before its complete due to an arbitrary timer",
+        "timestamp_created": 1775649445,
+        "timestamp_updated": 1775649445,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.614461243152618408",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753459226",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXtfWAAAAAFP+OpqiAAAAByqPbRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0149999999998727,
+  "transport_error_count": 0
+}

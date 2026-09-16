@@ -1,0 +1,73 @@
+{
+  "appid": 2937090,
+  "requested_at": "2026-09-13T18:59:21.106701+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 88,
+      "total_negative": 67,
+      "total_reviews": 155
+    },
+    "reviews": [
+      {
+        "recommendationid": "218455367",
+        "author": {
+          "steamid": "76561199108440679",
+          "personaname": "Immortan Jones",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/bruh2622/",
+          "num_games_owned": 0,
+          "num_reviews": 11,
+          "playtime_forever": 329,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 329,
+          "last_played": 1771502010,
+          "avatar": "7e6c131f42a77a3933f0e7ff0f4e14402f933306"
+        },
+        "language": "english",
+        "review": "Got hit with the ol' bait and switcheroo with this one. lol. I bought the game, hesitated for a bit whether I should keep it, breached the 2 hour mark, only to find out the next day from Wylderzone's youtube account that they will abandon this game to work on a new IP called Dam It. It's funny how they timed a sale before making that announcement. It's like that's their last hurrah before finally abandoning the game. I could've bought Mycopunk instead. Instead, I'm stuck with this abandoned game. Great. Thanks, devs! \n\nEdit: Do yourselves a favor and not support these devs ever again. They have a history of just straight up abandoning their games after 1.0 release, making buyers like us feel like doofuses.",
+        "timestamp_created": 1771240770,
+        "timestamp_updated": 1779858202,
+        "voted_up": false,
+        "votes_up": 38,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.792439281940460205",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1772084316,
+        "developer_response": "Hi !\n\nSales were planned months in advance and automated on the Steam back end so it definitely wasn't set up as some kind of last hurrah. Regarding other games - we worked on Hunters for close to 2 years solid so are just taking a bit of a break to have a bit of fun and explore new ideas. Nothing is set in stone yet!",
+        "app_release_date": "1752508362",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUJraAAAAAFP+lbqQAAAAB31KvBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

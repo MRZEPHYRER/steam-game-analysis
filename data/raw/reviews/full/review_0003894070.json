@@ -1,0 +1,71 @@
+{
+  "appid": 3894070,
+  "requested_at": "2026-09-13T19:56:03.442208+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "216587319",
+        "author": {
+          "steamid": "76561198122415461",
+          "personaname": "spkz",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/sontriq/",
+          "num_games_owned": 315,
+          "num_reviews": 66,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1769129346,
+          "avatar": "8442685651231b08503c282a75c5f324df2ae085"
+        },
+        "language": "english",
+        "review": "Decent gameplay loop. Nothing crazy, just a bit of fun.",
+        "timestamp_created": 1769141466,
+        "timestamp_updated": 1769141466,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.561009824275970459",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764557750",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYx6EAAAAAFP+Hzy0AAAAB3w5u6Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

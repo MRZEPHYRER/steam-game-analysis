@@ -1,0 +1,66 @@
+{
+  "appid": 4157640,
+  "requested_at": "2026-09-13T20:22:56.196378+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "227902953",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 646,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 646,
+          "last_played": 1781338343,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "BUDUKUTUA: A Simple Big Adventure is an indie platforming adventure that embraces the spirit of classic genre favorites while presenting a lighthearted journey centered on exploration, discovery, and personal growth. Developed and published by Gabriel David Carnez under the GabyMakeGames label, the game focuses on delivering a straightforward yet engaging experience that values charm and creativity over complexity. Its story follows a young apprentice on a mission to restore three lost Light Crystals and prove worthy of becoming a Great Master, creating a traditional heroic quest that serves as the foundation for the adventure.\n\nThe game’s strongest feature is its emphasis on exploration. Rather than pushing players through a strictly linear sequence of levels, BUDUKUTUA encourages curiosity by filling its world with hidden paths, secrets, collectibles, and optional discoveries. Each area is designed to reward attentive players who take the time to investigate their surroundings. This approach creates a sense of adventure that feels larger than the game’s modest scope, giving players reasons to revisit locations and search every corner for new surprises.\n\nA notable gameplay mechanic revolves around collecting masks that grant special abilities. These masks are more than simple power-ups, as they directly affect how players interact with the world. New abilities unlock previously inaccessible routes and open additional opportunities for exploration, adding a satisfying layer of progression to the journey. This design choice helps keep exploration fresh while providing a tangible sense of growth as players become increasingly capable of overcoming obstacles and uncovering secrets.\n\nThe platforming itself appears designed to be approachable while still offering enough challenge to maintain engagement. Movement and navigation form the core of the experience, supported by environmental obstacles and enemy encounters that require careful timing and attention. The inclusion of boss battles introduces moments of heightened difficulty that contrast nicely with the calmer exploration-focused sections. These encounters serve as important milestones, testing the skills players have developed throughout their adventure and providing a rewarding sense of accomplishment when defeated.\n\nBeyond its gameplay systems, the world gains additional personality through interactions with non-player characters. Various inhabitants offer side quests and conversations that help flesh out the setting while providing extra objectives for completion-minded players. These interactions reinforce the game’s friendly atmosphere and help make the journey feel more meaningful than simply moving from one level to another. The focus on helping characters and restoring light to the world contributes to a positive tone that remains consistent throughout the adventure.\n\nVisually, BUDUKUTUA embraces a colorful retro-inspired presentation. The graphics are not intended to compete with large-scale modern productions, but they effectively capture the feel of classic platformers while maintaining a distinct identity. Bright environments, expressive character designs, and clear visual communication make exploration enjoyable and accessible. The nostalgic aesthetic pairs naturally with the game's traditional gameplay structure, creating an experience that feels familiar without being entirely derivative.\n\nThe narrative itself remains simple and easy to follow, which works in the game's favor. Instead of relying on complicated storytelling or extensive lore, it focuses on a straightforward quest driven by determination, self-improvement, and adventure. This simplicity allows the gameplay and exploration to take center stage while still providing enough motivation to keep players invested in the journey. The story may not be groundbreaking, but its sincerity and optimism contribute positively to the overall experience.\n\nBUDUKUTUA: A Simple Big Adventure succeeds by understanding its goals and executing them with confidence. It does not attempt to reinvent the platforming genre, but it offers a pleasant combination of exploration, progression, platforming challenges, and charming presentation. Players looking for a relaxed adventure filled with secrets, collectible abilities, and classic platforming design will likely find plenty to appreciate. While some may wish for deeper mechanics or a more ambitious narrative, the game's heartfelt approach and focus on fun exploration make it an enjoyable indie adventure that delivers exactly what its title promises: a simple adventure that feels surprisingly big.\n\nRating: 6/10",
+        "timestamp_created": 1781387437,
+        "timestamp_updated": 1781387437,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764984685",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB53rDlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

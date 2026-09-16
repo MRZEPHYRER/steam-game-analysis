@@ -1,0 +1,66 @@
+{
+  "appid": 3273550,
+  "requested_at": "2026-09-13T19:09:17.005312+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "212936378",
+        "author": {
+          "steamid": "76561198162381766",
+          "personaname": "StudioMirai",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198162381766/",
+          "num_games_owned": 836,
+          "num_reviews": 681,
+          "playtime_forever": 544,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 294,
+          "last_played": 1765325554,
+          "avatar": "5b8825b34c5d77b00c3a18897f2f1175fa0e0e57"
+        },
+        "language": "italian",
+        "review": "In questo gioco, potete impersonare Dora o Boots o entrambi, se avete un'amico per giocare in coppia. Mentre tentano di recuperare i pezzi del duplicatore rotto da swiper, dopo averlo usato su se stesso facendosi in 4, ognuno con il suo pezzo. Quindi il duo va all'inseguimento e nel contempo tentano di aiutare a ritrovare vari oggetti che i 4 swiper hanno rubato ad alcuni amici di Dora come: Isa o il grande pollo rosso. Il gioco è un platform 3d semplice con vari bivi più o meno nascosti. Per aumentare la longevità del titolo i protagonisti non potranno all'inizio \"pulire\" il livello, perchè ci saranno ostacoli che potranno essere superati con oggetti speciali: Come l'annaffiatoio di Isa. Che i vari amici  daranno ai protagonisti, se raggiungono un certo livello della storia. Solo una volta avuti tutti, potete ritornare dal primo livello e iniziare a raccogliere tutto tramite l'opzione: esplora, in un livello già completato, per provare a raccogliere tutte le foglie e i baby del livello. Nella modalità storia invece, è già tanto che riuscirete a recuperare tutti i baccelli magici del livello, ma solo perchè si trovano nella strada che porta alla fine del livello. Tra piattaforme e altro nel livello, ci saranno due interruzioni. Il primo, il vecchio troll che vi farà un indovinello e voi dovrete indovinare la risposta giusta su 2 possibili risposte. Solo rispondendo correttamente potrete passare il ponte che sorveglia, l'altro è swiper che tenta di rubare ciò che avete raccolto per l'amico di quel livello. E qui, dovete completare un semplice qte per farlo scappare. Una volta completato il livello, si sbloccherà il successivo sulla mappa, e starà a voi portare la coppia di protagonisti al prossimo livello e entrarci. Dimenticavo. Ogni amico ha 3 livelli nella sua ambientazione per un totale di 12 livelli più uno finale e 2 mini giochi falcoltativi per variare un pò. Il gioco è consigliato ai fan del cartone, specie se siete dell'età di Dora. O chi vuole avere dei achievement facili. Tutti gli altri, ci sono platform forse più interessanti. Ovviamente per sole 4 ore di gioco, il prezzo pieno non è appropriato, ma la metà perchè no, oppure se volete fare un regalo natalizio ad un fan del cartone. Il gioco è doppiato e sottotitolato in italiano ed è un buon pro. ^_^",
+        "timestamp_created": 1765310188,
+        "timestamp_updated": 1765310188,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.509433984756469727",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761292574",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFez7KAAAAAFP+BNSIAAAAB666SsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.563000000000102,
+  "transport_error_count": 0
+}

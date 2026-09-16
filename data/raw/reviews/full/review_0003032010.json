@@ -1,0 +1,75 @@
+{
+  "appid": 3032010,
+  "requested_at": "2026-09-13T19:01:27.740689+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 106,
+      "total_negative": 14,
+      "total_reviews": 120
+    },
+    "reviews": [
+      {
+        "recommendationid": "204898016",
+        "author": {
+          "steamid": "76561198356763350",
+          "personaname": "Lili",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198356763350/",
+          "num_games_owned": 367,
+          "num_reviews": 1,
+          "playtime_forever": 124,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1756240502,
+          "avatar": "a0f8f262ee3b8c6d1aab8b0c2f8b150a4323c0fd"
+        },
+        "language": "english",
+        "review": "I want to share my thoughts on the game, as I dont think I will play it again in the future.\n\nI feel that what made the game The Supper, the predecessor of The Supper: New Blood stand out against other Point and Click games was that, instead of having that one silly, illogical, but charming solution that can only work in the world of the game, every solution was odd and charming.\nIt had a dark story, of Ms. Appelton killing her customers and turning them into food for others, but due to the wierd solutions it made it feel oddly funny to me.\n\nNow, the New Blood's Demo advertised the game as you getting a new client into your Motel everyday, having to find out and judge wheater they are \"evil\" enough to \"deserve\" to die, whilest having quirky puzzle mechanics such as a pineapple on the hotels signboard being an actual pineapple to use in a recipe. Or having to get yourself wet, then electrocute yourself, to start a machine.\nThe demo definitely followed in the spirit of the first game, as it had a dark story with illogical, funny puzzels.\nHowever unlike The Supper, it also implied that the gameplay would be over a longer timeline with a new client coming in everyday, and you having to face the moral choice wheather to kill them or not. Oh, and what keys to give them (the most important choice!) ;P\nTo give the player some freedom to chose how the story plays out.\n\n\nSo then we arrive to the released version of New Blood. All the clients show up on the same day, what room you give each doesnt matter, the money that you earn doesnt matter, what order you choose to \"interrogate\" your clients doesnt matter, the puzzles and the world are bland, and finally, you do not get to make a choice wheater to kill a client or not, as they are all monsters and there is litterally no prompt to choose. Yikes.\n\nThe daily loop after your \"victims\" (more fitting then clients probably) arrive at the motel is the following:\n- You choose someone to \"interrogate\" wich basically just results in you killing them\n- You need to gather some ingredients to make a dish out of them\n- The daily mail tells you pretty accurrate hints where you need to go on the map to get the items\n- After you collect them you enter a minigame where you cook the dish.\n\nThat gets repeated for EACH victim that is staying at your motel. It stopped being fun for me pretty much the third time you go through the motions.\nIt does get broken up once in the middle of the game by a new arrival in the motel, but you still do the exact same afterwards.\n\nSo maybe the characters make it up. Sarcastic, funny dialogue from your character or the ridiculous npc's are part of a point and clicks charm no? Well usually, yes!\nBut here the main character is being treated as a victim by the story whilest showing \"little\" mercy or compassion towards others, and were supposed to feel bad for them somehow, that their misunderstood?\nHes not fun to follow around either, pretty much makes surface comments about everything he finds or observes.\nThe npc's are also just average people you might find around a town with little personality, wich is sad, as in The Supper Ms.Appletons clients were all wierd and odd characters.\n\nOh yeah, the game plays in the same town as the predecessor, wich it does not appear as slightly, if it werent for Ms. Appeltons restaurant and the area of the first game, being tucked in the corner of the map somewhere.\n\nThe best way I could describe the game it is the bland scaffolding of a point and click, wich manages to letdown in everything it had both established in a previous title as well as the in the demo.\nI would honestly make the argument that the (free) demo is a better game then this almost 10€ game, as well as the original, (free) game, The Supper.\n\nI hope that me criticising the game does not disappoint, or discourage the developers. I dont know what happend that made you take the game in such a different direction, to make the world, the people, and the puzzles so bland. Maybe the vision was too big for the game, there was too little time, or you just had a creative block and could't think of anything better.\nHonestly, designing puzzles for a point and click in general, and especially following The Supper and the demo, I would have no Idea where to start!\n\nHowever, what I do know is that you can do better, that you can be creative, and funny, and odd, and make me go \"Really, thats the solution!? Oh my god. Hahaha, thats soooo stupid! I love it.\"\n\nBut the game is not worth 10€, and I probably wont find myself playing it in the future (unless i really, really want the archivements), or recommending it to anyone.\n\nI will however, still be hopefull for what the Team Supper has cooking in the kitchen next ^^",
+        "timestamp_created": 1758483695,
+        "timestamp_updated": 1758483974,
+        "voted_up": false,
+        "votes_up": 27,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.729792475700378418",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756216776",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVZ3cAAAAAFP+dadMAAAABw7s+NBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

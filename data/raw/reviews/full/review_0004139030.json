@@ -1,0 +1,68 @@
+{
+  "appid": 4139030,
+  "requested_at": "2026-09-13T20:21:51.953645+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "212357654",
+        "author": {
+          "steamid": "76561198098937991",
+          "personaname": "十三月",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ayanokoujihokuto/",
+          "num_games_owned": 97,
+          "num_reviews": 6,
+          "playtime_forever": 238,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8,
+          "last_played": 1774415369,
+          "avatar": "32088a855d0be2016d8601188cf0cc7d12bd278e"
+        },
+        "language": "schinese",
+        "review": "买来试玩了几分钟（因为太晚了，改天再细玩），说实话，作为深度的航海爱好者（大航海2，4，风帆纪元，梦回大航海，大航海OL5年经验），这款游戏非常能GET到我！就喜欢这种轻引导，经典的图文布景，而且没有地图这一点真的非常NICE，非常刺激我的探索欲。\n\n好了，下面说一下我进入游戏后发现的一个致命问题：\n[h1] 设置界面调整窗口大小的之后，二级菜单的“窗口”“全屏”“无框全屏”按钮无法关闭，右键和上面的“返回”都不管用！ [/h1] 关于这点强烈建议修复！\n\n说了问题，再来简单说一下建议：\n1.虽说航海界面非常有航海的那个真实感，但是看不到金币的话还是比较麻烦，希望能把金币数量显示在主画面中（航海界面，港口界面等），这样玩起来舒服很多。\n2.演示视频中的其他部分都很好，唯独有一个点很违和，那就是[spoiler] 单挑战斗界面 [/spoiler]。我的建议是为了保持整体风格一致和可扩展性（为什么是扩展性，之后再说），做成更简单的表现方式或许更好，比如不用强调3D感，PPT那种表现方式甚至都没问题\n3.目前想到的最后一点建议：\n等游戏大体框架做好以后（主要是各种开局和后续细节）\n[h1] 强烈建议开放创意工坊 [/h1]\n[h1] 强烈建议开放创意工坊 [/h1]\n[h1] 强烈建议开放创意工坊 [/h1]\n这么好的想法和底子，配上创意工坊，绝对能锦上添花，大大增强可玩性，[spoiler] 还有销量 [/spoiler]\n\n好了，鉴于我目前只有几分钟的游戏过程，先说这些，之后深入游玩过后想到什么再补充\n\n[h3] 最后，如果作者大大看到本条留言，可以的话还请和我交流，我希望此游戏越来越好！[/h3]",
+        "timestamp_created": 1764618104,
+        "timestamp_updated": 1764618104,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.569351255893707275",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1764753538,
+        "developer_response": "非常感谢玩家朋友对于本游戏的支持！\n这是我发布的第一个版本，目前正努力更新中。\n窗口化的问题已经解决。\n目前的开发重心在章节完善和跑商玩法的提升。\n单人战和海战目前只是雏形。\n创意工坊会在我大部分功能做好后尽快开放（研究中）。\n这周会更新新的章节——新大陆的曙光。",
+        "app_release_date": "1763721812",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZnOwAAAAAFP+I4H6AAAAB2oYqqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

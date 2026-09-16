@@ -1,0 +1,66 @@
+{
+  "appid": 3982040,
+  "requested_at": "2026-09-13T20:07:51.243710+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 6,
+      "total_negative": 4,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "211176676",
+        "author": {
+          "steamid": "76561198409297995",
+          "personaname": "Tundra",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198409297995/",
+          "num_games_owned": 150,
+          "num_reviews": 9,
+          "playtime_forever": 161,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 130,
+          "last_played": 1764346328,
+          "avatar": "22d5d73201f6c1a4c5afb17a483b6d6e063dcfeb"
+        },
+        "language": "koreana",
+        "review": "사건 전날때 거울에 상호작용하면 검은 화면에서 안 넘어가는 버그가 있어요 x 위치 추정해서 창 꺼주면 화면 돌아오고 진행됩니다.",
+        "timestamp_created": 1764253543,
+        "timestamp_updated": 1764344764,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.571639597415924072",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763726418",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYkTQAAAAAFP+JK4AAAAAB0zsmlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.344000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3415460,
+  "requested_at": "2026-09-13T19:14:38.658212+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "231505799",
+        "author": {
+          "steamid": "76561199199820023",
+          "personaname": "散年",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199199820023/",
+          "num_games_owned": 155,
+          "num_reviews": 47,
+          "playtime_forever": 316,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 316,
+          "last_played": 1785236222,
+          "avatar": "dc344db44e18c004ef36bf6dc68b69c0186a65e3"
+        },
+        "language": "schinese",
+        "review": "是一个非常物超所值的搞笑小品bl游戏www。画风真的很好配音也很贴脸，每一个人的人设和剧情也真的都很有意思(完全想不到下一秒会发生什么/会说什么话的程度) 所以即使没有汉化我也坚持玩下来了！以及我真的好喜欢里面穿插着的一些真的很像真的在看综艺的即时re画面和主角/主持人的吐槽环节，(甚至还有那种多周目也不重复的带进度条的仿真视频广告插入…好好笑好精致)\r\n剧情省流:有点小自恋但十分敬业拼命让节目正常的漂亮男演员vs①[spoiler] 从头磕cp磕到尾还会给主角写np同人文+约会去漫展卖有着不得了的xp的同人志的(养的宠物似乎是人啊的)宠物店老板 [/spoiler]②[spoiler] 会飞奔着跳海说自己要转生成帅哥的对抗路自卑地雷男&超人气匿名歌手 [/spoiler]③[spoiler] 社会化程度非常低的外表酷哥内心娇妻的因为看了少女漫画开始向往爱情的对男主一见钟情后变成危险私生饭兼毒唯病娇男&中华街中餐厅当厨师的老中人(闭目) [/spoiler]值得一提的是和3号男嘉宾约会时背景图写着妈祖庙和关帝庙时我真的愣了一下 …以及怎么会吃豆沙馅的烤小笼包啊这是什么黑暗料理😱😱😱\r\nos:主角被这几个人衬托的性格像个天使了，但意外的和每个人都非常好磕…我逐渐理解一切。",
+        "timestamp_created": 1785236637,
+        "timestamp_updated": 1785236637,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.634300112724304199",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757663043",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXUGKAAAAAFP+RML4AAAAB3+I/zBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2970000000000255,
+  "transport_error_count": 0
+}

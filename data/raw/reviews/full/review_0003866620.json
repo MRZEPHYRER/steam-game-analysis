@@ -1,0 +1,71 @@
+{
+  "appid": 3866620,
+  "requested_at": "2026-09-13T19:51:53.464562+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "207624271",
+        "author": {
+          "steamid": "76561198111703355",
+          "personaname": "TDND Aka. SB",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198111703355/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 84,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 56,
+          "last_played": 1763214801,
+          "avatar": "5247cb5922396d9b7b3c77313c162a2915995722"
+        },
+        "language": "english",
+        "review": "Since there is no reviews yet i guess ill be first.\n\nIs this game difficult. Yes. Is the game fun? Yes.\n\nThe idea of being near blind walking around checking corners and always expecting something? A nice change compared to other games. For this price especially. \n\nSome downsides because i gotta (Might change but its early access so get some salt)\n\nEarly game is rough when dying and losing your light source. running in the pitch dark not even a small light source is pain. Inventory management is something. grabbing every item is currently not of use since cant use weak items for anything (that i found)\nstashing stuff is nice but very limiting (I dont mind personally but others might i like the challenge)\n\nMy 2 favourite features?\nMusic and Enemy design. Unique enough wheres its rare. but not uncanny to be weird. just a nice setting and design. and the sound design (even if lacking outside of certain areas) is amazing.",
+        "timestamp_created": 1761473445,
+        "timestamp_updated": 1761473445,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761323368",
+        "reactions": [
+          {
+            "reaction_type": 7,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB/hIOYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

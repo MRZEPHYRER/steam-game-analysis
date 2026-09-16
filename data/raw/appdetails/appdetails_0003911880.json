@@ -1,0 +1,189 @@
+{
+  "requested_at": "2026-09-12T17:58:34.554926+00:00",
+  "request_params": {
+    "appids": 3911880,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3911880,
+  "payload": {
+    "3911880": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ESKAPI",
+        "steam_appid": 3911880,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >You are trapped in an unfamiliar mansion.</p><p class=\"bb_paragraph\" >Find the &quot;golden key&quot; and &quot;golden door&quot; and aim to escape.</p><p class=\"bb_paragraph\" >However, you must not be found by the &quot;ghosts&quot; and &quot;monsters&quot; that infest the mansion.</p><p class=\"bb_paragraph\" >If you are found, use obstacles to escape as fast as you can.</p><p class=\"bb_paragraph\" >&quot;ESKAPI&quot; is a simple escape game where you find the &quot;key&quot; and &quot;door&quot; and proceed to the next stage.</p><p class=\"bb_paragraph\" >The placement of gimmicks such as doors that make up the stage, enemies, and items changes randomly each time.</p><p class=\"bb_paragraph\" >Create a path with light source items.</p><p class=\"bb_paragraph\" >Hide behind cover to avoid being found.</p><p class=\"bb_paragraph\" >Lure enemies with sound-making items.</p><p class=\"bb_paragraph\" >Aim to clear the game with your favorite play style.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >You are trapped in an unfamiliar mansion.</p><p class=\"bb_paragraph\" >Find the &quot;golden key&quot; and &quot;golden door&quot; and aim to escape.</p><p class=\"bb_paragraph\" >However, you must not be found by the &quot;ghosts&quot; and &quot;monsters&quot; that infest the mansion.</p><p class=\"bb_paragraph\" >If you are found, use obstacles to escape as fast as you can.</p><p class=\"bb_paragraph\" >&quot;ESKAPI&quot; is a simple escape game where you find the &quot;key&quot; and &quot;door&quot; and proceed to the next stage.</p><p class=\"bb_paragraph\" >The placement of gimmicks such as doors that make up the stage, enemies, and items changes randomly each time.</p><p class=\"bb_paragraph\" >Create a path with light source items.</p><p class=\"bb_paragraph\" >Hide behind cover to avoid being found.</p><p class=\"bb_paragraph\" >Lure enemies with sound-making items.</p><p class=\"bb_paragraph\" >Aim to clear the game with your favorite play style.</p>",
+        "short_description": "You are locked in an unfamiliar mansion. Find the &quot;golden key&quot; and &quot;golden door&quot; and escape. &quot;ESKAPI&quot; is a simple escape game where you find the &quot;key&quot; and &quot;door&quot; and proceed to the next stage.",
+        "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/53c9c09d301303ecf75aea6aff11a1786154e5b5/header.jpg?t=1760315562",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/2aa2d7e0574c639e0436491622026ed2fd6730aa/capsule_231x87.jpg?t=1760315562",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/2aa2d7e0574c639e0436491622026ed2fd6730aa/capsule_184x69.jpg?t=1760315562",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX1660<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Core i7<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX1660<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "NO-BRAINER"
+        ],
+        "publishers": [
+          "NO-BRAINER"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1374718
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ESKAPI",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1374718,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "ESKAPI - $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/17040455201f489c23e980806e406d6d7abc3331/ss_17040455201f489c23e980806e406d6d7abc3331.600x338.jpg?t=1760315562",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/17040455201f489c23e980806e406d6d7abc3331/ss_17040455201f489c23e980806e406d6d7abc3331.1920x1080.jpg?t=1760315562"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/8c0e12d7237ba98ace57768871e693c1a461c5ea/ss_8c0e12d7237ba98ace57768871e693c1a461c5ea.600x338.jpg?t=1760315562",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/8c0e12d7237ba98ace57768871e693c1a461c5ea/ss_8c0e12d7237ba98ace57768871e693c1a461c5ea.1920x1080.jpg?t=1760315562"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/ceb71aaeb41eac6b311d2b5c4c0949d8bf00709f/ss_ceb71aaeb41eac6b311d2b5c4c0949d8bf00709f.600x338.jpg?t=1760315562",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/ceb71aaeb41eac6b311d2b5c4c0949d8bf00709f/ss_ceb71aaeb41eac6b311d2b5c4c0949d8bf00709f.1920x1080.jpg?t=1760315562"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/90d12aa9a097e3db81e1ecc1c1a10b2ba6ca7cdd/ss_90d12aa9a097e3db81e1ecc1c1a10b2ba6ca7cdd.600x338.jpg?t=1760315562",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/90d12aa9a097e3db81e1ecc1c1a10b2ba6ca7cdd/ss_90d12aa9a097e3db81e1ecc1c1a10b2ba6ca7cdd.1920x1080.jpg?t=1760315562"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/520af1026004ce02f51d348b56754d1867af0ccd/ss_520af1026004ce02f51d348b56754d1867af0ccd.600x338.jpg?t=1760315562",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/520af1026004ce02f51d348b56754d1867af0ccd/ss_520af1026004ce02f51d348b56754d1867af0ccd.1920x1080.jpg?t=1760315562"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257203735,
+            "name": "ESKAPI",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257203735/c39ded91213592fff2bdabf0dfc743b79690a26f/movie_600x337.jpg?t=1758855607",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3911880/1524815047/027390fd2e636cb04dc5480e367b9684ca9e42ce/1758521200/dash_av1.mpd?t=1758855607",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3911880/1524815047/027390fd2e636cb04dc5480e367b9684ca9e42ce/1758521200/dash_h264.mpd?t=1758855607",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3911880/1524815047/027390fd2e636cb04dc5480e367b9684ca9e42ce/1758521200/hls_264_master.m3u8?t=1758855607",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 12, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "contact@no-brainer.co.jp"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3911880?t=1760315562",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911880/1e94cba20b02b72416d082df5a83a74fe6cefac3/page_bg_raw.jpg?t=1760315562",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

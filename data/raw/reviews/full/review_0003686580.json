@@ -1,0 +1,66 @@
+{
+  "appid": 3686580,
+  "requested_at": "2026-09-13T19:31:38.675976+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 296,
+      "total_negative": 51,
+      "total_reviews": 347
+    },
+    "reviews": [
+      {
+        "recommendationid": "212419212",
+        "author": {
+          "steamid": "76561198413125525",
+          "personaname": "墨痕。残烬",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/1024586612/",
+          "num_games_owned": 571,
+          "num_reviews": 112,
+          "playtime_forever": 414,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 414,
+          "last_played": 1764694322,
+          "avatar": "f9d430f39543a3685d37d0779b1cf73b7369de7d"
+        },
+        "language": "schinese",
+        "review": "虽然很想支持，但思来想去还是得给差评激励一下。\n作为一个肉鸽塔防游戏，在我2h全难度5通关，接下来打了几乎全武器的难度5单通，给人的体验就一个【同质化】\n为什么？我们看看通关的最优策略是什么：\n随便一个指挥官，随便选一个能打伤害的单塔，在地上摆满，商店升级全部选这个塔的加攻击加攻速加暴击，好了你通关了。\n什么路上的防御塔解锁选择，都是垃圾！什么挖石头拿遗物，顶天10%提升有什么用！什么路径规划，怪物能出门吗就！\n？\n不是这样的！塔防游戏不是这样的！你应该分析规划路径，规划好经济建筑和输出建筑，根据防御塔射程找到集火点，分好单体输出和群体输出，再摆上辅助塔和拦截塔，互相配合，最后再给他们挨个升级，点出特殊技能。你怎么上来就一个1级塔摆50个啊，塔防游戏不是这样玩的！！\n事实上，游戏里有这些因素吗？都有啊。游戏内的元素甚至还算比较丰富的，是有辅助塔拦截塔经济塔啊，是有单体输出和群体输出塔啊，是有dot塔和直伤塔区分啊，防御塔还分了多种伤害类型啊，为什么我们用不到呢？\n《商店升级》\n这玩意的影响太恶劣了。\n我为什么要去摆减速塔和拦截塔呢？我就是应该买我加了500%伤害500%攻速100%暴击的大爹啊。摆一个混子都是卡我格子了。\n我为什么要去升级防御塔呢？为了一座塔的攻击力从600升到630？我干嘛不新建一个？？反正特殊效果也在商店里买，而且还是1级塔摆下去就有。\n我为什么要去上不同输出模式的塔呢？哪怕一个怪他有90%物理抗性，没升级过的魔法塔就比我500%伤害500%攻速的物理塔强吗？\n好了破案了，怪物设计，路线规划，防御塔配合，遗物选择，天赋加点，全部都是垃圾！！！游戏内看似元素很多，其实从第5关商店解锁开始，这个游戏就直接到头。玩家碰到的真正boss就是商店还没买好的第10关，往后完全是超出作者设计的数值崩坏\n\n作者看着办吧，现阶段不配好评",
+        "timestamp_created": 1764696203,
+        "timestamp_updated": 1764696284,
+        "voted_up": false,
+        "votes_up": 46,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.805661439895629883",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763996271",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFT4wQAAAAAFP+nH+aAAAAB8qKiqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

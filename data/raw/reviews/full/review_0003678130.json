@@ -1,0 +1,66 @@
+{
+  "appid": 3678130,
+  "requested_at": "2026-09-13T19:30:49.286671+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "202968033",
+        "author": {
+          "steamid": "76561199019760000",
+          "personaname": "はらぺごるごん",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199019760000/",
+          "num_games_owned": 0,
+          "num_reviews": 6,
+          "playtime_forever": 447,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 317,
+          "last_played": 1770129460,
+          "avatar": "4ccbcd6a99614081896fecef6936e45371768b6b"
+        },
+        "language": "japanese",
+        "review": "[h3]農業シミュレーション×タワーディフェンスの融合ストラテジー[/h3]\n昼のターンには畑を耕し、種を植え、木こりをし、クラフトをする。そうして夜に備える。\n夜になると四方八方から攻め来るモンスターから、[b]変異した植物と協力して [/b]畑を守り抜く。\n敗北条件は納期までに作物を納めること。\n納める作物ばかり植えているとモンスターに食い荒らされるが、守りを完璧にしても納期までに作物を育てられない。\nそんなジレンマをどうこうしながら楽しむゲーム。\nユニットも種類豊富でお値段以上に楽しめる。\nオマケ程度だが遺物（？）効果でバフをモリモリにしていける楽しさもある。\nアップデート次第で如何様にも化ける可能性がある作品。\n\n不満点を挙げるなら、夜のターンが始まる時に処理が重くなること。数日に一回クラッシュする。セーブ時にもそこそこ重くなるので最適化を早くしてほしいところ。\n\nとはいえ、[u] お値段以上なのは保証する [/u]",
+        "timestamp_created": 1756281744,
+        "timestamp_updated": 1756281744,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756087804",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABxvqGGBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2039999999997235,
+  "transport_error_count": 0
+}

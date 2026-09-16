@@ -1,0 +1,227 @@
+{
+  "requested_at": "2026-09-13T06:53:33.433401+00:00",
+  "request_params": {
+    "appids": 4105390,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4105390,
+  "payload": {
+    "4105390": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ZUMANU Trip",
+        "steam_appid": 4105390,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >&quot;ZUMANU Trip&quot; is a simple exploration game.</p><p class=\"bb_paragraph\" >You can explore the city of ZUMANU, enjoy the scenery and discover crystals and mandarin oranges.</p><p class=\"bb_paragraph\" >Once you have collected all the crystals, a magic circle will be activated, and when you step on it, the area will change.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>FEATURES</strong></p><p class=\"bb_paragraph\" >You can explore by walking, running, jumping, and flying.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You can jump up to three times, allowing you to reach higher places. </p><p class=\"bb_paragraph\" >Additionally, you can reset your jump count by touching a wall while jumping, allowing you to reach even higher places.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >When you are in the air, you can fly on a broom.</p><p class=\"bb_paragraph\" >When you ride a broom, you fall very slowly, allowing you to stay in the air for a long time. </p><p class=\"bb_paragraph\" >This is useful for traveling to other locations or looking down on the city.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >There is no clear story in &quot;ZUMANU Trip.&quot; Feel free to explore.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >&quot;ZUMANU Trip&quot; is a simple exploration game.</p><p class=\"bb_paragraph\" >You can explore the city of ZUMANU, enjoy the scenery and discover crystals and mandarin oranges.</p><p class=\"bb_paragraph\" >Once you have collected all the crystals, a magic circle will be activated, and when you step on it, the area will change.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>FEATURES</strong></p><p class=\"bb_paragraph\" >You can explore by walking, running, jumping, and flying.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You can jump up to three times, allowing you to reach higher places. </p><p class=\"bb_paragraph\" >Additionally, you can reset your jump count by touching a wall while jumping, allowing you to reach even higher places.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >When you are in the air, you can fly on a broom.</p><p class=\"bb_paragraph\" >When you ride a broom, you fall very slowly, allowing you to stay in the air for a long time. </p><p class=\"bb_paragraph\" >This is useful for traveling to other locations or looking down on the city.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >There is no clear story in &quot;ZUMANU Trip.&quot; Feel free to explore.</p>",
+        "short_description": "&quot;ZUMANU Trip&quot; is a simple exploration game. You can explore the city of ZUMANU, enjoy the scenery and discover crystals and mandarin oranges. You can explore by walking, running, jumping, and flying. There is no clear story in this game. Feel free to explore.",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/d88bd26da58d31f9e7a0d76d425eac270ee4b936/header.jpg?t=1762947769",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/501712dda6b903b89f2c2b5699afceb91253624a/capsule_231x87.jpg?t=1762947769",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/501712dda6b903b89f2c2b5699afceb91253624a/capsule_184x69.jpg?t=1762947769",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows11<br></li><li><strong>Processor:</strong>  Intel Core i5-8350<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong>  Intel(R) UHD Graphics 620<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "mitataMAT"
+        ],
+        "publishers": [
+          "mitataMAT"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1438635
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ZUMANU Trip",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1438635,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "ZUMANU Trip - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/4c4a9b2c99c5aae532c9edec69d977b81f65407e/ss_4c4a9b2c99c5aae532c9edec69d977b81f65407e.600x338.jpg?t=1762947769",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/4c4a9b2c99c5aae532c9edec69d977b81f65407e/ss_4c4a9b2c99c5aae532c9edec69d977b81f65407e.1920x1080.jpg?t=1762947769"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/3ec95191c339e86de6f8b4ff70919a6dcdeb38e4/ss_3ec95191c339e86de6f8b4ff70919a6dcdeb38e4.600x338.jpg?t=1762947769",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/3ec95191c339e86de6f8b4ff70919a6dcdeb38e4/ss_3ec95191c339e86de6f8b4ff70919a6dcdeb38e4.1920x1080.jpg?t=1762947769"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/1ffc742188d911b327f195585e9dbfe9f53e30df/ss_1ffc742188d911b327f195585e9dbfe9f53e30df.600x338.jpg?t=1762947769",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/1ffc742188d911b327f195585e9dbfe9f53e30df/ss_1ffc742188d911b327f195585e9dbfe9f53e30df.1920x1080.jpg?t=1762947769"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/c33c989b936325489c896a9e9c6e061347e14ab8/ss_c33c989b936325489c896a9e9c6e061347e14ab8.600x338.jpg?t=1762947769",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/c33c989b936325489c896a9e9c6e061347e14ab8/ss_c33c989b936325489c896a9e9c6e061347e14ab8.1920x1080.jpg?t=1762947769"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/6528954a80b96f966d890d521a33ae60babed8ce/ss_6528954a80b96f966d890d521a33ae60babed8ce.600x338.jpg?t=1762947769",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/6528954a80b96f966d890d521a33ae60babed8ce/ss_6528954a80b96f966d890d521a33ae60babed8ce.1920x1080.jpg?t=1762947769"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257216453,
+            "name": "Movie01",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257216453/361a68a48018d30b739688af4b1a2cbdec2ad223/movie_600x337.jpg?t=1761302165",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4105390/1066662416/d9e88e3831d71e3537f3695bce7feb8eb9e87dd9/1760277076/dash_av1.mpd?t=1761302165",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4105390/1066662416/d9e88e3831d71e3537f3695bce7feb8eb9e87dd9/1760277076/dash_h264.mpd?t=1761302165",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4105390/1066662416/d9e88e3831d71e3537f3695bce7feb8eb9e87dd9/1760277076/hls_264_master.m3u8?t=1761302165",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 2,
+          "highlighted": [
+            {
+              "icon": "ff07746523cb4c9ab8066fafae1297a5f8b445a2.jpg",
+              "localized_name": "Crystal discoverer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Crystal discoverer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4105390/ff07746523cb4c9ab8066fafae1297a5f8b445a2.jpg"
+            },
+            {
+              "icon": "800837953b53b42ea389bc66e2a98433a9e2a627.jpg",
+              "localized_name": "Mandarin orange discoverer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mandarin orange discoverer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4105390/800837953b53b42ea389bc66e2a98433a9e2a627.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "m3o7o1n5@yahoo.co.jp"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4105390?t=1762947769",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4105390/0d8d03522ce16b85908cba2741572f05b56ce681/page_bg_raw.jpg?t=1762947769",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

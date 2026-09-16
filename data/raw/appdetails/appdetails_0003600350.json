@@ -1,0 +1,254 @@
+{
+  "requested_at": "2026-09-12T15:42:21.146363+00:00",
+  "request_params": {
+    "appids": 3600350,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3600350,
+  "payload": {
+    "3600350": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Bashing Brutal",
+        "steam_appid": 3600350,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Bashing Brutal is a fully Physics-Based combat game, focusing on melee fighting. Experience the Brutal life of a Gladiator, Bash your opponent's heads in with Maces, Boxing Gloves, Baseball Bats.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Whether you are fighting in a Gladiator Arena, Boxing Ring, MMA Octagon, or on The Streets, your impacts will be Felt!<br>Satisfying physics-based hit reactions and Gore. Blood, Blood everywhere!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Characters and Combat aren't the only things that use physics. Everything in the Environment uses cutting edge physics simulation.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Bashing Brutal is a fully Physics-Based combat game, focusing on melee fighting. Experience the Brutal life of a Gladiator, Bash your opponent's heads in with Maces, Boxing Gloves, Baseball Bats.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Whether you are fighting in a Gladiator Arena, Boxing Ring, MMA Octagon, or on The Streets, your impacts will be Felt!<br>Satisfying physics-based hit reactions and Gore. Blood, Blood everywhere!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Characters and Combat aren't the only things that use physics. Everything in the Environment uses cutting edge physics simulation.</p>",
+        "short_description": "Bashing Brutal is a fully Physics-Based combat game, focusing on melee fighting. Experience the Brutal life of a Gladiator, Bash your opponent's heads in with Maces, Boxing Gloves, Baseball Bats.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Simplified Chinese, Turkish",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/fbe184642b4d7e8723d641986d6f8e80f0feb3bd/header.jpg?t=1780337953",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/99ae13727affc29173c4c18ac8eb52808d8ed8f3/capsule_231x87.jpg?t=1780337953",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/99ae13727affc29173c4c18ac8eb52808d8ed8f3/capsule_184x69.jpg?t=1780337953",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or Later (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5-6600K @ 3.5 GHz or AMD Ryzen 5 1600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 (6GB VRAM) or Equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-Compatible</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or Later (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i7-9700K @ 3.6 GHz or AMD Ryzen 7 3700X<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2060 (6GB VRAM) or Equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-Compatible</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Lema Games"
+        ],
+        "publishers": [
+          "Lema Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.99"
+        },
+        "packages": [
+          1269803
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Bashing Brutal",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1269803,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Bashing Brutal - $7.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 799
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/511e84f1099e3d7dfd7dfc2ca91871b7e70842a0/ss_511e84f1099e3d7dfd7dfc2ca91871b7e70842a0.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/511e84f1099e3d7dfd7dfc2ca91871b7e70842a0/ss_511e84f1099e3d7dfd7dfc2ca91871b7e70842a0.1920x1080.jpg?t=1780337953"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/f21f5d150232c6ead87d4bdd1ba44c83dbc470c2/ss_f21f5d150232c6ead87d4bdd1ba44c83dbc470c2.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/f21f5d150232c6ead87d4bdd1ba44c83dbc470c2/ss_f21f5d150232c6ead87d4bdd1ba44c83dbc470c2.1920x1080.jpg?t=1780337953"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/1528f95d6be85c7cdd7d070f4edcf1c9975ccac2/ss_1528f95d6be85c7cdd7d070f4edcf1c9975ccac2.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/1528f95d6be85c7cdd7d070f4edcf1c9975ccac2/ss_1528f95d6be85c7cdd7d070f4edcf1c9975ccac2.1920x1080.jpg?t=1780337953"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/900b6cf161f2ed74b411d07d9ed6b5c15dad57fd/ss_900b6cf161f2ed74b411d07d9ed6b5c15dad57fd.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/900b6cf161f2ed74b411d07d9ed6b5c15dad57fd/ss_900b6cf161f2ed74b411d07d9ed6b5c15dad57fd.1920x1080.jpg?t=1780337953"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/69e3942c10badf03e30a8c23f2bb138f5b57944f/ss_69e3942c10badf03e30a8c23f2bb138f5b57944f.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/69e3942c10badf03e30a8c23f2bb138f5b57944f/ss_69e3942c10badf03e30a8c23f2bb138f5b57944f.1920x1080.jpg?t=1780337953"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/239f9debf5b20f21ca2ceebbdaead7f3f4f0719c/ss_239f9debf5b20f21ca2ceebbdaead7f3f4f0719c.600x338.jpg?t=1780337953",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600350/239f9debf5b20f21ca2ceebbdaead7f3f4f0719c/ss_239f9debf5b20f21ca2ceebbdaead7f3f4f0719c.1920x1080.jpg?t=1780337953"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257154164,
+            "name": "Gameplay Next Fest",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257154164/1a5eeadcf7028d9d56c95e9ecf12fed7eaec4fe8/movie_600x337.jpg?t=1750718416",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3600350/2081106028/dd3299d04aeab530d7d099ce4059ff57bd7596cc/1750447373/dash_av1.mpd?t=1750718416",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3600350/2081106028/dd3299d04aeab530d7d099ce4059ff57bd7596cc/1750447373/dash_h264.mpd?t=1750718416",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3600350/2081106028/dd3299d04aeab530d7d099ce4059ff57bd7596cc/1750447373/hls_264_master.m3u8?t=1750718416",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 2,
+          "highlighted": [
+            {
+              "icon": "49bfb2620547598ba559b79fe8cbd896dc542d52.jpg",
+              "localized_name": "Gladiator Completed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gladiator Completed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3600350/49bfb2620547598ba559b79fe8cbd896dc542d52.jpg"
+            },
+            {
+              "icon": "4012aa0e5297f0714c0a4afd0a2de3c5ba461ba0.jpg",
+              "localized_name": "Modern Completed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Modern Completed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3600350/4012aa0e5297f0714c0a4afd0a2de3c5ba461ba0.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "amel.gamedev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3600350?t=1780337953",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3600350?t=1780337953",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "The game features scenes of violence, murder, fights to the death.\r\nIn some scenes there might be veiled nudity (revealing outfits)."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema\nNudez"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

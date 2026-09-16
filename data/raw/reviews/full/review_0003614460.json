@@ -1,0 +1,71 @@
+{
+  "appid": 3614460,
+  "requested_at": "2026-09-13T19:26:09.184279+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 341,
+      "total_negative": 80,
+      "total_reviews": 421
+    },
+    "reviews": [
+      {
+        "recommendationid": "215936773",
+        "author": {
+          "steamid": "76561198945482927",
+          "personaname": "Lexi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198945482927/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 17579,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 4892,
+          "last_played": 1782834024,
+          "avatar": "1df3535a6f4c9bcf76d310fff46700d18b98412c"
+        },
+        "language": "english",
+        "review": "I switched from playing Supermarket Simulator to Hypermarket Simulator and couldn't be happier about it. From more to do, more licenses to unlock and bigger spaces with a large variety of items to sell, this game is my favorite to play here recently! I've already put 81 hours into it and i've had it for about 2 weeks!! Also, the Devs are amazing.",
+        "timestamp_created": 1768363015,
+        "timestamp_updated": 1768363015,
+        "voted_up": true,
+        "votes_up": 30,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.78971707820892334",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755676372",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUNKYAAAAAFP+lFXKAAAAB18N23Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

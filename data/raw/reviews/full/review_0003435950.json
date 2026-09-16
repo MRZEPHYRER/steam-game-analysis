@@ -1,0 +1,66 @@
+{
+  "appid": 3435950,
+  "requested_at": "2026-09-13T19:15:45.377164+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 2,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "206130043",
+        "author": {
+          "steamid": "76561199816683125",
+          "personaname": "뀨몽",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199816683125/",
+          "num_games_owned": 0,
+          "num_reviews": 19,
+          "playtime_forever": 85,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 85,
+          "last_played": 1759853675,
+          "avatar": "c38d550fd779aadd34f4cb9fe0da160cefc2320a"
+        },
+        "language": "koreana",
+        "review": "1100원이라는 저렴한 가격이 무색하게 꽤나 괜찮은 작품.\n\n깔끔하고 귀여운 픽셀그래픽이 보기에도 좋다.\n\n따져보면 분명 서툴고 투박한 면도 다소 있긴 하지만 저렴한 가격을 생각하면 전부 용서된다.\n\n다만 솔직히 말해서, 이 작품이 가진 감성은 마음에 들지 않는다. 어디까지나 취향의 영역이기에 비추를 누르진 않겠지만...\n\n서정적인 게임 속 도트와 문체, 염세적이고 비판적인 주인공의 말투와 사고방식.\n\n한편으로는 몽환적이면서도 다른 한편으로는 현실적인, 왠지 모르게 숨막히고 답답한 이 느낌이 내게는 쥐약인 듯 싶다.\n\n너무 이질적인 두 가지 모습이 경계없이 서로 섞여있던 탓에 나는 어느쪽에 취해야 할지 계속 고민하다가, 결국 때를 놓치고 아무것도 결정하지 못한 채 왠지 씁쓸한 기분으로 엔딩을 봐버렸다.\n\n그리고 그 경험은 전혀 즐겁지 않았다. 아름답다고 느껴지지도 않았다.\n\n취향이 맞는 사람에게는 어쩌면 명작이 될 수도 있을 이야기. 그러나 아쉽게도 내게는 아니었다.",
+        "timestamp_created": 1759857392,
+        "timestamp_updated": 1759857616,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754031621",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZIO6AAAAAFP+Fk6MAAAAB7t6mSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

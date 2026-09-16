@@ -1,0 +1,66 @@
+{
+  "appid": 4025330,
+  "requested_at": "2026-09-13T20:12:48.854657+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 111,
+      "total_negative": 22,
+      "total_reviews": 133
+    },
+    "reviews": [
+      {
+        "recommendationid": "207625586",
+        "author": {
+          "steamid": "76561198284196598",
+          "personaname": "MorpheusEOsss",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198284196598/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 106,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 106,
+          "last_played": 1761474474,
+          "avatar": "214a6c58e0ea5bd302e8b9b6622c6a7dddd504bc"
+        },
+        "language": "schinese",
+        "review": "特别好评们应该是刷出来的，估计觉得自己定价也就20块，画面质感好点，演员演技不太差也没人会差评吧，但是剧情和推理部分真的太烂了，甚至一些经典硬伤（例如明明写着不能随意翻阅的档案，记者跑去调查问了一下福利院院长，院长就毫无防备把钥匙给他自己看去了...），这只是剧情上的；游戏体验感上面，可谓是毫无体验感，本来以为是经典的本格推理，线索和推理之间没有关联关系，也没有层层递进的感觉，不免让人觉得是不是为了wash money拍的这个大学生毕业小短剧",
+        "timestamp_created": 1761474825,
+        "timestamp_updated": 1761474825,
+        "voted_up": false,
+        "votes_up": 23,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.743481636047363281",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761377351",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVHzeAAAAAFP+fODaAAAABy14OYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.29700000000048,
+  "transport_error_count": 0
+}

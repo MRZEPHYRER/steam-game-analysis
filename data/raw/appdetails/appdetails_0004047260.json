@@ -1,0 +1,234 @@
+{
+  "requested_at": "2026-09-13T06:37:13.207763+00:00",
+  "request_params": {
+    "appids": 4047260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4047260,
+  "payload": {
+    "4047260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Gamma Burst",
+        "steam_appid": 4047260,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Gamma Burst is a Spaceship Builder top down Action Roguelike, in which you build your spaceship using tiles (Hulls) on a grid and then placing Weapons and Thrusters on it to create all kinds of ships in all shapes and sizes. </p><p class=\"bb_paragraph\" >Using what you built, you fight waves of enemies before coming toe to toe with the Boss of the stage, which is (usually) a large sized Dreadnought that fires its large weapons at you from a long distance. Dodge its attacks and whittle down it's large Health pool in order to defeat it and proceed to the next Stage. </p><p class=\"bb_paragraph\" >Between each Stage, you go back to the Hangar in order to improve your Ship using the Materials, Weapons and Upgrade Items that you picked up during your expedition. You can also visit the Shop to buy or sell Weapons and trade in Scrap for Upgrade Items.</p><p class=\"bb_paragraph\" >The Shipbuilding is easy to do, prioritizing creativity rather than realism, so you don't have to worry about having an engineering phd to play this game.  Building a large Ship will give you a lot more stats, but keeping a small Ship and upgrading its Hull and Weapons using the same amount of Materials will result in an equivalently powerful but differently played ship build.</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Gamma Burst is a Spaceship Builder top down Action Roguelike, in which you build your spaceship using tiles (Hulls) on a grid and then placing Weapons and Thrusters on it to create all kinds of ships in all shapes and sizes. </p><p class=\"bb_paragraph\" >Using what you built, you fight waves of enemies before coming toe to toe with the Boss of the stage, which is (usually) a large sized Dreadnought that fires its large weapons at you from a long distance. Dodge its attacks and whittle down it's large Health pool in order to defeat it and proceed to the next Stage. </p><p class=\"bb_paragraph\" >Between each Stage, you go back to the Hangar in order to improve your Ship using the Materials, Weapons and Upgrade Items that you picked up during your expedition. You can also visit the Shop to buy or sell Weapons and trade in Scrap for Upgrade Items.</p><p class=\"bb_paragraph\" >The Shipbuilding is easy to do, prioritizing creativity rather than realism, so you don't have to worry about having an engineering phd to play this game.  Building a large Ship will give you a lot more stats, but keeping a small Ship and upgrading its Hull and Weapons using the same amount of Materials will result in an equivalently powerful but differently played ship build.</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Gamma Burst is a Spaceship Builder top down Action Roguelike, in which you build your spaceship from scratch,and use it to beat waves of enemies along with a large Boss ship. Then you improve or rebuild your Ship using materials you find to fight bigger and more dangerous enemies.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/326f43c8ef13dcafee274d7ba6d17d503c550b90/header.jpg?t=1771876601",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/1c3545d9a106e64fd1bfec39ebdec577899a927f/capsule_231x87.jpg?t=1771876601",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/1c3545d9a106e64fd1bfec39ebdec577899a927f/capsule_184x69.jpg?t=1771876601",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows<br></li><li><strong>Processor:</strong> Mine is about 3.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 64 MB<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Ulysses Blackjohn"
+        ],
+        "publishers": [
+          "Ulysses Blackjohn"
+        ],
+        "demos": [
+          {
+            "appid": 4266800,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1419585
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Gamma Burst",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1419585,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Gamma Burst - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/16cec3db8e54e4e779ec61509dc545a585ebd515/ss_16cec3db8e54e4e779ec61509dc545a585ebd515.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/16cec3db8e54e4e779ec61509dc545a585ebd515/ss_16cec3db8e54e4e779ec61509dc545a585ebd515.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/a94cde9db1b428ab898b219d1a5aa4f0cf99b200/ss_a94cde9db1b428ab898b219d1a5aa4f0cf99b200.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/a94cde9db1b428ab898b219d1a5aa4f0cf99b200/ss_a94cde9db1b428ab898b219d1a5aa4f0cf99b200.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/d3967bf23c7c384d5aaed0fab6d9871062c21a3c/ss_d3967bf23c7c384d5aaed0fab6d9871062c21a3c.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/d3967bf23c7c384d5aaed0fab6d9871062c21a3c/ss_d3967bf23c7c384d5aaed0fab6d9871062c21a3c.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/6ca133b2a1fc00624942721ef36b0ef30e521540/ss_6ca133b2a1fc00624942721ef36b0ef30e521540.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/6ca133b2a1fc00624942721ef36b0ef30e521540/ss_6ca133b2a1fc00624942721ef36b0ef30e521540.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/4f4a171fc1496b82751c2848bb0fac0a7bf63877/ss_4f4a171fc1496b82751c2848bb0fac0a7bf63877.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/4f4a171fc1496b82751c2848bb0fac0a7bf63877/ss_4f4a171fc1496b82751c2848bb0fac0a7bf63877.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/76d3ef9ecade21cfe2d614d25f79ca4dac9fd356/ss_76d3ef9ecade21cfe2d614d25f79ca4dac9fd356.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/76d3ef9ecade21cfe2d614d25f79ca4dac9fd356/ss_76d3ef9ecade21cfe2d614d25f79ca4dac9fd356.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/e97f8e39720308738e8c06ca43a4a8fabbde95a0/ss_e97f8e39720308738e8c06ca43a4a8fabbde95a0.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/e97f8e39720308738e8c06ca43a4a8fabbde95a0/ss_e97f8e39720308738e8c06ca43a4a8fabbde95a0.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/90db3d54f0d07521015f01d5cb0d5c0397417c98/ss_90db3d54f0d07521015f01d5cb0d5c0397417c98.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/90db3d54f0d07521015f01d5cb0d5c0397417c98/ss_90db3d54f0d07521015f01d5cb0d5c0397417c98.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/998b26957ec3a354b265a442484f75d16d9008f3/ss_998b26957ec3a354b265a442484f75d16d9008f3.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/998b26957ec3a354b265a442484f75d16d9008f3/ss_998b26957ec3a354b265a442484f75d16d9008f3.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/f164720f066dc8219ced412b2481a698867bc565/ss_f164720f066dc8219ced412b2481a698867bc565.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/f164720f066dc8219ced412b2481a698867bc565/ss_f164720f066dc8219ced412b2481a698867bc565.1920x1080.jpg?t=1771876601"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/b525f3a8e64d8460d63c9aee3e8cc93976b26416/ss_b525f3a8e64d8460d63c9aee3e8cc93976b26416.600x338.jpg?t=1771876601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4047260/b525f3a8e64d8460d63c9aee3e8cc93976b26416/ss_b525f3a8e64d8460d63c9aee3e8cc93976b26416.1920x1080.jpg?t=1771876601"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257293132,
+            "name": "Gamma Burst Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257293132/83e872883d827be7e9b5438dbeae941d95e85946/movie_600x337.jpg?t=1771876599",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4047260/333386975/ba224e66d12e1906f61e72d4709a8a79b72fe894/1771875276/dash_av1.mpd?t=1771876599",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4047260/333386975/ba224e66d12e1906f61e72d4709a8a79b72fe894/1771875276/dash_h264.mpd?t=1771876599",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4047260/333386975/ba224e66d12e1906f61e72d4709a8a79b72fe894/1771875276/hls_264_master.m3u8?t=1771876599",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 12, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ulyssesblackjohn@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4047260?t=1771876601",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4047260?t=1771876601",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

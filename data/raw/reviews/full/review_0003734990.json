@@ -1,0 +1,73 @@
+{
+  "appid": 3734990,
+  "requested_at": "2026-09-13T19:35:40.112622+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 25,
+      "total_negative": 3,
+      "total_reviews": 28
+    },
+    "reviews": [
+      {
+        "recommendationid": "205030498",
+        "author": {
+          "steamid": "76561198029339117",
+          "personaname": "MrFreeze",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198029339117/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 3371,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2480,
+          "last_played": 1778184510,
+          "avatar": "41f7ae1b5310bab24cdb6349a9fed61f1baff2cc"
+        },
+        "language": "english",
+        "review": "I played the predecessor to this game in the 90s. My brother and I sunk many hours into playing it. As a kid, we did not understand that the animations are rough visual representations of the play that has been calculated with a result before you actually watch the play. So there was undue frustration as kids when the animation looked like our players were doing some strange things. If we had understood the intention of the animation from from the start, it wouldn't have been a frustration. Regardless, we played and enjoyed that game for many hours.\n\nFast forward to 2025. I had not realized that Kerry Batts had picked the game back up and was developing the game for the last 5+ years on Steam. The nostalgia rush alone was worth the $25. The game has been improved substantially since 93 under the hood while maintaining similar visuals and animations.\n\nIf you are looking for a realistic football engine, I have not found better than this game. It is a different structure than most other games I've seen where player ratings represent certain areas like speed of a player. In this game, speed represents the chances of the player breaking out and making big gains rather than their actual running speed. Strength has to do with middle runs/tight ends, and quickness affects a player's ability for outside runs and counters. \n\nThese are subtle differences compared to the usual strength, speed, and agility you see in games like Madden. While the stats in this game do account for actual speed, agility, and strength, it seems that the game generalizes the abilities and combines them to create an overall skill rather than just a flat attribute. I like this. It makes specific ratings that much more important in my view in contrast to just knowing how fast a player can run. \n\nI will add that this is all found within the user manual in the game and I have no insider information on the details of the player ratings. This is just my experience after playing quite a few games and Kerry has never revealed the inner workings of his engine which I both respect and appreciate.\n\nThe modding community is dedicated, and has gone above and beyond with their contributions. Installing the mods is simple enough, and the community is very helpful. You can install any season with a working schedule going back as far as the 40s, and the game gives you the ability to edit and customize the league, players, and teams in great detail.\n\nThe animations are sometimes a bit off. The user interface isn't the most modern. I see some things that I remember seeing when I played the predecessor 90s game. Normally that would be multiple points against a game, but this one maintains the retro charm of 90s games and I enjoy that. Once you realize that the animations themselves are more a choreographic representation of what happened rather than causing what happens, this is only a minor point against the game itself and is honestly only an issue if you are looking for a more Madden styled game. Pro Strategy Football is not Madden, and I couldn't be happier saying that, and I'm grateful that Kerry has maintained his original vision.\n\nIn conclusion, what you are buying is a unique game engine.  You have the ability to sim seasons just to see what happens, coach a team with minimal detail, or coach with extreme detail. The developer says his game does not cheat and I believe him. This game engine gives all the realism while still allowing for surprises and acknowledging the subtle skills like a QB with high leadership being more likely to turn a game around than a QB with low leadership. So if you want a truly deep strategic simulation engine to go back and play NFL years that are nostalgic for you, or even recent to current years, I can't think of a better game to recommend to you. So while you are deciding whether to buy the game and support an dedicated independent developer (which I highly recommend if it isn't obvious by now), I'm going to start the game up and continue my mid 90s historic career with the Packers. Go Pack Go!",
+        "timestamp_created": 1758637073,
+        "timestamp_updated": 1758887587,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.695351898670196533",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1758677360,
+        "developer_response": "Thank you so much for referencing TLSF!  That was such a thrill for me, and I wish Coach Landry see the game now.  I'm glad you're enjoying it!",
+        "app_release_date": "1757968998",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWF8wAAAAAFP+ZAUuAAAAByxpCOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

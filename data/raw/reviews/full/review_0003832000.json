@@ -1,0 +1,66 @@
+{
+  "appid": 3832000,
+  "requested_at": "2026-09-13T19:46:19.468449+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 2,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "217668140",
+        "author": {
+          "steamid": "76561199132375113",
+          "personaname": "semperswett",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/semperswett/",
+          "num_games_owned": 0,
+          "num_reviews": 2057,
+          "playtime_forever": 14,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1770343661,
+          "avatar": "099b2ecb5a4680e0e1811073ce8ab5b9b3b61bbb"
+        },
+        "language": "english",
+        "review": "A zoom function would be really nice. Considering how small the cats are and how congested the picture is, it boggles my mind that there is no zoom. I had to use the hint system for almost every cat because I just couldn't see any of them in the picture. Its a strain on the eyes, and can give you a real bad headache. I would skip this title.",
+        "timestamp_created": 1770343790,
+        "timestamp_updated": 1770343790,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752858051",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB8oqu+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.141000000000531,
+  "transport_error_count": 0
+}

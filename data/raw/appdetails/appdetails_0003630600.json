@@ -1,0 +1,323 @@
+{
+  "requested_at": "2026-09-12T15:49:38.702204+00:00",
+  "request_params": {
+    "appids": 3630600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3630600,
+  "payload": {
+    "3630600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "from by",
+        "steam_appid": 3630600,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          3923400
+        ],
+        "detailed_description": "<h1>Just Updated</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/extras/6c556e8d4eabe34efce987b25f32ccce.avif?t=1759201423\" width=160 height=100 /></span><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/extras/d7fe930053b93334a09147e5d127c3e6.avif?t=1759201423\" width=160 height=100 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" >From by is a simple third person action adventure game where players need to transform into various animals, evade danger and improve their skills in an environment full of mechanisms, and ultimately complete the competition to win.</p><p class=\"bb_paragraph\" >A relaxed and humorous multiplayer challenge, where you and your friends will transform into animals and joyfully adventure through creative levels. What are you waiting for? Start a happy and hilarious time with your friends!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >From by is a simple third person action adventure game where players need to transform into various animals, evade danger and improve their skills in an environment full of mechanisms, and ultimately complete the competition to win.</p><p class=\"bb_paragraph\" >A relaxed and humorous multiplayer challenge, where you and your friends will transform into animals and joyfully adventure through creative levels. What are you waiting for? Start a happy and hilarious time with your friends!</p>",
+        "short_description": "From by is a simple third person action adventure game where players need to transform into various animals, evade danger and improve their skills in an environment full of mechanisms, and ultimately complete the competition to win.",
+        "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Russian<strong>*</strong>, Japanese<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Korean<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/ff32964fac8a19c1dfdbe8cdaab3d1d390a5cec9/header.jpg?t=1759201423",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/4566ce66a2137efcc7f34873c32d45e7982aac7f/capsule_231x87.jpg?t=1759201423",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/4566ce66a2137efcc7f34873c32d45e7982aac7f/capsule_184x69.jpg?t=1759201423",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> win8.1/win10<br></li><li><strong>Processor:</strong> lnte Core i3-7100K/AMD R5-1500X<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti/AMD RX 460<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> win11<br></li><li><strong>Processor:</strong> lnte Core i3-8350K/AMD R5-3600XT<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1050 Ti/AMD RX 560 XT<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "legal_notice": "Copyright: Virtual Science Studio ，All",
+        "developers": [
+          "权威工作室群"
+        ],
+        "publishers": [
+          "权威工作室群"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1279841
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy from by",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1279841,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "from by - $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/1f850c6879919ae82f1b42d7c6a4847909f29c2e/ss_1f850c6879919ae82f1b42d7c6a4847909f29c2e.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/1f850c6879919ae82f1b42d7c6a4847909f29c2e/ss_1f850c6879919ae82f1b42d7c6a4847909f29c2e.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/eb1fca32e3f16197e75c0d4cdf1fe0ee6611baae/ss_eb1fca32e3f16197e75c0d4cdf1fe0ee6611baae.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/eb1fca32e3f16197e75c0d4cdf1fe0ee6611baae/ss_eb1fca32e3f16197e75c0d4cdf1fe0ee6611baae.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/56f826675cd3fbbdae058c70f0aa9e0051868dfb/ss_56f826675cd3fbbdae058c70f0aa9e0051868dfb.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/56f826675cd3fbbdae058c70f0aa9e0051868dfb/ss_56f826675cd3fbbdae058c70f0aa9e0051868dfb.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/20fb5a0a6b7eb00612582f5e50e27de45a8042e1/ss_20fb5a0a6b7eb00612582f5e50e27de45a8042e1.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/20fb5a0a6b7eb00612582f5e50e27de45a8042e1/ss_20fb5a0a6b7eb00612582f5e50e27de45a8042e1.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/df4f1b99be60b31f887259ed4e780c01d365ce9c/ss_df4f1b99be60b31f887259ed4e780c01d365ce9c.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/df4f1b99be60b31f887259ed4e780c01d365ce9c/ss_df4f1b99be60b31f887259ed4e780c01d365ce9c.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/50f64e1ede623f1ad3154ca7e41b3a4a1e987bc3/ss_50f64e1ede623f1ad3154ca7e41b3a4a1e987bc3.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/50f64e1ede623f1ad3154ca7e41b3a4a1e987bc3/ss_50f64e1ede623f1ad3154ca7e41b3a4a1e987bc3.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/a66d8cc283754c98f9728fe94e1ff561d0041b8c/ss_a66d8cc283754c98f9728fe94e1ff561d0041b8c.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/a66d8cc283754c98f9728fe94e1ff561d0041b8c/ss_a66d8cc283754c98f9728fe94e1ff561d0041b8c.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/d3df672b3d764009ad890501ecd5f68910c43962/ss_d3df672b3d764009ad890501ecd5f68910c43962.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/d3df672b3d764009ad890501ecd5f68910c43962/ss_d3df672b3d764009ad890501ecd5f68910c43962.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/bfdbb10369074a32c9e6f32865181b4db52092ce/ss_bfdbb10369074a32c9e6f32865181b4db52092ce.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/bfdbb10369074a32c9e6f32865181b4db52092ce/ss_bfdbb10369074a32c9e6f32865181b4db52092ce.1920x1080.jpg?t=1759201423"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/efd115eaa5cb85cb16abd2f892eb98e05cb9268e/ss_efd115eaa5cb85cb16abd2f892eb98e05cb9268e.600x338.jpg?t=1759201423",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/efd115eaa5cb85cb16abd2f892eb98e05cb9268e/ss_efd115eaa5cb85cb16abd2f892eb98e05cb9268e.1920x1080.jpg?t=1759201423"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257158584,
+            "name": "Actual machine",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257158584/db692d428f405f2981452d9834ddd6fe03b75a90/movie_600x337.jpg?t=1750516385",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3630600/1261947778/67daaa17a19ad026eaff8afba96781f679824ea1/1750457897/dash_av1.mpd?t=1750516385",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/1261947778/67daaa17a19ad026eaff8afba96781f679824ea1/1750457897/dash_h264.mpd?t=1750516385",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/1261947778/67daaa17a19ad026eaff8afba96781f679824ea1/1750457897/hls_264_master.m3u8?t=1750516385",
+            "highlight": true
+          },
+          {
+            "id": 257146228,
+            "name": "实机",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257146228/aa57d7d4a4893316f66059442cc690019d57eee1/movie_600x337.jpg?t=1748329118",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3630600/481558414/1ea05a7e30276d0fe4f1779865a990ce858d2ef4/1750457895/dash_av1.mpd?t=1748329118",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/481558414/1ea05a7e30276d0fe4f1779865a990ce858d2ef4/1750457895/dash_h264.mpd?t=1748329118",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/481558414/1ea05a7e30276d0fe4f1779865a990ce858d2ef4/1750457895/hls_264_master.m3u8?t=1748329118",
+            "highlight": true
+          },
+          {
+            "id": 257140019,
+            "name": "Gameplay display",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257140019/d6e492d92fc07ce471b53f026852ebd6b83f530a/movie_600x337.jpg?t=1750572006",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3630600/1872648846/7095bb76e08205a4927fc0e2f6d99c8512a1135d/1750457912/dash_av1.mpd?t=1750572006",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/1872648846/7095bb76e08205a4927fc0e2f6d99c8512a1135d/1750457912/dash_h264.mpd?t=1750572006",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3630600/1872648846/7095bb76e08205a4927fc0e2f6d99c8512a1135d/1750457912/hls_264_master.m3u8?t=1750572006",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "f7097786182c573f75fa215a1e09c04bd2dc123c.jpg",
+              "localized_name": "Mountain King",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mountain King",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/f7097786182c573f75fa215a1e09c04bd2dc123c.jpg"
+            },
+            {
+              "icon": "5eb793c8d15c8fa460d1d91b6103f64256e05d13.jpg",
+              "localized_name": "Parkour King",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Parkour King",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/5eb793c8d15c8fa460d1d91b6103f64256e05d13.jpg"
+            },
+            {
+              "icon": "acc1b03e32b3445342ff7300a6233d48c96ea8d6.jpg",
+              "localized_name": "Dodge Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dodge Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/acc1b03e32b3445342ff7300a6233d48c96ea8d6.jpg"
+            },
+            {
+              "icon": "a1ca1daf39621aae0692c74391323342081658e1.jpg",
+              "localized_name": "Jumping Invincible",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Jumping Invincible",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/a1ca1daf39621aae0692c74391323342081658e1.jpg"
+            },
+            {
+              "icon": "c15e3595741be9ca77e16f017f15dd1010301988.jpg",
+              "localized_name": "Maze Eye",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Maze Eye",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/c15e3595741be9ca77e16f017f15dd1010301988.jpg"
+            },
+            {
+              "icon": "103e0a6e7d91f99862c15926dfe80436faff9e1f.jpg",
+              "localized_name": "Original Player",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Original Player",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/103e0a6e7d91f99862c15926dfe80436faff9e1f.jpg"
+            },
+            {
+              "icon": "cde216e10f6cbe0e60779ac4547856a43728d99a.jpg",
+              "localized_name": "Original Shareholder",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Original Shareholder",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3630600/cde216e10f6cbe0e60779ac4547856a43728d99a.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "fromby@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3630600?t=1759201423",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3630600/1dda0559ca01b84469af6869ba0d69572ca5d39a/page_bg_raw.jpg?t=1759201423",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

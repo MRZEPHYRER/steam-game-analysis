@@ -1,0 +1,66 @@
+{
+  "appid": 3734310,
+  "requested_at": "2026-09-13T19:35:33.649055+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 26,
+      "total_negative": 13,
+      "total_reviews": 39
+    },
+    "reviews": [
+      {
+        "recommendationid": "214000355",
+        "author": {
+          "steamid": "76561198895938185",
+          "personaname": "SHUMOMO",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198895938185/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 190,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 161,
+          "last_played": 1766499991,
+          "avatar": "5c5f4dd53fcae896790f5535763a1d7f7c77d738"
+        },
+        "language": "schinese",
+        "review": "人生中第一条游戏评论献给作者大大啦！超级棒！比demo版本完整很多,剧情些许不足但已经很不错了 加油！期待新作！",
+        "timestamp_created": 1766498154,
+        "timestamp_updated": 1766498154,
+        "voted_up": true,
+        "votes_up": 23,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.710772275924682617",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766483966",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVyNkAAAAAFP+a+pOAAAABzrqywBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

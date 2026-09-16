@@ -1,0 +1,66 @@
+{
+  "appid": 3860020,
+  "requested_at": "2026-09-13T19:50:51.581226+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "200611076",
+        "author": {
+          "steamid": "76561198044909293",
+          "personaname": "Cassius",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/rocktotem/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 45,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 45,
+          "last_played": 1753389344,
+          "avatar": "7455d500acd9e17ab653324caca31232c7645260"
+        },
+        "language": "spanish",
+        "review": "Ya nunca más se me olvidará quién descubrió el electrón.\nLa letra, con sangre entra.",
+        "timestamp_created": 1753389548,
+        "timestamp_updated": 1753389548,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753353112",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB00KL9BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2030000000004293,
+  "transport_error_count": 0
+}

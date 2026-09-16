@@ -1,0 +1,303 @@
+{
+  "requested_at": "2026-09-13T05:56:58.938099+00:00",
+  "request_params": {
+    "appids": 3937960,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3937960,
+  "payload": {
+    "3937960": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "QuackSquad",
+        "steam_appid": 3937960,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Join our fearless feathered hero on an epic adventure to defend their pond from an invasion of zombie chickens spawned by sinister fast-food joints lurking nearby. In this thrilling top-down shooter, arm yourself to the beak with an arsenal of weapons as you face off against relentless waves of undead poultry and formidable bosses. But fear not, for you are not alone! Level up your duck, recruit loyal companions, and engage in exciting minigames to bolster your forces.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Join our fearless feathered hero on an epic adventure to defend their pond from an invasion of zombie chickens spawned by sinister fast-food joints lurking nearby. In this thrilling top-down shooter, arm yourself to the beak with an arsenal of weapons as you face off against relentless waves of undead poultry and formidable bosses. But fear not, for you are not alone! Level up your duck, recruit loyal companions, and engage in exciting minigames to bolster your forces.</p>",
+        "short_description": "Top-down dual stick shooter, help Nugget to find her path and combat against Rosties in the game or other minigames.",
+        "supported_languages": "English<strong>*</strong>, Spanish - Latin America<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/a83c361f09f6a0d599d8da3c8ff27791ba9959b9/header.jpg?t=1788043632",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_231x87.jpg?t=1788043632",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ef7693ccc99d0d11d8c0e2b0fa74e75a21ef6ef/capsule_184x69.jpg?t=1788043632",
+        "website": "https://www.quacksquad.es/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 7<br></li><li><strong>Processor:</strong> AMD Ryzen 3<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Ryzen 5<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 11<br></li><li><strong>Processor:</strong> AMD Ryzen 5<br></li><li><strong>Memory:</strong> 4 MB RAM<br></li><li><strong>Graphics:</strong> Ryzen 5<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 (Big Sur) o superior<br></li><li><strong>Processor:</strong> Apple M1 o Intel Core M<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> M1<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Compatible with Core Audio</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 (Big Sur) o superior<br></li><li><strong>Processor:</strong> Apple M1 o Intel Core M<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> M1<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Compatible with Core Audio</li></ul>"
+        },
+        "linux_requirements": [],
+        "developers": [
+          "Boxcutter L.A"
+        ],
+        "publishers": [
+          "BoxCutter L.A"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1383378
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy QuackSquad",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1383378,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "QuackSquad - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/31a56d718012d7016dc7979b8805b6211bb03ac3/ss_31a56d718012d7016dc7979b8805b6211bb03ac3.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/31a56d718012d7016dc7979b8805b6211bb03ac3/ss_31a56d718012d7016dc7979b8805b6211bb03ac3.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/f09e79c9b7ee87da385eb67798124b5ffb096404/ss_f09e79c9b7ee87da385eb67798124b5ffb096404.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/f09e79c9b7ee87da385eb67798124b5ffb096404/ss_f09e79c9b7ee87da385eb67798124b5ffb096404.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/96f1a255efd0d64367b1a7251d66894ef94d3304/ss_96f1a255efd0d64367b1a7251d66894ef94d3304.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/96f1a255efd0d64367b1a7251d66894ef94d3304/ss_96f1a255efd0d64367b1a7251d66894ef94d3304.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/1e19c73639e71cef8150bdcbed51ffbaca62c39f/ss_1e19c73639e71cef8150bdcbed51ffbaca62c39f.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/1e19c73639e71cef8150bdcbed51ffbaca62c39f/ss_1e19c73639e71cef8150bdcbed51ffbaca62c39f.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/b1f60b9d690d0a6d581ddd2c412356f062b1f542/ss_b1f60b9d690d0a6d581ddd2c412356f062b1f542.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/b1f60b9d690d0a6d581ddd2c412356f062b1f542/ss_b1f60b9d690d0a6d581ddd2c412356f062b1f542.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ae19cdc8551fc7e0299a75e547b7fddedb81106/ss_3ae19cdc8551fc7e0299a75e547b7fddedb81106.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/3ae19cdc8551fc7e0299a75e547b7fddedb81106/ss_3ae19cdc8551fc7e0299a75e547b7fddedb81106.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/5c954c169944b641a56869521bbac9bdbd26b7fe/ss_5c954c169944b641a56869521bbac9bdbd26b7fe.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/5c954c169944b641a56869521bbac9bdbd26b7fe/ss_5c954c169944b641a56869521bbac9bdbd26b7fe.1920x1080.jpg?t=1788043632"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/b286fbe7676f4663bdd028ab75f447e221689779/ss_b286fbe7676f4663bdd028ab75f447e221689779.600x338.jpg?t=1788043632",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/b286fbe7676f4663bdd028ab75f447e221689779/ss_b286fbe7676f4663bdd028ab75f447e221689779.1920x1080.jpg?t=1788043632"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257397757,
+            "name": "QuackSquad Full Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257397757/99d49d495397d14efd4e36a96ff479ab0e242266/movie_600x337.jpg?t=1786571370",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3937960/1446399867/7cad3288e54611ff51b3dc303f5b4a6fe3df63f5/1786570405/dash_av1.mpd?t=1786571370",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3937960/1446399867/7cad3288e54611ff51b3dc303f5b4a6fe3df63f5/1786570405/dash_h264.mpd?t=1786571370",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3937960/1446399867/7cad3288e54611ff51b3dc303f5b4a6fe3df63f5/1786570405/hls_264_master.m3u8?t=1786571370",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "24ebe6054ad07dee4b2e4f469ac2a7507555f9fd.jpg",
+              "localized_name": "Mr. Null gift",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mr. Null gift",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/24ebe6054ad07dee4b2e4f469ac2a7507555f9fd.jpg"
+            },
+            {
+              "icon": "3fd294b226ea699e654e1d2d54b5cfa057b9e900.jpg",
+              "localized_name": "Katana Crow",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Katana Crow",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/3fd294b226ea699e654e1d2d54b5cfa057b9e900.jpg"
+            },
+            {
+              "icon": "971948c36c020596ccf27b1db96b4c49feb65ecc.jpg",
+              "localized_name": "Little Bird",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Little Bird",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/971948c36c020596ccf27b1db96b4c49feb65ecc.jpg"
+            },
+            {
+              "icon": "0b9765b7318b706aeae979de49ddea6d85e6c4b8.jpg",
+              "localized_name": "Ranagor",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ranagor",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/0b9765b7318b706aeae979de49ddea6d85e6c4b8.jpg"
+            },
+            {
+              "icon": "355f4ec1995bbf25baf42043dd11acd5aa6dc647.jpg",
+              "localized_name": "Hi is looking",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hi is looking",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/355f4ec1995bbf25baf42043dd11acd5aa6dc647.jpg"
+            },
+            {
+              "icon": "78288f559c370a061a2f4eaf7c25f203b2cda121.jpg",
+              "localized_name": "The King ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The King ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/78288f559c370a061a2f4eaf7c25f203b2cda121.jpg"
+            },
+            {
+              "icon": "04d13b1702b2ca2683e3310dc80d5a5e787bedfd.jpg",
+              "localized_name": "The Seige",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Seige",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/04d13b1702b2ca2683e3310dc80d5a5e787bedfd.jpg"
+            },
+            {
+              "icon": "65cfe15906f5f4bc4b626ca92c96c87d43fb0aea.jpg",
+              "localized_name": "The Last Test",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Last Test",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/65cfe15906f5f4bc4b626ca92c96c87d43fb0aea.jpg"
+            },
+            {
+              "icon": "0f451ebec786e1b1e09de94fc534033285fc4ea8.jpg",
+              "localized_name": "Guilty or not guilty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Guilty or not guilty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937960/0f451ebec786e1b1e09de94fc534033285fc4ea8.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "support_info": {
+          "url": "https://bxctr.com/games/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937960?t=1788043632",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937960/a7f36400e1b5698628dcc3553082df835d9033c2/page_bg_raw.jpg?t=1788043632",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nViolência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Schimpfwörte\nFantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Penggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "appid": 2361770,
+  "requested_at": "2026-09-13T18:50:08.421380+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 2972,
+      "total_negative": 578,
+      "total_reviews": 3550
+    },
+    "reviews": [
+      {
+        "recommendationid": "228887553",
+        "author": {
+          "steamid": "76561198114766740",
+          "personaname": "locust",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198114766740/",
+          "num_games_owned": 0,
+          "num_reviews": 25,
+          "playtime_forever": 2191,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2191,
+          "last_played": 1782453717,
+          "avatar": "eed903f3e81c3f4ce1c4c558c3142c35cf80531d"
+        },
+        "language": "english",
+        "review": "Stellar. A total knockout.\n\nHere's what this game is NOT: it's not a next-gen, new school Metroidvania in the mold of Hollow Knight, 9 Souls or Blasphemous. Nowadays, modern entries into the genre prioritize vast, labyrinthine, exploration-driven experiences combined with souls-like combat... and while they're cool (and sometimes downright incredible), they play nothing like the side-scrolling platformers I grew up on in the 80s and 90s. Many modern Metroidvanias feature retro aesthetics, but there's little/nothing about them which play like arcade classics or the NES, SNES and Genesis games I grew up on.\n\nThat's fine, but I realized a while ago that while games like Hollow Knight are gorgeous achievements, they don't scratch my itches. I'm a busy guy with a career and a family - I don't have the bandwidth to chart my way across massive, borderline open-world platform mazes. I can't spend all night backtracking with various keys and learning the lightning-fast attack patterns of dozens of mini-bosses. I need simpler pleasures.\n\nShinobi 2 is a perfectly-calibrated masterpiece of arcade-style platforming action, straight up. There's exploration, sure, and there are areas to unlock and spaces to revisit, but the game ultimately propels the player through a linear series of levels that play with all the vintage tropes: a moving train; a vast underground lab; a mountain ascent. Enemies are occasionally difficult, but there's nothing souls-like about any of this - instead, the developers prioritized combat that feels explosive, satisfying and fun, just challenging enough to demand your focus but never punishing.\n\nIn every respect, it feels like a sexy, juiced-up SEGA Genesis title - expansive and updated enough to be worth your time as a modern gamer, but always geared towards a propulsive, arcade-like adventure that's easy to enjoy and never feels like a job.\n\nFor the right kind of gamer looking for a nostalgic blast, it's a pure 10/10.",
+        "timestamp_created": 1782492887,
+        "timestamp_updated": 1783875897,
+        "voted_up": true,
+        "votes_up": 56,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.845796346664428711",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756440082",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 2
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTFYaAAAAAFP+sQwsAAAABxwJHpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0150000000001,
+  "transport_error_count": 0
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 1541370,
+  "requested_at": "2026-09-13T18:43:25.685730+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 553,
+      "total_negative": 74,
+      "total_reviews": 627
+    },
+    "reviews": [
+      {
+        "recommendationid": "208205583",
+        "author": {
+          "steamid": "76561199283237288",
+          "personaname": "LittleAngelxoxo",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199283237288/",
+          "num_games_owned": 0,
+          "num_reviews": 8,
+          "playtime_forever": 47,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 47,
+          "last_played": 1762070105,
+          "avatar": "d25fadd4515a0c5065a96a9c48a19423642a043c"
+        },
+        "language": "english",
+        "review": "I found the devs videos and decided to give it a shot. While there are some improvements that need to be made, this is a better \"job simulator\" than 99% of the games out there right now. It's not AI, has an appeasing art style, easy controls, and a fun game-loop.\r\n\r\nA couple things to note before buying, and for the developers to improve. The leveling system needs balancing. I was already needing to take out a loan to buy a soda and popcorn machine on day 1. It seems fairly stressed to put that on players on the first day. It becomes a lot very quickly and I think if it was scaled back a bit, it would be balanced better. Another small, but not game breaking, bug I've noticed is when you go into the theatre, you will almost always experience lag when walking inside.\r\n\r\nGreat game, just needs balancing work.",
+        "timestamp_created": 1762070354,
+        "timestamp_updated": 1762070354,
+        "voted_up": true,
+        "votes_up": 45,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.795204579830169678",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761762785",
+        "reactions": [
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUGI0AAAAAFP+lyUcAAAAB/8J6aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1560000000001764,
+  "transport_error_count": 0
+}

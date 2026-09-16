@@ -1,0 +1,66 @@
+{
+  "appid": 3865990,
+  "requested_at": "2026-09-13T19:51:47.169516+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "228897252",
+        "author": {
+          "steamid": "76561198786914884",
+          "personaname": "dunce",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/global_head_of_dunce_operations/",
+          "num_games_owned": 293,
+          "num_reviews": 17,
+          "playtime_forever": 146,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 146,
+          "last_played": 1782499552,
+          "avatar": "59ae0fcbb674acf89bd7af02c6e13c7d561e9b2c"
+        },
+        "language": "english",
+        "review": "Decently enjoyable. Doesn't really have anything standing out. Some amateurish-but-not-bad writing. Unique visuals, but I wouldn't call them breathtaking. Gameplay hits me right as a goal-oriented gamer: get this, collect that, get this achievement; not a bad dopamine hit. If this game had any kind of marketing, I could easily see it selling thousands of copies instead of sitting here with 0 reviews. Casual, inexperienced people would love this.",
+        "timestamp_created": 1782500749,
+        "timestamp_updated": 1782500749,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760616009",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB0npbpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4043890,
+  "requested_at": "2026-09-13T20:14:55.837729+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "218352832",
+        "author": {
+          "steamid": "76561198042620952",
+          "personaname": "Revenger23",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198042620952/",
+          "num_games_owned": 0,
+          "num_reviews": 1910,
+          "playtime_forever": 60,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1771127798,
+          "avatar": "3c15558b8b174fe42acc6a34c8f742f4b161f626"
+        },
+        "language": "german",
+        "review": "[h1] Genre [/h1] Eine kurze Murder Mystery Visual Novel\n\n[h1] Story [/h1] Wir arbeiten in einem Coffee Shop und reden mit unserem Kumpel. In unserer Gegend passieren seit 5 Jahren immer genau am Halloween Abend, mysteriöse Mordfälle. Plötzlich aus heiterem Himmel kommt eine Frau zu uns ins Café und möchte Poster aufhängen für ein Halloween Event und lädt uns auch noch dazu ein. Ui allem Überfluß ist unser Kumpel auch noch übertrieben fasziniert von Serien Mördern. Wem können wir trauen?\n\n[h1] Gameplay [/h1] Es ist eine simple & kurze Visual Novel. Wir lesen uns durch die kurze Story & treffen hier und da eine Entscheidung. Diese haben scheinbar auch Auswirkungen auf das Ending was wir bekommen können. Das Spiel ist dabei komplett auf Englisch vertont und die Sprecher sind ordentlich\n\n[h1] Pro/Contra [/h1]\n+ Nette kurze Story\n+ Gutes Voice Acting\n\n+/- Leider keine Achievements\n\n[h1] Fazit [/h1] Eine nette, kurze Murder Mystery Visual Novel mit gutem Voice Acting und einer netten kurzen Geschichte. Die Story ist jetzt nicht super ausgearbeitet und man sieht das Ende schon im voraus kommen, aber nichts desto trotz fand ich es gut gelungen. Wer auf Murder Mystery Visual Novels steht, kann hier ruhig zuschlagen\n\n\n👑 Powered by HoI 4 Deu Curators group in German / English 👑⠀⠀⠀[list][*][url=https://store.steampowered.com/curator/30388691/] Follow Main group [/url][*] [url=https://store.steampowered.com/curator/40282064/] Follow Second group [/url][*] [url=https://store.steampowered.com/curator/44688798/] Follow third group [/url][/list]",
+        "timestamp_created": 1771128474,
+        "timestamp_updated": 1771128474,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.622664213180541992",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766412822",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZi/YAAAAAFP+Ps3QAAAABwzPnABg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.7820000000001528,
+  "transport_error_count": 0
+}

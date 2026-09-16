@@ -1,0 +1,94 @@
+{
+  "appid": 1342490,
+  "requested_at": "2026-09-13T18:42:38.785361+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 1158,
+      "total_negative": 673,
+      "total_reviews": 1831
+    },
+    "reviews": [
+      {
+        "recommendationid": "224470826",
+        "author": {
+          "steamid": "76561198855904398",
+          "personaname": "michandesu",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198855904398/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 184017,
+          "playtime_last_two_weeks": 3724,
+          "playtime_at_review": 174708,
+          "last_played": 1789320656,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "もう２０００時間以上、厳選に費やしてプレイしました\n膨大な時間プレイしていますが、UIや操作性は言われているほど悪くないと感じています。\nキーコンフィグや配置などもかなり変更できます。\nシナリオもハクスラゲーと割り切ってどうでもいいですが、\n厳選周りのシステムや環境が終わっています。\n最高性能を求める凝り性みたいなタイプの人には向いていません。\nもうこれ以上はないだろうというくらいの性能の個体を出すのに\nものにもよりますが運が悪くなくてパーツ１種類につき５００時間以上、５０００個以上は掘らないと出ません\nまた全体的に敵のドロップが悪くて入手方法がややこしく厳選効率が悪いパーツも多く、\n特定のオーダーでしか厳選できないパーツが複数あるのにオーダーは再受注（リプレイ機能）がありません。\nオーダーもフルボイスで凝っているのになぜここの部分のリプレイ機能がないんでしょうか\nこのゲームのアップデート計画はすでに終了しているようであり、売り上げ不振によりアプデの予算がつかないため、アップデートでこれらの問題点が今後改善される見込みはありません\n２５００時間以上、オリスローザ峡で、フリングホルニとガンアームLRを主に厳選しています、ステータスが重量まで全く同じ装備、武器を何回も拾っています\nまたそれらの装備は、同じ位置に沸いたストライからです\nどうやらステータスの決まり方はテーブル制に近く、\nそのテーブルの決まり方もストライや敵の出現位置に依存しているようです\nつまり、目当てのステータスの個体も、厳選場所を間違ってしまうと、\nいくら時間をかけても無駄ということです",
+        "timestamp_created": 1777597222,
+        "timestamp_updated": 1785731668,
+        "voted_up": true,
+        "votes_up": 96,
+        "votes_funny": 17,
+        "weighted_vote_score": "0.884433329105377197",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757055632",
+        "hardware": {
+          "system_ram": "65312",
+          "os": "Windows 11",
+          "cpu_name": "Intel(R) Core(TM) i5-14500",
+          "adapter_description": "NVIDIA GeForce RTX 5090",
+          "vram_size": 32187
+        },
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 4
+          },
+          {
+            "reaction_type": 24,
+            "count": 3
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFST7QAAAAAFP+xNRmAAAAB68qTYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

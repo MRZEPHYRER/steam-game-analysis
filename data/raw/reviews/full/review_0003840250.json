@@ -1,0 +1,75 @@
+{
+  "appid": 3840250,
+  "requested_at": "2026-09-13T19:47:38.905070+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "213805959",
+        "author": {
+          "steamid": "76561198967516634",
+          "personaname": "絵月",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198967516634/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 493,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 493,
+          "last_played": 1766416674,
+          "avatar": "e519eec60523d6db7bf44d53a7baf84cee5d3590"
+        },
+        "language": "schinese",
+        "review": "刚玩了一会儿试试，提个小建议：要是能把当前素材足够、可制作与可烹饪物品的优先级提高，在列表里面置顶就好了，现在翻得有些麻烦。另外已拥有的食物到期时间按倒序排序就更方便了\nPS：又玩了一会儿，bug实在太多了，经常在报错后卡住，游戏流程推进不下去（大哭）\nPPS：终于顶着bug通关了，结算界面依然打不开><",
+        "timestamp_created": 1766308201,
+        "timestamp_updated": 1766416920,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.647138655185699463",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766297390",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXDqYAAAAAFP+S1XOAAAAB3uM2vBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000004802,
+  "transport_error_count": 0
+}

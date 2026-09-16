@@ -1,0 +1,71 @@
+{
+  "appid": 4105120,
+  "requested_at": "2026-09-13T20:19:17.483084+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 1,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "212537736",
+        "author": {
+          "steamid": "76561197994827301",
+          "personaname": "apterous",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/apterous420/",
+          "num_games_owned": 1168,
+          "num_reviews": 858,
+          "playtime_forever": 87,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 87,
+          "last_played": 1764846930,
+          "avatar": "1695c4852adc6490e708fbf28dfee27ca5e9e8af"
+        },
+        "language": "english",
+        "review": "Explore part of megastructure in search of your missing crew. 6 degrees of freedom in 0 gravity. There is some entities in the game, but they dont seem hostile, just dont get in their way though. Very atmospheric.",
+        "timestamp_created": 1764847508,
+        "timestamp_updated": 1764847508,
+        "voted_up": true,
+        "votes_up": 23,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.722498178482055664",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764655886",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVjM+AAAAAFP+cetCAAAAB4mOKqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

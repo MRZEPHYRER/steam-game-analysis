@@ -1,0 +1,66 @@
+{
+  "appid": 3047310,
+  "requested_at": "2026-09-13T19:02:14.522356+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 33,
+      "total_negative": 9,
+      "total_reviews": 42
+    },
+    "reviews": [
+      {
+        "recommendationid": "209784869",
+        "author": {
+          "steamid": "76561198007310013",
+          "personaname": "TPrime411",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198007310013/",
+          "num_games_owned": 0,
+          "num_reviews": 62,
+          "playtime_forever": 39,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 23,
+          "last_played": 1768608767,
+          "avatar": "d053c51d297c8df0c45a377165c3bf54d6d94ad8"
+        },
+        "language": "english",
+        "review": "A great game for fans of Time Crisis, or those other oldschool Arcade Rail Shooters. It's a game that you can easily pick up and play for a couple rounds, and come back to later. It runs smoothly on my RTX 4060(beautiful graphics), and I play it with my Quest 3 over Virtual Desktop. No issues so far. Definitely recommended if you want a good arcade shooter.",
+        "timestamp_created": 1763750937,
+        "timestamp_updated": 1763751128,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.732967734336853027",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763736950",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVVzQAAAAAFP+d0eUAAAAB1gqKgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4048960,
+  "requested_at": "2026-09-13T20:15:21.134982+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "211165718",
+        "author": {
+          "steamid": "76561198144412692",
+          "personaname": "Adrien_SARPBC",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Adrien_SARPBC/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 96,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1765651910,
+          "avatar": "c12fda3bef0dcbaeea58f144cb2564fa027164b5"
+        },
+        "language": "english",
+        "review": "Very cool concept!\nI like the way the story is presented, it's like reading a book, allowing your imagination to work.",
+        "timestamp_created": 1764250497,
+        "timestamp_updated": 1764250497,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764248463",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFahheAAAAAFP+DDDUAAAAB2ocSlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

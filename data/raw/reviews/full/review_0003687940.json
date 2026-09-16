@@ -1,0 +1,66 @@
+{
+  "appid": 3687940,
+  "requested_at": "2026-09-13T19:31:51.667641+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "218669550",
+        "author": {
+          "steamid": "76561198062678111",
+          "personaname": "sholliday",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198062678111/",
+          "num_games_owned": 0,
+          "num_reviews": 203,
+          "playtime_forever": 1099,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1099,
+          "last_played": 1771468982,
+          "avatar": "5daf511c9d1f08c80083356282348ea5832729bf"
+        },
+        "language": "english",
+        "review": "I loved the game and played it twice, but the DLC did not work, so I couldn't make the best choices.  I applied for a refund only on the DLC.",
+        "timestamp_created": 1771469589,
+        "timestamp_updated": 1771469589,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.528985500335693359",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761652435",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZa5eAAAAAFP+DtdAAAAAB+npTCBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999995198,
+  "transport_error_count": 0
+}

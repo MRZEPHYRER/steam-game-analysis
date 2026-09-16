@@ -1,0 +1,66 @@
+{
+  "appid": 3239500,
+  "requested_at": "2026-09-13T19:08:34.096678+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 45,
+      "total_negative": 1,
+      "total_reviews": 46
+    },
+    "reviews": [
+      {
+        "recommendationid": "204595251",
+        "author": {
+          "steamid": "76561198012436783",
+          "personaname": "serendipity82",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198012436783/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 295,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 295,
+          "last_played": 1758164772,
+          "avatar": "c947dca615ef16e21da2955c93ebc06255e868e8"
+        },
+        "language": "english",
+        "review": "A very cute and creative game that is more about comedy than logic. Once I understood this I got a lot more out of it. You can sort of reason your way through some puzzles, but the fun is really in trying all different combinations to discover what bonkers thing will work. Some solutions are puns or riddles, while others are just outright dream logic. I can see how this has fallen into a kind of uncanny valley for some players. There's a smattering of hidden object stuff going on, a bit of mini-game action, and then inventory puzzles that aren't really traditional inventory puzzles. It's like the developers may not have had a particular gaming audience in mind. But if you are willing to meet this game where it is, I think you will have a good time. I'm looking forward to a follow-up. If nothing else, it's gorgeous to look at with bright colors, smooth animation, and a sweet, cozy aesthetic.",
+        "timestamp_created": 1758165857,
+        "timestamp_updated": 1758165857,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.589161276817321777",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756398686",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYN38AAAAAFP+LaaCAAAABzg7yMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

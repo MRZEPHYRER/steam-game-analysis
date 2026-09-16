@@ -1,0 +1,272 @@
+{
+  "requested_at": "2026-09-12T16:58:35.607227+00:00",
+  "request_params": {
+    "appids": 3832650,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3832650,
+  "payload": {
+    "3832650": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "SENSE: The Game",
+        "steam_appid": 3832650,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "dlc": [
+          4194870
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>&quot;SENSE: The Game&quot;</strong> is a unique philosophical game inspired by the myth of Sisyphus, where you are tasked not just with pushing a boulder, but also with seeking answers to life's most profound questions. This game explores the concept of the meaning of life through the lens of absurdity, repetitive actions, and endless cycles.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You control a character who pushes a stone through abstract, symbolic landscapes. The gameplay is based on alternating key presses, evoking a sense of weight, repetition, and gradual progress. Each press is a step forward — much like in life. The journey is not endless: hidden behind the monotony lies a purpose that slowly comes into focus.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Throughout the game, you won’t face enemies — instead, you’ll confront inner questions. The texts and final scene reveal a philosophical message inspired by the works of Camus. This is not a game about victory. It is a game about understanding.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>&quot;SENSE: The Game&quot;</strong> is a unique philosophical game inspired by the myth of Sisyphus, where you are tasked not just with pushing a boulder, but also with seeking answers to life's most profound questions. This game explores the concept of the meaning of life through the lens of absurdity, repetitive actions, and endless cycles.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >You control a character who pushes a stone through abstract, symbolic landscapes. The gameplay is based on alternating key presses, evoking a sense of weight, repetition, and gradual progress. Each press is a step forward — much like in life. The journey is not endless: hidden behind the monotony lies a purpose that slowly comes into focus.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Throughout the game, you won’t face enemies — instead, you’ll confront inner questions. The texts and final scene reveal a philosophical message inspired by the works of Camus. This is not a game about victory. It is a game about understanding.</p>",
+        "short_description": "&quot;SENSE: The Game&quot; is a unique philosophical game inspired by the myth of Sisyphus, where you are tasked not just with pushing a boulder, but also with seeking answers to life's most profound questions.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/ff206e0ea01585454ce445fdedf5566371209700/header.jpg?t=1783359924",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/1f0c3733b4bf800fd915411710e94b4a848c164b/capsule_231x87.jpg?t=1783359924",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/1f0c3733b4bf800fd915411710e94b4a848c164b/capsule_184x69.jpg?t=1783359924",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8/8.1/10 (32bit/64bit)<br></li><li><strong>Processor:</strong> 1.8GHz Dual-Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8/8.1/10 (32bit/64bit)<br></li><li><strong>Processor:</strong> 1.8GHz Dual-Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Core 4.2<br></li><li><strong>Processor:</strong> 1.8GHz Dual-Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Core 4.2<br></li><li><strong>Processor:</strong> 1.8GHz Dual-Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 512 MB available space</li></ul>"
+        },
+        "developers": [
+          "IPOleksenko"
+        ],
+        "publishers": [
+          "IPOleksenko"
+        ],
+        "demos": [
+          {
+            "appid": 4194990,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1347841,
+          1370269
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy SENSE: The Game",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1347841,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "SENSE: The Game - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              },
+              {
+                "packageid": 1370269,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "SENSE: The Game - Commercial License - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 51,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/1507fa5a2cd5619839301435c7d45cef70b176e7/ss_1507fa5a2cd5619839301435c7d45cef70b176e7.600x338.jpg?t=1783359924",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/1507fa5a2cd5619839301435c7d45cef70b176e7/ss_1507fa5a2cd5619839301435c7d45cef70b176e7.1920x1080.jpg?t=1783359924"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/76ca7b85618bab1df105c4a3451f85ede01a1b13/ss_76ca7b85618bab1df105c4a3451f85ede01a1b13.600x338.jpg?t=1783359924",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/76ca7b85618bab1df105c4a3451f85ede01a1b13/ss_76ca7b85618bab1df105c4a3451f85ede01a1b13.1920x1080.jpg?t=1783359924"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/8e2502ee83f4b9e79ddd1fee3c0d087ae983e31d/ss_8e2502ee83f4b9e79ddd1fee3c0d087ae983e31d.600x338.jpg?t=1783359924",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/8e2502ee83f4b9e79ddd1fee3c0d087ae983e31d/ss_8e2502ee83f4b9e79ddd1fee3c0d087ae983e31d.1920x1080.jpg?t=1783359924"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/d29736c9ded1b3bd90bc3ea625a4432fcb4bc302/ss_d29736c9ded1b3bd90bc3ea625a4432fcb4bc302.600x338.jpg?t=1783359924",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/d29736c9ded1b3bd90bc3ea625a4432fcb4bc302/ss_d29736c9ded1b3bd90bc3ea625a4432fcb4bc302.1920x1080.jpg?t=1783359924"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/88efc79970b67f9a376c2a5076b3cc3791b9fd48/ss_88efc79970b67f9a376c2a5076b3cc3791b9fd48.600x338.jpg?t=1783359924",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/88efc79970b67f9a376c2a5076b3cc3791b9fd48/ss_88efc79970b67f9a376c2a5076b3cc3791b9fd48.1920x1080.jpg?t=1783359924"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257159163,
+            "name": "Full Walkthrough",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257159163/e7d1fb0cafdc34edcfcb98f9e37cdf3181a7eb87/movie_600x337.jpg?t=1782169787",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3832650/1692478757/b72943649d961edb354265be74e98f7f4c9a73b3/1779922569/dash_av1.mpd?t=1782169787",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3832650/1692478757/b72943649d961edb354265be74e98f7f4c9a73b3/1779922569/dash_h264.mpd?t=1782169787",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3832650/1692478757/b72943649d961edb354265be74e98f7f4c9a73b3/1779922569/hls_264_master.m3u8?t=1782169787",
+            "highlight": false
+          }
+        ],
+        "achievements": {
+          "total": 1,
+          "highlighted": [
+            {
+              "icon": "16f893375d2d71285117a859dc35f6e752728b88.jpg",
+              "localized_name": "THE UNIVERSE DOESN'T MAKE SENSE.",
+              "archived": 0,
+              "hidden": 1,
+              "name": "THE UNIVERSE DOESN'T MAKE SENSE.",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3832650/16f893375d2d71285117a859dc35f6e752728b88.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 21, 2025"
+        },
+        "support_info": {
+          "url": "https://github.com/IPOleksenko/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3832650?t=1783359924",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832650/ab8200045b60d5bc49a68daa0dd8368ee81b4c77/page_bg_raw.jpg?t=1783359924",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

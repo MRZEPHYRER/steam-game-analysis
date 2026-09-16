@@ -1,0 +1,200 @@
+{
+  "requested_at": "2026-09-13T07:23:06.679076+00:00",
+  "request_params": {
+    "appids": 4209630,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4209630,
+  "payload": {
+    "4209630": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ELbab",
+        "steam_appid": 4209630,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/6e34fea88888db0139b68e27349a0cf8.avif?t=1765885738\" width=1230 height=500 /></span></p><p class=\"bb_paragraph\" ><strong>ELbab</strong> is a roguelite auto-battler set inside an endlessly expanding library.</p><p class=\"bb_paragraph\" >Each run is designed to last <strong>30 minutes to 1.5 hours</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The gameplay blends tile-based dungeon progression with the feeling of crafting builds in a hack-and-slash game.<br>Combat itself is fully automated, so most of your time is spent planning and optimizing your build.</p><p class=\"bb_paragraph\" >Because the game is <strong>auto-battle</strong> and <strong>playable entirely with the mouse</strong>, it’s perfect for relaxed, multitask-friendly play sessions—enjoy a cup of coffee, watch videos, or play other games while progressing through ELbab.<br>(Assigning the ESC key to a mouse button makes it even more comfortable.)</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The difficulty is intended to be on the tougher side. However, since ELbab is currently in an <strong>alpha stage</strong> and developed by a solo creator, enemy variety and overall balancing are still works in progress.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.poster.avif?t=1765885738\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.webm?t=1765885738\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.mp4?t=1765885738\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Frequently Asked Questions</h2><p class=\"bb_paragraph\" ><strong>Q. Isn’t the balance a bit rough?</strong><br>A. Yes, there are certainly still areas that need improvement. We plan to continue adjusting the balance, adding new skills, and reworking enemy abilities over time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Isn’t the inventory too small?</strong><br>A. It <i>is</i> small. However, at the moment, we consider the need to make careful choices part of the gameplay experience, so the current size is intentional.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Aren’t the STR / INT / DEX requirements too strict?</strong><br>A. In the demo and in the “Beginner Library” (when the Library is still uncleared), you can only progress up to Floor 2. The full library goes up to Floor 4, so the early game may feel tight.<br>Also, each character has certain stats that appear more frequently, so the intended strategy is to strengthen books that match that character’s naturally favored attributes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Aren’t some rooms much more valuable than others?</strong><br>A. Here are answers regarding a few key rooms:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Room of Awakening</strong><br>Our intention is to place enough Unique Books here to let players define a build direction—similar to a “class” choice in traditional RPGs. This may change with future balance updates.</p></li><li><p class=\"bb_paragraph\" ><strong>Treasure Room</strong><br>The reward includes a Book and Ink, but the amount of Ink may need adjustment. It’s also possible that players don’t realize Ink is being awarded, which suggests a UX issue we may need to improve.</p></li><li><p class=\"bb_paragraph\" ><strong>Room of Conversion</strong><br>The Unique Book you get depends on the mods attached to the Normal Book you convert, creating some degree of controlled randomness that lets you aim for specific Unique Books.</p></li><li><p class=\"bb_paragraph\" ></p></li></ul><p class=\"bb_paragraph\" ><strong>Q. I want to reset my Runestone.</strong><br>A. Currently, the system is designed with a degree of “regret” in mind, so respec is not implemented. However, the planned Library Customization feature (tentative name) may eventually provide a way to handle this.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Skill Books almost never drop, or relying on the starting skill feels boring.</strong><br>A. We are planning a system where certain events will trigger sub-skills. When this is implemented, players will have more skill choices. We also plan to continue adding Skill Books over time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Can you improve the randomness of the dungeon map?</strong><br><strong>Q. Can we enhance books at any time?</strong> <br>A. I’ll answer these together.</p><p class=\"bb_paragraph\" >We will continue adjusting the randomness (the algorithm is quite complex…).<br>Separately, we are planning a <strong>Library Customization</strong> feature, where players use Papyrus (a persistent currency) to shape their own library.<br>Examples include making shop rerolls optional, fixing the location of Runestone rooms, or allowing book enhancement at any time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. I want a “Calcs” feature like those in build planners (detailed numerical breakdowns).</strong><br>A. I want that too…<br>But implementing such a system would require a full configuration engine to simulate various combat conditions, which is extremely difficult.<br>For now, we only provide basic DPS results as a temporary solution—sorry!</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/6e34fea88888db0139b68e27349a0cf8.avif?t=1765885738\" width=1230 height=500 /></span></p><p class=\"bb_paragraph\" ><strong>ELbab</strong> is a roguelite auto-battler set inside an endlessly expanding library.</p><p class=\"bb_paragraph\" >Each run is designed to last <strong>30 minutes to 1.5 hours</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The gameplay blends tile-based dungeon progression with the feeling of crafting builds in a hack-and-slash game.<br>Combat itself is fully automated, so most of your time is spent planning and optimizing your build.</p><p class=\"bb_paragraph\" >Because the game is <strong>auto-battle</strong> and <strong>playable entirely with the mouse</strong>, it’s perfect for relaxed, multitask-friendly play sessions—enjoy a cup of coffee, watch videos, or play other games while progressing through ELbab.<br>(Assigning the ESC key to a mouse button makes it even more comfortable.)</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The difficulty is intended to be on the tougher side. However, since ELbab is currently in an <strong>alpha stage</strong> and developed by a solo creator, enemy variety and overall balancing are still works in progress.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.poster.avif?t=1765885738\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.webm?t=1765885738\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/extras/e16b3b2e5f8d390984994d26a6d88b38.mp4?t=1765885738\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Frequently Asked Questions</h2><p class=\"bb_paragraph\" ><strong>Q. Isn’t the balance a bit rough?</strong><br>A. Yes, there are certainly still areas that need improvement. We plan to continue adjusting the balance, adding new skills, and reworking enemy abilities over time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Isn’t the inventory too small?</strong><br>A. It <i>is</i> small. However, at the moment, we consider the need to make careful choices part of the gameplay experience, so the current size is intentional.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Aren’t the STR / INT / DEX requirements too strict?</strong><br>A. In the demo and in the “Beginner Library” (when the Library is still uncleared), you can only progress up to Floor 2. The full library goes up to Floor 4, so the early game may feel tight.<br>Also, each character has certain stats that appear more frequently, so the intended strategy is to strengthen books that match that character’s naturally favored attributes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Aren’t some rooms much more valuable than others?</strong><br>A. Here are answers regarding a few key rooms:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Room of Awakening</strong><br>Our intention is to place enough Unique Books here to let players define a build direction—similar to a “class” choice in traditional RPGs. This may change with future balance updates.</p></li><li><p class=\"bb_paragraph\" ><strong>Treasure Room</strong><br>The reward includes a Book and Ink, but the amount of Ink may need adjustment. It’s also possible that players don’t realize Ink is being awarded, which suggests a UX issue we may need to improve.</p></li><li><p class=\"bb_paragraph\" ><strong>Room of Conversion</strong><br>The Unique Book you get depends on the mods attached to the Normal Book you convert, creating some degree of controlled randomness that lets you aim for specific Unique Books.</p></li><li><p class=\"bb_paragraph\" ></p></li></ul><p class=\"bb_paragraph\" ><strong>Q. I want to reset my Runestone.</strong><br>A. Currently, the system is designed with a degree of “regret” in mind, so respec is not implemented. However, the planned Library Customization feature (tentative name) may eventually provide a way to handle this.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Skill Books almost never drop, or relying on the starting skill feels boring.</strong><br>A. We are planning a system where certain events will trigger sub-skills. When this is implemented, players will have more skill choices. We also plan to continue adding Skill Books over time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. Can you improve the randomness of the dungeon map?</strong><br><strong>Q. Can we enhance books at any time?</strong> <br>A. I’ll answer these together.</p><p class=\"bb_paragraph\" >We will continue adjusting the randomness (the algorithm is quite complex…).<br>Separately, we are planning a <strong>Library Customization</strong> feature, where players use Papyrus (a persistent currency) to shape their own library.<br>Examples include making shop rerolls optional, fixing the location of Runestone rooms, or allowing book enhancement at any time.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Q. I want a “Calcs” feature like those in build planners (detailed numerical breakdowns).</strong><br>A. I want that too…<br>But implementing such a system would require a full configuration engine to simulate various combat conditions, which is extremely difficult.<br>For now, we only provide basic DPS results as a temporary solution—sorry!</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "ELbab is a pixel-art roguelite set in an endless library. Choose tiles to progress through dungeon-like paths and enjoy a build-crafting experience similar to ARPG planning tools. All battles are automated, letting you relax with coffee, videos, or even other games while refining your build.",
+        "supported_languages": "English, Simplified Chinese, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/bace802cf4e227a6adf41470875cd4d654191585/header.jpg?t=1765885738",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/9e22c7c9c3a9443fd5e78b3bb4f5384a39c63c69/capsule_231x87.jpg?t=1765885738",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/9e22c7c9c3a9443fd5e78b3bb4f5384a39c63c69/capsule_184x69.jpg?t=1765885738",
+        "website": "https://note.com/mono_games/n/n7bb53af314da",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3 or equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5 or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 5000 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 400 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "makz"
+        ],
+        "publishers": [
+          "makz"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1474105
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ELbab",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1474105,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "ELbab - エルバブ - - $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/85769acf1a90af4909b8cf09d52e093709592c74/ss_85769acf1a90af4909b8cf09d52e093709592c74.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/85769acf1a90af4909b8cf09d52e093709592c74/ss_85769acf1a90af4909b8cf09d52e093709592c74.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/f3c182efdc2db21428a3bb87dcf158d3f7ff3c35/ss_f3c182efdc2db21428a3bb87dcf158d3f7ff3c35.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/f3c182efdc2db21428a3bb87dcf158d3f7ff3c35/ss_f3c182efdc2db21428a3bb87dcf158d3f7ff3c35.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/0a0bb8ed803537b4d368568229712132a38364bc/ss_0a0bb8ed803537b4d368568229712132a38364bc.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/0a0bb8ed803537b4d368568229712132a38364bc/ss_0a0bb8ed803537b4d368568229712132a38364bc.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/9bb10726cdf15452a81279689f253eec11f5e021/ss_9bb10726cdf15452a81279689f253eec11f5e021.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/9bb10726cdf15452a81279689f253eec11f5e021/ss_9bb10726cdf15452a81279689f253eec11f5e021.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/ce5814aa24ec0c44b65351c633df5d62f4b415c8/ss_ce5814aa24ec0c44b65351c633df5d62f4b415c8.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/ce5814aa24ec0c44b65351c633df5d62f4b415c8/ss_ce5814aa24ec0c44b65351c633df5d62f4b415c8.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/11ae99a9968117e68c380ddf7bee2ce58ec69363/ss_11ae99a9968117e68c380ddf7bee2ce58ec69363.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/11ae99a9968117e68c380ddf7bee2ce58ec69363/ss_11ae99a9968117e68c380ddf7bee2ce58ec69363.1920x1080.jpg?t=1765885738"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/7c3b0c9645e0d19a8202f0e7dc1950bcee2db69f/ss_7c3b0c9645e0d19a8202f0e7dc1950bcee2db69f.600x338.jpg?t=1765885738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/7c3b0c9645e0d19a8202f0e7dc1950bcee2db69f/ss_7c3b0c9645e0d19a8202f0e7dc1950bcee2db69f.1920x1080.jpg?t=1765885738"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257238706,
+            "name": "ゲームプレイ動画",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257238706/edb0e891e556d43780aaa861e4a56b23297bebc4/movie_600x337.jpg?t=1764318163",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4209630/1569483229/d79d131f0e41715fb48650e67f2f072d034e24ce/1764158413/dash_av1.mpd?t=1764318163",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4209630/1569483229/d79d131f0e41715fb48650e67f2f072d034e24ce/1764158413/dash_h264.mpd?t=1764318163",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4209630/1569483229/d79d131f0e41715fb48650e67f2f072d034e24ce/1764158413/hls_264_master.m3u8?t=1764318163",
+            "highlight": true
+          }
+        ],
+        "recommendations": {
+          "total": 132
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "support_info": {
+          "url": "https://bsky.app/profile/makzng.bsky.social",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4209630?t=1765885738",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/ff80a9029b53f039f80a0cb598a78d89052481f0/page_bg_raw.jpg?t=1765885738",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

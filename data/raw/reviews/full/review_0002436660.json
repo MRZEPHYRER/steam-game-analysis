@@ -1,0 +1,66 @@
+{
+  "appid": 2436660,
+  "requested_at": "2026-09-13T18:50:53.185291+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "205105239",
+        "author": {
+          "steamid": "76561198008865377",
+          "personaname": "Chinny",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198008865377/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 91,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 91,
+          "last_played": 1757686373,
+          "avatar": "632c9c99bf1bb47b9d3c81fc31825f1f1f3ad99b"
+        },
+        "language": "english",
+        "review": "Great game, super fun to play with kids, my 5 and 8 year old love it. Super addictive we keep playing after I say 'last game' everytime!",
+        "timestamp_created": 1758716675,
+        "timestamp_updated": 1758716675,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756936772",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFkAAAAAAAAFAAAAAAAAAAB3hbWOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

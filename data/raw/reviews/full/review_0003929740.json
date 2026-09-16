@@ -1,0 +1,95 @@
+{
+  "appid": 3929740,
+  "requested_at": "2026-09-13T20:01:39.761085+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 457,
+      "total_negative": 151,
+      "total_reviews": 608
+    },
+    "reviews": [
+      {
+        "recommendationid": "219415118",
+        "author": {
+          "steamid": "76561198066258544",
+          "personaname": "umbra",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/UmbraPSV/",
+          "num_games_owned": 1110,
+          "num_reviews": 346,
+          "playtime_forever": 900,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 900,
+          "last_played": 1772260753,
+          "avatar": "976de790f647c177bcdef347ea5924e0a29c988b"
+        },
+        "language": "english",
+        "review": "Splinter Cell: Pandora Tomorrow is a game that people have been clamoring for to get a digital re-release for years. Especially because every other mainline Splinter Cell game had always been accessible on Steam or other platforms.\n\nSCPT was always accessible thanks to a neat modded version on Moddb that had a ton of Patches pre-applied by fans of the game and who wanted to see the Abandonware title preserved and playable because Ubisoft wouldn't give us that luxury.\n\nNow, in 2025, we finally got that digital version courtesy of Ubisoft themselves. So let us go over what you get here:\n\nThis is essentially just an unpatched PC Version of SCPT, and not only that, it now requires Always-Online DRM by forcing you to make a Ubisoft Account and use their god-awful Ubisoft Connect Launcher that nobody likes.\nOn top of that: No Achievments, No Cloud Saves, No Controller Support, and even the ability to display the game at a basic resolution of 1080p isn't here. And on top of all this: The Multiplayer Mode is entirely removed too. The game doesn't even come with the files for it anymore!\n\nSo essentially you just get a worse version than what fans offered through \"pirating\" the Abandonware title, and you get forced into Online-DRM, with the only way to make the game properly playable being to seek out all the individual patches yourself and apply them.\n\nSo you might ask: \"Why shouldn't I just download the Moddb version by fans then?\". And I'd tell you that you make a great point and that you should and not pay Ubisoft a dime for this lazy re-release. But guess what:\nAs of the writing of this review, the Moddb version of the game has been deleted. Poofed out of existence, whether it was done so by the Uploader themselves or through a takedown by Ubisoft is unknown. But it leaves an incredibly sour taste in the mouth of Splinter Cell fans when they remove the best version of the game, and replace it with an \"officially-ensored\" version by Ubisoft that runs worse than what we had before.\n\nIf you really want to just buy the game to complete your Splinter Cell collection on Steam (like me). I am not gonna stop you. And lead you to this handy guide to help you fix the game up: https://steamcommunity.com/sharedfiles/filedetails/?id=3586803351\n(A huge thanks to this guide for Joshua. He has always been a valuable resource for getting SC games to run, on top of also being the person behind \"Enhanced SCCT Versus\")\n\nFor everybody else wanting to play the game: Either use your old physical copy that you have for PC, PS2 or Xbox, or sail the high seas and see if you can track down a copy of the fan-patched Version.\n\nOnce you are done patching the game or finding a copy that actually isn't broken. You are left with SCPT as it was. Warts and all.\n\nThe game has a fair bit of jank and hasn't necessarily ages that gracefully. But its worth a playthrough if you really wanna see just how SC evolved as a franchise.",
+        "timestamp_created": 1772260779,
+        "timestamp_updated": 1772260779,
+        "voted_up": false,
+        "votes_up": 232,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.945037662982940674",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760426140",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 11
+          },
+          {
+            "reaction_type": 29,
+            "count": 9
+          },
+          {
+            "reaction_type": 26,
+            "count": 7
+          },
+          {
+            "reaction_type": 31,
+            "count": 4
+          },
+          {
+            "reaction_type": 30,
+            "count": 2
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRGWgAAAAAFP+49wGAAAAB+pIDFBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.561999999999898,
+  "transport_error_count": 0
+}

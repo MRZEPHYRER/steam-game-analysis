@@ -1,0 +1,190 @@
+{
+  "requested_at": "2026-09-12T16:43:19.659260+00:00",
+  "request_params": {
+    "appids": 3805860,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3805860,
+  "payload": {
+    "3805860": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "DeadShore",
+        "steam_appid": 3805860,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Welcome to the shore of the dead, where immersive strategy is everything. The how and where when engaging the undead will mean life or death. Checkpoint are the way forward but bring more danger the longer they know you are around. Don't let the senary de a distraction How long can you survive.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >note: this game is still in development. some fetchers are not implemented. </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Welcome to the shore of the dead, where immersive strategy is everything. The how and where when engaging the undead will mean life or death. Checkpoint are the way forward but bring more danger the longer they know you are around. Don't let the senary de a distraction How long can you survive.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >note: this game is still in development. some fetchers are not implemented. </p>",
+        "short_description": "Deadshore is an VR wave based Island survival filled with the undead. The strategy you pick will be the deciding factor in how long you survive. Pick your weapon of chose and see how long you can survive.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/dbf2aa619f033d0be1c775b60028a661188386d6/header.jpg?t=1755485956",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/0a2800832ac7bfc3f20bca61de36e09fe5c8271e/capsule_231x87.jpg?t=1755485956",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/0a2800832ac7bfc3f20bca61de36e09fe5c8271e/capsule_184x69.jpg?t=1755485956",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i3<br></li><li><strong>Memory:</strong> 16 MB RAM<br></li><li><strong>Graphics:</strong> 3060<br></li><li><strong>VR Support:</strong> OpenVR, SteamVR</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "NotGass"
+        ],
+        "publishers": [
+          "NotGass"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1338651
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy DeadShore",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1338651,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "DeadShore - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 54,
+            "description": "VR Only"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/e74ba4ca8287f0c0e6bcb134b44d16c6861f711a/ss_e74ba4ca8287f0c0e6bcb134b44d16c6861f711a.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/e74ba4ca8287f0c0e6bcb134b44d16c6861f711a/ss_e74ba4ca8287f0c0e6bcb134b44d16c6861f711a.1920x1080.jpg?t=1755485956"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/1e30db641b643f4b9d7af51046c7433a0f047c99/ss_1e30db641b643f4b9d7af51046c7433a0f047c99.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/1e30db641b643f4b9d7af51046c7433a0f047c99/ss_1e30db641b643f4b9d7af51046c7433a0f047c99.1920x1080.jpg?t=1755485956"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/c50a421505210bf7daac2fee610e6be1d81fc597/ss_c50a421505210bf7daac2fee610e6be1d81fc597.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/c50a421505210bf7daac2fee610e6be1d81fc597/ss_c50a421505210bf7daac2fee610e6be1d81fc597.1920x1080.jpg?t=1755485956"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/cf41b477d1c273ccc912944318a391d491c6ef13/ss_cf41b477d1c273ccc912944318a391d491c6ef13.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/cf41b477d1c273ccc912944318a391d491c6ef13/ss_cf41b477d1c273ccc912944318a391d491c6ef13.1920x1080.jpg?t=1755485956"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/3044899b682d5fd1fd403cabb4bd613def2ea879/ss_3044899b682d5fd1fd403cabb4bd613def2ea879.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/3044899b682d5fd1fd403cabb4bd613def2ea879/ss_3044899b682d5fd1fd403cabb4bd613def2ea879.1920x1080.jpg?t=1755485956"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/8d49151be20d0ebea38b99d7db76cc207eeb45dd/ss_8d49151be20d0ebea38b99d7db76cc207eeb45dd.600x338.jpg?t=1755485956",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805860/8d49151be20d0ebea38b99d7db76cc207eeb45dd/ss_8d49151be20d0ebea38b99d7db76cc207eeb45dd.1920x1080.jpg?t=1755485956"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257160088,
+            "name": "Deadshore ",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257160088/63f5322a284a11ca88013aa353e8c4b04a562ceb/movie_600x337.jpg?t=1753197079",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3805860/1445227435/1ec741f02bab1ab1fd57852888deaeca2d16c43d/1750648294/dash_av1.mpd?t=1753197079",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3805860/1445227435/1ec741f02bab1ab1fd57852888deaeca2d16c43d/1750648294/dash_h264.mpd?t=1753197079",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3805860/1445227435/1ec741f02bab1ab1fd57852888deaeca2d16c43d/1750648294/hls_264_master.m3u8?t=1753197079",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gasser.rj@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3805860?t=1755485956",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3805860?t=1755485956",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "Cartoon Zombies that you kill with melee weapons."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

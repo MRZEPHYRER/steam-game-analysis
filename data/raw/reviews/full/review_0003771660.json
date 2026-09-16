@@ -1,0 +1,66 @@
+{
+  "appid": 3771660,
+  "requested_at": "2026-09-13T19:38:49.743136+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 21,
+      "total_negative": 13,
+      "total_reviews": 34
+    },
+    "reviews": [
+      {
+        "recommendationid": "214993911",
+        "author": {
+          "steamid": "76561198098876424",
+          "personaname": "捌壹先生。",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198098876424/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 99,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 88,
+          "last_played": 1770015958,
+          "avatar": "f799407b4afddcd07d736acd53e405e1a6419d0c"
+        },
+        "language": "schinese",
+        "review": "说实话单纯只是喜欢这类题材，花22买一个可能随时断更的游戏也真是为爱发电了。\n希望作者不要跑路。\n1.尽快更新后续玩法和角色。\n2.建议弄一下局外成长系统，不然现在打完毫无后续体验，过关2次就腻了。\n3.建议增加更多的技能组合卡组组合。\n总之如果还是现在这样还要22的话，不建议买。",
+        "timestamp_created": 1767422500,
+        "timestamp_updated": 1767422500,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.628378391265869141",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767086091",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXbrSAAAAAFP+QbrCAAAAB3v5G0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2967630,
+  "requested_at": "2026-09-13T18:59:52.976364+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 173,
+      "total_negative": 15,
+      "total_reviews": 188
+    },
+    "reviews": [
+      {
+        "recommendationid": "219555083",
+        "author": {
+          "steamid": "76561198072911875",
+          "personaname": "Island",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198072911875/",
+          "num_games_owned": 571,
+          "num_reviews": 15,
+          "playtime_forever": 166,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 166,
+          "last_played": 1770673829,
+          "avatar": "be264f62c2d66599eb7800ab2e652027d2cde076"
+        },
+        "language": "english",
+        "review": "A pleasant afternoon's worth of a Point and Click adventure. I liked the game's puzzles, writing, and pace.\n\nThe real value of this game in my eyes however, is the accompanying Youtube series the creator made while developing it, going from 0 experience to the full release. If you're interested in seeing a game come together from start to finish over the course of a few years by a solo developer, this playlist is a real treat.\n\nThe Point & Click Devlog  on Youtube\nhttps://www.youtube.com/playlist?list=PLa2kyEYZ3lel_4RhIcCEOmmRjgrIvhSm5",
+        "timestamp_created": 1772379969,
+        "timestamp_updated": 1772379969,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.67266690731048584",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753183350",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWi/IAAAAAFP+WGfQAAAAB70MTFBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

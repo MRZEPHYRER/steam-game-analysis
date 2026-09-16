@@ -1,0 +1,9 @@
+"model","population","n_games","total_reviews","fraction_reviews_retained","pooled_positive_rate","dispersion","dispersion_definition","log_likelihood","aic","bic","convergence_code","positive_definite_hessian","converged","warning_count"
+"Quasibinomial","full",836,1069024,1,0.882388047415212,73.5158762129127,"estimated quasi variance multiplier",,,,,,TRUE,0
+"Beta-binomial","full",836,1069024,1,0.882388047415212,8.746726659122,"beta precision phi",-3395.15300093938,6818.30600187876,6884.50680246195,0,TRUE,TRUE,0
+"Quasibinomial","minus_top1",835,932182,0.871993519322298,0.87957716411602,67.0599960805554,"estimated quasi variance multiplier",,,,,,TRUE,0
+"Beta-binomial","minus_top1",835,932182,0.871993519322298,0.87957716411602,8.73347875668588,"beta precision phi",-3384.68812381026,6797.37624762052,6863.56029176843,0,TRUE,TRUE,0
+"Quasibinomial","minus_top1pct",827,533367,0.49892892956566,0.855982841083157,53.2445539111355,"estimated quasi variance multiplier",,,,,,TRUE,0
+"Beta-binomial","minus_top1pct",827,533367,0.49892892956566,0.855982841083157,8.74425383492186,"beta precision phi",-3307.52085690828,6643.04171381655,6709.09097954689,0,TRUE,TRUE,0
+"Quasibinomial","minus_top5pct",794,245216,0.22938306342982,0.837902094479969,27.4993223920166,"estimated quasi variance multiplier",,,,,,TRUE,0
+"Beta-binomial","minus_top5pct",794,245216,0.22938306342982,0.837902094479969,8.74806189393168,"beta precision phi",-3043.77590347157,6115.55180694315,6181.03097540061,0,TRUE,TRUE,0

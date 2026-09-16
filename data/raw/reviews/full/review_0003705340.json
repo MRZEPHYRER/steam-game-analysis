@@ -1,0 +1,71 @@
+{
+  "appid": 3705340,
+  "requested_at": "2026-09-13T19:33:10.515379+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212664150",
+        "author": {
+          "steamid": "76561198888273015",
+          "personaname": "ssrgrss",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198888273015/",
+          "num_games_owned": 117,
+          "num_reviews": 1,
+          "playtime_forever": 265,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 195,
+          "last_played": 1767159002,
+          "avatar": "69cbd04b69aeaa6a26bac7b0b7a316d3e2ba4c04"
+        },
+        "language": "english",
+        "review": "this changed my life for the better \n\nopen world side is a little interesting. recommend it most to people willing to play the 8 buttons mode since that stands out much more gameplaywise than the 4 buttons mode\n\nthe animals are funny",
+        "timestamp_created": 1764994828,
+        "timestamp_updated": 1764994828,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558823525905609131",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764697121",
+        "reactions": [
+          {
+            "reaction_type": 4,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFY0tIAAAAAFP+Hh4uAAAAB29Z+rBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

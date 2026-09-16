@@ -1,0 +1,66 @@
+{
+  "appid": 3560370,
+  "requested_at": "2026-09-13T19:22:30.004598+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 235,
+      "total_negative": 18,
+      "total_reviews": 253
+    },
+    "reviews": [
+      {
+        "recommendationid": "205677909",
+        "author": {
+          "steamid": "76561198840848341",
+          "personaname": "Venetian Blind Man",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198840848341/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 81,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 81,
+          "last_played": 1764355309,
+          "avatar": "479bbbe5daf03164bf3e8cea398b613deccecc75"
+        },
+        "language": "english",
+        "review": "I had to get this game the second I saw it released and it was worth it. Fans of point and click adventure games and fans of Will Wood can quite easily appreciate the amount of care put into this game.",
+        "timestamp_created": 1759395915,
+        "timestamp_updated": 1759395915,
+        "voted_up": true,
+        "votes_up": 76,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.871040463447570801",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759388463",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFSlEaAAAAAFP+vfj0AAAAB11cyQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.282000000000153,
+  "transport_error_count": 0
+}

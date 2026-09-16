@@ -1,0 +1,66 @@
+{
+  "appid": 3921270,
+  "requested_at": "2026-09-13T20:00:10.444869+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "220250125",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 907,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 907,
+          "last_played": 1773007743,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Blood & Money developed and published by Paradise Multimedia is a fast-paced top-down dungeon crawler that takes heavy inspiration from classic arcade action games. Built around chaotic combat, cooperative play, and retro aesthetics, the game delivers an experience that feels like a modern homage to the multiplayer dungeon brawlers of earlier gaming eras. Instead of focusing on elaborate storytelling or deep role-playing systems, the title prioritizes immediate action and simple progression, encouraging players to dive into monster-filled dungeons and battle through waves of enemies while collecting treasure and upgrades.\n\nThe premise places players in a troubled fantasy realm where betrayal and dark magic have unleashed hordes of monsters across the land. A mysterious traitor has formed a pact with sinister forces, corrupting ancient dungeons and spreading chaos throughout the kingdom. Players step into the role of a hero tasked with entering these dangerous labyrinths to fight back against the invading creatures and reclaim the wealth and resources hidden within. While the narrative framework is fairly light and largely serves to justify the dungeon-crawling gameplay, it still provides a thematic backdrop that gives the action a sense of purpose.\n\nGameplay takes place from a top-down perspective, placing players directly in the center of intense combat encounters. Each dungeon is packed with enemies that attack relentlessly, forcing players to move constantly, dodge attacks, and unleash abilities in rapid succession. Combat emphasizes crowd control rather than careful one-on-one duels, as players often face large groups of enemies simultaneously. The pacing is deliberately fast, and survival often depends on maintaining awareness of enemy movements while strategically deploying attacks and special abilities.\n\nOne of the more interesting elements of Blood & Money is the selection of playable characters. The game offers multiple heroes, each with distinct abilities and combat styles. Some characters specialize in ranged magic attacks capable of hitting multiple enemies at once, while others rely on heavier melee strikes or defensive skills that allow them to withstand larger enemy groups. These differences encourage players to experiment with different playstyles and can significantly influence how each dungeon run unfolds.\n\nThe variety of characters becomes especially meaningful when playing cooperatively. The game strongly emphasizes multiplayer gameplay, allowing players to join forces and explore dungeons together. Cooperative play adds a strategic layer to the experience, as players can combine abilities to handle large enemy waves more effectively. For example, a character capable of freezing or slowing enemies can create opportunities for teammates to unleash powerful attacks. This teamwork aspect captures the spirit of classic arcade dungeon crawlers where coordination and cooperation were essential for success.\n\nProgression within the game revolves around collecting coins and treasure during dungeon runs. Enemies drop currency and rewards that can be used to upgrade character abilities and improve overall combat performance. These upgrades increase attributes such as attack strength, health, and special ability effectiveness, gradually transforming the player’s character into a stronger warrior capable of surviving tougher encounters. While the progression system is relatively simple compared to larger role-playing games, it provides enough motivation to continue exploring and replaying dungeons.\n\nVisually, the game embraces a retro-inspired pixel art style that reflects its arcade roots. Characters, monsters, and environments are designed with bold colors and exaggerated animations that keep the battlefield visually clear even during intense combat. Explosions, magical spells, and enemy attacks fill the screen with flashing effects that contribute to the chaotic atmosphere of dungeon battles. The aesthetic is intentionally nostalgic, appealing to players who enjoy the visual style of classic action games.\n\nThe sound design reinforces the game’s energetic tone through a loud and fast-paced soundtrack. The music often leans toward aggressive rock-inspired themes that match the intensity of the battles. Combined with sound effects for spells, explosions, and enemy attacks, the audio presentation enhances the sense of urgency that accompanies each dungeon run. Although the sound design is relatively simple, it fits well with the arcade-style gameplay.\n\nDespite its strengths, Blood & Money does have some limitations. The gameplay loop—entering dungeons, defeating waves of enemies, and collecting loot—remains fairly consistent throughout the experience. While character variety and cooperative play help keep things interesting, the core mechanics do not evolve significantly as players progress. As a result, extended play sessions can occasionally feel repetitive.\n\nAnother aspect that may disappoint some players is the limited narrative depth. The story provides a basic context for the adventure but does not receive much development beyond the initial premise. Players who prefer story-driven games or character-focused narratives may find the plot somewhat minimal.\n\nEven with these shortcomings, the game succeeds in delivering what it sets out to do: provide a fast, accessible dungeon-crawling experience that captures the spirit of classic arcade action. The combination of quick combat, cooperative gameplay, and retro visuals creates an enjoyable environment for players who want to jump straight into chaotic battles without dealing with complicated mechanics.\n\nOverall, Blood & Money stands as a solid indie dungeon crawler that embraces simplicity and fast-paced action. Its cooperative gameplay, character variety, and nostalgic presentation make it particularly appealing for players who enjoy arcade-style experiences with friends. While the game may lack the depth and narrative complexity of larger RPG titles, it offers an energetic and entertaining dungeon adventure that works well for short but intense gaming sessions.\n\nRating: 7/10",
+        "timestamp_created": 1773033717,
+        "timestamp_updated": 1773033717,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.510058403015136719",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761920799",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZzIEAAAAAFP+BSZSAAAAB9gJjIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.016000000000531,
+  "transport_error_count": 0
+}

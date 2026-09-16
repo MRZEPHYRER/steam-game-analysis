@@ -1,0 +1,73 @@
+{
+  "appid": 1665260,
+  "requested_at": "2026-09-13T18:44:14.270311+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 228,
+      "total_negative": 67,
+      "total_reviews": 295
+    },
+    "reviews": [
+      {
+        "recommendationid": "205056268",
+        "author": {
+          "steamid": "76561198025321433",
+          "personaname": "Meat Clown",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198025321433/",
+          "num_games_owned": 1477,
+          "num_reviews": 647,
+          "playtime_forever": 245,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 245,
+          "last_played": 1758660038,
+          "avatar": "9b8adb62e7a67de6fabd454ec1c496bc0b295481"
+        },
+        "language": "english",
+        "review": "Beyond Sunset definitely wins style points - the game's environments are pretty for a boomer shooter and the cyberpunk elements are applied consistently enough to make the game world feel believable. The soundtrack is nice too.\n\nIt has a few issues though. Biggest of all, there are a lot of bugs - thanks to those, I was not able to progress after about halfway into the game without completely restarting the episode I was in, which I was just not willing to do given how easily the game can lock you out of progressing. Seeing some of the reviews, I am not the only one who experienced bugs like that and these should have been caught and fixed before release. I also got stuck in a wall once but saved short before, luckily.\n\nThe game also has severe issues with audio mixing. Some enemies have extremely loud death sounds - I am talking ear-splittingly loud - while others are super quiet. Gun sounds are extremely quiet as well. Even turned up a bit (and after risking hearing damage from enemies as a result), the gun sounds are pretty weak and just don't sound powerful enough. That goes for the general gameplay as well - everything feels floaty and there just isn't good feedback for when you hit enemies or when you get hit, so it often just feels like you're fighting each other with rubber bullets. \nEDIT: The loud death noises have apparently been fixed now, thank god!\n\nThere is also only a small variety of guns and enemies so combat gets boring pretty quick, even for a boomer shooter. Movement is nice at least - you got a dash and a slide, as well as a katana that is actually useful for a change. But again, the combat feel just isn't there, it lacks oomph and I feel like I'm slicing open a pack of sealed turkey with a butter knife.\n\nThe difficulty of the game is fine, though some of the bosses present huge difficulty spikes, especially the first boss. Overall, though, I can't recommend Beyond Sunset until the audio issues and progression bugs are fixed, and even then, I think it is only an average boomer shooter only held up by it's general aesthetic.",
+        "timestamp_created": 1758660474,
+        "timestamp_updated": 1760552740,
+        "voted_up": false,
+        "votes_up": 22,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.698067069053649902",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1760544420,
+        "developer_response": "Hi! Thanks for your feedback, there is a lot of useful info for us. \n\nWe've recently fixed the audio problems so the death sounds should no longer cause the death of your eardrums. And we're definitely still working on fixes to the game, we already did some in the latest update. \n\nHope you can give us another chance in the future and consider changing your review. I wish you a lot of fun playing!",
+        "app_release_date": "1699455651",
+        "reactions": [
+          {
+            "reaction_type": 4,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWCeWAAAAAFP+ZWkKAAAAB8kJ2OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1569999999999254,
+  "transport_error_count": 0
+}

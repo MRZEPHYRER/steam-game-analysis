@@ -1,0 +1,71 @@
+{
+  "appid": 1710260,
+  "requested_at": "2026-09-13T18:44:27.016099+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "208333904",
+        "author": {
+          "steamid": "76561198020011683",
+          "personaname": "Phineas",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/blueclancer/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 116,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 116,
+          "last_played": 1762193583,
+          "avatar": "c3efdfeeb1af157527c93c43089f37fd5560ad99"
+        },
+        "language": "english",
+        "review": "Catsploration is a game where it's possible to make your own fun you just need to try a little and you will see the years of development squeezed into a couple of hours of gameplay. I recommend buying this game if you enjoy character creation and selecting stats that may not be relevant in this game but can be ported to your next cat based pathfinder session. There is an adventure to be had here for those who can enjoy a technically competent but directionless game",
+        "timestamp_created": 1762193845,
+        "timestamp_updated": 1762193845,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558823525905609131",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762167436",
+        "reactions": [
+          {
+            "reaction_type": 15,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFY0tIAAAAAFP+Hh4uAAAABwxd2aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4028620,
+  "requested_at": "2026-09-13T20:13:03.469462+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "213030109",
+        "author": {
+          "steamid": "76561199811519633",
+          "personaname": "Valium",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199811519633/",
+          "num_games_owned": 66,
+          "num_reviews": 7,
+          "playtime_forever": 85,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 85,
+          "last_played": 1764251211,
+          "avatar": "c0c1c4a02d072d57a2889766db85bca25ca679f0"
+        },
+        "language": "schinese",
+        "review": "\t比较小品的学生作品。噱头足，也比较中二。如果能对上电波，抛开常识的话，可以玩的很开心。游戏比较短，节奏快。可能人物名还没完全记住，游戏就结束了。架构不算太复杂。一般一到两个场景就算是一个章节。\n\t\n\t主角名叫边缘。是内向敏感，在学校里也比较边缘的人。她带着耳机的样子有点像是虚拟歌姬。喜欢推理的她想要追求一场合情合理的死亡。悬疑主要还是推理社同学们的一起讨论的爱好，游戏本身里没有太多悬疑推理。出场角色不多，就是三位推理社成员和社长还有一只神秘猫猫。人物介绍感觉多说了都是剧透。反正大家之间的感情升温，距离拉近的速度很快。这说不准也是因为社长白陨在其中牵线搭桥，两边传话，撮合人呢。有些地方甚至有点突如其来了。但是这和游戏真正想要探讨的主题也有点关系。\n\t\n\t故事的分线非常直观，加入推理社后选择和谁聊天就进谁的线。每个角色只有一个GE，但是有很多各式各样的NE。每次NE后可以进入猫猫的校园传说场外讲解，给你一些GE的提示。据观察，不能的NE给出的短小日后谈还是不一样的呢。很可惜的是游戏只有4个GE成就，没有NE的成就。如果有NE成就的话，我当时玩的时候就一口气刷完了。\n\t\n\t我玩的NE应该还有一些遗漏。其中芈攻线的一条NE中有一篇很特别的社长写的以日记为载体的推理题。日记写的很细腻真实。感觉是边缘高中生的日常想法记录再加上一些能和社团和朋友一起玩耍的美好幻想。像是读后感之类的部分很真实，有一点灵气的。在日记里芈攻和何也还是一对。他们还挺可爱的，和边缘住在一起。好和谐幸福的三人共处关系呀，喜欢。\n\t\n\t游戏之后还会有乔默视角的DLC故事。很期待了。[spoiler]能看到无性恋光谱下的故事和角色真的很开心。[/spoiler]虽然说设定上是何也最中二，但是实际效果上乔默更中二！乔默线中间看着真的很乐，最后的收尾是收的最好的，这条线大概也是作者最想写的东西。如果能有超过100销量的话，似乎还会有额外的DLC，真希望游戏大卖呀。\n",
+        "timestamp_created": 1765432887,
+        "timestamp_updated": 1765432887,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763746004",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB9zdKsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.110000000000582,
+  "transport_error_count": 0
+}

@@ -1,0 +1,78 @@
+{
+  "appid": 4186480,
+  "requested_at": "2026-09-13T20:24:51.864410+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 26,
+      "total_negative": 0,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "235077994",
+        "author": {
+          "steamid": "76561198335842226",
+          "personaname": "Cuke",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198335842226/",
+          "num_games_owned": 790,
+          "num_reviews": 64,
+          "playtime_forever": 132,
+          "playtime_last_two_weeks": 132,
+          "playtime_at_review": 132,
+          "last_played": 1789196752,
+          "avatar": "e8b698e0104215d21979a1ea68ba4e3de57df90b"
+        },
+        "language": "russian",
+        "review": "История у игры, если её можно так назвать, хорошая и душевная. Рассказ про поездку и событие в дубраве хорош... Однако с определённого момента повествование начинает страдать от перенасыщения мистикой. Если поначалу это добавляло атмосферы, то ближе к развязке мистический элемент становится настолько густым, что начинает перегружать.\n\nИз плюсов:\n\nхорошая история;\n\nшикарные арты на протяжении всей игры;\n\nотличное звуковое сопровождение.\n\nИз минусов лично для меня:\n\nстимовский оверлей в этой игре жутко лагает — не знаю, с чем это связано, но в других играх такого нет;\n\nна странице игры в Steam указана русская озвучка, и в настройках игры даже есть ползунок, который прибавляет и убавляет громкость голоса, но за всю игру я не услышал ни одного озвученного диалога.\n\n",
+        "timestamp_created": 1789199609,
+        "timestamp_updated": 1789199609,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.579741358757019043",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765726343",
+        "hardware": {
+          "system_ram": "32507",
+          "os": "Windows 11",
+          "cpu_name": "12th Gen Intel(R) Core(TM) i7-12700K",
+          "adapter_description": "NVIDIA GeForce RTX 4070 Ti",
+          "vram_size": 12281
+        },
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYZ7oAAAAAFP+KNPQAAAAB6luCABw=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.04700000000048,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3672300,
+  "requested_at": "2026-09-13T19:30:23.280760+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 2,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "208358174",
+        "author": {
+          "steamid": "76561198402013095",
+          "personaname": "mmmmGoodDinner",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/mmmmGoodDinner/",
+          "num_games_owned": 0,
+          "num_reviews": 19,
+          "playtime_forever": 518,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 304,
+          "last_played": 1762326328,
+          "avatar": "25c8e408b2154abf25ca9a5e19b41d1af8c74850"
+        },
+        "language": "english",
+        "review": "This game is everything I expected and needed it to be. Such a simple concept but executed very well!\n\nIt is very easy so if you're looking for something supremely challenging, it's probably not for you. But if you like the idea of having a very zen experience as you manipulate the environment to get your duckies home, then absolutely buy this game. The water physics alone are very satisfying, the art style is quaint, and the premise is wonderful.\n\nI know the game just released but I'm honestly surprised I have the honor of posting the first review because this game is really perfect for what it is. I hope it blows up!\n\nNow, time to go, I've got ducks that need to make it home!",
+        "timestamp_created": 1762217429,
+        "timestamp_updated": 1762217429,
+        "voted_up": true,
+        "votes_up": 24,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.743318736553192139",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762193068",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVIjUAAAAAFP+fJROAAAAB+semaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

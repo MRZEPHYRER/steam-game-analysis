@@ -1,0 +1,66 @@
+{
+  "appid": 3942700,
+  "requested_at": "2026-09-13T20:03:27.005901+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 43,
+      "total_negative": 2,
+      "total_reviews": 45
+    },
+    "reviews": [
+      {
+        "recommendationid": "206228303",
+        "author": {
+          "steamid": "76561198386854629",
+          "personaname": "Masa Kei",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198386854629/",
+          "num_games_owned": 0,
+          "num_reviews": 84,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1759968523,
+          "avatar": "9e113654df793ed815f235f888b4d704081acf44"
+        },
+        "language": "japanese",
+        "review": "トレイラーとgifアニメの通り、矢印（↑, ↓, ←, →）と斬撃ボタンを5つ組み合わせたコマンドを瞬時に入力するQTEゲーム。\n120円なので気軽に買って遊べる。ハードモードもあるので2周楽しめる。\n中盤のステージからコマンドが時間とともに消えたり散らばったりする。一瞬見てコマンドを覚えよう。\n\nキャラがかわいい。斬撃のモーションもかっこいい。カカシ相手に納刀状態から斬りつける理由はよくわからない。\nネコを助けるのとカカシを切り刻むのがどう関係あるのかもよくわからない。けれど女剣士と子供とネコをくっつけたゲームを作って好きなことをやっている、それでいいのかも。",
+        "timestamp_created": 1759970303,
+        "timestamp_updated": 1759970303,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.711934328079223633",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759820500",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVwuYAAAAAFP+bIKcAAAAB/tNmSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

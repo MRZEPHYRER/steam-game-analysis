@@ -1,0 +1,243 @@
+{
+  "requested_at": "2026-09-13T06:06:57.681082+00:00",
+  "request_params": {
+    "appids": 3961540,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3961540,
+  "payload": {
+    "3961540": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Duck Dash",
+        "steam_appid": 3961540,
+        "required_age": 0,
+        "is_free": true,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Duck Dash is a simple 2D platformer adventure game where you play as a duck named Scruffles.</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Achievements</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >10 unique levels</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash contains 10 unique levels with increasing difficulty and length (and their own easter eggs).</p></li></ul></li><li><p class=\"bb_paragraph\" >Polished Player Movement</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Duck has polished player movement that makes it fun to play whether you have never played a platformer game or if you are an experienced player.</p></li><li><p class=\"bb_paragraph\" >Duck Dash can be played at any pace, whether fast or slow.</p></li></ul></li><li><p class=\"bb_paragraph\" >Speedrunning Mode</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash contains a speedrunning mode so you can see the time it took for you to complete a level.</p></li><li><p class=\"bb_paragraph\" >Both local leaderboards and global leaderboards, so you can race other Steam users or local times.</p></li><li><p class=\"bb_paragraph\" >Ghosts are recorded for global leaderboards, so you can see your friends ghosts while racing them.</p></li></ul></li><li><p class=\"bb_paragraph\" >Full Xbox Controller Support</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash is fully playable with an Xbox controller.</p></li></ul></li></ul><p class=\"bb_paragraph\" >(Also, Scruffles is cute)</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Duck Dash is a simple 2D platformer adventure game where you play as a duck named Scruffles.</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Achievements</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >10 unique levels</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash contains 10 unique levels with increasing difficulty and length (and their own easter eggs).</p></li></ul></li><li><p class=\"bb_paragraph\" >Polished Player Movement</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Duck has polished player movement that makes it fun to play whether you have never played a platformer game or if you are an experienced player.</p></li><li><p class=\"bb_paragraph\" >Duck Dash can be played at any pace, whether fast or slow.</p></li></ul></li><li><p class=\"bb_paragraph\" >Speedrunning Mode</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash contains a speedrunning mode so you can see the time it took for you to complete a level.</p></li><li><p class=\"bb_paragraph\" >Both local leaderboards and global leaderboards, so you can race other Steam users or local times.</p></li><li><p class=\"bb_paragraph\" >Ghosts are recorded for global leaderboards, so you can see your friends ghosts while racing them.</p></li></ul></li><li><p class=\"bb_paragraph\" >Full Xbox Controller Support</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Duck Dash is fully playable with an Xbox controller.</p></li></ul></li></ul><p class=\"bb_paragraph\" >(Also, Scruffles is cute)</p>",
+        "short_description": "A fun and simple 2D platformer game about a duck named Scruffles. Fight your way through 10 levels with a smooth feeling movement system.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/289641d92aa1221818f6fdb082c4512573761551/header.jpg?t=1757001633",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/f41911542824337f3c7ef6a69eec7f3a3641f1e0/capsule_231x87.jpg?t=1757001633",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/f41911542824337f3c7ef6a69eec7f3a3641f1e0/capsule_184x69.jpg?t=1757001633",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> WIndows 10 or 11<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 250 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Any Version<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 250 MB available space</li></ul>"
+        },
+        "developers": [
+          "Levi Soren",
+          "Julian Cloward"
+        ],
+        "publishers": [
+          "Levi Soren",
+          "Julian Cloward"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/61c99bd7d320291d593cf7781f7c20b5eadbcdac/ss_61c99bd7d320291d593cf7781f7c20b5eadbcdac.600x338.jpg?t=1757001633",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/61c99bd7d320291d593cf7781f7c20b5eadbcdac/ss_61c99bd7d320291d593cf7781f7c20b5eadbcdac.1920x1080.jpg?t=1757001633"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/91bc963ffe1e92e7fdd910eafdb8f36336978bb8/ss_91bc963ffe1e92e7fdd910eafdb8f36336978bb8.600x338.jpg?t=1757001633",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/91bc963ffe1e92e7fdd910eafdb8f36336978bb8/ss_91bc963ffe1e92e7fdd910eafdb8f36336978bb8.1920x1080.jpg?t=1757001633"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/c73e143b119eefeea73ae510e726db2c2ea002d1/ss_c73e143b119eefeea73ae510e726db2c2ea002d1.600x338.jpg?t=1757001633",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/c73e143b119eefeea73ae510e726db2c2ea002d1/ss_c73e143b119eefeea73ae510e726db2c2ea002d1.1920x1080.jpg?t=1757001633"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/3851ec752cc2935612dacaa38878fb67cd45a4cd/ss_3851ec752cc2935612dacaa38878fb67cd45a4cd.600x338.jpg?t=1757001633",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/3851ec752cc2935612dacaa38878fb67cd45a4cd/ss_3851ec752cc2935612dacaa38878fb67cd45a4cd.1920x1080.jpg?t=1757001633"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/b03a2c2822a029b1c0fa38c5e21a9ac0c785dad1/ss_b03a2c2822a029b1c0fa38c5e21a9ac0c785dad1.600x338.jpg?t=1757001633",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/b03a2c2822a029b1c0fa38c5e21a9ac0c785dad1/ss_b03a2c2822a029b1c0fa38c5e21a9ac0c785dad1.1920x1080.jpg?t=1757001633"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257184198,
+            "name": "Duck Dash Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257184198/fec1698c195d82f23562e352735dbb22085d6996/movie_600x337.jpg?t=1755804760",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3961540/1636155139/d980afd2e0c4323c48337a8673e051e07437bf8c/1755364032/dash_av1.mpd?t=1755804760",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3961540/1636155139/d980afd2e0c4323c48337a8673e051e07437bf8c/1755364032/dash_h264.mpd?t=1755804760",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3961540/1636155139/d980afd2e0c4323c48337a8673e051e07437bf8c/1755364032/hls_264_master.m3u8?t=1755804760",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "10f7a9011f9b2d6ca9a8a76606d01162854592de.jpg",
+              "localized_name": "Golden Duck",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Golden Duck",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/10f7a9011f9b2d6ca9a8a76606d01162854592de.jpg"
+            },
+            {
+              "icon": "f81801bd3c49c9eee9212ec6f92a4da1522b6764.jpg",
+              "localized_name": "Didn't even Sweat",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Didn't even Sweat",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/f81801bd3c49c9eee9212ec6f92a4da1522b6764.jpg"
+            },
+            {
+              "icon": "d24940481cef9c414eb23a2cd026ccb36aadf3e6.jpg",
+              "localized_name": "Don't give up Scruffles!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Don't give up Scruffles!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/d24940481cef9c414eb23a2cd026ccb36aadf3e6.jpg"
+            },
+            {
+              "icon": "b92b90892d3980c8125aaa15ea7a0a6fdb1e9a71.jpg",
+              "localized_name": "Mind the Gap",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mind the Gap",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/b92b90892d3980c8125aaa15ea7a0a6fdb1e9a71.jpg"
+            },
+            {
+              "icon": "e344816f39d8ff9bddd7b271957540c39e1d688b.jpg",
+              "localized_name": "Kaboom",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Kaboom",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/e344816f39d8ff9bddd7b271957540c39e1d688b.jpg"
+            },
+            {
+              "icon": "76625a40df7a6e367a5a44ceabc1ab9cfa44f764.jpg",
+              "localized_name": "Top Hat Duck",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Top Hat Duck",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/76625a40df7a6e367a5a44ceabc1ab9cfa44f764.jpg"
+            },
+            {
+              "icon": "5afd297c4614bdc6fd534799c3ab5ac05b92540c.jpg",
+              "localized_name": "Into the Dungeon",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Into the Dungeon",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3961540/5afd297c4614bdc6fd534799c3ab5ac05b92540c.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": " support@yourmomswebsite.com "
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3961540?t=1757001633",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3961540/a32815af54aefc36d95b95a14be6114ecdeb65ea/page_bg_raw.jpg?t=1757001633",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 4045970,
+  "requested_at": "2026-09-13T20:15:06.355384+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "213769553",
+        "author": {
+          "steamid": "76561198945327223",
+          "personaname": "【ANTOHNY】",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198945327223/",
+          "num_games_owned": 184,
+          "num_reviews": 8,
+          "playtime_forever": 43,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 43,
+          "last_played": 1766269338,
+          "avatar": "34160e06f7b5ec53a424a215a1280b88a990a62b"
+        },
+        "language": "russian",
+        "review": "Абсолютный шедевр, была бы игра года если бы можно было растить арбузы😈😈🍈🍈",
+        "timestamp_created": 1766269777,
+        "timestamp_updated": 1766269777,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760379852",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFnhheAAAAAFP+DDDUAAAABx1buvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0789999999997235,
+  "transport_error_count": 0
+}

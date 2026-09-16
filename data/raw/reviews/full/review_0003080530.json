@@ -1,0 +1,84 @@
+{
+  "appid": 3080530,
+  "requested_at": "2026-09-13T19:03:24.640732+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 132,
+      "total_negative": 9,
+      "total_reviews": 141
+    },
+    "reviews": [
+      {
+        "recommendationid": "213962466",
+        "author": {
+          "steamid": "76561198007812878",
+          "personaname": "padre spazma",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/spazma/",
+          "num_games_owned": 1146,
+          "num_reviews": 481,
+          "playtime_forever": 246,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 72,
+          "deck_playtime_at_review": 15,
+          "last_played": 1766732160,
+          "avatar": "1703df2dccecaa837c9884fb9de8c9f6c50f2d2f"
+        },
+        "language": "english",
+        "review": "[b]This is not an ordinary shmup.[/b] this is a worthy version of projectX from the Amiga :-) \nThe author (ONE person) made a miracle that made sense in 2025, and not \"just\" was ported!\nMusic - mastery! gameplay like in the old days. And ofcoz, full of improvements is here: from game modes to levels to seasons and online highscore. superb 👌 I recommend",
+        "timestamp_created": 1766452723,
+        "timestamp_updated": 1766452745,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.660963237285614014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755255331",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWx96AAAAAFP+Umm+AAAABy7pmwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

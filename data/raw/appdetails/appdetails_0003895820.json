@@ -1,0 +1,210 @@
+{
+  "requested_at": "2026-09-12T17:51:28.408431+00:00",
+  "request_params": {
+    "appids": 3895820,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3895820,
+  "payload": {
+    "3895820": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "EcoNexus",
+        "steam_appid": 3895820,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>ABOUT THIS GAME</strong> <i>(ENG)</i></p><p class=\"bb_paragraph\" ><strong>Econexus</strong> is a single-player strategy game where players aim to grow their wealth by trading stocks in a dynamic stock market simulation. The game features dozens of fictional companies whose stock values fluctuate based on news events, market trends, and sector-specific developments.</p><p class=\"bb_paragraph\" >Some companies are more sensitive to short-term changes, while others respond to specific formations and scripted news scenarios. Players must analyze both open and hidden news to make strategic investment decisions. Additionally, spatial developments—such as the opening of a new subway line or a university—can influence the value of certain assets based on the player's location.</p><p class=\"bb_paragraph\" >The game presents price movements through visual stock charts, offering better tools for analysis. Success depends on timing your trades wisely, understanding market behavior, and applying investor intuition.<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/extras/516fb19d1e00003471e4e36aca2fa006.avif?t=1764536882\" width=616 height=616 /></span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>ABOUT THIS GAME</strong> <i>(ENG)</i></p><p class=\"bb_paragraph\" ><strong>Econexus</strong> is a single-player strategy game where players aim to grow their wealth by trading stocks in a dynamic stock market simulation. The game features dozens of fictional companies whose stock values fluctuate based on news events, market trends, and sector-specific developments.</p><p class=\"bb_paragraph\" >Some companies are more sensitive to short-term changes, while others respond to specific formations and scripted news scenarios. Players must analyze both open and hidden news to make strategic investment decisions. Additionally, spatial developments—such as the opening of a new subway line or a university—can influence the value of certain assets based on the player's location.</p><p class=\"bb_paragraph\" >The game presents price movements through visual stock charts, offering better tools for analysis. Success depends on timing your trades wisely, understanding market behavior, and applying investor intuition.<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/extras/516fb19d1e00003471e4e36aca2fa006.avif?t=1764536882\" width=616 height=616 /></span></p>",
+        "short_description": "A finance simulation full of news, charts, and strategy. Analyze the economy, diversify your investments, take control.",
+        "supported_languages": "Turkish, English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/92bcc691caf95c440f50eeeece9a7c9130a72f2a/header.jpg?t=1764536882",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/0bb0921e8ce3bd12bc178f44f4dbb518a6ccacf1/capsule_231x87.jpg?t=1764536882",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/0bb0921e8ce3bd12bc178f44f4dbb518a6ccacf1/capsule_184x69.jpg?t=1764536882",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 / 11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5-8400 or AMD Ryzen 5 2600<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1050 Ti or AMD Radeon RX 570<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11 (64-bit)<br></li><li><strong>Processor:</strong> 13th Gen Intel Core i7-13700H or AMD Ryzen 9 7940HS<br></li><li><strong>Graphics:</strong> NVIDIA RTX 3060 or AMD Radeon RX 6700M / RX 6600<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "sharkMotion_games"
+        ],
+        "publishers": [
+          "sharkMotion_games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 700,
+          "final": 700,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.00"
+        },
+        "packages": [
+          1369370
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy EcoNexus",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1369370,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "econexus_game - $7.00",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 700
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/2ac92264176cbb0e8477e888f9d1e36581b4ad2e/ss_2ac92264176cbb0e8477e888f9d1e36581b4ad2e.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/2ac92264176cbb0e8477e888f9d1e36581b4ad2e/ss_2ac92264176cbb0e8477e888f9d1e36581b4ad2e.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/64807d5bc9be1bf7d0005bf9e61867442004e602/ss_64807d5bc9be1bf7d0005bf9e61867442004e602.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/64807d5bc9be1bf7d0005bf9e61867442004e602/ss_64807d5bc9be1bf7d0005bf9e61867442004e602.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/a706b870ac8d30b3f336918856e289e079aadb31/ss_a706b870ac8d30b3f336918856e289e079aadb31.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/a706b870ac8d30b3f336918856e289e079aadb31/ss_a706b870ac8d30b3f336918856e289e079aadb31.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/c9371006b98d1030cc90651d1a57954a514a7740/ss_c9371006b98d1030cc90651d1a57954a514a7740.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/c9371006b98d1030cc90651d1a57954a514a7740/ss_c9371006b98d1030cc90651d1a57954a514a7740.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/0f624d7d6e81bd67ad45b86ae869bf68f3a10e2e/ss_0f624d7d6e81bd67ad45b86ae869bf68f3a10e2e.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/0f624d7d6e81bd67ad45b86ae869bf68f3a10e2e/ss_0f624d7d6e81bd67ad45b86ae869bf68f3a10e2e.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/dcd34e79f9d63afbc666d362b4171a6b637bb14a/ss_dcd34e79f9d63afbc666d362b4171a6b637bb14a.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/dcd34e79f9d63afbc666d362b4171a6b637bb14a/ss_dcd34e79f9d63afbc666d362b4171a6b637bb14a.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/66230412a298f66a90d54ef24a67f33577edbfda/ss_66230412a298f66a90d54ef24a67f33577edbfda.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/66230412a298f66a90d54ef24a67f33577edbfda/ss_66230412a298f66a90d54ef24a67f33577edbfda.1920x1080.jpg?t=1764536882"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/2362a58dcb46b54e3b2833664f498a187f18b4e2/ss_2362a58dcb46b54e3b2833664f498a187f18b4e2.600x338.jpg?t=1764536882",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/2362a58dcb46b54e3b2833664f498a187f18b4e2/ss_2362a58dcb46b54e3b2833664f498a187f18b4e2.1920x1080.jpg?t=1764536882"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257172509,
+            "name": "oynanis",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257172509/37ed00a614edb023587aa6d84fc551f073e4ca2d/movie_600x337.jpg?t=1754056535",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3895820/1669015142/25fb37a958285709d66b178ff26cd40c0a09cb53/1753214318/dash_av1.mpd?t=1754056535",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3895820/1669015142/25fb37a958285709d66b178ff26cd40c0a09cb53/1753214318/dash_h264.mpd?t=1754056535",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3895820/1669015142/25fb37a958285709d66b178ff26cd40c0a09cb53/1753214318/hls_264_master.m3u8?t=1754056535",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gkaycni0@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3895820?t=1764536882",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895820/b10541e18591d1cfd89524c5b4665756d41ea145/page_bg_raw.jpg?t=1764536882",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

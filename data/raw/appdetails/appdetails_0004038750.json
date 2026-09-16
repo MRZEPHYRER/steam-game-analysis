@@ -1,0 +1,165 @@
+{
+  "requested_at": "2026-09-13T06:34:27.757285+00:00",
+  "request_params": {
+    "appids": 4038750,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4038750,
+  "payload": {
+    "4038750": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Shibuya Bullet",
+        "steam_appid": 4038750,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<p class=\"bb_paragraph\" ><u><strong>- How to Play  </strong></u></p><p class=\"bb_paragraph\" ><u><strong>This game cannot be played on its own.</strong></u></p><p class=\"bb_paragraph\" ><u><strong>To play, open a live video (e.g. YouTube) on the left half of your monitor, and run this game on the right half.</strong></u></p><p class=\"bb_paragraph\" ><u><strong>Align the frames carefully, then control Shibumaru using the WASD keys or your mouse.</strong></u></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><u>You can find the live video on the Steam forums.</u></strong></p><p class=\"bb_paragraph\" ><strong><u>Where is everyone hanging out?</u></strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >- Story  </p><p class=\"bb_paragraph\" >One day, a baby alien named Shibumaru crash-landed in the middle of Shibuya Scramble Crossing—one of the most famous intersections in the world.</p><p class=\"bb_paragraph\" >Shibumaru is terrified of humans.</p><p class=\"bb_paragraph\" >Your mission is to guide him to a safe place—away from humans.</p><p class=\"bb_paragraph\" >- Behavior  </p><p class=\"bb_paragraph\" >Not much is known about Shibumaru’s biology.</p><p class=\"bb_paragraph\" >He loves mouse cursors, and for some reason, he’s not afraid of white or gray humans.</p><p class=\"bb_paragraph\" >Maybe they resemble the colors of his missing parents?</p><p class=\"bb_paragraph\" >Sometimes he trips over nothing (which results in a game over).</p><p class=\"bb_paragraph\" >But hey, he’s just a baby—please be gentle!</p><p class=\"bb_paragraph\" >- How to Play  </p><p class=\"bb_paragraph\" >This game cannot be played on its own.</p><p class=\"bb_paragraph\" >To play, open a live video (e.g. YouTube) on the left half of your monitor, and run this game on the right half.</p><p class=\"bb_paragraph\" >Align the frames carefully, then control Shibumaru using the WASD keys or your mouse.</p><p class=\"bb_paragraph\" >- Game Mechanics  </p><p class=\"bb_paragraph\" >Hit detection is based on color: everything except crosswalk white and road gray is considered a target.</p><p class=\"bb_paragraph\" >In other words, Shibumaru might just slip right through people dressed in white or gray—oops!</p><p class=\"bb_paragraph\" >Also, no AI is used for detection, so if you trip in an empty spot, it's not intentional (there’s no “falling” logic built in).</p><p class=\"bb_paragraph\" >- Development Challenges</p><p class=\"bb_paragraph\" >This game relies on color-based detection, which can behave very differently depending on your PC or display environment.</p><p class=\"bb_paragraph\" >Older machines—and surprisingly, even some newer laptops—can reproduce colors in ways that drastically affect detection accuracy.</p><p class=\"bb_paragraph\" >Fine-tuning the collision logic has been one of the hardest parts.</p><p class=\"bb_paragraph\" >On the desktop PC used for development, everything works smoothly.</p><p class=\"bb_paragraph\" >But on two different laptops I own, the character barely reacts to people—even when clearly colliding.</p><p class=\"bb_paragraph\" >Please note that gameplay may vary depending on your system.</p><p class=\"bb_paragraph\" >- Copyright  </p><p class=\"bb_paragraph\" >This application is completely free.</p><p class=\"bb_paragraph\" >It does not store, redistribute, or monetize any external video content.</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><u><strong>- How to Play  </strong></u></p><p class=\"bb_paragraph\" ><u><strong>This game cannot be played on its own.</strong></u></p><p class=\"bb_paragraph\" ><u><strong>To play, open a live video (e.g. YouTube) on the left half of your monitor, and run this game on the right half.</strong></u></p><p class=\"bb_paragraph\" ><u><strong>Align the frames carefully, then control Shibumaru using the WASD keys or your mouse.</strong></u></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><u>You can find the live video on the Steam forums.</u></strong></p><p class=\"bb_paragraph\" ><strong><u>Where is everyone hanging out?</u></strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >- Story  </p><p class=\"bb_paragraph\" >One day, a baby alien named Shibumaru crash-landed in the middle of Shibuya Scramble Crossing—one of the most famous intersections in the world.</p><p class=\"bb_paragraph\" >Shibumaru is terrified of humans.</p><p class=\"bb_paragraph\" >Your mission is to guide him to a safe place—away from humans.</p><p class=\"bb_paragraph\" >- Behavior  </p><p class=\"bb_paragraph\" >Not much is known about Shibumaru’s biology.</p><p class=\"bb_paragraph\" >He loves mouse cursors, and for some reason, he’s not afraid of white or gray humans.</p><p class=\"bb_paragraph\" >Maybe they resemble the colors of his missing parents?</p><p class=\"bb_paragraph\" >Sometimes he trips over nothing (which results in a game over).</p><p class=\"bb_paragraph\" >But hey, he’s just a baby—please be gentle!</p><p class=\"bb_paragraph\" >- How to Play  </p><p class=\"bb_paragraph\" >This game cannot be played on its own.</p><p class=\"bb_paragraph\" >To play, open a live video (e.g. YouTube) on the left half of your monitor, and run this game on the right half.</p><p class=\"bb_paragraph\" >Align the frames carefully, then control Shibumaru using the WASD keys or your mouse.</p><p class=\"bb_paragraph\" >- Game Mechanics  </p><p class=\"bb_paragraph\" >Hit detection is based on color: everything except crosswalk white and road gray is considered a target.</p><p class=\"bb_paragraph\" >In other words, Shibumaru might just slip right through people dressed in white or gray—oops!</p><p class=\"bb_paragraph\" >Also, no AI is used for detection, so if you trip in an empty spot, it's not intentional (there’s no “falling” logic built in).</p><p class=\"bb_paragraph\" >- Development Challenges</p><p class=\"bb_paragraph\" >This game relies on color-based detection, which can behave very differently depending on your PC or display environment.</p><p class=\"bb_paragraph\" >Older machines—and surprisingly, even some newer laptops—can reproduce colors in ways that drastically affect detection accuracy.</p><p class=\"bb_paragraph\" >Fine-tuning the collision logic has been one of the hardest parts.</p><p class=\"bb_paragraph\" >On the desktop PC used for development, everything works smoothly.</p><p class=\"bb_paragraph\" >But on two different laptops I own, the character barely reacts to people—even when clearly colliding.</p><p class=\"bb_paragraph\" >Please note that gameplay may vary depending on your system.</p><p class=\"bb_paragraph\" >- Copyright  </p><p class=\"bb_paragraph\" >This application is completely free.</p><p class=\"bb_paragraph\" >It does not store, redistribute, or monetize any external video content.</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Infinite bullet patterns?! A fresh take on bullet hell—fused with live-action footage and color-based mechanics!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/0eeb1786690da67df93ca6773bcce28a5200992d/header.jpg?t=1761953186",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/a5ac92541dffc1b5ae9185321f54fac5efc01b7a/capsule_231x87.jpg?t=1761953186",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/a5ac92541dffc1b5ae9185321f54fac5efc01b7a/capsule_184x69.jpg?t=1761953186",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11 <br></li><li><strong>Processor:</strong> Processor: Intel Core i3 or higher  <br></li><li><strong>Memory:</strong> 2 GB RAM MB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics or better  <br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space<br></li><li><strong>Additional Notes:</strong> Internet connection required (for live video playback)</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "JUNICHI GAMES"
+        ],
+        "publishers": [
+          "Studio Shibumaru"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/a6eb74f3b34d9dcac38f78df6fd400aa418db2eb/ss_a6eb74f3b34d9dcac38f78df6fd400aa418db2eb.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/a6eb74f3b34d9dcac38f78df6fd400aa418db2eb/ss_a6eb74f3b34d9dcac38f78df6fd400aa418db2eb.1920x1080.jpg?t=1761953186"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/d247d8f0f00483154fcc05ae267bbe92a08d5063/ss_d247d8f0f00483154fcc05ae267bbe92a08d5063.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/d247d8f0f00483154fcc05ae267bbe92a08d5063/ss_d247d8f0f00483154fcc05ae267bbe92a08d5063.1920x1080.jpg?t=1761953186"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/8f75b474d5b2f62487eb2f504e876b4572d3192c/ss_8f75b474d5b2f62487eb2f504e876b4572d3192c.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/8f75b474d5b2f62487eb2f504e876b4572d3192c/ss_8f75b474d5b2f62487eb2f504e876b4572d3192c.1920x1080.jpg?t=1761953186"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/9556e07ab268ce315382e36d416c35f391b25520/ss_9556e07ab268ce315382e36d416c35f391b25520.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/9556e07ab268ce315382e36d416c35f391b25520/ss_9556e07ab268ce315382e36d416c35f391b25520.1920x1080.jpg?t=1761953186"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/4c7d14941da61d9806f383dfcdbe8d8af5458abe/ss_4c7d14941da61d9806f383dfcdbe8d8af5458abe.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/4c7d14941da61d9806f383dfcdbe8d8af5458abe/ss_4c7d14941da61d9806f383dfcdbe8d8af5458abe.1920x1080.jpg?t=1761953186"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/831f487979688ebac12fc9523770bd64377ede5c/ss_831f487979688ebac12fc9523770bd64377ede5c.600x338.jpg?t=1761953186",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038750/831f487979688ebac12fc9523770bd64377ede5c/ss_831f487979688ebac12fc9523770bd64377ede5c.1920x1080.jpg?t=1761953186"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257199318,
+            "name": "ShibuyaBullet",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257199318/c324e502cbc34e61a3885800f80ee05767463378/movie_600x337.jpg?t=1758494680",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4038750/796782441/fbb460a2e308979c6d97e914b358b5687f211676/1758078838/dash_av1.mpd?t=1758494680",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4038750/796782441/fbb460a2e308979c6d97e914b358b5687f211676/1758078838/dash_h264.mpd?t=1758494680",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4038750/796782441/fbb460a2e308979c6d97e914b358b5687f211676/1758078838/hls_264_master.m3u8?t=1758494680",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 6, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "shibuyabullet@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4038750?t=1761953186",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4038750?t=1761953186",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

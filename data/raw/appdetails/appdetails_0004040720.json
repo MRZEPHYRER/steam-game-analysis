@@ -1,0 +1,225 @@
+{
+  "requested_at": "2026-09-13T06:35:10.474431+00:00",
+  "request_params": {
+    "appids": 4040720,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4040720,
+  "payload": {
+    "4040720": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Leap In Deep",
+        "steam_appid": 4040720,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Oh no, I have to write an essay.</p><p class=\"bb_paragraph\" >Ready for a charming yet challenging game? Leap In Deep can provide that fun experience for you. Avoid spikes, avoid candies, avoid snails, and avoid everything else this game has to offer, in over 100 stages to truly test your platforming skills! Wahoo!</p><p class=\"bb_paragraph\" >Explore unique worlds and stages, get hit by new enemies, explore new ways to get stabbed by spikes, and feel the wind on your hairless head. What a wonderful world!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Oh no, I have to write an essay.</p><p class=\"bb_paragraph\" >Ready for a charming yet challenging game? Leap In Deep can provide that fun experience for you. Avoid spikes, avoid candies, avoid snails, and avoid everything else this game has to offer, in over 100 stages to truly test your platforming skills! Wahoo!</p><p class=\"bb_paragraph\" >Explore unique worlds and stages, get hit by new enemies, explore new ways to get stabbed by spikes, and feel the wind on your hairless head. What a wonderful world!</p>",
+        "short_description": "Ready for a charming yet challenging game? Leap In Deep can provide that fun experience for you. Avoid spikes, avoid candies, avoid snails, and avoid everything else this game has to offer, in over 100 stages to truly test your platforming skills! Wahoo!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/8a0c0f973165d4d497583e1becd020deb9c19a4d/header.jpg?t=1777970497",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/b69abcf0e8fba696d4499202f7326ed784e38e95/capsule_231x87.jpg?t=1777970497",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/b69abcf0e8fba696d4499202f7326ed784e38e95/capsule_184x69.jpg?t=1777970497",
+        "website": "https://chibidomain.com/projects/index.html",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Core i3-12100<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 128 MB<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Core i3-12100<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> 512 MB<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 16</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 24<br></li><li><strong>Memory:</strong> 8 MB RAM</li></ul>"
+        },
+        "developers": [
+          "Chibi Domain"
+        ],
+        "publishers": [
+          "Chibi Domain"
+        ],
+        "demos": [
+          {
+            "appid": 4061240,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1417351
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Leap In Deep",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1417351,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Leap In Deep - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/d1be3ffe4b8285747ed73510294371af4c829380/ss_d1be3ffe4b8285747ed73510294371af4c829380.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/d1be3ffe4b8285747ed73510294371af4c829380/ss_d1be3ffe4b8285747ed73510294371af4c829380.1920x1080.jpg?t=1777970497"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/a475a3922d95e19d09519aa22573151f227168be/ss_a475a3922d95e19d09519aa22573151f227168be.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/a475a3922d95e19d09519aa22573151f227168be/ss_a475a3922d95e19d09519aa22573151f227168be.1920x1080.jpg?t=1777970497"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/d08af31149f88ea7ef1cd97d209ce5336a14f601/ss_d08af31149f88ea7ef1cd97d209ce5336a14f601.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/d08af31149f88ea7ef1cd97d209ce5336a14f601/ss_d08af31149f88ea7ef1cd97d209ce5336a14f601.1920x1080.jpg?t=1777970497"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/5d8dd607ad8baf5db3154b9ffb44b61c9a8845df/ss_5d8dd607ad8baf5db3154b9ffb44b61c9a8845df.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/5d8dd607ad8baf5db3154b9ffb44b61c9a8845df/ss_5d8dd607ad8baf5db3154b9ffb44b61c9a8845df.1920x1080.jpg?t=1777970497"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/b635f3d3f2626dc68895731b22102a423925068c/ss_b635f3d3f2626dc68895731b22102a423925068c.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/b635f3d3f2626dc68895731b22102a423925068c/ss_b635f3d3f2626dc68895731b22102a423925068c.1920x1080.jpg?t=1777970497"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/7dd7630fe35e319328927ac2d5eec96a06e78bfa/ss_7dd7630fe35e319328927ac2d5eec96a06e78bfa.600x338.jpg?t=1777970497",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/7dd7630fe35e319328927ac2d5eec96a06e78bfa/ss_7dd7630fe35e319328927ac2d5eec96a06e78bfa.1920x1080.jpg?t=1777970497"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257204166,
+            "name": "Leap In Deep - Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257204166/ae6ac5408da3bba2f227cbbf95300e09bc3a37a2/movie_600x337.jpg?t=1758645379",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4040720/1581496364/97adeab06e40a8105cfe65764797298957d47d7c/1758561000/dash_av1.mpd?t=1758645379",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4040720/1581496364/97adeab06e40a8105cfe65764797298957d47d7c/1758561000/dash_h264.mpd?t=1758645379",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4040720/1581496364/97adeab06e40a8105cfe65764797298957d47d7c/1758561000/hls_264_master.m3u8?t=1758645379",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 14, 2025"
+        },
+        "support_info": {
+          "url": "https://chibidomain.com/contact/index.html",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4040720?t=1777970497",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040720/039ba1de7b97be17cc21f0f0ba0506131d4f7b94/page_bg_raw.jpg?t=1777970497",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

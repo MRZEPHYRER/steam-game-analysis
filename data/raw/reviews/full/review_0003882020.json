@@ -1,0 +1,79 @@
+{
+  "appid": 3882020,
+  "requested_at": "2026-09-13T19:54:18.519474+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 122,
+      "total_negative": 10,
+      "total_reviews": 132
+    },
+    "reviews": [
+      {
+        "recommendationid": "212923085",
+        "author": {
+          "steamid": "76561198029061349",
+          "personaname": "selageth",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198029061349/",
+          "num_games_owned": 0,
+          "num_reviews": 14,
+          "playtime_forever": 4032,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3190,
+          "last_played": 1765641416,
+          "avatar": "8c63a725d0a5c7a8d19d4b3dda17be54a361938c"
+        },
+        "language": "english",
+        "review": "It's a slight recommendation, and I am writing this definetely with nostalgia-tinged glasses. The game is a great remake of the original Avernum 4. The story is fleshed out more and the whole setting fits together beautifully. A very good, very classic old-school CRPG. And the setting of the underground world of Avernum with its weird magic, huge fungal caverns, mutant flora and demons comes to life and feels vibrant, even though the \"cities\" are little more than three shops and a wall around those. Even the \"big cities\".\r\n\r\nHowever the combat is even worse than in the previous games, for all the same reasons, although now they are a bit more obvious, since you can click enemies to view their stats. Avernum 4: GaG is very balanced and fun for about 60% of the game, before the level scaling becomes absolutely absurd. My main gripes with the combat are:\r\n\r\n1.) This is by far the biggest point: enemies have waaaay to much hitpoints and resistances after midgame.\r\n\r\nA lone brigand (an ordinary brigand, not a special boss) has about 5 to 6 times the HP of my main frontline fighter, who is designed to be as beefy as possible. And the same brigand also has extreme resistance values (60% physical, 60% magical, 40% fire, ...) which turns combat against such \"low tier\" enemies into a chore.\r\n\r\nI get the reasoning behind it: keep combat challenging. But I'd rather fight different enemies instead of the same ones, just level-scaled. It is very tedious and immersion breaking. Kinda reminds me of Elder Scrolls: Oblivion, where suddenly every bandit was completely equipped in magic armor from head to toe. Really not a fan of this. Bad design choice in my opinion.\r\n\r\n2.) Enemies can do things you can't.\r\nAgain, not talking Boss monsters, but very simple things. Enemy archers, for instance, can shoot an arrow volley, which blankets an area with arrows/damage. Your characters will never be able to do that. Ever. There are just a few abilities like that in the game, all used by regular enemies, which makes it very frustrating to learn, that you will never be able to do the same with your party.\r\n\r\n3.) Too much CC on regular enemies\r\nAfter some time, a lot of enemies will have one or two abilities to snare, stun, or immobilize their targets. Which in itself would be okay, because your fighters can also learn those abilities. However enemies can use these abilities way more often and with a very short cooldown (if any), which can lead to your pure melee fighters just being thrown around the battlefield, perpetually snared or immobilized, unable to act. It's not game breaking and there are ways around it, but it's - again - tedious. It stretches battles out without adding anything tactical to them.\r\n\r\n\r\nIf I would have to be brutally honest:\r\nI love the Avernum games. I have been playing Spiderweb's games since Exile 1. And I know these games are hard and janky. That's part of their charm. But a remake of a remake in the year 2025 should have a bit higher standards and not resort to cheesy combat tweaks like hitpoint level scaling. Especially since this scaling is hard coded and can not be disabled.\r\n\r\nI still reommend this game, but I am quite sure that without my love for the series and the older games, I would have to give it a thumbs down.",
+        "timestamp_created": 1765296793,
+        "timestamp_updated": 1765296793,
+        "voted_up": true,
+        "votes_up": 35,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.780268073081970215",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761136779",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUZDQAAAAAFP+j5RkAAAAB9rJ6sBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

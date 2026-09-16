@@ -1,0 +1,66 @@
+{
+  "appid": 3653390,
+  "requested_at": "2026-09-13T19:28:57.008897+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "200002618",
+        "author": {
+          "steamid": "76561198011581922",
+          "personaname": "DDKuma",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198011581922/",
+          "num_games_owned": 0,
+          "num_reviews": 117,
+          "playtime_forever": 214,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 194,
+          "last_played": 1754103364,
+          "avatar": "2837d63d17f25a9ed17bc2c17a1c9b1fb8d8c903"
+        },
+        "language": "tchinese",
+        "review": "還行吧，探索一本道，過程也不太需要刻意練功\r\n但到了第四章的尾王卻突然要求玩家練功，我不太懂尾王技能傷害這麼高會需要玩家農多少等，防具也已經撐很好了\r\n所以STEAM沒有中評，那我就給好評支持，後期難度曲線真的不太OK\r\n\r\n然後第四章王前的小丑似乎有BUG，撞不到怪物導致很難進入戰鬥，而且強度很高，好不容易打贏拿到的經驗值卻並沒有想像中的高，所以要輕鬆一點的話還是回頭刷小怪比較好",
+        "timestamp_created": 1752750266,
+        "timestamp_updated": 1752750266,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.513457536697387695",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752189940",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFauxiAAAAAFP+BuP4AAAAB6w/n6BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0149999999998727,
+  "transport_error_count": 0
+}

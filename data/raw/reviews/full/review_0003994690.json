@@ -1,0 +1,66 @@
+{
+  "appid": 3994690,
+  "requested_at": "2026-09-13T20:09:18.949561+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "206923146",
+        "author": {
+          "steamid": "76561198019816374",
+          "personaname": "Mr. Jacobs",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/EnglishTeacherPlays/",
+          "num_games_owned": 1462,
+          "num_reviews": 1791,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1760704913,
+          "avatar": "9af9dc5219d4f7054874077b4a713ed8761e4647"
+        },
+        "language": "english",
+        "review": "This is the 8th game this dev has released this year. If it isn't a direct asset flip, it is adjacent to it.\nEven in a world where Skate doesn't exist, this is $15 bucks and has 3 controls. The environments are kind of cool, but honestly, not enough to justify the price at all.\n\nhttps://youtu.be/IRUlYWykfMk",
+        "timestamp_created": 1760706101,
+        "timestamp_updated": 1760706101,
+        "voted_up": false,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.612755894660949707",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760697055",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXvrCAAAAAFP+ObsoAAAAB62KyVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9679999999998472,
+  "transport_error_count": 0
+}

@@ -1,0 +1,3159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 5F Wilson 与 Empirical Bayes 评分调整可视化审计</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="06_rating_adjustment_visual_audit_files/libs/clipboard/clipboard.min.js"></script>
+<script src="06_rating_adjustment_visual_audit_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="06_rating_adjustment_visual_audit_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="06_rating_adjustment_visual_audit_files/libs/quarto-html/popper.min.js"></script>
+<script src="06_rating_adjustment_visual_audit_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="06_rating_adjustment_visual_audit_files/libs/quarto-html/anchor.min.js"></script>
+<link href="06_rating_adjustment_visual_audit_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="06_rating_adjustment_visual_audit_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="06_rating_adjustment_visual_audit_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="06_rating_adjustment_visual_audit_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="06_rating_adjustment_visual_audit_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#step-5f-分析目的" id="toc-step-5f-分析目的" class="nav-link active" data-scroll-target="#step-5f-分析目的"><span class="header-section-number">1</span> Step 5F 分析目的</a></li>
+  <li><a href="#为什么-raw-positive-rate-会误导" id="toc-为什么-raw-positive-rate-会误导" class="nav-link" data-scroll-target="#为什么-raw-positive-rate-会误导"><span class="header-section-number">2</span> 为什么 Raw Positive Rate 会误导</a></li>
+  <li><a href="#样本定义" id="toc-样本定义" class="nav-link" data-scroll-target="#样本定义"><span class="header-section-number">3</span> 样本定义</a></li>
+  <li><a href="#wilson-score-interval" id="toc-wilson-score-interval" class="nav-link" data-scroll-target="#wilson-score-interval"><span class="header-section-number">4</span> Wilson Score Interval</a></li>
+  <li><a href="#相同-raw-rate不同-denominator" id="toc-相同-raw-rate不同-denominator" class="nav-link" data-scroll-target="#相同-raw-rate不同-denominator"><span class="header-section-number">5</span> 相同 Raw Rate、不同 Denominator</a></li>
+  <li><a href="#empirical-bayes-prior" id="toc-empirical-bayes-prior" class="nav-link" data-scroll-target="#empirical-bayes-prior"><span class="header-section-number">6</span> Empirical Bayes Prior</a></li>
+  <li><a href="#eb-shrinkage-机制" id="toc-eb-shrinkage-机制" class="nav-link" data-scroll-target="#eb-shrinkage-机制"><span class="header-section-number">7</span> EB Shrinkage 机制</a></li>
+  <li><a href="#raw-vs-eb-分布" id="toc-raw-vs-eb-分布" class="nav-link" data-scroll-target="#raw-vs-eb-分布"><span class="header-section-number">8</span> Raw vs EB 分布</a></li>
+  <li><a href="#review-count-与-shrinkage" id="toc-review-count-与-shrinkage" class="nav-link" data-scroll-target="#review-count-与-shrinkage"><span class="header-section-number">9</span> Review Count 与 Shrinkage</a></li>
+  <li><a href="#raw-wilson-eb-排名比较" id="toc-raw-wilson-eb-排名比较" class="nav-link" data-scroll-target="#raw-wilson-eb-排名比较"><span class="header-section-number">10</span> Raw / Wilson / EB 排名比较</a></li>
+  <li><a href="#最大排名变化游戏" id="toc-最大排名变化游戏" class="nav-link" data-scroll-target="#最大排名变化游戏"><span class="header-section-number">11</span> 最大排名变化游戏</a></li>
+  <li><a href="#高评分低置信度案例" id="toc-高评分低置信度案例" class="nav-link" data-scroll-target="#高评分低置信度案例"><span class="header-section-number">12</span> 高评分低置信度案例</a></li>
+  <li><a href="#prior-sensitivity" id="toc-prior-sensitivity" class="nav-link" data-scroll-target="#prior-sensitivity"><span class="header-section-number">13</span> Prior Sensitivity</a></li>
+  <li><a href="#高评论数游戏稳定性" id="toc-高评论数游戏稳定性" class="nav-link" data-scroll-target="#高评论数游戏稳定性"><span class="header-section-number">14</span> 高评论数游戏稳定性</a></li>
+  <li><a href="#top-adjusted-games" id="toc-top-adjusted-games" class="nav-link" data-scroll-target="#top-adjusted-games"><span class="header-section-number">15</span> Top Adjusted Games</a></li>
+  <li><a href="#人工审计清单" id="toc-人工审计清单" class="nav-link" data-scroll-target="#人工审计清单"><span class="header-section-number">16</span> 人工审计清单</a></li>
+  <li><a href="#阶段性结论" id="toc-阶段性结论" class="nav-link" data-scroll-target="#阶段性结论"><span class="header-section-number">17</span> 阶段性结论</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Step 5F Wilson 与 Empirical Bayes 评分调整可视化审计</h1>
+<p class="subtitle lead">游戏层级评分可靠性、不确定性与总体信息收缩</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="step-5f-分析目的" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Step 5F 分析目的</h1>
+<p>本阶段回答单个游戏的 observed positive rate 有多可靠，以及在评论数差异巨大时如何形成更稳健的 game-level rating estimate。这里不加入 price、genre、platform 或 release regression，也不作因果解释。</p>
+</section>
+<section id="为什么-raw-positive-rate-会误导" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 为什么 Raw Positive Rate 会误导</h1>
+<p>Raw positive rate 是观察到的描述性比例。低评论数时只可能取少数离散值，因此 0%、50%、100% 很常见；相同 Raw rate 并不代表相同精度。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/26_raw_rate_vs_review_count.png" class="img-fluid figure-img" width="738"></p>
+<figcaption>Raw positive rate 与评论数；低 n 区域呈现明显离散带</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>低评论数区是否出现 0%、50%、100% 等 rational banding？</li>
+<li>高评论数区的比例是否更连续？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="样本定义" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 样本定义</h1>
+<p>完整 market sample 为 3,000 个游戏；759 个零评论游戏保留在市场总体，但不具有 observed reception outcome，因此不进入 Wilson 或 EB estimation。评分总体为全部 <code>total_reviews &gt; 0</code> 的 2,241 个游戏，同时保留 free 与 paid games。</p>
+</section>
+<section id="wilson-score-interval" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Wilson Score Interval</h1>
+<p>使用 <span class="math inline">\(z=1.959963984\ldots\)</span> 的非连续性校正 95% Wilson score interval。闭式公式已用 Base R 成熟数值求根器反演 score test 交叉验证。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Wilson 闭式公式与 score-test 数值反演验证</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">positive_reviews</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">wilson_upper_95</th>
+<th style="text-align: right;">lower_absolute_difference</th>
+<th style="text-align: right;">upper_absolute_difference</th>
+<th style="text-align: left;">validation_pass</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.00000000</td>
+<td style="text-align: right;">0.7934507</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20654931</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.09453121</td>
+<td style="text-align: right;">0.9054688</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.34238023</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0.72246720</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0.83887484</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.96300650</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">0.99617324</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.15821986</td>
+<td style="text-align: right;">0.7495416</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.28182361</td>
+<td style="text-align: right;">0.4677947</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">0.52219644</td>
+<td style="text-align: right;">0.6837088</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Wilson interval 是频率学派 sampling uncertainty interval，不是 shrinkage estimator。Wilson lower 可用于保守排序，但不是 posterior estimate，也不是“调整后评分”。</p>
+</section>
+<section id="相同-raw-rate不同-denominator" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> 相同 Raw Rate、不同 Denominator</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Wilson denominator examples</caption>
+<colgroup>
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">example_group</th>
+<th style="text-align: right;">positive_reviews</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">wilson_upper_95</th>
+<th style="text-align: right;">wilson_width</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.79345</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.34238</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.65762</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.56552</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.43448</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.72247</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.27753</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.83887</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.16113</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.92865</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.07135</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.96301</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.03699</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_100_percent</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.99617</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.00383</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.09453</td>
+<td style="text-align: right;">0.90547</td>
+<td style="text-align: right;">0.81094</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.15004</td>
+<td style="text-align: right;">0.84996</td>
+<td style="text-align: right;">0.69992</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.23659</td>
+<td style="text-align: right;">0.76341</td>
+<td style="text-align: right;">0.52681</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.29930</td>
+<td style="text-align: right;">0.70070</td>
+<td style="text-align: right;">0.40140</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.40383</td>
+<td style="text-align: right;">0.59617</td>
+<td style="text-align: right;">0.19234</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">raw_50_percent</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.46907</td>
+<td style="text-align: right;">0.53093</td>
+<td style="text-align: right;">0.06186</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/25_wilson_denominator_geometry.png" class="img-fluid figure-img" width="828"></p>
+<figcaption>同为 100% 或 50% Raw rate 时，Wilson 区间随 denominator 改变</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>同为 100% 评分时，1/1 与 1000/1000 的区间是否明显不同？</li>
+<li>同为 50% 时，区间是否随 denominator 单调收窄？</li>
+</ul>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/27_wilson_width_vs_review_count.png" class="img-fluid figure-img" width="738"></p>
+<figcaption>Wilson interval width 与评论数</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="empirical-bayes-prior" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Empirical Bayes Prior</h1>
+<p>Primary prior 由全部 n&gt;0 游戏的 Beta-Binomial marginal likelihood 确定性估计；n&gt;=10 与 n&gt;=20 prior 只用于敏感性分析，并应用到同一个 2,241-game evaluation population。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：EB prior parameters 与优化诊断</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 14%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 7%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 11%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">prior_id</th>
+<th style="text-align: right;">minimum_reviews_for_prior_fit</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">alpha</th>
+<th style="text-align: right;">beta</th>
+<th style="text-align: right;">prior_mean</th>
+<th style="text-align: right;">prior_precision_ess</th>
+<th style="text-align: right;">prior_variance</th>
+<th style="text-align: right;">prior_mode</th>
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: right;">gradient_max_abs</th>
+<th style="text-align: right;">hessian_min_eigenvalue</th>
+<th style="text-align: left;">starts_agree</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">EB_ALL_POSITIVE_N</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">5.022109</td>
+<td style="text-align: right;">1.044820</td>
+<td style="text-align: right;">0.8277843</td>
+<td style="text-align: right;">6.066930</td>
+<td style="text-align: right;">0.0201725</td>
+<td style="text-align: right;">0.9889793</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0000003</td>
+<td style="text-align: right;">201.3623</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EB_N_GE_10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1139</td>
+<td style="text-align: right;">6.024869</td>
+<td style="text-align: right;">1.141740</td>
+<td style="text-align: right;">0.8406861</td>
+<td style="text-align: right;">7.166609</td>
+<td style="text-align: right;">0.0164001</td>
+<td style="text-align: right;">0.9725661</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0001404</td>
+<td style="text-align: right;">191.4318</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EB_N_GE_20</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: right;">6.599048</td>
+<td style="text-align: right;">1.247116</td>
+<td style="text-align: right;">0.8410540</td>
+<td style="text-align: right;">7.846164</td>
+<td style="text-align: right;">0.0151119</td>
+<td style="text-align: right;">0.9577301</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0000875</td>
+<td style="text-align: right;">172.5816</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>全部 n&gt;0 游戏估计 prior 会让大量低 n 游戏参与总体分布估计，因此替代 prior 的敏感性结果必须与 Primary 一并审计。</p>
+</section>
+<section id="eb-shrinkage-机制" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> EB Shrinkage 机制</h1>
+<p>Posterior mean 是 Raw rate 与 prior mean 的加权平均；<code>data_weight = n/(n+ESS)</code>。低 n 权重更偏向 prior，高 n 更由自身数据主导。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Primary prior ESS 下的数据与 prior 权重</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">prior_precision_ess</th>
+<th style="text-align: right;">data_weight</th>
+<th style="text-align: right;">prior_weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.14150</td>
+<td style="text-align: right;">0.85850</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.24793</td>
+<td style="text-align: right;">0.75207</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.45180</td>
+<td style="text-align: right;">0.54820</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.62240</td>
+<td style="text-align: right;">0.37760</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.76726</td>
+<td style="text-align: right;">0.23274</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.89179</td>
+<td style="text-align: right;">0.10821</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.94280</td>
+<td style="text-align: right;">0.05720</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.98801</td>
+<td style="text-align: right;">0.01199</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.99397</td>
+<td style="text-align: right;">0.00603</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10000</td>
+<td style="text-align: right;">6.06693</td>
+<td style="text-align: right;">0.99939</td>
+<td style="text-align: right;">0.00061</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/28_raw_vs_eb_rating.png" class="img-fluid figure-img" width="666"></p>
+<figcaption>Raw rate 与 EB posterior mean；虚线为 45° 参考线</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>低 n 极端评分是否向 prior mean 收缩？</li>
+<li>高评论数游戏是否靠近 45° 线？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="raw-vs-eb-分布" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Raw vs EB 分布</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Raw 与 EB rating 分布摘要</caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">metric</th>
+<th style="text-align: right;">minimum</th>
+<th style="text-align: right;">p01</th>
+<th style="text-align: right;">p05</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">raw_positive_rate</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.25000</td>
+<td style="text-align: right;">0.74074</td>
+<td style="text-align: right;">0.91566</td>
+<td style="text-align: right;">0.81796</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">1.00000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">eb_posterior_mean</td>
+<td style="text-align: right;">0.25022</td>
+<td style="text-align: right;">0.49734</td>
+<td style="text-align: right;">0.61813</td>
+<td style="text-align: right;">0.77178</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">0.82820</td>
+<td style="text-align: right;">0.90559</td>
+<td style="text-align: right;">0.95992</td>
+<td style="text-align: right;">0.98268</td>
+<td style="text-align: right;">0.99584</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/30_raw_vs_eb_distribution.png" class="img-fluid figure-img" width="756"></p>
+<figcaption>Raw positive rate 与 EB posterior mean 的固定箱宽直方图</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Raw 0%/100% 堆积是否在 EB 中明显缓和？</li>
+<li>EB 是否保留总体排序信息而减少低 n 极端值？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="review-count-与-shrinkage" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Review Count 与 Shrinkage</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Review-count bin shrinkage summary</caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 4%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">review_count_bin</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">median_raw_positive_rate</th>
+<th style="text-align: right;">median_eb_posterior_mean</th>
+<th style="text-align: right;">median_absolute_shrinkage</th>
+<th style="text-align: right;">median_shrinkage_pp</th>
+<th style="text-align: right;">median_wilson_width</th>
+<th style="text-align: right;">median_eb_ci95_width</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1-9</td>
+<td style="text-align: right;">1102</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">0.12952</td>
+<td style="text-align: right;">-9.44092</td>
+<td style="text-align: right;">0.65762</td>
+<td style="text-align: right;">0.46025</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10-19</td>
+<td style="text-align: right;">295</td>
+<td style="text-align: right;">0.90909</td>
+<td style="text-align: right;">0.88019</td>
+<td style="text-align: right;">0.04341</td>
+<td style="text-align: right;">-2.89028</td>
+<td style="text-align: right;">0.33901</td>
+<td style="text-align: right;">0.27422</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">20-49</td>
+<td style="text-align: right;">293</td>
+<td style="text-align: right;">0.88889</td>
+<td style="text-align: right;">0.87768</td>
+<td style="text-align: right;">0.01782</td>
+<td style="text-align: right;">-0.96230</td>
+<td style="text-align: right;">0.22875</td>
+<td style="text-align: right;">0.20996</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">50-99</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">0.87097</td>
+<td style="text-align: right;">0.86712</td>
+<td style="text-align: right;">0.00770</td>
+<td style="text-align: right;">-0.34810</td>
+<td style="text-align: right;">0.15629</td>
+<td style="text-align: right;">0.14952</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">100-499</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">0.86806</td>
+<td style="text-align: right;">0.86643</td>
+<td style="text-align: right;">0.00239</td>
+<td style="text-align: right;">-0.09127</td>
+<td style="text-align: right;">0.09214</td>
+<td style="text-align: right;">0.09099</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">500-999</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">0.83431</td>
+<td style="text-align: right;">0.83425</td>
+<td style="text-align: right;">0.00060</td>
+<td style="text-align: right;">-0.00596</td>
+<td style="text-align: right;">0.05480</td>
+<td style="text-align: right;">0.05457</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1000+</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">0.89489</td>
+<td style="text-align: right;">0.89479</td>
+<td style="text-align: right;">0.00017</td>
+<td style="text-align: right;">-0.00572</td>
+<td style="text-align: right;">0.02242</td>
+<td style="text-align: right;">0.02241</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/29_eb_shrinkage_vs_review_count.png" class="img-fluid figure-img" width="738"></p>
+<figcaption>EB − Raw 与评论数；零线表示无收缩</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>EB 是否主要收缩低评论数游戏？</li>
+<li>评论数增大后，收缩带是否快速靠近零？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="raw-wilson-eb-排名比较" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Raw / Wilson / EB 排名比较</h1>
+<p>Raw ranking 按 rate 降序、review count 降序、AppID 升序；评论数只作为 tie-break，不是 Raw rating weight。Wilson ranking 按 lower bound 降序、评论数降序、AppID 升序；EB 按 posterior mean 降序、AppID 升序。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Raw/Wilson/EB rank correlations</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison</th>
+<th style="text-align: right;">spearman</th>
+<th style="text-align: right;">kendall_tau_b</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">0.23946</td>
+<td style="text-align: right;">0.21279</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">0.77608</td>
+<td style="text-align: right;">0.63826</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">0.67248</td>
+<td style="text-align: right;">0.51110</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Top-K overlap</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">top_k</th>
+<th style="text-align: left;">comparison</th>
+<th style="text-align: right;">intersection_n</th>
+<th style="text-align: right;">union_n</th>
+<th style="text-align: right;">jaccard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0.11111</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0.33333</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0.53846</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">0.11111</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">0.28205</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0.56250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">0.08696</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">0.26582</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">0.49254</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">187</td>
+<td style="text-align: right;">0.06952</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">0.29870</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">0.47059</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/31_raw_wilson_eb_rank_comparison.png" class="img-fluid figure-img" width="738"></p>
+<figcaption>Raw Top 50 在 Wilson 与 EB 排名中的位置</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Raw 评分最高的游戏在 Wilson/EB 排序中是否明显重新排列？</li>
+<li>排名移动是否主要来自 Raw 100% ties 与低 denominator？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="最大排名变化游戏" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> 最大排名变化游戏</h1>
+<p>Rank movement 不是纯连续指标，尤其 Raw rate 有大量 ties；以下结果必须连同 Raw rate、review count 与 adjusted metric 解读。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：最大向上排名变化（前 15）</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 33%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3265060</td>
+<td style="text-align: left;">Touhou Dystopian</td>
+<td style="text-align: right;">2147</td>
+<td style="text-align: right;">0.97671</td>
+<td style="text-align: right;">0.96943</td>
+<td style="text-align: right;">0.97629</td>
+<td style="text-align: right;">874</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1170570</td>
+<td style="text-align: left;">The Drifter</td>
+<td style="text-align: right;">4712</td>
+<td style="text-align: right;">0.97538</td>
+<td style="text-align: right;">0.97056</td>
+<td style="text-align: right;">0.97519</td>
+<td style="text-align: right;">876</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">43</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2701720</td>
+<td style="text-align: left;">Wagotabi: A Japanese Journey</td>
+<td style="text-align: right;">1534</td>
+<td style="text-align: right;">0.98566</td>
+<td style="text-align: right;">0.97838</td>
+<td style="text-align: right;">0.98504</td>
+<td style="text-align: right;">852</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3054820</td>
+<td style="text-align: left;">DevilConnection</td>
+<td style="text-align: right;">1941</td>
+<td style="text-align: right;">0.98764</td>
+<td style="text-align: right;">0.98167</td>
+<td style="text-align: right;">0.98714</td>
+<td style="text-align: right;">847</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3309750</td>
+<td style="text-align: left;">As Long As You’re Here</td>
+<td style="text-align: right;">486</td>
+<td style="text-align: right;">0.99794</td>
+<td style="text-align: right;">0.98844</td>
+<td style="text-align: right;">0.99584</td>
+<td style="text-align: right;">833</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3874950</td>
+<td style="text-align: left;">Bit Buddy</td>
+<td style="text-align: right;">440</td>
+<td style="text-align: right;">0.99318</td>
+<td style="text-align: right;">0.98015</td>
+<td style="text-align: right;">0.99093</td>
+<td style="text-align: right;">840</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2263360</td>
+<td style="text-align: left;">HYPERBEAT</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">0.99736</td>
+<td style="text-align: right;">0.98521</td>
+<td style="text-align: right;">0.99469</td>
+<td style="text-align: right;">834</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3446680</td>
+<td style="text-align: left;">Heartbeat in Thailand</td>
+<td style="text-align: right;">1767</td>
+<td style="text-align: right;">0.97453</td>
+<td style="text-align: right;">0.96609</td>
+<td style="text-align: right;">0.97403</td>
+<td style="text-align: right;">878</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">47</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3575980</td>
+<td style="text-align: left;">Fantasy Maiden Wars - DREAM OF THE STRAY DREAMER -</td>
+<td style="text-align: right;">574</td>
+<td style="text-align: right;">0.98432</td>
+<td style="text-align: right;">0.97047</td>
+<td style="text-align: right;">0.98268</td>
+<td style="text-align: right;">854</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2602230</td>
+<td style="text-align: left;">MotionRec</td>
+<td style="text-align: right;">425</td>
+<td style="text-align: right;">0.99529</td>
+<td style="text-align: right;">0.98301</td>
+<td style="text-align: right;">0.99294</td>
+<td style="text-align: right;">835</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3447040</td>
+<td style="text-align: left;">Sora no Kiseki the 1st</td>
+<td style="text-align: right;">5170</td>
+<td style="text-align: right;">0.97292</td>
+<td style="text-align: right;">0.96813</td>
+<td style="text-align: right;">0.97275</td>
+<td style="text-align: right;">884</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3902830</td>
+<td style="text-align: left;">How I Flex with AI</td>
+<td style="text-align: right;">298</td>
+<td style="text-align: right;">0.99329</td>
+<td style="text-align: right;">0.97586</td>
+<td style="text-align: right;">0.98999</td>
+<td style="text-align: right;">839</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2319790</td>
+<td style="text-align: left;">Captain Wayne - Vacation Desperation</td>
+<td style="text-align: right;">1009</td>
+<td style="text-align: right;">0.97423</td>
+<td style="text-align: right;">0.96251</td>
+<td style="text-align: right;">0.97336</td>
+<td style="text-align: right;">880</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">53</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3006280</td>
+<td style="text-align: left;">Sheepherds!</td>
+<td style="text-align: right;">306</td>
+<td style="text-align: right;">0.98366</td>
+<td style="text-align: right;">0.96233</td>
+<td style="text-align: right;">0.98063</td>
+<td style="text-align: right;">855</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2642760</td>
+<td style="text-align: left;">Back to Hearth</td>
+<td style="text-align: right;">339</td>
+<td style="text-align: right;">0.98230</td>
+<td style="text-align: right;">0.96193</td>
+<td style="text-align: right;">0.97958</td>
+<td style="text-align: right;">857</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">31</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：最大向下排名变化（前 15）</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 24%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">660200</td>
+<td style="text-align: left;">Transistor Defense</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">576</td>
+<td style="text-align: right;">1735</td>
+<td style="text-align: right;">1072</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1154140</td>
+<td style="text-align: left;">Pity Please!</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">577</td>
+<td style="text-align: right;">1736</td>
+<td style="text-align: right;">1073</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1858790</td>
+<td style="text-align: left;">Bony Odyssey</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">578</td>
+<td style="text-align: right;">1737</td>
+<td style="text-align: right;">1074</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1860290</td>
+<td style="text-align: left;">Moondrills</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">579</td>
+<td style="text-align: right;">1738</td>
+<td style="text-align: right;">1075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1866640</td>
+<td style="text-align: left;">Kronos</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">580</td>
+<td style="text-align: right;">1739</td>
+<td style="text-align: right;">1076</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1968440</td>
+<td style="text-align: left;">Strange Hunting Grounds</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">581</td>
+<td style="text-align: right;">1740</td>
+<td style="text-align: right;">1077</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2055400</td>
+<td style="text-align: left;">Knights Together</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">582</td>
+<td style="text-align: right;">1741</td>
+<td style="text-align: right;">1078</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2143760</td>
+<td style="text-align: left;">Her Name</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">583</td>
+<td style="text-align: right;">1742</td>
+<td style="text-align: right;">1079</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2588400</td>
+<td style="text-align: left;">Robokid</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">584</td>
+<td style="text-align: right;">1743</td>
+<td style="text-align: right;">1080</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2673790</td>
+<td style="text-align: left;">Endless Asphalt</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">585</td>
+<td style="text-align: right;">1744</td>
+<td style="text-align: right;">1081</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2691340</td>
+<td style="text-align: left;">The Christopher Redemption - I</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">586</td>
+<td style="text-align: right;">1745</td>
+<td style="text-align: right;">1082</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2751920</td>
+<td style="text-align: left;">Redacted:Genome</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">587</td>
+<td style="text-align: right;">1746</td>
+<td style="text-align: right;">1083</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2831070</td>
+<td style="text-align: left;">Dimachaerus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">588</td>
+<td style="text-align: right;">1747</td>
+<td style="text-align: right;">1084</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2860040</td>
+<td style="text-align: left;">SIS and BRO: The Cyborg Siblings</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">589</td>
+<td style="text-align: right;">1748</td>
+<td style="text-align: right;">1085</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2881170</td>
+<td style="text-align: left;">My fair damnation</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">590</td>
+<td style="text-align: right;">1749</td>
+<td style="text-align: right;">1086</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="高评分低置信度案例" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 高评分低置信度案例</h1>
+<p>预设 descriptive flag 为 <code>raw &gt;= 95%</code> 且 <code>Wilson lower &lt; 80%</code>；强下调 flag 为 <code>raw &gt;= 95%</code> 且 EB 向下收缩至少 5 个百分点。这些 cutoff 没有按结果优化。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：High-raw / low-confidence cases</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 44%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">eb_shrinkage_pp</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">660200</td>
+<td style="text-align: left;">Transistor Defense</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">576</td>
+<td style="text-align: right;">1735</td>
+<td style="text-align: right;">1072</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1154140</td>
+<td style="text-align: left;">Pity Please!</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">577</td>
+<td style="text-align: right;">1736</td>
+<td style="text-align: right;">1073</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1858790</td>
+<td style="text-align: left;">Bony Odyssey</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">578</td>
+<td style="text-align: right;">1737</td>
+<td style="text-align: right;">1074</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1860290</td>
+<td style="text-align: left;">Moondrills</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">579</td>
+<td style="text-align: right;">1738</td>
+<td style="text-align: right;">1075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1866640</td>
+<td style="text-align: left;">Kronos</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">580</td>
+<td style="text-align: right;">1739</td>
+<td style="text-align: right;">1076</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1968440</td>
+<td style="text-align: left;">Strange Hunting Grounds</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">581</td>
+<td style="text-align: right;">1740</td>
+<td style="text-align: right;">1077</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2055400</td>
+<td style="text-align: left;">Knights Together</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">582</td>
+<td style="text-align: right;">1741</td>
+<td style="text-align: right;">1078</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2143760</td>
+<td style="text-align: left;">Her Name</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">583</td>
+<td style="text-align: right;">1742</td>
+<td style="text-align: right;">1079</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2588400</td>
+<td style="text-align: left;">Robokid</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">584</td>
+<td style="text-align: right;">1743</td>
+<td style="text-align: right;">1080</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2673790</td>
+<td style="text-align: left;">Endless Asphalt</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">585</td>
+<td style="text-align: right;">1744</td>
+<td style="text-align: right;">1081</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2691340</td>
+<td style="text-align: left;">The Christopher Redemption - I</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">586</td>
+<td style="text-align: right;">1745</td>
+<td style="text-align: right;">1082</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2751920</td>
+<td style="text-align: left;">Redacted:Genome</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">587</td>
+<td style="text-align: right;">1746</td>
+<td style="text-align: right;">1083</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2831070</td>
+<td style="text-align: left;">Dimachaerus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">588</td>
+<td style="text-align: right;">1747</td>
+<td style="text-align: right;">1084</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2860040</td>
+<td style="text-align: left;">SIS and BRO: The Cyborg Siblings</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">589</td>
+<td style="text-align: right;">1748</td>
+<td style="text-align: right;">1085</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2881170</td>
+<td style="text-align: left;">My fair damnation</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">590</td>
+<td style="text-align: right;">1749</td>
+<td style="text-align: right;">1086</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2899300</td>
+<td style="text-align: left;">UKNON Jones &amp; Guynelk 2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">591</td>
+<td style="text-align: right;">1750</td>
+<td style="text-align: right;">1087</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3002630</td>
+<td style="text-align: left;">Dionysus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">592</td>
+<td style="text-align: right;">1751</td>
+<td style="text-align: right;">1088</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3026650</td>
+<td style="text-align: left;">Master Bobber</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">593</td>
+<td style="text-align: right;">1752</td>
+<td style="text-align: right;">1089</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3061100</td>
+<td style="text-align: left;">栖云：遗忘之境 Oriental Dreams : The Forgotten Realm</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">594</td>
+<td style="text-align: right;">1753</td>
+<td style="text-align: right;">1090</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3069360</td>
+<td style="text-align: left;">RIP Party</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">595</td>
+<td style="text-align: right;">1754</td>
+<td style="text-align: right;">1091</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：High-raw / strong-shrinkage cases</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 44%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">eb_shrinkage_pp</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">660200</td>
+<td style="text-align: left;">Transistor Defense</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">576</td>
+<td style="text-align: right;">1735</td>
+<td style="text-align: right;">1072</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1154140</td>
+<td style="text-align: left;">Pity Please!</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">577</td>
+<td style="text-align: right;">1736</td>
+<td style="text-align: right;">1073</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1858790</td>
+<td style="text-align: left;">Bony Odyssey</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">578</td>
+<td style="text-align: right;">1737</td>
+<td style="text-align: right;">1074</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1860290</td>
+<td style="text-align: left;">Moondrills</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">579</td>
+<td style="text-align: right;">1738</td>
+<td style="text-align: right;">1075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1866640</td>
+<td style="text-align: left;">Kronos</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">580</td>
+<td style="text-align: right;">1739</td>
+<td style="text-align: right;">1076</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1968440</td>
+<td style="text-align: left;">Strange Hunting Grounds</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">581</td>
+<td style="text-align: right;">1740</td>
+<td style="text-align: right;">1077</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2055400</td>
+<td style="text-align: left;">Knights Together</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">582</td>
+<td style="text-align: right;">1741</td>
+<td style="text-align: right;">1078</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2143760</td>
+<td style="text-align: left;">Her Name</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">583</td>
+<td style="text-align: right;">1742</td>
+<td style="text-align: right;">1079</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2588400</td>
+<td style="text-align: left;">Robokid</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">584</td>
+<td style="text-align: right;">1743</td>
+<td style="text-align: right;">1080</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2673790</td>
+<td style="text-align: left;">Endless Asphalt</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">585</td>
+<td style="text-align: right;">1744</td>
+<td style="text-align: right;">1081</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2691340</td>
+<td style="text-align: left;">The Christopher Redemption - I</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">586</td>
+<td style="text-align: right;">1745</td>
+<td style="text-align: right;">1082</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2751920</td>
+<td style="text-align: left;">Redacted:Genome</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">587</td>
+<td style="text-align: right;">1746</td>
+<td style="text-align: right;">1083</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2831070</td>
+<td style="text-align: left;">Dimachaerus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">588</td>
+<td style="text-align: right;">1747</td>
+<td style="text-align: right;">1084</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2860040</td>
+<td style="text-align: left;">SIS and BRO: The Cyborg Siblings</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">589</td>
+<td style="text-align: right;">1748</td>
+<td style="text-align: right;">1085</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2881170</td>
+<td style="text-align: left;">My fair damnation</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">590</td>
+<td style="text-align: right;">1749</td>
+<td style="text-align: right;">1086</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2899300</td>
+<td style="text-align: left;">UKNON Jones &amp; Guynelk 2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">591</td>
+<td style="text-align: right;">1750</td>
+<td style="text-align: right;">1087</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3002630</td>
+<td style="text-align: left;">Dionysus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">592</td>
+<td style="text-align: right;">1751</td>
+<td style="text-align: right;">1088</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3026650</td>
+<td style="text-align: left;">Master Bobber</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">593</td>
+<td style="text-align: right;">1752</td>
+<td style="text-align: right;">1089</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3061100</td>
+<td style="text-align: left;">栖云：遗忘之境 Oriental Dreams : The Forgotten Realm</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">594</td>
+<td style="text-align: right;">1753</td>
+<td style="text-align: right;">1090</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3069360</td>
+<td style="text-align: left;">RIP Party</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.20655</td>
+<td style="text-align: right;">0.85215</td>
+<td style="text-align: right;">-14.78464</td>
+<td style="text-align: right;">595</td>
+<td style="text-align: right;">1754</td>
+<td style="text-align: right;">1091</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/34_most_shrunk_games.png" class="img-fluid figure-img" width="1008"></p>
+<figcaption>绝对 EB 收缩最大的 20 个游戏</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>大幅收缩案例是否基本都是低评论数游戏？</li>
+<li>上调与下调是否分别对应 Raw rate 低于与高于 prior mean？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="prior-sensitivity" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Prior Sensitivity</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Prior sensitivity summary</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison</th>
+<th style="text-align: right;">evaluation_n</th>
+<th style="text-align: right;">mean_absolute_difference</th>
+<th style="text-align: right;">median_absolute_difference</th>
+<th style="text-align: right;">p95_absolute_difference</th>
+<th style="text-align: right;">max_absolute_difference</th>
+<th style="text-align: right;">spearman_rank_correlation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PRIOR10_VS_ALL</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">0.0063516</td>
+<td style="text-align: right;">0.0029312</td>
+<td style="text-align: right;">0.0270948</td>
+<td style="text-align: right;">0.0414028</td>
+<td style="text-align: right;">0.9981938</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIOR20_VS_ALL</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">0.0079463</td>
+<td style="text-align: right;">0.0035554</td>
+<td style="text-align: right;">0.0353290</td>
+<td style="text-align: right;">0.0601578</td>
+<td style="text-align: right;">0.9980784</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/32_eb_prior_sensitivity.png" class="img-fluid figure-img" width="828"></p>
+<figcaption>n&lt;20 游戏采用替代 prior 后，相对 Primary EB 的百分点差异</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Prior sensitivity 是否主要集中在低 n 游戏？</li>
+<li>n&gt;=10 与 n&gt;=20 prior 的方向与幅度是否一致？</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="高评论数游戏稳定性" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> 高评论数游戏稳定性</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：total_reviews &gt;= 1000 的 EB 高 n 保真审计</caption>
+<colgroup>
+<col style="width: 21%">
+<col style="width: 7%">
+<col style="width: 25%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">threshold</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">median_absolute_shrinkage</th>
+<th style="text-align: right;">p95_absolute_shrinkage</th>
+<th style="text-align: right;">max_absolute_shrinkage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">total_reviews &gt;= 1000</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">0.0001701</td>
+<td style="text-align: right;">0.000874</td>
+<td style="text-align: right;">0.001592</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="top-adjusted-games" class="level1" data-number="15">
+<h1 data-number="15"><span class="header-section-number">15</span> Top Adjusted Games</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Top 20 EB ranking</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 42%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">eb_shrinkage_pp</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3309750</td>
+<td style="text-align: left;">As Long As You’re Here</td>
+<td style="text-align: right;">486</td>
+<td style="text-align: right;">0.99794</td>
+<td style="text-align: right;">0.98844</td>
+<td style="text-align: right;">0.99584</td>
+<td style="text-align: right;">-0.20980</td>
+<td style="text-align: right;">833</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3130800</td>
+<td style="text-align: left;">Find My Frogs</td>
+<td style="text-align: right;">208</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.98187</td>
+<td style="text-align: right;">0.99512</td>
+<td style="text-align: right;">-0.48808</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2263360</td>
+<td style="text-align: left;">HYPERBEAT</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">0.99736</td>
+<td style="text-align: right;">0.98521</td>
+<td style="text-align: right;">0.99469</td>
+<td style="text-align: right;">-0.26718</td>
+<td style="text-align: right;">834</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3047510</td>
+<td style="text-align: left;">Myths are 100% True</td>
+<td style="text-align: right;">182</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.97933</td>
+<td style="text-align: right;">0.99444</td>
+<td style="text-align: right;">-0.55556</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2602230</td>
+<td style="text-align: left;">MotionRec</td>
+<td style="text-align: right;">425</td>
+<td style="text-align: right;">0.99529</td>
+<td style="text-align: right;">0.98301</td>
+<td style="text-align: right;">0.99294</td>
+<td style="text-align: right;">-0.23576</td>
+<td style="text-align: right;">835</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2500460</td>
+<td style="text-align: left;">Inventorix</td>
+<td style="text-align: right;">129</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.97108</td>
+<td style="text-align: right;">0.99226</td>
+<td style="text-align: right;">-0.77356</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3894950</td>
+<td style="text-align: left;">Bakahazard 3</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.96626</td>
+<td style="text-align: right;">0.99100</td>
+<td style="text-align: right;">-0.90019</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3874950</td>
+<td style="text-align: left;">Bit Buddy</td>
+<td style="text-align: right;">440</td>
+<td style="text-align: right;">0.99318</td>
+<td style="text-align: right;">0.98015</td>
+<td style="text-align: right;">0.99093</td>
+<td style="text-align: right;">-0.22496</td>
+<td style="text-align: right;">840</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3070390</td>
+<td style="text-align: left;">Master Lemon: The Quest for Iceland</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.96565</td>
+<td style="text-align: right;">0.99084</td>
+<td style="text-align: right;">-0.91597</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3902830</td>
+<td style="text-align: left;">How I Flex with AI</td>
+<td style="text-align: right;">298</td>
+<td style="text-align: right;">0.99329</td>
+<td style="text-align: right;">0.97586</td>
+<td style="text-align: right;">0.98999</td>
+<td style="text-align: right;">-0.33022</td>
+<td style="text-align: right;">839</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4113470</td>
+<td style="text-align: left;">魔王跳 《More Jump》</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.96191</td>
+<td style="text-align: right;">0.98986</td>
+<td style="text-align: right;">-1.01373</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2421540</td>
+<td style="text-align: left;">白猫骑士物语/ White Cat Knight</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.95724</td>
+<td style="text-align: right;">0.98865</td>
+<td style="text-align: right;">-1.13485</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3966360</td>
+<td style="text-align: left;">After School Grounds (방과후운동장)</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">0.99375</td>
+<td style="text-align: right;">0.96545</td>
+<td style="text-align: right;">0.98769</td>
+<td style="text-align: right;">-0.60632</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3629400</td>
+<td style="text-align: left;">Loophole</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">0.99351</td>
+<td style="text-align: right;">0.96414</td>
+<td style="text-align: right;">0.98723</td>
+<td style="text-align: right;">-0.62813</td>
+<td style="text-align: right;">837</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3054820</td>
+<td style="text-align: left;">DevilConnection</td>
+<td style="text-align: right;">1941</td>
+<td style="text-align: right;">0.98764</td>
+<td style="text-align: right;">0.98167</td>
+<td style="text-align: right;">0.98714</td>
+<td style="text-align: right;">-0.04981</td>
+<td style="text-align: right;">847</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3594000</td>
+<td style="text-align: left;">性感史莱姆派对（Slime Sexy Party）</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">0.99127</td>
+<td style="text-align: right;">0.96872</td>
+<td style="text-align: right;">0.98705</td>
+<td style="text-align: right;">-0.42194</td>
+<td style="text-align: right;">841</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3591360</td>
+<td style="text-align: left;">Bad Bitch Blasters</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">0.98956</td>
+<td style="text-align: right;">0.97346</td>
+<td style="text-align: right;">0.98703</td>
+<td style="text-align: right;">-0.25226</td>
+<td style="text-align: right;">843</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1380990</td>
+<td style="text-align: left;">Hyper Team Recon</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.95065</td>
+<td style="text-align: right;">0.98695</td>
+<td style="text-align: right;">-1.30493</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4168750</td>
+<td style="text-align: left;">One More 6ix</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">0.99333</td>
+<td style="text-align: right;">0.96321</td>
+<td style="text-align: right;">0.98690</td>
+<td style="text-align: right;">-0.64355</td>
+<td style="text-align: right;">838</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2701720</td>
+<td style="text-align: left;">Wagotabi: A Japanese Journey</td>
+<td style="text-align: right;">1534</td>
+<td style="text-align: right;">0.98566</td>
+<td style="text-align: right;">0.97838</td>
+<td style="text-align: right;">0.98504</td>
+<td style="text-align: right;">-0.06219</td>
+<td style="text-align: right;">852</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Top 20 Wilson-lower ranking</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 42%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">raw_positive_rate</th>
+<th style="text-align: right;">wilson_lower_95</th>
+<th style="text-align: right;">eb_posterior_mean</th>
+<th style="text-align: right;">eb_shrinkage_pp</th>
+<th style="text-align: right;">raw_rank</th>
+<th style="text-align: right;">wilson_rank</th>
+<th style="text-align: right;">eb_rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3309750</td>
+<td style="text-align: left;">As Long As You’re Here</td>
+<td style="text-align: right;">486</td>
+<td style="text-align: right;">0.99794</td>
+<td style="text-align: right;">0.98844</td>
+<td style="text-align: right;">0.99584</td>
+<td style="text-align: right;">-0.20980</td>
+<td style="text-align: right;">833</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2263360</td>
+<td style="text-align: left;">HYPERBEAT</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">0.99736</td>
+<td style="text-align: right;">0.98521</td>
+<td style="text-align: right;">0.99469</td>
+<td style="text-align: right;">-0.26718</td>
+<td style="text-align: right;">834</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2602230</td>
+<td style="text-align: left;">MotionRec</td>
+<td style="text-align: right;">425</td>
+<td style="text-align: right;">0.99529</td>
+<td style="text-align: right;">0.98301</td>
+<td style="text-align: right;">0.99294</td>
+<td style="text-align: right;">-0.23576</td>
+<td style="text-align: right;">835</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3130800</td>
+<td style="text-align: left;">Find My Frogs</td>
+<td style="text-align: right;">208</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.98187</td>
+<td style="text-align: right;">0.99512</td>
+<td style="text-align: right;">-0.48808</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3054820</td>
+<td style="text-align: left;">DevilConnection</td>
+<td style="text-align: right;">1941</td>
+<td style="text-align: right;">0.98764</td>
+<td style="text-align: right;">0.98167</td>
+<td style="text-align: right;">0.98714</td>
+<td style="text-align: right;">-0.04981</td>
+<td style="text-align: right;">847</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3874950</td>
+<td style="text-align: left;">Bit Buddy</td>
+<td style="text-align: right;">440</td>
+<td style="text-align: right;">0.99318</td>
+<td style="text-align: right;">0.98015</td>
+<td style="text-align: right;">0.99093</td>
+<td style="text-align: right;">-0.22496</td>
+<td style="text-align: right;">840</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3047510</td>
+<td style="text-align: left;">Myths are 100% True</td>
+<td style="text-align: right;">182</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.97933</td>
+<td style="text-align: right;">0.99444</td>
+<td style="text-align: right;">-0.55556</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2701720</td>
+<td style="text-align: left;">Wagotabi: A Japanese Journey</td>
+<td style="text-align: right;">1534</td>
+<td style="text-align: right;">0.98566</td>
+<td style="text-align: right;">0.97838</td>
+<td style="text-align: right;">0.98504</td>
+<td style="text-align: right;">-0.06219</td>
+<td style="text-align: right;">852</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3902830</td>
+<td style="text-align: left;">How I Flex with AI</td>
+<td style="text-align: right;">298</td>
+<td style="text-align: right;">0.99329</td>
+<td style="text-align: right;">0.97586</td>
+<td style="text-align: right;">0.98999</td>
+<td style="text-align: right;">-0.33022</td>
+<td style="text-align: right;">839</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3591360</td>
+<td style="text-align: left;">Bad Bitch Blasters</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">0.98956</td>
+<td style="text-align: right;">0.97346</td>
+<td style="text-align: right;">0.98703</td>
+<td style="text-align: right;">-0.25226</td>
+<td style="text-align: right;">843</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2500460</td>
+<td style="text-align: left;">Inventorix</td>
+<td style="text-align: right;">129</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.97108</td>
+<td style="text-align: right;">0.99226</td>
+<td style="text-align: right;">-0.77356</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1170570</td>
+<td style="text-align: left;">The Drifter</td>
+<td style="text-align: right;">4712</td>
+<td style="text-align: right;">0.97538</td>
+<td style="text-align: right;">0.97056</td>
+<td style="text-align: right;">0.97519</td>
+<td style="text-align: right;">-0.01898</td>
+<td style="text-align: right;">876</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">43</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3575980</td>
+<td style="text-align: left;">Fantasy Maiden Wars - DREAM OF THE STRAY DREAMER -</td>
+<td style="text-align: right;">574</td>
+<td style="text-align: right;">0.98432</td>
+<td style="text-align: right;">0.97047</td>
+<td style="text-align: right;">0.98268</td>
+<td style="text-align: right;">-0.16372</td>
+<td style="text-align: right;">854</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3265060</td>
+<td style="text-align: left;">Touhou Dystopian</td>
+<td style="text-align: right;">2147</td>
+<td style="text-align: right;">0.97671</td>
+<td style="text-align: right;">0.96943</td>
+<td style="text-align: right;">0.97629</td>
+<td style="text-align: right;">-0.04196</td>
+<td style="text-align: right;">874</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3594000</td>
+<td style="text-align: left;">性感史莱姆派对（Slime Sexy Party）</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">0.99127</td>
+<td style="text-align: right;">0.96872</td>
+<td style="text-align: right;">0.98705</td>
+<td style="text-align: right;">-0.42194</td>
+<td style="text-align: right;">841</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3447040</td>
+<td style="text-align: left;">Sora no Kiseki the 1st</td>
+<td style="text-align: right;">5170</td>
+<td style="text-align: right;">0.97292</td>
+<td style="text-align: right;">0.96813</td>
+<td style="text-align: right;">0.97275</td>
+<td style="text-align: right;">-0.01701</td>
+<td style="text-align: right;">884</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3894950</td>
+<td style="text-align: left;">Bakahazard 3</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.96626</td>
+<td style="text-align: right;">0.99100</td>
+<td style="text-align: right;">-0.90019</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3446680</td>
+<td style="text-align: left;">Heartbeat in Thailand</td>
+<td style="text-align: right;">1767</td>
+<td style="text-align: right;">0.97453</td>
+<td style="text-align: right;">0.96609</td>
+<td style="text-align: right;">0.97403</td>
+<td style="text-align: right;">-0.05021</td>
+<td style="text-align: right;">878</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">47</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3070390</td>
+<td style="text-align: left;">Master Lemon: The Quest for Iceland</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0.96565</td>
+<td style="text-align: right;">0.99084</td>
+<td style="text-align: right;">-0.91597</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3966360</td>
+<td style="text-align: left;">After School Grounds (방과후운동장)</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">0.99375</td>
+<td style="text-align: right;">0.96545</td>
+<td style="text-align: right;">0.98769</td>
+<td style="text-align: right;">-0.60632</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">13</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/33_top_adjusted_games.png" class="img-fluid figure-img" width="1035"></p>
+<figcaption>Top 20 EB posterior mean 与 95% equal-tailed credible interval</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">注记</span>人工审计重点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>排名前列是否同时具有较高 Raw rate 与足够 denominator？</li>
+<li>EB ranking 不应被称为真实质量排名。</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="人工审计清单" class="level1" data-number="16">
+<h1 data-number="16"><span class="header-section-number">16</span> 人工审计清单</h1>
+<ul>
+<li>Wilson validation 是否全部通过，且所有区间落在 [0,1]？</li>
+<li>EB posterior mean 是否严格落在 (0,1)，权重之和是否为 1？</li>
+<li>三个 prior 是否收敛、梯度接近零、Hessian 正定、固定起点一致？</li>
+<li>高 n 游戏是否基本保留 Raw rate？</li>
+<li>替代 prior 的影响是否透明呈现，而非替代 Primary？</li>
+<li>零评论游戏是否完全排除于 rating estimator？</li>
+</ul>
+</section>
+<section id="阶段性结论" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> 阶段性结论</h1>
+<p>Raw rate 是观察性描述指标；Wilson lower 是 conservative uncertainty-aware ranking；EB posterior mean 是 population-informed shrinkage estimate。Beta-binomial 仍是主要推断回归，HIGH85 Logistic 仍是次要门槛分析。本阶段不作因果解释，也不启动零评论、attention 或 hurdle modeling。</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

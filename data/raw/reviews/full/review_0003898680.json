@@ -1,0 +1,66 @@
+{
+  "appid": 3898680,
+  "requested_at": "2026-09-13T19:56:56.646100+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 2,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "211058694",
+        "author": {
+          "steamid": "76561198062085776",
+          "personaname": "74snoo",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198062085776/",
+          "num_games_owned": 0,
+          "num_reviews": 6,
+          "playtime_forever": 111,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 67,
+          "last_played": 1764272193,
+          "avatar": "62290681848b99e427f0a1ab984cfbe7f88ecf91"
+        },
+        "language": "english",
+        "review": "dude does not know how to read, you can fullscreen no problem lol. games good, really robust content already. i did have a crash though :c other than that the only thing i'd like to see is UI improvements, gameplay loop is solid and the items are pretty good",
+        "timestamp_created": 1764216117,
+        "timestamp_updated": 1764216117,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764198044",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB2gJClBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

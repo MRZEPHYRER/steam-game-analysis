@@ -1,0 +1,299 @@
+{
+  "requested_at": "2026-09-13T07:12:26.260921+00:00",
+  "request_params": {
+    "appids": 4160020,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4160020,
+  "payload": {
+    "4160020": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "FIND ALL: Christmas 2025 🎁🎄🔔",
+        "steam_appid": 4160020,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4258610,
+          4258620
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Test your observation skills in this exciting hidden object game. Explore a cozy suburb on Christmas Eve and find cleverly hidden items. Background music will immerse you in the atmosphere. Suitable for the whole family.</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >180 hidden items</p><p class=\"bb_paragraph\" >There is a hint</p><p class=\"bb_paragraph\" >The map is colorable</p><p class=\"bb_paragraph\" >2.5D effect</p><p class=\"bb_paragraph\" >Customize brightness</p><p class=\"bb_paragraph\" >Saving progress</p><p class=\"bb_paragraph\" >Scaling</p><p class=\"bb_paragraph\" >Relaxing music</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Test your observation skills in this exciting hidden object game. Explore a cozy suburb on Christmas Eve and find cleverly hidden items. Background music will immerse you in the atmosphere. Suitable for the whole family.</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >180 hidden items</p><p class=\"bb_paragraph\" >There is a hint</p><p class=\"bb_paragraph\" >The map is colorable</p><p class=\"bb_paragraph\" >2.5D effect</p><p class=\"bb_paragraph\" >Customize brightness</p><p class=\"bb_paragraph\" >Saving progress</p><p class=\"bb_paragraph\" >Scaling</p><p class=\"bb_paragraph\" >Relaxing music</p>",
+        "short_description": "Ho ho ho! The Christmas season is here again! That means it's time to test your attentiveness by exploring the Christmas suburb and finding different objects to color in the black and white picture with colorful paints.",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/50b238ec2868e2246731e02f791f91ea898e12b8/header.jpg?t=1766378638",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/8a7c0a1d2d4961fc04a8292c4ebfee3fd3fb6d9d/capsule_231x87.jpg?t=1766378638",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/8a7c0a1d2d4961fc04a8292c4ebfee3fd3fb6d9d/capsule_184x69.jpg?t=1766378638",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> 2.3 GHz Dual Core<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS<br></li><li><strong>Processor:</strong> Intel<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux<br></li><li><strong>Processor:</strong> 2.3 GHz Dual Core<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "developers": [
+          "Very very LITTLE Studio"
+        ],
+        "publishers": [
+          "Very very LITTLE Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 73,
+          "discount_percent": 26,
+          "initial_formatted": "$0.99",
+          "final_formatted": "$0.73"
+        },
+        "packages": [
+          1457370
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy FIND ALL: Christmas 2025 🎁🎄🔔",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1457370,
+                "percent_savings_text": "-26% ",
+                "percent_savings": 0,
+                "option_text": "FIND ALL: Christmas 2025 🎁🎄🔔 - <span class=\"discount_original_price\">$0.99</span> $0.73",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 73
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 71,
+            "description": "Narrated Game Menus"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/6725e682a765f72a041012df5b0a1b563fb7ad36/ss_6725e682a765f72a041012df5b0a1b563fb7ad36.600x338.jpg?t=1766378638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/6725e682a765f72a041012df5b0a1b563fb7ad36/ss_6725e682a765f72a041012df5b0a1b563fb7ad36.1920x1080.jpg?t=1766378638"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/c4ac2d0079dce1b9fe8de688ea82c583b14b8ed2/ss_c4ac2d0079dce1b9fe8de688ea82c583b14b8ed2.600x338.jpg?t=1766378638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/c4ac2d0079dce1b9fe8de688ea82c583b14b8ed2/ss_c4ac2d0079dce1b9fe8de688ea82c583b14b8ed2.1920x1080.jpg?t=1766378638"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/84d7dbafa09e8b846ea80f3e51837672116f0849/ss_84d7dbafa09e8b846ea80f3e51837672116f0849.600x338.jpg?t=1766378638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/84d7dbafa09e8b846ea80f3e51837672116f0849/ss_84d7dbafa09e8b846ea80f3e51837672116f0849.1920x1080.jpg?t=1766378638"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/3d3ffa1a470ef105bcec90083fa95764f62ce0e7/ss_3d3ffa1a470ef105bcec90083fa95764f62ce0e7.600x338.jpg?t=1766378638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/3d3ffa1a470ef105bcec90083fa95764f62ce0e7/ss_3d3ffa1a470ef105bcec90083fa95764f62ce0e7.1920x1080.jpg?t=1766378638"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/58ded77020b1d733f4a7dde7223ef90d12609817/ss_58ded77020b1d733f4a7dde7223ef90d12609817.600x338.jpg?t=1766378638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/58ded77020b1d733f4a7dde7223ef90d12609817/ss_58ded77020b1d733f4a7dde7223ef90d12609817.1920x1080.jpg?t=1766378638"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257250919,
+            "name": "Game play",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257250919/0f387609fed6c8ae370303ba91c16050315c3ed5/movie_600x337.jpg?t=1766378585",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4160020/1749907660/eaa8beb0dc2faf0e1025214551429f34647521d3/1765904317/dash_av1.mpd?t=1766378585",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4160020/1749907660/eaa8beb0dc2faf0e1025214551429f34647521d3/1765904317/dash_h264.mpd?t=1766378585",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4160020/1749907660/eaa8beb0dc2faf0e1025214551429f34647521d3/1765904317/hls_264_master.m3u8?t=1766378585",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 45,
+          "highlighted": [
+            {
+              "icon": "00633c4fd8a50e4c07b535b12f620395ca8ade99.jpg",
+              "localized_name": "A knit socks",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A knit socks",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/00633c4fd8a50e4c07b535b12f620395ca8ade99.jpg"
+            },
+            {
+              "icon": "d9fb12333d8bd83639fb49d32879041c83b125a2.jpg",
+              "localized_name": "Holly sprig",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Holly sprig",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/d9fb12333d8bd83639fb49d32879041c83b125a2.jpg"
+            },
+            {
+              "icon": "91ca3b811a91a804ed803e4e2ae29105bff21815.jpg",
+              "localized_name": "A little angel",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A little angel",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/91ca3b811a91a804ed803e4e2ae29105bff21815.jpg"
+            },
+            {
+              "icon": "9dd9e2139a103d971915245cb82d1f4894ddc0ca.jpg",
+              "localized_name": "A snowman",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A snowman",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/9dd9e2139a103d971915245cb82d1f4894ddc0ca.jpg"
+            },
+            {
+              "icon": "f5418b61d5c31702b64a123492e06ec6e572835f.jpg",
+              "localized_name": "A pinecone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A pinecone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/f5418b61d5c31702b64a123492e06ec6e572835f.jpg"
+            },
+            {
+              "icon": "2ffc72f6575cf797564d3898e4e6f17145478214.jpg",
+              "localized_name": "A gingerbread man",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A gingerbread man",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/2ffc72f6575cf797564d3898e4e6f17145478214.jpg"
+            },
+            {
+              "icon": "0a0608c2cef817fb41f84c595360fc9340231cc9.jpg",
+              "localized_name": "A snow globe",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A snow globe",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/0a0608c2cef817fb41f84c595360fc9340231cc9.jpg"
+            },
+            {
+              "icon": "052c265e36a313d91046f968feae335243ed4276.jpg",
+              "localized_name": "A sweater",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A sweater",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/052c265e36a313d91046f968feae335243ed4276.jpg"
+            },
+            {
+              "icon": "a35bab8db2b5af94ed0e66dbbc005ff34380d21d.jpg",
+              "localized_name": "A paper garland",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A paper garland",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/a35bab8db2b5af94ed0e66dbbc005ff34380d21d.jpg"
+            },
+            {
+              "icon": "0151cdbb3a4de51f1a4f4285ac24788d068b1ae5.jpg",
+              "localized_name": "An icicle",
+              "archived": 0,
+              "hidden": 0,
+              "name": "An icicle",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160020/0151cdbb3a4de51f1a4f4285ac24788d068b1ae5.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 21, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "VVL.studio.supp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160020?t=1766378638",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160020/e2f3907591ea3bd367c72ee294ef4e738c4d4b4d/page_bg_raw.jpg?t=1766378638",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

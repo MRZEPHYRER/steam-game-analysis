@@ -1,0 +1,66 @@
+{
+  "appid": 2973830,
+  "requested_at": "2026-09-13T18:59:57.312658+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 135,
+      "total_negative": 22,
+      "total_reviews": 157
+    },
+    "reviews": [
+      {
+        "recommendationid": "209337569",
+        "author": {
+          "steamid": "76561199073810192",
+          "personaname": "Gamingspider",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Gamingspider/",
+          "num_games_owned": 364,
+          "num_reviews": 163,
+          "playtime_forever": 867,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 718,
+          "last_played": 1776166490,
+          "avatar": "9e1de086c78a4a493ad4f4ae1258279507964e2b"
+        },
+        "language": "english",
+        "review": "in my opinion much better then the first game and theres so much more to do plus with friends",
+        "timestamp_created": 1763250870,
+        "timestamp_updated": 1763250870,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.574468076229095459",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752163329",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYgrmAAAAAFP+JiCsAAAABxzseeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

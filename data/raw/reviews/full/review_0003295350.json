@@ -1,0 +1,71 @@
+{
+  "appid": 3295350,
+  "requested_at": "2026-09-13T19:10:07.705274+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 7,
+      "total_negative": 1,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "209835238",
+        "author": {
+          "steamid": "76561197993469383",
+          "personaname": "von Boomslang",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/vonBoomslang/",
+          "num_games_owned": 0,
+          "num_reviews": 127,
+          "playtime_forever": 607,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 99,
+          "last_played": 1764329495,
+          "avatar": "d606a3db135bc51d5242553708d1955d8b117139"
+        },
+        "language": "english",
+        "review": "Charmingly, shamelessly Starcraft inspired, down to the campaign structure, and honestly, I am Here for it.",
+        "timestamp_created": 1763809707,
+        "timestamp_updated": 1763809707,
+        "voted_up": true,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.685770928859710693",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763740815",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWSNoAAAAAFP+Xx1gAAAAB2zrqgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

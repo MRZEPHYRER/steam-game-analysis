@@ -1,0 +1,66 @@
+{
+  "appid": 3540880,
+  "requested_at": "2026-09-13T19:21:30.193923+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 8,
+      "total_negative": 5,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "213603087",
+        "author": {
+          "steamid": "76561198051012184",
+          "personaname": "[BA] mpolder",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/mpolder/",
+          "num_games_owned": 0,
+          "num_reviews": 88,
+          "playtime_forever": 274,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 269,
+          "last_played": 1766535133,
+          "avatar": "b28fe1d76e30f69adbfbe897c3738c9f0ede2af7"
+        },
+        "language": "english",
+        "review": "Decent start, but this game as it is costs too much IMO. It's a cheap game, but so are most idle games. This game currently does not have very good balancing, and does not offer any late game features.\n\nThe progression in this game also seems a bit broken, you will skip most of the weapons you will unlock. I think I used maybe 20% of the total weaposn in the game, just because you will usually unlock multiple at the same time. The last weapon in the game is also just kind of bad compared to the weapon right before it, which is also strange. \n\nMost of the late game unlocks appear to be based off-of leaf blower idle, but they just don't land the same way in this game as they do in that game. By the time you unlock them, all of them do virtually nothing. It doesn't really seem like anything more than another button it adds to your screen that you will ignore.\n\nI do like this game, the concept is not bad, it just needs updates and balance changes pretty badly to really be complete",
+        "timestamp_created": 1766101969,
+        "timestamp_updated": 1766102387,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765890065",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB/sOquBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

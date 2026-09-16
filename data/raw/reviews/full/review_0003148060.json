@@ -1,0 +1,79 @@
+{
+  "appid": 3148060,
+  "requested_at": "2026-09-13T19:05:24.161595+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 556,
+      "total_negative": 16,
+      "total_reviews": 572
+    },
+    "reviews": [
+      {
+        "recommendationid": "209883913",
+        "author": {
+          "steamid": "76561198031400989",
+          "personaname": "adrienne*",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198031400989/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 1042,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1042,
+          "last_played": 1763782491,
+          "avatar": "1faff2948d6816b446a40ebc1b0c06b180861fee"
+        },
+        "language": "english",
+        "review": "I've been playing Nancy Drew games with my family since 2003, still play them as an adult, and have completed all 34 plus the dossiers; this is the closest we've gotten to a True Nancy Drew game since Sea of Darkness. Art of Deceit is a game that wholly understands the ND formula, down to the details of having a kooky phone character to consult on an edutainment topic, fastidiously avoiding Penelope's reflection, and letting you die in ways both horrifying and ridiculous. In fact, it's such a good successor that I found myself going \"oh my [i]god[/i], Nancy\" whenever an insensitive dialogue option would pop-up, and then remember oh, wait, it's Penelope.\n\nI never write reviews, but I'm trying to manifest as much cash as possible for Default Cube so that we get more of these. This feels like the start of something new. I think we're just like one major Nancy Drew streamer away from seeing a huge spike.\n\nThere *are* some growing pains here: a bit too much talking, starting with an opening five-minute unskippable monologue overlain on one static visual of a typewriter, after which you're launched into a ten-minute phone call. Small quality-of-life complaints, like when you order pizza, you have to sit around doing nothing for 30 in-game minutes, which translates to 3 agonizingly long minutes of real time. Or, you can pick up some objects immediately and others only after you have reason to. (Why did she steal a random spray bottle on sight but wait to pick up a box of screws?) Lots of little hitches like that. Sometimes the game was really good about anticipating my next thought (like when Penelope's next question for a suspect was also mine), and sometimes I felt like I was being arbitrarily held back (like when I couldn't fix an arcade game until another NPC told me to do what I already wanted to do). I got stuck for upwards of an hour at least twice, once because it let me cross off a task that I hadn't actually finished doing. ([spoiler] I didn't realize that you could interact with one of the bootprints at the cliffs, which you have to do to trigger the next sequence, and I had already crossed off exploring the cliffs on my checklist. [/spoiler])\n\nBut here's how I think about it: Art of Deceit is objectively a much (much!) better first entry for an IP than Secrets Can Kill. And I had a great time with it. There are all the classic puzzles you know and love, plus a crazy secret passageway you won't want to miss. (There's one part of it that's so freaky-cool it made me pause and make the @_@ face for a solid thirty seconds.) Also, if you're somehow still not convinced, Default Cube gets away with using all sorts of words that HerInteractive could never, like \"heterosexual\" and \"methhead\", which should give any ND vet a shiver of forbidden delight. Who could ask for anything more?",
+        "timestamp_created": 1763850899,
+        "timestamp_updated": 1763850899,
+        "voted_up": true,
+        "votes_up": 28,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.741935491561889648",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763571691",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVKUsAAAAAFP+e97oAAAAB5sNKgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2040000000001783,
+  "transport_error_count": 0
+}

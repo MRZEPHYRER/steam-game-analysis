@@ -1,0 +1,295 @@
+{
+  "requested_at": "2026-09-12T15:04:34.124737+00:00",
+  "request_params": {
+    "appids": 3385920,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3385920,
+  "payload": {
+    "3385920": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Beam Time",
+        "steam_appid": 3385920,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Beam time is a logic puzzle game where you redirect and split laser beams to create digital circuits. Through the campaign, you will explore logic gates, oscillators, latches, counters, adders, memory, and more.</p><p class=\"bb_paragraph\" >Each level provides a description and some test cases your solution must pass. Inputs are passed in through laser emitters and outputs taken from beam detectors. It's your job to use some combination of components to complete the level.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.poster.avif?t=1763437123\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.webm?t=1763437123\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.mp4?t=1763437123\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Here are all seven in-game components from left to right: emitter, galvo, splitter, mirror, delay, wall, detector. Galvos are the only 'active' component, they rotate the mirror they are facing when powered. With just these few components, It's theoretically possible to perform any computation.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/43c137d4dede2e3c248dd2d5c014b76c.avif?t=1763437123\" width=1120 height=175 /></span></p><p class=\"bb_paragraph\" >The game also features a sandbox mode where you can build whatever you want. Below is a zoomed in view of an implementation of the one-dimensional elementary cellular automaton Rule 30.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.poster.avif?t=1763437123\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.webm?t=1763437123\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.mp4?t=1763437123\" type=\"video/mp4\"></video></span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Beam time is a logic puzzle game where you redirect and split laser beams to create digital circuits. Through the campaign, you will explore logic gates, oscillators, latches, counters, adders, memory, and more.</p><p class=\"bb_paragraph\" >Each level provides a description and some test cases your solution must pass. Inputs are passed in through laser emitters and outputs taken from beam detectors. It's your job to use some combination of components to complete the level.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.poster.avif?t=1763437123\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.webm?t=1763437123\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/aa5605d68ed36c2e364ede15d0e6a7ae.mp4?t=1763437123\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Here are all seven in-game components from left to right: emitter, galvo, splitter, mirror, delay, wall, detector. Galvos are the only 'active' component, they rotate the mirror they are facing when powered. With just these few components, It's theoretically possible to perform any computation.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/43c137d4dede2e3c248dd2d5c014b76c.avif?t=1763437123\" width=1120 height=175 /></span></p><p class=\"bb_paragraph\" >The game also features a sandbox mode where you can build whatever you want. Below is a zoomed in view of an implementation of the one-dimensional elementary cellular automaton Rule 30.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.poster.avif?t=1763437123\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.webm?t=1763437123\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/extras/9b6d612006be6b6525bc10ae88c05163.mp4?t=1763437123\" type=\"video/mp4\"></video></span></p>",
+        "short_description": "A logic puzzle game where you redirect and split laser beams to create digital circuits. Through the campaign, you will explore basic logic gates, oscillators, latches, counters, adders, memory, and more.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/e50eb99d30264f24c3e14cdbf0a6b2b61c3f3703/header.jpg?t=1763437123",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/0133ea93072933e68ff512bec37f327444e09672/capsule_231x87.jpg?t=1763437123",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/0133ea93072933e68ff512bec37f327444e09672/capsule_184x69.jpg?t=1763437123",
+        "website": "https://github.com/connorslade/beam-time",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 / 11<br></li><li><strong>Memory:</strong> 100 MB RAM<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 15+<br></li><li><strong>Processor:</strong> Intel Only<br></li><li><strong>Memory:</strong> 100 MB RAM<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Fedora 41+<br></li><li><strong>Memory:</strong> 100 MB RAM<br></li><li><strong>Graphics:</strong> X11 or Wayland<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "developers": [
+          "Connor Slade"
+        ],
+        "publishers": [
+          "Connor Slade"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1198032
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Beam Time",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1198032,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Beam Time - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/ss_208cbfe9500302dc485da992f7de98dd6206d9aa.600x338.jpg?t=1763437123",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/ss_208cbfe9500302dc485da992f7de98dd6206d9aa.1920x1080.jpg?t=1763437123"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/ss_ed0274dc88a87a4665e801b2e277888cc11c3a20.600x338.jpg?t=1763437123",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/ss_ed0274dc88a87a4665e801b2e277888cc11c3a20.1920x1080.jpg?t=1763437123"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/74729ef7be43a115ae98256f4b2b04f1d2fd8ccd/ss_74729ef7be43a115ae98256f4b2b04f1d2fd8ccd.600x338.jpg?t=1763437123",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/74729ef7be43a115ae98256f4b2b04f1d2fd8ccd/ss_74729ef7be43a115ae98256f4b2b04f1d2fd8ccd.1920x1080.jpg?t=1763437123"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/1ad0daab8295d8715183efe1746889ef62963094/ss_1ad0daab8295d8715183efe1746889ef62963094.600x338.jpg?t=1763437123",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/1ad0daab8295d8715183efe1746889ef62963094/ss_1ad0daab8295d8715183efe1746889ef62963094.1920x1080.jpg?t=1763437123"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/0379f85fd63d61058513e3cca292ef2352390aa9/ss_0379f85fd63d61058513e3cca292ef2352390aa9.600x338.jpg?t=1763437123",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385920/0379f85fd63d61058513e3cca292ef2352390aa9/ss_0379f85fd63d61058513e3cca292ef2352390aa9.1920x1080.jpg?t=1763437123"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257181782,
+            "name": "Beam Time Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257181782/adf52d81db275ffe35ce5f03b2e4b46d5a14157a/movie_600x337.jpg?t=1755121683",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3385920/1716137894/f6d5496d4c7a1d83829a4775f6061db78e4d30b2/1755120950/dash_av1.mpd?t=1755121683",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3385920/1716137894/f6d5496d4c7a1d83829a4775f6061db78e4d30b2/1755120950/dash_h264.mpd?t=1755121683",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3385920/1716137894/f6d5496d4c7a1d83829a4775f6061db78e4d30b2/1755120950/hls_264_master.m3u8?t=1755121683",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "b77001ce11e0b00ceff523f26e37d26bc7921588.jpg",
+              "localized_name": "It's Beam Time",
+              "archived": 0,
+              "hidden": 0,
+              "name": "It's Beam Time",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/b77001ce11e0b00ceff523f26e37d26bc7921588.jpg"
+            },
+            {
+              "icon": "72d81bde29ada31a0de9e376d565764b2b95a74c.jpg",
+              "localized_name": "Complete the Campaign",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete the Campaign",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/72d81bde29ada31a0de9e376d565764b2b95a74c.jpg"
+            },
+            {
+              "icon": "89af8cc0660ac9462c6f5d32d21bbe31f0fd0e00.jpg",
+              "localized_name": "Turing Complete",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Turing Complete",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/89af8cc0660ac9462c6f5d32d21bbe31f0fd0e00.jpg"
+            },
+            {
+              "icon": "f537298495fdd10c27f0d271793b1575118c8e1d.jpg",
+              "localized_name": "Computer Engineer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Computer Engineer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/f537298495fdd10c27f0d271793b1575118c8e1d.jpg"
+            },
+            {
+              "icon": "82f7c57ce6c1e8d5ba0c278ef0eee518a2abd47b.jpg",
+              "localized_name": "Systems Architect",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Systems Architect",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/82f7c57ce6c1e8d5ba0c278ef0eee518a2abd47b.jpg"
+            },
+            {
+              "icon": "09746f0b5f10b5c5cf843374d1c9391da2cf83b2.jpg",
+              "localized_name": "Cheapest XOR",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cheapest XOR",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/09746f0b5f10b5c5cf843374d1c9391da2cf83b2.jpg"
+            },
+            {
+              "icon": "dde19f70fa5a30030fd02794c6704cf413eb307c.jpg",
+              "localized_name": "Low Latency Oscillator",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Low Latency Oscillator",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/dde19f70fa5a30030fd02794c6704cf413eb307c.jpg"
+            },
+            {
+              "icon": "906e5594251009c18bb03a02f5916f978ccbd09b.jpg",
+              "localized_name": "Compact Memory Cell",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Compact Memory Cell",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/906e5594251009c18bb03a02f5916f978ccbd09b.jpg"
+            },
+            {
+              "icon": "ba0eb69a01f831a84456e1b7aafc02ca551c5956.jpg",
+              "localized_name": "Low-Speed Serial",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Low-Speed Serial",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/ba0eb69a01f831a84456e1b7aafc02ca551c5956.jpg"
+            },
+            {
+              "icon": "cabb0fee7f476aa35bf47165ce97c1a110ebeacb.jpg",
+              "localized_name": "Binary Arithmetic",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Binary Arithmetic",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3385920/cabb0fee7f476aa35bf47165ce97c1a110ebeacb.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 19, 2025"
+        },
+        "support_info": {
+          "url": "https://github.com/connorslade/beam-time/issues",
+          "email": "beamtime@connorcode.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3385920?t=1763437123",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3385920?t=1763437123",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4236590,
+  "requested_at": "2026-09-13T20:27:23.383456+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "223898505",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 886,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 886,
+          "last_played": 1776723220,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "World of Y, developed and published by YAO, presents itself as a broader, more encompassing take on the developer’s familiar RPG formula, yet in practice it remains grounded in the same restrained and system-driven approach seen across its counterparts. The idea of exploring a “world” suggests scale and openness, but the experience instead unfolds as a carefully controlled sequence of encounters and progression steps. It is less about discovery in the traditional sense and more about moving steadily forward through a structured framework that emphasizes consistency over expansion.\n\nThe core gameplay loop is built around advancing through regions, engaging in turn-based battles, and strengthening a party through incremental upgrades. Movement between areas is straightforward, with each location acting as a contained stage rather than a space to freely explore. While this keeps the experience focused and easy to follow, it also limits the sense of immersion and adventure. The world feels segmented rather than interconnected, serving primarily as a backdrop for combat rather than a dynamic environment to interact with or uncover.\n\nCombat remains the centerpiece, relying on a traditional turn-based system that prioritizes careful planning. Players must manage actions across turns, considering factors such as enemy patterns, skill usage, and overall efficiency. The mechanics are clear and accessible, making it easy to understand how battles function from the beginning. However, the system does not evolve significantly as the game progresses, and the range of strategies remains relatively stable. This results in encounters that feel predictable over time, as players rely on established patterns rather than adapting to new mechanics or challenges.\n\nCharacter progression follows a similar pattern of gradual refinement. Improvements come in the form of better equipment, increased stats, and occasional new abilities, all of which enhance the party’s effectiveness without fundamentally changing how the game is played. Each upgrade contributes to a steady sense of growth, but the absence of transformative changes means that the experience rarely feels dynamic. The focus is on optimization within a fixed system rather than exploration of new possibilities.\n\nDespite its title, exploration is one of the game’s more limited aspects. There are few opportunities for branching paths, hidden content, or meaningful interaction with the environment. The journey unfolds along a largely linear path, with progression tied directly to completing encounters rather than discovering new areas or secrets. This design reinforces the game’s structured nature but also reduces the sense of curiosity that might otherwise drive engagement.\n\nPacing is one of the defining characteristics of World of Y. The game maintains a consistent tempo throughout, avoiding both sudden difficulty spikes and significant changes in structure. This creates a calm and predictable rhythm that can be appealing for players who prefer a more methodical experience. At the same time, the lack of variation can make the gameplay loop feel repetitive, as the core elements remain largely unchanged from beginning to end. The experience relies heavily on the player’s tolerance for this steady progression.\n\nVisually, the game reflects its modest scope. The presentation is simple and functional, with basic 2D graphics that prioritize clarity over detail. While the aesthetic is cohesive, it lacks a distinctive style that would make it stand out. Audio design is similarly minimal, providing background support without significantly enhancing the atmosphere. These elements are sufficient for the game’s purpose but do little to elevate it beyond its mechanical focus.\n\nUltimately, World of Y is a focused and understated RPG that delivers a consistent gameplay loop built on familiar foundations. It does not attempt to expand significantly beyond its core systems, instead offering a straightforward experience defined by repetition and gradual improvement. For players who appreciate methodical turn-based combat and steady progression, it can provide a stable and manageable journey. For those seeking variety, deeper mechanics, or a more immersive sense of exploration, however, it may feel too limited to leave a lasting impression.\n\nRating: 6/10",
+        "timestamp_created": 1776936623,
+        "timestamp_updated": 1776936623,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.478951364755630493",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766649876",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaa8WAAAAAFP96nIiAAAAB5uI3WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 2576200,
+  "requested_at": "2026-09-13T18:52:53.369158+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 162,
+      "total_negative": 33,
+      "total_reviews": 195
+    },
+    "reviews": [
+      {
+        "recommendationid": "208900504",
+        "author": {
+          "steamid": "76561197973979510",
+          "personaname": "DioDude",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/diohard/",
+          "num_games_owned": 0,
+          "num_reviews": 76,
+          "playtime_forever": 792,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 130,
+          "last_played": 1764004116,
+          "avatar": "805e556461f33d752231d51ddd39e1609d072d0d"
+        },
+        "language": "english",
+        "review": "TL;DR: Very well thought out Slay the Spire like, where the \"map traversal\" is equally deep gameplay as the fights themselves, Plug in an hack away. Once you dive into the grid, it's hard to come back out!\n\nIt's one of those rare games that deliver petty much exactly what you expect and what it promises (and more), there was already quite a bit of content to enjoy in the Demo, now in EA it seems like the content ammount more than doubled.\n\n+ Beautiful Artworks on the cards (Holy Toaster! Adonis Ad Block! RAMEN?!)\n+ Immersive Design all throughout (your Deck is your Repo for example)\n+ Map Traversal is it's own mechanic and gameplay element, way more involved than for example Slay the Spire\n+ Nice 3D animated combat\n+ Many good options (including accessability)\n\nI played this game's demo for somewhere around 20h and kept falling more and more in love, then kept playing the demo until it was taken down and insta bough it upon release! For this price, I am sure it will be worth it for the average Rougue Card Game enjoyer and easily give them a good hours of gameplay to price-ratio.\n\nWill update as I explore more! Many good games releasing right now :D",
+        "timestamp_created": 1762799463,
+        "timestamp_updated": 1762885193,
+        "voted_up": true,
+        "votes_up": 53,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.761433780193328857",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762797948",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUxXUAAAAAFP+hdquAAAAB4mfKcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

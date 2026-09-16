@@ -1,0 +1,71 @@
+{
+  "appid": 3894170,
+  "requested_at": "2026-09-13T19:56:07.520640+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 665,
+      "total_negative": 47,
+      "total_reviews": 712
+    },
+    "reviews": [
+      {
+        "recommendationid": "204351828",
+        "author": {
+          "steamid": "76561198037260382",
+          "personaname": "military fashion show",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/apricotea/",
+          "num_games_owned": 205,
+          "num_reviews": 10,
+          "playtime_forever": 124,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 79,
+          "last_played": 1758454791,
+          "avatar": "7d46d0db336cdef3c3636f665e9fedee24356be9"
+        },
+        "language": "russian",
+        "review": "минималистично\nбюджетно\nстильно\nдсбм\nза копейки\nтрушное инди. купите и расскажите про нее всем жильцам вашего жэка.\n\n\nбтв, трейлер игры совершенно спонтанно вылез мне в рекомендациях ютуба. выкуси, вк видео.",
+        "timestamp_created": 1757879534,
+        "timestamp_updated": 1757879534,
+        "voted_up": true,
+        "votes_up": 82,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.877628326416015625",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756859384",
+        "reactions": [
+          {
+            "reaction_type": 10,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFScouAAAAAFP+wVh2AAAAB0lcWLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.985000000000582,
+  "transport_error_count": 0
+}

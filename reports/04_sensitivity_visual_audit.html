@@ -1,0 +1,2590 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 5D 敏感性分析可视化审计</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="04_sensitivity_visual_audit_files/libs/clipboard/clipboard.min.js"></script>
+<script src="04_sensitivity_visual_audit_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="04_sensitivity_visual_audit_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="04_sensitivity_visual_audit_files/libs/quarto-html/popper.min.js"></script>
+<script src="04_sensitivity_visual_audit_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="04_sensitivity_visual_audit_files/libs/quarto-html/anchor.min.js"></script>
+<link href="04_sensitivity_visual_audit_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="04_sensitivity_visual_audit_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="04_sensitivity_visual_audit_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="04_sensitivity_visual_audit_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="04_sensitivity_visual_audit_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#step-5d-分析目的" id="toc-step-5d-分析目的" class="nav-link active" data-scroll-target="#step-5d-分析目的"><span class="header-section-number">1</span> Step 5D 分析目的</a></li>
+  <li><a href="#主模型规格回顾" id="toc-主模型规格回顾" class="nav-link" data-scroll-target="#主模型规格回顾"><span class="header-section-number">2</span> 主模型规格回顾</a></li>
+  <li><a href="#评论数量阈值敏感性分析" id="toc-评论数量阈值敏感性分析" class="nav-link" data-scroll-target="#评论数量阈值敏感性分析"><span class="header-section-number">3</span> 评论数量阈值敏感性分析</a></li>
+  <li><a href="#发布时间规格敏感性分析" id="toc-发布时间规格敏感性分析" class="nav-link" data-scroll-target="#发布时间规格敏感性分析"><span class="header-section-number">4</span> 发布时间规格敏感性分析</a></li>
+  <li><a href="#价格规格敏感性分析" id="toc-价格规格敏感性分析" class="nav-link" data-scroll-target="#价格规格敏感性分析"><span class="header-section-number">5</span> 价格规格敏感性分析</a></li>
+  <li><a href="#genre-规格敏感性分析" id="toc-genre-规格敏感性分析" class="nav-link" data-scroll-target="#genre-规格敏感性分析"><span class="header-section-number">6</span> Genre 规格敏感性分析</a></li>
+  <li><a href="#各预测变量稳健性汇总" id="toc-各预测变量稳健性汇总" class="nav-link" data-scroll-target="#各预测变量稳健性汇总"><span class="header-section-number">7</span> 各预测变量稳健性汇总</a></li>
+  <li><a href="#simulation模拟类深入审计" id="toc-simulation模拟类深入审计" class="nav-link" data-scroll-target="#simulation模拟类深入审计"><span class="header-section-number">8</span> Simulation（模拟类）深入审计</a></li>
+  <li><a href="#price-深入审计" id="toc-price-深入审计" class="nav-link" data-scroll-target="#price-深入审计"><span class="header-section-number">9</span> Price 深入审计</a></li>
+  <li><a href="#platform平台深入审计" id="toc-platform平台深入审计" class="nav-link" data-scroll-target="#platform平台深入审计"><span class="header-section-number">10</span> Platform（平台）深入审计</a></li>
+  <li><a href="#总体稳健性矩阵" id="toc-总体稳健性矩阵" class="nav-link" data-scroll-target="#总体稳健性矩阵"><span class="header-section-number">11</span> 总体稳健性矩阵</a></li>
+  <li><a href="#模型诊断" id="toc-模型诊断" class="nav-link" data-scroll-target="#模型诊断"><span class="header-section-number">12</span> 模型诊断</a></li>
+  <li><a href="#人工审计清单" id="toc-人工审计清单" class="nav-link" data-scroll-target="#人工审计清单"><span class="header-section-number">13</span> 人工审计清单</a></li>
+  <li><a href="#阶段性结论" id="toc-阶段性结论" class="nav-link" data-scroll-target="#阶段性结论"><span class="header-section-number">14</span> 阶段性结论</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Step 5D 敏感性分析可视化审计</h1>
+<p class="subtitle lead">预先指定、单因素变更的 Beta-binomial 规格审计</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="step-5d-分析目的" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Step 5D 分析目的</h1>
+<p>本报告审计冻结的主模型结论是否依赖四类预先指定的分析选择：评论数量阈值、发布时间表示、 价格变量变换和 Genre 集合。每个敏感性分析（sensitivity analysis）一次只改变一个规格， 其余设置均保持主规格不变。审计重点是方向、比值比（Odds Ratio, OR）幅度、 95% 置信区间（95% CI）及跨规格稳健性（robustness），不进行自动模型选择，也不作因果解释。</p>
+</section>
+<section id="主模型规格回顾" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 主模型规格回顾</h1>
+<p>主规格仍为 836 个评论数不少于 20 的付费游戏；响应变量是每个游戏的正面/负面评论分组计数， 平台 reference level 为 Windows only，价格与上市天数继续使用冻结的标准化参数，Genre 使用 Action、Adventure、Casual、Indie、RPG、Simulation 和 Strategy 七个指标。主规格的 Beta-binomial precision phi 为 8.7467， 组内相关 rho 为 0.1026。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：主模型 OR 与 95% CI</caption>
+<colgroup>
+<col style="width: 48%">
+<col style="width: 3%">
+<col style="width: 10%">
+<col style="width: 3%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: right;">log odds</th>
+<th style="text-align: right;">标准误</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: left;">CI 是否跨 1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">截距</td>
+<td style="text-align: right;">1.6485</td>
+<td style="text-align: right;">0.0795</td>
+<td style="text-align: right;">5.1994</td>
+<td style="text-align: right;">4.4494</td>
+<td style="text-align: right;">6.0759</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">-0.0730</td>
+<td style="text-align: right;">0.0322</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.8728</td>
+<td style="text-align: right;">0.9901</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">-0.0175</td>
+<td style="text-align: right;">0.0306</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: right;">0.9255</td>
+<td style="text-align: right;">1.0434</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">0.3665</td>
+<td style="text-align: right;">0.1083</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.1667</td>
+<td style="text-align: right;">1.7840</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">0.4895</td>
+<td style="text-align: right;">0.1658</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.1789</td>
+<td style="text-align: right;">2.2578</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">0.4182</td>
+<td style="text-align: right;">0.1129</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.2177</td>
+<td style="text-align: right;">1.8954</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Action</td>
+<td style="text-align: right;">-0.1247</td>
+<td style="text-align: right;">0.0655</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.7764</td>
+<td style="text-align: right;">1.0037</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adventure</td>
+<td style="text-align: right;">-0.0077</td>
+<td style="text-align: right;">0.0626</td>
+<td style="text-align: right;">0.9923</td>
+<td style="text-align: right;">0.8777</td>
+<td style="text-align: right;">1.1219</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Casual</td>
+<td style="text-align: right;">0.1012</td>
+<td style="text-align: right;">0.0670</td>
+<td style="text-align: right;">1.1065</td>
+<td style="text-align: right;">0.9704</td>
+<td style="text-align: right;">1.2618</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">0.1351</td>
+<td style="text-align: right;">0.0693</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">0.9992</td>
+<td style="text-align: right;">1.3112</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">-0.0872</td>
+<td style="text-align: right;">0.0692</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.8002</td>
+<td style="text-align: right;">1.0497</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">-0.2410</td>
+<td style="text-align: right;">0.0652</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.6916</td>
+<td style="text-align: right;">0.8930</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">-0.1915</td>
+<td style="text-align: right;">0.0746</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.7133</td>
+<td style="text-align: right;">0.9558</td>
+<td style="text-align: left;">否</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="评论数量阈值敏感性分析" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 评论数量阈值敏感性分析</h1>
+<p>主规格采用 <code>total_reviews &gt;= 20</code>。其余 <code>&gt;0</code>、<code>&gt;=10</code> 和 <code>&gt;=50</code> 仅作为预先指定的敏感性分析，不代表任何阈值“更优”。四个模型样本依次包含 2,206 / 1,127 / 836 / 548 个游戏，严格嵌套且均为付费游戏。<code>&gt;0</code> 来源样本原有 2,207 个游戏，其中 1 个仅有两条评论的游戏缺少冻结价格变量，已明确记录为排除项； 所有阈值均沿用主规格的标准化参数。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：评论阈值样本规模</caption>
+<colgroup>
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 13%">
+<col style="width: 3%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">评论阈值</th>
+<th style="text-align: right;">来源游戏数</th>
+<th style="text-align: right;">缺失预测变量排除数</th>
+<th style="text-align: right;">模型 N</th>
+<th style="text-align: right;">正面评论</th>
+<th style="text-align: right;">负面评论</th>
+<th style="text-align: right;">总评论</th>
+<th style="text-align: right;">汇总正面率（%）</th>
+<th style="text-align: right;">游戏层面正面率中位数（%）</th>
+<th style="text-align: right;">平均价格（美元）</th>
+<th style="text-align: right;">平均上市天数</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: right;">2207</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2206</td>
+<td style="text-align: right;">949495</td>
+<td style="text-align: right;">127109</td>
+<td style="text-align: right;">1076604</td>
+<td style="text-align: right;">88.1935</td>
+<td style="text-align: right;">91.4707</td>
+<td style="text-align: right;">8.4928</td>
+<td style="text-align: right;">344.0091</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">946624</td>
+<td style="text-align: right;">126366</td>
+<td style="text-align: right;">1072990</td>
+<td style="text-align: right;">88.2230</td>
+<td style="text-align: right;">88.2353</td>
+<td style="text-align: right;">10.8544</td>
+<td style="text-align: right;">346.6220</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">943294</td>
+<td style="text-align: right;">125730</td>
+<td style="text-align: right;">1069024</td>
+<td style="text-align: right;">88.2388</td>
+<td style="text-align: right;">87.6504</td>
+<td style="text-align: right;">11.5726</td>
+<td style="text-align: right;">347.3038</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">935666</td>
+<td style="text-align: right;">124209</td>
+<td style="text-align: right;">1059875</td>
+<td style="text-align: right;">88.2808</td>
+<td style="text-align: right;">86.9918</td>
+<td style="text-align: right;">13.1780</td>
+<td style="text-align: right;">347.0876</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：不同评论阈值模型诊断（样本不同，不据 AIC 排序）</caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 6%">
+<col style="width: 13%">
+<col style="width: 19%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">模型规格</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">logLik</th>
+<th style="text-align: right;">AIC</th>
+<th style="text-align: right;">BIC</th>
+<th style="text-align: right;">phi</th>
+<th style="text-align: right;">rho</th>
+<th style="text-align: left;">收敛</th>
+<th style="text-align: left;">Hessian 为正定</th>
+<th style="text-align: right;">最大绝对梯度</th>
+<th style="text-align: right;">警告数</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">评论数 &gt; 0</td>
+<td style="text-align: right;">2206</td>
+<td style="text-align: right;">-5087.234</td>
+<td style="text-align: right;">10202.468</td>
+<td style="text-align: right;">10282.254</td>
+<td style="text-align: right;">6.53558</td>
+<td style="text-align: right;">0.13270</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00323</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 ≥ 10</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">-3977.202</td>
+<td style="text-align: right;">7982.404</td>
+<td style="text-align: right;">8052.786</td>
+<td style="text-align: right;">7.80239</td>
+<td style="text-align: right;">0.11361</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00200</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">主规格（评论数 ≥ 20）</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">-3395.153</td>
+<td style="text-align: right;">6818.306</td>
+<td style="text-align: right;">6884.507</td>
+<td style="text-align: right;">8.74673</td>
+<td style="text-align: right;">0.10260</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00250</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 ≥ 50</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">-2637.498</td>
+<td style="text-align: right;">5302.996</td>
+<td style="text-align: right;">5363.284</td>
+<td style="text-align: right;">9.40182</td>
+<td style="text-align: right;">0.09614</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00201</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/09_threshold_or_comparison.png" class="img-fluid figure-img" width="972"></p>
+<figcaption>评论数量阈值下的 Beta-binomial OR 与 Wald 95% CI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>是否存在预测变量方向反转？</li>
+<li>是否有某一个评论阈值明显偏离其他规格？</li>
+<li>哪些 95% CI 从不跨 1 变为跨 1，或反向变化？</li>
+</ul>
+</blockquote>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：不同评论阈值下九个重点预测变量的 OR</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 14%">
+<col style="width: 48%">
+<col style="width: 2%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">评论阈值</th>
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: left;">CI 是否跨 1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.8728</td>
+<td style="text-align: right;">0.9901</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: right;">0.9255</td>
+<td style="text-align: right;">1.0434</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.1667</td>
+<td style="text-align: right;">1.7840</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.1789</td>
+<td style="text-align: right;">2.2578</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.2177</td>
+<td style="text-align: right;">1.8954</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">0.9992</td>
+<td style="text-align: right;">1.3112</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.8002</td>
+<td style="text-align: right;">1.0497</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.6916</td>
+<td style="text-align: right;">0.8930</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.7133</td>
+<td style="text-align: right;">0.9558</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9554</td>
+<td style="text-align: right;">0.9073</td>
+<td style="text-align: right;">1.0061</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">0.9527</td>
+<td style="text-align: right;">0.9069</td>
+<td style="text-align: right;">1.0008</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.2585</td>
+<td style="text-align: right;">1.0544</td>
+<td style="text-align: right;">1.5021</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.7575</td>
+<td style="text-align: right;">1.3621</td>
+<td style="text-align: right;">2.2677</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.7006</td>
+<td style="text-align: right;">1.3823</td>
+<td style="text-align: right;">2.0921</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.0869</td>
+<td style="text-align: right;">0.9689</td>
+<td style="text-align: right;">1.2194</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">24</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9590</td>
+<td style="text-align: right;">0.8503</td>
+<td style="text-align: right;">1.0817</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">25</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7138</td>
+<td style="text-align: right;">0.6395</td>
+<td style="text-align: right;">0.7967</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.9104</td>
+<td style="text-align: right;">0.8031</td>
+<td style="text-align: right;">1.0320</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">28</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9386</td>
+<td style="text-align: right;">0.8849</td>
+<td style="text-align: right;">0.9954</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">29</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">0.9523</td>
+<td style="text-align: right;">0.9005</td>
+<td style="text-align: right;">1.0071</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.2994</td>
+<td style="text-align: right;">1.0688</td>
+<td style="text-align: right;">1.5798</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">31</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.5117</td>
+<td style="text-align: right;">1.1457</td>
+<td style="text-align: right;">1.9947</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">32</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.5289</td>
+<td style="text-align: right;">1.2346</td>
+<td style="text-align: right;">1.8933</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">36</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.0795</td>
+<td style="text-align: right;">0.9492</td>
+<td style="text-align: right;">1.2278</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">37</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9425</td>
+<td style="text-align: right;">0.8270</td>
+<td style="text-align: right;">1.0741</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">38</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7646</td>
+<td style="text-align: right;">0.6769</td>
+<td style="text-align: right;">0.8636</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8687</td>
+<td style="text-align: right;">0.7561</td>
+<td style="text-align: right;">0.9980</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">41</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9309</td>
+<td style="text-align: right;">0.8631</td>
+<td style="text-align: right;">1.0040</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">42</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">0.9756</td>
+<td style="text-align: right;">0.9085</td>
+<td style="text-align: right;">1.0476</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">43</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.4759</td>
+<td style="text-align: right;">1.1559</td>
+<td style="text-align: right;">1.8847</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">44</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.2674</td>
+<td style="text-align: right;">0.8571</td>
+<td style="text-align: right;">1.8742</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">45</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.3586</td>
+<td style="text-align: right;">1.0735</td>
+<td style="text-align: right;">1.7195</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">49</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.1785</td>
+<td style="text-align: right;">1.0078</td>
+<td style="text-align: right;">1.3781</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9205</td>
+<td style="text-align: right;">0.7874</td>
+<td style="text-align: right;">1.0760</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">51</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.8397</td>
+<td style="text-align: right;">0.7237</td>
+<td style="text-align: right;">0.9743</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">52</td>
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8066</td>
+<td style="text-align: right;">0.6821</td>
+<td style="text-align: right;">0.9539</td>
+<td style="text-align: left;">否</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/10_threshold_coefficient_drift.png" class="img-fluid figure-img" width="954"></p>
+<figcaption>四个嵌套评论阈值下的 OR 点估计漂移</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>OR 是否随阈值收紧而呈单调变化？</li>
+<li>即使方向未反转，OR 幅度是否变化到足以影响实质解释？</li>
+</ul>
+</blockquote>
+</section>
+<section id="发布时间规格敏感性分析" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> 发布时间规格敏感性分析</h1>
+<p>主规格使用标准化的 <code>days_since_release</code>，替代规格使用分类变量 <code>release_month</code>， 并以 2025 年 7 月为 reference level。两者高度相关，因此不会同时进入同一个模型。 替代规格 AIC 为 6822.202，主规格为 6818.306。 两者使用相同样本，允许谨慎比较 AIC，但该比较不会自动改变冻结的主规格。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：发布时间规格敏感性</caption>
+<colgroup>
+<col style="width: 0%">
+<col style="width: 27%">
+<col style="width: 8%">
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: right;">主规格 OR</th>
+<th style="text-align: right;">替代规格 OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: right;">OR 变化（%）</th>
+<th style="text-align: left;">方向变化</th>
+<th style="text-align: left;">CI 跨 1 状态变化</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.9256</td>
+<td style="text-align: right;">0.8689</td>
+<td style="text-align: right;">0.9861</td>
+<td style="text-align: right;">0.4217</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.4491</td>
+<td style="text-align: right;">1.1711</td>
+<td style="text-align: right;">1.7930</td>
+<td style="text-align: right;">0.4398</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.6422</td>
+<td style="text-align: right;">1.1863</td>
+<td style="text-align: right;">2.2732</td>
+<td style="text-align: right;">0.6539</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.5314</td>
+<td style="text-align: right;">1.2272</td>
+<td style="text-align: right;">1.9110</td>
+<td style="text-align: right;">0.8016</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Action</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.8758</td>
+<td style="text-align: right;">0.7699</td>
+<td style="text-align: right;">0.9962</td>
+<td style="text-align: right;">0.7900</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Adventure</td>
+<td style="text-align: right;">0.9923</td>
+<td style="text-align: right;">0.9871</td>
+<td style="text-align: right;">0.8731</td>
+<td style="text-align: right;">1.1161</td>
+<td style="text-align: right;">0.5230</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Casual</td>
+<td style="text-align: right;">1.1065</td>
+<td style="text-align: right;">1.1005</td>
+<td style="text-align: right;">0.9650</td>
+<td style="text-align: right;">1.2549</td>
+<td style="text-align: right;">0.5470</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">1.1499</td>
+<td style="text-align: right;">1.0037</td>
+<td style="text-align: right;">1.3173</td>
+<td style="text-align: right;">0.4571</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.9118</td>
+<td style="text-align: right;">0.7960</td>
+<td style="text-align: right;">1.0444</td>
+<td style="text-align: right;">0.5168</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.7887</td>
+<td style="text-align: right;">0.6941</td>
+<td style="text-align: right;">0.8961</td>
+<td style="text-align: right;">0.3540</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.8221</td>
+<td style="text-align: right;">0.7103</td>
+<td style="text-align: right;">0.9515</td>
+<td style="text-align: right;">0.4377</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/11_release_specification_comparison.png" class="img-fluid figure-img" width="918"></p>
+<figcaption>发布月份替代上市天数后，共同预测变量的 OR 对比</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>替换时间变量后，Price、Platform、Simulation、Strategy、Indie 和 RPG 是否稳定？</li>
+<li>共同预测变量的 95% CI 与 OR=1 的关系是否变化？</li>
+</ul>
+</blockquote>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：各发布月份相对 2025 年 7 月的 OR</caption>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">发布月份</th>
+<th style="text-align: right;">log odds</th>
+<th style="text-align: right;">标准误</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: left;">CI 是否跨 1</th>
+<th style="text-align: left;">CI 方法</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025-07</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">reference level</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-08</td>
+<td style="text-align: right;">0.1035</td>
+<td style="text-align: right;">0.1036</td>
+<td style="text-align: right;">1.1090</td>
+<td style="text-align: right;">0.9053</td>
+<td style="text-align: right;">1.3587</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">Wald normal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-09</td>
+<td style="text-align: right;">0.1878</td>
+<td style="text-align: right;">0.1043</td>
+<td style="text-align: right;">1.2066</td>
+<td style="text-align: right;">0.9834</td>
+<td style="text-align: right;">1.4804</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">Wald normal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-10</td>
+<td style="text-align: right;">0.1576</td>
+<td style="text-align: right;">0.1039</td>
+<td style="text-align: right;">1.1707</td>
+<td style="text-align: right;">0.9549</td>
+<td style="text-align: right;">1.4352</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">Wald normal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-11</td>
+<td style="text-align: right;">0.1284</td>
+<td style="text-align: right;">0.0990</td>
+<td style="text-align: right;">1.1370</td>
+<td style="text-align: right;">0.9364</td>
+<td style="text-align: right;">1.3804</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">Wald normal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12</td>
+<td style="text-align: right;">0.0406</td>
+<td style="text-align: right;">0.1117</td>
+<td style="text-align: right;">1.0415</td>
+<td style="text-align: right;">0.8367</td>
+<td style="text-align: right;">1.2963</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">Wald normal</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/12_release_month_effects.png" class="img-fluid figure-img" width="702"></p>
+<figcaption>各发布月份相对 2025 年 7 月的 OR 与 95% CI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>是否有任一月份与 2025 年 7 月明显分离？</li>
+<li>月份估计的区间宽度是否显示较大的不确定性？</li>
+</ul>
+</blockquote>
+<p>各月份 95% CI 均跨 1；<code>days_since_release</code> 在不同规格中的关联也较弱。 因此发布时间主要作为时间暴露或队列控制变量，而不是主要研究发现。</p>
+</section>
+<section id="价格规格敏感性分析" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> 价格规格敏感性分析</h1>
+<p>主规格使用标准化的 <code>log1p(current_price_usd)</code>，替代规格使用标准化的原始 <code>current_price_usd</code>。两种 OR 都按对应变量增加 1 个标准差解释，不能直接理解为价格每增加 1 美元。 原始美元尺度与 log1p 尺度代表不同的价格变化，因此重点比较方向、幅度及其他系数的稳定性。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：价格变量增加 1 SD 的预测概率对比</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">模型规格</th>
+<th style="text-align: left;">价格对比尺度</th>
+<th style="text-align: right;">基准预测概率</th>
+<th style="text-align: right;">+1 SD 预测概率</th>
+<th style="text-align: right;">预测概率绝对变化</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">主规格（评论数 ≥ 20）</td>
+<td style="text-align: left;">per +1 SD log1p price</td>
+<td style="text-align: right;">0.83869</td>
+<td style="text-align: right;">0.82857</td>
+<td style="text-align: right;">-0.01013</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">原始价格替代规格</td>
+<td style="text-align: left;">per +1 primary-sample SD raw price</td>
+<td style="text-align: right;">0.83990</td>
+<td style="text-align: right;">0.83065</td>
+<td style="text-align: right;">-0.00925</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：价格规格敏感性</caption>
+<colgroup>
+<col style="width: 0%">
+<col style="width: 32%">
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: right;">主规格 OR</th>
+<th style="text-align: right;">替代规格 OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: right;">OR 变化（%）</th>
+<th style="text-align: left;">方向变化</th>
+<th style="text-align: left;">CI 跨 1 状态变化</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.9350</td>
+<td style="text-align: right;">0.8826</td>
+<td style="text-align: right;">0.9904</td>
+<td style="text-align: right;">0.5829</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: right;">0.9830</td>
+<td style="text-align: right;">0.9258</td>
+<td style="text-align: right;">1.0439</td>
+<td style="text-align: right;">0.0361</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.4282</td>
+<td style="text-align: right;">1.1549</td>
+<td style="text-align: right;">1.7662</td>
+<td style="text-align: right;">1.0083</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.6267</td>
+<td style="text-align: right;">1.1752</td>
+<td style="text-align: right;">2.2516</td>
+<td style="text-align: right;">0.2956</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.5046</td>
+<td style="text-align: right;">1.2060</td>
+<td style="text-align: right;">1.8772</td>
+<td style="text-align: right;">0.9592</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Action</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.8822</td>
+<td style="text-align: right;">0.7759</td>
+<td style="text-align: right;">1.0031</td>
+<td style="text-align: right;">0.0662</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Adventure</td>
+<td style="text-align: right;">0.9923</td>
+<td style="text-align: right;">0.9896</td>
+<td style="text-align: right;">0.8754</td>
+<td style="text-align: right;">1.1187</td>
+<td style="text-align: right;">0.2722</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Casual</td>
+<td style="text-align: right;">1.1065</td>
+<td style="text-align: right;">1.1148</td>
+<td style="text-align: right;">0.9785</td>
+<td style="text-align: right;">1.2700</td>
+<td style="text-align: right;">0.7439</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">1.1302</td>
+<td style="text-align: right;">0.9833</td>
+<td style="text-align: right;">1.2992</td>
+<td style="text-align: right;">1.2579</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.9234</td>
+<td style="text-align: right;">0.8056</td>
+<td style="text-align: right;">1.0584</td>
+<td style="text-align: right;">0.7520</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.7856</td>
+<td style="text-align: right;">0.6914</td>
+<td style="text-align: right;">0.8926</td>
+<td style="text-align: right;">0.0405</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.8192</td>
+<td style="text-align: right;">0.7080</td>
+<td style="text-align: right;">0.9478</td>
+<td style="text-align: right;">0.7925</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/13_price_specification_comparison.png" class="img-fluid figure-img" width="918"></p>
+<figcaption>标准化 log1p 价格与标准化原始价格规格的 OR 对比</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>更换价格变换后，Price 的方向或 CI 结论是否变化？</li>
+<li>其他预测变量的漂移是否大于 Price 本身的变化？</li>
+</ul>
+</blockquote>
+<p>Price 在全部 7 个相关规格中均保持负方向，总体 OR 范围为 0.926–0.955， 最大 OR 漂移为 2.78%。关联幅度较小但稳定。 需要注意，当前价格是采集时点美国 Steam storefront 的快照价格，不是 launch price， 也不是评论者实际支付的价格。</p>
+</section>
+<section id="genre-规格敏感性分析" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Genre 规格敏感性分析</h1>
+<p>主模型 Genre 为 Action、Adventure、Casual、Indie、RPG、Simulation 和 Strategy； 扩展规格仅额外加入 Early Access、Sports 和 Racing。此处 Early Access 是冻结数据中的 Steam genre/category 标签，不代表历史 Early Access 状态或发行时状态。Sports 与 Racing 样本较稀疏，因此应优先审计 CI 宽度及其对原七个 Genre 系数的影响，不应仅依据单个 p 值作结论。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：原七个 Genre 在集合扩展后的稳定性</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 5%">
+<col style="width: 14%">
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Genre</th>
+<th style="text-align: right;">主规格 OR</th>
+<th style="text-align: right;">扩展规格 OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: right;">OR 变化（%）</th>
+<th style="text-align: left;">方向变化</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Action</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.8713</td>
+<td style="text-align: right;">0.7650</td>
+<td style="text-align: right;">0.9924</td>
+<td style="text-align: right;">1.2999</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Adventure</td>
+<td style="text-align: right;">0.9923</td>
+<td style="text-align: right;">1.0015</td>
+<td style="text-align: right;">0.8845</td>
+<td style="text-align: right;">1.1340</td>
+<td style="text-align: right;">0.9258</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Casual</td>
+<td style="text-align: right;">1.1065</td>
+<td style="text-align: right;">1.1024</td>
+<td style="text-align: right;">0.9664</td>
+<td style="text-align: right;">1.2574</td>
+<td style="text-align: right;">0.3757</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">1.1543</td>
+<td style="text-align: right;">1.0068</td>
+<td style="text-align: right;">1.3233</td>
+<td style="text-align: right;">0.8434</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.9177</td>
+<td style="text-align: right;">0.8012</td>
+<td style="text-align: right;">1.0511</td>
+<td style="text-align: right;">0.1278</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.7733</td>
+<td style="text-align: right;">0.6792</td>
+<td style="text-align: right;">0.8804</td>
+<td style="text-align: right;">1.6059</td>
+<td style="text-align: left;">否</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.8302</td>
+<td style="text-align: right;">0.7165</td>
+<td style="text-align: right;">0.9619</td>
+<td style="text-align: right;">0.5412</td>
+<td style="text-align: left;">否</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：新增 Genre 指标审计</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 11%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 3%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">新增 Genre</th>
+<th style="text-align: right;">游戏数</th>
+<th style="text-align: right;">正面评论</th>
+<th style="text-align: right;">负面评论</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">95% CI 下限</th>
+<th style="text-align: right;">95% CI 上限</th>
+<th style="text-align: left;">CI 是否跨 1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Early Access</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">66807</td>
+<td style="text-align: right;">13227</td>
+<td style="text-align: right;">0.9746</td>
+<td style="text-align: right;">0.8094</td>
+<td style="text-align: right;">1.1735</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Sports</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">29975</td>
+<td style="text-align: right;">4599</td>
+<td style="text-align: right;">1.2384</td>
+<td style="text-align: right;">0.8881</td>
+<td style="text-align: right;">1.7269</td>
+<td style="text-align: left;">是</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">Racing</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">22794</td>
+<td style="text-align: right;">2013</td>
+<td style="text-align: right;">1.0611</td>
+<td style="text-align: right;">0.7059</td>
+<td style="text-align: right;">1.5950</td>
+<td style="text-align: left;">是</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/14_genre_specification_comparison.png" class="img-fluid figure-img" width="864"></p>
+<figcaption>主规格七个 Genre 与扩展后十个 Genre 的 OR 对比</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>原七个 Genre 的 OR 是否在扩展后出现明显漂移？</li>
+<li>Sports 与 Racing 的 CI 是否过宽，因而不足以支持精确的方向判断？</li>
+</ul>
+</blockquote>
+</section>
+<section id="各预测变量稳健性汇总" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> 各预测变量稳健性汇总</h1>
+<p>描述性分类规则保持不变：ROBUST（稳健）表示方向不变且最大 OR 漂移不超过 10%； PARTIAL（部分稳健、存在一定规格敏感性）表示方向不变且漂移大于 10% 但不超过 25%； SENSITIVE（对规格敏感）表示方向反转或漂移超过 25%。这些仅是人工审计规则，不是统计检验。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：核心预测变量总体稳健性</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 9%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 12%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: right;">可用规格数</th>
+<th style="text-align: right;">最小 OR</th>
+<th style="text-align: right;">主规格 OR</th>
+<th style="text-align: right;">最大 OR</th>
+<th style="text-align: right;">同方向规格数</th>
+<th style="text-align: right;">CI 不跨 1</th>
+<th style="text-align: right;">CI 跨 1</th>
+<th style="text-align: right;">最大漂移（%）</th>
+<th style="text-align: left;">稳健性分类</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Indie</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.0795</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">1.1785</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5.6888</td>
+<td style="text-align: left;">ROBUST（稳健）</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RPG</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.9118</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.9590</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4.6400</td>
+<td style="text-align: left;">ROBUST（稳健）</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.7138</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.8397</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9.1719</td>
+<td style="text-align: left;">ROBUST（稳健）</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.8066</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.9104</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10.2562</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.2674</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.7575</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">22.3158</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.2585</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.4759</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12.7698</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.3586</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.7006</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">11.9371</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.9523</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: right;">0.9830</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3.0896</td>
+<td style="text-align: left;">ROBUST（稳健）</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.9256</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.9554</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2.7824</td>
+<td style="text-align: left;">ROBUST（稳健）</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/16_or_range_summary.png" class="img-fluid figure-img" width="828"></p>
+<figcaption>各重点预测变量的观测 OR 范围与冻结主规格估计值</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>较窄的 OR 范围是否掩盖了多个跨 1 的 CI？</li>
+<li>哪个 Platform contrast 在方向不变时出现了最大的幅度漂移？</li>
+</ul>
+</blockquote>
+</section>
+<section id="simulation模拟类深入审计" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Simulation（模拟类）深入审计</h1>
+<p>Step 5C Beta-binomial 主规格的 Simulation OR 为 0.786。Step 5D 各规格范围为 0.714–0.840， 7/7 个规格均保持负方向，且 7/7 个 CI 均不跨 1。Simulation 是当前最稳定的 Genre 关联之一，但这一结果仍是条件关联，不应解释为因果关系。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/17_simulation_sensitivity.png" class="img-fluid figure-img" width="756"></p>
+<figcaption>Simulation 在全部预先指定规格下的 OR 与 Wald 95% CI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>Simulation 是否在全部规格中保持 OR &lt; 1？</li>
+<li>评论数 &gt; 0 的估计是否是孤立偏离，还是与其他规格形成连续变化？</li>
+</ul>
+</blockquote>
+</section>
+<section id="price-深入审计" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Price 深入审计</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/18_price_sensitivity.png" class="img-fluid figure-img" width="792"></p>
+<figcaption>Price 在全部预先指定规格下的 OR 与 Wald 95% CI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>Price 是否在每个相关模型中保持负方向？</li>
+<li>哪些规格的 CI 扩大到跨越 OR=1？</li>
+</ul>
+</blockquote>
+</section>
+<section id="platform平台深入审计" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Platform（平台）深入审计</h1>
+<p>三个 Platform contrast 在全部 7 个规格中均保持正方向，但 OR 幅度随评论数量阈值出现一定变化， 因此应描述为“方向稳定、幅度部分敏感”，而不是笼统称为 Platform 稳健。所有解释均相对于 Windows only。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：Platform 稳健性汇总</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 14%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 6%">
+<col style="width: 16%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Platform contrast</th>
+<th style="text-align: right;">最小 OR</th>
+<th style="text-align: right;">主规格 OR</th>
+<th style="text-align: right;">最大 OR</th>
+<th style="text-align: right;">同方向规格数</th>
+<th style="text-align: right;">CI 不跨 1</th>
+<th style="text-align: right;">最大漂移（%）</th>
+<th style="text-align: left;">稳健性分类</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: right;">1.2674</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.7575</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">22.3158</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: right;">1.2585</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.4759</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">12.7698</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: right;">1.3586</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.7006</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">11.9371</td>
+<td style="text-align: left;">PARTIAL（部分稳健）</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="总体稳健性矩阵" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> 总体稳健性矩阵</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/15_robustness_heatmap.png" class="img-fluid figure-img" width="918"></p>
+<figcaption>各模型规格的 log odds 方向与幅度；灰色表示按设计未纳入上市天数</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>人工审计重点</strong></p>
+<ul>
+<li>每一行的方向模式是否一致？</li>
+<li>是否有单一规格产生异常大的幅度变化？</li>
+</ul>
+</blockquote>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：方向矩阵（+/-）；发布月份替代规格按设计不含上市天数</caption>
+<colgroup>
+<col style="width: 31%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">预测变量</th>
+<th style="text-align: left;">主规格</th>
+<th style="text-align: left;">评论数 &gt; 0</th>
+<th style="text-align: left;">评论数 ≥ 10</th>
+<th style="text-align: left;">评论数 ≥ 50</th>
+<th style="text-align: left;">发布月份替代</th>
+<th style="text-align: left;">原始价格替代</th>
+<th style="text-align: left;">扩展 Genre</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">当前价格（log1p，标准化）</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">上市至评论快照天数（标准化）</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Windows + macOS</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Windows + Linux</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">三平台支持</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Indie</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RPG</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Simulation</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Strategy</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="模型诊断" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 模型诊断</h1>
+<p>只有 convergence code 为 0 且 Hessian 为正定的模型才可解释系数。以下表格同时展示最大梯度、 优化器信息、phi、rho、边界检查、样本一致性及 AIC 可比范围。7 个模型全部满足收敛要求； 最大绝对梯度为 0.006996， 捕获到的模型拟合警告数为 0。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：各 Beta-binomial 模型诊断结果</caption>
+<colgroup>
+<col style="width: 13%">
+<col style="width: 0%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 3%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">模型规格</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">收敛代码</th>
+<th style="text-align: left;">收敛</th>
+<th style="text-align: left;">Hessian 为正定</th>
+<th style="text-align: right;">最大绝对梯度</th>
+<th style="text-align: left;">优化器信息</th>
+<th style="text-align: right;">警告数</th>
+<th style="text-align: right;">phi</th>
+<th style="text-align: right;">rho</th>
+<th style="text-align: left;">离散参数边界标记</th>
+<th style="text-align: right;">极端估计/标准误数</th>
+<th style="text-align: left;">与主规格同样本</th>
+<th style="text-align: left;">AIC 可比</th>
+<th style="text-align: right;">相对主规格 ΔAIC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">主规格（评论数 ≥ 20）</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00250</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.74673</td>
+<td style="text-align: right;">0.10260</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 &gt; 0</td>
+<td style="text-align: right;">2206</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00323</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6.53558</td>
+<td style="text-align: right;">0.13270</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">评论数 ≥ 10</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00200</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7.80239</td>
+<td style="text-align: right;">0.11361</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 ≥ 50</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00201</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9.40182</td>
+<td style="text-align: right;">0.09614</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">发布月份替代规格</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00700</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.80782</td>
+<td style="text-align: right;">0.10196</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">3.89561</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">原始价格替代规格</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00160</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.73900</td>
+<td style="text-align: right;">0.10268</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.10606</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">扩展 Genre 规格</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.00699</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.76938</td>
+<td style="text-align: right;">0.10236</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">3.91957</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>表：模型拟合警告记录</caption>
+<colgroup>
+<col style="width: 48%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">模型规格</th>
+<th style="text-align: left;">状态</th>
+<th style="text-align: right;">警告数</th>
+<th style="text-align: left;">警告内容</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">主规格（评论数 ≥ 20）</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 &gt; 0</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">评论数 ≥ 10</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">评论数 ≥ 50</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">发布月份替代规格</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">原始价格替代规格</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">扩展 Genre 规格</td>
+<td style="text-align: left;">无警告</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="人工审计清单" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> 人工审计清单</h1>
+<ul>
+<li>确认 7 个模型均通过收敛、Hessian 与警告检查后再解释系数。</li>
+<li>将评论阈值变化视为总体选择敏感性，不进行跨样本 AIC 竞赛。</li>
+<li>确认发布月份替代而不是补充上市天数，两者未同时进入模型。</li>
+<li>原始价格与 log1p 价格只能按各自增加 1 SD 的对比解释。</li>
+<li>将 Early Access 视为 Steam genre/category 标签，并重点检查稀疏的 Sports、Racing CI。</li>
+<li>先审计方向和幅度，再看 CI crossing 状态，最后才看 p 值。</li>
+<li>检查结论是否仅依赖单一规格；不得由本报告自动修改冻结主模型。</li>
+</ul>
+</section>
+<section id="阶段性结论" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> 阶段性结论</h1>
+<ul>
+<li><strong>Price：ROBUST（稳健）</strong>。7/7 个规格保持负方向，OR 范围 0.926–0.955。</li>
+<li><strong>Platforms：PARTIAL（部分稳健）</strong>。三个 contrast 均保持正方向，但幅度对评论阈值存在一定敏感性。</li>
+<li><strong>Indie：ROBUST（稳健）</strong>。7/7 个规格保持正方向，最大 OR 漂移 5.69%。</li>
+<li><strong>RPG：ROBUST（方向与幅度稳健）</strong>。OR 范围 0.912–0.959， 但全部 7 个规格的 CI 均跨 1；这里的“稳健”不代表强统计证据。</li>
+<li><strong>Simulation：ROBUST（稳健）</strong>。7/7 个规格保持负方向，OR 范围 0.714–0.840。</li>
+<li><strong>Strategy：PARTIAL（部分稳健）</strong>。方向保持为负，但最大 OR 漂移 10.26%。</li>
+<li><strong>发布时间</strong>不作为 headline result：上市天数关联较弱，发布月份替代规格的各月份 CI 均跨 1。</li>
+</ul>
+<p>方向稳定可以与 CI 跨 1 同时存在，PARTIAL 也可以与方向完全一致同时存在。 冻结的主规格继续作为审计基准；本报告不作因果推断、不自动修改模型，也不启动后续建模阶段。</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

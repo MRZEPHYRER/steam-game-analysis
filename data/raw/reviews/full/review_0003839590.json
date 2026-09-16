@@ -1,0 +1,66 @@
+{
+  "appid": 3839590,
+  "requested_at": "2026-09-13T19:47:32.650127+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 4,
+      "total_negative": 3,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "219083654",
+        "author": {
+          "steamid": "76561199357462805",
+          "personaname": "NeutalDrift",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199357462805/",
+          "num_games_owned": 129,
+          "num_reviews": 2,
+          "playtime_forever": 450,
+          "playtime_last_two_weeks": 11,
+          "playtime_at_review": 402,
+          "last_played": 1788598560,
+          "avatar": "148ff422f2245ab66abfeabf3f7506861d6b703b"
+        },
+        "language": "schinese",
+        "review": "给哥们创死了，这游戏太接地府了",
+        "timestamp_created": 1771894499,
+        "timestamp_updated": 1787822150,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753081753",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFxAAAAAAAAFP+AAAAAAAAB2uN7DBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.235000000000582,
+  "transport_error_count": 0
+}

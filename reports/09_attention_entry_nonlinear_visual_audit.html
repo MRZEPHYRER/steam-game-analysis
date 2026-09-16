@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 6A.1 非线性 Review Entry 规格冻结</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/clipboard/clipboard.min.js"></script>
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/popper.min.js"></script>
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/anchor.min.js"></script>
+<link href="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="09_attention_entry_nonlinear_visual_audit_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="09_attention_entry_nonlinear_visual_audit_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="09_attention_entry_nonlinear_visual_audit_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="09_attention_entry_nonlinear_visual_audit_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#为什么-step-6a-不能冻结" id="toc-为什么-step-6a-不能冻结" class="nav-link active" data-scroll-target="#为什么-step-6a-不能冻结"><span class="header-section-number">1</span> 为什么 Step 6A 不能冻结</a></li>
+  <li><a href="#linear-benchmark" id="toc-linear-benchmark" class="nav-link" data-scroll-target="#linear-benchmark"><span class="header-section-number">2</span> Linear Benchmark</a></li>
+  <li><a href="#paid-price-nonlinearity" id="toc-paid-price-nonlinearity" class="nav-link" data-scroll-target="#paid-price-nonlinearity"><span class="header-section-number">3</span> Paid Price Nonlinearity</a></li>
+  <li><a href="#spline-parameterization" id="toc-spline-parameterization" class="nav-link" data-scroll-target="#spline-parameterization"><span class="header-section-number">4</span> Spline Parameterization</a></li>
+  <li><a href="#price-data-support" id="toc-price-data-support" class="nav-link" data-scroll-target="#price-data-support"><span class="header-section-number">5</span> Price Data Support</a></li>
+  <li><a href="#final-nonlinear-price-curve" id="toc-final-nonlinear-price-curve" class="nav-link" data-scroll-target="#final-nonlinear-price-curve"><span class="header-section-number">6</span> Final Nonlinear Price Curve</a></li>
+  <li><a href="#representative-price-contrasts" id="toc-representative-price-contrasts" class="nav-link" data-scroll-target="#representative-price-contrasts"><span class="header-section-number">7</span> Representative Price Contrasts</a></li>
+  <li><a href="#free-vs-paid" id="toc-free-vs-paid" class="nav-link" data-scroll-target="#free-vs-paid"><span class="header-section-number">8</span> Free vs Paid</a></li>
+  <li><a href="#platform" id="toc-platform" class="nav-link" data-scroll-target="#platform"><span class="header-section-number">9</span> Platform</a></li>
+  <li><a href="#genre" id="toc-genre" class="nav-link" data-scroll-target="#genre"><span class="header-section-number">10</span> Genre</a></li>
+  <li><a href="#model-diagnostics" id="toc-model-diagnostics" class="nav-link" data-scroll-target="#model-diagnostics"><span class="header-section-number">11</span> Model Diagnostics</a></li>
+  <li><a href="#calibration-auc-brier" id="toc-calibration-auc-brier" class="nav-link" data-scroll-target="#calibration-auc-brier"><span class="header-section-number">12</span> Calibration / AUC / Brier</a></li>
+  <li><a href="#release-sensitivity" id="toc-release-sensitivity" class="nav-link" data-scroll-target="#release-sensitivity"><span class="header-section-number">13</span> Release Sensitivity</a></li>
+  <li><a href="#genre-sensitivity" id="toc-genre-sensitivity" class="nav-link" data-scroll-target="#genre-sensitivity"><span class="header-section-number">14</span> Genre Sensitivity</a></li>
+  <li><a href="#price-curve-sensitivity" id="toc-price-curve-sensitivity" class="nav-link" data-scroll-target="#price-curve-sensitivity"><span class="header-section-number">15</span> Price Curve Sensitivity</a></li>
+  <li><a href="#df4-shape-sensitivity" id="toc-df4-shape-sensitivity" class="nav-link" data-scroll-target="#df4-shape-sensitivity"><span class="header-section-number">16</span> df=4 Shape Sensitivity</a></li>
+  <li><a href="#optional-gam-diagnostic" id="toc-optional-gam-diagnostic" class="nav-link" data-scroll-target="#optional-gam-diagnostic"><span class="header-section-number">17</span> Optional GAM Diagnostic</a></li>
+  <li><a href="#人工审计清单" id="toc-人工审计清单" class="nav-link" data-scroll-target="#人工审计清单"><span class="header-section-number">18</span> 人工审计清单</a></li>
+  <li><a href="#freeze-decision" id="toc-freeze-decision" class="nav-link" data-scroll-target="#freeze-decision"><span class="header-section-number">19</span> Freeze Decision</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Step 6A.1 非线性 Review Entry 规格冻结</h1>
+<p class="subtitle lead">Paid-price natural spline df=3 的人工可视化审计</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="为什么-step-6a-不能冻结" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 为什么 Step 6A 不能冻结</h1>
+<p>Step 6A 的 Logistic framework、样本、校准和 separation 均正常，但单一 linear paid-price term 无法描述观察到的 price-response shape。本轮只修复这个已识别的 functional-form misspecification，不进行广泛模型搜索，也不进入 count model。</p>
+</section>
+<section id="linear-benchmark" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Linear Benchmark</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>相同 2,998 行的 Linear Benchmark 与 Nonlinear Primary</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 7%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">residual_deviance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LINEAR_BENCHMARK</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">-1179.934</td>
+<td style="text-align: right;">2387.869</td>
+<td style="text-align: right;">2471.949</td>
+<td style="text-align: right;">2359.869</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">-1170.514</td>
+<td style="text-align: right;">2373.027</td>
+<td style="text-align: right;">2469.119</td>
+<td style="text-align: right;">2341.027</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Linear 规格继续作为审计 benchmark。Nonlinear spline 只有在全部冻结条件通过时才成为最终 entry model。</p>
+</section>
+<section id="paid-price-nonlinearity" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Paid Price Nonlinearity</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/47_linear_vs_spline_price_curve.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>Linear benchmark 与 frozen spline df=3 的 price-response curve</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>人工审计重点：linear 曲线是否掩盖了中价位附近的平台状峰值，以及高价尾部是否被错误解释为精确规律。</p>
+</section>
+<section id="spline-parameterization" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Spline Parameterization</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Frozen paid-price spline basis 定义</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">spline_df</th>
+<th style="text-align: left;">intercept_in_basis</th>
+<th style="text-align: left;">centered_basis</th>
+<th style="text-align: right;">center_price_usd</th>
+<th style="text-align: right;">center_log1p_price</th>
+<th style="text-align: right;">center_basis_1_raw</th>
+<th style="text-align: right;">center_basis_2_raw</th>
+<th style="text-align: right;">center_basis_3_raw</th>
+<th style="text-align: right;">internal_knot_1_log1p</th>
+<th style="text-align: right;">internal_knot_2_log1p</th>
+<th style="text-align: left;">internal_knot_3_log1p</th>
+<th style="text-align: right;">boundary_knot_lower_log1p</th>
+<th style="text-align: right;">boundary_knot_upper_log1p</th>
+<th style="text-align: right;">training_n</th>
+<th style="text-align: right;">training_price_min_usd</th>
+<th style="text-align: right;">training_price_max_usd</th>
+<th style="text-align: left;">prediction_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">6.000014</td>
+<td style="text-align: right;">1.945912</td>
+<td style="text-align: right;">0.04211</td>
+<td style="text-align: right;">0.605661</td>
+<td style="text-align: right;">-0.33196</td>
+<td style="text-align: right;">1.607436</td>
+<td style="text-align: right;">2.301585</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">0.398776</td>
+<td style="text-align: right;">5.303255</td>
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">199.99</td>
+<td style="text-align: left;">Reuse saved knots, Boundary.knots, and centering basis; free rows equal zero</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Linear 与 spline 的严格 nesting 审计</caption>
+<colgroup>
+<col style="width: 13%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison_id</th>
+<th style="text-align: left;">same_rows</th>
+<th style="text-align: right;">reduced_rank</th>
+<th style="text-align: right;">full_rank</th>
+<th style="text-align: right;">combined_rank</th>
+<th style="text-align: right;">max_reduced_projection_residual</th>
+<th style="text-align: left;">strictly_nested</th>
+<th style="text-align: left;">formal_lrt_valid</th>
+<th style="text-align: right;">lrt_deviance_difference</th>
+<th style="text-align: right;">lrt_df_difference</th>
+<th style="text-align: right;">lrt_p_value</th>
+<th style="text-align: left;">conclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FULL_MARKET_LINEAR_VS_DF3_SPLINE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">18.84139</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">8.103e-05</td>
+<td style="text-align: left;">Reduced linear column space is contained in the frozen natural-spline column space</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">STEP6A_PAID_ONLY_LINEAR_VS_DF3_SPLINE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">18.93634</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">7.727e-05</td>
+<td style="text-align: left;">Reduced linear column space is contained in the frozen natural-spline column space</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Knots 和 Boundary.knots 只从有效 paid-market price population 计算一次。Prediction 明确复用这些值和同一 centering basis；free rows 的三个 spline columns 全部等于 0。Spline basis coefficients 不作独立业务解释。</p>
+</section>
+<section id="price-data-support" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Price Data Support</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Paid-price percentiles 与高价尾部样本量</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">paid_price_n</th>
+<th style="text-align: right;">min_usd</th>
+<th style="text-align: right;">p01_usd</th>
+<th style="text-align: right;">p05_usd</th>
+<th style="text-align: right;">p25_usd</th>
+<th style="text-align: right;">p50_usd</th>
+<th style="text-align: right;">p75_usd</th>
+<th style="text-align: right;">p95_usd</th>
+<th style="text-align: right;">p99_usd</th>
+<th style="text-align: right;">max_usd</th>
+<th style="text-align: right;">n_ge_20_usd</th>
+<th style="text-align: right;">n_ge_30_usd</th>
+<th style="text-align: right;">n_ge_50_usd</th>
+<th style="text-align: right;">n_ge_100_usd</th>
+<th style="text-align: left;">central_support_definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">2.99</td>
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">19.99</td>
+<td style="text-align: right;">39.99</td>
+<td style="text-align: right;">199.99</td>
+<td style="text-align: right;">126</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Paid-market empirical 5th to 95th percentile</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/46_price_curve_support_density.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>Paid-price distribution、central 5–95% support 与拟合峰值</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>人工审计重点：$30 以上的 CI 是否快速扩大，以及高价尾部下降是否由少量 observations 支撑。主要解释固定在 empirical 5th–95th percentile。</p>
+</section>
+<section id="final-nonlinear-price-curve" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Final Nonlinear Price Curve</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/45_price_nonlinear_primary_curve.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>最终 nonlinear paid-price curve 与 link-scale 95% CI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>拟合 peak 与局部 plateau 审计</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 11%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">peak_price_usd</th>
+<th style="text-align: right;">peak_predicted_probability</th>
+<th style="text-align: right;">peak_ci95_lower</th>
+<th style="text-align: right;">peak_ci95_upper</th>
+<th style="text-align: left;">local_plateau_definition</th>
+<th style="text-align: right;">plateau_lower_price_usd</th>
+<th style="text-align: right;">plateau_upper_price_usd</th>
+<th style="text-align: right;">plateau_width_usd</th>
+<th style="text-align: left;">peak_within_central_5_95_support</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">14.92192</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.8411</td>
+<td style="text-align: right;">0.91268</td>
+<td style="text-align: left;">Contiguous prices within 0.5 percentage points of fitted peak</td>
+<td style="text-align: right;">11.06614</td>
+<td style="text-align: right;">20.29533</td>
+<td style="text-align: right;">9.22918</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">Descriptive fitted maximum; not an optimal or causal price</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>这里的 peak 是模型曲线在 observed support 内的描述性最大值，不是“最优价格”，也不是因果结论。</p>
+</section>
+<section id="representative-price-contrasts" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Representative Price Contrasts</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>预设价格点的预测概率与 95% CI</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 20%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">price_usd</th>
+<th style="text-align: right;">predicted_probability</th>
+<th style="text-align: right;">ci95_lower</th>
+<th style="text-align: right;">ci95_upper</th>
+<th style="text-align: right;">link_estimate</th>
+<th style="text-align: right;">link_standard_error</th>
+<th style="text-align: left;">support_region</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.78340</td>
+<td style="text-align: right;">0.71036</td>
+<td style="text-align: right;">0.84212</td>
+<td style="text-align: right;">1.28560</td>
+<td style="text-align: right;">0.19821</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2.99</td>
+<td style="text-align: right;">0.78079</td>
+<td style="text-align: right;">0.72329</td>
+<td style="text-align: right;">0.82917</td>
+<td style="text-align: right;">1.27029</td>
+<td style="text-align: right;">0.15788</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">0.81566</td>
+<td style="text-align: right;">0.76579</td>
+<td style="text-align: right;">0.85689</td>
+<td style="text-align: right;">1.48720</td>
+<td style="text-align: right;">0.15435</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">0.87259</td>
+<td style="text-align: right;">0.83329</td>
+<td style="text-align: right;">0.90370</td>
+<td style="text-align: right;">1.92404</td>
+<td style="text-align: right;">0.16069</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">14.99</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.84107</td>
+<td style="text-align: right;">0.91270</td>
+<td style="text-align: right;">2.00665</td>
+<td style="text-align: right;">0.17369</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">19.99</td>
+<td style="text-align: right;">0.87702</td>
+<td style="text-align: right;">0.83344</td>
+<td style="text-align: right;">0.91042</td>
+<td style="text-align: right;">1.96447</td>
+<td style="text-align: right;">0.18074</td>
+<td style="text-align: left;">CENTRAL_5_95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">29.99</td>
+<td style="text-align: right;">0.85504</td>
+<td style="text-align: right;">0.79989</td>
+<td style="text-align: right;">0.89695</td>
+<td style="text-align: right;">1.77468</td>
+<td style="text-align: right;">0.19852</td>
+<td style="text-align: left;">OUTSIDE_CENTRAL_5_95</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">49.99</td>
+<td style="text-align: right;">0.79395</td>
+<td style="text-align: right;">0.69771</td>
+<td style="text-align: right;">0.86546</td>
+<td style="text-align: right;">1.34890</td>
+<td style="text-align: right;">0.26148</td>
+<td style="text-align: left;">OUTSIDE_CENTRAL_5_95</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>预设价格变化的概率差</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">contrast_id</th>
+<th style="text-align: right;">price_1_usd</th>
+<th style="text-align: right;">price_2_usd</th>
+<th style="text-align: right;">probability_1</th>
+<th style="text-align: right;">probability_2</th>
+<th style="text-align: right;">probability_difference</th>
+<th style="text-align: right;">percentage_point_difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4.99_TO_9.99</td>
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">0.81566</td>
+<td style="text-align: right;">0.87259</td>
+<td style="text-align: right;">0.05693</td>
+<td style="text-align: right;">5.69305</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9.99_TO_14.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">14.99</td>
+<td style="text-align: right;">0.87259</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.00890</td>
+<td style="text-align: right;">0.89050</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14.99_TO_29.99</td>
+<td style="text-align: right;">14.99</td>
+<td style="text-align: right;">29.99</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.85504</td>
+<td style="text-align: right;">-0.02645</td>
+<td style="text-align: right;">-2.64549</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="free-vs-paid" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Free vs Paid</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Centered paid-price reference 下的 free probability contrast</caption>
+<colgroup>
+<col style="width: 11%">
+<col style="width: 12%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 20%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">paid_reference_price_usd</th>
+<th style="text-align: right;">paid_reference_probability</th>
+<th style="text-align: right;">free_probability</th>
+<th style="text-align: right;">free_minus_paid_probability_difference</th>
+<th style="text-align: right;">free_minus_paid_percentage_point_difference</th>
+<th style="text-align: left;">scope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">6.00001</td>
+<td style="text-align: right;">0.83354</td>
+<td style="text-align: right;">0.06784</td>
+<td style="text-align: right;">-0.7657</td>
+<td style="text-align: right;">-76.56983</td>
+<td style="text-align: left;">One-at-a-time conditional contrast at centered paid-price reference</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Free association 可能反映产品组成、曝光、质量、开发成熟度、受众和 Steam 发行策略。不能解释为免费导致无人评论。</p>
+</section>
+<section id="platform" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Platform</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Nonlinear primary 的 Platform OR 与 95% CI</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 14%">
+<col style="width: 21%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 5%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">model_id</th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">z_value</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: left;">direction</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.35008</td>
+<td style="text-align: right;">0.21902</td>
+<td style="text-align: right;">1.59838</td>
+<td style="text-align: right;">0.10996</td>
+<td style="text-align: right;">1.41918</td>
+<td style="text-align: right;">0.92386</td>
+<td style="text-align: right;">2.18007</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">-0.00603</td>
+<td style="text-align: right;">0.23144</td>
+<td style="text-align: right;">-0.02605</td>
+<td style="text-align: right;">0.97922</td>
+<td style="text-align: right;">0.99399</td>
+<td style="text-align: right;">0.63151</td>
+<td style="text-align: right;">1.56453</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.69250</td>
+<td style="text-align: right;">0.25643</td>
+<td style="text-align: right;">2.70058</td>
+<td style="text-align: right;">0.00692</td>
+<td style="text-align: right;">1.99871</td>
+<td style="text-align: right;">1.20915</td>
+<td style="text-align: right;">3.30386</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="genre" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Genre</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Nonlinear primary 的七个 Genre OR 与 95% CI</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 16%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">model_id</th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">z_value</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: left;">direction</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.10642</td>
+<td style="text-align: right;">0.11701</td>
+<td style="text-align: right;">0.90951</td>
+<td style="text-align: right;">0.36308</td>
+<td style="text-align: right;">1.11229</td>
+<td style="text-align: right;">0.88434</td>
+<td style="text-align: right;">1.39899</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">0.22144</td>
+<td style="text-align: right;">0.11663</td>
+<td style="text-align: right;">1.89856</td>
+<td style="text-align: right;">0.05762</td>
+<td style="text-align: right;">1.24787</td>
+<td style="text-align: right;">0.99286</td>
+<td style="text-align: right;">1.56837</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">-0.41355</td>
+<td style="text-align: right;">0.11441</td>
+<td style="text-align: right;">-3.61463</td>
+<td style="text-align: right;">0.00030</td>
+<td style="text-align: right;">0.66130</td>
+<td style="text-align: right;">0.52846</td>
+<td style="text-align: right;">0.82753</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.16676</td>
+<td style="text-align: right;">0.12440</td>
+<td style="text-align: right;">1.34056</td>
+<td style="text-align: right;">0.18006</td>
+<td style="text-align: right;">1.18147</td>
+<td style="text-align: right;">0.92584</td>
+<td style="text-align: right;">1.50769</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">-0.00524</td>
+<td style="text-align: right;">0.14358</td>
+<td style="text-align: right;">-0.03649</td>
+<td style="text-align: right;">0.97089</td>
+<td style="text-align: right;">0.99477</td>
+<td style="text-align: right;">0.75077</td>
+<td style="text-align: right;">1.31808</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.54507</td>
+<td style="text-align: right;">0.14149</td>
+<td style="text-align: right;">3.85225</td>
+<td style="text-align: right;">0.00012</td>
+<td style="text-align: right;">1.72473</td>
+<td style="text-align: right;">1.30702</td>
+<td style="text-align: right;">2.27594</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.14655</td>
+<td style="text-align: right;">0.13240</td>
+<td style="text-align: right;">-1.10687</td>
+<td style="text-align: right;">0.26835</td>
+<td style="text-align: right;">0.86368</td>
+<td style="text-align: right;">0.66627</td>
+<td style="text-align: right;">1.11958</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">Conditional association</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/48_nonlinear_primary_or.png" class="img-fluid figure-img" width="855"></p>
+<figcaption>Nonlinear primary 的非 spline predictor OR</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>人工审计重点：Adventure、Casual、Simulation 的方向和 CI 是否保持；其他不确定关联不作强结论。</p>
+</section>
+<section id="model-diagnostics" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Model Diagnostics</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Nonlinear primary separation diagnostics</caption>
+<colgroup>
+<col style="width: 45%">
+<col style="width: 11%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">check</th>
+<th style="text-align: right;">n_flagged</th>
+<th style="text-align: left;">details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">glm_not_converged</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">converged = TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rank_deficient_model_matrix</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">rank = 16 of 16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">absolute_coefficient_gt_10_or_se_gt_10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">none</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">fitted_probability_below_1e_6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Complete/quasi-separation heuristic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">fitted_probability_above_1_minus_1e_6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Complete/quasi-separation heuristic</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical_zero_event_cell</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Raw categorical outcome cells</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical_zero_non_event_cell</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Raw categorical outcome cells</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">glm_warning</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">warning count = 0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Nonlinear primary influence summary</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">n_influence_diagnostics_not_defined</th>
+<th style="text-align: right;">max_absolute_deviance_residual</th>
+<th style="text-align: right;">max_absolute_standardized_deviance_residual</th>
+<th style="text-align: right;">n_absolute_standardized_residual_gt_2</th>
+<th style="text-align: right;">n_absolute_standardized_residual_gt_3</th>
+<th style="text-align: right;">max_leverage</th>
+<th style="text-align: right;">threshold_2p_over_n</th>
+<th style="text-align: right;">n_leverage_above_2p_over_n</th>
+<th style="text-align: right;">threshold_3p_over_n</th>
+<th style="text-align: right;">n_leverage_above_3p_over_n</th>
+<th style="text-align: right;">max_cooks_distance</th>
+<th style="text-align: right;">threshold_4_over_n</th>
+<th style="text-align: right;">n_cooks_above_4_over_n</th>
+<th style="text-align: right;">n_cooks_above_0_5</th>
+<th style="text-align: right;">n_cooks_above_1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2.49932</td>
+<td style="text-align: right;">2.50406</td>
+<td style="text-align: right;">161</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.11809</td>
+<td style="text-align: right;">0.01067</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">0.01601</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0.00932</td>
+<td style="text-align: right;">0.00133</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Influence thresholds 是审计工具，不是自动删点规则。</p>
+</section>
+<section id="calibration-auc-brier" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Calibration / AUC / Brier</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/49_nonlinear_calibration.png" class="img-fluid figure-img" width="675"></p>
+<figcaption>Linear benchmark 与 nonlinear primary 的样本内校准</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>AUC、Brier score 与 binary log loss</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">auc</th>
+<th style="text-align: right;">auc_standard_error</th>
+<th style="text-align: right;">auc_ci95_lower</th>
+<th style="text-align: right;">auc_ci95_upper</th>
+<th style="text-align: right;">brier_score</th>
+<th style="text-align: right;">binary_log_loss</th>
+<th style="text-align: left;">diagnostic_scope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LINEAR_BENCHMARK</td>
+<td style="text-align: right;">0.798973</td>
+<td style="text-align: right;">0.010490</td>
+<td style="text-align: right;">0.778413</td>
+<td style="text-align: right;">0.819533</td>
+<td style="text-align: right;">0.117982</td>
+<td style="text-align: right;">0.393574</td>
+<td style="text-align: left;">In-sample descriptive fit; not a model-selection contest</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: right;">0.804436</td>
+<td style="text-align: right;">0.010338</td>
+<td style="text-align: right;">0.784174</td>
+<td style="text-align: right;">0.824699</td>
+<td style="text-align: right;">0.116924</td>
+<td style="text-align: right;">0.390432</td>
+<td style="text-align: left;">In-sample descriptive fit; not a model-selection contest</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>这些指标只作 descriptive fit comparison。AUC 不是本轮选择 nonlinear form 的主要理由。</p>
+</section>
+<section id="release-sensitivity" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Release Sensitivity</h1>
+<p>Primary 的 linear days 替换为 release month；price spline 的 frozen basis 不变。</p>
+</section>
+<section id="genre-sensitivity" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Genre Sensitivity</h1>
+<p>在 nonlinear price model 上加入 Early Access、Sports、Racing；不加入更稀疏类别，不改变 primary genre set。</p>
+</section>
+<section id="price-curve-sensitivity" class="level1" data-number="15">
+<h1 data-number="15"><span class="header-section-number">15</span> Price Curve Sensitivity</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/50_nonlinear_price_sensitivity.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>Release 与 expanded-genre sensitivity 后的 price curve</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>相对 primary 的最大预测概率差</caption>
+<colgroup>
+<col style="width: 21%">
+<col style="width: 39%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">max_absolute_probability_difference_full_support</th>
+<th style="text-align: right;">max_absolute_probability_difference_central_5_95</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">RELEASE_MONTH_SENSITIVITY</td>
+<td style="text-align: right;">0.017447</td>
+<td style="text-align: right;">0.015927</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EXPANDED_GENRE_SENSITIVITY</td>
+<td style="text-align: right;">0.012624</td>
+<td style="text-align: right;">0.002468</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="df4-shape-sensitivity" class="level1" data-number="16">
+<h1 data-number="16"><span class="header-section-number">16</span> df=4 Shape Sensitivity</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/51_price_df3_vs_df4.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>预设 df=3 primary 与 df=4 shape sensitivity</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>df=4 sensitivity 汇总</caption>
+<colgroup>
+<col style="width: 14%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 21%">
+<col style="width: 25%">
+<col style="width: 5%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">spline_df</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">peak_price_usd</th>
+<th style="text-align: right;">max_abs_probability_difference_vs_df3_full</th>
+<th style="text-align: right;">max_abs_probability_difference_vs_df3_central_5_95</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">warning_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">2373.027</td>
+<td style="text-align: right;">2469.119</td>
+<td style="text-align: right;">14.92192</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRICE_SPLINE_DF4_SENSITIVITY</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">2373.941</td>
+<td style="text-align: right;">2476.038</td>
+<td style="text-align: right;">16.22990</td>
+<td style="text-align: right;">0.052672</td>
+<td style="text-align: right;">0.011682</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>只运行 df=4 这一项有限 sensitivity；没有进行 df grid search、knot optimization 或超参数搜索。</p>
+</section>
+<section id="optional-gam-diagnostic" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> Optional GAM Diagnostic</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Optional GAM diagnostic</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 6%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 4%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">package_available</th>
+<th style="text-align: right;">k</th>
+<th style="text-align: right;">edf</th>
+<th style="text-align: right;">reference_df</th>
+<th style="text-align: right;">smooth_test_statistic</th>
+<th style="text-align: right;">smooth_p_value</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">max_abs_probability_difference_vs_df3_full</th>
+<th style="text-align: right;">max_abs_probability_difference_vs_df3_central_5_95</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">RUN</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3.28015</td>
+<td style="text-align: right;">3.703278</td>
+<td style="text-align: right;">27.33929</td>
+<td style="text-align: right;">2.2e-05</td>
+<td style="text-align: right;">2372.983</td>
+<td style="text-align: right;">0.02734</td>
+<td style="text-align: right;">0.010521</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Diagnostic only; not eligible to replace the inferential primary model automatically</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../figures/attention/52_price_spline_vs_gam.png" class="img-fluid figure-img" width="774"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>GAM 仅检查 df=3 是否遗漏明显 shape，不自动替代当前 inferential model。</p>
+</section>
+<section id="人工审计清单" class="level1" data-number="18">
+<h1 data-number="18"><span class="header-section-number">18</span> 人工审计清单</h1>
+<ul>
+<li>$14–15 附近或重新估计后的 peak 是否 visually meaningful？</li>
+<li>peak 是否是宽 plateau，而不是精确单点？</li>
+<li>$30 以上区域 CI 是否快速扩大？</li>
+<li>高价尾部下降是否由极少 observations 驱动？</li>
+<li>df=3 与 df=4 在 central support 是否一致？</li>
+<li>release / genre sensitivity 后 curve 是否稳定？</li>
+<li>nonlinear price 后 free effect 是否仍保持极强？</li>
+<li>是否存在 separation、数值不稳定或单个高影响游戏支配模型？</li>
+</ul>
+</section>
+<section id="freeze-decision" class="level1" data-number="19">
+<h1 data-number="19"><span class="header-section-number">19</span> Freeze Decision</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>八项 nonlinear primary freeze criteria</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 7%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">criterion</th>
+<th style="text-align: left;">passed</th>
+<th style="text-align: left;">threshold_or_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">convergence</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">glm converged</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">no_separation</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">all separation heuristics zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">influence_acceptable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">all diagnostics defined and max Cook’s D &lt; 0.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">calibration_acceptable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">maximum decile absolute gap &lt;= 0.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">release_curve_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% max probability difference &lt;= 0.03</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_curve_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% max probability difference &lt;= 0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">df4_central_shape_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% df4-vs-df3 max probability difference &lt;= 0.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">no_numerical_instability</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">full rank, no primary warnings, finite coefficients</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 6A.1 冻结决定</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 45%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">step6a1_status</th>
+<th style="text-align: left;">price_functional_form</th>
+<th style="text-align: left;">review_entry_model_frozen</th>
+<th style="text-align: left;">ready_for_step6b</th>
+<th style="text-align: left;">final_entry_model</th>
+<th style="text-align: left;">next_gate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">SPLINE ADEQUATE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">Logistic regression with centered frozen natural spline df=3 for paid collection-time price</td>
+<td style="text-align: left;">Human approval before Step 6B</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Logistic framework 没有失败。最终判断只针对 paid-price functional form：linear benchmark 是否应由 frozen natural spline df=3 取代。Step 6B 在本报告完成前始终保持 blocked。</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

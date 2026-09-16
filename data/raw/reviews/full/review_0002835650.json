@@ -1,0 +1,79 @@
+{
+  "appid": 2835650,
+  "requested_at": "2026-09-13T18:56:57.153725+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 92,
+      "total_negative": 5,
+      "total_reviews": 97
+    },
+    "reviews": [
+      {
+        "recommendationid": "210875719",
+        "author": {
+          "steamid": "76561198176094750",
+          "personaname": "Bam",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/boitiste/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 14139,
+          "playtime_last_two_weeks": 80,
+          "playtime_at_review": 2898,
+          "last_played": 1788348160,
+          "avatar": "c11264bdf8d7b53fc43fea69f18d7581395ff508"
+        },
+        "language": "english",
+        "review": "A surprisingly fresh and innovative combination of Metroidvania and procedural generation. I finished the main campaign in about ten hours, and there are still optional challenges on top.\n\n+ Great level design\n+ Charming visuals\n+ Funny dialogue (some lines got me laughing out loud)\n+ Good OST\n+ Strong replay value (especially if you enjoy time-attack scoring)\nEDIT: 48 hours in, and yeah… this game is seriously addictive.\n\n- Story could go deeper\n\nIf you're into Metroidvania, this one's an easy recommendation.",
+        "timestamp_created": 1764165880,
+        "timestamp_updated": 1764615190,
+        "voted_up": true,
+        "votes_up": 27,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.7562064528465271",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764086462",
+        "reactions": [
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFU4DmAAAAAFP+gy1uAAAAB31LakBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

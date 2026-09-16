@@ -1,0 +1,83 @@
+{
+  "appid": 2731330,
+  "requested_at": "2026-09-13T18:54:56.120341+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 558,
+      "total_negative": 46,
+      "total_reviews": 604
+    },
+    "reviews": [
+      {
+        "recommendationid": "204447245",
+        "author": {
+          "steamid": "76561199082870053",
+          "personaname": "Nateyyy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199082870053/",
+          "num_games_owned": 0,
+          "num_reviews": 11,
+          "playtime_forever": 128,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1758138174,
+          "avatar": "2b15ec9e5ad257810ed86b60eab68afbd98e1cb1"
+        },
+        "language": "english",
+        "review": "finally get to live out my dream of fist fighting the elderly in public transit",
+        "timestamp_created": 1757985675,
+        "timestamp_updated": 1757985675,
+        "voted_up": true,
+        "votes_up": 64,
+        "votes_funny": 39,
+        "weighted_vote_score": "0.854509353637695312",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757955333",
+        "reactions": [
+          {
+            "reaction_type": 3,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          },
+          {
+            "reaction_type": 23,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFS6OoAAAAAFP+tYI0AAAAB94POLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1569999999999254,
+  "transport_error_count": 0
+}

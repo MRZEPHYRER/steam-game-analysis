@@ -1,0 +1,78 @@
+{
+  "appid": 1344550,
+  "requested_at": "2026-09-13T18:42:43.106642+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 49,
+      "total_negative": 34,
+      "total_reviews": 83
+    },
+    "reviews": [
+      {
+        "recommendationid": "229775339",
+        "author": {
+          "steamid": "76561197971304253",
+          "personaname": "Sanzor",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197971304253/",
+          "num_games_owned": 0,
+          "num_reviews": 53,
+          "playtime_forever": 1892,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1892,
+          "last_played": 1783351059,
+          "avatar": "426caede454911698f77b390424cdbfc9a138f52"
+        },
+        "language": "english",
+        "review": "A sort of modern day \"Asteroids\" game given how mundane it is. The reason I call it mundane is simply because it's not very complicated and there is little to do other than shoot and avoid fire...initially.\n\nThe game is relaxing with decent music and you cruising around in the constant stream of systems you visit to shoot a few enemy factions. There are some missions you can pick up now and then from friendly space stations for extra experience and loot.\n\nThere is no specific story to pay attention to, as the campaign missions are similar to station missions which end up at the last system where you fight a \"big bad boss\". You can continue flying around in a sandbox mode with systems up to level 59.\n\nKeep in mind that the mixed reviews here are for a reason based on what you expect. The loot comparison is odd in this game, as you need to hold ALT on the initial item and then drag your mouse to the item you want to compare. Loot is very simple and to some point you really don't need to upgrade anymore due to how strong you become.\nThe other part about loot is that there are really only 3 things to focus on. Primary guns, Hull hitpoints and armor. The game does have shield mechanics, but these are worthless due to shields not seem to be affected by armor and they have a recharge delay, which means you need to run away to recharge it as the enemies are actually quite good at aiming. This means stacking armor is way more powerful to the point you can facetank most things easily.\nThere are some \"Combat Systems\" items which produce various damage, mobility or buffs, but they are only slightly useful in the start as later on you ignore them due to their cooldowns.\n\nGrab it when it's on sale and if you like to just chill around and shoot stuff mindlessly :)",
+        "timestamp_created": 1783351859,
+        "timestamp_updated": 1783352088,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752508813",
+        "hardware": {
+          "system_ram": "32691",
+          "os": "Windows 10",
+          "cpu_name": "AMD Ryzen 5 5600X 6-Core Processor             ",
+          "adapter_description": "AMD Radeon RX 7800 XT",
+          "vram_size": 16341
+        },
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZIO6AAAAAFP+Fk6MAAAAB7/sLsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1870000000001255,
+  "transport_error_count": 0
+}

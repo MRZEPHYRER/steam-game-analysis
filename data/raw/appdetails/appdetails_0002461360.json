@@ -1,0 +1,292 @@
+{
+  "requested_at": "2026-09-12T13:44:28.326263+00:00",
+  "request_params": {
+    "appids": 2461360,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2461360,
+  "payload": {
+    "2461360": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Click Cluck",
+        "steam_appid": 2461360,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Overview:</strong><br><strong>Click Cluck</strong> is a light-hearted desktop companion featuring a curious little chicken that roams freely across your screen. Much like a small pet wandering around the house, it moves, pecks, naps, and occasionally lays eggs. This adds a playful and unpredictable touch to your workspace. Whether you are working, studying, or taking a break, Click Cluck brings warmth, charm, and a bit of humor to your desktop.</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🐔 <strong>A lively 2D chicken</strong> that walks, runs, pecks, and rests on your desktop.</p></li><li><p class=\"bb_paragraph\" >💻 <strong>Lightweight transparent overlay</strong> that runs smoothly over any window.</p></li><li><p class=\"bb_paragraph\" >🎨 <strong>Cozy and charming design</strong> that adds personality to your PC without distracting you.</p></li></ul><p class=\"bb_paragraph\" ><strong>Design Philosophy:</strong><br>Click Cluck behaves like a tiny digital pet, quiet, curious, and a little mischievous. It does not need attention or commands. It simply lives on your screen and creates a soothing, delightful atmosphere.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Overview:</strong><br><strong>Click Cluck</strong> is a light-hearted desktop companion featuring a curious little chicken that roams freely across your screen. Much like a small pet wandering around the house, it moves, pecks, naps, and occasionally lays eggs. This adds a playful and unpredictable touch to your workspace. Whether you are working, studying, or taking a break, Click Cluck brings warmth, charm, and a bit of humor to your desktop.</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🐔 <strong>A lively 2D chicken</strong> that walks, runs, pecks, and rests on your desktop.</p></li><li><p class=\"bb_paragraph\" >💻 <strong>Lightweight transparent overlay</strong> that runs smoothly over any window.</p></li><li><p class=\"bb_paragraph\" >🎨 <strong>Cozy and charming design</strong> that adds personality to your PC without distracting you.</p></li></ul><p class=\"bb_paragraph\" ><strong>Design Philosophy:</strong><br>Click Cluck behaves like a tiny digital pet, quiet, curious, and a little mischievous. It does not need attention or commands. It simply lives on your screen and creates a soothing, delightful atmosphere.</p>",
+        "short_description": "A curious desktop chicken that wanders your screen, pecks around, naps peacefully, and brings cozy charm to your workspace.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/7644bb6e3129163f46ddbecfda63c8d5c538182a/header.jpg?t=1770555703",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/a5054b2bc4615865f10350069bf6ce561045ad57/capsule_231x87.jpg?t=1770555703",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/a5054b2bc4615865f10350069bf6ce561045ad57/capsule_184x69.jpg?t=1770555703",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Win 10<br></li><li><strong>Processor:</strong> 2 GHz Dual Core (Intel / AMD)<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GT550M | AMD Radeon R7/HD 5650 | Intel HD 520<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 350 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Win 10/11<br></li><li><strong>Processor:</strong> 2 GHz Dual Core (Intel / AMD)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GT740M | AMD Radeon R8 | Intel HD 630<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 550 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Amca Games"
+        ],
+        "publishers": [
+          "Amca Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          885991
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Click Cluck",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 885991,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Click Cluck - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/d452ec4fed6bf9860bfbf02f71676fc2c785bf27/ss_d452ec4fed6bf9860bfbf02f71676fc2c785bf27.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/d452ec4fed6bf9860bfbf02f71676fc2c785bf27/ss_d452ec4fed6bf9860bfbf02f71676fc2c785bf27.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/05eb2a44b2a5c206d65a554edcac4651b54a0b67/ss_05eb2a44b2a5c206d65a554edcac4651b54a0b67.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/05eb2a44b2a5c206d65a554edcac4651b54a0b67/ss_05eb2a44b2a5c206d65a554edcac4651b54a0b67.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/21c6f9f1256554406c806e59fd9f6999dd28e5d2/ss_21c6f9f1256554406c806e59fd9f6999dd28e5d2.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/21c6f9f1256554406c806e59fd9f6999dd28e5d2/ss_21c6f9f1256554406c806e59fd9f6999dd28e5d2.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/4c90f6c3f168ddae8d909c7d31bdb67a0c78e596/ss_4c90f6c3f168ddae8d909c7d31bdb67a0c78e596.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/4c90f6c3f168ddae8d909c7d31bdb67a0c78e596/ss_4c90f6c3f168ddae8d909c7d31bdb67a0c78e596.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/c3de3e0d539554ae6915717c7e46be886ca3bcfe/ss_c3de3e0d539554ae6915717c7e46be886ca3bcfe.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/c3de3e0d539554ae6915717c7e46be886ca3bcfe/ss_c3de3e0d539554ae6915717c7e46be886ca3bcfe.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/ccb16343c9e513c3f44a89fbdab80a71e05eca97/ss_ccb16343c9e513c3f44a89fbdab80a71e05eca97.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/ccb16343c9e513c3f44a89fbdab80a71e05eca97/ss_ccb16343c9e513c3f44a89fbdab80a71e05eca97.1920x1080.jpg?t=1770555703"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/6d8cfab6fb1b3d13e77d2104351c50d531f1e5db/ss_6d8cfab6fb1b3d13e77d2104351c50d531f1e5db.600x338.jpg?t=1770555703",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/6d8cfab6fb1b3d13e77d2104351c50d531f1e5db/ss_6d8cfab6fb1b3d13e77d2104351c50d531f1e5db.1920x1080.jpg?t=1770555703"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257282191,
+            "name": "Click Cluck chick update trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257282191/a86306d7a8451d0bdaea228aed94d032f05d471f/movie_600x337.jpg?t=1770555700",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2461360/1012264642/f0be25519358d51c05420d93e5ef71684b1a013a/1770548990/dash_av1.mpd?t=1770555700",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2461360/1012264642/f0be25519358d51c05420d93e5ef71684b1a013a/1770548990/dash_h264.mpd?t=1770555700",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2461360/1012264642/f0be25519358d51c05420d93e5ef71684b1a013a/1770548990/hls_264_master.m3u8?t=1770555700",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 24,
+          "highlighted": [
+            {
+              "icon": "b60d4c34a78ef1f1d933f8f072592c49791eb624.jpg",
+              "localized_name": "Lost in the Coop",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Lost in the Coop",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/b60d4c34a78ef1f1d933f8f072592c49791eb624.jpg"
+            },
+            {
+              "icon": "8285c48a0b6e34858d460d0f3aaaf30499b978a4.jpg",
+              "localized_name": "Fully Nestled In",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fully Nestled In",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/8285c48a0b6e34858d460d0f3aaaf30499b978a4.jpg"
+            },
+            {
+              "icon": "d5b20855a31960eac1cbde42bae674764e123c3d.jpg",
+              "localized_name": "First Crack",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Crack",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/d5b20855a31960eac1cbde42bae674764e123c3d.jpg"
+            },
+            {
+              "icon": "552ddfd91a503d7c447af50f4407ef0eab72be1e.jpg",
+              "localized_name": "Shellbreaker",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Shellbreaker",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/552ddfd91a503d7c447af50f4407ef0eab72be1e.jpg"
+            },
+            {
+              "icon": "ff2465941cb8340b43a4499e5ba4e0bf33a2600e.jpg",
+              "localized_name": "Hatchmaster",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hatchmaster",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/ff2465941cb8340b43a4499e5ba4e0bf33a2600e.jpg"
+            },
+            {
+              "icon": "edfd9253fc765f0147dac4e26d7c6817cfa0a318.jpg",
+              "localized_name": "Who’s Tapping?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Who’s Tapping?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/edfd9253fc765f0147dac4e26d7c6817cfa0a318.jpg"
+            },
+            {
+              "icon": "3c6643a595efbcb5d7fef28b3330acbf618348f4.jpg",
+              "localized_name": "Gentle Courier",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gentle Courier",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/3c6643a595efbcb5d7fef28b3330acbf618348f4.jpg"
+            },
+            {
+              "icon": "32f12de635005b161d293c3c42deb779c977f084.jpg",
+              "localized_name": "Didn’t Like That Spot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Didn’t Like That Spot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/32f12de635005b161d293c3c42deb779c977f084.jpg"
+            },
+            {
+              "icon": "abdacd3571dfd46de667c03cc511b3c972ecf8c9.jpg",
+              "localized_name": "Bon Appétit",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bon Appétit",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/abdacd3571dfd46de667c03cc511b3c972ecf8c9.jpg"
+            },
+            {
+              "icon": "783e68980063ab057766136133b17ec3c7c304f3.jpg",
+              "localized_name": "Little One",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Little One",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2461360/783e68980063ab057766136133b17ec3c7c304f3.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 23, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "can@amcagames.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2461360?t=1770555703",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2461360/03cf46a32a5326eda32013b9ba74bcec42cb5af4/page_bg_raw.jpg?t=1770555703",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

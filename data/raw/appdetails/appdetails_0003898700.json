@@ -1,0 +1,311 @@
+{
+  "requested_at": "2026-09-12T17:53:05.557359+00:00",
+  "request_params": {
+    "appids": 3898700,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3898700,
+  "payload": {
+    "3898700": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "INFINITE MINEFIELD",
+        "steam_appid": 3898700,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4696460
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >INFINITE MINEFIELD is a new variation of the classic game with an infinitely expanding playing field. Explore new areas, uncover and avoid mines on an ever-growing board. Collect bonuses that help you gain extra time and increase your score.</p><p class=\"bb_paragraph\" >The game combines familiar rules with dynamic gameplay featuring strategy and time management elements. A great challenge for puzzle lovers and anyone looking to try something fresh in the genre!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Challenges</p></li><li><p class=\"bb_paragraph\" >Original Soundtrack</p></li><li><p class=\"bb_paragraph\" >Customizable controls</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >INFINITE MINEFIELD is a new variation of the classic game with an infinitely expanding playing field. Explore new areas, uncover and avoid mines on an ever-growing board. Collect bonuses that help you gain extra time and increase your score.</p><p class=\"bb_paragraph\" >The game combines familiar rules with dynamic gameplay featuring strategy and time management elements. A great challenge for puzzle lovers and anyone looking to try something fresh in the genre!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Challenges</p></li><li><p class=\"bb_paragraph\" >Original Soundtrack</p></li><li><p class=\"bb_paragraph\" >Customizable controls</p></li></ul>",
+        "short_description": "INFINITE MINEFIELD is a variation of classic minesweeper where the playing field expands as you explore it. The game is score-based, and bonuses help you win extra time.",
+        "supported_languages": "English, French, German, Spanish - Spain, Simplified Chinese, Russian, Hindi",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/b44c4a169521310de25a050a64eb24e0006d6f9e/header.jpg?t=1778920917",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/0c433ce93592ce494491766d58b19d47d9da4760/capsule_231x87.jpg?t=1778920917",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/0c433ce93592ce494491766d58b19d47d9da4760/capsule_184x69.jpg?t=1778920917",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Quad-core Intel / AMD, 2 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 support<br></li><li><strong>Storage:</strong> 110 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Ishmuhter"
+        ],
+        "publishers": [
+          "Ishmuhter"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1370275
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy INFINITE MINEFIELD",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1370275,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "INFINITE MINEFIELD - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/74b45073f6644027ef75eb9cef22278ab0f3d07c/ss_74b45073f6644027ef75eb9cef22278ab0f3d07c.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/74b45073f6644027ef75eb9cef22278ab0f3d07c/ss_74b45073f6644027ef75eb9cef22278ab0f3d07c.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/af980570b6111021c8a202caf93e9e6acb3f4691/ss_af980570b6111021c8a202caf93e9e6acb3f4691.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/af980570b6111021c8a202caf93e9e6acb3f4691/ss_af980570b6111021c8a202caf93e9e6acb3f4691.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/d20e13c15f87338198b027c290fec703e171835a/ss_d20e13c15f87338198b027c290fec703e171835a.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/d20e13c15f87338198b027c290fec703e171835a/ss_d20e13c15f87338198b027c290fec703e171835a.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/cbf5587ce50b963aa37f565299c7f6c88490c565/ss_cbf5587ce50b963aa37f565299c7f6c88490c565.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/cbf5587ce50b963aa37f565299c7f6c88490c565/ss_cbf5587ce50b963aa37f565299c7f6c88490c565.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/a50daf406bb51f65a51b54efcfc1422d56988744/ss_a50daf406bb51f65a51b54efcfc1422d56988744.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/a50daf406bb51f65a51b54efcfc1422d56988744/ss_a50daf406bb51f65a51b54efcfc1422d56988744.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/2c698a19ea194e095a4e87ec162a11123352ef6f/ss_2c698a19ea194e095a4e87ec162a11123352ef6f.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/2c698a19ea194e095a4e87ec162a11123352ef6f/ss_2c698a19ea194e095a4e87ec162a11123352ef6f.1920x1080.jpg?t=1778920917"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/725c0de92b9d59b99ae02bc5916e4ad8fc377229/ss_725c0de92b9d59b99ae02bc5916e4ad8fc377229.600x338.jpg?t=1778920917",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3898700/725c0de92b9d59b99ae02bc5916e4ad8fc377229/ss_725c0de92b9d59b99ae02bc5916e4ad8fc377229.1920x1080.jpg?t=1778920917"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257191881,
+            "name": "INFINITE MINEFIELD Gameplay video",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257191881/d8269180dc168c508112e57002cba31c00e59822/movie_600x337.jpg?t=1756757943",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3898700/673285435/2a6f32f334205f90de33266669f3ae2917949904/1756756145/dash_av1.mpd?t=1756757943",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3898700/673285435/2a6f32f334205f90de33266669f3ae2917949904/1756756145/dash_h264.mpd?t=1756757943",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3898700/673285435/2a6f32f334205f90de33266669f3ae2917949904/1756756145/hls_264_master.m3u8?t=1756757943",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "9d474b9c0a186696ad81709a3f18253836ba93b2.jpg",
+              "localized_name": "Millionaire",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Millionaire",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/9d474b9c0a186696ad81709a3f18253836ba93b2.jpg"
+            },
+            {
+              "icon": "ef5bd319e3f4e5cb544bf52c3191d6fcac65fb74.jpg",
+              "localized_name": "Paint It Black",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Paint It Black",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/ef5bd319e3f4e5cb544bf52c3191d6fcac65fb74.jpg"
+            },
+            {
+              "icon": "2dd384e0a55f3fa39767924748169f71b440f506.jpg",
+              "localized_name": "Bomb Has Been Defused",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bomb Has Been Defused",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/2dd384e0a55f3fa39767924748169f71b440f506.jpg"
+            },
+            {
+              "icon": "7f5ba12bf3f330b10d7757090fb8b44e1ec45c84.jpg",
+              "localized_name": "Boom!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Boom!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/7f5ba12bf3f330b10d7757090fb8b44e1ec45c84.jpg"
+            },
+            {
+              "icon": "b82888e2182bb94703d60cd066f919dedde36961.jpg",
+              "localized_name": "Lucky Seven",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Lucky Seven",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/b82888e2182bb94703d60cd066f919dedde36961.jpg"
+            },
+            {
+              "icon": "98b0bc16af1f2bd1d0d84a9a6e1646e9d138136f.jpg",
+              "localized_name": "You get it!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "You get it!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/98b0bc16af1f2bd1d0d84a9a6e1646e9d138136f.jpg"
+            },
+            {
+              "icon": "6c2953f53f046344feae5fcb3928c2dac77db181.jpg",
+              "localized_name": "30",
+              "archived": 0,
+              "hidden": 0,
+              "name": "30",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/6c2953f53f046344feae5fcb3928c2dac77db181.jpg"
+            },
+            {
+              "icon": "cb2b542f98a6f0d7528758ccb06c8aea7c207749.jpg",
+              "localized_name": "Speedster",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Speedster",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/cb2b542f98a6f0d7528758ccb06c8aea7c207749.jpg"
+            },
+            {
+              "icon": "de6af4d79a172e2735e01e19e23621500ea6a12b.jpg",
+              "localized_name": "Containing",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Containing",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/de6af4d79a172e2735e01e19e23621500ea6a12b.jpg"
+            },
+            {
+              "icon": "d0c282626e90c7855bf27a23c8d875a5a35c2cc6.jpg",
+              "localized_name": "Anaconda",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Anaconda",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3898700/d0c282626e90c7855bf27a23c8d875a5a35c2cc6.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "dmitishtech@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3898700?t=1778920917",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3898700?t=1778920917",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

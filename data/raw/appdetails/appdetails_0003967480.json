@@ -1,0 +1,231 @@
+{
+  "requested_at": "2026-09-13T06:09:32.797365+00:00",
+  "request_params": {
+    "appids": 3967480,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3967480,
+  "payload": {
+    "3967480": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Echoes of Baikal",
+        "steam_appid": 3967480,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h1>Special Offer</h1><p><p class=\"bb_paragraph\" >⭐⭐⭐ <strong>This game is part of the Cozy &amp; Emotional Stories bundle.</strong></p><p class=\"bb_paragraph\" >Get the complete collection with a discount.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/extras/56d2b8827fcf410fdb6e1d86de0e0a99.avif?t=1772762136\" width=706 height=232 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" ><strong>Echoes of Baikal — </strong>a heartfelt visual novel about family, memory, and self-discovery.</p><p class=\"bb_paragraph\" >You play as a young woman traveling with her father to Lake Baikal — a place tied to their family’s past. On the way, a storm stands in their path, while an old photo album brings back memories of childhood, joy and loss, quarrels and reconciliation.<br>Will you find harmony in the storm of emotions?</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🎬 A personal and emotional story about the road, relationships, growing up, and memory</p></li><li><p class=\"bb_paragraph\" >📖 A linear narrative focused on the heroine</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🎨 Two art styles: pixel art combined with a hand-drawn style</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Perfect for those who love emotional visual novels like <i>To the Moon</i> or <i>Clannad</i>.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Echoes of Baikal — </strong>a heartfelt visual novel about family, memory, and self-discovery.</p><p class=\"bb_paragraph\" >You play as a young woman traveling with her father to Lake Baikal — a place tied to their family’s past. On the way, a storm stands in their path, while an old photo album brings back memories of childhood, joy and loss, quarrels and reconciliation.<br>Will you find harmony in the storm of emotions?</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🎬 A personal and emotional story about the road, relationships, growing up, and memory</p></li><li><p class=\"bb_paragraph\" >📖 A linear narrative focused on the heroine</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >🎨 Two art styles: pixel art combined with a hand-drawn style</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Perfect for those who love emotional visual novels like <i>To the Moon</i> or <i>Clannad</i>.</p>",
+        "short_description": "A journey with your father to Lake Baikal, where a storm and an old photo album revive memories of family, loss, and reconciliation.",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/ec9b4eaa1285a9145b860fc99d135701a781b567/header.jpg?t=1772762136",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/82fee198353c154c1f88d950f9b092cb94b20146/capsule_231x87.jpg?t=1772762136",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/82fee198353c154c1f88d950f9b092cb94b20146/capsule_184x69.jpg?t=1772762136",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or higher<br></li><li><strong>Processor:</strong> 1.2 GHz or faster processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS<br></li><li><strong>Processor:</strong> 1.2 GHz or faster processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux<br></li><li><strong>Processor:</strong> 1.2 GHz or faster processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>"
+        },
+        "developers": [
+          " Alkinoy"
+        ],
+        "publishers": [
+          " Alkinoy"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1393066
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Echoes of Baikal",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1393066,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Echoes of Baikal - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/2a099b74f31a6455ae0be340a386b39280bdbfdc/ss_2a099b74f31a6455ae0be340a386b39280bdbfdc.600x338.jpg?t=1772762136",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/2a099b74f31a6455ae0be340a386b39280bdbfdc/ss_2a099b74f31a6455ae0be340a386b39280bdbfdc.1920x1080.jpg?t=1772762136"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/b26a5f7ca7747f71560d7fc423dedcafd0e6d5c7/ss_b26a5f7ca7747f71560d7fc423dedcafd0e6d5c7.600x338.jpg?t=1772762136",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/b26a5f7ca7747f71560d7fc423dedcafd0e6d5c7/ss_b26a5f7ca7747f71560d7fc423dedcafd0e6d5c7.1920x1080.jpg?t=1772762136"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/47612b38e7edca0cb23995b42852a84eee7ea89a/ss_47612b38e7edca0cb23995b42852a84eee7ea89a.600x338.jpg?t=1772762136",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/47612b38e7edca0cb23995b42852a84eee7ea89a/ss_47612b38e7edca0cb23995b42852a84eee7ea89a.1920x1080.jpg?t=1772762136"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/aa7d7e8bdc5877b474e9c0703ab6646a6a6b0eee/ss_aa7d7e8bdc5877b474e9c0703ab6646a6a6b0eee.600x338.jpg?t=1772762136",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/aa7d7e8bdc5877b474e9c0703ab6646a6a6b0eee/ss_aa7d7e8bdc5877b474e9c0703ab6646a6a6b0eee.1920x1080.jpg?t=1772762136"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/35593e26fcf36d8da040aed3bf0f96ac4fca65de/ss_35593e26fcf36d8da040aed3bf0f96ac4fca65de.600x338.jpg?t=1772762136",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967480/35593e26fcf36d8da040aed3bf0f96ac4fca65de/ss_35593e26fcf36d8da040aed3bf0f96ac4fca65de.1920x1080.jpg?t=1772762136"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257192749,
+            "name": "trai1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257192749/a4ce78c123e0774ccba5f503f47acc62084f6e48/movie_600x337.jpg?t=1756923265",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3967480/179792432/13680d8cd307a24b38f5543fa6103233e8580a0e/1756920830/dash_av1.mpd?t=1756923265",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3967480/179792432/13680d8cd307a24b38f5543fa6103233e8580a0e/1756920830/dash_h264.mpd?t=1756923265",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3967480/179792432/13680d8cd307a24b38f5543fa6103233e8580a0e/1756920830/hls_264_master.m3u8?t=1756923265",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "6088f2f39c754c551c8d69b096dc6a6838deed1e.jpg",
+              "localized_name": "Memory One",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Memory One",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3967480/6088f2f39c754c551c8d69b096dc6a6838deed1e.jpg"
+            },
+            {
+              "icon": "0b19b43598240ffbe05cac0f64f347e3302883bb.jpg",
+              "localized_name": "Memory Two",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Memory Two",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3967480/0b19b43598240ffbe05cac0f64f347e3302883bb.jpg"
+            },
+            {
+              "icon": "b72f3d1c82fa8a8f9983180540852d0f3674b8a0.jpg",
+              "localized_name": "Memory Three",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Memory Three",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3967480/b72f3d1c82fa8a8f9983180540852d0f3674b8a0.jpg"
+            },
+            {
+              "icon": "226e4f27e840beb48bb3f4abe027798f0bcaec3f.jpg",
+              "localized_name": "Memory Four",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Memory Four",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3967480/226e4f27e840beb48bb3f4abe027798f0bcaec3f.jpg"
+            },
+            {
+              "icon": "b2caa48aef4a860ee47c13917db9f8348903be2e.jpg",
+              "localized_name": "Road to Baikal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Road to Baikal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3967480/b2caa48aef4a860ee47c13917db9f8348903be2e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ppp110@yandex.ru"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3967480?t=1772762136",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3967480?t=1772762136",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4227580,
+  "requested_at": "2026-09-13T20:27:02.373416+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 0,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "213581620",
+        "author": {
+          "steamid": "76561198024195554",
+          "personaname": "Vansanit-Remin-Djakoba",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Vansanit-Remin-Djakoba/",
+          "num_games_owned": 7582,
+          "num_reviews": 604,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1766066888,
+          "avatar": "9ab4219600bace1e60523b66d118275f1a7f14a8"
+        },
+        "language": "russian",
+        "review": "Игра, которая несколько напомнила мне аэрохоккей. Впрочем, можно назвать и футболом, где каждый из двух игроков стоит у собственных ворот и пытается забить гол в ворота оппонента. Но гораздо больше она напомнила мне арканоид. Есть разные режимы игры, которые настраиваются в главном меню, есть магазин, где мы можем приобрести игрока себе и сопернику. Кстати, соперником может выступить и друг. Приятно поигрался и победил компьютерного оппонента!",
+        "timestamp_created": 1766080246,
+        "timestamp_updated": 1766080246,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.594913244247436523",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766044917",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYGguAAAAAFP+MJhwAAAAB089+uBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

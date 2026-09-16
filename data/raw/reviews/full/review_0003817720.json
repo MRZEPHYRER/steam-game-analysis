@@ -1,0 +1,66 @@
+{
+  "appid": 3817720,
+  "requested_at": "2026-09-13T19:43:53.791765+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "209139722",
+        "author": {
+          "steamid": "76561198353579032",
+          "personaname": "chef",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198353579032/",
+          "num_games_owned": 314,
+          "num_reviews": 21,
+          "playtime_forever": 4269,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 411,
+          "last_played": 1779207694,
+          "avatar": "b48123f145ec156479c6fba2d14e2c07f8d4bff5"
+        },
+        "language": "english",
+        "review": "great game, dev is very respectful of feedback and bug reports, glad that they are continuing to develop this game through low popularity, really hoping this gets some more players <3\njoin the genki break discord",
+        "timestamp_created": 1763060386,
+        "timestamp_updated": 1763060386,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.541666686534881592",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753902084",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZKqoAAAAAFP+FVVgAAAAB6gOedBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

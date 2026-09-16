@@ -1,0 +1,71 @@
+{
+  "appid": 2653120,
+  "requested_at": "2026-09-13T18:53:37.605939+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "208908631",
+        "author": {
+          "steamid": "76561198122118140",
+          "personaname": "Gyvr",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/gyvr/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 184,
+          "last_played": 1762806885,
+          "avatar": "075308039a8f9e74cb5aec2a8d02cf9236d666fc"
+        },
+        "language": "english",
+        "review": "Really fun game! I love the diversity of the environments and monsters. It took me a few hours to complete, and I’m already looking forward to a sequel or expansion!",
+        "timestamp_created": 1762807011,
+        "timestamp_updated": 1762807011,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.594002306461334229",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762793980",
+        "reactions": [
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYHrWAAAAAFP+MCEIAAAAB3lfacBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0310000000001764,
+  "transport_error_count": 0
+}

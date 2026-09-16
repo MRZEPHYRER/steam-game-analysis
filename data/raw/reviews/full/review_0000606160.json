@@ -1,0 +1,143 @@
+{
+  "appid": 606160,
+  "requested_at": "2026-09-13T18:40:54.606101+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 6649,
+      "total_negative": 599,
+      "total_reviews": 7248
+    },
+    "reviews": [
+      {
+        "recommendationid": "212837469",
+        "author": {
+          "steamid": "76561197995805783",
+          "personaname": "x 3 n",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197995805783/",
+          "num_games_owned": 0,
+          "num_reviews": 90,
+          "playtime_forever": 589,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 193,
+          "last_played": 1765482059,
+          "avatar": "23ef9af12e72434e7bb747e71df15f84793eb186"
+        },
+        "language": "english",
+        "review": "Routine – Early Impressions\n\nRoutine is fantastic for what it is, and honestly, the story behind its development makes it even more impressive. This game was announced back in 2012 with a vision that instantly grabbed everyone. Then everything went dark. Development stalled, radio silence dragged on for years, and most of us assumed it had died somewhere between the engine swaps and bad luck. People joke that it looks inspired by Alien Isolation… but this existed before that game was even shown.\n\nSo seeing Routine finally released felt surreal. I was ready to play it purely out of respect for that old promise, expecting anything from a rough curiosity to a half-finished relic. Instead, the game turns out to be genuinely good. Better than good. You can tell they cooked this thing patiently over all those years. Massive respect to the team for pulling off what honestly felt impossible. Their resilience and grit deserve praise on its own.\n\nIt’s even crazier when you remember this was built by something like 3–4 people. Because the visuals do not look like a tiny-team project. The art direction is killer. Even the simplest objects have style. The materials, the lighting, the texture work… it’s all insanely polished and beautifully optimized. This game runs smooth as butter even on older machines.\n\nThe audio is on the same level. I haven’t felt this kind of immersion in ages. It genuinely brings back the era of Thief and System Shock 2, when audio wasn’t just background noise but the thing that pulled you under. Mick Gordon touched this during early development and you can feel the intensity in the soundscape.\n\nThere’s also a clear Valve-like philosophy at play. Not in copying Half-Life’s gameplay, but in how it tells the story. Environmental storytelling, little details, a world that feels handcrafted with purpose. You can feel the passion baked into every corner.\n\nOverall, Routine is essential. It’s the kind of game the sci-fi horror genre desperately needed to remind everyone that atmosphere and craftsmanship matter more than budget or spectacle.\n\nAnd if you’re into Half-Life, System Shock, Alien Isolation, Prey, SOMA, Amnesia, or basically anything dark, lonely, atmospheric and heavy on mood… this is a blind recommendation. Don’t think. Just play it.",
+        "timestamp_created": 1765185639,
+        "timestamp_updated": 1765185639,
+        "voted_up": true,
+        "votes_up": 230,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.92387157678604126",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764860216",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 7
+          },
+          {
+            "reaction_type": 5,
+            "count": 5
+          },
+          {
+            "reaction_type": 16,
+            "count": 3
+          },
+          {
+            "reaction_type": 21,
+            "count": 3
+          },
+          {
+            "reaction_type": 10,
+            "count": 2
+          },
+          {
+            "reaction_type": 14,
+            "count": 2
+          },
+          {
+            "reaction_type": 7,
+            "count": 2
+          },
+          {
+            "reaction_type": 8,
+            "count": 2
+          },
+          {
+            "reaction_type": 18,
+            "count": 2
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 20,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 12,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRhcaAAAAAFP+2QXAAAAAB9xfSrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.6400000000001,
+  "transport_error_count": 0
+}

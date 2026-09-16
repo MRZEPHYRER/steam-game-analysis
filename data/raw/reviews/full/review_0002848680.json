@@ -1,0 +1,66 @@
+{
+  "appid": 2848680,
+  "requested_at": "2026-09-13T18:57:05.734651+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 2,
+      "total_negative": 4,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "207714028",
+        "author": {
+          "steamid": "76561197969193530",
+          "personaname": "MiroMIO",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/miromio/",
+          "num_games_owned": 1006,
+          "num_reviews": 1,
+          "playtime_forever": 39,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 39,
+          "last_played": 1761566890,
+          "avatar": "1b96b46ed2f7a72b7bf373208365ada28a994830"
+        },
+        "language": "english",
+        "review": "Hi\nAt the moment, there are still too many bugs in the game that spoil the fun.\nFor example, the Scarecrow Quest. You can no longer get back through the gate. Or there is no display in the workbench menu showing the construction status. There is also no display in the tool wheel showing the status of the tools themselves.\nOtherwise, the game doesn't look bad and I hope the developer continues to work on it.",
+        "timestamp_created": 1761570062,
+        "timestamp_updated": 1761570062,
+        "voted_up": false,
+        "votes_up": 8,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.608883976936340332",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761382610",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX0oOAAAAAFP+N7+kAAAAB87q6YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3877150,
+  "requested_at": "2026-09-13T19:53:34.028680+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224877296",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 810,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 810,
+          "last_played": 1777930500,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Pixelo is a deceptively simple puzzle game that proves how engaging a minimalist concept can become when executed with care and confidence. Developed and published by ggame, the title revolves around nonogram-style puzzles where players use numbered clues along rows and columns to reveal hidden pixel art images. While the premise may sound straightforward on paper, the game quickly demonstrates how satisfying logical deduction can be when paired with smooth progression and a relaxing atmosphere. Rather than overwhelming players with unnecessary mechanics or distractions, Pixelo focuses entirely on delivering a clean and rewarding puzzle-solving experience that captures the addictive charm of classic logic games.\n\nOne of the first things that stands out about Pixelo is how approachable it feels, even for newcomers unfamiliar with nonograms. The early puzzles are carefully designed to teach players the fundamentals naturally, allowing them to understand how clue sequences function without relying on overly complicated tutorials. The learning curve is steady and well-balanced, which makes the experience accessible while still leaving room for increasing complexity later on. Veteran puzzle fans will quickly recognize familiar mechanics, but the game’s smooth pacing ensures that beginners are never completely left behind. This careful balance between accessibility and challenge is one of the game’s greatest strengths because it keeps the experience consistently engaging over long play sessions.\n\nThe core gameplay loop is extremely satisfying thanks to the gradual process of uncovering hidden images piece by piece. Every completed row feels like progress toward solving a larger mystery, and there is a constant sense of momentum as scattered markings slowly evolve into recognizable pixel art. The game taps into the same rewarding feeling found in traditional crossword puzzles or Sudoku, where patience and logic eventually produce a satisfying payoff. Some puzzles can initially appear intimidating, especially the larger grids, but the sense of accomplishment after solving a difficult board makes the effort worthwhile. Pixelo understands the psychology of puzzle design very well, rewarding careful observation and deduction rather than relying on luck or random guessing.\n\nThe visual presentation embraces simplicity without feeling bland. Since the entire game is centered around pixel-based puzzle boards, the art style naturally leans into retro aesthetics, but it still manages to feel charming and expressive. Each solved image acts as a small reward, encouraging players to continue progressing just to see what creative design appears next. The user interface is clean and easy to navigate, which is extremely important for a puzzle-focused title. Controls feel responsive, marking squares is intuitive, and the overall layout avoids clutter that could interfere with concentration. Even during more complex puzzles, the game remains readable and comfortable to play.\n\nAnother notable strength is the calm and relaxing atmosphere. Pixelo avoids the aggressive pacing and sensory overload common in many modern games. There are no constant interruptions, flashy effects, or stressful timers pressuring players into making quick decisions. Instead, the game encourages thoughtful problem-solving at a comfortable pace. This makes it ideal for players looking to unwind while still engaging their minds. The soundtrack and sound effects complement this atmosphere well, remaining subtle enough to enhance concentration rather than distract from it. The overall experience becomes surprisingly meditative, especially during longer sessions where players settle into the rhythm of analyzing clues and filling grids.\n\nAs the game progresses, the puzzles become significantly more challenging, demanding greater focus and more advanced deduction skills. Larger boards require players to think carefully about overlapping possibilities and partial solutions, creating moments where a single discovery can unlock an entire section of the puzzle. Fortunately, the difficulty rarely feels unfair. Even the harder puzzles are designed logically, meaning success comes from observation and patience rather than brute force experimentation. This fair approach to challenge helps maintain the game’s relaxing nature while still providing enough complexity to satisfy experienced puzzle enthusiasts.\n\nHowever, Pixelo’s focused design may also limit its appeal for some players. The gameplay remains fundamentally consistent throughout the experience, so anyone who does not enjoy nonogram puzzles may struggle to stay invested for long periods. While the game introduces increasingly difficult boards and fresh pixel art designs, it does not dramatically expand beyond its central mechanic. Players searching for narrative depth, major gameplay twists, or a broader variety of activities may eventually find the repetition noticeable. The game succeeds because it fully embraces its niche, but that niche will not appeal equally to everyone.\n\nDespite this limitation, Pixelo delivers exactly what fans of logic puzzle games are likely hoping for. It is polished, relaxing, thoughtfully designed, and genuinely rewarding to play. The game respects player intelligence by focusing on deduction-based gameplay while providing a comfortable atmosphere that makes solving puzzles feel enjoyable rather than stressful. Its clean presentation and carefully balanced progression make it easy to recommend to both newcomers and long-time fans of the genre. For players who appreciate slow-paced puzzle solving and the quiet satisfaction of revealing hidden images through logic alone, Pixelo offers a deeply enjoyable experience that remains engaging from beginning to end.\n\nRating: 7/10",
+        "timestamp_created": 1778049155,
+        "timestamp_updated": 1778049155,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.428825497627258301",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754360419",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFbbGqAAAAAFP9tx3mAAAABwr+vZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

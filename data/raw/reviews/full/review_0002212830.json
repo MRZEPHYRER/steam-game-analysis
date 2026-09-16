@@ -1,0 +1,66 @@
+{
+  "appid": 2212830,
+  "requested_at": "2026-09-13T18:48:27.786160+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 1,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "213039270",
+        "author": {
+          "steamid": "76561199797554061",
+          "personaname": "Sunset Joker",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Sunset_Joker/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 264,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 242,
+          "last_played": 1773287670,
+          "avatar": "64455b3f80e6419b182bf68c483de214f5f56d75"
+        },
+        "language": "english",
+        "review": "I'm a sucker for card games, and this immediately reeled me in. This game employs a standard 52 card deck, a casino setting, and an attractive underworld dealer with a voice that turns me on. The different outfits and card decals are also very pleasant. \r\n\r\nAll you need to do is take the dealer's soul (represented by an Ace card) before she takes yours... just don't lose it all by betting in a soul rush. I even reached out to ask about official rules for IRL play, and I got a response from the developer! You can find them in the discussion section for this game. It's very fun to say, \"Let's play Soul Taker\" while shuffling a deck and see eyes go wide. I have 4 souls after playing with friends.\r\n\r\nThe game does crash often, and I doubt it remembers your settings, but it is a fun game nonetheless and I won't cast judgment.",
+        "timestamp_created": 1765448929,
+        "timestamp_updated": 1765448929,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1676561319",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2itesBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0319999999999254,
+  "transport_error_count": 0
+}

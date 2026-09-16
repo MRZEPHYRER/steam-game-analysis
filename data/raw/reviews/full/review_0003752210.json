@@ -1,0 +1,66 @@
+{
+  "appid": 3752210,
+  "requested_at": "2026-09-13T19:37:10.034882+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208602120",
+        "author": {
+          "steamid": "76561198303683157",
+          "personaname": "theonlynova911",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198303683157/",
+          "num_games_owned": 1400,
+          "num_reviews": 749,
+          "playtime_forever": 193,
+          "playtime_last_two_weeks": 5,
+          "playtime_at_review": 187,
+          "last_played": 1788168863,
+          "avatar": "eecb34e26ea59067475bc411c73da82162960079"
+        },
+        "language": "english",
+        "review": "exactly what it looks like.\r\nphysics-sandbox-destruction game.\r\ncomes with dev-made-map which took me about 2.5 hours to complete once i was able to actually complete a run (could probably shave .5-1hr off of it).  that being said, there is a level editor included and i look forward to seeing what the community comes up with when it comes to custom maps. \r\ndefinitely worth the price (if not more!) with a high level of replayability. really happy with this one.",
+        "timestamp_created": 1762483988,
+        "timestamp_updated": 1762483988,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.640537917613983154",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762185319",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXMHIAAAAAFP+R/SYAAAAB4wOCbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

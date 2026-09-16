@@ -1,0 +1,73 @@
+{
+  "appid": 3725130,
+  "requested_at": "2026-09-13T19:34:50.700522+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "221367791",
+        "author": {
+          "steamid": "76561199187767879",
+          "personaname": "cherry",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199187767879/",
+          "num_games_owned": 351,
+          "num_reviews": 328,
+          "playtime_forever": 314,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 314,
+          "last_played": 1774172467,
+          "avatar": "1de4e179d6f1774c35a7feed82981ee93d63f2f1"
+        },
+        "language": "japanese",
+        "review": "背景に猫の画像(たぶんAI)がある、\n猫の体を伸ばして毛糸玉までひと筆書きするパズルゲーム。\n\n前作から一気に問題数が増えていて、\n通常進行のメインレベルが150ステージ、\nサクサク進行のサイドレベルが500ステージの計650ステージに。\n\nメインレベルはそこそこ難しい問題が多く、\nギミックの紹介から順に難易度も上がっていく。\n\nサイドレベルは1問1分ぐらいの簡単な問題が中心で、\n前作のプレイ感に近いのはこっちのイメージ。\n\n[code][url=https://store.steampowered.com/curator/44793959/][b][u]遊んだゲームを紹介する。[/u][/b][/url] のキュレーターで紹介しました。\n他にもいろんなゲームのレビューを書いているので、\nぜひキュレーターもフォローしていただけると嬉しいです。[/code]",
+        "timestamp_created": 1774172608,
+        "timestamp_updated": 1785342959,
+        "voted_up": true,
+        "votes_up": 21,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.73015904426574707",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752615190",
+        "hardware": {
+          "system_ram": "65303",
+          "os": "Windows 11",
+          "cpu_name": "13th Gen Intel(R) Core(TM) i7-13700K",
+          "adapter_description": "NVIDIA GeForce RTX 3080",
+          "vram_size": 10051
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVZZYAAAAAFP+dddmAAAAB/3rnMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

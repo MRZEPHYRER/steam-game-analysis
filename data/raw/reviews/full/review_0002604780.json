@@ -1,0 +1,66 @@
+{
+  "appid": 2604780,
+  "requested_at": "2026-09-13T18:53:06.033461+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "224727395",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 833,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 833,
+          "last_played": 1777581341,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "World of Blind by QIPAWORLD is a rare kind of experiment that deliberately challenges one of the most fundamental expectations in gaming: the reliance on sight. Instead of building a world meant to be seen and visually interpreted, the game places players into an environment where vision is severely limited or nearly absent, forcing a complete shift in how interaction and awareness are handled. It immediately establishes itself as something unconventional, not by offering complex systems or expansive content, but by committing fully to a single, focused idea of sensory immersion through sound.\n\nThe core of the experience revolves around navigating spaces using audio cues and subtle feedback rather than visual clarity. Movement becomes slower and more deliberate, as players must rely on directional sounds, environmental echoes, and contextual hints to understand what surrounds them. Even basic actions like walking forward or avoiding obstacles require a level of attention that most games rarely demand. This creates a constant sense of uncertainty, where every step feels tentative and every sound carries meaning. It is not about speed or mastery in the traditional sense, but about learning to interpret a different language of interaction.\n\nAs players explore, the game introduces a light sense of progression tied to discovery. Various elements of the environment, including animals and ambient features, can be identified through their unique sounds. Recognizing these elements adds a layer of engagement, giving players small objectives to pursue as they move through the world. However, this system remains fairly simple, and the motivation to continue often comes more from curiosity than from structured goals. The experience leans heavily on the player’s willingness to engage with its concept rather than providing strong external incentives.\n\nOne notable design choice is the inclusion of optional visual assistance. Players can enable a limited light source to partially illuminate their surroundings, making navigation easier. While this option improves accessibility and reduces frustration, it also slightly weakens the core idea of the game. The tension between immersion and usability becomes apparent here, as the most authentic version of the experience is also the most demanding. Players must decide how much they are willing to adapt to the game’s intended design versus making it more comfortable to play.\n\nThe simplicity of the mechanics is both a strength and a limitation. On one hand, the focused design allows the central concept to shine without unnecessary distractions. On the other hand, the lack of variety means that the experience does not evolve significantly over time. Once players become accustomed to how the audio cues work and how to navigate the environment, there are few new mechanics or challenges introduced to keep the gameplay feeling fresh. This can make the experience feel repetitive after the initial sense of novelty fades.\n\nVisually, the game remains minimal and subdued, which aligns with its design philosophy. When elements are visible, they are functional rather than detailed, serving more as context than as a primary feature. The real emphasis is placed on sound design, which carries the weight of the experience. Audio cues are carefully used to represent distance, direction, and identity, allowing players to construct a mental map of the world without relying on sight. This makes the sound design the most critical and successful aspect of the game, as it directly supports its core concept.\n\nThe overall tone is quiet and introspective, encouraging players to slow down and engage with the environment in a more thoughtful way. There is no urgency or high-stakes tension in the traditional sense, but rather a steady, almost meditative pace that invites focus and patience. This approach will resonate with players who are open to experimental designs and unconventional gameplay, while others may find it lacking in excitement or depth.\n\nIn the end, World of Blind stands as an interesting and commendable attempt to explore a different way of experiencing games. It succeeds in presenting a unique perspective and demonstrates how sound can be used as a primary tool for interaction. However, its limited scope and lack of evolving gameplay prevent it from becoming a fully engaging long-term experience. It is best appreciated as a short, thought-provoking experiment rather than a complete and content-rich title.\n\nRating: 6/10",
+        "timestamp_created": 1777859517,
+        "timestamp_updated": 1777859517,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753686164",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABzlqLZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

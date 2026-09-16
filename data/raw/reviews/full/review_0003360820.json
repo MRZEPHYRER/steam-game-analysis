@@ -1,0 +1,73 @@
+{
+  "appid": 3360820,
+  "requested_at": "2026-09-13T19:12:26.938916+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "220903526",
+        "author": {
+          "steamid": "76561198017979598",
+          "personaname": "HundelungeVR",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/deutscherdoener/",
+          "num_games_owned": 0,
+          "num_reviews": 458,
+          "playtime_forever": 29,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 29,
+          "last_played": 1773760676,
+          "avatar": "d25e14833279f796876b41546dfc1709ca8599af"
+        },
+        "language": "german",
+        "review": "Ich hab Tränen gelacht – eine der besten VR Experiences überhaupt.\n„Great Hoax: The Moon Landing“ ist komplett irre, kreativ und einfach funtastisch.\nAber Achtung: Ihr braucht ein bisschen Platz im Raum – und es geht nur im Stehen!\nIch war nicht vorbereitet auf diesen Humor – und genau das macht’s so besonders.\n🎥 HundelungeVR 🐕 – mit Herz, Humor . ❤ https://youtu.be/xRORK-iLq4U?si=LhH0j3SM2qIY8uDG",
+        "timestamp_created": 1773762305,
+        "timestamp_updated": 1773762305,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.575289607048034668",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765793185",
+        "hardware": {
+          "system_ram": "32422",
+          "os": "Windows 11",
+          "cpu_name": "AMD Ryzen 7 9700X 8-Core Processor             ",
+          "adapter_description": "NVIDIA GeForce RTX 5060 Ti",
+          "vram_size": 16050
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZfoQAAAAAFP+JoxqAAAAB2htfKBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

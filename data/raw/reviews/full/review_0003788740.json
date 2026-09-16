@@ -1,0 +1,66 @@
+{
+  "appid": 3788740,
+  "requested_at": "2026-09-13T19:40:02.402157+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "202540577",
+        "author": {
+          "steamid": "76561198956974133",
+          "personaname": "Stronmer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198956974133/",
+          "num_games_owned": 643,
+          "num_reviews": 17,
+          "playtime_forever": 42,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1760086551,
+          "avatar": "7b42307a7f7bd33f52ef054dd2731081252a8328"
+        },
+        "language": "english",
+        "review": "Not a bad game.\n\nLearn about dinosaurs, weight, region, Time period they lived and the size comparison to a human or other objects.\n\nOtherwise Mining game sucks, Very slow takes like 30 seconds to walk to a mine and by then its gone because of a\ntime limit spawn.\n\nCant find half the dinosaurs on the map or maybe i have to get more information from mining which ill pass until its fixed.\nCant do any quiz's until all 28 dinos are found, ive only found 15 and there are maps with no dinosaurs on it.\n\nOther than that its not a bad game just needs a little touch up.\n",
+        "timestamp_created": 1755718715,
+        "timestamp_updated": 1755718715,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 1,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754923037",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABx4tCEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

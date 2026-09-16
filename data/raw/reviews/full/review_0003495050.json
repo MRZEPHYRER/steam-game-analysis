@@ -1,0 +1,66 @@
+{
+  "appid": 3495050,
+  "requested_at": "2026-09-13T19:19:08.455156+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 1,
+      "total_reviews": 40
+    },
+    "reviews": [
+      {
+        "recommendationid": "206002521",
+        "author": {
+          "steamid": "76561198072046666",
+          "personaname": "LyndaSmiles ᴱᴳ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198072046666/",
+          "num_games_owned": 3545,
+          "num_reviews": 239,
+          "playtime_forever": 27,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 27,
+          "last_played": 1758610431,
+          "avatar": "59fc8822474938441306fd78128ebca6dcdbb666"
+        },
+        "language": "english",
+        "review": "Oh no, zombies are everywhere and trying to take over the world! Save these cute, innocent cats from being turned into zombies!\n\n100 Zombie Cats by Developer 100 Cozy Games, Cats\n\nThese poor cats are cleverly hidden, trying to save their lives. But the zombies are quickly spotting them and informing the others. They have turned some of these sweet, adorable babies into \"Zombie Cats.\" OMG, help them before it's too late! Zombies are taking over and need to be stopped! Nice selection of in menu settings. There is a brightness control (love it!) and various sound volumes. Has an excellent zoom button and it saves progress too. There is an optional timer you can choose, to beat your own stats or those of your friends. Hint button works great too, and yes I did try it to make sure it works. It keeps flashing a cat shape around the area to help you spot and save that innocent cat. Music is relaxing so much so, that I started to fall asleep...a few times. Game states it has one level, but I see two levels on mine and I don't see where an additional level can be purchased. So, maybe the developer expanded on the game. Maybe? There is no text, so it's perfect for everybody. Has realistic cat meows when you find them, and each has weird, quirky names. It has lovely hand drawn, high quality resolution art to enjoy on your saving crusade. Perfect for the whole family or anyone to play.\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3573273196\n\nPros:\n* No Text\n* 2 Levels\n* 200 Cats\n* Family Sharing\n* 100 Achievements\n* Brightness Settings\n* High Resolution Arts\n* Hint/Save/Zoom Buttons\n* Entertaining Soundtrack\n* No Issues using Windows 11\n\nCons:\n* No Trading Cards\n* Profile Features Limited\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3573272885\n\nRating: 8.5/10\n\nFinal Thoughts:\nQuick, adorable game of cats hiding for their lives. Find them and save them from the terrible zombies who are taking over. Several in menu settings to help you enjoy and progress in the game. Excellent hint, save and zoom settings and most importantly (for me) brightness control. Price is inexpensive and will bring a big smile to your face!\n\n[table]\n[tr]\n[th]\nThis review was submitted for [url=http://steamcommunity.com/groups/elitegives]Elite Giveaways[/url], where every game deserves a review.\nFollow our [url=https://store.steampowered.com/curator/11978515/]Curator page for lots more honest reviews[/url].\n",
+        "timestamp_created": 1759713651,
+        "timestamp_updated": 1759713651,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.656609296798706055",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753369341",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX3imAAAAAFP+UC8OAAAAB5leuRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

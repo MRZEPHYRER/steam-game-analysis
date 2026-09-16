@@ -1,0 +1,68 @@
+{
+  "appid": 4104030,
+  "requested_at": "2026-09-13T20:19:06.930297+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "208982928",
+        "author": {
+          "steamid": "76561197985078180",
+          "personaname": "Just China Fuh",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/MyCouchPullsOutButtIDont/",
+          "num_games_owned": 374,
+          "num_reviews": 21,
+          "playtime_forever": 62,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 37,
+          "last_played": 1763055747,
+          "avatar": "8f9e1a7983e66df58c3922c38952e9acece08979"
+        },
+        "language": "english",
+        "review": "Not a bad start. Like the concept over all. Don't trust the light on the guys arm that's standing in front of the car. Sometimes it shows up other times it doesn't. Please adjust this devs. Also get a category on twitch so it can be labeled.",
+        "timestamp_created": 1762892120,
+        "timestamp_updated": 1762892287,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.557823121547698975",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1762973287,
+        "developer_response": "Thanks for the heads up! I was able to get the game setup for Twitch and also updated it so that the light for the guy on the side of the road should be consistent on each loop.\n\nIf you have any other feedback or notice bugs that need fixing, feel free to message me at hello@entergrip.com.",
+        "app_release_date": "1762877483",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY1/IAAAAAFP+HZr6AAAABwuZqdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.75,
+  "transport_error_count": 0
+}

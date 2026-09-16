@@ -1,0 +1,66 @@
+{
+  "appid": 2282770,
+  "requested_at": "2026-09-13T18:49:03.945252+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "228071951",
+        "author": {
+          "steamid": "76561198006849067",
+          "personaname": "lery274",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198006849067/",
+          "num_games_owned": 0,
+          "num_reviews": 34,
+          "playtime_forever": 81,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 23,
+          "last_played": 1781601032,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "koreana",
+        "review": "분위기와 게임 방식은 좋다 그던데 문제점을 확실하다\n1.총알 수급하는 방법없다 총알다떨어지면 아무것도 못한다.\n2.근접무기가 없다.\n특히2번이 문제인데 총알다떨어지면 할게 없음 그냥 죽거나 긴급탈출해야함.",
+        "timestamp_created": 1781577831,
+        "timestamp_updated": 1781577831,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761889774",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB/oIPmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9210000000000491,
+  "transport_error_count": 0
+}

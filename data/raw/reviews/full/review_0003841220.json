@@ -1,0 +1,66 @@
+{
+  "appid": 3841220,
+  "requested_at": "2026-09-13T19:47:49.583851+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 70,
+      "total_negative": 12,
+      "total_reviews": 82
+    },
+    "reviews": [
+      {
+        "recommendationid": "207814642",
+        "author": {
+          "steamid": "76561198125900805",
+          "personaname": "Grumpy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/GrumpyGG/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 134,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 129,
+          "last_played": 1761685430,
+          "avatar": "ce6003b92267da733fcec08c88a84862cd129509"
+        },
+        "language": "english",
+        "review": "Story: 10/10\nGraphics: 100/10\nJump scares: 1000/10\nControls: 8/10\nAbsolute gem of a horror game was not expecting the amount of tension and jump scares that I got.",
+        "timestamp_created": 1761679175,
+        "timestamp_updated": 1761679175,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.601007997989654541",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761670822",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX+2MAAAAAFP+M6lMAAAABy/9+YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

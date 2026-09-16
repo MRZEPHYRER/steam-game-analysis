@@ -1,0 +1,199 @@
+{
+  "requested_at": "2026-09-12T14:28:44.606398+00:00",
+  "request_params": {
+    "appids": 3134010,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3134010,
+  "payload": {
+    "3134010": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Where Is Granma!?",
+        "steam_appid": 3134010,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Single-player third-person shooter that takes you through various levels infested with mutant vegetables each one has unique abilities and attacks, and you'll also have to fight bosses to complete each level.</p><p class=\"bb_paragraph\" >The game takes place on a farm, on a road filled with enemies and obstacles, and in a small town at night.</p><p class=\"bb_paragraph\" >Weapons include a large cooking spoon that you can use as a melee weapon, a pistol, a machine gun, and bombs.</p><p class=\"bb_paragraph\" >In some places to obtain ammunition, you'll have to destroy large red ants to obtain bullets for the pistol, and much larger black ants for the machine gun.</p><p class=\"bb_paragraph\" >You will play as a grandmother who is left behind alone and trapped on a farm full of vegetables mutated into giant insects.</p><p class=\"bb_paragraph\" >Your granddaughter Sofia leaves you a message that lets you know that in the nearest town there is a helicopter that you can use to escape.</p><p class=\"bb_paragraph\" >However, to get to the town, you must travel along a very bumpy road full of mutants.</p><p class=\"bb_paragraph\" >The creatures are immune to conventional weapons, but vulnerable to salt and pepper.</p><p class=\"bb_paragraph\" >Fortunately, your granddaughter Sofia made a saltshaker gun that throws salt cubes and an automatic pepper shaker that throws peppercorns and some special bombs with species.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Single-player third-person shooter that takes you through various levels infested with mutant vegetables each one has unique abilities and attacks, and you'll also have to fight bosses to complete each level.</p><p class=\"bb_paragraph\" >The game takes place on a farm, on a road filled with enemies and obstacles, and in a small town at night.</p><p class=\"bb_paragraph\" >Weapons include a large cooking spoon that you can use as a melee weapon, a pistol, a machine gun, and bombs.</p><p class=\"bb_paragraph\" >In some places to obtain ammunition, you'll have to destroy large red ants to obtain bullets for the pistol, and much larger black ants for the machine gun.</p><p class=\"bb_paragraph\" >You will play as a grandmother who is left behind alone and trapped on a farm full of vegetables mutated into giant insects.</p><p class=\"bb_paragraph\" >Your granddaughter Sofia leaves you a message that lets you know that in the nearest town there is a helicopter that you can use to escape.</p><p class=\"bb_paragraph\" >However, to get to the town, you must travel along a very bumpy road full of mutants.</p><p class=\"bb_paragraph\" >The creatures are immune to conventional weapons, but vulnerable to salt and pepper.</p><p class=\"bb_paragraph\" >Fortunately, your granddaughter Sofia made a saltshaker gun that throws salt cubes and an automatic pepper shaker that throws peppercorns and some special bombs with species.</p>",
+        "short_description": "Third-person action shooter, where your mission is to escape. You'll play as a grandma in a world infested by plant-based insects, with only a cooking spoon a salt shaker and a pepper shaker, all adapted as weapons.",
+        "supported_languages": "English, Spanish - Spain",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/header.jpg?t=1773927415",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/capsule_231x87.jpg?t=1773927415",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/capsule_184x69.jpg?t=1773927415",
+        "website": "http://iofiction.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD, 2.5 GHz or faster<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 or DirectX 12 compatible graphics card<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 850 MB available space<br></li><li><strong>Sound Card:</strong> Standard</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "IOFiction LLC"
+        ],
+        "publishers": [
+          "IOFiction LLC"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1112790
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Where Is Granma!?",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1112790,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Where Is Granma!? - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/6c1a7661bbec92375a60454b45ab87f530897e3a/ss_6c1a7661bbec92375a60454b45ab87f530897e3a.600x338.jpg?t=1773927415",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/6c1a7661bbec92375a60454b45ab87f530897e3a/ss_6c1a7661bbec92375a60454b45ab87f530897e3a.1920x1080.jpg?t=1773927415"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/3c1e6a18614e4106364c29721cceaa1ede341ae7/ss_3c1e6a18614e4106364c29721cceaa1ede341ae7.600x338.jpg?t=1773927415",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/3c1e6a18614e4106364c29721cceaa1ede341ae7/ss_3c1e6a18614e4106364c29721cceaa1ede341ae7.1920x1080.jpg?t=1773927415"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/b167ac92f78ab972f8fb2aa6218ce7ae7c26b7df/ss_b167ac92f78ab972f8fb2aa6218ce7ae7c26b7df.600x338.jpg?t=1773927415",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/b167ac92f78ab972f8fb2aa6218ce7ae7c26b7df/ss_b167ac92f78ab972f8fb2aa6218ce7ae7c26b7df.1920x1080.jpg?t=1773927415"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/b51e86a11769d81d75df5795228995431db50581/ss_b51e86a11769d81d75df5795228995431db50581.600x338.jpg?t=1773927415",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/b51e86a11769d81d75df5795228995431db50581/ss_b51e86a11769d81d75df5795228995431db50581.1920x1080.jpg?t=1773927415"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/36bfee7541acb92af5c8771dc5dddc837aa9b54c/ss_36bfee7541acb92af5c8771dc5dddc837aa9b54c.600x338.jpg?t=1773927415",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3134010/36bfee7541acb92af5c8771dc5dddc837aa9b54c/ss_36bfee7541acb92af5c8771dc5dddc837aa9b54c.1920x1080.jpg?t=1773927415"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257306045,
+            "name": "Trailer01",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257306045/b7808c06135dcf6843529bcc20f17a28d3d27990/movie_600x337.jpg?t=1773927414",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3134010/1027447205/f4225c8663e4cee2384f9a2eb8c948ae889b75e1/1773927221/dash_av1.mpd?t=1773927414",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3134010/1027447205/f4225c8663e4cee2384f9a2eb8c948ae889b75e1/1773927221/dash_h264.mpd?t=1773927414",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3134010/1027447205/f4225c8663e4cee2384f9a2eb8c948ae889b75e1/1773927221/hls_264_master.m3u8?t=1773927414",
+            "highlight": true
+          },
+          {
+            "id": 257305147,
+            "name": "New Farm",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257305147/499552e61713da76cbe2a51744fc9e2af92733db/movie_600x337.jpg?t=1773797958",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3134010/166967586/5d36d1d06a6a3f022f14c55335af693c60946b84/1773797259/dash_av1.mpd?t=1773797958",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3134010/166967586/5d36d1d06a6a3f022f14c55335af693c60946b84/1773797259/dash_h264.mpd?t=1773797958",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3134010/166967586/5d36d1d06a6a3f022f14c55335af693c60946b84/1773797259/hls_264_master.m3u8?t=1773797958",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2025"
+        },
+        "support_info": {
+          "url": "http://iofiction.com",
+          "email": "support@iofiction.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3134010?t=1773927415",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3134010?t=1773927415",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

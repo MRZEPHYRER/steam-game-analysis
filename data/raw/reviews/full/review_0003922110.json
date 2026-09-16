@@ -1,0 +1,66 @@
+{
+  "appid": 3922110,
+  "requested_at": "2026-09-13T20:00:18.980639+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "212531661",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 635,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 635,
+          "last_played": 1764835986,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Clara Wraiths is a compact yet atmosphere-driven 2D horror experience that leans heavily on mood, tension, and the unsettling quiet of a haunted home rather than flashy visuals or complex mechanics. The story begins with a call for help from a distressed family in Texas whose home has become overwhelmed by inexplicable paranormal events—moving furniture, eerie laughter, growling noises from the basement, and glimpses of dark shapes flickering just beyond sight. You take on the role of Clara, a psychic medium whose sensitivity to spirits makes her uniquely suited to uncover the truth behind the disturbances. This narrative foundation gives the game emotional purpose beyond simple scares. Rather than merely surviving, Clara’s task is to understand the spirits, differentiate between the peaceful and the malevolent, and ultimately help the former find rest while confronting the latter.\n\nThe haunted house setting forms the backbone of the game’s identity. Despite its top-down 2D pixel style, the game manages to cultivate an oppressive, eerie atmosphere. The house feels cramped and labyrinthine, with tight hallways, dimly lit corners, and rooms filled with objects that suggest a life abruptly interrupted by haunting forces. Clara’s movement through this space is slow and cautious, reinforcing the feeling of being watched or followed. Even small sound cues—creaking floors, distant whispers, or sudden bursts of paranormal activity—carry weight in a world where the graphics are intentionally simple. By using minimalism to its advantage, Clara Wraiths relies on suggestion and implication, letting the player’s imagination fill the gaps and heightening the psychological tension far more effectively than many higher-budget horror titles.\n\nThe gameplay loop revolves around exploration, item collection, and survival. Clara must locate keys, important objects like a golden ring, and clues that help her piece together the history of the house and the spirits within it. While the layout is small, the presence of traps such as spikes and fire adds an unexpected layer of danger. These hazards force players to remain alert, even when no ghosts are present. In addition to the physical threats, the game occasionally shifts toward the spiritual side, allowing Clara to enter a kind of spirit world where she can communicate with or aid benevolent entities. These moments provide narrative contrast and reinforce the theme that not all spirits are hostile—they are simply trapped, confused, or grieving. The mixture of danger, exploration, and supernatural interaction gives the game a rhythm that, while brief, feels complete.\n\nGiven its short length, Clara Wraiths is best understood as a focused horror vignette rather than a full-scale adventure. The developer notes that the game can be completed in about half an hour, which makes it a concise, self-contained experience designed to deliver a full narrative snapshot rather than motion through multiple chapters or environments. This brevity will appeal to players who enjoy short-form horror stories or quick bursts of eerie atmosphere, especially those who appreciate retro-style experiments or indie horror projects. However, those looking for an extended campaign, deep mechanics, or varied environments may find the experience too limited or linear. The game’s strength lies not in complexity but in how effectively it condenses mood, narrative, and simple survival elements into a small but cohesive package.\n\nBecause the game is relatively new and currently lacks community reviews, there is still uncertainty about its overall smoothness—how well its pacing works, whether the scares land consistently, and whether the controls, collision, and event triggers behave reliably. These unknowns are common with small indie releases, and players who are sensitive to technical issues may want to wait until feedback becomes available. Still, for those who appreciate the charm and experimentation of small solo-developed horror games, this one offers a niche experience at a minimal price point. The modest system requirements and short runtime make it accessible to a wide range of players, including those on low-end machines or those seeking a quick, eerie session without major time commitment.\n\nIn essence, Clara Wraiths succeeds as a small but atmospheric paranormal investigation tale, a brief horror immersion that relies on suggestion, environmental tension, and the emotional weight of guiding troubled spirits to peace. Its simplicity is part of its character, and its focused scope allows it to deliver a haunting mood without overstaying its welcome. Players who appreciate indie horror, supernatural themes, and compact narrative-driven experiences will likely find it to be a satisfying, if fleeting, encounter with the unsettling unknown.\n\nRating: 5/10",
+        "timestamp_created": 1764837543,
+        "timestamp_updated": 1764837543,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.502378344535827637",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755262823",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF989MAAAAAFP+ATewAAAAB9nN+qBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8280000000004293,
+  "transport_error_count": 0
+}

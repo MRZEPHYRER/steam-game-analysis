@@ -1,0 +1,290 @@
+{
+  "requested_at": "2026-09-12T17:40:49.033246+00:00",
+  "request_params": {
+    "appids": 3875620,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3875620,
+  "payload": {
+    "3875620": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Run4Ever",
+        "steam_appid": 3875620,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Run4Ever is a endless runner game made with Godot engine. Simple straightforward you run until you die. Try and beat your high score from last time and see how much farther you get. Each runner level is a different them to change up what the player sees as they run. </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Run4Ever is a endless runner game made with Godot engine. Simple straightforward you run until you die. Try and beat your high score from last time and see how much farther you get. Each runner level is a different them to change up what the player sees as they run. </p>",
+        "short_description": "Four endless runner levels in one game! Run and see how high of a score you can get!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/7ac275f651362e77c74036ff30d4725b2df50e39/header.jpg?t=1757388492",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/26071d579fc6a982f908000138e867d54e118e12/capsule_231x87.jpg?t=1757388492",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/26071d579fc6a982f908000138e867d54e118e12/capsule_184x69.jpg?t=1757388492",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> AMD Ryzen 3 2200G<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 950<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Emerald Knight Interactive LLC"
+        ],
+        "publishers": [
+          "Emerald Knight Interactive LLC"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1362414
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Run4Ever",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1362414,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Run4Ever - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/0c1eb5c029fdfafa1e74cc1fcb09c1ac03d82d42/ss_0c1eb5c029fdfafa1e74cc1fcb09c1ac03d82d42.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/0c1eb5c029fdfafa1e74cc1fcb09c1ac03d82d42/ss_0c1eb5c029fdfafa1e74cc1fcb09c1ac03d82d42.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/94d3c3e4b3f4e731bac58805e350d9003b91e518/ss_94d3c3e4b3f4e731bac58805e350d9003b91e518.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/94d3c3e4b3f4e731bac58805e350d9003b91e518/ss_94d3c3e4b3f4e731bac58805e350d9003b91e518.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/e86a7eaad2df27323802f3d8980348f735a11403/ss_e86a7eaad2df27323802f3d8980348f735a11403.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/e86a7eaad2df27323802f3d8980348f735a11403/ss_e86a7eaad2df27323802f3d8980348f735a11403.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/418b21e4221521199a9f334df6dd3b473159abf7/ss_418b21e4221521199a9f334df6dd3b473159abf7.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/418b21e4221521199a9f334df6dd3b473159abf7/ss_418b21e4221521199a9f334df6dd3b473159abf7.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/5756f5ae74d2a4cecbb844e65e36a2a66f46ffec/ss_5756f5ae74d2a4cecbb844e65e36a2a66f46ffec.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/5756f5ae74d2a4cecbb844e65e36a2a66f46ffec/ss_5756f5ae74d2a4cecbb844e65e36a2a66f46ffec.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/d1105f2660f0c7c3db19ee02ebc56f327ba0a4da/ss_d1105f2660f0c7c3db19ee02ebc56f327ba0a4da.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/d1105f2660f0c7c3db19ee02ebc56f327ba0a4da/ss_d1105f2660f0c7c3db19ee02ebc56f327ba0a4da.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/a3177bfd384fc3303896b42fc4b43303e53bce26/ss_a3177bfd384fc3303896b42fc4b43303e53bce26.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/a3177bfd384fc3303896b42fc4b43303e53bce26/ss_a3177bfd384fc3303896b42fc4b43303e53bce26.1920x1080.jpg?t=1757388492"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/9185054a27788344f3622c39d750ce70b2733b31/ss_9185054a27788344f3622c39d750ce70b2733b31.600x338.jpg?t=1757388492",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/9185054a27788344f3622c39d750ce70b2733b31/ss_9185054a27788344f3622c39d750ce70b2733b31.1920x1080.jpg?t=1757388492"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257183571,
+            "name": "Trailer #1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257183571/e455a6944074da5b18ff30b417b56fbb67cc95c2/movie_600x337.jpg?t=1755863504",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3875620/1268575921/93f035871be839e0c708f7e2848a7356a03e04df/1755245600/dash_av1.mpd?t=1755863504",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3875620/1268575921/93f035871be839e0c708f7e2848a7356a03e04df/1755245600/dash_h264.mpd?t=1755863504",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3875620/1268575921/93f035871be839e0c708f7e2848a7356a03e04df/1755245600/hls_264_master.m3u8?t=1755863504",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 100,
+          "highlighted": [
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "FIRST KILL ABYSS",
+              "archived": 0,
+              "hidden": 0,
+              "name": "FIRST KILL ABYSS",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "ABYSS KILLS 5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "ABYSS KILLS 10",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "ABYSS KILLS 20",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 20",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "b8239ddaae14796d35cda905811b50d8c553d139.jpg",
+              "localized_name": "ABYSS KILLS 30",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 30",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/b8239ddaae14796d35cda905811b50d8c553d139.jpg"
+            },
+            {
+              "icon": "b8239ddaae14796d35cda905811b50d8c553d139.jpg",
+              "localized_name": "ABYSS KILLS 40",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 40",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/b8239ddaae14796d35cda905811b50d8c553d139.jpg"
+            },
+            {
+              "icon": "d9531bea46eb827e59e79151c1d6360379795bdf.jpg",
+              "localized_name": "ABYSS KILLS 50",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ABYSS KILLS 50",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/d9531bea46eb827e59e79151c1d6360379795bdf.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "FIRST KILL ALIEN",
+              "archived": 0,
+              "hidden": 0,
+              "name": "FIRST KILL ALIEN",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "ALIEN KILLS 5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ALIEN KILLS 5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            },
+            {
+              "icon": "896b2a6e58ab99e465c4b03db75efd9d51692708.jpg",
+              "localized_name": "ALIEN KILLS 10",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ALIEN KILLS 10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875620/896b2a6e58ab99e465c4b03db75efd9d51692708.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 8, 2025"
+        },
+        "support_info": {
+          "url": "https://www.emeraldknightinteractive.com/",
+          "email": "Support@emeraldknightinteractive.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3875620?t=1757388492",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875620/b8153245298c84a684f3c12f23ccec1c4e9669f4/page_bg_raw.jpg?t=1757388492",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

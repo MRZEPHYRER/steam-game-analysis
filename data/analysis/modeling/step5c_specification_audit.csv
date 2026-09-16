@@ -1,0 +1,2 @@
+"primary_n","unique_appids","quasi_n","beta_binomial_n","same_model_frame_rows","formula","price_scaling_mean","price_scaling_sd","days_scaling_mean","days_scaling_sd","response_identity_valid"
+836,836,836,836,TRUE,"cbind(positive_reviews, negative_reviews) ~ z_log1p_price + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy",2.27930635818104,0.722631973688152,347.303827751196,49.9820186559485,TRUE

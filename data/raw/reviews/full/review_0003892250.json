@@ -1,0 +1,66 @@
+{
+  "appid": 3892250,
+  "requested_at": "2026-09-13T19:55:48.838923+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 0,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "213146886",
+        "author": {
+          "steamid": "76561198046979941",
+          "personaname": "Schlangeneder",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198046979941/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 63,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 63,
+          "last_played": 1765573465,
+          "avatar": "50721f28292c99bd237df76254724a6ccac913fd"
+        },
+        "language": "english",
+        "review": "Really nice game. Finished my first run in ~51 mins with several rewinds.\n\nWhat I loved about this game:\n+ Rewind feature that makes the game forgiving\n+ Different environments make every run feel fresh\n+ Small pathfinding puzzles\n+ Different routes\n+ I want explore more of the tower in my next runs\n+ Once you get the hang of the movement it feels great\n+ It is very satisfying to land jumps that look impossible at first\n\nWhat could be improved:\n- Rewind feature feels buggy sometimes. E.g. you can spawn on platforms that descend when you stand on them. Sometimes it respawned me falling down already. But after pressing the rewind button multiple times I always found myself at a position that I was satisfied with.\n- Mouse speed was way too fast when I entered the game. You can turn sensitivity down in the game's options.\n- Compared to the other floors, the final floor felt a bit boring. It's difficulty was alright, but I felt like it didn't get as much love by the devs as the other floors.",
+        "timestamp_created": 1765573954,
+        "timestamp_updated": 1765573954,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.626814067363739014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765555261",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXdraAAAAAFP+QO3EAAAAB20IutBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

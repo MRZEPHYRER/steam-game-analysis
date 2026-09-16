@@ -1,0 +1,66 @@
+{
+  "appid": 2827200,
+  "requested_at": "2026-09-13T18:56:46.792267+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 7025,
+      "total_negative": 1314,
+      "total_reviews": 8339
+    },
+    "reviews": [
+      {
+        "recommendationid": "222172188",
+        "author": {
+          "steamid": "76561199120216616",
+          "personaname": "K",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199120216616/",
+          "num_games_owned": 74,
+          "num_reviews": 16,
+          "playtime_forever": 404,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 359,
+          "last_played": 1780434768,
+          "avatar": "b7066fb6ff81e0241bea7620e0bda9e06b669c13"
+        },
+        "language": "turkish",
+        "review": "Yapay zekaların sesi bir tık robotik geliyo ama curcuna anında fark edilmiyo güzel oyun birden soundpadci bir arkadaşınız varsa aşşağısı KralFM oluyor.",
+        "timestamp_created": 1774959944,
+        "timestamp_updated": 1774959944,
+        "voted_up": true,
+        "votes_up": 582,
+        "votes_funny": 9,
+        "weighted_vote_score": "0.983054459095001221",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761548726",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFQVsOAAAAAFP+91LaAAAAB8wcLPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

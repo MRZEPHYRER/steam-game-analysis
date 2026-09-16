@@ -1,0 +1,203 @@
+{
+  "requested_at": "2026-09-12T17:57:45.985128+00:00",
+  "request_params": {
+    "appids": 3909700,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3909700,
+  "payload": {
+    "3909700": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Rhythm of Annihilation",
+        "steam_appid": 3909700,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Follow the rhythm of the music and step into a world where every shot is driven by the beat!</p><p class=\"bb_paragraph\" >In <i>Rhythm of Annihilation</i>, every shot, dodge, and skill must land perfectly on the beat to unleash its full power. The game features a variety of unique levels, each with its own music theme, enemy patterns, and stage mechanics, keeping every challenge fresh and exciting.</p><p class=\"bb_paragraph\" >Face endless waves of enemies and powerful, uniquely designed bosses—each battle feels like a song that keeps building in intensity, syncing your actions with your heartbeat. Mastering rhythm is as important as mastering aim, turning music into your second weapon.</p><p class=\"bb_paragraph\" >Whether you’re shooting in perfect sync, chasing flawless combos, or challenging the toughest stages, <i>Rhythm of Annihilation</i> delivers a one-of-a-kind audiovisual experience!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Follow the rhythm of the music and step into a world where every shot is driven by the beat!</p><p class=\"bb_paragraph\" >In <i>Rhythm of Annihilation</i>, every shot, dodge, and skill must land perfectly on the beat to unleash its full power. The game features a variety of unique levels, each with its own music theme, enemy patterns, and stage mechanics, keeping every challenge fresh and exciting.</p><p class=\"bb_paragraph\" >Face endless waves of enemies and powerful, uniquely designed bosses—each battle feels like a song that keeps building in intensity, syncing your actions with your heartbeat. Mastering rhythm is as important as mastering aim, turning music into your second weapon.</p><p class=\"bb_paragraph\" >Whether you’re shooting in perfect sync, chasing flawless combos, or challenging the toughest stages, <i>Rhythm of Annihilation</i> delivers a one-of-a-kind audiovisual experience!</p>",
+        "short_description": "Rhythm of Annihilation is a rhythm-based third-person shooter. Follow the beat, conquer unique levels, and experience the perfect fusion of shooting and music in surreal, dazzling environments!",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Russian, Turkish, Japanese, Polish, Simplified Chinese<strong>*</strong>, Portuguese - Brazil, Spanish - Latin America, Arabic, Korean<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/8ac1eeed48d10504980ea414798210b21f439c2a/header.jpg?t=1761994977",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/8808ef0b884e7a47436e57b6d86783b6cbb3de9c/capsule_231x87.jpg?t=1761994977",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/8808ef0b884e7a47436e57b6d86783b6cbb3de9c/capsule_184x69.jpg?t=1761994977",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong>  Windows 10 64-bit<br></li><li><strong>Processor:</strong>  Intel Core i5-8400 / AMD Ryzen 5 1600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> 兼容 Windows 的音频设备</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i7-9700 / AMD Ryzen 5 5500<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> 兼容 Windows 的音频设备</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "十年"
+        ],
+        "publishers": [
+          "十年"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1374027
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Rhythm of Annihilation",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1374027,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Rhythm of Annihilation - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/1d0523fb684aed35963202238d1d0266e09beffc/ss_1d0523fb684aed35963202238d1d0266e09beffc.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/1d0523fb684aed35963202238d1d0266e09beffc/ss_1d0523fb684aed35963202238d1d0266e09beffc.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/5287fe72278fe1c44db75b96d3e4f55e67526a91/ss_5287fe72278fe1c44db75b96d3e4f55e67526a91.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/5287fe72278fe1c44db75b96d3e4f55e67526a91/ss_5287fe72278fe1c44db75b96d3e4f55e67526a91.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/1d2f2aff93ffc58ee5d9e24cefd32b9438056014/ss_1d2f2aff93ffc58ee5d9e24cefd32b9438056014.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/1d2f2aff93ffc58ee5d9e24cefd32b9438056014/ss_1d2f2aff93ffc58ee5d9e24cefd32b9438056014.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/30bfa07543af3e8594092c9b25235208a4face9f/ss_30bfa07543af3e8594092c9b25235208a4face9f.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/30bfa07543af3e8594092c9b25235208a4face9f/ss_30bfa07543af3e8594092c9b25235208a4face9f.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/acf27edce67493cb4cacf8f4a6746700fcbb2d23/ss_acf27edce67493cb4cacf8f4a6746700fcbb2d23.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/acf27edce67493cb4cacf8f4a6746700fcbb2d23/ss_acf27edce67493cb4cacf8f4a6746700fcbb2d23.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/b38d68e9617aa6573631694258185720f0945f69/ss_b38d68e9617aa6573631694258185720f0945f69.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/b38d68e9617aa6573631694258185720f0945f69/ss_b38d68e9617aa6573631694258185720f0945f69.1920x1080.jpg?t=1761994977"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/aa170fd1bc74eb7472b633a283698ec5e7ef0178/ss_aa170fd1bc74eb7472b633a283698ec5e7ef0178.600x338.jpg?t=1761994977",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/aa170fd1bc74eb7472b633a283698ec5e7ef0178/ss_aa170fd1bc74eb7472b633a283698ec5e7ef0178.1920x1080.jpg?t=1761994977"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257174410,
+            "name": "first",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174410/2dfb85c8f47190f8801dbba081ff51aff2195ba0/movie_600x337.jpg?t=1759610632",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3909700/981494274/a6a44dc0020e5071bdfa1e8cfe57b747b6549d7d/1759586824/dash_av1.mpd?t=1759610632",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3909700/981494274/a6a44dc0020e5071bdfa1e8cfe57b747b6549d7d/1759586824/dash_h264.mpd?t=1759610632",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3909700/981494274/a6a44dc0020e5071bdfa1e8cfe57b747b6549d7d/1759586824/hls_264_master.m3u8?t=1759610632",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "654354855@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3909700?t=1761994977",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3909700/ef173342065a8b3baf417521b094b3f60fd13c3c/page_bg_raw.jpg?t=1761994977",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nHoror"
+          }
+        }
+      }
+    }
+  }
+}

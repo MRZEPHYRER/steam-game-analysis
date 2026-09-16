@@ -1,0 +1,66 @@
+{
+  "appid": 3801500,
+  "requested_at": "2026-09-13T19:41:34.199816+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "214321724",
+        "author": {
+          "steamid": "76561198844353005",
+          "personaname": "shiny",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/shinystorm/",
+          "num_games_owned": 271,
+          "num_reviews": 7,
+          "playtime_forever": 84,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 84,
+          "last_played": 1766824336,
+          "avatar": "3d68daed0fa0b9c6861eec90c1495e67dcef207c"
+        },
+        "language": "english",
+        "review": "Somehow there aren't any reviews yet so i shall take up the mantle. Would vote neutral if i could - it has the makings of an entertaining game but isn't quite there yet. I wouldn't recommend buying unless it's on a big sale and you don't mind most of the game consisting of running back and forth.\n\nPlayed roughly until the midway point, stopped because it felt like a total waste of time. Granted I might've missed something in the latter half that completely negates my review but i highly doubt it.\n\nSo for good things - the story is average and the gameplay of solving puzzles while switching between Neffy and Nova could be pretty fun. Also the japanese voice acting was nice. \n\nThe gameplay as a whole feels very unintuitive, slow and clanky. Picking up/putting down items as Neffy feels like it takes years and the fact there's only 2-3 voice lines being cycled through regardless of the item or action gets repetitive pretty fast. \nThe puzzles aren't innovative or challenging either - it just feels like a linear story you progress by doing hyperspecific fetch quests over and over. The hardest part to solve for me was that you need to collect enough energy on each level before being able to transform into a cat, because the game doesn't really tell you much aside from investing energy into the statue at the start. \n\nInvesting energy into the goddess' statue to unlock abilities is such an underused mechanic imo. The game would've been a lot more fun if you 'advanced' as a priest by unlocked abilities that help you with the puzzles as you progress through the game (and it doesn't reset on each level), as opposed to just having to collect enough energy to unlock a lever, move on to the next level and have to do it all over again. \n\nThe villains also feel like they're from a saturday morning cartoon in how they talk and act but that's not neccessarily a bad thing. Just something to point out for anyone who doesn't like it. \n\n\nBonus points for Neffy being cute and funny",
+        "timestamp_created": 1766826988,
+        "timestamp_updated": 1766826988,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.577373206615447998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760576929",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYc9mAAAAAFP+J51wAAAAB8o8mxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1090000000003783,
+  "transport_error_count": 0
+}

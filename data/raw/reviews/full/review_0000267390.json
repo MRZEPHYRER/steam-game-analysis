@@ -1,0 +1,66 @@
+{
+  "appid": 267390,
+  "requested_at": "2026-09-13T18:40:37.268199+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 2,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "214181666",
+        "author": {
+          "steamid": "76561197990436511",
+          "personaname": "Blackjack XIII",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/BlackjackXIII/",
+          "num_games_owned": 1160,
+          "num_reviews": 220,
+          "playtime_forever": 593,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 593,
+          "last_played": 1775252701,
+          "avatar": "ae87a9fef3e17113b438bab9cdf0cbc251a8f85d"
+        },
+        "language": "english",
+        "review": "A wonderful stroll down memory lane across multiple titles, it's nothing you haven't already experienced before there's no added extras, nothing really new or different - it's just a very nice collection of titles for a very reasonable price.",
+        "timestamp_created": 1766694505,
+        "timestamp_updated": 1766694505,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755255897",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABy8oSxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 0.484000000000151,
+  "transport_error_count": 0
+}

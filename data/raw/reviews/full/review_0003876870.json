@@ -1,0 +1,66 @@
+{
+  "appid": 3876870,
+  "requested_at": "2026-09-13T19:53:31.878524+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "201378042",
+        "author": {
+          "steamid": "76561199029905750",
+          "personaname": "๖ۣۜMÅD SCIENTIST",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199029905750/",
+          "num_games_owned": 60,
+          "num_reviews": 1,
+          "playtime_forever": 113,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 78,
+          "last_played": 1766520451,
+          "avatar": "2745ad2cc0cf81b539d3a2552bea04fd08995e39"
+        },
+        "language": "english",
+        "review": "This game has potential but its still in very early stages.\n\nNegatives\n- Lighting is too dark. You can set your games graphics preset to the max to help you see better but the game is very poorly optimised as i get about 10 fps on max settings. the lighting can be set dark enough so you can barely see at all but not pitch black\n\n-Enemy AI. They are too easy. their attacks are too slow, you can just move out of the way when their attack animation starts and they cannot hit you and as you are hitting them with a knife you can go behind them and for some reason they stop attacking so you can just melee them until they die without them attacking. the enemies also need sound effect and could react to the flashlight promoting a stealth side to the game\n\n-out of bounds. i managed to get out the map quite easy so placing some invisible walls where the player cannot access would be a good idea\n\n-gun play. Using the pistol isn't bad but when you aim it just points the gun up. would be better if you are able to aim down sights\n\n-Quality settings. the quality settings are automatically set to EPIC so if you are on a low/med end PC you will get freezes and 10 fps so before loading into the game set it to low/med and adjust it slowly while in the game. Windowed mode doesn't work\n\n-props. Some of the props in the game may need resizing as some of them feel very small compared to character size\n\nthere wasn't any clear objectives so i got kinda stuck and stopped playing\n\nI will Change my review if there are any more updates to the game",
+        "timestamp_created": 1754242690,
+        "timestamp_updated": 1754242883,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.542253553867340088",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754122976",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZJ6kAAAAAFP+FaJQAAAAB6j5mABg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

@@ -1,0 +1,73 @@
+{
+  "appid": 2411100,
+  "requested_at": "2026-09-13T18:50:34.207949+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 29,
+      "total_negative": 0,
+      "total_reviews": 29
+    },
+    "reviews": [
+      {
+        "recommendationid": "216144946",
+        "author": {
+          "steamid": "76561198991039063",
+          "personaname": "sausage assassin",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198991039063/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 2242,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1313,
+          "last_played": 1769377164,
+          "avatar": "07bd99af80fb1d60da7a0397f318d48fc5593f55"
+        },
+        "language": "english",
+        "review": "this game has such a unique story and style. strangely, its not the first time i've played a weird and existential rpgmaker game, but this one really stood out. the combat system is so creative, and i had a lot of fun with it. however, i would not reccommend this game to people looking for a short experience. \n\nit took me 13 hours to beat my first save, and there are many moments that sincerely pissed me off. for example, there is way too much padding. the door animations cannot be turned off and eat up a chunk of your time, and buying items from the vending machine makes you watch each individual coin go in. also, i get that its a huge building but b3 did not need that many rooms. it was mildly to highly irritating trying to clear each floor. i also had a problem with simon's introduction. his introduction was padded far too much, and i felt as if this game truly did not respect me and my time. because of this, i wasn't able to connect with the character at all. if there had been less of this time wasting, i think i would have actually had fun watching and playing through the ending instead of being pissed off. \n\nit feels pretty weird to reccommend the game while having so many gripes with it. however i understand that it is a passion project spearheaded by only a handful of people, and i truly think it could have been a greater experience had there been more polish and less time wasting. nonetheless, i had a lot of fun with this, and will unfortunately be spending more time staring at five individual coins going into a vending machine on a second playthrough.",
+        "timestamp_created": 1768638320,
+        "timestamp_updated": 1768638320,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.527559041976928711",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1768658113,
+        "developer_response": "\n[h3] Congratulations on finishing the game! [/h3] Thank you for paying attention to my game and for taking the time to share your experience with me and other players. I truly appreciate it. This game is indeed a major work that I have been developing for 7 years. I am proud of the work done, and over this long development period, I managed to implement many of my unusual and bold design ideas. However, I also understand that not all the decisions I made were successful.\n\nI'm very sorry if the doors took up so much of your time. Initially, they were a crucial part of the data loading system. But later, due to better optimization, these loading sequences became unnecessary. However, the doors remained, and unfortunately, removing them from the project is very difficult because they still handle some important in-game functions, and their absence could create new problems, errors, and bugs.\n\n[h3] But I have taken note of the players' complaints and added an option to speed up the door-opening animation a long time ago. I hope you used it.[/h3] \n\nI hope that despite all the shortcomings, my game will leave you with more positive emotions than negative ones.\n\n[i] Thank you once again for playing my game! [/i]",
+        "app_release_date": "1756141452",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZcuYAAAAAFP+Dhw2AAAAByw8O4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

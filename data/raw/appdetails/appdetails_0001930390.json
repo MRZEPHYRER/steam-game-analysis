@@ -1,0 +1,303 @@
+{
+  "requested_at": "2026-09-12T13:16:01.707847+00:00",
+  "request_params": {
+    "appids": 1930390,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 1930390,
+  "payload": {
+    "1930390": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Paper Kingdom",
+        "steam_appid": 1930390,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Paper Kingdom is a colony management game. Starting as a nomadic tribe your job is to turn your settlement into an empire.</p><p class=\"bb_paragraph\" > </p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Gather resources from cards like Forest, Quarry, Mine and Sea. </p></li><li><p class=\"bb_paragraph\" > Craft items and assign jobs for your settlers. </p></li><li><p class=\"bb_paragraph\" > Build structures to progress your settlement. </p></li><li><p class=\"bb_paragraph\" > Produce goods and trade them for Coins.</p></li><li><p class=\"bb_paragraph\" > Explore new cards and fight off invaders. </p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Paper Kingdom is a colony management game. Starting as a nomadic tribe your job is to turn your settlement into an empire.</p><p class=\"bb_paragraph\" > </p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Gather resources from cards like Forest, Quarry, Mine and Sea. </p></li><li><p class=\"bb_paragraph\" > Craft items and assign jobs for your settlers. </p></li><li><p class=\"bb_paragraph\" > Build structures to progress your settlement. </p></li><li><p class=\"bb_paragraph\" > Produce goods and trade them for Coins.</p></li><li><p class=\"bb_paragraph\" > Explore new cards and fight off invaders. </p></li></ul>",
+        "short_description": "Paper Kingdom is a colony management game. Stack cards to gather resources, build structures, explore and fight invaders. Turn a nomadic tribe into an empire.",
+        "supported_languages": "English<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Turkish<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/09ccb44582e8bbf8624f5d35e318c40a69dfe87a/header.jpg?t=1772575914",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/3c239dd91371c8ac6b0407b9dbe95829fb9866fd/capsule_231x87.jpg?t=1772575914",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/3c239dd91371c8ac6b0407b9dbe95829fb9866fd/capsule_184x69.jpg?t=1772575914",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7+<br></li><li><strong>Processor:</strong> 2 Ghz, Dual Core<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated GPU, GTX 960+<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux/X11<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3+<br></li><li><strong>Storage:</strong> 260 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "obece"
+        ],
+        "publishers": [
+          "obece"
+        ],
+        "demos": [
+          {
+            "appid": 2779270,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$12.99"
+        },
+        "packages": [
+          695459
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Paper Kingdom",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 695459,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Paper Kingdom - $12.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/948a599c20ef068d28500b6df99ab21e9356b3e9/ss_948a599c20ef068d28500b6df99ab21e9356b3e9.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/948a599c20ef068d28500b6df99ab21e9356b3e9/ss_948a599c20ef068d28500b6df99ab21e9356b3e9.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/ffc40f558c2c2a1d12ba1360792a2341c3882b56/ss_ffc40f558c2c2a1d12ba1360792a2341c3882b56.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/ffc40f558c2c2a1d12ba1360792a2341c3882b56/ss_ffc40f558c2c2a1d12ba1360792a2341c3882b56.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/e70c025919d33512b69c11feac63a698ddcc1eb1/ss_e70c025919d33512b69c11feac63a698ddcc1eb1.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/e70c025919d33512b69c11feac63a698ddcc1eb1/ss_e70c025919d33512b69c11feac63a698ddcc1eb1.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/c4ab1ea058b977e0ddc4d32b830a0a73b3e2ba3d/ss_c4ab1ea058b977e0ddc4d32b830a0a73b3e2ba3d.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/c4ab1ea058b977e0ddc4d32b830a0a73b3e2ba3d/ss_c4ab1ea058b977e0ddc4d32b830a0a73b3e2ba3d.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/54da8c2ec34ebe9deea64826ed38a8ee3a40397a/ss_54da8c2ec34ebe9deea64826ed38a8ee3a40397a.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/54da8c2ec34ebe9deea64826ed38a8ee3a40397a/ss_54da8c2ec34ebe9deea64826ed38a8ee3a40397a.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/616875cb6471a8b8e87fa37eea3cd922178d542a/ss_616875cb6471a8b8e87fa37eea3cd922178d542a.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/616875cb6471a8b8e87fa37eea3cd922178d542a/ss_616875cb6471a8b8e87fa37eea3cd922178d542a.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/5c24ead3ac75ea30180c95fa11faec8455482aac/ss_5c24ead3ac75ea30180c95fa11faec8455482aac.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/5c24ead3ac75ea30180c95fa11faec8455482aac/ss_5c24ead3ac75ea30180c95fa11faec8455482aac.1920x1080.jpg?t=1772575914"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/c764d753a695eda44ba0714bca1f604741ba76ed/ss_c764d753a695eda44ba0714bca1f604741ba76ed.600x338.jpg?t=1772575914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/c764d753a695eda44ba0714bca1f604741ba76ed/ss_c764d753a695eda44ba0714bca1f604741ba76ed.1920x1080.jpg?t=1772575914"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257221538,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257221538/d7dbd09059a38615e363b7f4302919383cddba54/movie_600x337.jpg?t=1761232768",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1930390/1506709515/b8acd56ccee0516426ec3c2ff9f7f18071306e3e/1761212855/dash_av1.mpd?t=1761232768",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1930390/1506709515/b8acd56ccee0516426ec3c2ff9f7f18071306e3e/1761212855/dash_h264.mpd?t=1761232768",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1930390/1506709515/b8acd56ccee0516426ec3c2ff9f7f18071306e3e/1761212855/hls_264_master.m3u8?t=1761232768",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 26,
+          "highlighted": [
+            {
+              "icon": "710d2a72aa01ed0bf887b99d7a27b8873bd9cc7d.jpg",
+              "localized_name": "Small Steppes",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Small Steppes",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/710d2a72aa01ed0bf887b99d7a27b8873bd9cc7d.jpg"
+            },
+            {
+              "icon": "0da5c78522c7fb66cb37a393b3bf4ab9d7088482.jpg",
+              "localized_name": "Settle Down",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Settle Down",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/0da5c78522c7fb66cb37a393b3bf4ab9d7088482.jpg"
+            },
+            {
+              "icon": "ef33a731841eef1f2457c234e1cc065a1368478f.jpg",
+              "localized_name": "Humble Beginnings",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Humble Beginnings",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/ef33a731841eef1f2457c234e1cc065a1368478f.jpg"
+            },
+            {
+              "icon": "2d6d85e315b8d244cc2242b985a04b7f61f39d10.jpg",
+              "localized_name": "Solid Foundations",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Solid Foundations",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/2d6d85e315b8d244cc2242b985a04b7f61f39d10.jpg"
+            },
+            {
+              "icon": "a29ccb4efc75b9bfc8baab002c6b81c285097e98.jpg",
+              "localized_name": "Concrete Jungle",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Concrete Jungle",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/a29ccb4efc75b9bfc8baab002c6b81c285097e98.jpg"
+            },
+            {
+              "icon": "7483a3ee7b73078070b567fb9d216aef24054c05.jpg",
+              "localized_name": "The Crowning",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Crowning",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/7483a3ee7b73078070b567fb9d216aef24054c05.jpg"
+            },
+            {
+              "icon": "ccd5bc2663f811fc88b305bc3791de7ae2e4aea7.jpg",
+              "localized_name": "Rags to Riches",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rags to Riches",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/ccd5bc2663f811fc88b305bc3791de7ae2e4aea7.jpg"
+            },
+            {
+              "icon": "aa7cd80a3f97b186ad59079e72a774dc2aba6399.jpg",
+              "localized_name": "Best Friends Forever",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Best Friends Forever",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/aa7cd80a3f97b186ad59079e72a774dc2aba6399.jpg"
+            },
+            {
+              "icon": "6403c5c7728d51dcd882755aee1abf2de870953e.jpg",
+              "localized_name": "Sufficient Reason to Remain Ashore",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sufficient Reason to Remain Ashore",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/6403c5c7728d51dcd882755aee1abf2de870953e.jpg"
+            },
+            {
+              "icon": "61a98541f5f6618f16d42ab7b253ec912ce9c2f1.jpg",
+              "localized_name": "Thirteen Colonies",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thirteen Colonies",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1930390/61a98541f5f6618f16d42ab7b253ec912ce9c2f1.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "obecethedev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1930390?t=1772575914",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930390/87e3a0be85c68c98f647fb83131d75e9b6235d82/page_bg_raw.jpg?t=1772575914",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

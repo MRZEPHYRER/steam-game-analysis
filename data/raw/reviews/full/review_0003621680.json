@@ -1,0 +1,66 @@
+{
+  "appid": 3621680,
+  "requested_at": "2026-09-13T19:26:48.029360+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "228598746",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 652,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 652,
+          "last_played": 1782116122,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Cosmic Tails is an energetic action roguelite that takes a familiar survival-shooter formula and injects it with a playful feline personality. Developed and published by nubes_ix, the game places players in the role of cat bounty hunters traveling across the galaxy to eliminate bizarre enemies that threaten the cosmic order. While the premise is intentionally humorous, the gameplay systems reveal a solid understanding of what makes modern roguelites engaging. By combining relentless combat, extensive progression systems, and a colorful science-fiction setting, Cosmic Tails aims to deliver an experience that is both accessible and highly replayable.\n\nAt its core, the game revolves around surviving increasingly dangerous bounty hunts while battling massive waves of enemies. Players begin each run with limited capabilities but quickly accumulate new weapons, powers, and upgrades as they progress. The action is fast and satisfying, encouraging constant movement while hordes of hostile creatures flood the screen. Like many successful entries in the genre, the excitement comes from watching a modest character gradually evolve into a devastating force capable of clearing entire groups of enemies with spectacular attacks and weapon combinations.\n\nOne of the most appealing aspects of Cosmic Tails is the sheer variety of customization available during gameplay. Players can experiment with numerous weapons, abilities, and upgrade paths, creating builds that feel distinct from one another. The inclusion of weapon fusion mechanics adds additional strategic depth, rewarding players who discover powerful combinations and synergies. Rather than simply increasing numbers through upgrades, the game encourages experimentation, making each run feel like an opportunity to uncover new tactics and playstyles.\n\nOutside of individual missions, Cosmic Tails features a robust progression system designed to keep players invested over the long term. Resources earned during bounty hunts can be spent on unlocking new hunters, improving ships, enhancing abilities, and acquiring permanent upgrades. This structure ensures that every session contributes to overall advancement, even if a particular run ends in defeat. The steady sense of growth creates a rewarding loop that motivates players to continue tackling tougher challenges and exploring additional content.\n\nThe roster of playable bounty hunters further enhances replayability. Each character offers unique traits and starting advantages, encouraging players to adapt their strategies depending on who they choose. Combined with the wide selection of weapons and upgrades, these character differences help prevent the gameplay from becoming repetitive. The game’s achievement and unlock systems also provide clear objectives for completionists who enjoy pursuing every available reward.\n\nEnemy design plays an important role in maintaining excitement throughout each hunt. Beyond standard foes, players encounter tougher elite opponents, outlaw targets, and massive colossal enemies that require stronger builds and greater awareness. These escalating threats help maintain tension as runs progress, ensuring that success never feels automatic. Learning enemy behaviors and adjusting tactics becomes just as important as acquiring powerful equipment.\n\nA notable feature is the inclusion of local cooperative multiplayer for up to four players. This addition significantly broadens the game's appeal, transforming what could have been a purely solo experience into a cooperative adventure. Playing with friends introduces additional layers of strategy and chaos as players coordinate builds, survive overwhelming enemy waves, and celebrate hard-earned victories together. For fans of couch co-op games, this feature adds considerable value.\n\nVisually, Cosmic Tails embraces a bright and charming art style that perfectly complements its whimsical theme. The colorful environments, playful character designs, and vibrant effects create an inviting atmosphere that never takes itself too seriously. Despite the large number of enemies and projectiles that can appear simultaneously, the presentation remains readable enough to keep players focused on the action. The lighthearted aesthetic helps distinguish the game from many darker or more serious roguelites currently available.\n\nThe game also offers a variety of options that allow players to tailor the experience to their preferences. Different hunt durations, difficulty settings, and gameplay modifiers provide flexibility for both newcomers and veterans. Players looking for a relaxed experience can adjust the challenge accordingly, while those seeking a tougher test can increase the difficulty to maximize the rewards and intensity.\n\nAlthough Cosmic Tails does not radically reinvent the survival-roguelite genre, it succeeds by refining proven mechanics and presenting them through a memorable theme. Its combination of satisfying combat, meaningful progression, cooperative play, and extensive customization creates a package with strong replay value. The game's feline-inspired humor and accessible design give it a unique identity, helping it stand out among many similar releases. Players who enjoy action-packed roguelites and appreciate a more lighthearted atmosphere will likely find plenty to enjoy in this charming interstellar adventure.\n\nRating: 7/10",
+        "timestamp_created": 1782164027,
+        "timestamp_updated": 1782164027,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.56204378604888916",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763470307",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYwlWAAAAAFP+H8Q8AAAAB6vYToBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2040000000001783,
+  "transport_error_count": 0
+}

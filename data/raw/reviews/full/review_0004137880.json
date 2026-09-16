@@ -1,0 +1,66 @@
+{
+  "appid": 4137880,
+  "requested_at": "2026-09-13T20:21:47.559151+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 107,
+      "total_negative": 21,
+      "total_reviews": 128
+    },
+    "reviews": [
+      {
+        "recommendationid": "215541207",
+        "author": {
+          "steamid": "76561198144840950",
+          "personaname": "Giza",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/giza666/",
+          "num_games_owned": 1789,
+          "num_reviews": 20,
+          "playtime_forever": 73,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 73,
+          "last_played": 1767569653,
+          "avatar": "800dc73f4021655794fd462d7d44ba36b064c16f"
+        },
+        "language": "russian",
+        "review": "Я не могу порекомендовать эту игру никому :(\n\nИз хорошего здесь: \n- не банальный сеттинг, рождественские хорроры + поезда = довольно редкая комбинация\n- котик\n- открытки от стримеров (с оговоркой, что вы этих стримеров знаете. Мне попался Matrix Enzo, я была рада)\n\nПричины, по которым не стоит трогать эту игру: \n- БАГИ (мне пришлось дважды перезапускать игру, потому что игра софтлокалась, а сохранений нет)\nМеня насмерть запердел сосед по купе (буквально нельзя было встать с кровати) и мы прилипли к панели управления навсегда в самом конце. Крайне неприятно начинать все с самого начала из-за таких проблем.\n- СКРИМЕРЫ. Разработчик будет бросать в вас десятки скримеров, из которых сработает плюс-минус пара\n- и вишенка на торте. АЧИВКА со SWAL. Это была последняя капля, побудившая меня написать обзор. Разработчик дает вам 7 из 8 ачивок, но если вы хотите получить платину, то игра превращается в гачу. Вам нужно выбить конкретную открытку от конкретного стримера. А для этого нужно перепроходить игру снова и снова. Нет, спасибо. \n\nI can not recommend this game to anyone :( \n\nOn the positive side: \n- not a trivial setting, I wouldn't say that Christmas and trains is a common combination\n- cat\n- postcards from streamers (with the note that you know these streamers. I got one from Matrix Enzo and I was happy)\n\nReasons why nobody should even touch this game: \n- BUGS (I had to replay this game twice cause of softlocks and the absence of saves)\nI was farted till death by my coupe mate (I literally could not get out of bed) and we glued to the train's control panel in the end forever. It's really annoying replay everything from the start because of such problems. \n- SCREAMERS. Developer will throw dozens of them to you, but only few of them will work\n- and a cherry on top. ACHIVEMENT with SWAL. That was the last drop for me and the reason why I wrote this review. Developer will give you 7 out 8 achievements just for playing. BUT! If you want to get platinum then this game becomes gacha game. You will need one particular postcard from one particular streamer. And for doing this you need to replay the game again and again. No, thank you",
+        "timestamp_created": 1767941996,
+        "timestamp_updated": 1767942228,
+        "voted_up": false,
+        "votes_up": 28,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.76482236385345459",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765303220",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUtLcAAAAAFP+h4dIAAAAB33Zy2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

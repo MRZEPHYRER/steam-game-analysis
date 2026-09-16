@@ -1,0 +1,4 @@
+"model_id","rating_threshold","comparator","n_total","high_rated_n","high_rated_percent","not_high_rated_n","not_high_rated_percent","exact_boundary_n","outcome_definition"
+"HIGH80",0.8,">=",836,574,68.6602870813397,262,31.3397129186603,5,"positive_reviews / total_reviews >= rating_threshold"
+"HIGH85",0.85,">=",836,471,56.3397129186603,365,43.6602870813397,1,"positive_reviews / total_reviews >= rating_threshold"
+"HIGH90",0.9,">=",836,359,42.9425837320574,477,57.0574162679426,7,"positive_reviews / total_reviews >= rating_threshold"

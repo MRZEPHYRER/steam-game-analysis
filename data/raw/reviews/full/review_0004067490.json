@@ -1,0 +1,66 @@
+{
+  "appid": 4067490,
+  "requested_at": "2026-09-13T20:16:56.148666+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "216823060",
+        "author": {
+          "steamid": "76561198125776713",
+          "personaname": "aerophone",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198125776713/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 486,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 464,
+          "last_played": 1775263273,
+          "avatar": "f86a8030982996fce2b34b511861a6248ad3786f"
+        },
+        "language": "english",
+        "review": "It took me a bit to get used to (and take advantage of) the longer & oddly shaped bricks, also the 'sticky bricks' mechanic wherein for a split-second the current brick can sort of reverse gravity to fit into a tight space when quickly moving it right or left..  I love the core novelty of this game - The spinning playfield!..  Also the exploding brick sound and action is pretty satisfying and the music is fun, though I do find myself turning it down to minimum after a few minutes.  'Hardcore Mode' is now my favourite as you can build up the central core one mini gray block at a time & then get many more points when the 3X3 or larger core explodes!  This game provides a great challenge and I've found myself playing it more than any of my other puzzle games over the past few weeks.  It's easy to just turn on and play for 10 minutes if you don't have much time.  The price is super reasonable, & I would definitely recommend giving it a go !",
+        "timestamp_created": 1769396305,
+        "timestamp_updated": 1769396305,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558723688125610352",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762455814",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY01WAAAAAFP+HhESAAAAB00Y67Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

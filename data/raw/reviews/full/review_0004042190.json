@@ -1,0 +1,66 @@
+{
+  "appid": 4042190,
+  "requested_at": "2026-09-13T20:14:47.358452+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11,
+      "total_negative": 4,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "206521326",
+        "author": {
+          "steamid": "76561198004545681",
+          "personaname": "듀콩",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/shaswuwj/",
+          "num_games_owned": 389,
+          "num_reviews": 83,
+          "playtime_forever": 61,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 61,
+          "last_played": 1760253609,
+          "avatar": "36d6149267b7fb48e62d769442dfc74784c3bfa2"
+        },
+        "language": "koreana",
+        "review": "음.. 이걸 뭐라고해야할지..\n3일차까지있는데 2일차까진 똑같은 미션이고 3일차는 똑같은 미션+a가 끝입니다\n스토리도 좀 허무하고.. 쓸모없는 컷신.. 똥겜 좋아하시는분도 이거하시면 좀 지루해 하실듯하네요\n적정가는 2000?? 정도라고 생각합니다 엔딩 두개 볼려면 처음부터 해야합니다\n그런데 베드엔딩은 그냥 죽어서 그다리면 주인공이 으아아악!!! 하는데 그게 끝입니다 ㅋㅋ\n그거보면 처음부터 해야함\n쓸모없는 컷신,반복미션,엔딩 스킵같은거 제외하면 거의 플탐 20분?? 나오지않을까 싶습니다 엔딩 두개보는데..",
+        "timestamp_created": 1760253894,
+        "timestamp_updated": 1760253894,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760216631",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB+vuiTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3883520,
+  "requested_at": "2026-09-13T19:54:37.975258+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 1,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "221802590",
+        "author": {
+          "steamid": "76561198987909303",
+          "personaname": "EleanoraManticore_TTV",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198987909303/",
+          "num_games_owned": 0,
+          "num_reviews": 397,
+          "playtime_forever": 88,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 88,
+          "last_played": 1774573812,
+          "avatar": "3bee5915b0130ad3fc30fef98bc07cae0930fd51"
+        },
+        "language": "english",
+        "review": "[H1]Naming cats one dopamine boost at the time![/H1]\n\nI am not an idler person. They’re usually slow, not fun, and just not really my thing overall. And yet, here I am, actually enjoying this one. The whole “gameplay” is literally waiting for a timer in the left upper corner to tick down so another cat pops into existence. That’s it. Wait long enough, collect them all, and boom! 100% in about 1h30. Somehow, it worked perfectly for my brain, especially on a low-energy, distracted day.\n\nIt helps that everything is just adorable. You can name every single cat (which is way more fun than it should be), the music is easy to mute if needed (no sound slider though), and there’s zero pressure at any point. Achievements are simple, clear, and follow normal completion, so you’re never wondering what to do next. That said, there’s really nothing beyond the waiting. Whether that sounds relaxing or painfully dull will depend entirely on you. For me, it was a surprisingly nice little 1h30 reset, especially when my neurodivergent brain refused to function properly. XD\n\n[quote]For more reviews like this one, please check out [url=https://store.steampowered.com/curator/45639970-Ele%2527s-Little-Recommendation-Corner/][b]Ele's Little Recommendation Corner[/b][/url]![/quote]",
+        "timestamp_created": 1774588479,
+        "timestamp_updated": 1774588479,
+        "voted_up": true,
+        "votes_up": 37,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.813211917877197266",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755315651",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFTvFsAAAAAFP+oF1SAAAAB+hY7OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0789999999997235,
+  "transport_error_count": 0
+}

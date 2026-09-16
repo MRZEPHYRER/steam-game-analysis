@@ -1,0 +1,66 @@
+{
+  "appid": 3851750,
+  "requested_at": "2026-09-13T19:49:27.997808+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "220216353",
+        "author": {
+          "steamid": "76561198170869129",
+          "personaname": "AngelicCy",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/angeliccy/",
+          "num_games_owned": 0,
+          "num_reviews": 463,
+          "playtime_forever": 113,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 113,
+          "last_played": 1773613163,
+          "avatar": "b568381359c1da92ea24e67776165293c07264a5"
+        },
+        "language": "english",
+        "review": "This game doesn't have any reviews but it's entertaining with good music and visuals and I am pretty sure it is at least 50-70% AI although I just noticed it's like hand colored and hand written but it's still good though although the AI is heavy the illustrations are painted over really pretty and I do like a million images instead of a million words though I love text adventures.\nI missed a section trying to through the story but I can't go back to replay it oh well so if you don't do the side choices you can't replay them without doing the whole story again and I don't think there's a skip in this game.\nAnyway it's good on sale so I say it's like a cool short little set of movies that I think are interconnected although I only played the first one.\nIt's good - I liked it.  I don't know why I am recommending this but Psycholog is also weirdly like this sort of AI appearing but really good with no skip button.  I recommend any text based adventure or movie game FMV or dystopic visual novel like AIRI or something would be good or Stella of the End is really close to this.  Key of course is kind of like this.   Visual novel, text adventure, FMV, this is a combo of those but linear without any real choices except choosing a good or bad ending which is kind of boring but I like it.  It takes a long time to finish so I recommend buying it on sale. 9/10 should have had a skip button and easier way to get all the gallery images even if you're impatient to finish.  1st story is great I loved the music effect on the story.  Will finish.  This game is like a two hour movie type visual novel game best played on autoplay.  I liked all the stories....I don't get the overarching plot but I was enjoying it.  I really like it! 9/10 for being really werid at times and the first story was too long.",
+        "timestamp_created": 1773000154,
+        "timestamp_updated": 1773613243,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.541087985038757324",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761212284",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZLaEAAAAAFP+FQl8AAAABxwofIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

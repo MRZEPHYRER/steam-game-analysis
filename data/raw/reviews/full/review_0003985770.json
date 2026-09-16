@@ -1,0 +1,66 @@
+{
+  "appid": 3985770,
+  "requested_at": "2026-09-13T20:08:19.378438+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 35,
+      "total_negative": 18,
+      "total_reviews": 53
+    },
+    "reviews": [
+      {
+        "recommendationid": "215739978",
+        "author": {
+          "steamid": "76561198298912676",
+          "personaname": "tombie203",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tombie203/",
+          "num_games_owned": 451,
+          "num_reviews": 5,
+          "playtime_forever": 163,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 163,
+          "last_played": 1768133960,
+          "avatar": "79d3fe5839617eb83a9661071ed021dd56ac8a5b"
+        },
+        "language": "english",
+        "review": "I completed the game and got all achievements in less than 3 hours (without even trying to finish the game fast).\n\nThe trailer mentions \"unique perks\", but all upgrades are basic things that pretty much all games in this genre have (damage, attack speed, health, etc.)\n\nThe scaling is weird and the gameplay boring.",
+        "timestamp_created": 1768135674,
+        "timestamp_updated": 1768135674,
+        "voted_up": false,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.637354910373687744",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767177866",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXQL4AAAAAFP+RlNmAAAAB65P22Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

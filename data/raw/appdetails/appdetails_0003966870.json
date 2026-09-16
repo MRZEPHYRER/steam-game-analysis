@@ -1,0 +1,321 @@
+{
+  "requested_at": "2026-09-13T06:09:17.920135+00:00",
+  "request_params": {
+    "appids": 3966870,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3966870,
+  "payload": {
+    "3966870": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Liminal Explorer",
+        "steam_appid": 3966870,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>ABOUT THIS GAME:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer is an exploration game with simple puzzles set in popular liminal space environments. You must wander through each level attempting to find the exit and discover items along your path.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>THE ENVIRONMENT:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer contains a variety of liminal space levels all with their own unique atmosphere  designed to keep the player focused on their surroundings at all times. Some levels are secret and require deep exploration to unlock them. Levels are based off the Backrooms Wikidot and various viral liminal spaces.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>THE VISUALS:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer aims to replicate the visuals of the nostalgic  retro gaming era where textures were pixelated and levels were unnerving. </p>",
+        "about_the_game": "<ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>ABOUT THIS GAME:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer is an exploration game with simple puzzles set in popular liminal space environments. You must wander through each level attempting to find the exit and discover items along your path.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>THE ENVIRONMENT:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer contains a variety of liminal space levels all with their own unique atmosphere  designed to keep the player focused on their surroundings at all times. Some levels are secret and require deep exploration to unlock them. Levels are based off the Backrooms Wikidot and various viral liminal spaces.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><u><strong>THE VISUALS:</strong></u></p></li></ul><p class=\"bb_paragraph\" >Liminal Explorer aims to replicate the visuals of the nostalgic  retro gaming era where textures were pixelated and levels were unnerving. </p>",
+        "short_description": "Wander through a variety of eerie liminal spaces whilst completing puzzles and discovering secrets. Each level is designed to be explored to its fullest, packed with hidden details and objectives for true Liminal Explorers.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/57f327962c5ca4f96b856e981b630aa664b318b0/header.jpg?t=1764360091",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/71cca260353a7175af93567c1eb26ac346aeac14/capsule_231x87.jpg?t=1764360091",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/71cca260353a7175af93567c1eb26ac346aeac14/capsule_184x69.jpg?t=1764360091",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-4460<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 960<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Ryzen 5 3600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1070<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "compact"
+        ],
+        "publishers": [
+          "compact"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1392870
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Liminal Explorer",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1392870,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Liminal Explorer - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/84897edc296fa9ef36581fb317956f748c1bad6b/ss_84897edc296fa9ef36581fb317956f748c1bad6b.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/84897edc296fa9ef36581fb317956f748c1bad6b/ss_84897edc296fa9ef36581fb317956f748c1bad6b.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/b6a0039d3d78040da4065906e339a1cc697228aa/ss_b6a0039d3d78040da4065906e339a1cc697228aa.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/b6a0039d3d78040da4065906e339a1cc697228aa/ss_b6a0039d3d78040da4065906e339a1cc697228aa.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/6fda0b2b2ec3951bd236ea22d9c2491ca6b60876/ss_6fda0b2b2ec3951bd236ea22d9c2491ca6b60876.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/6fda0b2b2ec3951bd236ea22d9c2491ca6b60876/ss_6fda0b2b2ec3951bd236ea22d9c2491ca6b60876.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/0c00e6f00003d15980efc6ae6c425570497d0c19/ss_0c00e6f00003d15980efc6ae6c425570497d0c19.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/0c00e6f00003d15980efc6ae6c425570497d0c19/ss_0c00e6f00003d15980efc6ae6c425570497d0c19.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/d0461b0151f88e3ddba35d2c0f9f7cf844a1d2ba/ss_d0461b0151f88e3ddba35d2c0f9f7cf844a1d2ba.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/d0461b0151f88e3ddba35d2c0f9f7cf844a1d2ba/ss_d0461b0151f88e3ddba35d2c0f9f7cf844a1d2ba.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/219ced294cd453fabf41a6bd859265a91686b4e2/ss_219ced294cd453fabf41a6bd859265a91686b4e2.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/219ced294cd453fabf41a6bd859265a91686b4e2/ss_219ced294cd453fabf41a6bd859265a91686b4e2.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/b493ea522adaa451e6a73b369d84e7c39315c01b/ss_b493ea522adaa451e6a73b369d84e7c39315c01b.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/b493ea522adaa451e6a73b369d84e7c39315c01b/ss_b493ea522adaa451e6a73b369d84e7c39315c01b.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/87c740913dfcf0e6c2a570a8381b5f8f59696d19/ss_87c740913dfcf0e6c2a570a8381b5f8f59696d19.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/87c740913dfcf0e6c2a570a8381b5f8f59696d19/ss_87c740913dfcf0e6c2a570a8381b5f8f59696d19.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/528d58cff12a86deb7bbfda801b32c5b1e6742db/ss_528d58cff12a86deb7bbfda801b32c5b1e6742db.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/528d58cff12a86deb7bbfda801b32c5b1e6742db/ss_528d58cff12a86deb7bbfda801b32c5b1e6742db.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/4d713d86cf74be1fccea3f421c5ca14effc8fd43/ss_4d713d86cf74be1fccea3f421c5ca14effc8fd43.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/4d713d86cf74be1fccea3f421c5ca14effc8fd43/ss_4d713d86cf74be1fccea3f421c5ca14effc8fd43.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/08e4240284fc2599b3710f65c3f07d7c50eac932/ss_08e4240284fc2599b3710f65c3f07d7c50eac932.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/08e4240284fc2599b3710f65c3f07d7c50eac932/ss_08e4240284fc2599b3710f65c3f07d7c50eac932.1920x1080.jpg?t=1764360091"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/1d9d711fd22eec7c61e080ac7c26e42e9f523ff6/ss_1d9d711fd22eec7c61e080ac7c26e42e9f523ff6.600x338.jpg?t=1764360091",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3966870/1d9d711fd22eec7c61e080ac7c26e42e9f523ff6/ss_1d9d711fd22eec7c61e080ac7c26e42e9f523ff6.1920x1080.jpg?t=1764360091"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257228952,
+            "name": "Liminal Explorer - Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257228952/d0b3fe3332b6b6e4e7f517ea8ba47bf57440b067/movie_600x337.jpg?t=1762747100",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3966870/1630729192/c80ad9fc971e252de15e9b69d2b0f95338c3a1b5/1762746247/dash_av1.mpd?t=1762747100",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3966870/1630729192/c80ad9fc971e252de15e9b69d2b0f95338c3a1b5/1762746247/dash_h264.mpd?t=1762747100",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3966870/1630729192/c80ad9fc971e252de15e9b69d2b0f95338c3a1b5/1762746247/hls_264_master.m3u8?t=1762747100",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "d73c576e5f2282de112a0ae63a6d27c64cd15586.jpg",
+              "localized_name": "True Liminal Explorer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "True Liminal Explorer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/d73c576e5f2282de112a0ae63a6d27c64cd15586.jpg"
+            },
+            {
+              "icon": "d862f899c740ea75a8f4570ed5dcad099cd1339a.jpg",
+              "localized_name": "Liminal Explorer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Liminal Explorer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/d862f899c740ea75a8f4570ed5dcad099cd1339a.jpg"
+            },
+            {
+              "icon": "36d7d4757566b80fe8b70fa45de75b1edc3d681b.jpg",
+              "localized_name": "Wander",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Wander",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/36d7d4757566b80fe8b70fa45de75b1edc3d681b.jpg"
+            },
+            {
+              "icon": "c00e8ac5381fa57cebd919ee18969bd821e53491.jpg",
+              "localized_name": "Collector",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Collector",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/c00e8ac5381fa57cebd919ee18969bd821e53491.jpg"
+            },
+            {
+              "icon": "2796e558d466a5bf8655772ae53f73d246c0ea63.jpg",
+              "localized_name": "Promised Future",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Promised Future",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/2796e558d466a5bf8655772ae53f73d246c0ea63.jpg"
+            },
+            {
+              "icon": "46e62cc4ee3c8e0720de376d2bebaf7c6a0486eb.jpg",
+              "localized_name": "Missing Textures",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Missing Textures",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/46e62cc4ee3c8e0720de376d2bebaf7c6a0486eb.jpg"
+            },
+            {
+              "icon": "aafb518581f8a5e37c5d16172beb341131a2327b.jpg",
+              "localized_name": "Bring One",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bring One",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/aafb518581f8a5e37c5d16172beb341131a2327b.jpg"
+            },
+            {
+              "icon": "f39e621fd10b301c23ca6e48fe8dcc0edcb47614.jpg",
+              "localized_name": "Fun and Games",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fun and Games",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/f39e621fd10b301c23ca6e48fe8dcc0edcb47614.jpg"
+            },
+            {
+              "icon": "d782178dcd7fd3fcdcf831ee73f02ad28f299889.jpg",
+              "localized_name": "Time Advancements",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Time Advancements",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/d782178dcd7fd3fcdcf831ee73f02ad28f299889.jpg"
+            },
+            {
+              "icon": "ca3faa28e7236f509728936bb1b213f93a0be063.jpg",
+              "localized_name": "Habitable House",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Habitable House",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3966870/ca3faa28e7236f509728936bb1b213f93a0be063.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "compact.vfx@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3966870?t=1764360091",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3966870?t=1764360091",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

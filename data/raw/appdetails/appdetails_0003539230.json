@@ -1,0 +1,211 @@
+{
+  "requested_at": "2026-09-12T15:29:48.366719+00:00",
+  "request_params": {
+    "appids": 3539230,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3539230,
+  "payload": {
+    "3539230": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Tank Fight Ready",
+        "steam_appid": 3539230,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Tank Fight Ready is a tank shooting game, players can fight each other in team deathmatch or free for all mode. AI can be added to support single player games and multiplayer games based on the Internet.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Include 8 tanks with different parameters.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Include 6 props, randomly generated on the map:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Lightning Attack - Causes lightning attacks on enemy units</p></li><li><p class=\"bb_paragraph\" >Super Fire Rate - Increase Shooting Speed</p></li><li><p class=\"bb_paragraph\" >Shield - Obtain a shield on your own</p></li><li><p class=\"bb_paragraph\" >Reflect Damage - Reflect damage to the enemy</p></li><li><p class=\"bb_paragraph\" >One Shot Kill</p></li><li><p class=\"bb_paragraph\" >Bomb - Kill all enemy units</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Tank Fight Ready is a tank shooting game, players can fight each other in team deathmatch or free for all mode. AI can be added to support single player games and multiplayer games based on the Internet.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Include 8 tanks with different parameters.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Include 6 props, randomly generated on the map:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Lightning Attack - Causes lightning attacks on enemy units</p></li><li><p class=\"bb_paragraph\" >Super Fire Rate - Increase Shooting Speed</p></li><li><p class=\"bb_paragraph\" >Shield - Obtain a shield on your own</p></li><li><p class=\"bb_paragraph\" >Reflect Damage - Reflect damage to the enemy</p></li><li><p class=\"bb_paragraph\" >One Shot Kill</p></li><li><p class=\"bb_paragraph\" >Bomb - Kill all enemy units</p></li></ul>",
+        "short_description": "Tank Fight Ready is a tank shooting game, players can fight each other in team deathmatch or free for all mode. AI can be added to support single player games and multiplayer games based on the Internet.",
+        "supported_languages": "English, Simplified Chinese, Traditional Chinese, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Portugal, Russian, Turkish",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/7197c96e193f648e8518740ec7f3b8abb9cb09f1/header.jpg?t=1772730941",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/265a56d19615484647d42b197f9d03d7cfb4f5fa/capsule_231x87.jpg?t=1772730941",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/265a56d19615484647d42b197f9d03d7cfb4f5fa/capsule_184x69.jpg?t=1772730941",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 - 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1050<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "GHOST"
+        ],
+        "publishers": [
+          "GHOST"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1249254
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Tank Fight Ready",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1249254,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Tank Fight Ready - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/27cc39a54ce6ec2d5f113044efcff0ce8e558144/ss_27cc39a54ce6ec2d5f113044efcff0ce8e558144.600x338.jpg?t=1772730941",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/27cc39a54ce6ec2d5f113044efcff0ce8e558144/ss_27cc39a54ce6ec2d5f113044efcff0ce8e558144.1920x1080.jpg?t=1772730941"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/988392fa10f2e589af980ca657e32ff39c8c85f0/ss_988392fa10f2e589af980ca657e32ff39c8c85f0.600x338.jpg?t=1772730941",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/988392fa10f2e589af980ca657e32ff39c8c85f0/ss_988392fa10f2e589af980ca657e32ff39c8c85f0.1920x1080.jpg?t=1772730941"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/be5ec2fdde0a5434a7da375502f1a2de9303f350/ss_be5ec2fdde0a5434a7da375502f1a2de9303f350.600x338.jpg?t=1772730941",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/be5ec2fdde0a5434a7da375502f1a2de9303f350/ss_be5ec2fdde0a5434a7da375502f1a2de9303f350.1920x1080.jpg?t=1772730941"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/2a0c128251c863fef2fd011fe2ef59c76ac16a12/ss_2a0c128251c863fef2fd011fe2ef59c76ac16a12.600x338.jpg?t=1772730941",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/2a0c128251c863fef2fd011fe2ef59c76ac16a12/ss_2a0c128251c863fef2fd011fe2ef59c76ac16a12.1920x1080.jpg?t=1772730941"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/a33b674a9a2e711f1ef1340127bb8ea7520c5c11/ss_a33b674a9a2e711f1ef1340127bb8ea7520c5c11.600x338.jpg?t=1772730941",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3539230/a33b674a9a2e711f1ef1340127bb8ea7520c5c11/ss_a33b674a9a2e711f1ef1340127bb8ea7520c5c11.1920x1080.jpg?t=1772730941"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257220891,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257220891/14621896afde2368fc5b96b1a48359a834dd1e37/movie_600x337.jpg?t=1761484457",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3539230/1799910679/3df3b39cbdb289db6d6bb99fd362971102425ca1/1761121792/dash_av1.mpd?t=1761484457",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3539230/1799910679/3df3b39cbdb289db6d6bb99fd362971102425ca1/1761121792/dash_h264.mpd?t=1761484457",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3539230/1799910679/3df3b39cbdb289db6d6bb99fd362971102425ca1/1761121792/hls_264_master.m3u8?t=1761484457",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 1,
+          "highlighted": [
+            {
+              "icon": "a5723decb1ab8fdf4c792d2c66de0102beefc91c.jpg",
+              "localized_name": "Tank Fight !",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tank Fight !",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3539230/a5723decb1ab8fdf4c792d2c66de0102beefc91c.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 9, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "yjwx0017@hotmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3539230?t=1772730941",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3539230?t=1772730941",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

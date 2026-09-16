@@ -1,0 +1,71 @@
+{
+  "appid": 3724650,
+  "requested_at": "2026-09-13T19:34:41.930015+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 14,
+      "total_negative": 7,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "205374936",
+        "author": {
+          "steamid": "76561198982565363",
+          "personaname": "souptoot",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198982565363/",
+          "num_games_owned": 0,
+          "num_reviews": 74,
+          "playtime_forever": 119,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 119,
+          "last_played": 1759038038,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "I did overall like the game, but I have a couple issues with it.\n\nWhat I liked: \n- Has a strong \"Fears to Fathom\" vibe, but does it's own thing\n- Some cool cosmic/liminal horror\n- Truly creepy parts, with a scary entity\n\nWhat I hated:\n- Seems to end very abruptly\n- In one part, you need to be able to listen to a voice recording to move on, and it is nearly impossible to understand what they're saying\n- Not really a lot of options for settings, plus you can't access them in game \n- Confusing story. It just may have been me, but I felt like there were a few missing pieces to the puzzle (maybe that was on purpose)\n\nOverall would recommend. Better than a lot of horror games I've recently played",
+        "timestamp_created": 1759038744,
+        "timestamp_updated": 1759038744,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.634251296520233154",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759004711",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXUKKAAAAAFP+RLyMAAAAB43biPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

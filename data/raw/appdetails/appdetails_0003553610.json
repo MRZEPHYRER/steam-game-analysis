@@ -1,0 +1,225 @@
+{
+  "requested_at": "2026-09-12T15:32:25.075128+00:00",
+  "request_params": {
+    "appids": 3553610,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3553610,
+  "payload": {
+    "3553610": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Mainu",
+        "steam_appid": 3553610,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>Mainu</i> is a fast-paced action adventure set inside a mysterious 13-floor mall consumed by energy. When Tonu meets a girl named Venera, he learns that a powerful being named Ormatsu has unknowingly infused his excess magic into ordinary capsule toys—creating living creatures called Mainus. Drawn to the mall’s endless flow of light, food, and movement, Ormatsu spreads through the building like a black hole, splitting himself into thirteen extensions that drain the life of each floor. Tonu’s own force energy allows him to control the awakened Mainus and fight back. Guided by Venera, he must collect, master, and unleash their power to stop Ormatsu before the entire mall—and reality itself—is consumed.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>Mainu</i> is a fast-paced action adventure set inside a mysterious 13-floor mall consumed by energy. When Tonu meets a girl named Venera, he learns that a powerful being named Ormatsu has unknowingly infused his excess magic into ordinary capsule toys—creating living creatures called Mainus. Drawn to the mall’s endless flow of light, food, and movement, Ormatsu spreads through the building like a black hole, splitting himself into thirteen extensions that drain the life of each floor. Tonu’s own force energy allows him to control the awakened Mainus and fight back. Guided by Venera, he must collect, master, and unleash their power to stop Ormatsu before the entire mall—and reality itself—is consumed.</p>",
+        "short_description": "Join Tonu as he navigates through a mall to collect capsule toys and battle bosses with them.",
+        "supported_languages": "English, Japanese, Korean, Russian, Simplified Chinese, Spanish - Latin America, Italian, Traditional Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/324ae0fc742f0b9f03b89b032248021389785837/header.jpg?t=1777608595",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/bb8a79b90e6d368bc1add3b8b27716572dbd2deb/capsule_231x87.jpg?t=1777608595",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/bb8a79b90e6d368bc1add3b8b27716572dbd2deb/capsule_184x69.jpg?t=1777608595",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 7/8/10/11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-2100 / AMD FX-6300<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics (Intel HD 4000 or better)<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Sound Card:</strong> Standard Audio</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5 / AMD Ryzen 3<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti / AMD Radeon R7<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> Standard Audio</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.13 (High Sierra) or later<br></li><li><strong>Processor:</strong> Intel Core i5 or Apple M1<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics (Intel UHD 600 or better, Apple M1 GPU)<br></li><li><strong>Storage:</strong> 600 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 (Big Sur) or later<br></li><li><strong>Processor:</strong> Intel Core i7 or Apple M1/M2<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 GPU or AMD Radeon Pro 560<br></li><li><strong>Storage:</strong> 600 MB available space</li></ul>"
+        },
+        "linux_requirements": [],
+        "legal_notice": "© 2025 Kanmai. All Rights Reserved",
+        "developers": [
+          "Kanmai"
+        ],
+        "publishers": [
+          "Kanmai"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1254018
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Mainu",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1254018,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "RSP - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/139a6e1dbf6173aaef08d84a7b22f2fe92764441/ss_139a6e1dbf6173aaef08d84a7b22f2fe92764441.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/139a6e1dbf6173aaef08d84a7b22f2fe92764441/ss_139a6e1dbf6173aaef08d84a7b22f2fe92764441.1920x1080.jpg?t=1777608595"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/e37798f3fc382393beb7bfae4ad6764f11fd3a2a/ss_e37798f3fc382393beb7bfae4ad6764f11fd3a2a.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/e37798f3fc382393beb7bfae4ad6764f11fd3a2a/ss_e37798f3fc382393beb7bfae4ad6764f11fd3a2a.1920x1080.jpg?t=1777608595"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/ae9d3ff042cfb695fa80063abc8cb72c7b06ac7a/ss_ae9d3ff042cfb695fa80063abc8cb72c7b06ac7a.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/ae9d3ff042cfb695fa80063abc8cb72c7b06ac7a/ss_ae9d3ff042cfb695fa80063abc8cb72c7b06ac7a.1920x1080.jpg?t=1777608595"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/c79f4536b5c466651903eb2e10712f7e6651e7fe/ss_c79f4536b5c466651903eb2e10712f7e6651e7fe.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/c79f4536b5c466651903eb2e10712f7e6651e7fe/ss_c79f4536b5c466651903eb2e10712f7e6651e7fe.1920x1080.jpg?t=1777608595"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/99da4dd4f8599e6d19576a1816d647a0e6c4a9b3/ss_99da4dd4f8599e6d19576a1816d647a0e6c4a9b3.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/99da4dd4f8599e6d19576a1816d647a0e6c4a9b3/ss_99da4dd4f8599e6d19576a1816d647a0e6c4a9b3.1920x1080.jpg?t=1777608595"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/e80dfaee4c76352b6cd749b91cd188bb16980af7/ss_e80dfaee4c76352b6cd749b91cd188bb16980af7.600x338.jpg?t=1777608595",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553610/e80dfaee4c76352b6cd749b91cd188bb16980af7/ss_e80dfaee4c76352b6cd749b91cd188bb16980af7.1920x1080.jpg?t=1777608595"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257268407,
+            "name": "Mainu trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257268407/b149dd92b163dd6da7a2971cfe3bc55e5b83c5b7/movie_600x337.jpg?t=1768898611",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3553610/429738304/41d876bfe23aadd77b01fc26be54311b1705c20a/1768898340/dash_av1.mpd?t=1768898611",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3553610/429738304/41d876bfe23aadd77b01fc26be54311b1705c20a/1768898340/dash_h264.mpd?t=1768898611",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3553610/429738304/41d876bfe23aadd77b01fc26be54311b1705c20a/1768898340/hls_264_master.m3u8?t=1768898611",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 1,
+          "highlighted": [
+            {
+              "icon": "4141007fb8503522bf5fe2ccc8c206051d1b6c6b.jpg",
+              "localized_name": "Welcome Aboard!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Welcome Aboard!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553610/4141007fb8503522bf5fe2ccc8c206051d1b6c6b.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "officialkanmai@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3553610?t=1777608595",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3553610?t=1777608595",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

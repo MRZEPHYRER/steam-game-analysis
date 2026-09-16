@@ -1,0 +1,323 @@
+{
+  "requested_at": "2026-09-13T05:56:46.168316+00:00",
+  "request_params": {
+    "appids": 3937630,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3937630,
+  "payload": {
+    "3937630": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Glaivestorm",
+        "steam_appid": 3937630,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Glaivestorm is an isometric ARPG with combat, loot, stats, spells and sprinkle of crafting.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9559ccb0cb9adb0cda16e130391c1596.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Game is focused on combat with 4 different playstyles which you can mix in any way you like:</p><p class=\"bb_paragraph\" style=\"text-align: center\">1. Melee    /    2. Ranged</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.mp4?t=1761489748\" type=\"video/mp4\"></video></span> <span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.mp4?t=1761489748\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">3. Defensive    /    4. Spellcaster</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.mp4?t=1761489748\" type=\"video/mp4\"></video></span> <span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.mp4?t=1761489748\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Melee and Ranged mode can be switched at any time and can be used with any weapons - they just have different ranges and projectile mechanics.</p><p class=\"bb_paragraph\" >Defensive style requires at least one shield equipped, gives you ability to block attacks are reflect damage.</p><p class=\"bb_paragraph\" >Spellcaster focuses on magic with different elements.</p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/122921304643141ce31d968bb97528b7.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >I'm trying to make the stat system as transparent as possible to not hide how things are calculated. The big part of the desire to create this game was frustration from a lot of games forcing players to guess or straight up lying to the players.</p><p class=\"bb_paragraph\" >As an example, in Glaivestorm if you see an item giving &quot;+10% strength&quot; you can be sure that it adds 10% to whatever strength you already have, not to some base value. Plus, when you have three such items, they don't just add up to 30% bonus, but multiply with each other to give a proper 33.1% increase.</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/7705b4e7b706e7cd8e29862557ae0deb.avif?t=1761489748\" width=800 height=486 /></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/c73315ad59120142a655c504b0f24a52.webp?t=1761489748\" width=300 height=50 /></span></h2><p class=\"bb_paragraph\" >Equipment has different rarity, which affects stats and how many effects items can have.</p><p class=\"bb_paragraph\" >There is an upgrade system to improve main stats (such as damage and armor).</p><p class=\"bb_paragraph\" >You can atomize gear to get materials and swap the majority of the bonus effects.</p><p class=\"bb_paragraph\" >Accessory slots are heavily limited in many games. Glaivestorm allows players to wear up to ten rings and two amulets at the same time (although not all gear slots are available from level zero).</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/284a77c005327ea6e1338c87fd8dca50.avif?t=1761489748\" width=710 height=492 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e18628a22732ba57f23f6a7e0a8550ae.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >You have access to both active and passive skills. Some of them benefit not just their respective path, so you're free to combine and find what's best for you.</p><p class=\"bb_paragraph\" >Just like with stats I'm trying to make all the calculations as transparent as possible.</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e1f46e5f410e15b2b42289d06176b5ae.avif?t=1761489748\" width=1150 height=940 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/71e81f167aacbc5f72ec02bbd125973a.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Most locations where you fight monsters are procedurally generated, but there's also boss arenas.</p><p class=\"bb_paragraph\" >There are complete conditions, finishing which will unlock new locations and give bonuses for future revisiting.</p><p class=\"bb_paragraph\" >Locations are not level restricted. If you can gain access to them earlier than the recommended level - good for you!</p><p class=\"bb_paragraph\" >And, of course, you can find treasures!</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/36e620e7dae11ba0950cb057892a8e33.avif?t=1761489748\" width=1560 height=750 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e38352b0144801fb8a3219c67620f934.webp?t=1761489748\" width=300 height=50 /></span> <span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/3fe9a28e7aae470f79c9f2c4521f5dcd.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Both Xbox and PS gamepads are now supported, game displays correct icons and hints in UI. Other gamepads should be supported as well, although they might not have specific set of icons for them.</p><p class=\"bb_paragraph\" >Steam Deck resolution support was also added in recent patch. If you face issues please leave feedback in Steam Discussions or in Discord (link can be found in page socials).</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Glaivestorm is an isometric ARPG with combat, loot, stats, spells and sprinkle of crafting.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9559ccb0cb9adb0cda16e130391c1596.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Game is focused on combat with 4 different playstyles which you can mix in any way you like:</p><p class=\"bb_paragraph\" style=\"text-align: center\">1. Melee    /    2. Ranged</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/68a7423d4fdee841edda3255aa7328db.mp4?t=1761489748\" type=\"video/mp4\"></video></span> <span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/9095c18ae8df68a7eec21de9a3e57e3a.mp4?t=1761489748\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">3. Defensive    /    4. Spellcaster</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/fa4d3556d5ddd1e7bfa26e3365c764dd.mp4?t=1761489748\" type=\"video/mp4\"></video></span> <span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.poster.avif?t=1761489748\" width=300 height=168 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.webm?t=1761489748\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/2f0e817827decd907725cf9e365f8b11.mp4?t=1761489748\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Melee and Ranged mode can be switched at any time and can be used with any weapons - they just have different ranges and projectile mechanics.</p><p class=\"bb_paragraph\" >Defensive style requires at least one shield equipped, gives you ability to block attacks are reflect damage.</p><p class=\"bb_paragraph\" >Spellcaster focuses on magic with different elements.</p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/122921304643141ce31d968bb97528b7.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >I'm trying to make the stat system as transparent as possible to not hide how things are calculated. The big part of the desire to create this game was frustration from a lot of games forcing players to guess or straight up lying to the players.</p><p class=\"bb_paragraph\" >As an example, in Glaivestorm if you see an item giving &quot;+10% strength&quot; you can be sure that it adds 10% to whatever strength you already have, not to some base value. Plus, when you have three such items, they don't just add up to 30% bonus, but multiply with each other to give a proper 33.1% increase.</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/7705b4e7b706e7cd8e29862557ae0deb.avif?t=1761489748\" width=800 height=486 /></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/c73315ad59120142a655c504b0f24a52.webp?t=1761489748\" width=300 height=50 /></span></h2><p class=\"bb_paragraph\" >Equipment has different rarity, which affects stats and how many effects items can have.</p><p class=\"bb_paragraph\" >There is an upgrade system to improve main stats (such as damage and armor).</p><p class=\"bb_paragraph\" >You can atomize gear to get materials and swap the majority of the bonus effects.</p><p class=\"bb_paragraph\" >Accessory slots are heavily limited in many games. Glaivestorm allows players to wear up to ten rings and two amulets at the same time (although not all gear slots are available from level zero).</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/284a77c005327ea6e1338c87fd8dca50.avif?t=1761489748\" width=710 height=492 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e18628a22732ba57f23f6a7e0a8550ae.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >You have access to both active and passive skills. Some of them benefit not just their respective path, so you're free to combine and find what's best for you.</p><p class=\"bb_paragraph\" >Just like with stats I'm trying to make all the calculations as transparent as possible.</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e1f46e5f410e15b2b42289d06176b5ae.avif?t=1761489748\" width=1150 height=940 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/71e81f167aacbc5f72ec02bbd125973a.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Most locations where you fight monsters are procedurally generated, but there's also boss arenas.</p><p class=\"bb_paragraph\" >There are complete conditions, finishing which will unlock new locations and give bonuses for future revisiting.</p><p class=\"bb_paragraph\" >Locations are not level restricted. If you can gain access to them earlier than the recommended level - good for you!</p><p class=\"bb_paragraph\" >And, of course, you can find treasures!</p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/36e620e7dae11ba0950cb057892a8e33.avif?t=1761489748\" width=1560 height=750 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/e38352b0144801fb8a3219c67620f934.webp?t=1761489748\" width=300 height=50 /></span> <span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/extras/3fe9a28e7aae470f79c9f2c4521f5dcd.webp?t=1761489748\" width=300 height=50 /></span></p><p class=\"bb_paragraph\" >Both Xbox and PS gamepads are now supported, game displays correct icons and hints in UI. Other gamepads should be supported as well, although they might not have specific set of icons for them.</p><p class=\"bb_paragraph\" >Steam Deck resolution support was also added in recent patch. If you face issues please leave feedback in Steam Discussions or in Discord (link can be found in page socials).</p>",
+        "short_description": "Indie action RPG. There are monsters, lots of loot, skill tree and stat system as well as many damage numbers on screen!",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/11d3b86ad968c750558e6d8412839c4cfef2e7b1/header.jpg?t=1761489748",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/468a1ce6304851fcd0897ee4f83c0c33c0b75bdd/capsule_231x87.jpg?t=1761489748",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/468a1ce6304851fcd0897ee4f83c0c33c0b75bdd/capsule_184x69.jpg?t=1761489748",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Processor:</strong> Potato can probably run it<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Anything<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Sound Card:</strong> Anything<br></li><li><strong>Additional Notes:</strong> 1280x800 display (Steam Deck resolution) or better</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Processor:</strong> Potato can probably run it<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Anything<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Sound Card:</strong> Anything<br></li><li><strong>Additional Notes:</strong> 1920x1080 display (FullHD) or better is recommended</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Blue glass star"
+        ],
+        "publishers": [
+          "Blue glass star"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1383263
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Glaivestorm",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1383263,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Glaivestorm - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/cf29d06a858923d64f5bcc22648afad10f57988d/ss_cf29d06a858923d64f5bcc22648afad10f57988d.600x338.jpg?t=1761489748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/cf29d06a858923d64f5bcc22648afad10f57988d/ss_cf29d06a858923d64f5bcc22648afad10f57988d.1920x1080.jpg?t=1761489748"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/1a4bea8b7d69cf9a4acf3c3e17776ec13edf562b/ss_1a4bea8b7d69cf9a4acf3c3e17776ec13edf562b.600x338.jpg?t=1761489748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/1a4bea8b7d69cf9a4acf3c3e17776ec13edf562b/ss_1a4bea8b7d69cf9a4acf3c3e17776ec13edf562b.1920x1080.jpg?t=1761489748"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/1d17121c322082779a49a9e4ad6f7452d4d3e4a3/ss_1d17121c322082779a49a9e4ad6f7452d4d3e4a3.600x338.jpg?t=1761489748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/1d17121c322082779a49a9e4ad6f7452d4d3e4a3/ss_1d17121c322082779a49a9e4ad6f7452d4d3e4a3.1920x1080.jpg?t=1761489748"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/7c47ab466eeabad872aa8fe9d89892d98db69715/ss_7c47ab466eeabad872aa8fe9d89892d98db69715.600x338.jpg?t=1761489748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/7c47ab466eeabad872aa8fe9d89892d98db69715/ss_7c47ab466eeabad872aa8fe9d89892d98db69715.1920x1080.jpg?t=1761489748"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/ad71590cb294a60c0a773d203cfc15f2e55b9cc7/ss_ad71590cb294a60c0a773d203cfc15f2e55b9cc7.600x338.jpg?t=1761489748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/ad71590cb294a60c0a773d203cfc15f2e55b9cc7/ss_ad71590cb294a60c0a773d203cfc15f2e55b9cc7.1920x1080.jpg?t=1761489748"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257194619,
+            "name": "Glaivestorm trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194619/01f6e3885d57c01878a375f1c3dc4643a9ced65a/movie_600x337.jpg?t=1757529437",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3937630/1719446174/0c2de746e3544d8354ddd2b51b7a6d79f8437335/1757348035/dash_av1.mpd?t=1757529437",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3937630/1719446174/0c2de746e3544d8354ddd2b51b7a6d79f8437335/1757348035/dash_h264.mpd?t=1757529437",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3937630/1719446174/0c2de746e3544d8354ddd2b51b7a6d79f8437335/1757348035/hls_264_master.m3u8?t=1757529437",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 26,
+          "highlighted": [
+            {
+              "icon": "a3d1f4f8af90e13801db03c433957e8e87e781d6.jpg",
+              "localized_name": "Climbed a hill",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Climbed a hill",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/a3d1f4f8af90e13801db03c433957e8e87e781d6.jpg"
+            },
+            {
+              "icon": "51b6a39421c22a895f41bc131b4b8fcb933086e3.jpg",
+              "localized_name": "Everest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Everest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/51b6a39421c22a895f41bc131b4b8fcb933086e3.jpg"
+            },
+            {
+              "icon": "741e482ef426b62fe3a36daab0bfc83c46f4c802.jpg",
+              "localized_name": "Olympus",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Olympus",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/741e482ef426b62fe3a36daab0bfc83c46f4c802.jpg"
+            },
+            {
+              "icon": "743919bbefa3ebce40c0d55b0adf213e546b43f0.jpg",
+              "localized_name": "Consistency",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Consistency",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/743919bbefa3ebce40c0d55b0adf213e546b43f0.jpg"
+            },
+            {
+              "icon": "e30a87049faf095106c4e05cb3f10530b90c2362.jpg",
+              "localized_name": "Powerful punch",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Powerful punch",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/e30a87049faf095106c4e05cb3f10530b90c2362.jpg"
+            },
+            {
+              "icon": "91964857710d284decbebe5851b13ca9da118051.jpg",
+              "localized_name": "One-Punch man",
+              "archived": 0,
+              "hidden": 0,
+              "name": "One-Punch man",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/91964857710d284decbebe5851b13ca9da118051.jpg"
+            },
+            {
+              "icon": "e00336b98eab77deacda9a35bfe73d46f33cc296.jpg",
+              "localized_name": "Thor",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thor",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/e00336b98eab77deacda9a35bfe73d46f33cc296.jpg"
+            },
+            {
+              "icon": "bdc16394dafa8e33d07e651b1c58fe4ed9d85f64.jpg",
+              "localized_name": "Flash",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Flash",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/bdc16394dafa8e33d07e651b1c58fe4ed9d85f64.jpg"
+            },
+            {
+              "icon": "c25ed171fc01ed25f3212da7f989e8eb8e3eec93.jpg",
+              "localized_name": "Megamind",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Megamind",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/c25ed171fc01ed25f3212da7f989e8eb8e3eec93.jpg"
+            },
+            {
+              "icon": "3e8a4ac3c624ba27f9527ba3c45c6fed529eb289.jpg",
+              "localized_name": "Nanomachines, son!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Nanomachines, son!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3937630/3e8a4ac3c624ba27f9527ba3c45c6fed529eb289.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "blueglassstar@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937630?t=1761489748",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937630/974f7597e82eb43fec23899b213fd6d65a07297b/page_bg_raw.jpg?t=1761489748",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

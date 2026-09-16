@@ -1,0 +1,67 @@
+{
+  "appid": 2673560,
+  "requested_at": "2026-09-13T18:53:52.545290+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 7,
+      "total_negative": 1,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "205180335",
+        "author": {
+          "steamid": "76561197990036156",
+          "personaname": "Zincoshine",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Zincoshine/",
+          "num_games_owned": 663,
+          "num_reviews": 735,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "deck_playtime_at_review": 7,
+          "last_played": 1758820905,
+          "avatar": "9a22843ecc3be0ca4d7b855f2beace5dda7a9b8f"
+        },
+        "language": "english",
+        "review": "While the controls are decent, the game is just too unpolished and janky to continue playing. Also, it doesn't work on the steam deck so I am going to have to refund.",
+        "timestamp_created": 1758821026,
+        "timestamp_updated": 1758821026,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558323919773101807",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1757691673",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY1WGAAAAAFP+HdykAAAAB/2tmOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0620000000001255,
+  "transport_error_count": 0
+}

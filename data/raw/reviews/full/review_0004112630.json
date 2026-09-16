@@ -1,0 +1,66 @@
+{
+  "appid": 4112630,
+  "requested_at": "2026-09-13T20:20:01.008890+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "214598830",
+        "author": {
+          "steamid": "76561198301430745",
+          "personaname": "AMRNS",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198301430745/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 212,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 109,
+          "last_played": 1767913933,
+          "avatar": "2e3ce317e082f4915007b747bdff346122ec71c7"
+        },
+        "language": "english",
+        "review": "A unique UI with tons of fun, interesting and difficult puzzle levels. Very nice concept. Also sudo rm -rf /* does nothing. already tried.\n\nI found myself thinking \"did the developers think of this solution!\" in one of the levels and turns out it was the intended solution. Its got good background music that changes every now and then. defo one for players to try and speed run.",
+        "timestamp_created": 1767057099,
+        "timestamp_updated": 1767057099,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.53947371244430542",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767014040",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZNeSAAAAAFP+FDXwAAAAB+ytCyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

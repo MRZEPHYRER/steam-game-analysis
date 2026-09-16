@@ -1,0 +1,628 @@
+---
+title: "Step 5D 敏感性分析可视化审计"
+subtitle: "预先指定、单因素变更的 Beta-binomial 规格审计"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/modeling/00_model_helpers.R")
+source("../R/unicode_utils.R")
+
+# knitr formats table captions and column names through the active Windows
+# character locale. In a C locale, non-ASCII glyphs can become ASCII
+# code-point notation. Decode that representation once, after the complete
+# Markdown document is assembled and before Quarto passes it to Pandoc.
+knitr::knit_hooks$set(document = function(x) {
+  decode_uplus_notation(x)
+})
+
+read_step5d <- function(name) {
+  read.csv(
+    file.path(model_audit_dir, name),
+    check.names = FALSE,
+    fileEncoding = "UTF-8"
+  )
+}
+figure_5d <- function(name) file.path(model_figure_dir, name)
+
+threshold_samples <- read_step5d("step5d_threshold_samples.csv")
+threshold_fit <- read_step5d("step5d_threshold_fit.csv")
+threshold_coefficients <- read_step5d("step5d_threshold_coefficients.csv")
+threshold_stability <- read_step5d("step5d_threshold_stability.csv")
+release_fit <- read_step5d("step5d_release_fit.csv")
+release_coefficients <- read_step5d("step5d_release_coefficients.csv")
+release_comparison <- read_step5d("step5d_release_comparison.csv")
+price_fit <- read_step5d("step5d_price_fit.csv")
+price_coefficients <- read_step5d("step5d_price_coefficients.csv")
+price_comparison <- read_step5d("step5d_price_comparison.csv")
+price_predictions <- read_step5d("step5d_price_predicted_contrasts.csv")
+genre_fit <- read_step5d("step5d_genre_fit.csv")
+genre_coefficients <- read_step5d("step5d_genre_coefficients.csv")
+genre_comparison <- read_step5d("step5d_genre_comparison.csv")
+stability <- read_step5d("step5d_core_predictor_stability.csv")
+direction <- read_step5d("step5d_direction_matrix.csv")
+diagnostics <- read_step5d("step5d_diagnostics.csv")
+fit_warnings <- read_step5d("step5d_fit_warnings.csv")
+
+term_labels_zh <- c(
+  "(Intercept)" = "截距",
+  z_log1p_price = "当前价格（log1p，标准化）",
+  z_days_since_release = "上市至评论快照天数（标准化）",
+  `platform_segmentWindows + macOS` = "Windows + macOS",
+  `platform_segmentWindows + Linux` = "Windows + Linux",
+  `platform_segmentWindows + macOS + Linux` = "三平台支持",
+  genre_action = "Action", genre_adventure = "Adventure",
+  genre_casual = "Casual", genre_indie = "Indie", genre_rpg = "RPG",
+  genre_simulation = "Simulation", genre_strategy = "Strategy",
+  genre_early_access = "Early Access", genre_sports = "Sports",
+  genre_racing = "Racing"
+)
+spec_labels_zh <- c(
+  PRIMARY = "主规格（评论数 ≥ 20）",
+  TH_GT0 = "评论数 > 0",
+  TH_10 = "评论数 ≥ 10",
+  TH_50 = "评论数 ≥ 50",
+  RELEASE_MONTH = "发布月份替代规格",
+  PRICE_RAW = "原始价格替代规格",
+  GENRE_EXPANDED = "扩展 Genre 规格"
+)
+class_labels_zh <- c(
+  ROBUST = "ROBUST（稳健）",
+  PARTIAL = "PARTIAL（部分稳健）",
+  SENSITIVE = "SENSITIVE（对规格敏感）"
+)
+term_zh <- function(x) {
+  mapped <- unname(term_labels_zh[x])
+  ifelse(is.na(mapped), x, mapped)
+}
+spec_zh <- function(x) {
+  mapped <- unname(spec_labels_zh[x])
+  ifelse(is.na(mapped), x, mapped)
+}
+yes_no_zh <- function(x) ifelse(x, "是", "否")
+
+focus_terms <- c(
+  "z_log1p_price", "z_days_since_release",
+  "platform_segmentWindows + macOS", "platform_segmentWindows + Linux",
+  "platform_segmentWindows + macOS + Linux", "genre_indie", "genre_rpg",
+  "genre_simulation", "genre_strategy"
+)
+primary_coefficients <- threshold_coefficients[
+  threshold_coefficients$specification_id == "PRIMARY",
+]
+threshold_focus <- threshold_coefficients[threshold_coefficients$term %in% focus_terms,]
+release_month_rows <- release_coefficients[grepl("^release_month", release_coefficients$term),]
+release_shared <- release_comparison[
+  !is.na(release_comparison$primary_odds_ratio) & release_comparison$term != "(Intercept)",
+]
+price_shared <- price_comparison[
+  !is.na(price_comparison$primary_odds_ratio) & price_comparison$term != "(Intercept)",
+]
+genre_display <- genre_comparison[
+  genre_comparison$term %in% c(
+    "genre_action", "genre_adventure", "genre_casual", "genre_indie",
+    "genre_rpg", "genre_simulation", "genre_strategy",
+    "genre_early_access", "genre_sports", "genre_racing"
+  ),
+]
+price_stability <- stability[stability$conceptual_term == "z_log1p_price",]
+days_stability <- stability[stability$conceptual_term == "z_days_since_release",]
+indie_stability <- stability[stability$conceptual_term == "genre_indie",]
+rpg_stability <- stability[stability$conceptual_term == "genre_rpg",]
+simulation_stability <- stability[stability$conceptual_term == "genre_simulation",]
+strategy_stability <- stability[stability$conceptual_term == "genre_strategy",]
+platform_stability <- stability[grepl("^platform_segment", stability$conceptual_term),]
+
+stopifnot(
+  nrow(diagnostics) == 7,
+  all(diagnostics$converged),
+  all(diagnostics$positive_definite_hessian),
+  all(diagnostics$warning_count == 0),
+  identical(threshold_samples$n_games, c(2206L, 1127L, 836L, 548L)),
+  nrow(primary_coefficients) == 13
+)
+```
+
+# Step 5D 分析目的
+
+本报告审计冻结的主模型结论是否依赖四类预先指定的分析选择：评论数量阈值、发布时间表示、
+价格变量变换和 Genre 集合。每个敏感性分析（sensitivity analysis）一次只改变一个规格，
+其余设置均保持主规格不变。审计重点是方向、比值比（Odds Ratio, OR）幅度、
+95% 置信区间（95% CI）及跨规格稳健性（robustness），不进行自动模型选择，也不作因果解释。
+
+# 主模型规格回顾
+
+主规格仍为 836 个评论数不少于 20 的付费游戏；响应变量是每个游戏的正面/负面评论分组计数，
+平台 reference level 为 Windows only，价格与上市天数继续使用冻结的标准化参数，Genre 使用
+Action、Adventure、Casual、Indie、RPG、Simulation 和 Strategy 七个指标。主规格的
+Beta-binomial precision phi 为
+`r sprintf("%.4f", diagnostics$beta_precision_phi[diagnostics$specification_id == "PRIMARY"])`，
+组内相关 rho 为
+`r sprintf("%.4f", diagnostics$intra_game_rho[diagnostics$specification_id == "PRIMARY"])`。
+
+```{r}
+knitr::kable(
+  transform(
+    primary_coefficients[, c(
+    "term", "estimate_log_odds", "std_error", "odds_ratio",
+    "or_ci95_lower", "or_ci95_upper", "ci_crosses_1"
+    )],
+    term = term_zh(term),
+    ci_crosses_1 = yes_no_zh(ci_crosses_1)
+  ),
+  digits = 4,
+  col.names = c("预测变量", "log odds", "标准误", "OR", "95% CI 下限", "95% CI 上限", "CI 是否跨 1"),
+  caption = "表：主模型 OR 与 95% CI"
+)
+```
+
+# 评论数量阈值敏感性分析
+
+主规格采用 `total_reviews >= 20`。其余 `>0`、`>=10` 和 `>=50`
+仅作为预先指定的敏感性分析，不代表任何阈值“更优”。四个模型样本依次包含
+2,206 / 1,127 / 836 / 548 个游戏，严格嵌套且均为付费游戏。`>0` 来源样本原有
+2,207 个游戏，其中 1 个仅有两条评论的游戏缺少冻结价格变量，已明确记录为排除项；
+所有阈值均沿用主规格的标准化参数。
+
+```{r}
+knitr::kable(
+  transform(
+    threshold_samples[, c(
+    "threshold", "source_paid_games", "excluded_missing_predictors", "n_games",
+    "positive_reviews", "negative_reviews", "total_reviews",
+    "pooled_positive_rate", "median_game_positive_rate",
+    "price_mean_usd", "days_mean"
+    )],
+    pooled_positive_rate = 100 * pooled_positive_rate,
+    median_game_positive_rate = 100 * median_game_positive_rate
+  ),
+  digits = 4,
+  col.names = c(
+    "评论阈值", "来源游戏数", "缺失预测变量排除数", "模型 N",
+    "正面评论", "负面评论", "总评论", "汇总正面率（%）",
+    "游戏层面正面率中位数（%）", "平均价格（美元）", "平均上市天数"
+  ),
+  caption = "表：评论阈值样本规模"
+)
+knitr::kable(
+  transform(
+    threshold_fit[, c(
+    "specification_id", "n_games", "log_likelihood", "aic", "bic",
+    "beta_precision_phi", "intra_game_rho", "converged",
+    "positive_definite_hessian", "max_abs_fixed_gradient", "warning_count"
+    )],
+    specification_id = spec_zh(specification_id),
+    converged = yes_no_zh(converged),
+    positive_definite_hessian = yes_no_zh(positive_definite_hessian)
+  ),
+  digits = 5,
+  col.names = c(
+    "模型规格", "N", "logLik", "AIC", "BIC", "phi", "rho",
+    "收敛", "Hessian 为正定", "最大绝对梯度", "警告数"
+  ),
+  caption = "表：不同评论阈值模型诊断（样本不同，不据 AIC 排序）"
+)
+```
+
+```{r}
+#| fig-cap: "评论数量阈值下的 Beta-binomial OR 与 Wald 95% CI"
+knitr::include_graphics(figure_5d("09_threshold_or_comparison.png"))
+```
+
+> **人工审计重点**
+>
+> - 是否存在预测变量方向反转？
+> - 是否有某一个评论阈值明显偏离其他规格？
+> - 哪些 95% CI 从不跨 1 变为跨 1，或反向变化？
+
+```{r}
+knitr::kable(
+  transform(
+    threshold_focus[, c(
+    "threshold", "term", "odds_ratio", "or_ci95_lower", "or_ci95_upper",
+    "ci_crosses_1"
+    )],
+    term = term_zh(term),
+    ci_crosses_1 = yes_no_zh(ci_crosses_1)
+  ),
+  digits = 4,
+  col.names = c("评论阈值", "预测变量", "OR", "95% CI 下限", "95% CI 上限", "CI 是否跨 1"),
+  caption = "表：不同评论阈值下九个重点预测变量的 OR"
+)
+```
+
+```{r}
+#| fig-cap: "四个嵌套评论阈值下的 OR 点估计漂移"
+knitr::include_graphics(figure_5d("10_threshold_coefficient_drift.png"))
+```
+
+> **人工审计重点**
+>
+> - OR 是否随阈值收紧而呈单调变化？
+> - 即使方向未反转，OR 幅度是否变化到足以影响实质解释？
+
+# 发布时间规格敏感性分析
+
+主规格使用标准化的 `days_since_release`，替代规格使用分类变量 `release_month`，
+并以 2025 年 7 月为 reference level。两者高度相关，因此不会同时进入同一个模型。
+替代规格 AIC 为 `r sprintf("%.3f", release_fit$aic)`，主规格为
+`r sprintf("%.3f", diagnostics$aic[diagnostics$specification_id == "PRIMARY"])`。
+两者使用相同样本，允许谨慎比较 AIC，但该比较不会自动改变冻结的主规格。
+
+```{r}
+knitr::kable(
+  transform(
+    release_shared[, c(
+    "term", "primary_odds_ratio", "odds_ratio", "or_ci95_lower", "or_ci95_upper",
+    "or_difference_pct", "direction_change", "ci_crosses_1_change"
+    )],
+    term = term_zh(term),
+    direction_change = yes_no_zh(direction_change),
+    ci_crosses_1_change = yes_no_zh(ci_crosses_1_change)
+  ),
+  digits = 4,
+  col.names = c(
+    "预测变量", "主规格 OR", "替代规格 OR", "95% CI 下限", "95% CI 上限",
+    "OR 变化（%）", "方向变化", "CI 跨 1 状态变化"
+  ),
+  caption = "表：发布时间规格敏感性"
+)
+```
+
+```{r}
+#| fig-cap: "发布月份替代上市天数后，共同预测变量的 OR 对比"
+knitr::include_graphics(figure_5d("11_release_specification_comparison.png"))
+```
+
+> **人工审计重点**
+>
+> - 替换时间变量后，Price、Platform、Simulation、Strategy、Indie 和 RPG 是否稳定？
+> - 共同预测变量的 95% CI 与 OR=1 的关系是否变化？
+
+```{r}
+knitr::kable(
+  transform(
+    release_month_rows[, c(
+    "term", "estimate_log_odds", "std_error", "odds_ratio",
+    "or_ci95_lower", "or_ci95_upper", "ci_crosses_1", "ci_method"
+    )],
+    term = sub("release_month", "", term),
+    ci_crosses_1 = yes_no_zh(ci_crosses_1)
+  ),
+  digits = 4,
+  col.names = c(
+    "发布月份", "log odds", "标准误", "OR", "95% CI 下限",
+    "95% CI 上限", "CI 是否跨 1", "CI 方法"
+  ),
+  caption = "表：各发布月份相对 2025 年 7 月的 OR"
+)
+```
+
+```{r}
+#| fig-cap: "各发布月份相对 2025 年 7 月的 OR 与 95% CI"
+knitr::include_graphics(figure_5d("12_release_month_effects.png"))
+```
+
+> **人工审计重点**
+>
+> - 是否有任一月份与 2025 年 7 月明显分离？
+> - 月份估计的区间宽度是否显示较大的不确定性？
+
+各月份 95% CI 均跨 1；`days_since_release` 在不同规格中的关联也较弱。
+因此发布时间主要作为时间暴露或队列控制变量，而不是主要研究发现。
+
+# 价格规格敏感性分析
+
+主规格使用标准化的 `log1p(current_price_usd)`，替代规格使用标准化的原始
+`current_price_usd`。两种 OR 都按对应变量增加 1 个标准差解释，不能直接理解为价格每增加 1 美元。
+原始美元尺度与 log1p 尺度代表不同的价格变化，因此重点比较方向、幅度及其他系数的稳定性。
+
+```{r}
+knitr::kable(
+  transform(
+    price_predictions[, c(
+      "specification_id", "price_scale", "baseline_probability",
+      "plus_1sd_probability", "absolute_probability_contrast"
+    )],
+    specification_id = spec_zh(specification_id)
+  ),
+  digits = 5,
+  col.names = c(
+    "模型规格", "价格对比尺度", "基准预测概率",
+    "+1 SD 预测概率", "预测概率绝对变化"
+  ),
+  caption = "表：价格变量增加 1 SD 的预测概率对比"
+)
+knitr::kable(
+  transform(
+    price_shared[, c(
+    "comparison_term", "primary_odds_ratio", "odds_ratio", "or_ci95_lower",
+    "or_ci95_upper", "or_difference_pct", "direction_change", "ci_crosses_1_change"
+    )],
+    comparison_term = term_zh(comparison_term),
+    direction_change = yes_no_zh(direction_change),
+    ci_crosses_1_change = yes_no_zh(ci_crosses_1_change)
+  ),
+  digits = 4,
+  col.names = c(
+    "预测变量", "主规格 OR", "替代规格 OR", "95% CI 下限", "95% CI 上限",
+    "OR 变化（%）", "方向变化", "CI 跨 1 状态变化"
+  ),
+  caption = "表：价格规格敏感性"
+)
+```
+
+```{r}
+#| fig-cap: "标准化 log1p 价格与标准化原始价格规格的 OR 对比"
+knitr::include_graphics(figure_5d("13_price_specification_comparison.png"))
+```
+
+> **人工审计重点**
+>
+> - 更换价格变换后，Price 的方向或 CI 结论是否变化？
+> - 其他预测变量的漂移是否大于 Price 本身的变化？
+
+Price 在全部 7 个相关规格中均保持负方向，总体 OR 范围为
+`r sprintf("%.3f", price_stability$minimum_or)`–`r sprintf("%.3f", price_stability$maximum_or)`，
+最大 OR 漂移为 `r sprintf("%.2f", price_stability$max_or_drift_pct)`%。关联幅度较小但稳定。
+需要注意，当前价格是采集时点美国 Steam storefront 的快照价格，不是 launch price，
+也不是评论者实际支付的价格。
+
+# Genre 规格敏感性分析
+
+主模型 Genre 为 Action、Adventure、Casual、Indie、RPG、Simulation 和 Strategy；
+扩展规格仅额外加入 Early Access、Sports 和 Racing。此处 Early Access 是冻结数据中的
+Steam genre/category 标签，不代表历史 Early Access 状态或发行时状态。Sports 与 Racing
+样本较稀疏，因此应优先审计 CI 宽度及其对原七个 Genre 系数的影响，不应仅依据单个 p 值作结论。
+
+```{r}
+original_genre_display <- genre_display[
+  genre_display$term %in% c(
+    "genre_action", "genre_adventure", "genre_casual", "genre_indie",
+    "genre_rpg", "genre_simulation", "genre_strategy"
+  ),
+]
+added_genre_display <- genre_display[
+  genre_display$term %in% c("genre_early_access", "genre_sports", "genre_racing"),
+]
+knitr::kable(
+  transform(
+    original_genre_display[, c(
+      "term", "primary_odds_ratio", "odds_ratio", "or_ci95_lower",
+      "or_ci95_upper", "or_difference_pct", "direction_change"
+    )],
+    term = term_zh(term),
+    direction_change = yes_no_zh(direction_change)
+  ),
+  digits = 4,
+  col.names = c(
+    "Genre", "主规格 OR", "扩展规格 OR", "95% CI 下限",
+    "95% CI 上限", "OR 变化（%）", "方向变化"
+  ),
+  caption = "表：原七个 Genre 在集合扩展后的稳定性"
+)
+knitr::kable(
+  transform(
+    added_genre_display[, c(
+      "term", "n_games_with_genre", "positive_reviews_with_genre",
+      "negative_reviews_with_genre", "odds_ratio", "or_ci95_lower",
+      "or_ci95_upper", "ci_crosses_1"
+    )],
+    term = term_zh(term),
+    ci_crosses_1 = yes_no_zh(ci_crosses_1)
+  ),
+  digits = 4,
+  col.names = c(
+    "新增 Genre", "游戏数", "正面评论", "负面评论",
+    "OR", "95% CI 下限", "95% CI 上限", "CI 是否跨 1"
+  ),
+  caption = "表：新增 Genre 指标审计"
+)
+```
+
+```{r}
+#| fig-cap: "主规格七个 Genre 与扩展后十个 Genre 的 OR 对比"
+knitr::include_graphics(figure_5d("14_genre_specification_comparison.png"))
+```
+
+> **人工审计重点**
+>
+> - 原七个 Genre 的 OR 是否在扩展后出现明显漂移？
+> - Sports 与 Racing 的 CI 是否过宽，因而不足以支持精确的方向判断？
+
+# 各预测变量稳健性汇总
+
+描述性分类规则保持不变：ROBUST（稳健）表示方向不变且最大 OR 漂移不超过 10%；
+PARTIAL（部分稳健、存在一定规格敏感性）表示方向不变且漂移大于 10% 但不超过 25%；
+SENSITIVE（对规格敏感）表示方向反转或漂移超过 25%。这些仅是人工审计规则，不是统计检验。
+
+```{r}
+knitr::kable(
+  transform(
+    stability[, c(
+      "conceptual_term", "specifications_available", "minimum_or", "primary_or",
+      "maximum_or", "same_direction_specs", "ci_excluding_1_specs",
+      "ci_crossing_1_specs", "max_or_drift_pct", "robustness_class"
+    )],
+    conceptual_term = term_zh(conceptual_term),
+    robustness_class = unname(class_labels_zh[robustness_class])
+  ),
+  digits = 4,
+  col.names = c(
+    "预测变量", "可用规格数", "最小 OR", "主规格 OR", "最大 OR",
+    "同方向规格数", "CI 不跨 1", "CI 跨 1", "最大漂移（%）", "稳健性分类"
+  ),
+  caption = "表：核心预测变量总体稳健性"
+)
+```
+
+```{r}
+#| fig-cap: "各重点预测变量的观测 OR 范围与冻结主规格估计值"
+knitr::include_graphics(figure_5d("16_or_range_summary.png"))
+```
+
+> **人工审计重点**
+>
+> - 较窄的 OR 范围是否掩盖了多个跨 1 的 CI？
+> - 哪个 Platform contrast 在方向不变时出现了最大的幅度漂移？
+
+# Simulation（模拟类）深入审计
+
+Step 5C Beta-binomial 主规格的 Simulation OR 为
+`r sprintf("%.3f", simulation_stability$primary_or)`。Step 5D 各规格范围为
+`r sprintf("%.3f", simulation_stability$minimum_or)`–`r sprintf("%.3f", simulation_stability$maximum_or)`，
+7/7 个规格均保持负方向，且 7/7 个 CI 均不跨 1。Simulation 是当前最稳定的 Genre
+关联之一，但这一结果仍是条件关联，不应解释为因果关系。
+
+```{r}
+#| fig-cap: "Simulation 在全部预先指定规格下的 OR 与 Wald 95% CI"
+knitr::include_graphics(figure_5d("17_simulation_sensitivity.png"))
+```
+
+> **人工审计重点**
+>
+> - Simulation 是否在全部规格中保持 OR < 1？
+> - 评论数 > 0 的估计是否是孤立偏离，还是与其他规格形成连续变化？
+
+# Price 深入审计
+
+```{r}
+#| fig-cap: "Price 在全部预先指定规格下的 OR 与 Wald 95% CI"
+knitr::include_graphics(figure_5d("18_price_sensitivity.png"))
+```
+
+> **人工审计重点**
+>
+> - Price 是否在每个相关模型中保持负方向？
+> - 哪些规格的 CI 扩大到跨越 OR=1？
+
+# Platform（平台）深入审计
+
+三个 Platform contrast 在全部 7 个规格中均保持正方向，但 OR 幅度随评论数量阈值出现一定变化，
+因此应描述为“方向稳定、幅度部分敏感”，而不是笼统称为 Platform 稳健。所有解释均相对于
+Windows only。
+
+```{r}
+knitr::kable(
+  transform(
+    platform_stability[, c(
+      "conceptual_term", "minimum_or", "primary_or", "maximum_or",
+      "same_direction_specs", "ci_excluding_1_specs", "max_or_drift_pct",
+      "robustness_class"
+    )],
+    conceptual_term = term_zh(conceptual_term),
+    robustness_class = unname(class_labels_zh[robustness_class])
+  ),
+  digits = 4,
+  col.names = c(
+    "Platform contrast", "最小 OR", "主规格 OR", "最大 OR",
+    "同方向规格数", "CI 不跨 1", "最大漂移（%）", "稳健性分类"
+  ),
+  caption = "表：Platform 稳健性汇总"
+)
+```
+
+# 总体稳健性矩阵
+
+```{r}
+#| fig-cap: "各模型规格的 log odds 方向与幅度；灰色表示按设计未纳入上市天数"
+knitr::include_graphics(figure_5d("15_robustness_heatmap.png"))
+```
+
+> **人工审计重点**
+>
+> - 每一行的方向模式是否一致？
+> - 是否有单一规格产生异常大的幅度变化？
+
+```{r}
+direction_display <- direction
+direction_display$conceptual_term <- term_zh(direction_display$conceptual_term)
+names(direction_display) <- c(
+  "预测变量", "主规格", "评论数 > 0", "评论数 ≥ 10", "评论数 ≥ 50",
+  "发布月份替代", "原始价格替代", "扩展 Genre"
+)
+knitr::kable(
+  direction_display,
+  caption = "表：方向矩阵（+/-）；发布月份替代规格按设计不含上市天数"
+)
+```
+
+# 模型诊断
+
+只有 convergence code 为 0 且 Hessian 为正定的模型才可解释系数。以下表格同时展示最大梯度、
+优化器信息、phi、rho、边界检查、样本一致性及 AIC 可比范围。7 个模型全部满足收敛要求；
+最大绝对梯度为 `r sprintf("%.6f", max(diagnostics$max_abs_fixed_gradient))`，
+捕获到的模型拟合警告数为 `r sum(diagnostics$warning_count)`。
+
+```{r}
+knitr::kable(
+  transform(
+    diagnostics[, c(
+    "specification_id", "n_games", "convergence_code", "converged",
+    "positive_definite_hessian", "max_abs_fixed_gradient", "optimizer_message",
+    "warning_count", "beta_precision_phi", "intra_game_rho",
+    "dispersion_boundary_flag", "extreme_fixed_estimate_or_se_count",
+    "same_rows_as_primary", "aic_comparable_to_primary", "delta_aic_vs_primary"
+    )],
+    specification_id = spec_zh(specification_id),
+    converged = yes_no_zh(converged),
+    positive_definite_hessian = yes_no_zh(positive_definite_hessian),
+    dispersion_boundary_flag = yes_no_zh(dispersion_boundary_flag),
+    same_rows_as_primary = yes_no_zh(same_rows_as_primary),
+    aic_comparable_to_primary = yes_no_zh(aic_comparable_to_primary)
+  ),
+  digits = 5,
+  col.names = c(
+    "模型规格", "N", "收敛代码", "收敛", "Hessian 为正定", "最大绝对梯度",
+    "优化器信息", "警告数", "phi", "rho", "离散参数边界标记",
+    "极端估计/标准误数", "与主规格同样本", "AIC 可比", "相对主规格 ΔAIC"
+  ),
+  caption = "表：各 Beta-binomial 模型诊断结果"
+)
+knitr::kable(
+  transform(
+    fit_warnings,
+    specification_id = spec_zh(specification_id),
+    status = ifelse(status == "NO WARNING", "无警告", status)
+  ),
+  col.names = c("模型规格", "状态", "警告数", "警告内容"),
+  caption = "表：模型拟合警告记录"
+)
+```
+
+# 人工审计清单
+
+- 确认 7 个模型均通过收敛、Hessian 与警告检查后再解释系数。
+- 将评论阈值变化视为总体选择敏感性，不进行跨样本 AIC 竞赛。
+- 确认发布月份替代而不是补充上市天数，两者未同时进入模型。
+- 原始价格与 log1p 价格只能按各自增加 1 SD 的对比解释。
+- 将 Early Access 视为 Steam genre/category 标签，并重点检查稀疏的 Sports、Racing CI。
+- 先审计方向和幅度，再看 CI crossing 状态，最后才看 p 值。
+- 检查结论是否仅依赖单一规格；不得由本报告自动修改冻结主模型。
+
+# 阶段性结论
+
+- **Price：ROBUST（稳健）**。7/7 个规格保持负方向，OR 范围
+  `r sprintf("%.3f", price_stability$minimum_or)`–`r sprintf("%.3f", price_stability$maximum_or)`。
+- **Platforms：PARTIAL（部分稳健）**。三个 contrast 均保持正方向，但幅度对评论阈值存在一定敏感性。
+- **Indie：ROBUST（稳健）**。7/7 个规格保持正方向，最大 OR 漂移
+  `r sprintf("%.2f", indie_stability$max_or_drift_pct)`%。
+- **RPG：ROBUST（方向与幅度稳健）**。OR 范围
+  `r sprintf("%.3f", rpg_stability$minimum_or)`–`r sprintf("%.3f", rpg_stability$maximum_or)`，
+  但全部 7 个规格的 CI 均跨 1；这里的“稳健”不代表强统计证据。
+- **Simulation：ROBUST（稳健）**。7/7 个规格保持负方向，OR 范围
+  `r sprintf("%.3f", simulation_stability$minimum_or)`–`r sprintf("%.3f", simulation_stability$maximum_or)`。
+- **Strategy：PARTIAL（部分稳健）**。方向保持为负，但最大 OR 漂移
+  `r sprintf("%.2f", strategy_stability$max_or_drift_pct)`%。
+- **发布时间**不作为 headline result：上市天数关联较弱，发布月份替代规格的各月份 CI 均跨 1。
+
+方向稳定可以与 CI 跨 1 同时存在，PARTIAL 也可以与方向完全一致同时存在。
+冻结的主规格继续作为审计基准；本报告不作因果推断、不自动修改模型，也不启动后续建模阶段。

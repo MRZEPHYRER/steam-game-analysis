@@ -1,0 +1,184 @@
+{
+  "requested_at": "2026-09-12T18:02:52.905514+00:00",
+  "request_params": {
+    "appids": 3920370,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3920370,
+  "payload": {
+    "3920370": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "BattleBalls",
+        "steam_appid": 3920370,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Battle Balls</strong></h2><p class=\"bb_paragraph\" ><strong>Create. Customize. Battle.</strong></p><p class=\"bb_paragraph\" >Battle Balls is a physics-based arena brawler where you design your own spinning warriors and send it into chaotic fights. Choose your weapon, adjust spin speed, damage, and health, then watch as your creations bounce, slash, and smash their way through the arena.</p><p class=\"bb_paragraph\" >Every ball fights on its own, so your strategy is in the build. Will you go for fast and fragile? Or slow and unstoppable?</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Fully customizable battle balls</p></li><li><p class=\"bb_paragraph\" >Choose from weapons like daggers, axes, and shurikens</p></li><li><p class=\"bb_paragraph\" >Adjustable stats: spin speed, damage, and health</p></li><li><p class=\"bb_paragraph\" >Chaotic real-time arena battles</p></li><li><p class=\"bb_paragraph\" >Up to 4 fighters on screen</p></li><li><p class=\"bb_paragraph\" >Simple interface, deep strategy</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Build the perfect fighters, drop them into the chaos, and see if your Battle Ball can survive the arena.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Battle Balls</strong></h2><p class=\"bb_paragraph\" ><strong>Create. Customize. Battle.</strong></p><p class=\"bb_paragraph\" >Battle Balls is a physics-based arena brawler where you design your own spinning warriors and send it into chaotic fights. Choose your weapon, adjust spin speed, damage, and health, then watch as your creations bounce, slash, and smash their way through the arena.</p><p class=\"bb_paragraph\" >Every ball fights on its own, so your strategy is in the build. Will you go for fast and fragile? Or slow and unstoppable?</p><h2 class=\"bb_tag\" >Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Fully customizable battle balls</p></li><li><p class=\"bb_paragraph\" >Choose from weapons like daggers, axes, and shurikens</p></li><li><p class=\"bb_paragraph\" >Adjustable stats: spin speed, damage, and health</p></li><li><p class=\"bb_paragraph\" >Chaotic real-time arena battles</p></li><li><p class=\"bb_paragraph\" >Up to 4 fighters on screen</p></li><li><p class=\"bb_paragraph\" >Simple interface, deep strategy</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Build the perfect fighters, drop them into the chaos, and see if your Battle Ball can survive the arena.</p>",
+        "short_description": "Battle Balls is a physics-based arena brawler where you design your own spinning warriors and send it into chaotic fights. Choose your weapon, adjust spin speed, damage, and health, then watch as your creations bounc, slash, and smash their way through the arena.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/fd0c4ef523a81e16c087b90cff3143daeee7e0a3/header.jpg?t=1755859305",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/81db1637d1cc8506d965a4da696bc3dc128d1b59/capsule_231x87.jpg?t=1755859305",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/81db1637d1cc8506d965a4da696bc3dc128d1b59/capsule_184x69.jpg?t=1755859305",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> windows 10<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) I7-2600<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1050<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>VR Support:</strong> NO</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> windows 10<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) I7-8700k<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>VR Support:</strong> NO</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "legal_notice": "This game is inspired by earclacks's ball fight videos. This game does not try to impersonate earclacks, and is an original concept conceved by the developers building on his works.",
+        "developers": [
+          "pingus"
+        ],
+        "publishers": [
+          "pingus"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1377570
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy BattleBalls",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1377570,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "BattleBalls - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/0c8bb88aec805b385d3ec55a093c9112324d012b/ss_0c8bb88aec805b385d3ec55a093c9112324d012b.600x338.jpg?t=1755859305",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/0c8bb88aec805b385d3ec55a093c9112324d012b/ss_0c8bb88aec805b385d3ec55a093c9112324d012b.1920x1080.jpg?t=1755859305"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/d1dd740185616830ec8ff7804d6df5cd4ba7c32f/ss_d1dd740185616830ec8ff7804d6df5cd4ba7c32f.600x338.jpg?t=1755859305",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/d1dd740185616830ec8ff7804d6df5cd4ba7c32f/ss_d1dd740185616830ec8ff7804d6df5cd4ba7c32f.1920x1080.jpg?t=1755859305"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/2102d7b528f1c49bd46e2fa3302976bc1cb25a06/ss_2102d7b528f1c49bd46e2fa3302976bc1cb25a06.600x338.jpg?t=1755859305",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/2102d7b528f1c49bd46e2fa3302976bc1cb25a06/ss_2102d7b528f1c49bd46e2fa3302976bc1cb25a06.1920x1080.jpg?t=1755859305"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/c316ca6c3d8e8344bee42135132ca275c2e6ac6e/ss_c316ca6c3d8e8344bee42135132ca275c2e6ac6e.600x338.jpg?t=1755859305",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/c316ca6c3d8e8344bee42135132ca275c2e6ac6e/ss_c316ca6c3d8e8344bee42135132ca275c2e6ac6e.1920x1080.jpg?t=1755859305"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/030bcb1b8b5ae9e2eac80fe589a4e04b25437411/ss_030bcb1b8b5ae9e2eac80fe589a4e04b25437411.600x338.jpg?t=1755859305",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920370/030bcb1b8b5ae9e2eac80fe589a4e04b25437411/ss_030bcb1b8b5ae9e2eac80fe589a4e04b25437411.1920x1080.jpg?t=1755859305"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257185023,
+            "name": "maintrail",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257185023/90edfbba561a4d11c5cfa77b6d6c027ae382f4f4/movie_600x337.jpg?t=1755544127",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3920370/1540954923/93685770fcdd37ded5ce0feff5b4f3575bb9f295/1755542474/dash_av1.mpd?t=1755544127",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3920370/1540954923/93685770fcdd37ded5ce0feff5b4f3575bb9f295/1755542474/dash_h264.mpd?t=1755544127",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3920370/1540954923/93685770fcdd37ded5ce0feff5b4f3575bb9f295/1755542474/hls_264_master.m3u8?t=1755544127",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 22, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "classgmer@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3920370?t=1755859305",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3920370?t=1755859305",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

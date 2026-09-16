@@ -1,0 +1,66 @@
+{
+  "appid": 3768490,
+  "requested_at": "2026-09-13T19:38:30.544042+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "213732648",
+        "author": {
+          "steamid": "76561198133500026",
+          "personaname": "mrriqply",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198133500026/",
+          "num_games_owned": 0,
+          "num_reviews": 15,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1766241723,
+          "avatar": "4b24a2c1f42edab307ef51818fd08861dcab7ae2"
+        },
+        "language": "russian",
+        "review": "Просто дерьмо, нужно выкручивать руки так что спустя минуту они будут болеть! Делаю возврат! Не качайте эту хрень",
+        "timestamp_created": 1766241798,
+        "timestamp_updated": 1766241798,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.514767944812774658",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752760957",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFdtGOAAAAAFP+B4+sAAAAB40qmvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.6719999999995707,
+  "transport_error_count": 0
+}

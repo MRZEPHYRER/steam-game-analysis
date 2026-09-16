@@ -1,0 +1,188 @@
+{
+  "requested_at": "2026-09-12T18:00:50.118620+00:00",
+  "request_params": {
+    "appids": 3917050,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3917050,
+  "payload": {
+    "3917050": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Virtual Reader (VR book reader)",
+        "steam_appid": 3917050,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<p class=\"bb_paragraph\" >[Legacy Build] </p><p class=\"bb_paragraph\" >This build remains available and maintained but is no longer being actively developed. For now..</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A newer build, &quot;Virtual Reader Essentials&quot; is available on SideQuest and the quest store.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >[Legacy Build] </p><p class=\"bb_paragraph\" >This build remains available and maintained but is no longer being actively developed. For now..</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A newer build, &quot;Virtual Reader Essentials&quot; is available on SideQuest and the quest store.</p>",
+        "short_description": "EPUB, CBZ, and PDF reader for VR",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/e5afa72e8c2f4f2263332403e53510b5585a7d70/header.jpg?t=1783212693",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/7f9b013a5232fc28036e59a46e9ef49ef6d624f4/capsule_231x87.jpg?t=1783212693",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/7f9b013a5232fc28036e59a46e9ef49ef6d624f4/capsule_184x69.jpg?t=1783212693",
+        "website": "https://sidequestvr.com/app/53666/virtual-reader-essentials",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-12500H or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 3060 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>VR Support:</strong> SteamVR<br></li><li><strong>Additional Notes:</strong> Lock to 72 FPS</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> AMD Ryzen 9 9950X3D<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 5090 or equivalent<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>VR Support:</strong> SteamVR</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "publishers": [
+          "Rapid Syntax"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 52,
+            "description": "Tracked Controller Support"
+          },
+          {
+            "id": 54,
+            "description": "VR Only"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/d02f1cdae37256c95aad6849ee2abab9a162549c/ss_d02f1cdae37256c95aad6849ee2abab9a162549c.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/d02f1cdae37256c95aad6849ee2abab9a162549c/ss_d02f1cdae37256c95aad6849ee2abab9a162549c.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/0cb6581c62643ae1199da94976b3be5e7f03e03d/ss_0cb6581c62643ae1199da94976b3be5e7f03e03d.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/0cb6581c62643ae1199da94976b3be5e7f03e03d/ss_0cb6581c62643ae1199da94976b3be5e7f03e03d.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/6aa9cd34fcd2725a118915d5c2594c97ad87b4f9/ss_6aa9cd34fcd2725a118915d5c2594c97ad87b4f9.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/6aa9cd34fcd2725a118915d5c2594c97ad87b4f9/ss_6aa9cd34fcd2725a118915d5c2594c97ad87b4f9.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/bea918811d67e6a6036dcd8d9ce33f9fc781da3d/ss_bea918811d67e6a6036dcd8d9ce33f9fc781da3d.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/bea918811d67e6a6036dcd8d9ce33f9fc781da3d/ss_bea918811d67e6a6036dcd8d9ce33f9fc781da3d.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/cc6c915957968fad2e8d0036099fc844b39d118f/ss_cc6c915957968fad2e8d0036099fc844b39d118f.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/cc6c915957968fad2e8d0036099fc844b39d118f/ss_cc6c915957968fad2e8d0036099fc844b39d118f.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/37bc94265897197db215d285236a85fbc0c587fe/ss_37bc94265897197db215d285236a85fbc0c587fe.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/37bc94265897197db215d285236a85fbc0c587fe/ss_37bc94265897197db215d285236a85fbc0c587fe.1920x1080.jpg?t=1783212693"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/37bc94265897197db215d285236a85fbc0c587fe/ss_37bc94265897197db215d285236a85fbc0c587fe.600x338.jpg?t=1783212693",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/37bc94265897197db215d285236a85fbc0c587fe/ss_37bc94265897197db215d285236a85fbc0c587fe.1920x1080.jpg?t=1783212693"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257181823,
+            "name": "Virtual Reader (Personal VR Library)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257181823/a637ffa674a69143715aea5596b37f9834aacd19/movie_600x337.jpg?t=1758023430",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3917050/1292177282/4ae3281887937eff274c5c40abcd795d7e43e7be/1757967049/dash_av1.mpd?t=1758023430",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/1292177282/4ae3281887937eff274c5c40abcd795d7e43e7be/1757967049/dash_h264.mpd?t=1758023430",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/1292177282/4ae3281887937eff274c5c40abcd795d7e43e7be/1757967049/hls_264_master.m3u8?t=1758023430",
+            "highlight": true
+          },
+          {
+            "id": 257181824,
+            "name": "Virtual Reader (Personal VR Library)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257181824/9baf93f406708f3cafa4670a113a2f85c6199fd5/movie_600x337.jpg?t=1758023432",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3917050/885126172/c68202042d1de2fc04d26ae9e85531638cbcf1fe/1757967064/dash_av1.mpd?t=1758023432",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/885126172/c68202042d1de2fc04d26ae9e85531638cbcf1fe/1757967064/dash_h264.mpd?t=1758023432",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/885126172/c68202042d1de2fc04d26ae9e85531638cbcf1fe/1757967064/hls_264_master.m3u8?t=1758023432",
+            "highlight": true
+          },
+          {
+            "id": 257198676,
+            "name": "Virtual Reader (Personal VR Library)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257198676/1641ebfa430228bf261c64f1df7b405dbdeffa62/movie_600x337.jpg?t=1758023428",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3917050/470935624/77a4aa1c7c4f6050426a0b05de1fb85ddba11823/1758022212/dash_av1.mpd?t=1758023428",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/470935624/77a4aa1c7c4f6050426a0b05de1fb85ddba11823/1758022212/dash_h264.mpd?t=1758023428",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/470935624/77a4aa1c7c4f6050426a0b05de1fb85ddba11823/1758022212/hls_264_master.m3u8?t=1758023428",
+            "highlight": true
+          },
+          {
+            "id": 257177556,
+            "name": "Virtual Reader (Personal VR Library)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257177556/9132c8d99c46a0b50be2a092e54cbdb24a024d02/movie_600x337.jpg?t=1758023434",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3917050/1388736718/c39b3128e4c4fce349cf950842ce8095c0ab5143/1754226059/dash_av1.mpd?t=1758023434",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/1388736718/c39b3128e4c4fce349cf950842ce8095c0ab5143/1754226059/dash_h264.mpd?t=1758023434",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3917050/1388736718/c39b3128e4c4fce349cf950842ce8095c0ab5143/1754226059/hls_264_master.m3u8?t=1758023434",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 9, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "contact@rapidsyntax.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3917050?t=1783212693",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917050/49f58797858cfafe23e421d962bb32a83ba8e6d3/page_bg_raw.jpg?t=1783212693",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

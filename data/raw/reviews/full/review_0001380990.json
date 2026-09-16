@@ -1,0 +1,66 @@
+{
+  "appid": 1380990,
+  "requested_at": "2026-09-13T18:42:45.127632+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 74,
+      "total_negative": 0,
+      "total_reviews": 74
+    },
+    "reviews": [
+      {
+        "recommendationid": "205187651",
+        "author": {
+          "steamid": "76561198316548032",
+          "personaname": "HypnoSpec",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/HypnoSpec/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 758,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 758,
+          "last_played": 1758825133,
+          "avatar": "cae1a4ef565a1e474a0d55ac814d7183a0887ed3"
+        },
+        "language": "english",
+        "review": "This game was was really nice, just a good fun romp that lasted a good 2-3 days. Probably should've spaced out my playthrough instead of blasting through like usual, but regardless I love this game and really want a sequel!!\n\nThe gameplay was pretty simple, but it was fun going through all of these scenarios and reading all of the dialogue, the game is very quippy and got a few good laughs outta me and the characters all had really fun dynamics and banter between each other. There are some QOL improvements that the game is kinda lacking, like the ability to restart from a checkpoint so that I don't need to restart the level to get a collectable, this didn't happen too much, but it did get annoying and I was always concerned that I may have killed an enemy needed to access the collectables since they don't respawn and there isn't any indicator that they may be needed at a certain point. It would've also been nice to be able to skip the dialogue during gameplay since it was annoying to sit through every time I had to replay the level just to get any missing collectables or beat the stage without dying. I was able to 100% complete the game, though it was a bit annoying at times. I definitely will replay the game at some point though now that I've beaten it fully as I can go through the levels without worrying about the medals.\n\nThe music was good as well, though not too memorable. There were some songs that sounded pretty interesting, but none of them really stuck. Still they're great to listen to during the stages.\n\nThe best part was definitely the art direction. The stages used a 2.5D chibi art style for all the characters that looks really cute, and it's a style I'm always a fan of, but the visual novel-esque cutscenes were definitely the best part. The characters all look great, especially the main trio, and their animations are all really fun and bouncy, lots of great expressions and it's always a treat seeing them all dancing at the fully completed end-level screens. Sadly, not all of the characters are properly animated like them, basically all of the later characters past the first stage aren't animated and instead use a simple character render with swappable expressions. They still look good and fit well with the main characters, and I can understand how much of a hassle it'd be to animate so many characters like that, but it's still a little bit of a bummer.\n\nOverall, in spite of any minor issues with the game, I'd recommend it wholeheartedly, it was a good time and I'm definitely gonna be there for the sequel, or at least some future DLC.",
+        "timestamp_created": 1758827538,
+        "timestamp_updated": 1758827538,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.616816043853759766",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758646954",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXpw+AAAAAFP+PBgOAAAABzpN2OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

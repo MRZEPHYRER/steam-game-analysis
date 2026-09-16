@@ -1,0 +1,72 @@
+{
+  "appid": 3415530,
+  "requested_at": "2026-09-13T19:14:40.691250+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 7,
+      "total_negative": 6,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "204616176",
+        "author": {
+          "steamid": "76561198035164891",
+          "personaname": "philmjennings",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198035164891/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 1955,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 543,
+          "deck_playtime_at_review": 543,
+          "last_played": 1784118053,
+          "avatar": "8a1c5e2cb42742aa073d15870c834c94138ad7f6"
+        },
+        "language": "english",
+        "review": "I know it's early release but really you get the same relics and stickers ever run just luck really very repetitive",
+        "timestamp_created": 1758200448,
+        "timestamp_updated": 1758200448,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.617442488670349121",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "app_release_date": "1753984088",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXprKAAAAAFP+PCFcAAAABwn8aMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

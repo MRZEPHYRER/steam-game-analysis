@@ -1,0 +1,71 @@
+{
+  "appid": 2870920,
+  "requested_at": "2026-09-13T18:57:26.675597+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1461,
+      "total_negative": 169,
+      "total_reviews": 1630
+    },
+    "reviews": [
+      {
+        "recommendationid": "208646351",
+        "author": {
+          "steamid": "76561198358616485",
+          "personaname": "Sueno",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198358616485/",
+          "num_games_owned": 625,
+          "num_reviews": 136,
+          "playtime_forever": 410,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 74,
+          "last_played": 1762657273,
+          "avatar": "eb4f22b4404611398bdb75dd50b9b20d9f3c8b00"
+        },
+        "language": "brazilian",
+        "review": "o objetivo era ter um restaurante de sucesso, mas ai o vício em apostas veio e perdi tudo e o meu restaurante faliu em 15 minutos de jogo, dito isso é um bom jogo já era divertido na demo Deus abençoe sempre.",
+        "timestamp_created": 1762536468,
+        "timestamp_updated": 1762536523,
+        "voted_up": true,
+        "votes_up": 51,
+        "votes_funny": 16,
+        "weighted_vote_score": "0.848542511463165283",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762530839",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTB3YAAAAAFP+snQ6AAAAB/jPabBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8910000000000764,
+  "transport_error_count": 0
+}

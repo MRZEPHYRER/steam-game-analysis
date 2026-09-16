@@ -1,0 +1,68 @@
+{
+  "appid": 4025420,
+  "requested_at": "2026-09-13T20:12:50.972994+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 2,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "216152097",
+        "author": {
+          "steamid": "76561198354893806",
+          "personaname": "Loreley",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198354893806/",
+          "num_games_owned": 0,
+          "num_reviews": 222,
+          "playtime_forever": 45,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1769093716,
+          "avatar": "7904882166fd95d68aa426a26ccac7753ea0f82e"
+        },
+        "language": "koreana",
+        "review": "30분의 짧은 플레이타임이라고 써있긴 했지만 그래픽이 마음에 들어 구매한 게임이예요\r\n정말 게임 시작하고 보이는 메뉴 조차도 글자없이 아름다운 음악과 그래픽이 전부이지만 그걸로 충분!\r\n텍스트가 없어 무엇을 해야할지 어떻게 퍼즐을 풀어야할지 모르는 이들을 위한 힌트도 있고요\r\n스샷을 찍으면 모든게 스포일러가 될 것 같아 찍지 않았지만 아트 정말 예뻐요! 추천!",
+        "timestamp_created": 1768646861,
+        "timestamp_updated": 1768646861,
+        "voted_up": true,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.692030072212219238",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1768838508,
+        "developer_response": "추천해 주셔서 정말 감사합니다!",
+        "app_release_date": "1766149226",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWKM6AAAAAFP+YlHCAAAABxgse4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

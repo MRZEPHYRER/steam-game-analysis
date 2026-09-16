@@ -1,0 +1,71 @@
+{
+  "appid": 3006280,
+  "requested_at": "2026-09-13T19:00:42.868791+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 301,
+      "total_negative": 5,
+      "total_reviews": 306
+    },
+    "reviews": [
+      {
+        "recommendationid": "209515350",
+        "author": {
+          "steamid": "76561199221886057",
+          "personaname": "Memo",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561199221886057/",
+          "num_games_owned": 105,
+          "num_reviews": 11,
+          "playtime_forever": 184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1763603521,
+          "avatar": "37cf1dc1f48ac849fb89a0b11182816609a9e6eb"
+        },
+        "language": "english",
+        "review": "My girlfriend doesn't like playing videogames, but she LOVED this one. She told me it is the best game she has played in her life. We spent our Monday night playing it and we had a lot of fun with the cute costumes and the the visuals. We really liked playing it together and we are excited to see what is next in the game.",
+        "timestamp_created": 1763434252,
+        "timestamp_updated": 1763434252,
+        "voted_up": true,
+        "votes_up": 25,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.698468387126922607",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763398800",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWB9gAAAAAFP+ZZ2aAAAAB2tZ6fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

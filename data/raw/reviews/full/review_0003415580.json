@@ -1,0 +1,66 @@
+{
+  "appid": 3415580,
+  "requested_at": "2026-09-13T19:14:42.900101+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 128,
+      "total_negative": 35,
+      "total_reviews": 163
+    },
+    "reviews": [
+      {
+        "recommendationid": "223697402",
+        "author": {
+          "steamid": "76561198286255972",
+          "personaname": "kyu bey",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198286255972/",
+          "num_games_owned": 0,
+          "num_reviews": 17,
+          "playtime_forever": 934,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 934,
+          "last_played": 1759600056,
+          "avatar": "19a0350b1d55b8d1622e1d712172a839524de3ff"
+        },
+        "language": "english",
+        "review": "For now dev looks to be gone.. so expect the game to be never finished (stuck in chapter 3 of 4).",
+        "timestamp_created": 1776686321,
+        "timestamp_updated": 1776686321,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.655168294906616211",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752225110",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW5YoAAAAAFP+T3IuAAAAB6n6vVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

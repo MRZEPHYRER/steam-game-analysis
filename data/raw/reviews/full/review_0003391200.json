@@ -1,0 +1,66 @@
+{
+  "appid": 3391200,
+  "requested_at": "2026-09-13T19:13:44.610892+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "215198647",
+        "author": {
+          "steamid": "76561198372182204",
+          "personaname": "mrktanis",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198372182204/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 154,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 154,
+          "last_played": 1767593065,
+          "avatar": "ef2418810ef3732dabacbff6b964d823ef46b5ae"
+        },
+        "language": "english",
+        "review": "Adorable game with memorable characters and gameplay. Does \"cozy\" way better than Animal Crossing: New Horizons. Intuitive, tight gameplay. Sherbert is the bravest.",
+        "timestamp_created": 1767592613,
+        "timestamp_updated": 1767593091,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764634289",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB3u/W0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

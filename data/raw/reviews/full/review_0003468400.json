@@ -1,0 +1,71 @@
+{
+  "appid": 3468400,
+  "requested_at": "2026-09-13T19:17:44.842600+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 72,
+      "total_negative": 21,
+      "total_reviews": 93
+    },
+    "reviews": [
+      {
+        "recommendationid": "222434109",
+        "author": {
+          "steamid": "76561198041818023",
+          "personaname": "Otter Chaos",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/otter-chaos/",
+          "num_games_owned": 4620,
+          "num_reviews": 234,
+          "playtime_forever": 10,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 10,
+          "last_played": 1775228708,
+          "avatar": "cee17529f27718fb6847f23528c4d6afd787f184"
+        },
+        "language": "english",
+        "review": "For a game that is 100% designing, with no plot and no activities, you would think the UI and camera would be super high priority things to get right.  Instead it feels like a Soviet era DOOM map editor.",
+        "timestamp_created": 1775245748,
+        "timestamp_updated": 1775245748,
+        "voted_up": false,
+        "votes_up": 45,
+        "votes_funny": 22,
+        "weighted_vote_score": "0.804581284523010254",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764867660",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFT6IuAAAAAFP+m/IKAAAAB9s8LQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2970000000000255,
+  "transport_error_count": 0
+}

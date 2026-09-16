@@ -1,0 +1,73 @@
+{
+  "appid": 2345740,
+  "requested_at": "2026-09-13T18:49:49.378627+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 29,
+      "total_negative": 2,
+      "total_reviews": 31
+    },
+    "reviews": [
+      {
+        "recommendationid": "235177862",
+        "author": {
+          "steamid": "76561197980699864",
+          "personaname": "Chudkers12",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Workers/",
+          "num_games_owned": 688,
+          "num_reviews": 84,
+          "playtime_forever": 23,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 23,
+          "last_played": 1783580167,
+          "avatar": "c3a3066c1859ad2cdde897e2375e4ded31acfdd2"
+        },
+        "language": "russian",
+        "review": "Хорошая и интересная стратежка на подумать, обилие существ,магии и эффектов.",
+        "timestamp_created": 1789298003,
+        "timestamp_updated": 1789298003,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755703272",
+        "hardware": {
+          "system_ram": "32577",
+          "os": "Windows 11",
+          "cpu_name": "13th Gen Intel(R) Core(TM) i7-13700KF",
+          "adapter_description": "NVIDIA GeForce RTX 4080",
+          "vram_size": 16050
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2+JCBBw=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2650000000001,
+  "transport_error_count": 0
+}

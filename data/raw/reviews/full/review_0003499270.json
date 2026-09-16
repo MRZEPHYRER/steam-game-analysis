@@ -1,0 +1,66 @@
+{
+  "appid": 3499270,
+  "requested_at": "2026-09-13T19:19:15.072602+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 9,
+      "total_negative": 0,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "211428354",
+        "author": {
+          "steamid": "76561198044926485",
+          "personaname": "icarosaurvus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198044926485/",
+          "num_games_owned": 0,
+          "num_reviews": 142,
+          "playtime_forever": 98,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1764343364,
+          "avatar": "a3200f8854182f87359f150bb5454e1c79a8ec1d"
+        },
+        "language": "english",
+        "review": "So, as always, I must note that with Choice of Games, the author matters a lot. Here, the author is Athat Fikry, as a sophomore outing - with the first being the rather excellent The Dragon and the Djinn. Here, however, I really wish there was a neutral option - the game was going fairly well, with a raid on a specific facility feeling like a sort of midpoint or second-to-last-act-action before the reveal, and then it sort of switched focus to hunting down one fellow, very briefly, and then... Ended. I'm not sure if I somehow made choices that meant I didn't get to find things out - I feel like I investigated at most possible turns, but I could be wrong - but it felt truncated. Like the author ran out of time. What was there was nice - so I'm grading it as a I would a good essay that forgot the closing paragraph. C+, a mild recommendation, maybe look at this author's other work first.",
+        "timestamp_created": 1764343421,
+        "timestamp_updated": 1764343421,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.709008216857910156",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764159410",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFV0eEAAAAAFP+awMYAAAABywMSmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,91 @@
+{
+  "appid": 3957480,
+  "requested_at": "2026-09-13T20:05:22.376801+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 16,
+      "total_negative": 5,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "204864805",
+        "author": {
+          "steamid": "76561198955074079",
+          "personaname": "Draxen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/maytmenofficial/",
+          "num_games_owned": 504,
+          "num_reviews": 22,
+          "playtime_forever": 169,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 40,
+          "last_played": 1767302641,
+          "avatar": "4662a47275c022a76ec07507ff777c31f531e64e"
+        },
+        "language": "english",
+        "review": "The game is quite successful and I enjoyed playing it without getting bored",
+        "timestamp_created": 1758457587,
+        "timestamp_updated": 1758462330,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757837604",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 20,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB10r+NBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2687280,
+  "requested_at": "2026-09-13T18:54:04.964975+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 4,
+      "total_negative": 6,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "208107480",
+        "author": {
+          "steamid": "76561199112427827",
+          "personaname": "gammalost",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199112427827/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1761976676,
+          "avatar": "1f5071d52d8d0de8d1dd9765f50124454229b721"
+        },
+        "language": "english",
+        "review": "Negatives:\nGame has a horrible interface for inventory/crafting/skills etc.\nMap starts zoomed in. And I mean really zoomed in.\nControls are sluggish and bad. You cant jump if you are touching a wall, Sometimes the character just changes direction.\nCollision detection area bit off for platforms and such.\nAt one  point my sword just disappeared. This was when I found a new and worse weapon. (bug?)\nCant crouch making avoiding projectiles a pain. You can block, but it has a cooldown.. so more than one projectile and you have no chance of avoiding it.\nGame sometime shows references to xbox buttons, playstation buttons or keyboard. Really cant make up its mind... (I use an xbox controller)\n\nGood\n- Cheap\n- Has potential if ALOT of stuff is fixed/improved\n\n",
+        "timestamp_created": 1761977270,
+        "timestamp_updated": 1761977270,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.596859574317932129",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761753814",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYEBOAAAAAFP+MZeiAAAAB4/e6ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3831120,
+  "requested_at": "2026-09-13T19:46:13.059238+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 4908,
+      "total_negative": 482,
+      "total_reviews": 5390
+    },
+    "reviews": [
+      {
+        "recommendationid": "209840290",
+        "author": {
+          "steamid": "76561198152916789",
+          "personaname": "石大壮zz",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198152916789/",
+          "num_games_owned": 690,
+          "num_reviews": 48,
+          "playtime_forever": 418,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 418,
+          "last_played": 1763814458,
+          "avatar": "56062f45f13fa3355ae153a4999d20d9d3c8bece"
+        },
+        "language": "schinese",
+        "review": "这是我近几年以来玩到过最好的影视游戏了，个人评分9分。\n它把影视游戏最核心的几个元素展现的很好，有一种当年游戏匮乏时代玩一些优秀橙光游戏的感觉。\n贴合角色的选角还有演员们基本都在线的演技带给我很圆满的故事代入感。\n功底扎实的台词与编剧更是让人对故事的发展充满好奇与唏嘘。\n强烈推荐大家自己体验一下这款游戏！\n（我是纯爱党，我爱谢若兰）",
+        "timestamp_created": 1763814918,
+        "timestamp_updated": 1763814918,
+        "voted_up": true,
+        "votes_up": 276,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.961356401443481445",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763618315",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQxduAAAAAFP+7DbaAAAAByir2gBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 3.125,
+  "transport_error_count": 0
+}

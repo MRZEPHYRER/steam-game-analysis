@@ -1,0 +1,83 @@
+{
+  "appid": 2917040,
+  "requested_at": "2026-09-13T18:58:51.547176+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1393,
+      "total_negative": 180,
+      "total_reviews": 1573
+    },
+    "reviews": [
+      {
+        "recommendationid": "204486747",
+        "author": {
+          "steamid": "76561198145789099",
+          "personaname": "ItsTheJackpot",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198145789099/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 142,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 142,
+          "last_played": 1757223651,
+          "avatar": "857f3e2dc075d466a7bfedec64f04773ac766759"
+        },
+        "language": "english",
+        "review": "It was so kind of the euphoric brothers to allow us to play this masterpiece and still be able to refund it afterwards. They truly care for the customer.",
+        "timestamp_created": 1758039403,
+        "timestamp_updated": 1758039403,
+        "voted_up": true,
+        "votes_up": 55,
+        "votes_funny": 40,
+        "weighted_vote_score": "0.700600624084472656",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756389568",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 2
+          },
+          {
+            "reaction_type": 18,
+            "count": 2
+          },
+          {
+            "reaction_type": 20,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFV/OyAAAAAFP+ZrUsAAAAB7hYeMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

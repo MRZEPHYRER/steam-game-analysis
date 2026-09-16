@@ -1,0 +1,68 @@
+{
+  "appid": 3988370,
+  "requested_at": "2026-09-13T20:08:29.997124+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 31,
+      "total_negative": 1,
+      "total_reviews": 32
+    },
+    "reviews": [
+      {
+        "recommendationid": "207788011",
+        "author": {
+          "steamid": "76561198850944987",
+          "personaname": "Vivid-Dream",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198850944987/",
+          "num_games_owned": 854,
+          "num_reviews": 101,
+          "playtime_forever": 216,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 66,
+          "last_played": 1764316461,
+          "avatar": "a84086c72660edb8f980fe8ae5b65d60157a34dd"
+        },
+        "language": "schinese",
+        "review": "bgm特别好听，很治愈很欢快！！原本以为是普普通通的挂机游戏，结果挂气球的过程还挺好玩的，索性不挂了一直在手动玩（）每个气球都有三种皮肤，还有好几首bgm，十几块钱蛮划算的。另外有个给开发者的建议：左键挂气球很容易误触把气球戳破，可以把戳破改成右键(*^▽^*)",
+        "timestamp_created": 1761657396,
+        "timestamp_updated": 1761657463,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.623572051525115967",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1761693836,
+        "developer_response": "非常高兴这款游戏能给你带来快乐！这是我们做的第一款游戏，你的评价给了我们很大的鼓励！感谢你对误触问题的反馈~~对此我们做了一个双击才能戳破气球的防误触开关，在设置里开启后生效。版本已提交更新申请，待通过后就能用啦~~~再次谢谢你的反馈和对我们的支持~！",
+        "app_release_date": "1761617874",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXh0+AAAAAFP+P0TUAAAAB7/tKYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.6720000000004802,
+  "transport_error_count": 0
+}

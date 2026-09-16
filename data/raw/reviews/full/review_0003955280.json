@@ -1,0 +1,66 @@
+{
+  "appid": 3955280,
+  "requested_at": "2026-09-13T20:05:09.640828+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206216985",
+        "author": {
+          "steamid": "76561199101206358",
+          "personaname": "шар-комар",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/agust_d7/",
+          "num_games_owned": 87,
+          "num_reviews": 33,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1759955376,
+          "avatar": "c381e0ed762a5301efe4348a8581d5b06875dc70"
+        },
+        "language": "english",
+        "review": "that awkward moment when you're literally the first one to leave a review... fellin' special rn. \n\nno, this game is not a masterpiece. it is laggy, has lots of grammar mistakes, and the execution in general looks like a work of a first-grader.\n\nbut i'll still leave a positive review cuz' i wanna support the dev :) i can see a clear idea behind this game (backroom-ish uncanny walking simulator), but ive got some suggestions on how to improve your work (im not a professional though, just a casual game enjoyer):\n\n1. FIX THE LIGHTS!!! idk how to do it, but they seem very, very laggy, its'like they're constantly glitching (but more like in unprofessional way, not in horror way - glitchy lights can be used in horrors to create a special atmosphere!);\n2. tell the players that we need a KEY to open some doors (at first i thought we'd open them with just our bare hands, cuz' there was no explanation for it);\n3. work a little on your english; check every single word you put in your game (it's just a walking simulator, it doesn't need many words, so that's gonna be easy).\n\nanywaysssssssss, i believe in ya, dev. keep making games, it seems like you've already got all the ideas and imagination you need, and you lack only some skills. but they can be improve, so good luck!\n\np.s. if it's a malware, then im taking ALL my words back.",
+        "timestamp_created": 1759955899,
+        "timestamp_updated": 1759955899,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.601449251174926758",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759948004",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX+JUAAAAAFP+M/EgAAAAB58dOSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

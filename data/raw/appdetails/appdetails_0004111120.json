@@ -1,0 +1,328 @@
+{
+  "requested_at": "2026-09-13T06:55:25.347098+00:00",
+  "request_params": {
+    "appids": 4111120,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4111120,
+  "payload": {
+    "4111120": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Underpass",
+        "steam_appid": 4111120,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Inspired by Exit 8, The Underpass is an anomaly hunting game in which you must remember your surroundings and spot any differences in order to escape the loop.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >At release the game has 30+ anomalies, with an average gameplay length of 30-60 minutes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Features</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Mouse &amp; Keyboard and Controller support.</p></li><li><p class=\"bb_paragraph\" >Autosave system so you never lose progress.</p></li><li><p class=\"bb_paragraph\" >Anomalies do not repeat until all have been discovered, making completionist runs easier.</p></li><li><p class=\"bb_paragraph\" >Customizable graphics settings, allowing the game to run on a wide variety of PCs.</p></li><li><p class=\"bb_paragraph\" >Accessibility settings like toggle sprint, disabling effects such as motion blur, camera sway, etc.</p></li><li><p class=\"bb_paragraph\" >No flashing lights, large moving patterns or other photosensitive epilepsy triggers*.</p></li></ul><p class=\"bb_paragraph\" >*If you discover a potential epilepsy trigger or other accessibility issue that I have missed, please let me know via the Steam forums!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Inspired by Exit 8, The Underpass is an anomaly hunting game in which you must remember your surroundings and spot any differences in order to escape the loop.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >At release the game has 30+ anomalies, with an average gameplay length of 30-60 minutes.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Features</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Mouse &amp; Keyboard and Controller support.</p></li><li><p class=\"bb_paragraph\" >Autosave system so you never lose progress.</p></li><li><p class=\"bb_paragraph\" >Anomalies do not repeat until all have been discovered, making completionist runs easier.</p></li><li><p class=\"bb_paragraph\" >Customizable graphics settings, allowing the game to run on a wide variety of PCs.</p></li><li><p class=\"bb_paragraph\" >Accessibility settings like toggle sprint, disabling effects such as motion blur, camera sway, etc.</p></li><li><p class=\"bb_paragraph\" >No flashing lights, large moving patterns or other photosensitive epilepsy triggers*.</p></li></ul><p class=\"bb_paragraph\" >*If you discover a potential epilepsy trigger or other accessibility issue that I have missed, please let me know via the Steam forums!</p>",
+        "short_description": "Trapped in an endlessly-looping underpass, you must stay alert for changes - large or small - to escape.",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/2f85dda383ff4854ef9cf94f99ff398e1c4114e4/header.jpg?t=1787434663",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/19ec2383b3155a94dbaa0f9846956f005f00f2e5/capsule_231x87.jpg?t=1787434663",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/19ec2383b3155a94dbaa0f9846956f005f00f2e5/capsule_184x69.jpg?t=1787434663",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 970<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "The developer (Journeyman Studios) grants all persons and companies the right to freely livestream and/or record and upload videos of The Underpass, including monetization such as superchats, memberships, subscriptions, bits, etc.",
+        "developers": [
+          "Journeyman Studios"
+        ],
+        "publishers": [
+          "Journeyman Studios"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1440520
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Underpass",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1440520,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Underpass - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/423dd02a478e0aa144dff228d2f80cc5ec5f2c55/ss_423dd02a478e0aa144dff228d2f80cc5ec5f2c55.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/423dd02a478e0aa144dff228d2f80cc5ec5f2c55/ss_423dd02a478e0aa144dff228d2f80cc5ec5f2c55.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/6f125add2bb7c884ff65912d905cfa93da20a176/ss_6f125add2bb7c884ff65912d905cfa93da20a176.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/6f125add2bb7c884ff65912d905cfa93da20a176/ss_6f125add2bb7c884ff65912d905cfa93da20a176.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/89319ee28126073fb66f6f030e0627bb9f0b01bf/ss_89319ee28126073fb66f6f030e0627bb9f0b01bf.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/89319ee28126073fb66f6f030e0627bb9f0b01bf/ss_89319ee28126073fb66f6f030e0627bb9f0b01bf.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/db2546f6ca56f439a513a607f43c4a44d24c7af2/ss_db2546f6ca56f439a513a607f43c4a44d24c7af2.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/db2546f6ca56f439a513a607f43c4a44d24c7af2/ss_db2546f6ca56f439a513a607f43c4a44d24c7af2.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/482cec9da01013692be72e239861b8e13a9f9e6b/ss_482cec9da01013692be72e239861b8e13a9f9e6b.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/482cec9da01013692be72e239861b8e13a9f9e6b/ss_482cec9da01013692be72e239861b8e13a9f9e6b.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/ab12de705676853c914a96420452837f03bfe3b8/ss_ab12de705676853c914a96420452837f03bfe3b8.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/ab12de705676853c914a96420452837f03bfe3b8/ss_ab12de705676853c914a96420452837f03bfe3b8.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/b8adf948d687ef8ea5fb2c674a4d6e1fa0d90282/ss_b8adf948d687ef8ea5fb2c674a4d6e1fa0d90282.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/b8adf948d687ef8ea5fb2c674a4d6e1fa0d90282/ss_b8adf948d687ef8ea5fb2c674a4d6e1fa0d90282.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/2d5e25f123728bc08669fc1c2206624e0780098b/ss_2d5e25f123728bc08669fc1c2206624e0780098b.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/2d5e25f123728bc08669fc1c2206624e0780098b/ss_2d5e25f123728bc08669fc1c2206624e0780098b.1920x1080.jpg?t=1787434663"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/56c2fc7a22d61b483e38aaec087ffa74633cf5a2/ss_56c2fc7a22d61b483e38aaec087ffa74633cf5a2.600x338.jpg?t=1787434663",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/56c2fc7a22d61b483e38aaec087ffa74633cf5a2/ss_56c2fc7a22d61b483e38aaec087ffa74633cf5a2.1920x1080.jpg?t=1787434663"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257217717,
+            "name": "Gameplay Teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217717/6a79e707a66f96501214cb6ec2f6b522b53628c3/movie_600x337.jpg?t=1761232345",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4111120/571015281/e8d83b2152c770cd41a0348ab698f5855116b006/1761231601/dash_av1.mpd?t=1761232345",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4111120/571015281/e8d83b2152c770cd41a0348ab698f5855116b006/1761231601/dash_h264.mpd?t=1761232345",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4111120/571015281/e8d83b2152c770cd41a0348ab698f5855116b006/1761231601/hls_264_master.m3u8?t=1761232345",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "6b2cc6b1231e4204d34efc497e666f42b0eec92c.jpg",
+              "localized_name": "Welcome to Zone 10",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Welcome to Zone 10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/6b2cc6b1231e4204d34efc497e666f42b0eec92c.jpg"
+            },
+            {
+              "icon": "f49ea64fcbbadb42c85ef839b89433adbf18c294.jpg",
+              "localized_name": "Detective",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Detective",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/f49ea64fcbbadb42c85ef839b89433adbf18c294.jpg"
+            },
+            {
+              "icon": "ea312b773f88afa91812d7bdfddbc4b55b2d1fc2.jpg",
+              "localized_name": "Change Blindness",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Change Blindness",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/ea312b773f88afa91812d7bdfddbc4b55b2d1fc2.jpg"
+            },
+            {
+              "icon": "c1b2a6bf71a82707f0c90bfb6c89d16971629c21.jpg",
+              "localized_name": "Paranoia",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Paranoia",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/c1b2a6bf71a82707f0c90bfb6c89d16971629c21.jpg"
+            },
+            {
+              "icon": "e3bae0daa95b03c022c4def8efd3f35c6533bbbd.jpg",
+              "localized_name": "Welcome to [REDACTED]",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Welcome to [REDACTED]",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/e3bae0daa95b03c022c4def8efd3f35c6533bbbd.jpg"
+            },
+            {
+              "icon": "24e2c57a483b290399aa78322aa1e42780a5a8da.jpg",
+              "localized_name": "Wrong Number",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wrong Number",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/24e2c57a483b290399aa78322aa1e42780a5a8da.jpg"
+            },
+            {
+              "icon": "1f80e0c47b9da945e15c96a88f99725aacf9cd11.jpg",
+              "localized_name": "What Door?",
+              "archived": 0,
+              "hidden": 1,
+              "name": "What Door?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/1f80e0c47b9da945e15c96a88f99725aacf9cd11.jpg"
+            },
+            {
+              "icon": "6adce592814a42d475288b40859671fc7c731603.jpg",
+              "localized_name": "I believe I can fly",
+              "archived": 0,
+              "hidden": 1,
+              "name": "I believe I can fly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/6adce592814a42d475288b40859671fc7c731603.jpg"
+            },
+            {
+              "icon": "f4513d3954d0653bfec8fc310c008177c5e48e81.jpg",
+              "localized_name": "Good Boy",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Good Boy",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/f4513d3954d0653bfec8fc310c008177c5e48e81.jpg"
+            },
+            {
+              "icon": "36e252077337499d3cceaa280426b968e941c7ba.jpg",
+              "localized_name": "Beware of dog",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Beware of dog",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4111120/36e252077337499d3cceaa280426b968e941c7ba.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "journeyman.studios3@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4111120?t=1787434663",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111120/c234b79f1b13b404d4c810748991761861d988c6/page_bg_raw.jpg?t=1787434663",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

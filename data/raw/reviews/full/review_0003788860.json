@@ -1,0 +1,66 @@
+{
+  "appid": 3788860,
+  "requested_at": "2026-09-13T19:40:04.563418+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "201967613",
+        "author": {
+          "steamid": "76561198055755751",
+          "personaname": "Rivair",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/RiverCorgo/",
+          "num_games_owned": 2508,
+          "num_reviews": 38,
+          "playtime_forever": 35,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 35,
+          "last_played": 1754583332,
+          "avatar": "dbea8c14b82b4dd74e87f23843db294454017559"
+        },
+        "language": "english",
+        "review": "Short simple game with 2 endings it appears, a good and bad. I've only played through once and gotten the bad ending. While I did get a few jump scares it is more ambient horror feeling than actual horror in my mind. There is sadness in the game too especially if you've lost a pet, more so recently. No trigger warning for it as it's not that type of sadness. I found I could clip through some buildings walls and a few spots I got stuck in for a bit that was black and I took me some time to get free and back on track from. I could have finished sooner but I did explore a bit and then a bit of it was my stupidity. For being able to reply it for the 2nd ending (should you choose) it's not bad for a 30-40 minute game and under $1.99. Once I figured out the location of the office I pretty much breezed through the 2nd half of the game. \n\nOh yeah the mouse sensitivity setting shows up after you start the game the default setting was driving me nuts and really was more scary at first than the game. I kind of wish steam had a neutral rating for games because while I did have fun there were parts that annoyed me so I'm on the fence between the two ratings but because of the price point (I also got it on sale so it was less than $1.99) I'll give it a yes for recommending.",
+        "timestamp_created": 1754994032,
+        "timestamp_updated": 1754994032,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.527559041976928711",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754044637",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZcuYAAAAAFP+Dhw2AAAAB9/7iCBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4086350,
+  "requested_at": "2026-09-13T20:18:11.237035+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 7,
+      "total_negative": 2,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "209122605",
+        "author": {
+          "steamid": "76561198098942230",
+          "personaname": "制杖萌新",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198098942230/",
+          "num_games_owned": 353,
+          "num_reviews": 19,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1763043184,
+          "avatar": "31e5c6487abc19175aeab59a3e83ad4deac393b1"
+        },
+        "language": "english",
+        "review": "This is a very special game that can warm my body quickly. By the way, I love it when the dog in the game calls me a rookie.",
+        "timestamp_created": 1763045885,
+        "timestamp_updated": 1763045885,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762955098",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB90t6dBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9380000000001019,
+  "transport_error_count": 0
+}

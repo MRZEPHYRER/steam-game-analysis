@@ -1,0 +1,68 @@
+{
+  "appid": 3441000,
+  "requested_at": "2026-09-13T19:16:00.192168+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 8,
+      "total_negative": 0,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "207523484",
+        "author": {
+          "steamid": "76561198028980966",
+          "personaname": "Ziggy The Adventurer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ziggytheadventurer/",
+          "num_games_owned": 0,
+          "num_reviews": 349,
+          "playtime_forever": 113,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 113,
+          "last_played": 1761459023,
+          "avatar": "326d8fe2216c016ae93da0950458b178ab271fc1"
+        },
+        "language": "english",
+        "review": "Needs some optimization I was getting 17 fps in 4k on ultra with an RTX-4090, I set it to high and got 70fps. the game is fun and boring at the same time. no save makes completing the game tedious. still all in all it's fun, and has great graphics so I'll give it a yes. \nhttps://youtu.be/UOWk9LU0apY",
+        "timestamp_created": 1761374998,
+        "timestamp_updated": 1761463943,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.542619526386260986",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1761412722,
+        "developer_response": "Thank you so much for your feedback!\nPerformance optimization is one of our priorities as we continue through Early Access, and the game will receive further improvements over time.\nA save system is also being considered for a future update, your note about it is much appreciated.\nThanks again for playing Ardena and for the positive recommendation!",
+        "app_release_date": "1761325709",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZJckAAAAAFP+FdJKAAAAB86dGXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3885160,
+  "requested_at": "2026-09-13T19:55:01.686202+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "225037420",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 617,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 617,
+          "last_played": 1778222188,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Drunk But Not Wasted Knight is a comedy-driven visual novel that fully embraces absurd humor, chaotic storytelling, and intentionally ridiculous fantasy situations. Developed and published by BRB Drama, the game follows the adventures of a heavily intoxicated knight whose attempts at heroism usually result in confusion, embarrassment, and complete disaster. Instead of focusing on serious fantasy storytelling or emotional character drama, the game dedicates itself entirely to comedy and player-driven chaos. The result is a lighthearted and entertaining experience that succeeds because of its strange personality and willingness to turn every situation into a joke.\n\nThe writing is unquestionably the highlight of the experience. Nearly every conversation feels exaggerated in the best possible way, with awkward misunderstandings, bizarre characters, and ridiculous situations constantly appearing throughout the story. The knight himself is presented as someone who believes he is far more heroic and competent than reality suggests, which creates a constant source of humor during interactions. Watching him stumble through quests while trying to maintain confidence becomes consistently amusing because the game never allows the situation to become predictable for long.\n\nOne of the strongest aspects of the game is its commitment to maintaining a comedic tone from beginning to end. The story never attempts to suddenly become dramatic or emotionally heavy. Instead, it constantly escalates its absurdity through increasingly strange encounters and ridiculous dialogue choices. Medieval fantasy clichés are heavily exaggerated and often openly mocked, giving the game a self-aware style of humor that works surprisingly well. It feels less like a traditional fantasy adventure and more like a parody of fantasy storytelling built entirely around poor decisions and drunken confidence.\n\nThe branching dialogue system adds replay value by allowing players to shape how reckless or foolish the knight becomes throughout the adventure. Some choices push the character toward accidentally heroic outcomes, while others create even more embarrassing and chaotic situations. Multiple endings encourage experimentation, and replaying scenes with different dialogue options often reveals entirely new jokes or interactions. Although the overall experience is relatively short, the variety of choices helps keep repeated playthroughs entertaining.\n\nVisually, the game uses a simple but effective presentation style. Character artwork is expressive enough to support the exaggerated humor, and the fantasy environments work well as a backdrop for the absurd events taking place. The art style does not attempt anything overly ambitious, but it complements the tone of the game effectively. Facial expressions and reaction shots are especially important because much of the humor depends on awkward social situations and ridiculous misunderstandings.\n\nThe pacing is another reason the game remains enjoyable. Drunk But Not Wasted Knight moves quickly from one scenario to another, constantly introducing new characters, strange conversations, and increasingly ridiculous events. The game rarely spends too much time repeating the same joke before moving on to another absurd situation. This fast pacing helps maintain energy throughout the experience and prevents the visual novel structure from becoming too repetitive.\n\nThe game also benefits from its self-awareness. It openly pokes fun at heroic fantasy tropes, traditional quest structures, and the concept of the noble knight protagonist. The main character constantly tries to act like a legendary hero despite being completely unreliable and often barely understanding what is happening around him. Much of the humor comes from the gap between his confidence and the reality of the disasters surrounding him. This comedic contrast gives the game a distinctive identity compared to more generic fantasy visual novels.\n\nHowever, the game’s simplicity does create limitations. Outside of dialogue choices and branching story paths, there is very little gameplay depth. Players who are not interested in reading-heavy experiences or comedy-focused writing may struggle to stay invested because the core gameplay loop revolves almost entirely around conversations and decision-making. The entertainment value depends heavily on whether the player enjoys the game’s chaotic sense of humor.\n\nThe relatively short length may also disappoint players expecting a larger fantasy adventure. While the branching paths and multiple endings provide some replayability, the experience itself can be completed fairly quickly. Certain jokes and character interactions may also lose some impact during repeated playthroughs once players become familiar with the game’s style of humor.\n\nDespite these shortcomings, the game succeeds because it fully understands what it wants to be. Drunk But Not Wasted Knight never pretends to offer deep mechanics or serious storytelling. Instead, it focuses entirely on delivering an entertaining fantasy comedy filled with ridiculous dialogue, awkward encounters, and player-driven chaos. That commitment to absurdity becomes the game’s greatest strength.\n\nDrunk But Not Wasted Knight is ultimately a funny and charming visual novel that delivers a memorable fantasy comedy experience through strong writing and bizarre interactive storytelling. While limited gameplay depth and short length prevent it from feeling more substantial, the game’s humor, pacing, and chaotic personality make it consistently entertaining for players who enjoy comedy-focused visual novels and absurd fantasy adventures.\n\nRating: 7/10",
+        "timestamp_created": 1778250491,
+        "timestamp_updated": 1778250491,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.522058844566345215",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754967002",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZjw8AAAAAFP+C0tSAAAAB8xrnaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

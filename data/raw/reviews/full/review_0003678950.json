@@ -1,0 +1,75 @@
+{
+  "appid": 3678950,
+  "requested_at": "2026-09-13T19:30:53.761802+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 141,
+      "total_negative": 41,
+      "total_reviews": 182
+    },
+    "reviews": [
+      {
+        "recommendationid": "223935149",
+        "author": {
+          "steamid": "76561198024002686",
+          "personaname": "Tyrant",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/accidentmomenthelp/",
+          "num_games_owned": 0,
+          "num_reviews": 43,
+          "playtime_forever": 21733,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21728,
+          "last_played": 1784733068,
+          "avatar": "64e74dc1af2749f87b1c1e0305b5ed27047281c9"
+        },
+        "language": "english",
+        "review": "The game is probably abandoned. Dev is working on other projects. Even if it wasn't, this wouldn't be worth your time if you're new or experienced with incremental games.\n\nThe early game is fun and the writing is quirky, and also ignorable if you don't care. The unlocks are frequent and progression is up to player choice. The game borrows a lot of ideas from other good games and they work for awhile. As you reach the midgame and things slow down, you might think \"alright time to grind, power up, and break the wall\", but that break moment never comes. You'll notice your scaling slows down a lot, so you grit your teeth and let it idle to get through the wall the hard way - and then you find out there's nothing on the other side. It's just wall after wall with next to nothing to push you through it. I sat through this until I finally got to another actual unlock and found out for the umpteenth time that the unlocks, once again, don't make a meaningful difference in your progression. They take too long to accumulate too so it's not even exciting or interesting. \n\nLook at my hours. The first day was fun, the second and third days were alright. I let it sit for 10 more days practically spinning my wheels. It doesn't get better.\n\nAlso AI has had it's hands on this. I wouldn't care as long as the game was good, but I know it will upset some people, so I'll mention it here.",
+        "timestamp_created": 1776975954,
+        "timestamp_updated": 1776975954,
+        "voted_up": false,
+        "votes_up": 23,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.754069268703460693",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758813607",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 3
+          },
+          {
+            "reaction_type": 28,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFU6yqAAAAAFP+ghVUAAAAB9qp/WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2030000000004293,
+  "transport_error_count": 0
+}

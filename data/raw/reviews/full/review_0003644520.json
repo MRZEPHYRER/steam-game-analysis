@@ -1,0 +1,66 @@
+{
+  "appid": 3644520,
+  "requested_at": "2026-09-13T19:28:29.565027+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "199518808",
+        "author": {
+          "steamid": "76561198348392127",
+          "personaname": "vxy555",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198348392127/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 12,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 12,
+          "last_played": 1752220915,
+          "avatar": "3ab6056abcca0f08f0864053214bc8406000097b"
+        },
+        "language": "koreana",
+        "review": "이런 류 게임을 좋아해서 좀 비싸보이지만 구매했는데, 상당히 실망스러움\n\n1. AI로 생성한게 너무, 너무 과하게 티나는 일러스트들\n2. 대중없는 스탯 주사위. 무기 밸런스\n3. 로그라이크라는 장르가 광범위한 범위를 포함하는 건 알지만, 선택의 여지 없이 완전히 랜덤하게 발생하는 이벤트는 상당히 지루하고 황당함 (아무 결정이나 선택없이 완벽하게 랜덤으로 이벤트가 발생하고 거기 따라서 스탯이 줄었다 늘었다...하는게 맞나? 적어도 몇 개 선택지를 주고 거기서 랜덤하게 고를 수 있게 하든가. 최근에 개봉한 샴블즈라는 게임이 이런 방식을 택하고 있음)\n4. 텍스트가 칸 밖으로 삐져나와서 가독성 떨어지는 문제도 해결이 필요함.\n\n5천원 정도였으면 걍 그러려니 하고 했겠지만 정가 16,500원짜리 게임이라기엔 상당히 황당함. 배경이나 설정은 상당히 마음에 드는데...지금 퀄리티라면 할 생각 없음",
+        "timestamp_created": 1752221276,
+        "timestamp_updated": 1752221276,
+        "voted_up": false,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.637263476848602295",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752050826",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYQTaAAAAAFP+RkdWAAAAB4pY35BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

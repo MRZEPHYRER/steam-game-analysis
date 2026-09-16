@@ -1,0 +1,75 @@
+{
+  "appid": 2416100,
+  "requested_at": "2026-09-13T18:50:36.381913+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 1296,
+      "total_negative": 42,
+      "total_reviews": 1338
+    },
+    "reviews": [
+      {
+        "recommendationid": "209948890",
+        "author": {
+          "steamid": "76561198014318623",
+          "personaname": "`Hannibal.Lecter",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/angermeow297/",
+          "num_games_owned": 194,
+          "num_reviews": 41,
+          "playtime_forever": 252,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 252,
+          "last_played": 1763914617,
+          "avatar": "df68dd33be50e3df6562b50ad6c7cfcb3c6b693c"
+        },
+        "language": "english",
+        "review": "Let's get the obvious thing out of the way—Goodnight Universe is not nearly as good as Before Your Eyes.\n\nBut on the bright side, this game doesn't give you depression or make you cry for hours after the end. You'll not be left with a hole in your heart that'll never fill up. This isn't a game that you'll be afraid to replay because you're too scared to be heartbroken again.\n\nInstead, Goodnight Universe makes you feel happy and makes you feel like a superhero who wears nothing but diapers, like ever. I didn't know anything about the game except its publisher, so I was surprised with the sci-fi twist, and loved it. I just feel that the game should've been slight better paced—definitely drags in the third chapter. Nonetheless, it's a good game with plenty heart.\n\n—For Issac.",
+        "timestamp_created": 1763917749,
+        "timestamp_updated": 1763917749,
+        "voted_up": true,
+        "votes_up": 45,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.789298355579376221",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762880358",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUNsuAAAAAFP+lB7eAAAAB6jfKgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.171000000000049,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 1548180,
+  "requested_at": "2026-09-13T18:43:27.898313+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 153,
+      "total_negative": 44,
+      "total_reviews": 197
+    },
+    "reviews": [
+      {
+        "recommendationid": "210387865",
+        "author": {
+          "steamid": "76561198055553404",
+          "personaname": "Butter Bot",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/ButterJuice/",
+          "num_games_owned": 280,
+          "num_reviews": 43,
+          "playtime_forever": 111,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 111,
+          "last_played": 1763803974,
+          "avatar": "b84d637fa62ffda63ddd77710a743af70e88e336"
+        },
+        "language": "english",
+        "review": "I left a positive review, but I really wish Steam allowed a neutral rating. I refunded the game not because it’s bad, but because it didn’t match what I was looking for. That doesn’t mean it’s a poor game; it’s actually quite enjoyable for what it is. I might buy it again once the game reaches full release.\n\nThe core mechanic—drawing blood rituals on the ground—is interesting, but I’m concerned it may lose its novelty and become repetitive. Maybe later in the game these rituals become more engaging during combat, but for now I worry it could get frustrating, especially since the shape-recognition system, while decent, has already given me a few issues.\n\nI also wasn’t expecting a rogue-like. I thought it would be an open-world game where you gradually convert regions to your cult, with the environment changing as you progress. The first two hours offered something very different: a rogue-like structure with upgrade progression.\n\nIt’s a shame, because the art direction is excellent. The game also feels like it’s missing some sound ambience, which would help the atmosphere a lot.",
+        "timestamp_created": 1764063896,
+        "timestamp_updated": 1764063896,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.634679913520812988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752681682",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXTnCAAAAAFP+RPTGAAAAB5uciiBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.171999999999798,
+  "transport_error_count": 0
+}

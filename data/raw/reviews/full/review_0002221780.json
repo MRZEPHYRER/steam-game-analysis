@@ -1,0 +1,67 @@
+{
+  "appid": 2221780,
+  "requested_at": "2026-09-13T18:48:36.395364+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 43,
+      "total_negative": 3,
+      "total_reviews": 46
+    },
+    "reviews": [
+      {
+        "recommendationid": "223653407",
+        "author": {
+          "steamid": "76561199366581299",
+          "personaname": "akbello_",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199366581299/",
+          "num_games_owned": 229,
+          "num_reviews": 201,
+          "playtime_forever": 411,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 411,
+          "deck_playtime_at_review": 411,
+          "last_played": 1776627104,
+          "avatar": "4706aa9e128e2d8488699e334e1f6f5c061af2f6"
+        },
+        "language": "spanish",
+        "review": "El rato que he jugado no ha estado mal, pero a la larga, se vuelve tedioso, especialmente porque llega un punto que el juego es repetir combo de ataque mas luego rodar, ademas contando que a la que llegas medianamente lejos, la partida se vuelve exajeradamente larga. \nNo diria en ningun caso que es un mal juego, pero a mi gusto, no es un juego que habria comprdo viendo la experiencia global.",
+        "timestamp_created": 1776627437,
+        "timestamp_updated": 1776627437,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1755088565",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB/4ZXVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

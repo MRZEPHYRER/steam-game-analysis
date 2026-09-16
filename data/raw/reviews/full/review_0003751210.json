@@ -1,0 +1,107 @@
+{
+  "appid": 3751210,
+  "requested_at": "2026-09-13T19:37:07.841735+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 163,
+      "total_negative": 50,
+      "total_reviews": 213
+    },
+    "reviews": [
+      {
+        "recommendationid": "212442185",
+        "author": {
+          "steamid": "76561197999228805",
+          "personaname": "Wunkberg",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Wunkberg/",
+          "num_games_owned": 771,
+          "num_reviews": 75,
+          "playtime_forever": 118,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 118,
+          "last_played": 1765042332,
+          "avatar": "765fd99d31da1fc16359c924ebcf764b724c89b7"
+        },
+        "language": "english",
+        "review": "A lot of AI is used here that is not disclosed on the Steam page. This includes music and texture assets, including use of that horrid ghibli model. Wish MDickie hadn't of gone here, I'm not expecting much high quality with an MDickie game, not really what I want, the jank is part of the charm. Seeing the AI generated ♥♥♥♥ breaks that.\n\nThis game would be perfectly fine without this. Replace the AI song with a sound of yourself farting in a tunnel and that would be an improvement.\n\nEdit: I went to the band page for 'Bleeding Corpse' as MDickie has put above. Nothing about this band or their second page 'Armanson' seems legit, pages were made very recently, all music and imagery on both these pages have been AI generated and there is no mention of them anywhere else on the internet. Every sound has the same weird washy noise and filtering that all music generated on Suno has. MDickie is just straight up lying now.\n\nEdit 2: Access has been restricted to the band pages linked in the claims that they aren't AI. Probably because those pages were more damning than anything.",
+        "timestamp_created": 1764719738,
+        "timestamp_updated": 1776432774,
+        "voted_up": false,
+        "votes_up": 196,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.842876613140106201",
+        "comment_count": 10,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764252760",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 4
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 19
+          },
+          {
+            "reaction_type": 19,
+            "count": 2
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          },
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTJHiAAAAAFP+r42SAAAAB5xLOqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.282000000000153,
+  "transport_error_count": 0
+}

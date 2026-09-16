@@ -1,0 +1,201 @@
+{
+  "requested_at": "2026-09-13T06:59:00.218367+00:00",
+  "request_params": {
+    "appids": 4123200,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4123200,
+  "payload": {
+    "4123200": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The 7th Night",
+        "steam_appid": 4123200,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.poster.avif?t=1762491690\" width=640 height=270 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.webm?t=1762491690\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.mp4?t=1762491690\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >An immersive bedtime experience where you lay in bed and fight to make it through the night. As time goes on and bad omens occur, you must emerge from the safety of your blanket to right them - but beware, you aren't always alone.</p><p class=\"bb_paragraph\" >A VR first (and only) horror experience: feel the suspense and terror grow as you fight against the growing dark and stillness. Sunrise can't come soon enough, but as Friday the 13th approaches you fear you won't make it past The 7th Night.</p><h2 class=\"bb_tag\" >Guide</h2><p class=\"bb_paragraph\" >You never need to leave your bed - The 7th Night is a seated experience. Around you are a number of items that have a &quot;good state&quot; and a &quot;bad state&quot;. If everything goes bad, then not even the blanket can save you!</p><p class=\"bb_paragraph\" >The paper spin disc is used to measure how much &quot;good&quot; is still around you. You never want this to reach zero.</p><p class=\"bb_paragraph\" >When danger comes, pull the blanket over your head as fast as possible! If you die you can continue the night again in Baby Mode, but on Nightmare difficulty everything is harder - and there are no saves.</p><p class=\"bb_paragraph\" >But don't try to fix things from under the sheets - if your arm is out, <i>it</i> will know!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.poster.avif?t=1762491690\" width=640 height=270 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.webm?t=1762491690\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/extras/6efd5d7ecedc00c4df6db9052facd6f5.mp4?t=1762491690\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >An immersive bedtime experience where you lay in bed and fight to make it through the night. As time goes on and bad omens occur, you must emerge from the safety of your blanket to right them - but beware, you aren't always alone.</p><p class=\"bb_paragraph\" >A VR first (and only) horror experience: feel the suspense and terror grow as you fight against the growing dark and stillness. Sunrise can't come soon enough, but as Friday the 13th approaches you fear you won't make it past The 7th Night.</p><h2 class=\"bb_tag\" >Guide</h2><p class=\"bb_paragraph\" >You never need to leave your bed - The 7th Night is a seated experience. Around you are a number of items that have a &quot;good state&quot; and a &quot;bad state&quot;. If everything goes bad, then not even the blanket can save you!</p><p class=\"bb_paragraph\" >The paper spin disc is used to measure how much &quot;good&quot; is still around you. You never want this to reach zero.</p><p class=\"bb_paragraph\" >When danger comes, pull the blanket over your head as fast as possible! If you die you can continue the night again in Baby Mode, but on Nightmare difficulty everything is harder - and there are no saves.</p><p class=\"bb_paragraph\" >But don't try to fix things from under the sheets - if your arm is out, <i>it</i> will know!</p>",
+        "short_description": "An immersive bedtime experience where you lay in bed and fight to make it through the night. As time goes on and bad omens occur, you must emerge from the safety of your blanket to right them - but beware, you aren't always alone.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/ea30255c44d2333c9349f344c0c236597ba7f626/header.jpg?t=1762491690",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/2785722f86eaecab2302f5f81767fd3b06386eb6/capsule_231x87.jpg?t=1762491690",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/2785722f86eaecab2302f5f81767fd3b06386eb6/capsule_184x69.jpg?t=1762491690",
+        "website": "https://sudo.games/#the7thNight",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i5-4690K<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> GTX 970 or better<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>VR Support:</strong> OpenXR, Meta and Valve headsets<br></li><li><strong>Additional Notes:</strong> VR Only</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "SUDO GAMES CORPORATION"
+        ],
+        "publishers": [
+          "SUDO GAMES CORPORATION"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1444750
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The 7th Night",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1444750,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The 7th Night - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 54,
+            "description": "VR Only"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/e12144c8ab379edd5d8725fca8f2e87a631f0573/ss_e12144c8ab379edd5d8725fca8f2e87a631f0573.600x338.jpg?t=1762491690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/e12144c8ab379edd5d8725fca8f2e87a631f0573/ss_e12144c8ab379edd5d8725fca8f2e87a631f0573.1920x1080.jpg?t=1762491690"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/7b5c7a941fc86ee38d00bed0bc8db4479533a966/ss_7b5c7a941fc86ee38d00bed0bc8db4479533a966.600x338.jpg?t=1762491690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/7b5c7a941fc86ee38d00bed0bc8db4479533a966/ss_7b5c7a941fc86ee38d00bed0bc8db4479533a966.1920x1080.jpg?t=1762491690"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/ae98358a679615b38902f2f51062142c66675eb6/ss_ae98358a679615b38902f2f51062142c66675eb6.600x338.jpg?t=1762491690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/ae98358a679615b38902f2f51062142c66675eb6/ss_ae98358a679615b38902f2f51062142c66675eb6.1920x1080.jpg?t=1762491690"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/9d765357cba9cf45069f10b401fd2b57fac59612/ss_9d765357cba9cf45069f10b401fd2b57fac59612.600x338.jpg?t=1762491690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/9d765357cba9cf45069f10b401fd2b57fac59612/ss_9d765357cba9cf45069f10b401fd2b57fac59612.1920x1080.jpg?t=1762491690"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/277a878e6b41e8f8cbf4e3c2f0b8e167688459fd/ss_277a878e6b41e8f8cbf4e3c2f0b8e167688459fd.600x338.jpg?t=1762491690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123200/277a878e6b41e8f8cbf4e3c2f0b8e167688459fd/ss_277a878e6b41e8f8cbf4e3c2f0b8e167688459fd.1920x1080.jpg?t=1762491690"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257219987,
+            "name": "The 7th Night",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257219987/124ca4bbe9374d2c90ef297169536491569a833c/movie_600x337.jpg?t=1761284930",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4123200/930668070/a844aebc22c7922defee3b06380ac49ed8c700a8/1760935316/dash_av1.mpd?t=1761284930",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4123200/930668070/a844aebc22c7922defee3b06380ac49ed8c700a8/1760935316/dash_h264.mpd?t=1761284930",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4123200/930668070/a844aebc22c7922defee3b06380ac49ed8c700a8/1760935316/hls_264_master.m3u8?t=1761284930",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "support_info": {
+          "url": "https://sudo.games",
+          "email": "info@sudo.games"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4123200?t=1762491690",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4123200?t=1762491690",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

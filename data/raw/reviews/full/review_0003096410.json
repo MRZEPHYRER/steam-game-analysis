@@ -1,0 +1,73 @@
+{
+  "appid": 3096410,
+  "requested_at": "2026-09-13T19:03:47.837530+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "230582235",
+        "author": {
+          "steamid": "76561198843369201",
+          "personaname": "Doom Guy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Input_Output/",
+          "num_games_owned": 264,
+          "num_reviews": 12,
+          "playtime_forever": 5,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1784176160,
+          "avatar": "1f3a117a283b59dcf0eb4707ff0b4dba78a7eb72"
+        },
+        "language": "english",
+        "review": "Sammy edited the trailer",
+        "timestamp_created": 1784176175,
+        "timestamp_updated": 1784176175,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751665660",
+        "hardware": {
+          "system_ram": "31999",
+          "os": "CachyOS",
+          "cpu_name": "AMD Ryzen 5 5600X 6-Core Processor             ",
+          "adapter_description": "AMD AMD Radeon RX 7900 XTX (radeonsi, navi31, ACO, DRM 3.64, 7.1.1-2-cachyos)",
+          "vram_size": 24576
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF3AAAAAAAAFP+AAAAAAAAB7/czvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

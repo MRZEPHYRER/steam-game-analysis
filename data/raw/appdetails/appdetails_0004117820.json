@@ -1,0 +1,238 @@
+{
+  "requested_at": "2026-09-13T06:57:26.942445+00:00",
+  "request_params": {
+    "appids": 4117820,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4117820,
+  "payload": {
+    "4117820": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Veylor",
+        "steam_appid": 4117820,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Do you want to atone for your mistakes? Then you should go the hard way...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Veylor is an atmospheric horror game for mystery and survival enthusiasts. You have entered the territory of the ancient spirit, which will check whether you deserve to be redeemed. You have only 5 attempts to escape and forget about this cursed place.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Solve all the mysteries of the old mansion, hide and be quiet, because it is perfect. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >•   Complete the quests.</p><p class=\"bb_paragraph\" >• Along with your progress, AI is also developing.</p><p class=\"bb_paragraph\" >• 2 main locations: the mansion and the street.</p><p class=\"bb_paragraph\" >• You have only five attempts.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Do you want to atone for your mistakes? Then you should go the hard way...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Veylor is an atmospheric horror game for mystery and survival enthusiasts. You have entered the territory of the ancient spirit, which will check whether you deserve to be redeemed. You have only 5 attempts to escape and forget about this cursed place.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Solve all the mysteries of the old mansion, hide and be quiet, because it is perfect. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >•   Complete the quests.</p><p class=\"bb_paragraph\" >• Along with your progress, AI is also developing.</p><p class=\"bb_paragraph\" >• 2 main locations: the mansion and the street.</p><p class=\"bb_paragraph\" >• You have only five attempts.</p>",
+        "short_description": "In the creepy horror Veylor, you must outsmart an ancient creature and try to escape from its territory. Be quiet and vigilant! You have to use logic, regardless of fear. Can you do it?",
+        "supported_languages": "English, French, Russian, Spanish - Spain",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/2eb2d8db5b3111dc36ddc3fe4c7826c13d988533/header.jpg?t=1763596930",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/8080716b6476be83421a1cddb1592c5c47c8c1be/capsule_231x87.jpg?t=1763596930",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/8080716b6476be83421a1cddb1592c5c47c8c1be/capsule_184x69.jpg?t=1763596930",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10 and up<br></li><li><strong>Processor:</strong> Intel i3 4th gen / AMD Athlon X4 880K<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong>  GeForce GTX 750 Ti / AMD Radeon HD 7850<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Stereo. Play with good stereo.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10 and up <br></li><li><strong>Processor:</strong> Intel i5-4760 / AMD FX 9370<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong>  GeForce GTX 1660 Ti / AMD Radeon RX Vega 56<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Stereo. Play with good stereo.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "The Nightmare Forge"
+        ],
+        "publishers": [
+          "The Nightmare Forge"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1442817
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Veylor",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1442817,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Veylor - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/5c33c3a887ac07bd57d422f0a275ca4efc11e888/ss_5c33c3a887ac07bd57d422f0a275ca4efc11e888.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/5c33c3a887ac07bd57d422f0a275ca4efc11e888/ss_5c33c3a887ac07bd57d422f0a275ca4efc11e888.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/892c3d49c7e04f9f588de4f2d4cf3d8b85adeebc/ss_892c3d49c7e04f9f588de4f2d4cf3d8b85adeebc.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/892c3d49c7e04f9f588de4f2d4cf3d8b85adeebc/ss_892c3d49c7e04f9f588de4f2d4cf3d8b85adeebc.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/beff049a5cb067827d7f28e82c73c9b8f999421f/ss_beff049a5cb067827d7f28e82c73c9b8f999421f.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/beff049a5cb067827d7f28e82c73c9b8f999421f/ss_beff049a5cb067827d7f28e82c73c9b8f999421f.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/17382cc8e57fe465bd2234040fe089c3dce6025f/ss_17382cc8e57fe465bd2234040fe089c3dce6025f.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/17382cc8e57fe465bd2234040fe089c3dce6025f/ss_17382cc8e57fe465bd2234040fe089c3dce6025f.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/a6d904c3beacc8a51dbfba548e7a35680bc8b8f5/ss_a6d904c3beacc8a51dbfba548e7a35680bc8b8f5.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/a6d904c3beacc8a51dbfba548e7a35680bc8b8f5/ss_a6d904c3beacc8a51dbfba548e7a35680bc8b8f5.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/4660a3c1d31634d53dbdb8110c2eb45a77f6e0c7/ss_4660a3c1d31634d53dbdb8110c2eb45a77f6e0c7.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/4660a3c1d31634d53dbdb8110c2eb45a77f6e0c7/ss_4660a3c1d31634d53dbdb8110c2eb45a77f6e0c7.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/ffaa6a28396a994ef14b3c24f8095a3693082f90/ss_ffaa6a28396a994ef14b3c24f8095a3693082f90.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/ffaa6a28396a994ef14b3c24f8095a3693082f90/ss_ffaa6a28396a994ef14b3c24f8095a3693082f90.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/0a8234f98ecea028920142a599282b57e3006a63/ss_0a8234f98ecea028920142a599282b57e3006a63.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/0a8234f98ecea028920142a599282b57e3006a63/ss_0a8234f98ecea028920142a599282b57e3006a63.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/edaa8f30eaf5d9adfc079a005dc7dd4002947aad/ss_edaa8f30eaf5d9adfc079a005dc7dd4002947aad.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/edaa8f30eaf5d9adfc079a005dc7dd4002947aad/ss_edaa8f30eaf5d9adfc079a005dc7dd4002947aad.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/bb2255f91ca0216f054b675094f55a109ea2fa2a/ss_bb2255f91ca0216f054b675094f55a109ea2fa2a.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/bb2255f91ca0216f054b675094f55a109ea2fa2a/ss_bb2255f91ca0216f054b675094f55a109ea2fa2a.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/1207493cff1be368ae9338aca33536c270b33638/ss_1207493cff1be368ae9338aca33536c270b33638.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/1207493cff1be368ae9338aca33536c270b33638/ss_1207493cff1be368ae9338aca33536c270b33638.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/df67b06ed62f0c3fa4beb81a1dae6c8fbf806e49/ss_df67b06ed62f0c3fa4beb81a1dae6c8fbf806e49.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/df67b06ed62f0c3fa4beb81a1dae6c8fbf806e49/ss_df67b06ed62f0c3fa4beb81a1dae6c8fbf806e49.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/88ca27cb7078a0071cb758f719734af49a8c4d58/ss_88ca27cb7078a0071cb758f719734af49a8c4d58.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/88ca27cb7078a0071cb758f719734af49a8c4d58/ss_88ca27cb7078a0071cb758f719734af49a8c4d58.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/8c95683c3c0dafb04e33b7d33d681380f5ba952d/ss_8c95683c3c0dafb04e33b7d33d681380f5ba952d.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/8c95683c3c0dafb04e33b7d33d681380f5ba952d/ss_8c95683c3c0dafb04e33b7d33d681380f5ba952d.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/2858af8320503df646b3f32cc590b541dcb89dae/ss_2858af8320503df646b3f32cc590b541dcb89dae.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/2858af8320503df646b3f32cc590b541dcb89dae/ss_2858af8320503df646b3f32cc590b541dcb89dae.1920x1080.jpg?t=1763596930"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/4eaf0b4829ea6529d1982cd69d58b38bdda74e5c/ss_4eaf0b4829ea6529d1982cd69d58b38bdda74e5c.600x338.jpg?t=1763596930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4117820/4eaf0b4829ea6529d1982cd69d58b38bdda74e5c/ss_4eaf0b4829ea6529d1982cd69d58b38bdda74e5c.1920x1080.jpg?t=1763596930"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257234735,
+            "name": "Veylor Main Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257234735/e058355a9b2449130ecc0923e6f788ffa6760f9f/movie_600x337.jpg?t=1763596929",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4117820/2121228087/99a7a2b537c323ff6450efe873b1f85d9d734a95/1763595909/dash_av1.mpd?t=1763596929",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4117820/2121228087/99a7a2b537c323ff6450efe873b1f85d9d734a95/1763595909/dash_h264.mpd?t=1763596929",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4117820/2121228087/99a7a2b537c323ff6450efe873b1f85d9d734a95/1763595909/hls_264_master.m3u8?t=1763596929",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 13, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "georboradzov58@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4117820?t=1763596930",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4117820?t=1763596930",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nDrogas lícitas"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nAlkohol / Tabak"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nHoror\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

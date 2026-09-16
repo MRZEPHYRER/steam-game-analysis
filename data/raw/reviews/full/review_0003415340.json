@@ -1,0 +1,66 @@
+{
+  "appid": 3415340,
+  "requested_at": "2026-09-13T19:14:36.419684+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 20,
+      "total_negative": 0,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "201352847",
+        "author": {
+          "steamid": "76561199212512145",
+          "personaname": "白开雪碧柠檬茶",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199212512145/",
+          "num_games_owned": 729,
+          "num_reviews": 420,
+          "playtime_forever": 153,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 153,
+          "last_played": 1754186565,
+          "avatar": "95cd92fed9268fe05053d6cb22afc5fe430559e8"
+        },
+        "language": "schinese",
+        "review": "死而牛马，我很抱歉。双人模式要线下才能一起玩，感觉难度太高了，我已经回不到小时候和朋友、妹妹一起玩4399小游戏双人游戏的那时候了，希望增添线上联机，ai队友希望能再优化下，某些时候太呆了，我倒地就是不救我，眼里只有怪，没见过使用道具，也没见过买东西，直接跳过",
+        "timestamp_created": 1754219120,
+        "timestamp_updated": 1754219120,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.513513505458831787",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754033419",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZus8AAAAAFP+ButOAAAAB/6IyABg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

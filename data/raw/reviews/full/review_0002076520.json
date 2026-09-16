@@ -1,0 +1,76 @@
+{
+  "appid": 2076520,
+  "requested_at": "2026-09-13T18:47:07.080136+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 120,
+      "total_negative": 26,
+      "total_reviews": 146
+    },
+    "reviews": [
+      {
+        "recommendationid": "211472049",
+        "author": {
+          "steamid": "76561199014474028",
+          "personaname": "Mandoorhandhookcardoor",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199014474028/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 95,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "deck_playtime_at_review": 19,
+          "last_played": 1780537608,
+          "avatar": "b8834322965bff249d47ab7db26686ed5d2406e7"
+        },
+        "language": "english",
+        "review": "First off, let me just say this game is fantastic!!! Hard as nails, but fantastic! As someone who grew up playing Omega Boost on the PS1 THIS definitely scratches that longing itch. Plus I REALLY love the horror aesthetic and art direction of this game. I WISH the dev would make more of this game already. Or maybe add some bonus content down the road. Playing in a first person-mode/cockpit view would be insane! So glad this game came out, I've missed this alot. On a side note If the dev ever came out with merch t-shirts etc. I'd totally buy em, the cool art under the description of the game is right up my alley! If you love frantic shooters this is for you!!",
+        "timestamp_created": 1764354229,
+        "timestamp_updated": 1764354229,
+        "voted_up": true,
+        "votes_up": 33,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.752757072448730469",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1764351641",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFU8eKAAAAAFP+gWleAAAABx69mmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,73 @@
+{
+  "appid": 3869100,
+  "requested_at": "2026-09-13T19:52:19.641912+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "225427495",
+        "author": {
+          "steamid": "76561198040926040",
+          "personaname": "Egret Skinny",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198040926040/",
+          "num_games_owned": 258,
+          "num_reviews": 4,
+          "playtime_forever": 328,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 325,
+          "last_played": 1779802354,
+          "avatar": "17dc17eb8f57ddd8b738bf43238e26c1ad6414f6"
+        },
+        "language": "english",
+        "review": "Fun and challenging drag racing game with a big assortment of vehicles to choose from. The physics can throw you off and even screw you over at times (especially on the carry missions), but once you figure out the quirks and get used to it then there's lots more to appreciate. The voice acting, soundtrack and vehicle models are brilliant for a game developed by a small dedicated team like this, and the story features plenty of funny distinct characters. \n\nThere's plenty of replayability and side missions to do, though hopefully more achievements will be added soon to encourage more of that. The game can be slightly grindy in later areas (a cute little guide owl tells you to take a break if you're getting tired) but managing your cash in this game isn't that difficult so it shouldn't be too big of a bother. \n\nGive it a shot, I miss Joe.",
+        "timestamp_created": 1778703133,
+        "timestamp_updated": 1778703133,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766568537",
+        "hardware": {
+          "system_ram": "16091",
+          "os": "Windows 11",
+          "cpu_name": "13th Gen Intel(R) Core(TM) i5-13450HX",
+          "adapter_description": "NVIDIA GeForce RTX 5050 Laptop GPU",
+          "vram_size": 7910
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFkAAAAAAAAFAAAAAAAAAAB3gvjbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

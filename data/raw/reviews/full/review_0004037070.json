@@ -1,0 +1,71 @@
+{
+  "appid": 4037070,
+  "requested_at": "2026-09-13T20:14:05.248279+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "207987750",
+        "author": {
+          "steamid": "76561199180824286",
+          "personaname": "JorgeGg1223",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199180824286/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 380,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 108,
+          "last_played": 1784929184,
+          "avatar": "80f7358639ff8fd43350509ff23c447c155a0687"
+        },
+        "language": "spanish",
+        "review": "Sinceramente, Jumping Eras me ha sorprendido muchísimo. Es uno de esos juegos que parecen simples al principio, pero cuando te metes, te das cuenta de lo adictivo y divertido que puede llegar a ser. He pasado horas de risas y entretenimiento con mis amigos en Discord, compitiendo, explorando y disfrutando de cada una de las eras que el juego ofrece.\n\nSe nota el cariño y el esfuerzo que mi amigo Alvis ha puesto en este proyecto. Cada nivel tiene su propio encanto, y el ritmo del juego hace que siempre quieras probar “una partida más”.\n\nYa tengo muchísimas ganas de ver las próximas eras que se avecinan. Si sigue por este camino, este juego va a crecer muchísimo. ¡Muy recomendado! \n\n---------------------------------------------------------------------------------------------------------------------------------\n\nبصراحة، لقد أدهشتني لعبة Jumping Eras بشكل كبير. إنها من تلك الألعاب التي تبدو بسيطة في البداية، لكن بمجرد أن تتعمق فيها، ستدرك كم هي ممتعة وجذابة. لقد قضيت ساعات أضحك وأستمتع مع أصدقائي على Discord، نتنافس ونستكشف ونستمتع بكل مرحلة من المراحل التي تقدمها اللعبة.\n\nيمكنك أن ترى مدى الحب والجهد الذي بذله صديقي ألفيس في هذا المشروع. لكل مستوى سحره الخاص، وإيقاع اللعبة يجعلك ترغب دائمًا في لعب \"جولة واحدة أخرى\".\n\nأنا أتطلع بالفعل إلى المراحل القادمة. إذا استمرت على هذا المنوال، ستتطور هذه اللعبة بشكل كبير. أنصح بها بشدة!",
+        "timestamp_created": 1761854568,
+        "timestamp_updated": 1761854568,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761257039",
+        "reactions": [
+          {
+            "reaction_type": 9,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2wrSZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4150680,
+  "requested_at": "2026-09-13T20:22:28.447567+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "224689361",
+        "author": {
+          "steamid": "76561198032150800",
+          "personaname": "KMT138",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/KMT138/",
+          "num_games_owned": 0,
+          "num_reviews": 31,
+          "playtime_forever": 530,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 402,
+          "last_played": 1778271614,
+          "avatar": "ded76fad2a991bf1adbc6b1400a31b2971a9a768"
+        },
+        "language": "english",
+        "review": "I've completed over 600 hidden object games, and this has to be one of the most frustrating experiences. \n\nIn general, the game is fine. There's 150 cats to locate and a number of additional puzzles to solve, including a block sliding puzzle, colour matching and memory game. There's also a number of cats which can only be found when you complete a fetch quest - e.g. locate 5 worms, 20 crabs etc. And this is where the frustration comes in.\n\nI managed to get to 148 cats in about an hour. It then took me an additional 5.5 hours to find a single heart to unlock the last 2 cats. 5.5 hours! There's several very obvious hearts around the game which do no count at all, and I eventually found the last heart ... somewhere. I resulted to randomly clicking around the screen and at some point clicked on the final heart without knowing.\n\nAlong the way I reset the game twice. First by accident - if you press the Delete key whilst the game is open it erases all of your data without any confirmation/warning. The second time I reset on purpose in case the heart was glitched or more obvious when no cats were moving on the screen. The real kicker? I now want to reset my game to play it again an properly find the last heart. But now I'm at 100% completion the delete key no longer works. So now I can't replay the game, even after deleting the files or uninstalling. \n\nIn the process, I did make a guide to hopefully help other players have a far less frustrating experience. I may even use a second PC to play it some more to try and locate that final heart and offer hints on some of the other puzzles/well hidden cats. But I've had such a sour relationship with this game because of a single item.\n\nInterested in other Hidden Object Games? Check out the [url=\"https://steamcommunity.com/groups/HiddenObjectDoodles\"]Hidden Object Doodles[/url] group and [url=\"https://store.steampowered.com/curator/44861109/\"]Curator[/url] page.",
+        "timestamp_created": 1777824133,
+        "timestamp_updated": 1777824133,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764725281",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABxzY/ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.844000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2851640,
+  "requested_at": "2026-09-13T18:57:07.772963+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 24,
+      "total_negative": 2,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "209915309",
+        "author": {
+          "steamid": "76561198253540900",
+          "personaname": "Daredevil_314",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/daredevil_314/",
+          "num_games_owned": 0,
+          "num_reviews": 14,
+          "playtime_forever": 5704,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 292,
+          "last_played": 1775990932,
+          "avatar": "34bec27d351db6b27263214a13c6c17ab0a2f790"
+        },
+        "language": "english",
+        "review": "[h3] Indisputably the best side-scrolling highway racing game ever! [/h3]\n\nI am beyond excited the full game is finally out! I played the demo immensely and couldn't get enough of it; 50 hours to be exact. In SD2, you'll experience adrenaline-fueled fun, edge-of-your-seat thrills, explosive action, and high-octane excitement!\n\nThere is not a single thing in this game that I don't like. It's absolutely perfect in my opinion. And I love the 3-star system as it enables replayability. The AI in this game is probably the best that I've seen. It's a perfect balance of not being too easy nor too hard. The AI will make mistakes just as a human player would.\n\nMost of the modes are pretty easy in my opinion, but every person has a different skillset, so some people might find the game harder than others. By no means am I saying I'm capable of getting 3-stars in every race. So far, I have just two races with 2 stars, while all the rest are 3 stars. It's pretty awesome that every mode is different as in each of them will have different race modifiers. The race modifiers surely bring more fun into the game!\n\nAvoiding traffic is imperative in this game (in most modes). If you slam into the back of a larger vehicle or multiple vehicles, you could potentially come to a standstill. The traffic can certainly be irritating and overwhelming at times, but try to not let it bother you too much. You just gotta push yourself to get better...and keep trying! I love challenging games. This game will definitely test your response time at breakneck speed.\n\nDespite some cutbacks, SD2 still has a astonishing amount of content for such an inexpensive price! This game is a steal! Initially, it was said there would be 70+ vehicles and 500 races, but now it's 67 vehicles and 383 races. Perhaps the other races will come later. Edit: The dev did say it's possible for more races to come later, but no guarantee.\n\nLast, but not least, this game has a banger soundtrack!\n\nDemo review below...\nhttps://steamcommunity.com/id/daredevil_314/recommended/3778150/",
+        "timestamp_created": 1763887620,
+        "timestamp_updated": 1763887620,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.606198906898498535",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763736565",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX4EMAAAAAFP+Nl+4AAAAB92uGgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

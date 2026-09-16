@@ -1,0 +1,66 @@
+{
+  "appid": 4041870,
+  "requested_at": "2026-09-13T20:14:41.019269+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "217697557",
+        "author": {
+          "steamid": "76561198153984087",
+          "personaname": "《✯MAGA-KryptoChris✯》",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198153984087/",
+          "num_games_owned": 0,
+          "num_reviews": 26,
+          "playtime_forever": 280,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 280,
+          "last_played": 1772560006,
+          "avatar": "21d22c56ecf402cf415add7422f705fe35df4bff"
+        },
+        "language": "english",
+        "review": "⭐⭐⭐⭐⭐ Normal Work Day Speedrun Any% (Gone Wrong) 🧪👽\n\nYou start BANE-FALL as an operator in an underground facility, and for about one whole minute everything feels “normal.” Then... IMMEDIATELY — the vibes fall apart. Communications drop, your only friendly voice disappears for a long stretch, and suddenly you’re alone with your thoughts… which is never a good sign in a game like this 😬.\n\nInstant eeriness. No warm-up. No hand-holding. Just “good luck, hope you paid attention.”\n\nYou gear up from your locker like a responsible employee on their last day:\n🔫 A gun\n📟 A status scanner\n🔨 A melee weapon\n— Basically the standard “something terrible is about to happen” starter pack.\n\nNow here’s where the game REALLY won me over: the status scanner gun. This thing is awesome. You can scan enemies and get actual useful intel before engaging them, names, info, and their vulnerabilities. BUT there’s a catch… you have to be close enough to scan them. Not too close. Just close enough to be uncomfortable. That sweet spot where you’re like, “okay if this thing moves I’m dead.” 💀💀💀\nGenuinely one of the coolest and most unique mechanics in the game.\n\nPerformance-wise? 📈📈📈\nThe game runs great. You can crank your FPS all the way up to 244, which is a blessing in a world where some games still think 30 FPS is acceptable in 2026. No weird caps. No stutter. Just smooth fear.\n\nLanguage support is solid too 🌍:\nEnglish, Italian, French, German, Spanish, Polish, Russian, and Chinese. Big W for accessibility.\n\nTone-wise, the game has this original eerie storytelling that constantly keeps you on edge. There’s a definite Half-Life-esque feeling here, not in a copycat way, but in that “something went very wrong in a research facility and now you’re paying for it” kind of way 👀.\n\nOverall, if you’re craving a game with:\n\nAn original story ✅\n\nA constant unsettling atmosphere ✅\n\nActually useful tools (that scanner rules) ✅\n\nAnd that slow-burn “I don’t like being here” energy ✅\n\n…Then BANE-FALL is absolutely worth your time. 🏆⏰\n\n🔦👽 Recommended — because normal shifts are overrated anyway..",
+        "timestamp_created": 1770385856,
+        "timestamp_updated": 1771704070,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.577672779560089111",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761339766",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYclCAAAAAFP+J8TCAAAAB10bm+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

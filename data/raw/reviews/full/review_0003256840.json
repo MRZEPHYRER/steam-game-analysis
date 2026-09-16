@@ -1,0 +1,66 @@
+{
+  "appid": 3256840,
+  "requested_at": "2026-09-13T19:08:53.465271+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 0,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "205911163",
+        "author": {
+          "steamid": "76561198052853628",
+          "personaname": "Vladimere Lhore",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/vladimerelhore/",
+          "num_games_owned": 1135,
+          "num_reviews": 147,
+          "playtime_forever": 206,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 206,
+          "last_played": 1759628306,
+          "avatar": "adb84e85f28407fcdb07f1402a2b49643a959664"
+        },
+        "language": "english",
+        "review": "A solid game that does everything it needs to be an enjoyable ride. \n\nIt's very survival light, as for most of the game you'll be over stocked on every resource the game has to offer. \n\nThere are some puzzles to solve. Only one had me stuck for a moment, but that's mostly cause of how easy it is to over look the numbers on the floor.\n\nThere isn't much in terms of story, everything interesting that happens, happens off screen before you arrive. The notes detailing this story are well written, and the pacing at which things are revealed to you is well done, but I like things to happen to the character I'm playing and wish there had been more Frogman interactions.\n\nThe game has about 5 major areas to explore. The coast, the mines, the village, the flesh, and the swamp.\nThere are 2 boss fights, first is fine but the final boss is ♥♥♥♥♥♥♥♥. \n\nIf you want wanna kill an afternoon with a short 3 hour Resident Evil 4 style adventure, this ain't a bad way to get that. \nEverything after this will just be me belly aching. \n\n\nSomething that almost made me quit the game was the game making me climb a tower, at the top of the tower it tells you you're about to pass a Point Of No Return, and you should spend all your money, however, the money spend machine is all the way at the bottom of the tower on the other side of the swamp. \nAnd worse yet, there is no save point at the top of the tower, so when the boss kills you, you're sent back to your last save, and you have to flip a switch to be allowed up the tower every time you reload, even if you save with it flipped cause I'm guessing the game doesn't save that object's state.\nIt's wild they didn't just add a Soul machine and save point next to the PONR.\n\nWhat's worse, is that after playing half the final area again and suffering the ♥♥♥♥♥♥♥♥ final boss who spawns in enemies to swarm you, and coupled with his own attacks, drains your health in seconds making me feel like I spent more time in my menu healing that shooting.\n\nAfter beating the boss you're given a simple text box as a finale, [spoiler]you're told your Brother you've been seeking is the Frogman you keep bumping into, and that Frogman is the Father referred to in the notes who basically sent everyone to hell to become a Frog God?[/spoiler]\nIt's a fine story beat, but it doesn't feel like a great reward for the effort.\n\nSpeaking of less than pleasant sections, the mine cart section overstayed its welcome.",
+        "timestamp_created": 1759630757,
+        "timestamp_updated": 1759630757,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754658022",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB7x76RBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

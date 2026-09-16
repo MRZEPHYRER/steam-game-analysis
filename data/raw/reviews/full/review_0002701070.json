@@ -1,0 +1,75 @@
+{
+  "appid": 2701070,
+  "requested_at": "2026-09-13T18:54:22.018600+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 6,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "207624295",
+        "author": {
+          "steamid": "76561198982814974",
+          "personaname": "The Kitsune Goddess Roxanne",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198982814974/",
+          "num_games_owned": 50,
+          "num_reviews": 13,
+          "playtime_forever": 693,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 683,
+          "last_played": 1761494518,
+          "avatar": "bd231e844af481953ce794a145569dc526a4d3d6"
+        },
+        "language": "english",
+        "review": "For anyone reading this is a half critique half rant with bad english so please forgive: True to be told this remake was... dissapointing i havent checked everyway but the story aside from fixing gramatical error is the same thing, the ui is very similar to komorebi one thing which for me takes the unquieness out of the game. The original had more options even if the majority were incosequential it was still nice to have a lot of option even a dialgue letting you choose between being girl or aboy, follower or leader,etc which changed the mentality of your character and how some characters reacted to what you did, instead this game change it to a Winds of change multiple option thing that i was excited for but it feel like it wasnt thought very well since the options when they come up feel out of place principally some of the more emotional answers (like the flirty ones or angry ones) which come up more naturally in both komorebi and winds of change, The histoy hasnt been change and its still a mess the only good thing i notice that isnt purely visual which (aside from me thinking the game lose part of its identy as now it looks like a mixture of the ui/options of winds of change and komorebi) are at the end up to interpretation (like for example i didnt like the fact that they changed that when you gey text messages now the words appear floating on the screen instead of how it was in the original showing it the message on the phone) but some option are just gone... like the option to go or not with Jade/Eclair after going to the arcade/maid cafe or the fact tha Eclair had a crying sprite (techincally two since there is one with the eyes open and closed) in the original one aside from some unique sprites that appeared when you meet a character and even in a moment in which your character rememember stuff they took off the screen shaking which make the moment seem more calm hta what it actually is but all of that is now igone for some reason....? they didnt have any reason to take it out they just did, As for the skipping speed did they not only did not fix that but i am almost sure that the revision of Major/minor is slower than the original not by much but it is, This wouldnt matter that much in the time in which the original costed money but right now the original is free, So why buy this? they also got rid of the affection system for those unaware is simple agree with a character they get along and with certain points you unlock thier backstory but despite leaving the \"fake outs\" (the character in some scenes they start dissapearing if you had affection they reappeared,if you didnt they dissapeared) but now no matter what you do you always get the backstory of the character i know this since i played both games at the same time doing the same choices in one a character told me is backstory(re-vison) and in the original he didnt. Which yet again i dont understand since the affection system despite being a bit of a pain added replayability to the game, so... those from the things they added aside from the ability to save anytime are purely cosmetic at best and at worse actually getting rid of content,no new story sprites,no new lore only rewritten story, the new options (winds of change like) feels put in there just becayse and does not feel natural,betwwen other stuff hta i dont want to repeat myself, and on top of that they took out options,choices (the questions from the forest which included choosing you gender that despite most having no consequences it did give diffrent dialogue at least) and to be honest the game just seem...worse to me,hell, they even got rid of archivements that while i agree is a bit much in the original, it was good for A:people who want to complete the game 100% tp know what are the diffrent thing that can happen in game and B:for people to be aware that maybe there are choices that could lead to other ways (even if not that relevannt) if i replay the game i am not sure if ill replay this one, the only reason i played this game for so long was because i was hoping that they in fact added something but for what i can tell... not much and what they added or feels put in there without much thought or make it looks like they were put in there because of the creators other game... true to be told you want a good visual novel from the same dude... play winds of change for me is the best of his three games but at the end the original Major/minor is free, sorry for my bad english but i wanted to write this on english since most people know english either way this truly feels like the worst thing that all three games had,you still cant skip like in Komorebi and Major/MInor, you have choices like in Winds of change but they feel bad done and put without thought and the things that Major/MInor are were taken out which i dont understand since a big problem people had with the original was that the protagonist didnt affected m,uch the story and they decided to take off content? i really dont understadn what happened, either way better cut here before i ramble more on, i am dissapointed and thats all this is my critque and rant.",
+        "timestamp_created": 1761473463,
+        "timestamp_updated": 1761473463,
+        "voted_up": false,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.657259047031402588",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755791431",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFW2tWAAAAAFP+UIRAAAAAB3hoOYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0629999999998745,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3778380,
+  "requested_at": "2026-09-13T19:39:13.365552+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 15,
+      "total_negative": 5,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "213085569",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 655,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 655,
+          "last_played": 1765441203,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Ward 777, developed by jojo.dev and published by Vision Studio, is a psychological horror experience built around the unnerving stillness and decaying remnants of an abandoned hospital. From the moment the game begins, it places the player in a state of disorientation, offering no clear answers about identity, purpose, or the events that led to this grim setting. Instead, it lets the oppressive atmosphere do the talking. The hospital itself becomes the central character, its flickering lights, blood-stained walls, and echoing corridors forming a labyrinth of dread where every step forward feels like an intrusion into a past better left undisturbed. Rather than relying on constant jump scares, Ward 777 leans into creeping tension, using silence and uncertainty to keep players on edge.\n\nExploration is the backbone of the game, and the ward reveals its secrets only to those willing to investigate its shadows and forgotten corners. Scattered documents, obscure clues, and unsettling graffiti contribute small pieces of information that slowly assemble into a broader narrative, though the game never explicitly confirms whether the truths you uncover are grounded in reality or distorted by trauma. This ambiguity is deliberate; Ward 777 uses fragmented storytelling to immerse players in a psychological downward spiral where doubt grows as quickly as curiosity. The environment shifts subtly in tone as you progress, and each new discovery makes the abandoned hospital feel more alive in a sinister, intangible way. It’s a world designed to be read rather than simply observed, and the reward for those who pay attention is a richer understanding of the forces at play.\n\nPlaying through Ward 777 involves more than walking from room to room. The game incorporates a selection of puzzles that break up the tension while reinforcing the theme of uncovering hidden truths. None of the puzzles are overly complex, but they require attentiveness and thought, drawing on environmental clues and visual detail. Solving them opens new paths or reveals key narrative elements, making them feel connected to the setting rather than artificial obstacles. This blend of exploration and problem-solving gives the game a steady rhythm, alternating between quiet, suspenseful wandering and moments of active engagement. The pacing occasionally dips if players become stuck or backtrack too frequently, but for the most part, the game maintains a cohesive flow that supports its psychological tone.\n\nVisually and sonically, Ward 777 works hard to build immersion. The hospital interiors are rendered with enough realism to evoke discomfort—peeling paint, rusted equipment, broken beds, and scattered debris create a believable sense of abandonment. The lighting design emphasizes contrast, casting deep shadows where threats could linger and forcing players to confront darkness they’d rather avoid. Sound design further amplifies the atmosphere: distant metal clatters, soft footsteps that may or may not be yours, and stretches of near silence that heighten anxiety. These audio cues are subtle but effective, giving the impression that something unseen might be following you just out of view. Together, the visual and auditory elements create a horror environment that relies more on psychological pressure than spectacle.\n\nPlayer reception reflects an appreciation for this atmospheric approach. Many highlight the way Ward 777 uses its limited indie budget to deliver a strong sense of tension and narrative curiosity, noting that it succeeds in creating a haunting experience without excessive reliance on cheap tricks. However, some players point out that the game’s short length and occasionally uneven pacing leave them wanting more depth or variety. Certain sequences can feel repetitive, and those expecting a large-scale horror epic may find the experience more compact than anticipated. Yet even with these limitations, Ward 777 manages to leave a lasting impression because it focuses on mood, mystery, and internalized fear rather than action-heavy horror.\n\nIn its entirety, Ward 777 is a compact but memorable psychological horror title that leverages atmosphere, environmental storytelling, and subtle puzzle design to craft a compelling experience. It does not overwhelm the player with complexity, but instead draws them into a grim, introspective journey through the remnants of a place marked by suffering. Its strengths lie in its tension, its attention to detail, and its commitment to maintaining an eerie sense of uncertainty from start to finish. For players who enjoy horror that prioritizes atmosphere and psychological unease over outright terror, Ward 777 offers a haunting and satisfying descent into the unknown.\n\nRating: 7/10",
+        "timestamp_created": 1765501817,
+        "timestamp_updated": 1765501817,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.536878228187561035",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753472679",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZQy+AAAAAFP+EuGsAAAABx2O2sBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

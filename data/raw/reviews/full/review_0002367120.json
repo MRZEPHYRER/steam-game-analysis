@@ -1,0 +1,66 @@
+{
+  "appid": 2367120,
+  "requested_at": "2026-09-13T18:50:12.808178+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 98,
+      "total_negative": 10,
+      "total_reviews": 108
+    },
+    "reviews": [
+      {
+        "recommendationid": "205037977",
+        "author": {
+          "steamid": "76561198969709215",
+          "personaname": "TONTON",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198969709215/",
+          "num_games_owned": 126,
+          "num_reviews": 345,
+          "playtime_forever": 102,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 102,
+          "last_played": 1758642444,
+          "avatar": "8b3d0886c7364c3fe3e9da6236a219d2f6f2ba0e"
+        },
+        "language": "japanese",
+        "review": "短編ホラーアドベンチャーゲーム。オカ研のメンバーが深夜に集まって怪談話をする。\nホラーや百合の展開は軽い感じになっていて話の運び方がうまく最後まで楽しく遊べました。\n選択肢の分岐にセーブシーンがあって実績回収も簡単でした。\n短編でしたが値段も格安になっていて\n正直な話ハー〇ンダッ△買うならこっちのほうがおすすめです。",
+        "timestamp_created": 1758643469,
+        "timestamp_updated": 1787835019,
+        "voted_up": true,
+        "votes_up": 36,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.791474997997283936",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757941293",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUK6YAAAAAFP+lTw2AAAAB5mZSOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1560000000001764,
+  "transport_error_count": 0
+}

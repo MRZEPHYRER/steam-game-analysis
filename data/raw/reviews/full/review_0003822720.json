@@ -1,0 +1,71 @@
+{
+  "appid": 3822720,
+  "requested_at": "2026-09-13T19:44:41.180237+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 8,
+      "total_negative": 3,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "212745967",
+        "author": {
+          "steamid": "76561198037695640",
+          "personaname": "bear",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/fckbear/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 217,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 217,
+          "last_played": 1764527101,
+          "avatar": "86b4f528e8eb1dd9bff9aa7a089ca147de50057d"
+        },
+        "language": "english",
+        "review": "not really a \"unique roguelike\" since it's just seraph's last stand with destructible floors added, for 5x the price",
+        "timestamp_created": 1765079858,
+        "timestamp_updated": 1765080020,
+        "voted_up": false,
+        "votes_up": 21,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.749751091003417969",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764334490",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVAUaAAAAAFP+f99cAAAAB/7serBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,83 @@
+{
+  "appid": 3981100,
+  "requested_at": "2026-09-13T20:07:42.507724+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 5899,
+      "total_negative": 271,
+      "total_reviews": 6170
+    },
+    "reviews": [
+      {
+        "recommendationid": "229595061",
+        "author": {
+          "steamid": "76561198108521207",
+          "personaname": ".,.",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198108521207/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 103,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 103,
+          "last_played": 1783176602,
+          "avatar": "9cc5c77d13af4362f4442f6e826456a55432bff8"
+        },
+        "language": "english",
+        "review": "super fun, but very short... i wish it had other houses to continue",
+        "timestamp_created": 1783176695,
+        "timestamp_updated": 1783176695,
+        "voted_up": true,
+        "votes_up": 362,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.969957709312438965",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761843592",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 10
+          },
+          {
+            "reaction_type": 29,
+            "count": 4
+          },
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQmdCAAAAAFP+8J5WAAAAB1++rrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2960000000002765,
+  "transport_error_count": 0
+}

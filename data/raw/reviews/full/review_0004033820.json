@@ -1,0 +1,66 @@
+{
+  "appid": 4033820,
+  "requested_at": "2026-09-13T20:13:46.216823+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "212940408",
+        "author": {
+          "steamid": "76561199230449154",
+          "personaname": "Ozzy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ozzyhnoy/",
+          "num_games_owned": 87,
+          "num_reviews": 5,
+          "playtime_forever": 113,
+          "playtime_last_two_weeks": 11,
+          "playtime_at_review": 38,
+          "last_played": 1789301850,
+          "avatar": "46c4cd17a35cec28bb61f6eb5bf269073cc18728"
+        },
+        "language": "turkish",
+        "review": "çok iyi oyun tam arkadaşlarla oynamalık tiktokta gördüğümüz imposter oyununun steamdeki hali gibi tavsiye ederim",
+        "timestamp_created": 1765314363,
+        "timestamp_updated": 1765314363,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760694795",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFahheAAAAAFP+DDDUAAAAB456asBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.469000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,115 @@
+{
+  "appid": 3187010,
+  "requested_at": "2026-09-13T19:06:32.601660+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 693,
+      "total_negative": 28,
+      "total_reviews": 721
+    },
+    "reviews": [
+      {
+        "recommendationid": "209362643",
+        "author": {
+          "steamid": "76561198049859900",
+          "personaname": "Pippa",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/taxidr1ver/",
+          "num_games_owned": 0,
+          "num_reviews": 21,
+          "playtime_forever": 989,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 989,
+          "last_played": 1763277105,
+          "avatar": "386b5896332892b605038a0863ff1aa71a7da626"
+        },
+        "language": "english",
+        "review": "The game is initially a lot of fun, with great writing full of whimsy and fun. i recommend buying it and playing it!\n\nhowever: the last quarter of the game shifts tone and loses the charm entirely (as well as being littered with typos, mislabeled text boxes, and a plethora of bugs). stealth missions begin to drag things out and the comedy dissipates entirely. i personally wish the game had called it quits after the speech scene.",
+        "timestamp_created": 1763277560,
+        "timestamp_updated": 1763277560,
+        "voted_up": true,
+        "votes_up": 106,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.877672553062438965",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762441251",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 15
+          },
+          {
+            "reaction_type": 13,
+            "count": 13
+          },
+          {
+            "reaction_type": 19,
+            "count": 3
+          },
+          {
+            "reaction_type": 2,
+            "count": 3
+          },
+          {
+            "reaction_type": 6,
+            "count": 3
+          },
+          {
+            "reaction_type": 16,
+            "count": 2
+          },
+          {
+            "reaction_type": 1,
+            "count": 2
+          },
+          {
+            "reaction_type": 4,
+            "count": 2
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSclCAAAAAFP+wV5aAAAABz7dOeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

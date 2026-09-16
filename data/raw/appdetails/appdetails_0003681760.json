@@ -1,0 +1,329 @@
+{
+  "requested_at": "2026-09-12T16:02:39.343936+00:00",
+  "request_params": {
+    "appids": 3681760,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3681760,
+  "payload": {
+    "3681760": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Astral Takers",
+        "steam_appid": 3681760,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "Revyse, a young apprentice studying under his master, Volgrim, crosses paths with Aurora—a mysterious girl who has lost her memory. As their destinies intertwine, they face trials, forge bonds, and confront powerful enemies threatening their world. Awaken the ancient art of summoning, uncover hidden truths, and shape the story through your choices.<br />\r\n<br />\r\nMaster the summoning &amp; arrange system by using Echostones to call forth legendary heroes from distant realms. Build your perfect team from up to 8 unique characters, each with distinct abilities and skills, and strategically form a party of 4 in tactical, turn-based command battles where enemy actions are outlined—giving you the edge to plan and adapt. Explore vast dungeons, discover or purchase powerful gear, and know when to retreat in the face of overwhelming odds!",
+        "about_the_game": "Revyse, a young apprentice studying under his master, Volgrim, crosses paths with Aurora—a mysterious girl who has lost her memory. As their destinies intertwine, they face trials, forge bonds, and confront powerful enemies threatening their world. Awaken the ancient art of summoning, uncover hidden truths, and shape the story through your choices.<br />\r\n<br />\r\nMaster the summoning &amp; arrange system by using Echostones to call forth legendary heroes from distant realms. Build your perfect team from up to 8 unique characters, each with distinct abilities and skills, and strategically form a party of 4 in tactical, turn-based command battles where enemy actions are outlined—giving you the edge to plan and adapt. Explore vast dungeons, discover or purchase powerful gear, and know when to retreat in the face of overwhelming odds!",
+        "short_description": "Shape your fate with the power of summoning in an immersive JRPG!",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/28c3b5e1cfe903418e9c2cae9c6bc1fec45eee7b/header.jpg?t=1756348288",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/5d0dbf51b39b5c20ba2a31673b9584e63a00b68b/capsule_231x87.jpg?t=1756348288",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/5d0dbf51b39b5c20ba2a31673b9584e63a00b68b/capsule_184x69.jpg?t=1756348288",
+        "website": "https://www.kemco-games.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 and up<br></li><li><strong>Processor:</strong> Intel® Core™ i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 4GB VRAM<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> This app features keyboard controls and partial controller support with the Xbox controller. Mouse/touch screen are not supported.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "© 2024-2025 KEMCO/VANGUARD Co., Ltd.",
+        "developers": [
+          "VANGUARD"
+        ],
+        "publishers": [
+          "KEMCO"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "packages": [
+          1296769
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Astral Takers",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1296769,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Astral Takers - $19.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/28357c63b42c3b9cb0b62044cf3bda8290f05671/ss_28357c63b42c3b9cb0b62044cf3bda8290f05671.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/28357c63b42c3b9cb0b62044cf3bda8290f05671/ss_28357c63b42c3b9cb0b62044cf3bda8290f05671.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/300a541c5788c7423318b07db44767bbb4d00c6b/ss_300a541c5788c7423318b07db44767bbb4d00c6b.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/300a541c5788c7423318b07db44767bbb4d00c6b/ss_300a541c5788c7423318b07db44767bbb4d00c6b.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/16662652acc96df46e37a3e1abbf8b15513322d7/ss_16662652acc96df46e37a3e1abbf8b15513322d7.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/16662652acc96df46e37a3e1abbf8b15513322d7/ss_16662652acc96df46e37a3e1abbf8b15513322d7.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/50720442f8af838f25b1c720b8f8999282dadec0/ss_50720442f8af838f25b1c720b8f8999282dadec0.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/50720442f8af838f25b1c720b8f8999282dadec0/ss_50720442f8af838f25b1c720b8f8999282dadec0.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/b6ede81a3904819de34dc333f6e30e4f62751ff1/ss_b6ede81a3904819de34dc333f6e30e4f62751ff1.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/b6ede81a3904819de34dc333f6e30e4f62751ff1/ss_b6ede81a3904819de34dc333f6e30e4f62751ff1.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/0394d7cfa3e9341ce561d53b1b841c95fd246468/ss_0394d7cfa3e9341ce561d53b1b841c95fd246468.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/0394d7cfa3e9341ce561d53b1b841c95fd246468/ss_0394d7cfa3e9341ce561d53b1b841c95fd246468.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/89e373584885b637ed0d4671f887ace02f1317b0/ss_89e373584885b637ed0d4671f887ace02f1317b0.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/89e373584885b637ed0d4671f887ace02f1317b0/ss_89e373584885b637ed0d4671f887ace02f1317b0.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/67004f3afccd4dd75c3d87bca2a8fec0191ac09d/ss_67004f3afccd4dd75c3d87bca2a8fec0191ac09d.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/67004f3afccd4dd75c3d87bca2a8fec0191ac09d/ss_67004f3afccd4dd75c3d87bca2a8fec0191ac09d.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/a87a5b9889a70d151b1657dab8ca4878a41012bb/ss_a87a5b9889a70d151b1657dab8ca4878a41012bb.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/a87a5b9889a70d151b1657dab8ca4878a41012bb/ss_a87a5b9889a70d151b1657dab8ca4878a41012bb.1920x1080.jpg?t=1756348288"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/33d67a1a9d047724a03c68541046e25079f52590/ss_33d67a1a9d047724a03c68541046e25079f52590.600x338.jpg?t=1756348288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/33d67a1a9d047724a03c68541046e25079f52590/ss_33d67a1a9d047724a03c68541046e25079f52590.1920x1080.jpg?t=1756348288"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257160250,
+            "name": "Astral Takers - Official Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257160250/35e072354b82d6749bf0aaf685ef93bef2a6f57d/movie_600x337.jpg?t=1753402107",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3681760/1478973823/ca68decc8fb47c9f25a58c2a2d3783120837a72e/1750669780/dash_av1.mpd?t=1753402107",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3681760/1478973823/ca68decc8fb47c9f25a58c2a2d3783120837a72e/1750669780/dash_h264.mpd?t=1753402107",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3681760/1478973823/ca68decc8fb47c9f25a58c2a2d3783120837a72e/1750669780/hls_264_master.m3u8?t=1753402107",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 29,
+          "highlighted": [
+            {
+              "icon": "05ab81be2f4dc22556cd8049addb2865a4b4bed2.jpg",
+              "localized_name": "Meeting Aurora",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Meeting Aurora",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/05ab81be2f4dc22556cd8049addb2865a4b4bed2.jpg"
+            },
+            {
+              "icon": "2594798aa54fef7363dd36a06503e1d0a6743652.jpg",
+              "localized_name": "Escaping from the Imperial Army",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Escaping from the Imperial Army",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/2594798aa54fef7363dd36a06503e1d0a6743652.jpg"
+            },
+            {
+              "icon": "65eaeb996759fb87dcecb830bd474cbb33300a17.jpg",
+              "localized_name": "Teleportation Glyph",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Teleportation Glyph",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/65eaeb996759fb87dcecb830bd474cbb33300a17.jpg"
+            },
+            {
+              "icon": "b9c698d4f01b6c05a94d0493bb0db555dae66da4.jpg",
+              "localized_name": "Spirit Village",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Spirit Village",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/b9c698d4f01b6c05a94d0493bb0db555dae66da4.jpg"
+            },
+            {
+              "icon": "9d5b7b179cbd0d4ce138f44791f620775b625e24.jpg",
+              "localized_name": "Plague of Forge, the Mining Town",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Plague of Forge, the Mining Town",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/9d5b7b179cbd0d4ce138f44791f620775b625e24.jpg"
+            },
+            {
+              "icon": "e8487dbd43b297d8278773599938f8e6104da52b.jpg",
+              "localized_name": "Underground Ruins of Langoval",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Underground Ruins of Langoval",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/e8487dbd43b297d8278773599938f8e6104da52b.jpg"
+            },
+            {
+              "icon": "9e3a168f4877cb788b125760a9f28d0606eee3e1.jpg",
+              "localized_name": "Erily Rescue",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Erily Rescue",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/9e3a168f4877cb788b125760a9f28d0606eee3e1.jpg"
+            },
+            {
+              "icon": "9ba678dfc20f14ee825ec70963c23e9b7d13d951.jpg",
+              "localized_name": "Spirits' Chosen",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Spirits' Chosen",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/9ba678dfc20f14ee825ec70963c23e9b7d13d951.jpg"
+            },
+            {
+              "icon": "119ed901ce7396db961fbf897776e88f400508fc.jpg",
+              "localized_name": "Those Who Fight the Empire",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Those Who Fight the Empire",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/119ed901ce7396db961fbf897776e88f400508fc.jpg"
+            },
+            {
+              "icon": "9c077c0b345f597ffb79746fe4ff4e44349ba5f4.jpg",
+              "localized_name": "To the Great Prison",
+              "archived": 0,
+              "hidden": 1,
+              "name": "To the Great Prison",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3681760/9c077c0b345f597ffb79746fe4ff4e44349ba5f4.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 31, 2025"
+        },
+        "support_info": {
+          "url": "https://www.kemco-games.com/",
+          "email": "keitai-info@kemco.jp"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3681760?t=1756348288",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681760/fcca9fd37578b59b487697590c1f14b541eed76f/page_bg_raw.jpg?t=1756348288",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas lícitas\nConteúdo sexual\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Alkohol / Tabak\nSexuelle Andeutungen\nGewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nPenampilan Tokoh\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

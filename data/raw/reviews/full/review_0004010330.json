@@ -1,0 +1,66 @@
+{
+  "appid": 4010330,
+  "requested_at": "2026-09-13T20:11:08.539122+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213004692",
+        "author": {
+          "steamid": "76561199544434491",
+          "personaname": "RadioBedHead",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199544434491/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 37,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 37,
+          "last_played": 1765396675,
+          "avatar": "235e6e10cd66af9a6c42020f8053cf3a32508522"
+        },
+        "language": "english",
+        "review": "FYI This is pretty much the same review I wrote for another of this developer's games, \"Doctor Visit.\" \r\n\r\nI wish I could give this game a \"Maybe\" rating. It's a short \"choose your own adventure\" type game. I like the retro graphics and the overall feel of the game. The story line is interesting enough to keep playing. It has 8 different endings, so a decent amount to want to try again. \r\nWhat I found disappointing is that each play through is essentially the same exact thing with pretty much the same outcomes until you get to the end. Depending on which combination of choices you make, you'll get a different ending. but other than that, you're pretty much playing the same game over and over, trying to remember what combinations you've already chosen. (without giving too much away, one thing that's different about this compared to the other game I rated is that in this game, any time you chose one particular option, the game just abruptly ends the same way.) I would've liked to see branches for each choice that lead to completely different story lines and outcomes. \r\nFor someone who doesn't mind a quick play through with the option to replay all the same screens until near the end, you might enjoy it. \r\nThe game has potential. It just needs to be expanded a bit to make it more \"beefy\" lol.\r\n\r\nI bought this game as part of a bundle, so maybe the other two games are more involved. With the bundle price, each game ended up being about somewhere between $3 and $4. I don't think I'd choose to pay that much for this game if I had it to do over again, for the reasons stated above. \r\n\r\nI do hope the developers move on to create more sophisticated storylines, and I'll be keeping an eye out for possible updates.",
+        "timestamp_created": 1765397069,
+        "timestamp_updated": 1765397069,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761307206",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB0mcasBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

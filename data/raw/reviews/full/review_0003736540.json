@@ -1,0 +1,66 @@
+{
+  "appid": 3736540,
+  "requested_at": "2026-09-13T19:35:44.449189+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 22,
+      "total_negative": 13,
+      "total_reviews": 35
+    },
+    "reviews": [
+      {
+        "recommendationid": "205280566",
+        "author": {
+          "steamid": "76561198007110705",
+          "personaname": "Primordial_Rex",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198007110705/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 120,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 120,
+          "last_played": 1758935710,
+          "avatar": "75a8eee30c79082d9759c4d4a0413156bfaf4f6f"
+        },
+        "language": "english",
+        "review": "First of all, this game needs saving features. Secondly, where was the rock to relax at the fire place? Thirdly, a map would been nice for this. The positive is I like that this isn't the usual getting trapped on a island of dinosaurs, there is a interesting premise here. Hopefully updates can fix the problems.",
+        "timestamp_created": 1758936444,
+        "timestamp_updated": 1758936444,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.561507165431976318",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756965616",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYxRWAAAAAFP+H33YAAAAB204qPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

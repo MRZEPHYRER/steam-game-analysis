@@ -1,0 +1,103 @@
+{
+  "appid": 1670690,
+  "requested_at": "2026-09-13T18:44:16.387873+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 471,
+      "total_negative": 101,
+      "total_reviews": 572
+    },
+    "reviews": [
+      {
+        "recommendationid": "213478039",
+        "author": {
+          "steamid": "76561198073922128",
+          "personaname": "Global Wealth Million",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/babyfulloflove/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 274,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 274,
+          "last_played": 1765942258,
+          "avatar": "dfa07d5648057221c09bde40a982900e255070fa"
+        },
+        "language": "english",
+        "review": "An aesthetically perfect piece of art with an incredible soundtrack and the greatest movement system of any platformer I have ever had the pleasure of playing. Unfortunately that is where my praises end as this is a glaringly incomplete product that has a long way to go before it can ever be considered a real game. I'm afraid this is an alpha build at best and at the rate this was developed, it may take years before I could ever recommend this to anyone besides people who wanna bounce around a unique, eclectic open world. This appears to be the skeleton of a very, very ambitious product. While I'm aware this is an early access title, it could be more fittingly characterized as an early-early-early access title.\n\n Many of this game's levels are some of the most barren expanses I've ever traversed offering little to no enrichment besides pogoing around until you stumble across something vertical to summit, usually resulting in a worthless collectable at a dead end. There is also scant challenge in the platforming itself - most if not all obstacles here involve maybe a pogo slam jump and a wall run. Never did I truly feel precision or quick reflexes were required. Platformers of the 2000s down to the spongebob games were able to accomplish this. This goes for every major location in the game. What this game needs is a very talented level designer capable of pushing the godlike movement system's mechanics to their very limit. As of now, the [i]platforming[/i] in this [i]platforming[/i] game leaves leagues to be desired. Since this game seems to love the souls games so much, Id recommend the dev to take a queue from Elden RIng's playbook and maybe add \"legacy dungeon\"- type linear platform challenges In some of these areas. This purely open zone approach just doesnt work; its the same thing over and over again. \n\nThere is seemingly a combat system in this game... It needs to be scrapped. Enemies that don't die in one hit (which are most) amount to hit-sponges and offer near no reason to fight them besides the game's souls inspired xp points (which predictably, are lost on death and can be recovered in a soulslike bloodstain system). This segues into the discovery of its also soulslike level-up system with a flurry of undiscernible stats that from my expierence, marginally affect gameplay. Leveling up takes place at, you guessed it, a soulslike bonfire checkpoint. At some point, this stuff gets tiresome. \n\nA minor critique would be how the writing in character interactions sometimes devolve into these quips about how these wacky critters in this bizarre world deal with the corporate world, affording rent and launching businesses with the all too familiar industry lingo drops like \"seed-capital\" or \"investors\". You know it, I know it, lets just say it: this is a very blatant attempt to crib the writing in Cruelty Squad (and likely its successor, Psycho Patrol R). That game serves as a very obvious source of inspiration from its decidedly \"outsider\" art style to the fact the devs are mutuals on Xitter dot com (where I discovered the game). The difference here is that it is so obvious the dev isn't \"tapped in\" like that and has nothing to offer on the level of the scathing, clever societal critique that CS had. It really was grown worthy when I stumbled upon some animal in some house and he started talking about rent prices, it really was. \n\nIt goes without saying but as an Early Access title, there are glitches and spelling errors abound; par for the course unpolish, not much to be said there. \n\nI'm aware this is likely one of the more scathing critiques this game is gonna get. I believe that's deserved, I spent my hard earned money on this game so I have every right air my grievances. HOWEVER, I just wanna express my great love to this developer. I have been following this game's development passively on their socials and I gotta say, ANYONE who is capable of building and shipping a game, especially one this ambitious, is worthy of praise. I believe there is a potentially great game that does this beautiful, surreal, amazing gameworld justice, potentially even a masterpiece of the indie sphere that will be raved about for years to come. I really do. And I believe somewhere down the line, it'll come. I believe in you, Userlands, we believe in you.",
+        "timestamp_created": 1765945925,
+        "timestamp_updated": 1765962591,
+        "voted_up": false,
+        "votes_up": 141,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.831377923488616943",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765414297",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 5
+          },
+          {
+            "reaction_type": 6,
+            "count": 5
+          },
+          {
+            "reaction_type": 11,
+            "count": 2
+          },
+          {
+            "reaction_type": 13,
+            "count": 2
+          },
+          {
+            "reaction_type": 5,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTX1gAAAAAFP+qapgAAAAB3qa2uBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1400000000001,
+  "transport_error_count": 0
+}

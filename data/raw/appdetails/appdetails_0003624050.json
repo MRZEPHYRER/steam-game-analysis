@@ -1,0 +1,259 @@
+{
+  "requested_at": "2026-09-12T15:47:56.956211+00:00",
+  "request_params": {
+    "appids": 3624050,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3624050,
+  "payload": {
+    "3624050": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Jolly Land Adventure",
+        "steam_appid": 3624050,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >A bite-sized 2D platformer designed for quick sessions and easy fun. Whether you have a few minutes or want to play through in one sitting, Jolly Land Adventure delivers smooth platforming and a lighthearted experience from start to finish.</p><h2 class=\"bb_tag\" >What to Expect</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Short &amp; replayable levels</strong><br>Designed for quick runs you can enjoy anytime</p></li><li><p class=\"bb_paragraph\" ><strong>Simple to learn</strong><br>Responsive controls that feel smooth and precise</p></li><li><p class=\"bb_paragraph\" ><strong>Colorful, relaxing world</strong><br>A lighthearted adventure with a cozy atmosphere</p></li><li><p class=\"bb_paragraph\" ><strong>Secrets to discover</strong><br>Explore levels and find hidden surprises</p></li><li><p class=\"bb_paragraph\" ><strong>Perfect for casual play</strong><br>No pressure — just jump in and have fun</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >A bite-sized 2D platformer designed for quick sessions and easy fun. Whether you have a few minutes or want to play through in one sitting, Jolly Land Adventure delivers smooth platforming and a lighthearted experience from start to finish.</p><h2 class=\"bb_tag\" >What to Expect</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Short &amp; replayable levels</strong><br>Designed for quick runs you can enjoy anytime</p></li><li><p class=\"bb_paragraph\" ><strong>Simple to learn</strong><br>Responsive controls that feel smooth and precise</p></li><li><p class=\"bb_paragraph\" ><strong>Colorful, relaxing world</strong><br>A lighthearted adventure with a cozy atmosphere</p></li><li><p class=\"bb_paragraph\" ><strong>Secrets to discover</strong><br>Explore levels and find hidden surprises</p></li><li><p class=\"bb_paragraph\" ><strong>Perfect for casual play</strong><br>No pressure — just jump in and have fun</p></li></ul>",
+        "short_description": "A bite-sized 2D platformer built for quick, satisfying runs. Jump through handcrafted levels, discover secrets and enjoy smooth pick-up-and-play gameplay in a colorful world.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/639823d6d2e20279b172d7f47a15e95bbbd329bc/header.jpg?t=1777101505",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/d4274b32af3dd0b354c8f0ae4bf32044e5e3a6df/capsule_231x87.jpg?t=1777101505",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/d4274b32af3dd0b354c8f0ae4bf32044e5e3a6df/capsule_184x69.jpg?t=1777101505",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 250 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 11.0<br></li><li><strong>Processor:</strong> Apple M1 or Intel<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 250 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> SteamOS, Ubuntu or compatible<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 250 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Whimbyte"
+        ],
+        "publishers": [
+          "Whimbyte"
+        ],
+        "demos": [
+          {
+            "appid": 3626740,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1277688
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Jolly Land Adventure",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1277688,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Jolly Land Adventure - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/afaaa1d71abbc04ad5ae7ae12b0c73244acb994b/ss_afaaa1d71abbc04ad5ae7ae12b0c73244acb994b.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/afaaa1d71abbc04ad5ae7ae12b0c73244acb994b/ss_afaaa1d71abbc04ad5ae7ae12b0c73244acb994b.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/20dcbd94cbfc5c936d337ffda90d0ce566671f58/ss_20dcbd94cbfc5c936d337ffda90d0ce566671f58.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/20dcbd94cbfc5c936d337ffda90d0ce566671f58/ss_20dcbd94cbfc5c936d337ffda90d0ce566671f58.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/bded1b743dc748093375cf461160a5f17a1185dd/ss_bded1b743dc748093375cf461160a5f17a1185dd.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/bded1b743dc748093375cf461160a5f17a1185dd/ss_bded1b743dc748093375cf461160a5f17a1185dd.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/eeee7c4654689e5fdf8f13a2107a286810c389e2/ss_eeee7c4654689e5fdf8f13a2107a286810c389e2.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/eeee7c4654689e5fdf8f13a2107a286810c389e2/ss_eeee7c4654689e5fdf8f13a2107a286810c389e2.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/717a06b499076778fcfe89865ec670b23286f12e/ss_717a06b499076778fcfe89865ec670b23286f12e.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/717a06b499076778fcfe89865ec670b23286f12e/ss_717a06b499076778fcfe89865ec670b23286f12e.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/78458c4f2b7835a4fe62ce677f6b2ca561a0a085/ss_78458c4f2b7835a4fe62ce677f6b2ca561a0a085.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/78458c4f2b7835a4fe62ce677f6b2ca561a0a085/ss_78458c4f2b7835a4fe62ce677f6b2ca561a0a085.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/784442df7aafa5dea4ec9fac433c5210cac5c205/ss_784442df7aafa5dea4ec9fac433c5210cac5c205.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/784442df7aafa5dea4ec9fac433c5210cac5c205/ss_784442df7aafa5dea4ec9fac433c5210cac5c205.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/02b3696fac6d7619509a9bbaad3ae6e2739abfb4/ss_02b3696fac6d7619509a9bbaad3ae6e2739abfb4.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/02b3696fac6d7619509a9bbaad3ae6e2739abfb4/ss_02b3696fac6d7619509a9bbaad3ae6e2739abfb4.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/fce1a959b5becf10995a949c302533358aaa9cfa/ss_fce1a959b5becf10995a949c302533358aaa9cfa.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/fce1a959b5becf10995a949c302533358aaa9cfa/ss_fce1a959b5becf10995a949c302533358aaa9cfa.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/6b705f89e3d742e2f33623da79a115997ebfb26e/ss_6b705f89e3d742e2f33623da79a115997ebfb26e.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/6b705f89e3d742e2f33623da79a115997ebfb26e/ss_6b705f89e3d742e2f33623da79a115997ebfb26e.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/b27c6af90e8eea7e096b224ce32bbdf88c69b1a6/ss_b27c6af90e8eea7e096b224ce32bbdf88c69b1a6.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/b27c6af90e8eea7e096b224ce32bbdf88c69b1a6/ss_b27c6af90e8eea7e096b224ce32bbdf88c69b1a6.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/19548cf293da54be9b4c39815c033c65ceca8649/ss_19548cf293da54be9b4c39815c033c65ceca8649.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/19548cf293da54be9b4c39815c033c65ceca8649/ss_19548cf293da54be9b4c39815c033c65ceca8649.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/9912c10520078ad33824c422a11c1490a6ff9ee4/ss_9912c10520078ad33824c422a11c1490a6ff9ee4.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/9912c10520078ad33824c422a11c1490a6ff9ee4/ss_9912c10520078ad33824c422a11c1490a6ff9ee4.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/facb1f232b1d0b0ff11b041dac12a257d454fd02/ss_facb1f232b1d0b0ff11b041dac12a257d454fd02.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/facb1f232b1d0b0ff11b041dac12a257d454fd02/ss_facb1f232b1d0b0ff11b041dac12a257d454fd02.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/85f1dc09070f02cd2587289521ba3b9ed1943918/ss_85f1dc09070f02cd2587289521ba3b9ed1943918.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/85f1dc09070f02cd2587289521ba3b9ed1943918/ss_85f1dc09070f02cd2587289521ba3b9ed1943918.1920x1080.jpg?t=1777101505"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/d0c4db572ae94a5164f4cc1528e26ce329a6c6ba/ss_d0c4db572ae94a5164f4cc1528e26ce329a6c6ba.600x338.jpg?t=1777101505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624050/d0c4db572ae94a5164f4cc1528e26ce329a6c6ba/ss_d0c4db572ae94a5164f4cc1528e26ce329a6c6ba.1920x1080.jpg?t=1777101505"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257169801,
+            "name": "Jolly Land Adventure Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257169801/ad1ed7ff566fefba9b748144509762109c954211/movie_600x337.jpg?t=1752686638",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3624050/796038395/3f0046e58a8c71a35f60c2b35f90d2950f93d1c5/1752683949/dash_av1.mpd?t=1752686638",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3624050/796038395/3f0046e58a8c71a35f60c2b35f90d2950f93d1c5/1752683949/dash_h264.mpd?t=1752686638",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3624050/796038395/3f0046e58a8c71a35f60c2b35f90d2950f93d1c5/1752683949/hls_264_master.m3u8?t=1752686638",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "foxboltgame@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3624050?t=1777101505",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3624050?t=1777101505",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

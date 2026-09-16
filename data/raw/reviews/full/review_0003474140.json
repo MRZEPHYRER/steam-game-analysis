@@ -1,0 +1,66 @@
+{
+  "appid": 3474140,
+  "requested_at": "2026-09-13T19:18:04.525286+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "207651596",
+        "author": {
+          "steamid": "76561197975831685",
+          "personaname": "Nokando",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/nokando/",
+          "num_games_owned": 10629,
+          "num_reviews": 114,
+          "playtime_forever": 160,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 160,
+          "last_played": 1761488991,
+          "avatar": "126ae1235dca217e24bb5157099b7b8562102f4e"
+        },
+        "language": "english",
+        "review": "An old school RPG that a blind gamer can play, sign me up! It recognised my screen reader and  confirmed I wanted the accessible version. From there arrowing through the options although a little clunky works fine. Sometimes you can get bogged down in all the options, but it is worth persevering with. There are plenty of things to try from single player campain to PvP fights and dungeon delves.\nA game for all visually impaired gamers to try if they enjoy RPGs that have a bit of challenge to them.",
+        "timestamp_created": 1761496273,
+        "timestamp_updated": 1761496273,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.71955263614654541",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757689595",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVm+OAAAAAFP+cGlAAAAAB8sJCYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

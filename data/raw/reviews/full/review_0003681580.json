@@ -1,0 +1,68 @@
+{
+  "appid": 3681580,
+  "requested_at": "2026-09-13T19:31:10.774820+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 8,
+      "total_negative": 2,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "207206044",
+        "author": {
+          "steamid": "76561197996691280",
+          "personaname": "Drigs",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197996691280/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 48,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 48,
+          "last_played": 1760758017,
+          "avatar": "83d2ab083eb76aebed718fd01921fbe2af2b7e35"
+        },
+        "language": "english",
+        "review": "the physics are pretty rough. The ball bounces off the pins like they are rock pillars.  you'll get splits when you hit the pocket perfectly and you'll see the ball just bounce off one of the split pins. Overall it's an ok game.  Glitched out a few times in careers but a restart fixed it. Not awful for early access but needs a lot of work.  If you're patient pick it up and watch it go.  Otherwise hold off",
+        "timestamp_created": 1761005696,
+        "timestamp_updated": 1761005696,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.578648507595062256",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1761033359,
+        "developer_response": "HI!\n\nThanks for your honest review of the game. And I'm really sorry to read that you had a bad experience with it.\nYou are the first player to report that kind of weird physics happening. It would help me a lot if we can exchange information about that. \nTo prevent it from happening to other players, can you send me a message with your computer configuration and in-game settings? Do you throw the ball straight? With revolutions? It would be amazing to have a video of the ball bouncing on the pins.\n\nThat's a lot to ask, but it is key for me to improve the game. (You can create a discussion in the Community Hub or contact me by email contact@solid9games.com)\n\nThanks a lot for your early interest in my game.\n\nHave a nice day and a good gaming experience!",
+        "app_release_date": "1759392096",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYbVEAAAAAFP+KESuAAAAB86baWBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.04700000000048,
+  "transport_error_count": 0
+}

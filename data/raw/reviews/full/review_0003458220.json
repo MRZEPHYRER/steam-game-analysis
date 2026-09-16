@@ -1,0 +1,66 @@
+{
+  "appid": 3458220,
+  "requested_at": "2026-09-13T19:17:08.706596+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 15,
+      "total_negative": 4,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "224802206",
+        "author": {
+          "steamid": "76561199756681616",
+          "personaname": "iyosan0718",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199756681616/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 391,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 255,
+          "last_played": 1777985808,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "電車が発車しなくなるバグ？が直っていない。\r\n停車時間に応じて料金が発生するため、電車が発車しないと永遠に料金が発生して大赤字になる。\r\nこれがバグなのか、ゲームの仕様なのか原因が分からないため改善することができない。",
+        "timestamp_created": 1777951626,
+        "timestamp_updated": 1777951626,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755241184",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB+2cbZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,178 @@
+{
+  "requested_at": "2026-09-12T14:52:19.709632+00:00",
+  "request_params": {
+    "appids": 3291920,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3291920,
+  "payload": {
+    "3291920": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "未語",
+        "steam_appid": 3291920,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a simple, story‑driven game. The gameplay isn’t complicated, and there’s no multiple endings — just one, very straightforward. The story is about a blurry memory, moving between dreams and recollections, trying to look for a vague answer.  </p><p class=\"bb_paragraph\" >The style is pretty plain, the storytelling isn’t anything fancy, and the plot can be a bit messy. It’s really just the author’s own unrealistic imagination.  </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a simple, story‑driven game. The gameplay isn’t complicated, and there’s no multiple endings — just one, very straightforward. The story is about a blurry memory, moving between dreams and recollections, trying to look for a vague answer.  </p><p class=\"bb_paragraph\" >The style is pretty plain, the storytelling isn’t anything fancy, and the plot can be a bit messy. It’s really just the author’s own unrealistic imagination.  </p>",
+        "short_description": "This is a simple, story‑driven game. The gameplay isn’t complicated, and there’s no multiple endings — just one, very straightforward. The story is about a blurry memory, moving between dreams and recollections, trying to look for a vague answer.",
+        "supported_languages": "Traditional Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/header.jpg?t=1757050287",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/20dbf8dd2e328eade826bf8e9b842bf231979848/capsule_231x87.jpg?t=1757050287",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/20dbf8dd2e328eade826bf8e9b842bf231979848/capsule_184x69.jpg?t=1757050287",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or higher<br></li><li><strong>Processor:</strong> 2.0 GHz Core 2 Duo<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0 or DirectX 11.0<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "AliceJi"
+        ],
+        "publishers": [
+          "AliceJi"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1166028
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 未語",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1166028,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "未語 - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/2ec4bc59047cd5589554d607c778a1a7e55857b2/ss_2ec4bc59047cd5589554d607c778a1a7e55857b2.600x338.jpg?t=1757050287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/2ec4bc59047cd5589554d607c778a1a7e55857b2/ss_2ec4bc59047cd5589554d607c778a1a7e55857b2.1920x1080.jpg?t=1757050287"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/66bd58c2034565d99e6cc0a971909964b1048b56/ss_66bd58c2034565d99e6cc0a971909964b1048b56.600x338.jpg?t=1757050287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/66bd58c2034565d99e6cc0a971909964b1048b56/ss_66bd58c2034565d99e6cc0a971909964b1048b56.1920x1080.jpg?t=1757050287"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/cdcdef5769cc21bf4ac11263fd13bb0df201f562/ss_cdcdef5769cc21bf4ac11263fd13bb0df201f562.600x338.jpg?t=1757050287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/cdcdef5769cc21bf4ac11263fd13bb0df201f562/ss_cdcdef5769cc21bf4ac11263fd13bb0df201f562.1920x1080.jpg?t=1757050287"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/42c132c654728916bef406f35103557ff8af5ea7/ss_42c132c654728916bef406f35103557ff8af5ea7.600x338.jpg?t=1757050287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/42c132c654728916bef406f35103557ff8af5ea7/ss_42c132c654728916bef406f35103557ff8af5ea7.1920x1080.jpg?t=1757050287"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/61061a7775222dcd13f97d387119d76631852865/ss_61061a7775222dcd13f97d387119d76631852865.600x338.jpg?t=1757050287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3291920/61061a7775222dcd13f97d387119d76631852865/ss_61061a7775222dcd13f97d387119d76631852865.1920x1080.jpg?t=1757050287"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257193453,
+            "name": "Unsaid Words",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193453/2b6d37f7ec475ff03fbc628769b4835ac4e37cb2/movie_600x337.jpg?t=1757037703",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3291920/1765331970/0648ecaec6d75e5f0058d8f8030a6aaa099c68a0/1757037413/dash_av1.mpd?t=1757037703",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3291920/1765331970/0648ecaec6d75e5f0058d8f8030a6aaa099c68a0/1757037413/dash_h264.mpd?t=1757037703",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3291920/1765331970/0648ecaec6d75e5f0058d8f8030a6aaa099c68a0/1757037413/hls_264_master.m3u8?t=1757037703",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "olivelive35@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3291920?t=1757050287",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3291920?t=1757050287",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

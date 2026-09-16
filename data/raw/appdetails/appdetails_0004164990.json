@@ -1,0 +1,289 @@
+{
+  "requested_at": "2026-09-13T07:14:14.661443+00:00",
+  "request_params": {
+    "appids": 4164990,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4164990,
+  "payload": {
+    "4164990": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Hollow Keep",
+        "steam_appid": 4164990,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Paul’s uncle was consumed by legends, none more than the tale of The Hollow Keep, a castle whispered to lie within the woods behind the village. They say time warps there. That no one who enters ever returns. Obsessed, he moved into a crumbling house at the forest’s edge, certain he was close. Then he disappeared. Years later, Paul discovers the journal. Pages full with frantic sketches and cryptic notes. Some believe the castle exists. Others insist it’s just a lure. Paul and his friends decide to find out for themselves.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >-203 Images</p><p class=\"bb_paragraph\" >-40K+ words</p><p class=\"bb_paragraph\" >-12 Endings</p><p class=\"bb_paragraph\" >-Mainly a kinetic novel with a choice that determines what ending you get</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Paul’s uncle was consumed by legends, none more than the tale of The Hollow Keep, a castle whispered to lie within the woods behind the village. They say time warps there. That no one who enters ever returns. Obsessed, he moved into a crumbling house at the forest’s edge, certain he was close. Then he disappeared. Years later, Paul discovers the journal. Pages full with frantic sketches and cryptic notes. Some believe the castle exists. Others insist it’s just a lure. Paul and his friends decide to find out for themselves.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >-203 Images</p><p class=\"bb_paragraph\" >-40K+ words</p><p class=\"bb_paragraph\" >-12 Endings</p><p class=\"bb_paragraph\" >-Mainly a kinetic novel with a choice that determines what ending you get</p>",
+        "short_description": "Some believe the castle exists. Others insist it’s just a lure. Paul and his friends decide to find out for themselves.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Romanian, Russian, Simplified Chinese, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/a53d5032e3da9513f868fd80e8d81f179d2c1455/header.jpg?t=1770824672",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/e8ef663a3b497c9ca32ec6d0cbc4271c82e27a06/capsule_231x87.jpg?t=1770824672",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/e8ef663a3b497c9ca32ec6d0cbc4271c82e27a06/capsule_184x69.jpg?t=1770824672",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Processor:</strong> 1.2 GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Graphics:</strong> 1280x720<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS x 10.6<br></li><li><strong>Processor:</strong> Any 64 bit processor<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12 or higher; SteamOS<br></li><li><strong>Processor:</strong> 1.2 GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Graphics:</strong> OpenGL compatible card<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "developers": [
+          "VisualNovelGames"
+        ],
+        "publishers": [
+          "VisualNovelGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 199,
+          "discount_percent": 50,
+          "initial_formatted": "$3.99",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1459158
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Hollow Keep",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1459158,
+                "percent_savings_text": "-50% ",
+                "percent_savings": 0,
+                "option_text": "The Hollow Keep - <span class=\"discount_original_price\">$3.99</span> $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/6239c19dafb56cb5e0960c73330041acdefae09f/ss_6239c19dafb56cb5e0960c73330041acdefae09f.600x338.jpg?t=1770824672",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/6239c19dafb56cb5e0960c73330041acdefae09f/ss_6239c19dafb56cb5e0960c73330041acdefae09f.1920x1080.jpg?t=1770824672"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/c5130e5976a0e2d598d2af04c2c3733ceacbb317/ss_c5130e5976a0e2d598d2af04c2c3733ceacbb317.600x338.jpg?t=1770824672",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/c5130e5976a0e2d598d2af04c2c3733ceacbb317/ss_c5130e5976a0e2d598d2af04c2c3733ceacbb317.1920x1080.jpg?t=1770824672"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/b08b636de07299119944b1c70a7db8d4a326924e/ss_b08b636de07299119944b1c70a7db8d4a326924e.600x338.jpg?t=1770824672",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/b08b636de07299119944b1c70a7db8d4a326924e/ss_b08b636de07299119944b1c70a7db8d4a326924e.1920x1080.jpg?t=1770824672"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/5b49398f1224176ca792173361712ca1933de4cd/ss_5b49398f1224176ca792173361712ca1933de4cd.600x338.jpg?t=1770824672",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/5b49398f1224176ca792173361712ca1933de4cd/ss_5b49398f1224176ca792173361712ca1933de4cd.1920x1080.jpg?t=1770824672"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/c179917e81619b22a887ede0bff34978ce170d32/ss_c179917e81619b22a887ede0bff34978ce170d32.600x338.jpg?t=1770824672",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/c179917e81619b22a887ede0bff34978ce170d32/ss_c179917e81619b22a887ede0bff34978ce170d32.1920x1080.jpg?t=1770824672"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257228370,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257228370/72ac31ba797e1f09d1fb00b48fa5c00dedb44655/movie_600x337.jpg?t=1762970675",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4164990/1846151733/7878c9eca58d74c5de08cc8831a2db6a84477129/1762549771/dash_av1.mpd?t=1762970675",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4164990/1846151733/7878c9eca58d74c5de08cc8831a2db6a84477129/1762549771/dash_h264.mpd?t=1762970675",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4164990/1846151733/7878c9eca58d74c5de08cc8831a2db6a84477129/1762549771/hls_264_master.m3u8?t=1762970675",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 12,
+          "highlighted": [
+            {
+              "icon": "e219802faa00b40632fee4aab3e529cc8eaadcb2.jpg",
+              "localized_name": "Ending 1",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/e219802faa00b40632fee4aab3e529cc8eaadcb2.jpg"
+            },
+            {
+              "icon": "1ed8aa80a0a5baeee2623219d78aee3a475de967.jpg",
+              "localized_name": "Ending 2",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/1ed8aa80a0a5baeee2623219d78aee3a475de967.jpg"
+            },
+            {
+              "icon": "a518fd952e283eeb7a84f9776ac45d1b7ab9cd55.jpg",
+              "localized_name": "Ending 3",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/a518fd952e283eeb7a84f9776ac45d1b7ab9cd55.jpg"
+            },
+            {
+              "icon": "a47c123cea7f3e418d82485bec8b1fa7c3d9cb83.jpg",
+              "localized_name": "Ending 4",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/a47c123cea7f3e418d82485bec8b1fa7c3d9cb83.jpg"
+            },
+            {
+              "icon": "c48502490221c25e7b851b08c87ecae500631e2b.jpg",
+              "localized_name": "Ending 5",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/c48502490221c25e7b851b08c87ecae500631e2b.jpg"
+            },
+            {
+              "icon": "08254fd9699d8e5e79aa48c3bbcccfd0eda2d192.jpg",
+              "localized_name": "Ending 6",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 6",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/08254fd9699d8e5e79aa48c3bbcccfd0eda2d192.jpg"
+            },
+            {
+              "icon": "da873bc293226ba8abc0638506f0e7b26ff16892.jpg",
+              "localized_name": "Ending 7",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/da873bc293226ba8abc0638506f0e7b26ff16892.jpg"
+            },
+            {
+              "icon": "fe68c8b4c96192b2458e7193821c53b122760b7a.jpg",
+              "localized_name": "Ending 8",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 8",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/fe68c8b4c96192b2458e7193821c53b122760b7a.jpg"
+            },
+            {
+              "icon": "99a8205998a5e6aa9d16ad3a04cb740077c41428.jpg",
+              "localized_name": "Ending 9",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 9",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/99a8205998a5e6aa9d16ad3a04cb740077c41428.jpg"
+            },
+            {
+              "icon": "25dddd217453f82dce597740bc395a04326add3f.jpg",
+              "localized_name": "Ending 10",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Ending 10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4164990/25dddd217453f82dce597740bc395a04326add3f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 26, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "visigamma@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4164990?t=1770824672",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164990/20d1fab7776cbfefc46ba274b3ccbf2e1a652c49/page_bg_raw.jpg?t=1770824672",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "This game contains written descriptions and images of blood. Some images could trigger trypophobia"
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

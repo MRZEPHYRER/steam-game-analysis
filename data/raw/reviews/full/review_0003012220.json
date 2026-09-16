@@ -1,0 +1,83 @@
+{
+  "appid": 3012220,
+  "requested_at": "2026-09-13T19:00:51.550040+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 99,
+      "total_negative": 58,
+      "total_reviews": 157
+    },
+    "reviews": [
+      {
+        "recommendationid": "207372261",
+        "author": {
+          "steamid": "76561198003222478",
+          "personaname": "Eins Zwei Spamurai",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198003222478/",
+          "num_games_owned": 0,
+          "num_reviews": 221,
+          "playtime_forever": 279,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 279,
+          "last_played": 1761210194,
+          "avatar": "af6edb4ae18168763e909976c5b8772565180973"
+        },
+        "language": "english",
+        "review": "I'm pretty torn about this one. It falls short on so many levels. And the price? it's FAR to much for a 4h game with barely any replayability.\n\n-the combat is decent in terms of combos you can pull off and I love the environmental damage you can do, but block and dodge are just coin flips a lot of times, and the hitboxes aren't good.\n-the game loves to flood you with enemies. Almost every fight and bossfight are just that, and it's just boring and lame.\n-the cutscene artstyle is good, but the game itsef? nah, it just feels like it was rushed and no love or talent was involved. It looks terrible. (Also I said cutscene, but it's only a slide show of anime style drawings).\n-animations are also subpar.\n-voice actors are good, but writing (and story for that matter) are horrible. You don't need a good story in a DD game, but at LEAST make it funny or charming. This has none of that. All the dialogue seems like it's going at 0.7 speed and its just a slog to listen too.\n-by far the worst part is the lack of content. It has a decent amount of bosses, but very few normal enemies, that are ALL uninteresting. ~4h for the 35/50 euro price feels like I got scammed not gonna lie...\n\nI love these types of games and I love Double Dragon, but this one let me down, or at the very least, it was mid af. \nI highly recommend you play DD Gaiden (superb combat) or even River City Girls 2 (good amount of content, fun combos, and they have a Double Dragon DLC that's amazing; the 2 brothers are SUPER funny/charming and well voice-acted! much better than even the main characters). Those are far better in every way. \nOr play Fight'n Rage, one of the GOAT legends of beat'em ups.\n\nThis was supposed to be a revive, but all it did was bury the DD name further into obscurity.",
+        "timestamp_created": 1761211143,
+        "timestamp_updated": 1761565051,
+        "voted_up": false,
+        "votes_up": 111,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.842948377132415771",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761116400",
+        "reactions": [
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTJBsAAAAAFP+r5biAAAAB1/oeXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

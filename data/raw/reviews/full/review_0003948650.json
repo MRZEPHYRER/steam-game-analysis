@@ -1,0 +1,72 @@
+{
+  "appid": 3948650,
+  "requested_at": "2026-09-13T20:04:22.756965+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "212456246",
+        "author": {
+          "steamid": "76561197998249933",
+          "personaname": "bamagoatt",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197998249933/",
+          "num_games_owned": 970,
+          "num_reviews": 387,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "deck_playtime_at_review": 7,
+          "last_played": 1764739048,
+          "avatar": "9eb0c2c307bb5c52a89dad2277222ec6ef18cd5a"
+        },
+        "language": "english",
+        "review": "Where to start is this game worth $10? No. Is this game polished? No. Is this game graphically appealing. No. Is this game getting a thumbs up? Yes. Why are giving thumbs up? Well you see in movies we have some that are very bad but still hold entertainment value because they are still fun to watch. That is this game in a nutshell nothing is good but it's still fun to play due to how bad it is. As for complaints too many monster enemies are spawning making it difficult on us players. Another complaint animations are really bad. Can be difficult to see a difference in a tree or a bush as they are both just trees. I will for the first time give a 1/10 and still recommend it. You guys may see this as a joke review but the game is so bad I actually enjoy it for being this bad. However I am a masochist and maybe I just like to torture myself.",
+        "timestamp_created": 1764739769,
+        "timestamp_updated": 1764739769,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.569017708301544189",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1764680816",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYnqCAAAAAFP+I1ZUAAAAB2s7qqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2650000000003274,
+  "transport_error_count": 0
+}

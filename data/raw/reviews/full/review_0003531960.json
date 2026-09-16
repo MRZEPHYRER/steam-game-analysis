@@ -1,0 +1,66 @@
+{
+  "appid": 3531960,
+  "requested_at": "2026-09-13T19:20:50.019585+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 24,
+      "total_negative": 16,
+      "total_reviews": 40
+    },
+    "reviews": [
+      {
+        "recommendationid": "205602135",
+        "author": {
+          "steamid": "76561199446113181",
+          "personaname": "先拔出去再道歉啊混蛋",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199446113181/",
+          "num_games_owned": 267,
+          "num_reviews": 11,
+          "playtime_forever": 302,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 141,
+          "last_played": 1782135341,
+          "avatar": "acacec54c2cb39d998efbca9d09aa8295300b935"
+        },
+        "language": "schinese",
+        "review": "就是一坨屎，交互引导近乎于无，游戏战斗系统也并不好玩，CG大多数也是重复毫无新意，所谓的蟲姦更只是噱头，还有加速快进的bug",
+        "timestamp_created": 1759306633,
+        "timestamp_updated": 1759306633,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.538461565971374512",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754107212",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZOxMAAAAAFP+E7FKAAAAB31aeQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0790000000001783,
+  "transport_error_count": 0
+}

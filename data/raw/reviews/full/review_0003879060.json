@@ -1,0 +1,66 @@
+{
+  "appid": 3879060,
+  "requested_at": "2026-09-13T19:53:57.274390+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 46,
+      "total_negative": 2,
+      "total_reviews": 48
+    },
+    "reviews": [
+      {
+        "recommendationid": "205613866",
+        "author": {
+          "steamid": "76561198060339262",
+          "personaname": "arshley",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/arshley/",
+          "num_games_owned": 204,
+          "num_reviews": 4,
+          "playtime_forever": 886,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 821,
+          "last_played": 1762441377,
+          "avatar": "6cdd891e8b3b529adf3e7d6d63e0be9ebfc1b264"
+        },
+        "language": "japanese",
+        "review": "全実績達成記念\n\n◎戦略が求められるゲームシステム\n◎高いリプレイ性\n◎世界観にマッチしたBGM\n◎かわいいアイコン\n\nRNGに苦しめられることもあるが、決して攻略不可能ではない絶妙なバランス。\nHEAVY DREAMやPMIのようなビジュアルでもやってみたいな。\n\nラブルギアが特にお気に入り。",
+        "timestamp_created": 1759322079,
+        "timestamp_updated": 1759464402,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755385176",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB6sq2QBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

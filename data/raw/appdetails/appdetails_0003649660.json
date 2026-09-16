@@ -1,0 +1,252 @@
+{
+  "requested_at": "2026-09-12T15:54:41.259727+00:00",
+  "request_params": {
+    "appids": 3649660,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3649660,
+  "payload": {
+    "3649660": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "PickingSimulator",
+        "steam_appid": 3649660,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Do you think &quot;light work&quot; sounds simple and easy? Many people might be surprised to find out what it truly involves. Experience the harsh reality of &quot;light work&quot; through this simulator!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >First, grab a cardboard box, place it on your workstation, and mark the shipping sheet. You must only mark the sheet if food items are present, then place it on the shipping caster!</p></li><li><p class=\"bb_paragraph\" >The contents of the boxes are completely random! Of course, if even one item is incorrect, you must not ship it.</p></li><li><p class=\"bb_paragraph\" >This is a 3D action game easily operated with a keyboard and mouse.</p></li><li><p class=\"bb_paragraph\" >We've designed realistic backgrounds and 3D models to immerse you in the experience.</p></li><li><p class=\"bb_paragraph\" >There's also a comprehensive tutorial guide to help you learn the game mechanics and tips.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Do you think &quot;light work&quot; sounds simple and easy? Many people might be surprised to find out what it truly involves. Experience the harsh reality of &quot;light work&quot; through this simulator!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >First, grab a cardboard box, place it on your workstation, and mark the shipping sheet. You must only mark the sheet if food items are present, then place it on the shipping caster!</p></li><li><p class=\"bb_paragraph\" >The contents of the boxes are completely random! Of course, if even one item is incorrect, you must not ship it.</p></li><li><p class=\"bb_paragraph\" >This is a 3D action game easily operated with a keyboard and mouse.</p></li><li><p class=\"bb_paragraph\" >We've designed realistic backgrounds and 3D models to immerse you in the experience.</p></li><li><p class=\"bb_paragraph\" >There's also a comprehensive tutorial guide to help you learn the game mechanics and tips.</p></li></ul>",
+        "short_description": "A work-style action game focused on endless inspection in a cold refrigerator. Use gloves to handle frozen products and mark documents with numb hands. Simple, repetitive action without chores or heavy lifting.",
+        "supported_languages": "English, French, German, Traditional Chinese, Japanese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/11cc32ecdf3db2f3fd395e649de698a90b7d0526/header.jpg?t=1766588397",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/fb32e5988ec72be87be9d9d19fa872a203ba6590/capsule_231x87.jpg?t=1766588397",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/fb32e5988ec72be87be9d9d19fa872a203ba6590/capsule_184x69.jpg?t=1766588397",
+        "website": "https://turusakigroup.com/wordpress/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows11 64bit<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i7-9700K<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2070 SUPER<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows11 64bit<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i7-9700K<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2070 SUPER<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "turusaki"
+        ],
+        "publishers": [
+          "turusaki"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 1099,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$10.99"
+        },
+        "packages": [
+          1286142
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy PickingSimulator",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1286142,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "PickingSimulator - $10.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1099
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/46da7467325fefce3e1d00b308afa4abd4493240/ss_46da7467325fefce3e1d00b308afa4abd4493240.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/46da7467325fefce3e1d00b308afa4abd4493240/ss_46da7467325fefce3e1d00b308afa4abd4493240.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/0233dfd38fa014549954c871c4aff51b7c2a5343/ss_0233dfd38fa014549954c871c4aff51b7c2a5343.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/0233dfd38fa014549954c871c4aff51b7c2a5343/ss_0233dfd38fa014549954c871c4aff51b7c2a5343.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/858eb17f15673dd5182c8c988f5d01187c07c853/ss_858eb17f15673dd5182c8c988f5d01187c07c853.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/858eb17f15673dd5182c8c988f5d01187c07c853/ss_858eb17f15673dd5182c8c988f5d01187c07c853.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/729afe0c4f851a05864794782d1430149db59f73/ss_729afe0c4f851a05864794782d1430149db59f73.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/729afe0c4f851a05864794782d1430149db59f73/ss_729afe0c4f851a05864794782d1430149db59f73.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/976fc164191becbdc1c03d608d5f3bfb08256182/ss_976fc164191becbdc1c03d608d5f3bfb08256182.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/976fc164191becbdc1c03d608d5f3bfb08256182/ss_976fc164191becbdc1c03d608d5f3bfb08256182.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/0be600ee95b360f8cdbb5b1e09f63051e90105de/ss_0be600ee95b360f8cdbb5b1e09f63051e90105de.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/0be600ee95b360f8cdbb5b1e09f63051e90105de/ss_0be600ee95b360f8cdbb5b1e09f63051e90105de.1920x1080.jpg?t=1766588397"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/2f5fffcfa3201436ddab911e18893e64e423113c/ss_2f5fffcfa3201436ddab911e18893e64e423113c.600x338.jpg?t=1766588397",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/2f5fffcfa3201436ddab911e18893e64e423113c/ss_2f5fffcfa3201436ddab911e18893e64e423113c.1920x1080.jpg?t=1766588397"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257232555,
+            "name": "PickingSimulator",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257232555/15b69f61fd4653f6f373b4e1bf35fcfc14345d88/movie_600x337.jpg?t=1763674015",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3649660/1236975645/05bf7c9cadd84d85749bae35b01ee06c7e373e05/1763287529/dash_av1.mpd?t=1763674015",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3649660/1236975645/05bf7c9cadd84d85749bae35b01ee06c7e373e05/1763287529/dash_h264.mpd?t=1763674015",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3649660/1236975645/05bf7c9cadd84d85749bae35b01ee06c7e373e05/1763287529/hls_264_master.m3u8?t=1763674015",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg",
+              "localized_name": "100",
+              "archived": 0,
+              "hidden": 0,
+              "name": "100",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3649660/0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg"
+            },
+            {
+              "icon": "0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg",
+              "localized_name": "150",
+              "archived": 0,
+              "hidden": 0,
+              "name": "150",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3649660/0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg"
+            },
+            {
+              "icon": "0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg",
+              "localized_name": "200",
+              "archived": 0,
+              "hidden": 0,
+              "name": "200",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3649660/0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg"
+            },
+            {
+              "icon": "0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg",
+              "localized_name": "250",
+              "archived": 0,
+              "hidden": 0,
+              "name": "250",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3649660/0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg"
+            },
+            {
+              "icon": "0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg",
+              "localized_name": "EOD",
+              "archived": 0,
+              "hidden": 0,
+              "name": "EOD",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3649660/0a6a507641e05b502024cf2ca5bc57e46a853c1f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 24, 2025"
+        },
+        "support_info": {
+          "url": "https://turusakigroup.com/wordpress/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3649660?t=1766588397",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3649660/c9c38cb2e47813b2195faef67316278ec4128c2d/page_bg_raw.jpg?t=1766588397",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

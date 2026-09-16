@@ -1,0 +1,66 @@
+{
+  "appid": 2495610,
+  "requested_at": "2026-09-13T18:51:40.161814+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "217000357",
+        "author": {
+          "steamid": "76561198132995625",
+          "personaname": "Zorro",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198132995625/",
+          "num_games_owned": 1764,
+          "num_reviews": 882,
+          "playtime_forever": 556,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 556,
+          "last_played": 1769540830,
+          "avatar": "869206a4584b346962498fa76d662304742e5d4b"
+        },
+        "language": "german",
+        "review": "[h1] Elven Rivers 6: Guardians of Hope Collector's Edition [/h1]\nA casual game from 2025.\n\nThe Elven lands are ablaze: An orcish horde, led by a cunning shaman, has invaded the forests. [Publisher]\n\nIt's about gathering, building, and clearing paths. The main focus is on collecting the materials you need to progress. So, construct the buildings you need and produce a variety of goods, or otherwise acquire them. You'll need these to clear your way to the next level.\n\nThe story is so poorly translated that you're better off not setting the language to German. But text, regardless of type, isn't necessary for playing anyway. This is where the gameplay changes; almost all elements are revamped and animated. Whether you like it or not is entirely up to you. Some elements will be fine-tuned in the next installment to improve their cohesion and playability. Further minor changes are also planned.\n\nEntertaining and well-made. Definitely a good game for a quick session. With around 9 hours of gameplay for the 50 levels, I highly recommend it.\n\nMy group and my archive of over 7,050 reviews can be found here: https://steamcommunity.com/groups/hoi4deu\n\n👑 Powered by HoI 4 Deu Curators group in German / English 👑⠀⠀⠀[list][*][url=https://store.steampowered.com/curator/30388691/] Follow Main group [/url][*] [url=https://store.steampowered.com/curator/40282064/] Follow Second group [/url][*] [url=https://store.steampowered.com/curator/44688798/] Follow Third group [/url][/list] \nand discover more reviews from me.\n\n\n\n[h1] Elven Rivers 6: Guardians of Hope Collector's Edition [/h1]\nGelegenheitsspiel von 2025.\n\nDie Elfenlande stehen in Flammen: Eine orkische Horde unter der Führung eines gerissenen Schamanen ist in die Wälder eingefallen.? [Herausgeber]\n\nEs geht ums Sammeln und Aufbauen sowie ums Wege frei machen. Der Hauptfaktor liegt auf dem Sammeln von Materialien die du benötigst um weiter zu kommen. Baue also die Gebäude die du brauchst und stelle eine Vielzahl von Produkten her oder organisiere sie sonnst irgendwie, diese musst du benutzen um dein Weg frei zu räumen um ins nächste Level zu kommen.\n\nDie Geschichte ist derartig schlecht übersetzt das ihr besser nicht deutsch einstellt. Aber Texte, egal welche, sind zum Spielen ohnehin nicht nötig. Hier beginnt die Umstellung des Gamplays, fast alle Elemente werden erneuert und animiert. Ob man das mag oder nicht ist jedem selbst überlassen. Einige Elemente werden jedoch erst im nächsten Teil eine Feinabstimmung erhalten um besser zusammen zu passen und spielbarer zu sein. Auch weitere kleine Änderungen werden noch kommen.\n\nKurzweilig und nett gemacht. Also durchaus gut zu Spielen für zwischendurch. Rund 9 Stunden Spielzeit für die 50 Level ist mir eine Empfehlung Wert.\n\nMeine Gruppe und mein Archiv mit über 7.050 Reviews hier: https://steamcommunity.com/groups/hoi4deu \n\n👑 Powered by HoI 4 Deu Curators group in German / English 👑⠀⠀⠀[list][*][url=https://store.steampowered.com/curator/30388691/] Follow Main group [/url][*] [url=https://store.steampowered.com/curator/40282064/] Follow Second group [/url][*] [url=https://store.steampowered.com/curator/44688798/] Follow Third group [/url][/list] \nand discover more reviews from me.",
+        "timestamp_created": 1769576947,
+        "timestamp_updated": 1769576947,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.730622053146362305",
+        "comment_count": 6,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754384295",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWYzcAAAAAFP+dhQWAAAAB1muW7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

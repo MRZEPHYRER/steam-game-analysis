@@ -1,0 +1,71 @@
+{
+  "appid": 4129570,
+  "requested_at": "2026-09-13T20:21:12.091276+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "209668044",
+        "author": {
+          "steamid": "76561199142522212",
+          "personaname": "cjay777xb",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199142522212/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 8,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8,
+          "last_played": 1763610251,
+          "avatar": "54fc76b6b5289d89156bbdfcf9506998e82ac71b"
+        },
+        "language": "english",
+        "review": "Fun to play, hard to master.  Developer is responsive to feedback and added firing with mouse button and is working on controller support.  I didn't find the lose comments \"insulting\" but I can see if you lose you might not be in the best mood to read it. Definitely, more than enough entertainment for the price of entry.",
+        "timestamp_created": 1763610829,
+        "timestamp_updated": 1763610829,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.597315430641174316",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763037048",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYDb+AAAAAFP+MdNGAAAAB8/OifBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

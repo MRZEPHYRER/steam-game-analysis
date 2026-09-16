@@ -1,0 +1,66 @@
+{
+  "appid": 3961740,
+  "requested_at": "2026-09-13T20:05:45.785519+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212333613",
+        "author": {
+          "steamid": "76561198107354722",
+          "personaname": "lordofthepinus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/lordofthepinus/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 60,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1764605871,
+          "avatar": "391ac30666893644e4ced81cdb1ebc10b40fe95c"
+        },
+        "language": "russian",
+        "review": "got 13k in an hour. overall, pretty solid",
+        "timestamp_created": 1764606009,
+        "timestamp_updated": 1764606009,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764511786",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFoAAAAAAAAFP+AAAAAAAAB9wv6pBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.467999999999847,
+  "transport_error_count": 0
+}

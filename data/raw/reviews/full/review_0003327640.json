@@ -1,0 +1,66 @@
+{
+  "appid": 3327640,
+  "requested_at": "2026-09-13T19:11:09.489825+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 124,
+      "total_negative": 29,
+      "total_reviews": 153
+    },
+    "reviews": [
+      {
+        "recommendationid": "208162353",
+        "author": {
+          "steamid": "76561199009948782",
+          "personaname": "ぽよ余",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199009948782/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 1944,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1820,
+          "last_played": 1780240774,
+          "avatar": "fb17604948ee619a0eda817dd0b8223c9538e714"
+        },
+        "language": "japanese",
+        "review": "正直このゲームに何を求めるかによって変わります。\n\nホロライブが好きで勝負関係なくホロライブのキャラで花札をしたいという方ならおすすめできます。\nキャラも可愛いですし、掛け合いもタレントの関係性をちゃんととらえた掛け合いになっていますし\nシナリオ自体もホロライブっぽさがあってとても良いです。\n\n逆に花札としてのゲーム性を求める場合はあまりお勧めできないとこが多いです\nまず、NPCの難易度調整が露骨なほど山札や手札調整といえばいいのか思考判断による難易度ではないです\n初手で役完成したりこちらがどうやっても防げないような手札と山札の並びだったり\n最終ラウンドまでこちらが圧倒的に点差をつけて何の役でもいいから作れば勝ちというような場面でも\nこいこい連続からのこちらの手札と引く山札では抵抗できないようになっていてNPCが大逆転をします\n普通にやっててもそういう場面は起こるものでそれが花札の醍醐味ではありますがそれが露骨なほど発生します。\n基本ストーリーの後半やソロモードのNPCの難易度つよいはただの運ゲーになっています。\n\nオンライン対戦は相手もプレイヤーなので手札や山札の操作はないですが\nオンラインはオンラインでキャラの性能差がひどいです。\nつよいキャラを使えばいいといえばそうですがホロライブというIPにおいて\n大抵の人は推しがいて自身の推しで遊べるという期待を持っているものですが\n推しの性能が弱ければ別のキャラを使わざる負えない状況にもなります。\n\n私はホロライブが好きですが、ゲームである以上勝敗にはこだわりたいですし\nそれが自身の落ち度での敗北ではなくどうしようもない敗北なのはゲーム性としてつまらないと感じます。\n今後もDLCでキャラとストーリーが追加されていくと思いますのでもう少しNPCのバランス調整はしっかりしたほうがいいと思います",
+        "timestamp_created": 1762026629,
+        "timestamp_updated": 1765650128,
+        "voted_up": false,
+        "votes_up": 26,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.723562479019165039",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753887679",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVh10AAAAAFP+cna4AAAABx44maBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

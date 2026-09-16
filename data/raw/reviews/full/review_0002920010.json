@@ -1,0 +1,66 @@
+{
+  "appid": 2920010,
+  "requested_at": "2026-09-13T18:58:53.718479+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "209505303",
+        "author": {
+          "steamid": "76561198066436808",
+          "personaname": "notahack3r",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/notahack3r/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 48,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 16,
+          "last_played": 1763423443,
+          "avatar": "44ef5ef610bebe3f11e717134b273916ff8e05b1"
+        },
+        "language": "english",
+        "review": "It's very interesting! The Story line and artwork really pulls you in. I don't want to say anything more about the story lest I give away the plot! The grading system also needs work. I hit continue and it didn't give me an F? Personally, I enjoyed the Gaussian Blur background, it's very different from the other Ren'Py games I've played. The artwork is also very nice. Fan service could use some work. Overall, I'd play this again.",
+        "timestamp_created": 1763421437,
+        "timestamp_updated": 1763421905,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761657477",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB3wZmfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

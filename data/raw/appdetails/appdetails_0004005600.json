@@ -1,0 +1,286 @@
+{
+  "requested_at": "2026-09-13T06:23:43.092264+00:00",
+  "request_params": {
+    "appids": 4005600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4005600,
+  "payload": {
+    "4005600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Mz",
+        "steam_appid": 4005600,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a <strong><i>difficult</i></strong> 3D maze game. You can move not only left and right, but also up and down.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Be careful of your direction when looking up.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Explore the maze, complete the map, and earn rewards based on your progress.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Be careful of your direction when looking down.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >There is only one ending.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >In addition to the game, you can also enjoy music unlocked by completing secret conditions.</p><p class=\"bb_paragraph\" >You can access it from the jukebox menu on the title screen. </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a <strong><i>difficult</i></strong> 3D maze game. You can move not only left and right, but also up and down.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Be careful of your direction when looking up.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Explore the maze, complete the map, and earn rewards based on your progress.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Be careful of your direction when looking down.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >There is only one ending.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >In addition to the game, you can also enjoy music unlocked by completing secret conditions.</p><p class=\"bb_paragraph\" >You can access it from the jukebox menu on the title screen. </p>",
+        "short_description": "This is a 3D maze game. You can move not only forward, backward, left, and right, but also up and down. You have an incomplete map in front of you. Walk around the maze to complete the map. Once you have completed the map, you can exchange it for money and buy items to go back into the maze.",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/501e45792e6d98892c5fed5cee75d59dd130da5c/header.jpg?t=1759730872",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/843b43889959426c2f5310f8dd46229d07e29a96/capsule_231x87.jpg?t=1759730872",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/843b43889959426c2f5310f8dd46229d07e29a96/capsule_184x69.jpg?t=1759730872",
+        "website": "https://x.com/Gamn_IT_soft",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows11</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows11</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "GAMN IT soft"
+        ],
+        "publishers": [
+          "GAMN IT soft"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1405570
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Mz",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1405570,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Mz - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/17dc4cc02ef13de3a77a70beebebd92666143ee3/ss_17dc4cc02ef13de3a77a70beebebd92666143ee3.600x338.jpg?t=1759730872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/17dc4cc02ef13de3a77a70beebebd92666143ee3/ss_17dc4cc02ef13de3a77a70beebebd92666143ee3.1920x1080.jpg?t=1759730872"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/b1573431f8fa3fb91d16583cd666c60ab15d1f8a/ss_b1573431f8fa3fb91d16583cd666c60ab15d1f8a.600x338.jpg?t=1759730872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/b1573431f8fa3fb91d16583cd666c60ab15d1f8a/ss_b1573431f8fa3fb91d16583cd666c60ab15d1f8a.1920x1080.jpg?t=1759730872"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/db56dd63f4b10483d42a5284816b30edfb76f9a4/ss_db56dd63f4b10483d42a5284816b30edfb76f9a4.600x338.jpg?t=1759730872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/db56dd63f4b10483d42a5284816b30edfb76f9a4/ss_db56dd63f4b10483d42a5284816b30edfb76f9a4.1920x1080.jpg?t=1759730872"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/f1f28f0aa265183aebca37c92d1744e3db8cbe4a/ss_f1f28f0aa265183aebca37c92d1744e3db8cbe4a.600x338.jpg?t=1759730872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/f1f28f0aa265183aebca37c92d1744e3db8cbe4a/ss_f1f28f0aa265183aebca37c92d1744e3db8cbe4a.1920x1080.jpg?t=1759730872"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/c0e14319c0a450a2a54daf523b4bb64e8d5fef3e/ss_c0e14319c0a450a2a54daf523b4bb64e8d5fef3e.600x338.jpg?t=1759730872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005600/c0e14319c0a450a2a54daf523b4bb64e8d5fef3e/ss_c0e14319c0a450a2a54daf523b4bb64e8d5fef3e.1920x1080.jpg?t=1759730872"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257193743,
+            "name": "Mz_PV",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193743/8339d0e350eb1362a457c3c6cc784abced596314/movie_600x337.jpg?t=1758004075",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4005600/419640843/d3b45fb56a73cc8f2eae83c5b37c751ebf459a77/1757088411/dash_av1.mpd?t=1758004075",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4005600/419640843/d3b45fb56a73cc8f2eae83c5b37c751ebf459a77/1757088411/dash_h264.mpd?t=1758004075",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4005600/419640843/d3b45fb56a73cc8f2eae83c5b37c751ebf459a77/1757088411/hls_264_master.m3u8?t=1758004075",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 12,
+          "highlighted": [
+            {
+              "icon": "a55e2f226397e4176fc3edfc2f7844363835318f.jpg",
+              "localized_name": "Job3 Done",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Job3 Done",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/a55e2f226397e4176fc3edfc2f7844363835318f.jpg"
+            },
+            {
+              "icon": "9f9cb08ff24c23ccf5a35251b928152d9eff058e.jpg",
+              "localized_name": "Job4 Done",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Job4 Done",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/9f9cb08ff24c23ccf5a35251b928152d9eff058e.jpg"
+            },
+            {
+              "icon": "3fc060ed560dd2ee6664ea739df79690647e9f8f.jpg",
+              "localized_name": "Job5 Done",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Job5 Done",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/3fc060ed560dd2ee6664ea739df79690647e9f8f.jpg"
+            },
+            {
+              "icon": "b24e29031ff76e7fe5161b249eb10f04e3c491dc.jpg",
+              "localized_name": "Job6 Done",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Job6 Done",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/b24e29031ff76e7fe5161b249eb10f04e3c491dc.jpg"
+            },
+            {
+              "icon": "769261dec359eadaf3fc9b1a9977be4c0d148570.jpg",
+              "localized_name": "Job3 Done Perfectly",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Job3 Done Perfectly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/769261dec359eadaf3fc9b1a9977be4c0d148570.jpg"
+            },
+            {
+              "icon": "ef2ef3fe91dfc2e7fef01c150fe9d72fc53a855d.jpg",
+              "localized_name": "Job4 Done Perfectly",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Job4 Done Perfectly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/ef2ef3fe91dfc2e7fef01c150fe9d72fc53a855d.jpg"
+            },
+            {
+              "icon": "7df9586857f1de679c043637caa925fbf8a8f092.jpg",
+              "localized_name": "Job5 Done Perfectly",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Job5 Done Perfectly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/7df9586857f1de679c043637caa925fbf8a8f092.jpg"
+            },
+            {
+              "icon": "3a5d35b6252900330ecc755eebf5e64fc6eff21b.jpg",
+              "localized_name": "Job6 Done Perfectly",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Job6 Done Perfectly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/3a5d35b6252900330ecc755eebf5e64fc6eff21b.jpg"
+            },
+            {
+              "icon": "e9a3b8564fb88b1deb979b8ff608bb6ba564640a.jpg",
+              "localized_name": "Leave the work to The Professional",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Leave the work to The Professional",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/e9a3b8564fb88b1deb979b8ff608bb6ba564640a.jpg"
+            },
+            {
+              "icon": "cc070b1d6bbd79ea8c5390b4169166229dc6f5a5.jpg",
+              "localized_name": "The Complete Jukebox",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Complete Jukebox",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4005600/cc070b1d6bbd79ea8c5390b4169166229dc6f5a5.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "purple.gadget.group@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4005600?t=1759730872",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4005600?t=1759730872",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nTemas sensíveis"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Selbstmord"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

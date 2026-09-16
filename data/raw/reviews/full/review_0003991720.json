@@ -1,0 +1,79 @@
+{
+  "appid": 3991720,
+  "requested_at": "2026-09-13T20:08:59.602764+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 64,
+      "total_negative": 9,
+      "total_reviews": 73
+    },
+    "reviews": [
+      {
+        "recommendationid": "213314160",
+        "author": {
+          "steamid": "76561198008870651",
+          "personaname": "Feyerabend",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198008870651/",
+          "num_games_owned": 666,
+          "num_reviews": 272,
+          "playtime_forever": 539,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 509,
+          "last_played": 1769660488,
+          "avatar": "17571bdc48c2abe754fac8405ff2e96c81d4e0ce"
+        },
+        "language": "koreana",
+        "review": "[h3]걷잡을 수 없이 막장으로 흘러가는 여동생들과의 동거... 남매 사이에 절대로 있을 수 없는 개변태같은 맛도리 대사들이 잔뜩 들어간 수준높은 미연시[/h3]\n「이모코네-전하고싶은 진심」입니다. 출시는 작년 이맘때에 했는데 스팀에는 이제 들어왔네요. 플레이 전에 배급사 웹페이지에서 ^추가정보^ 확인하시구요...\n\n남주가 어지간히 잘생겼는지 친여동생과 사촌여동생이 초장부터 빠꾸없이 들이대면서 라포를 빠르게 만들어가는데요, 귀엽고 순수했던 여동생들이 남주와 마음이 통한 뒤로는 숨겨왔던 암캐/암퇘지 본능을 끄집어내고 짐승처럼 울어대며 각자 오니쨩을 얼마나 사랑하는지 고백합니다......\n\n친동생/사촌동생과의 사랑이라는 예측할 수 없는 삼체문제를 맛깔나게 풀어내는데요, 게임 끝까지 결말이 궁금해지게 만드는 아슬아슬한 작두타기 글솜씨가 예술이었습니다. 도저히 남매 사이에 오갈 수준이 아닌 더티톡이 아주 입맛돌게 만들구요, 성우들 실력 좋고 일러스트 엄청 예뻐서 휴지 반 통은 쓴거 같습니다.\n\n여동생 손대는 나쁜남자 주인공과 네 명의 여주인공들이 어떤 결말을 맞을지는 직접 플레이하여 확인해보시기를 바랍니다. 2025년 한 해를 마무리하기에 아주 좋은 미연시 작품입니다. 강력추천.\n\n\n참고로, 대사는 전문 번역가가 수작업으로 교정한듯 많은 부분이 한국어에 맞게 의역이 되었습니다만 등장인물 이름을 요미가나 없이 전달받았는지 그것만 틀리게 이식되었습니다.\n三日月 - 미카즈키(X) 미카루(O)\n滿月 - 만게츠(X) 미치루(O)",
+        "timestamp_created": 1765750412,
+        "timestamp_updated": 1765750739,
+        "voted_up": true,
+        "votes_up": 37,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.774769604206085205",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765426008",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVgS2AAAAAFP+jK6oAAAABwp92tBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9840000000003783,
+  "transport_error_count": 0
+}

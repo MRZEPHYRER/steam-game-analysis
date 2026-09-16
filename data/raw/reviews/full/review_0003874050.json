@@ -1,0 +1,68 @@
+{
+  "appid": 3874050,
+  "requested_at": "2026-09-13T19:53:04.489502+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 56,
+      "total_negative": 7,
+      "total_reviews": 63
+    },
+    "reviews": [
+      {
+        "recommendationid": "232548571",
+        "author": {
+          "steamid": "76561198044575342",
+          "personaname": "Bajingus",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Bajingus/",
+          "num_games_owned": 340,
+          "num_reviews": 10,
+          "playtime_forever": 174,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 174,
+          "last_played": 1776372686,
+          "avatar": "3d16c89ad801229f802fa2bd60e6ccd18de4411f"
+        },
+        "language": "english",
+        "review": "Pretty fun game, but it leaves a log file that's 5gb large even after uninstalling the game.\nThat's 10x the size of the game itself\nI can only imagine it gets larger the longer you play (5gb of logs in 3 hours of playtime is kind of nuts)\n\nLocation of file for anyone wondering:\nAppData/LocalLow/WixGames/Duck Life 4 Classic/Player-prev.log",
+        "timestamp_created": 1786412857,
+        "timestamp_updated": 1786437434,
+        "voted_up": false,
+        "votes_up": 12,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.689448297023773193",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1787498557,
+        "developer_response": "Thanks for letting us know! The latest update fixes this, so the log file should now stay at a sensible size while you play",
+        "app_release_date": "1758109932",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWNgaAAAAAFP+YP9UAAAAB7jY33Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.141000000000531,
+  "transport_error_count": 0
+}

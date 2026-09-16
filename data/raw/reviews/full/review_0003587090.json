@@ -1,0 +1,66 @@
+{
+  "appid": 3587090,
+  "requested_at": "2026-09-13T19:24:39.582333+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 2,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "215023351",
+        "author": {
+          "steamid": "76561198086160077",
+          "personaname": "DoktorVin",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/doktorvin/",
+          "num_games_owned": 0,
+          "num_reviews": 24,
+          "playtime_forever": 609,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 381,
+          "last_played": 1787168745,
+          "avatar": "d50c3b30ecfa8642722216afb2b4edb640d0a666"
+        },
+        "language": "german",
+        "review": "Das Spiel macht Spaß, wenn man gerne mit mehreren spielt. Allerdings sind die Lobbys oft leer, daher empfiehlt es sich, eigene Freunde mit ins Game zubringen. Alternativ kann man mit Bots spielen. Das Spielkonzept überzeugt, macht mit echten Mitspielern aber noch mehr Freude.",
+        "timestamp_created": 1767450654,
+        "timestamp_updated": 1767450654,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752253272",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB375+0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

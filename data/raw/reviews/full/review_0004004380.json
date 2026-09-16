@@ -1,0 +1,71 @@
+{
+  "appid": 4004380,
+  "requested_at": "2026-09-13T20:10:41.251434+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 0,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "212624777",
+        "author": {
+          "steamid": "76561197968367368",
+          "personaname": "Monkeychow01",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197968367368/",
+          "num_games_owned": 2819,
+          "num_reviews": 5,
+          "playtime_forever": 279,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 39,
+          "last_played": 1766456037,
+          "avatar": "950f9f3147d4c8530a5072825d01c34ee3f1afa1"
+        },
+        "language": "english",
+        "review": "RoyMartini sent me here - They are a Fridge Magnate.\n\nSerious note, this is extremely addicting.  Well done from the dev for creating this game!",
+        "timestamp_created": 1764952220,
+        "timestamp_updated": 1764952220,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759395628",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB52IyrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8909999999996217,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3565250,
+  "requested_at": "2026-09-13T19:22:53.155252+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "213178610",
+        "author": {
+          "steamid": "76561199091222263",
+          "personaname": "patricky",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/patricky-tau/",
+          "num_games_owned": 49,
+          "num_reviews": 1,
+          "playtime_forever": 182,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 182,
+          "last_played": 1765612595,
+          "avatar": "f46813a4da362bce24777f2f62099c1c6e30a7a5"
+        },
+        "language": "schinese",
+        "review": "Great game! I really enjoyed it. However, some design aspects confused me during gameplay:\nIt's hard to tell where chains end, especially in level with cross.\nNo Chinese localization... While there's not much text, it still matters.\nReally looking forward to the mobile release of Crossing Chains. Best of luck!",
+        "timestamp_created": 1765613252,
+        "timestamp_updated": 1765613312,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.573221743106842041",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765552767",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYiRqAAAAAFP+JX1aAAAAByj5utBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

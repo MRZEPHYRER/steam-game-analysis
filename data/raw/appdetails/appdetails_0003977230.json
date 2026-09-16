@@ -1,0 +1,335 @@
+{
+  "requested_at": "2026-09-13T06:12:09.269673+00:00",
+  "request_params": {
+    "appids": 3977230,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3977230,
+  "payload": {
+    "3977230": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Victory Saber 2D",
+        "steam_appid": 3977230,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Victory Saber 2D is a horizontal scrolling shooter arcade video game with Locking-on shooting mechanic.</strong></p><p class=\"bb_paragraph\" ><strong>Victory Saber 2D come with Looking Glass Holographic Display support.</strong></p><p class=\"bb_paragraph\" ><strong>Player can get stuning Holographic effect with Looking Glass Holographic Display.</strong></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Victory Saber 2D is a horizontal scrolling shooter arcade video game with Locking-on shooting mechanic.</strong></p><p class=\"bb_paragraph\" ><strong>Victory Saber 2D come with Looking Glass Holographic Display support.</strong></p><p class=\"bb_paragraph\" ><strong>Player can get stuning Holographic effect with Looking Glass Holographic Display.</strong></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Victory Saber 2D is a horizontal scrolling shooter arcade video game with Locking-on shooting mechanic.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/b926138cdced2dc99451f02a8c5c870edd608bfc/header.jpg?t=1781040701",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/2e42b61021b776a853ec4a9e9359eb7d0c5b61da/capsule_231x87.jpg?t=1781040701",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/2e42b61021b776a853ec4a9e9359eb7d0c5b61da/capsule_184x69.jpg?t=1781040701",
+        "website": "https://www.zephyrstudio.xyz/VictorySaber2D/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core m3-7Y30  or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 615 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Additional Notes:</strong> Looking Glass Display Required for Holographic Effect</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core i5 10th, AMD Ryzen 7 or better<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> RTX 3070 , AMD RX 7600XT or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Additional Notes:</strong> Looking Glass Display Required for Holographic Effect</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Arch Linux <br></li><li><strong>Processor:</strong> Intel Core m3-7Y30  or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 615 or better<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Additional Notes:</strong> No Holographic Effect support on linux</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> bazzite<br></li><li><strong>Processor:</strong> Intel Core m3-7Y30  or better<br></li><li><strong>Graphics:</strong> Intel HD Graphics 615 or better<br></li><li><strong>Additional Notes:</strong> No Holographic Effect support on linux</li></ul>"
+        },
+        "developers": [
+          "Zephyr Studio Limited"
+        ],
+        "publishers": [
+          "Zephyr Studio Limited"
+        ],
+        "demos": [
+          {
+            "appid": 4122980,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1396315
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Victory Saber 2D",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1396315,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Victory Saber 2D - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/66973ab4f8c53ff1be66f2a741071a46649d494a/ss_66973ab4f8c53ff1be66f2a741071a46649d494a.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/66973ab4f8c53ff1be66f2a741071a46649d494a/ss_66973ab4f8c53ff1be66f2a741071a46649d494a.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/4d608393aa0e33a25747028efe954c172ea2b04e/ss_4d608393aa0e33a25747028efe954c172ea2b04e.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/4d608393aa0e33a25747028efe954c172ea2b04e/ss_4d608393aa0e33a25747028efe954c172ea2b04e.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/12925a59656d6ebae79ab9ab6c186f6490105efc/ss_12925a59656d6ebae79ab9ab6c186f6490105efc.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/12925a59656d6ebae79ab9ab6c186f6490105efc/ss_12925a59656d6ebae79ab9ab6c186f6490105efc.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/447df352b4290705d543c7b81af9464e26e80bb7/ss_447df352b4290705d543c7b81af9464e26e80bb7.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/447df352b4290705d543c7b81af9464e26e80bb7/ss_447df352b4290705d543c7b81af9464e26e80bb7.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/cac0929a887a703e96af14e1478ebd7807c94773/ss_cac0929a887a703e96af14e1478ebd7807c94773.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/cac0929a887a703e96af14e1478ebd7807c94773/ss_cac0929a887a703e96af14e1478ebd7807c94773.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/93f8d04d42d83be9c1fca2dc9a590ccbaec4b579/ss_93f8d04d42d83be9c1fca2dc9a590ccbaec4b579.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/93f8d04d42d83be9c1fca2dc9a590ccbaec4b579/ss_93f8d04d42d83be9c1fca2dc9a590ccbaec4b579.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/c5ed732baa742a45c2f2cfa95940b437b088ee2d/ss_c5ed732baa742a45c2f2cfa95940b437b088ee2d.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/c5ed732baa742a45c2f2cfa95940b437b088ee2d/ss_c5ed732baa742a45c2f2cfa95940b437b088ee2d.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/4df534c1d812d13ac6b051562ba7c47f486e0db1/ss_4df534c1d812d13ac6b051562ba7c47f486e0db1.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/4df534c1d812d13ac6b051562ba7c47f486e0db1/ss_4df534c1d812d13ac6b051562ba7c47f486e0db1.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/e587aaffe55d90fa64bad08363fb53dff59e6310/ss_e587aaffe55d90fa64bad08363fb53dff59e6310.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/e587aaffe55d90fa64bad08363fb53dff59e6310/ss_e587aaffe55d90fa64bad08363fb53dff59e6310.1920x1080.jpg?t=1781040701"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/67b2d03f76cec2cdd2aeb0596506ebaf6138d2bf/ss_67b2d03f76cec2cdd2aeb0596506ebaf6138d2bf.600x338.jpg?t=1781040701",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/67b2d03f76cec2cdd2aeb0596506ebaf6138d2bf/ss_67b2d03f76cec2cdd2aeb0596506ebaf6138d2bf.1920x1080.jpg?t=1781040701"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257354676,
+            "name": "V15 Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257354676/59febd0ff0dfdb2e36f7bcc265d8a1083fb5f539/movie_600x337.jpg?t=1781040700",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3977230/275926591/f512158092b9f76bd7bb46028c7c929ed10515df/1781040510/dash_av1.mpd?t=1781040700",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3977230/275926591/f512158092b9f76bd7bb46028c7c929ed10515df/1781040510/dash_h264.mpd?t=1781040700",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3977230/275926591/f512158092b9f76bd7bb46028c7c929ed10515df/1781040510/hls_264_master.m3u8?t=1781040700",
+            "highlight": true
+          },
+          {
+            "id": 257189259,
+            "name": "VS2DTrailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257189259/ff8c44a9ef08ed6a075fea7f43a2b2abe39e1cec/movie_600x337.jpg?t=1757431336",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3977230/1511549866/0b21f11ad356927e8fbbde362b48d01181dd7893/1756231243/dash_av1.mpd?t=1757431336",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3977230/1511549866/0b21f11ad356927e8fbbde362b48d01181dd7893/1756231243/dash_h264.mpd?t=1757431336",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3977230/1511549866/0b21f11ad356927e8fbbde362b48d01181dd7893/1756231243/hls_264_master.m3u8?t=1757431336",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "b3f1daaa90efbb88a43d76584660964b3b8a072b.jpg",
+              "localized_name": "Welcome to VictorySaber2D",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Welcome to VictorySaber2D",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/b3f1daaa90efbb88a43d76584660964b3b8a072b.jpg"
+            },
+            {
+              "icon": "df50ddfdc5caa8936a744d65855a8fd69701ae99.jpg",
+              "localized_name": "Take down Lighting Hammer ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Lighting Hammer ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/df50ddfdc5caa8936a744d65855a8fd69701ae99.jpg"
+            },
+            {
+              "icon": "25b3c410588428ea99d87aca2dcaeda52b126f15.jpg",
+              "localized_name": "Take down Vocano Phoenix",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Vocano Phoenix",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/25b3c410588428ea99d87aca2dcaeda52b126f15.jpg"
+            },
+            {
+              "icon": "4afbc256f809e3cd75f2c61ed531280d9a08debe.jpg",
+              "localized_name": "Take down Rising Bison",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Rising Bison",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/4afbc256f809e3cd75f2c61ed531280d9a08debe.jpg"
+            },
+            {
+              "icon": "a432d7b72639212a38d1bcccbed087612c5abe4b.jpg",
+              "localized_name": "Take down Blizzard Dragon",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Blizzard Dragon",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/a432d7b72639212a38d1bcccbed087612c5abe4b.jpg"
+            },
+            {
+              "icon": "fcdb33fb8c482e87cac8f6c5b8a5e666744ccf43.jpg",
+              "localized_name": "Take down Xiphosura",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Xiphosura",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/fcdb33fb8c482e87cac8f6c5b8a5e666744ccf43.jpg"
+            },
+            {
+              "icon": "0225d72e9e8c3b24a6c4926ff39398756f79fe72.jpg",
+              "localized_name": "Take down Dino Saurus",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Take down Dino Saurus",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/0225d72e9e8c3b24a6c4926ff39398756f79fe72.jpg"
+            },
+            {
+              "icon": "1a91da32c7a8009fa9e8929bbc682c8433611f05.jpg",
+              "localized_name": "Thank You For Playing",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thank You For Playing",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/1a91da32c7a8009fa9e8929bbc682c8433611f05.jpg"
+            },
+            {
+              "icon": "fe9b2e7f66b4b7a1c19a007cb092e39a49e99b89.jpg",
+              "localized_name": "Take Down Falling Bear",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Take Down Falling Bear",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/fe9b2e7f66b4b7a1c19a007cb092e39a49e99b89.jpg"
+            },
+            {
+              "icon": "4563f5b49cb92b37197aae8918e29f71f40df587.jpg",
+              "localized_name": "Pacifist Stage 1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Pacifist Stage 1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3977230/4563f5b49cb92b37197aae8918e29f71f40df587.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "zephyrstudiovs@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3977230?t=1781040701",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3977230/50512617b7c23910dc016cd74fb7810ee2bb30fa/page_bg_raw.jpg?t=1781040701",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

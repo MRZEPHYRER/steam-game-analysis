@@ -1,0 +1,79 @@
+{
+  "appid": 3981060,
+  "requested_at": "2026-09-13T20:07:40.258682+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 28,
+      "total_negative": 14,
+      "total_reviews": 42
+    },
+    "reviews": [
+      {
+        "recommendationid": "211870017",
+        "author": {
+          "steamid": "76561198341972089",
+          "personaname": "kuiki",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198341972089/",
+          "num_games_owned": 0,
+          "num_reviews": 687,
+          "playtime_forever": 56,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 56,
+          "last_played": 1764504710,
+          "avatar": "ddc68b85831a0597d2356b0d668654978dbe84a0"
+        },
+        "language": "koreana",
+        "review": "가볍게 하기 좋아요 재밌어요\n엔딩 4개 조건\n(스포주의\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n\n엔딩 1 - 모두 다 태우고 마지막에 자전거 치우고 전철 운전해서 터널 끝까지 가기\n엔딩 2 - 몇명만 태우고 몇명은 유기하기\n엔딩 3 - 모두 다 태우지 않고 방치하기\n엔딩 4 - 모두 다 태우고 마지막에 전철 유기하기 터널 끝가지 걸어가기",
+        "timestamp_created": 1764504813,
+        "timestamp_updated": 1764504813,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.637610197067260742",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764255698",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXP3AAAAAAFP+RnTSAAAABxlJyoBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

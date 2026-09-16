@@ -1,0 +1,66 @@
+{
+  "appid": 2192780,
+  "requested_at": "2026-09-13T18:48:17.362885+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 3,
+      "review_score_desc": "Negative",
+      "total_positive": 1,
+      "total_negative": 17,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "212430971",
+        "author": {
+          "steamid": "76561197993814277",
+          "personaname": "------",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/bigli/",
+          "num_games_owned": 873,
+          "num_reviews": 7,
+          "playtime_forever": 97,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 97,
+          "last_played": 1764705777,
+          "avatar": "097d8de1ad0e7bf612dbb3fe4251634fa24db0e2"
+        },
+        "language": "english",
+        "review": "You have the basics. The problem is, every other survivor game has the basics. Art style is prettier than a lot of others but right now it feels like a glorified demo, and looks slightly worse than the trailer version.\n\nThe final straw for me was levelling up the third character introduced...you don't find out until you get to unlock his character ability that his character ability isn't even in the game yet. So that just felt like my time had been wasted.\n\nI know the game is only three quid, but look at the competition.",
+        "timestamp_created": 1764707263,
+        "timestamp_updated": 1764707263,
+        "voted_up": false,
+        "votes_up": 25,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.740381240844726562",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764680427",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVMUAAAAAAFP+exM4AAAAB7h66qBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

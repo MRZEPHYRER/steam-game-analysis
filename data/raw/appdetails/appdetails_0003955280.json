@@ -1,0 +1,187 @@
+{
+  "requested_at": "2026-09-13T06:04:31.203569+00:00",
+  "request_params": {
+    "appids": 3955280,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3955280,
+  "payload": {
+    "3955280": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Escape The Buildings",
+        "steam_appid": 3955280,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Escape The Buildings</strong> is a thrilling first-person escape game where every door hides a challenge. <br>You’ll explore mysterious rooms, search for hidden keys, and uncover clues that will help you crack secret codes. <br>From tricky number locks to puzzling color combinations, each building is packed with mind-bending riddles and unexpected surprises. <br>Can you keep your cool under pressure and escape before time runs out?</p><p class=\"bb_paragraph\" >Your mission is simple: <strong>find the way out.</strong> <br>The path? Not so simple.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Escape The Buildings</strong> is a thrilling first-person escape game where every door hides a challenge. <br>You’ll explore mysterious rooms, search for hidden keys, and uncover clues that will help you crack secret codes. <br>From tricky number locks to puzzling color combinations, each building is packed with mind-bending riddles and unexpected surprises. <br>Can you keep your cool under pressure and escape before time runs out?</p><p class=\"bb_paragraph\" >Your mission is simple: <strong>find the way out.</strong> <br>The path? Not so simple.</p>",
+        "short_description": "Escape The Buildings is a tense escape game where you search rooms for hidden keys, crack color and number codes, and solve clever puzzles to break free. Every door hides a new challenge—can you escape before it’s too late?",
+        "supported_languages": "English, Hungarian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/68428a27c96c0716d687e818a398dbba6d4f55fd/header.jpg?t=1761163536",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/6d036b27468406bece75df0817afaf0dc25ed72b/capsule_231x87.jpg?t=1761163536",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/6d036b27468406bece75df0817afaf0dc25ed72b/capsule_184x69.jpg?t=1761163536",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> windows11<br></li><li><strong>Processor:</strong> Intel Core i5 10210U<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphic<br></li><li><strong>Storage:</strong> 964 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> windows11<br></li><li><strong>Processor:</strong> Intel Core i5 14600K<br></li><li><strong>Memory:</strong> 12 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphic 770<br></li><li><strong>Storage:</strong> 964 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Level Loop Studio"
+        ],
+        "publishers": [
+          "Level Loop Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1389068
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Escape The Buildings",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1389068,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Escape The Buildings - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/f2ff39d16f434e265d31bd711f5eab1c22b1d525/ss_f2ff39d16f434e265d31bd711f5eab1c22b1d525.600x338.jpg?t=1761163536",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/f2ff39d16f434e265d31bd711f5eab1c22b1d525/ss_f2ff39d16f434e265d31bd711f5eab1c22b1d525.1920x1080.jpg?t=1761163536"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/93b8b56f77beed61b530443a2841e8c98987ea37/ss_93b8b56f77beed61b530443a2841e8c98987ea37.600x338.jpg?t=1761163536",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/93b8b56f77beed61b530443a2841e8c98987ea37/ss_93b8b56f77beed61b530443a2841e8c98987ea37.1920x1080.jpg?t=1761163536"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/1a33450ee18a77c03685f4fae9087e5f0b1aade4/ss_1a33450ee18a77c03685f4fae9087e5f0b1aade4.600x338.jpg?t=1761163536",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/1a33450ee18a77c03685f4fae9087e5f0b1aade4/ss_1a33450ee18a77c03685f4fae9087e5f0b1aade4.1920x1080.jpg?t=1761163536"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/34ec44b4df7d7aa8e32d3be3a129701c2b80300d/ss_34ec44b4df7d7aa8e32d3be3a129701c2b80300d.600x338.jpg?t=1761163536",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/34ec44b4df7d7aa8e32d3be3a129701c2b80300d/ss_34ec44b4df7d7aa8e32d3be3a129701c2b80300d.1920x1080.jpg?t=1761163536"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/e7b442053bdf0ea1b4b9af8d47b095b5f6456355/ss_e7b442053bdf0ea1b4b9af8d47b095b5f6456355.600x338.jpg?t=1761163536",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3955280/e7b442053bdf0ea1b4b9af8d47b095b5f6456355/ss_e7b442053bdf0ea1b4b9af8d47b095b5f6456355.1920x1080.jpg?t=1761163536"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257182824,
+            "name": "trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182824/e55682c3869d520338eb1b4646f5d189d6808c14/movie_600x337.jpg?t=1759948000",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3955280/1525539461/75691e7ddf6a084b1f2fd30aa8f04b51b7e46d46/1759594916/dash_av1.mpd?t=1759948000",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3955280/1525539461/75691e7ddf6a084b1f2fd30aa8f04b51b7e46d46/1759594916/dash_h264.mpd?t=1759948000",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3955280/1525539461/75691e7ddf6a084b1f2fd30aa8f04b51b7e46d46/1759594916/hls_264_master.m3u8?t=1759948000",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "levelloopstudio@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3955280?t=1761163536",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3955280?t=1761163536",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

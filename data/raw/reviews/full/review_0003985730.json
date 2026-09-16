@@ -1,0 +1,71 @@
+{
+  "appid": 3985730,
+  "requested_at": "2026-09-13T20:08:17.262653+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 4,
+      "review_score_desc": "Mostly Negative",
+      "total_positive": 3,
+      "total_negative": 7,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "212922541",
+        "author": {
+          "steamid": "76561198825615160",
+          "personaname": "Take it Easy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Yu_Narukami/",
+          "num_games_owned": 0,
+          "num_reviews": 85,
+          "playtime_forever": 167,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 167,
+          "last_played": 1765293741,
+          "avatar": "165d0960fcce1eddfc38a652b27a32f3828b4b24"
+        },
+        "language": "english",
+        "review": "- Tôi coi phần thông tin thấy có tới 4-5 người phát triển game mà, sao lại lúc vô game lại giới thiệu game chỉ có 1 người làm, kể cả mỗi đội dev và art thì có 2 người chứ??\n\n---{ Graphics }---\n☐ FMV\n☐ You forget what reality is\n☐ Beautiful\n☑ Good (Không quá tệ nhưng mà quạt GPU của tôi nó hú kinh quá, tôi xài RTX 4080s mà nó ăn 100% công suất luôn, nếu được hãy cố gắng tối ưu game nhé các bạn)\n☐ Decent\n☐ Bad\n☐ Don‘t look too long at it\n☐ MS-DOS\n\n---{ Gameplay }---\n☐ Very good\n☐ Good\n☑ It's just gameplay (cũng không khác game cùng thể loại là mấy, game phải hoàn thành từng sự kiện mới mở khóa cái giải đố tiếp theo)\n☐ Mehh\n☐ Watch paint dry instead\n☐ Just don't\n\n---{ Audio }---\n☐ Eargasm\n☐ Very good\n☐ Good\n☑ Not too bad (âm thanh không đồng bộ, lúc thì nhạc nền to hơn người lồng tiếng, lúc thì người lồng tiếng giọng lại to hơn cả nhạc nền game. Hầu như âm mọi hội thoại người lồng tiếng nói rất bé)\n☐ Bad \n☐ I'm now deaf\n\n---{ Audience }---\n☐ Kids\n☐ Teens\n☑ Adults (Game hình ảnh không kinh dị lắm, khá giống các mod trong Garymod. Các bạn có thể chơi được)\n☐ Grandma\n\n---{ PC Requirements }---\n☐ Check if you can run paint\n☐ Potato\n☑ Decent (Game tối ưu không tốt nhưng tôi nghĩ khoảng card đời năm 201x là chơi được rồi, x lớn nhé)\n☐ Fast\n☐ Rich boi\n☐ Ask NASA if they have a spare computer\n\n---{ Game Size }---\n☐ Floppy Disk\n☑ Old Fashioned (~5GB, nhẹ)\n☐ Workable\n☐ Big\n☐ Will eat 10% of your 1TB hard drive\n☐ You will want an entire hard drive to hold it\n☐ You will need to invest in a black hole to hold all the data\n\n---{ Difficulty }---\n☐ Just press 'W'\n☑ Easy (game này cứ đi vòng vòng là bạn tìm thấy cách giải đố thôi)\n☐ Easy to learn / Hard to master\n☐ Significant brain usage\n☐ Difficult\n☐ Dark Souls\n\n---{ Grind }---\n☑ Nothing to grind\n☐ Only if u care about leaderboards/ranks/achievements\n☐ Isn't necessary to progress\n☐ Average grind level\n☐ Too much grind\n☐ You'll need a second life for grinding\n\n---{ Story }---\n☐ No Story\n☐ Some lore\n☑ Average (Mặc dù ít dữ kiện giải thích, nhưng game không quá khó hiểu đâu)\n☐ Good\n☐ Lovely\n☐ It'll replace your life\n\n---{ Game Time }---\n☐ Review later\n☑ Long enough for a cup of coffee (~3 tiếng cho 3 hồi)\n☑ Short (~8 tiếng nếu game ra đầy đủ 8 hồi cho 1 lần chơi, tôi nghĩ chắc tháng 3/2026 mới xong hết game, tại cái hồi 8 ghi timeline sai)\n☐ Average\n☐ Long\n☐ To infinity and beyond\n\n---{ Price }---\n☐ It's free!\n☐ Worth the price \n☐ If it's on sale >50%\n☑ If it's on sale <=50% (Với những game kinh dị ở VN gần đây như Cỏ máu, Thần trùng hay là Tai ương (trừ Pho anh hai) thì tôi thấy con game này giá hơi cao, nhưng mà so với những game từ các nước khác thì giá gốc rẻ hơn ~50%, nhưng mà giá này vẫn không xứng đáng, thà ra hết game rồi thì ok)\n☐ If u have some spare money left\n☐ Not recommended\n☐ You could also just burn your money\n\n---{ Bugs }---\n☐ Never heard of\n☐ Minor bugs\n☑ a little bit annoying\n☐ The game itself is a big terrarium for bugs\n☐ 2077 1.0\n\nNhiều đấy =)) \n\n1. glitch bug bay lên cao, chạy vào các vật thể hẹp hoặc mấy cái vật thể ngang chiều cao ngắn như hàng rào, bay lên cao tận mây xanh xong bay xuống mái nhá, chơi 3 tiếng trải nghiệm 3 lần.\n2. Nhân vật chưa nói hết câu, phụ đề đã biến mất ngay lập tức.\n3. Spoil: [spoiler]Đoạn tai nạn khi bà vợ bị ngải nằm trên đường và bị đâm, cái đoạn lấy đèn pin phải đứng một hồi đèn pin mới xuất hiện, đang coi vật thể đèn pin gắn đầu 3D thì con ma đói? nó bay vào và lỗi văng luôn game =)), tôi phải chơi lại đoạn đó 1 lần nữa và lần này không văng nữa nhưng đèn pin nó bị lơ lửng trên không, không lấy được. lần 3 ok không sao nữa.[/spoiler]\n\n4. Spoil: [spoiler]Đoạn ném bùa đỏ bị vò, con ma hay bị kẹt ở một số vật thể khi chuyển cảnh giữa 2 chiều không gian.[/spoiler]\n\n---{ ? / 100 }---\n☐ 1x\n☐ 2x\n☐ 3x\n☐ 4x\n☐ 5x\n☐ 6x\n☑ 70 \n☐ 8x\n☐ 9x\n☐ 100",
+        "timestamp_created": 1765296220,
+        "timestamp_updated": 1774368995,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.642857134342193604",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765256744",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXJJKAAAAAFP+SSSOAAAAB9ip6sBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

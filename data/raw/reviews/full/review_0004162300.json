@@ -1,0 +1,66 @@
+{
+  "appid": 4162300,
+  "requested_at": "2026-09-13T20:23:30.561570+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 66,
+      "total_negative": 11,
+      "total_reviews": 77
+    },
+    "reviews": [
+      {
+        "recommendationid": "219934079",
+        "author": {
+          "steamid": "76561199266636269",
+          "personaname": "♦️RELeon♦",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199266636269/",
+          "num_games_owned": 649,
+          "num_reviews": 340,
+          "playtime_forever": 330,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 84,
+          "last_played": 1773784133,
+          "avatar": "3889a719a0a2e5061db7048b73d4695d8e029ff3"
+        },
+        "language": "spanish",
+        "review": "This is one of the scariest games I've played recently. The games of these devs are getting only better and better. The story is peak",
+        "timestamp_created": 1772757490,
+        "timestamp_updated": 1772757490,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.657292366027832031",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766476785",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW2qoAAAAAFP+UIiUAAAAB/1/3GBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0150000000003274,
+  "transport_error_count": 0
+}

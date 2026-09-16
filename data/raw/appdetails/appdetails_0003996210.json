@@ -1,0 +1,216 @@
+{
+  "requested_at": "2026-09-13T06:19:58.777762+00:00",
+  "request_params": {
+    "appids": 3996210,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3996210,
+  "payload": {
+    "3996210": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Chef Sin",
+        "steam_appid": 3996210,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a classic 2D platform action jumping and shooting PVP game, requires two players. Player 1 and Player 2 play as two little chefs, maneuvering between floating platforms, moving up and down, and throwing various food and utensils at each other to knock the opponent off the platform.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Game rules:</p><p class=\"bb_paragraph\" >Players 1 and 2 throw various food utensils at each other;</p><p class=\"bb_paragraph\" >hitting the target will knock them off.Each time an attack occurs, the next knock will send the player flying further, and dying will restart the count.</p><p class=\"bb_paragraph\" >The goal of the game is to knock the opponent off the platform below. Falling off the platform causes a loss of life, with a total of three lives available.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Three types of items:</p><p class=\"bb_paragraph\" >- Jet Wallace: speeds up movement for eight seconds.</p><p class=\"bb_paragraph\" >- Flash Starbucks: speeds up attack speed for eight seconds.</p><p class=\"bb_paragraph\" >- Crab Burger: increases defense, making the player harder to knock back.</p><p class=\"bb_paragraph\" >- Mysterious Box: randomly grants a new weapon.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Four types of weapons:</p><p class=\"bb_paragraph\" >- Fork: shoots horizontal bullets, average attack speed, average knockback.</p><p class=\"bb_paragraph\" >- Mi Xue Bing Cheng: summons the Oriental Pearl TV Tower to shoot lasers, slow attack speed but strong knockback.</p><p class=\"bb_paragraph\" >- Wang Shou Yi Thirteen Spices: short attack range, high thrust, average attack speed.</p><p class=\"bb_paragraph\" >- Popcorn: fast attack speed, average thrust, parabolic attack.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a classic 2D platform action jumping and shooting PVP game, requires two players. Player 1 and Player 2 play as two little chefs, maneuvering between floating platforms, moving up and down, and throwing various food and utensils at each other to knock the opponent off the platform.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Game rules:</p><p class=\"bb_paragraph\" >Players 1 and 2 throw various food utensils at each other;</p><p class=\"bb_paragraph\" >hitting the target will knock them off.Each time an attack occurs, the next knock will send the player flying further, and dying will restart the count.</p><p class=\"bb_paragraph\" >The goal of the game is to knock the opponent off the platform below. Falling off the platform causes a loss of life, with a total of three lives available.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Three types of items:</p><p class=\"bb_paragraph\" >- Jet Wallace: speeds up movement for eight seconds.</p><p class=\"bb_paragraph\" >- Flash Starbucks: speeds up attack speed for eight seconds.</p><p class=\"bb_paragraph\" >- Crab Burger: increases defense, making the player harder to knock back.</p><p class=\"bb_paragraph\" >- Mysterious Box: randomly grants a new weapon.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Four types of weapons:</p><p class=\"bb_paragraph\" >- Fork: shoots horizontal bullets, average attack speed, average knockback.</p><p class=\"bb_paragraph\" >- Mi Xue Bing Cheng: summons the Oriental Pearl TV Tower to shoot lasers, slow attack speed but strong knockback.</p><p class=\"bb_paragraph\" >- Wang Shou Yi Thirteen Spices: short attack range, high thrust, average attack speed.</p><p class=\"bb_paragraph\" >- Popcorn: fast attack speed, average thrust, parabolic attack.</p>",
+        "short_description": "A classic 2D platformer action jumping, shooter PVP game. Player 1 and 2 play as two little chefs who use various foods to battle. On this food continent, the goal is to shoot down the other party and keep staying on platformer. Many food-related weapons and props are for you to explore!",
+        "supported_languages": "Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/6a1ea7ccec954564d733a7b800e7ba54d89c09be/header.jpg?t=1788878795",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/3ff612ae61924f4e79cea1557a340a04748de8b1/capsule_231x87.jpg?t=1788878795",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/3ff612ae61924f4e79cea1557a340a04748de8b1/capsule_184x69.jpg?t=1788878795",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> 任意<br></li><li><strong>Graphics:</strong> 任意</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Little Studio"
+        ],
+        "publishers": [
+          "Little Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1402555
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Chef Sin",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1402555,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "厨师今天不做菜 - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/dae3deac234d4b8a1d70911375a319a161862b43/ss_dae3deac234d4b8a1d70911375a319a161862b43.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/dae3deac234d4b8a1d70911375a319a161862b43/ss_dae3deac234d4b8a1d70911375a319a161862b43.1920x1080.jpg?t=1788878795"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/c9884d0f778405a31b1bd199110e36c91f194a13/ss_c9884d0f778405a31b1bd199110e36c91f194a13.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/c9884d0f778405a31b1bd199110e36c91f194a13/ss_c9884d0f778405a31b1bd199110e36c91f194a13.1920x1080.jpg?t=1788878795"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/e11856fefd029a67397da760b9d24996b85d74a6/ss_e11856fefd029a67397da760b9d24996b85d74a6.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/e11856fefd029a67397da760b9d24996b85d74a6/ss_e11856fefd029a67397da760b9d24996b85d74a6.1920x1080.jpg?t=1788878795"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/beeb69f444fd0db55d019eec291dcbdc191ed805/ss_beeb69f444fd0db55d019eec291dcbdc191ed805.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/beeb69f444fd0db55d019eec291dcbdc191ed805/ss_beeb69f444fd0db55d019eec291dcbdc191ed805.1920x1080.jpg?t=1788878795"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/84b2b834b59e993d2f568ea7647d8b6acfc3b16c/ss_84b2b834b59e993d2f568ea7647d8b6acfc3b16c.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/84b2b834b59e993d2f568ea7647d8b6acfc3b16c/ss_84b2b834b59e993d2f568ea7647d8b6acfc3b16c.1920x1080.jpg?t=1788878795"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/bd43652e42fc9e4ff1616bc101bcce81e620227c/ss_bd43652e42fc9e4ff1616bc101bcce81e620227c.600x338.jpg?t=1788878795",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996210/bd43652e42fc9e4ff1616bc101bcce81e620227c/ss_bd43652e42fc9e4ff1616bc101bcce81e620227c.1920x1080.jpg?t=1788878795"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257190640,
+            "name": "0.1-1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257190640/de0757ecf7a80e0678df2b8b05677873e2cee48f/movie_600x337.jpg?t=1758026539",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3996210/1624363128/9645cce71fd401fd815d5a5c29ad333b5fc8296b/1756460191/dash_av1.mpd?t=1758026539",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3996210/1624363128/9645cce71fd401fd815d5a5c29ad333b5fc8296b/1756460191/dash_h264.mpd?t=1758026539",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3996210/1624363128/9645cce71fd401fd815d5a5c29ad333b5fc8296b/1756460191/hls_264_master.m3u8?t=1758026539",
+            "highlight": true
+          },
+          {
+            "id": 257190526,
+            "name": "0.1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257190526/77c9ac715c669fb52a387039723c55a684cc1338/movie_600x337.jpg?t=1758026542",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3996210/222021894/849ca82feabe5489ba8329783ce00a9771af93e4/1756447634/dash_av1.mpd?t=1758026542",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3996210/222021894/849ca82feabe5489ba8329783ce00a9771af93e4/1756447634/dash_h264.mpd?t=1758026542",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3996210/222021894/849ca82feabe5489ba8329783ce00a9771af93e4/1756447634/hls_264_master.m3u8?t=1758026542",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "euangx@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3996210?t=1788878795",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3996210?t=1788878795",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

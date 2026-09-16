@@ -1,0 +1,66 @@
+{
+  "appid": 1517560,
+  "requested_at": "2026-09-13T18:43:19.123413+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "205733087",
+        "author": {
+          "steamid": "76561198343960932",
+          "personaname": "Yumura",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198343960932/",
+          "num_games_owned": 112,
+          "num_reviews": 2,
+          "playtime_forever": 191,
+          "playtime_last_two_weeks": 33,
+          "playtime_at_review": 122,
+          "last_played": 1789035972,
+          "avatar": "f14c248251679a812f35ad973e286733849e60b1"
+        },
+        "language": "english",
+        "review": "despite the visuals, low poly models and wierd choice/implementation of textures and sound effects, this is a full packed 3d plataformer, I completed the first 2 worlds and so far it has everything you could ask for from this genre, fun plataforming and enemies to deal with, optional challenges, collectables in every corner, fun to explore, responsive controls and the abilities allows you to interact with the enviorment in different ways and you are constantly doing that to reach places and get stuff! and doesnt feel like a chore and I'm really loving it, the levels dont feel too big nor too small.\nI was quite surprised with the fun narrative, songs and voice acting present in almost every dialogue, this game feels very inspired by mario odyssey/galaxy and A Hat in Time, you can tell this game has a lot of passion put into!\n\nI highly recommend this game if you are also thristy for another 3d plataformer and wants that sense of adventure!\n\ntip: check/figure out what each button do if you get stuck trying to figure out a puzzle/action, almost every button of a gamepad does something.",
+        "timestamp_created": 1759451254,
+        "timestamp_updated": 1759451254,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.534752309322357178",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1615931943",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZThIAAAAAFP+EcsEAAAAB/zeeQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,79 @@
+{
+  "appid": 3528970,
+  "requested_at": "2026-09-13T19:20:43.766794+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 204,
+      "total_negative": 51,
+      "total_reviews": 255
+    },
+    "reviews": [
+      {
+        "recommendationid": "209517222",
+        "author": {
+          "steamid": "76561198171604413",
+          "personaname": "Des",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198171604413/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 259,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 259,
+          "last_played": 1763435289,
+          "avatar": "498849ef626e484b8928997f43db37762bb5d84f"
+        },
+        "language": "english",
+        "review": "I both would and would not recommend this game. There is only 4 hours of game play for a $30 game (26.99 with the discount) with no replayability. The jump scares and creepy vibe are fantastic, but the story and amount of content is lacking. If it were $10 or if it was more like 10 hours of game play i would say yes for sure, but for the amount i paid i am very disappointed.",
+        "timestamp_created": 1763436768,
+        "timestamp_updated": 1763436768,
+        "voted_up": false,
+        "votes_up": 70,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.796230852603912354",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763402517",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUE0wAAAAAFP+l6uWAAAAB2qp+fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.7970000000000255,
+  "transport_error_count": 0
+}

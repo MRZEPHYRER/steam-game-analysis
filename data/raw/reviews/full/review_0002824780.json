@@ -1,0 +1,71 @@
+{
+  "appid": 2824780,
+  "requested_at": "2026-09-13T18:56:36.305697+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 62,
+      "total_negative": 0,
+      "total_reviews": 62
+    },
+    "reviews": [
+      {
+        "recommendationid": "205219954",
+        "author": {
+          "steamid": "76561198355418034",
+          "personaname": "Ambe",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/h4r4m133/",
+          "num_games_owned": 0,
+          "num_reviews": 46,
+          "playtime_forever": 616,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 604,
+          "last_played": 1765364883,
+          "avatar": "2a8dbc96b3eb9d36390a3d5cec597ceb5413c3dd"
+        },
+        "language": "english",
+        "review": "[b] First, let’s talk gameplay [/b]\nIt’s kind of hard to describe how the game actually plays because I haven’t played anything quite like it. You play grid-based tennis with extra mechanics? I guess? Outside of the primary gameplay loop, it plays like any roguelike worth its salt, with a synergistic, emergent combo system similar to Balatro and Nubby. There are some obvious limbs (read: cards) and tattoos (read: relics/jokers) that feel a bit centralizing, but overall it’s pretty balanced. The way certain traits become game-breaking differs from run to run, so builds don’t end up feeling the same.\n\n[b] Next is presentation and user experience. [/b]\nThe presentation is very unique yet still comprehensible. It’s got that abstract look without feeling like it’s trying too hard. That said, I do think the novelty wears off a bit as you keep playing but that’s more due to the nature of roguelikes. After your 50th run, you won’t be as impressed by how the game looks. Overall though, I love it!\n\nThe user experience is also nearly flawless. I never feel lost, and everything feels like it has a purpose. One criticism I have is the lack of a codex to remind you what each limb does. It’s not essential, there aren’t that many limbs to keep track of but it would be a nice QoL addition. Still, very solid in this department.\n\n\n[b]What really hits the spot for me is the content size.[/b]\nI don’t know why, but I really dislike when a game “overstays its welcome.” I like Balatro, Inscryption, and Slay the Spire, but I don’t love that I basically have to become a hermit for a week to feel satisfied. I get that the appeal of roguelikes is drowning yourself in experimentation and finding new builds but at some point, I just want to play something else or touch some grass.\n\nThis is where Torso Tennis shines compared to other roguelikes. It nails that perfect content size: big enough to dive deep for a couple of days, but not so big that you’re stuck drowning in it for weeks. You take a bite, want seconds and thirds, compliment the chef, and then move on to something else. Call me crazy, but I think this is what a healthy relationship with a game looks like.\n\n\n[b]And the best part?[/b]\nYou can get this healthy, delicious meal for 7.50 AUD or 4.99 USD. I’ve played Indie games three times the price that I dread touching just to “get my money’s worth.” I wish more games released with this kind of price and content size. Honestly, I would’ve paid double if I could.\n\n100% recommend!",
+        "timestamp_created": 1758869974,
+        "timestamp_updated": 1758870789,
+        "voted_up": true,
+        "votes_up": 27,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.699311733245849609",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758726143",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWA4YAAAAAFP+Zgw4AAAAByh+2OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

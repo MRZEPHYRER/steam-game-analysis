@@ -1,0 +1,68 @@
+{
+  "appid": 3002630,
+  "requested_at": "2026-09-13T19:00:34.182294+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224855721",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 737,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 737,
+          "last_played": 1777748286,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Dionysus, created by Brady Marchand and published by Catsle Studios, is an introspective indie experience that leans heavily into atmosphere, symbolism, and interpretive storytelling rather than conventional gameplay structure. From the moment it begins, the game makes it clear that it is not aiming to deliver fast-paced action or complex systems, but instead seeks to immerse the player in a quiet, contemplative journey shaped by mood and ambiguity. Its title hints at mythological inspiration, yet the game does not present a direct retelling or structured narrative tied to those roots, choosing instead to use them as a loose thematic foundation for a more abstract exploration.\n\nThe core of the experience revolves around exploration and environmental observation. Players move through a series of sparse, often surreal spaces that feel deliberately minimal, encouraging them to slow down and absorb the surroundings rather than rush toward objectives. Interaction is limited and straightforward, reinforcing the idea that the game is less about doing and more about experiencing. This design creates a steady, almost meditative pacing that can be compelling for those who appreciate atmospheric immersion, though it may feel uneventful for players expecting more traditional forms of engagement or mechanical depth.\n\nNarrative elements in Dionysus are presented in fragments, often through visual cues, environmental storytelling, or subtle thematic hints rather than direct exposition. The game touches on ideas that can be interpreted in multiple ways, such as identity, perception, and emotional conflict, but it rarely provides clear answers. This ambiguity is one of its defining characteristics, inviting players to project their own meaning onto what they encounter. For some, this open-ended approach can be thought-provoking and rewarding, while for others it may come across as vague or underdeveloped, lacking the structure needed to create a strong narrative payoff.\n\nVisually, the game adopts a subdued and somewhat surreal aesthetic that prioritizes tone over detail. Environments are often simple in construction but are arranged in ways that emphasize mood, using lighting and color to create a sense of atmosphere. There are moments where this approach produces striking imagery, giving the game a distinct identity despite its minimalism. However, the limited variety in these environments can lead to a feeling of repetition, as the visual design does not evolve significantly over time. This reinforces the idea that the experience is more about maintaining a consistent tone than offering visual progression.\n\nThe audio design plays an important role in shaping the overall experience, with ambient sounds and understated musical elements helping to reinforce the game’s contemplative nature. The soundscape complements the slow pacing, enhancing the sense of isolation and introspection that defines much of the journey. While effective in creating mood, it operates within a relatively narrow range, and its impact can diminish slightly as the game continues without introducing new auditory elements.\n\nOne of the most notable aspects of Dionysus is its commitment to a specific artistic direction. It does not attempt to broaden its appeal through more conventional gameplay systems or clearer storytelling, instead focusing entirely on delivering a niche experience that prioritizes interpretation and atmosphere. This makes it particularly appealing to players who enjoy experimental or art-driven games, but it also limits its accessibility. Those looking for progression systems, challenges, or interactive complexity may find the experience too restrained to hold their interest.\n\nIn terms of longevity, the game is relatively short and offers little incentive for replay. Without branching paths, significant player choices, or hidden systems to uncover, most of what the game has to offer is experienced in a single playthrough. Its value lies in the impression it creates during that time rather than in any lasting gameplay loop. This makes it feel more like an interactive piece of art than a traditional game designed for repeated engagement.\n\nUltimately, Dionysus is a quiet and focused project that succeeds in creating a distinctive atmosphere, even if it struggles to provide depth beyond that initial impression. It offers a reflective and often ambiguous journey that will resonate most with players who appreciate mood-driven experiences and are comfortable drawing their own conclusions. While it may not leave a strong impact for everyone, it stands as a clear example of a game that prioritizes artistic expression over conventional design.\n\nRating: 6/10",
+        "timestamp_created": 1778017077,
+        "timestamp_updated": 1778017077,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1778452939,
+        "developer_response": "You have 12 hours on my game, and yet say nothing about cards or pong. Am I the problem?",
+        "app_release_date": "1751745608",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB56uDZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.3279999999999745,
+  "transport_error_count": 0
+}

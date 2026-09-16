@@ -1,0 +1,75 @@
+{
+  "appid": 1989960,
+  "requested_at": "2026-09-13T18:46:28.751439+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "209150052",
+        "author": {
+          "steamid": "76561197989298468",
+          "personaname": "Yogen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/yogen88/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1763068220,
+          "avatar": "3f71a926b7eb4f204d2d7a7d827dbf39f4016677"
+        },
+        "language": "english",
+        "review": "I played the demo quite a bit too, because It scratches an itch from long ago. Gives me flashbacks to Elasto Mania, trying to carve off those last milliseconds in the time trials with bouncing off walls just the right way.\n\nThe multiplayer? Well, I'm not quite good yet with landing those skill-shots, but I'm pretty amazing at flying into moving sawblades. Can recommend, it will smash your elite gamer ego in no time! :D",
+        "timestamp_created": 1763069671,
+        "timestamp_updated": 1763069671,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558011054992675781",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763053144",
+        "reactions": [
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFY1vwAAAAAFP+HbOeAAAAB0huydBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8599999999999,
+  "transport_error_count": 0
+}

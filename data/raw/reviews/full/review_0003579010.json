@@ -1,0 +1,71 @@
+{
+  "appid": 3579010,
+  "requested_at": "2026-09-13T19:23:54.811068+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 8,
+      "total_negative": 0,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "208525683",
+        "author": {
+          "steamid": "76561197969690646",
+          "personaname": "///",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/surasshu/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 326,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "last_played": 1762426373,
+          "avatar": "c753c8673f13f3e2730da0d61aaf43f49c736e01"
+        },
+        "language": "english",
+        "review": "i almost never write reviews but i feel i have to make an exception for this awesome game that seems to have gone almost entirely under the radar! an arcade romp where you roll a giant 6-sided die around levels and use the 1 side to blast and its entire weight to crush enemy blocks that spawn all around you. \n\nit sits somewhere in between a puzzler and an action game, extremely original. the whole vibe is very PS2-esque, feels a creative idea executed by a few highly skilled people. a good time! \n\nokay, going back in...",
+        "timestamp_created": 1762397955,
+        "timestamp_updated": 1762397955,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.569773852825164795",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756193765",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYmsIAAAAAFP+I7lqAAAABzl7ubBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

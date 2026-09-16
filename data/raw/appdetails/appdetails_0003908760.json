@@ -1,0 +1,289 @@
+{
+  "requested_at": "2026-09-12T17:57:20.852480+00:00",
+  "request_params": {
+    "appids": 3908760,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3908760,
+  "payload": {
+    "3908760": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Rat Race",
+        "steam_appid": 3908760,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Step into the soul-crushing shoes of middle management.</strong></p><p class=\"bb_paragraph\" >You’ve been “promoted” to lead a team of obedient office drones through puzzle-filled corporate mazes disguised as workspaces. Navigate desks, cubicles, and suspiciously dangerous break rooms to meet impossible deadlines — all while your overbearing CEO “motivates” you with constant commentary, questionable ethics, and a complete disregard for workplace safety.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Step into the soul-crushing shoes of middle management.</strong></p><p class=\"bb_paragraph\" >You’ve been “promoted” to lead a team of obedient office drones through puzzle-filled corporate mazes disguised as workspaces. Navigate desks, cubicles, and suspiciously dangerous break rooms to meet impossible deadlines — all while your overbearing CEO “motivates” you with constant commentary, questionable ethics, and a complete disregard for workplace safety.</p>",
+        "short_description": "A satirical puzzle-strategy game where you command a team of office drones through absurd corporate obstacle courses while enduring constant “motivation” from your overbearing CEO.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/548e8efb0333b7236c5968dae213daa3b188204c/header.jpg?t=1759461712",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/430c0abf0830c45a3da075c42548b242af287a35/capsule_231x87.jpg?t=1759461712",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/430c0abf0830c45a3da075c42548b242af287a35/capsule_184x69.jpg?t=1759461712",
+        "website": "https://www.shortsightstudios.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 - 64-bit<br></li><li><strong>Processor:</strong> Intel® Core™ i5-2500K / AMD FX-6300<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 Big Sur or later<br></li><li><strong>Processor:</strong> Intel Core i5 quad-core @ 2.3 GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 integrated GPU<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 LTS (64-bit) or later (or equivalent distro with GLIBC 2.31+)<br></li><li><strong>Processor:</strong> Intel® Core™ i5-2500K / AMD FX-6300<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "developers": [
+          "Short Sight Studios"
+        ],
+        "publishers": [
+          "Short Sight Studios"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1373688
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Rat Race",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1373688,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Rat Race - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/540723bc80a37bb42ca3163cc066f80789aa31e7/ss_540723bc80a37bb42ca3163cc066f80789aa31e7.600x338.jpg?t=1759461712",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/540723bc80a37bb42ca3163cc066f80789aa31e7/ss_540723bc80a37bb42ca3163cc066f80789aa31e7.1920x1080.jpg?t=1759461712"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/2d158f4dca599b577b947cbc562e9930b24b4a45/ss_2d158f4dca599b577b947cbc562e9930b24b4a45.600x338.jpg?t=1759461712",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/2d158f4dca599b577b947cbc562e9930b24b4a45/ss_2d158f4dca599b577b947cbc562e9930b24b4a45.1920x1080.jpg?t=1759461712"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/69358865a97480344dd008cdb53babd0ec38dcfe/ss_69358865a97480344dd008cdb53babd0ec38dcfe.600x338.jpg?t=1759461712",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/69358865a97480344dd008cdb53babd0ec38dcfe/ss_69358865a97480344dd008cdb53babd0ec38dcfe.1920x1080.jpg?t=1759461712"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/43cbb7ccb22574ca405bc4d9aae4b0b40d95e944/ss_43cbb7ccb22574ca405bc4d9aae4b0b40d95e944.600x338.jpg?t=1759461712",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/43cbb7ccb22574ca405bc4d9aae4b0b40d95e944/ss_43cbb7ccb22574ca405bc4d9aae4b0b40d95e944.1920x1080.jpg?t=1759461712"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/91071f5b643f404cc1f22ec80bd050e0ab3a375c/ss_91071f5b643f404cc1f22ec80bd050e0ab3a375c.600x338.jpg?t=1759461712",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908760/91071f5b643f404cc1f22ec80bd050e0ab3a375c/ss_91071f5b643f404cc1f22ec80bd050e0ab3a375c.1920x1080.jpg?t=1759461712"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257191986,
+            "name": "Rat Race Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257191986/ecf57779453781327e144ac190b588c64bbce93c/movie_600x337.jpg?t=1756785560",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3908760/1059239831/894d29ae03b650671d9ba2c76c01a539f3db4f51/1756784664/dash_av1.mpd?t=1756785560",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3908760/1059239831/894d29ae03b650671d9ba2c76c01a539f3db4f51/1756784664/dash_h264.mpd?t=1756785560",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3908760/1059239831/894d29ae03b650671d9ba2c76c01a539f3db4f51/1756784664/hls_264_master.m3u8?t=1756785560",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "57ecc00976163c00a2647df19ca5aabad0ee4464.jpg",
+              "localized_name": "The First Cut",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The First Cut",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/57ecc00976163c00a2647df19ca5aabad0ee4464.jpg"
+            },
+            {
+              "icon": "fe652f1d42e023297aea26fa2bf6598ac7b7a14a.jpg",
+              "localized_name": "Restructuring",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Restructuring",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/fe652f1d42e023297aea26fa2bf6598ac7b7a14a.jpg"
+            },
+            {
+              "icon": "197eb8b23cd56722511dfd28f4a46924ada6ae8d.jpg",
+              "localized_name": "The Don of Downsizing",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Don of Downsizing",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/197eb8b23cd56722511dfd28f4a46924ada6ae8d.jpg"
+            },
+            {
+              "icon": "d7a2dc1c3e792438b3237f1558838b2cfc45dab5.jpg",
+              "localized_name": "Overachiever",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Overachiever",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/d7a2dc1c3e792438b3237f1558838b2cfc45dab5.jpg"
+            },
+            {
+              "icon": "5a740a6616c416158364686b57871cd39c7228a1.jpg",
+              "localized_name": "Bigger Fish",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Bigger Fish",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/5a740a6616c416158364686b57871cd39c7228a1.jpg"
+            },
+            {
+              "icon": "94e2aa5f7abd0abbaf00cdfc479b3ba2b7fd793c.jpg",
+              "localized_name": "Unemployed",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Unemployed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/94e2aa5f7abd0abbaf00cdfc479b3ba2b7fd793c.jpg"
+            },
+            {
+              "icon": "96c5f755e57fa856d123b8482196ef3a54f7244e.jpg",
+              "localized_name": "Corporate Calamity",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Corporate Calamity",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/96c5f755e57fa856d123b8482196ef3a54f7244e.jpg"
+            },
+            {
+              "icon": "ad9d5cca0759b3d10e9ac04ffab3199a667c41c8.jpg",
+              "localized_name": "Watch Your Back",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Watch Your Back",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/ad9d5cca0759b3d10e9ac04ffab3199a667c41c8.jpg"
+            },
+            {
+              "icon": "d170955433d441f85569750fb63b63113f3a472a.jpg",
+              "localized_name": "Occupational Hazard",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Occupational Hazard",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/d170955433d441f85569750fb63b63113f3a472a.jpg"
+            },
+            {
+              "icon": "666dee1872ceccd62090000e11c9f4684bbd7321.jpg",
+              "localized_name": "Essential Effort",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Essential Effort",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3908760/666dee1872ceccd62090000e11c9f4684bbd7321.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "shortsightstudiohelp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3908760?t=1759461712",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3908760?t=1759461712",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "This game contains strong language, dark humor, and satirical depictions of workplace exploitation. The CEO character frequently makes crude, insulting, and morally questionable remarks.\r\nIt does not contain sexual acts, depictions of sexual assault, or realistic violence. However, it does feature:\r\n\r\nCartoonish slapstick violence (e.g., employees being squashed by office hazards)\r\n\r\nReferences to unethical corporate behavior\r\n\r\nOccasional mentions of alcohol or other vices in a comedic context\r\n\r\nThe content is intended for satire and comedic exaggeration, not to promote harmful behavior."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema\nLinguagem imprópria\nDrogas lícitas"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt\nAlkohol / Tabak\nDerbe Sprache"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nKekerasan\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

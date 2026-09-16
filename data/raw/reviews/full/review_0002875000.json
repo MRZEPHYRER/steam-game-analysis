@@ -1,0 +1,66 @@
+{
+  "appid": 2875000,
+  "requested_at": "2026-09-13T18:57:33.038443+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212932098",
+        "author": {
+          "steamid": "76561198277127041",
+          "personaname": "daldis",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198277127041/",
+          "num_games_owned": 42,
+          "num_reviews": 1,
+          "playtime_forever": 227,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 168,
+          "last_played": 1765819015,
+          "avatar": "e2488d266223b8b19b7eb180647c16c61adb7d7d"
+        },
+        "language": "english",
+        "review": "Found the gameplay very satisfying and the story brilliantly captivating at times. The movement and shooting is fast and responsive allowing for fast paced level clearing and boss fights. In the standard levels, the steadily introduced mechanics allow for slower paced, more puzzle like gameplay as you figure out the best approach for each map. The boss fights themselves utilise the simple movement and shooting mechanics to create touhou-like, reaction based gameplay. \nAs far as the story goes, it is quite intriguing being slowly introduced to the technology of the world and revealing how it has affected the protagonist (without spoiling anything). \nOverall, I would recommend this game for being easy to pick up and immediately satisfying.",
+        "timestamp_created": 1765305825,
+        "timestamp_updated": 1765305825,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.548872172832489014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764849510",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZBcaAAAAAFP+GQXAAAAABy4KKsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.217999999999847,
+  "transport_error_count": 0
+}

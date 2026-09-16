@@ -1,0 +1,131 @@
+{
+  "appid": 2943670,
+  "requested_at": "2026-09-13T18:59:29.537134+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 172,
+      "total_negative": 116,
+      "total_reviews": 288
+    },
+    "reviews": [
+      {
+        "recommendationid": "211286209",
+        "author": {
+          "steamid": "76561198357181002",
+          "personaname": "Viper",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/viperspit0666/",
+          "num_games_owned": 0,
+          "num_reviews": 575,
+          "playtime_forever": 21,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1764282960,
+          "avatar": "4625ace2f2fa70ae90380eaf2e151832b4526980"
+        },
+        "language": "english",
+        "review": "Do not buy their games, the devs abandon everything they make. From haunt chaser, to demonlogist and now this. These devs should be blacklisted.",
+        "timestamp_created": 1764283047,
+        "timestamp_updated": 1764283047,
+        "voted_up": false,
+        "votes_up": 108,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.787967383861541748",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753882209",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 6
+          },
+          {
+            "reaction_type": 32,
+            "count": 4
+          },
+          {
+            "reaction_type": 27,
+            "count": 2
+          },
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUPZwAAAAAFP+k3BqAAAABxjP+lBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.905999999999949,
+  "transport_error_count": 0
+}

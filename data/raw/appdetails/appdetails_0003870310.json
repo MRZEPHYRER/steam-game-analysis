@@ -1,0 +1,304 @@
+{
+  "requested_at": "2026-09-12T17:38:22.406000+00:00",
+  "request_params": {
+    "appids": 3870310,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3870310,
+  "payload": {
+    "3870310": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Quarion",
+        "steam_appid": 3870310,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >You crashland on an unknown planet and is unable to get back to your ship. Explore different environments, unlock new abilities, fight tough foes and find secrets in order to get back to your ship and return home</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A gameplay driven 2D platformer</p></li><li><p class=\"bb_paragraph\" >Explore a world and find new abilities</p></li><li><p class=\"bb_paragraph\" >Fight bosses</p></li><li><p class=\"bb_paragraph\" >Uncover secrets</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A short and simple 2D platformer with many of the abilities you have come to expect from a metroidvania.<br><br>(Trailer music: AiRwolf by Djjaner)</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >You crashland on an unknown planet and is unable to get back to your ship. Explore different environments, unlock new abilities, fight tough foes and find secrets in order to get back to your ship and return home</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A gameplay driven 2D platformer</p></li><li><p class=\"bb_paragraph\" >Explore a world and find new abilities</p></li><li><p class=\"bb_paragraph\" >Fight bosses</p></li><li><p class=\"bb_paragraph\" >Uncover secrets</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A short and simple 2D platformer with many of the abilities you have come to expect from a metroidvania.<br><br>(Trailer music: AiRwolf by Djjaner)</p>",
+        "short_description": "A short 2D pixel-style metroidvania where you explore, fight bosses, aquire items and abilities and find secrets. Inspired by games such as You Have to Win the Game and VVVVVV.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/863adbec1ea30cbbffeff24b1aa45ab4ad0c1cf0/header.jpg?t=1756404914",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/e5ad29cc34aa877c601d0e8f50d7ee4dc6bacc58/capsule_231x87.jpg?t=1756404914",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/e5ad29cc34aa877c601d0e8f50d7ee4dc6bacc58/capsule_184x69.jpg?t=1756404914",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 and newer<br></li><li><strong>Processor:</strong> Intel Core i3-3220 / AMD FX-4100<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card<br></li><li><strong>VR Support:</strong> None<br></li><li><strong>Additional Notes:</strong> Controller support</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 or newer (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-3220 / AMD FX-4100<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 compatible GPU (Intel HD 4000 or better)<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> ALSA-compatible sound card<br></li><li><strong>VR Support:</strong> None<br></li><li><strong>Additional Notes:</strong> Controller support</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Trailer music: AiRwolf by Djjaner - https://www.newgrounds.com/audio/listen/600928",
+        "developers": [
+          "Zejoant"
+        ],
+        "publishers": [
+          "Bootleg Bytes"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1360501
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Quarion",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1360501,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Quarion - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/2022ff17f3230e2208e676c8ffad1a0dbe940216/ss_2022ff17f3230e2208e676c8ffad1a0dbe940216.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/2022ff17f3230e2208e676c8ffad1a0dbe940216/ss_2022ff17f3230e2208e676c8ffad1a0dbe940216.1920x1080.jpg?t=1756404914"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/17974130d1279bc67911779391c1198f8f7c8b22/ss_17974130d1279bc67911779391c1198f8f7c8b22.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/17974130d1279bc67911779391c1198f8f7c8b22/ss_17974130d1279bc67911779391c1198f8f7c8b22.1920x1080.jpg?t=1756404914"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/f9bcb55f4404f05beb5bea865f04abf7a7ca00c8/ss_f9bcb55f4404f05beb5bea865f04abf7a7ca00c8.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/f9bcb55f4404f05beb5bea865f04abf7a7ca00c8/ss_f9bcb55f4404f05beb5bea865f04abf7a7ca00c8.1920x1080.jpg?t=1756404914"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/3dfd9d9ccec5d8d025c4c90ef59cd49cb388dd60/ss_3dfd9d9ccec5d8d025c4c90ef59cd49cb388dd60.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/3dfd9d9ccec5d8d025c4c90ef59cd49cb388dd60/ss_3dfd9d9ccec5d8d025c4c90ef59cd49cb388dd60.1920x1080.jpg?t=1756404914"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/db21c9b7b21d61baef05b9dc1e76d2587248d990/ss_db21c9b7b21d61baef05b9dc1e76d2587248d990.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/db21c9b7b21d61baef05b9dc1e76d2587248d990/ss_db21c9b7b21d61baef05b9dc1e76d2587248d990.1920x1080.jpg?t=1756404914"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/38333a9ef6772d978bf3dfd93b7d6f43bb6fec5f/ss_38333a9ef6772d978bf3dfd93b7d6f43bb6fec5f.600x338.jpg?t=1756404914",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/38333a9ef6772d978bf3dfd93b7d6f43bb6fec5f/ss_38333a9ef6772d978bf3dfd93b7d6f43bb6fec5f.1920x1080.jpg?t=1756404914"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257167253,
+            "name": "Quarion Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257167253/f4159d312c723e8341daedea8d1b8da8ad4f70d6/movie_600x337.jpg?t=1756404912",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3870310/1273857557/bb2a20b7e8560c03ac82fb35715f2f8bd61ca06f/1756403449/dash_av1.mpd?t=1756404912",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3870310/1273857557/bb2a20b7e8560c03ac82fb35715f2f8bd61ca06f/1756403449/dash_h264.mpd?t=1756404912",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3870310/1273857557/bb2a20b7e8560c03ac82fb35715f2f8bd61ca06f/1756403449/hls_264_master.m3u8?t=1756404912",
+            "highlight": true
+          }
+        ],
+        "recommendations": {
+          "total": 166
+        },
+        "achievements": {
+          "total": 17,
+          "highlighted": [
+            {
+              "icon": "6790ec326551ce9b361e9360976ecf7481e1eda1.jpg",
+              "localized_name": "Why so Blue?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Why so Blue?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/6790ec326551ce9b361e9360976ecf7481e1eda1.jpg"
+            },
+            {
+              "icon": "2a657071d0d19c3f125792da283931286308b9de.jpg",
+              "localized_name": "Friendly Neighborhood…",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Friendly Neighborhood…",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/2a657071d0d19c3f125792da283931286308b9de.jpg"
+            },
+            {
+              "icon": "20927681cd70207c70514df1c2ca17f501cd006f.jpg",
+              "localized_name": "Gotta Go Fast",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gotta Go Fast",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/20927681cd70207c70514df1c2ca17f501cd006f.jpg"
+            },
+            {
+              "icon": "d9bf926a7b701c0b9227a6d1b9afbcf44be00437.jpg",
+              "localized_name": "Booooots!!!!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Booooots!!!!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/d9bf926a7b701c0b9227a6d1b9afbcf44be00437.jpg"
+            },
+            {
+              "icon": "2b99e6846233bbc5c6fcc584af0ee8b469aa42e2.jpg",
+              "localized_name": "Cold Feet",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cold Feet",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/2b99e6846233bbc5c6fcc584af0ee8b469aa42e2.jpg"
+            },
+            {
+              "icon": "7def4cd501b7ff12c9ba47312d9b4e880b62d31b.jpg",
+              "localized_name": "Through and Through",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Through and Through",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/7def4cd501b7ff12c9ba47312d9b4e880b62d31b.jpg"
+            },
+            {
+              "icon": "419df8b910e5d2802ad01aa7d0b907e8b44fb475.jpg",
+              "localized_name": "Hexecutioner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hexecutioner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/419df8b910e5d2802ad01aa7d0b907e8b44fb475.jpg"
+            },
+            {
+              "icon": "ac560e548a3662abde66252d5759a6cbb4db5c1c.jpg",
+              "localized_name": "You Have to Win the Game",
+              "archived": 0,
+              "hidden": 0,
+              "name": "You Have to Win the Game",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/ac560e548a3662abde66252d5759a6cbb4db5c1c.jpg"
+            },
+            {
+              "icon": "cc8cde3377555843ebab5eeb8b218b6205d9b3ab.jpg",
+              "localized_name": "All's Well That Ends Well",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All's Well That Ends Well",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/cc8cde3377555843ebab5eeb8b218b6205d9b3ab.jpg"
+            },
+            {
+              "icon": "1491a56b0578d421e02cf4bb4154b9b17eb67b92.jpg",
+              "localized_name": "The Whole Picture",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Whole Picture",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3870310/1491a56b0578d421e02cf4bb4154b9b17eb67b92.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "zejoant.hammar@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3870310?t=1756404914",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870310/a291defbabc8535b75654997326258485cbc7f09/page_bg_raw.jpg?t=1756404914",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

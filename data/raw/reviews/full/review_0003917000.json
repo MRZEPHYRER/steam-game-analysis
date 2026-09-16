@@ -1,0 +1,66 @@
+{
+  "appid": 3917000,
+  "requested_at": "2026-09-13T19:59:21.295410+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 20,
+      "total_negative": 2,
+      "total_reviews": 22
+    },
+    "reviews": [
+      {
+        "recommendationid": "218919635",
+        "author": {
+          "steamid": "76561198173600795",
+          "personaname": "curry_roux3",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198173600795/",
+          "num_games_owned": 253,
+          "num_reviews": 6,
+          "playtime_forever": 62,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 61,
+          "last_played": 1780055897,
+          "avatar": "79d3fe5839617eb83a9661071ed021dd56ac8a5b"
+        },
+        "language": "japanese",
+        "review": "100万点突破記念にレビューをば。\n\n[h1]テトリス ｘ 8番出口 = コレ [/h1]\nテトリスのゲーム性と8番出口の異変探しをうまく融合させた、サックリ遊べるテトリス風パズル。\nどちらかが上手ければある程度はゴリ押しできちゃう（流石に異変全ミスしたら100%早期に死ぬ）し、異変を見つけるメリットが非常に大きいのが異変探しゲーの側面をうまく活かしている。\nテトリスゲーとしても、ゲーム後半ほど落下速度も速くなるので必然的に異変特定の難易度も上がってくるので、どちらの側面を取ってもよく出来た良作。\n異変の種類も豊富かつ難易度もピンキリで、思わず吹き出すものやまったく分からないもの、「異変だけどこれ置いちゃダメ？」となるものまであり、まだ見ぬ異変につい期待してしまう。\nただ、上キーでハードドロップ、Ｚが右回転でＸが左回転なのは、他のテトリスをやり込んだ人ほど拒絶反応が出てきそうで…\n\n[b]キーコンフィグができたら完璧だったのに……！！！[/b]",
+        "timestamp_created": 1771729614,
+        "timestamp_updated": 1771729679,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.583333313465118408",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765434542",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYVVYAAAAAFP+KqqgAAAABzrY7DBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

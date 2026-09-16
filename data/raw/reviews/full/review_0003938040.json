@@ -1,0 +1,66 @@
+{
+  "appid": 3938040,
+  "requested_at": "2026-09-13T20:02:45.923596+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 10,
+      "total_negative": 13,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "209816685",
+        "author": {
+          "steamid": "76561199212672521",
+          "personaname": "CamiCrosseyes",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199212672521/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 237,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 237,
+          "last_played": 1763784631,
+          "avatar": "98221057eead7f9aede0e43967ef765449f1dbf8"
+        },
+        "language": "english",
+        "review": "for a cheap game its not bad. definitly got my money's worth out of it. is it a good game though? no, no it is not. its a carbon copy of A Game About Digging hole but with some added potion mechanics and missing the jetpack. it \"mostly\" works but the movement is slippery and hard to control. your jump is pathetic when you dont have the 30 second speed potion which makes getting up a chalenge. yes you can teleport to the main erea but i dont want to do that every time i go a little too far down. the puzzles are only \"puzzling\" because of their poor exicution. for example the ore memory puzzle. you click start, it shows an ore and a crystal in the top left lights up, then it changes to a diffrent ore. you'd assume you have to memorize the first ore it show but no, the ore that is currently in front of you is the one you select. theres another puzzle room that starts with a parkor segment. I cant beat it. the second rock you jump to is too high, you cant actually land on it. you have to land on a tiny invisble cliff to the side of it then jump around to get on top of the rock. the last part of the parkor you jump on an invisible ledge, shuffle over to the second to last rock but for the life of me i cant make the jump to the last rock. i just played hollow knight. i know how to parkor. the platforming in this game is worse than timmys first Roblox map. as for the digging itself; the upgrades are berely noticeable. the only real diffrence is when you get the big drills. but that just makes digging smoother. not really faster.\r\n\r\nTLDR; pretty much just a knock off of A Game About Digging A Hole but slightly worse and with sucky movement. but not a bad game for only $5 CAD",
+        "timestamp_created": 1763785737,
+        "timestamp_updated": 1763785737,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.550239205360412598",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763733031",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY/saAAAAAFP+GbjuAAAAB9xrGgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

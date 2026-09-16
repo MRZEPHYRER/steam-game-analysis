@@ -1,0 +1,229 @@
+{
+  "requested_at": "2026-09-12T14:39:35.767782+00:00",
+  "request_params": {
+    "appids": 3234170,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3234170,
+  "payload": {
+    "3234170": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "CyCall",
+        "steam_appid": 3234170,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Offers unique gameplay mechanic by combining TCG and board game elements.</p></li><li><p class=\"bb_paragraph\" >Numerous cards, broadly classified into units, skills, and items.</p></li><li><p class=\"bb_paragraph\" >The player builds a “book” consisting of 50 cards, and then creates a strategy.</p></li><li><p class=\"bb_paragraph\" >Luck also plays a part in winning or losing, such as moves or card draws based on the roll of the dice.</p></li><li><p class=\"bb_paragraph\" >You can easily compete with your friends and rivals.</p></li></ul><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Video/Live Streaming  Guidelines</h2><p class=\"bb_paragraph\" >Any individual or corporation can post videos and live-stream without prior permission.</p><p class=\"bb_paragraph\" >There are no restrictions on monetization or scope of play.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Offers unique gameplay mechanic by combining TCG and board game elements.</p></li><li><p class=\"bb_paragraph\" >Numerous cards, broadly classified into units, skills, and items.</p></li><li><p class=\"bb_paragraph\" >The player builds a “book” consisting of 50 cards, and then creates a strategy.</p></li><li><p class=\"bb_paragraph\" >Luck also plays a part in winning or losing, such as moves or card draws based on the roll of the dice.</p></li><li><p class=\"bb_paragraph\" >You can easily compete with your friends and rivals.</p></li></ul><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Video/Live Streaming  Guidelines</h2><p class=\"bb_paragraph\" >Any individual or corporation can post videos and live-stream without prior permission.</p><p class=\"bb_paragraph\" >There are no restrictions on monetization or scope of play.</p>",
+        "short_description": "CyCall is a turn-based TCG and dice board game mash-up that offers strategic card and board game experience with its unique game mechanic. Collect cards, build a new deck, and play against your friends!",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/0e80ece17f5812718abf26785f96b2761b47d12d/header.jpg?t=1764068502",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/484e846bc406c5730eef36949083d058ae26f25c/capsule_231x87.jpg?t=1764068502",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/484e846bc406c5730eef36949083d058ae26f25c/capsule_184x69.jpg?t=1764068502",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5 6600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 970<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 16 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Core i7 8700<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1070<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 16 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "PzGames"
+        ],
+        "publishers": [
+          "PzGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1299,
+          "final": 1299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$12.99"
+        },
+        "packages": [
+          1146462
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy CyCall",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1146462,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "CyCall - $12.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/8abab9b188ff2f90b369aaa6eb504eb9aab8d6db/ss_8abab9b188ff2f90b369aaa6eb504eb9aab8d6db.600x338.jpg?t=1764068502",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/8abab9b188ff2f90b369aaa6eb504eb9aab8d6db/ss_8abab9b188ff2f90b369aaa6eb504eb9aab8d6db.1920x1080.jpg?t=1764068502"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/c11dcaa359986f9fc466eb7f0bd646ba2db7d662/ss_c11dcaa359986f9fc466eb7f0bd646ba2db7d662.600x338.jpg?t=1764068502",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/c11dcaa359986f9fc466eb7f0bd646ba2db7d662/ss_c11dcaa359986f9fc466eb7f0bd646ba2db7d662.1920x1080.jpg?t=1764068502"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/f65a11dcc8e152b3b5691bc74d60e385addde6b7/ss_f65a11dcc8e152b3b5691bc74d60e385addde6b7.600x338.jpg?t=1764068502",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/f65a11dcc8e152b3b5691bc74d60e385addde6b7/ss_f65a11dcc8e152b3b5691bc74d60e385addde6b7.1920x1080.jpg?t=1764068502"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/df390074990657298e6890a8843d001210c6a6fa/ss_df390074990657298e6890a8843d001210c6a6fa.600x338.jpg?t=1764068502",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/df390074990657298e6890a8843d001210c6a6fa/ss_df390074990657298e6890a8843d001210c6a6fa.1920x1080.jpg?t=1764068502"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/5e526d2ae79c1041e50b97ef5f2d2762d61c8c17/ss_5e526d2ae79c1041e50b97ef5f2d2762d61c8c17.600x338.jpg?t=1764068502",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234170/5e526d2ae79c1041e50b97ef5f2d2762d61c8c17/ss_5e526d2ae79c1041e50b97ef5f2d2762d61c8c17.1920x1080.jpg?t=1764068502"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257175285,
+            "name": "FirstPreview",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257175285/5cc092921c8cfd6e5246b887c3983a05e36056d2/movie_600x337.jpg?t=1754106204",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3234170/801178715/de0d4cef35bffab01fcb7d88ec38201dc8727378/1753791022/dash_av1.mpd?t=1754106204",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3234170/801178715/de0d4cef35bffab01fcb7d88ec38201dc8727378/1753791022/dash_h264.mpd?t=1754106204",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3234170/801178715/de0d4cef35bffab01fcb7d88ec38201dc8727378/1753791022/hls_264_master.m3u8?t=1754106204",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "pzgames.net+support.cycall@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3234170?t=1764068502",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3234170?t=1764068502",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

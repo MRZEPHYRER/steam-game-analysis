@@ -1,0 +1,66 @@
+{
+  "appid": 3621210,
+  "requested_at": "2026-09-13T19:26:41.508718+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "211512536",
+        "author": {
+          "steamid": "76561198020783204",
+          "personaname": "dtshaw1",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198020783204/",
+          "num_games_owned": 0,
+          "num_reviews": 15,
+          "playtime_forever": 56,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 56,
+          "last_played": 1764453555,
+          "avatar": "6345f5cee46accb2b12ddaf3dc2da77c4f434b2c"
+        },
+        "language": "english",
+        "review": "[strike] This game is unplayable. I can't even complete the tutorial. The mouse does not select anything while clicking like its supposed to. I have clicked the podium at different spots a couple hundred times, and nothing happens. There is no useful keyboard shortcuts either, or at least no menu to see what they are. I'm not entirely sure how a game can release with no visible keyboard settings and faulty mouse support. [/strike]\n\nHolding the mouse button does select an object. It would still be nice if that was said in game. This game feels bare bones right now. I'm going to change the review to a tentative positive review. A lot of work still needs to go into this, before it's ready for a full release. If you're looking at this game as a posibility, my suggestion right now is to wait.",
+        "timestamp_created": 1764367363,
+        "timestamp_updated": 1765344637,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523622035980224609",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764166033",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhw4AAAAAFP+DBguAAAAB4ze2mBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

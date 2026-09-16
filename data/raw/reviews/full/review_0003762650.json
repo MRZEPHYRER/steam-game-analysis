@@ -1,0 +1,66 @@
+{
+  "appid": 3762650,
+  "requested_at": "2026-09-13T19:38:09.451754+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 80,
+      "total_negative": 8,
+      "total_reviews": 88
+    },
+    "reviews": [
+      {
+        "recommendationid": "208369227",
+        "author": {
+          "steamid": "76561198110046502",
+          "personaname": "卿",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/cutecroft/",
+          "num_games_owned": 1794,
+          "num_reviews": 155,
+          "playtime_forever": 191,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 191,
+          "last_played": 1762231033,
+          "avatar": "a2ee4fec0681a5521a9528e6d60d2f843cab14a6"
+        },
+        "language": "schinese",
+        "review": "好评但不推荐。单纯依靠叙事推动的游戏，特别像90年代末00年代初的东西，不满足于叙事的表面连贯，开始通过空间、结构、符号叠置去重新书写。但它没有以一种过渡时代的寓言姿态去解释个体如何在现代化进程中寻找道德，而是紧抓着火车的视听，不断转换着命运的场景。所有角色都被困在一条轨道上，无法逃脱自己的因果。一种时间的制度化。当社会加速，人必须发明一种比时间更慢的方式去感受自己。",
+        "timestamp_created": 1762232889,
+        "timestamp_updated": 1762232889,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.621096193790435791",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755864438",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXk/0AAAAAFP+PgBMAAAAB75O6aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

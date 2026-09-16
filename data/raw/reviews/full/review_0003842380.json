@@ -1,0 +1,66 @@
+{
+  "appid": 3842380,
+  "requested_at": "2026-09-13T19:47:58.061832+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 8,
+      "total_negative": 0,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "209525117",
+        "author": {
+          "steamid": "76561199489251611",
+          "personaname": "des-call",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199489251611/",
+          "num_games_owned": 185,
+          "num_reviews": 47,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1763448984,
+          "avatar": "d97f7ddb1be0ad2e6e14a6edb979bff72f510ca2"
+        },
+        "language": "japanese",
+        "review": "UIのデザインが面白くてよかったです。\n酔いやすい人は注意が必要かもしれません。マウス感度は変えられますが、それでも私は酔ってしまいました。",
+        "timestamp_created": 1763449243,
+        "timestamp_updated": 1763449243,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754029418",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB9l6OfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

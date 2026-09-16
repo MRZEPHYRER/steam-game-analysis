@@ -1,0 +1,66 @@
+{
+  "appid": 3671980,
+  "requested_at": "2026-09-13T19:30:16.719700+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "208218844",
+        "author": {
+          "steamid": "76561199104585933",
+          "personaname": "五花肉",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199104585933/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 77,
+          "last_played": 1762090186,
+          "avatar": "155a817ab0a56d68a09cca0c03408c21235c0823"
+        },
+        "language": "schinese",
+        "review": "闯关模式最好能够修改一下，稍微完善一下人物的移动协调，模拟不同职业的闯关，而不是一味的对战，然后最好后面有联机就非常不错了",
+        "timestamp_created": 1762084231,
+        "timestamp_updated": 1762084615,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759889090",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB8raWaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2969999999995707,
+  "transport_error_count": 0
+}

@@ -1,0 +1,68 @@
+{
+  "appid": 3897330,
+  "requested_at": "2026-09-13T19:56:35.220161+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 33,
+      "total_negative": 1,
+      "total_reviews": 34
+    },
+    "reviews": [
+      {
+        "recommendationid": "213236719",
+        "author": {
+          "steamid": "76561198300824080",
+          "personaname": "Blackstar",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198300824080/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 246,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 204,
+          "last_played": 1784919468,
+          "avatar": "05609f8354e6bbb8e372dd47643871ba678e0175"
+        },
+        "language": "english",
+        "review": "Honestly. I am not sure what i expected. Maybe at the very least Football Coach College Dynasty which is a solid game. This one seems more like a very interesting 5 dollar mobile game at the moment. \n\nAll that being said. This is 1 person making the game, I believe he cares and wants to make the best game possible so i am not here to discredit any of that. I would still get the game just to support the creator so that he feels like its a product worth investing in. \n\nThe concept is amazing, I love OOTP and I love college football sims, This seems like it would be perfect for me, just not there yet for me personally aside from if i had it on my phone for 5 dollars. but yes would recommend still because i can appreciate someone taking the time to make this by themselves.\n\nI have played a couple seasons since. I am trying my best to change my mind but its missing a lot. BUT i got hope. Still looks like the updates are meaningful and the guy cares a lot",
+        "timestamp_created": 1765668974,
+        "timestamp_updated": 1766016705,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.53932422399520874",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1766514978,
+        "developer_response": "What are you looking for?  Maybe I can try to get in the game, or point you in direction of a game that you might like better.",
+        "app_release_date": "1754913039",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZNqmAAAAAFP+FCJGAAAAB/vretBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

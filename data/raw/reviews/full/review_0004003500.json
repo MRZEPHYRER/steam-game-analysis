@@ -1,0 +1,66 @@
+{
+  "appid": 4003500,
+  "requested_at": "2026-09-13T20:10:34.997275+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 5,
+      "total_reviews": 44
+    },
+    "reviews": [
+      {
+        "recommendationid": "205941770",
+        "author": {
+          "steamid": "76561198010046139",
+          "personaname": "ThePaper",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/kkangta2000/",
+          "num_games_owned": 1341,
+          "num_reviews": 658,
+          "playtime_forever": 36,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 36,
+          "last_played": 1759662762,
+          "avatar": "db674e033f42607e3c51094d57dfa0c66ba63b15"
+        },
+        "language": "koreana",
+        "review": "무서운건지 아닌지는 둘째치고 아이디어 자체는 참신하고 좋은데\n문제는 그걸 풀어낼 스토리가 아닌게 아쉽네요. \n게임은 수감자를 한눈팔지 말고 감시하는 평범한 게임이지만\n눈에 보이지 않는 톰이란 인물을 감시하는게 목표인 게임입니다.\n도전과제에 별로 무신경 하다면  플레이타임은 30분 내외이며 내용의 여운보다는 허무함이 남는 게임이 될수도 있습니다.\n방송하시는 분들이나 도전의식이 있으신 분들은 괜찮지만\n그렇지 않은 일반인 분들에게는 비추천을 하며 \n만약에 그래도 해야 한다고 생각되시면 마음의 준비를 하시길 바랍니다.\n저같은 경우 그냥 개발자님이 다음에 좋은게임을 만들겠지 라는 생각으로 그냥 '무'로 들아갔습니다.\n\n[url=https://store.steampowered.com/curator/45555420-%25EB%258D%2594%25ED%258E%2598%25EC%259D%25B4%25ED%258D%25BC%25EC%2599%2580-%25EA%25B2%258C%25EC%259E%2584%25ED%2595%2598%25EA%25B8%25B0/]Steam Curator ThePaper <--큐레이터 주소[/url]",
+        "timestamp_created": 1759664407,
+        "timestamp_updated": 1759664407,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.602272748947143555",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759359643",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX9F0AAAAAFP+NF0gAAAAB6wM2RBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

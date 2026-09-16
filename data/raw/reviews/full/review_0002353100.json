@@ -1,0 +1,66 @@
+{
+  "appid": 2353100,
+  "requested_at": "2026-09-13T18:50:00.097492+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "210003072",
+        "author": {
+          "steamid": "76561198047645544",
+          "personaname": "Urddrup",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198047645544/",
+          "num_games_owned": 851,
+          "num_reviews": 1,
+          "playtime_forever": 2272,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1388,
+          "last_played": 1764761186,
+          "avatar": "92e14384eb5e75026a78e0a97a10e7d487157feb"
+        },
+        "language": "japanese",
+        "review": "ランごとに自動生成された森の中で、\n昼と夜のふたつの異なったゲームモードを繰り返しながら、数サイクル後に待ち受ける各ステージのボスを倒すのが目的のストーリー感強めのローグライトアクションゲームです。\nやや小規模な印象も受けましたが(全4ステージ+クリア後にエンドレスモード解禁)、物足りなさは感じませんでしたのでお薦めします。\n\n個人的に気に入ったのが以下の三点です。\n・「夜にそなえてクラフトと採集を行う昼フェイズ」と\n「時間いっぱいまで戦闘し続ける夜フェイズ」の両方にレベルアップ(特別な能力を三択で獲得)があるので、\n夜間はもとより戦闘のない昼が単調ではなくなるのが良いです。\n\n・「とてもつらい出来事に対して勇気をもって向き合う」というキャラクターのストーリーと\n「ボスを倒すためには暗闇によるダメージを覚悟して光源から踏み出さなくてはならない」というプレイヤーのゲーム体験が強くリンクしていて強烈に印象に残りました。\n\n・派手さは控え目ですが、ピクセルアートがとても丁寧に作られています。\n夢の中へのベースキャンプとなる主人公の子供部屋をはじめとして\n極めつけはカットシーンでの背景美術や二頭身キャラの細かな演技でしょうか。\n表情豊かなバストアップのグラフィックも加わって、物語や主人公の魅力を強く感じられました。\nクラシックな絵柄もこの物語にマッチしていていいと思います。\n\n\n総じて、プレイ中定期的に何か楽しいことが起こる/起こせるゲーム設計や\n存在感はあるけどゲームの邪魔にならない規模感で並走してくれる物語や登場人物など\n細かなところまで手を抜かず高いレベルでまとまった誠実なゲームという印象です。\nまずストーリーやキャラクター、アートスタイルから入るタイプで\nランに失敗しながらコツコツ強くしていくローグライクも好き、という方に特におすすめです。\n明るさ設定を強めにして難易度を「カジュアル」にすればエンディングまで到達できるはずです。\n\n\n思いつく注意点としては以下三点です。\n・虫(芋虫など)や魚を素手で捕まえる作業がゲーム内でほぼ必須なので\nそれらが苦手な方は避けたほうがいいかもしれません。\n\n・純粋なヴァンパイアサバイバー系やツインスティックシューター系のような\nエクストリームな体験や高コスパ的なものはそこまで期待できないと思います。\n\n・後半のステージは1プレイにかなり時間を使うので(30分以上)\nまとまった時間をとりづらい方には厳しめかなと思います。\n\n以上になります。お読みいただきありがとうございました。",
+        "timestamp_created": 1763982788,
+        "timestamp_updated": 1763982788,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761238968",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABwyIyhBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

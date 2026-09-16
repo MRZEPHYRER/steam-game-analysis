@@ -1,0 +1,66 @@
+{
+  "appid": 3918230,
+  "requested_at": "2026-09-13T19:59:33.957107+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 43,
+      "total_negative": 1,
+      "total_reviews": 44
+    },
+    "reviews": [
+      {
+        "recommendationid": "206687250",
+        "author": {
+          "steamid": "76561199851787371",
+          "personaname": "白猫",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199851787371/",
+          "num_games_owned": 60,
+          "num_reviews": 83,
+          "playtime_forever": 78,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 78,
+          "last_played": 1759371754,
+          "avatar": "a41301d4b9e1d39dda8f88f1c057b74f846482c7"
+        },
+        "language": "schinese",
+        "review": "打到艺术节结束附近，无成就\n\n有点不忍心打破100%好评率，但还是评价一下吧\n整个剧情虽然挺校园青春的，但就是太平淡了，白开水风格，推不动了\n也可能和年龄有关，说不定真正怀念青春的时候就会喜欢这类作品了（w",
+        "timestamp_created": 1760416664,
+        "timestamp_updated": 1760416664,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.626436829566955566",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755243565",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXeKSAAAAAFP+QLxaAAAABywbmUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

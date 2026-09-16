@@ -1,0 +1,71 @@
+{
+  "appid": 1995980,
+  "requested_at": "2026-09-13T18:46:33.049992+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 4,
+      "total_negative": 3,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "205952334",
+        "author": {
+          "steamid": "76561198017657822",
+          "personaname": "Trim",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/thereadmenace/",
+          "num_games_owned": 1218,
+          "num_reviews": 42,
+          "playtime_forever": 908,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 908,
+          "last_played": 1759591296,
+          "avatar": "04bb7e36a0d126ac827268b15b8af6a4ab8a31cd"
+        },
+        "language": "english",
+        "review": "Awful. Do not pick this up. I paid $2 so that you don't have to.\r\n\r\nI kinda already hate the trend of mini-window games that run on the bottom / side of a monitor. Most are so shallow in mechanics and interaction that there's nothing \"fun\" about them. Let 'em sit idle a while, check back to upgrade one or two things, maybe watch the game play itself for a short bit, then repeat. They're uninteresting time gates. And a warning to everyone: Desktop Pachinko Idle is the worst example of them all. \r\n\r\nThe loop:\r\nBalls auto drop, navigate an uninteresting play field to reach the bottom, and if you're lucky they drop into a scoring zone to reward currency. Your input options consist of setting the angle at which balls drop, stopping the auto fire, and restarting auto fire. ...That's it. How exhilarating!\r\n\r\nYou have a limited number of balls to drop, and you have to get pretty lucky for enough to hit scoring zones to replenish them as quickly as they fire. To compensate, the game gives free currency once per minute that automatically converts to balls to keep the action going whenever you run out.\r\n\r\nSo here's how you actually play the game:\r\nTurn off auto fire. Let the game run for hours to build up currency. Buy an upgrade that gives you a x12 improvement to your base currency generation every minute. Turn on auto fire. Let the game play itself until you get the 100,000 currency achievement. Close it forever.\r\n\r\nJust don't bother.",
+        "timestamp_created": 1759672646,
+        "timestamp_updated": 1759672646,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.566929101943969727",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758719534",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYqVMAAAAAFP+IkSEAAAAB+1NKRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2349999999999,
+  "transport_error_count": 0
+}

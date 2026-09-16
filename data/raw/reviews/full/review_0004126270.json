@@ -1,0 +1,66 @@
+{
+  "appid": 4126270,
+  "requested_at": "2026-09-13T20:20:59.214842+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "212126672",
+        "author": {
+          "steamid": "76561199551558457",
+          "personaname": "Ubbe",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199551558457/",
+          "num_games_owned": 232,
+          "num_reviews": 6,
+          "playtime_forever": 36,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 36,
+          "last_played": 1764533259,
+          "avatar": "d238ee73e125252e4a4ab5cc0ae3982df5af5c96"
+        },
+        "language": "brazilian",
+        "review": "Ótimo jogo pra quem quiser passar o tempo, eu recomendo",
+        "timestamp_created": 1764533338,
+        "timestamp_updated": 1764533338,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763100102",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFlAAAAAAAAFP+AAAAAAAABwvZmpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.17200000000048,
+  "transport_error_count": 0
+}

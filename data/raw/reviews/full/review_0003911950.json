@@ -1,0 +1,81 @@
+{
+  "appid": 3911950,
+  "requested_at": "2026-09-13T19:58:43.182484+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 2,
+      "total_negative": 3,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "204522508",
+        "author": {
+          "steamid": "76561198100942529",
+          "personaname": "atmur",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/ohcoolcustomids/",
+          "num_games_owned": 0,
+          "num_reviews": 70,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1758075626,
+          "avatar": "ab3d23cac96e94adb971df267ee0327a568c18a7"
+        },
+        "language": "english",
+        "review": "Filled with AI generated crap. Even the controller layout in settings is AI generated for some reason?",
+        "timestamp_created": 1758074787,
+        "timestamp_updated": 1758074787,
+        "voted_up": false,
+        "votes_up": 33,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.747817277908325195",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1758491207,
+        "developer_response": "Hello, thank you for your comment.\n\nOnly 1% of the content in this game is made by AI and the rest is made by creative and professional game developers.\nPlease do not destroy the game\nThis game shows the power of independent game developers in using the power of the Unity engine",
+        "app_release_date": "1757884049",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 3
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWCr8AAAAAFP+fuziAAAAB8wJiMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

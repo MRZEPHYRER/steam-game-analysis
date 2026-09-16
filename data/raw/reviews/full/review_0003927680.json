@@ -1,0 +1,66 @@
+{
+  "appid": 3927680,
+  "requested_at": "2026-09-13T20:01:07.914157+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 6,
+      "total_negative": 3,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "210547853",
+        "author": {
+          "steamid": "76561199071859443",
+          "personaname": "RedDuelist",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/RedDuelist/",
+          "num_games_owned": 2005,
+          "num_reviews": 169,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1764087101,
+          "avatar": "7028499b797ffd97e4076a81d945e903790ef673"
+        },
+        "language": "english",
+        "review": "Way too tedious and slow, AI usage in the graphics and 1 map with 1 boss, even though the price is just about 2 euros; I wouldn't recommend putting your time into it personally.",
+        "timestamp_created": 1764087242,
+        "timestamp_updated": 1764087242,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.558925986289978027",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760979795",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY0vGAAAAAFP+HhsIAAAAB9yJajBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

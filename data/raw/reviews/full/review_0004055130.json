@@ -1,0 +1,66 @@
+{
+  "appid": 4055130,
+  "requested_at": "2026-09-13T20:16:03.989850+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 1,
+      "total_negative": 3,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "209606480",
+        "author": {
+          "steamid": "76561198106459207",
+          "personaname": "DonnyShamrock",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198106459207/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1763533087,
+          "avatar": "be0f2a11c0e27edff9ebd6f3a1f4559a3da6d6e7"
+        },
+        "language": "english",
+        "review": "Found out about it thru the devs posting on Reddit, played it. This review is more of constructive criticism for the devs than it is a testimonial for prospective players.\n\nI'd like to preface by saying its great you finished a project to completion and got it out there in the world, super cool. I love little short horror games and the world needs more of them. That being said there is much to improve upon, especially if you're gonna make an anthology out of it. For starters, the art style. I get like maybe you don't wanna do what everyone else does and make a ps1 style game but the art style of this one, while not ugly per se, wasn't really unsettling and kinda took me out of the immersion. You've got alot going on in the sets and the environment is pretty dense and busy, which is cool, but there was an overall lack of atmosphere in my opinion.\n\nSecond is the NPCs and dialogue. Im not gonna sweat ya too much on the voice acting or anything cause i presume its your first game and i think its a great start, and maybe this is just my zoomer brained fried attention span, but the NPC interactions were a little more drawn out than they needed to be. The opening scene in the cop car was cool and for the sake of world building i think you had the right idea, but it went on for a bit long and so did some of the other interactions. For a game that's less than an hour long, you don't gotta dump so much exposition into it. It seems like you were maybe trying to make the protagonist more likeable or familiar to the player in order for the ending to hit harder? Again, i think you're onto to something, but this ain't it. Less is more with these short horror experiences. \n\nLastly I'm gonna talk overall gameplay. When I play these types of games I'm not expecting Resident Evil 7 or anything like that but the overall pace felt a little clunky and slow. The character moves slowly, movement doesnt flow as nice as I would've liked, I found I was able to clip thru some environmental objects, the pistol would fire when I crouched, the cutscene in the cop car at the start wouldn't end unless you skipped it(having text saying you can skip them smack dap in the middle of the screen was pretty immersion breaking), and the transitions when entering and exiting the vents were pretty sloppy.\n\nOverall a great start for a rising developer, but I think you can do alot better. Can't honestly say I'd recommend it, but I'm not gonna refund it cause I can tell alot of care went into this project and you got something that I believe could be good. Like I said above, the world needs more of these short indie horror experiences so keep it up.",
+        "timestamp_created": 1763535498,
+        "timestamp_updated": 1763535498,
+        "voted_up": false,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.647871494293212891",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763340664",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW/c2AAAAAFP+TQUIAAAABw9cqfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

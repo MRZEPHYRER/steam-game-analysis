@@ -1,0 +1,66 @@
+{
+  "appid": 3374840,
+  "requested_at": "2026-09-13T19:13:05.790291+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 8,
+      "total_negative": 0,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "206694611",
+        "author": {
+          "steamid": "76561199573097884",
+          "personaname": "ryanturner588",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199573097884/",
+          "num_games_owned": 222,
+          "num_reviews": 3,
+          "playtime_forever": 113,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 113,
+          "last_played": 1760389536,
+          "avatar": "79b5c91da12b6907a6fad1e58bca2c5b393865c1"
+        },
+        "language": "english",
+        "review": "The gameplay is there its really fun to play with friends but its lacking in other departments remote play isn't the answer to play with your friends and literally is only offline multiplayer. I recommend on its gameplay but anything else id say wait until its out of early access",
+        "timestamp_created": 1760428163,
+        "timestamp_updated": 1760428163,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.593337357044219971",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760105866",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYIh2AAAAAFP+L8neAAAABzjb2UBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

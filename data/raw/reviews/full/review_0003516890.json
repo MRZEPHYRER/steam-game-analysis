@@ -1,0 +1,66 @@
+{
+  "appid": 3516890,
+  "requested_at": "2026-09-13T19:20:11.816029+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 14,
+      "total_negative": 12,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "207896913",
+        "author": {
+          "steamid": "76561198004521112",
+          "personaname": "THE BUTCHER",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198004521112/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 34,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 34,
+          "last_played": 1761764556,
+          "avatar": "f116e5ffe30ba7459c3e34fa0c0d52ea07dfdb00"
+        },
+        "language": "german",
+        "review": "Leider clumsy, buggy und unfertig. Pistolen nach jedem verbrauchten Magazin neu laden, ja. \"Granatwerfer\" nach jedem Schuss neu laden … eher suboptimal. Mitspieler konnte eben nicht mehr agieren, hatte bei sich eine Flasche in der Hand, bei mir einen Hammer. Verlassen zur Lobby bringt nichts, Spiel muss neu gestartet werden.\n\nMeiner Meinung nach hätte hier noch ganz viel Liebe ran gemusst. Kein Springen, eher schwammige Bewegung, kein Nachladen beim Rennen, über Waffe zielen funktioniert auch nicht immer, vor allem nach dem Nachladen. Trotz Headshots werden Treffer nicht gezählt. Charakter bewegt sich zu schwammig, 80er Neon-Zombies wobblen massiv hin und her, eher unlustig.\n\nMan ist auch an die vom Entwickler eingestellte Key Belegung gebunden. Ich würde gerne meine Keys so legen, wie ich das möchte. Man fühlt sich sehr bevormundet. \n\nAvatare erinnern an die Wii oder XBOX 360\n\nIst die Kohle leider nicht wert.\nSehe gerade, die erste Rezension ist positiv, für ein kostenlos erhaltenes Game, das wundert mich dann nicht.\n\nUpdate: Eben nochmal der Fairness halber probiert. Die Charaktere buggen umeinander hin und her, dabei wird einem schlecht. Bei meinem Kumpel schieße ich mit den bloßen Händen, obwohl ich einen Revolver habe.\n\nDefinitiv Rückerstattung.",
+        "timestamp_created": 1761764027,
+        "timestamp_updated": 1761765556,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.668935894966125488",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761751816",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWo1AAAAAAFP+VhGYAAAABxlYiZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

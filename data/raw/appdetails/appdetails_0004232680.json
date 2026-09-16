@@ -1,0 +1,209 @@
+{
+  "requested_at": "2026-09-13T07:26:45.482794+00:00",
+  "request_params": {
+    "appids": 4232680,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4232680,
+  "payload": {
+    "4232680": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Last Gift",
+        "steam_appid": 4232680,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>&quot;The house seemed empty. Now the only goal is to get out alive.&quot;</strong></h2><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><i><strong>Story:</strong></i><br>The protagonist came for easy loot — but found a silence that seems to watch his every step.<br>Each room holds someone else’s pain, forgotten toys, and letters no one was meant to read…</p><p class=\"bb_paragraph\" >Average playtime: <strong>30–40 minutes</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><i><strong>Key Features:</strong></i></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Atmospheric Christmas-themed horror.</p></li><li><p class=\"bb_paragraph\" >Realistic graphics.</p></li><li><p class=\"bb_paragraph\" >An emotional, engaging story revealed through notes and the character’s thoughts.</p></li><li><p class=\"bb_paragraph\" >Jumpscares and chilling moments that will make you hold your breath.</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>&quot;The house seemed empty. Now the only goal is to get out alive.&quot;</strong></h2><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><i><strong>Story:</strong></i><br>The protagonist came for easy loot — but found a silence that seems to watch his every step.<br>Each room holds someone else’s pain, forgotten toys, and letters no one was meant to read…</p><p class=\"bb_paragraph\" >Average playtime: <strong>30–40 minutes</strong>.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><i><strong>Key Features:</strong></i></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Atmospheric Christmas-themed horror.</p></li><li><p class=\"bb_paragraph\" >Realistic graphics.</p></li><li><p class=\"bb_paragraph\" >An emotional, engaging story revealed through notes and the character’s thoughts.</p></li><li><p class=\"bb_paragraph\" >Jumpscares and chilling moments that will make you hold your breath.</p></li></ul>",
+        "short_description": "You came for loot on Christmas night, but found someone who has no intention of letting you go.",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/568e6e600eafd056abf7e213a047b6e1bb378e2b/header.jpg?t=1766697879",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/22e9df46d9d84bc5c90b5413f9d8eee3ed4f9b15/capsule_231x87.jpg?t=1766697879",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/22e9df46d9d84bc5c90b5413f9d8eee3ed4f9b15/capsule_184x69.jpg?t=1766697879",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> WINDOWS 10, 11 (64-BIT Required)<br></li><li><strong>Processor:</strong> Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 760<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> WINDOWS 10, 11 (64-BIT Required)<br></li><li><strong>Processor:</strong> Intel Core i7<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "AIO_Games"
+        ],
+        "publishers": [
+          "AIO_Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1481791
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Last Gift",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1481791,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Last Gift - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/be583845609ce65cd7a70ce0b26aeb5e21c44dd8/ss_be583845609ce65cd7a70ce0b26aeb5e21c44dd8.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/be583845609ce65cd7a70ce0b26aeb5e21c44dd8/ss_be583845609ce65cd7a70ce0b26aeb5e21c44dd8.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/426ca82a54d8cb1189e5094971322efb692c5d6b/ss_426ca82a54d8cb1189e5094971322efb692c5d6b.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/426ca82a54d8cb1189e5094971322efb692c5d6b/ss_426ca82a54d8cb1189e5094971322efb692c5d6b.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/9d84c85aea57ae11c1c53bfd7e70d8da491fddd1/ss_9d84c85aea57ae11c1c53bfd7e70d8da491fddd1.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/9d84c85aea57ae11c1c53bfd7e70d8da491fddd1/ss_9d84c85aea57ae11c1c53bfd7e70d8da491fddd1.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/b02b267d18e3af2c04a8eaa0eccd2fcd92e70664/ss_b02b267d18e3af2c04a8eaa0eccd2fcd92e70664.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/b02b267d18e3af2c04a8eaa0eccd2fcd92e70664/ss_b02b267d18e3af2c04a8eaa0eccd2fcd92e70664.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/7c2121527397a6b4b5ec74ebd36812c7d10d6726/ss_7c2121527397a6b4b5ec74ebd36812c7d10d6726.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/7c2121527397a6b4b5ec74ebd36812c7d10d6726/ss_7c2121527397a6b4b5ec74ebd36812c7d10d6726.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/c337468e5c16339602363c959c4336c6f05f3fe6/ss_c337468e5c16339602363c959c4336c6f05f3fe6.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/c337468e5c16339602363c959c4336c6f05f3fe6/ss_c337468e5c16339602363c959c4336c6f05f3fe6.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/53dfaa2d09afeac9b403e2f9f5a51f4c30cebe29/ss_53dfaa2d09afeac9b403e2f9f5a51f4c30cebe29.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/53dfaa2d09afeac9b403e2f9f5a51f4c30cebe29/ss_53dfaa2d09afeac9b403e2f9f5a51f4c30cebe29.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/b97920e0e00c831fb808b728e320e1159a8d52a2/ss_b97920e0e00c831fb808b728e320e1159a8d52a2.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/b97920e0e00c831fb808b728e320e1159a8d52a2/ss_b97920e0e00c831fb808b728e320e1159a8d52a2.1920x1080.jpg?t=1766697879"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/0fe8297ebcc609077ef0e8813583bd2bf4408a09/ss_0fe8297ebcc609077ef0e8813583bd2bf4408a09.600x338.jpg?t=1766697879",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/0fe8297ebcc609077ef0e8813583bd2bf4408a09/ss_0fe8297ebcc609077ef0e8813583bd2bf4408a09.1920x1080.jpg?t=1766697879"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257250805,
+            "name": "The Last Gift Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257250805/79d9b4dec89ed56675d189f984aabfceb926ce95/movie_600x337.jpg?t=1765890052",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4232680/582541654/d1a8e41d04d7bf855da894d670950640823816f4/1765889282/dash_av1.mpd?t=1765890052",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4232680/582541654/d1a8e41d04d7bf855da894d670950640823816f4/1765889282/dash_h264.mpd?t=1765890052",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4232680/582541654/d1a8e41d04d7bf855da894d670950640823816f4/1765889282/hls_264_master.m3u8?t=1765890052",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "aiogames94@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4232680?t=1766697879",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232680/12abb481a13d42872bd3632bd441fd5532331d31/page_bg_raw.jpg?t=1766697879",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

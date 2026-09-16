@@ -1,0 +1,339 @@
+{
+  "requested_at": "2026-09-12T16:57:19.965867+00:00",
+  "request_params": {
+    "appids": 3830610,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3830610,
+  "payload": {
+    "3830610": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "RETRYS",
+        "steam_appid": 3830610,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/extras/d6de6507d8e71ee310a744bcdd6fff02.avif?t=1783063961\" width=1224 height=1600 /></span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/extras/d6de6507d8e71ee310a744bcdd6fff02.avif?t=1783063961\" width=1224 height=1600 /></span></p>",
+        "short_description": "Hero, fix the bugs — but they were never just bugs.",
+        "supported_languages": "Japanese, English, Spanish - Spain, Spanish - Latin America, German, Portuguese - Brazil",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/807f15fe86d08f4fd33a8ca6c167a47aceec1756/header.jpg?t=1783063961",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/4554d7ac55c6c109b53f4a46f59f9f832f168250/capsule_231x87.jpg?t=1783063961",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/4554d7ac55c6c109b53f4a46f59f9f832f168250/capsule_184x69.jpg?t=1783063961",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit) / 11(64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-4130 / AMD FX-4300<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 compatible GPU<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> <br></li><li><strong>Additional Notes:</strong> </li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-4130 / AMD FX-4300<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 compatible GPU<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> <br></li><li><strong>Additional Notes:</strong> </li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Studio Garage Inc.",
+        "developers": [
+          "Studio Garage Inc."
+        ],
+        "publishers": [
+          "Studio Garage Inc."
+        ],
+        "demos": [
+          {
+            "appid": 3892010,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1347160
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy RETRYS",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1347160,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "RETRYS - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/84f3a271115f9e4ea8e5ef22e35766e29d104d8b/ss_84f3a271115f9e4ea8e5ef22e35766e29d104d8b.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/84f3a271115f9e4ea8e5ef22e35766e29d104d8b/ss_84f3a271115f9e4ea8e5ef22e35766e29d104d8b.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/ebd373740ee25c8ad685f85c66b6eb0384292f58/ss_ebd373740ee25c8ad685f85c66b6eb0384292f58.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/ebd373740ee25c8ad685f85c66b6eb0384292f58/ss_ebd373740ee25c8ad685f85c66b6eb0384292f58.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/f1f87766ac68861fae0098999e846ea989c0cab0/ss_f1f87766ac68861fae0098999e846ea989c0cab0.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/f1f87766ac68861fae0098999e846ea989c0cab0/ss_f1f87766ac68861fae0098999e846ea989c0cab0.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/d8702b383d989d1dbc7c67cb32129374bceaab64/ss_d8702b383d989d1dbc7c67cb32129374bceaab64.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/d8702b383d989d1dbc7c67cb32129374bceaab64/ss_d8702b383d989d1dbc7c67cb32129374bceaab64.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/b2b37186571d4f925a94bb023ed056cde784d351/ss_b2b37186571d4f925a94bb023ed056cde784d351.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/b2b37186571d4f925a94bb023ed056cde784d351/ss_b2b37186571d4f925a94bb023ed056cde784d351.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/f02f433a8aee8cdc935a62f4e422182c1aa6c263/ss_f02f433a8aee8cdc935a62f4e422182c1aa6c263.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/f02f433a8aee8cdc935a62f4e422182c1aa6c263/ss_f02f433a8aee8cdc935a62f4e422182c1aa6c263.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/440206522046af1a7e7bd8b59b97205c93b9130a/ss_440206522046af1a7e7bd8b59b97205c93b9130a.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/440206522046af1a7e7bd8b59b97205c93b9130a/ss_440206522046af1a7e7bd8b59b97205c93b9130a.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/6f53e023174b58362f91cc1cb21940e5c02469cf/ss_6f53e023174b58362f91cc1cb21940e5c02469cf.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/6f53e023174b58362f91cc1cb21940e5c02469cf/ss_6f53e023174b58362f91cc1cb21940e5c02469cf.1920x1080.jpg?t=1783063961"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/75bca8f92ccc23c4ba30f404f2b1451ba94722d1/ss_75bca8f92ccc23c4ba30f404f2b1451ba94722d1.600x338.jpg?t=1783063961",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830610/75bca8f92ccc23c4ba30f404f2b1451ba94722d1/ss_75bca8f92ccc23c4ba30f404f2b1451ba94722d1.1920x1080.jpg?t=1783063961"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257276518,
+            "name": "RETRYS_202601",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257276518/d93512e9481415605c78c463af953c9828068586/movie_600x337.jpg?t=1769847234",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3830610/19537246/7eb6f284c2186bad43605618ca0f40549f5215ba/1769846709/dash_av1.mpd?t=1769847234",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3830610/19537246/7eb6f284c2186bad43605618ca0f40549f5215ba/1769846709/dash_h264.mpd?t=1769847234",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3830610/19537246/7eb6f284c2186bad43605618ca0f40549f5215ba/1769846709/hls_264_master.m3u8?t=1769847234",
+            "highlight": true
+          },
+          {
+            "id": 257182563,
+            "name": "RETRYS_ComingSoon02",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182563/79ed5ec26005a0c06406ce63bfe5490d9d8d0181/movie_600x337.jpg?t=1755569964",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3830610/1297662171/e77bb0db83f7947bf2fbd4d92ca50476e94ccbb2/1755568578/dash_av1.mpd?t=1755569964",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3830610/1297662171/e77bb0db83f7947bf2fbd4d92ca50476e94ccbb2/1755568578/dash_h264.mpd?t=1755569964",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3830610/1297662171/e77bb0db83f7947bf2fbd4d92ca50476e94ccbb2/1755568578/hls_264_master.m3u8?t=1755569964",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "dde553b00cecb1092decfc3f36023ba70dbab212.jpg",
+              "localized_name": "First Bug Fix",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Bug Fix",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/dde553b00cecb1092decfc3f36023ba70dbab212.jpg"
+            },
+            {
+              "icon": "8412e4e5d6148a014a7dbb2dfd60171f522692a7.jpg",
+              "localized_name": "Encountered an Anomaly",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Encountered an Anomaly",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/8412e4e5d6148a014a7dbb2dfd60171f522692a7.jpg"
+            },
+            {
+              "icon": "a8fdb27e4ef068df7f3fdf755ba3fb3be28501dc.jpg",
+              "localized_name": "Realizing the Cause",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Realizing the Cause",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/a8fdb27e4ef068df7f3fdf755ba3fb3be28501dc.jpg"
+            },
+            {
+              "icon": "0d62d342fa69e87804db40da06488e2e3e3af66f.jpg",
+              "localized_name": "A Mother’s Protection",
+              "archived": 0,
+              "hidden": 1,
+              "name": "A Mother’s Protection",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/0d62d342fa69e87804db40da06488e2e3e3af66f.jpg"
+            },
+            {
+              "icon": "c3579d6edc91bc62bf424f590dc0568155ee159a.jpg",
+              "localized_name": "Game Cleared",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Game Cleared",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/c3579d6edc91bc62bf424f590dc0568155ee159a.jpg"
+            },
+            {
+              "icon": "d88f62c6da8f9cf7d27d5609226ef2623bf6a345.jpg",
+              "localized_name": "Even a Fleeting Hope",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Even a Fleeting Hope",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/d88f62c6da8f9cf7d27d5609226ef2623bf6a345.jpg"
+            },
+            {
+              "icon": "82ce3674ecb9c54379c1732d119b65ee8390c67e.jpg",
+              "localized_name": "Hot, Hot, Hot!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hot, Hot, Hot!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/82ce3674ecb9c54379c1732d119b65ee8390c67e.jpg"
+            },
+            {
+              "icon": "7ab9fef820029cbe4f2b3c8fcb9fa875a769b777.jpg",
+              "localized_name": "It's a Feature",
+              "archived": 0,
+              "hidden": 0,
+              "name": "It's a Feature",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/7ab9fef820029cbe4f2b3c8fcb9fa875a769b777.jpg"
+            },
+            {
+              "icon": "19d456499fe79222bb99f9ca5bb18961de472203.jpg",
+              "localized_name": "A Spicy Photo",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Spicy Photo",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/19d456499fe79222bb99f9ca5bb18961de472203.jpg"
+            },
+            {
+              "icon": "a1e00bcdfb435cd5a7daec3c756dbe5b5095d82a.jpg",
+              "localized_name": "Mushroom Mountain",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mushroom Mountain",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3830610/a1e00bcdfb435cd5a7daec3c756dbe5b5095d82a.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 27, 2025"
+        },
+        "support_info": {
+          "url": "https://studiogarage.co.jp",
+          "email": "info@studiogarage.co.jp"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3830610?t=1783063961",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3830610?t=1783063961",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3621320,
+  "requested_at": "2026-09-13T19:26:43.602816+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 8,
+      "total_negative": 2,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "210944797",
+        "author": {
+          "steamid": "76561198039488461",
+          "personaname": "Disciple",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198039488461/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 251,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 217,
+          "last_played": 1764956764,
+          "avatar": "360236e555049f204b12d3a8685a3b9b9764ebfe"
+        },
+        "language": "english",
+        "review": "The concept of the game is good, but there are a lot of things missing.\r\n\r\nPros\r\n\r\nGraphics are good\r\n\r\nThe idea is good\r\n\r\nIt is fun\r\n\r\nCons\r\n\r\nThe main upgrades are very weak and have no real impact on the gameplay.\r\n\r\nThe card rarity system is also not very well thought out.\r\n\r\nAt the end of each level, you must go up to deposit your ore; otherwise, you basically lose them. I would love the option to mine all the way to the end and then cash in to crunch the numbers.\r\n\r\nLevels are mostly small, especially if you play with bombs.\r\n\r\nMain Issues\r\n\r\nThe main problem with the game, in my opinion, is the upgrade system and the limited amount of things to do.\r\n\r\nIf you compare it to Dave the Diver, there are enemies, exploration, and a story that keep the game interesting. In this game, the only real enemy is time. You constantly have to rush back to the top before the timer runs out, and that takes a lot of the fun out of it.\r\n\r\nShould You Buy It?\r\n\r\nYes, if you are looking for something fun to play for an hour or so.\r\nIf you are looking for more long-term depth, then no — at least not at the moment. It may be worth following the game to see how it develops.",
+        "timestamp_created": 1764180264,
+        "timestamp_updated": 1764180264,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.580099999904632568",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763485478",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYZeOAAAAAFP+KQLeAAAAB9sdikBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

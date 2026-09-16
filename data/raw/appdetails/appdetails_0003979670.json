@@ -1,0 +1,273 @@
+{
+  "requested_at": "2026-09-13T06:13:23.984819+00:00",
+  "request_params": {
+    "appids": 3979670,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3979670,
+  "payload": {
+    "3979670": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Bit Builder",
+        "steam_appid": 3979670,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>A puzzle box that talks back.</strong> Build tiny bridges, raise blocks, and outsmart the voice living inside this pixel-voxel world.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>A puzzle box that talks back.</strong> Build tiny bridges, raise blocks, and outsmart the voice living inside this pixel-voxel world.</p>",
+        "short_description": "An isometric, pixel-voxel puzzler with challenging yet relaxing, symmetry-rich levels. Harvest trees and stones to craft bridges and blocks, route your way across floating islands, and decide whether to believe the narrator who really wants you to leave… or stay.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/e487c8c76d401ed53a9e89e87cfe18f7ebcd9d6b/header.jpg?t=1757519422",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/3d142113fdf139d451a9e5ab3397dcb05988f4f3/capsule_231x87.jpg?t=1757519422",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/3d142113fdf139d451a9e5ab3397dcb05988f4f3/capsule_184x69.jpg?t=1757519422",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit) or later<br></li><li><strong>Processor:</strong> Intel Core i3 (or equivalent)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphics 620 or equivalent<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 750 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit) or later<br></li><li><strong>Processor:</strong> Intel Core i5 (or AMD Ryzen 3 equivalent)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1050 / AMD Radeon RX 560 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "HoboGames"
+        ],
+        "publishers": [
+          "HoboGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1397123
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Bit Builder",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1397123,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Bit Builder - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5b17300ba706a1ccebe2fd34a4fdba4920bb104f/ss_5b17300ba706a1ccebe2fd34a4fdba4920bb104f.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5b17300ba706a1ccebe2fd34a4fdba4920bb104f/ss_5b17300ba706a1ccebe2fd34a4fdba4920bb104f.1920x1080.jpg?t=1757519422"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5cb6c5aa0e14dbd47b1c5f565141176ab7e89f50/ss_5cb6c5aa0e14dbd47b1c5f565141176ab7e89f50.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5cb6c5aa0e14dbd47b1c5f565141176ab7e89f50/ss_5cb6c5aa0e14dbd47b1c5f565141176ab7e89f50.1920x1080.jpg?t=1757519422"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/52c5eb3ca4694e51a185517030d1f39fd8b6ea52/ss_52c5eb3ca4694e51a185517030d1f39fd8b6ea52.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/52c5eb3ca4694e51a185517030d1f39fd8b6ea52/ss_52c5eb3ca4694e51a185517030d1f39fd8b6ea52.1920x1080.jpg?t=1757519422"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/a9a990d6ee58eec0073b63dc76fca3f233c3d457/ss_a9a990d6ee58eec0073b63dc76fca3f233c3d457.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/a9a990d6ee58eec0073b63dc76fca3f233c3d457/ss_a9a990d6ee58eec0073b63dc76fca3f233c3d457.1920x1080.jpg?t=1757519422"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/22f9efb7cb903f1377f2b6a22c60fbc61a692e9a/ss_22f9efb7cb903f1377f2b6a22c60fbc61a692e9a.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/22f9efb7cb903f1377f2b6a22c60fbc61a692e9a/ss_22f9efb7cb903f1377f2b6a22c60fbc61a692e9a.1920x1080.jpg?t=1757519422"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5c5e35c85c67a023027ec3cf9651b66eb84a216b/ss_5c5e35c85c67a023027ec3cf9651b66eb84a216b.600x338.jpg?t=1757519422",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979670/5c5e35c85c67a023027ec3cf9651b66eb84a216b/ss_5c5e35c85c67a023027ec3cf9651b66eb84a216b.1920x1080.jpg?t=1757519422"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257187585,
+            "name": "Bit Builder Adventure",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257187585/68c10584012ee325b0e25e6ac1d92ff545366b8d/movie_600x337.jpg?t=1756319015",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3979670/89944024/a753fcaab6235e6973516119f37d74778244fd93/1755943459/dash_av1.mpd?t=1756319015",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3979670/89944024/a753fcaab6235e6973516119f37d74778244fd93/1755943459/dash_h264.mpd?t=1756319015",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3979670/89944024/a753fcaab6235e6973516119f37d74778244fd93/1755943459/hls_264_master.m3u8?t=1756319015",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 8,
+          "highlighted": [
+            {
+              "icon": "eaf7634ac76dd42edc837167a80416ef6f12ed8e.jpg",
+              "localized_name": "Bridge the Hello World",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bridge the Hello World",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/eaf7634ac76dd42edc837167a80416ef6f12ed8e.jpg"
+            },
+            {
+              "icon": "3b1f457704ddfe33746fb59b9ba4fae0c3d5d246.jpg",
+              "localized_name": "False Freedom",
+              "archived": 0,
+              "hidden": 0,
+              "name": "False Freedom",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/3b1f457704ddfe33746fb59b9ba4fae0c3d5d246.jpg"
+            },
+            {
+              "icon": "52288762f54cd4b90191337a61c0e7c0b8a7f18e.jpg",
+              "localized_name": "Second Thoughts",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Second Thoughts",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/52288762f54cd4b90191337a61c0e7c0b8a7f18e.jpg"
+            },
+            {
+              "icon": "e09c70233722c8d177fa4fc7e3503a529bb7f196.jpg",
+              "localized_name": "Exit Denied",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Exit Denied",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/e09c70233722c8d177fa4fc7e3503a529bb7f196.jpg"
+            },
+            {
+              "icon": "e20c813e1661a299ee9179a9473890926bdf99aa.jpg",
+              "localized_name": "Okay, You Can Count",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Okay, You Can Count",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/e20c813e1661a299ee9179a9473890926bdf99aa.jpg"
+            },
+            {
+              "icon": "cae21e8324b9dc625ff3d9d5c3dcaf4052b15382.jpg",
+              "localized_name": "Numbers Won’t Free Me",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Numbers Won’t Free Me",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/cae21e8324b9dc625ff3d9d5c3dcaf4052b15382.jpg"
+            },
+            {
+              "icon": "11bc151b2e83f506dc7656b9db22816ed0e97b4d.jpg",
+              "localized_name": "Running in Squares",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Running in Squares",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/11bc151b2e83f506dc7656b9db22816ed0e97b4d.jpg"
+            },
+            {
+              "icon": "3fa6fbaa370b03dd3bcedb0cba28ec21f0963a5f.jpg",
+              "localized_name": "Breaking the Loop",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Breaking the Loop",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979670/3fa6fbaa370b03dd3bcedb0cba28ec21f0963a5f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 10, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "egorys20002000@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3979670?t=1757519422",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3979670?t=1757519422",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

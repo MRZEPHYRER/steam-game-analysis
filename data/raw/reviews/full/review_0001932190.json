@@ -1,0 +1,115 @@
+{
+  "appid": 1932190,
+  "requested_at": "2026-09-13T18:45:47.978861+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 2,
+      "total_negative": 7,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "230001870",
+        "author": {
+          "steamid": "76561198140905724",
+          "personaname": "Profecy",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198140905724/",
+          "num_games_owned": 188,
+          "num_reviews": 2,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1783572706,
+          "avatar": "e643c812feece27c17ad274ee113b3c2efb3d202"
+        },
+        "language": "spanish",
+        "review": "Outbreak: Shades of Horror\n★☆☆☆☆ (1/5, un punto por engañarme como mi ex)\n\nTiene coj*nes que tenga que estar haciendo una reseña pero parecía un RESIDENT EVIL OUTBREAK, lo juro. Y encima, cooperativo.\n\n⚠️ Acabas con el inventario lleno llaves que parece que eres el conserje del barrio zombi.\n⚠️ La forma de patear la llamé la \"gratada de humo\", pateas al aire y sale humo, es jodidamente ridículo.\n⚠️ Saltas desde centímetro y medio de altura y tu personaje parece Neymar.\n⚠️ Venden skins que mi primo chico con el Paint las colorea mejor.\n⚠️ Tiene la optimización del Ciberpunk 2019.\n⚠️ Texto que aparece en pantalla al abrir el juego, cito textualmente: \"Este modo Anticipado es la culminación de casi 5 años de trabajo\". es duro de leer.\n\n70 GB ocupa esto, cabr*n, ni Call of Duty gasta tanto para tan poco. La música del menú parece sacada del Gran Turismo de los 90, que es lo único que me pone nostálgico...antes de querer devolverlo.\n\nSolo Dios sabe qué clase de locura hubiera cometio si llegaba a las 2 horas de juego y no fuera reembolsable. G0d d4mn it!\nPD: Si ves un tipo rodeao de zombies bugueaos pegándoles con las llaves...soy yo. No me salven 💩",
+        "timestamp_created": 1783575340,
+        "timestamp_updated": 1783577919,
+        "voted_up": false,
+        "votes_up": 51,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.848169147968292236",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761343615",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 4
+          },
+          {
+            "reaction_type": 24,
+            "count": 3
+          },
+          {
+            "reaction_type": 26,
+            "count": 3
+          },
+          {
+            "reaction_type": 27,
+            "count": 3
+          },
+          {
+            "reaction_type": 32,
+            "count": 3
+          },
+          {
+            "reaction_type": 33,
+            "count": 3
+          },
+          {
+            "reaction_type": 34,
+            "count": 3
+          },
+          {
+            "reaction_type": 25,
+            "count": 2
+          },
+          {
+            "reaction_type": 29,
+            "count": 2
+          },
+          {
+            "reaction_type": 30,
+            "count": 2
+          },
+          {
+            "reaction_type": 31,
+            "count": 2
+          },
+          {
+            "reaction_type": 35,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTCWAAAAAAFP+skM2AAAAB+zLHtBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

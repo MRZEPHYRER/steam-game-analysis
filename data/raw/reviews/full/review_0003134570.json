@@ -1,0 +1,66 @@
+{
+  "appid": 3134570,
+  "requested_at": "2026-09-13T19:04:58.437889+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 25,
+      "total_negative": 4,
+      "total_reviews": 29
+    },
+    "reviews": [
+      {
+        "recommendationid": "219266146",
+        "author": {
+          "steamid": "76561198839528300",
+          "personaname": "zalemu",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/zalemu/",
+          "num_games_owned": 902,
+          "num_reviews": 265,
+          "playtime_forever": 432,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 432,
+          "last_played": 1772109791,
+          "avatar": "fbaefa14607acd2d3251f057bf868f969ebcb25d"
+        },
+        "language": "japanese",
+        "review": "ビルド幅が少ない。\n揃いづらくなるしシナジーも特にないので武器や魔法を複数種持つメリットがほぼない。\n無効やカウンター行動があるので魔法は光と闇以外ハズレじゃないですかね。\n\n4連鎖以上して装備がアップグレードすると、その装備が1つだけになり次に同じ物が出るまで逆に弱くなるのは、せっかく揃う喜びが薄れる。\n\n敵を早く倒すメリットが何もない為、序盤は時間を掛けて攻撃以外の物を揃えていくのが基本になると思うが、そのせいで毎回序盤の退屈な時間が長い。\n\n1回SPINを行う毎に3択でアイテムを選ぶが、その後にSPINをするか家に帰るかの選択肢が毎回出る意味が分からない。\n家に帰るは、アイテム選択時の端の方にでも小さく表示するか、戦闘中にいつでもオプションから帰れるようにして、選択後は勝手にSPINするでよかったのでは。\n何故止めて無駄な操作をさせるのか。\n\n1戦毎にVICTORYと出てからクリックが必要なのも同じく無駄。\n勝手に進んでくれ。\n文字が出てから敵が消えてコインがばら撒かれたのが消えてからしか反応しないので、微妙に待ち時間があるのも怠い。\n\nせめてテンポだけでも良ければ、緩いスロットゲーとしてもう少し楽しめたかもしれない。",
+        "timestamp_created": 1772111125,
+        "timestamp_updated": 1772111125,
+        "voted_up": false,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.635967254638671875",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1741275026",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXR9mAAAAAFP+RZ14AAAAByxrfEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3532890,
+  "requested_at": "2026-09-13T19:20:56.443169+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 63,
+      "total_negative": 17,
+      "total_reviews": 80
+    },
+    "reviews": [
+      {
+        "recommendationid": "205869871",
+        "author": {
+          "steamid": "76561198050475697",
+          "personaname": "N.G.",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/n_g_/",
+          "num_games_owned": 1413,
+          "num_reviews": 141,
+          "playtime_forever": 170,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 170,
+          "last_played": 1759590889,
+          "avatar": "491af6b7259f07144c3d958b271956c2befefb1d"
+        },
+        "language": "russian",
+        "review": "Cotton Game создали очередную хорошую квест-головоломку в своём неповторимом фирменном стиле. Загадки интересные (двухуровневые: сначала пойми что от тебя вообще хотят, а потом уже реши), играть приятно. \n\nВ придачу игра в какой-то мере исследует вопрос виртуальной реальности, подкидывает факты и наводит на размышления, очень ненавязчиво.\n\nКонцовка же – как удар под дых. Неожиданно и резко. Сильно. [spoiler] Но прими последнюю красную таблетку – и найди выход в конце дневника[/spoiler]",
+        "timestamp_created": 1759594346,
+        "timestamp_updated": 1759594389,
+        "voted_up": true,
+        "votes_up": 19,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.707457661628723145",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758247129",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFV2dCAAAAAFP+ajfwAAAAB/sqqRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3686840,
+  "requested_at": "2026-09-13T19:31:40.914160+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "202295333",
+        "author": {
+          "steamid": "76561197980305453",
+          "personaname": "Zaeron",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197980305453/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 678,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 676,
+          "last_played": 1756337851,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "Highly recommended. There are three things that I think could make you not want to buy the game, I'll put them below. But first, the good stuff:\n\nIt's a persistent roguelike tower defense game. You maintain a squad of like, XCOM guys who have classes and level up, and you use those guys to run missions where you explore a ruined city, find buildings, staff those buildings with your squad, and shoot bugs until they die or you die.\n\nYour guys have a persistent leveling system, and they can die for realsies and you lose them permanently when they do.\n\nThe level up system is neat, there's a couple layers of RNG but every build I've gotten so far seems interesting. It would be nice if they branched a little more, but I'm not sure if I just haven't unlocked that stuff yet. I'm not that deep into the game.\n\nThe actual runs are varied enough for a $5 game - I'm still finding new things slowly, and I have a couple \"big\" things coming up that might make the game open up even more, but I'm getting plenty of fun for my $5 already and I can easily see myself doing another 10 hours of this even if nothing else unlocks, which I highly doubt will be the case.\n\nI will say - it's a roguelike. You can lose units by accident and it hurts. You can ♥♥♥♥ up in ways that legitimately dig a pretty deep hole. But the flip side is the payoff is a lot of fun and you get kinda attached to your lil' gunner with his cute hat.\n\nThere are also three things that I think might make someone hard pass on this game:\n\n1) There are some bugs. Patches are coming almost daily. I'd assume fixes will be fast and furious.\n\n2) The translation is sketchy, there is a certain amount of trial and error and lack of clarity in the UI and text boxes. This is not the worst example of this I've ever seen, but it definitely took me a little extra re-reading. I don't personally think this is a gigantic deal, but if you're VERY sensitive to this, I think you'll notice.\n\n3) There is a lot of trial and error in the actual gameplay, and the game is a persistent roguelike, so you can accidentally death spiral and need to restart the run. That said, you get back into runs fast. If you get really mad when a game lets you accidentally dead-end yourself, you might not like this. I restarted my first run 3x in 2 hours while I was learning, and now I'm 2 hours into my 4th run and feel like I'm cruising.\n\nIf none of those sound like dealbreakers, this is a great game at the price IMO.",
+        "timestamp_created": 1755403153,
+        "timestamp_updated": 1756337808,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.516908168792724609",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755137480",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZqW6AAAAAFP+CKgqAAAAB1gtmDBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.110000000000582,
+  "transport_error_count": 0
+}

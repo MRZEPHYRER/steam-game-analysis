@@ -1,0 +1,349 @@
+{
+  "requested_at": "2026-09-12T15:18:05.577944+00:00",
+  "request_params": {
+    "appids": 3466580,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3466580,
+  "payload": {
+    "3466580": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Blade of One",
+        "steam_appid": 3466580,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >The cruel Emperor's army holds the lands captive. A lone hero wielding a cursed blade is all that stands against them...</p><h2 class=\"bb_tag\" >ONE CUT, ONE KILL.</h2><p class=\"bb_paragraph\" >Entrusted with a cursed sword, you are able to strike down foes in a single blow. However, your enemies can do the same against you.</p><h2 class=\"bb_tag\" >A TRECHEROUS JOURNEY...</h2><p class=\"bb_paragraph\" >Swing, block, dodge, deflect, and climb your way through dozens of unique environments over five chapters. </p><h2 class=\"bb_tag\" >AN ARMY OF FOES</h2><p class=\"bb_paragraph\" >Those loyal to the Emperor seek to eliminate you. Fend off warriors wielding blades, shields, explosives, and more.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/extras/7f3ef0c775b8274d79a9fa2917fc91b4.avif?t=1777848354\" width=640 height=128 /></span></p><h2 class=\"bb_tag\" >VIRTUES</h2><p class=\"bb_paragraph\" >Seeking a challenge? Virtues offer challenges for every level. Can you achieve them all?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >The cruel Emperor's army holds the lands captive. A lone hero wielding a cursed blade is all that stands against them...</p><h2 class=\"bb_tag\" >ONE CUT, ONE KILL.</h2><p class=\"bb_paragraph\" >Entrusted with a cursed sword, you are able to strike down foes in a single blow. However, your enemies can do the same against you.</p><h2 class=\"bb_tag\" >A TRECHEROUS JOURNEY...</h2><p class=\"bb_paragraph\" >Swing, block, dodge, deflect, and climb your way through dozens of unique environments over five chapters. </p><h2 class=\"bb_tag\" >AN ARMY OF FOES</h2><p class=\"bb_paragraph\" >Those loyal to the Emperor seek to eliminate you. Fend off warriors wielding blades, shields, explosives, and more.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/extras/7f3ef0c775b8274d79a9fa2917fc91b4.avif?t=1777848354\" width=640 height=128 /></span></p><h2 class=\"bb_tag\" >VIRTUES</h2><p class=\"bb_paragraph\" >Seeking a challenge? Virtues offer challenges for every level. Can you achieve them all?</p>",
+        "short_description": "Blade of One is a methodical 2D swordfighting game with simple controls. Strike down foes in a single hit, before they do the same to you.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/header.jpg?t=1777848354",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/3d9e6d37f94260614b51e6a45dc6f721e7587ca0/capsule_231x87.jpg?t=1777848354",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/3d9e6d37f94260614b51e6a45dc6f721e7587ca0/capsule_184x69.jpg?t=1777848354",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel or AMD Dual Core CPU<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL ES 3.2 compliant video card<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04 LTS<br></li><li><strong>Processor:</strong> 2.0 Ghz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL ES 3.2 compliant video card<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Leo Torrijos"
+        ],
+        "publishers": [
+          "Trashmonger"
+        ],
+        "demos": [
+          {
+            "appid": 3554500,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1224749
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Blade of One",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1224749,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Blade of One - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/a546936f4fa75d8fe2047ac6a4a0a6f35682047d/ss_a546936f4fa75d8fe2047ac6a4a0a6f35682047d.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/a546936f4fa75d8fe2047ac6a4a0a6f35682047d/ss_a546936f4fa75d8fe2047ac6a4a0a6f35682047d.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/6f23dfd891c25f26ac46926a872dcf725da348a0/ss_6f23dfd891c25f26ac46926a872dcf725da348a0.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/6f23dfd891c25f26ac46926a872dcf725da348a0/ss_6f23dfd891c25f26ac46926a872dcf725da348a0.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/9d2f0977bdc902945618a168dbea592afda88a2b/ss_9d2f0977bdc902945618a168dbea592afda88a2b.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/9d2f0977bdc902945618a168dbea592afda88a2b/ss_9d2f0977bdc902945618a168dbea592afda88a2b.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/5bd41a6983ee1f0232c9c721b3239a3700323605/ss_5bd41a6983ee1f0232c9c721b3239a3700323605.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/5bd41a6983ee1f0232c9c721b3239a3700323605/ss_5bd41a6983ee1f0232c9c721b3239a3700323605.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/ss_1d2c4c5c19e3af3314f5df3b295bd39fcaab5357.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/ss_1d2c4c5c19e3af3314f5df3b295bd39fcaab5357.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/e20e08e234ffca0a4d1f1ef03fb04b15b64145ed/ss_e20e08e234ffca0a4d1f1ef03fb04b15b64145ed.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/e20e08e234ffca0a4d1f1ef03fb04b15b64145ed/ss_e20e08e234ffca0a4d1f1ef03fb04b15b64145ed.1920x1080.jpg?t=1777848354"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/f23cb8a0eb9562f2866de6655c912c48f391fbb7/ss_f23cb8a0eb9562f2866de6655c912c48f391fbb7.600x338.jpg?t=1777848354",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3466580/f23cb8a0eb9562f2866de6655c912c48f391fbb7/ss_f23cb8a0eb9562f2866de6655c912c48f391fbb7.1920x1080.jpg?t=1777848354"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257193823,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193823/9536e526e7b1db0ffb86fee6c0eeead66edde671/movie_600x337.jpg?t=1777848353",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3466580/838964164/126cbc778cb884f25e516d27d0a1962d03625050/1757106826/dash_av1.mpd?t=1777848353",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/838964164/126cbc778cb884f25e516d27d0a1962d03625050/1757106826/dash_h264.mpd?t=1777848353",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/838964164/126cbc778cb884f25e516d27d0a1962d03625050/1757106826/hls_264_master.m3u8?t=1777848353",
+            "highlight": true
+          },
+          {
+            "id": 257142301,
+            "name": "Demo Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257142301/947d508a00a1461714aae27ef3b42ac2e087bc0a/movie_600x337.jpg?t=1747789942",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3466580/2069551655/e56febe86b0bd2dd754fa74be6a082d50154511e/1750853677/dash_av1.mpd?t=1747789942",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/2069551655/e56febe86b0bd2dd754fa74be6a082d50154511e/1750853677/dash_h264.mpd?t=1747789942",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/2069551655/e56febe86b0bd2dd754fa74be6a082d50154511e/1750853677/hls_264_master.m3u8?t=1747789942",
+            "highlight": true
+          },
+          {
+            "id": 257175054,
+            "name": "Release Date Announcement",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257175054/bcd29bee0e358a4e41d133ad9ef288f19e46f0d1/movie_600x337.jpg?t=1753745641",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3466580/1306127278/694b298499266f68525a22be6734a7ac837b04d9/1753743140/dash_av1.mpd?t=1753745641",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/1306127278/694b298499266f68525a22be6734a7ac837b04d9/1753743140/dash_h264.mpd?t=1753745641",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3466580/1306127278/694b298499266f68525a22be6734a7ac837b04d9/1753743140/hls_264_master.m3u8?t=1753745641",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 18,
+          "highlighted": [
+            {
+              "icon": "323844eeffd85a0ca83eb56811c44235ea1f2b0c.jpg",
+              "localized_name": "Army of One",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Army of One",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/323844eeffd85a0ca83eb56811c44235ea1f2b0c.jpg"
+            },
+            {
+              "icon": "3470bcd36fc34477bef5272540a59832b5026e51.jpg",
+              "localized_name": "A Long Hike",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Long Hike",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/3470bcd36fc34477bef5272540a59832b5026e51.jpg"
+            },
+            {
+              "icon": "9e529188ed982a5304c2927b4b7140bbe2db4ef4.jpg",
+              "localized_name": "Downtown",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Downtown",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/9e529188ed982a5304c2927b4b7140bbe2db4ef4.jpg"
+            },
+            {
+              "icon": "240a8ee16fe38307e34e5591ea786580f01470ce.jpg",
+              "localized_name": "Giddy Up",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Giddy Up",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/240a8ee16fe38307e34e5591ea786580f01470ce.jpg"
+            },
+            {
+              "icon": "d8deba308c06f90a83d1483ecab7ba61e15684d3.jpg",
+              "localized_name": "Savior",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Savior",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/d8deba308c06f90a83d1483ecab7ba61e15684d3.jpg"
+            },
+            {
+              "icon": "c312683f03f06fcaf7fe2d3d935adb57901314ac.jpg",
+              "localized_name": "Blade of Two",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blade of Two",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/c312683f03f06fcaf7fe2d3d935adb57901314ac.jpg"
+            },
+            {
+              "icon": "1e22a0cf8f0788b0145f570bb19960143531b439.jpg",
+              "localized_name": "Cleaver",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cleaver",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/1e22a0cf8f0788b0145f570bb19960143531b439.jpg"
+            },
+            {
+              "icon": "600ef1e7f9ab673792b1b5858ed2e7a2b47063e9.jpg",
+              "localized_name": "Reflexes",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Reflexes",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/600ef1e7f9ab673792b1b5858ed2e7a2b47063e9.jpg"
+            },
+            {
+              "icon": "ebc98f5bf7c50ce6b1ba5973dc5cb0b9ca365840.jpg",
+              "localized_name": "Timing Is Key",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Timing Is Key",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/ebc98f5bf7c50ce6b1ba5973dc5cb0b9ca365840.jpg"
+            },
+            {
+              "icon": "c877e28831d89874264b9473fe824964247c5bdd.jpg",
+              "localized_name": "Dragon",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dragon",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3466580/c877e28831d89874264b9473fe824964247c5bdd.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "trashmongergames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3466580?t=1777848354",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3466580?t=1777848354",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

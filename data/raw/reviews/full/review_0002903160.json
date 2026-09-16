@@ -1,0 +1,71 @@
+{
+  "appid": 2903160,
+  "requested_at": "2026-09-13T18:58:19.478839+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 439,
+      "total_negative": 24,
+      "total_reviews": 463
+    },
+    "reviews": [
+      {
+        "recommendationid": "225536754",
+        "author": {
+          "steamid": "76561199578042832",
+          "personaname": "November Brightshroom",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/novemberbrightshroom/",
+          "num_games_owned": 233,
+          "num_reviews": 22,
+          "playtime_forever": 942,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 860,
+          "last_played": 1778828203,
+          "avatar": "5fd16a64d7b430bc4a472abf89307e145303f87b"
+        },
+        "language": "english",
+        "review": "[h1]Why I love this game...[/h1]\nMidori no Kaori is a cozy, ambient idler that can either be minimally interactive or fully automated (my preferred). [b]Your goal is to design a little safe haven/cozy diner for cute amphibious-adjacent creatures that have passed on into the afterlife.[/b] As patrons come and go, you accumulate coins that are used to purchase shop decor and simultaneously level up which unlocks new shop items. \n\n[b]In a subtle way, it's a game about grief; about moving on. About reminiscing and gratitude and finding comfort in the little things.[/b] If you choose to click on the thought bubbles above patron's heads, you might  read about a little snippet of their past life. Or perhaps, learn about the things that bring them comfort as they learn to move on. These little thoughts are meaningful and moving. However, know that you don't have to interact with these thought bubbles, and if you'd prefer to just focus on the cozy aesthetic without the little stories, that is an option too.\n\nWhat I love about this idler is how customizable it is: There's optional lo-fi music that's really lovely, ambient sounds of the diner that can be toggled off/on, lighting/time of day can be adjusted, and (of course!) the entire aesthetic and design of your little cafe is entirely yours to create from scratch. I also really appreciate the game/camera design, which features an incredibly aesthetic camera blur when you zoom in close to inspect your cafe. This makes for some really lovely, wallpaper-worthy screenshots!\n\nMost of all: [b]It's peaceful here.[/b] This is a game where you take your time, where things are unhurried and peaceful. It's been a nice little source of comfort. [b]I'd recommend this game to anyone that loves aesthetic idlers, sandbox decorating games, Japanese-inspired design, lo-fi vibes, easy 100% achievement games, and games that make pretty screenshots.[/b]\n\n[i]I recommend this guide by Sesamkorn for anyone wanting to learn more about game achievements, game mechanics, and lots of neat tips and tricks for making the most of Midori no Kaori:[/i] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3380069339] Road to Izakaya (steam guide) [/url]\n[hr][/hr]\n[h1]See for yourself...[/h1]\n[h3]Screenshot:[/h3]\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3725721558\n[h3]Screenshot:[/h3]\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3725722314",
+        "timestamp_created": 1778823298,
+        "timestamp_updated": 1778824051,
+        "voted_up": true,
+        "votes_up": 24,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.738731026649475098",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1732742488",
+        "reactions": [
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVObKAAAAAFP+ejr0AAAAByr63cBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0149999999998727,
+  "transport_error_count": 0
+}

@@ -1,0 +1,73 @@
+{
+  "appid": 3988390,
+  "requested_at": "2026-09-13T20:08:32.182080+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 9,
+      "total_negative": 2,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "234988493",
+        "author": {
+          "steamid": "76561198132995625",
+          "personaname": "Zorro",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198132995625/",
+          "num_games_owned": 1764,
+          "num_reviews": 882,
+          "playtime_forever": 791,
+          "playtime_last_two_weeks": 638,
+          "playtime_at_review": 791,
+          "last_played": 1789080962,
+          "avatar": "869206a4584b346962498fa76d662304742e5d4b"
+        },
+        "language": "german",
+        "review": "[h1] New Yankee: Pirate Trap [/h1]\nA resource-gathering game from 2025.\n\nJust when King Arthur's heroes thought they had earned a break, their dream vacation turns into a cursed adventure after the Gremlin pulls a mysterious chest from the sea! Inside: treasures, riches, and... a pirate hat?\nThe hat's owner turns out to be Captain Ghost, a legendary pirate phantom. Embittered by the alleged looting, the captain banishes our heroes to an uninhabited island. (Developer)\n\nOver 13 hours of playtime across 60 levels. The individual maps feature very imaginative designs.\nExcellent maps, free of sections artificially designed to drag out playtime. Almost all levels can be completed quickly. The difficulty level remains moderate throughout.\n\nThe game environment is suitable for children. In terms of gameplay, resource management takes center stage; clearing the many obstacles requires smart production and gathering strategies to meet the objectives.\n\nIt’s all about gathering, building, and clearing obstacles—and it’s done very well. The story is wild and funny. Overall, I’d highly recommend this game to anyone looking for a bit of a challenge.\nYet another successful gaming experience.\nHighly entertaining.\n\nFind my group and my archive of over 7,450 reviews here: https://steamcommunity.com/groups/hoi4deu\n\n👑 Powered by HoI 4 Deu Curators group in German / English 👑⠀⠀⠀[list][*][url=https://store.steampowered.com/curator/30388691/] Follow Main group [/url][*] [url=https://store.steampowered.com/curator/40282064/] Follow Second group [/url][*] [url=https://store.steampowered.com/curator/44688798/] Follow Third group [/url][/list]\nand discover more reviews from me.\n\n\n\n[h1] New Yankee: Pirate Trap [/h1]\nSammelspiel von 2025.\n\nGerade als die Helden von König Artus dachten, sie hätten sich eine Pause verdient, verwandelt sich ihr traumhafter Urlaub in ein verfluchtes Abenteuer, als der Gremlin eine geheimnisvolle Truhe aus dem Meer holt! Darin: Schätze, Reichtümer und... ein Piratenhut?\nDer Besitzer des Hutes entpuppt sich als Kapitän Ghost, ein sagenumwobenes Piratengespenst. Verbittert über die vermeintliche Plünderung, schickt der Kapitän unsere Helden auf eine unbewohnte Insel. (Entwickler)\n\nÜber 13 Stunden Spielzeit für 60 Level. Die einzelnen Karten sind sehr Einfallsreich von der Aufmachung her. \nSehr gute Karten ohne viele Stellen die bewusst auf längere Spielzeit ausgelegt sind. Fast alle Karten lassen sich zügig durch Spielen. Der Schwierigkeitsgrad ist durchweg moderat gehalten.\n\nDie Spielumgebung ist auch geeignet für Kinder. Vom Gameplay her wurde die Materialverwaltung in den Vordergrund gestellt, da viele Blockaden geräumt werden müssen und dafür eine kluge Produktion und Sammeltätgkeit nötig ist, um die Zielvorgaben zu erreichen.   \n\nHier geht es ums Sammeln, Bauen und Sperren entfernen. Dies ist sehr gut gemacht. Die Geschichte ist sehr abgefahren und lustig. Ich würde sagen dieses Game ist insgesamt eine gute Empfehlung für alle die es etwas anspruchsvoller haben wollen. \nWiedereinmal ein gelungenes Spielerlebnis.\nAusgesprochen unterhaltsam.\n \nMeine Gruppe und mein Archiv mit über 7.450 Reviews hier: https://steamcommunity.com/groups/hoi4deu \n\n👑 Powered by HoI 4 Deu Curators group in German / English 👑⠀⠀⠀[list][*][url=https://store.steampowered.com/curator/30388691/] Follow Main group [/url][*] [url=https://store.steampowered.com/curator/40282064/] Follow Second group [/url][*] [url=https://store.steampowered.com/curator/44688798/] Follow Third group [/url][/list] \nand discover more reviews from me.",
+        "timestamp_created": 1789107553,
+        "timestamp_updated": 1789107553,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.705887675285339355",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758096335",
+        "hardware": {
+          "system_ram": "261925",
+          "os": "Windows 11",
+          "cpu_name": "Intel(R) Core(TM) i7-14700KF",
+          "adapter_description": "NVIDIA GeForce RTX 5070 Ti",
+          "vram_size": 15995
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW4dqAAAAAFP+aWomAAAAB9vLSABw=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2960000000002765,
+  "transport_error_count": 0
+}

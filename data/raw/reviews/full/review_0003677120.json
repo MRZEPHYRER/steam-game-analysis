@@ -1,0 +1,66 @@
+{
+  "appid": 3677120,
+  "requested_at": "2026-09-13T19:30:44.914368+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "213635767",
+        "author": {
+          "steamid": "76561197974131998",
+          "personaname": "hamdaw",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197974131998/",
+          "num_games_owned": 455,
+          "num_reviews": 106,
+          "playtime_forever": 10,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 10,
+          "last_played": 1766145510,
+          "avatar": "18cf9e93edbe79213f24fd277a0c8fc05e9ec68f"
+        },
+        "language": "english",
+        "review": "nice idea but the game bugged on me when i died i couldnt move. also initially zombies did not attack even though i was standing next to it.\n",
+        "timestamp_created": 1766145577,
+        "timestamp_updated": 1766145577,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751517363",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3q/quBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

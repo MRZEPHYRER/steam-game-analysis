@@ -1,0 +1,233 @@
+{
+  "requested_at": "2026-09-12T13:56:04.849701+00:00",
+  "request_params": {
+    "appids": 2722680,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2722680,
+  "payload": {
+    "2722680": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Winter Mind",
+        "steam_appid": 2722680,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.poster.avif?t=1757267801\" width=630 height=500 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.webm?t=1757267801\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.mp4?t=1757267801\" type=\"video/mp4\"></video></span>The Winter Mind is a visual novel about a girl who suffers from mental illness and goes to the store to buy groceries in the cold winter. She has lived her whole life with a voice in her head that accompanies her in this ordeal of going to the store.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game is based on real events and was inspired by Milk inside a bag of milk inside a bag of milk</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Completion time</strong>: 10 minutes</p><p class=\"bb_paragraph\" ><strong>The game has two endings</strong></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.poster.avif?t=1757267801\" width=630 height=500 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.webm?t=1757267801\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/extras/2067ece261b4e3ca829e55b872ac49fd.mp4?t=1757267801\" type=\"video/mp4\"></video></span>The Winter Mind is a visual novel about a girl who suffers from mental illness and goes to the store to buy groceries in the cold winter. She has lived her whole life with a voice in her head that accompanies her in this ordeal of going to the store.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game is based on real events and was inspired by Milk inside a bag of milk inside a bag of milk</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Completion time</strong>: 10 minutes</p><p class=\"bb_paragraph\" ><strong>The game has two endings</strong></p>",
+        "short_description": "This is a psychological horror in which we play as a girl who has psychological health problems, and her mother has sent her to the store. Our task is to help her buy groceries.",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/957b08c9c9f172c6c5c696845bde879ddb963211/header.jpg?t=1757267801",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/997a62d3a6f9fe0a1e67bd2bfa00003b273ae96d/capsule_231x87.jpg?t=1757267801",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/997a62d3a6f9fe0a1e67bd2bfa00003b273ae96d/capsule_184x69.jpg?t=1757267801",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> 2.0+ GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Sempiternal Rain",
+          "Slavikus39"
+        ],
+        "publishers": [
+          "Sempiternal Rain",
+          "Slavikus39"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          974506
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Winter Mind",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 974506,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Winter Mind - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/b7cdcb5b5604c68d082b5e5d726cd024dcdc1701/ss_b7cdcb5b5604c68d082b5e5d726cd024dcdc1701.600x338.jpg?t=1757267801",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/b7cdcb5b5604c68d082b5e5d726cd024dcdc1701/ss_b7cdcb5b5604c68d082b5e5d726cd024dcdc1701.1920x1080.jpg?t=1757267801"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/8af63e83b8337d01d29f41a60dcbaac4cfd9cdef/ss_8af63e83b8337d01d29f41a60dcbaac4cfd9cdef.600x338.jpg?t=1757267801",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/8af63e83b8337d01d29f41a60dcbaac4cfd9cdef/ss_8af63e83b8337d01d29f41a60dcbaac4cfd9cdef.1920x1080.jpg?t=1757267801"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/5b6f78fb891edfd4a5f021d415f8cd4d49799a75/ss_5b6f78fb891edfd4a5f021d415f8cd4d49799a75.600x338.jpg?t=1757267801",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/5b6f78fb891edfd4a5f021d415f8cd4d49799a75/ss_5b6f78fb891edfd4a5f021d415f8cd4d49799a75.1920x1080.jpg?t=1757267801"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/604b0f98b9e10fbb01a38ea92f092f182b6cf580/ss_604b0f98b9e10fbb01a38ea92f092f182b6cf580.600x338.jpg?t=1757267801",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/604b0f98b9e10fbb01a38ea92f092f182b6cf580/ss_604b0f98b9e10fbb01a38ea92f092f182b6cf580.1920x1080.jpg?t=1757267801"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/a66b0b1d7b6c68ba7ca00d55fff0dff3b140c205/ss_a66b0b1d7b6c68ba7ca00d55fff0dff3b140c205.600x338.jpg?t=1757267801",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2722680/a66b0b1d7b6c68ba7ca00d55fff0dff3b140c205/ss_a66b0b1d7b6c68ba7ca00d55fff0dff3b140c205.1920x1080.jpg?t=1757267801"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257187691,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257187691/b77037496f652c9f89c0a7e12ec10ed23bff76d0/movie_600x337.jpg?t=1757267793",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2722680/2118843500/3039d3e0627e6fedc7df1b3a0497b621844a6215/1755964270/dash_av1.mpd?t=1757267793",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2722680/2118843500/3039d3e0627e6fedc7df1b3a0497b621844a6215/1755964270/dash_h264.mpd?t=1757267793",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2722680/2118843500/3039d3e0627e6fedc7df1b3a0497b621844a6215/1755964270/hls_264_master.m3u8?t=1757267793",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "789b1361d6afc75b5e54c1aa2b701cf926959d6b.jpg",
+              "localized_name": "The good ending",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The good ending",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/789b1361d6afc75b5e54c1aa2b701cf926959d6b.jpg"
+            },
+            {
+              "icon": "da707b6a9f4a64a6ccb72f197bcd2b905071923e.jpg",
+              "localized_name": "The bad ending",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The bad ending",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/da707b6a9f4a64a6ccb72f197bcd2b905071923e.jpg"
+            },
+            {
+              "icon": "20128e09d98428d7256dd418aef52bd46a19e472.jpg",
+              "localized_name": "A long-awaited purchase",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A long-awaited purchase",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/20128e09d98428d7256dd418aef52bd46a19e472.jpg"
+            },
+            {
+              "icon": "daa8e2357826ec1e814d02efd45cce6044e6d5f2.jpg",
+              "localized_name": "473 steps",
+              "archived": 0,
+              "hidden": 0,
+              "name": "473 steps",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/daa8e2357826ec1e814d02efd45cce6044e6d5f2.jpg"
+            },
+            {
+              "icon": "9c0194dc3b7c6d78ecc5a0f9f7c9fed681c82969.jpg",
+              "localized_name": "She guesses",
+              "archived": 0,
+              "hidden": 0,
+              "name": "She guesses",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/9c0194dc3b7c6d78ecc5a0f9f7c9fed681c82969.jpg"
+            },
+            {
+              "icon": "92d0696ff0a8d37793d3095ccf19dba220455bf8.jpg",
+              "localized_name": "She doesn't know",
+              "archived": 0,
+              "hidden": 0,
+              "name": "She doesn't know",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2722680/92d0696ff0a8d37793d3095ccf19dba220455bf8.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 7, 2025"
+        },
+        "support_info": {
+          "url": "https://vk.com/sempiternalrain",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2722680?t=1757267801",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2722680?t=1757267801",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

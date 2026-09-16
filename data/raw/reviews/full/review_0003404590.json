@@ -1,0 +1,66 @@
+{
+  "appid": 3404590,
+  "requested_at": "2026-09-13T19:14:08.144275+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 26,
+      "total_negative": 1,
+      "total_reviews": 27
+    },
+    "reviews": [
+      {
+        "recommendationid": "212953141",
+        "author": {
+          "steamid": "76561198038291002",
+          "personaname": "symeshjb",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198038291002/",
+          "num_games_owned": 296,
+          "num_reviews": 2,
+          "playtime_forever": 251,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 195,
+          "last_played": 1765762503,
+          "avatar": "70964dd722323b1a6bf874383f2c627593face6a"
+        },
+        "language": "english",
+        "review": "A very cute puzzle game that has interesting unique mechanics and puzzles that will wrinkle your brain in a special way. I was a big fan of the original on itch.io and was pleasently surprised with the new visuals, puzzles and other little surprises this game includes.\n\nSome of these puzzles are HARD!",
+        "timestamp_created": 1765330447,
+        "timestamp_updated": 1765330447,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.595070421695709229",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765314079",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYGT4AAAAAFP+MK0EAAAAB1g62sBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 2403600,
+  "requested_at": "2026-09-13T18:50:31.957660+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 43,
+      "total_negative": 1,
+      "total_reviews": 44
+    },
+    "reviews": [
+      {
+        "recommendationid": "205327905",
+        "author": {
+          "steamid": "76561198425356782",
+          "personaname": "Krach",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/krach0_0/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 495,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 495,
+          "last_played": 1758987023,
+          "avatar": "8c314f34539760a2c2e81d0a89fd6b03eb0dc8a2"
+        },
+        "language": "english",
+        "review": "In a time where the Video Game Industry reigns supreme above all other arts in both scale and revenue, it seems like we barely get true indies anymore.\r\nAnd I'm not talking about masterpieces like the recently released Silksong, with its infinite funding and years upon years of developing; I'm talking about the true indie gems, the small-scale miracles conjured by only a few, up-and-coming minds.\r\nThankfully, we just got Jamboy for us to add to that list.\r\nThis is such a charming game all around; it's difficult to take your eyes off of it.\r\n\r\nFor starters, you get the banger art style, which is not only unique and great to look at, it's also super cohesive and gives the whole a thrilling vision. It really looks complete and rock solid, without a single sprite or texture looking like it came from somewhere else, which is even more impressive when you consider the sheer amount of stuff happening everywhere on the screen.\r\nEvery mob, terrain, platform, background, midground, decoration, item... Every single thing in this game is perfectly tuned in synergy with the rest, creating vibrant scenarios with an impressive amount of detail.\r\nThere's really not an empty or boring spot to look at in here!\r\n\r\nThe gameplay itself is also great; the controls feel smooth and after playing for five minutes, I got the hang of it with no problems.\r\nAnd you really need the controls to be smooth when the challenge is up to this level.\r\nDon't get me wrong, this ain't no bullet hell or anything like that, and I myself have completed Cuphead a couple of times; but the developers undeniably had the goal of creating a robust challenge, without ever going overboard and making it unfair.\r\nThe maps are complex and a bit difficult to comprehend at first, and the enemies can feel a bit overwhelming at times (especially if you are about to complete a mission and those f***ing bats appear out of the blue to kill you lmao). But there's no point at which I felt like the levels were unfair, with a few tries you can get the hang of every mechanic, and completing it all is truly satisfying.\r\n\r\nOverall, this is the perfect game for anyone looking for a challenging platformer with a lot of charm. If you are tired of AAA games that underdeliver despite their $90 price tags and want something tinnier and cuter than your typical indie with a millionaire budget, Jamboy is just the game for you!",
+        "timestamp_created": 1758988443,
+        "timestamp_updated": 1758988443,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.614099621772766113",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758814199",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXt88AAAAAFP+OmtQAAAABx4qGPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.984000000000151,
+  "transport_error_count": 0
+}

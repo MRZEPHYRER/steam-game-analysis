@@ -1,0 +1,214 @@
+{
+  "requested_at": "2026-09-12T13:15:34.066707+00:00",
+  "request_params": {
+    "appids": 1915520,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 1915520,
+  "payload": {
+    "1915520": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Pipkin",
+        "steam_appid": 1915520,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/extras/d8cc4f484108038c5c9cb9a53e36cea8.avif?t=1789003808\" width=493 height=158 /></span></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>A Cute and Spooky Creature Collecting Game with a Fall / Halloween Aesthetic</strong>  </p></li><li><p class=\"bb_paragraph\" ><strong> An In-Depth Battle System:</strong> with ~250 moves, 15 elemental types, and 4 classes. Providing a wide variety of playstyles and replay value. (There is also a hard mode, for gamers who want an extra challenge)</p></li><li><p class=\"bb_paragraph\" ><strong> Explore Unique and Colorful Areas:</strong> Explore moonlit forests, a witch academy, a fairytale town where people live in giant pumpkins, and more!</p></li><li><p class=\"bb_paragraph\" ><strong>Create Your Own Character:</strong> Set your character's appearance, as well as their class and elemental type, giving every character a unique move-set and role in battles.  </p></li><li><p class=\"bb_paragraph\" ><strong> A Bloat-Free RPG Experience:</strong> Pipkin is designed to minimize filler content that is commonplace in RPGs. Wild encounters and grinding, for example, are largely optional, and unnecessary to beat the game. </p></li><li><p class=\"bb_paragraph\" ><strong>Customizable Pace:</strong> Players can speed battle animations up to 4x speed, allowing players to breeze through battles as quickly, or as comfortably as they'd like. </p></li><li><p class=\"bb_paragraph\" ><strong>Average Playthrough Length:</strong> 6-10 hours</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/extras/d8cc4f484108038c5c9cb9a53e36cea8.avif?t=1789003808\" width=493 height=158 /></span></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>A Cute and Spooky Creature Collecting Game with a Fall / Halloween Aesthetic</strong>  </p></li><li><p class=\"bb_paragraph\" ><strong> An In-Depth Battle System:</strong> with ~250 moves, 15 elemental types, and 4 classes. Providing a wide variety of playstyles and replay value. (There is also a hard mode, for gamers who want an extra challenge)</p></li><li><p class=\"bb_paragraph\" ><strong> Explore Unique and Colorful Areas:</strong> Explore moonlit forests, a witch academy, a fairytale town where people live in giant pumpkins, and more!</p></li><li><p class=\"bb_paragraph\" ><strong>Create Your Own Character:</strong> Set your character's appearance, as well as their class and elemental type, giving every character a unique move-set and role in battles.  </p></li><li><p class=\"bb_paragraph\" ><strong> A Bloat-Free RPG Experience:</strong> Pipkin is designed to minimize filler content that is commonplace in RPGs. Wild encounters and grinding, for example, are largely optional, and unnecessary to beat the game. </p></li><li><p class=\"bb_paragraph\" ><strong>Customizable Pace:</strong> Players can speed battle animations up to 4x speed, allowing players to breeze through battles as quickly, or as comfortably as they'd like. </p></li><li><p class=\"bb_paragraph\" ><strong>Average Playthrough Length:</strong> 6-10 hours</p></li></ul>",
+        "short_description": "Explore a spooky, Halloween-themed world - make friends, dance with a turkey, or become a witch. Catch 60+ pipkin and fight alongside them as you explore the magical world of New Haven.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/header.jpg?t=1789003808",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/capsule_231x87.jpg?t=1789003808",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/capsule_184x69.jpg?t=1789003808",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows 7 or later<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Microsoft Windows 10<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Gregdude"
+        ],
+        "publishers": [
+          "Gregdude",
+          "Worlds Project"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1099,
+          "final": 1099,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$10.99"
+        },
+        "packages": [
+          689986
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Pipkin",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 689986,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Pipkin - $10.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1099
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/42232f8f4471ae497b240ff2e203780d8474bfa4/ss_42232f8f4471ae497b240ff2e203780d8474bfa4.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/42232f8f4471ae497b240ff2e203780d8474bfa4/ss_42232f8f4471ae497b240ff2e203780d8474bfa4.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/e681527491f9828057d11215bbff1a5ffa3cabca/ss_e681527491f9828057d11215bbff1a5ffa3cabca.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/e681527491f9828057d11215bbff1a5ffa3cabca/ss_e681527491f9828057d11215bbff1a5ffa3cabca.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/de4b9f725a25abf430765f8ed2c0f6ff76de9611/ss_de4b9f725a25abf430765f8ed2c0f6ff76de9611.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/de4b9f725a25abf430765f8ed2c0f6ff76de9611/ss_de4b9f725a25abf430765f8ed2c0f6ff76de9611.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/565d53378693e7a6e1ee79c9146e20fdeeb53514/ss_565d53378693e7a6e1ee79c9146e20fdeeb53514.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/565d53378693e7a6e1ee79c9146e20fdeeb53514/ss_565d53378693e7a6e1ee79c9146e20fdeeb53514.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/bfc6daebced7a19c477256afc2e4313862256a27/ss_bfc6daebced7a19c477256afc2e4313862256a27.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/bfc6daebced7a19c477256afc2e4313862256a27/ss_bfc6daebced7a19c477256afc2e4313862256a27.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/ss_a2b3cb18ced9a9d2ea320f42e1af57bc3be5b553.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/ss_a2b3cb18ced9a9d2ea320f42e1af57bc3be5b553.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/5cace30df609bfd2aa43d0aa66f0479476a37884/ss_5cace30df609bfd2aa43d0aa66f0479476a37884.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/5cace30df609bfd2aa43d0aa66f0479476a37884/ss_5cace30df609bfd2aa43d0aa66f0479476a37884.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/1a5cfeec19d57f486e06bef7d67fc4110864198c/ss_1a5cfeec19d57f486e06bef7d67fc4110864198c.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/1a5cfeec19d57f486e06bef7d67fc4110864198c/ss_1a5cfeec19d57f486e06bef7d67fc4110864198c.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/3ef424b68461ac45fb8f07c1c3c4df6c56e48a1b/ss_3ef424b68461ac45fb8f07c1c3c4df6c56e48a1b.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/3ef424b68461ac45fb8f07c1c3c4df6c56e48a1b/ss_3ef424b68461ac45fb8f07c1c3c4df6c56e48a1b.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/695a63e36ae475d4a9e57a3025a290a268531dda/ss_695a63e36ae475d4a9e57a3025a290a268531dda.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/695a63e36ae475d4a9e57a3025a290a268531dda/ss_695a63e36ae475d4a9e57a3025a290a268531dda.1920x1080.jpg?t=1789003808"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/a603c9c176325571735d693981e56e3563930eaa/ss_a603c9c176325571735d693981e56e3563930eaa.600x338.jpg?t=1789003808",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/a603c9c176325571735d693981e56e3563930eaa/ss_a603c9c176325571735d693981e56e3563930eaa.1920x1080.jpg?t=1789003808"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257194801,
+            "name": "Pipkin trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194801/6f683587543814942c1b95c8293c1e36e887baed/movie_600x337.jpg?t=1757383396",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1915520/1296926930/0145e34ea43807cb81bd16de92b28d3b87348452/1757382222/dash_av1.mpd?t=1757383396",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1915520/1296926930/0145e34ea43807cb81bd16de92b28d3b87348452/1757382222/dash_h264.mpd?t=1757383396",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1915520/1296926930/0145e34ea43807cb81bd16de92b28d3b87348452/1757382222/hls_264_master.m3u8?t=1757383396",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gregorytchazotte@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1915520?t=1789003808",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1915520/page_bg_raw.jpg?t=1789003808",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas lícitas\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Alkohol / Tabak\nGewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nHoror\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

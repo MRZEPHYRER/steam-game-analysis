@@ -1,0 +1,66 @@
+{
+  "appid": 3871740,
+  "requested_at": "2026-09-13T19:52:51.427621+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "209628889",
+        "author": {
+          "steamid": "76561198158993897",
+          "personaname": "SJNW | Certamen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/certaplays/",
+          "num_games_owned": 2459,
+          "num_reviews": 2602,
+          "playtime_forever": 548,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 548,
+          "last_played": 1762815243,
+          "avatar": "efc458318c4c2b2fe752cab8c0a42b6d59318099"
+        },
+        "language": "english",
+        "review": "If you’re looking for a suspenseful horror experience with a tech twist, this game delivers a unique blend of stealth and fear. The premise is immediately intriguing: you’re caught trying to rob what should have been an ordinary amusement park, but the place turns into a deadly maze run by relentless robots. As a hapless thief, survival means navigating dimly lit corridors and puzzles while always being hunted.\r\n\r\nAtmosphere is the core draw here. The visuals, while simple, do an impressive job of immersing you in a world that feels oppressive and tense. The darkness isn’t just a visual effect—it ties directly into gameplay, forcing you to constantly be on alert as you hide from enemies, listen for danger, and try not to panic when something jumps out. The sound design amplifies this unease, keeping you on edge with every creak and mechanical whir.\r\n\r\nStealth mechanics are well-implemented: you’re not just solving puzzles; you’re doing it while evading enemies that feel genuinely dangerous. Success often depends on quick reflexes and careful listening, with moments of genuine fright when you’re spotted. This blend of puzzle and terror creates some memorable “press F to pay respects” chases.\r\n\r\nFor a first project, there’s a solid foundation here. The experience is relatively short but intense, with an effective use of screamers and suspense. There are areas where improvements could push the game even further—brightness/gamma settings and customizable controls would be welcome additions, especially for players who struggled with overly dark sections or sensitivity issues during movement. A bit of polish to the difficulty balance could also help make the challenge feel fairer without sacrificing tension.\r\n\r\nOverall, this game knows how to keep your nerves shredded and your heart rate up. It’s an impressive debut for a horror title, and fans of dark stealth games and robotic nightmares will find a lot to enjoy. Just be prepared: they’re always watching, and you never feel quite safe.",
+        "timestamp_created": 1763566717,
+        "timestamp_updated": 1763566717,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754055000",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB57dWfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

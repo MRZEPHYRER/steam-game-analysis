@@ -1,0 +1,66 @@
+{
+  "appid": 3948840,
+  "requested_at": "2026-09-13T20:04:25.026408+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "208627749",
+        "author": {
+          "steamid": "76561198019816374",
+          "personaname": "Mr. Jacobs",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/EnglishTeacherPlays/",
+          "num_games_owned": 1462,
+          "num_reviews": 1791,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1762517031,
+          "avatar": "9af9dc5219d4f7054874077b4a713ed8761e4647"
+        },
+        "language": "english",
+        "review": "The combat is very abrupt. They definitely didn't waste any time on the animations. The actual game mechanics are pretty good, if shallow. It feels like a clicker game instead of a strategy game. Also, encountering random options right at the start that are not useable at-all is not good design.\n\nhttps://youtu.be/FIoYt326YhY",
+        "timestamp_created": 1762520276,
+        "timestamp_updated": 1762520276,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.526764988899230957",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762424472",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZdvaAAAAAFP+DbQkAAAAB1gu2bBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4135730,
+  "requested_at": "2026-09-13T20:21:45.507486+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "225017425",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 642,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 642,
+          "last_played": 1778139009,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "GoGDoD is a strange and experimental deckbuilding game that feels completely unconcerned with fitting into the conventions of traditional card battlers. Developed and published by WAP, the game combines survival mechanics, unpredictable card effects, dark humor, and bizarre themes into an experience that constantly feels chaotic in both presentation and gameplay. It is clearly an indie project with rough edges, but there is also a noticeable sense of ambition behind the madness. Instead of trying to imitate polished mainstream strategy games directly, GoGDoD embraces its weird identity and builds an experience around unpredictability, risky decision-making, and unconventional mechanics.\n\nThe gameplay revolves around assembling decks from different categories of cards, each serving unique purposes during battles. Character cards form the foundation of most strategies, while enhancement and disruption cards dramatically alter the flow of matches. Much of the challenge comes from understanding how these different effects interact with one another over long survival-oriented runs. Some cards strengthen allies, others sabotage opponents, and many introduce unpredictable effects that can either save a match or ruin an entire strategy instantly. This constant uncertainty creates a tense atmosphere where adaptation becomes just as important as planning ahead.\n\nOne of the game’s strongest qualities is the way it encourages experimentation. Since many cards produce unusual combinations and unexpected outcomes, players are constantly tempted to try strange deck setups just to see what happens. Endless mode especially benefits from this design philosophy because every run gradually evolves into a balancing act between maintaining stability and taking increasingly risky decisions for stronger rewards. The game can feel chaotic at times, but that chaos is also what makes it entertaining. Successful runs often feel earned because survival depends on reacting quickly to constantly changing situations.\n\nVisually, GoGDoD carries a raw indie presentation that immediately reveals its small-scale development origins. The interface, animations, and card layouts lack the polish of larger deckbuilding titles, but the roughness also gives the game a certain personality. The bizarre artwork and exaggerated effects fit the unpredictable gameplay surprisingly well, creating an atmosphere that feels intentionally unstable and surreal. While the visual consistency is uneven, the strange aesthetic helps reinforce the game’s identity as an experimental project rather than a conventional fantasy card battler.\n\nThe card artwork itself is one of the more divisive elements. The use of AI-generated visuals results in designs that occasionally look creative and fitting for the game’s bizarre tone, but other times feel disconnected or generic. Some players may dislike the inconsistency or lack of handcrafted detail, while others may simply view the visuals as part of the game’s intentionally chaotic atmosphere. Regardless of personal opinion, the artwork does succeed at making many cards memorable, especially when combined with unusual effects and exaggerated animations during gameplay.\n\nThe soundtrack and sound effects contribute to the game’s unpredictable energy, though they can become repetitive during extended sessions. Certain tracks fit the dark humor and strange atmosphere well, while others fade into the background after long survival runs. Audio feedback during battles is functional and helps maintain momentum, but the presentation overall still feels like a work in progress. Like many other aspects of the game, the sound design shows ambition even if it lacks refinement.\n\nOne of the most interesting aspects of GoGDoD is the visible passion behind the project. Community updates and planned features suggest that WAP is actively expanding the game with additional mechanics, improved visuals, multiplayer ideas, and balance adjustments. That ongoing development gives the title an evolving quality where players can clearly see the developer experimenting with new systems and ideas. Even when certain mechanics feel unfinished or unbalanced, there is a sense that the game is constantly moving toward something larger and more ambitious.\n\nThe biggest weakness remains the lack of polish. Since the game is still evolving, some systems feel awkward or poorly explained, and balancing issues occasionally make certain strategies either too powerful or frustratingly ineffective. Technical roughness is also noticeable at times, especially compared to more established deckbuilding games. Players expecting a refined and carefully balanced competitive experience may become frustrated by the uneven mechanics and experimental structure.\n\nDespite those flaws, GoGDoD succeeds because it dares to be different. The game’s unusual themes, chaotic gameplay systems, and strange atmosphere create an experience that feels genuinely distinct within the crowded indie card game genre. It does not always execute its ideas perfectly, but it constantly introduces enough unpredictable situations and bizarre mechanics to remain interesting. The willingness to experiment gives the game personality, and that personality helps compensate for many of its technical shortcomings.\n\nGoGDoD ultimately feels like a messy but fascinating indie project filled with creativity and unconventional ideas. Its survival-focused deckbuilding, strange thematic choices, and endless replay-oriented structure provide plenty of entertainment for players who enjoy experimental strategy games and do not mind dealing with rough edges. While it still needs refinement and balancing improvements to fully reach its potential, the game already offers enough originality and chaotic charm to make it worth exploring for fans of unusual indie card battlers.\n\nRating: 6/10",
+        "timestamp_created": 1778225589,
+        "timestamp_updated": 1778225589,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.495495468378067017",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766785952",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaFxEAAAAAFP9+2MKAAAABx5a/aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

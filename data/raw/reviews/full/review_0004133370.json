@@ -1,0 +1,66 @@
+{
+  "appid": 4133370,
+  "requested_at": "2026-09-13T20:21:35.186573+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "215656802",
+        "author": {
+          "steamid": "76561197990135415",
+          "personaname": "arramus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/arramus/",
+          "num_games_owned": 0,
+          "num_reviews": 18,
+          "playtime_forever": 288,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 40,
+          "last_played": 1768115630,
+          "avatar": "0f5f59d5d4611dabac51e7aae3b6879cf57dec24"
+        },
+        "language": "english",
+        "review": "I had the opportunity to play Pixel Mart during its development stage, first public demo release, and full final release. It's a fun little Sim, with a clear progressive flow, that has been a nice filler during break periods. Telric has supported the modding community for many years, and the releases continue to delight those who use them. Pixel Mart appears to be part of that growth track from modding to independent release. Since I have been able to connect with Telric through past modding activities, this review certainly has a positive bias. A recent post to the community suggests things are going to see a bit of an overhaul for the future, with game mode expansion and variety. I'll certainly continue to share feedback through that process, and look forward to see where Pixel Mart heads to from hereon.",
+        "timestamp_created": 1768058528,
+        "timestamp_updated": 1768058528,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765234508",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAByltW2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.375,
+  "transport_error_count": 0
+}

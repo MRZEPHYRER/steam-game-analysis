@@ -1,0 +1,300 @@
+{
+  "requested_at": "2026-09-13T06:20:22.280539+00:00",
+  "request_params": {
+    "appids": 3997190,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3997190,
+  "payload": {
+    "3997190": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Milanesería",
+        "steam_appid": 3997190,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4198600,
+          4303690
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >In Milaneseria, you'll have to manage your own Milanese restaurant. Your mission is super simple: cook the coolest Milanese in the neighborhood, make sure you always have stock, and leave your customers more than satisfied.</p><p class=\"bb_paragraph\" >Become the coolest Milanese maker in town.</p><p class=\"bb_paragraph\" ><strong>STORY MODE</strong></p><p class=\"bb_paragraph\" >After failing to find a job for months, you come across 100,000 pesos in the street and decide to open a Milanesa restaurant, but not everything would be as simple as it seems.</p><p class=\"bb_paragraph\" ><strong>ARCADE MODE</strong></p><p class=\"bb_paragraph\" >In Milaneseria's arcade mode, you'll manage your Milanese restaurant, satisfying your customers to ensure another day in business.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >In Milaneseria, you'll have to manage your own Milanese restaurant. Your mission is super simple: cook the coolest Milanese in the neighborhood, make sure you always have stock, and leave your customers more than satisfied.</p><p class=\"bb_paragraph\" >Become the coolest Milanese maker in town.</p><p class=\"bb_paragraph\" ><strong>STORY MODE</strong></p><p class=\"bb_paragraph\" >After failing to find a job for months, you come across 100,000 pesos in the street and decide to open a Milanesa restaurant, but not everything would be as simple as it seems.</p><p class=\"bb_paragraph\" ><strong>ARCADE MODE</strong></p><p class=\"bb_paragraph\" >In Milaneseria's arcade mode, you'll manage your Milanese restaurant, satisfying your customers to ensure another day in business.</p>",
+        "short_description": "In Milaneseria, you'll have to manage your own Milanese restaurant. Your mission is super simple: cook the coolest Milanese in the neighborhood, make sure you always have stock, and leave your customers more than satisfied.",
+        "supported_languages": "English, Spanish - Latin America<strong>*</strong>, Portuguese - Brazil, Spanish - Spain<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/84b02d9c7932d50bb6de5b932cd96f274b07fbe0/header.jpg?t=1776876203",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/3f5887b8efb01560f746e2c676bf1f4ad644b601/capsule_231x87.jpg?t=1776876203",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/3f5887b8efb01560f746e2c676bf1f4ad644b601/capsule_184x69.jpg?t=1776876203",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64Bits<br></li><li><strong>Processor:</strong> Intel i3<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 2GB VRAM<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64Bits<br></li><li><strong>Processor:</strong> Intel i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 2GB VRAM<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Milanesa Studio"
+        ],
+        "publishers": [
+          "Milanesa Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1402873
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Milanesería",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1402873,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Milaneseria - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/3b7a2ab53bf31ace1a7113faf675db0b14f27f41/ss_3b7a2ab53bf31ace1a7113faf675db0b14f27f41.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/3b7a2ab53bf31ace1a7113faf675db0b14f27f41/ss_3b7a2ab53bf31ace1a7113faf675db0b14f27f41.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/f99de0e22475ccf59709ff4a5aa91304635b921a/ss_f99de0e22475ccf59709ff4a5aa91304635b921a.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/f99de0e22475ccf59709ff4a5aa91304635b921a/ss_f99de0e22475ccf59709ff4a5aa91304635b921a.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/9417c9ee0421bd089272c2b44dbba13ebd53f165/ss_9417c9ee0421bd089272c2b44dbba13ebd53f165.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/9417c9ee0421bd089272c2b44dbba13ebd53f165/ss_9417c9ee0421bd089272c2b44dbba13ebd53f165.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/0bcfd752e7431051bd4198b8528e7ab658a4bb7b/ss_0bcfd752e7431051bd4198b8528e7ab658a4bb7b.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/0bcfd752e7431051bd4198b8528e7ab658a4bb7b/ss_0bcfd752e7431051bd4198b8528e7ab658a4bb7b.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/783a33c0c8599b4fb74e46110097bf71643ae0aa/ss_783a33c0c8599b4fb74e46110097bf71643ae0aa.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/783a33c0c8599b4fb74e46110097bf71643ae0aa/ss_783a33c0c8599b4fb74e46110097bf71643ae0aa.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/fe901d454cdd788bf88ff4ca0c1ec90716d4873c/ss_fe901d454cdd788bf88ff4ca0c1ec90716d4873c.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/fe901d454cdd788bf88ff4ca0c1ec90716d4873c/ss_fe901d454cdd788bf88ff4ca0c1ec90716d4873c.1920x1080.jpg?t=1776876203"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/7bcaadbf31aa51c532b6fbbaa38a8c216579a120/ss_7bcaadbf31aa51c532b6fbbaa38a8c216579a120.600x338.jpg?t=1776876203",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/7bcaadbf31aa51c532b6fbbaa38a8c216579a120/ss_7bcaadbf31aa51c532b6fbbaa38a8c216579a120.1920x1080.jpg?t=1776876203"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257324339,
+            "name": "Milaneseria | Opera de la Milanesa",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257324339/e3a3c91355fe182c4763ae24a64f67758dd7f89a/movie_600x337.jpg?t=1776876202",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3997190/350022732/344c73699d3850cf9452e9bb773529e7936af7d8/1776873344/dash_av1.mpd?t=1776876202",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3997190/350022732/344c73699d3850cf9452e9bb773529e7936af7d8/1776873344/dash_h264.mpd?t=1776876202",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3997190/350022732/344c73699d3850cf9452e9bb773529e7936af7d8/1776873344/hls_264_master.m3u8?t=1776876202",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 12,
+          "highlighted": [
+            {
+              "icon": "58def0e408e940d7cca21cce003abe83847071d5.jpg",
+              "localized_name": "Children of Africa",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Children of Africa",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/58def0e408e940d7cca21cce003abe83847071d5.jpg"
+            },
+            {
+              "icon": "b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg",
+              "localized_name": "Milanesa",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Milanesa",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg"
+            },
+            {
+              "icon": "b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg",
+              "localized_name": "Neapolitan Milanese",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Neapolitan Milanese",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg"
+            },
+            {
+              "icon": "ad8c6d112858de108d8ce6b5ea5f3c5e69e83e4f.jpg",
+              "localized_name": "Tocá pasha bobo",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tocá pasha bobo",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/ad8c6d112858de108d8ce6b5ea5f3c5e69e83e4f.jpg"
+            },
+            {
+              "icon": "bc99e50429cb1d88bb6d42d4ae679efb8e99ff61.jpg",
+              "localized_name": "The truth about the Milanese",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The truth about the Milanese",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/bc99e50429cb1d88bb6d42d4ae679efb8e99ff61.jpg"
+            },
+            {
+              "icon": "d9f9465aa3ae76590b7b07024ea395bc6bc82185.jpg",
+              "localized_name": "Well, that's what it is",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Well, that's what it is",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/d9f9465aa3ae76590b7b07024ea395bc6bc82185.jpg"
+            },
+            {
+              "icon": "79c15838682235ba2dff3ea260f924923df79a9b.jpg",
+              "localized_name": "You have to be clean",
+              "archived": 0,
+              "hidden": 0,
+              "name": "You have to be clean",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/79c15838682235ba2dff3ea260f924923df79a9b.jpg"
+            },
+            {
+              "icon": "06318e06c261f204928a9687f5b895f26939fc8f.jpg",
+              "localized_name": "Choripan",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Choripan",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/06318e06c261f204928a9687f5b895f26939fc8f.jpg"
+            },
+            {
+              "icon": "1d988f2edb222405b2aa1fde5ee536e7fc4bc39d.jpg",
+              "localized_name": "Torta Frita",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Torta Frita",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/1d988f2edb222405b2aa1fde5ee536e7fc4bc39d.jpg"
+            },
+            {
+              "icon": "b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg",
+              "localized_name": "Burnt Milanesa",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Burnt Milanesa",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3997190/b9c6a3018e8c8d528e951a5eb02d02046532cc8a.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 11, 2025"
+        },
+        "support_info": {
+          "url": "milanesastudioargentina@gmail.com",
+          "email": "milanesastudioargentina@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3997190?t=1776876203",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997190/34ce8dfe5e81f2701bab3cf494857453131bd7e2/page_bg_raw.jpg?t=1776876203",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3832360,
+  "requested_at": "2026-09-13T19:46:23.620909+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 1,
+      "total_negative": 3,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208183907",
+        "author": {
+          "steamid": "76561198049791456",
+          "personaname": "Ariboops!",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/ariboops/",
+          "num_games_owned": 185,
+          "num_reviews": 4,
+          "playtime_forever": 323,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 141,
+          "last_played": 1785170911,
+          "avatar": "02e783ab1a4ff914833d9c8c54da19a07641470f"
+        },
+        "language": "english",
+        "review": "Only about two hours of actual game play before you have everything. Good concept, but there's basically nothing here.",
+        "timestamp_created": 1762045046,
+        "timestamp_updated": 1762045046,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760008110",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABzppSaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

@@ -1,0 +1,206 @@
+{
+  "requested_at": "2026-09-13T06:36:41.011027+00:00",
+  "request_params": {
+    "appids": 4045060,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4045060,
+  "payload": {
+    "4045060": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Jaw Jump!",
+        "steam_appid": 4045060,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><i><strong>Your face is the controller!</strong></i></p><p class=\"bb_paragraph\" ><i><strong>Will you reach the goal first, or will your facial muscles give up first?</strong></i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >“Jaw Jump!” is a 2D action game controlled by facial expression recognition using your webcam.</p><p class=\"bb_paragraph\" >Open your mouth to jump, and change the direction of your face to adjust the direction of your jump.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Your goal is to keep climbing higher and higher.</p><p class=\"bb_paragraph\" >The concept is simple, but precise control is required, making the game more difficult than it looks.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >With privacy in mind, the game runs entirely offline.</p><p class=\"bb_paragraph\" >Camera footage is used only for gameplay input and real-time display, and is never recorded, stored, or transmitted externally.</p><p class=\"bb_paragraph\" >Playing with a webcam is recommended, but mouse controls are also supported.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i><strong>Your face is the controller!</strong></i></p><p class=\"bb_paragraph\" ><i><strong>Will you reach the goal first, or will your facial muscles give up first?</strong></i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >“Jaw Jump!” is a 2D action game controlled by facial expression recognition using your webcam.</p><p class=\"bb_paragraph\" >Open your mouth to jump, and change the direction of your face to adjust the direction of your jump.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Your goal is to keep climbing higher and higher.</p><p class=\"bb_paragraph\" >The concept is simple, but precise control is required, making the game more difficult than it looks.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >With privacy in mind, the game runs entirely offline.</p><p class=\"bb_paragraph\" >Camera footage is used only for gameplay input and real-time display, and is never recorded, stored, or transmitted externally.</p><p class=\"bb_paragraph\" >Playing with a webcam is recommended, but mouse controls are also supported.</p>",
+        "short_description": "Your face is the controller! Will you reach the goal first, or will your facial muscles give up first?",
+        "supported_languages": "English, Simplified Chinese, Japanese, French, Italian, German, Spanish - Spain, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/aa29eae9c96cec4a4008f49108b2996921b6998f/header.jpg?t=1763178420",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/5166a811d8b330f81cf43628f8fea0b02fecc1c6/capsule_231x87.jpg?t=1763178420",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/5166a811d8b330f81cf43628f8fea0b02fecc1c6/capsule_184x69.jpg?t=1763178420",
+        "website": "https://scrawny-aletopelta-e1f.notion.site/Jaw-Jump-EULA-29b0dc69988c8044b598ccaf6af8ed80",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> 2.0 GHz Dual Core CPU<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 520 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Built-in sound supported<br></li><li><strong>Additional Notes:</strong> Webcam required for facial expression-based controls.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11 (64-bit)<br></li><li><strong>Processor:</strong> 2.5 GHz Dual Core CPU<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 970 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Built-in sound supported<br></li><li><strong>Additional Notes:</strong> Webcam required for facial expression-based controls.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.15<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core i3<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or better<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Built-in sound supported<br></li><li><strong>Additional Notes:</strong> Webcam required for facial expression-based controls.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 12<br></li><li><strong>Processor:</strong> Apple M1/M2 or Intel Core i5<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1/M2 integrated GPU or better<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Built-in sound supported<br></li><li><strong>Additional Notes:</strong> Webcam required for facial expression-based controls.</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "This product uses Mediapipe, licensed under the Apache License 2.0.",
+        "developers": [
+          "Airy Games"
+        ],
+        "publishers": [
+          "Airy Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1418768
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Jaw Jump!",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1418768,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Jaw Jump! - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/f0439f98b96a9a383d577d7b611caac5868cf71b/ss_f0439f98b96a9a383d577d7b611caac5868cf71b.600x338.jpg?t=1763178420",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/f0439f98b96a9a383d577d7b611caac5868cf71b/ss_f0439f98b96a9a383d577d7b611caac5868cf71b.1920x1080.jpg?t=1763178420"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/75271ee43dd20d113f1a4a784dc60e01140a38d3/ss_75271ee43dd20d113f1a4a784dc60e01140a38d3.600x338.jpg?t=1763178420",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/75271ee43dd20d113f1a4a784dc60e01140a38d3/ss_75271ee43dd20d113f1a4a784dc60e01140a38d3.1920x1080.jpg?t=1763178420"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/2f8e602a8d4397429e3670e4fda748a0e76e845b/ss_2f8e602a8d4397429e3670e4fda748a0e76e845b.600x338.jpg?t=1763178420",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/2f8e602a8d4397429e3670e4fda748a0e76e845b/ss_2f8e602a8d4397429e3670e4fda748a0e76e845b.1920x1080.jpg?t=1763178420"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/92bd565d5635823dfc8681a9d9863fbd97368569/ss_92bd565d5635823dfc8681a9d9863fbd97368569.600x338.jpg?t=1763178420",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/92bd565d5635823dfc8681a9d9863fbd97368569/ss_92bd565d5635823dfc8681a9d9863fbd97368569.1920x1080.jpg?t=1763178420"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/91c5000c714f8cd63da538aadca00a50a1b70f57/ss_91c5000c714f8cd63da538aadca00a50a1b70f57.600x338.jpg?t=1763178420",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045060/91c5000c714f8cd63da538aadca00a50a1b70f57/ss_91c5000c714f8cd63da538aadca00a50a1b70f57.1920x1080.jpg?t=1763178420"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257212340,
+            "name": "Official Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257212340/0f5de3c27157bd0f303862ca6f580635d5358ff2/movie_600x337.jpg?t=1761669230",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4045060/2117502976/8057f77b880be6dbd9300bd4145b871ca016d53c/1761668128/dash_av1.mpd?t=1761669230",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4045060/2117502976/8057f77b880be6dbd9300bd4145b871ca016d53c/1761668128/dash_h264.mpd?t=1761669230",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4045060/2117502976/8057f77b880be6dbd9300bd4145b871ca016d53c/1761668128/hls_264_master.m3u8?t=1761669230",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "airygames.contact@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045060?t=1763178420",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045060?t=1763178420",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

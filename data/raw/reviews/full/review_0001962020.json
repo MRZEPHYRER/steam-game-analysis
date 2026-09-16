@@ -1,0 +1,67 @@
+{
+  "appid": 1962020,
+  "requested_at": "2026-09-13T18:46:13.652320+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209477166",
+        "author": {
+          "steamid": "76561197998186478",
+          "personaname": "ChunKyPiglets",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ChunKyPiglets/",
+          "num_games_owned": 2851,
+          "num_reviews": 23,
+          "playtime_forever": 664,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 164,
+          "deck_playtime_at_review": 164,
+          "last_played": 1768774489,
+          "avatar": "49b8fc0f64109308009c25636336670ba7d6066e"
+        },
+        "language": "english",
+        "review": "A great puzzly racing game, with easy to pick up/ hard to master controls. Compete on the online leaderboards against ghosts. It also has an awesome level editor to make your own creations and share them with the community.",
+        "timestamp_created": 1763395034,
+        "timestamp_updated": 1763395034,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.5744132399559021",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1763117788",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYgwGAAAAAFP+Jhl2AAAAB+4oufBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

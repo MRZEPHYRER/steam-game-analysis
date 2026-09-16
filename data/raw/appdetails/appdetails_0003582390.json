@@ -1,0 +1,307 @@
+{
+  "requested_at": "2026-09-12T15:38:15.657021+00:00",
+  "request_params": {
+    "appids": 3582390,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3582390,
+  "payload": {
+    "3582390": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Sinisomnia",
+        "steam_appid": 3582390,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4043780
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Explore a series of surreal, dreamlike environments where repetition becomes a source of growing discomfort. You’ll revisit the same spaces again and again, yet something always feels... off. Subtle details shift. Layouts change when you’re not looking. What once felt safe and familiar begins to betray you, warping into something alien and wrong. Each interaction, no matter how small, chips away at the thin layer of reality holding everything together. You’re not solving puzzles in the traditional sense. Instead, you're unraveling a fractured consciousness, one eerie encounter at a time. With every step, the line between your mind and the madness you're exploring begins to blur. You are not alone in here. But you may be the only thing left that’s real.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Explore a series of surreal, dreamlike environments where repetition becomes a source of growing discomfort. You’ll revisit the same spaces again and again, yet something always feels... off. Subtle details shift. Layouts change when you’re not looking. What once felt safe and familiar begins to betray you, warping into something alien and wrong. Each interaction, no matter how small, chips away at the thin layer of reality holding everything together. You’re not solving puzzles in the traditional sense. Instead, you're unraveling a fractured consciousness, one eerie encounter at a time. With every step, the line between your mind and the madness you're exploring begins to blur. You are not alone in here. But you may be the only thing left that’s real.</p>",
+        "short_description": "Sinisomnia is a psychological point-and-click horror game that traps you in a looping nightmare of uncertainty and dread. Scattered fragments, unsettling oddities, and the constant sense that something isn’t right await at every turn.",
+        "supported_languages": "English, Japanese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/b86f466efc47e2ce15f2aa2b648755630b926eed/header.jpg?t=1768413124",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/898772b45b2a8c5e80eddc65de4010a4080cf115/capsule_231x87.jpg?t=1768413124",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/898772b45b2a8c5e80eddc65de4010a4080cf115/capsule_184x69.jpg?t=1768413124",
+        "website": "https://fictionroast.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7 (SP1+), Windows 8, Windows 10 and Windows 11<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> GTX 260 or equivalent</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> High Sierra 10.13+<br></li><li><strong>Processor:</strong> Both<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Metal capable Intel and AMD GPUs</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Dave Kang",
+          "Aditya Nair",
+          "Melch Valimento"
+        ],
+        "publishers": [
+          "Fiction Roast"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1263763
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Sinisomnia",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1263763,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Sinisomnia - $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/0ff4bcac595b43164c421643ddf1179418b5293c/ss_0ff4bcac595b43164c421643ddf1179418b5293c.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/0ff4bcac595b43164c421643ddf1179418b5293c/ss_0ff4bcac595b43164c421643ddf1179418b5293c.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/5292b725c2605d0751ecc4ecff0af7585c57574f/ss_5292b725c2605d0751ecc4ecff0af7585c57574f.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/5292b725c2605d0751ecc4ecff0af7585c57574f/ss_5292b725c2605d0751ecc4ecff0af7585c57574f.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/6b683736687f8a709f592ac6b83fa77b4318568d/ss_6b683736687f8a709f592ac6b83fa77b4318568d.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/6b683736687f8a709f592ac6b83fa77b4318568d/ss_6b683736687f8a709f592ac6b83fa77b4318568d.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/a35eaad58330b62d7f568ccbbfb1c47e7cc1081b/ss_a35eaad58330b62d7f568ccbbfb1c47e7cc1081b.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/a35eaad58330b62d7f568ccbbfb1c47e7cc1081b/ss_a35eaad58330b62d7f568ccbbfb1c47e7cc1081b.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/fb1eda87f3234b597bda1df624a3fe12aab0ce85/ss_fb1eda87f3234b597bda1df624a3fe12aab0ce85.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/fb1eda87f3234b597bda1df624a3fe12aab0ce85/ss_fb1eda87f3234b597bda1df624a3fe12aab0ce85.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/bdc1210c545a88a785bacd7837db037c6fb97c6f/ss_bdc1210c545a88a785bacd7837db037c6fb97c6f.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/bdc1210c545a88a785bacd7837db037c6fb97c6f/ss_bdc1210c545a88a785bacd7837db037c6fb97c6f.1920x1080.jpg?t=1768413124"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/b10bab2c25c0644af0bd94ee4dc463be8ccc0487/ss_b10bab2c25c0644af0bd94ee4dc463be8ccc0487.600x338.jpg?t=1768413124",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/b10bab2c25c0644af0bd94ee4dc463be8ccc0487/ss_b10bab2c25c0644af0bd94ee4dc463be8ccc0487.1920x1080.jpg?t=1768413124"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257190963,
+            "name": "Launch Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257190963/211412eb1d4417b8b6ed74dfa16cb27cb156c07a/movie_600x337.jpg?t=1768191608",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3582390/752319118/c8db27fd3ed2a9b4c57155d59d741d3ae833c038/1768056185/dash_av1.mpd?t=1768191608",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3582390/752319118/c8db27fd3ed2a9b4c57155d59d741d3ae833c038/1768056185/dash_h264.mpd?t=1768191608",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3582390/752319118/c8db27fd3ed2a9b4c57155d59d741d3ae833c038/1768056185/hls_264_master.m3u8?t=1768191608",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "dc69e77c75551ad968b4e97f0530c69764ee7e5a.jpg",
+              "localized_name": "The First Click",
+              "archived": 0,
+              "hidden": 1,
+              "name": "The First Click",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/dc69e77c75551ad968b4e97f0530c69764ee7e5a.jpg"
+            },
+            {
+              "icon": "a617b286f7e1c2153ffd97db7a365b274263f27a.jpg",
+              "localized_name": "Puzzle in the Dark",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Puzzle in the Dark",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/a617b286f7e1c2153ffd97db7a365b274263f27a.jpg"
+            },
+            {
+              "icon": "5bc797a2d7ba1bb97955ede47949ff337ed0b77c.jpg",
+              "localized_name": "Echoes of the Past",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Echoes of the Past",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/5bc797a2d7ba1bb97955ede47949ff337ed0b77c.jpg"
+            },
+            {
+              "icon": "a55bed95272e7836c18126f4e17b21d8c0b79db4.jpg",
+              "localized_name": "In the mouth of Illness",
+              "archived": 0,
+              "hidden": 1,
+              "name": "In the mouth of Illness",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/a55bed95272e7836c18126f4e17b21d8c0b79db4.jpg"
+            },
+            {
+              "icon": "096645c094cacf9d4e9cacb1342550ed4959d983.jpg",
+              "localized_name": "Teachers Aren't Alright",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Teachers Aren't Alright",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/096645c094cacf9d4e9cacb1342550ed4959d983.jpg"
+            },
+            {
+              "icon": "e738b9909cf3227d501571975e107c4bc01feb62.jpg",
+              "localized_name": "Darkness Rising",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Darkness Rising",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/e738b9909cf3227d501571975e107c4bc01feb62.jpg"
+            },
+            {
+              "icon": "d7ca092457daa5eea6f8d3f03faa828880788cc7.jpg",
+              "localized_name": "One Last Piece",
+              "archived": 0,
+              "hidden": 1,
+              "name": "One Last Piece",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/d7ca092457daa5eea6f8d3f03faa828880788cc7.jpg"
+            },
+            {
+              "icon": "94efa5b1755a8deacdf7262c763f7e7ca2021cc2.jpg",
+              "localized_name": "No Turning Back",
+              "archived": 0,
+              "hidden": 1,
+              "name": "No Turning Back",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/94efa5b1755a8deacdf7262c763f7e7ca2021cc2.jpg"
+            },
+            {
+              "icon": "be7f30fd54f69a12e3b2a60d4e46e20ea609fc06.jpg",
+              "localized_name": "Nightmare’s End",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Nightmare’s End",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582390/be7f30fd54f69a12e3b2a60d4e46e20ea609fc06.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "support_info": {
+          "url": "https://fictionroast.com/support.html",
+          "email": "fictionroastgameshelp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3582390?t=1768413124",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582390/9c636314ad63178edfc04769dbd31b3cc0ad9d36/page_bg_raw.jpg?t=1768413124",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "The mature content is mostly horror and jump scare related. "
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

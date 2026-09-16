@@ -1,0 +1,66 @@
+{
+  "appid": 2905650,
+  "requested_at": "2026-09-13T18:58:32.256026+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "211958935",
+        "author": {
+          "steamid": "76561199634195934",
+          "personaname": "蠢くゴリラ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199634195934/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 125,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 125,
+          "last_played": 1764516931,
+          "avatar": "cfc13c1e2738f2a52bf2592a0be376f8304201c2"
+        },
+        "language": "japanese",
+        "review": "[h3] 一緒に遊ぶ友達さえいれば良ゲー [/h3]\n現在遊べるモードはカスタムのみ。プレイ人口的にも自身、またはフレンドが作ったルールで遊ぶ以外は特にできることがないというのが現状になるだろう。其故おつまみゲーとしては少し高めの値段設定のゲームを一緒に買ってくれる奇特な友人がいなければ購入はオススメできない。\nその点においては大いに人を選ぶゲームではあるが、TRPGやボードゲームでハウスルールを作って[strike] 無理矢理バカゲーに改造して [/strike]遊ぶのが好きな人間であればおそらく楽しめる。\nバカゲー制作ツールとしては現状で十分な出来だが、もう少しランダム要素のあるカードやカード効果の範囲や数値の調整機能などが実装されれば、表題にもある\"カオス\"をより楽しめる作品になるのではないかと思う。\nまた、現状ルールを自作する都合上遊ぶのにどうしても一手間掛かってしまう。ルールの配布機能等があればより気軽に遊べるようになりそうなので、そこは今後に期待したい。",
+        "timestamp_created": 1764516612,
+        "timestamp_updated": 1764562704,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.560439527034759521",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764211259",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYyowAAAAAFP+HvH+AAAAB3yceoBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

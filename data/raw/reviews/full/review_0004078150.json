@@ -1,0 +1,66 @@
+{
+  "appid": 4078150,
+  "requested_at": "2026-09-13T20:17:42.998457+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 42,
+      "total_negative": 0,
+      "total_reviews": 42
+    },
+    "reviews": [
+      {
+        "recommendationid": "213348802",
+        "author": {
+          "steamid": "76561198282790652",
+          "personaname": "정들래",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198282790652/",
+          "num_games_owned": 1270,
+          "num_reviews": 731,
+          "playtime_forever": 15235,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1008,
+          "last_played": 1769309909,
+          "avatar": "b1e3946e9e73fd7d830e6c2c5cbe222bf78e40eb"
+        },
+        "language": "koreana",
+        "review": "[h2]모니터 꾸미기에 한줄기 빛[/h2]\n\n\n쉽게 설명하자면 스팀에 있는 '봉고캣'과 같은 키뷰어 프로그램임\n\n봉고캣은 외형을 소소하게 바꾸고 키보드/마우스 입력에 반응하여 팔을 내려치는 정도의 기능밖에 하지 못함 (사담으로 자꾸 쓸데없는 기능 추가하는거 좀.. 아니꼽.. 쓰읍..)\n\n허나 이 프로그램은 굉장히 커스텀에 자유롭고 앞으로가 기대되는 프로그램임\n\n- 고양이, 강아지, 사람 등등 다양한 캐릭터로 커스텀 가능하고 일정 시간 입력하고 있지 않는다면 캐릭터들은 잠을 잔다든가 커피를 마신다든가 등등 각자의 다양한 휴식 모션을 취함\n\n- 온갖 수많은 장식물을 모니터 어디든 원하는 곳에 설치가 가능함 그래서 모니터 전체를 아주 이쁘게 꾸밀 수 있으며 숫자와 영어 텍스트도 존재하기에 정말 본인 취향대로 꾸미기 가능\n\n- 키보드의 디자인과 색상을 커스텀 가능\n\n- 입력시 반응형의 이펙트와 사운드를 커스텀 가능\n\n등등등..\n\n\n그리고 위에서 말한 앞으로가 기대된다는 이유는 추가 업데이트들이야 당연한 거고 창작마당을 지원한다는 점!\n\n창작마당을 지원하고 안하고의 컨텐츠 차이는 정말 하늘과 땅의 차이기에 모더분들이 힘내주시길 기대하는 부분!\n\n\n모니터 꾸미기를 좋아하시는 분! 그리고 인터넷 방송을 하시는분! 등등의 분들한테 추천해줄 수 있지 않을까 싶음! 강추강추!",
+        "timestamp_created": 1765801507,
+        "timestamp_updated": 1765801507,
+        "voted_up": true,
+        "votes_up": 21,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.688839256763458252",
+        "comment_count": 11,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765475809",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWOSUAAAAAFP+YK+CAAAABynO6tBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2340000000003783,
+  "transport_error_count": 0
+}

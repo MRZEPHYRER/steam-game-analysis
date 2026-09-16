@@ -1,0 +1,321 @@
+{
+  "requested_at": "2026-09-13T06:26:03.429073+00:00",
+  "request_params": {
+    "appids": 4013260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4013260,
+  "payload": {
+    "4013260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Music Game",
+        "steam_appid": 4013260,
+        "required_age": 0,
+        "is_free": true,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Overview</strong><br>A customisable rhythm game which includes a level editor, Steam Workshop support, automatic level generation and much more!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Key Features</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >17 official levels</p></li><li><p class=\"bb_paragraph\" >Manual level editor</p></li><li><p class=\"bb_paragraph\" >Automatic chart generation from uploads</p></li><li><p class=\"bb_paragraph\" >Steam Workshop for sharing levels</p></li><li><p class=\"bb_paragraph\" >Online leaderboards</p></li><li><p class=\"bb_paragraph\" >Local multiplayer (2 Players)</p></li><li><p class=\"bb_paragraph\" >Controller support</p></li><li><p class=\"bb_paragraph\" >Audio-reactive visuals</p></li><li><p class=\"bb_paragraph\" >Custom level folders</p></li><li><p class=\"bb_paragraph\" >Steam achievements</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Overview</strong><br>A customisable rhythm game which includes a level editor, Steam Workshop support, automatic level generation and much more!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Key Features</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >17 official levels</p></li><li><p class=\"bb_paragraph\" >Manual level editor</p></li><li><p class=\"bb_paragraph\" >Automatic chart generation from uploads</p></li><li><p class=\"bb_paragraph\" >Steam Workshop for sharing levels</p></li><li><p class=\"bb_paragraph\" >Online leaderboards</p></li><li><p class=\"bb_paragraph\" >Local multiplayer (2 Players)</p></li><li><p class=\"bb_paragraph\" >Controller support</p></li><li><p class=\"bb_paragraph\" >Audio-reactive visuals</p></li><li><p class=\"bb_paragraph\" >Custom level folders</p></li><li><p class=\"bb_paragraph\" >Steam achievements</p></li></ul>",
+        "short_description": "A customisable rhythm game which includes a level editor, Steam Workshop support, automatic level generation and much more!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "reviews": "“This game is really awesome and sigma.”<br />\r\n5/5 – Sigma<br />\r\n<br />\r\n“This is the greatest game of all time.”<br />\r\n10/5 – Mr. Breast<br />\r\n<br />\r\n“this game is rlly cool everyone should play it”<br />\r\nHarryAG<br />\r\n",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/71d734d1925d9fc7bfa5312774c01275a699e824/header.jpg?t=1767686638",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/6bc6ec156b184976add1e58c4dca353207fffa0c/capsule_231x87.jpg?t=1767686638",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/6bc6ec156b184976add1e58c4dca353207fffa0c/capsule_184x69.jpg?t=1767686638",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3-10100F<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11-class GPU with 4 GB VRAM<br></li><li><strong>Storage:</strong> 2500 MB available space<br></li><li><strong>Sound Card:</strong> Any Windows-compatible audio device</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "BNnnen"
+        ],
+        "publishers": [
+          "BNnnen"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/8152875e08885926f56f7d063ac0c67b198d4add/ss_8152875e08885926f56f7d063ac0c67b198d4add.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/8152875e08885926f56f7d063ac0c67b198d4add/ss_8152875e08885926f56f7d063ac0c67b198d4add.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/6bf8875736ba1aae27a1a0ac155ecb68c4832371/ss_6bf8875736ba1aae27a1a0ac155ecb68c4832371.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/6bf8875736ba1aae27a1a0ac155ecb68c4832371/ss_6bf8875736ba1aae27a1a0ac155ecb68c4832371.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/dfa45e83b62512b597e41524cec75a7887f54729/ss_dfa45e83b62512b597e41524cec75a7887f54729.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/dfa45e83b62512b597e41524cec75a7887f54729/ss_dfa45e83b62512b597e41524cec75a7887f54729.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/d780fdffcb6c0bdc39516b8eb1e3c6b343f6fa52/ss_d780fdffcb6c0bdc39516b8eb1e3c6b343f6fa52.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/d780fdffcb6c0bdc39516b8eb1e3c6b343f6fa52/ss_d780fdffcb6c0bdc39516b8eb1e3c6b343f6fa52.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/95fba39cf4ad6e5840e98ad29dee7b94f3452bed/ss_95fba39cf4ad6e5840e98ad29dee7b94f3452bed.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/95fba39cf4ad6e5840e98ad29dee7b94f3452bed/ss_95fba39cf4ad6e5840e98ad29dee7b94f3452bed.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/591e38411082980bbbe09489f82dfe3ed8470ab6/ss_591e38411082980bbbe09489f82dfe3ed8470ab6.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/591e38411082980bbbe09489f82dfe3ed8470ab6/ss_591e38411082980bbbe09489f82dfe3ed8470ab6.1920x1080.jpg?t=1767686638"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/1188883fdb12bed9f3e391452e0991f1b44e7674/ss_1188883fdb12bed9f3e391452e0991f1b44e7674.600x338.jpg?t=1767686638",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/1188883fdb12bed9f3e391452e0991f1b44e7674/ss_1188883fdb12bed9f3e391452e0991f1b44e7674.1920x1080.jpg?t=1767686638"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257242792,
+            "name": "Music Game Trailer 2",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257242792/47cc94752f7c5f935d232f56c3f08e6d11648c6f/movie_600x337.jpg?t=1764757507",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4013260/670287274/710ac3fff516683575ddc4529f5bdd8de4fe7d14/1764756992/dash_av1.mpd?t=1764757507",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4013260/670287274/710ac3fff516683575ddc4529f5bdd8de4fe7d14/1764756992/dash_h264.mpd?t=1764757507",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4013260/670287274/710ac3fff516683575ddc4529f5bdd8de4fe7d14/1764756992/hls_264_master.m3u8?t=1764757507",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 13,
+          "highlighted": [
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "First Beat",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Beat",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "DJ in Training",
+              "archived": 0,
+              "hidden": 0,
+              "name": "DJ in Training",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Combo Keeper",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Combo Keeper",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Score Starter",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Score Starter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Rhythm Veteran",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rhythm Veteran",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Rhythm Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rhythm Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Rhythm God",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rhythm God",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Combo King",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Combo King",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "Combo Overlord",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Combo Overlord",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            },
+            {
+              "icon": "c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg",
+              "localized_name": "All-Nighter",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All-Nighter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4013260/c41704b9f74ecfae4f2574d0ffdbc0c63bf28786.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 2, 2025"
+        },
+        "support_info": {
+          "url": "https://forms.gle/Evj9QAo8riykjq728",
+          "email": "musicgamedev1@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4013260?t=1767686638",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013260/597a8ffd3d9345ae46bb0d5d7590e3605a3e2d40/page_bg_raw.jpg?t=1767686638",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

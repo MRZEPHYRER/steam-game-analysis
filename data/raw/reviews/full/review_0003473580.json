@@ -1,0 +1,66 @@
+{
+  "appid": 3473580,
+  "requested_at": "2026-09-13T19:17:57.965327+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 0,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "204559768",
+        "author": {
+          "steamid": "76561198358616525",
+          "personaname": "Virnheim",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198358616525/",
+          "num_games_owned": 92,
+          "num_reviews": 1,
+          "playtime_forever": 953,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 953,
+          "last_played": 1758124107,
+          "avatar": "cecfc117b1a771da3b3f5820fefd0ee4297860d1"
+        },
+        "language": "french",
+        "review": "Petit jeu bien sympathique qui rappel l'excellent jeu Advance Wars sur GBA, les parties personnalisées sont bien fun notamment grâce aux divers cartes proposé. si je devais dire une petite critique ce serait peut être les dialogues du mode histoire un peu long, mais sinon le jeu est excellent.\r\nje recommande ce jeu pour les nostalgiques du genre stratégie, qu'on retrouvait sur Gameboy ou pour les nouveaux qui veulent découvrir de manière amusante le style du jeu.",
+        "timestamp_created": 1758124453,
+        "timestamp_updated": 1758124453,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756108364",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB42aqMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1399999999998727,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3690060,
+  "requested_at": "2026-09-13T19:32:10.675758+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "230833938",
+        "author": {
+          "steamid": "76561198018217405",
+          "personaname": "Riin",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198018217405/",
+          "num_games_owned": 1186,
+          "num_reviews": 33,
+          "playtime_forever": 30,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1784466199,
+          "avatar": "fa10877e7ccb0ee4c5455b8b2d24ab850c5679f8"
+        },
+        "language": "english",
+        "review": "I am going to be extremely harsh here.\n\nThe whole game reeks of AI.\n\nPros:\nThe few songs that i played range from okay to soso.\n\ncons :\neverything else.\n\nSo where to start ?\nThis is a terrible game.\n\nFirst there is no absolutely no menu and no settings at all. Impossible to quit the game other than alt-f4, no possibility to pause or quit a game with ESC.( basic thing that exist since the dawn of computer gaming yo )\n\nThe only ui you have is a whole mess.\n\nGameplay is horrible, witch is the selling point of a rhythm game you know.\nNo difficulty selection for songs.\nHad to deactivate 3D and every effect or else it was lagging.\nPatterns are fully random and borderline unreadable.\nIncreasing Speed notes does not change anything.\nHold notes are noted as \" swipe\" so what, it was developped for mobile ?\nDiamond notes are impossible to get, i cant press the key plus space at the same time.\nContinous tap notes are random, in both their placement and the number of times you have to hit them, while still having to continue pressing other keys, i cant spam a key while pressing the others.\n\nHonestly, this is a hard pass, i couldnt even be bothered to try every song.\n\nPlease avoid.",
+        "timestamp_created": 1784466774,
+        "timestamp_updated": 1784467259,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760013823",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABy8cfwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

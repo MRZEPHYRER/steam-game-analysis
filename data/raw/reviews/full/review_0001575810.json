@@ -1,0 +1,75 @@
+{
+  "appid": 1575810,
+  "requested_at": "2026-09-13T18:43:40.394320+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 136,
+      "total_negative": 11,
+      "total_reviews": 147
+    },
+    "reviews": [
+      {
+        "recommendationid": "213402015",
+        "author": {
+          "steamid": "76561198088648257",
+          "personaname": "Mahokami",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198088648257/",
+          "num_games_owned": 0,
+          "num_reviews": 28,
+          "playtime_forever": 5921,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5921,
+          "last_played": 1764765384,
+          "avatar": "0bf9dcb7980d69ec083e4380c1212534a9cfb665"
+        },
+        "language": "english",
+        "review": "7/10 - I'm recommending this game but I am warning you that, in my opinion, it is very possible that you will run out of the desire to keep playing this game by chapter 3 or 4.  All games are repetitive but some are better at masking this than others and other times I couldn't tell you why one game made me want to keep playing despite how repetitive it felt while another I got to the point of \"Well that was fun, but I'm done with this\" within a few hours.\n\nWhile it is possible it won't be that for many people, it turned out to be that for me but the thing is, I don't regret purchasing this game.  There are games where I got over 80 hours of actual game time in them (my times are often inflated due to my bad habit of leaving a game on while I'm gone for a week) and I genuinely regretted the time I put into them.\n\nSo what lowered my motivation to continue in this game?  I can't be sure because I don't really understand game design but if I had to guess, it was (while the concept was very interesting and me like turnbased here) it was too limiting.  Finding a bunch of words but being able to only use a small fraction of them made me not enjoy finding new words.  The game is obviously meant to be replayed and it is good that you can replay a level without beating the whole game first but I kind of didn't want to replay chapters since it isn't like the story changes.\n\nThe game, rather than being challenging, started to feel increasingly \"unfair\" for lack of a better word.  And, although I put time into it to try to become stronger, I didn't really feel like I was stronger although technically I was.  It's difficult to explain.\n\nAgain, no regrets with this game.  I liked the concept and wonder if it would be even better if this style combat was combined with aspects of that found in Claire Obscur.  So my recommendation is try the game out.  The dev cared about their work and the art style is pretty cool.  The story also isn't bad and the dialogue can be pretty funny.",
+        "timestamp_created": 1765865374,
+        "timestamp_updated": 1765865374,
+        "voted_up": true,
+        "votes_up": 29,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.781100809574127197",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758301200",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 2
+          },
+          {
+            "reaction_type": 31,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUYMOAAAAAFP+j+x4AAAAB/mYiuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.905999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,87 @@
+{
+  "appid": 2695430,
+  "requested_at": "2026-09-13T18:54:17.816985+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 716,
+      "total_negative": 163,
+      "total_reviews": 879
+    },
+    "reviews": [
+      {
+        "recommendationid": "210720971",
+        "author": {
+          "steamid": "76561198087235092",
+          "personaname": "Mistoprado",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Brozll/",
+          "num_games_owned": 830,
+          "num_reviews": 71,
+          "playtime_forever": 687,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 130,
+          "last_played": 1776371292,
+          "avatar": "15ff91ef315534ca4680c85e183d834fb6e8741b"
+        },
+        "language": "brazilian",
+        "review": "Jogo bom, jogo top. Bora financiar esse projeto e deixar de ser vira lata de empresa gringa. Pulsatrix é brutal!!!!",
+        "timestamp_created": 1764120458,
+        "timestamp_updated": 1764120458,
+        "voted_up": true,
+        "votes_up": 195,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.897501170635223389",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764078725",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          },
+          {
+            "reaction_type": 23,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSDMuAAAAAFP+y4VAAAAAB7jOujBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

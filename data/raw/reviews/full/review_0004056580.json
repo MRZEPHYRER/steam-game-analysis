@@ -1,0 +1,75 @@
+{
+  "appid": 4056580,
+  "requested_at": "2026-09-13T20:16:27.579793+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "222149337",
+        "author": {
+          "steamid": "76561198073508142",
+          "personaname": "Anaeda",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/loveyorha/",
+          "num_games_owned": 0,
+          "num_reviews": 25,
+          "playtime_forever": 45,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 26,
+          "last_played": 1774995591,
+          "avatar": "06f7263581e1d1cf3e011d0cd3dca27c2b42bbba"
+        },
+        "language": "english",
+        "review": "This is the greatest game ever... please help me find d.w",
+        "timestamp_created": 1774926949,
+        "timestamp_updated": 1774926949,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.568582236766815186",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761296981",
+        "reactions": [
+          {
+            "reaction_type": 35,
+            "count": 2
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFnoNwAAAAAFP+Ix0uAAAAB5rbfPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

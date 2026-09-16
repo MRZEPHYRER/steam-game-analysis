@@ -1,0 +1,66 @@
+{
+  "appid": 3582270,
+  "requested_at": "2026-09-13T19:24:09.699741+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "220042932",
+        "author": {
+          "steamid": "76561198101096197",
+          "personaname": "Giodyne",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Giodyne/",
+          "num_games_owned": 0,
+          "num_reviews": 158,
+          "playtime_forever": 236,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 236,
+          "last_played": 1772842422,
+          "avatar": "26895c69330034758bda760267418c2af6ad40ee"
+        },
+        "language": "english",
+        "review": "Cool game by the STGBuilder developer.\r\n\r\nGameplay is pretty straightforward, you’re essentially using your homing shot called Gatling Laser. Every time you hit an enemy with it you level up and increase the amount of locks that your homing shot can hold. It feels somewhat similar to that of Rayforce but there's a slight difference I can’t make out. There's also your main shot and finally your burst which is essentially a stronger version of the homing shot. You can build the meter of the burst by just attacking the enemy.\r\n\r\nThe game has about 5 stages and is generous gameplay wise. There's no difficulty options but the game will allow you to go through stages to replay for some practice. I wouldn’t say it's the best of all time but it's a solid shmup and for that I recommend it.\r\nhttps://www.youtube.com/watch?v=iARTkZO85Us",
+        "timestamp_created": 1772854118,
+        "timestamp_updated": 1772854118,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.59417271614074707",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767193268",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYHdWAAAAAFP+MDdyAAAAB067LHBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

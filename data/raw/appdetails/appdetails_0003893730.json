@@ -1,0 +1,244 @@
+{
+  "requested_at": "2026-09-12T17:50:00.723571+00:00",
+  "request_params": {
+    "appids": 3893730,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3893730,
+  "payload": {
+    "3893730": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Doomed Inheritance",
+        "steam_appid": 3893730,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>About This Game</strong></p><p class=\"bb_paragraph\" >Step into the decaying halls of Mortimer Manor, where every ticking second erodes your grip on reality. In <strong>Doomed Inheritance</strong>, you’ll navigate grand foyers, shadowed galleries, and winding catacombs—all while a relentless sanity meter displayed as a brain icon fractures under the strain.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Dynamic Sanity System:</strong> Watch your brain HUD icon crack and splinter as time slips away. When your mind falters, controls stutter and visuals distort, heightening the dread.</p></li><li><p class=\"bb_paragraph\" ><strong>Exploration &amp; Secrets:</strong> Hunt for hidden alcoves, secret pantries, and forgotten journals that shed light on the Mortimer curse—and grant fleeting relief in the form of youth vials.</p></li><li><p class=\"bb_paragraph\" ><strong>Atmospheric Presentation:</strong> Immerse yourself in hand‐crafted Gothic corridors, eerie soundscapes, and flickering candlelight that reveal—or conceal—the manor’s darkest secrets.</p></li><li><p class=\"bb_paragraph\" ><strong>Early Access Content:</strong> Experience the opening chapters, from the grand staircase down to the relic‐filled catacombs. Future updates may expand the estate, introduce fresh puzzles, and deepen the narrative, guided by community feedback.</p></li></ul><p class=\"bb_paragraph\" >Are you prepared to inherit centuries of ambition—and pay the ultimate price? Your borrowed time begins now.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>About This Game</strong></p><p class=\"bb_paragraph\" >Step into the decaying halls of Mortimer Manor, where every ticking second erodes your grip on reality. In <strong>Doomed Inheritance</strong>, you’ll navigate grand foyers, shadowed galleries, and winding catacombs—all while a relentless sanity meter displayed as a brain icon fractures under the strain.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Dynamic Sanity System:</strong> Watch your brain HUD icon crack and splinter as time slips away. When your mind falters, controls stutter and visuals distort, heightening the dread.</p></li><li><p class=\"bb_paragraph\" ><strong>Exploration &amp; Secrets:</strong> Hunt for hidden alcoves, secret pantries, and forgotten journals that shed light on the Mortimer curse—and grant fleeting relief in the form of youth vials.</p></li><li><p class=\"bb_paragraph\" ><strong>Atmospheric Presentation:</strong> Immerse yourself in hand‐crafted Gothic corridors, eerie soundscapes, and flickering candlelight that reveal—or conceal—the manor’s darkest secrets.</p></li><li><p class=\"bb_paragraph\" ><strong>Early Access Content:</strong> Experience the opening chapters, from the grand staircase down to the relic‐filled catacombs. Future updates may expand the estate, introduce fresh puzzles, and deepen the narrative, guided by community feedback.</p></li></ul><p class=\"bb_paragraph\" >Are you prepared to inherit centuries of ambition—and pay the ultimate price? Your borrowed time begins now.</p>",
+        "short_description": "Doomed Inheritance is a first-person psychological horror puzzle game set in a decaying Gothic manor where a brain-shaped sanity meter steadily drains. Explore eerie rooms, solve immersive environmental, light-and-shadow, and pattern puzzles, and collect vials to stave off creeping control drift.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/0ad81d244c78155a93c863b3b245466e1092b5cd/header.jpg?t=1785176525",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/0bc73038dc2d72ddfa1a39b7ac864f5d6869ff6f/capsule_231x87.jpg?t=1785176525",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/0bc73038dc2d72ddfa1a39b7ac864f5d6869ff6f/capsule_184x69.jpg?t=1785176525",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD processor, 2.5 GHz or faster<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 or 12 compatible card (Windows)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>VR Support:</strong> N/A</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Orikazi"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1368699
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Doomed Inheritance",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1368699,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Doomed Inheritance - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/03f4a82f550e26cf05d04bc4bb9ad3ab452ffa3f/ss_03f4a82f550e26cf05d04bc4bb9ad3ab452ffa3f.600x338.jpg?t=1785176525",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/03f4a82f550e26cf05d04bc4bb9ad3ab452ffa3f/ss_03f4a82f550e26cf05d04bc4bb9ad3ab452ffa3f.1920x1080.jpg?t=1785176525"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/796bf89d652ea62e6660b5fe54be61e03fe7bc6d/ss_796bf89d652ea62e6660b5fe54be61e03fe7bc6d.600x338.jpg?t=1785176525",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/796bf89d652ea62e6660b5fe54be61e03fe7bc6d/ss_796bf89d652ea62e6660b5fe54be61e03fe7bc6d.1920x1080.jpg?t=1785176525"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/3c43f830af59bca360d6d8a125805ee76f54b01c/ss_3c43f830af59bca360d6d8a125805ee76f54b01c.600x338.jpg?t=1785176525",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/3c43f830af59bca360d6d8a125805ee76f54b01c/ss_3c43f830af59bca360d6d8a125805ee76f54b01c.1920x1080.jpg?t=1785176525"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/304642b0aaf23cea60b77f18959c3fa19db9adc3/ss_304642b0aaf23cea60b77f18959c3fa19db9adc3.600x338.jpg?t=1785176525",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/304642b0aaf23cea60b77f18959c3fa19db9adc3/ss_304642b0aaf23cea60b77f18959c3fa19db9adc3.1920x1080.jpg?t=1785176525"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/745be588cb7272f20ab14a4ce9f7277368ed6447/ss_745be588cb7272f20ab14a4ce9f7277368ed6447.600x338.jpg?t=1785176525",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/745be588cb7272f20ab14a4ce9f7277368ed6447/ss_745be588cb7272f20ab14a4ce9f7277368ed6447.1920x1080.jpg?t=1785176525"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257173114,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257173114/b3221f132b7f438880432335c08831f59aad0f8a/movie_600x337.jpg?t=1753715855",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3893730/127024306/10baf1a5d65774bf54bd9d512152585c9fe52e98/1753383873/dash_av1.mpd?t=1753715855",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3893730/127024306/10baf1a5d65774bf54bd9d512152585c9fe52e98/1753383873/dash_h264.mpd?t=1753715855",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3893730/127024306/10baf1a5d65774bf54bd9d512152585c9fe52e98/1753383873/hls_264_master.m3u8?t=1753715855",
+            "highlight": true
+          },
+          {
+            "id": 257171948,
+            "name": "Doomed Inheritance Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257171948/74cf4409269d5329e072256d8e9365ede90e6496/movie_600x337.jpg?t=1753715858",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3893730/263620730/e2cc730a5b2e50fe2edee63eedfa5bc23cd7f8a1/1753117281/dash_av1.mpd?t=1753715858",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3893730/263620730/e2cc730a5b2e50fe2edee63eedfa5bc23cd7f8a1/1753117281/dash_h264.mpd?t=1753715858",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3893730/263620730/e2cc730a5b2e50fe2edee63eedfa5bc23cd7f8a1/1753117281/hls_264_master.m3u8?t=1753715858",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "044b2ed95afd0540a19894123052374810ad0b4e.jpg",
+              "localized_name": "Voices in the Walls",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Voices in the Walls",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/044b2ed95afd0540a19894123052374810ad0b4e.jpg"
+            },
+            {
+              "icon": "17db35d32ffcf3411854640b0c24dfed86134a58.jpg",
+              "localized_name": "Bloodline Awakened",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bloodline Awakened",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/17db35d32ffcf3411854640b0c24dfed86134a58.jpg"
+            },
+            {
+              "icon": "cdeb87785f5935b02327337d53ab82b8926e48b7.jpg",
+              "localized_name": "Puzzle of the Damned",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Puzzle of the Damned",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/cdeb87785f5935b02327337d53ab82b8926e48b7.jpg"
+            },
+            {
+              "icon": "1390f90a92c2b19e915b5d80e8a9647eee653f86.jpg",
+              "localized_name": "The Final Inheritance",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Final Inheritance",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/1390f90a92c2b19e915b5d80e8a9647eee653f86.jpg"
+            },
+            {
+              "icon": "0bb6224224624588606c0fe28fe8e3f061b97817.jpg",
+              "localized_name": "Echoes Remembered",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Echoes Remembered",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/0bb6224224624588606c0fe28fe8e3f061b97817.jpg"
+            },
+            {
+              "icon": "b06501893c5032f86bd1b98b4cd33d44e8f24b26.jpg",
+              "localized_name": "Welcome to the Family",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Welcome to the Family",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3893730/b06501893c5032f86bd1b98b4cd33d44e8f24b26.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "avillegas0595@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3893730?t=1785176525",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3893730/a2406258b232021c4d5fd27b1dc12a7e6172c276/page_bg_raw.jpg?t=1785176525",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nAlkohol / Tabak\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan\nRokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya"
+          }
+        }
+      }
+    }
+  }
+}

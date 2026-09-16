@@ -1,0 +1,71 @@
+{
+  "appid": 2615540,
+  "requested_at": "2026-09-13T18:53:12.367571+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 2291,
+      "total_negative": 208,
+      "total_reviews": 2499
+    },
+    "reviews": [
+      {
+        "recommendationid": "225806118",
+        "author": {
+          "steamid": "76561198799295541",
+          "personaname": "Niko",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Nikosakaniko/",
+          "num_games_owned": 332,
+          "num_reviews": 119,
+          "playtime_forever": 358,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 168,
+          "last_played": 1781099009,
+          "avatar": "b1e77f387aa8af6d06f3a94d0a7cce3337e3d2fb"
+        },
+        "language": "english",
+        "review": "There's an upgrade that gives your gun more mag capacity if you change your game's resolution to be lower",
+        "timestamp_created": 1779061267,
+        "timestamp_updated": 1779061267,
+        "voted_up": true,
+        "votes_up": 101,
+        "votes_funny": 36,
+        "weighted_vote_score": "0.868074417114257812",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755626413",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSo3YAAAAAFP+vHQyAAAAB28rDdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

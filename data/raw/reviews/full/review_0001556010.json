@@ -1,0 +1,66 @@
+{
+  "appid": 1556010,
+  "requested_at": "2026-09-13T18:43:29.939784+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 69,
+      "total_negative": 4,
+      "total_reviews": 73
+    },
+    "reviews": [
+      {
+        "recommendationid": "213388528",
+        "author": {
+          "steamid": "76561198237262878",
+          "personaname": "kotetool",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198237262878/",
+          "num_games_owned": 84,
+          "num_reviews": 19,
+          "playtime_forever": 172,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 108,
+          "last_played": 1766280735,
+          "avatar": "6889e542266ff1eca9c32d7f405a723a0e19f756"
+        },
+        "language": "japanese",
+        "review": "なんて[spoiler] シャークにさわる展開[/spoiler]なんだ…！！\n\nバカゲーなのにカジュアルラリーゲームとしてもとても楽しめる挙動なのがすごく良いです\n日本の風景街並みが完全に再現されたコースにこだわりを感じます",
+        "timestamp_created": 1765845046,
+        "timestamp_updated": 1765898390,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.56204378604888916",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1690815732",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYwlWAAAAAFP+H8Q8AAAABwz4GuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

@@ -1,0 +1,168 @@
+{
+  "requested_at": "2026-09-12T15:55:17.388644+00:00",
+  "request_params": {
+    "appids": 3651570,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3651570,
+  "payload": {
+    "3651570": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Tears of Viceroy",
+        "steam_appid": 3651570,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>ToV</strong> is a slow real-time / turn-based hybrid game, where turns (called <i>ticks</i>) end automatically. A typical game (called a <i>campaign</i>) takes a week or longer.</p></li><li><p class=\"bb_paragraph\" ><strong>ATWAR</strong> (<i>Advance Tick When All Ready</i>) mode allows to advance ticks faster, making possible to play the whole campaign in one evening.</p></li><li><p class=\"bb_paragraph\" ><strong>Rule-based diplomacy</strong>:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Defense pacts with defensive wars auto-join</p></li><li><p class=\"bb_paragraph\" >Alliances with shared scan range</p></li><li><p class=\"bb_paragraph\" >Inter-bloc diplomacy (joins, expulsions, war declarations, peace proposals) resolved by vote</p></li><li><p class=\"bb_paragraph\" >Suzerainties with tributes and, well... vassals!</p></li></ul></li><li><p class=\"bb_paragraph\" ><strong>Campaign event notifications</strong> are sent to your mobile device (currently Android only), so you don’t need to check the game constantly or keep it running in the background.</p></li><li><p class=\"bb_paragraph\" ><strong>No cheating</strong> – each client receives only the information it’s allowed to see.</p></li><li><p class=\"bb_paragraph\" ><strong>Co-participation info</strong> shows which players in your campaign have played (or are playing) other campaigns together – helps detect multi-boxers.</p></li><li><p class=\"bb_paragraph\" ><strong>Local tick control</strong> lets you review past ticks and preview future (predicted) ones – useful for analysis and planning.</p></li></ul>",
+        "about_the_game": "<ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>ToV</strong> is a slow real-time / turn-based hybrid game, where turns (called <i>ticks</i>) end automatically. A typical game (called a <i>campaign</i>) takes a week or longer.</p></li><li><p class=\"bb_paragraph\" ><strong>ATWAR</strong> (<i>Advance Tick When All Ready</i>) mode allows to advance ticks faster, making possible to play the whole campaign in one evening.</p></li><li><p class=\"bb_paragraph\" ><strong>Rule-based diplomacy</strong>:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Defense pacts with defensive wars auto-join</p></li><li><p class=\"bb_paragraph\" >Alliances with shared scan range</p></li><li><p class=\"bb_paragraph\" >Inter-bloc diplomacy (joins, expulsions, war declarations, peace proposals) resolved by vote</p></li><li><p class=\"bb_paragraph\" >Suzerainties with tributes and, well... vassals!</p></li></ul></li><li><p class=\"bb_paragraph\" ><strong>Campaign event notifications</strong> are sent to your mobile device (currently Android only), so you don’t need to check the game constantly or keep it running in the background.</p></li><li><p class=\"bb_paragraph\" ><strong>No cheating</strong> – each client receives only the information it’s allowed to see.</p></li><li><p class=\"bb_paragraph\" ><strong>Co-participation info</strong> shows which players in your campaign have played (or are playing) other campaigns together – helps detect multi-boxers.</p></li><li><p class=\"bb_paragraph\" ><strong>Local tick control</strong> lets you review past ticks and preview future (predicted) ones – useful for analysis and planning.</p></li></ul>",
+        "short_description": "Tears of Viceroy is a multiplayer strategy game of interstellar conquest, diplomacy and resource control. Form alliances, forge suzerainties, and outmaneuver rivals in a week-long battle of wits and ambition. For the homeworld!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/6a1f8dbdf2bc37f5be727eb40e9e53d04baf6f54/header.jpg?t=1755020149",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/6079c138162327ee68ec33002a3f96da83f4c685/capsule_231x87.jpg?t=1755020149",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/6079c138162327ee68ec33002a3f96da83f4c685/capsule_184x69.jpg?t=1755020149",
+        "website": "https://tearsofviceroy.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "ext_user_account_notice": "My Custom DRM ",
+        "developers": [
+          "Super Semi Submerged"
+        ],
+        "publishers": [
+          "Super Semi Submerged"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "2",
+            "description": "Strategy"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/fb474784096b9d9843da16a91c5f85e139af94ea/ss_fb474784096b9d9843da16a91c5f85e139af94ea.600x338.jpg?t=1755020149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/fb474784096b9d9843da16a91c5f85e139af94ea/ss_fb474784096b9d9843da16a91c5f85e139af94ea.1920x1080.jpg?t=1755020149"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/f6d111690cea3bec90e4a74c7b9d0b0dd2363c4d/ss_f6d111690cea3bec90e4a74c7b9d0b0dd2363c4d.600x338.jpg?t=1755020149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/f6d111690cea3bec90e4a74c7b9d0b0dd2363c4d/ss_f6d111690cea3bec90e4a74c7b9d0b0dd2363c4d.1920x1080.jpg?t=1755020149"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/195f76599ecb2a8908cbe94f735ce2df0e65cd10/ss_195f76599ecb2a8908cbe94f735ce2df0e65cd10.600x338.jpg?t=1755020149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/195f76599ecb2a8908cbe94f735ce2df0e65cd10/ss_195f76599ecb2a8908cbe94f735ce2df0e65cd10.1920x1080.jpg?t=1755020149"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/f273768c5de3c754cb01563c873c1e66d9689967/ss_f273768c5de3c754cb01563c873c1e66d9689967.600x338.jpg?t=1755020149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/f273768c5de3c754cb01563c873c1e66d9689967/ss_f273768c5de3c754cb01563c873c1e66d9689967.1920x1080.jpg?t=1755020149"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/fe1c25ea93a647bb7cea25da29ac5a5f98728d65/ss_fe1c25ea93a647bb7cea25da29ac5a5f98728d65.600x338.jpg?t=1755020149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3651570/fe1c25ea93a647bb7cea25da29ac5a5f98728d65/ss_fe1c25ea93a647bb7cea25da29ac5a5f98728d65.1920x1080.jpg?t=1755020149"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257174221,
+            "name": "ToV1 - Tears of Viceroy in a nutshell",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174221/162229106d27be4a7d89a1cedc3fec94492ca45e/movie_600x337.jpg?t=1753524444",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3651570/1997417077/49faae30ed4daeafcdca357118fe277e97144baa/1753512334/dash_av1.mpd?t=1753524444",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3651570/1997417077/49faae30ed4daeafcdca357118fe277e97144baa/1753512334/dash_h264.mpd?t=1753524444",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3651570/1997417077/49faae30ed4daeafcdca357118fe277e97144baa/1753512334/hls_264_master.m3u8?t=1753524444",
+            "highlight": true
+          },
+          {
+            "id": 257182178,
+            "name": "ToV0 – Orientation Campaign tutorial for Tears of Viceroy Alpha Test",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182178/873ac851bf8b39b6c023da0dd5c1266bcafe93f6/movie_600x337.jpg?t=1755020147",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3651570/1495485298/914b2b09da64f4518f88f4238de322c5f65c34e5/1755013877/dash_av1.mpd?t=1755020147",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3651570/1495485298/914b2b09da64f4518f88f4238de322c5f65c34e5/1755013877/dash_h264.mpd?t=1755020147",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3651570/1495485298/914b2b09da64f4518f88f4238de322c5f65c34e5/1755013877/hls_264_master.m3u8?t=1755020147",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2025"
+        },
+        "support_info": {
+          "url": "https://tearsofviceroy.com",
+          "email": "tearsofviceroy@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3651570?t=1755020149",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3651570?t=1755020149",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

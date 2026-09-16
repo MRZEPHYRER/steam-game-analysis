@@ -1,0 +1,66 @@
+{
+  "appid": 3797390,
+  "requested_at": "2026-09-13T19:41:02.171528+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "199747555",
+        "author": {
+          "steamid": "76561199248815235",
+          "personaname": "mixirica_fogo07",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/mixirica_fogo07/",
+          "num_games_owned": 8,
+          "num_reviews": 1,
+          "playtime_forever": 155,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 140,
+          "last_played": 1768312869,
+          "avatar": "397fdc373af287c1f263c3f51aaeb9b97db0e529"
+        },
+        "language": "brazilian",
+        "review": "Jogo muito bom e extremamente divertido! Fiquei horas jogando com meus amigos tentando sobreviver aos ataques de hordas de zumbis — foi risada e tensão o tempo todo kkkkk.",
+        "timestamp_created": 1752450636,
+        "timestamp_updated": 1752450636,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752423788",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAABz/vz5BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 3.3289999999997235,
+  "transport_error_count": 0
+}

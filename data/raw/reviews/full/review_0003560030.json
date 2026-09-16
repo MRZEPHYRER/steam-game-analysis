@@ -1,0 +1,79 @@
+{
+  "appid": 3560030,
+  "requested_at": "2026-09-13T19:22:27.800215+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 251,
+      "total_negative": 28,
+      "total_reviews": 279
+    },
+    "reviews": [
+      {
+        "recommendationid": "212520694",
+        "author": {
+          "steamid": "76561198071275511",
+          "personaname": "ApatheticExcuse",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198071275511/",
+          "num_games_owned": 0,
+          "num_reviews": 73,
+          "playtime_forever": 820,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 278,
+          "last_played": 1765041059,
+          "avatar": "1bda128ec5ef525251c6890e3adeae9af11b8571"
+        },
+        "language": "english",
+        "review": "You may have accidentally ended up here while looking for Cataclysm: Dark Days Ahead, but I'm pretty sure this is actually the place you want to be.\r\n\r\nI fell in love with C:DDA almost 20 years ago and played the hell out of it. I've been around long enough that I remember when the dev team actually got along and there were not a bunch of easy to find versions of the game around. I'll tell you a few things:\r\n\r\nAs it currently sits, this is a vastly, vastly superior sim-leaning version of the game. If you want a more casual version of the game, you can also do that here via some settings, or get yet another version of the base game that does that, but you will find nothing in DDA that isn't here, and better over here.\r\n\r\nCurrent DDA is a more narrative game, it feels like, than it was back when I got into it. If you want that, it does that better. But it also does that for free rather than for the $26 that DDA is listed for, and I personally don't think the current direction that DDA has gone in works super well for the type of game it is. The free version of DDA also gets updated more frequently.\r\n\r\nWhich brings me to my last thing here, which I'm honestly hesitant to say, but feel compelled to talk about. What you're doing in buying this is paying a small fee to have an automatically updated version of the game, with a nice little graphics and sound pack, and your money is going directly to the person making those updates. The dev has absolutely taken a bunch of other people's work and is charging money for it, but it's a very, very small amount of money, and I feel like what I'm paying for is really more that convenience, as well as all her future work on this specific version of the game.\r\n\r\nWhen you buy DDA, you are doing something that sounds similar - paying someone for a lot of someone else's work. But in that case, you're paying a *lot* more money to someone who has, the last I looked, not actually done a very big portion of the work for a long time.\r\n\r\nBeyond that, he's just not a pleasant guy. He's been happy to personally insult and discard a ton of people who have very directly created much of the product he's trying to sell over the years. To be really clear, I'm not one of those guys, but I'm not really talking about anything you actually need much inside knowledge to be aware of if you've quite literally just been present in the community for a while. But there is, in my opinion, a really good chance you're paying someone who isn't actually going to be doing much of the future work on the game, and who won't be very nice to the people who are, going for DDA.\r\n\r\nI'm not trying to denigrate the genuine fact that none of us would have any version of Cataclysm if it wasn't for the guy steam knows as CleverRaven hosting the code and keeping the game popular for an extremely long time, but if this game is now an actual saleable product, I'd rather use my money to vote for someone else to be the head of the project in the future. If it makes you feel better, I did already give the other guy some money in the kickstarter.",
+        "timestamp_created": 1764819349,
+        "timestamp_updated": 1764819349,
+        "voted_up": true,
+        "votes_up": 39,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.768597662448883057",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752250311",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUoMcAAAAAFP+iYWuAAAAB279mqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

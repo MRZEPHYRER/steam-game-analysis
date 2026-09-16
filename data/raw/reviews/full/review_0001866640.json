@@ -1,0 +1,66 @@
+{
+  "appid": 1866640,
+  "requested_at": "2026-09-13T18:45:20.401747+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "227319121",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 633,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 633,
+          "last_played": 1780733674,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Kronos is a science-fiction strategy shooter developed and published by Wild Monkey that attempts to bridge the gap between large-scale tactical warfare and direct first-person combat. Instead of separating strategic command from battlefield action, the game combines both perspectives into a single experience, allowing players to command robotic armies while simultaneously fighting alongside them. This hybrid approach gives Kronos a distinctive identity, offering a blend of territory management, base construction, resource allocation, and real-time combat that feels different from traditional strategy games and conventional shooters alike.\n\nThe game's setting presents a future consumed by endless warfare. Humanity has become trapped in a conflict so old that its original purpose has been forgotten. Rival commanders battle for control of territory using armies of expendable robotic soldiers, turning entire worlds into perpetual war zones. This bleak backdrop provides a fitting foundation for the gameplay, emphasizing constant competition and expansion rather than narrative complexity. While the story remains relatively minimal, the setting effectively establishes a universe where military dominance is the primary objective.\n\nWhat immediately stands out about Kronos is its treatment of armies as resources rather than irreplaceable assets. The robotic units under a player's command are designed to be deployed aggressively and sacrificed when necessary. Instead of encouraging overly cautious tactics, the game rewards players for adapting to losses and maintaining momentum. This philosophy creates a faster-paced strategic environment where battlefield control often matters more than preserving every individual unit.\n\nTerritorial conquest serves as the central objective throughout the experience. Maps are divided into key areas that must be captured, defended, and developed. Every new region brought under control strengthens a player's position and provides opportunities for further expansion. This creates a continuous cycle of attack and defense where strategic planning becomes essential. Players must constantly evaluate whether to push forward into enemy territory or reinforce existing positions against incoming assaults.\n\nThe first-person combat system is what truly differentiates Kronos from more traditional strategy titles. Rather than observing battles from a distant overhead perspective, players actively participate in firefights. This direct involvement creates a stronger connection to the battlefield because strategic decisions immediately influence the situations players encounter on the ground. Capturing territory, defending objectives, and supporting robotic forces all feel more engaging when experienced from within the conflict itself.\n\nCombat is supported by a variety of weapons and tactical tools. Players can engage enemies directly while also deploying defensive structures and battlefield support systems. These options encourage flexibility and allow different approaches to engagements. Some situations may favor aggressive assaults, while others reward careful preparation and defensive positioning. The combination of shooting mechanics and tactical support systems creates a satisfying balance between personal skill and strategic thinking.\n\nOne of the game's strongest features is the freedom it gives players when building their armies. Different compositions can be tailored to suit specific playstyles and objectives. Players may choose to invest in larger numbers of basic units, overwhelming opponents through sheer quantity, or focus on more specialized and powerful forces capable of handling difficult situations efficiently. This flexibility helps maintain variety and encourages experimentation across multiple matches.\n\nBase development and fortification also play significant roles. Captured territories can be upgraded with defensive installations designed to slow enemy advances and protect valuable assets. These structures become critical components of long-term strategy, particularly when controlling large sections of the map. Deciding where to invest resources and which locations deserve the strongest defenses adds another layer of depth to the overall experience.\n\nResource management ties all of these systems together. Expansion, recruitment, fortification, and combat effectiveness all depend on maintaining a healthy supply of resources. Players are constantly challenged to balance short-term military needs with long-term strategic growth. Overspending on one aspect of warfare can leave vulnerabilities elsewhere, forcing careful planning and efficient decision-making throughout every match.\n\nThe game's multiplayer component further enhances its appeal by placing players against human opponents capable of adapting to evolving situations. Human competitors introduce unpredictability that artificial intelligence often cannot replicate. Battles become more dynamic as players attempt to outmaneuver each other through superior tactics, resource management, and battlefield execution. This competitive aspect significantly increases replay value and provides opportunities for players to refine their strategies over time.\n\nVisually, Kronos embraces a futuristic military aesthetic centered around robotic warfare and industrialized battlefields. The environments prioritize clarity and functionality, ensuring that important objectives and strategic information remain easy to identify during intense engagements. While it may not possess the visual spectacle of larger-budget productions, the art direction effectively supports the gameplay and reinforces the atmosphere of endless mechanized conflict.\n\nThe game's greatest achievement lies in its willingness to combine two genres that rarely intersect successfully. Strategy games often place players in detached command roles, while shooters focus on individual action with limited strategic oversight. Kronos attempts to merge these experiences, allowing players to influence the broader war while remaining actively involved in combat. This fusion creates moments where tactical planning and personal performance feel equally important.\n\nThere are moments when the ambitious design can feel demanding, particularly for players who prefer either pure strategy or pure action. Managing territory while engaging in first-person combat requires multitasking and situational awareness. However, for players willing to embrace both sides of the experience, this complexity becomes one of the game's defining strengths rather than a drawback.\n\nKronos is ultimately an ambitious and engaging hybrid of strategy and action that offers a refreshing alternative to more conventional military games. Its emphasis on territorial warfare, customizable robotic armies, active battlefield participation, and strategic resource management creates a compelling gameplay loop that rewards both planning and execution. While it may not have the scale or polish of major studio releases, it succeeds in delivering a unique vision that stands apart from many titles in either genre.\n\nRating: 5/10",
+        "timestamp_created": 1780753611,
+        "timestamp_updated": 1780753611,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.502031385898590088",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1728394435",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ9ZoAAAAAFP+AQo2AAAABx1ZPjBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

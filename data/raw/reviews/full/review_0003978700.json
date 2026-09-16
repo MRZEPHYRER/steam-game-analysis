@@ -1,0 +1,66 @@
+{
+  "appid": 3978700,
+  "requested_at": "2026-09-13T20:07:23.197983+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "207454022",
+        "author": {
+          "steamid": "76561199679859916",
+          "personaname": "nanoex0000",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199679859916/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 119,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 80,
+          "last_played": 1762563670,
+          "avatar": "212057aab56eaa4b02f3abc2f8a5eaaa098065c9"
+        },
+        "language": "japanese",
+        "review": "キャラがかわいい。骸骨が強い黒鉄と鮮血が弱い。骸骨は出目を６か５固定すれば３回コスト回復できて２コストで１８か１５ダメージを連発できて出目固定できず１～３の出目になっても８回復やら１０ダメージやら出しまくれるのに、黒鉄は強化に２～３ターン必要でその間ほとんど相手殴れない上に２ターン目で１０HP切ってることもざらにある。そのうえ固有能力は弱い。鮮血は火力が出なくて、火力を出そうとすると体力回復ができないままコスト回復ができずにジリ貧で死ぬ。欲しい技がいいタイミングで来ることを祈るゲーム。せめて持てる数を増やしたりドローできる技追加したりして運ゲーやめるか、難易度下げるかしてほしい。黒鉄ほんと弱い。あとステージでキャラをメタるのやめてほしい、キャラ特有の技を使うより共有のやつで殴った方が強い。楽しくない。でもキャラがかわいいし安いのでデッキ構築ゲームをするのではなくキャラを楽しむならいいのかもしれない。",
+        "timestamp_created": 1761304158,
+        "timestamp_updated": 1761304158,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.623559832572937012",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761271773",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXh1+AAAAAFP+P0NCAAAAB29K+XBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

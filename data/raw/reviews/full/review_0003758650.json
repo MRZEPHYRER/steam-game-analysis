@@ -1,0 +1,66 @@
+{
+  "appid": 3758650,
+  "requested_at": "2026-09-13T19:37:50.094765+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "200324311",
+        "author": {
+          "steamid": "76561198410729761",
+          "personaname": "Spark",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198410729761/",
+          "num_games_owned": 0,
+          "num_reviews": 8,
+          "playtime_forever": 240,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 200,
+          "last_played": 1753139151,
+          "avatar": "06325afb5ee1d14b077e4aabc65db25748943897"
+        },
+        "language": "schinese",
+        "review": "奇怪的类UNO游戏增加了！\n我的英语只是CET4及格水平，猜不到后面会来什么牌，感觉玩这种卡牌游戏会猜后面能来什么牌是比较重要的\n目前感觉有两点需要开发者改进：\n1、语音出牌不太行，我对着麦克风嗓子都喊哑了还是打不出牌；\n2、不能联机",
+        "timestamp_created": 1753127323,
+        "timestamp_updated": 1753127323,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752190932",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3zZb8BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

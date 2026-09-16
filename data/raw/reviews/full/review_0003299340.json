@@ -1,0 +1,66 @@
+{
+  "appid": 3299340,
+  "requested_at": "2026-09-13T19:10:14.245476+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 4,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "209826999",
+        "author": {
+          "steamid": "76561198345911558",
+          "personaname": "甜甜圈",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198345911558/",
+          "num_games_owned": 202,
+          "num_reviews": 62,
+          "playtime_forever": 200,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 200,
+          "last_played": 1763799730,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "schinese",
+        "review": "逆天表哥因为说女主是贱种被女主怼回去，自己还被罚了于是怀恨在心给女主弄晕了想强暴她，逆天舅舅，逆天父亲因为母亲把正在对女主施暴的表哥给锤死了要把女主嫁给表哥的爸爸再给他生一个儿子。",
+        "timestamp_created": 1763799944,
+        "timestamp_updated": 1763800170,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.61642688512802124",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755337142",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXq+UAAAAAFP+O5xSAAAAB3y7agBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

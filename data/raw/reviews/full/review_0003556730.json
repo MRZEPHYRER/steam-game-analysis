@@ -1,0 +1,75 @@
+{
+  "appid": 3556730,
+  "requested_at": "2026-09-13T19:22:21.505706+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 122,
+      "total_negative": 22,
+      "total_reviews": 144
+    },
+    "reviews": [
+      {
+        "recommendationid": "205926867",
+        "author": {
+          "steamid": "76561199211265587",
+          "personaname": "!",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199211265587/",
+          "num_games_owned": 22,
+          "num_reviews": 1,
+          "playtime_forever": 580,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 503,
+          "last_played": 1778740240,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "byd没打补丁，玩一个多小时没见过CG",
+        "timestamp_created": 1759649886,
+        "timestamp_updated": 1759675510,
+        "voted_up": true,
+        "votes_up": 29,
+        "votes_funny": 59,
+        "weighted_vote_score": "0.784484326839447021",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755921610",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUT3EAAAAAFP+kafkAAAABzncaRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

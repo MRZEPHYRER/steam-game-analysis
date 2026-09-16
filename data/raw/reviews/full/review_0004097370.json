@@ -1,0 +1,68 @@
+{
+  "appid": 4097370,
+  "requested_at": "2026-09-13T20:18:36.815230+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 6,
+      "total_negative": 1,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "208466438",
+        "author": {
+          "steamid": "76561197964616102",
+          "personaname": "Thorlar",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/thorlar/",
+          "num_games_owned": 0,
+          "num_reviews": 173,
+          "playtime_forever": 5,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1762259092,
+          "avatar": "a3e0aaf909f86898539db592e4c0ea9fc4c22f76"
+        },
+        "language": "english",
+        "review": "Basic features exist, but many of them are needlessly confusing and weird. Some mechanics also felt super slow to the point of \"is this just to make the player get 2h of gametime to not be able to refund\" unfortunately. Didn't feel like the wait times made sense. Also, that a streamer is being advertised in a place that's hard to look away from makes it feel like it's more for bringing attention to a streamer versus actually making a game (unfortunately). Sadly not a game for me, and I suspect lots of others. Good luck tho, dev!",
+        "timestamp_created": 1762340795,
+        "timestamp_updated": 1762340795,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1762349207,
+        "developer_response": "Hey! Thanks so much for sharing your honest thoughts. 🌙\nWe’ve seen similar feedback about pacing — that’s why in the latest patch we shortened the night durations and made things feel more fluid overall.\n\nAlso, about the streamer mention: that’s actually a signature Easter egg, something we include as a small nod in every project we make — not an advertisement or forced promotion. It’s just a little part of our identity as creators.\n\nWe’re continuing to improve clarity and flow in future updates, and we truly appreciate you taking the time to play and share your impressions. Every bit of feedback helps us make Out of Place: Origin better 💙",
+        "app_release_date": "1762250440",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB2oJ6bBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

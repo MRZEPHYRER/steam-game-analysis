@@ -1,0 +1,66 @@
+{
+  "appid": 1156820,
+  "requested_at": "2026-09-13T18:41:58.379238+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 28,
+      "total_negative": 8,
+      "total_reviews": 36
+    },
+    "reviews": [
+      {
+        "recommendationid": "209768139",
+        "author": {
+          "steamid": "76561198367979794",
+          "personaname": "糖分",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/1014865803/",
+          "num_games_owned": 0,
+          "num_reviews": 8,
+          "playtime_forever": 681,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1764733370,
+          "avatar": "dcc16302a2555297d0023b82fd870a403fb8ccca"
+        },
+        "language": "schinese",
+        "review": "看奎恩哥直播玩气的自己买个玩\n[spoiler] 腐肉真的太好吃辣！ [/spoiler]",
+        "timestamp_created": 1763735575,
+        "timestamp_updated": 1763735575,
+        "voted_up": true,
+        "votes_up": 28,
+        "votes_funny": 24,
+        "weighted_vote_score": "0.768283486366271973",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763686696",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUomQAAAAAFP+iVxkAAAAB77JmgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

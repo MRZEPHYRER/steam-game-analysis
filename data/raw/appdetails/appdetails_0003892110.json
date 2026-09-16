@@ -1,0 +1,179 @@
+{
+  "requested_at": "2026-09-12T17:49:07.126593+00:00",
+  "request_params": {
+    "appids": 3892110,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3892110,
+  "payload": {
+    "3892110": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Sudoku-Pro",
+        "steam_appid": 3892110,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a variant of a very classic Sudoku game. You need to fill all the squares, ensuring that the icons in the same row, column and block are all different. </p><p class=\"bb_paragraph\" >Gameplay:</p><p class=\"bb_paragraph\" >Click on the blank square, then select an icon to fill it.</p><p class=\"bb_paragraph\" >Check each row, each column, and each grid to see if there are any duplicate icons. Once all the cells are filled and the conditions are met, the challenge is successfully completed.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a variant of a very classic Sudoku game. You need to fill all the squares, ensuring that the icons in the same row, column and block are all different. </p><p class=\"bb_paragraph\" >Gameplay:</p><p class=\"bb_paragraph\" >Click on the blank square, then select an icon to fill it.</p><p class=\"bb_paragraph\" >Check each row, each column, and each grid to see if there are any duplicate icons. Once all the cells are filled and the conditions are met, the challenge is successfully completed.</p>",
+        "short_description": "This is a variant of a very classic Sudoku game. Within a 9X9 grid, 9 different icons are placed, ensuring that each row, each column, and each section contains 9 different icons. It is extremely challenging.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/2191e8e62adb34e6d57476a4067a4b17297f8445/header.jpg?t=1755489112",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/627bb11f3cb28ed363f3c29c41ce33f4d70fef91/capsule_231x87.jpg?t=1755489112",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/627bb11f3cb28ed363f3c29c41ce33f4d70fef91/capsule_184x69.jpg?t=1755489112",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> win7-11<br></li><li><strong>Processor:</strong> i3-12100F<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> RTX 1060<br></li><li><strong>Storage:</strong> 100 MB available space<br></li><li><strong>Sound Card:</strong> 默认<br></li><li><strong>VR Support:</strong> 不支持<br></li><li><strong>Additional Notes:</strong> 无</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> win11<br></li><li><strong>Processor:</strong> i7-14700K<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> RTX 4060<br></li><li><strong>Storage:</strong> 100 MB available space<br></li><li><strong>Sound Card:</strong> 默认<br></li><li><strong>VR Support:</strong> 不支持<br></li><li><strong>Additional Notes:</strong> 无</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "walkgame"
+        ],
+        "publishers": [
+          "walkgame"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1368120
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Sudoku-Pro",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1368120,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Sudoku-Pro - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/9d4c0a89ccc5c71a1afb6b1a343d412d76a7b51d/ss_9d4c0a89ccc5c71a1afb6b1a343d412d76a7b51d.600x338.jpg?t=1755489112",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/9d4c0a89ccc5c71a1afb6b1a343d412d76a7b51d/ss_9d4c0a89ccc5c71a1afb6b1a343d412d76a7b51d.1920x1080.jpg?t=1755489112"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/47225266f6bba4d1b384722b66bc90b909367a4f/ss_47225266f6bba4d1b384722b66bc90b909367a4f.600x338.jpg?t=1755489112",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/47225266f6bba4d1b384722b66bc90b909367a4f/ss_47225266f6bba4d1b384722b66bc90b909367a4f.1920x1080.jpg?t=1755489112"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/c9e9a7eb9ba1b1e5c4a7cc0495de2dee78272a5f/ss_c9e9a7eb9ba1b1e5c4a7cc0495de2dee78272a5f.600x338.jpg?t=1755489112",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/c9e9a7eb9ba1b1e5c4a7cc0495de2dee78272a5f/ss_c9e9a7eb9ba1b1e5c4a7cc0495de2dee78272a5f.1920x1080.jpg?t=1755489112"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/638cf853f910ef2672a0bd22533c7dba76282a6f/ss_638cf853f910ef2672a0bd22533c7dba76282a6f.600x338.jpg?t=1755489112",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/638cf853f910ef2672a0bd22533c7dba76282a6f/ss_638cf853f910ef2672a0bd22533c7dba76282a6f.1920x1080.jpg?t=1755489112"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/2c76d747303d6e9d377302b5162c164e22d7525c/ss_2c76d747303d6e9d377302b5162c164e22d7525c.600x338.jpg?t=1755489112",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892110/2c76d747303d6e9d377302b5162c164e22d7525c/ss_2c76d747303d6e9d377302b5162c164e22d7525c.1920x1080.jpg?t=1755489112"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257170938,
+            "name": "游戏展示",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257170938/774cea51124caabab8440e06d483eb6c2d567edd/movie_600x337.jpg?t=1753883048",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3892110/1821356505/a254bcd632ad02255a91aab3f57177df030801f2/1752851284/dash_av1.mpd?t=1753883048",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3892110/1821356505/a254bcd632ad02255a91aab3f57177df030801f2/1752851284/dash_h264.mpd?t=1753883048",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3892110/1821356505/a254bcd632ad02255a91aab3f57177df030801f2/1752851284/hls_264_master.m3u8?t=1753883048",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "123456@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3892110?t=1755489112",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3892110?t=1755489112",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

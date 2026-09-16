@@ -1,0 +1,66 @@
+{
+  "appid": 3850520,
+  "requested_at": "2026-09-13T19:49:15.188365+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 96,
+      "total_negative": 6,
+      "total_reviews": 102
+    },
+    "reviews": [
+      {
+        "recommendationid": "212473080",
+        "author": {
+          "steamid": "76561197988428639",
+          "personaname": "Varstahl",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/varstahl/",
+          "num_games_owned": 1184,
+          "num_reviews": 71,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1764087152,
+          "avatar": "62290681848b99e427f0a1ab984cfbe7f88ecf91"
+        },
+        "language": "english",
+        "review": "Absolute ♥♥♥♥♥♥♥♥. Controls barely work, window barely works, no music, no sound effects, no effects whatsoever. This can't be even considered a tech demo, much less of a game. It's a scam in disguise.",
+        "timestamp_created": 1764766085,
+        "timestamp_updated": 1764766085,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519999980926513672",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752741164",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZmZmAAAAAFP+Cj1wAAAAB4z8KqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.889999999999418,
+  "transport_error_count": 0
+}

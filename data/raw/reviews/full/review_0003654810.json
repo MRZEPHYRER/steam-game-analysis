@@ -1,0 +1,66 @@
+{
+  "appid": 3654810,
+  "requested_at": "2026-09-13T19:29:14.595836+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "202831378",
+        "author": {
+          "steamid": "76561198116113488",
+          "personaname": "ComicFanShibaBoy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198116113488/",
+          "num_games_owned": 0,
+          "num_reviews": 139,
+          "playtime_forever": 60,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1756092916,
+          "avatar": "ecb9ccc84ce691bd2c624e8e45e33626045ad4d7"
+        },
+        "language": "english",
+        "review": "This game is super buggy. It needs a serious update. I'm not going to lie to the story was interesting but I feel the people that made this game really didn't know what they were doing. I raged quit at this part where you play as the main character's Sister Mary because the AI is so bad from the clowns. One just kept getting stuck on the stairs. If the game was more polished it probably be perfect but if anything this is a demo really. It does not feel finished.",
+        "timestamp_created": 1756093156,
+        "timestamp_updated": 1756093156,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753466432",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABy4d6FBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

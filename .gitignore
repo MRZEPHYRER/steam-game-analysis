@@ -1,0 +1,32 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp_*/
+.ipynb_checkpoints/
+.venv/
+.test-deps/
+
+# Local environment / credentials
+.env
+.env.*
+!.env.example
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Quarto cache
+.quarto/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+'@ | Set-Content .gitignore -Encoding UTF8

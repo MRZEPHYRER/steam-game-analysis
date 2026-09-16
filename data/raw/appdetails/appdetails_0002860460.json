@@ -1,0 +1,288 @@
+{
+  "requested_at": "2026-09-12T14:04:22.918748+00:00",
+  "request_params": {
+    "appids": 2860460,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2860460,
+  "payload": {
+    "2860460": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Boss Simulator",
+        "steam_appid": 2860460,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Boss Simulator is a management simulation game with role-playing elements. As the Boss of an online game company, you “have to”: </p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Manipulate employees into overtime machines</p></li><li><p class=\"bb_paragraph\" >Roll out more and more monetization systems to keep players spending—all to get your company IPO as quickly as possible!</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Boss Simulator is a management simulation game with role-playing elements. As the Boss of an online game company, you “have to”: </p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Manipulate employees into overtime machines</p></li><li><p class=\"bb_paragraph\" >Roll out more and more monetization systems to keep players spending—all to get your company IPO as quickly as possible!</p></li></ul>",
+        "short_description": "Boss Simulator is a management simulation game with role-playing elements. As the Boss of an online game company, you “have to”: manipulate employees into overtime machines, and roll out more and more monetization systems to keep players spending—all to get your company IPO as quickly as possible!",
+        "supported_languages": "Simplified Chinese, English, Traditional Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/78212ae8814b2c230c46139cb5755433f97d5bdc/header.jpg?t=1764562840",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/c7b1ce40ab6d03644e3af5cba28616eeeb13590e/capsule_231x87.jpg?t=1764562840",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/c7b1ce40ab6d03644e3af5cba28616eeeb13590e/capsule_184x69.jpg?t=1764562840",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core i5-6500<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core i5-10400<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 2060<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "饭饭游戏"
+        ],
+        "publishers": [
+          "饭饭游戏"
+        ],
+        "demos": [
+          {
+            "appid": 3744830,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 349,
+          "discount_percent": 30,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$3.49"
+        },
+        "packages": [
+          1020268
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Boss Simulator",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1020268,
+                "percent_savings_text": "-30% ",
+                "percent_savings": 0,
+                "option_text": "Boss Simulator - <span class=\"discount_original_price\">$4.99</span> $3.49",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 349
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/07a6c365a78b879dba4454c1d9a5e77db31c2d4a/ss_07a6c365a78b879dba4454c1d9a5e77db31c2d4a.600x338.jpg?t=1764562840",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/07a6c365a78b879dba4454c1d9a5e77db31c2d4a/ss_07a6c365a78b879dba4454c1d9a5e77db31c2d4a.1920x1080.jpg?t=1764562840"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/ce93486a9f6a811086833d07b220d3c21a03c3a8/ss_ce93486a9f6a811086833d07b220d3c21a03c3a8.600x338.jpg?t=1764562840",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/ce93486a9f6a811086833d07b220d3c21a03c3a8/ss_ce93486a9f6a811086833d07b220d3c21a03c3a8.1920x1080.jpg?t=1764562840"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/feaf04d5889140dfecdc6a68d1d5a4ece0fd20f0/ss_feaf04d5889140dfecdc6a68d1d5a4ece0fd20f0.600x338.jpg?t=1764562840",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/feaf04d5889140dfecdc6a68d1d5a4ece0fd20f0/ss_feaf04d5889140dfecdc6a68d1d5a4ece0fd20f0.1920x1080.jpg?t=1764562840"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/a2388dc7523618564ca1b73c90614494293643e1/ss_a2388dc7523618564ca1b73c90614494293643e1.600x338.jpg?t=1764562840",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/a2388dc7523618564ca1b73c90614494293643e1/ss_a2388dc7523618564ca1b73c90614494293643e1.1920x1080.jpg?t=1764562840"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/540377696b7f22aea14088d09254cb11e2d016d6/ss_540377696b7f22aea14088d09254cb11e2d016d6.600x338.jpg?t=1764562840",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/540377696b7f22aea14088d09254cb11e2d016d6/ss_540377696b7f22aea14088d09254cb11e2d016d6.1920x1080.jpg?t=1764562840"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257005856,
+            "name": "Trailer_01",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257005856/10c3d320dd7f898a407378e6b9d5af89a427deff/movie_600x337.jpg?t=1751624184",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2860460/716963783/510ff0eb7f8335bc399000f997d636912a3072cf/1751623326/dash_av1.mpd?t=1751624184",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2860460/716963783/510ff0eb7f8335bc399000f997d636912a3072cf/1751623326/dash_h264.mpd?t=1751624184",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2860460/716963783/510ff0eb7f8335bc399000f997d636912a3072cf/1751623326/hls_264_master.m3u8?t=1751624184",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 25,
+          "highlighted": [
+            {
+              "icon": "4b857b05edca5aabadb40a55d03fa5e95f023f56.jpg",
+              "localized_name": "IPO Success",
+              "archived": 0,
+              "hidden": 0,
+              "name": "IPO Success",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/4b857b05edca5aabadb40a55d03fa5e95f023f56.jpg"
+            },
+            {
+              "icon": "957e97fcc424a6753daa1e882292027e0b7468d7.jpg",
+              "localized_name": "IPO Failure",
+              "archived": 0,
+              "hidden": 0,
+              "name": "IPO Failure",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/957e97fcc424a6753daa1e882292027e0b7468d7.jpg"
+            },
+            {
+              "icon": "344277146430e732e4de37c0ade1c474c4fef4eb.jpg",
+              "localized_name": "Company Bankruptcy",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Company Bankruptcy",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/344277146430e732e4de37c0ade1c474c4fef4eb.jpg"
+            },
+            {
+              "icon": "14c81ded01c5fbb24a398174f21fb4d2ae90a805.jpg",
+              "localized_name": "Control",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Control",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/14c81ded01c5fbb24a398174f21fb4d2ae90a805.jpg"
+            },
+            {
+              "icon": "a92b5657123b3f45f97aaec1956a8f28064efceb.jpg",
+              "localized_name": "Economics",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Economics",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/a92b5657123b3f45f97aaec1956a8f28064efceb.jpg"
+            },
+            {
+              "icon": "8edaffda9cc17f632ae48c1b7d8fccaab143d1ad.jpg",
+              "localized_name": "Management",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Management",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/8edaffda9cc17f632ae48c1b7d8fccaab143d1ad.jpg"
+            },
+            {
+              "icon": "8b9f2c893e5566d013e685a2d5b2c9f556933a59.jpg",
+              "localized_name": "Psychology",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Psychology",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/8b9f2c893e5566d013e685a2d5b2c9f556933a59.jpg"
+            },
+            {
+              "icon": "18666c377320c3b5bbbcf66abb39dd859c6f1cc8.jpg",
+              "localized_name": "Protest Overtime",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Protest Overtime",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/18666c377320c3b5bbbcf66abb39dd859c6f1cc8.jpg"
+            },
+            {
+              "icon": "ee9ed57192124bb4d65e22c55bb0ff3360a6fc1b.jpg",
+              "localized_name": "Overtime Machine",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Overtime Machine",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/ee9ed57192124bb4d65e22c55bb0ff3360a6fc1b.jpg"
+            },
+            {
+              "icon": "b9dbe1e31917f2ac56020b725a94087d596c9288.jpg",
+              "localized_name": "Loss Of Majority Ownership",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Loss Of Majority Ownership",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2860460/b9dbe1e31917f2ac56020b725a94087d596c9288.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 23, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "yanghr.fanfangames@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2860460?t=1764562840",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860460/bac0327eaa20475e2b11f3a52ff96710e7dcbb40/page_bg_raw.jpg?t=1764562840",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

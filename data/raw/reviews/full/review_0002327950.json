@@ -1,0 +1,71 @@
+{
+  "appid": 2327950,
+  "requested_at": "2026-09-13T18:49:40.564598+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 5,
+      "total_negative": 5,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "204462111",
+        "author": {
+          "steamid": "76561198106243157",
+          "personaname": "sora347",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198106243157/",
+          "num_games_owned": 0,
+          "num_reviews": 32,
+          "playtime_forever": 2497,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1892,
+          "last_played": 1758815067,
+          "avatar": "ac0a5f27fa51d8c98e1739a9869291566081b219"
+        },
+        "language": "english",
+        "review": "not recommended as the game crashes a few seconds after loading a game. Though this does not happen for everyone.\n\nhas quite some nice ideas, though there are some annoyances. A lot of the reported bugs were already fixed\n\nSome of those annoyances are:\n\nNo map / compass indicating where the base / found resource patches are. \n\nNo indication when waves start and no indication from which direction. With random times between waves giving you somewhere between 5 minutes to an hour between waves\n\nSeemingly no way to autoload turrets with ammo... and you either have to drag and drop the ammo in the inventory screen or click on it then 'move to other inventory' then max to move a stack at once and then confirm it to move it. No shift / control click to instantly move to the other inventory [strike]and ammo stacks are rather low 50 for Shotguns, 100 for smg and pistols [/strike] ammo stacks were doubled\n\nTo \"reroll\" the clone quality you have to shoot the clone in the head to kill it then you can make a new one\nYou can set miners to ignore certain materials, they ignore your settings and go for the ignored materials anyway\n\nhitboxes on slopes can be wonky on some enemy types\n\nStarting mining beam is already the best since other materials are just worse for it (according to the displayed stats).\n[strike]Mining is slow and tedious as well. [/strike] Permanent upgrades can make it a lot faster though you still mainly want your clones to do it\n\nSeems like there isn't a way to add science projects to a queue so you have to check regularly so that your scientists do not waste time\n\nCan my guy change the battery in the flashlight? That thing barely works at certain times in the day since the lighting is strange.\n\nnegative weather reduces turret range by up to 50% (fog) though almost all negative weather effects make it so that cannon mechs outrange your turrets if you do not have enough points in their permanent upgrades",
+        "timestamp_created": 1758009484,
+        "timestamp_updated": 1758556271,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.650397360324859619",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757949315",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFW/feAAAAAFP+TQDWAAAAB/gfuLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0629999999998745,
+  "transport_error_count": 0
+}

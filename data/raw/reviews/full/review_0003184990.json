@@ -1,0 +1,66 @@
+{
+  "appid": 3184990,
+  "requested_at": "2026-09-13T19:06:19.575750+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 197,
+      "total_negative": 75,
+      "total_reviews": 272
+    },
+    "reviews": [
+      {
+        "recommendationid": "211787760",
+        "author": {
+          "steamid": "76561198210225720",
+          "personaname": "星空",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198210225720/",
+          "num_games_owned": 195,
+          "num_reviews": 32,
+          "playtime_forever": 601,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 601,
+          "last_played": 1764344055,
+          "avatar": "589324d5ba6c3308f8dc867f04c5f93a3b7a4abc"
+        },
+        "language": "schinese",
+        "review": "人家打了个差评 你们就说是同行开小号刻意抹黑 是真的6 你们这个游戏本来就一般 玩法高度重复 剧情毫无新意 本来不想评论的 该不会我这个号也是小号吧？优化也有问题 我3080 32G内存 5900x 你跟我讲最后一章会一卡一卡的？？？",
+        "timestamp_created": 1764468532,
+        "timestamp_updated": 1764468682,
+        "voted_up": false,
+        "votes_up": 112,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.885666728019714355",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764222899",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFSSWKAAAAAFP+xXYmAAAABw//OnBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

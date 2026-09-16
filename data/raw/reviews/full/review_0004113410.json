@@ -1,0 +1,71 @@
+{
+  "appid": 4113410,
+  "requested_at": "2026-09-13T20:20:05.198697+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 1,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "234763831",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 675,
+          "playtime_last_two_weeks": 675,
+          "playtime_at_review": 675,
+          "last_played": 1788856128,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Sad Virus Deathland is a small-scale third-person platforming adventure that embraces a strange sense of humor and a straightforward approach to level design. Developed and published by ZERO5GAMES, it revolves around guiding the Sad Virus through a collection of hazardous environments while searching for a beer bottle hidden within each stage. Rather than attempting to deliver a complicated narrative or elaborate progression system, the game concentrates on movement, exploration, obstacle avoidance, and repeated attempts to overcome dangerous sections. Its unusual premise gives an otherwise simple platforming formula a distinctive personality.\n\nThe adventure consists of ten themed maps, with each one presenting a new environment to navigate and a bottle to locate. This creates an easily understood progression structure: enter the level, explore the surroundings, survive the hazards, find the objective, and move on to the next challenge. The environments incorporate moving spikes, rotating mechanisms, moving objects, and other traps that can instantly end an attempt. Because of this, observation is often as important as movement. Watching the timing and direction of a hazard before attempting to pass it can make the difference between reaching safety and being sent back to try again.\n\nCheckpoints are particularly useful because the game expects players to die while learning how its obstacles behave. Instead of making every mistake excessively punishing, the checkpoint system allows failed sections to be attempted again without completely destroying the player's progress. This encourages experimentation and gives the platforming a trial-and-error rhythm. Some hazards may initially appear awkward or difficult to predict, but repeated attempts gradually reveal the timing required to overcome them. Players comfortable with modest precision challenges should understand the mechanics quickly, while more casual players can still make progress through patience.\n\nExploration provides another layer beyond simply reaching the end of an obstacle course. The beer bottle must be discovered somewhere within each map, encouraging players to examine their surroundings instead of blindly following the most obvious route. The hidden-object component is not complex enough to transform the game into a puzzle adventure, but it gives each stage a concrete goal beyond survival. The combination of searching and platforming helps create a slightly broader experience than a sequence of purely linear jumping challenges.\n\nAchievement hunters have an additional reason to complete the entire game. Its ten Steam achievements correspond neatly with the ten stages and their objectives, making the completion process easy to understand. There is little emphasis on grinding, complicated side activities, or lengthy progression requirements. Finishing the available levels and locating their objectives forms the heart of the experience. This makes Sad Virus Deathland particularly suitable for players who enjoy smaller indie titles where full completion is clearly defined and manageable.\n\nVisually and conceptually, the game favors an eccentric indie identity over sophisticated presentation. The idea of a sad virus navigating lethal environments in pursuit of beer bottles immediately establishes that the experience is not supposed to be taken seriously. Its surreal premise complements the physics-based traps and unusual environments, producing a lighthearted tone even when repeated deaths become part of the challenge. The presentation is functional rather than extravagant, so expectations should remain appropriate for the game's modest scope.\n\nThe main weakness is the limited depth of its core formula. Every level ultimately revolves around navigating hazards and finding essentially the same objective. Players expecting character upgrades, advanced movement abilities, substantial puzzles, branching exploration, multiplayer modes, or a detailed story will find little of that here. The ten different maps and changing obstacle arrangements provide variety, but the fundamental gameplay loop remains consistent from beginning to end. Whether this repetition becomes relaxing or monotonous will largely depend on how much the player enjoys short obstacle-course games.\n\nFor Steam Deck users, the important consideration is that there is no official Valve Steam Deck compatibility rating indicated for the game. This means it should be treated as unverified rather than assumed to be Verified or officially Playable. Its relatively straightforward third-person controls may potentially translate well to handheld controls, but an absent compatibility classification means players should not interpret that as a guarantee of trouble-free operation. Individual compatibility can depend on Proton behavior, controller recognition, text readability, and other factors.\n\nOverall, Sad Virus Deathland succeeds best as a compact and intentionally uncomplicated indie platformer. Its ten-map structure keeps the scope manageable, checkpoints make repeated failures less frustrating, and the combination of obstacle navigation with hidden bottle searching adds a small exploration incentive. The bizarre premise and surreal humor provide some character, while achievements offer a clear reason to conquer every stage. It does not possess enough mechanical complexity or content variety to compete with more ambitious 3D platformers, but that does not appear to be its intention. For players interested in short, quirky platforming challenges and achievement-focused completion, it offers a simple diversion with an appropriately odd personality.\n\nRating: 6/10",
+        "timestamp_created": 1788864507,
+        "timestamp_updated": 1788864507,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762243411",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB348b/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

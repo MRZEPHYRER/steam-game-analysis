@@ -1,0 +1,91 @@
+{
+  "appid": 4027680,
+  "requested_at": "2026-09-13T20:13:01.447678+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "208985573",
+        "author": {
+          "steamid": "76561199105293625",
+          "personaname": "exael",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199105293625/",
+          "num_games_owned": 114,
+          "num_reviews": 4,
+          "playtime_forever": 135,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 99,
+          "last_played": 1787696521,
+          "avatar": "938edd3706f8d6ada0f16127fce8294dde1a266e"
+        },
+        "language": "turkish",
+        "review": "oyunun mantığı güzel singleplayer oynadım;parkurlar fazla sıkmıyor ve oyun genel olarak keyifli ayrıca multiplayer modu da var ama onu daha denemedim,parkur çeşitliliği fazla, biraz zorlayan kısımlar olsa da baymıyor, oynamanızı tavsiye ederim.",
+        "timestamp_created": 1762894582,
+        "timestamp_updated": 1762894582,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762866370",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 20,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          },
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB13pudBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

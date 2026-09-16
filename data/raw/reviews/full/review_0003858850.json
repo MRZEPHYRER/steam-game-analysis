@@ -1,0 +1,66 @@
+{
+  "appid": 3858850,
+  "requested_at": "2026-09-13T19:50:38.905287+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 76,
+      "total_negative": 7,
+      "total_reviews": 83
+    },
+    "reviews": [
+      {
+        "recommendationid": "204468521",
+        "author": {
+          "steamid": "76561197999394473",
+          "personaname": "cracatoa",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/cracatoa/",
+          "num_games_owned": 2268,
+          "num_reviews": 415,
+          "playtime_forever": 605,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 605,
+          "last_played": 1758019942,
+          "avatar": "e62e21db3af3d0cfa7b2f7a292099031f2bed372"
+        },
+        "language": "english",
+        "review": "3.5/5 - Fun little game, but very very short.  You can 100% it in just a few hours (I left it open overnight accidentally).  May realistically be a $3 value, but the price isn't bad enough to hurt the score or my recommendation.  If it is on sale, it is definitely a good value.",
+        "timestamp_created": 1758020010,
+        "timestamp_updated": 1758020010,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.59208446741104126",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757955632",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYKIeAAAAAFP+LyWiAAAAB5kv6LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.780999999999949,
+  "transport_error_count": 0
+}

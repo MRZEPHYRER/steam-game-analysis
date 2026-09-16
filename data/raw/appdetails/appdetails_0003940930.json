@@ -1,0 +1,293 @@
+{
+  "requested_at": "2026-09-13T05:58:20.102943+00:00",
+  "request_params": {
+    "appids": 3940930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3940930,
+  "payload": {
+    "3940930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Hi.",
+        "steam_appid": 3940930,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>Hi.</i> Is a game about you. Yes, YOU. <br><br>Well, currently<i> Hi.</i> is a game about sliding around a 2d box using WASD. Thats it.<br><br>However, the goal of <i>Hi.</i> is to be a community driven game where you all decide the content. There will be no music, no UI elements, no new mechanics, no DLC, no updates to the store page (minus what we have to do), etc. unless it is suggested by YOU in our <strong>discussion section on Steam</strong>, or just as a review!  <br><br>Here are the guidelines you should follow for your suggestions:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Keep it within Steam's TOS!</p></li><li><p class=\"bb_paragraph\" >Keep the game within a playable state, so no requesting to remove movement, player visuals, etc.</p></li></ul><p class=\"bb_paragraph\" >Other than that, go crazy and have fun!<br> <br>(For now, we are only accepting 50 suggestions. This may change based on <i>Hi.</i>'s reception.) <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>(We reserve the right to ignore any inappropriate ideas)</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>Hi.</i> Is a game about you. Yes, YOU. <br><br>Well, currently<i> Hi.</i> is a game about sliding around a 2d box using WASD. Thats it.<br><br>However, the goal of <i>Hi.</i> is to be a community driven game where you all decide the content. There will be no music, no UI elements, no new mechanics, no DLC, no updates to the store page (minus what we have to do), etc. unless it is suggested by YOU in our <strong>discussion section on Steam</strong>, or just as a review!  <br><br>Here are the guidelines you should follow for your suggestions:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Keep it within Steam's TOS!</p></li><li><p class=\"bb_paragraph\" >Keep the game within a playable state, so no requesting to remove movement, player visuals, etc.</p></li></ul><p class=\"bb_paragraph\" >Other than that, go crazy and have fun!<br> <br>(For now, we are only accepting 50 suggestions. This may change based on <i>Hi.</i>'s reception.) <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>(We reserve the right to ignore any inappropriate ideas)</p>",
+        "short_description": "Help create a game with your community! Potentially the biggest or smallest, most fun or boring game you've ever played! Explore a 2d Box using WASD! Thats it. For now...",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/0074bc48e58f237a2f2c2be03c83b38342ba7554/header.jpg?t=1760594767",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/4ac1ff3a47d2105d249d9e14a422fb60a84382d8/capsule_231x87.jpg?t=1760594767",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/4ac1ff3a47d2105d249d9e14a422fb60a84382d8/capsule_184x69.jpg?t=1760594767",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> i586<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> GTX 750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Graphics:</strong> RTX 3070<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 200 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "The Breakfast Gentlemen"
+        ],
+        "publishers": [
+          "The Breakfast Gentlemen"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1384343
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Hi.",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1384343,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Hi. - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/4f3fb3b643a7f009a80458bc486e54cc91e0790a/ss_4f3fb3b643a7f009a80458bc486e54cc91e0790a.600x338.jpg?t=1760594767",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/4f3fb3b643a7f009a80458bc486e54cc91e0790a/ss_4f3fb3b643a7f009a80458bc486e54cc91e0790a.1920x1080.jpg?t=1760594767"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/1da2a5d707e1e89912df8278010ea0dcf63e7ddb/ss_1da2a5d707e1e89912df8278010ea0dcf63e7ddb.600x338.jpg?t=1760594767",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/1da2a5d707e1e89912df8278010ea0dcf63e7ddb/ss_1da2a5d707e1e89912df8278010ea0dcf63e7ddb.1920x1080.jpg?t=1760594767"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/df9e977c3f30cb4bccb28904074a5d1e3c7ca284/ss_df9e977c3f30cb4bccb28904074a5d1e3c7ca284.600x338.jpg?t=1760594767",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/df9e977c3f30cb4bccb28904074a5d1e3c7ca284/ss_df9e977c3f30cb4bccb28904074a5d1e3c7ca284.1920x1080.jpg?t=1760594767"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/ba2db2aa9c7f857e894caea08662ca6010790108/ss_ba2db2aa9c7f857e894caea08662ca6010790108.600x338.jpg?t=1760594767",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/ba2db2aa9c7f857e894caea08662ca6010790108/ss_ba2db2aa9c7f857e894caea08662ca6010790108.1920x1080.jpg?t=1760594767"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/b71d7468818a4484fa91326c2bf52689807199b6/ss_b71d7468818a4484fa91326c2bf52689807199b6.600x338.jpg?t=1760594767",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940930/b71d7468818a4484fa91326c2bf52689807199b6/ss_b71d7468818a4484fa91326c2bf52689807199b6.1920x1080.jpg?t=1760594767"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257218598,
+            "name": "Hi. | Game update #3",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257218598/863bb82cc383d6cb3bf241693c4234f0ef7b5d24/movie_600x337.jpg?t=1760591709",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3940930/1910980431/2da3149e56ae889dcac8fa7eec0eb29a425e63fe/1760590595/dash_av1.mpd?t=1760591709",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3940930/1910980431/2da3149e56ae889dcac8fa7eec0eb29a425e63fe/1760590595/dash_h264.mpd?t=1760591709",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3940930/1910980431/2da3149e56ae889dcac8fa7eec0eb29a425e63fe/1760590595/hls_264_master.m3u8?t=1760591709",
+            "highlight": true
+          },
+          {
+            "id": 257180077,
+            "name": "Hi. | Gameplay Cinematic Experience (Trailer I)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257180077/8410a704f73021299f710032383e280e6a06028f/movie_600x337.jpg?t=1755850329",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3940930/38623923/c57ba47ad5ce6611cefae923516da3367a0ed641/1755849182/dash_av1.mpd?t=1755850329",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3940930/38623923/c57ba47ad5ce6611cefae923516da3367a0ed641/1755849182/dash_h264.mpd?t=1755850329",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3940930/38623923/c57ba47ad5ce6611cefae923516da3367a0ed641/1755849182/hls_264_master.m3u8?t=1755850329",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 13,
+          "highlighted": [
+            {
+              "icon": "fb826b88fee961cbde5e5330ab24aeebac0b7e97.jpg",
+              "localized_name": "Hi.",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Hi.",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/fb826b88fee961cbde5e5330ab24aeebac0b7e97.jpg"
+            },
+            {
+              "icon": "fe137c32d502c2763fd1cdd46da594a1f7092b32.jpg",
+              "localized_name": "Fine, It's Your Joss",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Fine, It's Your Joss",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/fe137c32d502c2763fd1cdd46da594a1f7092b32.jpg"
+            },
+            {
+              "icon": "8b528b765751359270e4d1e3e75f18e797ed88b2.jpg",
+              "localized_name": "A",
+              "archived": 0,
+              "hidden": 1,
+              "name": "A",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/8b528b765751359270e4d1e3e75f18e797ed88b2.jpg"
+            },
+            {
+              "icon": "3bbf9499abd2bb1655770f1c5b6076a88f292639.jpg",
+              "localized_name": "I Like Your Car",
+              "archived": 0,
+              "hidden": 1,
+              "name": "I Like Your Car",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/3bbf9499abd2bb1655770f1c5b6076a88f292639.jpg"
+            },
+            {
+              "icon": "028d7bb0dbf6abbda40922143260d1fc65c76728.jpg",
+              "localized_name": "Shocking Ducktrocity",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Shocking Ducktrocity",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/028d7bb0dbf6abbda40922143260d1fc65c76728.jpg"
+            },
+            {
+              "icon": "e248d1c41e8e26bbb8b5c59ac332e7e4941ed5bf.jpg",
+              "localized_name": "Wow",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wow",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/e248d1c41e8e26bbb8b5c59ac332e7e4941ed5bf.jpg"
+            },
+            {
+              "icon": "d6a9d496e8733bfa309c7a7f2bd5142011bf99ba.jpg",
+              "localized_name": "Absolute Cinema",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Absolute Cinema",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/d6a9d496e8733bfa309c7a7f2bd5142011bf99ba.jpg"
+            },
+            {
+              "icon": "89a48dfa6d67537934af4ae4cef6147ec4c6a187.jpg",
+              "localized_name": "Tread Bread Redemption",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Tread Bread Redemption",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/89a48dfa6d67537934af4ae4cef6147ec4c6a187.jpg"
+            },
+            {
+              "icon": "26b433f03cdc1d1561c95479974c6bb562aba888.jpg",
+              "localized_name": "Reel Average Fish",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Reel Average Fish",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/26b433f03cdc1d1561c95479974c6bb562aba888.jpg"
+            },
+            {
+              "icon": "03264181255649127224a325d988dd41f8c40ba7.jpg",
+              "localized_name": "Goon in the Headlights",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Goon in the Headlights",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3940930/03264181255649127224a325d988dd41f8c40ba7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "thebreakfastgentlemen@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3940930?t=1760594767",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3940930?t=1760594767",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

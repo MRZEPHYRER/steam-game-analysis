@@ -1,0 +1,212 @@
+{
+  "requested_at": "2026-09-13T06:48:06.584808+00:00",
+  "request_params": {
+    "appids": 4083540,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4083540,
+  "payload": {
+    "4083540": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Cozy Cat",
+        "steam_appid": 4083540,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Find your moment of zen with your new desktop companion, a cozy cat living right on your screen!</strong></p><p class=\"bb_paragraph\" >This is a <strong>Casual Desktop Pet game</strong> designed for maximum relaxation. Simply open the app and watch your feline friend live its best life in its own peaceful sanctuary. Let the quiet moments melt away your stress as you observe your cat's everyday routines:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Rest and Relaxation:</strong> Your cat may take a nap, quietly groom itself, or snuggle into its favorite <strong>cardboard box</strong>.</p></li><li><p class=\"bb_paragraph\" ><strong>Simple Interaction:</strong> Your interaction shapes the fun! <strong>Click anywhere in its room</strong> to watch your cat happily jump to that spot.</p></li><li><p class=\"bb_paragraph\" ><strong>Joyful Dance:</strong> <strong>Click on your cat</strong> to make it stand up and perform a cute, silly dance just for you—a small moment of joy to brighten your day.</p></li></ul><p class=\"bb_paragraph\" ><strong>A perfect soundtrack for a cozy mood is just a button away.</strong> Simply toggle the music button to fill your space with <strong>soothing, lyric-free Lo-fi music</strong> that enhances the chill atmosphere of your cat's room.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Find your moment of zen with your new desktop companion, a cozy cat living right on your screen!</strong></p><p class=\"bb_paragraph\" >This is a <strong>Casual Desktop Pet game</strong> designed for maximum relaxation. Simply open the app and watch your feline friend live its best life in its own peaceful sanctuary. Let the quiet moments melt away your stress as you observe your cat's everyday routines:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Rest and Relaxation:</strong> Your cat may take a nap, quietly groom itself, or snuggle into its favorite <strong>cardboard box</strong>.</p></li><li><p class=\"bb_paragraph\" ><strong>Simple Interaction:</strong> Your interaction shapes the fun! <strong>Click anywhere in its room</strong> to watch your cat happily jump to that spot.</p></li><li><p class=\"bb_paragraph\" ><strong>Joyful Dance:</strong> <strong>Click on your cat</strong> to make it stand up and perform a cute, silly dance just for you—a small moment of joy to brighten your day.</p></li></ul><p class=\"bb_paragraph\" ><strong>A perfect soundtrack for a cozy mood is just a button away.</strong> Simply toggle the music button to fill your space with <strong>soothing, lyric-free Lo-fi music</strong> that enhances the chill atmosphere of your cat's room.</p>",
+        "short_description": "Desktop Pet Healing Game: Enjoy peaceful daily life in your cat's desktop sanctuary. Click the room to direct its movement, and use the music button to play Lo-fi music for a cozy vibe. Click the cat to see a special dance! A perfect pause from your busy routine.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/4b18fc435c42487fd6b4492bac4261124a413656/header.jpg?t=1785423018",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/9c9dec6db82ac3d32d2ef3d739410a2f7cbc5f65/capsule_231x87.jpg?t=1785423018",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/9c9dec6db82ac3d32d2ef3d739410a2f7cbc5f65/capsule_184x69.jpg?t=1785423018",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Dual-core CPU, 2.0 GHz or faster<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 or DirectX 11 compatible<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Additional Notes:</strong> Integrated graphics are sufficient for a smooth experience.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Project Soda"
+        ],
+        "publishers": [
+          "Project Soda"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1431550
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Cozy Cat",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1431550,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Cozy Cat - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/07c5329eb4df19c3afb5f19902793a8ec322f68e/ss_07c5329eb4df19c3afb5f19902793a8ec322f68e.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/07c5329eb4df19c3afb5f19902793a8ec322f68e/ss_07c5329eb4df19c3afb5f19902793a8ec322f68e.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/dda5c808213f3926c6dac5084da37f0ad3e0b03a/ss_dda5c808213f3926c6dac5084da37f0ad3e0b03a.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/dda5c808213f3926c6dac5084da37f0ad3e0b03a/ss_dda5c808213f3926c6dac5084da37f0ad3e0b03a.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/c425ec794849444b187d3efbb0c1bb8ed726268e/ss_c425ec794849444b187d3efbb0c1bb8ed726268e.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/c425ec794849444b187d3efbb0c1bb8ed726268e/ss_c425ec794849444b187d3efbb0c1bb8ed726268e.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/d5f4031dbf311a54b8131b3937825d505c1a3c23/ss_d5f4031dbf311a54b8131b3937825d505c1a3c23.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/d5f4031dbf311a54b8131b3937825d505c1a3c23/ss_d5f4031dbf311a54b8131b3937825d505c1a3c23.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/836fb0445ea7ba5686935922453cfc19f920c548/ss_836fb0445ea7ba5686935922453cfc19f920c548.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/836fb0445ea7ba5686935922453cfc19f920c548/ss_836fb0445ea7ba5686935922453cfc19f920c548.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/584d4917c032c31d46c64478829cf411fd181bac/ss_584d4917c032c31d46c64478829cf411fd181bac.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/584d4917c032c31d46c64478829cf411fd181bac/ss_584d4917c032c31d46c64478829cf411fd181bac.1920x1080.jpg?t=1785423018"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/eb05d011ee4ea21b4fa0540b7015354c8d9eb0b6/ss_eb05d011ee4ea21b4fa0540b7015354c8d9eb0b6.600x338.jpg?t=1785423018",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/eb05d011ee4ea21b4fa0540b7015354c8d9eb0b6/ss_eb05d011ee4ea21b4fa0540b7015354c8d9eb0b6.1920x1080.jpg?t=1785423018"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257375540,
+            "name": "CatSort26Ver",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257375540/9d9f1ba42c55707e1fcc004e3961069f66c03e02/movie_600x337.jpg?t=1783875812",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4083540/540372192/7dd845cda65a9c144e27e511170adc18dfb535cd/1783875641/dash_av1.mpd?t=1783875812",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4083540/540372192/7dd845cda65a9c144e27e511170adc18dfb535cd/1783875641/dash_h264.mpd?t=1783875812",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4083540/540372192/7dd845cda65a9c144e27e511170adc18dfb535cd/1783875641/hls_264_master.m3u8?t=1783875812",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 29, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "projectsoda@prismsoda.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4083540?t=1785423018",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4083540/b22a9efb946482dc3e12700473ca83c0f5f0cdd8/page_bg_raw.jpg?t=1785423018",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

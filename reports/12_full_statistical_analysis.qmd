@@ -1,0 +1,512 @@
+---
+title: "Steam 新游市场与玩家评论统计分析"
+subtitle: "Steam Game Market & Player Review Analytics — Full Statistical Analysis Report"
+author: ""
+date: ""
+lang: zh-CN
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    code-tools: false
+    fig-align: center
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+options(knitr.kable.NA = "—")
+
+data_root <- file.path("..", "data", "analysis")
+fig <- function(folder, name) file.path("..", "figures", folder, name)
+read_csv <- function(path) {
+  out <- read.csv(file.path(data_root, path), check.names = FALSE,
+                  stringsAsFactors = FALSE, encoding = "UTF-8")
+  names(out)[1] <- sub("^\\ufeff", "", names(out)[1])
+  out
+}
+fmt_or <- function(x) sprintf("%.3f", as.numeric(x))
+fmt_ci <- function(or, lo, hi) sprintf("%s [%s, %s]", fmt_or(or), fmt_or(lo), fmt_or(hi))
+
+market <- read_csv("sql/market_overview.csv")
+price_bands <- read_csv("sql/price_bands.csv")
+review_volume <- read_csv("sql/review_volume_distribution.csv")
+months <- read_csv("sql/release_month_summary.csv")
+concentration <- read_csv("attention/step6b_concentration.csv")
+entry_free_paid <- read_csv("attention/step6a_free_paid_summary.csv")
+entry_fit <- read_csv("attention/step6a1_linear_vs_nonlinear.csv")
+entry_peak <- read_csv("attention/step6a1_peak_audit.csv")
+entry_coef <- read_csv("attention/step6a1_primary_non_spline_coefficients.csv")
+count_compare <- read_csv("attention/step6b_model_comparison.csv")
+poisson_diag <- read_csv("attention/step6b_poisson_diagnostics.csv")
+trunc_fit <- read_csv("attention/step6b_truncated_nb_fit.csv")
+tier_dist <- read_csv("attention/step6b1_tier_distribution.csv")
+tier_coef <- read_csv("attention/step6b1_ordinal_coefficients.csv")
+tier_price <- read_csv("attention/step6b1_price_tier_probabilities.csv")
+tier_free_paid <- read_csv("attention/step6b1_free_paid_probabilities.csv")
+tier_fit <- read_csv("attention/step6b1_ordinal_fit.csv")
+tier_decision <- read_csv("attention/step6b1_stage_decision.csv")
+high100_fit <- read_csv("attention/step6b1_high100_fit.csv")
+
+bb_fit <- read_csv("modeling/step5c_beta_binomial_fit.csv")
+bb_coef <- read_csv("modeling/step5c_beta_binomial_coefficients.csv")
+eb_prior <- read_csv("modeling/step5f_eb_prior_parameters.csv")
+eb_shrink <- read_csv("modeling/step5f_shrinkage_relationship.csv")
+rank_corr <- read_csv("modeling/step5f_rank_correlations.csv")
+
+reception_terms <- bb_coef[match(c("z_log1p_price", "z_days_since_release",
+  "platform_segmentWindows + macOS", "platform_segmentWindows + Linux",
+  "platform_segmentWindows + macOS + Linux", "genre_simulation", "genre_strategy",
+  "genre_indie", "genre_rpg"), bb_coef$term), ]
+reception_terms <- reception_terms[!is.na(reception_terms$term), c("term", "odds_ratio",
+  "profile_or_ci95_lower", "profile_or_ci95_upper")]
+names(reception_terms) <- c("Predictor", "OR", "CI low", "CI high")
+
+entry_terms <- entry_coef[match(c("is_free", "platform_segmentWindows + macOS + Linux",
+  "genre_casual", "genre_simulation"), entry_coef$term), ]
+entry_terms <- entry_terms[!is.na(entry_terms$term), c("term", "odds_ratio", "or_ci95_lower", "or_ci95_upper")]
+names(entry_terms) <- c("Predictor", "OR", "CI low", "CI high")
+
+tier_terms <- tier_coef[match(c("is_free", "log_days", "platform_segmentWindows + macOS + Linux",
+  "genre_adventure", "genre_rpg", "genre_simulation", "genre_strategy"), tier_coef$term), ]
+tier_terms <- tier_terms[!is.na(tier_terms$term), c("term", "odds_ratio_higher_tier", "ci95_lower", "ci95_upper")]
+names(tier_terms) <- c("Predictor", "OR", "CI low", "CI high")
+
+sample_table <- data.frame(
+  metric = c("候选游戏", "最终样本", "免费游戏", "付费游戏", "零评论", "至少一条评论", "评论量模型 20+"),
+  n = c(10115, 3000, 402, 2598, 759, 2241, 844),
+  description = c("2025-07-01 至 2025-12-31 候选池", "按发布月份比例分层抽样", "完整市场构成", "完整市场构成", "市场层 outcome", "市场层 attention", "Reception 预设候选样本")
+)
+names(sample_table) <- c("指标", "数量", "说明")
+``` 
+
+# 封面与执行摘要
+
+> **项目定位**：这是一个从 Steam 数据采集、关系型数据库、SQL 探索到 R 统计建模的完整分析项目。报告中的结果都是当前 3,000 款游戏快照上的条件关联，不代表销售、收益或因果效果。
+
+## 执行摘要
+
+本项目分析了 2025 年下半年（2025-07-01 至 2025-12-31）Steam 新发行游戏的市场结构、玩家评论关注度（attention）和玩家口碑（reception）。从 10,115 个候选游戏中按发布月份进行比例分层抽样，得到 3,000 款游戏；其中 402 款免费、2,598 款付费，759 款（25.30%）没有任何评论。评论量不是销量或拥有量，而是购买者评论关注度的代理指标。
+
+市场最显著的结构是极端长尾：有评论游戏的评论量中位数为 10，均值为 481.69，最大值为 136,842，Gini 系数为 0.953；前 1% 游戏吸收约 65.44% 的评论量。这个结构使得直接对 raw count 拟合普通 Poisson、Negative Binomial 或 zero-truncated NB2 都需要非常谨慎。Step 6B 原始 count 模型保留为诊断案例，但没有冻结。
+
+Reception 部分使用携带正面/负面评论分母的 Beta-binomial regression 作为主要推断模型。标准 Binomial 的 Pearson dispersion 约为 73.52，说明游戏之间存在严重额外异质性。Beta-binomial 在 836 款 paid、至少 20 条评论的游戏上收敛良好，估计的 `phi≈8.747`、`rho≈0.103`。在该模型中，价格与正面评价倾向呈弱负关联；Simulation 是稳定的负向 reception 关联，而 Strategy 也总体负向但敏感性略高。
+
+Rating reliability 部分显示，raw positive rate 不能脱离 denominator 解读：`1/1=100%` 的 Wilson lower 只有约 20.65%，而 `1000/1000=100%` 的 Wilson lower 约为 99.62%。Empirical Bayes 以 Beta(5.022, 1.045) 为总体先验，低评论量游戏收缩更强；评论量与绝对收缩的 Spearman 相关约为 -0.912。
+
+Attention 采用两阶段 hurdle 思路。Stage 1 的 review-entry 模型保留非线性 paid-price spline；线性价格模型 AIC 为 2387.87，df=3 spline 为 2373.03，中央支持区的拟合峰值约为 $14.92，但这是宽平台上的描述性最大值，不是“最佳定价”。Stage 2 将正评论游戏按 1–9、10–99、100–999、1000+ 分成四个有序 attention tiers，用 cumulative ordinal logistic 描述进入更高关注等级的关联，并用 High-100 logistic（至少 100 条评论）做稳健性检查。Proportional-odds 假设为 APPROXIMATE，但没有 major direction reversal，High-100 方向广泛一致，因此该 tier model 已冻结。
+
+最终结论不是“某个价格导致成功”或“某类游戏天然更差”，而是：市场关注度与玩家口碑是两个不同维度；可靠的分析需要保留 denominator、承认 overdispersion、检查 functional form，并在诊断不通过时改变 estimand，而不是强行冻结一个漂亮但不可信的模型。
+
+# 研究问题与分析路线
+
+## 四个研究问题
+
+### RQ1 — Market Structure
+
+2025 年下半年 Steam 新发行游戏的价格、平台、类型、评论覆盖率和评论量分布具有什么市场结构？
+
+### RQ2 — Attention
+
+哪些游戏更可能获得至少一条玩家评论，并在获得评论后进入更高的评论关注等级？
+
+### RQ3 — Reception
+
+在有足够评论后，价格、平台和游戏类型与玩家正面评价倾向之间存在怎样的条件关联？
+
+### RQ4 — Rating Reliability
+
+当评论样本较少时，如何避免直接使用 raw positive rate 造成过度乐观或错误排序？
+
+## 端到端数据管线
+
+```{r}
+#| label: fig-pipeline
+#| fig-cap: "从 Steam 数据采集到统计解释的可复现路径。应该看什么：每个后续模型都建立在明确的样本和数据库层之上。"
+knitr::include_graphics(fig("report", "69_analysis_pipeline.png"))
+```
+
+项目使用 Python 完成采集和 ETL，MySQL 保存分析型关系数据，SQL 负责只读探索，R 负责 EDA、模型和诊断，Quarto 负责可复现报告，Git 负责版本控制。报告不展示连接密码、用户名或 console 日志。
+
+# 数据来源、抽样与语义
+
+## 抽样设计
+
+候选池包含 10,115 个在研究窗口内发布的游戏。最终样本为 3,000 款，按发布月份进行比例分层抽样，随机种子为 `20250911`。按月份分层的目的，是避免某一个月份因发行量或暴露时间不同而过度代表整体。
+
+```{r}
+knitr::kable(sample_table, caption = "样本构造与分析层级")
+```
+
+月度样本数为：2025-07 `497`、2025-08 `470`、2025-09 `427`、2025-10 `544`、2025-11 `580`、2025-12 `482`。
+
+```{r}
+#| label: fig-months
+#| fig-cap: "按发布月份的样本覆盖。应该看什么：月份样本量不同，因此月度差异需要结合暴露时间和构成解释。"
+knitr::include_graphics(fig("eda", "14_release_month_coverage.png"))
+```
+
+## 数据语义与解释边界
+
+- **Price** 是采集时点的 US storefront current price，不是首发价、历史价格或 reviewer-paid price。
+- **total_reviews** 是 Steam 购买者评论关注度/互动代理，不是销量、owners、收入或商业成功。
+- **Early Access** 是 Steam taxonomy label，不是已经验证的 historical Early Access 状态。
+- 游戏类型是 **multi-label**，类型计数不能当作互斥类别相加。
+- 这是 single-snapshot observational design；所有 predictor 结果都称为 association 或 conditional association，不称为 impact、effect 或 cause。
+
+# 市场结构与评论长尾
+
+## 市场概览
+
+完整市场包含 `N=3,000` 款游戏：免费 402（13.40%），付费 2,598（86.60%）；759 款没有评论，2,241 款至少有一条评论。
+
+```{r}
+market_view <- data.frame(
+  metric = c("总游戏", "免费", "付费", "至少一条评论", "零评论", "零评论比例"),
+  value = c(market[[1]], market$free_games, market$paid_games,
+           market$games_with_reviews, market$zero_review_games,
+           paste0(market$zero_review_share_pct, "%")),
+  stringsAsFactors = FALSE
+)
+names(market_view) <- c("指标", "数值")
+knitr::kable(market_view, caption = "3,000 款游戏的市场层概览")
+```
+
+付费游戏当前价格中位数为 `$4.99`，均值为 `$8.52`；价格分布右偏且在低价带高度集中。
+
+```{r}
+#| label: fig-price
+#| fig-cap: "完整样本中的价格分布。应该看什么：价格右偏且是 collection-time snapshot，不能直接解释为最优价格。"
+knitr::include_graphics(fig("eda", "08_price_distribution.png"))
+```
+
+```{r}
+#| label: fig-count-log
+#| fig-cap: "评论量的 log-scale 分布。应该看什么：大量游戏集中在低评论量区间，少数头部游戏形成极长右尾。"
+knitr::include_graphics(fig("eda", "02_review_count_hist_log.png"))
+```
+
+## 评论量的 winner-takes-most 结构
+
+完整市场评论量中位数为 4；在 positive-count population 中，中位数为 10，均值为 481.69，最大值为 136,842。Top 1 游戏占 12.68%，Top 1% 游戏占 65.44%，Top 5% 占 89.01%，Top 10% 占 94.52%，Gini 为 0.953。
+
+```{r}
+#| label: fig-concentration
+#| fig-cap: "评论关注度的集中度。应该看什么：少数头部游戏吸收了绝大部分评论量，因此 raw count 的单一回归系数很容易被头部支配。"
+knitr::include_graphics(fig("attention", "58_tail_concentration.png"))
+```
+
+```{r}
+#| label: fig-rootogram
+#| fig-cap: "计数模型的 observed-versus-fitted 诊断。应该看什么：即使 truncated NB2 AIC 较低，分布拟合和尾部行为仍不足以自动冻结。"
+knitr::include_graphics(fig("attention", "55_count_rootogram.png"))
+```
+
+# Reception：从 Binomial 到 Beta-binomial
+
+## 为什么 raw positive rate 不够
+
+正面率的基本形式为
+
+$$p_i = \frac{y_i}{n_i}.$$
+
+但相同的 `p=1` 并不代表相同的统计证据。评论分母同时决定比例精度，因此后续 reception 模型使用 grouped response `(positive_reviews, negative_reviews)`，而不是把每个 raw rate 当成同等精度的连续观测。
+
+```{r}
+#| label: fig-positive-rate
+#| fig-cap: "正面率与评论量的关系。应该看什么：低分母游戏更容易出现 0% 或 100% 极值，不能与大分母游戏等量齐观。"
+knitr::include_graphics(fig("eda", "06_positive_rate_vs_reviews.png"))
+```
+
+## Reception modeling journey
+
+### Binomial benchmark
+
+冻结的标准 Binomial 作为 benchmark，但 Pearson dispersion 约为 `73.52`，deviance/df 约为 `61.82`。这意味着标准误和区间会系统性过于乐观。
+
+### Quasibinomial
+
+Quasibinomial 将标准误放大约 `sqrt(phi)=8.57` 倍，point estimates 与 Binomial 基本相同。它能修正 variance scale，却不能完整刻画 latent heterogeneity，也不能解决不同 denominator 带来的贡献差异。
+
+### Beta-binomial primary model
+
+Beta-binomial 在 `N=836` 个 paid games（每款至少 20 条评论）上作为最终 reception primary inferential model。模型收敛，`phi≈8.747`，派生的 within-game ICC `rho≈0.103`。表中的区间优先使用 profile-likelihood interval。
+
+```{r}
+knitr::kable(reception_terms, digits = 3,
+             caption = "Beta-binomial reception 的代表性 OR 与 profile 95% CI")
+```
+
+```{r}
+#| label: fig-beta
+#| fig-cap: "Overdispersion-robust reception odds ratios。应该看什么：价格弱负向、Simulation 稳定负向；不要把 OR 解释成因果效应。"
+knitr::include_graphics(fig("modeling", "05_robust_or_comparison.png"))
+```
+
+## Reception findings 与敏感性
+
+- **Price**：在 Beta-binomial 中为弱但稳定的负向关联，OR 约 `0.930 [0.873, 0.990]`（每一标准差 log-price）。
+- **Simulation**：Beta-binomial OR `0.786 [0.692, 0.894]`，而 misspecified Binomial OR 约 `1.354`，发生方向反转。这是“模型假设会改变实质结论”的典型案例。
+- **Strategy**：总体负向，Beta-binomial OR 约 `0.826 [0.714, 0.957]`，但相对敏感性略高。
+- **Platform**：多平台组合呈正向，但 magnitude 对模型规格敏感，可能反映未观测的开发资源、团队成熟度或发行策略。
+- **Indie / RPG**：区间跨 1 或证据较弱，不作强结论。
+
+Step 5D 比较了 `>0`、`>=10`、`>=20`、`>=50` 评论阈值，以及 raw price、release month、genre expansion 和 head-game sensitivity。核心方向整体保留，但不同阈值改变 estimand，因此不能用跨样本 AIC 选择“最佳阈值”。
+
+```{r}
+#| label: fig-sensitivity
+#| fig-cap: "预设 sensitivity 的方向与区间汇总。应该看什么：价格和 Simulation 的主要方向跨规格较稳定，Strategy 和部分平台项更敏感。"
+knitr::include_graphics(fig("modeling", "15_robustness_heatmap.png"))
+```
+
+## High-rating secondary model
+
+Step 5E 将 `positive_rate >= 85%` 定义为 secondary business-readable outcome，并检查 80%/90% 阈值敏感性。HIGH85 样本为 471/836，样本内 AUC 约 `0.661`。该模型用于易读的二元补充描述，不替代 Beta-binomial；阈值之间不能用 AIC/BIC 选择“最佳阈值”。
+
+```{r}
+#| label: fig-high-rating
+#| fig-cap: "High-rating secondary logistic model。应该看什么：这是便于解释的补充模型，不是 reception primary inferential model。"
+knitr::include_graphics(fig("modeling", "21_high_rating_primary_or.png"))
+```
+
+# Rating reliability：Wilson 与 Empirical Bayes
+
+## Wilson interval
+
+Wilson score interval 只改变不确定性表达，不改变 raw point estimate。两个极端例子是：
+
+- `1/1=100%`，Wilson lower 约 `20.65%`；
+- `1000/1000=100%`，Wilson lower 约 `99.62%`。
+
+因此，相同的 raw 100% rating 在不同 denominator 下代表完全不同的证据强度。
+
+```{r}
+#| label: fig-wilson
+#| fig-cap: "Wilson denominator geometry。应该看什么：分母从 1 增至 1,000 时，100% raw rate 的下界迅速收紧。"
+knitr::include_graphics(fig("modeling", "25_wilson_denominator_geometry.png"))
+```
+
+## Empirical Bayes rating adjustment
+
+Empirical Bayes 使用全体 `n>0` 游戏估计 Beta prior：`Beta(5.022, 1.045)`，prior mean 约 `82.78%`，ESS 约 `6.07`。后验均值为
+
+$$E[p_i\mid y_i,n_i] = \frac{y_i+\alpha}{n_i+\alpha+\beta}.$$
+
+低评论量游戏受到更强 shrinkage，高评论量游戏几乎不变。评论量与绝对收缩的 Spearman 相关为 `-0.912`；1,000+ reviews 游戏的 median absolute shrinkage 约 `0.017` 个百分点。
+
+```{r}
+#| label: fig-eb
+#| fig-cap: "Empirical Bayes shrinkage 与评论量。应该看什么：低分母评分被拉回总体先验，高分母评分基本保持不变。"
+knitr::include_graphics(fig("modeling", "29_eb_shrinkage_vs_review_count.png"))
+```
+
+## Raw ranking 与 reliability-aware ranking
+
+Raw vs Wilson、Raw vs EB、Wilson vs EB 的 Spearman 相关分别约为 `0.2395`、`0.7761`、`0.6725`。Raw ranking 很大程度受低 denominator 的 100% ties 影响；832 款游戏的 raw rate 为 100%，其中 762 款虽然 raw rate 至少 95%，但 Wilson lower 低于 80%。
+
+```{r}
+#| label: fig-ranking
+#| fig-cap: "Raw、Wilson 与 EB ranking 的比较。应该看什么：可靠性调整会明显改变低分母游戏的排序，但不是把 EB 分数称为真实质量。"
+knitr::include_graphics(fig("modeling", "31_raw_wilson_eb_rank_comparison.png"))
+```
+
+# Attention：从 review entry 到 intensity
+
+## Hurdle structure
+
+Attention 被拆成两个 estimand：
+
+1. **Stage 1**：`P(Y>0)`，游戏能否获得至少一条评论；
+2. **Stage 2**：在 `Y>0` 条件下，进入更高 attention intensity 的关联。
+
+```{r}
+#| label: fig-entry-or
+#| fig-cap: "Review-entry logistic 的主要关联。应该看什么：free 与 paid 的构成差异很大，不能把 free OR 解释成 pricing 的因果效应。"
+knitr::include_graphics(fig("attention", "39_attention_entry_primary_or.png"))
+```
+
+Stage 1 中，free has-review rate 为 `8.46%`，paid 为 `84.95%`。这说明 free/paid 构成差异巨大；它可能同时反映受众、发行策略、可发现性、质量和开发成熟度等因素。
+
+## Nonlinear price specification for entry
+
+Step 6A.1 保留 logistic framework，仅把 paid-price linear term 换为 centered Natural Spline（df=3）。Linear AIC 为 `2387.87`，spline AIC 为 `2373.03`，`Delta AIC≈-14.84`。拟合曲线在约 `$14.92` 达到 pointwise maximum，但 `$11.07–$20.30` 是宽 plateau，不能称为“最佳定价”。
+
+```{r}
+#| label: fig-entry-curve
+#| fig-cap: "Paid-price 的非线性 review-entry 曲线。应该看什么：中央支持区呈宽平台，高价尾部稀疏，不应将峰值解释成最优价格。"
+knitr::include_graphics(fig("attention", "45_price_nonlinear_primary_curve.png"))
+```
+
+```{r}
+#| label: fig-entry-support
+#| fig-cap: "Price curve 的 empirical support。应该看什么：$0.99–$19.99 是主要解释区间，高价尾部观测很少。"
+knitr::include_graphics(fig("attention", "46_price_curve_support_density.png"))
+```
+
+```{r}
+knitr::kable(entry_terms, digits = 3, caption = "Review-entry 模型的代表性结果")
+```
+
+主要关联包括：free 的 entry odds 很低；三平台支持与较高 entry odds 相关；Simulation 与较高 entry odds 相关；Casual 与较低 entry odds 相关。所有结果仍是 composition-adjusted association。
+
+## Why raw review counts required a different strategy
+
+Positive-count raw model 的诊断是方法选择的一部分，而不是应被隐藏的失败。Poisson Pearson dispersion 约为 `16,774`；ordinary NB2 的 `theta≈0.273`；truncated NB2 的 `theta≈1.3×10^-9`。虽然 truncated NB2 AIC 约为 `21,297`，但 residual distribution mismatch、extreme head concentration、tail sensitivity 和 price curve instability 仍然存在。
+
+因此，项目没有因为 AIC 最低就冻结 raw count model，也没有为了得到显著结果继续增加未经预设的复杂模型。注意力强度的 estimand 改为有序 tiers，是比继续修补单一 count likelihood 更透明的选择。
+
+```{r}
+#| label: fig-count-failure
+#| fig-cap: "Raw count model 的诊断案例。应该看什么：模型选择由 estimand 与诊断共同决定，而不是由单个 AIC 排名决定。"
+knitr::include_graphics(fig("attention", "55_count_rootogram.png"))
+```
+
+# Attention tiers：稳定的 portfolio-level intensity model
+
+## Tier reformulation
+
+在 `total_reviews>0` 的 2,241 款游戏中定义：
+
+- Tier 1：1–9 reviews，49.17%；
+- Tier 2：10–99 reviews，32.71%；
+- Tier 3：100–999 reviews，13.07%；
+- Tier 4：1,000+ reviews，5.04%。
+
+```{r}
+#| label: fig-tier-dist
+#| fig-cap: "四级 attention tier 分布。应该看什么：tier 化压缩了极端长尾，但保留了关注度的有序信息。"
+knitr::include_graphics(fig("attention", "64_attention_tier_distribution.png"))
+```
+
+## Ordinal Logistic Regression
+
+最终主模型为 cumulative / proportional-odds ordinal logistic：
+
+$$\log\frac{P(Y\le k)}{P(Y>k)} = \alpha_k - X\beta.$$
+
+它研究的是 predictor 与“进入更高 attention tier”的关联，而不是评论数增加多少倍。模型保留 `is_free`、paid price Natural Spline df=3、`log(days_since_release)`、platform segment 与七个 genre；不使用 offset。
+
+```{r}
+knitr::kable(tier_terms, digits = 3, caption = "Attention tier ordinal model 的代表性 OR")
+```
+
+Proportional-odds audit 使用三个 threshold-specific logits（`>=10`、`>=100`、`>=1000`）。部分弱效应在边界间变化，因此结论为 `APPROXIMATE`；但没有 major direction reversal，High-100 robustness 为 PASS。
+
+```{r}
+#| label: fig-tier-price
+#| fig-cap: "不同价格下的 attention tier predicted probabilities。应该看什么：从 $0.99 到 $19.99，概率质量由 Tier1 向 Tier3/Tier4 移动，但不能解释为价格导致关注度。"
+knitr::include_graphics(fig("attention", "65_attention_tier_price_probabilities.png"))
+```
+
+```{r}
+#| label: fig-tier-or
+#| fig-cap: "Ordinal attention-tier OR。应该看什么：三平台、Adventure、RPG、Simulation 与更高 tier 的关联方向；free subgroup 稀疏。"
+knitr::include_graphics(fig("attention", "66_attention_tier_or.png"))
+```
+
+High-100 robustness model 的 outcome 是 `total_reviews>=100`，事件数为 406，使用完全相同的 predictors。它与 ordinal model 没有 major magnitude contradiction，支持 portfolio-level freeze。
+
+```{r}
+#| label: fig-high100
+#| fig-cap: "High-100 logistic robustness check。应该看什么：主要方向与 ordinal model 广泛一致；它是稳健性检查，不替代 ordinal primary。"
+knitr::include_graphics(fig("attention", "67_high100_logistic_or.png"))
+```
+
+# Attention vs Reception：跨模型比较
+
+Attention 和 reception 是不同 outcome，不能比较 OR 的数值大小，只比较 direction / positive / negative / uncertain。最有解释价值的交叉结果是：Simulation 更容易进入较高 attention tier，但在条件 reception 模型中呈负向关联；multi-platform 在两个维度均呈正向；RPG、Adventure 的 attention 方向为正，但 reception 证据不足。
+
+```{r}
+#| label: fig-cross-domain
+#| fig-cap: "Attention 与 reception 的方向矩阵。应该看什么：关注度和口碑不是同一件事，Simulation 的跨模型方向差异尤其值得注意。"
+knitr::include_graphics(fig("report", "70_attention_vs_reception_summary.png"))
+```
+
+# 模型决策与方法论总结
+
+```{r}
+#| label: fig-decision-map
+#| fig-cap: "模型决策图。应该看什么：每个统计模型对应一个明确 estimand，并且先经过 dispersion、tail、functional-form 或 reliability diagnostics。"
+knitr::include_graphics(fig("report", "71_model_decision_map.png"))
+```
+
+## 五个统计经验
+
+1. **Denominator matters**：比例不能脱离分母；Wilson 和 Beta-binomial 都显式保留这一点。
+2. **Overdispersion matters**：真实市场的游戏间异质性可以远大于 Binomial / Poisson 假设。
+3. **Functional form matters**：paid price 的线性项会掩盖 review-entry 的非线性结构。
+4. **Diagnostics matter**：AIC 最低不等于模型可用；tail、残差、稳定性和支持范围同样重要。
+5. **Estimand matters**：raw count 不稳定时，改成有序 attention tiers 比继续堆叠复杂模型更符合研究目标。
+
+# 主要结论
+
+1. 3,000 款样本中 25.30% 没有 Steam 评论，评论 entry 本身就是重要的市场分化。
+2. 评论 attention 极度集中：Top 1% 游戏贡献约 65.44% 的正评论量。
+3. raw positive rate 在低 denominator 下高度不可靠；Wilson 与 EB 提供了不同用途的可靠性辅助。
+4. Beta-binomial 是 reception 的主要推断模型，标准 Binomial 的严重 overdispersion 不能忽略。
+5. Price 与 reception 呈弱负向条件关联；Simulation reception 为稳定负向，Strategy 总体负向但较敏感。
+6. Review-entry 的 paid-price relationship 是明显 nonlinear，中央支持区是宽平台而不是单一最优价格。
+7. 原始 positive-count model 因 extreme tail 和诊断问题未冻结，失败记录作为方法论案例保留。
+8. Ordered attention-tier model 提供了更稳定、可解释的 portfolio-level intensity 描述。
+9. Attention 与 reception 是两个不同维度；高关注不自动意味着更高口碑。
+
+# 限制与不作出的声明
+
+## 研究限制
+
+- single snapshot，不能代表随时间变化的生命周期结果；
+- price 是 current storefront price，不是 launch price；
+- 没有 sales、owners、revenue、marketing spend 或真实曝光数据；
+- observational design，存在未观测的 marketing、brand、quality 和发行策略；
+- genre 是 multi-label；
+- positive-count free subgroup 稀疏；
+- attention tiers 会牺牲 tier 内的原始 count 差异；
+- ordinal proportional-odds assumption 仅 approximate；
+- 所有回归结果均为 conditional association，不是 causal effect。
+
+## 本项目不声称
+
+- price causes attention 或 better ratings；
+- platform causes better ratings；
+- reviews equal sales；
+- Empirical Bayes score 等于真实 game quality；
+- `$14–15` 是 optimal pricing；
+- Simulation games are inherently worse。
+
+# 技术栈、复现与冻结状态
+
+## Technical stack
+
+- **Python**：Steam collection、ETL、抽样与可复现数据处理；
+- **MySQL**：分析型关系数据库；
+- **R**：EDA、回归、诊断、敏感性与可视化；
+- **Quarto**：可复现 HTML 报告；
+- **Git**：版本控制与审计轨迹。
+
+主要 runner 包括 `R/run_eda.R`、`R/run_rating_adjustment.R`、`R/run_attention_entry.R`、`R/run_attention_entry_nonlinear.R`、`R/run_attention_count.R` 和 `R/run_attention_tier.R`。本报告只读取已经冻结的 CSV 和 PNG 产物，不重新拟合模型。
+
+## Reproducibility audit
+
+当前完整测试套件为 `270 passed`；MySQL 数据库只读且对象计数未改变；credential safety PASS；Step 6B.1 attention-tier model 已冻结，attention analysis 已关闭。HTML 报告不打印 `.env`、密码、用户名或数据库连接输出。
+
+## Final status
+
+```yaml
+Data collection / sampling: FROZEN
+MySQL analytical database: FROZEN
+SQL exploration: FROZEN
+R EDA: FROZEN
+Reception models: FROZEN
+Attention entry and nonlinear price: FROZEN
+Raw positive-count model: DIAGNOSTIC FAIL / RETAINED
+Attention-tier ordinal model: FROZEN
+Full statistical analysis report: COMPLETE
+Ready for GitHub / portfolio presentation: YES
+```

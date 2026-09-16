@@ -1,0 +1,245 @@
+{
+  "requested_at": "2026-09-13T06:44:08.105515+00:00",
+  "request_params": {
+    "appids": 4068510,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4068510,
+  "payload": {
+    "4068510": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Detective Modo",
+        "steam_appid": 4068510,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Dive into the shadows as <strong>Detective Modo</strong>, a cunning shapeshifting lizard slinking through a vibrant town to unravel a gripping mystery! Emerging from your sewer lair, you discover a passed-out child in the depths. Determined to reunite them with their parents, you venture into the bustling streets above, where every face hides a secret and every quest unveils a piece of the puzzle.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Transform into <i>any</i> NPC you encounter, unlocking unique dialogue and fresh perspectives that reshape the town’s tangled web of stories. Solve each townsfolk’s quest in any order you choose, wielding cleverly earned items and mind-bending secret abilities to crack puzzles and expose truths. With every shift, you’re one step closer to solving the enigma of the missing child—but beware, the town’s secrets run deeper than the sewers you call home.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Will you unravel the mystery as the ultimate shapeshifting sleuth? <strong>Detective Modo</strong> awaits your cunning!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Steam Deck Support</strong></p><p class=\"bb_paragraph\" >Full controller support.</p><p class=\"bb_paragraph\" >If inputs don’t work on first launch, switch to Keyboard + Mouse in settings, then switch back to Controller (one-time fix).</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Dive into the shadows as <strong>Detective Modo</strong>, a cunning shapeshifting lizard slinking through a vibrant town to unravel a gripping mystery! Emerging from your sewer lair, you discover a passed-out child in the depths. Determined to reunite them with their parents, you venture into the bustling streets above, where every face hides a secret and every quest unveils a piece of the puzzle.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Transform into <i>any</i> NPC you encounter, unlocking unique dialogue and fresh perspectives that reshape the town’s tangled web of stories. Solve each townsfolk’s quest in any order you choose, wielding cleverly earned items and mind-bending secret abilities to crack puzzles and expose truths. With every shift, you’re one step closer to solving the enigma of the missing child—but beware, the town’s secrets run deeper than the sewers you call home.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Will you unravel the mystery as the ultimate shapeshifting sleuth? <strong>Detective Modo</strong> awaits your cunning!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Steam Deck Support</strong></p><p class=\"bb_paragraph\" >Full controller support.</p><p class=\"bb_paragraph\" >If inputs don’t work on first launch, switch to Keyboard + Mouse in settings, then switch back to Controller (one-time fix).</p>",
+        "short_description": "A mystery adventure game where you play as a shapeshifting lizard, transforming into any NPC to unlock unique dialogue, solve intricate puzzles, and complete diverse quests to unravel a town's secrets.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/0f5fc15cbd248d75cd991f81f89b61b05e4fbb9b/header.jpg?t=1777887375",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/2a31e000f8ab9e2ce9d83d1923d39de8fca331fc/capsule_231x87.jpg?t=1777887375",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/2a31e000f8ab9e2ce9d83d1923d39de8fca331fc/capsule_184x69.jpg?t=1777887375",
+        "website": "https://detectivemodo.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3-2100 @ 3.1GHz or AMD Phenom II X4 965 @ 3.4GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 (3 GB VRAM) or AMD Radeon RX 470 (4 GB VRAM) – or equivalent with DirectX 11 support.<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> The game is lightweight and primarily uses 2D canvas rendering with occasional video playback. Ensure hardware-accelerated video decoding is enabled in your browser or runtime environment for smoother performance. Tested on low-end hardware; should run on most modern systems without issues.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or 11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5-8400 @ 2.8GHz or AMD Ryzen 5 2600 @ 3.4GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1080 (8 GB VRAM) or AMD Radeon RX 5700 (8 GB VRAM) – or equivalent with DirectX 12 support for optimal video and rendering smoothness.<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible sound card with surround sound support<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> Recommended for higher resolutions (1080p+) or if running multiple applications simultaneously. The game's code is optimized for efficiency, with precomputed lookups and minimal real-time computations, so it scales well even on mid-range hardware.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.15 Catalina<br></li><li><strong>Processor:</strong> Apple Silicon (e.g., Apple M1) or Intel Core i3 (dual-core or better).<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Apple Silicon GPU or Intel Iris Graphics 5100 – or dedicated like NVIDIA GeForce GTX 1060 (via eGPU if supported).<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Built-in audio<br></li><li><strong>Additional Notes:</strong> The game relies on JavaScript execution with canvas and video elements, making it compatible with most Macs from the last decade. Video playback may benefit from hardware acceleration; test on Rosetta 2 for Intel builds on Apple Silicon.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 12 Monterey or later<br></li><li><strong>Processor:</strong> Apple Silicon (e.g., Apple M1 or better) or Intel Core i5 (quad-core or better).<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple Silicon GPU (e.g., M1 Pro) or dedicated like NVIDIA GeForce GTX 1080 (via eGPU if supported).<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Built-in audio<br></li><li><strong>Additional Notes:</strong> The game relies on JavaScript execution with canvas and video elements, making it compatible with most Macs from the last decade. Video playback may benefit from hardware acceleration; test on Rosetta 2 for Intel builds on Apple Silicon.</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 LTS or SteamOS (or any modern Linux distro with Steam)<br></li><li><strong>Processor:</strong> Intel Core i3-2100 or AMD equivalent (same as Windows min)<br></li><li><strong>Memory:</strong> 4 GB GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0+ compatible (integrated graphics OK; NVIDIA/AMD/Intel)<br></li><li><strong>Storage:</strong> 2 GB GB available space<br></li><li><strong>Sound Card:</strong> Any ALSA/PulseAudio compatible sound card<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> The game is lightweight and primarily uses 2D canvas rendering with occasional video playback. Ensure hardware-accelerated video decoding is enabled in your browser or runtime environment for smoother performance. Tested on low-end hardware; should run on most modern systems without issues.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 LTS or newer / SteamOS<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD Ryzen 5 equivalent (same as Windows rec)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated GPU with 4+ GB VRAM (for smoother video/high-res)<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Any ALSA/PulseAudio compatible sound card<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> Recommended for higher resolutions (1080p+) or if running multiple applications simultaneously. The game's code is optimized for efficiency, with precomputed lookups and minimal real-time computations, so it scales well even on mid-range hardware.</li></ul>"
+        },
+        "developers": [
+          "Dekomodo"
+        ],
+        "publishers": [
+          "Dekomodo"
+        ],
+        "demos": [
+          {
+            "appid": 4288690,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1426567
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Detective Modo",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1426567,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Detective Modo - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/15e53b28005b7bc28db3ba3bdc5d52fe4603048f/ss_15e53b28005b7bc28db3ba3bdc5d52fe4603048f.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/15e53b28005b7bc28db3ba3bdc5d52fe4603048f/ss_15e53b28005b7bc28db3ba3bdc5d52fe4603048f.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/8d6459e3edfccb6dcd7cb981b38c988cf9fb8d43/ss_8d6459e3edfccb6dcd7cb981b38c988cf9fb8d43.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/8d6459e3edfccb6dcd7cb981b38c988cf9fb8d43/ss_8d6459e3edfccb6dcd7cb981b38c988cf9fb8d43.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/8b8719b3860c8e1f2a57f24e3153e2e1e0ef4fd9/ss_8b8719b3860c8e1f2a57f24e3153e2e1e0ef4fd9.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/8b8719b3860c8e1f2a57f24e3153e2e1e0ef4fd9/ss_8b8719b3860c8e1f2a57f24e3153e2e1e0ef4fd9.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d3a6fc18ed71875ff7edf3410d6e60648be56edc/ss_d3a6fc18ed71875ff7edf3410d6e60648be56edc.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d3a6fc18ed71875ff7edf3410d6e60648be56edc/ss_d3a6fc18ed71875ff7edf3410d6e60648be56edc.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d73437965d955ed7c9e17332da850a68341b3669/ss_d73437965d955ed7c9e17332da850a68341b3669.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d73437965d955ed7c9e17332da850a68341b3669/ss_d73437965d955ed7c9e17332da850a68341b3669.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/0d772c1b0fbc3fcafd8cdd006788c3aeeb63f591/ss_0d772c1b0fbc3fcafd8cdd006788c3aeeb63f591.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/0d772c1b0fbc3fcafd8cdd006788c3aeeb63f591/ss_0d772c1b0fbc3fcafd8cdd006788c3aeeb63f591.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/fd8c2cd33143a4b888da998ccba43000c5d5e4c7/ss_fd8c2cd33143a4b888da998ccba43000c5d5e4c7.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/fd8c2cd33143a4b888da998ccba43000c5d5e4c7/ss_fd8c2cd33143a4b888da998ccba43000c5d5e4c7.1920x1080.jpg?t=1777887375"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d7bab5fa0c89f1f1571a21d49858f0aa1ffeb21d/ss_d7bab5fa0c89f1f1571a21d49858f0aa1ffeb21d.600x338.jpg?t=1777887375",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4068510/d7bab5fa0c89f1f1571a21d49858f0aa1ffeb21d/ss_d7bab5fa0c89f1f1571a21d49858f0aa1ffeb21d.1920x1080.jpg?t=1777887375"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257216321,
+            "name": "Detective Modo Early Access Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257216321/b60f4251925437004abe6ec161f1231b84ec1b50/movie_600x337.jpg?t=1761514538",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4068510/1251986584/bcd268d67258504a471b7b61169ffa5f8b073c4c/1760252391/dash_av1.mpd?t=1761514538",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4068510/1251986584/bcd268d67258504a471b7b61169ffa5f8b073c4c/1760252391/dash_h264.mpd?t=1761514538",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4068510/1251986584/bcd268d67258504a471b7b61169ffa5f8b073c4c/1760252391/hls_264_master.m3u8?t=1761514538",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 10, 2025"
+        },
+        "support_info": {
+          "url": "https://detectivemodo.com",
+          "email": "dekomodo.official@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4068510?t=1777887375",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4068510?t=1777887375",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "The game makes mild adult references that may not be suitable for young audiences."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas ilícitas\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogen\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

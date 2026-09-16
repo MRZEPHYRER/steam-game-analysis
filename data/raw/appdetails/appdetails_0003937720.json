@@ -1,0 +1,190 @@
+{
+  "requested_at": "2026-09-13T05:56:48.320034+00:00",
+  "request_params": {
+    "appids": 3937720,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3937720,
+  "payload": {
+    "3937720": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Monster Mage Madness",
+        "steam_appid": 3937720,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Monster Mage Madness</strong> <i>Unleash Your Inner Mage in a Chaotic, Magical Adventure!</i></p><p class=\"bb_paragraph\" >Dive into <i>Monster Mage Madness</i>, a thrilling roguelike where you wield powerful magic to battle hordes of monstrous foes in a vibrant, procedurally generated world. Choose your mage, customize your abilities, and team up with magical pets to conquer ever-changing challenges. With persistent upgrades and dynamic combat, every run is a fresh spell-slinging spectacle!</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Dynamic Combat</strong>: Blast enemies with homing bullets, multi-shots, and critical hits. Upgrade your mage with boosts like lifesteal, shields, and enhanced attack speed for endless build variety.</p></li><li><p class=\"bb_paragraph\" ><strong>Procedural World</strong>: Explore a  tile-based map across unique biomes, each with distinct enemies and surprises, ensuring no two runs are alike.</p></li><li><p class=\"bb_paragraph\" ><strong>Persistent Progression</strong>: Earn Level Experience to unlock permanent upgrades, from increased health to bullet speed, enhancing your power across playthroughs.</p></li><li><p class=\"bb_paragraph\" ><strong>Magical Pets</strong>: Find the kennels to recruit loyal companions  to aid in combat, adding strategic depth to your magical arsenal.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Monster Mage Madness</strong> <i>Unleash Your Inner Mage in a Chaotic, Magical Adventure!</i></p><p class=\"bb_paragraph\" >Dive into <i>Monster Mage Madness</i>, a thrilling roguelike where you wield powerful magic to battle hordes of monstrous foes in a vibrant, procedurally generated world. Choose your mage, customize your abilities, and team up with magical pets to conquer ever-changing challenges. With persistent upgrades and dynamic combat, every run is a fresh spell-slinging spectacle!</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Dynamic Combat</strong>: Blast enemies with homing bullets, multi-shots, and critical hits. Upgrade your mage with boosts like lifesteal, shields, and enhanced attack speed for endless build variety.</p></li><li><p class=\"bb_paragraph\" ><strong>Procedural World</strong>: Explore a  tile-based map across unique biomes, each with distinct enemies and surprises, ensuring no two runs are alike.</p></li><li><p class=\"bb_paragraph\" ><strong>Persistent Progression</strong>: Earn Level Experience to unlock permanent upgrades, from increased health to bullet speed, enhancing your power across playthroughs.</p></li><li><p class=\"bb_paragraph\" ><strong>Magical Pets</strong>: Find the kennels to recruit loyal companions  to aid in combat, adding strategic depth to your magical arsenal.</p></li></ul>",
+        "short_description": "Top down 2D bullet hell survivor. Use your level reached to purchase permanent upgrades to help you get further in the next run!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/31438dc4ab4233117eb0b50d5f4b1c42c683424f/header.jpg?t=1759476464",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/7bb7bc433830484ece6a5d5fcaf8df44d80aa9e6/capsule_231x87.jpg?t=1759476464",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/7bb7bc433830484ece6a5d5fcaf8df44d80aa9e6/capsule_184x69.jpg?t=1759476464",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Pentium 4 1.6 GHz or equivalent (any dual-core CPU from the last 10-15 years)<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Any DirectX 9.0c-compatible GPU (e.g., NVIDIA GeForce 6100 or Intel HD Graphics)</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Dave Wuz Here"
+        ],
+        "publishers": [
+          "Dave Wuz Here"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1383298
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Monster Mage Madness",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1383298,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Monster Mage Madness - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/7570a91eda3d3b74e11bb93c4112fb01f373b343/ss_7570a91eda3d3b74e11bb93c4112fb01f373b343.600x338.jpg?t=1759476464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/7570a91eda3d3b74e11bb93c4112fb01f373b343/ss_7570a91eda3d3b74e11bb93c4112fb01f373b343.1920x1080.jpg?t=1759476464"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/41c12f3757ffdef69726dccc27f7fea8ddbbe784/ss_41c12f3757ffdef69726dccc27f7fea8ddbbe784.600x338.jpg?t=1759476464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/41c12f3757ffdef69726dccc27f7fea8ddbbe784/ss_41c12f3757ffdef69726dccc27f7fea8ddbbe784.1920x1080.jpg?t=1759476464"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/06acf7ecc24217973809d89460d737efbc058eb2/ss_06acf7ecc24217973809d89460d737efbc058eb2.600x338.jpg?t=1759476464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/06acf7ecc24217973809d89460d737efbc058eb2/ss_06acf7ecc24217973809d89460d737efbc058eb2.1920x1080.jpg?t=1759476464"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/c62b72c63aa66da1895eaacf27a72df84c8b61a0/ss_c62b72c63aa66da1895eaacf27a72df84c8b61a0.600x338.jpg?t=1759476464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/c62b72c63aa66da1895eaacf27a72df84c8b61a0/ss_c62b72c63aa66da1895eaacf27a72df84c8b61a0.1920x1080.jpg?t=1759476464"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/0754bfc48227de1916680a9b1d79e34976aa0aa3/ss_0754bfc48227de1916680a9b1d79e34976aa0aa3.600x338.jpg?t=1759476464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937720/0754bfc48227de1916680a9b1d79e34976aa0aa3/ss_0754bfc48227de1916680a9b1d79e34976aa0aa3.1920x1080.jpg?t=1759476464"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257197610,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257197610/bb5900ec4fc5ca269fb031d0a87a0df9caf2ba7d/movie_600x337.jpg?t=1758285913",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3937720/1862531985/5f9667f108970b0dc2a6c3e2917e82b5241d809f/1757861812/dash_av1.mpd?t=1758285913",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3937720/1862531985/5f9667f108970b0dc2a6c3e2917e82b5241d809f/1757861812/dash_h264.mpd?t=1758285913",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3937720/1862531985/5f9667f108970b0dc2a6c3e2917e82b5241d809f/1757861812/hls_264_master.m3u8?t=1758285913",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 3, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "evilsanta44@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937720?t=1759476464",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3937720?t=1759476464",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

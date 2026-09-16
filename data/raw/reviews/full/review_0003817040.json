@@ -1,0 +1,66 @@
+{
+  "appid": 3817040,
+  "requested_at": "2026-09-13T19:43:47.428814+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 23,
+      "total_negative": 0,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "212457430",
+        "author": {
+          "steamid": "76561198145911397",
+          "personaname": "ThatGuyYouKnow",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198145911397/",
+          "num_games_owned": 218,
+          "num_reviews": 14,
+          "playtime_forever": 463,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 111,
+          "last_played": 1765005998,
+          "avatar": "b721dd6c62408bb40072417ecbe3ef761a109355"
+        },
+        "language": "english",
+        "review": "Having played all of these games over the years in their original release forms I can confidently say this is a perfect port and well worth the asking price.\nYear Walk, Device 6, Beat Sneak Bandit on PC alone are worth the asking price but throw in 4 other fun games and a bunch of other goodies for fans of Simogo's work like myself, packaged in a robust and engaging yet aesthetically pleasing wrapper and you have a perfect recipe.\n\nMake no mistake, these might all be \"phone games\" but almost every title is punching so far above its weight and ahead of its time that it guaranteed to astound.\n\nSpecial mention goes to Year Walk, my favorite game of all time. Thank you guys for keeping the original version of Year Walk in this collection instead of using the PC re-release version. I love both versions for different reasons but seeing the game and the companion remaining separate like they were when I first played the game in 2014 makes me happy. Preserving and having access to both versions makes me even happier.\n\nSimogo is a dev team that deserves every single penny they are given. Their dedication to new and interesting gameplay, storytelling, and extremely stylish art direction is unmatched by any other team. \n\nSimon, Gordon and the rest (especially Daniel) your games mean the world to me and I know many others. I hope you never lose that spark of ambition or drive to create because no one is making the high level of quality you all produce.",
+        "timestamp_created": 1764741784,
+        "timestamp_updated": 1764741784,
+        "voted_up": true,
+        "votes_up": 29,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.784778833389282227",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764660166",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUTe6AAAAAFP+kc6OAAAAB2/bqqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

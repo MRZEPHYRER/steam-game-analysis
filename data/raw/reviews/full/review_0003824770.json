@@ -1,0 +1,66 @@
+{
+  "appid": 3824770,
+  "requested_at": "2026-09-13T19:45:08.608751+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "200574171",
+        "author": {
+          "steamid": "76561197986972323",
+          "personaname": "Voldershmoink",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/voldershmoink/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 119,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 119,
+          "last_played": 1753373494,
+          "avatar": "2fabb0530280c1a38fec41884a18a068c6987602"
+        },
+        "language": "english",
+        "review": "Like Portal but made by my nephew",
+        "timestamp_created": 1753373607,
+        "timestamp_updated": 1753373607,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752682686",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF2AAAAAAAAFP+AAAAAAAAB7zZD9BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

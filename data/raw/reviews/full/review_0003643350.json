@@ -1,0 +1,66 @@
+{
+  "appid": 3643350,
+  "requested_at": "2026-09-13T19:28:23.063248+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224788067",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 599,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 599,
+          "last_played": 1777617657,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Destroy All Letters - Space Adventure is built around a quirky and unconventional premise that immediately sets it apart from more traditional arcade shooters. Instead of focusing purely on enemies or obstacles, the game asks players to target and eliminate floating letters while piloting a small spacecraft through a minimalistic space environment. This unusual blend of recognition-based gameplay and reflex-driven movement creates a loop that feels part arcade shooter, part pattern-matching exercise, offering something that is easy to understand but slightly different from the norm.\n\nFrom the very beginning, the gameplay establishes a fast and reactive rhythm. Letters appear across the screen in varying arrangements, and players must quickly identify and destroy the correct targets while maintaining control of their ship. The challenge comes not from complex mechanics but from the increasing pace and density of on-screen elements. As more letters appear and movement becomes more demanding, the game begins to test your ability to process visual information quickly and respond without hesitation. There is a certain satisfaction in clearing sequences efficiently, especially when you begin to anticipate patterns and react instinctively rather than consciously.\n\nThe simplicity of the controls plays a major role in making the experience accessible. Movement and shooting are straightforward, allowing players to focus entirely on the task of identifying and eliminating targets. This makes the game easy to pick up for short sessions, as there is little to learn beyond the core concept. However, this same simplicity also limits how much the gameplay can evolve. Once you become comfortable with the mechanics, there are few new elements introduced to significantly change the experience, which can lead to a sense of repetition over time.\n\nVisually, the game adopts a clean and functional style that prioritizes clarity above all else. The space-themed backdrop is simple, and the letters are designed to stand out clearly against it, ensuring that players can quickly recognize targets even as the pace increases. While this approach works well for gameplay purposes, it does little to create a memorable visual identity. The environments and effects feel basic, and there is a noticeable lack of variety or stylistic flair that might have added more personality to the experience. The audio design follows a similar pattern, providing feedback for actions without contributing much to the overall atmosphere.\n\nOne of the more noticeable aspects of the game is its limited scope. It feels very much like a focused concept that has been developed just enough to function, but not expanded into a more fully realized experience. There are few additional modes, progression systems, or meaningful variations to keep players engaged beyond the initial novelty. As a result, the game is best enjoyed in short bursts rather than extended play sessions, where the lack of new ideas becomes more apparent.\n\nDespite these limitations, the game does have a certain charm in how direct and unpretentious it is. It does not attempt to be more complex than it needs to be, and for players looking for a quick, low-commitment arcade experience, it can provide moments of simple enjoyment. The combination of reflex-based gameplay and visual recognition creates a loop that is easy to return to, even if it does not offer much depth.\n\nUltimately, Destroy All Letters - Space Adventure feels like an experimental project built around a single creative idea. It succeeds in delivering a functional and occasionally engaging gameplay loop, but it stops short of expanding that idea into something more substantial. The lack of variety, progression, and polish keeps it from standing out in a meaningful way, leaving it as a brief diversion rather than a lasting experience. It is a game that shows potential in its concept, but in its current form, it remains limited in both scope and impact.\n\nRating: 5/10",
+        "timestamp_created": 1777931997,
+        "timestamp_updated": 1777931997,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.508935809135437012",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762344359",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ0j+AAAAAFP+BJNCAAAABz5r/ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

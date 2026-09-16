@@ -1,0 +1,305 @@
+{
+  "requested_at": "2026-09-12T17:52:04.373158+00:00",
+  "request_params": {
+    "appids": 3896930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3896930,
+  "payload": {
+    "3896930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Fiiish! Classic",
+        "steam_appid": 3896930,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h1>Demo</h1><p><p class=\"bb_paragraph\" >The demo is fully playable but has some restrictions:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Some achievements are locked</p></li><li><p class=\"bb_paragraph\" >Some upgrades are locked</p></li><li><p class=\"bb_paragraph\" >There is less variety in the landscape</p></li><li><p class=\"bb_paragraph\" >Balancing is not final, and might be slightly off</p></li><li><p class=\"bb_paragraph\" >KidsMode is disabled</p></li></ul></p><br><h1>Gamepad Input</h1><p><p class=\"bb_paragraph\" >The game pad input is mostly working, but it looks like there is one tester who has troubles,<br>so we removed Steam Input support from the advertised features for now. <br><br>Let us know if things work for you!</p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" >Dive back into the ocean and relive the game that started it all!</p><p class=\"bb_paragraph\" ><strong>Fiiish! Classic</strong> is a lovingly polished re-release of the original underwater adventure from 2010 — now free to play during launch on Steam.</p><p class=\"bb_paragraph\" >Swim through a vibrant, hand-crafted ocean full of colorful wildlife and hidden surprises. Take your time, relax, and enjoy the peaceful flow of the sea as you collect coins, spend skill points, and upgrade your fish to reach new depths.</p><p class=\"bb_paragraph\" >No rush. No pressure. Just you, the ocean, and the coins waiting to be found.</p><p class=\"bb_paragraph\" >🐟 <strong>Discounted for a limited time!</strong></p><p class=\"bb_paragraph\" >To celebrate the return of <strong>Fiiish!</strong> and to thank our fans, <strong>Fiiish! Classic</strong> is discounted during its launch period. Grab it now and keep it forever — after the launch celebration, the game will return to its regular, low price.</p><p class=\"bb_paragraph\" >And for younger players or anyone who wants an even gentler experience, turn on <strong>Kids Mode</strong> — a safer, calmer way to explore the deep.</p><p class=\"bb_paragraph\" ><strong>Fiiish! Classic — Back to the Deep.</strong></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Dive back into the ocean and relive the game that started it all!</p><p class=\"bb_paragraph\" ><strong>Fiiish! Classic</strong> is a lovingly polished re-release of the original underwater adventure from 2010 — now free to play during launch on Steam.</p><p class=\"bb_paragraph\" >Swim through a vibrant, hand-crafted ocean full of colorful wildlife and hidden surprises. Take your time, relax, and enjoy the peaceful flow of the sea as you collect coins, spend skill points, and upgrade your fish to reach new depths.</p><p class=\"bb_paragraph\" >No rush. No pressure. Just you, the ocean, and the coins waiting to be found.</p><p class=\"bb_paragraph\" >🐟 <strong>Discounted for a limited time!</strong></p><p class=\"bb_paragraph\" >To celebrate the return of <strong>Fiiish!</strong> and to thank our fans, <strong>Fiiish! Classic</strong> is discounted during its launch period. Grab it now and keep it forever — after the launch celebration, the game will return to its regular, low price.</p><p class=\"bb_paragraph\" >And for younger players or anyone who wants an even gentler experience, turn on <strong>Kids Mode</strong> — a safer, calmer way to explore the deep.</p><p class=\"bb_paragraph\" ><strong>Fiiish! Classic — Back to the Deep.</strong></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A relaxing underwater adventure — collect, explore, and chill.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/4c98b5833b9a5b4c10fc59166c76de0a0d8fc7fb/header.jpg?t=1766911401",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/e600fcdd37a77eaf8734d5f4f7bb7f3c53b21b93/capsule_231x87.jpg?t=1766911401",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/e600fcdd37a77eaf8734d5f4f7bb7f3c53b21b93/capsule_184x69.jpg?t=1766911401",
+        "website": "https://games.omnimad.net/games/fiiish-classic",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Dual-core CPU (Intel/AMD ~2.4 GHz)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated GPU with OpenGL 3.3 / DirectX 11 support (Intel HD 4000 / AMD equivalent or better)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 250 MB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>VR Support:</strong> Not supported yet</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> macOS 12 Monterey or later<br></li><li><strong>Processor:</strong> Apple M1 or later<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Apple GPU (built into M1 or newer)<br></li><li><strong>Storage:</strong> 250 MB available space<br></li><li><strong>Additional Notes:</strong> Runs natively on Apple Silicon. Intel Macs are not supported.</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 LTS (64-bit) or equivalent<br></li><li><strong>Processor:</strong> Dual-core CPU (Intel/AMD ~2.4 GHz)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 / Vulkan capable GPU with at least 1 GB VRAM<br></li><li><strong>Storage:</strong> 250 MB available space<br></li><li><strong>Additional Notes:</strong> Tested on Ubuntu 20.04 LTS. Other distributions may work.</li></ul>"
+        },
+        "developers": [
+          "Andreas Neukoetter"
+        ],
+        "publishers": [
+          "Andreas Neukoetter"
+        ],
+        "demos": [
+          {
+            "appid": 3934690,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1369731
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Fiiish! Classic",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1369731,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Fiiish! Classic - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/caa18f7dcf31967c3a81edeaf018aa54995da029/ss_caa18f7dcf31967c3a81edeaf018aa54995da029.600x338.jpg?t=1766911401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/caa18f7dcf31967c3a81edeaf018aa54995da029/ss_caa18f7dcf31967c3a81edeaf018aa54995da029.1920x1080.jpg?t=1766911401"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/55e26d0915153e3d0bd2a6c4b0c0da92bc6d2c97/ss_55e26d0915153e3d0bd2a6c4b0c0da92bc6d2c97.600x338.jpg?t=1766911401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/55e26d0915153e3d0bd2a6c4b0c0da92bc6d2c97/ss_55e26d0915153e3d0bd2a6c4b0c0da92bc6d2c97.1920x1080.jpg?t=1766911401"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/b07d2937ba4f0d4ee11b0c34f75747fcce65f15f/ss_b07d2937ba4f0d4ee11b0c34f75747fcce65f15f.600x338.jpg?t=1766911401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/b07d2937ba4f0d4ee11b0c34f75747fcce65f15f/ss_b07d2937ba4f0d4ee11b0c34f75747fcce65f15f.1920x1080.jpg?t=1766911401"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/fa9dc9e331dcb737f394f6ac145e1668faa88a1b/ss_fa9dc9e331dcb737f394f6ac145e1668faa88a1b.600x338.jpg?t=1766911401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/fa9dc9e331dcb737f394f6ac145e1668faa88a1b/ss_fa9dc9e331dcb737f394f6ac145e1668faa88a1b.1920x1080.jpg?t=1766911401"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/fbd7f7173881e1f6f5241bcef60806c29b4f4e5a/ss_fbd7f7173881e1f6f5241bcef60806c29b4f4e5a.600x338.jpg?t=1766911401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/fbd7f7173881e1f6f5241bcef60806c29b4f4e5a/ss_fbd7f7173881e1f6f5241bcef60806c29b4f4e5a.1920x1080.jpg?t=1766911401"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257184213,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257184213/e4c5b34e918db2fc40b4765b841b6390a27fec9e/movie_600x337.jpg?t=1755368584",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3896930/381208805/f819b538bc815f504cb649fa733639a31abdbeaa/1755367545/dash_av1.mpd?t=1755368584",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3896930/381208805/f819b538bc815f504cb649fa733639a31abdbeaa/1755367545/dash_h264.mpd?t=1755368584",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3896930/381208805/f819b538bc815f504cb649fa733639a31abdbeaa/1755367545/hls_264_master.m3u8?t=1755368584",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 49,
+          "highlighted": [
+            {
+              "icon": "db6d641c44e1dc14f80f8d051d2d8a5ff9f0cc82.jpg",
+              "localized_name": "Times Played Bronze",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Times Played Bronze",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/db6d641c44e1dc14f80f8d051d2d8a5ff9f0cc82.jpg"
+            },
+            {
+              "icon": "e36e6a42844728328a6e397acabb29e6b893215d.jpg",
+              "localized_name": "Single Run Distance Bronze",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Run Distance Bronze",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/e36e6a42844728328a6e397acabb29e6b893215d.jpg"
+            },
+            {
+              "icon": "d087c7f342ef0382e80d5d8a5e02f28a3143fa89.jpg",
+              "localized_name": "Single Run Distance Silver",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Run Distance Silver",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/d087c7f342ef0382e80d5d8a5e02f28a3143fa89.jpg"
+            },
+            {
+              "icon": "7a8e62095a3a5dd5a37af01598f0876aea27154b.jpg",
+              "localized_name": "Single Run Distance Gold",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Run Distance Gold",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/7a8e62095a3a5dd5a37af01598f0876aea27154b.jpg"
+            },
+            {
+              "icon": "61135f6eb35aff2bb1da3dfdb5c2d6202e185aa7.jpg",
+              "localized_name": "Single Run Distance Diamond",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Run Distance Diamond",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/61135f6eb35aff2bb1da3dfdb5c2d6202e185aa7.jpg"
+            },
+            {
+              "icon": "9f69ab7465bd9339e696e9597e58fc1e6aa0ddcf.jpg",
+              "localized_name": "Single Run Distance Ruby",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Run Distance Ruby",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/9f69ab7465bd9339e696e9597e58fc1e6aa0ddcf.jpg"
+            },
+            {
+              "icon": "246e518b7ff9cd19f9b21da913359dac70b65c41.jpg",
+              "localized_name": "Total Coins Bronze",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Total Coins Bronze",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/246e518b7ff9cd19f9b21da913359dac70b65c41.jpg"
+            },
+            {
+              "icon": "3acb00123a627c9c06fe610a4104942b1588001e.jpg",
+              "localized_name": "Max Coins Bronze",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Max Coins Bronze",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/3acb00123a627c9c06fe610a4104942b1588001e.jpg"
+            },
+            {
+              "icon": "df429b8fabe96aba872936095a79d89e0b2df96c.jpg",
+              "localized_name": "Times Played Silver",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Times Played Silver",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/df429b8fabe96aba872936095a79d89e0b2df96c.jpg"
+            },
+            {
+              "icon": "7ec2e3325fccb19ba7313598865503034fbd4b5e.jpg",
+              "localized_name": "Max Coins  Silver",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Max Coins  Silver",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3896930/7ec2e3325fccb19ba7313598865503034fbd4b5e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 28, 2025"
+        },
+        "support_info": {
+          "url": "https://games.omnimad.net/games/fiiish-classic",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3896930?t=1766911401",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3896930/5b823b311e82cd782266025b6cf53f7a061aea19/page_bg_raw.jpg?t=1766911401",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

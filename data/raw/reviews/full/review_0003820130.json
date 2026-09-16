@@ -1,0 +1,66 @@
+{
+  "appid": 3820130,
+  "requested_at": "2026-09-13T19:44:10.987238+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 347,
+      "total_negative": 19,
+      "total_reviews": 366
+    },
+    "reviews": [
+      {
+        "recommendationid": "212747252",
+        "author": {
+          "steamid": "76561198969709215",
+          "personaname": "TONTON",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198969709215/",
+          "num_games_owned": 126,
+          "num_reviews": 345,
+          "playtime_forever": 8253,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8253,
+          "last_played": 1765690954,
+          "avatar": "8b3d0886c7364c3fe3e9da6236a219d2f6f2ba0e"
+        },
+        "language": "japanese",
+        "review": "放置ゲーム。住人が生活しているのでマッタリ眺めるゲーム。\nクリックして作業を手伝ったりもできる。\n\nパン等を売ってお金にしたら施設をアップグレードしていく。\n収集要素や実績もあって非常に面白いです。\n\nスノードーム状のグラフィック表現が綺麗で大変癒されます。\n天候も変わるので見ていて飽きません。\n価格も安いのでおすすめです。\n\n追記：自動販売システムについてスレッドで聞いたところ開発者の方より返信がありました。\n「Thank you for your support! The game currently has an automatic selling feature. If left for an extended period (around 15-20 minutes), the characters will exit their resting mode, automatically sell the products, and resume work. You just need to wait a bit longer to see this happen.」\nつまり、一定時間（15～20分程度）放置すると、キャラクターは休息モードを解除し、自動的に商品を販売して作業を再開します。とのことです。",
+        "timestamp_created": 1765081557,
+        "timestamp_updated": 1787504488,
+        "voted_up": true,
+        "votes_up": 48,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.804391860961914062",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761824125",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFT6YOAAAAAFP+m9lEAAAAB0v8irBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

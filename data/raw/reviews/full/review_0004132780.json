@@ -1,0 +1,71 @@
+{
+  "appid": 4132780,
+  "requested_at": "2026-09-13T20:21:30.980846+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "210749654",
+        "author": {
+          "steamid": "76561199095419268",
+          "personaname": "magicalcheesefish",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199095419268/",
+          "num_games_owned": 547,
+          "num_reviews": 40,
+          "playtime_forever": 14,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1771352353,
+          "avatar": "e67906787eab0f9d42e4e28d12e780a118102b2f"
+        },
+        "language": "english",
+        "review": "absolute masterpiece, with amazing controls\n\nreally makes you feel like you are a banana man on the moon playing table tennis with a weird block-y thing while random stuff happens around you\n\n10/10 would visit diogenes hostel again",
+        "timestamp_created": 1764129568,
+        "timestamp_updated": 1764129614,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764059780",
+        "reactions": [
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFaIO6AAAAAFP+Fk6MAAAAB2jfmjBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

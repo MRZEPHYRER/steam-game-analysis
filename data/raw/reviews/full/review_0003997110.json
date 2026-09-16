@@ -1,0 +1,68 @@
+{
+  "appid": 3997110,
+  "requested_at": "2026-09-13T20:09:36.061277+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "213093264",
+        "author": {
+          "steamid": "76561198439538939",
+          "personaname": "韭菜",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198439538939/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 6,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 6,
+          "last_played": 1765513321,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "不能使用穿越机手柄连接，用键盘鼠标玩实在太扯了。一点都不模拟",
+        "timestamp_created": 1765513428,
+        "timestamp_updated": 1765513428,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.549477458000183105",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1766024212,
+        "developer_response": "感谢您的反馈。我们非常理解您对于操作真实性的高要求，尤其对于一款强调还原现代战场无人机战术的游戏来说，操作设备的沉浸感确实至关重要。我们知道，对于模拟体验有深度追求的玩家来说，专用外设（如穿越机手柄）的支持能极大提升游戏感受。您的建议已被我们认真记录，并会提交给开发团队进行专项评估。我们将研究在后续更新中，添加对更多专业外设（包括各类飞行控制器）兼容支持的技术可行性与优化方案。在实现全面外设支持之前，我们也建议您尝试在游戏设置中细致调整键鼠的灵敏度与操控曲线，或许能找到更贴近您预期的操作手感。\n再次感谢您如此具体的批评，这直接帮助我们明确了核心玩家对“模拟真实性”的期待方向。请通过官方Q群1020016937持续关注我们的更新动态，欢迎随时提出更多宝贵意见。",
+        "app_release_date": "1763418097",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZEkiAAAAAFP+F8WKAAAABwufGsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.594000000000051,
+  "transport_error_count": 0
+}

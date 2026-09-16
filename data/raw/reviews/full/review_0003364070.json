@@ -1,0 +1,91 @@
+{
+  "appid": 3364070,
+  "requested_at": "2026-09-13T19:12:42.086201+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 388,
+      "total_negative": 29,
+      "total_reviews": 417
+    },
+    "reviews": [
+      {
+        "recommendationid": "207651515",
+        "author": {
+          "steamid": "76561199220231506",
+          "personaname": "Advar29",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199220231506/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 31,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 31,
+          "last_played": 1761240086,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "spanish",
+        "review": "Please in Spanish. I enjoy the games. but not all my friends know English. thanks. I will buy the game again once it's available in Spanish.",
+        "timestamp_created": 1761496204,
+        "timestamp_updated": 1761496204,
+        "voted_up": false,
+        "votes_up": 125,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.891215860843658447",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761195617",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          },
+          {
+            "reaction_type": 8,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSLPmAAAAAFP+yE12AAAAB7q5CYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

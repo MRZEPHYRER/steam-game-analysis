@@ -1,0 +1,286 @@
+---
+title: "Step 6A Review Attention Entry 可视化审计"
+subtitle: "完整市场样本中的 Review Entry、函数形式与模型诊断"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+data_dir <- file.path("..", "data", "analysis", "attention")
+figure_dir <- file.path("..", "figures", "attention")
+read_6a <- function(name) read.csv(file.path(data_dir, name), stringsAsFactors = FALSE,
+  check.names = FALSE, encoding = "UTF-8")
+figure_6a <- function(name) file.path(figure_dir, name)
+market <- read_6a("step6a_market_outcome_summary.csv")
+free_paid <- read_6a("step6a_free_paid_summary.csv")
+months <- read_6a("step6a_month_summary.csv")
+platforms <- read_6a("step6a_platform_summary.csv")
+genres <- read_6a("step6a_genre_summary.csv")
+price_scaling <- read_6a("step6a_paid_price_scaling.csv")
+missing_price <- read_6a("step6a_missing_paid_price.csv")
+exclusions <- read_6a("step6a_sample_exclusions.csv")
+fit <- read_6a("step6a_primary_fit.csv")
+coef <- read_6a("step6a_primary_coefficients.csv")
+profile_ci <- read_6a("step6a_primary_profile_ci.csv")
+cells <- read_6a("step6a_outcome_cells.csv")
+separation <- read_6a("step6a_separation_diagnostics.csv")
+influence <- read_6a("step6a_influence_summary.csv")
+top_influence <- read_6a("step6a_top_influence.csv")
+calibration <- read_6a("step6a_calibration.csv")
+auc <- read_6a("step6a_auc.csv")
+contrasts <- read_6a("step6a_probability_contrasts.csv")
+price_form <- read_6a("step6a_price_functional_form.csv")
+days_form <- read_6a("step6a_days_functional_form.csv")
+form_decision <- read_6a("step6a_functional_form_decision.csv")
+release_sensitivity <- read_6a("step6a_release_sensitivity.csv")
+genre_sensitivity <- read_6a("step6a_genre_sensitivity.csv")
+warnings <- read_6a("step6a_fit_warnings.csv")
+stopifnot(market$market_n == 3000, market$has_review_n == 2241,
+  market$zero_review_n == 759, fit$converged, fit$matrix_rank == fit$matrix_columns,
+  sum(separation$n_flagged) == 0)
+```
+
+# Step 6A 分析目的
+
+本阶段建模每款游戏是否至少获得一条 Steam 评论，即 `P(total_reviews > 0)`。完整的 count-volume 分析属于 Step 6B，本报告不拟合 Poisson、Negative Binomial、zero-inflated 或 hurdle count model。
+
+# Attention 与 Reception 的区别
+
+Reception 关注已有评论中的正面比例；Attention 关注是否获得评论以及评论量。`total_reviews` 只能称为 review attention、engagement 或 volume，不代表 sales 或 owners。
+
+# 市场样本与 Zero-review Outcome
+
+```{r}
+knitr::kable(market, digits = 4, caption = "表：完整市场 Review Entry outcome")
+knitr::kable(exclusions, caption = "表：Primary model 明确排除项")
+```
+
+3,000 个游戏全部进入市场描述。759 个 zero-review games 是本阶段的非事件；Primary 含 price model 仅排除 1 个 missing paid-price game 和 1 个不属于预设四平台的 `Other` game。
+
+# Free vs Paid
+
+```{r}
+knitr::kable(free_paid, digits = 5, caption = "表：Free / Paid Raw Review Entry")
+```
+
+```{r}
+#| fig-cap: "Free 与 Paid 游戏的未调整 Review Entry rate"
+knitr::include_graphics(figure_6a("40_free_paid_attention.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Free/Paid raw gap 有多大？
+- Raw risk difference 与 raw odds ratio 是否只作描述？
+- 调整后的 `is_free` 系数是否仍然很强，同时避免因果措辞？
+:::
+
+# Release Exposure
+
+```{r}
+knitr::kable(months, digits = 4, caption = "表：Release month 的 Raw Review Entry")
+```
+
+```{r}
+#| fig-cap: "Release month 与未调整 Review Entry rate"
+knitr::include_graphics(figure_6a("43_release_attention.png"))
+```
+
+Primary 使用连续 `days_since_release`，因为更长时间意味着更长 attention accumulation opportunity；它不是 count-rate offset。
+
+# Platform
+
+```{r}
+knitr::kable(platforms, digits = 4, caption = "表：完整市场 Platform outcome audit")
+```
+
+```{r}
+#| fig-cap: "四个预设 Platform segment 及完整市场中的 Other 描述行"
+knitr::include_graphics(figure_6a("41_platform_attention.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 四个预设 segment 的样本量是否足够？
+- `Other` 仅 1 个 zero-review game，是否明确留在 descriptive denominator 并排除于 Primary？
+:::
+
+# Genre
+
+```{r}
+knitr::kable(genres, digits = 4, caption = "表：13 个 Genre 的完整市场 outcome audit")
+```
+
+```{r}
+#| fig-cap: "Genre 的 Raw Review Entry rate；点大小为 Genre N"
+knitr::include_graphics(figure_6a("42_genre_attention.png"))
+```
+
+Genre 标签可重叠。Primary 固定使用 Action、Adventure、Casual、Indie、RPG、Simulation、Strategy；Early Access、Sports、Racing 仅进入 expanded sensitivity。
+
+# Primary Logistic Model
+
+```{r}
+knitr::kable(fit, digits = 5, caption = "表：Primary Logistic fit")
+knitr::kable(coef, digits = 5, caption = "表：Primary coefficients、OR 与 Wald 95% CI")
+knitr::kable(profile_ci, digits = 5, caption = "表：Profile-likelihood 95% CI")
+```
+
+`is_free` 比较 free 与 paid 的条件 odds。`z_log1p_paid_price_component` 只解释 paid games 内 collection-time price 增加 1 SD 的条件关联；free rows 的该 component 固定为 0。
+
+```{r}
+#| fig-cap: "Primary Review Entry Logistic 的 OR 与 95% CI"
+knitr::include_graphics(figure_6a("39_attention_entry_primary_or.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Free coefficient 是否极端但仍具有有限 CI？
+- Paid-price、days、platform 与 genre 的区间是否跨 OR=1？
+- 结论是否避免把关联解释成销量或因果作用？
+:::
+
+# Continuous Predictor Functional-form Audit
+
+```{r}
+knitr::kable(days_form, digits = 5, caption = "表：Days linear vs spline df=3")
+knitr::kable(price_form, digits = 5, caption = "表：Paid price linear vs spline df=3")
+knitr::kable(form_decision, digits = 5, caption = "表：预设函数形式决策规则")
+```
+
+```{r}
+#| fig-cap: "同 outcome、同 rows 的 Linear 与 Spline AIC 比较"
+knitr::include_graphics(figure_6a("44_functional_form_comparison.png"))
+```
+
+只比较同 outcome、同 rows 的 AIC。Spline 自由度固定为 3，没有搜索 knots、df 或 interactions，也不会因轻微 AIC 改善自动替换 Primary。
+
+# Days Nonlinearity
+
+```{r}
+#| fig-cap: "Days linear 与 natural spline df=3 的预测概率曲线"
+knitr::include_graphics(figure_6a("35_days_review_entry_curve.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Days 曲线是否只轻微弯曲？
+- Spline 是否改善 AIC 与 likelihood？
+- 线性 days term 是否对实际概率形成结构性误导？
+:::
+
+# Paid-price Nonlinearity
+
+```{r}
+knitr::kable(price_scaling, digits = 5, caption = "表：Paid-market 专用价格 scaling")
+knitr::kable(missing_price, caption = "表：Missing paid price game")
+```
+
+```{r}
+#| fig-cap: "Paid-only auxiliary audit：linear log1p 与 spline df=3"
+knitr::include_graphics(figure_6a("36_paid_price_review_entry_curve.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Paid price 是否呈单调关系？
+- Spline 是轻微弯曲还是结构性改变？
+- 极高价格端是否由少数 observations 支撑？
+- Collection-time price 不应被解释为 launch price 或因果效应。
+:::
+
+# Model Diagnostics
+
+```{r}
+knitr::kable(separation, caption = "表：Separation diagnostics")
+knitr::kable(influence, digits = 6, caption = "表：Influence summary")
+knitr::kable(top_influence[, c("appid", "name", "has_review", "total_reviews",
+  "fitted_probability", "standardized_deviance_residual", "leverage", "cooks_distance")],
+  digits = 6, caption = "表：Cook's D 排名前 20 的游戏")
+knitr::kable(warnings, caption = "表：Fit warnings")
+```
+
+没有自动删除 residual、leverage 或 Cook's D 较大的游戏。
+
+::: {.callout-note}
+## 人工审计重点
+
+- 是否存在 complete/quasi-separation、零事件 cell 或巨大 SE？
+- Top influence 是否由单一平台/genre cell 驱动？
+- Cook's D 是否达到 0.5 或 1？
+:::
+
+# Calibration / AUC
+
+```{r}
+knitr::kable(calibration, digits = 5, caption = "表：Primary in-sample calibration deciles")
+knitr::kable(auc, digits = 5, caption = "表：In-sample ROC AUC")
+```
+
+```{r}
+#| fig-cap: "Primary Logistic 的样本内描述性校准"
+knitr::include_graphics(figure_6a("37_attention_entry_calibration.png"))
+```
+
+```{r}
+#| fig-cap: "Primary Logistic 的样本内 ROC"
+knitr::include_graphics(figure_6a("38_attention_entry_roc.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 十分位观察率与平均预测率是否系统偏离？
+- AUC 只描述样本内 discrimination，是否避免阈值优化或预测竞赛叙述？
+:::
+
+# Probability Contrasts
+
+```{r}
+knitr::kable(contrasts, digits = 5, caption = "表：Representative reference 的 one-at-a-time probability contrasts")
+```
+
+Reference 为 paid、paid log-price 均值、days 均值、Windows only、七个 primary genres 均 absent。Price contrast 仅适用于 paid games。
+
+# Sensitivity Analysis
+
+```{r}
+core_terms <- c("is_free", "z_log1p_paid_price_component",
+  grep("^platform_segment", unique(release_sensitivity$term), value = TRUE),
+  paste0("genre_", c("action", "adventure", "casual", "indie", "rpg", "simulation", "strategy")))
+knitr::kable(release_sensitivity[release_sensitivity$term %in% core_terms, ],
+  digits = 5, caption = "表：Days Primary 与 release-month alternative 的核心系数")
+knitr::kable(genre_sensitivity[genre_sensitivity$term %in% c(core_terms,
+  "genre_early_access", "genre_sports", "genre_racing"), ],
+  digits = 5, caption = "表：Primary 与 expanded-genre sensitivity")
+```
+
+Release sensitivity 不同时加入 days 与 month；expanded sensitivity 不把 Free to Play 或 MMO 自动加入 Primary。
+
+# 人工审计清单
+
+- 3,000 / 2,241 / 759 outcome identity 是否精确？
+- Free rows 是否全部保留在 market，且 price component 精确为 0？
+- Missing paid price 与 Platform Other 是否显式记录？
+- Primary 是否无 weights、offset、interaction、机器学习？
+- Days 与 paid price 的 spline 均固定 df=3？
+- Separation、influence、calibration、AUC 和 sensitivity 是否完整？
+- Attention 是否始终与 reception、sales、owners 区分？
+
+# 阶段性结论
+
+Step 6A 的数据、Primary fit 与诊断可以复现，但 paid-price auxiliary spline 显示实质非线性。线性 paid-price coefficient 不足以概括整个价格范围，因此当前 linear predictor specification 不应冻结，也不进入 Step 6B；需要先进行单独的 Step 6A.1 nonlinear specification freeze。

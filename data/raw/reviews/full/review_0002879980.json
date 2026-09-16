@@ -1,0 +1,91 @@
+{
+  "appid": 2879980,
+  "requested_at": "2026-09-13T18:57:47.606642+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 243,
+      "total_negative": 34,
+      "total_reviews": 277
+    },
+    "reviews": [
+      {
+        "recommendationid": "209786099",
+        "author": {
+          "steamid": "76561197980690225",
+          "personaname": "Milewide",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197980690225/",
+          "num_games_owned": 0,
+          "num_reviews": 42,
+          "playtime_forever": 1507,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 53,
+          "last_played": 1764685248,
+          "avatar": "92f1a416caa85f343ca27c0d13269462bab56dac"
+        },
+        "language": "english",
+        "review": "This game succinctly teaches you that it doesn't matter whether you win or lose, but that you cherish the time you get to spend with your loved ones.",
+        "timestamp_created": 1763752105,
+        "timestamp_updated": 1763752105,
+        "voted_up": true,
+        "votes_up": 79,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.860778629779815674",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763712127",
+        "reactions": [
+          {
+            "reaction_type": 35,
+            "count": 2
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 8,
+            "count": 2
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSyNAAAAAAFP+uLgGAAAABzz6KgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,232 @@
+{
+  "requested_at": "2026-09-12T17:36:37.042053+00:00",
+  "request_params": {
+    "appids": 3867530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3867530,
+  "payload": {
+    "3867530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Way to Town",
+        "steam_appid": 3867530,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Way to Town is a pixel-art 2D top-down adventure perfect for a single evening. The Golem on your island destroyed your bridge again, and you were just about to visit the town! Overcome traps across 4 unique biomes, find all the hidden bricks, and rebuild the bridge to your desired destination!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.poster.avif?t=1755274043\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.webm?t=1755274043\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.mp4?t=1755274043\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Use teleporters to travel quickly between locations!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Way to Town is a pixel-art 2D top-down adventure perfect for a single evening. The Golem on your island destroyed your bridge again, and you were just about to visit the town! Overcome traps across 4 unique biomes, find all the hidden bricks, and rebuild the bridge to your desired destination!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.poster.avif?t=1755274043\" width=426 height=240 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.webm?t=1755274043\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/extras/3b7eae15c9fd20f6baf707b2e943380b.mp4?t=1755274043\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Use teleporters to travel quickly between locations!</p>",
+        "short_description": "Way to Town is a casual 2D top-down game with pixel graphics. Pass through all the traps, collect bricks, and rebuild the bridge to reach your dream town",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Simplified Chinese, Korean, Polish, Portuguese - Brazil, Ukrainian, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/6acb62d3039689e14c671a3d3abfb2c10975a466/header.jpg?t=1755274043",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/770559b8b5757c255892793bd87465e2e01d3342/capsule_231x87.jpg?t=1755274043",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/770559b8b5757c255892793bd87465e2e01d3342/capsule_184x69.jpg?t=1755274043",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3-6100<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Core i5-7400<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1050 Ti<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Colos Games"
+        ],
+        "publishers": [
+          "Colos Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1359586
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Way to Town",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1359586,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Way to Town - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/e4d69d33312d4529c5aa33b76fd4498b5ebf2201/ss_e4d69d33312d4529c5aa33b76fd4498b5ebf2201.600x338.jpg?t=1755274043",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/e4d69d33312d4529c5aa33b76fd4498b5ebf2201/ss_e4d69d33312d4529c5aa33b76fd4498b5ebf2201.1920x1080.jpg?t=1755274043"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/9be14eb9f2ab991d3ce1de4b48468de7566f1228/ss_9be14eb9f2ab991d3ce1de4b48468de7566f1228.600x338.jpg?t=1755274043",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/9be14eb9f2ab991d3ce1de4b48468de7566f1228/ss_9be14eb9f2ab991d3ce1de4b48468de7566f1228.1920x1080.jpg?t=1755274043"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/02096dddfbd98249cb9aca4295e9756975c0c93a/ss_02096dddfbd98249cb9aca4295e9756975c0c93a.600x338.jpg?t=1755274043",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/02096dddfbd98249cb9aca4295e9756975c0c93a/ss_02096dddfbd98249cb9aca4295e9756975c0c93a.1920x1080.jpg?t=1755274043"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/357e19057c46be8cebf367f967d70ac6c6f40391/ss_357e19057c46be8cebf367f967d70ac6c6f40391.600x338.jpg?t=1755274043",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/357e19057c46be8cebf367f967d70ac6c6f40391/ss_357e19057c46be8cebf367f967d70ac6c6f40391.1920x1080.jpg?t=1755274043"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/62eb3ecdfa94fd2045a7a005754a04fbf3ae2968/ss_62eb3ecdfa94fd2045a7a005754a04fbf3ae2968.600x338.jpg?t=1755274043",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867530/62eb3ecdfa94fd2045a7a005754a04fbf3ae2968/ss_62eb3ecdfa94fd2045a7a005754a04fbf3ae2968.1920x1080.jpg?t=1755274043"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257174826,
+            "name": "Way to Town: Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174826/84ca6b71f941b612ece3366647f7331180ae3d18/movie_600x337.jpg?t=1753812018",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3867530/1239520917/6e32e85c4a811d30d8611fa65e3df133e17b3e02/1753697950/dash_av1.mpd?t=1753812018",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3867530/1239520917/6e32e85c4a811d30d8611fa65e3df133e17b3e02/1753697950/dash_h264.mpd?t=1753812018",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3867530/1239520917/6e32e85c4a811d30d8611fa65e3df133e17b3e02/1753697950/hls_264_master.m3u8?t=1753812018",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "fc4c66814af47494e55d90322b7d4294423477d8.jpg",
+              "localized_name": "Frozen Trail",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Frozen Trail",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3867530/fc4c66814af47494e55d90322b7d4294423477d8.jpg"
+            },
+            {
+              "icon": "ba5f124299cb95a0067b581ca9cacea751e782ec.jpg",
+              "localized_name": "Heatwalker",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Heatwalker",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3867530/ba5f124299cb95a0067b581ca9cacea751e782ec.jpg"
+            },
+            {
+              "icon": "ad847cc33991550415011f002dbbef5ca6805942.jpg",
+              "localized_name": "Dungeon Explorer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dungeon Explorer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3867530/ad847cc33991550415011f002dbbef5ca6805942.jpg"
+            },
+            {
+              "icon": "3afb1dc75b223d5dbf2fba464e841bae9bf92b1a.jpg",
+              "localized_name": "Swamp Survivor",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Swamp Survivor",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3867530/3afb1dc75b223d5dbf2fba464e841bae9bf92b1a.jpg"
+            },
+            {
+              "icon": "a60b67a1774820ce4e9e177dd6f29a2a6939a3b6.jpg",
+              "localized_name": "Way to Town",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Way to Town",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3867530/a60b67a1774820ce4e9e177dd6f29a2a6939a3b6.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "company.colosgames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3867530?t=1755274043",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3867530?t=1755274043",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

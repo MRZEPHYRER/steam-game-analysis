@@ -1,0 +1,315 @@
+{
+  "requested_at": "2026-09-13T06:13:02.675799+00:00",
+  "request_params": {
+    "appids": 3979130,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3979130,
+  "payload": {
+    "3979130": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Fit My Zoo",
+        "steam_appid": 3979130,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong><i>Welcome to the matching jungle of Fit My Cat's wild and wacky animal edition!</i></strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Picture this: your Zoo pals have embarked on a lavish holiday retreat to an exclusive hotel with a sprawling pool oasis, just for them. But there's a snag – they're all vying for space on a colossal floatie, and they need your finesse to make it work.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Every level unveils a menagerie of creatures, each itching for a spot to lounge and unwind on the floatie. Get ready to mingle with 28 different breeds, from slinky snakes to cuddly pandas, regal lions to quirky capybaras, and beyond!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Here's what makes this ZOOOOOish escapade roar to life:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >96 levels of floaties ready to be filled</p></li><li><p class=\"bb_paragraph\" >28 different animals with different shapes and sized</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong><i>Welcome to the matching jungle of Fit My Cat's wild and wacky animal edition!</i></strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Picture this: your Zoo pals have embarked on a lavish holiday retreat to an exclusive hotel with a sprawling pool oasis, just for them. But there's a snag – they're all vying for space on a colossal floatie, and they need your finesse to make it work.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Every level unveils a menagerie of creatures, each itching for a spot to lounge and unwind on the floatie. Get ready to mingle with 28 different breeds, from slinky snakes to cuddly pandas, regal lions to quirky capybaras, and beyond!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Here's what makes this ZOOOOOish escapade roar to life:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >96 levels of floaties ready to be filled</p></li><li><p class=\"bb_paragraph\" >28 different animals with different shapes and sized</p></li></ul>",
+        "short_description": "Help wacky animals to relax in the pool by matching them on the floatie!",
+        "supported_languages": "English, Japanese, Korean, Traditional Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/3084b057097d20d0b50c52a6ecc3dac595f00861/header.jpg?t=1760695505",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/cac0f7d525b0a381ad45831178545e8ab0266cb0/capsule_231x87.jpg?t=1760695505",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/cac0f7d525b0a381ad45831178545e8ab0266cb0/capsule_184x69.jpg?t=1760695505",
+        "website": "https://www.reddeergames.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel 2 cores / 4 threads @ 2.5Ghz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Require a dedicated graphic card.<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel 4 cores / 4 threads @ 3.2Ghz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Require a dedicated graphic card.<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "RedDeer.Games"
+        ],
+        "publishers": [
+          "RedDeer.Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1396954
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Fit My Zoo",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1396954,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Fit My Zoo - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/b3e9580159726731d84e1da21df0ba89dad908b8/ss_b3e9580159726731d84e1da21df0ba89dad908b8.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/b3e9580159726731d84e1da21df0ba89dad908b8/ss_b3e9580159726731d84e1da21df0ba89dad908b8.1920x1080.jpg?t=1760695505"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/95018701497df5612c37cd2de6062cc4bc6edbb6/ss_95018701497df5612c37cd2de6062cc4bc6edbb6.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/95018701497df5612c37cd2de6062cc4bc6edbb6/ss_95018701497df5612c37cd2de6062cc4bc6edbb6.1920x1080.jpg?t=1760695505"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/2e63ecf1dd676f5ca3bbfc158657aca0f6afd604/ss_2e63ecf1dd676f5ca3bbfc158657aca0f6afd604.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/2e63ecf1dd676f5ca3bbfc158657aca0f6afd604/ss_2e63ecf1dd676f5ca3bbfc158657aca0f6afd604.1920x1080.jpg?t=1760695505"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/b9d3564fb171b4e62a721a3c201bfabcee354491/ss_b9d3564fb171b4e62a721a3c201bfabcee354491.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/b9d3564fb171b4e62a721a3c201bfabcee354491/ss_b9d3564fb171b4e62a721a3c201bfabcee354491.1920x1080.jpg?t=1760695505"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/c4ee62c69e70df17cede97efc8e00fe526001da6/ss_c4ee62c69e70df17cede97efc8e00fe526001da6.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/c4ee62c69e70df17cede97efc8e00fe526001da6/ss_c4ee62c69e70df17cede97efc8e00fe526001da6.1920x1080.jpg?t=1760695505"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/69bab6ce5b6870436503667a8ebdfaede39bdf9d/ss_69bab6ce5b6870436503667a8ebdfaede39bdf9d.600x338.jpg?t=1760695505",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/69bab6ce5b6870436503667a8ebdfaede39bdf9d/ss_69bab6ce5b6870436503667a8ebdfaede39bdf9d.1920x1080.jpg?t=1760695505"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257203988,
+            "name": "Fit My Zoo Trailer #1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257203988/5f468976ead6b1eba41967912652947f8aa03348/movie_600x337.jpg?t=1759498669",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3979130/1400368084/941941ef553058a64165942712e6288cca0cc4c9/1758547424/dash_av1.mpd?t=1759498669",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3979130/1400368084/941941ef553058a64165942712e6288cca0cc4c9/1758547424/dash_h264.mpd?t=1759498669",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3979130/1400368084/941941ef553058a64165942712e6288cca0cc4c9/1758547424/hls_264_master.m3u8?t=1759498669",
+            "highlight": true
+          },
+          {
+            "id": 257203998,
+            "name": "Fit My Zoo Trailer #2",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257203998/e32b165d884bbe03962c89d7ef25ce035ee02d6a/movie_600x337.jpg?t=1759498671",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3979130/817358359/1fe7b8ea474c8ab04211c65742561a10a10dc5d4/1758547812/dash_av1.mpd?t=1759498671",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3979130/817358359/1fe7b8ea474c8ab04211c65742561a10a10dc5d4/1758547812/dash_h264.mpd?t=1759498671",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3979130/817358359/1fe7b8ea474c8ab04211c65742561a10a10dc5d4/1758547812/hls_264_master.m3u8?t=1759498671",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "3bfeaf75b1957e8ff272cc821efa999ce6cfb5ec.jpg",
+              "localized_name": "Zootorial",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zootorial",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/3bfeaf75b1957e8ff272cc821efa999ce6cfb5ec.jpg"
+            },
+            {
+              "icon": "bdb799c9b6908fbb64f1bc4d02471d2cace9be9e.jpg",
+              "localized_name": "Zoo Apprentice",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zoo Apprentice",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/bdb799c9b6908fbb64f1bc4d02471d2cace9be9e.jpg"
+            },
+            {
+              "icon": "09b2e6083894157d6868ba1a7bf15958ed897995.jpg",
+              "localized_name": "Keeper's Helper",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Keeper's Helper",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/09b2e6083894157d6868ba1a7bf15958ed897995.jpg"
+            },
+            {
+              "icon": "93ab2223492915dc7f660e06527c2b22d0329bbb.jpg",
+              "localized_name": "Field Guide",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Field Guide",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/93ab2223492915dc7f660e06527c2b22d0329bbb.jpg"
+            },
+            {
+              "icon": "58f1567ffb91c4f8b5dc9b20e2883a3736e9c20a.jpg",
+              "localized_name": "Pen Organizer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Pen Organizer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/58f1567ffb91c4f8b5dc9b20e2883a3736e9c20a.jpg"
+            },
+            {
+              "icon": "fbf24d780433cb6eee97f9f218969dc3c85744f4.jpg",
+              "localized_name": "Habitat Hero",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Habitat Hero",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/fbf24d780433cb6eee97f9f218969dc3c85744f4.jpg"
+            },
+            {
+              "icon": "af9ab16f10da952bb3af22563776fcb26901c5b1.jpg",
+              "localized_name": "Care Crew",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Care Crew",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/af9ab16f10da952bb3af22563776fcb26901c5b1.jpg"
+            },
+            {
+              "icon": "5bf71c65c679a5a918a0361ddc4090ea4bccb76a.jpg",
+              "localized_name": "Safari Specialist",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Safari Specialist",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/5bf71c65c679a5a918a0361ddc4090ea4bccb76a.jpg"
+            },
+            {
+              "icon": "2aefeea3524a30769dce36cba99e9b199abfb6ed.jpg",
+              "localized_name": "Wildlife Curator",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Wildlife Curator",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/2aefeea3524a30769dce36cba99e9b199abfb6ed.jpg"
+            },
+            {
+              "icon": "41f57e47dcab2b6ae42278df9164cc48d0c5df0f.jpg",
+              "localized_name": "Zoo Director",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zoo Director",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979130/41f57e47dcab2b6ae42278df9164cc48d0c5df0f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2025"
+        },
+        "support_info": {
+          "url": "https://www.reddeergames.com/",
+          "email": "support@reddeer.games"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3979130?t=1760695505",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979130/946fcc4482897b810a7b0636b4e1ac2aac16db8d/page_bg_raw.jpg?t=1760695505",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

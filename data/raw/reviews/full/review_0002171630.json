@@ -1,0 +1,66 @@
+{
+  "appid": 2171630,
+  "requested_at": "2026-09-13T18:47:57.960002+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 1218,
+      "total_negative": 399,
+      "total_reviews": 1617
+    },
+    "reviews": [
+      {
+        "recommendationid": "227625231",
+        "author": {
+          "steamid": "76561198263099230",
+          "personaname": "giNger",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198263099230/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 6473,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5935,
+          "last_played": 1781386081,
+          "avatar": "9f490c5ac7b4a24da8b2cff567cfe34e8b8d2f9b"
+        },
+        "language": "schinese",
+        "review": "官方已跑路 尚有大量bug未修复 更新计划未实现 游戏剧情强行完结",
+        "timestamp_created": 1781080475,
+        "timestamp_updated": 1781080475,
+        "voted_up": false,
+        "votes_up": 44,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.746799826622009277",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1702657932",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVEGKAAAAAFP+flySAAAAB/kKnkBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2970000000000255,
+  "transport_error_count": 0
+}

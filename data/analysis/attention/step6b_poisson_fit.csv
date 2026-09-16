@@ -1,0 +1,2 @@
+"model_id","distribution","n_games","log_likelihood","aic","bic","parameter_count","residual_df","converged","warning_count","formula","weights_used","zero_inflation_used","offset_used"
+"M1_POISSON","Poisson",2240,-2719209.03397692,5438448.06795384,5438533.78142101,15,2225,TRUE,0,"review_count ~ is_free + price_spline_1 + price_spline_2 + price_spline_3 +      offset(log_days) + platform_segment + genre_action + genre_adventure +      genre_casual + genre_indie + genre_rpg + genre_simulation +      genre_strategy",FALSE,FALSE,TRUE

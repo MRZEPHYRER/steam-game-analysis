@@ -1,0 +1,234 @@
+{
+  "requested_at": "2026-09-12T16:17:33.930134+00:00",
+  "request_params": {
+    "appids": 3722540,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3722540,
+  "payload": {
+    "3722540": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Space Race",
+        "steam_appid": 3722540,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Blast off into the cosmos in this high-speed racing game set in the vastness of space! Take control of a nimble spacecraft and navigate through an array of challenging levels, dodging robots, walls, and other dangerous obstacles. Your goal: speed! ...and to eliminate the robot space presence.</p><p class=\"bb_paragraph\" >Some levels feature a top-down perspective with 2D steering, while others immerse you in a third-person view with full 3D movement. Your best laps generate a ghost spaceship to race against.</p><p class=\"bb_paragraph\" >Test your reflexes, timing, and spatial awareness as you race through ever-evolving space environments, where speed is perhaps your only ally, and every turn could mean victory or disaster! GLHF</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Blast off into the cosmos in this high-speed racing game set in the vastness of space! Take control of a nimble spacecraft and navigate through an array of challenging levels, dodging robots, walls, and other dangerous obstacles. Your goal: speed! ...and to eliminate the robot space presence.</p><p class=\"bb_paragraph\" >Some levels feature a top-down perspective with 2D steering, while others immerse you in a third-person view with full 3D movement. Your best laps generate a ghost spaceship to race against.</p><p class=\"bb_paragraph\" >Test your reflexes, timing, and spatial awareness as you race through ever-evolving space environments, where speed is perhaps your only ally, and every turn could mean victory or disaster! GLHF</p>",
+        "short_description": "A racing game set in the vast space, where bright neon lights contrast the endless dark emptiness. A joystick based flying game where you shoot robots, speed past walls and other obstructions.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/cb0c23d889db9b18e91487a7287d4784f390dace/header.jpg?t=1759081102",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/15b7328a61b6272b410e170852f3f4b717ee3ed2/capsule_231x87.jpg?t=1759081102",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/15b7328a61b6272b410e170852f3f4b717ee3ed2/capsule_184x69.jpg?t=1759081102",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel or AMD<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Low level 3D graphics card<br></li><li><strong>Storage:</strong> 166 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel or AMD<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Low level 3D graphics card<br></li><li><strong>Storage:</strong> 166 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 15.4.1<br></li><li><strong>Processor:</strong> Apple Silicon, Intel<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 183 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 15.4.1<br></li><li><strong>Processor:</strong> Apple Silicon, Intel<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Low level 3D graphics card<br></li><li><strong>Storage:</strong> 183 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux with gaming.<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 163 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux with gaming.<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 163 MB available space<br></li><li><strong>Additional Notes:</strong> Minimalistic graphics.</li></ul>"
+        },
+        "legal_notice": "Copyright © 2025 Eivind Aanestad. All rights reserved.",
+        "developers": [
+          "Eivind Aanestad"
+        ],
+        "publishers": [
+          "Eivind Aanestad"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1310572
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Space Race",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1310572,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Space Race - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/553b7ee2d6ebde687a39c90e4f9b6063323810a5/ss_553b7ee2d6ebde687a39c90e4f9b6063323810a5.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/553b7ee2d6ebde687a39c90e4f9b6063323810a5/ss_553b7ee2d6ebde687a39c90e4f9b6063323810a5.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/fe33466bd32d2a9bd5cabcc0744a85738158b5c5/ss_fe33466bd32d2a9bd5cabcc0744a85738158b5c5.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/fe33466bd32d2a9bd5cabcc0744a85738158b5c5/ss_fe33466bd32d2a9bd5cabcc0744a85738158b5c5.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/470c8ffd3b058c2519a949679037db7cfd6920e4/ss_470c8ffd3b058c2519a949679037db7cfd6920e4.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/470c8ffd3b058c2519a949679037db7cfd6920e4/ss_470c8ffd3b058c2519a949679037db7cfd6920e4.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/1683cc8dc208b60f08cf1bd2498b9b259c6983a4/ss_1683cc8dc208b60f08cf1bd2498b9b259c6983a4.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/1683cc8dc208b60f08cf1bd2498b9b259c6983a4/ss_1683cc8dc208b60f08cf1bd2498b9b259c6983a4.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/18b4e9f7ae768a75838c85efa613407523044f24/ss_18b4e9f7ae768a75838c85efa613407523044f24.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/18b4e9f7ae768a75838c85efa613407523044f24/ss_18b4e9f7ae768a75838c85efa613407523044f24.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/d942b0e412d63b766bc63dd33812cd1151c230b6/ss_d942b0e412d63b766bc63dd33812cd1151c230b6.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/d942b0e412d63b766bc63dd33812cd1151c230b6/ss_d942b0e412d63b766bc63dd33812cd1151c230b6.1920x1080.jpg?t=1759081102"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/eec08f841d2c07558d855bb28b8f0c86d6fdc507/ss_eec08f841d2c07558d855bb28b8f0c86d6fdc507.600x338.jpg?t=1759081102",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/eec08f841d2c07558d855bb28b8f0c86d6fdc507/ss_eec08f841d2c07558d855bb28b8f0c86d6fdc507.1920x1080.jpg?t=1759081102"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257208030,
+            "name": "New level",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257208030/8b7ee8394d815f1da8eba278d2c0baa670879c32/movie_600x337.jpg?t=1759081100",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3722540/1490502536/cba1793a9af628c184ccf60b6696a2ca1463a517/1759079823/dash_av1.mpd?t=1759081100",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3722540/1490502536/cba1793a9af628c184ccf60b6696a2ca1463a517/1759079823/dash_h264.mpd?t=1759081100",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3722540/1490502536/cba1793a9af628c184ccf60b6696a2ca1463a517/1759079823/hls_264_master.m3u8?t=1759081100",
+            "highlight": true
+          },
+          {
+            "id": 257193838,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193838/192fb21a5a8dcc44d21cddb980c031ff01e6721e/movie_600x337.jpg?t=1757122003",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3722540/349403861/c2eb69cc6728f5963612304799519de84b14ad85/1757110866/dash_av1.mpd?t=1757122003",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3722540/349403861/c2eb69cc6728f5963612304799519de84b14ad85/1757110866/dash_h264.mpd?t=1757122003",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3722540/349403861/c2eb69cc6728f5963612304799519de84b14ad85/1757110866/hls_264_master.m3u8?t=1757122003",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "aaaadevelopment@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3722540?t=1759081102",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722540/266b7f57ec23c45469dabbdc1842c4ca4f87dd83/page_bg_raw.jpg?t=1759081102",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4043270,
+  "requested_at": "2026-09-13T20:14:51.562643+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 1,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "206496134",
+        "author": {
+          "steamid": "76561198024195554",
+          "personaname": "Vansanit-Remin-Djakoba",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Vansanit-Remin-Djakoba/",
+          "num_games_owned": 7582,
+          "num_reviews": 604,
+          "playtime_forever": 14,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1760226765,
+          "avatar": "9ab4219600bace1e60523b66d118275f1a7f14a8"
+        },
+        "language": "russian",
+        "review": "Мой второй опыт игры в такое приключение, а потому вышло сходу дойти до пятого уровня. Здесь крайне необходимо грамотно использовать все объекты на уровне, а иногда выжидать, чтобы пройти или атаковать: Заберём зелье сразу – от лечения не будет толку; сунемся в бой не увеличив урон – страдаем больше в бою; атакуем не с той стороны – получаем по полной программе! Лишь холодный расчёт поможет пройти путь до конца, ведь у нас всего три жизни и если потеряем все, то придётся начинать нашу борьбу с силами зла с самого начала. Изучаем обстановку и вырабатываем тактику, чтобы проходить всё дальше и дальше, помня о том, что истинный герой не лезет на рожон и не зачищает всё и вся, поскольку может. Помним, что у нас есть главная цель, породившая всю эту мелочь проблем. Думай и думай о великом, герой!",
+        "timestamp_created": 1760227280,
+        "timestamp_updated": 1760227280,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.652533411979675293",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760107764",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW8wgAAAAAFP+ThjOAAAAB2mNyTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

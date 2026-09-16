@@ -1,0 +1,65 @@
+{
+  "appid": 3601300,
+  "requested_at": "2026-09-13T18:01:55.746837+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212176483",
+        "author": {
+          "steamid": "76561198113388537",
+          "personaname": "MooRicher",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/mooricher/",
+          "num_games_owned": 5281,
+          "num_reviews": 207,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1764537087,
+          "avatar": "33aa1a60c6e1f257a3164f67d8ae83ed196b9dd7"
+        },
+        "language": "english",
+        "review": "[h1] You need friends for this one [/h1]\n\nThe first time I drifted arround through the shopping alleys was back in one of the steam nextfest where this game presented itself with a demo version. I liked it, thought it was funny and something I might pick in the future. Something I could play with friends or alone depending on the complexicity of the game. \nSo eventually the faithfull day arrived. The game got released. I picked the bundle at a discounted price and made the purchase. Usually I would wait to write a review in order to aquire more hours in the game. But as a solo player  20 minutes is what you need to get a good taste at everything the game offers. Since none of my friends have the game, that will change in the future for sure, I can only leave behind the good and the ugly sides of the game that I have witnessed so far. \n\nHow about we ellaborate further. Critter Carts is this sort of time trial hit the checkpoints kind of game. You have a shoppingcart and need to be the fastet hitting all checkpoints. The cart behaves as you would imagine it to be, so its quite sturdy and wont tip over. You got Mario Kart styled drifting and quite a good handling with four freely rotating wheels. The game offers various shaped maps and the layout can be randomized by using seeds. Since the only goal is to hit all checkpoints you are in charged of optimizing the route to be the fastest. Which indeed is quite cool and properly the best part of the game. I can see that this is the entertainment to look forward when playing with friends. Map can be slightly adjusted. There are a few options to add additional walls, checkpoints and oil spills that increase the difficulty of the game. Combined with costumization you have everything for a decent evening entertainment and that would conclude the good part. \n\nOnto the ugly. Everything outside of the gameplay, sutff like the UI and the settings are to simple. It feels somewhere inbetween mobile styled menues and pre made easy to implement interface. You cant adjust the grafics, theres only the resolution drop down menu and the lack off Vsync is something that usually causes screen tearing on my end. So luckly its not happening. To add more weaking points the sound settings work in a weird way. The game starts slightly above the half mark of the slighter. Below half and the sound is muted and fully to the right and your need hearing aid more sooner than later. The worst part the game doesnt save the sound settings. One last thing before moving on. The game supports controller. For mine I need to start the controller before I start the game. The other way arround and my controller is not in use.\n\nWell there is good and there is ugly, but where is the bad? \nWelp. the price. I aquired the game in the bundle with another game for somewhat 3€. Something fine for me. However the full price is asking to much for what the game offers. The game is by no mean a bad game. Judging from experience it feels like one evening of fun and thats it. I am not sure wether my friend would go and buy it for 10€ for that. Its a sales game to be enjoyed exclusivly with friends. Solo doesnt offer the same level of fun in the long run. I know my friends group well and the next sale they will find this game in their inventory for us to play and have a good laughter. That one I am sure off. But is surely a turn off to the steep price. In addition the game lacks achievements or more than just one gamemode. Its the standalone release of a mario party competitive mini game. Nothing wrong with that, but the potential there is potential for more. \n\nCheers",
+        "timestamp_created": 1764538796,
+        "timestamp_updated": 1764538796,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519999980926513672",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751963893",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZmZmAAAAAFP+Cj1wAAAABz5rGpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 0.5309999999999491
+}

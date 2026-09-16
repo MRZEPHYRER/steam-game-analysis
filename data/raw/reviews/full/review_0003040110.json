@@ -1,0 +1,66 @@
+{
+  "appid": 3040110,
+  "requested_at": "2026-09-13T19:01:55.587124+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209002488",
+        "author": {
+          "steamid": "76561198153728360",
+          "personaname": "Azza",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/azzalovesyou/",
+          "num_games_owned": 255,
+          "num_reviews": 144,
+          "playtime_forever": 88,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 76,
+          "last_played": 1762980135,
+          "avatar": "e761bd42f4c1132d94b9c085cdf5440be4988256"
+        },
+        "language": "english",
+        "review": "this is a reading game with choices.  i've always liked the old choice of games books and this is up that alley.  being the voice inside someone's head is a good fertile field for ideas.  i'm just starting but i appreciate it",
+        "timestamp_created": 1762913446,
+        "timestamp_updated": 1762979408,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762275653",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB4/6OdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

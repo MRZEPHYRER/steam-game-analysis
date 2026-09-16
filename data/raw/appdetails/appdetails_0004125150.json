@@ -1,0 +1,199 @@
+{
+  "requested_at": "2026-09-13T06:59:42.769218+00:00",
+  "request_params": {
+    "appids": 4125150,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4125150,
+  "payload": {
+    "4125150": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Fish Go",
+        "steam_appid": 4125150,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Title:</strong> Fish Go</h2><h2 class=\"bb_tag\" ><strong>Description (Steam-friendly):</strong></h2><p class=\"bb_paragraph\" >Step into the relaxing world of <strong>top-down fishing</strong>! Explore a variety of islands and catch fish ranging from the simplest to legendary specimens.</p><p class=\"bb_paragraph\" ><strong>Game Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Skillchecks without time pressure</strong> – fish at your own pace and enjoy a calm, relaxing experience.</p></li><li><p class=\"bb_paragraph\" ><strong>Character and gear progression</strong> – upgrade your rods, gain experience, and unlock new islands.</p></li><li><p class=\"bb_paragraph\" ><strong>Choice and exploration</strong> – freely decide which islands to visit; the further you go, the bigger the rewards!</p></li><li><p class=\"bb_paragraph\" ><strong>Relaxing and immersive gameplay</strong> – perfect for anyone looking to unwind while fishing.</p></li><li><p class=\"bb_paragraph\" ><strong>PvE and adventure</strong> – discover rare fish, earn gold, and compete against the game’s environment.</p></li></ul><p class=\"bb_paragraph\" >Experience peaceful yet engaging fishing that combines <strong>simulation, RPG elements, and adventure</strong> into one personalized journey at your own pace.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Title:</strong> Fish Go</h2><h2 class=\"bb_tag\" ><strong>Description (Steam-friendly):</strong></h2><p class=\"bb_paragraph\" >Step into the relaxing world of <strong>top-down fishing</strong>! Explore a variety of islands and catch fish ranging from the simplest to legendary specimens.</p><p class=\"bb_paragraph\" ><strong>Game Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Skillchecks without time pressure</strong> – fish at your own pace and enjoy a calm, relaxing experience.</p></li><li><p class=\"bb_paragraph\" ><strong>Character and gear progression</strong> – upgrade your rods, gain experience, and unlock new islands.</p></li><li><p class=\"bb_paragraph\" ><strong>Choice and exploration</strong> – freely decide which islands to visit; the further you go, the bigger the rewards!</p></li><li><p class=\"bb_paragraph\" ><strong>Relaxing and immersive gameplay</strong> – perfect for anyone looking to unwind while fishing.</p></li><li><p class=\"bb_paragraph\" ><strong>PvE and adventure</strong> – discover rare fish, earn gold, and compete against the game’s environment.</p></li></ul><p class=\"bb_paragraph\" >Experience peaceful yet engaging fishing that combines <strong>simulation, RPG elements, and adventure</strong> into one personalized journey at your own pace.</p>",
+        "short_description": "(Short Description): Relaxing fishing adventure on diverse islands. Catch fish from common to legendary, upgrade your rods and skills, and explore freely at your own pace in a peaceful PvE world.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/ca1aa4cec2379b5c7443a56223e0fb2b75ad63a4/header.jpg?t=1765825253",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/726bb1a26e8d306d8952e95d295931812c389b34/capsule_231x87.jpg?t=1765825253",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/726bb1a26e8d306d8952e95d295931812c389b34/capsule_184x69.jpg?t=1765825253",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> 2.0GHz Dual Core<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 350 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>VR Support:</strong> No</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> 2.5GHz Dual Core<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 5000 / NVIDIA GeForce 720<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 400 MB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>VR Support:</strong> No</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "KacperB"
+        ],
+        "publishers": [
+          "KacperB"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1445449
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Fish Go",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1445449,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Fish Go - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/ef575f7e70d458517871f8a9e368d3bf252987d7/ss_ef575f7e70d458517871f8a9e368d3bf252987d7.600x338.jpg?t=1765825253",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/ef575f7e70d458517871f8a9e368d3bf252987d7/ss_ef575f7e70d458517871f8a9e368d3bf252987d7.1920x1080.jpg?t=1765825253"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/a06cefc5d59e6f334769f3fed29d9d1907c929c7/ss_a06cefc5d59e6f334769f3fed29d9d1907c929c7.600x338.jpg?t=1765825253",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/a06cefc5d59e6f334769f3fed29d9d1907c929c7/ss_a06cefc5d59e6f334769f3fed29d9d1907c929c7.1920x1080.jpg?t=1765825253"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/07f01e8027f9f9d70ca43f2bc4b3edfee5088c9f/ss_07f01e8027f9f9d70ca43f2bc4b3edfee5088c9f.600x338.jpg?t=1765825253",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/07f01e8027f9f9d70ca43f2bc4b3edfee5088c9f/ss_07f01e8027f9f9d70ca43f2bc4b3edfee5088c9f.1920x1080.jpg?t=1765825253"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/9b089e2f26d0725a9c50e3b4b368cae84126577e/ss_9b089e2f26d0725a9c50e3b4b368cae84126577e.600x338.jpg?t=1765825253",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/9b089e2f26d0725a9c50e3b4b368cae84126577e/ss_9b089e2f26d0725a9c50e3b4b368cae84126577e.1920x1080.jpg?t=1765825253"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/1e7e68197113761f890834367e1e8588458f1aee/ss_1e7e68197113761f890834367e1e8588458f1aee.600x338.jpg?t=1765825253",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4125150/1e7e68197113761f890834367e1e8588458f1aee/ss_1e7e68197113761f890834367e1e8588458f1aee.1920x1080.jpg?t=1765825253"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257245423,
+            "name": "FishGoTrailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257245423/385712cb122973f5c8b359f81fa02f86302bc938/movie_600x337.jpg?t=1765231643",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4125150/748098752/c9615acca5ea82c5a7fab8b00a683ee78d22ccd8/1765231254/dash_av1.mpd?t=1765231643",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4125150/748098752/c9615acca5ea82c5a7fab8b00a683ee78d22ccd8/1765231254/dash_h264.mpd?t=1765231643",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4125150/748098752/c9615acca5ea82c5a7fab8b00a683ee78d22ccd8/1765231254/hls_264_master.m3u8?t=1765231643",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2025"
+        },
+        "support_info": {
+          "url": "https://discord.gg/zRxsFbP3gr",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4125150?t=1765825253",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4125150?t=1765825253",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

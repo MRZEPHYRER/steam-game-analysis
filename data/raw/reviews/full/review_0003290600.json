@@ -1,0 +1,75 @@
+{
+  "appid": 3290600,
+  "requested_at": "2026-09-13T19:09:50.988281+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 28,
+      "total_negative": 11,
+      "total_reviews": 39
+    },
+    "reviews": [
+      {
+        "recommendationid": "212394586",
+        "author": {
+          "steamid": "76561198870087204",
+          "personaname": "ulle   𓇢𓆸",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/avielena/",
+          "num_games_owned": 1520,
+          "num_reviews": 101,
+          "playtime_forever": 681,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 246,
+          "last_played": 1764811536,
+          "avatar": "76192dac2e783a84e46b23e6713b87dd8995a87f"
+        },
+        "language": "english",
+        "review": "If you are looking for a deep farming sim packed with systems, upgrades, and NPC relationships, this is not that kind of game.\nBut if what you want is a gentle little escape, Cottonville may be a surprisingly sweet way to unwind for sure!\n\nYou run your own tiny shop (sadly, you can not decorate it… I know, tragic fr), plant crops, unlock adorable clothing blueprints, and turn your harvest into outfits to sell. It is repetitive, and there is not a ton of content, but the concept is charming and the art style is lovely!\n\nBut yea, its not bad, but it is not perfect at all. I cant recommend it at full price, but on a good sale? it is a sweet little pastel-soft treat, and you really do not have to stress or think at all lol. \nAchievement-wise i am missing 3 of them, and they are a little grindy (normally i dont mind, but there is just not so much to do in the game after 3 hours ish, so it become a little boring)",
+        "timestamp_created": 1764668552,
+        "timestamp_updated": 1764668552,
+        "voted_up": true,
+        "votes_up": 35,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.812243282794952393",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752703222",
+        "reactions": [
+          {
+            "reaction_type": 35,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTwVEAAAAAFP+n95QAAAAB6pZyqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

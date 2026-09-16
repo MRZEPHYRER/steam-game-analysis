@@ -1,0 +1,91 @@
+{
+  "appid": 3098170,
+  "requested_at": "2026-09-13T19:03:52.284404+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 90,
+      "total_negative": 18,
+      "total_reviews": 108
+    },
+    "reviews": [
+      {
+        "recommendationid": "212863276",
+        "author": {
+          "steamid": "76561198068540297",
+          "personaname": "WildSmile",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198068540297/",
+          "num_games_owned": 0,
+          "num_reviews": 18,
+          "playtime_forever": 2664,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2495,
+          "last_played": 1777997345,
+          "avatar": "f40120b2053f07bb378ee16aec9e010ff962176e"
+        },
+        "language": "english",
+        "review": "This is a frustrating one. I love this game. This game has a lot of potential and I really enjoyed it, but the roadmap is leading me to believe they're winding down a bit too much after release. This feels like REALLY early access, and the roadmap looks like the developers think they're done. \n\nThe gameplay is fun. I love the style of combat mixed with RPG elements and the time-stopping strategy feel to it. Gear crafting is OP and scratches the power fantasy itch. \n\nPros:\n\t- Some cool class variety. \n\t- Combat style is great.\n\t- Full Diablo style loot+equipment system.\n\t- Character building is fun. I always love some good theorycrafting.\n\t\nCons:\n\t- There are no boss monsters. Just the occasional elites. \n\t- Enemy variety is paltry. The loading screen has a gelatinous cube and it doesn't even exist. 2 adventures and I guarantee you've seen all the enemies in the game. \n\t- Very few maps. Roadmap only shows addition of 2 more.\n\t- \"Quests\" are just complete each difficulty dungeon on every character, numbered 1-40.\n\t- Stat \"bonuses\" are DND style with milestones, meaning later in the game you could add 9 strength and get zero benefit until that 10th strength is added, and the bonus cap ends at 150 stats. It doesn't particularly mix well with Diablo style gear/skills adding percentage to stats. There are so many ways to get overpowered from crafting that these limitations seem arbitrary and limit choice. \n\t- No inventory sort, but at least there's a filter. \n\t- Physical spells are limited to your class. The only skills you can learn from the thieves guild and the stronghold are your class skills. So pure physical combat characters only have up to 3 different spells, which feels bad. \n\t- Spell balance between the schools is way off. Late game, even as a grandmaster, some skills just scale so horribly that they become unusable. Devs need to exclusively play each spell school to see how they feel. There's no way they've done this. \n\t- Massively overpowered skills dwarf all the other skills, especially late game. The worst, Grandmaster Bard, has an insta-kill song (aura) that plays for 2 minutes, ignores immunities, and has no limit to what it can kill. This skill needs to be completely overhauled.\n\t- Random collectibles around the map don't scale with difficulty, and the paltry resources (usually 1-2) you do get pale in comparison to even tier 1 adventure shrine purchases where you can buy anywhere from 1-30 (and 4 purchase options per shrine), and you almost always have enough currency to buy all of them. Collectibles don't feel good.\n\t- There's inconsistency with how skills work. Most skills increase stats additively, some skills lose their tier 1 and 2 bonuses when you upgrade to tier 3 (spell mastery), some skills have typos in what their bonuses actually apply (resistance)\n\t- The fountain EXP transfer function (late game function) has an extreme resource cost that makes it borderline unusable. It costs 250 of every resource to bring a level 1 to level 10. It costs like 3 resources to increase your gears' enchantment tier. \n\t- The \"arena\" maps having these random spawn points is stupid. Enemies just teleport in the middle of the map preventing you from taking a defensive position anywhere. \n\t- Rats are so GD annoying in this game. Rats that sit back in brush casting fireballs and meteors shouldn't be a thing. Make rats behave like rats. Have humanoid monsters exclusively cast spells. Bats casting blood magic is annoying too, but at least it semi makes sense and can be likened to vampirism. Bats being as tanky as humanoids shouldn't be a thing either though.\n\t\nFeatures I want:\n\t- Add a lock for items you don't want sold. \n\t- Add boss rooms. Make bosses immune to instant kill/enslave, and progressively resistant to hard disables.\n\t- Revamp fire spells. Too many enemies have natural ~95% fire resistance, and too many fire spells can kill your own team. No other element has these problems. Meteor shower is a tiny radius with way too long of an activation period. Also, fix the \"Jumping Fire\" spell tooltip, wtf. Grandmaster \"Incinerate\" is absolutely horrible in every way. \n\t- Ground target radius spells should show the size of the area being affected. \n\t- Remove the Grandmaster Bard skill, for the love of god.\n\t- Turn shift into an active blocking mechanic. Blocks made in this way force the damage onto the active character and yield a brief recovery time. Maybe scale the recovery time with a new Block skill. \n\t- Percentage damage reduction added to blocks instead of simply increasing physical resistance for that damage instance. Current block implementation feels bad. \n\t- Physical schools of magic for Stronghold and Thieves Guild.\n\t- Add unarmed weapons. Not having something to enchant feels bad.\n\t- Add a cooldown reduction cap.\n\t- Add a way to reduce spellcast recovery. Add a cap for this recovery. 10-15 second recovery spells are absurd. Let energy be our bottleneck. Or maybe separate spellcast recovery from physical, that way my character isn't just effectively stunned for 10 seconds. \n\t- More ways to increase radius for skills or projectile count maybe. I love stuff like that.\n\t- Adventures are too short. Some are as short as 2 fight maps, and there isn't a good reason not to take the shorter path, ever. \n\t- Adventures need more path options. I don't see a good reason why there are only 2 paths. \n\t- Too frequently a rest point on a path is followed by a chest room, or a shrine room making these rest points completely meaningless. I have literally never made use of the rest point regen buff, because it only applies to the subsequent map which is always a peaceful map. \n\t- I would like to keep levelling beyond 35, and dungeoning beyond tier 40. After tier 40 is beaten, unlock the 35 cap and the new endless difficulty. Character power is already soft-capped by skillpoint allocation scaling and 150 stat limits.\n\tor\n\t- Add a character reincarnation feature where they can keep some stats and skillpoints, but make them restart at level 1. This would also make the \"Apprentice\" enchantment suck less. I would also just increase the maximum effectiveness of this enchantment from 90% to 100% item level requirement reduction. There's no good reason to limit this to 90%.",
+        "timestamp_created": 1765216914,
+        "timestamp_updated": 1765299831,
+        "voted_up": false,
+        "votes_up": 68,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.851021647453308105",
+        "comment_count": 9,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764760401",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 4
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFS+sSAAAAAFP+s7koAAAAB8koGsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

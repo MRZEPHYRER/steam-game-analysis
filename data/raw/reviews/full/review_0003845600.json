@@ -1,0 +1,71 @@
+{
+  "appid": 3845600,
+  "requested_at": "2026-09-13T19:48:30.166097+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 262,
+      "total_negative": 47,
+      "total_reviews": 309
+    },
+    "reviews": [
+      {
+        "recommendationid": "207721868",
+        "author": {
+          "steamid": "76561197989323656",
+          "personaname": "yami_vreco",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/yami_vreco/",
+          "num_games_owned": 312,
+          "num_reviews": 12,
+          "playtime_forever": 92,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 92,
+          "last_played": 1761577463,
+          "avatar": "8d4be5c6fe373aa8f91037b5562235ee62736fc5"
+        },
+        "language": "japanese",
+        "review": "よくわかりませんが皆さん購入したあとパブリッシャーのページの方に向かわれていますね",
+        "timestamp_created": 1761577595,
+        "timestamp_updated": 1761577595,
+        "voted_up": true,
+        "votes_up": 77,
+        "votes_funny": 47,
+        "weighted_vote_score": "0.874446868896484375",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761360856",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSgtUAAAAAFP+v7eEAAAAB82LKYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

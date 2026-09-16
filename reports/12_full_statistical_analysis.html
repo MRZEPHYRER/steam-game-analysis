@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+
+<title>Steam 新游市场与玩家评论统计分析</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="12_full_statistical_analysis_files/libs/clipboard/clipboard.min.js"></script>
+<script src="12_full_statistical_analysis_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="12_full_statistical_analysis_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="12_full_statistical_analysis_files/libs/quarto-html/popper.min.js"></script>
+<script src="12_full_statistical_analysis_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="12_full_statistical_analysis_files/libs/quarto-html/anchor.min.js"></script>
+<link href="12_full_statistical_analysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="12_full_statistical_analysis_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="12_full_statistical_analysis_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="12_full_statistical_analysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="12_full_statistical_analysis_files/libs/bootstrap/bootstrap-62e2d20df198e8a01bb734742f2e28cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#封面与执行摘要" id="toc-封面与执行摘要" class="nav-link active" data-scroll-target="#封面与执行摘要"><span class="header-section-number">1</span> 封面与执行摘要</a>
+  <ul class="collapse">
+  <li><a href="#执行摘要" id="toc-执行摘要" class="nav-link" data-scroll-target="#执行摘要"><span class="header-section-number">1.1</span> 执行摘要</a></li>
+  </ul></li>
+  <li><a href="#研究问题与分析路线" id="toc-研究问题与分析路线" class="nav-link" data-scroll-target="#研究问题与分析路线"><span class="header-section-number">2</span> 研究问题与分析路线</a>
+  <ul class="collapse">
+  <li><a href="#四个研究问题" id="toc-四个研究问题" class="nav-link" data-scroll-target="#四个研究问题"><span class="header-section-number">2.1</span> 四个研究问题</a>
+  <ul class="collapse">
+  <li><a href="#rq1-market-structure" id="toc-rq1-market-structure" class="nav-link" data-scroll-target="#rq1-market-structure"><span class="header-section-number">2.1.1</span> RQ1 — Market Structure</a></li>
+  <li><a href="#rq2-attention" id="toc-rq2-attention" class="nav-link" data-scroll-target="#rq2-attention"><span class="header-section-number">2.1.2</span> RQ2 — Attention</a></li>
+  <li><a href="#rq3-reception" id="toc-rq3-reception" class="nav-link" data-scroll-target="#rq3-reception"><span class="header-section-number">2.1.3</span> RQ3 — Reception</a></li>
+  <li><a href="#rq4-rating-reliability" id="toc-rq4-rating-reliability" class="nav-link" data-scroll-target="#rq4-rating-reliability"><span class="header-section-number">2.1.4</span> RQ4 — Rating Reliability</a></li>
+  </ul></li>
+  <li><a href="#端到端数据管线" id="toc-端到端数据管线" class="nav-link" data-scroll-target="#端到端数据管线"><span class="header-section-number">2.2</span> 端到端数据管线</a></li>
+  </ul></li>
+  <li><a href="#数据来源抽样与语义" id="toc-数据来源抽样与语义" class="nav-link" data-scroll-target="#数据来源抽样与语义"><span class="header-section-number">3</span> 数据来源、抽样与语义</a>
+  <ul class="collapse">
+  <li><a href="#抽样设计" id="toc-抽样设计" class="nav-link" data-scroll-target="#抽样设计"><span class="header-section-number">3.1</span> 抽样设计</a></li>
+  <li><a href="#数据语义与解释边界" id="toc-数据语义与解释边界" class="nav-link" data-scroll-target="#数据语义与解释边界"><span class="header-section-number">3.2</span> 数据语义与解释边界</a></li>
+  </ul></li>
+  <li><a href="#市场结构与评论长尾" id="toc-市场结构与评论长尾" class="nav-link" data-scroll-target="#市场结构与评论长尾"><span class="header-section-number">4</span> 市场结构与评论长尾</a>
+  <ul class="collapse">
+  <li><a href="#市场概览" id="toc-市场概览" class="nav-link" data-scroll-target="#市场概览"><span class="header-section-number">4.1</span> 市场概览</a></li>
+  <li><a href="#评论量的-winner-takes-most-结构" id="toc-评论量的-winner-takes-most-结构" class="nav-link" data-scroll-target="#评论量的-winner-takes-most-结构"><span class="header-section-number">4.2</span> 评论量的 winner-takes-most 结构</a></li>
+  </ul></li>
+  <li><a href="#reception从-binomial-到-beta-binomial" id="toc-reception从-binomial-到-beta-binomial" class="nav-link" data-scroll-target="#reception从-binomial-到-beta-binomial"><span class="header-section-number">5</span> Reception：从 Binomial 到 Beta-binomial</a>
+  <ul class="collapse">
+  <li><a href="#为什么-raw-positive-rate-不够" id="toc-为什么-raw-positive-rate-不够" class="nav-link" data-scroll-target="#为什么-raw-positive-rate-不够"><span class="header-section-number">5.1</span> 为什么 raw positive rate 不够</a></li>
+  <li><a href="#reception-modeling-journey" id="toc-reception-modeling-journey" class="nav-link" data-scroll-target="#reception-modeling-journey"><span class="header-section-number">5.2</span> Reception modeling journey</a>
+  <ul class="collapse">
+  <li><a href="#binomial-benchmark" id="toc-binomial-benchmark" class="nav-link" data-scroll-target="#binomial-benchmark"><span class="header-section-number">5.2.1</span> Binomial benchmark</a></li>
+  <li><a href="#quasibinomial" id="toc-quasibinomial" class="nav-link" data-scroll-target="#quasibinomial"><span class="header-section-number">5.2.2</span> Quasibinomial</a></li>
+  <li><a href="#beta-binomial-primary-model" id="toc-beta-binomial-primary-model" class="nav-link" data-scroll-target="#beta-binomial-primary-model"><span class="header-section-number">5.2.3</span> Beta-binomial primary model</a></li>
+  </ul></li>
+  <li><a href="#reception-findings-与敏感性" id="toc-reception-findings-与敏感性" class="nav-link" data-scroll-target="#reception-findings-与敏感性"><span class="header-section-number">5.3</span> Reception findings 与敏感性</a></li>
+  <li><a href="#high-rating-secondary-model" id="toc-high-rating-secondary-model" class="nav-link" data-scroll-target="#high-rating-secondary-model"><span class="header-section-number">5.4</span> High-rating secondary model</a></li>
+  </ul></li>
+  <li><a href="#rating-reliabilitywilson-与-empirical-bayes" id="toc-rating-reliabilitywilson-与-empirical-bayes" class="nav-link" data-scroll-target="#rating-reliabilitywilson-与-empirical-bayes"><span class="header-section-number">6</span> Rating reliability：Wilson 与 Empirical Bayes</a>
+  <ul class="collapse">
+  <li><a href="#wilson-interval" id="toc-wilson-interval" class="nav-link" data-scroll-target="#wilson-interval"><span class="header-section-number">6.1</span> Wilson interval</a></li>
+  <li><a href="#empirical-bayes-rating-adjustment" id="toc-empirical-bayes-rating-adjustment" class="nav-link" data-scroll-target="#empirical-bayes-rating-adjustment"><span class="header-section-number">6.2</span> Empirical Bayes rating adjustment</a></li>
+  <li><a href="#raw-ranking-与-reliability-aware-ranking" id="toc-raw-ranking-与-reliability-aware-ranking" class="nav-link" data-scroll-target="#raw-ranking-与-reliability-aware-ranking"><span class="header-section-number">6.3</span> Raw ranking 与 reliability-aware ranking</a></li>
+  </ul></li>
+  <li><a href="#attention从-review-entry-到-intensity" id="toc-attention从-review-entry-到-intensity" class="nav-link" data-scroll-target="#attention从-review-entry-到-intensity"><span class="header-section-number">7</span> Attention：从 review entry 到 intensity</a>
+  <ul class="collapse">
+  <li><a href="#hurdle-structure" id="toc-hurdle-structure" class="nav-link" data-scroll-target="#hurdle-structure"><span class="header-section-number">7.1</span> Hurdle structure</a></li>
+  <li><a href="#nonlinear-price-specification-for-entry" id="toc-nonlinear-price-specification-for-entry" class="nav-link" data-scroll-target="#nonlinear-price-specification-for-entry"><span class="header-section-number">7.2</span> Nonlinear price specification for entry</a></li>
+  <li><a href="#why-raw-review-counts-required-a-different-strategy" id="toc-why-raw-review-counts-required-a-different-strategy" class="nav-link" data-scroll-target="#why-raw-review-counts-required-a-different-strategy"><span class="header-section-number">7.3</span> Why raw review counts required a different strategy</a></li>
+  </ul></li>
+  <li><a href="#attention-tiers稳定的-portfolio-level-intensity-model" id="toc-attention-tiers稳定的-portfolio-level-intensity-model" class="nav-link" data-scroll-target="#attention-tiers稳定的-portfolio-level-intensity-model"><span class="header-section-number">8</span> Attention tiers：稳定的 portfolio-level intensity model</a>
+  <ul class="collapse">
+  <li><a href="#tier-reformulation" id="toc-tier-reformulation" class="nav-link" data-scroll-target="#tier-reformulation"><span class="header-section-number">8.1</span> Tier reformulation</a></li>
+  <li><a href="#ordinal-logistic-regression" id="toc-ordinal-logistic-regression" class="nav-link" data-scroll-target="#ordinal-logistic-regression"><span class="header-section-number">8.2</span> Ordinal Logistic Regression</a></li>
+  </ul></li>
+  <li><a href="#attention-vs-reception跨模型比较" id="toc-attention-vs-reception跨模型比较" class="nav-link" data-scroll-target="#attention-vs-reception跨模型比较"><span class="header-section-number">9</span> Attention vs Reception：跨模型比较</a></li>
+  <li><a href="#模型决策与方法论总结" id="toc-模型决策与方法论总结" class="nav-link" data-scroll-target="#模型决策与方法论总结"><span class="header-section-number">10</span> 模型决策与方法论总结</a>
+  <ul class="collapse">
+  <li><a href="#五个统计经验" id="toc-五个统计经验" class="nav-link" data-scroll-target="#五个统计经验"><span class="header-section-number">10.1</span> 五个统计经验</a></li>
+  </ul></li>
+  <li><a href="#主要结论" id="toc-主要结论" class="nav-link" data-scroll-target="#主要结论"><span class="header-section-number">11</span> 主要结论</a></li>
+  <li><a href="#限制与不作出的声明" id="toc-限制与不作出的声明" class="nav-link" data-scroll-target="#限制与不作出的声明"><span class="header-section-number">12</span> 限制与不作出的声明</a>
+  <ul class="collapse">
+  <li><a href="#研究限制" id="toc-研究限制" class="nav-link" data-scroll-target="#研究限制"><span class="header-section-number">12.1</span> 研究限制</a></li>
+  <li><a href="#本项目不声称" id="toc-本项目不声称" class="nav-link" data-scroll-target="#本项目不声称"><span class="header-section-number">12.2</span> 本项目不声称</a></li>
+  </ul></li>
+  <li><a href="#技术栈复现与冻结状态" id="toc-技术栈复现与冻结状态" class="nav-link" data-scroll-target="#技术栈复现与冻结状态"><span class="header-section-number">13</span> 技术栈、复现与冻结状态</a>
+  <ul class="collapse">
+  <li><a href="#technical-stack" id="toc-technical-stack" class="nav-link" data-scroll-target="#technical-stack"><span class="header-section-number">13.1</span> Technical stack</a></li>
+  <li><a href="#reproducibility-audit" id="toc-reproducibility-audit" class="nav-link" data-scroll-target="#reproducibility-audit"><span class="header-section-number">13.2</span> Reproducibility audit</a></li>
+  <li><a href="#final-status" id="toc-final-status" class="nav-link" data-scroll-target="#final-status"><span class="header-section-number">13.3</span> Final status</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Steam 新游市场与玩家评论统计分析</h1>
+<p class="subtitle lead">Steam Game Market &amp; Player Review Analytics — Full Statistical Analysis Report</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="封面与执行摘要" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 封面与执行摘要</h1>
+<blockquote class="blockquote">
+<p><strong>项目定位</strong>：这是一个从 Steam 数据采集、关系型数据库、SQL 探索到 R 统计建模的完整分析项目。报告中的结果都是当前 3,000 款游戏快照上的条件关联，不代表销售、收益或因果效果。</p>
+</blockquote>
+<section id="执行摘要" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="执行摘要"><span class="header-section-number">1.1</span> 执行摘要</h2>
+<p>本项目分析了 2025 年下半年（2025-07-01 至 2025-12-31）Steam 新发行游戏的市场结构、玩家评论关注度（attention）和玩家口碑（reception）。从 10,115 个候选游戏中按发布月份进行比例分层抽样，得到 3,000 款游戏；其中 402 款免费、2,598 款付费，759 款（25.30%）没有任何评论。评论量不是销量或拥有量，而是购买者评论关注度的代理指标。</p>
+<p>市场最显著的结构是极端长尾：有评论游戏的评论量中位数为 10，均值为 481.69，最大值为 136,842，Gini 系数为 0.953；前 1% 游戏吸收约 65.44% 的评论量。这个结构使得直接对 raw count 拟合普通 Poisson、Negative Binomial 或 zero-truncated NB2 都需要非常谨慎。Step 6B 原始 count 模型保留为诊断案例，但没有冻结。</p>
+<p>Reception 部分使用携带正面/负面评论分母的 Beta-binomial regression 作为主要推断模型。标准 Binomial 的 Pearson dispersion 约为 73.52，说明游戏之间存在严重额外异质性。Beta-binomial 在 836 款 paid、至少 20 条评论的游戏上收敛良好，估计的 <code>phi≈8.747</code>、<code>rho≈0.103</code>。在该模型中，价格与正面评价倾向呈弱负关联；Simulation 是稳定的负向 reception 关联，而 Strategy 也总体负向但敏感性略高。</p>
+<p>Rating reliability 部分显示，raw positive rate 不能脱离 denominator 解读：<code>1/1=100%</code> 的 Wilson lower 只有约 20.65%，而 <code>1000/1000=100%</code> 的 Wilson lower 约为 99.62%。Empirical Bayes 以 Beta(5.022, 1.045) 为总体先验，低评论量游戏收缩更强；评论量与绝对收缩的 Spearman 相关约为 -0.912。</p>
+<p>Attention 采用两阶段 hurdle 思路。Stage 1 的 review-entry 模型保留非线性 paid-price spline；线性价格模型 AIC 为 2387.87，df=3 spline 为 2373.03，中央支持区的拟合峰值约为 $14.92，但这是宽平台上的描述性最大值，不是“最佳定价”。Stage 2 将正评论游戏按 1–9、10–99、100–999、1000+ 分成四个有序 attention tiers，用 cumulative ordinal logistic 描述进入更高关注等级的关联，并用 High-100 logistic（至少 100 条评论）做稳健性检查。Proportional-odds 假设为 APPROXIMATE，但没有 major direction reversal，High-100 方向广泛一致，因此该 tier model 已冻结。</p>
+<p>最终结论不是“某个价格导致成功”或“某类游戏天然更差”，而是：市场关注度与玩家口碑是两个不同维度；可靠的分析需要保留 denominator、承认 overdispersion、检查 functional form，并在诊断不通过时改变 estimand，而不是强行冻结一个漂亮但不可信的模型。</p>
+</section>
+</section>
+<section id="研究问题与分析路线" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 研究问题与分析路线</h1>
+<section id="四个研究问题" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="四个研究问题"><span class="header-section-number">2.1</span> 四个研究问题</h2>
+<section id="rq1-market-structure" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="rq1-market-structure"><span class="header-section-number">2.1.1</span> RQ1 — Market Structure</h3>
+<p>2025 年下半年 Steam 新发行游戏的价格、平台、类型、评论覆盖率和评论量分布具有什么市场结构？</p>
+</section>
+<section id="rq2-attention" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="rq2-attention"><span class="header-section-number">2.1.2</span> RQ2 — Attention</h3>
+<p>哪些游戏更可能获得至少一条玩家评论，并在获得评论后进入更高的评论关注等级？</p>
+</section>
+<section id="rq3-reception" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="rq3-reception"><span class="header-section-number">2.1.3</span> RQ3 — Reception</h3>
+<p>在有足够评论后，价格、平台和游戏类型与玩家正面评价倾向之间存在怎样的条件关联？</p>
+</section>
+<section id="rq4-rating-reliability" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="rq4-rating-reliability"><span class="header-section-number">2.1.4</span> RQ4 — Rating Reliability</h3>
+<p>当评论样本较少时，如何避免直接使用 raw positive rate 造成过度乐观或错误排序？</p>
+</section>
+</section>
+<section id="端到端数据管线" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="端到端数据管线"><span class="header-section-number">2.2</span> 端到端数据管线</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-pipeline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pipeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/report/69_analysis_pipeline.png" class="img-fluid figure-img" width="900">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pipeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;1: 从 Steam 数据采集到统计解释的可复现路径。应该看什么：每个后续模型都建立在明确的样本和数据库层之上。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>项目使用 Python 完成采集和 ETL，MySQL 保存分析型关系数据，SQL 负责只读探索，R 负责 EDA、模型和诊断，Quarto 负责可复现报告，Git 负责版本控制。报告不展示连接密码、用户名或 console 日志。</p>
+</section>
+</section>
+<section id="数据来源抽样与语义" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 数据来源、抽样与语义</h1>
+<section id="抽样设计" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="抽样设计"><span class="header-section-number">3.1</span> 抽样设计</h2>
+<p>候选池包含 10,115 个在研究窗口内发布的游戏。最终样本为 3,000 款，按发布月份进行比例分层抽样，随机种子为 <code>20250911</code>。按月份分层的目的，是避免某一个月份因发行量或暴露时间不同而过度代表整体。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>样本构造与分析层级</caption>
+<colgroup>
+<col style="width: 31%">
+<col style="width: 10%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">指标</th>
+<th style="text-align: right;">数量</th>
+<th style="text-align: left;">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">候选游戏</td>
+<td style="text-align: right;">10115</td>
+<td style="text-align: left;">2025-07-01 至 2025-12-31 候选池</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">最终样本</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: left;">按发布月份比例分层抽样</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">免费游戏</td>
+<td style="text-align: right;">402</td>
+<td style="text-align: left;">完整市场构成</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">付费游戏</td>
+<td style="text-align: right;">2598</td>
+<td style="text-align: left;">完整市场构成</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">零评论</td>
+<td style="text-align: right;">759</td>
+<td style="text-align: left;">市场层 outcome</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">至少一条评论</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: left;">市场层 attention</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">评论量模型 20+</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: left;">Reception 预设候选样本</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>月度样本数为：2025-07 <code>497</code>、2025-08 <code>470</code>、2025-09 <code>427</code>、2025-10 <code>544</code>、2025-11 <code>580</code>、2025-12 <code>482</code>。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-months" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-months-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/eda/14_release_month_coverage.png" class="img-fluid figure-img" width="1800">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-months-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;2: 按发布月份的样本覆盖。应该看什么：月份样本量不同，因此月度差异需要结合暴露时间和构成解释。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="数据语义与解释边界" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="数据语义与解释边界"><span class="header-section-number">3.2</span> 数据语义与解释边界</h2>
+<ul>
+<li><strong>Price</strong> 是采集时点的 US storefront current price，不是首发价、历史价格或 reviewer-paid price。</li>
+<li><strong>total_reviews</strong> 是 Steam 购买者评论关注度/互动代理，不是销量、owners、收入或商业成功。</li>
+<li><strong>Early Access</strong> 是 Steam taxonomy label，不是已经验证的 historical Early Access 状态。</li>
+<li>游戏类型是 <strong>multi-label</strong>，类型计数不能当作互斥类别相加。</li>
+<li>这是 single-snapshot observational design；所有 predictor 结果都称为 association 或 conditional association，不称为 impact、effect 或 cause。</li>
+</ul>
+</section>
+</section>
+<section id="市场结构与评论长尾" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> 市场结构与评论长尾</h1>
+<section id="市场概览" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="市场概览"><span class="header-section-number">4.1</span> 市场概览</h2>
+<p>完整市场包含 <code>N=3,000</code> 款游戏：免费 402（13.40%），付费 2,598（86.60%）；759 款没有评论，2,241 款至少有一条评论。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>3,000 款游戏的市场层概览</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">指标</th>
+<th style="text-align: left;">数值</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">总游戏</td>
+<td style="text-align: left;">3000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">免费</td>
+<td style="text-align: left;">402</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">付费</td>
+<td style="text-align: left;">2598</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">至少一条评论</td>
+<td style="text-align: left;">2241</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">零评论</td>
+<td style="text-align: left;">759</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">零评论比例</td>
+<td style="text-align: left;">25.3%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>付费游戏当前价格中位数为 <code>$4.99</code>，均值为 <code>$8.52</code>；价格分布右偏且在低价带高度集中。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-price" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/eda/08_price_distribution.png" class="img-fluid figure-img" width="1800">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;3: 完整样本中的价格分布。应该看什么：价格右偏且是 collection-time snapshot，不能直接解释为最优价格。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-count-log" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-count-log-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/eda/02_review_count_hist_log.png" class="img-fluid figure-img" width="1350">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-count-log-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;4: 评论量的 log-scale 分布。应该看什么：大量游戏集中在低评论量区间，少数头部游戏形成极长右尾。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="评论量的-winner-takes-most-结构" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="评论量的-winner-takes-most-结构"><span class="header-section-number">4.2</span> 评论量的 winner-takes-most 结构</h2>
+<p>完整市场评论量中位数为 4；在 positive-count population 中，中位数为 10，均值为 481.69，最大值为 136,842。Top 1 游戏占 12.68%，Top 1% 游戏占 65.44%，Top 5% 占 89.01%，Top 10% 占 94.52%，Gini 为 0.953。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-concentration" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-concentration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/58_tail_concentration.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-concentration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;5: 评论关注度的集中度。应该看什么：少数头部游戏吸收了绝大部分评论量，因此 raw count 的单一回归系数很容易被头部支配。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-rootogram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rootogram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/55_count_rootogram.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rootogram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;6: 计数模型的 observed-versus-fitted 诊断。应该看什么：即使 truncated NB2 AIC 较低，分布拟合和尾部行为仍不足以自动冻结。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="reception从-binomial-到-beta-binomial" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Reception：从 Binomial 到 Beta-binomial</h1>
+<section id="为什么-raw-positive-rate-不够" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="为什么-raw-positive-rate-不够"><span class="header-section-number">5.1</span> 为什么 raw positive rate 不够</h2>
+<p>正面率的基本形式为</p>
+<p><span class="math display">\[p_i = \frac{y_i}{n_i}.\]</span></p>
+<p>但相同的 <code>p=1</code> 并不代表相同的统计证据。评论分母同时决定比例精度，因此后续 reception 模型使用 grouped response <code>(positive_reviews, negative_reviews)</code>，而不是把每个 raw rate 当成同等精度的连续观测。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-positive-rate" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-positive-rate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/eda/06_positive_rate_vs_reviews.png" class="img-fluid figure-img" width="1350">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-positive-rate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;7: 正面率与评论量的关系。应该看什么：低分母游戏更容易出现 0% 或 100% 极值，不能与大分母游戏等量齐观。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reception-modeling-journey" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="reception-modeling-journey"><span class="header-section-number">5.2</span> Reception modeling journey</h2>
+<section id="binomial-benchmark" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="binomial-benchmark"><span class="header-section-number">5.2.1</span> Binomial benchmark</h3>
+<p>冻结的标准 Binomial 作为 benchmark，但 Pearson dispersion 约为 <code>73.52</code>，deviance/df 约为 <code>61.82</code>。这意味着标准误和区间会系统性过于乐观。</p>
+</section>
+<section id="quasibinomial" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="quasibinomial"><span class="header-section-number">5.2.2</span> Quasibinomial</h3>
+<p>Quasibinomial 将标准误放大约 <code>sqrt(phi)=8.57</code> 倍，point estimates 与 Binomial 基本相同。它能修正 variance scale，却不能完整刻画 latent heterogeneity，也不能解决不同 denominator 带来的贡献差异。</p>
+</section>
+<section id="beta-binomial-primary-model" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="beta-binomial-primary-model"><span class="header-section-number">5.2.3</span> Beta-binomial primary model</h3>
+<p>Beta-binomial 在 <code>N=836</code> 个 paid games（每款至少 20 条评论）上作为最终 reception primary inferential model。模型收敛，<code>phi≈8.747</code>，派生的 within-game ICC <code>rho≈0.103</code>。表中的区间优先使用 profile-likelihood interval。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Beta-binomial reception 的代表性 OR 与 profile 95% CI</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Predictor</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">CI low</th>
+<th style="text-align: right;">CI high</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">0.930</td>
+<td style="text-align: right;">0.873</td>
+<td style="text-align: right;">0.990</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.983</td>
+<td style="text-align: right;">0.925</td>
+<td style="text-align: right;">1.044</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">1.443</td>
+<td style="text-align: right;">1.172</td>
+<td style="text-align: right;">1.795</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">1.632</td>
+<td style="text-align: right;">1.196</td>
+<td style="text-align: right;">2.298</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">1.519</td>
+<td style="text-align: right;">1.225</td>
+<td style="text-align: right;">1.909</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.786</td>
+<td style="text-align: right;">0.692</td>
+<td style="text-align: right;">0.894</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">0.826</td>
+<td style="text-align: right;">0.714</td>
+<td style="text-align: right;">0.957</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">1.145</td>
+<td style="text-align: right;">0.998</td>
+<td style="text-align: right;">1.310</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">0.917</td>
+<td style="text-align: right;">0.801</td>
+<td style="text-align: right;">1.051</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-beta" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-beta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/05_robust_or_comparison.png" class="img-fluid figure-img" width="936">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-beta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;8: Overdispersion-robust reception odds ratios。应该看什么：价格弱负向、Simulation 稳定负向；不要把 OR 解释成因果效应。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="reception-findings-与敏感性" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="reception-findings-与敏感性"><span class="header-section-number">5.3</span> Reception findings 与敏感性</h2>
+<ul>
+<li><strong>Price</strong>：在 Beta-binomial 中为弱但稳定的负向关联，OR 约 <code>0.930 [0.873, 0.990]</code>（每一标准差 log-price）。</li>
+<li><strong>Simulation</strong>：Beta-binomial OR <code>0.786 [0.692, 0.894]</code>，而 misspecified Binomial OR 约 <code>1.354</code>，发生方向反转。这是“模型假设会改变实质结论”的典型案例。</li>
+<li><strong>Strategy</strong>：总体负向，Beta-binomial OR 约 <code>0.826 [0.714, 0.957]</code>，但相对敏感性略高。</li>
+<li><strong>Platform</strong>：多平台组合呈正向，但 magnitude 对模型规格敏感，可能反映未观测的开发资源、团队成熟度或发行策略。</li>
+<li><strong>Indie / RPG</strong>：区间跨 1 或证据较弱，不作强结论。</li>
+</ul>
+<p>Step 5D 比较了 <code>&gt;0</code>、<code>&gt;=10</code>、<code>&gt;=20</code>、<code>&gt;=50</code> 评论阈值，以及 raw price、release month、genre expansion 和 head-game sensitivity。核心方向整体保留，但不同阈值改变 estimand，因此不能用跨样本 AIC 选择“最佳阈值”。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-sensitivity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sensitivity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/15_robustness_heatmap.png" class="img-fluid figure-img" width="918">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sensitivity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;9: 预设 sensitivity 的方向与区间汇总。应该看什么：价格和 Simulation 的主要方向跨规格较稳定，Strategy 和部分平台项更敏感。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="high-rating-secondary-model" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="high-rating-secondary-model"><span class="header-section-number">5.4</span> High-rating secondary model</h2>
+<p>Step 5E 将 <code>positive_rate &gt;= 85%</code> 定义为 secondary business-readable outcome，并检查 80%/90% 阈值敏感性。HIGH85 样本为 471/836，样本内 AUC 约 <code>0.661</code>。该模型用于易读的二元补充描述，不替代 Beta-binomial；阈值之间不能用 AIC/BIC 选择“最佳阈值”。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-high-rating" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-high-rating-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/21_high_rating_primary_or.png" class="img-fluid figure-img" width="855">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-high-rating-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;10: High-rating secondary logistic model。应该看什么：这是便于解释的补充模型，不是 reception primary inferential model。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="rating-reliabilitywilson-与-empirical-bayes" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Rating reliability：Wilson 与 Empirical Bayes</h1>
+<section id="wilson-interval" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="wilson-interval"><span class="header-section-number">6.1</span> Wilson interval</h2>
+<p>Wilson score interval 只改变不确定性表达，不改变 raw point estimate。两个极端例子是：</p>
+<ul>
+<li><code>1/1=100%</code>，Wilson lower 约 <code>20.65%</code>；</li>
+<li><code>1000/1000=100%</code>，Wilson lower 约 <code>99.62%</code>。</li>
+</ul>
+<p>因此，相同的 raw 100% rating 在不同 denominator 下代表完全不同的证据强度。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-wilson" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wilson-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/25_wilson_denominator_geometry.png" class="img-fluid figure-img" width="828">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wilson-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;11: Wilson denominator geometry。应该看什么：分母从 1 增至 1,000 时，100% raw rate 的下界迅速收紧。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="empirical-bayes-rating-adjustment" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="empirical-bayes-rating-adjustment"><span class="header-section-number">6.2</span> Empirical Bayes rating adjustment</h2>
+<p>Empirical Bayes 使用全体 <code>n&gt;0</code> 游戏估计 Beta prior：<code>Beta(5.022, 1.045)</code>，prior mean 约 <code>82.78%</code>，ESS 约 <code>6.07</code>。后验均值为</p>
+<p><span class="math display">\[E[p_i\mid y_i,n_i] = \frac{y_i+\alpha}{n_i+\alpha+\beta}.\]</span></p>
+<p>低评论量游戏受到更强 shrinkage，高评论量游戏几乎不变。评论量与绝对收缩的 Spearman 相关为 <code>-0.912</code>；1,000+ reviews 游戏的 median absolute shrinkage 约 <code>0.017</code> 个百分点。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-eb" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-eb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/29_eb_shrinkage_vs_review_count.png" class="img-fluid figure-img" width="738">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;12: Empirical Bayes shrinkage 与评论量。应该看什么：低分母评分被拉回总体先验，高分母评分基本保持不变。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="raw-ranking-与-reliability-aware-ranking" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="raw-ranking-与-reliability-aware-ranking"><span class="header-section-number">6.3</span> Raw ranking 与 reliability-aware ranking</h2>
+<p>Raw vs Wilson、Raw vs EB、Wilson vs EB 的 Spearman 相关分别约为 <code>0.2395</code>、<code>0.7761</code>、<code>0.6725</code>。Raw ranking 很大程度受低 denominator 的 100% ties 影响；832 款游戏的 raw rate 为 100%，其中 762 款虽然 raw rate 至少 95%，但 Wilson lower 低于 80%。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-ranking" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ranking-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/modeling/31_raw_wilson_eb_rank_comparison.png" class="img-fluid figure-img" width="738">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ranking-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;13: Raw、Wilson 与 EB ranking 的比较。应该看什么：可靠性调整会明显改变低分母游戏的排序，但不是把 EB 分数称为真实质量。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="attention从-review-entry-到-intensity" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Attention：从 review entry 到 intensity</h1>
+<section id="hurdle-structure" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="hurdle-structure"><span class="header-section-number">7.1</span> Hurdle structure</h2>
+<p>Attention 被拆成两个 estimand：</p>
+<ol type="1">
+<li><strong>Stage 1</strong>：<code>P(Y&gt;0)</code>，游戏能否获得至少一条评论；</li>
+<li><strong>Stage 2</strong>：在 <code>Y&gt;0</code> 条件下，进入更高 attention intensity 的关联。</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-entry-or" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-entry-or-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/39_attention_entry_primary_or.png" class="img-fluid figure-img" width="855">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entry-or-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;14: Review-entry logistic 的主要关联。应该看什么：free 与 paid 的构成差异很大，不能把 free OR 解释成 pricing 的因果效应。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Stage 1 中，free has-review rate 为 <code>8.46%</code>，paid 为 <code>84.95%</code>。这说明 free/paid 构成差异巨大；它可能同时反映受众、发行策略、可发现性、质量和开发成熟度等因素。</p>
+</section>
+<section id="nonlinear-price-specification-for-entry" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="nonlinear-price-specification-for-entry"><span class="header-section-number">7.2</span> Nonlinear price specification for entry</h2>
+<p>Step 6A.1 保留 logistic framework，仅把 paid-price linear term 换为 centered Natural Spline（df=3）。Linear AIC 为 <code>2387.87</code>，spline AIC 为 <code>2373.03</code>，<code>Delta AIC≈-14.84</code>。拟合曲线在约 <code>$14.92</code> 达到 pointwise maximum，但 <code>$11.07–$20.30</code> 是宽 plateau，不能称为“最佳定价”。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-entry-curve" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-entry-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/45_price_nonlinear_primary_curve.png" class="img-fluid figure-img" width="774">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entry-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;15: Paid-price 的非线性 review-entry 曲线。应该看什么：中央支持区呈宽平台，高价尾部稀疏，不应将峰值解释成最优价格。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-entry-support" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-entry-support-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/46_price_curve_support_density.png" class="img-fluid figure-img" width="774">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entry-support-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;16: Price curve 的 empirical support。应该看什么：$0.99–$19.99 是主要解释区间，高价尾部观测很少。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Review-entry 模型的代表性结果</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Predictor</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">CI low</th>
+<th style="text-align: right;">CI high</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">is_free</td>
+<td style="text-align: right;">0.015</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: right;">0.021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">1.999</td>
+<td style="text-align: right;">1.209</td>
+<td style="text-align: right;">3.304</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.661</td>
+<td style="text-align: right;">0.528</td>
+<td style="text-align: right;">0.828</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">1.725</td>
+<td style="text-align: right;">1.307</td>
+<td style="text-align: right;">2.276</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>主要关联包括：free 的 entry odds 很低；三平台支持与较高 entry odds 相关；Simulation 与较高 entry odds 相关；Casual 与较低 entry odds 相关。所有结果仍是 composition-adjusted association。</p>
+</section>
+<section id="why-raw-review-counts-required-a-different-strategy" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="why-raw-review-counts-required-a-different-strategy"><span class="header-section-number">7.3</span> Why raw review counts required a different strategy</h2>
+<p>Positive-count raw model 的诊断是方法选择的一部分，而不是应被隐藏的失败。Poisson Pearson dispersion 约为 <code>16,774</code>；ordinary NB2 的 <code>theta≈0.273</code>；truncated NB2 的 <code>theta≈1.3×10^-9</code>。虽然 truncated NB2 AIC 约为 <code>21,297</code>，但 residual distribution mismatch、extreme head concentration、tail sensitivity 和 price curve instability 仍然存在。</p>
+<p>因此，项目没有因为 AIC 最低就冻结 raw count model，也没有为了得到显著结果继续增加未经预设的复杂模型。注意力强度的 estimand 改为有序 tiers，是比继续修补单一 count likelihood 更透明的选择。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-count-failure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-count-failure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/55_count_rootogram.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-count-failure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;17: Raw count model 的诊断案例。应该看什么：模型选择由 estimand 与诊断共同决定，而不是由单个 AIC 排名决定。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="attention-tiers稳定的-portfolio-level-intensity-model" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Attention tiers：稳定的 portfolio-level intensity model</h1>
+<section id="tier-reformulation" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="tier-reformulation"><span class="header-section-number">8.1</span> Tier reformulation</h2>
+<p>在 <code>total_reviews&gt;0</code> 的 2,241 款游戏中定义：</p>
+<ul>
+<li>Tier 1：1–9 reviews，49.17%；</li>
+<li>Tier 2：10–99 reviews，32.71%；</li>
+<li>Tier 3：100–999 reviews，13.07%；</li>
+<li>Tier 4：1,000+ reviews，5.04%。</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-tier-dist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tier-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/64_attention_tier_distribution.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tier-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;18: 四级 attention tier 分布。应该看什么：tier 化压缩了极端长尾，但保留了关注度的有序信息。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ordinal-logistic-regression" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="ordinal-logistic-regression"><span class="header-section-number">8.2</span> Ordinal Logistic Regression</h2>
+<p>最终主模型为 cumulative / proportional-odds ordinal logistic：</p>
+<p><span class="math display">\[\log\frac{P(Y\le k)}{P(Y&gt;k)} = \alpha_k - X\beta.\]</span></p>
+<p>它研究的是 predictor 与“进入更高 attention tier”的关联，而不是评论数增加多少倍。模型保留 <code>is_free</code>、paid price Natural Spline df=3、<code>log(days_since_release)</code>、platform segment 与七个 genre；不使用 offset。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Attention tier ordinal model 的代表性 OR</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Predictor</th>
+<th style="text-align: right;">OR</th>
+<th style="text-align: right;">CI low</th>
+<th style="text-align: right;">CI high</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">is_free</td>
+<td style="text-align: right;">0.508</td>
+<td style="text-align: right;">0.249</td>
+<td style="text-align: right;">1.034</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">log_days</td>
+<td style="text-align: right;">2.756</td>
+<td style="text-align: right;">1.600</td>
+<td style="text-align: right;">4.749</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">1.791</td>
+<td style="text-align: right;">1.317</td>
+<td style="text-align: right;">2.435</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">1.302</td>
+<td style="text-align: right;">1.098</td>
+<td style="text-align: right;">1.544</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">1.310</td>
+<td style="text-align: right;">1.068</td>
+<td style="text-align: right;">1.606</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">1.436</td>
+<td style="text-align: right;">1.185</td>
+<td style="text-align: right;">1.740</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">0.860</td>
+<td style="text-align: right;">0.697</td>
+<td style="text-align: right;">1.059</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Proportional-odds audit 使用三个 threshold-specific logits（<code>&gt;=10</code>、<code>&gt;=100</code>、<code>&gt;=1000</code>）。部分弱效应在边界间变化，因此结论为 <code>APPROXIMATE</code>；但没有 major direction reversal，High-100 robustness 为 PASS。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-tier-price" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tier-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/65_attention_tier_price_probabilities.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tier-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;19: 不同价格下的 attention tier predicted probabilities。应该看什么：从 $0.99 到 $19.99，概率质量由 Tier1 向 Tier3/Tier4 移动，但不能解释为价格导致关注度。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-tier-or" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tier-or-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/66_attention_tier_or.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tier-or-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;20: Ordinal attention-tier OR。应该看什么：三平台、Adventure、RPG、Simulation 与更高 tier 的关联方向；free subgroup 稀疏。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>High-100 robustness model 的 outcome 是 <code>total_reviews&gt;=100</code>，事件数为 406，使用完全相同的 predictors。它与 ordinal model 没有 major magnitude contradiction，支持 portfolio-level freeze。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-high100" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-high100-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/attention/67_high100_logistic_or.png" class="img-fluid figure-img" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-high100-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;21: High-100 logistic robustness check。应该看什么：主要方向与 ordinal model 广泛一致；它是稳健性检查，不替代 ordinal primary。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="attention-vs-reception跨模型比较" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Attention vs Reception：跨模型比较</h1>
+<p>Attention 和 reception 是不同 outcome，不能比较 OR 的数值大小，只比较 direction / positive / negative / uncertain。最有解释价值的交叉结果是：Simulation 更容易进入较高 attention tier，但在条件 reception 模型中呈负向关联；multi-platform 在两个维度均呈正向；RPG、Adventure 的 attention 方向为正，但 reception 证据不足。</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-cross-domain" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cross-domain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/report/70_attention_vs_reception_summary.png" class="img-fluid figure-img" width="945">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cross-domain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;22: Attention 与 reception 的方向矩阵。应该看什么：关注度和口碑不是同一件事，Simulation 的跨模型方向差异尤其值得注意。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="模型决策与方法论总结" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> 模型决策与方法论总结</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-decision-map" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-decision-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/report/71_model_decision_map.png" class="img-fluid figure-img" width="900">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-decision-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;23: 模型决策图。应该看什么：每个统计模型对应一个明确 estimand，并且先经过 dispersion、tail、functional-form 或 reliability diagnostics。
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="五个统计经验" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="五个统计经验"><span class="header-section-number">10.1</span> 五个统计经验</h2>
+<ol type="1">
+<li><strong>Denominator matters</strong>：比例不能脱离分母；Wilson 和 Beta-binomial 都显式保留这一点。</li>
+<li><strong>Overdispersion matters</strong>：真实市场的游戏间异质性可以远大于 Binomial / Poisson 假设。</li>
+<li><strong>Functional form matters</strong>：paid price 的线性项会掩盖 review-entry 的非线性结构。</li>
+<li><strong>Diagnostics matter</strong>：AIC 最低不等于模型可用；tail、残差、稳定性和支持范围同样重要。</li>
+<li><strong>Estimand matters</strong>：raw count 不稳定时，改成有序 attention tiers 比继续堆叠复杂模型更符合研究目标。</li>
+</ol>
+</section>
+</section>
+<section id="主要结论" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> 主要结论</h1>
+<ol type="1">
+<li>3,000 款样本中 25.30% 没有 Steam 评论，评论 entry 本身就是重要的市场分化。</li>
+<li>评论 attention 极度集中：Top 1% 游戏贡献约 65.44% 的正评论量。</li>
+<li>raw positive rate 在低 denominator 下高度不可靠；Wilson 与 EB 提供了不同用途的可靠性辅助。</li>
+<li>Beta-binomial 是 reception 的主要推断模型，标准 Binomial 的严重 overdispersion 不能忽略。</li>
+<li>Price 与 reception 呈弱负向条件关联；Simulation reception 为稳定负向，Strategy 总体负向但较敏感。</li>
+<li>Review-entry 的 paid-price relationship 是明显 nonlinear，中央支持区是宽平台而不是单一最优价格。</li>
+<li>原始 positive-count model 因 extreme tail 和诊断问题未冻结，失败记录作为方法论案例保留。</li>
+<li>Ordered attention-tier model 提供了更稳定、可解释的 portfolio-level intensity 描述。</li>
+<li>Attention 与 reception 是两个不同维度；高关注不自动意味着更高口碑。</li>
+</ol>
+</section>
+<section id="限制与不作出的声明" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 限制与不作出的声明</h1>
+<section id="研究限制" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="研究限制"><span class="header-section-number">12.1</span> 研究限制</h2>
+<ul>
+<li>single snapshot，不能代表随时间变化的生命周期结果；</li>
+<li>price 是 current storefront price，不是 launch price；</li>
+<li>没有 sales、owners、revenue、marketing spend 或真实曝光数据；</li>
+<li>observational design，存在未观测的 marketing、brand、quality 和发行策略；</li>
+<li>genre 是 multi-label；</li>
+<li>positive-count free subgroup 稀疏；</li>
+<li>attention tiers 会牺牲 tier 内的原始 count 差异；</li>
+<li>ordinal proportional-odds assumption 仅 approximate；</li>
+<li>所有回归结果均为 conditional association，不是 causal effect。</li>
+</ul>
+</section>
+<section id="本项目不声称" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="本项目不声称"><span class="header-section-number">12.2</span> 本项目不声称</h2>
+<ul>
+<li>price causes attention 或 better ratings；</li>
+<li>platform causes better ratings；</li>
+<li>reviews equal sales；</li>
+<li>Empirical Bayes score 等于真实 game quality；</li>
+<li><code>$14–15</code> 是 optimal pricing；</li>
+<li>Simulation games are inherently worse。</li>
+</ul>
+</section>
+</section>
+<section id="技术栈复现与冻结状态" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> 技术栈、复现与冻结状态</h1>
+<section id="technical-stack" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="technical-stack"><span class="header-section-number">13.1</span> Technical stack</h2>
+<ul>
+<li><strong>Python</strong>：Steam collection、ETL、抽样与可复现数据处理；</li>
+<li><strong>MySQL</strong>：分析型关系数据库；</li>
+<li><strong>R</strong>：EDA、回归、诊断、敏感性与可视化；</li>
+<li><strong>Quarto</strong>：可复现 HTML 报告；</li>
+<li><strong>Git</strong>：版本控制与审计轨迹。</li>
+</ul>
+<p>主要 runner 包括 <code>R/run_eda.R</code>、<code>R/run_rating_adjustment.R</code>、<code>R/run_attention_entry.R</code>、<code>R/run_attention_entry_nonlinear.R</code>、<code>R/run_attention_count.R</code> 和 <code>R/run_attention_tier.R</code>。本报告只读取已经冻结的 CSV 和 PNG 产物，不重新拟合模型。</p>
+</section>
+<section id="reproducibility-audit" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="reproducibility-audit"><span class="header-section-number">13.2</span> Reproducibility audit</h2>
+<p>当前完整测试套件为 <code>270 passed</code>；MySQL 数据库只读且对象计数未改变；credential safety PASS；Step 6B.1 attention-tier model 已冻结，attention analysis 已关闭。HTML 报告不打印 <code>.env</code>、密码、用户名或数据库连接输出。</p>
+</section>
+<section id="final-status" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="final-status"><span class="header-section-number">13.3</span> Final status</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Data collection / sampling</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">MySQL analytical database</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">SQL exploration</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">R EDA</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">Reception models</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Attention entry and nonlinear price</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">Raw positive-count model</span><span class="kw">:</span><span class="at"> DIAGNOSTIC FAIL / RETAINED</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">Attention-tier ordinal model</span><span class="kw">:</span><span class="at"> FROZEN</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">Full statistical analysis report</span><span class="kw">:</span><span class="at"> COMPLETE</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">Ready for GitHub / portfolio presentation</span><span class="kw">:</span><span class="at"> </span><span class="ch">YES</span></span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

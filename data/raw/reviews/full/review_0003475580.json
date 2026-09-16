@@ -1,0 +1,66 @@
+{
+  "appid": 3475580,
+  "requested_at": "2026-09-13T19:18:12.989887+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 2,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "219511697",
+        "author": {
+          "steamid": "76561197997033889",
+          "personaname": "Arcadian",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197997033889/",
+          "num_games_owned": 0,
+          "num_reviews": 176,
+          "playtime_forever": 280,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 234,
+          "last_played": 1772429218,
+          "avatar": "3a60d0e8417ba95be13c0c440d55784b097415fb"
+        },
+        "language": "english",
+        "review": "This is a lot of game for 49 to 99 cents.  It has a lot of polish, a lot of features, a game design that mostly holds together well, and has a calming music track.\nEven so, I just can't recommend it. The way upgrades are provided randomly, it feels like some missions can't be achieved if you don't happen to get just the right previous upgrades.  In my case, as a last resort, I considered resetting the game and starting from scratch to hopefully roll a better mix of upgrades, but there doesn't seem to be a way to erase your settings and start a new game either.  (It looks like they've done some updates in the past, so maybe they're still working on this.)",
+        "timestamp_created": 1772342209,
+        "timestamp_updated": 1772342209,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.518518567085266113",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752610958",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZoS8AAAAAFP+CXtSAAAABxua/FBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

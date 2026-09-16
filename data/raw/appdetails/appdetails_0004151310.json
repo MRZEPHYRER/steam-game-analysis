@@ -1,0 +1,185 @@
+{
+  "requested_at": "2026-09-13T07:10:17.474081+00:00",
+  "request_params": {
+    "appids": 4151310,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4151310,
+  "payload": {
+    "4151310": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Echoes of Eternity",
+        "steam_appid": 4151310,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >A post-apocalyptic action RPG with bullet-hell elements crafted with AI-driven art and systems to tell a story of survival; a type of modern arcade feel.</p><p class=\"bb_paragraph\" >Content Length: Approximately 1 hour of single player storyline that feels like a dungeon progression. Re-playable at different difficulties. </p><p class=\"bb_paragraph\" >Future content: speed run leaderboards and tower defense!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >AI-assisted art, writing, and design; this project is both experimental and deeply personal. As a military combat veteran, I wanted create something that reflects resilience, loss, and the will to keep moving forward despite what is happening. This game is handcrafted with the help of LLM's and diffusion models to tell a unique story.</p><p class=\"bb_paragraph\" >No game engine. Written primarily in Python with performance-critical systems optimized using Cython. Rendering and game logic leverage Pygame(-ce) and ModernGL ... yes, you can! </p><p class=\"bb_paragraph\" >Features</p><p class=\"bb_paragraph\" >🔑 Progression &amp; survival — linear story, collect Echo Shards, attachments, and items to adapt your character and beat the system core. </p><p class=\"bb_paragraph\" >🎥 Cutscenes &amp; story arcs - generated assets and royalty-free music</p><p class=\"bb_paragraph\" >💡 AI-assisted design — every sprite and system reflects a mix of human  and AI generation.</p><p class=\"bb_paragraph\" >This is Echoes of Eternity — a project for players who want to explore something raw, personal, and different.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >A post-apocalyptic action RPG with bullet-hell elements crafted with AI-driven art and systems to tell a story of survival; a type of modern arcade feel.</p><p class=\"bb_paragraph\" >Content Length: Approximately 1 hour of single player storyline that feels like a dungeon progression. Re-playable at different difficulties. </p><p class=\"bb_paragraph\" >Future content: speed run leaderboards and tower defense!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >AI-assisted art, writing, and design; this project is both experimental and deeply personal. As a military combat veteran, I wanted create something that reflects resilience, loss, and the will to keep moving forward despite what is happening. This game is handcrafted with the help of LLM's and diffusion models to tell a unique story.</p><p class=\"bb_paragraph\" >No game engine. Written primarily in Python with performance-critical systems optimized using Cython. Rendering and game logic leverage Pygame(-ce) and ModernGL ... yes, you can! </p><p class=\"bb_paragraph\" >Features</p><p class=\"bb_paragraph\" >🔑 Progression &amp; survival — linear story, collect Echo Shards, attachments, and items to adapt your character and beat the system core. </p><p class=\"bb_paragraph\" >🎥 Cutscenes &amp; story arcs - generated assets and royalty-free music</p><p class=\"bb_paragraph\" >💡 AI-assisted design — every sprite and system reflects a mix of human  and AI generation.</p><p class=\"bb_paragraph\" >This is Echoes of Eternity — a project for players who want to explore something raw, personal, and different.</p>",
+        "short_description": "Echoes of Eternity is a linear action RPG set after civilization’s fall to AI. With bullet-hell elements, you will fight and uncover a human story of loss and resilience—built with AI-assisted art, code, and design.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/0a785385c255659b2cad170e8ed509fbb20dc4ab/header.jpg?t=1765803612",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/62c2240ef6fee2a82bca759bcba666850c79e013/capsule_231x87.jpg?t=1765803612",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/62c2240ef6fee2a82bca759bcba666850c79e013/capsule_184x69.jpg?t=1765803612",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11<br></li><li><strong>Processor:</strong> AMD Ryzen 5 2600 or Intel i5-8400<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1050 Ti / AMD RX 560 (2 GB VRAM)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> Runs best on SSD. Game uses ModernGL (OpenGL 3.3+) and AI-generated assets — mid-range GPU recommended for smooth effects.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> AMD Ryzen 5 3600 or Intel i7-9700<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1660 Ti / AMD RX 6600 (4 GB VRAM or higher)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible<br></li><li><strong>VR Support:</strong> Not supported<br></li><li><strong>Additional Notes:</strong> Designed for 1080p+ at 60 FPS</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "DurableChain"
+        ],
+        "publishers": [
+          "DurableChain"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1454436
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Echoes of Eternity",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1454436,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Echoes of Eternity - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/6ca3a9cf650ccb50a78f911ae825ecd1507526a6/ss_6ca3a9cf650ccb50a78f911ae825ecd1507526a6.600x338.jpg?t=1765803612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/6ca3a9cf650ccb50a78f911ae825ecd1507526a6/ss_6ca3a9cf650ccb50a78f911ae825ecd1507526a6.1920x1080.jpg?t=1765803612"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/04f4f9fc572090686a5da01aca16f8b54123a338/ss_04f4f9fc572090686a5da01aca16f8b54123a338.600x338.jpg?t=1765803612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/04f4f9fc572090686a5da01aca16f8b54123a338/ss_04f4f9fc572090686a5da01aca16f8b54123a338.1920x1080.jpg?t=1765803612"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/7a49aef0d979ef4d716101493f8cc1096b155fa7/ss_7a49aef0d979ef4d716101493f8cc1096b155fa7.600x338.jpg?t=1765803612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/7a49aef0d979ef4d716101493f8cc1096b155fa7/ss_7a49aef0d979ef4d716101493f8cc1096b155fa7.1920x1080.jpg?t=1765803612"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/fe71294a425ad829aac37617bbec4dfc569b631b/ss_fe71294a425ad829aac37617bbec4dfc569b631b.600x338.jpg?t=1765803612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/fe71294a425ad829aac37617bbec4dfc569b631b/ss_fe71294a425ad829aac37617bbec4dfc569b631b.1920x1080.jpg?t=1765803612"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/3ba7a67148c52d08f6ff929398327d570a7d4d7b/ss_3ba7a67148c52d08f6ff929398327d570a7d4d7b.600x338.jpg?t=1765803612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151310/3ba7a67148c52d08f6ff929398327d570a7d4d7b/ss_3ba7a67148c52d08f6ff929398327d570a7d4d7b.1920x1080.jpg?t=1765803612"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257228260,
+            "name": "Echoes of Eternity Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257228260/2ea8093342ef72e53af273c49df186879886fc75/movie_600x337.jpg?t=1762888834",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4151310/709939337/fc8bb244f6991ed770995a21b099edbbf5337309/1762527547/dash_av1.mpd?t=1762888834",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4151310/709939337/fc8bb244f6991ed770995a21b099edbbf5337309/1762527547/dash_h264.mpd?t=1762888834",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4151310/709939337/fc8bb244f6991ed770995a21b099edbbf5337309/1762527547/hls_264_master.m3u8?t=1762888834",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "joshprocious@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4151310?t=1765803612",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4151310?t=1765803612",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

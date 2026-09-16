@@ -1,0 +1,190 @@
+{
+  "requested_at": "2026-09-12T12:52:27.426389+00:00",
+  "request_params": {
+    "appids": 668600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 668600,
+  "payload": {
+    "668600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Pixelum",
+        "steam_appid": 668600,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<h1>Support the Developer</h1><p><p class=\"bb_paragraph\" >Pixelum has been in development for almost 10 years. The author of this game is also known for creating immensely popular CS:GO maps that included zombies, cars and horses. After the Early Access phase, Pixelum is still under development. And while the game is free, support the development process by buying collection items!</p></p><br><h1>About the Game</h1><strong>Pixelum</strong> is an innovative sandbox survival game made up entirely from interactive pixels, open to the players for exploration and all sorts of different interactions, combining fully destructible environment and survival/building elements.<h2 class=\"bb_tag\" >Features at the moment</h2>Based on a handcrafted C++ engine, Pixelum offers you unlimited possibilities such as vast world canvas and advanced physics. Here, pixels are not just about the graphics - every pixel in a special multilayered canvas has its own function and can be interacted in one way or another. <br>Pushing forward the 2D survival sandbox genre, Pixelum brings you deeper immersion with game environment.<br>Survive as long as you can in Survival mode.<br><ul class=\"bb_ul\"><li>A procedurally generated 2D world<br></li><li>Particle and rigid body physics<br></li><li>Multilayered pixel canvas<br></li><li>Fully destructible terrain<br></li><li>3 Biomes (forest, arctic, desert)<br></li><li>Crafting and building<br></li><li>Skills and Levels<br></li><li>NPCs<br></li><li>FMOD sound system with reverb, ray-tracing and spatial attenuation<br></li><li>Dynamic environment with day-night cycles.<br>This list will get longer over time, because I have got tons of different ideas on which we are working really hard at the moment.</li></ul>",
+        "about_the_game": "<strong>Pixelum</strong> is an innovative sandbox survival game made up entirely from interactive pixels, open to the players for exploration and all sorts of different interactions, combining fully destructible environment and survival/building elements.<h2 class=\"bb_tag\" >Features at the moment</h2>Based on a handcrafted C++ engine, Pixelum offers you unlimited possibilities such as vast world canvas and advanced physics. Here, pixels are not just about the graphics - every pixel in a special multilayered canvas has its own function and can be interacted in one way or another. <br>Pushing forward the 2D survival sandbox genre, Pixelum brings you deeper immersion with game environment.<br>Survive as long as you can in Survival mode.<br><ul class=\"bb_ul\"><li>A procedurally generated 2D world<br></li><li>Particle and rigid body physics<br></li><li>Multilayered pixel canvas<br></li><li>Fully destructible terrain<br></li><li>3 Biomes (forest, arctic, desert)<br></li><li>Crafting and building<br></li><li>Skills and Levels<br></li><li>NPCs<br></li><li>FMOD sound system with reverb, ray-tracing and spatial attenuation<br></li><li>Dynamic environment with day-night cycles.<br>This list will get longer over time, because I have got tons of different ideas on which we are working really hard at the moment.</li></ul>",
+        "short_description": "Pixelum is a whole world made up entirely from interactive pixels. Explore procedurally generated sandbox with advanced physics. Dig and mine, fight mobs, build bases, craft items, and progress throughout the pixel canvas!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/4a054a524bde9a6380d2bf826bf019d0f8b4fb2e/header.jpg?t=1758877966",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/5df8688e974107a7c0917ee28e04c665637e4548/capsule_231x87.jpg?t=1758877966",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/5df8688e974107a7c0917ee28e04c665637e4548/capsule_184x69.jpg?t=1758877966",
+        "website": "http://pixelum.net",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows XP 64-bit<br></li><li><strong>Processor:</strong> 1.6GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 128mb<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Dual Core 3.0 GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 256mb<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 8 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Pixelum content and materials are copyrights of its author(s) (excluding 3rd party libraries and frameworks)",
+        "developers": [
+          "ZXC Games"
+        ],
+        "publishers": [
+          "ZXC Games"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_b8b563f0cc993714da623549635bd8a093613257.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_b8b563f0cc993714da623549635bd8a093613257.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_018a5cdf964b8e25c72155d1b272da70fb154056.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_018a5cdf964b8e25c72155d1b272da70fb154056.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_afd15a1e7ae0ae9d675c30d278d9aa74b97ac5aa.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_afd15a1e7ae0ae9d675c30d278d9aa74b97ac5aa.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e9051ce9d902347615d42b93e9315c51e62f78e5.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e9051ce9d902347615d42b93e9315c51e62f78e5.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e64e7a9e693fda253218525a0aec33d8ede38869.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e64e7a9e693fda253218525a0aec33d8ede38869.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e0bfb5092838ebbb98846c771352d4ed4fd74a42.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_e0bfb5092838ebbb98846c771352d4ed4fd74a42.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_db1d87168afc73c58c14558a9382302a228bac63.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_db1d87168afc73c58c14558a9382302a228bac63.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_eede60b7d3784de458c70502cd89383ec1650104.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_eede60b7d3784de458c70502cd89383ec1650104.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_83c4101b21c1f378383061302cf21341f0df0dee.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_83c4101b21c1f378383061302cf21341f0df0dee.1920x1080.jpg?t=1758877966"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_a4f363a80e2e9aa83386367b228872edc99f9d22.600x338.jpg?t=1758877966",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/ss_a4f363a80e2e9aa83386367b228872edc99f9d22.1920x1080.jpg?t=1758877966"
+          }
+        ],
+        "movies": [
+          {
+            "id": 256764764,
+            "name": "Pixelum Early Access Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256764764/movie.293x165.jpg?t=1571305367",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/668600/248322/6ad36638efb6e776c1540cd991f68f7408d5955c/1751128613/dash_av1.mpd?t=1571305367",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/668600/248322/6ad36638efb6e776c1540cd991f68f7408d5955c/1751128613/dash_h264.mpd?t=1571305367",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/668600/248322/6ad36638efb6e776c1540cd991f68f7408d5955c/1751128613/hls_264_master.m3u8?t=1571305367",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "support@pixelum.net"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/668600?t=1758877966",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668600/page_bg_raw.jpg?t=1758877966",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating": "l",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "requested_at": "2026-09-12T15:40:25.231941+00:00",
+  "request_params": {
+    "appids": 3590770,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3590770,
+  "payload": {
+    "3590770": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Dimwood",
+        "steam_appid": 3590770,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Dimwood is a roguelike deck builder with unique modal cards, every battle is a puzzle where every card can affect the next.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/f7ffc78f18a280d2cf7578c3eab88e22.poster.avif?t=1788668268\" width=579 height=174 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/f7ffc78f18a280d2cf7578c3eab88e22.webm?t=1788668268\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Cards are written with strings of 'pips' that can deal damage, reinforce your block, or even change the mode of every other card in the battle. Pips can be moved, shuffled, inverted, or transformed into other pips, making cards into something new entirely!  <br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/78e52a2845a879a007664078b7d89bd2.poster.avif?t=1788668268\" width=504 height=264 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/78e52a2845a879a007664078b7d89bd2.webm?t=1788668268\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Venture into the Dimwood, an odd colorless forest that's hidden from the sky, and defeat the Beast at its heart. Learn to combine pips, cards, and artifacts to overcome fearsome enemies in tactical turn-based combat.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Play as three unique archetypes with different styles of deckbuilding, the Ranger, the Tactician, and the Druid!</p></li><li><p class=\"bb_paragraph\" >Discover and unlock over 400 different cards!</p></li><li><p class=\"bb_paragraph\" >Battle over 30 different enemies and fill your Bestiary!</p></li><li><p class=\"bb_paragraph\" >Defeat the Beast at the heart of the Dimwood and unlock 20 difficulty modifying descensions!</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Dimwood is a roguelike deck builder with unique modal cards, every battle is a puzzle where every card can affect the next.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/f7ffc78f18a280d2cf7578c3eab88e22.poster.avif?t=1788668268\" width=579 height=174 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/f7ffc78f18a280d2cf7578c3eab88e22.webm?t=1788668268\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Cards are written with strings of 'pips' that can deal damage, reinforce your block, or even change the mode of every other card in the battle. Pips can be moved, shuffled, inverted, or transformed into other pips, making cards into something new entirely!  <br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/78e52a2845a879a007664078b7d89bd2.poster.avif?t=1788668268\" width=504 height=264 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/extras/78e52a2845a879a007664078b7d89bd2.webm?t=1788668268\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Venture into the Dimwood, an odd colorless forest that's hidden from the sky, and defeat the Beast at its heart. Learn to combine pips, cards, and artifacts to overcome fearsome enemies in tactical turn-based combat.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Play as three unique archetypes with different styles of deckbuilding, the Ranger, the Tactician, and the Druid!</p></li><li><p class=\"bb_paragraph\" >Discover and unlock over 400 different cards!</p></li><li><p class=\"bb_paragraph\" >Battle over 30 different enemies and fill your Bestiary!</p></li><li><p class=\"bb_paragraph\" >Defeat the Beast at the heart of the Dimwood and unlock 20 difficulty modifying descensions!</p></li></ul>",
+        "short_description": "A roguelike deck builder where you venture into the Dimwood, armed with unique modal cards. Rendered in dense 1-Bit pixel art, carefully build your deck and modify your cards to balance offense and utility. Battle your way past increasingly fearsome enemies and defeat the Beast at its heart.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/a7e627cb53b611c0d28fe6cc309431d0fffa9bd5/header.jpg?t=1788668268",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/63f078fa1e6425c3412879348f59b7e228c81a64/capsule_231x87.jpg?t=1788668268",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/63f078fa1e6425c3412879348f59b7e228c81a64/capsule_184x69.jpg?t=1788668268",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 2.1 compatible graphics card, integrated graphics<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Inkspun LLC"
+        ],
+        "publishers": [
+          "Inkspun LLC"
+        ],
+        "demos": [
+          {
+            "appid": 3681210,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "packages": [
+          1266575
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Dimwood",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1266575,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Dimwood - $14.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/12c53958018a0630615cd0e89773533801a134c8/ss_12c53958018a0630615cd0e89773533801a134c8.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/12c53958018a0630615cd0e89773533801a134c8/ss_12c53958018a0630615cd0e89773533801a134c8.1920x1080.jpg?t=1788668268"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/e7c0860be05de0c2daa4e593be5f192b17d968ae/ss_e7c0860be05de0c2daa4e593be5f192b17d968ae.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/e7c0860be05de0c2daa4e593be5f192b17d968ae/ss_e7c0860be05de0c2daa4e593be5f192b17d968ae.1920x1080.jpg?t=1788668268"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/f2dff351d82852b602ce7e45d11cb7b7ae3ad14d/ss_f2dff351d82852b602ce7e45d11cb7b7ae3ad14d.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/f2dff351d82852b602ce7e45d11cb7b7ae3ad14d/ss_f2dff351d82852b602ce7e45d11cb7b7ae3ad14d.1920x1080.jpg?t=1788668268"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/2f86c4c54efbdb0be5ca7de25a5e8d3fd75d3ca4/ss_2f86c4c54efbdb0be5ca7de25a5e8d3fd75d3ca4.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/2f86c4c54efbdb0be5ca7de25a5e8d3fd75d3ca4/ss_2f86c4c54efbdb0be5ca7de25a5e8d3fd75d3ca4.1920x1080.jpg?t=1788668268"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/757c358bc23023557bf2e151eefed0f31078e922/ss_757c358bc23023557bf2e151eefed0f31078e922.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/757c358bc23023557bf2e151eefed0f31078e922/ss_757c358bc23023557bf2e151eefed0f31078e922.1920x1080.jpg?t=1788668268"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/808b2309ea43062641604f9cf235847f11ccde52/ss_808b2309ea43062641604f9cf235847f11ccde52.600x338.jpg?t=1788668268",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/808b2309ea43062641604f9cf235847f11ccde52/ss_808b2309ea43062641604f9cf235847f11ccde52.1920x1080.jpg?t=1788668268"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257119738,
+            "name": "Release Date Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257119738/66e938da6c3c9689f98f3ad06cfd1926dd8043fe/movie_600x337.jpg?t=1756267870",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3590770/615613200/9752ecce6fb988de498a0fb31ec29fd5dfe8f910/1756252688/dash_av1.mpd?t=1756267870",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3590770/615613200/9752ecce6fb988de498a0fb31ec29fd5dfe8f910/1756252688/dash_h264.mpd?t=1756267870",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3590770/615613200/9752ecce6fb988de498a0fb31ec29fd5dfe8f910/1756252688/hls_264_master.m3u8?t=1756267870",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 88,
+          "highlighted": [
+            {
+              "icon": "e83e3d44b6eadf112a352b044a2cff216635a778.jpg",
+              "localized_name": "Peace",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Peace",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/e83e3d44b6eadf112a352b044a2cff216635a778.jpg"
+            },
+            {
+              "icon": "5dd49a7912bbedaa3a833ca70e376340856dd525.jpg",
+              "localized_name": "Librarian",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Librarian",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/5dd49a7912bbedaa3a833ca70e376340856dd525.jpg"
+            },
+            {
+              "icon": "46dd70507a901b64d7389c18bdf974314062baed.jpg",
+              "localized_name": "Experienced",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Experienced",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/46dd70507a901b64d7389c18bdf974314062baed.jpg"
+            },
+            {
+              "icon": "5d12acde478b25ae0f083b4acf9262a3491f76ce.jpg",
+              "localized_name": "Treasure Hunter",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Treasure Hunter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/5d12acde478b25ae0f083b4acf9262a3491f76ce.jpg"
+            },
+            {
+              "icon": "a7f047888fc1800f44902708b24a78fb293bab87.jpg",
+              "localized_name": "Monster Manual",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Monster Manual",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/a7f047888fc1800f44902708b24a78fb293bab87.jpg"
+            },
+            {
+              "icon": "210d807bddf442dd25f62e0b6664b6b82fa21063.jpg",
+              "localized_name": "Everybody's Here",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Everybody's Here",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/210d807bddf442dd25f62e0b6664b6b82fa21063.jpg"
+            },
+            {
+              "icon": "400b3304bd55d35a8f2a0007de1371ad26ab29a6.jpg",
+              "localized_name": "Halfway",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Halfway",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/400b3304bd55d35a8f2a0007de1371ad26ab29a6.jpg"
+            },
+            {
+              "icon": "5787d53c8edcc4ae49c4aba3451de413c5a0c076.jpg",
+              "localized_name": "The Dimwood Trembles",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Dimwood Trembles",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/5787d53c8edcc4ae49c4aba3451de413c5a0c076.jpg"
+            },
+            {
+              "icon": "d771124b2229485beb7dae9158780a7e1f11fd55.jpg",
+              "localized_name": "The Dimwood Quakes Apart",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Dimwood Quakes Apart",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/d771124b2229485beb7dae9158780a7e1f11fd55.jpg"
+            },
+            {
+              "icon": "ae5fee6774f8c8e941356df45e1f0812aac3b9fb.jpg",
+              "localized_name": "It Can Be Slain",
+              "archived": 0,
+              "hidden": 0,
+              "name": "It Can Be Slain",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3590770/ae5fee6774f8c8e941356df45e1f0812aac3b9fb.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "inkspunsocial@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3590770?t=1788668268",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590770/371db27b0348caa138a17d6daa8ef9ee22941814/page_bg_raw.jpg?t=1788668268",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nHoror\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

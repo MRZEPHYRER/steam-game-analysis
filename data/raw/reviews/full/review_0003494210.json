@@ -1,0 +1,66 @@
+{
+  "appid": 3494210,
+  "requested_at": "2026-09-13T19:18:59.964585+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 35,
+      "total_negative": 6,
+      "total_reviews": 41
+    },
+    "reviews": [
+      {
+        "recommendationid": "208024093",
+        "author": {
+          "steamid": "76561198043873302",
+          "personaname": "RockoTrex",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/rockoxx/",
+          "num_games_owned": 9714,
+          "num_reviews": 407,
+          "playtime_forever": 68,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 68,
+          "last_played": 1761614893,
+          "avatar": "bd84419a151d97b0ec16ded01452767ca0872415"
+        },
+        "language": "english",
+        "review": "Just like the first one, it's fine. I like that there's more \"skill\" needed with the weapons, because you need to aim to shoot, and these are pretty different from each other. I also like that there's fewer but more significant upgrades during runs, as they change a lot.\nSadly, everything else is just meh, you still end up with full build at the middle of the runs, the permanent upgrades are by pretty low % but very costly, and the unlocks are now by how many times you finish a run.\nStill fun I guess, but these decisions make it less interesting to play more than a few runs.\n\nEsp: Al igual que el primero, está bien. Me gusta que se requiera más \"habilidad\" con las armas al tener que apuntar para disparar obligatoriamente, y estas son bastante diferentes entre sí. También me gusta que haya menos mejoras pero más significativas durante las partidas, ya que cambian bastante.\nLamentablemente, todo lo demás es meh, sigues terminando la build a mitad de las partidas, las mejoras permanentes son por porcentaje bastante bajos y muy costosas, y ahora los desbloqueos dependen de cuantas veces terminas la run.\nSigue siendo entretenido supongo, pero estas decisiones hacen que sea menos interesante jugar más de un par partidas.",
+        "timestamp_created": 1761892366,
+        "timestamp_updated": 1761892366,
+        "voted_up": true,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.693247139453887939",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761551681",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWIpOAAAAAFP+YvFGAAAAB9ocaZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

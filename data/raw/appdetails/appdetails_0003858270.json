@@ -1,0 +1,269 @@
+{
+  "requested_at": "2026-09-12T17:24:55.970681+00:00",
+  "request_params": {
+    "appids": 3858270,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3858270,
+  "payload": {
+    "3858270": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Poligons",
+        "steam_appid": 3858270,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Think fast and attack your enemies with your similar forms.</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/extras/382f35c33484c082a3f10ea27026d147.avif?t=1754072234\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/extras_big/382f35c33484c082a3f10ea27026d147.avif?t=1754072234 width=800 height=313 /></span></p><p class=\"bb_paragraph\" >Enemies can only be hit by their same forms, but be aware that some forms can change this.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Think fast and attack your enemies with your similar forms.</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/extras/382f35c33484c082a3f10ea27026d147.avif?t=1754072234\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/extras_big/382f35c33484c082a3f10ea27026d147.avif?t=1754072234 width=800 height=313 /></span></p><p class=\"bb_paragraph\" >Enemies can only be hit by their same forms, but be aware that some forms can change this.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Poligons is a strategy game, tower defense style and roguelike. Defend your Crystal from enemies, buy upgrades and fight bosses to complete the levels, unlock new Crystals with different units and abilities.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/b88295acf582f06d5848a5847bcb4fb6843b4d79/header.jpg?t=1754072234",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/acbf5d9046398237865b4e4ba572d9cb15710646/capsule_231x87.jpg?t=1754072234",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/acbf5d9046398237865b4e4ba572d9cb15710646/capsule_184x69.jpg?t=1754072234",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz (1.20 GHz)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz (1.20 GHz)<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Vespa Nera"
+        ],
+        "publishers": [
+          "Vespa Nera"
+        ],
+        "demos": [
+          {
+            "appid": 3896880,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 100,
+          "final": 100,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.00"
+        },
+        "packages": [
+          1356453
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Poligons",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1356453,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Poligons - $1.00",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 100
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/a9210653d26a512baf7aba34e33f29b2d16cca45/ss_a9210653d26a512baf7aba34e33f29b2d16cca45.600x338.jpg?t=1754072234",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/a9210653d26a512baf7aba34e33f29b2d16cca45/ss_a9210653d26a512baf7aba34e33f29b2d16cca45.1920x1080.jpg?t=1754072234"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/0bab7e110f31d2b9474e776c2d74d2a0b8cde0f7/ss_0bab7e110f31d2b9474e776c2d74d2a0b8cde0f7.600x338.jpg?t=1754072234",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/0bab7e110f31d2b9474e776c2d74d2a0b8cde0f7/ss_0bab7e110f31d2b9474e776c2d74d2a0b8cde0f7.1920x1080.jpg?t=1754072234"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/d04bca695c2335fc91a7b80fae2b6b3738ab86f7/ss_d04bca695c2335fc91a7b80fae2b6b3738ab86f7.600x338.jpg?t=1754072234",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/d04bca695c2335fc91a7b80fae2b6b3738ab86f7/ss_d04bca695c2335fc91a7b80fae2b6b3738ab86f7.1920x1080.jpg?t=1754072234"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/fa7c02975075d15a65233c4b63d04f965919b346/ss_fa7c02975075d15a65233c4b63d04f965919b346.600x338.jpg?t=1754072234",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/fa7c02975075d15a65233c4b63d04f965919b346/ss_fa7c02975075d15a65233c4b63d04f965919b346.1920x1080.jpg?t=1754072234"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/227e14013676253b2d952e84db3da2b79a9f2c70/ss_227e14013676253b2d952e84db3da2b79a9f2c70.600x338.jpg?t=1754072234",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/227e14013676253b2d952e84db3da2b79a9f2c70/ss_227e14013676253b2d952e84db3da2b79a9f2c70.1920x1080.jpg?t=1754072234"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257168329,
+            "name": "Poligons",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257168329/9f690100c50b5ffc980fca507eaa84b3462ef143/movie_600x337.jpg?t=1752558867",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3858270/971517701/ff5664817d89fdeb6f95927bed04e71e181b49a5/1752398239/dash_av1.mpd?t=1752558867",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3858270/971517701/ff5664817d89fdeb6f95927bed04e71e181b49a5/1752398239/dash_h264.mpd?t=1752558867",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3858270/971517701/ff5664817d89fdeb6f95927bed04e71e181b49a5/1752398239/hls_264_master.m3u8?t=1752558867",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "2f3eb6a191e86f83bf03b69a1a3963227bec92ff.jpg",
+              "localized_name": "First Steps",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Steps",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3858270/2f3eb6a191e86f83bf03b69a1a3963227bec92ff.jpg"
+            },
+            {
+              "icon": "69b8385885c2ba3d1dab86a3d4bfa3eb56abcfc8.jpg",
+              "localized_name": "Full Power",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Full Power",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3858270/69b8385885c2ba3d1dab86a3d4bfa3eb56abcfc8.jpg"
+            },
+            {
+              "icon": "313bcbd6b9b7ea1a0d75cce6458184c56dd5472f.jpg",
+              "localized_name": "Yes More Life",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Yes More Life",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3858270/313bcbd6b9b7ea1a0d75cce6458184c56dd5472f.jpg"
+            },
+            {
+              "icon": "b9984c398bb4d34ed57ee68683e0b2b2e55b29bc.jpg",
+              "localized_name": "Make The World Burn",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Make The World Burn",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3858270/b9984c398bb4d34ed57ee68683e0b2b2e55b29bc.jpg"
+            },
+            {
+              "icon": "6c80178bca5f2bb664549478284ad23327708fab.jpg",
+              "localized_name": "The One and Only",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The One and Only",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3858270/6c80178bca5f2bb664549478284ad23327708fab.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 1, 2025"
+        },
+        "support_info": {
+          "url": "https://vespanera.itch.io/",
+          "email": "Vespanerasabioni@hotmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3858270?t=1754072234",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3858270/82d008177044aa8544cd9ae130378bba1fd85c95/page_bg_raw.jpg?t=1754072234",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "esrb": {
+            "rating": "t"
+          },
+          "pegi": {
+            "rating": "12"
+          },
+          "bbfc": {
+            "rating": "12A"
+          },
+          "cero": {
+            "rating": "b"
+          },
+          "agcom": {
+            "rating": "12"
+          },
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

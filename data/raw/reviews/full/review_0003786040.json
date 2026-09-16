@@ -1,0 +1,66 @@
+{
+  "appid": 3786040,
+  "requested_at": "2026-09-13T19:39:47.644821+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 8,
+      "total_negative": 8,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "208061479",
+        "author": {
+          "steamid": "76561198002079739",
+          "personaname": "Cyngi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Cyngi/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1761882666,
+          "avatar": "50aece216539d6e934bb55ffe639d3e6d72d03b1"
+        },
+        "language": "english",
+        "review": "Where to start with this game...  The takeaway is that it feels like a student project.  It could well have been a student project.  There are various annoyances with the gameplay itself that lend to a very exhaustive loop of cleaning stains and gathering trash, as well as an overly simplistic loop of offering movie goers popcorn and \"soda.\" \n\nThere are hamfisted 'scares' that are very signposted and fail to meet their mark.  The models of the game have an air of ai generation: being polygonal, having a very blurry muddy detail quality, and the telltale signs of spacial unawareness.  There are bits on the objects that make no sense, NPC faces are weird and sport facial features that make no sense, etc.\n\nThis game is not worth 6 dollars.  It's at most worth a buck, but I wish I'd paid nothing for it.  Buy it at your own risk.",
+        "timestamp_created": 1761929512,
+        "timestamp_updated": 1761929545,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.518518567085266113",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756659485",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZoS8AAAAAFP+CXtSAAAAB3wtiZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

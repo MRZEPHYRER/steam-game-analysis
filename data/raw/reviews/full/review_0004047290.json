@@ -1,0 +1,68 @@
+{
+  "appid": 4047290,
+  "requested_at": "2026-09-13T20:15:10.459261+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "228571137",
+        "author": {
+          "steamid": "76561198412686090",
+          "personaname": "呲呲CCCCiici",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198412686090/",
+          "num_games_owned": 143,
+          "num_reviews": 7,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1782149363,
+          "avatar": "e1848000e79a43fccd7b40217b386fd2c23835a3"
+        },
+        "language": "schinese",
+        "review": "游戏目标不明确，不知道应该干什么\n基地引导不清楚，boss房，下地图的地方，和一些功能区域\n枪械弹药补给不清晰，可以加一个新手教程之类的，\n攻击和受击反馈不明显，可以加一个伤害显示或者音效\n不能调整灵敏度\n游戏简介里面的晶石和击杀bot来增加金钱这个可以在游戏里面再体现出来，\n枪械优势区和近战效果看不出来",
+        "timestamp_created": 1782138412,
+        "timestamp_updated": 1782138412,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1782147712,
+        "developer_response": "感谢指出的问题 这对我非常有帮助 目前技术能力不足 会持续改进 感谢游玩！",
+        "app_release_date": "1760082319",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABxgPfnBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

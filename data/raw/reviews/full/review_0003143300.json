@@ -1,0 +1,79 @@
+{
+  "appid": 3143300,
+  "requested_at": "2026-09-13T19:05:13.450457+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 80,
+      "total_negative": 1,
+      "total_reviews": 81
+    },
+    "reviews": [
+      {
+        "recommendationid": "215767287",
+        "author": {
+          "steamid": "76561198994588402",
+          "personaname": "MaxKingL",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/MaxKingL/",
+          "num_games_owned": 307,
+          "num_reviews": 27,
+          "playtime_forever": 1882,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1881,
+          "last_played": 1771579923,
+          "avatar": "b8ad1c70008298c51dc9cd9058576c3bd5663fbb"
+        },
+        "language": "schinese",
+        "review": "新的一年了，我还在半夜看着甜甜的日常哭泣，到头来我还是无法把我自己带入进去，因为我的现实的经历过于荒谬于不堪，才会让我看到幸福的日常而哭泣。这是我的问题，并不是游戏的问题，祝愿每一位同志们都可以在未来实现这样的日常",
+        "timestamp_created": 1768157238,
+        "timestamp_updated": 1768157238,
+        "voted_up": true,
+        "votes_up": 40,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.82554394006729126",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762804518",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 3
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTfTcAAAAAFP+pq20AAAAB3j4u3Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

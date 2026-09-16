@@ -1,0 +1,88 @@
+{
+  "appid": 3604260,
+  "requested_at": "2026-09-13T19:25:21.957619+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 79,
+      "total_negative": 28,
+      "total_reviews": 107
+    },
+    "reviews": [
+      {
+        "recommendationid": "212873698",
+        "author": {
+          "steamid": "76561198067112561",
+          "personaname": "MySoulToTake",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198067112561/",
+          "num_games_owned": 0,
+          "num_reviews": 436,
+          "playtime_forever": 30,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "deck_playtime_at_review": 5,
+          "last_played": 1782761624,
+          "avatar": "9e387fac9f91205fb97b08d37e7acf1b049ff79a"
+        },
+        "language": "english",
+        "review": "The lack of a fish-eye effect toggle is a huge letdown in an otherwise amazing game.\nI purchased this game after waiting a long time, hoping that accessibility options like these would be present, especially since I had previously asked the developer about them. Effects such as fish-eye distortion, head bobbing, and extreme flashing lights are known to trigger epilepsy and other visual sensitivities. I genuinely cannot understand when developers fail to include toggles for these effects.\nA toggle doesn’t mean turning off these features for everyone—it simply allows players who cannot handle them to enjoy the game safely. Unfortunately, this absence is a dealbreaker for me. My playtime was very short, as the effects nearly made me physically ill within the first minutes.\nThat said, I do appreciate that the head bob can be toggled, which is a nice touch. The game itself is awesome, but ill be asking for a refund, since most devs do not care about this kind of feedback. \nHowever, my review is specifically for those who, like me, cannot deal with these intense visual effects. This is a common issue in the Backrooms genre, and one that many developers seem to overlook.\nI hope a toggle is added in the future. I also hope the developer doesn’t take this personally—my critique is not about the quality of the game, but about a basic accessibility feature that should be standard. These two simple options can make the game playable for a much wider audience.",
+        "timestamp_created": 1765227469,
+        "timestamp_updated": 1765301814,
+        "voted_up": false,
+        "votes_up": 67,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.784945428371429443",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1765224045",
+        "reactions": [
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          },
+          {
+            "reaction_type": 8,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUTR0AAAAAFP+keOGAAAABynoasBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.313000000000102,
+  "transport_error_count": 0
+}

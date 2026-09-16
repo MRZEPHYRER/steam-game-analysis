@@ -1,0 +1,66 @@
+{
+  "appid": 3907270,
+  "requested_at": "2026-09-13T19:58:07.037538+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "209644172",
+        "author": {
+          "steamid": "76561198054614820",
+          "personaname": "silco",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198054614820/",
+          "num_games_owned": 0,
+          "num_reviews": 66,
+          "playtime_forever": 660,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 660,
+          "last_played": 1763660549,
+          "avatar": "b33865d937292e270935bd64f4b630d3ef13006a"
+        },
+        "language": "japanese",
+        "review": "トロコンしました。\n\n不満点はあります。\n過去作と比べて迷路が複雑だったり、属性チェンジのシステムが疲れやすかったり、オート戦闘だとMPがすぐ尽きたり。\n\nでも、そんな些細なことがどうでもよくなるくらいストーリーが面白い。\nミステリアスな展開を随所に挟んできて、プレイヤーの興味を惹くのが本当に上手い。\nあんまりネタバレをしたくないので伏せて書きますが、人間の心の「ある側面から見ると美しいが、ある側面から見ると醜い」みたいなのが上手く表現されてるなって思います。\n\n考察系という触れ込みですが、ストーリーの根幹部分はプレイヤーに投げっぱなしではなく、ちゃんと教えてくれます。\n是非全てのアーカイブを集めて「最終反省会」を見てください。",
+        "timestamp_created": 1763582135,
+        "timestamp_updated": 1763626789,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.590455591678619385",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763560380",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYMN2AAAAAFP+LlBAAAAAB8qN2fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4023900,
+  "requested_at": "2026-09-13T20:12:42.237251+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 1,
+      "total_negative": 3,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208455572",
+        "author": {
+          "steamid": "76561198092129375",
+          "personaname": "Johnny GhostWiz YT",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/johnnyghostwiz/",
+          "num_games_owned": 603,
+          "num_reviews": 808,
+          "playtime_forever": 121,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 121,
+          "last_played": 1762324952,
+          "avatar": "b37ba983cf748801af95ba5d743e5716daaef39e"
+        },
+        "language": "english",
+        "review": "Just beat the game. A magnificent realistic horror game where you are stalked by a fleshy spider alien, big giant alien & a surprise alien at the end which amazed me. Its the perfect follow up to the 1st game, sup super trippy visuals, mysteries alien structure bone caverns, sonic boots & many funny and bloody cool moments. Absolutely love 1st & 2nd chapter, gotta say 1st still my fav just cus i loved the alien ufo vibe but this one has a bit more content than the 1st and a bigger level to explore, 10/10 experience!",
+        "timestamp_created": 1762325259,
+        "timestamp_updated": 1762325259,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761896540",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB0+ZibBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,91 @@
+{
+  "appid": 1330360,
+  "requested_at": "2026-09-13T18:42:36.546062+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 242,
+      "total_negative": 167,
+      "total_reviews": 409
+    },
+    "reviews": [
+      {
+        "recommendationid": "211848282",
+        "author": {
+          "steamid": "76561198133064279",
+          "personaname": "Waffles",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198133064279/",
+          "num_games_owned": 0,
+          "num_reviews": 14,
+          "playtime_forever": 1312,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 779,
+          "last_played": 1772345312,
+          "avatar": "ba86e4a3e8568a9d2c227b046b9970f7c0454ca5"
+        },
+        "language": "english",
+        "review": "I paid about $18 for this game after applying a gift card, and honestly… even then it wasn’t worth it. This is a $10 game at best. \n\nI’m a huge Black & White fan and have been hunting for a modern god game with three core features: ability to directly support villagers via miracles and foraging (bonus if I can assign jobs), a clear God vs. God combat system, and village building. \n\n1. The game technically lets you “cast miracles,” but the impact is shallow. You can increase/decrease villager's energy, production, health, population, but that's it. The few one-shot spells that add resources are exactly that: one-shot. Use them once, and they’re gone forever. You can hand-deliver trees or food, but that’s the extent of your divine influence. You can't even  bring stone which is a major building component. If you’re hoping for the hands-on miracles of B&W, you won’t find it here.\n\n2. Combat is basically nonexistent. There’s a “loot” feature where villagers can raid someone else’s village, but that’s it. No dramatic army or creature battles, no destroying enemy temples, nothing resembling the godly clashes that made B&W so fun. There is a fireball spell, but it’s weak and unsatisfying. Also super annoyingly, if you try casting an area healing spell on your dudes, it will also heal the enemy. Same goes for destruction spells also targeting your people. The fighters all look the same, so the only way to know who is who is by hovering and looking for what village they are from.\n\n3. The building is the one aspect that’s okay, but still clunky. The buildings need far clearer explanations, this is especially true with city buildings, where suddenly there's production chains. Super weird choice considering there's no way to directly support resource production/gathering, and as far as I can tell a village isn't ever promoted into a city, so you just suddenly have a city in the middle of the map, and no tutorial explanation about anything city related.. Without understanding production chains, it’s easy to build in the wrong order. Some villages can’t produce stone, a crucial material, meaning you must rely on trades, and the trade system feels awkward. Only certain villages trade with each other, so you end up creating multi-stop trade routes that take 2+ in-game days to complete. Functional, but frustrating.\n\nI pushed through an entire playthrough just to see if the enemy god eventually dies. Spoiler: they don’t. And after everything, I still can’t recommend this game, not at this price, not in its current state. I do think it has potential to become a really good game, but it needs a significant amount of work.\n\n*edit* You can cast lightning on rocks and it will harvest them, but it still counts as an evil type spell.",
+        "timestamp_created": 1764496754,
+        "timestamp_updated": 1765132945,
+        "voted_up": false,
+        "votes_up": 168,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.93342059850692749",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757941213",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 11
+          },
+          {
+            "reaction_type": 30,
+            "count": 3
+          },
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 34,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 7
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRVOKAAAAAFP+3elcAAAAB6xZGoBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

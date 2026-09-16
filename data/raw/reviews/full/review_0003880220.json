@@ -1,0 +1,66 @@
+{
+  "appid": 3880220,
+  "requested_at": "2026-09-13T19:54:12.197232+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 15,
+      "total_negative": 4,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "234554192",
+        "author": {
+          "steamid": "76561198043693378",
+          "personaname": "Muckelchen",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/zockerx96/",
+          "num_games_owned": 1773,
+          "num_reviews": 1977,
+          "playtime_forever": 142,
+          "playtime_last_two_weeks": 142,
+          "playtime_at_review": 142,
+          "last_played": 1788695871,
+          "avatar": "d3a685fbe9e22bc355c4a55f5320298cdbc4fadf"
+        },
+        "language": "english",
+        "review": "Decent little horror game. It's just a bit short with a playtime of 20-30 min.\nI was missing a note for an achievement and a dev instantly help me find it after asking him. Very nice.",
+        "timestamp_created": 1788632330,
+        "timestamp_updated": 1788632330,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.559310197830200195",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756918833",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY0FUAAAAAFP+Hl3iAAAABwteD+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1090000000003783,
+  "transport_error_count": 0
+}

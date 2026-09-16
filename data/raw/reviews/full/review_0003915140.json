@@ -1,0 +1,79 @@
+{
+  "appid": 3915140,
+  "requested_at": "2026-09-13T19:59:08.323897+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 417,
+      "total_negative": 13,
+      "total_reviews": 430
+    },
+    "reviews": [
+      {
+        "recommendationid": "205035932",
+        "author": {
+          "steamid": "76561198075760226",
+          "personaname": "athlon_inside",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198075760226/",
+          "num_games_owned": 235,
+          "num_reviews": 2,
+          "playtime_forever": 1768,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1139,
+          "last_played": 1760199516,
+          "avatar": "8c99fa0a8cfc437c6f8a84b3ab6fb291c1c53d35"
+        },
+        "language": "japanese",
+        "review": "難易度「とても難しい」にて、おにぎりくん購入まで完了しました。\n低難易度であればのんびりカウンターで待ち、注文を受けてから握るゆったりとした遊び方ができますが、\n最高難易度だと地獄の飲食店ワンオペが始まります。\n\n朝起きてすることはまず米3升ぶんのおにぎりの仕込みです。業者かよと思いますが業者ですので間違いありません。\nフライヤーでは業務用の冷凍フライヤー商品を袋単位で揚げ続け、七輪は流れ作業で大量に焼き続け、\n飲み物も含め、仕込んだ商品はすぐ提供できるよう圧縮陳列を徹底します。\n仕込みが終わりシャッターを開くと、すぐさま殺人的な来客の嵐が襲ってきます。\n接客業における客の許されざる行動第一位「来店」を身に染みて感じられる来客の暴風も、\n処理速度が遅いとその分来客数が減って売り上げに響くので、常に店舗を駆け回りながら、\n提供と在庫確認と補充をひたすら無心で繰り返します。\nそして無限とも一瞬とも思える営業時間を乗り切った後には、\n余剰在庫と誤包装と過剰補充の製品がとっ散らかる、さながら戦場後の様相を呈しています。\nそんなバックヤードを片付けながら、明日は揚げ物の仕込みを減らそうか増やそうかなど考えつつ、\n諸々を片付け、発注した備品をしまい込み、自転車にまたがって1日が終わります。\n\nかつてのアルバイト、または本業を思い出すような地獄の体験ができるゲームでした。\n繰り返しですが、低難易度だとカウンターでのんびり客を待つチルなゲームなので、地獄と極楽どちらを求める方にもおすすめです。",
+        "timestamp_created": 1758641770,
+        "timestamp_updated": 1758641770,
+        "voted_up": true,
+        "votes_up": 74,
+        "votes_funny": 42,
+        "weighted_vote_score": "0.880687713623046875",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757041081",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSYuCAAAAAFP+wumKAAAAB8mZOOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 1194040,
+  "requested_at": "2026-09-13T18:42:07.010519+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "202423048",
+        "author": {
+          "steamid": "76561199108483605",
+          "personaname": "tekuteku",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199108483605/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 637,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 620,
+          "last_played": 1765682152,
+          "avatar": "9eda91bf674e9b27546afb6aa440cb3739b78a3c"
+        },
+        "language": "japanese",
+        "review": "【レビュー時点での全ての実績を解除済み】\r\n\r\n漢字の書かれたダイスを振って、麻雀の役名をつくっていくゲーム。\r\nダイスじゃらじゃらゲームということもあり、中毒性はかなり高くおもしろい。\r\n\r\nダイスの構成が頭に入ってくると、運の要素を抑えて戦略的に役をつくれるようになる。\r\nそこまで来れば、高得点の実績を解放するのも夢ではない。\r\n\r\nゲームモードはじっくり遊べる「１時間ほどのもの」と手軽に遊べる「５分ほどのもの」の２つが用意されている。\r\nライフスタイルに合わせて楽しめるのもよかった。\r\n\r\n「ダイスじゃらじゃら」が好きな方には特におすすめ！",
+        "timestamp_created": 1755561796,
+        "timestamp_updated": 1755561796,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753499036",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB4sJeEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0930000000000746,
+  "transport_error_count": 0
+}

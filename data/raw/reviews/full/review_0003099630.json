@@ -1,0 +1,66 @@
+{
+  "appid": 3099630,
+  "requested_at": "2026-09-13T19:03:56.697955+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 156,
+      "total_negative": 13,
+      "total_reviews": 169
+    },
+    "reviews": [
+      {
+        "recommendationid": "208646658",
+        "author": {
+          "steamid": "76561198028824481",
+          "personaname": "c3_h7",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/c3_h7/",
+          "num_games_owned": 3195,
+          "num_reviews": 907,
+          "playtime_forever": 733,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 150,
+          "last_played": 1762570859,
+          "avatar": "b36474d05e485e5bd4032c1305a2fc008e46d5f3"
+        },
+        "language": "english",
+        "review": "I've played \"real\" tennis simulators where the shot control wasn't as impressive. I didn't expect to break a sweat in a hentai tennis match; it's pretty funny.\n",
+        "timestamp_created": 1762536730,
+        "timestamp_updated": 1762536730,
+        "voted_up": true,
+        "votes_up": 35,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.797648310661315918",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762509718",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUDAsAAAAAFP+mGVSAAAAByoPabBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

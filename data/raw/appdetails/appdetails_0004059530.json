@@ -1,0 +1,289 @@
+{
+  "requested_at": "2026-09-13T06:41:42.013719+00:00",
+  "request_params": {
+    "appids": 4059530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4059530,
+  "payload": {
+    "4059530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "即时象棋：旧棋新弈 Hyper Chinese Chess",
+        "steam_appid": 4059530,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4059540
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Tired of traditional Chinese Chess? <i>HyperChineseChess: Real-Time Battle – A Classic Reborn</i> offers a fresh take! Face off against AI or challenge friends in real-time chess warfare. For extra thrills, try the Fog of War mode—where hidden moves intensify the clash!</p><p class=\"bb_paragraph\" ><strong>In traditional Chinese Chess, players should obey the rules below.</strong></p><p class=\"bb_paragraph\" >The board consists of 9 horizontal and 10 vertical lines, divided by a &quot;River&quot; in the middle. Each side has a &quot;Palace&quot; (3×3 square with diagonal lines) at the center of the baseline.</p><p class=\"bb_paragraph\" >32 pieces in total (16 per side): 将/帅 (General/King) ×1, 士 (Advisors) ×2, 相/象 (Elephants) ×2, 马 (Horses) ×2, 车 (Chariots) ×2, 炮 (Cannons) ×2, 兵/卒 (Soldiers/Pawns) ×5.</p><p class=\"bb_paragraph\" ><i>Red moves first, players alternate turns. Soldiers/Pawns cannot move backward.</i></p><p class=\"bb_paragraph\" >The General (Black) or King (Red) is the core piece and can only move one square at a time (horizontally or vertically) within the Palace (3×3 grid). </p><p class=\"bb_paragraph\" >Advisors move one square diagonally per turn and are confined to the Palace. They cannot step outside the Palace or move orthogonally.</p><p class=\"bb_paragraph\" >Horses move like knights in chess (one square straight + one square diagonal). If the adjacent square in the initial direction is occupied (&quot;hobbling the horse's leg&quot;), the move is blocked.</p><p class=\"bb_paragraph\" >Chariots move any number of squares horizontally or vertically (like a rook in chess), but cannot jump over pieces.</p><p class=\"bb_paragraph\" >Cannons move like Chariots, but to capture, they must jump over exactly one intervening piece (called a &quot;screen&quot;). Without a screen, they cannot attack.</p><p class=\"bb_paragraph\" >Soldiers move one square forward before crossing the River. After crossing, they can move sideways or forward, but never backward.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>And this dynamic variant transforms traditional Chinese chess into an exciting real-time strategy game.</strong> </p><p class=\"bb_paragraph\" >Players compete not in turns, but through continuous action point management. Each player gains 1 action point (AP) every second, stored up to a maximum of 4 AP. Every piece movement costs 1 AP, creating strategic decisions about when to save points and when to execute rapid maneuvers.</p><p class=\"bb_paragraph\" >The core objective remains unchanged - checkmate the opponent's General. However, the real-time element introduces thrilling new dynamics. Players might choose to immediately spend AP on aggressive moves, or strategically save points for powerful combinations. The Cannon becomes particularly deadly when players accumulate enough AP to move and fire in quick succession.</p><p class=\"bb_paragraph\" >All traditional movement rules apply: Generals stay within their palaces, Horses jump in L-shapes (unless blocked), Chariots roam freely, and Cannons require screens for captures. Soldiers gain mobility after crossing the river, but still cannot retreat. The key innovation is that players may move any piece at any time when they have AP available, leading to simultaneous actions and intense tactical exchanges.</p><p class=\"bb_paragraph\" >Victory is achieved through the classic checkmate condition, but now under the pressure of real-time decision making. The AP system creates natural ebbs and flows in the game's tempo, rewarding both quick reflexes and long-term planning. Players must balance offense and defense while efficiently managing their precious action points in this fast-paced chess battle.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Tired of traditional Chinese Chess? <i>HyperChineseChess: Real-Time Battle – A Classic Reborn</i> offers a fresh take! Face off against AI or challenge friends in real-time chess warfare. For extra thrills, try the Fog of War mode—where hidden moves intensify the clash!</p><p class=\"bb_paragraph\" ><strong>In traditional Chinese Chess, players should obey the rules below.</strong></p><p class=\"bb_paragraph\" >The board consists of 9 horizontal and 10 vertical lines, divided by a &quot;River&quot; in the middle. Each side has a &quot;Palace&quot; (3×3 square with diagonal lines) at the center of the baseline.</p><p class=\"bb_paragraph\" >32 pieces in total (16 per side): 将/帅 (General/King) ×1, 士 (Advisors) ×2, 相/象 (Elephants) ×2, 马 (Horses) ×2, 车 (Chariots) ×2, 炮 (Cannons) ×2, 兵/卒 (Soldiers/Pawns) ×5.</p><p class=\"bb_paragraph\" ><i>Red moves first, players alternate turns. Soldiers/Pawns cannot move backward.</i></p><p class=\"bb_paragraph\" >The General (Black) or King (Red) is the core piece and can only move one square at a time (horizontally or vertically) within the Palace (3×3 grid). </p><p class=\"bb_paragraph\" >Advisors move one square diagonally per turn and are confined to the Palace. They cannot step outside the Palace or move orthogonally.</p><p class=\"bb_paragraph\" >Horses move like knights in chess (one square straight + one square diagonal). If the adjacent square in the initial direction is occupied (&quot;hobbling the horse's leg&quot;), the move is blocked.</p><p class=\"bb_paragraph\" >Chariots move any number of squares horizontally or vertically (like a rook in chess), but cannot jump over pieces.</p><p class=\"bb_paragraph\" >Cannons move like Chariots, but to capture, they must jump over exactly one intervening piece (called a &quot;screen&quot;). Without a screen, they cannot attack.</p><p class=\"bb_paragraph\" >Soldiers move one square forward before crossing the River. After crossing, they can move sideways or forward, but never backward.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>And this dynamic variant transforms traditional Chinese chess into an exciting real-time strategy game.</strong> </p><p class=\"bb_paragraph\" >Players compete not in turns, but through continuous action point management. Each player gains 1 action point (AP) every second, stored up to a maximum of 4 AP. Every piece movement costs 1 AP, creating strategic decisions about when to save points and when to execute rapid maneuvers.</p><p class=\"bb_paragraph\" >The core objective remains unchanged - checkmate the opponent's General. However, the real-time element introduces thrilling new dynamics. Players might choose to immediately spend AP on aggressive moves, or strategically save points for powerful combinations. The Cannon becomes particularly deadly when players accumulate enough AP to move and fire in quick succession.</p><p class=\"bb_paragraph\" >All traditional movement rules apply: Generals stay within their palaces, Horses jump in L-shapes (unless blocked), Chariots roam freely, and Cannons require screens for captures. Soldiers gain mobility after crossing the river, but still cannot retreat. The key innovation is that players may move any piece at any time when they have AP available, leading to simultaneous actions and intense tactical exchanges.</p><p class=\"bb_paragraph\" >Victory is achieved through the classic checkmate condition, but now under the pressure of real-time decision making. The AP system creates natural ebbs and flows in the game's tempo, rewarding both quick reflexes and long-term planning. Players must balance offense and defense while efficiently managing their precious action points in this fast-paced chess battle.</p>",
+        "short_description": "Turn-based play is central to Chinese Chess. HyperChineseChess removes this rule—battle AI or players in real-time, using quick thinking to win. Experience classic chess reimagined!",
+        "supported_languages": "Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/70189c0b7205d9e3f17eb1005d4d95a95d977b05/header.jpg?t=1762736148",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/4b37db381829cb42d5d6fe3682d0d2099f071406/capsule_231x87.jpg?t=1762736148",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/4b37db381829cb42d5d6fe3682d0d2099f071406/capsule_184x69.jpg?t=1762736148",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7 SP1+ (64-bit）<br></li><li><strong>Processor:</strong> Intel/AMD 2-cores 2.0 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 (64-bit）<br></li><li><strong>Processor:</strong> Intel/AMD 4-cores 3.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GT 1030<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 800 MB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "上弦月工作室AscentGames"
+        ],
+        "publishers": [
+          "上海上弦琼弧网络科技有限公司"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1423633
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 即时象棋：旧棋新弈 Hyper Chinese Chess",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1423633,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "HyperChineseChess即时象棋：旧棋新弈 - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/fe8a52cc0c113befef4c570bee33f99a2f968838/ss_fe8a52cc0c113befef4c570bee33f99a2f968838.600x338.jpg?t=1762736148",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/fe8a52cc0c113befef4c570bee33f99a2f968838/ss_fe8a52cc0c113befef4c570bee33f99a2f968838.1920x1080.jpg?t=1762736148"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/d36940a8718e60665c8785790407125671c2cc59/ss_d36940a8718e60665c8785790407125671c2cc59.600x338.jpg?t=1762736148",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/d36940a8718e60665c8785790407125671c2cc59/ss_d36940a8718e60665c8785790407125671c2cc59.1920x1080.jpg?t=1762736148"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/cc7933cc0517540bcde934312fc1e1c4ace67c58/ss_cc7933cc0517540bcde934312fc1e1c4ace67c58.600x338.jpg?t=1762736148",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/cc7933cc0517540bcde934312fc1e1c4ace67c58/ss_cc7933cc0517540bcde934312fc1e1c4ace67c58.1920x1080.jpg?t=1762736148"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/e7a4b21745c46afee24f6a9bf6016a9b50575e4a/ss_e7a4b21745c46afee24f6a9bf6016a9b50575e4a.600x338.jpg?t=1762736148",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/e7a4b21745c46afee24f6a9bf6016a9b50575e4a/ss_e7a4b21745c46afee24f6a9bf6016a9b50575e4a.1920x1080.jpg?t=1762736148"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/7de0be9cd974c8562e83c5bf68ec6e96f1d9fd33/ss_7de0be9cd974c8562e83c5bf68ec6e96f1d9fd33.600x338.jpg?t=1762736148",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/7de0be9cd974c8562e83c5bf68ec6e96f1d9fd33/ss_7de0be9cd974c8562e83c5bf68ec6e96f1d9fd33.1920x1080.jpg?t=1762736148"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257219242,
+            "name": "【即时象棋：旧棋新弈 HyperChineseChess】游戏实机演示PV",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257219242/9fd51915ada2ee0d3b883a2ac83428ef2d1c3acd/movie_600x337.jpg?t=1762271493",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4059530/1066441842/14035206244e9fbaf24c812c68c98c632cb9dfd1/1760705237/dash_av1.mpd?t=1762271493",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4059530/1066441842/14035206244e9fbaf24c812c68c98c632cb9dfd1/1760705237/dash_h264.mpd?t=1762271493",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4059530/1066441842/14035206244e9fbaf24c812c68c98c632cb9dfd1/1760705237/hls_264_master.m3u8?t=1762271493",
+            "highlight": false
+          }
+        ],
+        "achievements": {
+          "total": 8,
+          "highlighted": [
+            {
+              "icon": "1c1bc0aff117a0d8c7a05f6fb65f836a94004752.jpg",
+              "localized_name": "王不见王",
+              "archived": 0,
+              "hidden": 0,
+              "name": "王不见王",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/1c1bc0aff117a0d8c7a05f6fb65f836a94004752.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "向我开炮",
+              "archived": 0,
+              "hidden": 0,
+              "name": "向我开炮",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "沙场百战",
+              "archived": 0,
+              "hidden": 1,
+              "name": "沙场百战",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "初出茅庐",
+              "archived": 0,
+              "hidden": 0,
+              "name": "初出茅庐",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "单刀直入",
+              "archived": 0,
+              "hidden": 0,
+              "name": "单刀直入",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "运筹帷幄",
+              "archived": 0,
+              "hidden": 0,
+              "name": "运筹帷幄",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            },
+            {
+              "icon": "00c4e21ca9107b882d3305eb194c692cabb85b44.jpg",
+              "localized_name": "明察秋毫",
+              "archived": 0,
+              "hidden": 0,
+              "name": "明察秋毫",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/00c4e21ca9107b882d3305eb194c692cabb85b44.jpg"
+            },
+            {
+              "icon": "947966c6a6a9693dd98f356af5f14a718eba69a7.jpg",
+              "localized_name": "绝地孤王",
+              "archived": 0,
+              "hidden": 1,
+              "name": "绝地孤王",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4059530/947966c6a6a9693dd98f356af5f14a718eba69a7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ryhcalin@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4059530?t=1762736148",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059530/6882744ec9fcab7445e18362340675b1d5476152/page_bg_raw.jpg?t=1762736148",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

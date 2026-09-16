@@ -1,0 +1,66 @@
+{
+  "appid": 4089540,
+  "requested_at": "2026-09-13T20:18:15.487368+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "215130233",
+        "author": {
+          "steamid": "76561198016965781",
+          "personaname": "adituki",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/adituki/",
+          "num_games_owned": 1386,
+          "num_reviews": 21,
+          "playtime_forever": 201,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 201,
+          "last_played": 1767535344,
+          "avatar": "c3694bea33cf8c7bfd4556ed862f67d2ea4ee921"
+        },
+        "language": "japanese",
+        "review": "和風スピリチュアル?感なBGMと共に一本道を進み続けるウォーキングシミュレーター\nときどき出てくるオブジェクトを調べると禅問答的なものか意味不明、あるいは支離滅裂な質問に2択で答え、その結果でゴールとなる距離が減ったり増えたりする\n今の残りの距離は基本的にわからないが10000m前に尽きてしまうとやりなおし。距離を増やしながら進み続けることで、主人公が何かを思い出しかけたり景色が変わったりする。\n\n正直に言ってしまうなら「なんか深い感じを出したいのかもしれないが実際はだいぶ浅い雰囲気ゲー」\n\nというのも、なんども選ぶ二択の質問が\n[list]\n    [*]質問の意味はよくわからないが明確に正解が決まっているもの\n    [*]正解のない質問のようでいて単に確率で距離が増えるか減るかのリスクリターンの大小選択\n[/list]\nなので\nなぜそうなのかは全くわからないがこの質問ではこちらが正解と言うのをノーヒントトライ＆エラーで特定して次からはそちらを選び続け、確率バクチを交えて最長距離を伸ばしていく。というゲームになる。\n\nただ結局のところ、正解がある問題はどれだけ雰囲気や質問が意味深だったりしても単に何度も同じ問題の出る〇×当てを延々やり続ける感覚で、（もし答えが人によって違うというなら(自分だけなので未確認)なおさら）質問にも選択肢の内容自体にもあまり意味がない\n正解のない質問も大体のプレイヤーは回答そのものではなく確率とその結果を見て選ぶことになると思うのでやはりこちらも選択肢の意味が薄い\n\n（※安定攻略できると思った方法）\n[spoiler]なんなら狐の像（確率バクチ）外したときのリスクがきついので全無視してその他の部分で正解を選び続けるだけの方がたぶん安定する。そして余計に作業感が加速する[/spoiler]\n\n加えて何度もやりなおすのに対して、ダッシュがあるにしても移動速度が遅い（あるいは移動距離が長い）風景も一定区間毎に変わるとはいえ、あまりバリエーションのない一本道ループというのもあり、クリアを目的とするなら個人的にはストレスの方が勝る\n\nトライ＆エラーで正解を記憶しつつ先に進んでいくという遊びの部分は確かにあるとしても、ストアの大層な謳い文句に対して実際の中身が…みたいな印象\nこの作品が哲学的かどうかは……まあ個人の感性によるかも。自分にはストーリーED含め言いたいことはわからないでもないが合わなかった",
+        "timestamp_created": 1767539063,
+        "timestamp_updated": 1767539063,
+        "voted_up": false,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.650773882865905762",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762509634",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW/AmAAAAAFP+TTJAAAAAB5h9S0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.3289999999997235,
+  "transport_error_count": 0
+}

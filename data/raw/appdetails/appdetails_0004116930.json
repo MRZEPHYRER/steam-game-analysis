@@ -1,0 +1,366 @@
+{
+  "requested_at": "2026-09-13T06:57:05.224605+00:00",
+  "request_params": {
+    "appids": 4116930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4116930,
+  "payload": {
+    "4116930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Pill Bird Remastered",
+        "steam_appid": 4116930,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Pill Bird Remastered is a fast, skill-driven 2D platformer about control, rhythm, and momentum. You play as a small, color-shifting bird built for speed, flight, and precision. Every world tests how well you can move, dashing through hazards, threading between traps, and holding perfect lines through impossible-looking gaps.</p><p class=\"bb_paragraph\" >Each color form gives a different ability: burst dashes that kill on impact, invincible charges, aura attacks, projectiles, and so on. Timing them right is everything.</p><p class=\"bb_paragraph\" >The remaster rebuilds the original from the ground up with tighter physics, cleaner visuals, and just overall better everything. The goal? Finish all worlds as quickly as possible, test your skills and become the best flier. </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Pill Bird Remastered is a fast, skill-driven 2D platformer about control, rhythm, and momentum. You play as a small, color-shifting bird built for speed, flight, and precision. Every world tests how well you can move, dashing through hazards, threading between traps, and holding perfect lines through impossible-looking gaps.</p><p class=\"bb_paragraph\" >Each color form gives a different ability: burst dashes that kill on impact, invincible charges, aura attacks, projectiles, and so on. Timing them right is everything.</p><p class=\"bb_paragraph\" >The remaster rebuilds the original from the ground up with tighter physics, cleaner visuals, and just overall better everything. The goal? Finish all worlds as quickly as possible, test your skills and become the best flier. </p>",
+        "short_description": "Pill Bird Remastered is a fast, skill-driven 2D platformer about speeding through levels as quickly as possible.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/6822d5481c1975d01c2fb5569787fd2eb2b1cbc5/header.jpg?t=1764778403",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/475d65614a34004dc997b031bded29c166ff3cc1/capsule_231x87.jpg?t=1764778403",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/475d65614a34004dc997b031bded29c166ff3cc1/capsule_184x69.jpg?t=1764778403",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3 or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Intel HD Graphics 4000 or better<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> AMD Ryzen 3 or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> AMD RX 560 or better<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOs 11 Big Sur<br></li><li><strong>Processor:</strong> Apple M1<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 GPU<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOs 12 Monterey<br></li><li><strong>Processor:</strong> Apple M1 or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 GPU or better<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux<br></li><li><strong>Processor:</strong> Intel Core i3 or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Intel HD Graphics 4000 or better<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux<br></li><li><strong>Processor:</strong> AMD Ryzen 3 or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> AMD RX 560 or better<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "developers": [
+          "Rednave"
+        ],
+        "publishers": [
+          "Rednave"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1442498
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Pill Bird Remastered",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1442498,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Pill Bird Remastered - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/695690d6f2220b0adebaff51fa7c56ea21e7d5d3/ss_695690d6f2220b0adebaff51fa7c56ea21e7d5d3.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/695690d6f2220b0adebaff51fa7c56ea21e7d5d3/ss_695690d6f2220b0adebaff51fa7c56ea21e7d5d3.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/665543a88ee635ecdead4051abc5c9ab43c52e62/ss_665543a88ee635ecdead4051abc5c9ab43c52e62.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/665543a88ee635ecdead4051abc5c9ab43c52e62/ss_665543a88ee635ecdead4051abc5c9ab43c52e62.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/db8e4d0c5e487646a7263087b1868d17f7227789/ss_db8e4d0c5e487646a7263087b1868d17f7227789.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/db8e4d0c5e487646a7263087b1868d17f7227789/ss_db8e4d0c5e487646a7263087b1868d17f7227789.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/51e13aa6625644e8f34717634a63a527eb860107/ss_51e13aa6625644e8f34717634a63a527eb860107.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/51e13aa6625644e8f34717634a63a527eb860107/ss_51e13aa6625644e8f34717634a63a527eb860107.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/1bb4145f744cdae1f5ac88d22954b3eff9533651/ss_1bb4145f744cdae1f5ac88d22954b3eff9533651.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/1bb4145f744cdae1f5ac88d22954b3eff9533651/ss_1bb4145f744cdae1f5ac88d22954b3eff9533651.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/e26fc058fbb35b4d81561f67e9fab9d1951523f1/ss_e26fc058fbb35b4d81561f67e9fab9d1951523f1.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/e26fc058fbb35b4d81561f67e9fab9d1951523f1/ss_e26fc058fbb35b4d81561f67e9fab9d1951523f1.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/39fdea483e460635aba5d256b2366780ff09084f/ss_39fdea483e460635aba5d256b2366780ff09084f.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/39fdea483e460635aba5d256b2366780ff09084f/ss_39fdea483e460635aba5d256b2366780ff09084f.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/8a507dae671cfceff022ad16c1d12be1e9577eff/ss_8a507dae671cfceff022ad16c1d12be1e9577eff.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/8a507dae671cfceff022ad16c1d12be1e9577eff/ss_8a507dae671cfceff022ad16c1d12be1e9577eff.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/568acaf068c471e3457aff89326c6a7e8acd2357/ss_568acaf068c471e3457aff89326c6a7e8acd2357.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/568acaf068c471e3457aff89326c6a7e8acd2357/ss_568acaf068c471e3457aff89326c6a7e8acd2357.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/b6155b605dfae52fa13ffeb4737a827c213448ad/ss_b6155b605dfae52fa13ffeb4737a827c213448ad.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/b6155b605dfae52fa13ffeb4737a827c213448ad/ss_b6155b605dfae52fa13ffeb4737a827c213448ad.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/058e79ba6937d910e9f7ae2f190b875e5056de67/ss_058e79ba6937d910e9f7ae2f190b875e5056de67.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/058e79ba6937d910e9f7ae2f190b875e5056de67/ss_058e79ba6937d910e9f7ae2f190b875e5056de67.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/733d343b3b1e0ec652ca99c4cbb2696af463f9fc/ss_733d343b3b1e0ec652ca99c4cbb2696af463f9fc.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/733d343b3b1e0ec652ca99c4cbb2696af463f9fc/ss_733d343b3b1e0ec652ca99c4cbb2696af463f9fc.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/b7e8b76d5a7848cd1c1d811934842d33ea27fcb5/ss_b7e8b76d5a7848cd1c1d811934842d33ea27fcb5.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/b7e8b76d5a7848cd1c1d811934842d33ea27fcb5/ss_b7e8b76d5a7848cd1c1d811934842d33ea27fcb5.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/c8d75452112199f077a7162a5c4ce284f211fdd9/ss_c8d75452112199f077a7162a5c4ce284f211fdd9.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/c8d75452112199f077a7162a5c4ce284f211fdd9/ss_c8d75452112199f077a7162a5c4ce284f211fdd9.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/fbecaa9881571a039971a6549316faf2474d99bc/ss_fbecaa9881571a039971a6549316faf2474d99bc.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/fbecaa9881571a039971a6549316faf2474d99bc/ss_fbecaa9881571a039971a6549316faf2474d99bc.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/f2099efa22681ddeeb8107b289e5adb871fb4c5c/ss_f2099efa22681ddeeb8107b289e5adb871fb4c5c.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/f2099efa22681ddeeb8107b289e5adb871fb4c5c/ss_f2099efa22681ddeeb8107b289e5adb871fb4c5c.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 16,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/d92c3d9bad6f9079d67f46161aa06b9c4ec9b332/ss_d92c3d9bad6f9079d67f46161aa06b9c4ec9b332.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/d92c3d9bad6f9079d67f46161aa06b9c4ec9b332/ss_d92c3d9bad6f9079d67f46161aa06b9c4ec9b332.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 17,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/e37aa7ee1cc7c0435859cb25c85d230046bee429/ss_e37aa7ee1cc7c0435859cb25c85d230046bee429.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/e37aa7ee1cc7c0435859cb25c85d230046bee429/ss_e37aa7ee1cc7c0435859cb25c85d230046bee429.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 18,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/df945aff0d8d99618f0d1ff8bd66b6e7e2d382d2/ss_df945aff0d8d99618f0d1ff8bd66b6e7e2d382d2.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/df945aff0d8d99618f0d1ff8bd66b6e7e2d382d2/ss_df945aff0d8d99618f0d1ff8bd66b6e7e2d382d2.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 19,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/1bb7e621ee1dd2341631aa9b6a4fc86c4b6b8883/ss_1bb7e621ee1dd2341631aa9b6a4fc86c4b6b8883.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/1bb7e621ee1dd2341631aa9b6a4fc86c4b6b8883/ss_1bb7e621ee1dd2341631aa9b6a4fc86c4b6b8883.1920x1080.jpg?t=1764778403"
+          },
+          {
+            "id": 20,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/9cff0bc1780882b4148de91d83cb8054f604c32a/ss_9cff0bc1780882b4148de91d83cb8054f604c32a.600x338.jpg?t=1764778403",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/9cff0bc1780882b4148de91d83cb8054f604c32a/ss_9cff0bc1780882b4148de91d83cb8054f604c32a.1920x1080.jpg?t=1764778403"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257223670,
+            "name": "Pill Bird Remastered Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257223670/8c56bfa336e72aebddc0ad2df76ea0aaf1ff3ea7/movie_600x337.jpg?t=1763568472",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4116930/896273261/3fb9054d561b65d9165ae9a9520b80c546057956/1761663495/dash_av1.mpd?t=1763568472",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4116930/896273261/3fb9054d561b65d9165ae9a9520b80c546057956/1761663495/dash_h264.mpd?t=1763568472",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4116930/896273261/3fb9054d561b65d9165ae9a9520b80c546057956/1761663495/hls_264_master.m3u8?t=1763568472",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 24,
+          "highlighted": [
+            {
+              "icon": "f33f0d939475ce858b2e1e54e89aab60dd700061.jpg",
+              "localized_name": "Welcome to the Game",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Welcome to the Game",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/f33f0d939475ce858b2e1e54e89aab60dd700061.jpg"
+            },
+            {
+              "icon": "f554d35b5f01280da8a1b7cc961bc357d1f18ffa.jpg",
+              "localized_name": "How Dry I Am",
+              "archived": 0,
+              "hidden": 0,
+              "name": "How Dry I Am",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/f554d35b5f01280da8a1b7cc961bc357d1f18ffa.jpg"
+            },
+            {
+              "icon": "95b61eb669f392ea65fb835030e4576bf299b879.jpg",
+              "localized_name": "King Candy",
+              "archived": 0,
+              "hidden": 0,
+              "name": "King Candy",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/95b61eb669f392ea65fb835030e4576bf299b879.jpg"
+            },
+            {
+              "icon": "79b2a5747159f86059b8b25ff6190ce477cba57f.jpg",
+              "localized_name": "Blood for the Blood God",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blood for the Blood God",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/79b2a5747159f86059b8b25ff6190ce477cba57f.jpg"
+            },
+            {
+              "icon": "86ebc7299691430a1c7e4c39b5d860352297fee2.jpg",
+              "localized_name": "Who you gonna call?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Who you gonna call?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/86ebc7299691430a1c7e4c39b5d860352297fee2.jpg"
+            },
+            {
+              "icon": "0bb2281b1adcd041e42ece34bfcd47d544d86a09.jpg",
+              "localized_name": "Brrrrrr",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Brrrrrr",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/0bb2281b1adcd041e42ece34bfcd47d544d86a09.jpg"
+            },
+            {
+              "icon": "81742772b358d25451f99d1e39cf0b5e79c184f5.jpg",
+              "localized_name": "If I Was Blue",
+              "archived": 0,
+              "hidden": 0,
+              "name": "If I Was Blue",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/81742772b358d25451f99d1e39cf0b5e79c184f5.jpg"
+            },
+            {
+              "icon": "4e0ebeca62390fe3ba6b35f75817842ab9660553.jpg",
+              "localized_name": "Second Time's The Charm",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Second Time's The Charm",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/4e0ebeca62390fe3ba6b35f75817842ab9660553.jpg"
+            },
+            {
+              "icon": "85b7cf64a1ecd4f3736dd75bad6ca6d74d2f5351.jpg",
+              "localized_name": "Space",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Space",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/85b7cf64a1ecd4f3736dd75bad6ca6d74d2f5351.jpg"
+            },
+            {
+              "icon": "744c4f2f7d57d877a8ed7edfa7659a701dec17b7.jpg",
+              "localized_name": "Spaceee",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Spaceee",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4116930/744c4f2f7d57d877a8ed7edfa7659a701dec17b7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "rednavepillbird@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4116930?t=1764778403",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116930/c69817a85c3655e359b74aff2efa203aaf3c58ae/page_bg_raw.jpg?t=1764778403",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

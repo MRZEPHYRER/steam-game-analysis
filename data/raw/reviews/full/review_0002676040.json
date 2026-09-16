@@ -1,0 +1,66 @@
+{
+  "appid": 2676040,
+  "requested_at": "2026-09-13T18:53:56.604663+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "208791553",
+        "author": {
+          "steamid": "76561198431048850",
+          "personaname": "Squer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198431048850/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 270,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 93,
+          "last_played": 1762693276,
+          "avatar": "5076cb4b31180b9fb9b6520693e7906f4c89b8ba"
+        },
+        "language": "german",
+        "review": "Ich habe kürzlich dieses Spiel endeckt und direkt ausprobiert. Ich bin sehr angetan. Es ist ein Fantasy-RPG in einer mittelalterlichen Welt auf der Insel Miralis, mit Goldminen und einer blühenden Stadt im Zentrum. Derzeit gibt's hauptsächlich den Prolog, der so 2-3 Stunden Spielzeit bietet, aber schon da merkt man, wie viel Potential das Spiel hat – die Grundlage machen lust auf mehr. Es fühlt sich an, als könnte das noch zu etwas richtig Großem werden, mit Erweiterungen und mehr Inhalt in Zukunft.\n\nDie Geschichte startet gemächlich, baut aber schnell auf. Ich mag es, dass es keine Quest-Marker gibt. Man muss selbst erkunden (die Welt sieht soweit sehr interessant aus und läd dazu ein), mit NPCs sprechen und rausfinden, was als Nächstes kommt – das macht es richtig immersiv, wie in einer lebendigen Welt. Das Kampfsystem wirkt so, als könnte es mit Feinschliff gut werdne, noch ist es etwas hakelig. Die Grafik wir gut, die Umgebungen ist mehr als solide und lädt zum Entdecken ein. Ich habe mich stundenlang darin verloren und freue mich auf mehr.\nAlles in allem eine starke Empfehlung für RPG-Fans, die Spiele mögen, die ein bisschen Denken erfordern und nicht alles vorkauen. Besonders im Early Access zeigt es schon so viel Promise, dass ich gespannt bin, wie es sich weiterentwickelt. Wenn du Lust auf so was hast, schau's dir an – es lohnt sich definitiv.",
+        "timestamp_created": 1762682647,
+        "timestamp_updated": 1762682647,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.547325074672698975",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758816032",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZDbIAAAAAFP+GDr8AAAABxgL2cBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.984000000000151,
+  "transport_error_count": 0
+}

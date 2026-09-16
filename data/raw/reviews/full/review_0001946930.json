@@ -1,0 +1,66 @@
+{
+  "appid": 1946930,
+  "requested_at": "2026-09-13T18:46:02.715662+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 7,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "207853362",
+        "author": {
+          "steamid": "76561199284291217",
+          "personaname": "下点小宇",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199284291217/",
+          "num_games_owned": 16,
+          "num_reviews": 1,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1761721609,
+          "avatar": "6f625bffbbf6f54e37a6eb99cb5a4c976d69b0bc"
+        },
+        "language": "schinese",
+        "review": "玩法太单一了，很容易腻，没有任何解析做错的还要自己去找解析。没有音乐也不能调字体。建议模仿一下比较火的小游戏玩法，比如元气骑士的闯关玩法或者卡牌对战，或者开发创意工坊。",
+        "timestamp_created": 1761721734,
+        "timestamp_updated": 1761721900,
+        "voted_up": false,
+        "votes_up": 35,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.804966986179351807",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759069179",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFT5pGAAAAAFP+nCSiAAAABy8/KYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

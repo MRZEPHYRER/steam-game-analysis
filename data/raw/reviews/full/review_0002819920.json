@@ -1,0 +1,66 @@
+{
+  "appid": 2819920,
+  "requested_at": "2026-09-13T18:56:25.648939+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 0,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "216116406",
+        "author": {
+          "steamid": "76561198073044042",
+          "personaname": "Ichigo Jam",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Ichigo_Jam/",
+          "num_games_owned": 0,
+          "num_reviews": 69,
+          "playtime_forever": 486,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 409,
+          "last_played": 1768649266,
+          "avatar": "8b43b79eb6a8a6caffbc07a2a0c6dd86104bad9e"
+        },
+        "language": "english",
+        "review": "A great isometric puzzle/platformer with metroidvania-style upgrades.\r\n\r\nOh, it also offers the handy ability to shift the camera slightly so you can figure out the layout and solve those classic \"where the heck is that floating plaform?!\" moments.",
+        "timestamp_created": 1768604010,
+        "timestamp_updated": 1768604010,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.541547298431396484",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755611926",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZK0eAAAAAFP+FUWmAAAAB2y7W4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

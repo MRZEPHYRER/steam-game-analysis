@@ -1,0 +1,336 @@
+{
+  "requested_at": "2026-09-12T16:37:51.555379+00:00",
+  "request_params": {
+    "appids": 3791600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3791600,
+  "payload": {
+    "3791600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Rondoku",
+        "steam_appid": 3791600,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/extras/9a4c6b78283593de5418dc7e332f9b61.avif?t=1761245936\" width=1008 height=248 /></span><strong>Simple Rules, Deep Logic</strong></h2><p class=\"bb_paragraph\" >Fill circular puzzles with the correct numbers using just three simple rules. Rondoku is a calm and minimalist logic game that invites you to slow down, think carefully, and find satisfaction in clever solutions.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/extras/rondoku_steam_gif_diagram.png?t=1761245936\" /></span></p><h2 class=\"bb_tag\" ><strong>70 Hand-Crafted Challenges</strong></h2><p class=\"bb_paragraph\" >Every puzzle in Rondoku is designed by hand. With 70 unique levels, the game offers a thoughtful difficulty curve and a sense of intention in every diagram.</p><h2 class=\"bb_tag\" ><strong>A Puzzle Book</strong></h2><p class=\"bb_paragraph\" >Inspired by classic puzzle magazines, Rondoku is presented as a book. Flip through its pages freely and enjoy the quiet satisfaction of solving each puzzle, one by one, until the book is complete.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/extras/9a4c6b78283593de5418dc7e332f9b61.avif?t=1761245936\" width=1008 height=248 /></span><strong>Simple Rules, Deep Logic</strong></h2><p class=\"bb_paragraph\" >Fill circular puzzles with the correct numbers using just three simple rules. Rondoku is a calm and minimalist logic game that invites you to slow down, think carefully, and find satisfaction in clever solutions.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/extras/rondoku_steam_gif_diagram.png?t=1761245936\" /></span></p><h2 class=\"bb_tag\" ><strong>70 Hand-Crafted Challenges</strong></h2><p class=\"bb_paragraph\" >Every puzzle in Rondoku is designed by hand. With 70 unique levels, the game offers a thoughtful difficulty curve and a sense of intention in every diagram.</p><h2 class=\"bb_tag\" ><strong>A Puzzle Book</strong></h2><p class=\"bb_paragraph\" >Inspired by classic puzzle magazines, Rondoku is presented as a book. Flip through its pages freely and enjoy the quiet satisfaction of solving each puzzle, one by one, until the book is complete.</p>",
+        "short_description": "Fill elegant diagrams with the correct numbers using three simple rules. Rondoku invites you to think, take your time, and enjoy beautifully hand-crafted challenges.",
+        "supported_languages": "English, French, German, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese, Turkish",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/29f599907dd7f7ab07046d66166ebb699766342c/header.jpg?t=1761245936",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/a1df5ed91231d1ca6fcdcd0728382f1b1fbe68a8/capsule_231x87.jpg?t=1761245936",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/a1df5ed91231d1ca6fcdcd0728382f1b1fbe68a8/capsule_184x69.jpg?t=1761245936",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> SSE2 instruction set support<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> 512MB Video Memory<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 64 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04+, SteamOS<br></li><li><strong>Processor:</strong> SSE2 instruction set support<br></li><li><strong>Graphics:</strong> 512MB Video Memory</li></ul>"
+        },
+        "developers": [
+          "Lucas Demo"
+        ],
+        "publishers": [
+          "Lucas Demo"
+        ],
+        "demos": [
+          {
+            "appid": 4064240,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.99"
+        },
+        "packages": [
+          1333774
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Rondoku",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1333774,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Rondoku - $7.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 799
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/bfe197f674437ee4c3a1040666d52ebae828fe02/ss_bfe197f674437ee4c3a1040666d52ebae828fe02.600x338.jpg?t=1761245936",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/bfe197f674437ee4c3a1040666d52ebae828fe02/ss_bfe197f674437ee4c3a1040666d52ebae828fe02.1920x1080.jpg?t=1761245936"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/8ac80159f57c0bd315dd1c9976ac416087ae74f8/ss_8ac80159f57c0bd315dd1c9976ac416087ae74f8.600x338.jpg?t=1761245936",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/8ac80159f57c0bd315dd1c9976ac416087ae74f8/ss_8ac80159f57c0bd315dd1c9976ac416087ae74f8.1920x1080.jpg?t=1761245936"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/da8d74afa5bf4f4e1865a48c4fb09eb1eedc02cb/ss_da8d74afa5bf4f4e1865a48c4fb09eb1eedc02cb.600x338.jpg?t=1761245936",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/da8d74afa5bf4f4e1865a48c4fb09eb1eedc02cb/ss_da8d74afa5bf4f4e1865a48c4fb09eb1eedc02cb.1920x1080.jpg?t=1761245936"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/d23bceaca7698bc176fcd9f4918345586e2b7f68/ss_d23bceaca7698bc176fcd9f4918345586e2b7f68.600x338.jpg?t=1761245936",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/d23bceaca7698bc176fcd9f4918345586e2b7f68/ss_d23bceaca7698bc176fcd9f4918345586e2b7f68.1920x1080.jpg?t=1761245936"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/a81e91def42b4b4899cf6676798aa4cf89f4b1e3/ss_a81e91def42b4b4899cf6676798aa4cf89f4b1e3.600x338.jpg?t=1761245936",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/a81e91def42b4b4899cf6676798aa4cf89f4b1e3/ss_a81e91def42b4b4899cf6676798aa4cf89f4b1e3.1920x1080.jpg?t=1761245936"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257161464,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257161464/822acf7c9fe1519f4c7de43243196a8f0d458f8f/movie_600x337.jpg?t=1755889821",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3791600/474126764/2ce1782ee5fea9dca4aa350197eeb24239e3f105/1750877713/dash_av1.mpd?t=1755889821",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3791600/474126764/2ce1782ee5fea9dca4aa350197eeb24239e3f105/1750877713/dash_h264.mpd?t=1755889821",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3791600/474126764/2ce1782ee5fea9dca4aa350197eeb24239e3f105/1750877713/hls_264_master.m3u8?t=1755889821",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 12,
+          "highlighted": [
+            {
+              "icon": "c0915e31ded5bae66e3b0551466d00c02549164d.jpg",
+              "localized_name": "Beginning",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beginning",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/c0915e31ded5bae66e3b0551466d00c02549164d.jpg"
+            },
+            {
+              "icon": "0e8f49bdb73d601e95e8f3fa7741e2ca0967c148.jpg",
+              "localized_name": "3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/0e8f49bdb73d601e95e8f3fa7741e2ca0967c148.jpg"
+            },
+            {
+              "icon": "c625abdd8078b6fc8d98ffe14a0b4270a48dbe22.jpg",
+              "localized_name": "5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/c625abdd8078b6fc8d98ffe14a0b4270a48dbe22.jpg"
+            },
+            {
+              "icon": "0624da38bbb7e3513cd7137f37b46e149097f626.jpg",
+              "localized_name": "7",
+              "archived": 0,
+              "hidden": 0,
+              "name": "7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/0624da38bbb7e3513cd7137f37b46e149097f626.jpg"
+            },
+            {
+              "icon": "0af9326f17371687eeb40ee76994d076084ce4a4.jpg",
+              "localized_name": "10",
+              "archived": 0,
+              "hidden": 0,
+              "name": "10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/0af9326f17371687eeb40ee76994d076084ce4a4.jpg"
+            },
+            {
+              "icon": "21b464821f1450f67569b0cb284ba9a846c9da66.jpg",
+              "localized_name": "13",
+              "archived": 0,
+              "hidden": 0,
+              "name": "13",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/21b464821f1450f67569b0cb284ba9a846c9da66.jpg"
+            },
+            {
+              "icon": "473b97038e4e0d268849049864403f37a223b13d.jpg",
+              "localized_name": "16",
+              "archived": 0,
+              "hidden": 0,
+              "name": "16",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/473b97038e4e0d268849049864403f37a223b13d.jpg"
+            },
+            {
+              "icon": "8e358de9675b60e9b9e06c0a9738e3ba66880839.jpg",
+              "localized_name": "20",
+              "archived": 0,
+              "hidden": 0,
+              "name": "20",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/8e358de9675b60e9b9e06c0a9738e3ba66880839.jpg"
+            },
+            {
+              "icon": "7dbbf2b8e1bfac6c4924b1d8a9b55a3db3d4788b.jpg",
+              "localized_name": "Completed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Completed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/7dbbf2b8e1bfac6c4924b1d8a9b55a3db3d4788b.jpg"
+            },
+            {
+              "icon": "31d19f999868484242128dae64e9d3c826fd9617.jpg",
+              "localized_name": "30",
+              "archived": 0,
+              "hidden": 0,
+              "name": "30",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3791600/31d19f999868484242128dae64e9d3c826fd9617.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "lucas_demo@outlook.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3791600?t=1761245936",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3791600/ce17fc2bff9ac96d91d7fecae41f71b126913dc3/page_bg_raw.jpg?t=1761245936",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

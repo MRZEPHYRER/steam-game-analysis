@@ -1,0 +1,66 @@
+{
+  "appid": 3784110,
+  "requested_at": "2026-09-13T19:39:39.146077+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "227188680",
+        "author": {
+          "steamid": "76561198095523372",
+          "personaname": "GinChiller",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198095523372/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 623,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 623,
+          "last_played": 1780607832,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "german",
+        "review": "völlig verbuggt... lässt sich nicht zu Ende spielen",
+        "timestamp_created": 1780607920,
+        "timestamp_updated": 1780607920,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753177034",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB4/NPiBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9840000000003783,
+  "transport_error_count": 0
+}

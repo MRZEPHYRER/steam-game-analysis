@@ -1,0 +1,69 @@
+{
+  "appid": 4094260,
+  "requested_at": "2026-09-13T20:18:28.350633+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "211284372",
+        "author": {
+          "steamid": "76561198779779746",
+          "personaname": "lisafudge37",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/proudnavyspouce/",
+          "num_games_owned": 0,
+          "num_reviews": 14,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "deck_playtime_at_review": 22,
+          "last_played": 1765241297,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "good concept just wish there was a way to adjust the look sensitivity and the gamma cause its way to dark...I recently retired to play this with using the mouse to look around and still too much if u read reviews then i hope u find this really useful do not buy this game as if u get motion sickness easy then be prepared to get sick and seems like the developer(s) gave up and so am i and also changing from recommend to strongly not recommend",
+        "timestamp_created": 1764282268,
+        "timestamp_updated": 1765241816,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.506578922271728516",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "timestamp_dev_responded": 1765307696,
+        "developer_response": "Thank you for your comment. The game is still in development, but since I’m working on it alone in my free time, updates may sometimes be delayed. I’ve taken your feedback into account and added mouse sensitivity and brightness settings. After testing, I plan to release the update by the end of this week.",
+        "app_release_date": "1763377636",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ3lEAAAAAFP+A15SAAAAB0mf6lBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

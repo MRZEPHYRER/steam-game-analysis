@@ -1,0 +1,75 @@
+{
+  "appid": 4109760,
+  "requested_at": "2026-09-13T20:19:41.330972+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "209619686",
+        "author": {
+          "steamid": "76561198140856835",
+          "personaname": "♢Elvira♢",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ElviraSteam/",
+          "num_games_owned": 2339,
+          "num_reviews": 153,
+          "playtime_forever": 52,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 52,
+          "last_played": 1763399336,
+          "avatar": "c772497eef66eb39413454f7b2d1c49718d5a58d"
+        },
+        "language": "english",
+        "review": "Do you feel like pulling your hair out and screaming in rage?\nWell, the good news is that you do not have to do that for this game XD\n(Uh oh, I hope I did not encourage the dev to make a rage-inducing game~)\n\nThere are 55 Levels in Level Denied, and it took me under an hour to clear them;\nIf you are dexterous and skillful, it could possibly be cleared in about 30 minutes\nAs such, it is really not a tough game~\n\nThe stages are filled with pitfalls, traps, block with doses of mild teasing / trolling XD\n\nI enjoyed this short little game and I hope this game receives lots of love and support~\n\nThe level might deny me but I wont deny it, its fun~ \n\n:D",
+        "timestamp_created": 1763556633,
+        "timestamp_updated": 1771912060,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.605905532836914062",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763335222",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFX4cMAAAAAFP+NjlQAAAAB2rtGfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

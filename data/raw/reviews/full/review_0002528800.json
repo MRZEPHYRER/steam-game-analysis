@@ -1,0 +1,66 @@
+{
+  "appid": 2528800,
+  "requested_at": "2026-09-13T18:52:09.947823+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 10,
+      "total_negative": 3,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "206647039",
+        "author": {
+          "steamid": "76561198306540080",
+          "personaname": "Vaalyah",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198306540080/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 334,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 334,
+          "last_played": 1760368771,
+          "avatar": "671dd9987a6a27f87251b59e8e1b7c1590cabf72"
+        },
+        "language": "italian",
+        "review": "[h1] Underwhelming [/h1] \r\n\r\nI will try to avoid spoilers.\r\nI played the demo when it became available and I've enjoyed it a lot, so I decided to get this game to see the end of the story. The demo is absolutely amazing: full voiced (not that it's important), great graphic and a good pace. But the rest of the game is underwhelming, to say the least.\r\n\r\n1) the graphic is extremely inconsistent. Backgrounds are generally ok, some even very good, and some just average, but they do their job. But the characters… Said that you will never seen anyone else other than the love interests the antagonists and 3 more characters, but the quality of the arts drops dramatically. The game keeps using the same pictures of the demo when the characters speak, but every other pics (like the supposed eye-candy) are very low quality, with a style that reminds me of MS Paints at its worst.\r\n2) you have like… 6 choices in the whole run? Something I really wish otome devs will understand: if the only thing I can do in a game is clicking a choice, give me TONS of choice. If I wanted to read a book, I would have bought a book, right? Some of those choices are simply ridiculous, like \"why did you cut off contact with me?\" / \"why did you not reach out?\". They are literally the same question, with the exact same meaning. But apparently, one is supposed to be correct for no apparent reason. So you can't even try to use psychology or good choice-making skill, it's just a matter of luck. In another you have to pick an option out of 3 of what happened to you in the past that scared you the most. And again, you can pick the correct one only by pure luck. Add to this that not everyone is native speaker and so nuances of meaning are difficult to get, and you have a great recipe for just random attempts in reaching a good ending, instead of exploring game possibilities. Summarizing: you can't play your character, you have to play Devs'. And if you don't randomly know what's in their mind, too bad for you.\r\n3) nothing will happen of \"romantic\". You will get a line of \"he hugs you\" or \"he kisses you\" and end of the deal. I've played only two routes because the game was just too boring and in the second you literally see NOTHING happening. The route ends with the LI asking your character for a date. \"3 years later\". Wow. Since the game is just a \"read here\", at least the writing should be good. \"Show, don't tell\" seems to mean nothing.\r\n4) the word game. In the story, the protagonist is obsessed with writing her own otome game and she says she has created a new, amazing, game mechanic. I really hope it's not the one we actually see in this game. Random words appear on the page and you have to click on those that relate to the theme they give you, or those unrelated to it. Like, if the theme is \"horror\", you have to pick \"nightmare\" when related and \"jellyfish\" when unrelated. Probably a challenge for kindergarten students. I missed one once just because, while clicking, the page refreshed. And I am not a native English speaker. It's just a waste of time for when you are skipping the parts to see different outcomes.\r\n5) funny thing: I've searched for a walk-through, to see what I did wrong. And… they suggest you the order of LI you shall pick to not spoil the narrative ahead of time. Again, another proof this game expects you not to play as you like, but as they like.\r\n6) fun fact: it seems some lines have been recorded by a voice actor different than the demo one. No idea if it's a different person, or just a different sound effect applied to it, or maybe a bug, but still, the effect is annoying.\r\n7) the run is also quite short.\r\n\r\nI didn't have fun at all. The whole romance is not there and the game didn't manage to convey any emotion to me, other than some frustration due to the word game while trying to pick different choices in the re-run. I gave up after 3 routes.\r\nEven if I got it on sale, I consider those wasted money.",
+        "timestamp_created": 1760374601,
+        "timestamp_updated": 1760374601,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.585657358169555664",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752430726",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYSW+AAAAAFP+K9s8AAAAB/76WUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2819999999999254,
+  "transport_error_count": 0
+}

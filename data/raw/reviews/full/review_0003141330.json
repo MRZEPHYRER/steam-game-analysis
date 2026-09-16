@@ -1,0 +1,75 @@
+{
+  "appid": 3141330,
+  "requested_at": "2026-09-13T19:05:11.224626+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 134,
+      "total_negative": 34,
+      "total_reviews": 168
+    },
+    "reviews": [
+      {
+        "recommendationid": "205142475",
+        "author": {
+          "steamid": "76561198066590240",
+          "personaname": "FastLawyer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/FastLawyer/",
+          "num_games_owned": 0,
+          "num_reviews": 3349,
+          "playtime_forever": 1021,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1021,
+          "last_played": 1758764091,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "english",
+        "review": "[h1]Experienced on the HP Reverb G2 using the Oasis Driver for Windows Mixed Reality and on the Meta Quest 3[/h1]\n\nYou can view my full review here: https://youtu.be/8mOTrwELJqs\n\nThis is a solid game overall. The biggest negative I can think of is that I do believe the price point is too high, given the production values here. While I do think Of Lies and Rain is a good, solid game, it's also one of the worst, if not the worst, looking Steam VR games at this price point of $39.99 USD or more. \n\nIf you can look past the drab visuals though, there is a good game to play and an interesting world to explore. The game is obviously inspired by HLA, but it's obviously nowhere near the quality and it would be unfair to compare this game to HLA since they don't have the funding of Valve. \n\nGame is running on the Unreal Engine 5.5. On my RTX 5090, on epic graphical settings, I was getting mostly 90 fps, with only a few dropped frames here and there. The game is also pretty polished for Early Access. In fact, it doesn't really feel like EA and instead feels like a fully fledged officially released title. That being said, I did run into one major bug, a door failed to spawn a door handle for me to open it. Luckily, when I switched VR headsets, the door handle spawned back on the door and I was able to open it and progress the game.\n\nGame does have full locomotion, along with smooth and snap turning. You can play comfortably seated. There are comfort options as well.  It took me about 15 hours to beat the game, although you can beat it in 8-15 hours, depending on playstyle.\n\n[b]Rate 7/10. I think $29.99 USD would have been the much better asking price.[/b]\n\n[quote]I bought this game! If you enjoyed my review, please consider joining my Steam Curator group [url=https://steamcommunity.com/groups/Oculus_WMR]Oculus Rift Reviews.[/url][/quote]",
+        "timestamp_created": 1758773739,
+        "timestamp_updated": 1758773817,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.687356650829315186",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757520032",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWQLuAAAAAFP+X+1CAAAAB7nMeOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0790000000001783,
+  "transport_error_count": 0
+}

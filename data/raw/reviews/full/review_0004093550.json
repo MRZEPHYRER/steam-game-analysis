@@ -1,0 +1,66 @@
+{
+  "appid": 4093550,
+  "requested_at": "2026-09-13T20:18:26.141110+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "212519024",
+        "author": {
+          "steamid": "76561198273810213",
+          "personaname": "Silence",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198273810213/",
+          "num_games_owned": 1208,
+          "num_reviews": 496,
+          "playtime_forever": 257,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 257,
+          "last_played": 1764767843,
+          "avatar": "d4fe7ecc9e9bae063e1d3f950cd7e7a33c3b2628"
+        },
+        "language": "schinese",
+        "review": "说我玩物丧志？不存在的，玩这款游戏可以一边打游戏一边背单词，娱乐学习两不误",
+        "timestamp_created": 1764816947,
+        "timestamp_updated": 1764816947,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764744834",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABwh9mqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2659999999996217,
+  "transport_error_count": 0
+}

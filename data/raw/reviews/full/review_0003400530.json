@@ -1,0 +1,77 @@
+{
+  "appid": 3400530,
+  "requested_at": "2026-09-13T19:14:03.760923+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 26,
+      "total_negative": 13,
+      "total_reviews": 39
+    },
+    "reviews": [
+      {
+        "recommendationid": "213313628",
+        "author": {
+          "steamid": "76561199043270407",
+          "personaname": "dakotadream",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/dakotadream/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 21,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1765749446,
+          "avatar": "e4c5e2ab869df41657cb2108f0d01723d0ba7ba7"
+        },
+        "language": "english",
+        "review": "the usage of ai in this game turned me off completely, especially for something as simple as npcs/therapy animal icons on the computer.",
+        "timestamp_created": 1765749839,
+        "timestamp_updated": 1765823414,
+        "voted_up": false,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.613174498081207275",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1765798173,
+        "developer_response": "There is no usage of AI other than the capsule and a few in-game icons, which will be changed very soon by a real artist.\n\nNPCs are provided by 3D Artist \"Jordbugg\" and animals are provided by the company \"Red Deer\".\n\nIt's honestly made me very sad to see this review that suggests that I do not pay real artists. I worked for 9 months straight on this, spent out of my own pocket from money from my previous job, hired part-time developers, artists, and I was VERY active in many Discord servers asking for help from real people. I simply do not have an infinite budget and I had to make-do with what I have.\n\nIt would have been much more fair if you joined my Discord channel and asked me about AI usage instead of just leaving a negative review straight out.\n\nI hope you enjoy the game anyway.",
+        "app_release_date": "1765472429",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXvIyAAAAAFP+OfHyAAAAB8hd2tBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

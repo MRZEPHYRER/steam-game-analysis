@@ -1,0 +1,66 @@
+{
+  "appid": 3387420,
+  "requested_at": "2026-09-13T19:13:40.319424+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213850277",
+        "author": {
+          "steamid": "76561199301790481",
+          "personaname": "ScottWizCork",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/scottwizcork/",
+          "num_games_owned": 1056,
+          "num_reviews": 570,
+          "playtime_forever": 257,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 257,
+          "last_played": 1766341697,
+          "avatar": "c26286f1a292309692f9a3a04eed8e0b8c15c66b"
+        },
+        "language": "tchinese",
+        "review": "我必須得承認，這款遊戲帶給了我GBA時期的美好回憶，但優點也僅限於此。\n這款遊戲有著太多設計不良的毛病，無論是遊戲整體技術呈現又或者是遊戲流程都不敢讓人苟同。\n\n[h2]滿懷期待的遊玩，滿懷挫折的無奈[/h2]\n「我看不懂英文」，這應該是我遊玩這款遊戲最為痛苦的地方，但是僅英文的遊戲我也破關過了不少款，唯有這款我是真的不知道設計者是存何居心，遊戲的指引簡直是個災難。\n\n首先先來列舉一些我覺得沒這麼嚴重的缺點。\n\n[h3]▼缺點清單[/h3]\n[b]-沒有傳送點[/b]\n[b]-受到攻擊不具有無敵，一隻移動怪的接觸傷害可以瞬間將你帶去天國[/b]\n[b]-主人翁HP永遠只有三格[/b]\n[b]-遊戲操作有問題，某些反向移動會讓前進卡死，無法跳躍也無法轉向[/b]\n[b]-沙灘區域的海鳥攻擊會讓畫面大幅度掉偵[/b]\n\n雖然缺點很多，但我都可以挺過來、我都可以接受，但唯獨接下來這個缺點我是完全不行容忍。\n\n[h3]●災難性的遊戲指引與流程[/h3]\n首先這款遊戲的引導功能是有的，它有給提示，但通關的方式都讓人搖頭。\n\n第一關Boss前往的方法居然是要走迷幻森林的迷宮，這種玩意在其他遊戲都是中後期才會出現的，就你這款遊戲最特別第一關就直接搞這個玩意。\n本身這玩意也不是很致命，最致命的是它還安排了一個深林商店，並且你極大的可能會在Boss關卡前更早遇到這個商店，這個商店的位置是個死路，這會讓玩家有個錯覺以為迷幻森林的設計就是這樣子而已了，讓玩家不會再去探索這裡。\n\n沙漠關卡也很要命，一位需要喝水的NPC他所需要的「水」居然放在某個鎖住的房間，而那個房間的鑰匙獲得方式則是上一個關卡海洋裡某一個看起來像是陷阱的坑洞，進入到深水區並進行一連段的障礙游泳才可以獲得鑰匙。\n而最要命的是遊戲的指引提示都是寫「你需要解開沙漠的謎團」，害得我只能在沙漠不停地迂迴，完全是浪費時間。\n\n所謂動作遊戲的解謎，線索都應該放在玩家在必定流程會有極大機率遇到的狀況，就算沒辦法也不要塞著其他東西影響玩家解謎的判斷。\n\n[h3]▼僅存少數不多的優點[/h3]\n+具有畫面加速功能\n+具有畫面倒帶功能\n+經典的GBA上下左右操作設計\n+類似於瑪莉歐的經典跳跳樂\n+經典的8bit音樂與\n\n這些優點可能不是最好，但真的都是我當初喜歡這款遊戲的原因。\n\n[h3]■結尾[/h3]\n現在呢? 現在我怎麼看待這款遊戲?\n真的是糟透了，體驗上真的是太糟糕了。\n唉就算我已經找到沙漠關卡所需要的水，我也已經沒有耐心繼續玩這款遊戲了，才幾個關卡我就可以卡關兩次，甚至那連謎題都稱不上，但我卻被搞了特別久。\n真是太遺憾了。",
+        "timestamp_created": 1766343333,
+        "timestamp_updated": 1766343633,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754065320",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB1iuOvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2350000000001273,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3981780,
+  "requested_at": "2026-09-13T20:07:49.034897+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "207507681",
+        "author": {
+          "steamid": "76561198123240411",
+          "personaname": "Zhaar",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/thezhaar/",
+          "num_games_owned": 457,
+          "num_reviews": 2,
+          "playtime_forever": 16,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 16,
+          "last_played": 1761354698,
+          "avatar": "3e7fa82d331c950cc2dffca68c4e0f723849cff0"
+        },
+        "language": "english",
+        "review": "A beautiful game about a beautiful world with a beautiful message. Doesn't take a lot of time at all to finish, so if you feel like spending 2$, then please support this developer and enjoy this little adventure.",
+        "timestamp_created": 1761354952,
+        "timestamp_updated": 1761354952,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761309246",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABxjsqXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.264999999999418,
+  "transport_error_count": 0
+}

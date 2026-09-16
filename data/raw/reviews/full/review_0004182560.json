@@ -1,0 +1,68 @@
+{
+  "appid": 4182560,
+  "requested_at": "2026-09-13T20:24:47.587353+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 9,
+      "total_negative": 0,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "213425240",
+        "author": {
+          "steamid": "76561198046541723",
+          "personaname": "Miltage",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/miltage/",
+          "num_games_owned": 527,
+          "num_reviews": 23,
+          "playtime_forever": 85,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 85,
+          "last_played": 1765710612,
+          "avatar": "caf4dcc217f95ae8791cffc61898b4cf088885be"
+        },
+        "language": "english",
+        "review": "Neat little sandbox game. The controls are quite intuitive and visually, it looks incredible, but it is lacking some pieces and tools that I hope to see in a future update:\n\n- The previews in the toolbox are 2D so it is difficult to see exactly what the piece is until you select it and place it in the level (especially for some of them that look very similar). This results in myself picking and placing the wrong piece quite a bit.\n- Eyedropper tool: sometimes I want to just duplicate and place a piece I already have in the level without having to hunt for it in the menus.\n- There are a few pieces where I struggle to imagine how to use them in practice. Perhaps some prebuilt levels we can look at  and explore for examples/inspiration (there are a few in the trailer).\n- There are only corner pieces for the pools, so at most you can only build a 2x2 pool. Introducing some straight pieces would give us more options.",
+        "timestamp_created": 1765897422,
+        "timestamp_updated": 1765897422,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.568345367908477783",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1765907986,
+        "developer_response": "Thank you very much for the detailed and kind feedback. First of all, I am genuinely honored to hear that you find the game enjoyable and that you like the visuals. Marble Odyssey: Sandbox is a solo-developed project, so comments like this are both motivating and incredibly valuable to me.\n\nLet me respond to your points one by one:\n\nYour suggestion about the toolbox previews is very valid. When pieces look similar, it is easy to select the wrong one. As you mentioned, having a 360-degree rotating preview or a small tabletop-style preview when hovering over a piece makes a lot of sense and would greatly improve usability. I have taken note of this idea.\n\nRegarding the eyedropper tool, you are definitely not alone. I have received similar feedback from several players. Being able to duplicate an existing object directly from the scene, including both the object itself and its color, feels essential for a sandbox experience. This is something I agree is necessary and plan to work on.\n\nAbout prebuilt levels, while creating the trailer I actually worked in a very improvised way, building scenes based on what I thought might look interesting. However, your suggestion makes a lot of sense. Creating at least 3 or 4 explorable and well-designed example levels for inspiration would be a much better experience for players.\n\nThe pool pieces are not fully solved yet and still need more iteration. Beyond pools, I am also considering adding more mechanical platforms and larger, more space-occupying systems. Expanding the pool pieces with straight sections and more variations is definitely part of what I am thinking about for the future.\n\nThank you again for taking the time to share your thoughts. Feedback like this genuinely helps shape the future of the game.",
+        "app_release_date": "1764949793",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYohMAAAAAFP+Iv4eAAAAB4xZOuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999994689,
+  "transport_error_count": 0
+}

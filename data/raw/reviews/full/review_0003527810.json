@@ -1,0 +1,99 @@
+{
+  "appid": 3527810,
+  "requested_at": "2026-09-13T19:20:37.385187+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 27,
+      "total_negative": 12,
+      "total_reviews": 39
+    },
+    "reviews": [
+      {
+        "recommendationid": "205275180",
+        "author": {
+          "steamid": "76561198145256548",
+          "personaname": "Satan Claus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/durpledore/",
+          "num_games_owned": 3821,
+          "num_reviews": 128,
+          "playtime_forever": 193,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 83,
+          "last_played": 1784757518,
+          "avatar": "ee3b9eabf64187def3a4896f60df35cf92082285"
+        },
+        "language": "english",
+        "review": "[h1] Dont Buy... It's a Cash Grab with Zero Christmas Spirit [/h1]\n\nThis game is an outright embarrassment. [b] It looks and plays like a bad PS2 title...[/b] The levels are nothing but giant, empty wastelands, stitched together with all the care of a rushed college assignment. There’s no gameplay loop, no creativity, just a hollow shell that leeches off the Rudolph brand.\n\nAnd then comes the price… [b]charging $35.99 for this mess is insulting (This price is with a discount lol) [/b]. Free Flash games from the early 2000s had more heart, charm, and holiday spirit than this soulless cash grab. Expecting players to pay real money for something this lazy is beyond a joke. Realistcally it should be $10 or under.\n\nVisually, it’s worse. The graphics look like a PlayStation 2 throwback, and yet even some PS2 games from 20 years ago had more soul and better level layout. Compare it to Ice Age 2: The Meltdown (Also an IP game), which released on PS2 almost 20 years ago. Yes, I played that game 20 years ago the first time and revisited it recently, so I say this with confidence that game had more personality, smarter design, and was actually fun game when compared to this nothing burger. With today’s tech, releasing something that feels two decades behind is pathetic.\n\n[u] Judge for yourself with the two videos below for a comparison: [/u]\n\nThis Game which is a 2025 release: https://youtu.be/GV3iydaXPL4?t=10886\n\nPS2 Game from Almost 20 Years Ago!!!: https://youtu.be/wxlK58nypcE?t=1591\n\nI’ve loved Rudolph and Christmas since I was a kid and my Steam profile and Curator page are a result of that time of year, it’s pure nostalgia and joy for me. That’s why this hurts so much. A company had the privilege of working with such a beloved holiday icon, yet instead of honoring that magic, they churned out this lazy, soulless slop. It’s not just bad, it feels disrespectful to the legacy of Rudolph and to everyone who grew up loving him.\n\n[h3] Final Thoughts & Feedback [/h3]\n\nWhat hurts the most is that this didn’t have to be a disaster. Rudolph is such a beloved character, and there’s so much magic tied to Christmas that could’ve been captured here. A cozy holiday platformer, a lighthearted adventure with friends, or even just a fun, replayable festive game would’ve been amazing. But instead, we got empty levels and a rushed mess with a ridiculous price tag.\n\nIf the devs want to turn this around, they need to go back to the drawing board and actually put heart into it. Players don’t mind paying for something special, but no one wants to shell out hard earned money for a soulless cash grab. Give us charm, creativity, and a reason to believe in Rudolph again.\n\n[h3] Hold off from Buying this piece of Coal [/h3]\n\n[url=https://store.steampowered.com/curator/43890595/] 🎅Would Appreciate If You Follow My Curator Page🎅   [/url]\n\n[b] Would mean a lot if you supported me there, would help me create more quality reviews. [/b]",
+        "timestamp_created": 1758929348,
+        "timestamp_updated": 1758929348,
+        "voted_up": false,
+        "votes_up": 146,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.813648521900177002",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758902252",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 15,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 12,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTuh4AAAAAFP+oJaaAAAAB8goiPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

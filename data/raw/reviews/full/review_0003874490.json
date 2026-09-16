@@ -1,0 +1,66 @@
+{
+  "appid": 3874490,
+  "requested_at": "2026-09-13T19:53:06.593596+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 38,
+      "total_negative": 2,
+      "total_reviews": 40
+    },
+    "reviews": [
+      {
+        "recommendationid": "207075027",
+        "author": {
+          "steamid": "76561198131860830",
+          "personaname": "murmursan",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198131860830/",
+          "num_games_owned": 0,
+          "num_reviews": 19,
+          "playtime_forever": 1597,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 965,
+          "last_played": 1761053249,
+          "avatar": "752eb38c3b0bc6f74708ec2c3d44d00bda41edde"
+        },
+        "language": "japanese",
+        "review": "中毒性はあるがグラがしょぼい。\n\nまず日本人のおっさんが敵キャラというコンセプトは全く良くない。\n武器のほとんどが自動照準でないのが微妙。\n武器が進化する仕様があるようだが攻略サイトを見ないと組み合わせが全くわからない。\nまだほんとにアーリーアクセスな感じがするけど、まあクリアまで短時間やるだけなら別に良ゲーかもなという印象。",
+        "timestamp_created": 1760864249,
+        "timestamp_updated": 1760864249,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.536613285541534424",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754640097",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZRIqAAAAAFP+Er7wAAAABz7faVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,103 @@
+{
+  "appid": 3757210,
+  "requested_at": "2026-09-13T19:37:39.532588+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 854,
+      "total_negative": 290,
+      "total_reviews": 1144
+    },
+    "reviews": [
+      {
+        "recommendationid": "222859559",
+        "author": {
+          "steamid": "76561199004070975",
+          "personaname": "Pezzy",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199004070975/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 419,
+          "playtime_last_two_weeks": 3,
+          "playtime_at_review": 389,
+          "last_played": 1788850053,
+          "avatar": "4e4ac83b226a7fa35f21bb83304e697d81f9ac36"
+        },
+        "language": "english",
+        "review": "i hate you with such a burning passion in my heart. i dont think ive ever felt more light headed in my life than after beating the agree section. i would rather shove multiple things in my ear canals then play this game again.\n\n10/10",
+        "timestamp_created": 1775718508,
+        "timestamp_updated": 1775718508,
+        "voted_up": true,
+        "votes_up": 128,
+        "votes_funny": 108,
+        "weighted_vote_score": "0.916996657848358154",
+        "comment_count": 12,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764860528",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 15
+          },
+          {
+            "reaction_type": 28,
+            "count": 13
+          },
+          {
+            "reaction_type": 27,
+            "count": 11
+          },
+          {
+            "reaction_type": 24,
+            "count": 5
+          },
+          {
+            "reaction_type": 31,
+            "count": 5
+          },
+          {
+            "reaction_type": 35,
+            "count": 4
+          },
+          {
+            "reaction_type": 25,
+            "count": 2
+          },
+          {
+            "reaction_type": 26,
+            "count": 2
+          },
+          {
+            "reaction_type": 29,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRqPmAAAAAFP+1YCiAAAAB3kpLSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.233999999999469,
+  "transport_error_count": 0
+}

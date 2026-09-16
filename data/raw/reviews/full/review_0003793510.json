@@ -1,0 +1,66 @@
+{
+  "appid": 3793510,
+  "requested_at": "2026-09-13T19:40:40.891629+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214816306",
+        "author": {
+          "steamid": "76561198125981778",
+          "personaname": "gusbohoc",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198125981778/",
+          "num_games_owned": 25,
+          "num_reviews": 22,
+          "playtime_forever": 286,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 248,
+          "last_played": 1777052334,
+          "avatar": "b738bcdb78d0a019db035341917e18c045f27aee"
+        },
+        "language": "hungarian",
+        "review": "Egyes anomáliák túl sokszor ismétlődnek, volt, hogy két játékbeli órán belül háromszor (!) is. A pályák unalmasak az elsőt leszámítva, nem tetszettek. Nem értettem néhány pálya elemet se, nem odavalónak éreztem, egyes megoldások elég gagyinak hatottak számomra.",
+        "timestamp_created": 1767272725,
+        "timestamp_updated": 1767272725,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755612009",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABy47qzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.235000000000582,
+  "transport_error_count": 0
+}

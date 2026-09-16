@@ -1,0 +1,75 @@
+{
+  "appid": 3415240,
+  "requested_at": "2026-09-13T19:14:34.258430+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 439,
+      "total_negative": 208,
+      "total_reviews": 647
+    },
+    "reviews": [
+      {
+        "recommendationid": "206512079",
+        "author": {
+          "steamid": "76561198041816135",
+          "personaname": "haelkun",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198041816135/",
+          "num_games_owned": 233,
+          "num_reviews": 3,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 49,
+          "last_played": 1760242852,
+          "avatar": "514f495393ac6fa3d5be7b7a765f6d0514558bee"
+        },
+        "language": "english",
+        "review": "I need you Steam Users to know I never leave a review. I also want the devs to know I am sorry to be negative but I must.\nI have never in my life been made so angry by a \"cozy\" game. It presents itself as an organizing game, and then tells you there's no right or wrong place to put things. Initially I thought okay maybe that'll be fun. It was not. You are presented with a small portion of the items, not knowing what will come up next, and expected to organize each wave of thing into whatever you had done before. I personally love seeing a whole table of things and deciding where each thing will fit, but when you only get 1/4 of them each time it is essentially impossible to preplan what you will do. This then turns into you moving everything around again each round of items.\nThe controls are bad. Things half the time don't want to slot into place and it's very finicky about which spot is acceptable. The rotation mechanic is a good idea on paper but it is so frustrating to try to get anything to a right angle pose. I spent so much time tapping q and then e over and over to try and just get it straight. Rows and rows of soda bottles or paintbrushes all slightly crooked. IT WAS LIKE MY SOUL WAS DYING.\nDo not waste your money, play Unpacking again instead.",
+        "timestamp_created": 1760243978,
+        "timestamp_updated": 1760243978,
+        "voted_up": false,
+        "votes_up": 61,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.864435374736785889",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757757550",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSthgAAAAAFP+upc6AAAAB//OOTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

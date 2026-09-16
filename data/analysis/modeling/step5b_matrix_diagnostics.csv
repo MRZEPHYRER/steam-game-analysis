@@ -1,0 +1,2 @@
+"matrix_rows","matrix_columns","matrix_rank","condition_number","exact_dependencies","formula","response","family","platform_reference","genre_reference"
+836,13,13,5.44244022563179,0,"cbind(positive_reviews, negative_reviews) ~ z_log1p_price + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy","cbind(positive_reviews, negative_reviews)","binomial(link = logit)","Windows only","absent (0)"

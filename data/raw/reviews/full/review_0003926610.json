@@ -1,0 +1,66 @@
+{
+  "appid": 3926610,
+  "requested_at": "2026-09-13T20:00:59.467207+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "219207967",
+        "author": {
+          "steamid": "76561198868184322",
+          "personaname": "XYX",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198868184322/",
+          "num_games_owned": 475,
+          "num_reviews": 133,
+          "playtime_forever": 159,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 43,
+          "last_played": 1772316192,
+          "avatar": "a2e056401f0f7042c19e70c0235d66ed44a84d31"
+        },
+        "language": "english",
+        "review": "Origamihero games is a true artist. I love the worlds/characters he makes its a timeless style and White Eternal is one of his best games (maybe even his best rpg made yet). \n\nMy save file from the free itchio version also carried over to steam! Easily worth it at full price if you like journeys with funny and memorable characters music and locations.\n\n10/10",
+        "timestamp_created": 1772037816,
+        "timestamp_updated": 1772038007,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.56886899471282959",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756734068",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYn2QAAAAAFP+I0LMAAAAB/kZvEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

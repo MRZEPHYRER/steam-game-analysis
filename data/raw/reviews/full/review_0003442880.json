@@ -1,0 +1,66 @@
+{
+  "appid": 3442880,
+  "requested_at": "2026-09-13T19:16:06.691361+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 63,
+      "total_negative": 3,
+      "total_reviews": 66
+    },
+    "reviews": [
+      {
+        "recommendationid": "206364622",
+        "author": {
+          "steamid": "76561197996000877",
+          "personaname": "Rokk",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Rokk/",
+          "num_games_owned": 740,
+          "num_reviews": 195,
+          "playtime_forever": 316,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 274,
+          "last_played": 1772383307,
+          "avatar": "676cab57a5fcdc31258e549a2aa8a7250b879725"
+        },
+        "language": "english",
+        "review": "Pretty decent game so far, and gets updates often.\n\nControls are a little weird. They're definitely made for controllers, although actually playing it with a controller is kinda painful (tested with both a DS4 Controller and a Switch Pro Controller). The movement is all digital inputs so the sticks really add nothing and it's easier to just use the keyboard.\n\nI implore you, add proper keyboard+mouse support.",
+        "timestamp_created": 1760123170,
+        "timestamp_updated": 1760123210,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.591603636741638184",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757106051",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYKv0AAAAAFP+Lua4AAAAB+/JuTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

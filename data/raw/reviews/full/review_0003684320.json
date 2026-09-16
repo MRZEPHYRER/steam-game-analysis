@@ -1,0 +1,66 @@
+{
+  "appid": 3684320,
+  "requested_at": "2026-09-13T19:31:23.655775+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "204595412",
+        "author": {
+          "steamid": "76561198057246223",
+          "personaname": "Drisana",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/drisana/",
+          "num_games_owned": 0,
+          "num_reviews": 139,
+          "playtime_forever": 725,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 400,
+          "last_played": 1763954589,
+          "avatar": "54f34f232cca57d9adbc19c4645db498ab5718cd"
+        },
+        "language": "english",
+        "review": " This is a great addition to the long running Clutter game series. New puzzles types and item sets are also definitely some of the best of recent releases. Well worth it for any fan of match 2, match 3, or puzzle games in general. Many hours of playtime plus more way to play than just the main 'quest\" (which is more like an ongoing increase in difficulty to beat the clock, but you CAN turn off the clock if you are NOT a fan of timed games without any negative effect incurred). \n\nPrefer to find the one unique item in a batch of other items? This has you covered. want to test your ability with pure black and white piles of items in a mixed pile trying to find all the matches before the clock runs down?  This has you covered. That is only two such examples, there are far more puzzle types than this included so it stays amusing for longer sessions of play as well as short ones. \n\nIf you have a hard time trying to understand what this game is, I would say if you enjoyed word searches or spot the difference books as a child, such as the old highlights magazine most of you may be familiar with, you will enjoy this series without any issue. For anyone not familiar with that magazine: The goal is to find the right objects or find the right puzzle piece equivalent or spot out that one odd man out item. Am excellent game to wind down after along day of school or work. Well worth the cost.",
+        "timestamp_created": 1758166109,
+        "timestamp_updated": 1758336930,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.51408761739730835",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757948123",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZt96AAAAAFP+BzaKAAAAB0jbyMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

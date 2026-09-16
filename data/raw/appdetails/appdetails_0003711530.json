@@ -1,0 +1,279 @@
+{
+  "requested_at": "2026-09-12T16:14:05.853839+00:00",
+  "request_params": {
+    "appids": 3711530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3711530,
+  "payload": {
+    "3711530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "A Flame in the Dark",
+        "steam_appid": 3711530,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong><i>An eclipse has blocked out the sun and in the perpetual darkness monsters have risen from the shadows.</i></strong></p><p class=\"bb_paragraph\" ><i><strong>A small tribe of people have traveled to a ancient dungeon where legend tells of a permanent source of light.</strong></i></p><p class=\"bb_paragraph\" ><i><strong>You must make your way through the winding and crumbling ruins, your only weapon a torch. However, when your torch eventually burns out the shadow will take you. Before that happens you must find a way to help those who will come after you.</strong></i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A Flame in the Dark is played 1 torch at a time. You must explore the dungeon and unlock ways and passages before your torch runs out, so the next torch bearer can get even deeper; and closer to their salvation.</p><p class=\"bb_paragraph\" >The dungeon is dark and you only have a single torch to light your way. Explore, solve puzzles, and use your time wisely because time is always running out...</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong><i>An eclipse has blocked out the sun and in the perpetual darkness monsters have risen from the shadows.</i></strong></p><p class=\"bb_paragraph\" ><i><strong>A small tribe of people have traveled to a ancient dungeon where legend tells of a permanent source of light.</strong></i></p><p class=\"bb_paragraph\" ><i><strong>You must make your way through the winding and crumbling ruins, your only weapon a torch. However, when your torch eventually burns out the shadow will take you. Before that happens you must find a way to help those who will come after you.</strong></i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A Flame in the Dark is played 1 torch at a time. You must explore the dungeon and unlock ways and passages before your torch runs out, so the next torch bearer can get even deeper; and closer to their salvation.</p><p class=\"bb_paragraph\" >The dungeon is dark and you only have a single torch to light your way. Explore, solve puzzles, and use your time wisely because time is always running out...</p>",
+        "short_description": "Navigate the darkest of dungeons equipped with only a torch. Explore, solve puzzles, and find a path forward to help the next adventurer before your only light source burns out in this unique roguelite!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/11289d5043eea9810af64851abe936570f65416c/header.jpg?t=1758828481",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/a8695007bd03b0d6e219f7eac92e5618a10db325/capsule_231x87.jpg?t=1758828481",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/a8695007bd03b0d6e219f7eac92e5618a10db325/capsule_184x69.jpg?t=1758828481",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel i3 quad core or better<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>VR Support:</strong> No</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "tornadre"
+        ],
+        "publishers": [
+          "tornadre"
+        ],
+        "demos": [
+          {
+            "appid": 3775380,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1306636
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy A Flame in the Dark",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1306636,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "A Flame in the Dark - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/ef84a1083e4c78773cbc5d1ce9c5681e738e8208/ss_ef84a1083e4c78773cbc5d1ce9c5681e738e8208.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/ef84a1083e4c78773cbc5d1ce9c5681e738e8208/ss_ef84a1083e4c78773cbc5d1ce9c5681e738e8208.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/80b0afaf0d11499151c3289900ff6291794ffe07/ss_80b0afaf0d11499151c3289900ff6291794ffe07.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/80b0afaf0d11499151c3289900ff6291794ffe07/ss_80b0afaf0d11499151c3289900ff6291794ffe07.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/f956a526ebd8e1982adb06a9b793bb867064229a/ss_f956a526ebd8e1982adb06a9b793bb867064229a.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/f956a526ebd8e1982adb06a9b793bb867064229a/ss_f956a526ebd8e1982adb06a9b793bb867064229a.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/26e6c11866616165ef3b48cc8d1f92dd1c8f0e6d/ss_26e6c11866616165ef3b48cc8d1f92dd1c8f0e6d.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/26e6c11866616165ef3b48cc8d1f92dd1c8f0e6d/ss_26e6c11866616165ef3b48cc8d1f92dd1c8f0e6d.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/322c2a31cbb079ddc6413cc38cc8d8c14596c025/ss_322c2a31cbb079ddc6413cc38cc8d8c14596c025.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/322c2a31cbb079ddc6413cc38cc8d8c14596c025/ss_322c2a31cbb079ddc6413cc38cc8d8c14596c025.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/3ce20c933f623f77a3d43b088a1e88df0099a528/ss_3ce20c933f623f77a3d43b088a1e88df0099a528.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/3ce20c933f623f77a3d43b088a1e88df0099a528/ss_3ce20c933f623f77a3d43b088a1e88df0099a528.1920x1080.jpg?t=1758828481"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/a0963c9510bf067da7b269632912657e481b573b/ss_a0963c9510bf067da7b269632912657e481b573b.600x338.jpg?t=1758828481",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711530/a0963c9510bf067da7b269632912657e481b573b/ss_a0963c9510bf067da7b269632912657e481b573b.1920x1080.jpg?t=1758828481"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257146084,
+            "name": "A Flame in the Dark Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257146084/73128db99193fdce4110e7067d8b97138b977d92/movie_600x337.jpg?t=1758828238",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3711530/206922377/af8568abdcdb4886e65fbb2891366fbf0f20feb6/1758826368/dash_av1.mpd?t=1758828238",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3711530/206922377/af8568abdcdb4886e65fbb2891366fbf0f20feb6/1758826368/dash_h264.mpd?t=1758828238",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3711530/206922377/af8568abdcdb4886e65fbb2891366fbf0f20feb6/1758826368/hls_264_master.m3u8?t=1758828238",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "da3a221bfd792d0487ff4c942660d34abd1a1f25.jpg",
+              "localized_name": "The Sun Has Gone Down",
+              "archived": 0,
+              "hidden": 1,
+              "name": "The Sun Has Gone Down",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/da3a221bfd792d0487ff4c942660d34abd1a1f25.jpg"
+            },
+            {
+              "icon": "b24afcc801243315fdfe65cdda223a6e0a769245.jpg",
+              "localized_name": "Going the Distance",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Going the Distance",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/b24afcc801243315fdfe65cdda223a6e0a769245.jpg"
+            },
+            {
+              "icon": "b0d3fd05f0a8f686bdeaf8ed4599bfafd9b4f54a.jpg",
+              "localized_name": "Going for Speed",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Going for Speed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/b0d3fd05f0a8f686bdeaf8ed4599bfafd9b4f54a.jpg"
+            },
+            {
+              "icon": "20bcbe41ef4c1eaa482910227de580f679d103c5.jpg",
+              "localized_name": "Making the Grade",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Making the Grade",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/20bcbe41ef4c1eaa482910227de580f679d103c5.jpg"
+            },
+            {
+              "icon": "c9b13fcc46e81be2a6c7246718163c4881f20d81.jpg",
+              "localized_name": "The Green Light",
+              "archived": 0,
+              "hidden": 1,
+              "name": "The Green Light",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/c9b13fcc46e81be2a6c7246718163c4881f20d81.jpg"
+            },
+            {
+              "icon": "6ec2ae3177b718c2570da5d2a58d5f4e09a8308f.jpg",
+              "localized_name": "Plotting the Course",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Plotting the Course",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/6ec2ae3177b718c2570da5d2a58d5f4e09a8308f.jpg"
+            },
+            {
+              "icon": "a9f48ae66e7ddef15aa56ef7b18f3f4db0a19974.jpg",
+              "localized_name": "No Trophy, No Flowers",
+              "archived": 0,
+              "hidden": 1,
+              "name": "No Trophy, No Flowers",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3711530/a9f48ae66e7ddef15aa56ef7b18f3f4db0a19974.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "tornadre@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3711530?t=1758828481",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3711530?t=1758828481",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

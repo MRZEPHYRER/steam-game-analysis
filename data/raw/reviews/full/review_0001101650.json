@@ -1,0 +1,66 @@
+{
+  "appid": 1101650,
+  "requested_at": "2026-09-13T18:41:33.256661+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "213624916",
+        "author": {
+          "steamid": "76561198066590240",
+          "personaname": "FastLawyer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/FastLawyer/",
+          "num_games_owned": 0,
+          "num_reviews": 3349,
+          "playtime_forever": 38,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 38,
+          "last_played": 1766128749,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "english",
+        "review": "[h1]Experienced on the Meta Quest 3[/h1]\n\nYou can view my live review & gameplay here: https://youtu.be/G6ROqr1lzSs\n\nThis is a very fun game. The problem is that the content is very limited. You only have 3 tracks. You can play single player or multiplayer (untested). I finished first in each race and experienced almost everything you could in single player in about 40 minutes. \n\nFor the price, I think that's okay. The game is in Early Access and the devs seem to be working to add more content and improve the experience. With more content, this could be one of the top Wipeout-like experiences in VR. It really just needs more content and a little more polish.\n\nAn active online multiplayer community would also be awesome, but that's not likely to happen. Game is running on the Unreal Engine 4. On my RTX 5090, I was getting a steady 90 fps. I did not experience any serious issues or bugs. I did play with an Xbox one controller, but motion controllers are supported as a gamepad. You can also play with KBM. I don't know about wheel support.\n\n[b]Rate 7.5/10. I already got my money's worth. I hope the devs expand on the game though.[/b]\n\n[quote]I bought this game! If you enjoyed my review, please consider joining my Steam Curator group [url=https://steamcommunity.com/groups/Oculus_WMR]Oculus Rift Reviews.[/url][/quote]",
+        "timestamp_created": 1766130388,
+        "timestamp_updated": 1766130456,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.667067646980285645",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766041978",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWqJyAAAAAFP+VYnwAAAAB0hfWuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

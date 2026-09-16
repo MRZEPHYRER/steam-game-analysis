@@ -1,0 +1,66 @@
+{
+  "appid": 3342900,
+  "requested_at": "2026-09-13T19:11:39.268455+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "217166112",
+        "author": {
+          "steamid": "76561198155245829",
+          "personaname": "VolroBad",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198155245829/",
+          "num_games_owned": 0,
+          "num_reviews": 163,
+          "playtime_forever": 219,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 219,
+          "last_played": 1769782431,
+          "avatar": "add8564167eeb6b51bc62f645a1f6c96f20ed808"
+        },
+        "language": "russian",
+        "review": "Не адекватная сложность игры. Не считаю себя плохим игроком, люблю хорошую сложность, всегда прохожу тяжёлые режимы, за плечами более сотни товер дефенсов, но эту игру дальше пятого уровня пройти не смог на лёгком режиме. На 2025 год игру нужно тестировать дольше и перебалансировать.",
+        "timestamp_created": 1769782690,
+        "timestamp_updated": 1769782690,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752814406",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABwkra8Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

@@ -1,0 +1,87 @@
+{
+  "appid": 1657630,
+  "requested_at": "2026-09-13T18:44:09.978578+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 41078,
+      "total_negative": 2405,
+      "total_reviews": 43483
+    },
+    "reviews": [
+      {
+        "recommendationid": "205084153",
+        "author": {
+          "steamid": "76561198838012745",
+          "personaname": "LiquidatedBunny",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/screwdriverbnuuy/",
+          "num_games_owned": 249,
+          "num_reviews": 60,
+          "playtime_forever": 2462,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2207,
+          "last_played": 1760913608,
+          "avatar": "5d633b0137a05e16d61e260bc96eb0f19486322f"
+        },
+        "language": "english",
+        "review": "This is an enjoyable game, but I can't call it \"better\" than the original, because they feel like different flavors, rather than a direct improvement.\r\nSlime Rancher 2 focuses more on collecting resources, due to the the improved and expanded resource collection system - as opposed to the original game, which seems to focus more on exploration and discovery. \r\nI enjoy them both, but I feel like Slime Rancher 2 expects me to spend a lot more time searching for and collecting resources, rather than how the first game seemed to emphasize wandering around and finding neat things.\r\nIf you enjoyed the first game, but wished that the Slime Science was more involved, you'll enjoy this game.\r\n\r\nThat being said, this game is an instant recommendation because there are bunnies :3",
+        "timestamp_created": 1758684033,
+        "timestamp_updated": 1758684033,
+        "voted_up": true,
+        "votes_up": 166,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.923120796680450439",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1663866009",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRiZ8AAAAAFP+2KNQAAAAB536qOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.015999999999849,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3355830,
+  "requested_at": "2026-09-13T19:12:07.593630+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 16,
+      "total_negative": 0,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "204233859",
+        "author": {
+          "steamid": "76561197992556759",
+          "personaname": "HUDoff••972",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/4235767/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 2989,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2887,
+          "last_played": 1759002226,
+          "avatar": "b9aaa84d5addda0db22750dda177f8ae5a3c214b"
+        },
+        "language": "english",
+        "review": "If you love realism and simulators, you should definitely try this \"game\"\n\nThis SIM was made with love by simmer, for simmers. Each update brings more and more detailed additions.\nYou will definitely love your workplace, and the order of actions.",
+        "timestamp_created": 1757766932,
+        "timestamp_updated": 1757766932,
+        "voted_up": true,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.693901419639587402",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754050639",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXHzoAAAAAFP+Y0b+AAAABzyIuLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.3290000000001783,
+  "transport_error_count": 0
+}

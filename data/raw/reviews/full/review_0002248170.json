@@ -1,0 +1,66 @@
+{
+  "appid": 2248170,
+  "requested_at": "2026-09-13T18:48:48.780639+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 0,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "213888685",
+        "author": {
+          "steamid": "76561198000065406",
+          "personaname": "Toad",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198000065406/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 451,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 451,
+          "last_played": 1766379317,
+          "avatar": "b94a86e420d0e05854669fbe24af9864eee1af76"
+        },
+        "language": "english",
+        "review": "DHB is like slowly walking through a building, in the pitch black, that you have never been in, that is also filled with venomous snakes. The music is good, the puzzles are hard, and the maze is seemingly endless. This game is dark, but I like it so far. Sort of a weird type psychiatric ward/quarantine/test subject feel.  Kind of reminds me of survival horror, but slightly comical. It is dark and creepy and it might be violent, but I'm not sure and I'd like to find out more.",
+        "timestamp_created": 1766380464,
+        "timestamp_updated": 1766381345,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.563636362552642822",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766001624",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYui8AAAAAFP+IJTmAAAAB96vWvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.890999999999849,
+  "transport_error_count": 0
+}

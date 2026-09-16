@@ -1,0 +1,3 @@
+"model_id","sample_scope","n_games","parameter_count","log_likelihood","aic","bic","comparison","lrt_p_value_linear_vs_spline","max_absolute_probability_gap","converged","warning_count","same_rows_within_comparison","spline_df"
+"LINEAR_DAYS","Primary complete market sample",2998,14,-1179.93439723845,2387.8687944769,2471.94860397818,"DAYS",0.188206532144052,0.0329770921744807,TRUE,0,TRUE,
+"SPLINE_DAYS_DF3","Primary complete market sample",2998,16,-1178.26418189454,2388.52836378908,2484.61957464768,"DAYS",0.188206532144052,0.0329770921744807,TRUE,0,TRUE,3

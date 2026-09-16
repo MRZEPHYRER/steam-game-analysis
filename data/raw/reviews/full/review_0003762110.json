@@ -1,0 +1,66 @@
+{
+  "appid": 3762110,
+  "requested_at": "2026-09-13T19:38:07.315202+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "208659110",
+        "author": {
+          "steamid": "76561198116113488",
+          "personaname": "ComicFanShibaBoy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198116113488/",
+          "num_games_owned": 0,
+          "num_reviews": 139,
+          "playtime_forever": 44,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 39,
+          "last_played": 1762547122,
+          "avatar": "ecb9ccc84ce691bd2c624e8e45e33626045ad4d7"
+        },
+        "language": "english",
+        "review": "This game is so buggy so broken and completely unplayable and I loved every second of it! I was having a great time playing this broken game it barely functions the controls are horrible and I was laughing hysterical the whole time. The game is also in another language for so I had to use my Google translate on my phone in order to select English in the options. When the game starts you off you have a gun but you wouldn't know that cuz inventory is \"B\" or according to the games display \"Alt B\" so I was running around looking for a gun for way longer than I should be until I just hit every button. Also there's no designated grenade button you have to select the grenade and hit apply to put it in one of your spots. And if you want to throw the grenade and then change your mind your weapons don't work anymore until a zombie hits you or you go into another room for some reason. But the thing that made me laugh the hardest was when you save a game it's not \"save game\" it's \"cover\" and when you want to load a game it's not \"load game\" it's \"read\" and you can accidentally click the wrong button and save over your game in the main menu. And then when you hit read to load the game it just reloads the main menu you're on cuz you saved over your game by accident. Honestly I was laughing so hard. I had a great time I actually recommend this game I will not be requesting a refund cuz I've just been having so much fun with how broken and buggy this game is.",
+        "timestamp_created": 1762547109,
+        "timestamp_updated": 1762547109,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.532572746276855469",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762452053",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZWToAAAAAFP+EK1oAAAAB2qvybBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

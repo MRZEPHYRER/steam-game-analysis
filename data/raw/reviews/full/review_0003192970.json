@@ -1,0 +1,66 @@
+{
+  "appid": 3192970,
+  "requested_at": "2026-09-13T19:06:37.018259+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 0,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "212606151",
+        "author": {
+          "steamid": "76561198365253347",
+          "personaname": "MOSE",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/1434122271/",
+          "num_games_owned": 3171,
+          "num_reviews": 410,
+          "playtime_forever": 184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 184,
+          "last_played": 1765008077,
+          "avatar": "efc458318c4c2b2fe752cab8c0a42b6d59318099"
+        },
+        "language": "schinese",
+        "review": "解谜小游戏，打发打发时间还挺好的，想全三星有点难",
+        "timestamp_created": 1764931808,
+        "timestamp_updated": 1764931808,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.512195110321044922",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764841992",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZwZAAAAAAFP+Bj5sAAAAB3zIOrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

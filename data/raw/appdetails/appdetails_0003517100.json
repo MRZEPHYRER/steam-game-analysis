@@ -1,0 +1,149 @@
+{
+  "requested_at": "2026-09-12T15:26:21.527834+00:00",
+  "request_params": {
+    "appids": 3517100,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3517100,
+  "payload": {
+    "3517100": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Ko ima ni ari",
+        "steam_appid": 3517100,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong> Ko ima ni ari</strong> is an interactive story-driven game about the past, present and future of someone loosing slowly their sight.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Venture into a simple and short visual novel driven by it's art, music and detail story.<br><br>The game feature only story text that you will follow in a linear or non linear way in order to understand the story overall.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong> Ko ima ni ari</strong> is an interactive story-driven game about the past, present and future of someone loosing slowly their sight.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Venture into a simple and short visual novel driven by it's art, music and detail story.<br><br>The game feature only story text that you will follow in a linear or non linear way in order to understand the story overall.</p>",
+        "short_description": "Ko ima ni ari is an interactive story-driven game about the past, present and future of someone loosing slowly their sight.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/de040c8c17013c345fb8bfc57e64e713d95fb29a/header.jpg?t=1787265292",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/025fd3f5d916123f266412437f9a5f71b227282f/capsule_231x87.jpg?t=1787265292",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/025fd3f5d916123f266412437f9a5f71b227282f/capsule_184x69.jpg?t=1787265292",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Microsoft Windows 10 (32bit/64bit)<br></li><li><strong>Processor:</strong> Intel N4100 / A12-9700P<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX or OpenGL 2.1<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 150 MB available space<br></li><li><strong>Sound Card:</strong> Built-In</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11.7.10 (64bit)<br></li><li><strong>Processor:</strong> Apple Silicon<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Metal<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 150 MB available space<br></li><li><strong>Sound Card:</strong> Built-In</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04 LTS<br></li><li><strong>Processor:</strong> Processor 2 GHz<br></li><li><strong>Memory:</strong> 2 MB RAM<br></li><li><strong>Graphics:</strong> OpenGL 2.1<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 150 MB available space<br></li><li><strong>Sound Card:</strong> Built-In</li></ul>"
+        },
+        "developers": [
+          "314isme"
+        ],
+        "publishers": [
+          "314isme"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/263a0b6816008c044d6dfe57b9f570c9dd3be313/ss_263a0b6816008c044d6dfe57b9f570c9dd3be313.600x338.jpg?t=1787265292",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/263a0b6816008c044d6dfe57b9f570c9dd3be313/ss_263a0b6816008c044d6dfe57b9f570c9dd3be313.1920x1080.jpg?t=1787265292"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/f25ea29299c67e8e02252fb65df0cb335cc9766e/ss_f25ea29299c67e8e02252fb65df0cb335cc9766e.600x338.jpg?t=1787265292",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/f25ea29299c67e8e02252fb65df0cb335cc9766e/ss_f25ea29299c67e8e02252fb65df0cb335cc9766e.1920x1080.jpg?t=1787265292"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/388159bfa0c921acf66eb1f1d53d5697c8ff626d/ss_388159bfa0c921acf66eb1f1d53d5697c8ff626d.600x338.jpg?t=1787265292",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/388159bfa0c921acf66eb1f1d53d5697c8ff626d/ss_388159bfa0c921acf66eb1f1d53d5697c8ff626d.1920x1080.jpg?t=1787265292"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/0cdea5afa11e36970c152aeee928876922eab910/ss_0cdea5afa11e36970c152aeee928876922eab910.600x338.jpg?t=1787265292",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/0cdea5afa11e36970c152aeee928876922eab910/ss_0cdea5afa11e36970c152aeee928876922eab910.1920x1080.jpg?t=1787265292"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/102124f8860c132fa5411eebe0bd57da28fb42e4/ss_102124f8860c132fa5411eebe0bd57da28fb42e4.600x338.jpg?t=1787265292",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517100/102124f8860c132fa5411eebe0bd57da28fb42e4/ss_102124f8860c132fa5411eebe0bd57da28fb42e4.1920x1080.jpg?t=1787265292"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257166506,
+            "name": "Ko ima ni ari",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257166506/57cc4ae26eecb77b20b44e71710ec0a7b35e0e38/movie_600x337.jpg?t=1753388704",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3517100/257266576/2eea8fc2e63af979e87665b6aa7633eba6065367/1751981812/dash_av1.mpd?t=1753388704",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3517100/257266576/2eea8fc2e63af979e87665b6aa7633eba6065367/1751981812/dash_h264.mpd?t=1753388704",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3517100/257266576/2eea8fc2e63af979e87665b6aa7633eba6065367/1751981812/hls_264_master.m3u8?t=1753388704",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 7, 2025"
+        },
+        "support_info": {
+          "url": "https://314is.me",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3517100?t=1787265292",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3517100?t=1787265292",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

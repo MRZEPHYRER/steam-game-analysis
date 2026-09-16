@@ -1,0 +1,197 @@
+{
+  "requested_at": "2026-09-13T06:01:58.612305+00:00",
+  "request_params": {
+    "appids": 3949760,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3949760,
+  "payload": {
+    "3949760": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "AVERNO - Condena -",
+        "steam_appid": 3949760,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>AVERNO – Condena </strong>is a <strong>2D survival horror game</strong> where you play as a soldier trapped inside a cursed house. Your mission is to descend into the deepest parts of its dark corridors to rescue your son, <strong>Pedro</strong>… before the horrors lurking within consume you. This is your primary goal inside the house, but you will soon discover that it won’t be easy. To reach Pedro, you must first find fragments of a mysterious mirror that connects to the darkest depths of the place.</p><p class=\"bb_paragraph\" >Explore interconnected rooms, solve puzzles, and carefully manage your resources. Avoid being caught by the creatures, for that will mean your death—making every effort in vain. Ammunition is scarce, and each encounter can be fatal, though you’ll be able to craft more using the right resources. You will also have a maximum of <strong>5 chances (lives)</strong> to continue your mission. Don’t waste them.</p><p class=\"bb_paragraph\" >Will you be able to survive the <strong>condemnation</strong> that awaits you in the <strong>Averno</strong>?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>AVERNO – Condena </strong>is a <strong>2D survival horror game</strong> where you play as a soldier trapped inside a cursed house. Your mission is to descend into the deepest parts of its dark corridors to rescue your son, <strong>Pedro</strong>… before the horrors lurking within consume you. This is your primary goal inside the house, but you will soon discover that it won’t be easy. To reach Pedro, you must first find fragments of a mysterious mirror that connects to the darkest depths of the place.</p><p class=\"bb_paragraph\" >Explore interconnected rooms, solve puzzles, and carefully manage your resources. Avoid being caught by the creatures, for that will mean your death—making every effort in vain. Ammunition is scarce, and each encounter can be fatal, though you’ll be able to craft more using the right resources. You will also have a maximum of <strong>5 chances (lives)</strong> to continue your mission. Don’t waste them.</p><p class=\"bb_paragraph\" >Will you be able to survive the <strong>condemnation</strong> that awaits you in the <strong>Averno</strong>?</p>",
+        "short_description": "AVERNO – Condena is a 2D survival horror game where you play as a soldier trapped inside a cursed house. Explore, search for keys and items, manage your scarce ammunition, and face terrifying horrors while trying to rescue your son. Running and shooting will be the keys to survival.",
+        "supported_languages": "English, German, Spanish - Latin America",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/3292f5c65bf6fe2f75c000470bfa84fff183de2a/header.jpg?t=1758542649",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/af5fa24a173bf760f9680932cb133ffad9f8332f/capsule_231x87.jpg?t=1758542649",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/af5fa24a173bf760f9680932cb133ffad9f8332f/capsule_184x69.jpg?t=1758542649",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7, 8, 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 130 MB available space<br></li><li><strong>Sound Card:</strong> Tarjeta de sonido compatible con DirectX<br></li><li><strong>VR Support:</strong> No compatible</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "gmwalker1998"
+        ],
+        "publishers": [
+          "gmwalker1998"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1387228
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy AVERNO - Condena -",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1387228,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "AVERNO - Condena - - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/4a5f289a1d7a9638412ad4c5f55934c5380f514b/ss_4a5f289a1d7a9638412ad4c5f55934c5380f514b.600x338.jpg?t=1758542649",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/4a5f289a1d7a9638412ad4c5f55934c5380f514b/ss_4a5f289a1d7a9638412ad4c5f55934c5380f514b.1920x1080.jpg?t=1758542649"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/20398aa4bd4c6b403153e748fc6312f238a128d4/ss_20398aa4bd4c6b403153e748fc6312f238a128d4.600x338.jpg?t=1758542649",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/20398aa4bd4c6b403153e748fc6312f238a128d4/ss_20398aa4bd4c6b403153e748fc6312f238a128d4.1920x1080.jpg?t=1758542649"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/bc3bfce3492b4fc4ccd533dae7f659d1cfd358df/ss_bc3bfce3492b4fc4ccd533dae7f659d1cfd358df.600x338.jpg?t=1758542649",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/bc3bfce3492b4fc4ccd533dae7f659d1cfd358df/ss_bc3bfce3492b4fc4ccd533dae7f659d1cfd358df.1920x1080.jpg?t=1758542649"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/fae1d261eb883d76f4195ad6d197e9baf0118313/ss_fae1d261eb883d76f4195ad6d197e9baf0118313.600x338.jpg?t=1758542649",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/fae1d261eb883d76f4195ad6d197e9baf0118313/ss_fae1d261eb883d76f4195ad6d197e9baf0118313.1920x1080.jpg?t=1758542649"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/5cf684ad29c66033d45d067c55a66e0cb8cc5728/ss_5cf684ad29c66033d45d067c55a66e0cb8cc5728.600x338.jpg?t=1758542649",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949760/5cf684ad29c66033d45d067c55a66e0cb8cc5728/ss_5cf684ad29c66033d45d067c55a66e0cb8cc5728.1920x1080.jpg?t=1758542649"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257184236,
+            "name": "Averno - Condena -",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257184236/d414aa9408478e8e9ef8c948b5ce387604acedce/movie_600x337.jpg?t=1757365894",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3949760/1462741427/01bbb53ebae60d0821d73828020fed1dadabf29e/1755374869/dash_av1.mpd?t=1757365894",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3949760/1462741427/01bbb53ebae60d0821d73828020fed1dadabf29e/1755374869/dash_h264.mpd?t=1757365894",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3949760/1462741427/01bbb53ebae60d0821d73828020fed1dadabf29e/1755374869/hls_264_master.m3u8?t=1757365894",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 22, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gmwalker1998@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3949760?t=1758542649",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3949760?t=1758542649",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

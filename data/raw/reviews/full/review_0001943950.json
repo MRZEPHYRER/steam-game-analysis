@@ -1,0 +1,66 @@
+{
+  "appid": 1943950,
+  "requested_at": "2026-09-13T18:46:00.695991+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 123368,
+      "total_negative": 13474,
+      "total_reviews": 136842
+    },
+    "reviews": [
+      {
+        "recommendationid": "230753627",
+        "author": {
+          "steamid": "76561198682782795",
+          "personaname": "沐空",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198682782795/",
+          "num_games_owned": 15,
+          "num_reviews": 1,
+          "playtime_forever": 396,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 395,
+          "last_played": 1785674908,
+          "avatar": "3312619db71e55304e0f9729cae1935a32208a09"
+        },
+        "language": "schinese",
+        "review": "第一次玩，本来准备一个人的，结果进去遇到一个，是我没有设置密码，我本来很怕怪，但是在这位好人的引导下6个小时速通了后室，什么飞蛾，窃皮，病毒都慢慢不怕了，但是为什么没有加好友的选项啊，我以为还有历史记录，结果退出来发现好人不见了，还准备加着认识一下的....雨中的她，我就只能把你当做一个后室里的好实体吧😭😭",
+        "timestamp_created": 1784378162,
+        "timestamp_updated": 1784378162,
+        "voted_up": true,
+        "votes_up": 392,
+        "votes_funny": 95,
+        "weighted_vote_score": "0.971323251724243164",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1660237225",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFQktOAAAAAFP+8VFAAAAAB71aDwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9680000000000746,
+  "transport_error_count": 0
+}

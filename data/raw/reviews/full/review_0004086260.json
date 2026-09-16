@@ -1,0 +1,66 @@
+{
+  "appid": 4086260,
+  "requested_at": "2026-09-13T20:18:09.199874+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "208918227",
+        "author": {
+          "steamid": "76561198018269996",
+          "personaname": "RevVoice",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/revvoice/",
+          "num_games_owned": 1556,
+          "num_reviews": 63,
+          "playtime_forever": 35,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 35,
+          "last_played": 1762816615,
+          "avatar": "b216d9d3e3839fb8fc51d8594c74f56bcb4f337c"
+        },
+        "language": "english",
+        "review": "It is basically The Password Game, but for $3. Obnoxious clicking noises, suggests there may be a plot, but then the \"Chat\" starts to repeat itself. They weren't kidding that it was probably written by AI - but it isn't difficult, it isn't logic based, it isn't even a puzzle by and large. If you google The Password Game you can play it for free, but better.",
+        "timestamp_created": 1762816840,
+        "timestamp_updated": 1762816840,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.55576556921005249",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762227637",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY4nqAAAAAFP+HI1cAAAABz7fqcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

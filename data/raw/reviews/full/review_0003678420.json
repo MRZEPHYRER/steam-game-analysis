@@ -1,0 +1,66 @@
+{
+  "appid": 3678420,
+  "requested_at": "2026-09-13T19:30:51.508627+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 2,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "205330753",
+        "author": {
+          "steamid": "76561197972867417",
+          "personaname": "Quinn_K",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Quinn_K/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 258,
+          "playtime_last_two_weeks": 75,
+          "playtime_at_review": 6,
+          "last_played": 1788901616,
+          "avatar": "203db9097a884483300d8dbbd5643b66a3283440"
+        },
+        "language": "english",
+        "review": "Full disclosure: I did some testing on this game for several hours, but I purchased the full copy for myself.\n\nVideonauts is a love letter to old RPG horror maker and narrative horror games. It features adorable character art and an entertaining cute yet creepy story with multiple endings to strive for. Recommended for fans of games like Ib, Off, Yume Nikki and other offbeat rpg games!",
+        "timestamp_created": 1758990752,
+        "timestamp_updated": 1758990752,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.648050487041473389",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758931276",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXCfwAAAAAFP+S802AAAABxlKOPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

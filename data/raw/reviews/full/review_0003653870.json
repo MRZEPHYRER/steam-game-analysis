@@ -1,0 +1,66 @@
+{
+  "appid": 3653870,
+  "requested_at": "2026-09-13T19:29:05.798779+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "204379000",
+        "author": {
+          "steamid": "76561198028980966",
+          "personaname": "Ziggy The Adventurer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ziggytheadventurer/",
+          "num_games_owned": 0,
+          "num_reviews": 349,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1757907546,
+          "avatar": "326d8fe2216c016ae93da0950458b178ab271fc1"
+        },
+        "language": "english",
+        "review": "impossible navigation, horrible graphics especially for unreal 5.5 it's either too dark or with the torch, too light. you'll be super lost with only a static map that you'll have no idea where you are. they tell you to follow the leaning post but that didn't work. there's no objective list so you have no idea what you need. it says you need 5 elements but you wont know if you have them. plus there are limited slots so you''ll be stuck dropping items. maybe you dropped something you needed, IDK.  you'll get suck in many, many spots in the game, you'll just fall in a an unseen spot and you can't get out. and with no saves, back to the start. Yeah that's right no saves. \n\n not to mention no option screen, no selecting resolution, graphic settings, no mouse sensitivity which is way to high. if you finally make it to the guy that asks you questions/riddles you have to type the answer which I never found 1 answer in the game, even chatGPT can't answer some of them. if you get 1 wrong, start the game over because I never got a second chance to answer them. plus they don't tell you which one you got wrong so you'll have no idea what one to change. \n\nOne of the questions is: What is faster then the speed of light. we all know \"nothing\" is but maybe space expansion is, but really that's relative. that's not the answer, I said \"thought:, that's not the answer, so I tried \"the mind\" that's not the answer, or maybe one of them is but you wont know because maybe one of the other questions was wrong. like I mentioned, I never found one of the answer in a note in the game. where are the answers, I don't know. is it a scientific answer or a riddle answer, who knows ?\n\nno one else has reviewed the game yet or put up a video because no one knows what to do. maybe if you play the game for hours you might figure it out but if you just start it, you'll be super lost. don't waste your time or money, you'll just be disappointed and frustrated. take a look: https://youtu.be/Ddw2e7gZbag",
+        "timestamp_created": 1757915556,
+        "timestamp_updated": 1757916708,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.549549520015716553",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754390080",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZAk4AAAAAFP+GV6eAAAAB4t9KLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2660000000000764,
+  "transport_error_count": 0
+}

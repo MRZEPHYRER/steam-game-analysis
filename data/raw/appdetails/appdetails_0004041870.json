@@ -1,0 +1,338 @@
+{
+  "requested_at": "2026-09-13T06:35:40.081446+00:00",
+  "request_params": {
+    "appids": 4041870,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4041870,
+  "payload": {
+    "4041870": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "BANE-FALL",
+        "steam_appid": 4041870,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Step into the boots of an Operator stationed at a covert underground facility where secret military and alien technology is being researched. When an unexpected incident turns a routine shift into a desperate fight for survival, you find yourself cut off, surrounded by hostile forces, and forced to rely on your weapons.</p><p class=\"bb_paragraph\" >Explore dark corridors, uncover classified secrets, and use every tool at your disposal to stay alive. Featuring intense first-person combat, atmospheric environments, and a lingering sense of mystery, this experience will push you to the edge of the unknown.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Step into the boots of an Operator stationed at a covert underground facility where secret military and alien technology is being researched. When an unexpected incident turns a routine shift into a desperate fight for survival, you find yourself cut off, surrounded by hostile forces, and forced to rely on your weapons.</p><p class=\"bb_paragraph\" >Explore dark corridors, uncover classified secrets, and use every tool at your disposal to stay alive. Featuring intense first-person combat, atmospheric environments, and a lingering sense of mystery, this experience will push you to the edge of the unknown.</p>",
+        "short_description": "You’re an Operator in a covert underground facility, researching advanced military and alien technology. A routine day takes a sinister turn... Fight hostile creatures, explore alien corridors, and uncover the mystery as you struggle to survive",
+        "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Polish, Italian, Russian, Simplified Chinese, Czech<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/a7a5fb992747fd666fd2bac4fc4cf70a8963ecc0/header.jpg?t=1782755574",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/2ca8cbf36edab0eae38e454d4294ac6aafda4bf3/capsule_231x87.jpg?t=1782755574",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/2ca8cbf36edab0eae38e454d4294ac6aafda4bf3/capsule_184x69.jpg?t=1782755574",
+        "website": "https://x.com/SJ3_games",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Win 10<br></li><li><strong>Processor:</strong> I5-3470<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> gtx660<br></li><li><strong>Storage:</strong> 6 GB available space<br></li><li><strong>Additional Notes:</strong> SSD - RECOMMENDED</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Win 11,10<br></li><li><strong>Processor:</strong> i3-10100F<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> rtx3060<br></li><li><strong>Storage:</strong> 6 GB available space<br></li><li><strong>Additional Notes:</strong> SSD - RECOMMENDED</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "SJ3"
+        ],
+        "publishers": [
+          "SJ3"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1417730
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy BANE-FALL",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1417730,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Bane-Fall - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/9a57cce4b11b92be831b3c5fbe5da08c923f13bc/ss_9a57cce4b11b92be831b3c5fbe5da08c923f13bc.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/9a57cce4b11b92be831b3c5fbe5da08c923f13bc/ss_9a57cce4b11b92be831b3c5fbe5da08c923f13bc.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ca21414a8b7026a77435c9fc610be7f98084d1a6/ss_ca21414a8b7026a77435c9fc610be7f98084d1a6.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ca21414a8b7026a77435c9fc610be7f98084d1a6/ss_ca21414a8b7026a77435c9fc610be7f98084d1a6.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/4653139d5192d59ec0fd58a529d5934aa65d90ad/ss_4653139d5192d59ec0fd58a529d5934aa65d90ad.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/4653139d5192d59ec0fd58a529d5934aa65d90ad/ss_4653139d5192d59ec0fd58a529d5934aa65d90ad.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ba30674b5306c3a6c4ee366aa5d43bfb8eddf23a/ss_ba30674b5306c3a6c4ee366aa5d43bfb8eddf23a.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ba30674b5306c3a6c4ee366aa5d43bfb8eddf23a/ss_ba30674b5306c3a6c4ee366aa5d43bfb8eddf23a.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/bd2187fffca6c13de3fc32deeb4c3c5caafb77c5/ss_bd2187fffca6c13de3fc32deeb4c3c5caafb77c5.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/bd2187fffca6c13de3fc32deeb4c3c5caafb77c5/ss_bd2187fffca6c13de3fc32deeb4c3c5caafb77c5.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/6e519d632e0a6a6c777dc7b92f18d8d38f2b5c36/ss_6e519d632e0a6a6c777dc7b92f18d8d38f2b5c36.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/6e519d632e0a6a6c777dc7b92f18d8d38f2b5c36/ss_6e519d632e0a6a6c777dc7b92f18d8d38f2b5c36.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/65e9347dc1b7fcf0d2dd1d218cc0e8c6d0b063a9/ss_65e9347dc1b7fcf0d2dd1d218cc0e8c6d0b063a9.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/65e9347dc1b7fcf0d2dd1d218cc0e8c6d0b063a9/ss_65e9347dc1b7fcf0d2dd1d218cc0e8c6d0b063a9.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/7d08c232a1c22b3ca1438552a774ace760d79915/ss_7d08c232a1c22b3ca1438552a774ace760d79915.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/7d08c232a1c22b3ca1438552a774ace760d79915/ss_7d08c232a1c22b3ca1438552a774ace760d79915.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/fb12507cbd33db6828db63e596ab414528358b42/ss_fb12507cbd33db6828db63e596ab414528358b42.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/fb12507cbd33db6828db63e596ab414528358b42/ss_fb12507cbd33db6828db63e596ab414528358b42.1920x1080.jpg?t=1782755574"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ffc03d59dac7c31a55d583330dd019b8a92a1aa4/ss_ffc03d59dac7c31a55d583330dd019b8a92a1aa4.600x338.jpg?t=1782755574",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/ffc03d59dac7c31a55d583330dd019b8a92a1aa4/ss_ffc03d59dac7c31a55d583330dd019b8a92a1aa4.1920x1080.jpg?t=1782755574"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257209144,
+            "name": "BANE-FALL Teaser 1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257209144/b225b29479f3b89abac5fd08513bf0110e475b5a/movie_600x337.jpg?t=1761664666",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4041870/762150734/45112d9aca1730ecbdc860793e22db59494663d1/1761664020/dash_av1.mpd?t=1761664666",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4041870/762150734/45112d9aca1730ecbdc860793e22db59494663d1/1761664020/dash_h264.mpd?t=1761664666",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4041870/762150734/45112d9aca1730ecbdc860793e22db59494663d1/1761664020/hls_264_master.m3u8?t=1761664666",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "59dee7656b11627ad42f95497aae49110e0b19ae.jpg",
+              "localized_name": "Flatwood Monster DEFEATED",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Flatwood Monster DEFEATED",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/59dee7656b11627ad42f95497aae49110e0b19ae.jpg"
+            },
+            {
+              "icon": "3994ffbfc64b1032d2233b593f54b3470d426d11.jpg",
+              "localized_name": "SURVIVOR",
+              "archived": 0,
+              "hidden": 0,
+              "name": "SURVIVOR",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/3994ffbfc64b1032d2233b593f54b3470d426d11.jpg"
+            },
+            {
+              "icon": "156a2cc6500906c2649cb971302b3cdfc02d2fdd.jpg",
+              "localized_name": "Tin Foil Hatter",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tin Foil Hatter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/156a2cc6500906c2649cb971302b3cdfc02d2fdd.jpg"
+            },
+            {
+              "icon": "d3e584f56f874fa00f76d49f71377a7a977d09b9.jpg",
+              "localized_name": "ARV ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ARV ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/d3e584f56f874fa00f76d49f71377a7a977d09b9.jpg"
+            },
+            {
+              "icon": "939682679e980a7dafda1dee42948c261912f5ce.jpg",
+              "localized_name": "Killer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Killer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/939682679e980a7dafda1dee42948c261912f5ce.jpg"
+            },
+            {
+              "icon": "09da5fa218daeb413f5f1b40a527a3dbea7641d1.jpg",
+              "localized_name": "Alien Eliminator",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Alien Eliminator",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/09da5fa218daeb413f5f1b40a527a3dbea7641d1.jpg"
+            },
+            {
+              "icon": "28fa0385fdad07fdcd9fb6bdb5b1848c0a51540d.jpg",
+              "localized_name": "Annihilator ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Annihilator ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/28fa0385fdad07fdcd9fb6bdb5b1848c0a51540d.jpg"
+            },
+            {
+              "icon": "b10a9a23f4a22c0eeb48524891a1c12c4b5ffc23.jpg",
+              "localized_name": "Pacifist ",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Pacifist ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/b10a9a23f4a22c0eeb48524891a1c12c4b5ffc23.jpg"
+            },
+            {
+              "icon": "d6e9ab1b9f7a641896530a443ab0c0cdf5116ac9.jpg",
+              "localized_name": "STOLEN !",
+              "archived": 0,
+              "hidden": 0,
+              "name": "STOLEN !",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/d6e9ab1b9f7a641896530a443ab0c0cdf5116ac9.jpg"
+            },
+            {
+              "icon": "c71af01ef6bd65ece880a7557b49bd467a238a95.jpg",
+              "localized_name": "AGAINST ALL ODDS",
+              "archived": 0,
+              "hidden": 0,
+              "name": "AGAINST ALL ODDS",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4041870/c71af01ef6bd65ece880a7557b49bd467a238a95.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "https://github.com/SJ3games/Bane-Fall_game-support/discussions",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4041870?t=1782755574",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4041870/7de99d97462839db395e61228d792c7dee209526/page_bg_raw.jpg?t=1782755574",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "Bane-Fall contains weapons-based violence, non-human gore.\r\n\r\n"
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nHoror"
+          }
+        }
+      }
+    }
+  }
+}

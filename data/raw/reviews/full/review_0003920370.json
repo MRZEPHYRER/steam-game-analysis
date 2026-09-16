@@ -1,0 +1,66 @@
+{
+  "appid": 3920370,
+  "requested_at": "2026-09-13T20:00:03.944717+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "212387074",
+        "author": {
+          "steamid": "76561198846126788",
+          "personaname": "brrr",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/StupidDumbLoser/",
+          "num_games_owned": 0,
+          "num_reviews": 14,
+          "playtime_forever": 5,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1764655168,
+          "avatar": "f44b48c0209be0dd3b48dd00e23bfdc0292f5826"
+        },
+        "language": "english",
+        "review": "Dagger uses same sprite/moveset as Sword, setting up stats is a hassle (no simple way to type in number or set the slider in anything but between 1-1000 so finetuning is difficult), Bow is nothing like the inspiration (one anemic arrow every few seconds), no presets to avoid having to fight the UI\nFine for the price but absolutely needs fixing",
+        "timestamp_created": 1764655306,
+        "timestamp_updated": 1764655306,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.522058844566345215",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755859306",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZjw8AAAAAFP+C0tSAAAABy0JiqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

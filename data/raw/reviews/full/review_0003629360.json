@@ -1,0 +1,66 @@
+{
+  "appid": 3629360,
+  "requested_at": "2026-09-13T19:27:21.509486+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 50,
+      "total_negative": 14,
+      "total_reviews": 64
+    },
+    "reviews": [
+      {
+        "recommendationid": "230047288",
+        "author": {
+          "steamid": "76561199841107574",
+          "personaname": "S.A.N.T.A.N.A",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199841107574/",
+          "num_games_owned": 276,
+          "num_reviews": 40,
+          "playtime_forever": 100,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 100,
+          "last_played": 1783575181,
+          "avatar": "a92d16b080c28bc27cf3f0c301bc37da8f858c28"
+        },
+        "language": "russian",
+        "review": "Хорошая инди-хоррор игра, которую так же можно пройти за один вечер. Обычная подработка в киоске главного героя данной игры превращает его жизнь в мрачный психологический хоррор. Финал игры не сказал бы, что был неожиданным. Но, в целом, как таковой некий триллер, игра справляется со своей ролью. 7/10.",
+        "timestamp_created": 1783617828,
+        "timestamp_updated": 1783617828,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.661320865154266357",
+        "comment_count": 9,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758038470",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWxgmAAAAAFP+UpiqAAAAB448ftBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

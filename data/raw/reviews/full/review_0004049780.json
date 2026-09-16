@@ -1,0 +1,66 @@
+{
+  "appid": 4049780,
+  "requested_at": "2026-09-13T20:15:27.569550+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "225017132",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 643,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 643,
+          "last_played": 1778139010,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "RFX Enduro: 8th Day is a racing game that proudly embraces the simplicity and addictive structure of old-school arcade design. Created by Roberto Augusto Freaza and published by Retroman RFX, the title feels like a direct tribute to the early days of endurance racing games where the objective was not realism or customization, but survival. Instead of offering cinematic storytelling or complicated progression systems, the game challenges players to endure increasingly difficult stretches of road over multiple in-game days while dealing with traffic, weather shifts, and limited visibility. It is a focused experience built around reflexes and concentration, and that straightforward philosophy gives it a surprisingly engaging identity.\n\nThe retro presentation is one of the game’s biggest strengths. From the moment the race begins, it becomes obvious that RFX Enduro: 8th Day wants to recreate the atmosphere of classic arcade cabinets and vintage console racers. The graphics use bright colors, minimalist scenery, and fast-moving traffic patterns that instantly create a nostalgic feeling. Rather than chasing photorealism, the developers lean into a stylized visual direction that values speed and readability over detail. This approach works well because it keeps attention centered on the gameplay itself. The roads, lighting effects, and changing environments may appear basic compared to modern racing games, but they effectively capture the spirit of retro arcade racing.\n\nThe gameplay loop is deceptively simple. Players drive continuously while avoiding collisions with other vehicles and surviving through different environmental conditions. As the journey progresses, the challenge gradually becomes more intense. Daytime driving eventually transitions into nighttime sections where visibility decreases, forcing players to react more carefully to incoming traffic. Weather effects add another layer of difficulty by altering the clarity of the road and making already tense situations even more stressful. The game succeeds because it constantly pressures the player without overcomplicating its mechanics. Every close call feels rewarding, and every mistake creates immediate tension because survival depends entirely on focus and quick reactions.\n\nOne of the most enjoyable aspects of the experience is how naturally the pacing evolves. The opening moments are relatively forgiving, allowing players to understand the movement and rhythm of the road, but later stages become increasingly demanding. Traffic density rises, hazards appear more frequently, and maintaining concentration for extended periods becomes the real challenge. This gradual escalation creates an addictive “one more try” quality that arcade games are known for. Players are constantly encouraged to beat their previous performance and survive longer than before, which gives the game a strong replay loop despite its minimalist structure.\n\nThe controls are intentionally accessible, making it easy for almost anyone to jump in immediately. Steering feels responsive enough for the high-speed dodging required throughout the game, and the straightforward control scheme helps reinforce the arcade-inspired design philosophy. However, the simplicity can also become repetitive during very long sessions since the gameplay does not evolve dramatically beyond its core mechanics. Players expecting extensive variety or deep racing systems may eventually feel the limitations of the game’s narrow focus. Still, for fans of score-driven arcade experiences, the repetition becomes part of the appeal rather than a weakness.\n\nSound design contributes heavily to the overall atmosphere. The soundtrack carries an energetic retro tone that complements the visuals nicely, while the sound effects help maintain the tension of navigating crowded roads at high speed. Engine noises, weather audio, and collision effects may not be especially realistic, but realism is clearly not the goal here. Instead, the audio presentation enhances the arcade feel and keeps the experience lively even during long stretches of uninterrupted driving. Combined with the visual style, the soundscape creates a convincing retro aesthetic that feels authentic without becoming overly dated.\n\nThe biggest drawback of RFX Enduro: 8th Day is the lack of broader content variety. There are no massive progression trees, elaborate customization systems, or extensive multiplayer features to extend the experience. The game relies almost entirely on the strength of its core endurance gameplay, which means enjoyment will depend heavily on whether players appreciate classic arcade design. Those searching for modern racing simulation elements or expansive career modes may find the game too limited. Its intentionally retro presentation may also feel too simplistic for players accustomed to visually advanced racing titles.\n\nEven with those limitations, the game succeeds because it understands exactly what it wants to be. Rather than trying to imitate modern racing franchises, it commits fully to delivering a focused retro endurance experience. That confidence gives the game personality and charm. It captures the tension of surviving long races through changing conditions while maintaining the pick-up-and-play accessibility that made older arcade racers so memorable. The experience may not have enormous depth, but it delivers enough challenge and atmosphere to remain entertaining over repeated sessions.\n\nRFX Enduro: 8th Day is ultimately a niche but enjoyable racing game that appeals strongly to fans of retro arcade experiences. Its nostalgic presentation, escalating difficulty, and addictive survival-focused gameplay make it a worthwhile title for players who appreciate minimalist design and old-school challenge. While it lacks the content scope and complexity of larger racing games, it compensates with charm, focus, and a clear understanding of what made classic arcade racers compelling in the first place.\n\nRating: 6/10",
+        "timestamp_created": 1778225150,
+        "timestamp_updated": 1778225171,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763484745",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB80q/aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8130000000001019,
+  "transport_error_count": 0
+}

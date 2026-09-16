@@ -1,0 +1,228 @@
+{
+  "requested_at": "2026-09-12T16:46:20.510022+00:00",
+  "request_params": {
+    "appids": 3811290,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3811290,
+  "payload": {
+    "3811290": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "M_rdle",
+        "steam_appid": 3811290,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<i>Survive horrific pressure as you try to guess words before being brutally drilled by an esoteric being. Utilizing only your wit and a handful of consumables, can you make it to the end alive?</i><h2 class=\"bb_tag\" ><strong>Features</strong></h2><ul class=\"bb_ul\"><li><strong>A horror game where you guess the correct word to stop the drill from advancing towards you.</strong><br></li><li><strong>4 game modes, including a peaceful <i>Zen</i> mode</strong><br></li><li><strong>Leaderboard against friends.</strong><br></li><li><strong>Word of the day system.</strong><br></li><li><strong>Multiple difficulty levels.</strong><br></li><li><strong>Creepy environment.</strong><br></li><li><strong>A great way to spend 5 bucks!</strong><br></li><li><strong>Variability makes each session feel a little different.</strong><br></li><li><strong>High fidelity drilling noise, for those dentist lovers out there!</strong></li></ul><br>",
+        "about_the_game": "<i>Survive horrific pressure as you try to guess words before being brutally drilled by an esoteric being. Utilizing only your wit and a handful of consumables, can you make it to the end alive?</i><h2 class=\"bb_tag\" ><strong>Features</strong></h2><ul class=\"bb_ul\"><li><strong>A horror game where you guess the correct word to stop the drill from advancing towards you.</strong><br></li><li><strong>4 game modes, including a peaceful <i>Zen</i> mode</strong><br></li><li><strong>Leaderboard against friends.</strong><br></li><li><strong>Word of the day system.</strong><br></li><li><strong>Multiple difficulty levels.</strong><br></li><li><strong>Creepy environment.</strong><br></li><li><strong>A great way to spend 5 bucks!</strong><br></li><li><strong>Variability makes each session feel a little different.</strong><br></li><li><strong>High fidelity drilling noise, for those dentist lovers out there!</strong></li></ul><br>",
+        "short_description": "Survive horrific pressure as you try to guess words before being brutally drilled by an esoteric being. Utilizing only your wit and a handful of consumables, can you make it to the end alive?",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/2308a23175271f2165b32a548a6aaa5d03011a76/header.jpg?t=1761035289",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/eac03a06c0fdd16c929a95564fd2d8a2b1f077e0/capsule_231x87.jpg?t=1761035289",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/eac03a06c0fdd16c929a95564fd2d8a2b1f077e0/capsule_184x69.jpg?t=1761035289",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64 bit<br></li><li><strong>Processor:</strong> 4th gen i7<br></li><li><strong>Graphics:</strong> GTX 1060<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and Mouse.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64 bit</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "FAT BOMB STUDIOS, LLC"
+        ],
+        "publishers": [
+          "FAT BOMB STUDIOS, LLC"
+        ],
+        "demos": [
+          {
+            "appid": 4034260,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1340560
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy M_rdle",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1340560,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "M_rdle - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/b8c260f605e3dec4ed2605b8b7cee63ffc2763b8/ss_b8c260f605e3dec4ed2605b8b7cee63ffc2763b8.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/b8c260f605e3dec4ed2605b8b7cee63ffc2763b8/ss_b8c260f605e3dec4ed2605b8b7cee63ffc2763b8.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/fb1072fb0b1aa422ff917174291ef796d0f42de1/ss_fb1072fb0b1aa422ff917174291ef796d0f42de1.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/fb1072fb0b1aa422ff917174291ef796d0f42de1/ss_fb1072fb0b1aa422ff917174291ef796d0f42de1.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a67e90821aae287037705d8524bba0c78dd8881b/ss_a67e90821aae287037705d8524bba0c78dd8881b.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a67e90821aae287037705d8524bba0c78dd8881b/ss_a67e90821aae287037705d8524bba0c78dd8881b.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a654eb8c03213d062142268e751885decc49e2de/ss_a654eb8c03213d062142268e751885decc49e2de.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a654eb8c03213d062142268e751885decc49e2de/ss_a654eb8c03213d062142268e751885decc49e2de.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a74e9e975d7dc770e463ef784c35ecfe96b8ba4d/ss_a74e9e975d7dc770e463ef784c35ecfe96b8ba4d.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/a74e9e975d7dc770e463ef784c35ecfe96b8ba4d/ss_a74e9e975d7dc770e463ef784c35ecfe96b8ba4d.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/95ad3df6fd8c17635cf5d5077db7f4bba4d632ef/ss_95ad3df6fd8c17635cf5d5077db7f4bba4d632ef.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/95ad3df6fd8c17635cf5d5077db7f4bba4d632ef/ss_95ad3df6fd8c17635cf5d5077db7f4bba4d632ef.1920x1080.jpg?t=1761035289"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/c4f56ded0788dcba30955039917588a5da00f7df/ss_c4f56ded0788dcba30955039917588a5da00f7df.600x338.jpg?t=1761035289",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811290/c4f56ded0788dcba30955039917588a5da00f7df/ss_c4f56ded0788dcba30955039917588a5da00f7df.1920x1080.jpg?t=1761035289"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257190819,
+            "name": "Main",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257190819/843eae764c762ed445936f77a22520cd769f61f4/movie_600x337.jpg?t=1757225478",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3811290/1173755754/35cf454029dda9e5011166905dfefb648bac8b20/1756486663/dash_av1.mpd?t=1757225478",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3811290/1173755754/35cf454029dda9e5011166905dfefb648bac8b20/1756486663/dash_h264.mpd?t=1757225478",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3811290/1173755754/35cf454029dda9e5011166905dfefb648bac8b20/1756486663/hls_264_master.m3u8?t=1757225478",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        },
+        "support_info": {
+          "url": "https://www.fatbombstudios.com/",
+          "email": "Contactus@fatbombstudios.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3811290?t=1761035289",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3811290?t=1761035289",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "M_rdle involves getting drilled if you fail to answer in time. This results in blood spray and leaving blood on the table in front of you."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nDrogas lícitas"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nAlkohol / Tabak"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nHoror\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

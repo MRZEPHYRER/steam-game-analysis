@@ -1,0 +1,66 @@
+{
+  "appid": 3441200,
+  "requested_at": "2026-09-13T19:16:02.277850+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "208328086",
+        "author": {
+          "steamid": "76561198007558486",
+          "personaname": "Colluplino",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Colluplino/",
+          "num_games_owned": 0,
+          "num_reviews": 273,
+          "playtime_forever": 196,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 196,
+          "last_played": 1762194369,
+          "avatar": "e7a429da9d0be88afae728879d4e00252e737f8e"
+        },
+        "language": "english",
+        "review": "It's like an RPG with a vilalge sim side. Cozy.\nSlow pregrssion and NO CLOUD SAVE.\n\nMissing\n\n- I'm surprised we don't have a clock on the UI to know when the evening is about to come.\n- Also, what's the key to see the quest list? There is nothing about commands on the menu.\n- Immature speech in the writing withou an explanation for that makes immersion strange (the dev himself isn't awayre that the wwriting is immature), but beside of being cringe at times, \nthe wirtting is technically witty and the interactions with NPC give the illusion of bonding. Feels cool. \nOur time is not waster: we lead the dialogues with choices from the start. Morals ethics and ecology are crooked: there is no functional recycling system, like makign compost for fertilizer or replanting trees, or taming bees instead of slaughtering them and the whole hive for 1 pot of honey, someone who live in the region without an authorisation is accepted my the owners and in turn tries to drive them away, then plays victim, etc. \n\nGood points\n\nSounds are much better than the music. Not that the music is bad, but it's not great. What matters is that the devs is aware of that and in the ends the sounds alone work.\n\nThe very minimalist art and the illuminaiton are as good as they look on the pictures!\n\nFeatures I love most.\n\n- The campfire event of course.\n- The illumination.\n- Lights and seats being interactible.\n- How our tools don't break!!!\n- NPC interaction.\n- The chartset is extremely simple, and yet, it doesn't look old at all.\n\nWhat more I'l like to do:\n\n- Shelves couners, window with counter, and tables where we can drop our inventory itemps for rdecoration.\n- Marrying (not necessarily romance, I just want a NPC that I can pet who roams on my home use the steats, the bed, the oven for animation.\n\nIt's not wolesome as it looks, but it looks chill and is a nice experience for an old school RPG...with only one political topics being planted at random (an illegal colon to tried to drives the owners away even through they let it stay, and who is the victim accoring to the shallow writing). Bu t the dev seems to be very young. So very young, in fact, that the existenceof thi game alone is a feat. \n\nIt's a false open world: the first quests can be done only one way.\n\nSo yeah, that explain the price.",
+        "timestamp_created": 1762188903,
+        "timestamp_updated": 1766292217,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761759231",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFnAAAAAAAAFP+AAAAAAAAB22dqaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

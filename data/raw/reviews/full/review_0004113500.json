@@ -1,0 +1,66 @@
+{
+  "appid": 4113500,
+  "requested_at": "2026-09-13T20:20:09.475468+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 1,
+      "total_negative": 3,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208429309",
+        "author": {
+          "steamid": "76561198174762689",
+          "personaname": "Supmon",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198174762689/",
+          "num_games_owned": 405,
+          "num_reviews": 48,
+          "playtime_forever": 21,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1762293636,
+          "avatar": "71fa83f445fc7e7743a50f6ac36c2085ecfeb9eb"
+        },
+        "language": "english",
+        "review": "I like the concept of the game, however it has very very very barebones gameplay. Ui is janky and randomly cuts off text or boxes. Horrible balancing. And WHY IS THE MUSIC SO LOUD. 10 minutes and i had enough, but i gave it another 10. Game seems and feel like AI slop or a school project you'd get a C- on at best",
+        "timestamp_created": 1762293554,
+        "timestamp_updated": 1762293649,
+        "voted_up": false,
+        "votes_up": 16,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.695145547389984131",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762279232",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWGG2AAAAAFP+Y/UOAAAAB9j4ybBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

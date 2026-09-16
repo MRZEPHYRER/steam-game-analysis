@@ -1,0 +1,66 @@
+{
+  "appid": 3214220,
+  "requested_at": "2026-09-13T19:07:28.289717+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 23,
+      "total_negative": 17,
+      "total_reviews": 40
+    },
+    "reviews": [
+      {
+        "recommendationid": "206166061",
+        "author": {
+          "steamid": "76561198061678905",
+          "personaname": "オニタマ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198061678905/",
+          "num_games_owned": 0,
+          "num_reviews": 36,
+          "playtime_forever": 43,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 43,
+          "last_played": 1759896565,
+          "avatar": "ec1cbba097eb8fe3b783a79e62eb9672b50be2c9"
+        },
+        "language": "japanese",
+        "review": "ロボット＋ヴァンサバ系はとてもいいとは思うのですが\nレベルアップ中に会話が一々止まり集中できない\nあとレベルアップしてでの効果がどのくらい上がるかが全然わからない\n背景に溶け込んでいて敵が見えにくい、白黒設定もあるが最初は普通に遊びたい\n敵には枠っぽいなにかエフェクトが欲しかった\n\n声優はとてもよかったです",
+        "timestamp_created": 1759896832,
+        "timestamp_updated": 1759896832,
+        "voted_up": false,
+        "votes_up": 30,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.751258611679077148",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759892448",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFU+Y4AAAAAFP+gKUGAAAAB9gruSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1399999999998727,
+  "transport_error_count": 0
+}

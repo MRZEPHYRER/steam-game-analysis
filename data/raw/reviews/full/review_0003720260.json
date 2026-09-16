@@ -1,0 +1,66 @@
+{
+  "appid": 3720260,
+  "requested_at": "2026-09-13T19:34:18.170936+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "207507175",
+        "author": {
+          "steamid": "76561199478108804",
+          "personaname": "lohit308",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199478108804/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 30,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1761354182,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "The game is visually calming. In my opinion though, it would be pretty cool if it has a multiplayer mode and have a way to lose besides messing up the puzzle (maybe in another mode???). I am on lvl.12, so I am not sure if this already exists in future level. Also, instead of the time being an up-counter, there should be a mode such that there is a time limit which counts down. Otherwise pretty fun game!",
+        "timestamp_created": 1761354332,
+        "timestamp_updated": 1761355307,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760446813",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFkAAAAAAAAFAAAAAAAAAAB37smXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

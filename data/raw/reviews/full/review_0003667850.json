@@ -1,0 +1,66 @@
+{
+  "appid": 3667850,
+  "requested_at": "2026-09-13T19:29:46.325277+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 18,
+      "total_negative": 6,
+      "total_reviews": 24
+    },
+    "reviews": [
+      {
+        "recommendationid": "214126233",
+        "author": {
+          "steamid": "76561199231664319",
+          "personaname": "garrettblaize",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199231664319/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 104,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 90,
+          "last_played": 1766642075,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "This is a strong concept but feels incomplete. The cycle of quests is relatively the same, there is one character model for each culture, and I don't feel like the game drives players towards any real meaningful goal or outcome. I believe that with unique character models, quests/dialogue, and locations this would be a really excellent game and well worth some time and money, however the game as it stands feels incomplete.",
+        "timestamp_created": 1766641170,
+        "timestamp_updated": 1766641170,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.563267827033996582",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754049864",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYvBGAAAAAFP+IGSqAAAAB56emwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

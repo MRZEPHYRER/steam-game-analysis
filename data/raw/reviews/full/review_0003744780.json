@@ -1,0 +1,66 @@
+{
+  "appid": 3744780,
+  "requested_at": "2026-09-13T19:36:27.005511+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "207286906",
+        "author": {
+          "steamid": "76561198156522167",
+          "personaname": "Flare",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/fs58/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 142,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 142,
+          "last_played": 1761105994,
+          "avatar": "6be3ae704fb89f151da633bb9a9db8f8e2baac93"
+        },
+        "language": "english",
+        "review": "A cozy, little and simple game and yet, a wholesome and subtle reminder to take care of ourselves much like we do with this pretty nursery garden. Also, a nice companion to have on your desktop that will help you to relax!",
+        "timestamp_created": 1761105978,
+        "timestamp_updated": 1761106243,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752282135",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB6p96WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

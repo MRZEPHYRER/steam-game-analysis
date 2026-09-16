@@ -1,0 +1,230 @@
+{
+  "requested_at": "2026-09-13T06:46:15.881369+00:00",
+  "request_params": {
+    "appids": 4075370,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4075370,
+  "payload": {
+    "4075370": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "RainBullet",
+        "steam_appid": 4075370,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Rainbullet</strong> is a <strong>minimalist 2D bullet hell</strong> game that plunges you into a depressing nightmare of strange colors and sounds. Control a point of light in the void and survive a barrage of projectiles.</p><p class=\"bb_paragraph\" >Your sole objective is to challenge the <strong>seven shades of color</strong>, each with a unique attack and defense logic. But beware: each victory brings you closer to madness, forcing you to make progression decisions so crucial they will determine whether you continue or end your game forever. All of this is presented in a <strong>minimalist, chalk-drawn visual style</strong>, reflecting the vision of a solo indie developer.</p><p class=\"bb_paragraph\" >If you're looking for a relentless challenge with a distinct psychological and aesthetic twist, <strong>Rainbullet</strong> awaits. Will you be able to master the advantages and disadvantages of your own progression to conquer all seven?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Rainbullet</strong> is a <strong>minimalist 2D bullet hell</strong> game that plunges you into a depressing nightmare of strange colors and sounds. Control a point of light in the void and survive a barrage of projectiles.</p><p class=\"bb_paragraph\" >Your sole objective is to challenge the <strong>seven shades of color</strong>, each with a unique attack and defense logic. But beware: each victory brings you closer to madness, forcing you to make progression decisions so crucial they will determine whether you continue or end your game forever. All of this is presented in a <strong>minimalist, chalk-drawn visual style</strong>, reflecting the vision of a solo indie developer.</p><p class=\"bb_paragraph\" >If you're looking for a relentless challenge with a distinct psychological and aesthetic twist, <strong>Rainbullet</strong> awaits. Will you be able to master the advantages and disadvantages of your own progression to conquer all seven?</p>",
+        "short_description": "Rainbullet is a minimalist 2D bullet hell. Challenge the seven shades of color with unique attack logic. Victories force critical choices that may render your run unwinnable, forcing a total reset. Seek a relentless challenge with a psychological twist.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/d3bdb7d09e71ddbb428aa3a998699460e90edf4d/header.jpg?t=1761235798",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/9ee653f6c7b7cdd43a0d8b7b84d155e5d6c5d07a/capsule_231x87.jpg?t=1761235798",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/9ee653f6c7b7cdd43a0d8b7b84d155e5d6c5d07a/capsule_184x69.jpg?t=1761235798",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core 2 Duo E4500 (2.2 GHz) o AMD Athlon 64 X2 4600+ (2.4 GHz)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 9 compatible graphics card (e.g. GeForce 7000 series / Radeon X1000 series or higher)<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 150 MB available space<br></li><li><strong>Sound Card:</strong> Any DirectX compatible<br></li><li><strong>Additional Notes:</strong> A monitor with a minimum resolution of 1280x720 is required.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Debian 10/Ubuntu 18.04<br></li><li><strong>Processor:</strong> Procesador Dual Core de 2.0 GHz o equivalente<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Graphics card compatible with OpenGL 3.3 or higher<br></li><li><strong>Storage:</strong> 150 MB available space<br></li><li><strong>Sound Card:</strong> Any compatible with the system<br></li><li><strong>Additional Notes:</strong> It is recommended to use Mesa drivers for Intel/AMD graphics, or proprietary drivers for NVIDIA.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Naker098"
+        ],
+        "publishers": [
+          "Naker098"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1428757
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy RainBullet",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1428757,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "RainBullet - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/2e8bba73756b1aa482a5ea49973cd958f402bf1a/ss_2e8bba73756b1aa482a5ea49973cd958f402bf1a.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/2e8bba73756b1aa482a5ea49973cd958f402bf1a/ss_2e8bba73756b1aa482a5ea49973cd958f402bf1a.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/c043baf047899f0cd78527d62f7ab7d242e45c33/ss_c043baf047899f0cd78527d62f7ab7d242e45c33.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/c043baf047899f0cd78527d62f7ab7d242e45c33/ss_c043baf047899f0cd78527d62f7ab7d242e45c33.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/77adfe247b90f3dfa947e6074f7755f222625466/ss_77adfe247b90f3dfa947e6074f7755f222625466.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/77adfe247b90f3dfa947e6074f7755f222625466/ss_77adfe247b90f3dfa947e6074f7755f222625466.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/37fb0de984f5771d79d7ecd3f8e3507b391c5647/ss_37fb0de984f5771d79d7ecd3f8e3507b391c5647.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/37fb0de984f5771d79d7ecd3f8e3507b391c5647/ss_37fb0de984f5771d79d7ecd3f8e3507b391c5647.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/20a01722a778cef78db93638730b1080bed1ed60/ss_20a01722a778cef78db93638730b1080bed1ed60.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/20a01722a778cef78db93638730b1080bed1ed60/ss_20a01722a778cef78db93638730b1080bed1ed60.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/bc34f33adf680745e75d17dea0d7c3ab688b900f/ss_bc34f33adf680745e75d17dea0d7c3ab688b900f.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/bc34f33adf680745e75d17dea0d7c3ab688b900f/ss_bc34f33adf680745e75d17dea0d7c3ab688b900f.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/a46de62f0979ee4c3ca8eed5c133dacd47441bb4/ss_a46de62f0979ee4c3ca8eed5c133dacd47441bb4.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/a46de62f0979ee4c3ca8eed5c133dacd47441bb4/ss_a46de62f0979ee4c3ca8eed5c133dacd47441bb4.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/66f89383326076659fb22d2a88926055ec270a6a/ss_66f89383326076659fb22d2a88926055ec270a6a.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/66f89383326076659fb22d2a88926055ec270a6a/ss_66f89383326076659fb22d2a88926055ec270a6a.1920x1080.jpg?t=1761235798"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/8968e41aa197468a21960dfdd40cd79988659cfb/ss_8968e41aa197468a21960dfdd40cd79988659cfb.600x338.jpg?t=1761235798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075370/8968e41aa197468a21960dfdd40cd79988659cfb/ss_8968e41aa197468a21960dfdd40cd79988659cfb.1920x1080.jpg?t=1761235798"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257212564,
+            "name": "RainBullet",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257212564/c7a58f2e823d6ee65838e2861af6881d50df50bd/movie_600x337.jpg?t=1760031108",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4075370/1202123656/ccdd19b4c355aa8cbf80b697588d15d514e4cd60/1759671312/dash_av1.mpd?t=1760031108",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4075370/1202123656/ccdd19b4c355aa8cbf80b697588d15d514e4cd60/1759671312/dash_h264.mpd?t=1760031108",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4075370/1202123656/ccdd19b4c355aa8cbf80b697588d15d514e4cd60/1759671312/hls_264_master.m3u8?t=1760031108",
+            "highlight": true
+          },
+          {
+            "id": 257212568,
+            "name": "RainBullet deaths",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257212568/c7a58f2e823d6ee65838e2861af6881d50df50bd/movie_600x337.jpg?t=1760031110",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4075370/863248945/c1b032078c805c5fdead2d780a33182900b1db86/1759672496/dash_av1.mpd?t=1760031110",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4075370/863248945/c1b032078c805c5fdead2d780a33182900b1db86/1759672496/dash_h264.mpd?t=1760031110",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4075370/863248945/c1b032078c805c5fdead2d780a33182900b1db86/1759672496/hls_264_master.m3u8?t=1760031110",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "rainbullet.help@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4075370?t=1761235798",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4075370?t=1761235798",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nHoror"
+          }
+        }
+      }
+    }
+  }
+}

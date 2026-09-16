@@ -1,0 +1,66 @@
+{
+  "appid": 3480790,
+  "requested_at": "2026-09-13T19:18:23.598283+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 46,
+      "total_negative": 2,
+      "total_reviews": 48
+    },
+    "reviews": [
+      {
+        "recommendationid": "208926024",
+        "author": {
+          "steamid": "76561198055962150",
+          "personaname": "sunamerry",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198055962150/",
+          "num_games_owned": 0,
+          "num_reviews": 100,
+          "playtime_forever": 208,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 77,
+          "last_played": 1763133235,
+          "avatar": "e463224b6de0ef2e6c0115fea8fb4a98e2d935df"
+        },
+        "language": "japanese",
+        "review": "かわいいBrotatoフォロワー\n向こうと違って海外特有のねっとり感とかグロっぽい感じが無くて万人にオススメできます\n開放できるキャラ(衣装)に関しても説明文にビルドの方向性も書いてくれているので初心者にもわかりやすい！\n\n明確に感じる違いとしては\n・武器が被弾する(HPが無くなったら消滅し、一定時間後に復活)\n・武器が割と自由に動く(近接だったら近づいた敵を追い回したりして自機から離れたりする)\n・アイテムのほとんどがメリット・デメリットがはっきりしている(一部レアアイテム等には取り得のような強いのもあります)\n\n上記の事でもアイテムのメリットデメリットに関してもビルドの方向性を決めやすかったり、ぬいぐるみ(武器)の移動に関しても離れたら集合がかけられたりと痒い所に手が届く仕様でかなりいい感じかと思います。\n\n\n一部UIとかボタン配置等気になる所もありますがきっとすぐに改善されそうだし楽しみです",
+        "timestamp_created": 1762826332,
+        "timestamp_updated": 1762826332,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.645829379558563232",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762747884",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXFVsAAAAAFP+SqoaAAAAB41P6cBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

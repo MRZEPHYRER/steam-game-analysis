@@ -1,0 +1,66 @@
+{
+  "appid": 3926240,
+  "requested_at": "2026-09-13T20:00:55.251806+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "215320913",
+        "author": {
+          "steamid": "76561198355684533",
+          "personaname": "Runya_EithelNar",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198355684533/",
+          "num_games_owned": 0,
+          "num_reviews": 17,
+          "playtime_forever": 32,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 32,
+          "last_played": 1767712022,
+          "avatar": "ca96b45ebe03f7da0782b793366410ac0ae5cca6"
+        },
+        "language": "english",
+        "review": "I thought it will be small, funny game to kill time, but I was so wrong.\n- character creation is like from doll makers from 2000s: you need to click a ton of times to get colour you want and it also looks random. Character has pixel glitches visible with naked eye and rarely will be centered on the screen: few times it was at bottom covered by icons or in upper side of screen.\n- music wasn't playing even with volume on in the middle and sound effects were still on even when I turned them off\n-cost of upgrades aren't shown, so you don't know how many pearls you need to get one you want.\n-key binding isn't clear: it says \"keyboard\", but it also includes \"mouse buttons\"\n-even on easiest levels suddenly spike difficulty goes quickly to insane levels where you don't see what kills you [instead of slowly introducing enemies it throws everything at once].\n\nAll in all, it's a slop. Flash games had more playability and were at last fun. It's my first in 10 years game I asked for refund.",
+        "timestamp_created": 1767712615,
+        "timestamp_updated": 1767823527,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.556019842624664307",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764243521",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY4S2AAAAAFP+HK6oAAAABxlbG1Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

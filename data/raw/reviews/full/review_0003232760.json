@@ -1,0 +1,66 @@
+{
+  "appid": 3232760,
+  "requested_at": "2026-09-13T19:08:12.726498+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "217907696",
+        "author": {
+          "steamid": "76561198152676877",
+          "personaname": "Ronnie",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/RodneyMoncurBurner/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 82,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1770599906,
+          "avatar": "7bd7b679c5366ab21aa4e22dc10f36102ecf6517"
+        },
+        "language": "english",
+        "review": "Nice game. I like it",
+        "timestamp_created": 1770597807,
+        "timestamp_updated": 1770597807,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1729951294",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF1hheAAAAAFP+DDDUAAAABwn6C/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2350000000001273,
+  "transport_error_count": 0
+}

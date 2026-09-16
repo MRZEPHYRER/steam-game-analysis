@@ -1,0 +1,66 @@
+{
+  "appid": 3901780,
+  "requested_at": "2026-09-13T19:57:26.580040+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "207358815",
+        "author": {
+          "steamid": "76561199433631860",
+          "personaname": "贝黑莱特",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199433631860/",
+          "num_games_owned": 80,
+          "num_reviews": 6,
+          "playtime_forever": 746,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 261,
+          "last_played": 1765352856,
+          "avatar": "63ea897f8168c0917a5b7c58099127a4d6aa67a7"
+        },
+        "language": "schinese",
+        "review": "打了快4个小时了，我来稍微说一下游戏的游玩情况，第一次写长评，希望可以给各位提供到帮助\n\n1、游戏优化：我是r9 7945hx的u和5060的显卡，开全高平均在四五十帧左右，偶尔会有画面卡顿\n\n2、游戏性能及其键位：攻击键偶尔会失灵，启动前摇也有点长。防御键类似魂的弹反，有启动前摇，防御的弹反判定在防御判定之前。装备武器貌似有bug，装备上了不显示，需要小退或者sl一下才会刷新出来。\n\n键位（键鼠的，手柄键位好像还没适配好）：r是拔出武器/收起武器，q是锁定敌人，1234分别是道具栏，tap类似是天赋面板（暂时还没搞明白）。鼠标左键是攻击，右键是防御。左alt是翻滚，Shift是奔跑，空格是跳跃，i键是装备，c键是下蹲。\n\n3、个人游玩体验：角色和怪物的韧性都很高，主角放法术的时候基本上不会被打断，同理怪物也是，地图小怪的攻击欲望不高仇恨低。主角的法术性能远远大于近战，这一点平衡建议以后可以改进一下。地图并不绕，但很大，逛一逛很容易找到路\n\n最后叠个甲，身为一名打通了fs社所有作品的老ass，这个游戏的开场我是很满意的，非常的有魂味，希望作者能继续努力，让我们玩到一款优质的魂like",
+        "timestamp_created": 1761190313,
+        "timestamp_updated": 1761190313,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.727474510669708252",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761066147",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVc1QAAAAAFP+dHeaAAAAB/tYGXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0150000000003274,
+  "transport_error_count": 0
+}

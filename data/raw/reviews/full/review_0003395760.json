@@ -1,0 +1,66 @@
+{
+  "appid": 3395760,
+  "requested_at": "2026-09-13T19:13:51.045168+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 134,
+      "total_negative": 18,
+      "total_reviews": 152
+    },
+    "reviews": [
+      {
+        "recommendationid": "213798035",
+        "author": {
+          "steamid": "76561198220443524",
+          "personaname": "S.A.M.",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Fer1vent/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 2014,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 495,
+          "last_played": 1767084577,
+          "avatar": "04c85139b67595a550b10ec6601a01f4c4ed76a2"
+        },
+        "language": "schinese",
+        "review": "首先我有确实看到开发者对于离线收益的问题，先贴在这里：\n关于离线收益这一点，我们想坦诚说明：《鱼你一起：水愈时光》的成长逻辑，是作为时间管理工具设计为需要在专注模式下进行的。我们希望鱼的成长更多地与当下的陪伴与专注时间产生联系。也正因为如此，这个设计对部分期待离线挂机系统的玩家来说，体验上可能会显得与过往玩过的放置游戏有所不同。\n真的很抱歉《水愈时光》没能达到您的期待。\n\n读完之后能够理解制作组对于这方面是有自己的设计思路在的，但体感真的很差，我自己以前还在养鱼的时候，回到家看到鱼有不同的变化也是很开心的，尤其是小鱼长大了，母鱼生产了，虾和螺把藻跟多余的粮吃掉了啊这样的。既然如此，何不设置一个开关，希望纯粹作为时间管理工具的就关闭离线成长，有需要的就打开，离线的收益可以是1/2甚至更低都可以。如果有事长时间不能用电脑，再打开之后会心里一点期待都没有。主要是在线收益确实太低了，想要买自己喜欢的鱼，繁殖自己喜欢的鱼都很麻烦。\n\nPS. 歌单要是能导入自己的就更好了",
+        "timestamp_created": 1766299769,
+        "timestamp_updated": 1766299878,
+        "voted_up": true,
+        "votes_up": 23,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.72586357593536377",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765504750",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVe5OAAAAAFP+c6RyAAAABzycmvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

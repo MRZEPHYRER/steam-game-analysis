@@ -1,0 +1,71 @@
+{
+  "appid": 3688970,
+  "requested_at": "2026-09-13T19:32:06.517853+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 64,
+      "total_negative": 7,
+      "total_reviews": 71
+    },
+    "reviews": [
+      {
+        "recommendationid": "215881940",
+        "author": {
+          "steamid": "76561198375029180",
+          "personaname": "Lady Briarwood",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/our_lady_in_shadow/",
+          "num_games_owned": 2834,
+          "num_reviews": 1050,
+          "playtime_forever": 635,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 635,
+          "last_played": 1768295560,
+          "avatar": "6446bbdcc146c84646544bb637dcbd23869046b5"
+        },
+        "language": "english",
+        "review": "I liked this little idle game quite a lot, however, even though it has automation for some tasks, in my opinion it’s a game that requires more attention than expected. although you can automate cleaning the environment and shearing the little sheep, there was something missing to feed them and especially to help them get back up when they fall to the ground (since the wool doesn’t grow back if they stay fallen). aside from these two points, I loved the game.. it’s very cute and colorful and the sheep are beautiful, with many variations of colors and patterns in each one’s wool, with each type of wool also having a different value depending on its rarity. Overall, it’s a good option for those who like casual and lightly idle games.\n\n[b]PTBR - PORTUGUESE [/b]\n\ngostei bastante desse joguinho idle, porém embora ele tenha automação em algumas tarefas, na minha opinião é um jogo que exige mais atenção do que o esperado, pois embora vcê possa automatizar a limpeza do ambiente e em tosquiar as ovelhinhas, faltou ter algo pra alimentá-las e principalmente pra ajudá-las a se levantar qndo caem no chão (pois a lã não cresce novamente se elas ficarem caídas). tirando esses dois pontos, adorei o jogo, ele é mto fofo e colorido, e as ovelhas são lindas com muitas variações de cores e desenhos na lã de cada uma, sendo tbm cada lã de um valor diferente conforme a raridade.. enfim, uma boa opção pra qm gosta de jogo casual e levemente idle.",
+        "timestamp_created": 1768296509,
+        "timestamp_updated": 1768296509,
+        "voted_up": true,
+        "votes_up": 33,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.801752924919128418",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762796483",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFT9waAAAAAFP+mn9eAAAAB0jcO3Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3783850,
+  "requested_at": "2026-09-13T19:39:34.971080+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214085345",
+        "author": {
+          "steamid": "76561199526758884",
+          "personaname": "s1ckd3",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/d1ld3f/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 112,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1766585400,
+          "avatar": "47a393582993d939c251dde2f7afdc4984124063"
+        },
+        "language": "russian",
+        "review": "Неплохая игра, но имеются баги, например, звук урона запускает саундтрек с начальной секунды, в мультиплеере, если друг не выбрал улучшение, то не может двигаться, 3 локация самая проблемная, какие-то невидимые объекты, не позволяющие тебе пройти дальше, визуально кажется, что пауки летают, иногда даже нет анимации ходьбы. Один босс на все 3 локации, можно сделать больше разнообразия.\n\nНо также у игры есть и плюсы, играется фаново, особенно с друзьями, у персонажей разнообразие навыков, визуал довольно неплохой, а также прикольный интерфейс.\n\n[spoiler] Название персонажей как будто из доты xD, но немного другие [/spoiler]\n\nВ целом игра на 7/10 на данном этапе, но нуждается в обновлениях. Пока что сыро, но в целом, как таймкиллер неплохо.",
+        "timestamp_created": 1766585171,
+        "timestamp_updated": 1766585171,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.567567586898803711",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765601205",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYpg2AAAAAFP+IphGAAAABx7tWwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2340000000003783,
+  "transport_error_count": 0
+}

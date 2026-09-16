@@ -1,0 +1,71 @@
+{
+  "appid": 2896350,
+  "requested_at": "2026-09-13T18:58:08.915953+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "221575379",
+        "author": {
+          "steamid": "76561198051004230",
+          "personaname": "Ronnie",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/ronniebranch/",
+          "num_games_owned": 246,
+          "num_reviews": 26,
+          "playtime_forever": 1151,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 66,
+          "last_played": 1777591831,
+          "avatar": "e2696e0fe1c2bb1d9fa55428e807733daadb2a4d"
+        },
+        "language": "english",
+        "review": "It's a bit early in my review so I'll probably update it later but you should read my review about a game called Leylines it is similar to this game.\n\nThule is a deep fantasy 4x war game which uses a Auto battler which I really am not a big fan of however it reminds me of Leylines and Warlords IV Heroes of Etheria which uses a different kind of auto battler which brought me to like this game.\n\nHere is what makes this game interesting to me and likely others that like 4x Fantasy war games. \n\nIt is a deep game where it appears all your units and leaders have no level restrictions which I love.\n\nThe game seems to have 3 realms to explore which I have not done yet, but always great to have more maps to explore and fight for. \n\nEvery unit and your leaders can equip a lot of different kinds of items to make them better which is a big reason I actually like this game. Typically in some games only the leader can equip items and not your army.\n\nI can see in this game it is important to actually try to keep your units especially stronger ones alive so they can get tougher. As defeat does hurt your economy as you micro manage your town and armies.\n\nThe music in the game isn't to bad. \n\nSo in conclusion is this the kind of game a 4x fantasy war gamer could play for a long time possibly years? I would have to say yes especially if you like auto battlers which I don't as much, however the other things I mentioned above made up for this is a major way. While this review is still early I have played enough games in my time to know if something is worth recommending or not so I give the game a thumbs up. So support the developer whom seems active with updates which he added a new faction not to long ago.\n\nThis is a game that certainly deserves more attention for sure. For being a solo developer who made this game I'd have to say you did a great job and continue to expand your vision to make this game even better.  As for others enjoy and happy gaming.",
+        "timestamp_created": 1774358847,
+        "timestamp_updated": 1774359550,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519841313362121582",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753811244",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZmmoAAAAAFP+CiiaAAAABzjZ/NBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

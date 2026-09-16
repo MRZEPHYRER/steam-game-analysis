@@ -1,0 +1,66 @@
+{
+  "appid": 4010780,
+  "requested_at": "2026-09-13T20:11:12.729385+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 7,
+      "total_negative": 1,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "209612717",
+        "author": {
+          "steamid": "76561198229341064",
+          "personaname": "H¥ÐRØ24",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198229341064/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 366,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 301,
+          "last_played": 1769355583,
+          "avatar": "93e2de4e4acfb447a835d07c52c89ba3ef115fe7"
+        },
+        "language": "english",
+        "review": "I really enjoyed this game. The combination of exploring to uncover what’s going on and solving clever puzzles makes the whole experience very engaging. And the calm, relaxing atmosphere ties everything together beautifully.",
+        "timestamp_created": 1763546341,
+        "timestamp_updated": 1763684832,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.591237843036651611",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763542425",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYL/sAAAAAFP+LmbsAAAAB9+s2fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

@@ -1,0 +1,273 @@
+{
+  "requested_at": "2026-09-13T06:35:54.645559+00:00",
+  "request_params": {
+    "appids": 4042220,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4042220,
+  "payload": {
+    "4042220": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Assassin of Monsters",
+        "steam_appid": 4042220,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >STORY:</h2><p class=\"bb_paragraph\" >Start journey in this medieval third person rpg game and be the hero and beat 7 different bosses in 7 different levels. Player start level with sword and shield and first mission is to find boss which is somewhere in level. Player need kill boss to destroy gate or fence which is between player warrior and skull. So beat boss and collect skull, after that level is finished and player get steam achievements. There is different bosses like green monster, cool guy, black witch, woman witch etc. Some bosses are weaker than others. So be the here and beat every bosses in this 3rd person fantasy rpg game</p><h2 class=\"bb_tag\" >FEATURES:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >7 levels</p></li><li><p class=\"bb_paragraph\" >7 different bosses. Every level different bosses. Kill boss and collect hidden skull</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" >STORY:</h2><p class=\"bb_paragraph\" >Start journey in this medieval third person rpg game and be the hero and beat 7 different bosses in 7 different levels. Player start level with sword and shield and first mission is to find boss which is somewhere in level. Player need kill boss to destroy gate or fence which is between player warrior and skull. So beat boss and collect skull, after that level is finished and player get steam achievements. There is different bosses like green monster, cool guy, black witch, woman witch etc. Some bosses are weaker than others. So be the here and beat every bosses in this 3rd person fantasy rpg game</p><h2 class=\"bb_tag\" >FEATURES:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >7 levels</p></li><li><p class=\"bb_paragraph\" >7 different bosses. Every level different bosses. Kill boss and collect hidden skull</p></li></ul>",
+        "short_description": "Third person rpg game where player warrior need kill 7 different bosses in 7 different levels. So be a hero and fight against several different big enemies",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/d2bec8708de34c3a218ff23ed1dbe4c8419e2b0f/header.jpg?t=1767626582",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/979ee27fa755c2ee77622183cdb6bdd757b07e0f/capsule_231x87.jpg?t=1767626582",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/979ee27fa755c2ee77622183cdb6bdd757b07e0f/capsule_184x69.jpg?t=1767626582",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 10<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> nvidia 1000 series<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 8 GB available space<br></li><li><strong>Sound Card:</strong> Direct x9</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 11<br></li><li><strong>Processor:</strong> i7<br></li><li><strong>Memory:</strong> 6 GB RAM<br></li><li><strong>Graphics:</strong> nvidia 2000 series<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 8 GB available space<br></li><li><strong>Sound Card:</strong> Direct x9</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "copyright Saylor games ",
+        "developers": [
+          "Saylor games"
+        ],
+        "publishers": [
+          "Saylor games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1417846
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Assassin of Monsters",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1417846,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Assassin of Monsters - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/879449dff4ef198d8c0697d49be50db7d3513dce/ss_879449dff4ef198d8c0697d49be50db7d3513dce.600x338.jpg?t=1767626582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/879449dff4ef198d8c0697d49be50db7d3513dce/ss_879449dff4ef198d8c0697d49be50db7d3513dce.1920x1080.jpg?t=1767626582"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/7973d85bbd6e605e3a301ba64faf5f5103c6b3ec/ss_7973d85bbd6e605e3a301ba64faf5f5103c6b3ec.600x338.jpg?t=1767626582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/7973d85bbd6e605e3a301ba64faf5f5103c6b3ec/ss_7973d85bbd6e605e3a301ba64faf5f5103c6b3ec.1920x1080.jpg?t=1767626582"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/cc0f8bf6ec739d088dfe979de93cdf368ad57245/ss_cc0f8bf6ec739d088dfe979de93cdf368ad57245.600x338.jpg?t=1767626582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/cc0f8bf6ec739d088dfe979de93cdf368ad57245/ss_cc0f8bf6ec739d088dfe979de93cdf368ad57245.1920x1080.jpg?t=1767626582"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/781a8d2e87f1756d88f1f873f0ff21c56a8f6fd6/ss_781a8d2e87f1756d88f1f873f0ff21c56a8f6fd6.600x338.jpg?t=1767626582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/781a8d2e87f1756d88f1f873f0ff21c56a8f6fd6/ss_781a8d2e87f1756d88f1f873f0ff21c56a8f6fd6.1920x1080.jpg?t=1767626582"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/1b210775f7f119af2e83d66ad62d3670648e6716/ss_1b210775f7f119af2e83d66ad62d3670648e6716.600x338.jpg?t=1767626582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4042220/1b210775f7f119af2e83d66ad62d3670648e6716/ss_1b210775f7f119af2e83d66ad62d3670648e6716.1920x1080.jpg?t=1767626582"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257259912,
+            "name": "new gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257259912/316fba6d353070fd9b4e8aec833e651169c798e5/movie_600x337.jpg?t=1767626580",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4042220/629944020/f3419fed06a79e220818a0162b974bbb152692a0/1767626247/dash_av1.mpd?t=1767626580",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/629944020/f3419fed06a79e220818a0162b974bbb152692a0/1767626247/dash_h264.mpd?t=1767626580",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/629944020/f3419fed06a79e220818a0162b974bbb152692a0/1767626247/hls_264_master.m3u8?t=1767626580",
+            "highlight": true
+          },
+          {
+            "id": 257205335,
+            "name": "gameplaynew",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257205335/963b9c690c7c9964adce94f6551b75988701ecf5/movie_600x337.jpg?t=1758707713",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4042220/1469603236/661adb88f5ae22d6ce754512a4ab13b9b32c45f4/1758707050/dash_av1.mpd?t=1758707713",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/1469603236/661adb88f5ae22d6ce754512a4ab13b9b32c45f4/1758707050/dash_h264.mpd?t=1758707713",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/1469603236/661adb88f5ae22d6ce754512a4ab13b9b32c45f4/1758707050/hls_264_master.m3u8?t=1758707713",
+            "highlight": true
+          },
+          {
+            "id": 257199474,
+            "name": "gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257199474/569c75d1d3736ba5f903d23fea1447de2afb4918/movie_600x337.jpg?t=1758516896",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4042220/354144137/851c05284bb3a675630fd5e73d4ac22e23dc0932/1758092849/dash_av1.mpd?t=1758516896",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/354144137/851c05284bb3a675630fd5e73d4ac22e23dc0932/1758092849/dash_h264.mpd?t=1758516896",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4042220/354144137/851c05284bb3a675630fd5e73d4ac22e23dc0932/1758092849/hls_264_master.m3u8?t=1758516896",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "261c7dfb22475d631e7a27d2a16c5deb23aff3db.jpg",
+              "localized_name": "Beat clone boss and got skull level 1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat clone boss and got skull level 1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/261c7dfb22475d631e7a27d2a16c5deb23aff3db.jpg"
+            },
+            {
+              "icon": "0ecd96510c91097df75871318cf5a248605b8e26.jpg",
+              "localized_name": "Beat Green monster boss and got skull level 2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Green monster boss and got skull level 2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/0ecd96510c91097df75871318cf5a248605b8e26.jpg"
+            },
+            {
+              "icon": "973f27a40f62284588bc93645a70115c95317c10.jpg",
+              "localized_name": "Beat warrior boss and got skull level 3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat warrior boss and got skull level 3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/973f27a40f62284588bc93645a70115c95317c10.jpg"
+            },
+            {
+              "icon": "80e91f794cdad9ee32ec867ef431555c9114c545.jpg",
+              "localized_name": "Beat black witch boss and got skull level 4",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat black witch boss and got skull level 4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/80e91f794cdad9ee32ec867ef431555c9114c545.jpg"
+            },
+            {
+              "icon": "8659da7f4b9935bd9e06dc4b6ae099dfb3429ea4.jpg",
+              "localized_name": "Beat woman witch and got skull level 5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat woman witch and got skull level 5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/8659da7f4b9935bd9e06dc4b6ae099dfb3429ea4.jpg"
+            },
+            {
+              "icon": "53af0e17035dfd3cbfc8dfa37a2bf8c48e9c496c.jpg",
+              "localized_name": "Beat robomonster and got skull level 6",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat robomonster and got skull level 6",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/53af0e17035dfd3cbfc8dfa37a2bf8c48e9c496c.jpg"
+            },
+            {
+              "icon": "72873e986126b3c24c681b9d3605a7d3d5834cb9.jpg",
+              "localized_name": "Beat cool guy and got skull level 7",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat cool guy and got skull level 7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4042220/72873e986126b3c24c681b9d3605a7d3d5834cb9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "saylorgames77@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4042220?t=1767626582",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4042220?t=1767626582",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3470940,
+  "requested_at": "2026-09-13T19:17:53.760032+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "229010476",
+        "author": {
+          "steamid": "76561198139158591",
+          "personaname": "JapanGamer29",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/japangamer29/",
+          "num_games_owned": 949,
+          "num_reviews": 179,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 28,
+          "last_played": 1783833026,
+          "avatar": "257eabe5d9a52584393f3f69518ab7f0b98c998c"
+        },
+        "language": "english",
+        "review": "Little Betty: Gold Rush is a precision platformer, similar to [url=https://store.steampowered.com/app/1322650/RITE/]RITE[/url].\n\nSadly, the poor jumping mechanics let down what could have been a good game. Most notably, wall-jumping. It's so unintuitive. And there's no variable jump height, so collecting coins between your head and a buzzsaw is an exercise in frustration.\n\nThe achievements are written in what looks like German, and the developer seems to be completely absent from Steam, making no updates to the game or responses to questions in the discussion forum.\n\nI suggest trying the demo before buying Little Betty. You might enjoy it more than I did. And I'll happily give the game another shot if it gets some updates.",
+        "timestamp_created": 1782604777,
+        "timestamp_updated": 1782604777,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.533767521381378174",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763463420",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZUxuAAAAAFP+EUoKAAAAB8ws3pBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

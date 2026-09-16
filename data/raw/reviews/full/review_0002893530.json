@@ -1,0 +1,66 @@
+{
+  "appid": 2893530,
+  "requested_at": "2026-09-13T18:58:04.800920+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 17,
+      "total_negative": 8,
+      "total_reviews": 25
+    },
+    "reviews": [
+      {
+        "recommendationid": "206862013",
+        "author": {
+          "steamid": "76561198013240999",
+          "personaname": "Demavend",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198013240999/",
+          "num_games_owned": 0,
+          "num_reviews": 89,
+          "playtime_forever": 8,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8,
+          "last_played": 1760629025,
+          "avatar": "752eb38c3b0bc6f74708ec2c3d44d00bda41edde"
+        },
+        "language": "english",
+        "review": "I instantly broke this game by navigating various menus and discovering that there are certain menus you just can't click the X to exit out of. Also, I chose to not purchase new soldiers during the tutorial and found out you have to purchase new soldiers and could not select the merchant to re-open that menu. Basic functionality should exist from the start I have zero tolerance for this.",
+        "timestamp_created": 1760629579,
+        "timestamp_updated": 1760629579,
+        "voted_up": false,
+        "votes_up": 23,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.673525393009185791",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760576308",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWh42AAAAAFP+WNhEAAAAB9646VBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3333310,
+  "requested_at": "2026-09-13T19:11:24.324497+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "207617663",
+        "author": {
+          "steamid": "76561197993057303",
+          "personaname": "Quzman Plays Games",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/QuzmanPlaysGames/",
+          "num_games_owned": 2316,
+          "num_reviews": 253,
+          "playtime_forever": 67,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 67,
+          "last_played": 1761465542,
+          "avatar": "fbb7f96a3d40865edfd77243524543bf62214d7d"
+        },
+        "language": "russian",
+        "review": "Нерабочий мусор. \n\nЭта игра была ужасна с самого начала. В ней плохо всё. Внешний вид, стилистика говна - это и есть говно, да иногда это неплохо, но когда сделано с любовью. Но тут просто сделано плохо. \nТо надписи с экрана не пропадают, то монстры друг друга не бьют, ну потому что, вот почему. \nВывод простой, рефанд дорогой. Проходите мимо этой поделки, она не стоит даже одного бакса, не то что за нее просят 3,29. \n\nКак говорил старина Гендальф: [strike] Пеките блинцы! [/strike] Бегите, глупцы! \n\nHOLES — Первый Взгляд [RU] | Руками Тьмы\nhttps://youtube.com/live/8wggx1ViVDM\n",
+        "timestamp_created": 1761466257,
+        "timestamp_updated": 1761466257,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.619042396545410156",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761073605",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXnoGAAAAAFP+PPMSAAAAB/5/+XBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

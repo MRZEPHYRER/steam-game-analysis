@@ -1,0 +1,66 @@
+{
+  "appid": 3798730,
+  "requested_at": "2026-09-13T19:41:16.943245+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "207959656",
+        "author": {
+          "steamid": "76561198034831659",
+          "personaname": "Goldrust",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198034831659/",
+          "num_games_owned": 1078,
+          "num_reviews": 460,
+          "playtime_forever": 156,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 156,
+          "last_played": 1761797095,
+          "avatar": "99708cdb1d3bb7c678602336a4568844a1ad89e5"
+        },
+        "language": "english",
+        "review": "Crimson Mansion is an indie mysterious adventure game that takes place inside a mansion and its surrounding grounds. The simple story involves your character inheriting this mansion, and venturing out to explore the grounds to find all its secrets within. This not a scary horror story, this is casual atmospheric adventure, with many notes to read. The game takes approximately 2.5 hours to complete.\n\n+ The story seems simple at first, but as you dive deep it actually is quite original with many collectible documents to find and read to understand more of what happened with the previous inhabitants.\n+ There is one musical track that is played throughout exploring the mansion that is extremely soothing to listen to. Absolutely perfect for this game. I could feel my blood pressure just drop while exploring.\n+ The game is well balanced and has a nice relaxing flow to it. The puzzles are not too difficult, and there is a nice sense of adventure during the last half of the game unveiling unique interesting parts of the house.\n\n+/- The graphics are suitable and the game has a great atmosphere, however the whole interface seems a bit \"Indie\" and  \"dated\". There are a few technical hiccups here and there, mild stuttering, even on low graphic settings.\n\n- Small nitpicks: The crosshair is too large in the middle of the screen and the constant icon in the top right of the screen breaks the immersion of the game. I like a clean screen when I explore.\n\nThis game is designed for people that want to calmly explore a mysterious unique mansion late at night for 2+ hours. It is extremely relaxing, atmospheric, and I had a great time with it. Supposedly there is another chapter coming, I look forward to playing it. Hidden Indie Gem.\n\nOverall: 8.5/10",
+        "timestamp_created": 1761833034,
+        "timestamp_updated": 1761833122,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.669721364974975586",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755698664",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWmweAAAAAFP+VuWsAAAAB45qaZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

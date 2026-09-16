@@ -1,0 +1,2 @@
+"model_id","distribution","n_games","log_likelihood","aic","bic","parameter_count","residual_df","converged","warning_count","formula","weights_used","zero_inflation_used","offset_used","theta"
+"M2_NB2_ORDINARY","NB2 ordinary",2240,-11649.4123164405,23330.8246328809,23422.2523311985,16,2224,TRUE,0,"review_count ~ is_free + price_spline_1 + price_spline_2 + price_spline_3 +      offset(log_days) + platform_segment + genre_action + genre_adventure +      genre_casual + genre_indie + genre_rpg + genre_simulation +      genre_strategy",FALSE,FALSE,TRUE,0.272942015696809

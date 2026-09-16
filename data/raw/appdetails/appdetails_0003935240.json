@@ -1,0 +1,273 @@
+{
+  "requested_at": "2026-09-13T05:55:48.495189+00:00",
+  "request_params": {
+    "appids": 3935240,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3935240,
+  "payload": {
+    "3935240": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Wild Wizards",
+        "steam_appid": 3935240,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Wild Wizards is a casual couch/party game that features some cute animals that somehow got their hands on some magical wands. Choose your wizard and fight your friends and family with the newfound magic these animals have discovered!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Within the game, you will find different magical wands that will randomly appear. Use these wands, and mix and match their powers to discover different powerful combinations to take down the other animals, and become the king or queen of the arcane wild! </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Disclaimers:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >This game only supports one mouse and keyboard per device. If playing local (currently the only option), use controllers to get everyone in on the magical action!</p></li><li><p class=\"bb_paragraph\" >This game has no ai or bots, so bring your family and friends to come play too!</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Wild Wizards is a casual couch/party game that features some cute animals that somehow got their hands on some magical wands. Choose your wizard and fight your friends and family with the newfound magic these animals have discovered!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Within the game, you will find different magical wands that will randomly appear. Use these wands, and mix and match their powers to discover different powerful combinations to take down the other animals, and become the king or queen of the arcane wild! </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Disclaimers:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >This game only supports one mouse and keyboard per device. If playing local (currently the only option), use controllers to get everyone in on the magical action!</p></li><li><p class=\"bb_paragraph\" >This game has no ai or bots, so bring your family and friends to come play too!</p></li></ul>",
+        "short_description": "Get WILD in this fun arena game! Filled with cute animals and arcane magic, choose your wizard and battle your friends to show everyone who the most powerful wizard is! Ranging from fire wands to poison wands, and explosions in between, join in on the fun in this WILD game!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/570e27bddbe11ecc2a7ab1f937eafe1228eea241/header.jpg?t=1756742820",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/6237267b6275ad3ce06610580502e3837746fe89/capsule_231x87.jpg?t=1756742820",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/6237267b6275ad3ce06610580502e3837746fe89/capsule_184x69.jpg?t=1756742820",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit only<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 &amp; up, 64-bit only<br></li><li><strong>Processor:</strong> Intel Core i7 &amp; up or AMD equivalent<br></li><li><strong>Memory:</strong> 4 MB RAM<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Ember Studios"
+        ],
+        "publishers": [
+          "Ember Studios"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1382479
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Wild Wizards",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1382479,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Wild Wizards - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/d68e0f2f64f6873cfa6f9bf1a46fa91834b7f4e4/ss_d68e0f2f64f6873cfa6f9bf1a46fa91834b7f4e4.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/d68e0f2f64f6873cfa6f9bf1a46fa91834b7f4e4/ss_d68e0f2f64f6873cfa6f9bf1a46fa91834b7f4e4.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/f10011a9ac257d22503467b7a347315e9f691a32/ss_f10011a9ac257d22503467b7a347315e9f691a32.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/f10011a9ac257d22503467b7a347315e9f691a32/ss_f10011a9ac257d22503467b7a347315e9f691a32.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/18b537140f0bd7e4fdcb6a9c5ea42b93cb4fa4d5/ss_18b537140f0bd7e4fdcb6a9c5ea42b93cb4fa4d5.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/18b537140f0bd7e4fdcb6a9c5ea42b93cb4fa4d5/ss_18b537140f0bd7e4fdcb6a9c5ea42b93cb4fa4d5.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/17caa7b9ac57581a2ee723e9ce92e00bc7eaefc4/ss_17caa7b9ac57581a2ee723e9ce92e00bc7eaefc4.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/17caa7b9ac57581a2ee723e9ce92e00bc7eaefc4/ss_17caa7b9ac57581a2ee723e9ce92e00bc7eaefc4.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/06cbc631d9bdfc9afdf167b5bd3aa191cd9e23f4/ss_06cbc631d9bdfc9afdf167b5bd3aa191cd9e23f4.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/06cbc631d9bdfc9afdf167b5bd3aa191cd9e23f4/ss_06cbc631d9bdfc9afdf167b5bd3aa191cd9e23f4.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/9d3d85f29be4d1635523b0b2a5e98f80c0c2be3c/ss_9d3d85f29be4d1635523b0b2a5e98f80c0c2be3c.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/9d3d85f29be4d1635523b0b2a5e98f80c0c2be3c/ss_9d3d85f29be4d1635523b0b2a5e98f80c0c2be3c.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/800be3d33b7e23f95ca3fc5b40793d6e5e468b09/ss_800be3d33b7e23f95ca3fc5b40793d6e5e468b09.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/800be3d33b7e23f95ca3fc5b40793d6e5e468b09/ss_800be3d33b7e23f95ca3fc5b40793d6e5e468b09.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/cef0b78530c9307cea36650473fc579cc3e75788/ss_cef0b78530c9307cea36650473fc579cc3e75788.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/cef0b78530c9307cea36650473fc579cc3e75788/ss_cef0b78530c9307cea36650473fc579cc3e75788.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/7f128d68f9f5029197ac8c2f4f9fe6e43ef0883a/ss_7f128d68f9f5029197ac8c2f4f9fe6e43ef0883a.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/7f128d68f9f5029197ac8c2f4f9fe6e43ef0883a/ss_7f128d68f9f5029197ac8c2f4f9fe6e43ef0883a.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/6403d1bf818f4827a8416e0fdb4fca7ad34f560e/ss_6403d1bf818f4827a8416e0fdb4fca7ad34f560e.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/6403d1bf818f4827a8416e0fdb4fca7ad34f560e/ss_6403d1bf818f4827a8416e0fdb4fca7ad34f560e.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/957123385b68981d1d187d5044bdd367bad2fe7e/ss_957123385b68981d1d187d5044bdd367bad2fe7e.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/957123385b68981d1d187d5044bdd367bad2fe7e/ss_957123385b68981d1d187d5044bdd367bad2fe7e.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/35f46e561603f2b0d7c1cf652ae25279448f7c4c/ss_35f46e561603f2b0d7c1cf652ae25279448f7c4c.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/35f46e561603f2b0d7c1cf652ae25279448f7c4c/ss_35f46e561603f2b0d7c1cf652ae25279448f7c4c.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/fa721c8fc1bd5bd32a8532a225bd8139e900cc2c/ss_fa721c8fc1bd5bd32a8532a225bd8139e900cc2c.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/fa721c8fc1bd5bd32a8532a225bd8139e900cc2c/ss_fa721c8fc1bd5bd32a8532a225bd8139e900cc2c.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/f6f6768c8b9f15ed0fbc3bfd2124ad885c16174c/ss_f6f6768c8b9f15ed0fbc3bfd2124ad885c16174c.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/f6f6768c8b9f15ed0fbc3bfd2124ad885c16174c/ss_f6f6768c8b9f15ed0fbc3bfd2124ad885c16174c.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/3e084ab3a9d8fb6e6e6d2905ed4c6889c4fd2b41/ss_3e084ab3a9d8fb6e6e6d2905ed4c6889c4fd2b41.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/3e084ab3a9d8fb6e6e6d2905ed4c6889c4fd2b41/ss_3e084ab3a9d8fb6e6e6d2905ed4c6889c4fd2b41.1920x1080.jpg?t=1756742820"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/bd85c5ff3f17f1bd256273dc9801694b63389493/ss_bd85c5ff3f17f1bd256273dc9801694b63389493.600x338.jpg?t=1756742820",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/bd85c5ff3f17f1bd256273dc9801694b63389493/ss_bd85c5ff3f17f1bd256273dc9801694b63389493.1920x1080.jpg?t=1756742820"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257178871,
+            "name": "WildWizardsEarlyAccess",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257178871/56dfe033f62bf44699602c0ede8f411ed2b4d016/movie_600x337.jpg?t=1755574841",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3935240/1049265968/284e3c50c620ee7f28c080f15e87741ff61ea092/1754447910/dash_av1.mpd?t=1755574841",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3935240/1049265968/284e3c50c620ee7f28c080f15e87741ff61ea092/1754447910/dash_h264.mpd?t=1755574841",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3935240/1049265968/284e3c50c620ee7f28c080f15e87741ff61ea092/1754447910/hls_264_master.m3u8?t=1755574841",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "phoenixemberstudios@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3935240?t=1756742820",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935240/6fc33a3756064422f7c1bb6339f9402d7f807ea6/page_bg_raw.jpg?t=1756742820",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

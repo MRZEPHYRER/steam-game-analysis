@@ -1,0 +1,66 @@
+{
+  "appid": 1935330,
+  "requested_at": "2026-09-13T18:45:50.234726+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "206696290",
+        "author": {
+          "steamid": "76561198058647383",
+          "personaname": "Nefrarya",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198058647383/",
+          "num_games_owned": 1383,
+          "num_reviews": 78,
+          "playtime_forever": 197,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 187,
+          "last_played": 1760640927,
+          "avatar": "4765a87621b8f8a8e5fd4896571f8d3175af33fe"
+        },
+        "language": "english",
+        "review": "What a gem! The game oozes all the love it was made with and it's funny as hell. The visuals are beautiful, the music is nice, and the animation is top notch.\n\nYou follow Miho on a truly wild [strike]goose [/strike] potato chase and you meet so many colorful characters. OF COURSE all of them have just one really small favour to ask of you -- surely you can fit that into your leisurely time table, right? Right?! \n\nAnyhow, my only real issue is that I wish it was longer. Without going for 100% achievements, it took me about three hours to finish the story. \n\nOn the subject of achievements, it would be nice if the game offered a chapter select after beating it, especially since some achievements are dexterity challenges that most people probably won't beat at first try.\n\nOverall though, I loved my time with SOPA. I hope we'll see much more from StudioBando in the future. <3",
+        "timestamp_created": 1760430737,
+        "timestamp_updated": 1760430737,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.600220620632171631",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759795216",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX/t6AAAAAFP+M1AqAAAABy9r2UBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.203000000000202,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3083990,
+  "requested_at": "2026-09-13T19:03:28.758788+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 48,
+      "total_negative": 2,
+      "total_reviews": 50
+    },
+    "reviews": [
+      {
+        "recommendationid": "209629030",
+        "author": {
+          "steamid": "76561199113203380",
+          "personaname": "Animenja",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/animenja/",
+          "num_games_owned": 82,
+          "num_reviews": 2,
+          "playtime_forever": 131,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 103,
+          "last_played": 1781893592,
+          "avatar": "893c6166e55aac68e3a2ac75bc5fa2d91c4802b5"
+        },
+        "language": "english",
+        "review": "Despite all the current bugs, and me not having actively gone far into the game (as I got stuck in the cafeteria). I just want to say that I absolutely love this game already, and the whole entire series tbh,, (and Pooky oogsrbga)\n\nI know, sending off a review when the games bugs are still actively being fixed is a bit odd, but I just had to express my love for the game. <3\nCan't wait to play more, and get more chapters in the future :3 (and more Pooky)",
+        "timestamp_created": 1763566842,
+        "timestamp_updated": 1763566842,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.653179168701171875",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763528021",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW77kAAAAAFP+Tm16AAAAB29tWfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

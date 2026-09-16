@@ -1,0 +1,75 @@
+{
+  "appid": 4003220,
+  "requested_at": "2026-09-13T20:10:32.946583+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 79,
+      "total_negative": 19,
+      "total_reviews": 98
+    },
+    "reviews": [
+      {
+        "recommendationid": "212944753",
+        "author": {
+          "steamid": "76561199059845304",
+          "personaname": "🏳️‍⚧️ yuri_thecringe",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/yuri_thecringe/",
+          "num_games_owned": 95,
+          "num_reviews": 17,
+          "playtime_forever": 769,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 40,
+          "last_played": 1774317199,
+          "avatar": "666759c417748d0996b3e4030bedef13c652c16d"
+        },
+        "language": "english",
+        "review": "best game ever! it made me disgusted by dildos but the ending WAS ASWOME AND I WILL WANNA KILL MY SELF!!! TIT/TIT WOULD RECOMEND!!!!!!!!!!!!!!!",
+        "timestamp_created": 1765319430,
+        "timestamp_updated": 1765319430,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.648315966129302979",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765227625",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          },
+          {
+            "reaction_type": 3,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXCJ8AAAAAFP+S/AUAAAABx96isBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.985000000000582,
+  "transport_error_count": 0
+}

@@ -1,0 +1,68 @@
+{
+  "appid": 3983420,
+  "requested_at": "2026-09-13T20:08:02.079774+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "204367435",
+        "author": {
+          "steamid": "76561198068650394",
+          "personaname": "ShadowTaged",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198068650394/",
+          "num_games_owned": 774,
+          "num_reviews": 24,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1757897290,
+          "avatar": "5cf7b1f193db541ddcad4027babc15d5b2725eaf"
+        },
+        "language": "english",
+        "review": "After a few levels the cheap ♥♥♥♥ stops being fun. I get the appeal but its not for me.",
+        "timestamp_created": 1757897541,
+        "timestamp_updated": 1757897541,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.562927067279815674",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1758718569,
+        "developer_response": "Hey! Thanks a lot for giving JAGAR a try and for sharing your thoughts.\nI totally understand that the style of the game may not be for everyone, and I really appreciate your honesty. Feedback like yours helps me reflect on what works and what could be improved in future projects.",
+        "app_release_date": "1757756179",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYvdCAAAAAFP+IDf4AAAAB75MyLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

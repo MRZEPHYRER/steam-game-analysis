@@ -1,0 +1,190 @@
+{
+  "requested_at": "2026-09-12T14:31:36.769156+00:00",
+  "request_params": {
+    "appids": 3165890,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3165890,
+  "payload": {
+    "3165890": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Among the Stars",
+        "steam_appid": 3165890,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4146950
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>Among the Stars</i> is a <strong>competitive 2D rhythm game</strong> featuring a minimalist, modern and space-themed visual style, along with an electronic soundtrack. With <strong>regular esports competitions</strong> and a <strong>built-in level editor</strong>, <i>Among the Stars</i> lets you not only play but create and share your own unique levels. Perfect for rhythm game enthusiasts looking for both solo and competitive play!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>Among the Stars</i> is a <strong>competitive 2D rhythm game</strong> featuring a minimalist, modern and space-themed visual style, along with an electronic soundtrack. With <strong>regular esports competitions</strong> and a <strong>built-in level editor</strong>, <i>Among the Stars</i> lets you not only play but create and share your own unique levels. Perfect for rhythm game enthusiasts looking for both solo and competitive play!</p>",
+        "short_description": "Among the Stars is a competitive 2D rhythm game featuring a minimalist, modern and space-themed visual style, along with an electronic soundtrack. Enjoy regular esports competitions and a built-in level editor to create and share unique levels.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/6df71d2809d0b89a338b2fb8874b08c2e60523d4/header.jpg?t=1764543975",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/f7a1ab4fb0286b6681bcf66651cb35ed2e2e1df3/capsule_231x87.jpg?t=1764543975",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/f7a1ab4fb0286b6681bcf66651cb35ed2e2e1df3/capsule_184x69.jpg?t=1764543975",
+        "website": "https://lemon3studio.dev/ats-wiki",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or above<br></li><li><strong>Additional Notes:</strong> An internet connection is required for the use of most features of the game.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Nils Crettenand"
+        ],
+        "publishers": [
+          "Lemon3 Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1123436
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Among the Stars",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1123436,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Among the Stars - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/88608b3d12f660ac9a613fa87d19ce0cb1b2d208/ss_88608b3d12f660ac9a613fa87d19ce0cb1b2d208.600x338.jpg?t=1764543975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/88608b3d12f660ac9a613fa87d19ce0cb1b2d208/ss_88608b3d12f660ac9a613fa87d19ce0cb1b2d208.1920x1080.jpg?t=1764543975"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/7ea3975111698306abf317833d1727be4b8e64a9/ss_7ea3975111698306abf317833d1727be4b8e64a9.600x338.jpg?t=1764543975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/7ea3975111698306abf317833d1727be4b8e64a9/ss_7ea3975111698306abf317833d1727be4b8e64a9.1920x1080.jpg?t=1764543975"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/912fa2a813c95387965c05716843c53cf9c138af/ss_912fa2a813c95387965c05716843c53cf9c138af.600x338.jpg?t=1764543975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/912fa2a813c95387965c05716843c53cf9c138af/ss_912fa2a813c95387965c05716843c53cf9c138af.1920x1080.jpg?t=1764543975"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/8c978d10e620d2e3bb5dc3eb348f23a153161b5a/ss_8c978d10e620d2e3bb5dc3eb348f23a153161b5a.600x338.jpg?t=1764543975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/8c978d10e620d2e3bb5dc3eb348f23a153161b5a/ss_8c978d10e620d2e3bb5dc3eb348f23a153161b5a.1920x1080.jpg?t=1764543975"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/39a48912cfabcb4713ccd0e16a604187a12077bf/ss_39a48912cfabcb4713ccd0e16a604187a12077bf.600x338.jpg?t=1764543975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/39a48912cfabcb4713ccd0e16a604187a12077bf/ss_39a48912cfabcb4713ccd0e16a604187a12077bf.1920x1080.jpg?t=1764543975"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257217454,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217454/555fedf0c203f45a8b5f43ab7cc54b0415e9ac9d/movie_600x337.jpg?t=1760398943",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3165890/1350629335/438438c408ee6178587517f709760c8fec4dc9b8/1760395294/dash_av1.mpd?t=1760398943",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3165890/1350629335/438438c408ee6178587517f709760c8fec4dc9b8/1760395294/dash_h264.mpd?t=1760398943",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3165890/1350629335/438438c408ee6178587517f709760c8fec4dc9b8/1760395294/hls_264_master.m3u8?t=1760398943",
+            "highlight": true
+          },
+          {
+            "id": 257060465,
+            "name": "Gameplay Preview",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257060465/7ea3975111698306abf317833d1727be4b8e64a9/movie_600x337.jpg?t=1760398945",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3165890/1756648974/2b08cee27a409f73ed53836e27f6b4db5582b0de/1760398370/dash_av1.mpd?t=1760398945",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3165890/1756648974/2b08cee27a409f73ed53836e27f6b4db5582b0de/1760398370/dash_h264.mpd?t=1760398945",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3165890/1756648974/2b08cee27a409f73ed53836e27f6b4db5582b0de/1760398370/hls_264_master.m3u8?t=1760398945",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2025"
+        },
+        "support_info": {
+          "url": "https://lemon3studio.dev/contact",
+          "email": "contact@lemon3studio.dev"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3165890?t=1764543975",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3165890/page_bg_raw.jpg?t=1764543975",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

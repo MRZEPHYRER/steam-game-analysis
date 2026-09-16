@@ -1,0 +1,66 @@
+{
+  "appid": 3962740,
+  "requested_at": "2026-09-13T20:05:51.967185+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 7,
+      "total_negative": 1,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "228053908",
+        "author": {
+          "steamid": "76561197980149302",
+          "personaname": "Svante",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197980149302/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1780935914,
+          "avatar": "0d06c38399c17f2549b61253757ebb55fd7c4000"
+        },
+        "language": "english",
+        "review": "This is a game that gives hope and breaks away from the narrow-mindedness and boredom of contemporary game design, and it’s one of those games we’ve all been missing. I’d say it’s a hint at what an exit from the dead end might look like - the dead end that both big commercial projects and the million things we usually call “indie games” have arrived at.\n\nGames where you have to kill someone, or walk through some location to open chests there, talk to certain people and then kill some of them, while discussing philosophical problems with others or trying to unlock an erotic scene or pretending that you’ve made a difficult moral choice. Why is all of that even there? Why walk, why explore, why kill, and why pick a skill tree branch at all?\n\nHere is an example of how it can be different - the pleasure of splashing water with your feet, a few associations, a beautiful reflection on the surface. This is, if you want, the closest thing in games to the prose of Marcel Proust.\n\nIn short: this is a game about splashing your feet in water. It’s a very honest, comforting, poetic project that you can finish in a few minutes and come away with the feeling that maybe your life wasn’t wasted after all.",
+        "timestamp_created": 1781556228,
+        "timestamp_updated": 1781556228,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.529411792755126953",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761768680",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZaWkAAAAAFP+Dw8WAAAAB0ufrlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

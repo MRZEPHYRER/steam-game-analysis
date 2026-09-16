@@ -1,0 +1,66 @@
+{
+  "appid": 2495630,
+  "requested_at": "2026-09-13T18:51:42.274557+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "221550137",
+        "author": {
+          "steamid": "76561199049500102",
+          "personaname": "voraciouscarex",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199049500102/",
+          "num_games_owned": 0,
+          "num_reviews": 53,
+          "playtime_forever": 270,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 270,
+          "last_played": 1773444056,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "The artwork for this game is lovely. Playing the game is boring. There is nothing intuitive about the user interface. I keep having to play the same scenes over and over and over..... I am unable to see a story or a progression in the game play. I feel like I am stuck in an infinite loop.",
+        "timestamp_created": 1774328553,
+        "timestamp_updated": 1774328553,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.576923072338104248",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754419907",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYdieAAAAAFP+J2J0AAAAB545LNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

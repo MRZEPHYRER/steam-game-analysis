@@ -1,0 +1,66 @@
+{
+  "appid": 2165140,
+  "requested_at": "2026-09-13T18:47:53.525526+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 129,
+      "total_negative": 43,
+      "total_reviews": 172
+    },
+    "reviews": [
+      {
+        "recommendationid": "208864195",
+        "author": {
+          "steamid": "76561197984855878",
+          "personaname": "Pie",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/pie-zero/",
+          "num_games_owned": 0,
+          "num_reviews": 272,
+          "playtime_forever": 689,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 689,
+          "last_played": 1762754170,
+          "avatar": "42d9cf89cb1f25ad3198904fdb499ba463b291fd"
+        },
+        "language": "english",
+        "review": "It has the makings of a great game, but none of it feels playtested. \n\nThe spoilage system is too frustrating considering that it asks you for a large selection of items for each research. Which means for a small incremental change expect to be repeating tasks because something spoiled (or disappeared in my case.)\n\nIt starts with a lot of story, but then just stops. \n\nThe enemies are tricky, which would be fun if there were smart ways to beat them. But some of them there just aren't. \n\nIt's so close to going being a Yes, but every time I play I get frustrated and disappointed in it.",
+        "timestamp_created": 1762754289,
+        "timestamp_updated": 1762754289,
+        "voted_up": false,
+        "votes_up": 30,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.737845361232757568",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762434040",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVPjwAAAAAFP+ecbSAAAABzvOCcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

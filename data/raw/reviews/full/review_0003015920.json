@@ -1,0 +1,68 @@
+{
+  "appid": 3015920,
+  "requested_at": "2026-09-13T19:00:57.854770+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 4,
+      "total_reviews": 25
+    },
+    "reviews": [
+      {
+        "recommendationid": "214214023",
+        "author": {
+          "steamid": "76561198077512425",
+          "personaname": "mort.",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198077512425/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 241,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 228,
+          "last_played": 1766798900,
+          "avatar": "a52d0f522b58fcd82b15a500bdd7a62673897dda"
+        },
+        "language": "english",
+        "review": "Game is amazing and i cant wait for more content to be added. my only issues are not having a way to turn off screen-shake, lower bloom, or turn off the slow motion thing when hitting enemies.",
+        "timestamp_created": 1766726967,
+        "timestamp_updated": 1766726967,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1766732495,
+        "developer_response": "Thanks a lot for the kind words, really glad you’re enjoying the game!\nAll three of the things you mentioned can actually be turned off in the settings:\n\nBloom: You can disable it by turning off HDR in the Graphics settings.\n\nScreen shake: Go to Settings → Controls and adjust the Shake value (you can set it to 0).\n\nSlow motion on hit: You can turn this off in Settings → Controls as well.\n\nHope this helps, and thanks again for the feedback!",
+        "app_release_date": "1765363877",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB32JSxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

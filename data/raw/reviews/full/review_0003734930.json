@@ -1,0 +1,66 @@
+{
+  "appid": 3734930,
+  "requested_at": "2026-09-13T19:35:38.054723+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "207568206",
+        "author": {
+          "steamid": "76561198071259891",
+          "personaname": "Presauk",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/presauk/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 2056,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1880,
+          "last_played": 1786467400,
+          "avatar": "e6e01b76f0eb48602d507e07184350e38c0c77af"
+        },
+        "language": "english",
+        "review": "A solid rogue lite that I encourage more people to check out! It's surprising just how much scope there is to this one. A lot of customization of playstyles and a lot of stuff going on between your drone ship, 4 slots for weapons as well an aux bot to upgrade. Then you're grabbing perks to further influence or modify your playstyle. \n\nDev is responsive, hears out suggestions whether on steam or youtube. Including making balance adjustments.  \n\nFair warning this one is a great deal more challenging than a lot of other rogue lites you may have played! You really do need to build up and upgrade a range of functions to power up over the course of a run. While there is definitely a lot of meta progression. I absolutely think your build is made over the course of a run not as a result of meta progression alone (which serves more to reduce early game growing pains). A recent update has adjusted the difficulty of the very first stage to give players a leg up on copper by limiting the HP of enemies. \n\nUpdate: Got through the game now at a few different difficulty levels. It's still very satisfying and I'm kind of surprised that it offers a reasonable amount of resistance despite having beaten it 4 times now. I think the mark of a good rogue like is when you feel like you know what you are doing but there is still adequate resistance so not every run ends in a victory. Yet I'm having a much much easier time of it than I did at the very beginning so progress feels rewarding. \n\nThere have also been some fun additions to the core game. Some new perks and a mechanic to help alleviate the stress of the often bordering on bullet hell/survivors-like situations the game will throw at you (bomber man fans will approve). Fortunately the update doesn't feel like it's got a bloat of content there's enough there to chew on and master. I will say demonborg is becoming a my go to cool-down game at the end of a long day. Sufficiently challenging without asking me to do loot optimization calculations in my head. \n\nA further update has added set bonuses giving you more incentive to try out unusual combos involving weapons that might be outside your usual playstyle! Most sets are formed by just having 2 of a possible 4 weapons equipped so you can have 2 set bonuses active at once. These bonuses are worth seeking out and it might be a while before I'll have figured out all the ones I want. That being said one catch is that some weapon sets will involve weapons you may not have unlocked... Yet! So that's something to be mindful of!",
+        "timestamp_created": 1761414137,
+        "timestamp_updated": 1765594414,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.526284337043762207",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761067505",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZeW0AAAAAFP+DXUYAAAAB+1OeXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1400000000003274,
+  "transport_error_count": 0
+}

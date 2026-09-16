@@ -1,0 +1,66 @@
+{
+  "appid": 2679310,
+  "requested_at": "2026-09-13T18:54:00.755707+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "216677634",
+        "author": {
+          "steamid": "76561198170189769",
+          "personaname": "neil",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/therealistneil/",
+          "num_games_owned": 671,
+          "num_reviews": 1,
+          "playtime_forever": 3247,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3247,
+          "last_played": 1769253466,
+          "avatar": "f3d88af10465b3ab895174fbd20b5004990ad137"
+        },
+        "language": "english",
+        "review": "Incredibly charming and addictive game focused on trading items to would-be adventurers to then send them off to the various dungeons around a deep yet humble fantasy world. The card battling combat while frustrating at times offers fair challenge and a wide smattering of fun and unique mini-games help supplement the base gameplay. The story of the game is also captivating; filled with fun twists and turns, interesting quests and plenty of decisions to shape the world around you. As well as a VERY likable cast of characters. \n\nAn easy game to recommend to anyone interested in card battlers, economy based trading games or even text adventures.",
+        "timestamp_created": 1769253566,
+        "timestamp_updated": 1769282504,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.572072088718414307",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1701453623",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYjv4AAAAAFP+JOagAAAABy0Me6Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8599999999999,
+  "transport_error_count": 0
+}

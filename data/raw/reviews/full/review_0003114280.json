@@ -1,0 +1,66 @@
+{
+  "appid": 3114280,
+  "requested_at": "2026-09-13T19:04:28.294104+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "210191907",
+        "author": {
+          "steamid": "76561199160665741",
+          "personaname": "Pat ^_^",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199160665741/",
+          "num_games_owned": 515,
+          "num_reviews": 303,
+          "playtime_forever": 442,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 442,
+          "last_played": 1764014626,
+          "avatar": "1817d254ea6e12debe9b25ff5eb9b3a74643934f"
+        },
+        "language": "english",
+        "review": "For a VN that intrigued me with its lack of prominence, low price, and promising store page, I'm left very pleasantly surprised!\nI'd describe the story as a futuristic detective mystery set in the only stable city after a global apocalypse, with the plot being divided into 3 arcs (currently two of them available and the last one in development). The story tends to feel nearly oddly casual and lighthearted at times, but still includes captivating dark mysteries and a thrilling atmosphere, emitting a unique charm altogether. While the game doesn't seem to delve too deep into character writing, it offers a broad cast of distinct characters with striking designs and personalities, who are presented in a lively way due to expressive sprites and partial voice acting. My only complaint about the writing is that I would've preferred the world building to be more extensive, as info regarding the apocalypse is kept incredibly brief, but hopefully the last arc will involve this topic more thoroughly! \n\nMoreover, I found the soundtrack phenomenal, it encompasses a solid variety of music for diverse ambiences, with some so catchy that I occasionally stopped reading only to enjoy it. The art is very lovely too! The translation is generally great aside of small typos, but towards the second part I've noticed an increased amount of grammatical errors, mostly in form of misplaced pronouns: however from my understanding, the translation is still in active development, hence will hopefully be fixed. Overall I consider this a highly underrated VN full of potential and am looking forward to experience the end result!",
+        "timestamp_created": 1764022913,
+        "timestamp_updated": 1764023048,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.683275580406188965",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760186426",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWVaCAAAAAFP+XdZaAAAABz4uihBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

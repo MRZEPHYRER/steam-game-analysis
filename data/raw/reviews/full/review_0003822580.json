@@ -1,0 +1,71 @@
+{
+  "appid": 3822580,
+  "requested_at": "2026-09-13T19:44:36.808307+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "202580554",
+        "author": {
+          "steamid": "76561198026266897",
+          "personaname": "NikoMeta",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198026266897/",
+          "num_games_owned": 151,
+          "num_reviews": 1,
+          "playtime_forever": 57,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "last_played": 1759118966,
+          "avatar": "42e1d8fca7841f1668fb2b7ae512e3d13f65ebf1"
+        },
+        "language": "english",
+        "review": "I have only just started playing this classic gamebook-turned-digital. I'll recommend it just because its Heart of Ice, after all. But this adaptation leaves some things to be desired:\n\n1) Most illustrations don't match the narrative. This is a weird decision by the designers.\n2) In a digital format, the reference to pages AND to chapters becomes unnecessary and confusing.\n\nI get that the desginers went for an as-close-to-a-physical-book as possible, but this adaptation is rushed. See the Fighting Fantasy app for a better example of how to turn classic gamebooks into digital games.",
+        "timestamp_created": 1755778983,
+        "timestamp_updated": 1755778983,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.656070828437805176",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755754959",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFW4OqAAAAAFP+T+iKAAAAB6pOSEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

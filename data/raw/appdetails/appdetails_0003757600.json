@@ -1,0 +1,331 @@
+{
+  "requested_at": "2026-09-12T16:27:27.939654+00:00",
+  "request_params": {
+    "appids": 3757600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3757600,
+  "payload": {
+    "3757600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Mana Battle",
+        "steam_appid": 3757600,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Mana Battle</h2><p class=\"bb_paragraph\" >Build the ultimate hero guild, master positioning and triggers, and aim for a <strong>Gold Victory</strong>—or see how far you can go in <strong>Infinite Mode</strong>!<br><strong>Mana Battle</strong> is a PvE roguelite autobattler played on a 3×3 board, where positioning is everything. Choose a core crystal, discover devastating synergies, and climb to the top with each match. Every decision matters!</p><h2 class=\"bb_tag\" >How to Play</h2><p class=\"bb_paragraph\" >The goal of Mana Battle is to destroy the enemy team’s crystal while protecting your own. To do this, you recruit units from across the galaxy. Units cannot damage or protect each other directly—only the crystals. However, units can empower others by making them faster, slower, or stronger.</p><h2 class=\"bb_tag\" >Reading Unit Descriptions</h2><p class=\"bb_paragraph\" ><strong>Cooldown</strong><br>How long it takes for a unit to perform its action(s).<br>Example: A unit with a cooldown of 3s acts every 3 seconds.</p><h2 class=\"bb_tag\" >Basic Abilities</h2><p class=\"bb_paragraph\" >These actions use the unit’s <strong>Power</strong> as a reference. Increasing Power strengthens damage, healing, shields, poison, and regeneration effects.</p><h2 class=\"bb_tag\" >Damage</h2><p class=\"bb_paragraph\" >Directly harms the enemy crystal.<br><i>Example:</i> <strong>Damage 30</strong> — This unit deals 30 damage to the enemy crystal.</p><h2 class=\"bb_tag\" >Shield</h2><p class=\"bb_paragraph\" >Creates a protective barrier on your crystal that absorbs damage until depleted.<br><i>Example:</i> <strong>Shield 40</strong> — This unit adds 40 shield to the allied crystal.</p><h2 class=\"bb_tag\" >Poison</h2><p class=\"bb_paragraph\" >Deals damage over time and ignores shields.<br><i>Example:</i> <strong>Poison 20</strong> — The enemy crystal takes 2 damage per second (20 over 10s).</p><h2 class=\"bb_tag\" >Regen</h2><p class=\"bb_paragraph\" >Restores life every second.<br><i>Example:</i> <strong>Regen 30</strong> — The allied crystal restores 3 life per second (30 over 10s).</p><h2 class=\"bb_tag\" >Heal</h2><p class=\"bb_paragraph\" >Restores your crystal’s life and removes poison equal to 10% of the amount healed.<br><i>Example:</i> <strong>Heal 20</strong> — The allied crystal restores 20 life and removes 2 poison.</p><h2 class=\"bb_tag\" >Advanced Effects</h2><h2 class=\"bb_tag\" >Haste</h2><p class=\"bb_paragraph\" >Doubles a unit’s cooldown recovery speed while active.<br><i>Example:</i> “Haste for 2 seconds” means the unit completes 4 seconds of cooldown during that time.</p><h2 class=\"bb_tag\" >Slow</h2><p class=\"bb_paragraph\" >The opposite of Haste. Haste and Slow cancel each other out.</p><h2 class=\"bb_tag\" >Charge</h2><p class=\"bb_paragraph\" >Instantly reduces a unit’s current cooldown by a set amount.<br><i>Example:</i> If a unit needs 3s to activate and receives <strong>Charge 1s</strong>, it will activate in 2s.</p><h2 class=\"bb_tag\" >Increase Power</h2><p class=\"bb_paragraph\" >Increases a unit’s Power. Bonus Power is lost at the end of combat unless the description states it is permanent.</p><h2 class=\"bb_tag\" >Critical Damage</h2><p class=\"bb_paragraph\" >Some units have, or can gain, a chance to deal double damage, healing, shielding, poison, or regeneration.<br>If critical chance exceeds 100%, one-fifth of the excess is converted into Power.<br><i>Example:</i> <strong>140% critical chance</strong> results in double damage plus 8 bonus Power.</p><h2 class=\"bb_tag\" >Reactions</h2><p class=\"bb_paragraph\" >Some units can react to enemy actions. Reactions occur 200ms after the triggering action.</p><p class=\"bb_paragraph\" ><i>Example:</i><br>“When a row ally uses Heal, Haste 1 random ally for 1s.”</p><h2 class=\"bb_tag\" >About Mana Battle</h2><p class=\"bb_paragraph\" >Mana Battle is a PvE roguelite autobattler played on a 3×3 board.</p><p class=\"bb_paragraph\" >Recruit unique units with distinct abilities and roles. Position them strategically and create powerful synergies to overwhelm your opponents.</p><p class=\"bb_paragraph\" >Earn achievements by mastering different strategies and crystal combinations. Prove your tactical superiority with <strong>Bronze</strong>, <strong>Silver</strong>, and <strong>Gold</strong> victories—and see how far you can go in <strong>Infinite Mode</strong>!</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Mana Battle</h2><p class=\"bb_paragraph\" >Build the ultimate hero guild, master positioning and triggers, and aim for a <strong>Gold Victory</strong>—or see how far you can go in <strong>Infinite Mode</strong>!<br><strong>Mana Battle</strong> is a PvE roguelite autobattler played on a 3×3 board, where positioning is everything. Choose a core crystal, discover devastating synergies, and climb to the top with each match. Every decision matters!</p><h2 class=\"bb_tag\" >How to Play</h2><p class=\"bb_paragraph\" >The goal of Mana Battle is to destroy the enemy team’s crystal while protecting your own. To do this, you recruit units from across the galaxy. Units cannot damage or protect each other directly—only the crystals. However, units can empower others by making them faster, slower, or stronger.</p><h2 class=\"bb_tag\" >Reading Unit Descriptions</h2><p class=\"bb_paragraph\" ><strong>Cooldown</strong><br>How long it takes for a unit to perform its action(s).<br>Example: A unit with a cooldown of 3s acts every 3 seconds.</p><h2 class=\"bb_tag\" >Basic Abilities</h2><p class=\"bb_paragraph\" >These actions use the unit’s <strong>Power</strong> as a reference. Increasing Power strengthens damage, healing, shields, poison, and regeneration effects.</p><h2 class=\"bb_tag\" >Damage</h2><p class=\"bb_paragraph\" >Directly harms the enemy crystal.<br><i>Example:</i> <strong>Damage 30</strong> — This unit deals 30 damage to the enemy crystal.</p><h2 class=\"bb_tag\" >Shield</h2><p class=\"bb_paragraph\" >Creates a protective barrier on your crystal that absorbs damage until depleted.<br><i>Example:</i> <strong>Shield 40</strong> — This unit adds 40 shield to the allied crystal.</p><h2 class=\"bb_tag\" >Poison</h2><p class=\"bb_paragraph\" >Deals damage over time and ignores shields.<br><i>Example:</i> <strong>Poison 20</strong> — The enemy crystal takes 2 damage per second (20 over 10s).</p><h2 class=\"bb_tag\" >Regen</h2><p class=\"bb_paragraph\" >Restores life every second.<br><i>Example:</i> <strong>Regen 30</strong> — The allied crystal restores 3 life per second (30 over 10s).</p><h2 class=\"bb_tag\" >Heal</h2><p class=\"bb_paragraph\" >Restores your crystal’s life and removes poison equal to 10% of the amount healed.<br><i>Example:</i> <strong>Heal 20</strong> — The allied crystal restores 20 life and removes 2 poison.</p><h2 class=\"bb_tag\" >Advanced Effects</h2><h2 class=\"bb_tag\" >Haste</h2><p class=\"bb_paragraph\" >Doubles a unit’s cooldown recovery speed while active.<br><i>Example:</i> “Haste for 2 seconds” means the unit completes 4 seconds of cooldown during that time.</p><h2 class=\"bb_tag\" >Slow</h2><p class=\"bb_paragraph\" >The opposite of Haste. Haste and Slow cancel each other out.</p><h2 class=\"bb_tag\" >Charge</h2><p class=\"bb_paragraph\" >Instantly reduces a unit’s current cooldown by a set amount.<br><i>Example:</i> If a unit needs 3s to activate and receives <strong>Charge 1s</strong>, it will activate in 2s.</p><h2 class=\"bb_tag\" >Increase Power</h2><p class=\"bb_paragraph\" >Increases a unit’s Power. Bonus Power is lost at the end of combat unless the description states it is permanent.</p><h2 class=\"bb_tag\" >Critical Damage</h2><p class=\"bb_paragraph\" >Some units have, or can gain, a chance to deal double damage, healing, shielding, poison, or regeneration.<br>If critical chance exceeds 100%, one-fifth of the excess is converted into Power.<br><i>Example:</i> <strong>140% critical chance</strong> results in double damage plus 8 bonus Power.</p><h2 class=\"bb_tag\" >Reactions</h2><p class=\"bb_paragraph\" >Some units can react to enemy actions. Reactions occur 200ms after the triggering action.</p><p class=\"bb_paragraph\" ><i>Example:</i><br>“When a row ally uses Heal, Haste 1 random ally for 1s.”</p><h2 class=\"bb_tag\" >About Mana Battle</h2><p class=\"bb_paragraph\" >Mana Battle is a PvE roguelite autobattler played on a 3×3 board.</p><p class=\"bb_paragraph\" >Recruit unique units with distinct abilities and roles. Position them strategically and create powerful synergies to overwhelm your opponents.</p><p class=\"bb_paragraph\" >Earn achievements by mastering different strategies and crystal combinations. Prove your tactical superiority with <strong>Bronze</strong>, <strong>Silver</strong>, and <strong>Gold</strong> victories—and see how far you can go in <strong>Infinite Mode</strong>!</p>",
+        "short_description": "Build your ultimate hero guild, master positioning, triggers, and try to get a Gold Victory or see how far you can get in Infinite Mode! This PVE Autobattler uses a 3x3 board, and positioning is key! Choose a core crystal, and unlock devastating synergies.",
+        "supported_languages": "English, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/fcd9834a6e4c8a8ab7cc36af5ed5a33358925bee/header.jpg?t=1788200288",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/5ae1ad17181e4dfe87bf921db4e9cc019a06ec40/capsule_231x87.jpg?t=1788200288",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/5ae1ad17181e4dfe87bf921db4e9cc019a06ec40/capsule_184x69.jpg?t=1788200288",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7 SP1+, Windows 10, Windows 11<br></li><li><strong>Processor:</strong> Dual-core from Intel or AMD at 2.0 GHz<br></li><li><strong>Graphics:</strong> DirectX 10 compatible GPU (integrated graphics like Intel HD 4000 or better)<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> any<br></li><li><strong>VR Support:</strong> no support planned<br></li><li><strong>Additional Notes:</strong> Reduce graphical details in the game options if you have any issues.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS 11 or later<br></li><li><strong>Processor:</strong> Dual-core from Intel or AMD at 2.0 GHz<br></li><li><strong>Memory:</strong> 200 MB RAM<br></li><li><strong>Graphics:</strong> DirectX 10 compatible GPU (integrated graphics like Intel HD 4000 or better)<br></li><li><strong>Sound Card:</strong> any<br></li><li><strong>Additional Notes:</strong> Reduce graphical details in the game options if you have any issues.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS 11 or later</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Any major distro under LTS<br></li><li><strong>Processor:</strong> Dual-core from Intel or AMD at 2.0 GHz<br></li><li><strong>Memory:</strong> 200 MB RAM<br></li><li><strong>Graphics:</strong> DirectX 10 compatible GPU (integrated graphics like Intel HD 4000 or better)<br></li><li><strong>Sound Card:</strong> any<br></li><li><strong>VR Support:</strong> No support planned<br></li><li><strong>Additional Notes:</strong> Reduce graphical details in the game options if you have any issues.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Any major distro under LTS</li></ul>"
+        },
+        "developers": [
+          "Leonardo Farroco"
+        ],
+        "publishers": [
+          "Leonardo Farroco"
+        ],
+        "demos": [
+          {
+            "appid": 4233280,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1322324
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Mana Battle",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1322324,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Mana Battle - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/963dd74814fca63b40b3b90839ed0a3369ee76b3/ss_963dd74814fca63b40b3b90839ed0a3369ee76b3.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/963dd74814fca63b40b3b90839ed0a3369ee76b3/ss_963dd74814fca63b40b3b90839ed0a3369ee76b3.1920x1080.jpg?t=1788200288"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/7835aed645f64837cbc2b6cb3724a559cd969d79/ss_7835aed645f64837cbc2b6cb3724a559cd969d79.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/7835aed645f64837cbc2b6cb3724a559cd969d79/ss_7835aed645f64837cbc2b6cb3724a559cd969d79.1920x1080.jpg?t=1788200288"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/2f3d375805c8474c01cd5f1912ed75e41b940c3d/ss_2f3d375805c8474c01cd5f1912ed75e41b940c3d.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/2f3d375805c8474c01cd5f1912ed75e41b940c3d/ss_2f3d375805c8474c01cd5f1912ed75e41b940c3d.1920x1080.jpg?t=1788200288"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/27a7a98961bb76ae764d4d1a539dd6a45eea266a/ss_27a7a98961bb76ae764d4d1a539dd6a45eea266a.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/27a7a98961bb76ae764d4d1a539dd6a45eea266a/ss_27a7a98961bb76ae764d4d1a539dd6a45eea266a.1920x1080.jpg?t=1788200288"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/07e5b7bd5818bde9945960a315b03df25d4a7f76/ss_07e5b7bd5818bde9945960a315b03df25d4a7f76.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/07e5b7bd5818bde9945960a315b03df25d4a7f76/ss_07e5b7bd5818bde9945960a315b03df25d4a7f76.1920x1080.jpg?t=1788200288"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/c560052fa797737ba6b223ded9c2701a9a3224b2/ss_c560052fa797737ba6b223ded9c2701a9a3224b2.600x338.jpg?t=1788200288",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/c560052fa797737ba6b223ded9c2701a9a3224b2/ss_c560052fa797737ba6b223ded9c2701a9a3224b2.1920x1080.jpg?t=1788200288"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257245462,
+            "name": "Mana Battle Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257245462/03ef15e2e01bd4ebe58f2c46f184dfd9df38f2d6/movie_600x337.jpg?t=1765244152",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3757600/670314035/4dfb220f06c375c44a0ca87ad2e831c39ada9131/1765243568/dash_av1.mpd?t=1765244152",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/670314035/4dfb220f06c375c44a0ca87ad2e831c39ada9131/1765243568/dash_h264.mpd?t=1765244152",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/670314035/4dfb220f06c375c44a0ca87ad2e831c39ada9131/1765243568/hls_264_master.m3u8?t=1765244152",
+            "highlight": true
+          },
+          {
+            "id": 257240868,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257240868/851c705e67203214a5c039172f1674dbcd4edde4/movie_600x337.jpg?t=1764522479",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3757600/824000380/8994b9bca9f4d6c50fb9a527bcb263c120814137/1764518951/dash_av1.mpd?t=1764522479",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/824000380/8994b9bca9f4d6c50fb9a527bcb263c120814137/1764518951/dash_h264.mpd?t=1764522479",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/824000380/8994b9bca9f4d6c50fb9a527bcb263c120814137/1764518951/hls_264_master.m3u8?t=1764522479",
+            "highlight": true
+          },
+          {
+            "id": 257236976,
+            "name": "Introducing Mana Battle",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257236976/10ced1db5697cf623eb75d406e3b2aec995e2d91/movie_600x337.jpg?t=1763988003",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3757600/432025088/2822df8cf4f29a81c890a9085617642838877838/1763986476/dash_av1.mpd?t=1763988003",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/432025088/2822df8cf4f29a81c890a9085617642838877838/1763986476/dash_h264.mpd?t=1763988003",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3757600/432025088/2822df8cf4f29a81c890a9085617642838877838/1763986476/hls_264_master.m3u8?t=1763988003",
+            "highlight": false
+          }
+        ],
+        "achievements": {
+          "total": 18,
+          "highlighted": [
+            {
+              "icon": "8ec9f7f0d81a3fb587efe29a21d3fde524c39b3e.jpg",
+              "localized_name": "Bronze Victory: Mana Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze Victory: Mana Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/8ec9f7f0d81a3fb587efe29a21d3fde524c39b3e.jpg"
+            },
+            {
+              "icon": "b72223fdaf927e20d7eba94a9b233bb0be7b48d4.jpg",
+              "localized_name": "Silver Victory: Mana Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Silver Victory: Mana Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/b72223fdaf927e20d7eba94a9b233bb0be7b48d4.jpg"
+            },
+            {
+              "icon": "8cc36f2e4402fd565002ead93fb5d37b59620eb7.jpg",
+              "localized_name": "Gold Victory: Mana Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gold Victory: Mana Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/8cc36f2e4402fd565002ead93fb5d37b59620eb7.jpg"
+            },
+            {
+              "icon": "d29d571769e403a2cf58ba50249e7a10c680b905.jpg",
+              "localized_name": "Bronze Victory: Purple Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze Victory: Purple Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/d29d571769e403a2cf58ba50249e7a10c680b905.jpg"
+            },
+            {
+              "icon": "f68174ab1a35f71b6b858ff242811ff766ce8f3d.jpg",
+              "localized_name": "Silver Victory: Purple Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Silver Victory: Purple Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/f68174ab1a35f71b6b858ff242811ff766ce8f3d.jpg"
+            },
+            {
+              "icon": "55ca4555c1129cb5e9273bbcf19be8c3367c0bcf.jpg",
+              "localized_name": "Gold Victory: Purple Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gold Victory: Purple Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/55ca4555c1129cb5e9273bbcf19be8c3367c0bcf.jpg"
+            },
+            {
+              "icon": "e5191872184283658c91414b6e506cacbc835202.jpg",
+              "localized_name": "Bronze Victory: Quickstone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze Victory: Quickstone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/e5191872184283658c91414b6e506cacbc835202.jpg"
+            },
+            {
+              "icon": "2fd44dc3a685bfd01589c3744c581a47a4326264.jpg",
+              "localized_name": "Silver Victory: Quickstone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Silver Victory: Quickstone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/2fd44dc3a685bfd01589c3744c581a47a4326264.jpg"
+            },
+            {
+              "icon": "e2d5eb9cd751e0b21fdf65d9fee7f879512e4916.jpg",
+              "localized_name": "Gold Victory: Quickstone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gold Victory: Quickstone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/e2d5eb9cd751e0b21fdf65d9fee7f879512e4916.jpg"
+            },
+            {
+              "icon": "a917b3c824436eadd80a82c5bc3743a9c2da5d75.jpg",
+              "localized_name": "Bronze Victory: Critical Crystal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze Victory: Critical Crystal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3757600/a917b3c824436eadd80a82c5bc3743a9c2da5d75.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "leonardo.farroco@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3757600?t=1788200288",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757600/c5bae3a2d30fe27b7bd2b5d26d7cfae2c0c5273f/page_bg_raw.jpg?t=1788200288",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

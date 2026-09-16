@@ -1,0 +1,75 @@
+{
+  "appid": 1869290,
+  "requested_at": "2026-09-13T18:45:24.659962+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1345,
+      "total_negative": 121,
+      "total_reviews": 1466
+    },
+    "reviews": [
+      {
+        "recommendationid": "211700026",
+        "author": {
+          "steamid": "76561198120283085",
+          "personaname": "BlueTeaMate",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/BlueTeaMate/",
+          "num_games_owned": 297,
+          "num_reviews": 95,
+          "playtime_forever": 441,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 274,
+          "last_played": 1779035834,
+          "avatar": "859477017ec7fb8fb9641c6827a989e01ca24c5c"
+        },
+        "language": "russian",
+        "review": "Как фанат предыдущих игр, грусто видеть то что они сделали в этой части. Я уже несколько часов бегаю по кругу по первым двум стартовым зонам и не могу найти даже места где мне нужно решить загадку или даже близко понять что делать дальше. А эти облочка только раздражают и по факту никак не помогают. Линейность в прошлых играх была лучше.\r\n\r\nТак же отдельно хочу сказать про оптимизацию и графику - она ужасна. Я не понимаю зачем разрабы лезут со своими RTX лучами вобще в ненужные для них проекты. У вас мультяшная игра с простой геометрией, зачем тут лучи? Просто ужасные пересветы и смены яркости при перемещении по локации(у меня все на высоких если что). В игре в принципе нет возможности играть без лучей, а меня просто калит от этих шлейфов, разводов и точечных теней. Когда ты мотаешь камерой все прогружается на твоих глазах. В чем проблема была сделать запеченое освещение, если в игре даже нет смены суток?\r\n\r\nПока что очень сыро и играть с запоем не хочется как в старые части. Может патчами все это пофиксят, буду ждать релиза. 1к что сейчас за нее просят она точно не стоит.",
+        "timestamp_created": 1764437924,
+        "timestamp_updated": 1764437924,
+        "voted_up": false,
+        "votes_up": 39,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.722071290016174316",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755269908",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVjv8AAAAAFP+cbNKAAAAB6k8mnBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.015999999999849,
+  "transport_error_count": 0
+}

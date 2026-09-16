@@ -1,0 +1,66 @@
+{
+  "appid": 3821190,
+  "requested_at": "2026-09-13T19:44:21.754430+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "202621349",
+        "author": {
+          "steamid": "76561198312378730",
+          "personaname": "GB_riskma",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198312378730/",
+          "num_games_owned": 263,
+          "num_reviews": 26,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1755828102,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "昔、Flashまとめサイトの隅っことかにこんな感じのがあったなあ。\n\nゲーム内容としてはクラゲをクリックしたら落ち込んでる女の子が少しずつ元気になっていき、累計10回クリックすればクリア。1プレイの所要時間は2分にも満たず、当然女の子のバックボーンも不明なままなので、1周した後には「何この…何？」っていう困惑と消化不良に苛まれることになります。\n一応クリックの仕方によってエンディングに若干の変化がありはするみたいですが、この薄さの前では「だから何？」としか…\n\n申し訳ないけどこれで定価235円は暴利です。\n\nちなみにどうにか楽しむ方法はないかとRTAもやってみましたが、連打くん使用で4秒(操作可能になってからのカウントなら0秒)とかいうとんでもない結果になってしまいました。恐らく女の子を愛でる以外に楽しみどころはないかと。",
+        "timestamp_created": 1755828566,
+        "timestamp_updated": 1755828566,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.510314881801605225",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755021634",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZxxyAAAAAFP+BbBYAAAAB1mviEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

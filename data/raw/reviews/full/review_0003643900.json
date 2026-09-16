@@ -1,0 +1,66 @@
+{
+  "appid": 3643900,
+  "requested_at": "2026-09-13T19:28:25.305789+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "200112178",
+        "author": {
+          "steamid": "76561199367702332",
+          "personaname": "Daniel_Mocarz",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561199367702332/",
+          "num_games_owned": 57,
+          "num_reviews": 12,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 43,
+          "last_played": 1785874540,
+          "avatar": "5519abe7eccf067f66a9ebc59b24242ecadabddd"
+        },
+        "language": "english",
+        "review": "add option to play for two player on one pc and uptade game more often becouse thats max 20 min gameplay for casual person",
+        "timestamp_created": 1752875731,
+        "timestamp_updated": 1752875731,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.528795838356018066",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752759840",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZbJCAAAAAFP+Dr5aAAAAByg6/7BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.311999999999898,
+  "transport_error_count": 0
+}

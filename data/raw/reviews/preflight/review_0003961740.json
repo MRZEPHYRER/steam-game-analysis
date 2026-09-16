@@ -1,0 +1,95 @@
+{
+  "appid": 3961740,
+  "requested_at": "2026-09-13T17:31:38.866338+00:00",
+  "request_params": {
+    "json": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter": "summary",
+    "filter_offtopic_activity": 1,
+    "num_per_page": 0
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 2,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212333613",
+        "author": {
+          "steamid": "76561198107354722",
+          "personaname": "lordofthepinus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/lordofthepinus/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 60,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1764605871,
+          "avatar": "391ac30666893644e4ced81cdb1ebc10b40fe95c"
+        },
+        "language": "russian",
+        "review": "got 13k in an hour. overall, pretty solid",
+        "timestamp_created": 1764606009,
+        "timestamp_updated": 1764606009,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764511786",
+        "reactions": []
+      },
+      {
+        "recommendationid": "212776019",
+        "author": {
+          "steamid": "76561198003655644",
+          "personaname": "tango",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198003655644/",
+          "num_games_owned": 0,
+          "num_reviews": 70,
+          "playtime_forever": 228,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 228,
+          "last_played": 1765115057,
+          "avatar": "a1f6fe24c440b766dd074bd8a8ecc69c5b759e7c"
+        },
+        "language": "english",
+        "review": "lots of bugs",
+        "timestamp_created": 1765115078,
+        "timestamp_updated": 1766321200,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764511786",
+        "reactions": []
+      }
+    ],
+    "cursor": "*"
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153
+}

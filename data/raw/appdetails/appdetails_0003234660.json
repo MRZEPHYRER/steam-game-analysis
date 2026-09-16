@@ -1,0 +1,295 @@
+{
+  "requested_at": "2026-09-12T14:39:44.349269+00:00",
+  "request_params": {
+    "appids": 3234660,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3234660,
+  "payload": {
+    "3234660": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Tokiros",
+        "steam_appid": 3234660,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Tokiros is a single-screen platformer and puzzle game where the goal is to rescue all the little siblings scattered across each level.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/extras/54e34a76128fd90912e282972f6c5648.avif?t=1779640184\" width=1406 height=788 /></span></p><p class=\"bb_paragraph\" >Every stage acts as a self-contained challenge, featuring enemies, traps, and obstacles that require attention, precision, and planning. Players must analyze the environment, choose the best path, and execute movements at the right moment to survive.</p><p class=\"bb_paragraph\" >As the journey progresses, new challenges are introduced, increasing the difficulty and demanding greater skill and quick thinking. The simplicity of the controls contrasts with the complexity of the levels, creating an engaging and rewarding experience.</p><p class=\"bb_paragraph\" >The game features a continuous progression system, encouraging players to overcome each level and rescue all the siblings to complete the adventure.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Tokiros is a single-screen platformer and puzzle game where the goal is to rescue all the little siblings scattered across each level.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/extras/54e34a76128fd90912e282972f6c5648.avif?t=1779640184\" width=1406 height=788 /></span></p><p class=\"bb_paragraph\" >Every stage acts as a self-contained challenge, featuring enemies, traps, and obstacles that require attention, precision, and planning. Players must analyze the environment, choose the best path, and execute movements at the right moment to survive.</p><p class=\"bb_paragraph\" >As the journey progresses, new challenges are introduced, increasing the difficulty and demanding greater skill and quick thinking. The simplicity of the controls contrasts with the complexity of the levels, creating an engaging and rewarding experience.</p><p class=\"bb_paragraph\" >The game features a continuous progression system, encouraging players to overcome each level and rescue all the siblings to complete the adventure.</p>",
+        "short_description": "Help Tokiro rescue his little siblings across challenging single-screen levels filled with danger, precision, and strategy. Every move matters in this adventure that’s easy to learn but hard to master.",
+        "supported_languages": "Portuguese - Brazil, English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Polish, Portuguese - Portugal, Russian, Thai, Turkish, Vietnamese, Arabic, Hindi",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/cab91db7e6bcbd61b9cc6143963dda6ac9dd6801/header.jpg?t=1779640184",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/6597538078659ae374f86f573ca9609f7880c39a/capsule_231x87.jpg?t=1779640184",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/6597538078659ae374f86f573ca9609f7880c39a/capsule_184x69.jpg?t=1779640184",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> windows 10</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Bixano Games"
+        ],
+        "publishers": [
+          "Bixano Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 50,
+          "discount_percent": 49,
+          "initial_formatted": "$0.99",
+          "final_formatted": "$0.50"
+        },
+        "packages": [
+          1146619
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Tokiros",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1146619,
+                "percent_savings_text": "-49% ",
+                "percent_savings": 0,
+                "option_text": "Tokiros - <span class=\"discount_original_price\">$0.99</span> $0.50",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 50
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/4270f37459267a8855795ce7574806c092c96320/ss_4270f37459267a8855795ce7574806c092c96320.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/4270f37459267a8855795ce7574806c092c96320/ss_4270f37459267a8855795ce7574806c092c96320.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/f3a9499825b143eca9130ec975fe68817394e58e/ss_f3a9499825b143eca9130ec975fe68817394e58e.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/f3a9499825b143eca9130ec975fe68817394e58e/ss_f3a9499825b143eca9130ec975fe68817394e58e.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/5a54cff3acc43d44b47d0096a8120305d3b4e6f0/ss_5a54cff3acc43d44b47d0096a8120305d3b4e6f0.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/5a54cff3acc43d44b47d0096a8120305d3b4e6f0/ss_5a54cff3acc43d44b47d0096a8120305d3b4e6f0.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/7611decaccb8ea9b63c7395867d480cabdcea567/ss_7611decaccb8ea9b63c7395867d480cabdcea567.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/7611decaccb8ea9b63c7395867d480cabdcea567/ss_7611decaccb8ea9b63c7395867d480cabdcea567.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/a54a4fd57e81d24f8ddabbc19bdcd1b62a7c2a52/ss_a54a4fd57e81d24f8ddabbc19bdcd1b62a7c2a52.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/a54a4fd57e81d24f8ddabbc19bdcd1b62a7c2a52/ss_a54a4fd57e81d24f8ddabbc19bdcd1b62a7c2a52.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/94cdb007d9341932abd7b88b8cbf0798a8f1cc47/ss_94cdb007d9341932abd7b88b8cbf0798a8f1cc47.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/94cdb007d9341932abd7b88b8cbf0798a8f1cc47/ss_94cdb007d9341932abd7b88b8cbf0798a8f1cc47.1920x1080.jpg?t=1779640184"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/bec233b642246c826e72d4bf16731efdbfd2f5ee/ss_bec233b642246c826e72d4bf16731efdbfd2f5ee.600x338.jpg?t=1779640184",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/bec233b642246c826e72d4bf16731efdbfd2f5ee/ss_bec233b642246c826e72d4bf16731efdbfd2f5ee.1920x1080.jpg?t=1779640184"
+          }
+        ],
+        "achievements": {
+          "total": 11,
+          "highlighted": [
+            {
+              "icon": "66fa42992f90a94047d46386ad5694989721f701.jpg",
+              "localized_name": "First Step",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Step",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/66fa42992f90a94047d46386ad5694989721f701.jpg"
+            },
+            {
+              "icon": "49df3838c9ed515f701f4a392254fcd059fa2af6.jpg",
+              "localized_name": "Getting Started",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Getting Started",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/49df3838c9ed515f701f4a392254fcd059fa2af6.jpg"
+            },
+            {
+              "icon": "04b7d5357f58bc382e112d8c825d28d8e8fa7000.jpg",
+              "localized_name": "Explorer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Explorer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/04b7d5357f58bc382e112d8c825d28d8e8fa7000.jpg"
+            },
+            {
+              "icon": "ce6846259663d18cbf9f5aea61044e2bf54eb73c.jpg",
+              "localized_name": "Tokiros Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tokiros Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/ce6846259663d18cbf9f5aea61044e2bf54eb73c.jpg"
+            },
+            {
+              "icon": "f156b4a078105f40aa71b9e091c75bffbc0314ca.jpg",
+              "localized_name": "Invisible Cloak",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Invisible Cloak",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/f156b4a078105f40aa71b9e091c75bffbc0314ca.jpg"
+            },
+            {
+              "icon": "b6a8b480c17b6f411dbcc206829a7d7361c42cf4.jpg",
+              "localized_name": "Thinker",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thinker",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/b6a8b480c17b6f411dbcc206829a7d7361c42cf4.jpg"
+            },
+            {
+              "icon": "18878c13b21f84b66560e606b92a8ddc8fda0186.jpg",
+              "localized_name": "Stubborn",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Stubborn",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/18878c13b21f84b66560e606b92a8ddc8fda0186.jpg"
+            },
+            {
+              "icon": "f30e38ee2325bb33aec2b87990f78d9ed19cdc1a.jpg",
+              "localized_name": "Big Brother",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Big Brother",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/f30e38ee2325bb33aec2b87990f78d9ed19cdc1a.jpg"
+            },
+            {
+              "icon": "2f00456603cd9751b9431bb2e0c91809d34bae9b.jpg",
+              "localized_name": "Skilled",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Skilled",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/2f00456603cd9751b9431bb2e0c91809d34bae9b.jpg"
+            },
+            {
+              "icon": "8ed53ac3df270012d7f323f866679ecd6de7737e.jpg",
+              "localized_name": "Miner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Miner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3234660/8ed53ac3df270012d7f323f866679ecd6de7737e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "https://discord.gg/YShr2daJ5k",
+          "email": "wandersonwsc1997@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3234660?t=1779640184",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234660/6cab374d79f06636b5d1a09fa677da37b25ae470/page_bg_raw.jpg?t=1779640184",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

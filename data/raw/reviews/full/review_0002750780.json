@@ -1,0 +1,83 @@
+{
+  "appid": 2750780,
+  "requested_at": "2026-09-13T18:55:15.325698+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 3763,
+      "total_negative": 442,
+      "total_reviews": 4205
+    },
+    "reviews": [
+      {
+        "recommendationid": "212973915",
+        "author": {
+          "steamid": "76561199222930108",
+          "personaname": "chen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199222930108/",
+          "num_games_owned": 56,
+          "num_reviews": 3,
+          "playtime_forever": 684,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 417,
+          "last_played": 1765466801,
+          "avatar": "97693fd58c097bc66a75e1e484a4e9fbd985c637"
+        },
+        "language": "schinese",
+        "review": "玩爽了，但既然乙游里有百合线把某些神“人”气到开始胡言乱语审判什么样的设计才配当女角色，那我必须给愿意出一条线来塑造女性关系的制作组好评了。",
+        "timestamp_created": 1765363958,
+        "timestamp_updated": 1765363958,
+        "voted_up": true,
+        "votes_up": 449,
+        "votes_funny": 12,
+        "weighted_vote_score": "0.945007503032684326",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764928902",
+        "reactions": [
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRGY8AAAAAFP+49gWAAAAB7lbesBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

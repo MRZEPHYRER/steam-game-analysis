@@ -1,0 +1,319 @@
+{
+  "requested_at": "2026-09-12T16:20:18.694961+00:00",
+  "request_params": {
+    "appids": 3734140,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3734140,
+  "payload": {
+    "3734140": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Super Cabbage Kabumi",
+        "steam_appid": 3734140,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >The roguelike all about bonking cabbages! Make incredible builds with a vast array of items, wield powerful weapons, change the game entirely with pets, fight fantastical bosses, and so much more!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >The roguelike all about bonking cabbages! Make incredible builds with a vast array of items, wield powerful weapons, change the game entirely with pets, fight fantastical bosses, and so much more!</p>",
+        "short_description": "The roguelike all about bonking cabbages! Make incredible builds with a vast array of items, wield powerful weapons, change the game entirely with pets, fight fantastical bosses, and so much more!",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Portuguese - Portugal, Russian, Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/807ed1e687ec43526cac39e81ceaecbbe1a36da8/header.jpg?t=1769804919",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/cd6f35fd082e261503357bffa1d62b411deae309/capsule_231x87.jpg?t=1769804919",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/cd6f35fd082e261503357bffa1d62b411deae309/capsule_184x69.jpg?t=1769804919",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core 2 Duo / AMD Athlon 64 X2 or better<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 3000 or better<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Vividesca Games"
+        ],
+        "publishers": [
+          "Vividesca Games"
+        ],
+        "demos": [
+          {
+            "appid": 3778300,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "packages": [
+          1314513
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Super Cabbage Kabumi",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1314513,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Super Cabbage Kabumi - $14.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/0bd6d815f2c4f3183b4338d34a173badeabe8e09/ss_0bd6d815f2c4f3183b4338d34a173badeabe8e09.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/0bd6d815f2c4f3183b4338d34a173badeabe8e09/ss_0bd6d815f2c4f3183b4338d34a173badeabe8e09.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/40d02098b4456800b206339b35315fd00e1bda79/ss_40d02098b4456800b206339b35315fd00e1bda79.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/40d02098b4456800b206339b35315fd00e1bda79/ss_40d02098b4456800b206339b35315fd00e1bda79.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/98f2b08ffe2a88043f36773149aa89aab623f426/ss_98f2b08ffe2a88043f36773149aa89aab623f426.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/98f2b08ffe2a88043f36773149aa89aab623f426/ss_98f2b08ffe2a88043f36773149aa89aab623f426.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/0dd5c6d8d221864147e4ea9212c08dcb1dd29a20/ss_0dd5c6d8d221864147e4ea9212c08dcb1dd29a20.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/0dd5c6d8d221864147e4ea9212c08dcb1dd29a20/ss_0dd5c6d8d221864147e4ea9212c08dcb1dd29a20.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/acf8555d30c84e4eb8f17f755e7f1a573da83b88/ss_acf8555d30c84e4eb8f17f755e7f1a573da83b88.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/acf8555d30c84e4eb8f17f755e7f1a573da83b88/ss_acf8555d30c84e4eb8f17f755e7f1a573da83b88.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c0f3f16fe575bee31bbbcacc65b7f7dd637c1a9d/ss_c0f3f16fe575bee31bbbcacc65b7f7dd637c1a9d.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c0f3f16fe575bee31bbbcacc65b7f7dd637c1a9d/ss_c0f3f16fe575bee31bbbcacc65b7f7dd637c1a9d.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/93091dfae360d7261cfa1def10d87cedbfe62f49/ss_93091dfae360d7261cfa1def10d87cedbfe62f49.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/93091dfae360d7261cfa1def10d87cedbfe62f49/ss_93091dfae360d7261cfa1def10d87cedbfe62f49.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/d1f5053adea13990b614170daa7ba279e6fda3df/ss_d1f5053adea13990b614170daa7ba279e6fda3df.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/d1f5053adea13990b614170daa7ba279e6fda3df/ss_d1f5053adea13990b614170daa7ba279e6fda3df.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c0d3503c7552e398537df7896ddbd0539dd6c9ff/ss_c0d3503c7552e398537df7896ddbd0539dd6c9ff.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c0d3503c7552e398537df7896ddbd0539dd6c9ff/ss_c0d3503c7552e398537df7896ddbd0539dd6c9ff.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c3f7f3bf7959a86082c37ed52b951c2b44b02de4/ss_c3f7f3bf7959a86082c37ed52b951c2b44b02de4.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/c3f7f3bf7959a86082c37ed52b951c2b44b02de4/ss_c3f7f3bf7959a86082c37ed52b951c2b44b02de4.1920x1080.jpg?t=1769804919"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/491b4af7206f97082f20db858facdf482ff01ddf/ss_491b4af7206f97082f20db858facdf482ff01ddf.600x338.jpg?t=1769804919",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/491b4af7206f97082f20db858facdf482ff01ddf/ss_491b4af7206f97082f20db858facdf482ff01ddf.1920x1080.jpg?t=1769804919"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257275058,
+            "name": "Super Cabbage Kabumi 1.1 Update Trailer - en",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257275058/fb825877f9ef43f8835bf2f9ab0a2766020abf20/movie_600x337.jpg?t=1769797415",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3734140/278096070/4db7a712f1b91dd7c7bfee4104829d4b85b24e00/1769662713/dash_av1.mpd?t=1769797415",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3734140/278096070/4db7a712f1b91dd7c7bfee4104829d4b85b24e00/1769662713/dash_h264.mpd?t=1769797415",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3734140/278096070/4db7a712f1b91dd7c7bfee4104829d4b85b24e00/1769662713/hls_264_master.m3u8?t=1769797415",
+            "highlight": true
+          },
+          {
+            "id": 257239588,
+            "name": "Super Cabbage Kabumi Release Trailer - English",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257239588/d4f213adabe2579def5e369c04f856ec003cbf00/movie_600x337.jpg?t=1764353308",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3734140/1024095094/cd03eeedb7641f6310f131ab45b05ce9915b113e/1764283988/dash_av1.mpd?t=1764353308",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3734140/1024095094/cd03eeedb7641f6310f131ab45b05ce9915b113e/1764283988/dash_h264.mpd?t=1764353308",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3734140/1024095094/cd03eeedb7641f6310f131ab45b05ce9915b113e/1764283988/hls_264_master.m3u8?t=1764353308",
+            "highlight": true
+          }
+        ],
+        "recommendations": {
+          "total": 125
+        },
+        "achievements": {
+          "total": 65,
+          "highlighted": [
+            {
+              "icon": "8663d894ea8b2ff70b996bb42114fa3d7b287433.jpg",
+              "localized_name": "Obstacle Monsta",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Obstacle Monsta",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/8663d894ea8b2ff70b996bb42114fa3d7b287433.jpg"
+            },
+            {
+              "icon": "b87dcc1d1e23b8fec2b4522b646c248a0481cfd8.jpg",
+              "localized_name": "Mystery Solver",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mystery Solver",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/b87dcc1d1e23b8fec2b4522b646c248a0481cfd8.jpg"
+            },
+            {
+              "icon": "34e666c0b272e340c63359fcfc2bb1d7975e01b5.jpg",
+              "localized_name": "Our Cabbage Hero",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Our Cabbage Hero",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/34e666c0b272e340c63359fcfc2bb1d7975e01b5.jpg"
+            },
+            {
+              "icon": "8ac3c6e759e53ec370f02870415a26c542568b37.jpg",
+              "localized_name": "Beginner Cabbage Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beginner Cabbage Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/8ac3c6e759e53ec370f02870415a26c542568b37.jpg"
+            },
+            {
+              "icon": "d0af8c03bc6c5ca7d0d5c067799e1dfc23f95d12.jpg",
+              "localized_name": "Professional Cabbage Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Professional Cabbage Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/d0af8c03bc6c5ca7d0d5c067799e1dfc23f95d12.jpg"
+            },
+            {
+              "icon": "a05d311d400478fc0d6fda8d509ae9fa01257157.jpg",
+              "localized_name": "Master Cabbage Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Master Cabbage Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/a05d311d400478fc0d6fda8d509ae9fa01257157.jpg"
+            },
+            {
+              "icon": "3adce0229e5c1216bfa08ea2f80a52a4790b2dea.jpg",
+              "localized_name": "Beginner Honeycomb Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beginner Honeycomb Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/3adce0229e5c1216bfa08ea2f80a52a4790b2dea.jpg"
+            },
+            {
+              "icon": "51667615ab0d2136329fc0ebb4098809afb26551.jpg",
+              "localized_name": "Professional Honeycomb Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Professional Honeycomb Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/51667615ab0d2136329fc0ebb4098809afb26551.jpg"
+            },
+            {
+              "icon": "0742e487f883d443c0b7f08c7afa28ef9df6a5bc.jpg",
+              "localized_name": "Master Honeycomb Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Master Honeycomb Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/0742e487f883d443c0b7f08c7afa28ef9df6a5bc.jpg"
+            },
+            {
+              "icon": "d15497d2dac092e424cfbe99b84b41ba951ddd04.jpg",
+              "localized_name": "Beginner Coconut Merchant",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beginner Coconut Merchant",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3734140/d15497d2dac092e424cfbe99b84b41ba951ddd04.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "vividescagames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3734140?t=1769804919",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734140/8005d11ac9cd80c0c89bb1c330053b9dedbf4a85/page_bg_raw.jpg?t=1769804919",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "requested_at": "2026-09-13T06:15:23.292229+00:00",
+  "request_params": {
+    "appids": 3984590,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3984590,
+  "payload": {
+    "3984590": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Apples in the Abyss",
+        "steam_appid": 3984590,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<p class=\"bb_paragraph\" >A puzzle platformer passion project where you manipulate the fabric of space to collect some apples. Tear holes, rotate chunks, and mirror entire columns of space across each other. Collect all the apples with a given set of abilities in each stage.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 1: The hole</p><p class=\"bb_paragraph\" >Tear a square hole in space with a specified direction, deleting everything inside, terrain included. Afterwards, everything in the column given by the direction specified is pulled into the vacuum. This imparts momentum to the player</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 2: The rotation</p><p class=\"bb_paragraph\" >Rotate a square chunk of space to any angle you wish. Rotating yourself changes your direction of gravity. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 3: The mirror</p><p class=\"bb_paragraph\" >Select a reflection line and a direction. Space is reflected across that reflection line.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >All abilities work with physics, so you can rotate yourself and maintain the same momentum in your reference frame. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >100% Full refund guaranteed if you find any bugs. No questions asked</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >A puzzle platformer passion project where you manipulate the fabric of space to collect some apples. Tear holes, rotate chunks, and mirror entire columns of space across each other. Collect all the apples with a given set of abilities in each stage.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 1: The hole</p><p class=\"bb_paragraph\" >Tear a square hole in space with a specified direction, deleting everything inside, terrain included. Afterwards, everything in the column given by the direction specified is pulled into the vacuum. This imparts momentum to the player</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 2: The rotation</p><p class=\"bb_paragraph\" >Rotate a square chunk of space to any angle you wish. Rotating yourself changes your direction of gravity. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Ability 3: The mirror</p><p class=\"bb_paragraph\" >Select a reflection line and a direction. Space is reflected across that reflection line.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >All abilities work with physics, so you can rotate yourself and maintain the same momentum in your reference frame. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >100% Full refund guaranteed if you find any bugs. No questions asked</p>",
+        "short_description": "A puzzle platformer passion project where you manipulate the fabric of space to collect some apples. Tear holes, rotate chunks, and mirror entire columns of space across each other. Collect all the apples with a given set of abilities in each stage.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/b54ded5523f0a1c7ec58c1f2bcb07827641729ed/header.jpg?t=1759287798",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/a7d34b3fe24c4a140542cdbdc0077f714924a4cf/capsule_231x87.jpg?t=1759287798",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/a7d34b3fe24c4a140542cdbdc0077f714924a4cf/capsule_184x69.jpg?t=1759287798",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Core i5-14600K<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1050<br></li><li><strong>Storage:</strong> 16 GB available space<br></li><li><strong>Sound Card:</strong> Probably any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Xeon Platinum 8280L<br></li><li><strong>Memory:</strong> 512 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia H100 GPU<br></li><li><strong>Storage:</strong> 2048 GB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Sequoia 15.5<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core M<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1<br></li><li><strong>Storage:</strong> 16 GB available space<br></li><li><strong>Sound Card:</strong> Probably any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu  25.04<br></li><li><strong>Processor:</strong> Intel Core i5-14600K<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1050<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> Probably any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Floppy Fish",
+          "Sooah"
+        ],
+        "publishers": [
+          "Floppy Fish Studios"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/6e76591e050a72fe9170908abee1372538110c5a/ss_6e76591e050a72fe9170908abee1372538110c5a.600x338.jpg?t=1759287798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/6e76591e050a72fe9170908abee1372538110c5a/ss_6e76591e050a72fe9170908abee1372538110c5a.1920x1080.jpg?t=1759287798"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/4216342bed5a2f59e3490039896362ae4251a6f5/ss_4216342bed5a2f59e3490039896362ae4251a6f5.600x338.jpg?t=1759287798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/4216342bed5a2f59e3490039896362ae4251a6f5/ss_4216342bed5a2f59e3490039896362ae4251a6f5.1920x1080.jpg?t=1759287798"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/6951e6219623739cd250df4ea9ea7915227fdd73/ss_6951e6219623739cd250df4ea9ea7915227fdd73.600x338.jpg?t=1759287798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/6951e6219623739cd250df4ea9ea7915227fdd73/ss_6951e6219623739cd250df4ea9ea7915227fdd73.1920x1080.jpg?t=1759287798"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/7f595e3dfd3829708d071d8631c095aa010d3926/ss_7f595e3dfd3829708d071d8631c095aa010d3926.600x338.jpg?t=1759287798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/7f595e3dfd3829708d071d8631c095aa010d3926/ss_7f595e3dfd3829708d071d8631c095aa010d3926.1920x1080.jpg?t=1759287798"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/5c0627e00b70ab0e857acd4da5fc08da129739ca/ss_5c0627e00b70ab0e857acd4da5fc08da129739ca.600x338.jpg?t=1759287798",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/5c0627e00b70ab0e857acd4da5fc08da129739ca/ss_5c0627e00b70ab0e857acd4da5fc08da129739ca.1920x1080.jpg?t=1759287798"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257193900,
+            "name": "Apples in the Abyss Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193900/6664a84a299415c77100bc1f60a1a8b6e2d9db97/movie_600x337.jpg?t=1757614995",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3984590/415803017/dd0d4d2ef6227d53ee9415bc19843bbb3b9636b2/1757140735/dash_av1.mpd?t=1757614995",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3984590/415803017/dd0d4d2ef6227d53ee9415bc19843bbb3b9636b2/1757140735/dash_h264.mpd?t=1757614995",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3984590/415803017/dd0d4d2ef6227d53ee9415bc19843bbb3b9636b2/1757140735/hls_264_master.m3u8?t=1757614995",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 3,
+          "highlighted": [
+            {
+              "icon": "b8ffc745bf7ae84a64100ab1390a78f7989d94eb.jpg",
+              "localized_name": "Gamer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gamer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3984590/b8ffc745bf7ae84a64100ab1390a78f7989d94eb.jpg"
+            },
+            {
+              "icon": "9ee38d2b6c0e8d509d0fd753760e96ed814c75a8.jpg",
+              "localized_name": "Pro Gamer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Pro Gamer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3984590/9ee38d2b6c0e8d509d0fd753760e96ed814c75a8.jpg"
+            },
+            {
+              "icon": "27eeea6e0a985ae8891143d54b84e10f027542e4.jpg",
+              "localized_name": "Whoops",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Whoops",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3984590/27eeea6e0a985ae8891143d54b84e10f027542e4.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        },
+        "support_info": {
+          "url": "https://discord.gg/pH3QZeuag2",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3984590?t=1759287798",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984590/dcc507f37fcb0205521b631fa8168515fbc50952/page_bg_raw.jpg?t=1759287798",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

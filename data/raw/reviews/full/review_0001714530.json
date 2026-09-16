@@ -1,0 +1,75 @@
+{
+  "appid": 1714530,
+  "requested_at": "2026-09-13T18:44:31.240196+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 36,
+      "total_negative": 24,
+      "total_reviews": 60
+    },
+    "reviews": [
+      {
+        "recommendationid": "206134891",
+        "author": {
+          "steamid": "76561197974518852",
+          "personaname": "Daervon",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/daervon/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 17,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "last_played": 1759846888,
+          "avatar": "c112728cea70fb48bbeb5192c5ae23d43b881540"
+        },
+        "language": "english",
+        "review": "I'd had this game on my wishlist for a while, and decided to bite the bullet and buy it the moment it launched. I am sad to say that it was a game that did not make the cut, and was refunded very quickly.\n\nI have seen other people complain about the graphics not being up to par for a 2025 game and, while I agree that there are better-looking games out there, I have definitely seen worse-looking indie games recently released and that posed no issue.\n\nMy main issues were the following:\n\n1) Combat: For an action RPG, the combat is just plain bad. There is no lock-on system, the camera is extremely clunky and, worst of all, there is no feeling of impact from hitting enemies. \n\nThe instances when I had some sort of feedback were when I parried an enemy (and got a flash), and when getting knocked down (which, even that, felt unimportant since I could get up again pretty much instantly). None of my hits felt solid, and I could not tell if I did damage or if the enemy dodged out of the way unless I was looking directly at their health bar.\n\nTied to this, the hitboxes of enemies are all over the place.\n\n2) The voice acting is bad to weird. I could have sworn that the MC's voice changes between the first few sentences and the rest, and the deliveries of most lines are wooden or just don't match the situation.\n\n3) Controls are bad. There is no way to rebind most of your keyboard controls (movement is tied to WASD for example, and as a leftie this is a no-no), but even controller options are limited with only two presets and no way to rebind keys at all beyond those. Also, unless I somehow missed it under Graphics settings (and I can't imagine why it would be there), there is no way to adjust camera movement, tunring speed or anything of the sort.\n\nOur character's movement feels sluggish and jarring at the same time -- vaulting over objects being a good example of that.\n\nIt is unfortunate, and perhaps 20 years ago I would have kept it in my Steam library regardless, but I'm too old now to put up with half-baked goods.",
+        "timestamp_created": 1759861148,
+        "timestamp_updated": 1759861148,
+        "voted_up": false,
+        "votes_up": 33,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.720838427543640137",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759820236",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVlU8AAAAAFP+cRGuAAAAB75quSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0620000000001255,
+  "transport_error_count": 0
+}

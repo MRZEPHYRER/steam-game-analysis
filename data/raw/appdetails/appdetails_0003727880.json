@@ -1,0 +1,204 @@
+{
+  "requested_at": "2026-09-12T16:18:49.977346+00:00",
+  "request_params": {
+    "appids": 3727880,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3727880,
+  "payload": {
+    "3727880": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ProcW",
+        "steam_appid": 3727880,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<h2 class=\"bb_tag\" >What?</h2><p class=\"bb_paragraph\" >ProcW is a up to 4-Player Local Multiplayer game. At the end of every round, the loser's weapon stats get changed randomly, whilst the winner gets points.</p><h2 class=\"bb_tag\" >Lua Version:</h2><p class=\"bb_paragraph\" >The game currently has the following features:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >2 Player Local PVP Mode (1 Keyboard &amp; Mouse, 1 Controller)</p></li><li><p class=\"bb_paragraph\" >Gameplay Impacting Settings</p></li><li><p class=\"bb_paragraph\" >Cosmetics</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Randomly changing weapon stats at the end of each round, allowing infinite replayability.</p></li></ul><h2 class=\"bb_tag\" >Godot Version:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Up to 4 player local PVP.</p></li><li><p class=\"bb_paragraph\" >Gameplay impacting Settings (Ice skating mode, Shop every five rounds, etc.)</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >[Toggleable] Randomly changing weapon stats at the end of each round, allowing infinite replayability.</p></li><li><p class=\"bb_paragraph\" >Much more stability than the Lua version.</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" >What?</h2><p class=\"bb_paragraph\" >ProcW is a up to 4-Player Local Multiplayer game. At the end of every round, the loser's weapon stats get changed randomly, whilst the winner gets points.</p><h2 class=\"bb_tag\" >Lua Version:</h2><p class=\"bb_paragraph\" >The game currently has the following features:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >2 Player Local PVP Mode (1 Keyboard &amp; Mouse, 1 Controller)</p></li><li><p class=\"bb_paragraph\" >Gameplay Impacting Settings</p></li><li><p class=\"bb_paragraph\" >Cosmetics</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Randomly changing weapon stats at the end of each round, allowing infinite replayability.</p></li></ul><h2 class=\"bb_tag\" >Godot Version:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Up to 4 player local PVP.</p></li><li><p class=\"bb_paragraph\" >Gameplay impacting Settings (Ice skating mode, Shop every five rounds, etc.)</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >[Toggleable] Randomly changing weapon stats at the end of each round, allowing infinite replayability.</p></li><li><p class=\"bb_paragraph\" >Much more stability than the Lua version.</p></li></ul>",
+        "short_description": "ProcW is a 2D Top Down Local Multiplayer shooter, with up to four players.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/c1e6b1b09af2652f6f117d225ba28d711780eac4/header.jpg?t=1755819271",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/81040472c8594db299bd3ec6ec9fc6e65ee1636e/capsule_231x87.jpg?t=1755819271",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/81040472c8594db299bd3ec6ec9fc6e65ee1636e/capsule_184x69.jpg?t=1755819271",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Graphics:</strong> SDL Compatible<br></li><li><strong>Storage:</strong> 10 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Graphics:</strong> SDL Compatible<br></li><li><strong>Storage:</strong> 10 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Pk"
+        ],
+        "publishers": [
+          "Pk"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1312325
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ProcW",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1312325,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "ProcW - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/410439c85c6063803e148981ddfac293980b6147/ss_410439c85c6063803e148981ddfac293980b6147.600x338.jpg?t=1755819271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/410439c85c6063803e148981ddfac293980b6147/ss_410439c85c6063803e148981ddfac293980b6147.1920x1080.jpg?t=1755819271"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/99410d6e4a7e092ddbd3cf058da5128c370bcd9a/ss_99410d6e4a7e092ddbd3cf058da5128c370bcd9a.600x338.jpg?t=1755819271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/99410d6e4a7e092ddbd3cf058da5128c370bcd9a/ss_99410d6e4a7e092ddbd3cf058da5128c370bcd9a.1920x1080.jpg?t=1755819271"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/ca9591f39bbf93e44d1436df6086db306653d2e9/ss_ca9591f39bbf93e44d1436df6086db306653d2e9.600x338.jpg?t=1755819271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/ca9591f39bbf93e44d1436df6086db306653d2e9/ss_ca9591f39bbf93e44d1436df6086db306653d2e9.1920x1080.jpg?t=1755819271"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/67c095edb4e9e1bad76da13de0ea41c6375ee5d0/ss_67c095edb4e9e1bad76da13de0ea41c6375ee5d0.600x338.jpg?t=1755819271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/67c095edb4e9e1bad76da13de0ea41c6375ee5d0/ss_67c095edb4e9e1bad76da13de0ea41c6375ee5d0.1920x1080.jpg?t=1755819271"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/d75cb34b898ebc12efc64b3a353d809762429807/ss_d75cb34b898ebc12efc64b3a353d809762429807.600x338.jpg?t=1755819271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/d75cb34b898ebc12efc64b3a353d809762429807/ss_d75cb34b898ebc12efc64b3a353d809762429807.1920x1080.jpg?t=1755819271"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257160021,
+            "name": "ProcWTrailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257160021/15055b6f2c7fd83025a75e5420d163fe7276cf33/movie_600x337.jpg?t=1750955492",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3727880/420709747/53fb0c8cfc7d8ae32f2b187c44a058648cd2fb63/1750628555/dash_av1.mpd?t=1750955492",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3727880/420709747/53fb0c8cfc7d8ae32f2b187c44a058648cd2fb63/1750628555/dash_h264.mpd?t=1750955492",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3727880/420709747/53fb0c8cfc7d8ae32f2b187c44a058648cd2fb63/1750628555/hls_264_master.m3u8?t=1750955492",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 13, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "procwgame@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3727880?t=1755819271",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727880/6bd38f771176d596db9e05c1f520a55203e154af/page_bg_raw.jpg?t=1755819271",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

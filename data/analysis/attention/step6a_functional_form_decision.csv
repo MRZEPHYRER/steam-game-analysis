@@ -1,0 +1,3 @@
+"predictor","linear_aic","spline_aic","delta_aic_spline_minus_linear","max_absolute_probability_gap","lrt_p_value","assessment","pre_specified_rule"
+"days_since_release",2387.8687944769,2388.52836378908,0.659569312179883,0.0329770921744807,0.188206532144052,"MODEST_NONLINEARITY","Spline df=3; substantive if delta AIC <= -10 and max probability gap >= 0.05"
+"paid_log1p_price",2158.18492391191,2143.24858869372,-14.9363352181831,0.524772268458401,7.72728719418374e-05,"SUBSTANTIVE_NONLINEARITY","Spline df=3; substantive if delta AIC <= -10 and max probability gap >= 0.05"

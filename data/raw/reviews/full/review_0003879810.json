@@ -1,0 +1,83 @@
+{
+  "appid": 3879810,
+  "requested_at": "2026-09-13T19:54:03.750124+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 0,
+      "total_negative": 4,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208333773",
+        "author": {
+          "steamid": "76561198344180139",
+          "personaname": "koke_163_0702",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198344180139/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 29,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 29,
+          "last_played": 1762191383,
+          "avatar": "7d2ad0f85e15c25877cba421496cba0a6293a57f"
+        },
+        "language": "japanese",
+        "review": "[h1]倉急電鉄のファンは特に要注意[/h1]\n\n長年親しんできた倉急を舞台にした運転シミュレーションゲームということで期待して購入しましたが、結果としては残念だったと言わざるを得ません。\n\n[*][b]明らかなデバッグ不足[/b]\n\nまず、おそらくまともにデバッグがされていないであろうことが伺えます。他の方の環境ではわかりませんが、少なくとも私の環境ではSキーを押下すればEB、Wキーを押下すればP5、離せば中立　と、三つの段を入れることしか出来ず、まともに操作ができませんでした。その上、自動運転モードを選択するとクラッシュしてしまうバグが放置されているなど、とても快適にプレイできる環境ではありません。\n\n[*][b]不親切な設定画面[/b]\n\n設定画面では、各種音量の調節と言語設定、スクリーン設定が用意されています。しかし、マスター音量を下げても車両の音量は変更できません。さらに、キーコンフィグ、マウス感度の設定といった基本的な設定が用意されていません。また、運転中のポーズ画面から設定画面を呼び出すことが出来ず、毎回タイトル画面に戻る必要があります。\n\n[*][b]圧倒的ボリューム不足[/b]\n\n本ゲームでは、10駅ほどの環状線を一方に向かって運転することしか出来ない上、ストアページに掲載されている形式のほとんどが実際にはプレイアブル車両として用意されていません。さらに、ドア開閉、種別や行先の設定など、鉄道運転ゲームシミュレーターでは基本的な要素が用意されておらず、内容はボリューム不足と言わざるを得ません。\n\n[*][b]詐欺まがいのゲームタイトル[/b]\n\n本作で運転できる路線は、私達が慣れ親しんだ倉急のそれではなく、倉急を模した架空の路線となっています。(架空鉄道の架空鉄道？)ゲーム概要をよく読まないと気付けない説明文になっており、ダークパターンと言っても過言ではありません。このようなカスタマーに分かり難いタイトル/説明文では、詐欺と言われてしまっても仕方がないのではないでしょうか？\n\n[*][b]値段とゲームのクオリティが釣り合っていない[/b]\n\nやはりなんと言っても、特筆すべき点はその値段でしょう。お馴染みの車両達以外はアセットが多用されています。そして先述の通り、多くのバグやボリューム不足といった問題点があるにも拘わらず、3,280円というかなり強気な値段設定がされています。正直なところ全体的なクオリティとしては無料で配信されている携帯ゲームと同程度であり、この値段設定は常軌を逸していると言わざるを得ません。\n\n[*][b]まとめ[/b]\n\n倉急電鉄という慣れ親しんだコンテンツを期待し、3,000円強という安くない金額を支払って待ち受けているものは、[u]多くのバグを残したボリューム不足の何か[/u]です。[u]倉急電鉄ファンの方々は、特によく考えてから購入するかを決めることをお勧めします。[/u]",
+        "timestamp_created": 1762193734,
+        "timestamp_updated": 1762193824,
+        "voted_up": false,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.698331952095031738",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761710339",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 3
+          },
+          {
+            "reaction_type": 13,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWCIqAAAAAFP+ZYvGAAAAB9vN2aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

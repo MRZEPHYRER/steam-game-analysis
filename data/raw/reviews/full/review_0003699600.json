@@ -1,0 +1,66 @@
+{
+  "appid": 3699600,
+  "requested_at": "2026-09-13T19:32:48.905599+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "229707393",
+        "author": {
+          "steamid": "76561198016206850",
+          "personaname": "duck2ducks",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/duck2ducks/",
+          "num_games_owned": 699,
+          "num_reviews": 14,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1783276679,
+          "avatar": "dd121594f64f184dc2ee63551de05cba254a2341"
+        },
+        "language": "english",
+        "review": "[i]Shockingly[/i] bad. This is the most amateurish release I have ever played.\n\nThe options menu contains nothing but a choice of four graphical states: Low, Medium, High, and Ultra. In Ultra, the graphics look great! In Medium, they're rough and pixelated as hell. Guess what? Every time you start up the game, it defaults you back to Medium.\n\nThe opening island is decently sized, yet contained. The problem is that crags, cracks & crevices abound. This means you can be walking along, fall into one of these... and then find your character doing the typical \"frozen in midair falling\" thing. If you're lucky, you can move around enough to gain control and jump back out. If it's deep enough, you've gotta reload. (The game does at least autosave after every action of progress.)\n\nThe quest logic is damn near broken. The priest of Apollo tells me I can find a merchant in the south center of the island. Great — but wait, which way is south? You have no map and no compass, so who knows. Turns out you just have to follow the GIANT STONE ARROW that's constantly (ugh) floating above your head. But of course it only points along a vector to the destination, and not the path you'll need to take to get there. Which means if you're following it blindly, you'll probably fall into one of those damn cracks.\n\nOh, here's a woman at a stall! Is that the merchant I'm looking for? Go up and talk to her and... the character says \"The priestess of Apollo told me to get a basket of pomegranates.\"  Uhhhh... [i]no she didn't?[/i] I've never spoken to any priestess. *facepalm*\n\nBy the way, that \"objective\" arrow?  Twice in my short experience it led me to... a random patch of grass. With nothing in it. Far more ludicrous was the glitch where I picked some apples, and yet the arrow kept pointing to the tree. Walking away from it, I found just a few steps away... a duplicate of my player character. Stuck in an animation loop of apple picking. WTF.\n\nThe writing is abysmal. You'll have dialogue exchanges like \"Go and bring me the key.\" \"I will bring you the key.\" By the way, there is zero introduction, aside from a few lines of narration stating that you went through a portal and now you're back in ancient Greece. Wow. Lotta depth there.\n\nHowever. The utterly most baffling, absolutely worst thing? EVERY CHARACTER IS VOICED BY AI. With all the broken cadence you'd expect. The main character seems to have the worst AI voice model, by the way; everything she says is in a flat robotic monotone. Why on earth would you do that??\n\nThe visuals can be pretty impressive. The level design (apart from the awful cracks) is decent enough. I don't know how many eras this thing covers — but if it's even a half dozen, that means a decent amount of resources went into this.\n\nThat being the case, how the HELL do you spend all that time and money, then decide at the end \"Oh, robo-voices are just fine.\"  [i]What the hell is wrong with you????[/i]\n\nThe game retails for $4.99. By chance, I bought it during a Steam sale for $0.79. I still feel robbed. And I'm still going to refund it. Not because that $0.79 means anything to me. But because I never want to see this abomination in my library ever again.",
+        "timestamp_created": 1783278150,
+        "timestamp_updated": 1783278150,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755694964",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABx6KHsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

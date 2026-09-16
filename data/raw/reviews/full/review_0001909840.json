@@ -1,0 +1,123 @@
+{
+  "appid": 1909840,
+  "requested_at": "2026-09-13T18:45:37.441336+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 1441,
+      "total_negative": 606,
+      "total_reviews": 2047
+    },
+    "reviews": [
+      {
+        "recommendationid": "208545349",
+        "author": {
+          "steamid": "76561198099912662",
+          "personaname": "一个萌妹",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198099912662/",
+          "num_games_owned": 398,
+          "num_reviews": 57,
+          "playtime_forever": 372,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 180,
+          "last_played": 1779627155,
+          "avatar": "ee5cc428258a2f7f5775ae66f8bbcde744738e44"
+        },
+        "language": "schinese",
+        "review": "制作组你好，作为一个女大侠开宗立派，总有点不足为外人道的奇怪性癖。\n是这样，本掌门希望可以和自己的女弟子结婚，准确的说，是希望可以和自己的多名女弟子结婚。\n好评鼓励，盼更新。",
+        "timestamp_created": 1762427666,
+        "timestamp_updated": 1762427825,
+        "voted_up": true,
+        "votes_up": 409,
+        "votes_funny": 288,
+        "weighted_vote_score": "0.876070082187652588",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1722481125",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 3
+          },
+          {
+            "reaction_type": 16,
+            "count": 27
+          },
+          {
+            "reaction_type": 12,
+            "count": 4
+          },
+          {
+            "reaction_type": 18,
+            "count": 4
+          },
+          {
+            "reaction_type": 15,
+            "count": 3
+          },
+          {
+            "reaction_type": 13,
+            "count": 2
+          },
+          {
+            "reaction_type": 2,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 8,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 3,
+            "count": 1
+          },
+          {
+            "reaction_type": 23,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSeqaAAAAAFP+wIj4AAAAB15MSbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

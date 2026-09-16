@@ -1,0 +1,66 @@
+{
+  "appid": 4002520,
+  "requested_at": "2026-09-13T20:10:26.754628+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 3,
+      "total_reviews": 24
+    },
+    "reviews": [
+      {
+        "recommendationid": "225315944",
+        "author": {
+          "steamid": "76561199042604694",
+          "personaname": "-濑濑-",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199042604694/",
+          "num_games_owned": 363,
+          "num_reviews": 153,
+          "playtime_forever": 402,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 384,
+          "last_played": 1778555251,
+          "avatar": "ec46b800882933d39dd7dce29146bd32c67c824c"
+        },
+        "language": "schinese",
+        "review": "看完之后，心里五味杂陈……\n我觉得这位编剧，或者说很多推理作品，都陷入了一个误区：设计的案件手法，大多只是普普通通的物理诡计。先不说理解门槛，这样的案件在推理和搜查过程中本身就挺无聊的，既没脑洞，也没亮点。尤其这作还是发生在宇宙船上，连外星生物都出场了，案子却这么平庸，很难不惋惜……\n前四章基本就专注在这些内容上，非常无聊，要不是有案件之外的琐碎日常和角色互动，我玩的时候真会睡着。可是从第四章结尾开始，我又很难不向大家推荐这部作品。虽然算不上多有新意的展开，但结尾的高潮，确实足够美味。从AI觉醒，到在太空中高声传递着象征希望的信号，绝境反击，从此踏上实现梦想的星辰旅途，看得我热泪盈眶，前面熬了那么久，确实是值得的。\n总评：标准的“17+3”结构。如果你愿意给这部作品一点时间，走到结尾那一刻，你会收获满满的感动。\n以上。",
+        "timestamp_created": 1778555203,
+        "timestamp_updated": 1778555203,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.59257042407989502",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759914524",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYJgqAAAAAFP+L2VWAAAAB4xsHbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

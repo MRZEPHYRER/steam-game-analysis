@@ -1,0 +1,66 @@
+{
+  "appid": 3385370,
+  "requested_at": "2026-09-13T19:13:25.140703+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 280,
+      "total_negative": 35,
+      "total_reviews": 315
+    },
+    "reviews": [
+      {
+        "recommendationid": "219654905",
+        "author": {
+          "steamid": "76561198043873302",
+          "personaname": "RockoTrex",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/rockoxx/",
+          "num_games_owned": 9714,
+          "num_reviews": 407,
+          "playtime_forever": 240,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 207,
+          "last_played": 1773463320,
+          "avatar": "bd84419a151d97b0ec16ded01452767ca0872415"
+        },
+        "language": "latam",
+        "review": "Tiene un re trabajo para integrar la parte survivor, o sea habilidades y mejoras por nivel, con el gameplay tipo Pac-Man, haciendo que siempre tengas en cuenta por donde moverte y como sacarle jugo a los ataques. \nSin embargo, a parte de los mapas, no tiene variedad teniendo solo dos tipos de enemigos + un boss nada mas, divertido para jugar un poco cada tanto pero no esperes un roguelite con el cual enviciarte fácil por horas seguidas, ademas de que todos los desbloqueos son de forma lineal sin que sepas que es lo siguiente que vas a sacar, sea un poder, un personaje o mapa.\n\nLo que si no hay duda es que tiene mucho que desbloquear, siempre vas obteniendo algo nuevo, y que el soundtrack es una delicia, incluso fuera del juego se puede disfrutar, en serio es genial. Casi que solo por eso lo recomiendo sin dudas.",
+        "timestamp_created": 1772478053,
+        "timestamp_updated": 1772478053,
+        "voted_up": true,
+        "votes_up": 18,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.700475037097930908",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1746194145",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFV/ZGAAAAAFP+ZqSoAAAAB5r/XFBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

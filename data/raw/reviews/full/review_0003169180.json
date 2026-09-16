@@ -1,0 +1,66 @@
+{
+  "appid": 3169180,
+  "requested_at": "2026-09-13T19:06:00.379187+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 8,
+      "total_negative": 3,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "208728224",
+        "author": {
+          "steamid": "76561198016870354",
+          "personaname": "adavea",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198016870354/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 60,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1761146066,
+          "avatar": "e94cceefa02dace1bd41dbe6ae7332e4d893eaab"
+        },
+        "language": "english",
+        "review": "Definitely worth $2!  It's not much but it's cute.  I actually think there is good potential to expand this concept into a more fleshed out game i.e. in a sequel",
+        "timestamp_created": 1762619052,
+        "timestamp_updated": 1762619052,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751533898",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABwip6cBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

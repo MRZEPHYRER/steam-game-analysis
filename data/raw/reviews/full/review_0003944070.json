@@ -1,0 +1,66 @@
+{
+  "appid": 3944070,
+  "requested_at": "2026-09-13T20:03:46.099901+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 23,
+      "total_negative": 3,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "207405175",
+        "author": {
+          "steamid": "76561198155537614",
+          "personaname": "Chess?",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198155537614/",
+          "num_games_owned": 0,
+          "num_reviews": 167,
+          "playtime_forever": 1174,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1761739886,
+          "avatar": "d8ee0e165516ab5526222854ee02cf099b92d176"
+        },
+        "language": "english",
+        "review": "It's like single player air hockey against satan but there's no opponent you're just trying to knock as many pucks of the table as possible, with a balatro level main theme soundtrack and funny writing and ♥♥♥♥♥♥♥ wheel that takes all my money",
+        "timestamp_created": 1761243311,
+        "timestamp_updated": 1761243311,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.611901700496673584",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761235237",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXwxAAAAAAFP+OUs4AAAAB3h5iXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

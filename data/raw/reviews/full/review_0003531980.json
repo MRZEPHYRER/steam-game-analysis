@@ -1,0 +1,71 @@
+{
+  "appid": 3531980,
+  "requested_at": "2026-09-13T19:20:52.240938+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 30,
+      "total_negative": 18,
+      "total_reviews": 48
+    },
+    "reviews": [
+      {
+        "recommendationid": "208106685",
+        "author": {
+          "steamid": "76561198435483518",
+          "personaname": "默愚",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198435483518/",
+          "num_games_owned": 402,
+          "num_reviews": 32,
+          "playtime_forever": 188,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 177,
+          "last_played": 1761978028,
+          "avatar": "a81d76ad0b768eb901b2046e08dd7da7b28a7149"
+        },
+        "language": "schinese",
+        "review": "通关后不解锁全cg，需要在dlsite上关注作者，下载一个解锁全存档的东西，好久没见过这么蠢的东西了",
+        "timestamp_created": 1761976190,
+        "timestamp_updated": 1761976190,
+        "voted_up": false,
+        "votes_up": 19,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.713079452514648438",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757131209",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVvQkAAAAAFP+bRiwAAAAB9y+6ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2726960,
+  "requested_at": "2026-09-13T18:54:47.567946+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 20,
+      "total_negative": 9,
+      "total_reviews": 29
+    },
+    "reviews": [
+      {
+        "recommendationid": "233017120",
+        "author": {
+          "steamid": "76561198957789047",
+          "personaname": "hanae",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198957789047/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 633,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 603,
+          "last_played": 1786931782,
+          "avatar": "e1c2f4c585b11ab44f2077c2faf3d316b40f763d"
+        },
+        "language": "schinese",
+        "review": "剧情文笔都一坨，剧情衔接就用一个黑屏过场，案件不知道写的什么东西。我居然打完了，真是赤石大王\n哦不，没打完，用官方攻略也刷不出结局，这攻略是用脑子写的吗？这攻略对吗你试过了吗？10小时有3小时在刷结局，目前还有两个没刷出来\n卸载了，垃圾东西",
+        "timestamp_created": 1786931136,
+        "timestamp_updated": 1786931136,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753433185",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABw8vH4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3846450,
+  "requested_at": "2026-09-13T19:48:40.957405+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "206014604",
+        "author": {
+          "steamid": "76561198131850516",
+          "personaname": "☆Stephii☆",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/stephii92/",
+          "num_games_owned": 0,
+          "num_reviews": 57,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1759729050,
+          "avatar": "5b8825b34c5d77b00c3a18897f2f1175fa0e0e57"
+        },
+        "language": "english",
+        "review": "There are free to play hidden object games with better ambience and artwork - very low budget/very lazy/very annoying 2/10",
+        "timestamp_created": 1759729222,
+        "timestamp_updated": 1759729222,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.571266591548919678",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759307387",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYkx0AAAAAFP+JH0cAAAAB8iPGRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

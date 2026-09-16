@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 4B R-based Exploratory Data Analysis</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="02_r_eda_files/libs/clipboard/clipboard.min.js"></script>
+<script src="02_r_eda_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="02_r_eda_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="02_r_eda_files/libs/quarto-html/popper.min.js"></script>
+<script src="02_r_eda_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="02_r_eda_files/libs/quarto-html/anchor.min.js"></script>
+<link href="02_r_eda_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="02_r_eda_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="02_r_eda_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="02_r_eda_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="02_r_eda_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#研究范围与数据语义" id="toc-研究范围与数据语义" class="nav-link active" data-scroll-target="#研究范围与数据语义"><span class="header-section-number">1</span> 研究范围与数据语义</a></li>
+  <li><a href="#评论量分布" id="toc-评论量分布" class="nav-link" data-scroll-target="#评论量分布"><span class="header-section-number">2</span> 评论量分布</a></li>
+  <li><a href="#正面率与分母问题" id="toc-正面率与分母问题" class="nav-link" data-scroll-target="#正面率与分母问题"><span class="header-section-number">3</span> 正面率与分母问题</a></li>
+  <li><a href="#价格" id="toc-价格" class="nav-link" data-scroll-target="#价格"><span class="header-section-number">4</span> 价格</a></li>
+  <li><a href="#类型多标签" id="toc-类型多标签" class="nav-link" data-scroll-target="#类型多标签"><span class="header-section-number">5</span> 类型（多标签）</a></li>
+  <li><a href="#样本选择月份与平台" id="toc-样本选择月份与平台" class="nav-link" data-scroll-target="#样本选择月份与平台"><span class="header-section-number">6</span> 样本选择、月份与平台</a></li>
+  <li><a href="#相关性与-step-5-准备" id="toc-相关性与-step-5-准备" class="nav-link" data-scroll-target="#相关性与-step-5-准备"><span class="header-section-number">7</span> 相关性与 Step 5 准备</a></li>
+  <li><a href="#异常值与限制" id="toc-异常值与限制" class="nav-link" data-scroll-target="#异常值与限制"><span class="header-section-number">8</span> 异常值与限制</a></li>
+  <li><a href="#结论" id="toc-结论" class="nav-link" data-scroll-target="#结论"><span class="header-section-number">9</span> 结论</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Step 4B R-based Exploratory Data Analysis</h1>
+<p class="subtitle lead">Steam 3,000-game market cohort and 844-game review-qualified sample</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="研究范围与数据语义" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 研究范围与数据语义</h1>
+<p>本报告是描述性探索，不包含正式假设检验、GLM、机器学习或因果推断。 市场层数据保留全部 3,000 个游戏，包括 759 个零评论游戏；只有在分析 <code>positive_rate</code> 时才排除评论数为零、该比率按定义为空的游戏。 <code>total_reviews</code> 仅作为玩家关注度/市场互动代理，不能解释为销量。 价格是采集时点的商店快照，不是首发价或历史价格。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">dataset</th>
+<th style="text-align: right;">rows</th>
+<th style="text-align: right;">distinct_appids</th>
+<th style="text-align: right;">expected_rows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">games_market</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">3000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">games_model20</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: right;">844</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">games_genres</td>
+<td style="text-align: right;">8796</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">8796</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: right;">missing_n</th>
+<th style="text-align: right;">denominator</th>
+<th style="text-align: right;">missing_pct</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: right;">403</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">13.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">publisher</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: right;">759</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">25.30</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="评论量分布" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 评论量分布</h1>
+<p>原始评论量高度右偏，最大值为 136,842。对数变换明显降低尾部支配， 但不删除零评论游戏。20 条评论阈值把 3,000 个市场游戏缩减为 844 个。</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/01_review_count_hist_raw.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>原始评论量直方图</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/02_review_count_hist_log.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>log10(1 + 评论量) 直方图</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/03_review_count_ecdf.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>评论量 ECDF</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/04_free_paid_review_volume.png" class="img-fluid figure-img" width="1650"></p>
+<figcaption>免费/付费游戏评论量</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="正面率与分母问题" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 正面率与分母问题</h1>
+<p>正面率只在 2,241 个至少有一条评论的游戏中有定义。低评论数下存在大量 0% 或 100% 的离散极值：832 个游戏正面率为 100%，其中 672 个只有 1–9 条评论。Wilson 区间示例用于展示小分母的不确定性，不是正式模型。</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/05_positive_rate_distribution.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>有评论游戏的正面率分布</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/06_positive_rate_vs_reviews.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>正面率与评论量</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/07_perfect_rate_by_count_group.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>满分正面率与评论量</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/19_wilson_interval_examples.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>Wilson 区间示例</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="价格" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> 价格</h1>
+<p>2,597 个付费游戏拥有有效现价；中位数为 $4.99，均值为 $8.52，范围为 $0.49–$199.99。价格与评论关注度、正面率的图形关系均有大幅重叠， 仅作描述，不能解释为价格效应。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 16%">
+<col style="width: 19%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">games</th>
+<th style="text-align: right;">mean_price</th>
+<th style="text-align: right;">median_price</th>
+<th style="text-align: right;">q1_price</th>
+<th style="text-align: right;">q3_price</th>
+<th style="text-align: right;">min_price</th>
+<th style="text-align: right;">max_price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">8.52</td>
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">2.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">199.99</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/08_price_distribution.png" class="img-fluid figure-img" width="1800"></p>
+<figcaption>付费游戏价格分布</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/09_price_vs_review_volume.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>价格与评论量</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/16_price_positive_rate_all_vs_model20.png" class="img-fluid figure-img" width="1650"></p>
+<figcaption>价格与正面率：全部有评论游戏和 20 条评论样本</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="类型多标签" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> 类型（多标签）</h1>
+<p>类型关系包含 8,796 行，类型计数可超过 3,000，因为同一游戏可以属于多个 类型。20 条评论阈值改变了类型构成；Free To Play 和 Casual 的份额下降， Adventure、Simulation 和 RPG 的份额上升。</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/11_model_selection_by_genre.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>20 条评论规则造成的类型构成变化</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/12_genre_frequency.png" class="img-fluid figure-img" width="1350"></p>
+<figcaption>市场类型频数</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/13_genre_review_coverage.png" class="img-fluid figure-img" width="1800"></p>
+<figcaption>各类型达到 20 条评论的覆盖率</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/17_genre_positive_rate_all_vs_model20.png" class="img-fluid figure-img" width="1575"></p>
+<figcaption>类型正面率：全部有评论与 20+ 评论</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="样本选择月份与平台" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> 样本选择、月份与平台</h1>
+<p>完整市场中免费游戏占 13.4%，而 20 条评论样本中仅占 0.95%。 免费游戏达到阈值的比例为 1.99%，付费游戏为 32.18%，因此后续任何 模型都必须明确承认样本选择。月份和平台差异同样是描述性结构，不是 季节效应或平台效应。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 6%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">payment_segment</th>
+<th style="text-align: right;">games</th>
+<th style="text-align: right;">zero_review_games</th>
+<th style="text-align: right;">zero_review_pct</th>
+<th style="text-align: right;">model20_games</th>
+<th style="text-align: right;">model20_pct</th>
+<th style="text-align: right;">median_reviews</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Free</td>
+<td style="text-align: right;">402</td>
+<td style="text-align: right;">368</td>
+<td style="text-align: right;">91.54</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1.99</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Paid</td>
+<td style="text-align: right;">2598</td>
+<td style="text-align: right;">391</td>
+<td style="text-align: right;">15.05</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">32.18</td>
+<td style="text-align: right;">6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/10_full_model_free_share.png" class="img-fluid figure-img" width="1200"></p>
+<figcaption>完整市场与模型样本的免费占比</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/15_full_model_price_distribution.png" class="img-fluid figure-img" width="1800"></p>
+<figcaption>完整市场与模型样本的价格</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/14_release_month_coverage.png" class="img-fluid figure-img" width="1800"></p>
+<figcaption>发布月份的样本数量、评论覆盖和正面率</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/18_platform_support_and_selection.png" class="img-fluid figure-img" width="1800"></p>
+<figcaption>平台支持与样本保留</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/eda/20_high_attention_games.png" class="img-fluid figure-img" width="1500"></p>
+<figcaption>评论关注度最高的 20 个游戏</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="相关性与-step-5-准备" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> 相关性与 Step 5 准备</h1>
+<p>Pearson 与 Spearman 结果均作为 EDA 描述。原始评论量的偏度很高， <code>log1p(total_reviews)</code> 更适合后续诊断；正面率需要保留分母信息； 类型必须以多标签结构处理，不能把 8,796 行当作独立游戏。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">variable_x</th>
+<th style="text-align: left;">variable_y</th>
+<th style="text-align: left;">method</th>
+<th style="text-align: right;">correlation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">0.220</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">-0.057</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">0.074</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">0.075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">0.317</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: right;">0.027</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">0.343</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">-0.140</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">0.343</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">-0.263</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">log1p_reviews</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">1.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">spearman</td>
+<td style="text-align: right;">-0.263</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 21%">
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">role</th>
+<th style="text-align: right;">available_n</th>
+<th style="text-align: right;">missing_n</th>
+<th style="text-align: left;">eda_note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">total_reviews</td>
+<td style="text-align: left;">attention outcome candidate</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Strong right skew and structural zeros; do not assume Gaussian scale.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">log1p_total_reviews</td>
+<td style="text-align: left;">transformed attention candidate</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Reduces right-tail leverage while retaining zero-review games.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">positive_rate</td>
+<td style="text-align: left;">reception outcome candidate</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">759</td>
+<td style="text-align: left;">Undefined for zero-review games; denominator-aware analysis is required.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">current_price_usd</td>
+<td style="text-align: left;">numeric predictor candidate</td>
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">403</td>
+<td style="text-align: left;">One paid-game value is missing; free and paid definitions remain separate.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">is_free</td>
+<td style="text-align: left;">binary predictor candidate</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Free games are strongly underrepresented after the 20-review cutoff.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">release_month</td>
+<td style="text-align: left;">categorical predictor candidate</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Six fixed launch-cohort months; inspect coverage differences.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segment</td>
+<td style="text-align: left;">categorical predictor candidate</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Support combinations are sparse outside Windows-only.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_multi_label</td>
+<td style="text-align: left;">multi-label predictor candidate</td>
+<td style="text-align: right;">8796</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">One-to-many relation; encode deliberately and avoid duplicate game outcomes.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="异常值与限制" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> 异常值与限制</h1>
+<p>高评论量和高价格游戏保留在数据中，没有因极端值而删除。图中必要时只 限制显示范围，并在标题或副标题中说明。异常值清单用于后续稳健性检查。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 7%">
+<col style="width: 30%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">outlier_basis</th>
+<th style="text-align: right;">appid</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">positive_rate</th>
+<th style="text-align: right;">current_price_usd</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">1943950</td>
+<td style="text-align: left;">Escape the Backrooms</td>
+<td style="text-align: right;">136842</td>
+<td style="text-align: right;">0.902</td>
+<td style="text-align: right;">9.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">3405340</td>
+<td style="text-align: left;">Megabonk</td>
+<td style="text-align: right;">99706</td>
+<td style="text-align: right;">0.943</td>
+<td style="text-align: right;">9.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">3167020</td>
+<td style="text-align: left;">Escape From Duckov</td>
+<td style="text-align: right;">83387</td>
+<td style="text-align: right;">0.857</td>
+<td style="text-align: right;">17.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">2321470</td>
+<td style="text-align: left;">Deep Rock Galactic: Survivor</td>
+<td style="text-align: right;">46306</td>
+<td style="text-align: right;">0.862</td>
+<td style="text-align: right;">12.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">1657630</td>
+<td style="text-align: left;">Slime Rancher 2</td>
+<td style="text-align: right;">43483</td>
+<td style="text-align: right;">0.945</td>
+<td style="text-align: right;">17.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">427410</td>
+<td style="text-align: left;">Abiotic Factor</td>
+<td style="text-align: right;">41961</td>
+<td style="text-align: right;">0.959</td>
+<td style="text-align: right;">34.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">3101040</td>
+<td style="text-align: left;">Magical Girl Witch Trials</td>
+<td style="text-align: right;">29730</td>
+<td style="text-align: right;">0.966</td>
+<td style="text-align: right;">29.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">1421250</td>
+<td style="text-align: left;">Tiny Bunny</td>
+<td style="text-align: right;">27145</td>
+<td style="text-align: right;">0.835</td>
+<td style="text-align: right;">10.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">3180070</td>
+<td style="text-align: left;">No, I’m not a Human</td>
+<td style="text-align: right;">27097</td>
+<td style="text-align: right;">0.932</td>
+<td style="text-align: right;">14.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest review volume</td>
+<td style="text-align: right;">3314790</td>
+<td style="text-align: left;">CloverPit</td>
+<td style="text-align: right;">24603</td>
+<td style="text-align: right;">0.901</td>
+<td style="text-align: right;">9.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3465850</td>
+<td style="text-align: left;">ManHunter</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">199.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3600280</td>
+<td style="text-align: left;">Processor Dev Tycoon</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0.300</td>
+<td style="text-align: right;">199.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3746510</td>
+<td style="text-align: left;">3D PUZZLE - Mountain Life</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1.000</td>
+<td style="text-align: right;">199.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">4019890</td>
+<td style="text-align: left;">Wuxing Summoner</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">199.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">4165690</td>
+<td style="text-align: left;">House in a Meadow VR</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">179.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3994850</td>
+<td style="text-align: left;">SAKA SHAHEEDI Chandni Chowk 1675</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">149.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3912150</td>
+<td style="text-align: left;">Cosmic Rescue</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">99.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3912160</td>
+<td style="text-align: left;">Devil Laugh</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">99.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">3976540</td>
+<td style="text-align: left;">Defense X</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">99.99</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">highest current price</td>
+<td style="text-align: right;">1449110</td>
+<td style="text-align: left;">The Outer Worlds 2</td>
+<td style="text-align: right;">8398</td>
+<td style="text-align: right;">0.732</td>
+<td style="text-align: right;">69.99</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="结论" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> 结论</h1>
+<p>Step 4B 支持进入模型设计阶段，但不等于模型已经获准。后续工作应分别 处理评论量与正面率、保留零评论市场语义、显式诊断 20 条评论阈值造成的 选择，并避免把观察到的价格、类型、月份或平台差异作因果解释。</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

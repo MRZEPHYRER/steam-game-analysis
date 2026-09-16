@@ -1,0 +1,36 @@
+{
+  "requested_at": "2026-09-12T00:00:00+00:00",
+  "request_params": {
+    "appids": 2,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2,
+  "payload": {
+    "2": {
+      "success": true,
+      "data": {
+        "steam_appid": 999,
+        "type": "game",
+        "name": "Game 2",
+        "is_free": false,
+        "release_date": {
+          "coming_soon": false,
+          "date": "1 Jul, 2025"
+        },
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 999,
+          "discount_percent": 50
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 2653470,
+  "requested_at": "2026-09-13T18:53:39.695486+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 406,
+      "total_negative": 41,
+      "total_reviews": 447
+    },
+    "reviews": [
+      {
+        "recommendationid": "213271760",
+        "author": {
+          "steamid": "76561198132465443",
+          "personaname": "수면장애",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198132465443/",
+          "num_games_owned": 0,
+          "num_reviews": 230,
+          "playtime_forever": 3408,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3290,
+          "last_played": 1782585005,
+          "avatar": "6889e542266ff1eca9c32d7f405a723a0e19f756"
+        },
+        "language": "koreana",
+        "review": "한글패치를 만들었습니다.\n\n폰트제작: r35\n\n-----------------------------------------------------------\n한글 패치 방법\n\n\n1. LittleProblemsKR.zip의 압축을 풀고 안에 파일/폴더를 Little Problems 폴더에 덮어씌우세요.\n\n2. 스팀에서 게임을 실행합니다.\n\n------------------------------------------------------------\n알아둬야 하는 사항\n\n\n기술적 문제로 답안은 영어로 입력됩니다. 대신 왼쪽 단어칸에는 한글로 표기되니 끌어다 놓을 수 있습니다.\n\n역량 문제로 고유명사는 영어로 표기했습니다.\n\n[b]글자수 제한과 난이도 문제로 답란에 이/가, 와/과, 을/를, (으)로 등의 조사 표기를 제대로 안 해뒀습니다. 조사를 보고 추리하는 것은 도움이 되지 않습니다.[/b]\n\n의외로 선택지에 따라 스토리 이벤트가 달라집니다.\n\n------------------------------------------------------------\n한글패치 다운로드\n\nhttps://drive.google.com/file/d/1UKsq3LH27ocSbHZwJWp7XN8Ht6b5b1qj/view?usp=sharing",
+        "timestamp_created": 1765712368,
+        "timestamp_updated": 1765712368,
+        "voted_up": true,
+        "votes_up": 36,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.821929335594177246",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757430018",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTj7kAAAAAFP+pNPgAAAABwzcitBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

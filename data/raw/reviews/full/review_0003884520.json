@@ -1,0 +1,99 @@
+{
+  "appid": 3884520,
+  "requested_at": "2026-09-13T19:54:53.035694+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 514,
+      "total_negative": 202,
+      "total_reviews": 716
+    },
+    "reviews": [
+      {
+        "recommendationid": "213037176",
+        "author": {
+          "steamid": "76561198132604877",
+          "personaname": "Madi - 0621",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Madiiguess/",
+          "num_games_owned": 0,
+          "num_reviews": 71,
+          "playtime_forever": 29,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1766836825,
+          "avatar": "f8e2150ebcd56cf8e73f20dd5308d2914f84c23b"
+        },
+        "language": "english",
+        "review": "Hands down the best release of Blood yet. Fixes a lot of the issues with Fresh Supply with it being the first proper source port of the game and all.  But for most people the difference between this and Fresh Supply are borderline imperceptible. And when that version of the game has been delisted and was much more reasonably priced it's pretty easy to see why people aren't too thrilled about this. \n\nDon't pay 30 dollars for this. Nightdive did good work and it's not fair that they're being strangled out back by Atari and WB.",
+        "timestamp_created": 1765445747,
+        "timestamp_updated": 1765445747,
+        "voted_up": false,
+        "votes_up": 501,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.952016532421112061",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764878414",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 2
+          },
+          {
+            "reaction_type": 26,
+            "count": 2
+          },
+          {
+            "reaction_type": 29,
+            "count": 2
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          },
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 10
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQ9bAAAAAAFP+525iAAAAB4h9asBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

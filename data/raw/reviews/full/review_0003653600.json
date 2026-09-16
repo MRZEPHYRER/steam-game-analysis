@@ -1,0 +1,71 @@
+{
+  "appid": 3653600,
+  "requested_at": "2026-09-13T19:29:01.304088+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 74,
+      "total_negative": 47,
+      "total_reviews": 121
+    },
+    "reviews": [
+      {
+        "recommendationid": "207448044",
+        "author": {
+          "steamid": "76561198423681251",
+          "personaname": "Snøwflåkę",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198423681251/",
+          "num_games_owned": 89,
+          "num_reviews": 13,
+          "playtime_forever": 1015,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1015,
+          "last_played": 1761296283,
+          "avatar": "04bce587bfdbc4e39e5e350b6dfa0f26405ce0c8"
+        },
+        "language": "english",
+        "review": "i wouldn't say worth it. beat the game in 4 hours. let it run all night thinking endless mode would get crazy only to return to wave 500 being the same as the very first wave 1. you don't gain money in endless mode. because the enemies you fight drop 1 mana and the enemies before the endless mode 200Trillion.\nkinda a one time playtrough game\n\nalso the achievement are not working i did get a achievement for 3millon pixel movement with my mouse. but didn't get the get 1k gold. lol \n\ni left a bad review \nnot because i think the game is bad.\ni think it just needs a lot more work!\n\ni was able to remove 4 rocks after letting it run for 12 hours. FOUR rocks i was not even able to make a single space for a tower",
+        "timestamp_created": 1761296449,
+        "timestamp_updated": 1761297065,
+        "voted_up": false,
+        "votes_up": 61,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.773950576782226562",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761234994",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUhV8AAAAAFP+jENOAAAAB8/qyXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

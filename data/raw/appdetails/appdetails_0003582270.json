@@ -1,0 +1,352 @@
+{
+  "requested_at": "2026-09-12T15:38:09.397917+00:00",
+  "request_params": {
+    "appids": 3582270,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3582270,
+  "payload": {
+    "3582270": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "RYZY NYIL",
+        "steam_appid": 3582270,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Summary</p><p class=\"bb_paragraph\" >Vertical-scrolling 2D shooting game with three types of weapons<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/d228ba2cea73faa4d97751f7b90db58c.avif?t=1767194244\" width=540 height=720 /></span><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/853f3f2dfbff291f338d3b497c81c9d4.avif?t=1767194244\" width=540 height=720 /></span><br><br>Powered by<br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/cd893ef2a6333a057767db459e9ab878.avif?t=1767194244\" width=800 height=400 /></span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Summary</p><p class=\"bb_paragraph\" >Vertical-scrolling 2D shooting game with three types of weapons<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/d228ba2cea73faa4d97751f7b90db58c.avif?t=1767194244\" width=540 height=720 /></span><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/853f3f2dfbff291f338d3b497c81c9d4.avif?t=1767194244\" width=540 height=720 /></span><br><br>Powered by<br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/extras/cd893ef2a6333a057767db459e9ab878.avif?t=1767194244\" width=800 height=400 /></span></p>",
+        "short_description": "Vertical-scrolling 2D shooting game with three types of weapons",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/4b5d2153008ae52d4d9374f3b3342e02df7eff16/header.jpg?t=1767194244",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/e2212ae9b20277d59908a3c31a98633eabf4eecd/capsule_231x87.jpg?t=1767194244",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/e2212ae9b20277d59908a3c31a98633eabf4eecd/capsule_184x69.jpg?t=1767194244",
+        "website": "http://blog.livedoor.jp/stgbuilder/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or 11<br></li><li><strong>Processor:</strong> Intel Celeron Core, AMD Ryzen<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Geforce, Radeon, Intel Arc<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "SB_Games_Public"
+        ],
+        "publishers": [
+          "SB_Games_Public"
+        ],
+        "demos": [
+          {
+            "appid": 3603490,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 299,
+          "discount_percent": 70,
+          "initial_formatted": "$9.99",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1263714
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy RYZY NYIL",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1263714,
+                "percent_savings_text": "-70% ",
+                "percent_savings": 0,
+                "option_text": "RYZY-NYIL - <span class=\"discount_original_price\">$9.99</span> $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          },
+          {
+            "id": 63,
+            "description": "Steam Timeline"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/6854705de4d0d9ce6b04d5e8959d1e2dc89b8bdc/ss_6854705de4d0d9ce6b04d5e8959d1e2dc89b8bdc.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/6854705de4d0d9ce6b04d5e8959d1e2dc89b8bdc/ss_6854705de4d0d9ce6b04d5e8959d1e2dc89b8bdc.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/a74423347b8e9017fe33c05c7f675ab2b983a6ea/ss_a74423347b8e9017fe33c05c7f675ab2b983a6ea.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/a74423347b8e9017fe33c05c7f675ab2b983a6ea/ss_a74423347b8e9017fe33c05c7f675ab2b983a6ea.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/b0152619ece238a4ca2120f26dc7b55b9b333ea3/ss_b0152619ece238a4ca2120f26dc7b55b9b333ea3.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/b0152619ece238a4ca2120f26dc7b55b9b333ea3/ss_b0152619ece238a4ca2120f26dc7b55b9b333ea3.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/baa98b7edaabdde9b5528ef9899bb1fa4f9403cb/ss_baa98b7edaabdde9b5528ef9899bb1fa4f9403cb.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/baa98b7edaabdde9b5528ef9899bb1fa4f9403cb/ss_baa98b7edaabdde9b5528ef9899bb1fa4f9403cb.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/c61834cff80b349c4882f6f5e35337aa77189fb2/ss_c61834cff80b349c4882f6f5e35337aa77189fb2.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/c61834cff80b349c4882f6f5e35337aa77189fb2/ss_c61834cff80b349c4882f6f5e35337aa77189fb2.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/efe1032d3a4be008850d2f12c78efa6c6becdd1f/ss_efe1032d3a4be008850d2f12c78efa6c6becdd1f.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/efe1032d3a4be008850d2f12c78efa6c6becdd1f/ss_efe1032d3a4be008850d2f12c78efa6c6becdd1f.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/eecaae07b3c9ccd22c56dd1635d0685e953c51d5/ss_eecaae07b3c9ccd22c56dd1635d0685e953c51d5.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/eecaae07b3c9ccd22c56dd1635d0685e953c51d5/ss_eecaae07b3c9ccd22c56dd1635d0685e953c51d5.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/1219cc56263d7167f9c2dc998632fddd91655393/ss_1219cc56263d7167f9c2dc998632fddd91655393.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/1219cc56263d7167f9c2dc998632fddd91655393/ss_1219cc56263d7167f9c2dc998632fddd91655393.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/05319a8f33c8cf8ce379f01258397d2c2b8318c5/ss_05319a8f33c8cf8ce379f01258397d2c2b8318c5.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/05319a8f33c8cf8ce379f01258397d2c2b8318c5/ss_05319a8f33c8cf8ce379f01258397d2c2b8318c5.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/84066c5625694ac97d29e5b1e4963409859c04c9/ss_84066c5625694ac97d29e5b1e4963409859c04c9.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/84066c5625694ac97d29e5b1e4963409859c04c9/ss_84066c5625694ac97d29e5b1e4963409859c04c9.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/ae992fa5eefa5de7aade5c40846c44d8e25d3fd8/ss_ae992fa5eefa5de7aade5c40846c44d8e25d3fd8.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/ae992fa5eefa5de7aade5c40846c44d8e25d3fd8/ss_ae992fa5eefa5de7aade5c40846c44d8e25d3fd8.1920x1080.jpg?t=1767194244"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/6b3d98384d57da628cb5ff9aeb26ffed3f2b14ec/ss_6b3d98384d57da628cb5ff9aeb26ffed3f2b14ec.600x338.jpg?t=1767194244",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/6b3d98384d57da628cb5ff9aeb26ffed3f2b14ec/ss_6b3d98384d57da628cb5ff9aeb26ffed3f2b14ec.1920x1080.jpg?t=1767194244"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257240390,
+            "name": "OP02",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257240390/730dacb88afeba566ef1e32d597c9953e6bef3f0/movie_600x337.jpg?t=1764413341",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3582270/801478075/ffe61c3e5f73c9d23ace36139db6ef3d374375a3/1764412486/dash_av1.mpd?t=1764413341",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3582270/801478075/ffe61c3e5f73c9d23ace36139db6ef3d374375a3/1764412486/dash_h264.mpd?t=1764413341",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3582270/801478075/ffe61c3e5f73c9d23ace36139db6ef3d374375a3/1764412486/hls_264_master.m3u8?t=1764413341",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 57,
+          "highlighted": [
+            {
+              "icon": "6e0dc18b38da071317a2f03addf367881b00e2b5.jpg",
+              "localized_name": "GAME LAUNCH",
+              "archived": 0,
+              "hidden": 0,
+              "name": "GAME LAUNCH",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/6e0dc18b38da071317a2f03addf367881b00e2b5.jpg"
+            },
+            {
+              "icon": "94ae00b9ca44d14397a0170141eb10c3a5a929c9.jpg",
+              "localized_name": "GAME RESET",
+              "archived": 0,
+              "hidden": 1,
+              "name": "GAME RESET",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/94ae00b9ca44d14397a0170141eb10c3a5a929c9.jpg"
+            },
+            {
+              "icon": "bfbb89c409af716e491b42152c0387d24061cbed.jpg",
+              "localized_name": "MAX FULL BURST",
+              "archived": 0,
+              "hidden": 0,
+              "name": "MAX FULL BURST",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/bfbb89c409af716e491b42152c0387d24061cbed.jpg"
+            },
+            {
+              "icon": "6e0dc18b38da071317a2f03addf367881b00e2b5.jpg",
+              "localized_name": "REPLAY",
+              "archived": 0,
+              "hidden": 0,
+              "name": "REPLAY",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/6e0dc18b38da071317a2f03addf367881b00e2b5.jpg"
+            },
+            {
+              "icon": "a4e51b104ffb496f816dd05dc8095ab031f13a8a.jpg",
+              "localized_name": "VERTICAL SCREEN",
+              "archived": 0,
+              "hidden": 0,
+              "name": "VERTICAL SCREEN",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/a4e51b104ffb496f816dd05dc8095ab031f13a8a.jpg"
+            },
+            {
+              "icon": "96ff722302dee3b20de01962c9eca016bc131396.jpg",
+              "localized_name": "PLAYED 10 TIMES",
+              "archived": 0,
+              "hidden": 0,
+              "name": "PLAYED 10 TIMES",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/96ff722302dee3b20de01962c9eca016bc131396.jpg"
+            },
+            {
+              "icon": "96ff722302dee3b20de01962c9eca016bc131396.jpg",
+              "localized_name": "PLAYED 50 TIMES",
+              "archived": 0,
+              "hidden": 0,
+              "name": "PLAYED 50 TIMES",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/96ff722302dee3b20de01962c9eca016bc131396.jpg"
+            },
+            {
+              "icon": "96ff722302dee3b20de01962c9eca016bc131396.jpg",
+              "localized_name": "PLAYED 100 TIMES",
+              "archived": 0,
+              "hidden": 0,
+              "name": "PLAYED 100 TIMES",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/96ff722302dee3b20de01962c9eca016bc131396.jpg"
+            },
+            {
+              "icon": "96ff722302dee3b20de01962c9eca016bc131396.jpg",
+              "localized_name": "PLAYED 500 TIMES",
+              "archived": 0,
+              "hidden": 0,
+              "name": "PLAYED 500 TIMES",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/96ff722302dee3b20de01962c9eca016bc131396.jpg"
+            },
+            {
+              "icon": "96ff722302dee3b20de01962c9eca016bc131396.jpg",
+              "localized_name": "PLAYED 1000 TIMES",
+              "archived": 0,
+              "hidden": 0,
+              "name": "PLAYED 1000 TIMES",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3582270/96ff722302dee3b20de01962c9eca016bc131396.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 31, 2025"
+        },
+        "support_info": {
+          "url": "http://blog.livedoor.jp/stgbuilder/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3582270?t=1767194244",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582270/3db1e3b4c4717e06f79207ac33dfc48c6402fd08/page_bg_raw.jpg?t=1767194244",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "requested_at": "2026-09-12T17:08:26.285581+00:00",
+  "request_params": {
+    "appids": 3840890,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3840890,
+  "payload": {
+    "3840890": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Lunera",
+        "steam_appid": 3840890,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          5063030
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Level up your character by hunting various monsters and also make your character stronger from loot from monsters and by advancing in various skillsets. Take on stronger spawns with stronger monsters as you become higher level. </p><p class=\"bb_paragraph\" >Compete with other players on the level highscore list. </p><p class=\"bb_paragraph\" >Find treasure chests with rewards to speed up your progress. Sell your loot to NPCs to fund future hunts.</p><p class=\"bb_paragraph\" >Play using three different playing styles: close combat, bowman, and magician.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Hunt monsters and level up your character</p></li><li><p class=\"bb_paragraph\" >Encounter stronger monsters as you go up in level</p></li><li><p class=\"bb_paragraph\" >Make your character stronger from equipment dropped from monsters</p></li><li><p class=\"bb_paragraph\" >Make your character stronger from skillset</p></li><li><p class=\"bb_paragraph\" >Compete against other players on the level highscore list</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Level up your character by hunting various monsters and also make your character stronger from loot from monsters and by advancing in various skillsets. Take on stronger spawns with stronger monsters as you become higher level. </p><p class=\"bb_paragraph\" >Compete with other players on the level highscore list. </p><p class=\"bb_paragraph\" >Find treasure chests with rewards to speed up your progress. Sell your loot to NPCs to fund future hunts.</p><p class=\"bb_paragraph\" >Play using three different playing styles: close combat, bowman, and magician.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Hunt monsters and level up your character</p></li><li><p class=\"bb_paragraph\" >Encounter stronger monsters as you go up in level</p></li><li><p class=\"bb_paragraph\" >Make your character stronger from equipment dropped from monsters</p></li><li><p class=\"bb_paragraph\" >Make your character stronger from skillset</p></li><li><p class=\"bb_paragraph\" >Compete against other players on the level highscore list</p></li></ul>",
+        "short_description": "Hunt fearsome monsters and level up your character in a fantasy medieval setting. As your strength grows, so do the challenges, with ever more dangerous foes waiting just beyond the next horizon.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/0a2f920f41caec72409d47da34dcbbe7d25366b7/header.jpg?t=1788615485",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/8fe1c23722b2e45f426d6ce97778d8550e0c0e20/capsule_231x87.jpg?t=1788615485",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/8fe1c23722b2e45f426d6ce97778d8550e0c0e20/capsule_184x69.jpg?t=1788615485",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel Core i5-9300HF <br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1050</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "ext_user_account_notice": "Microsoft Playfab ",
+        "developers": [
+          "EN Games"
+        ],
+        "publishers": [
+          "EN Games"
+        ],
+        "demos": [
+          {
+            "appid": 5063030,
+            "description": ""
+          },
+          {
+            "appid": 5063030,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "packages": [
+          1350632
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Lunera",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1350632,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Lunera - $14.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/ca6e34b42c754a25c8ff05121c150f5ed0948fd0/ss_ca6e34b42c754a25c8ff05121c150f5ed0948fd0.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/ca6e34b42c754a25c8ff05121c150f5ed0948fd0/ss_ca6e34b42c754a25c8ff05121c150f5ed0948fd0.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/79541b7806c110e32b53430eb9bcd26e3c63cf4e/ss_79541b7806c110e32b53430eb9bcd26e3c63cf4e.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/79541b7806c110e32b53430eb9bcd26e3c63cf4e/ss_79541b7806c110e32b53430eb9bcd26e3c63cf4e.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/cc5d133e0845796decfd2c6109a2e69fa387e904/ss_cc5d133e0845796decfd2c6109a2e69fa387e904.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/cc5d133e0845796decfd2c6109a2e69fa387e904/ss_cc5d133e0845796decfd2c6109a2e69fa387e904.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/65ac2ffb4c3eb9306d1d4dac90dbbb8a07241e80/ss_65ac2ffb4c3eb9306d1d4dac90dbbb8a07241e80.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/65ac2ffb4c3eb9306d1d4dac90dbbb8a07241e80/ss_65ac2ffb4c3eb9306d1d4dac90dbbb8a07241e80.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/f3d7b45a80ce7d23ef697a795c8a64f936ce3596/ss_f3d7b45a80ce7d23ef697a795c8a64f936ce3596.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/f3d7b45a80ce7d23ef697a795c8a64f936ce3596/ss_f3d7b45a80ce7d23ef697a795c8a64f936ce3596.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/b6da497b3838124a82e583710a3ee67c4037112e/ss_b6da497b3838124a82e583710a3ee67c4037112e.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/b6da497b3838124a82e583710a3ee67c4037112e/ss_b6da497b3838124a82e583710a3ee67c4037112e.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/85646c408ca533c8a1467b169570de4bb1a2a2cf/ss_85646c408ca533c8a1467b169570de4bb1a2a2cf.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/85646c408ca533c8a1467b169570de4bb1a2a2cf/ss_85646c408ca533c8a1467b169570de4bb1a2a2cf.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/663dcfaadeaa0c0c97022037f35b355eed8b8a3e/ss_663dcfaadeaa0c0c97022037f35b355eed8b8a3e.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/663dcfaadeaa0c0c97022037f35b355eed8b8a3e/ss_663dcfaadeaa0c0c97022037f35b355eed8b8a3e.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/0dd380881867237b8f084dca2a2a29016033b2d5/ss_0dd380881867237b8f084dca2a2a29016033b2d5.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/0dd380881867237b8f084dca2a2a29016033b2d5/ss_0dd380881867237b8f084dca2a2a29016033b2d5.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/d2f3eead6c5807912253fc7b1722b87fa153e84a/ss_d2f3eead6c5807912253fc7b1722b87fa153e84a.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/d2f3eead6c5807912253fc7b1722b87fa153e84a/ss_d2f3eead6c5807912253fc7b1722b87fa153e84a.1920x1080.jpg?t=1788615485"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/cbcd55c815e3407b4506945899ae6f89fc3314a1/ss_cbcd55c815e3407b4506945899ae6f89fc3314a1.600x338.jpg?t=1788615485",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840890/cbcd55c815e3407b4506945899ae6f89fc3314a1/ss_cbcd55c815e3407b4506945899ae6f89fc3314a1.1920x1080.jpg?t=1788615485"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257267191,
+            "name": "gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257267191/0305aeef1e66136d5a785883e093d0652a3dd048/movie_600x337.jpg?t=1768706389",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3840890/322574327/d082afe9f1f649ecad3b28100bd68a81569ead71/1768706170/dash_av1.mpd?t=1768706389",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3840890/322574327/d082afe9f1f649ecad3b28100bd68a81569ead71/1768706170/dash_h264.mpd?t=1768706389",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3840890/322574327/d082afe9f1f649ecad3b28100bd68a81569ead71/1768706170/hls_264_master.m3u8?t=1768706389",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 16,
+          "highlighted": [
+            {
+              "icon": "e00f51ae53500ee7b34f6af92184889ce5765f1a.jpg",
+              "localized_name": "Level 20",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 20",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/e00f51ae53500ee7b34f6af92184889ce5765f1a.jpg"
+            },
+            {
+              "icon": "82c098e36ee221a6f91a2f3ed6bd0a70a78adc0b.jpg",
+              "localized_name": "Level 50",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 50",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/82c098e36ee221a6f91a2f3ed6bd0a70a78adc0b.jpg"
+            },
+            {
+              "icon": "afcd4a7cb556ccee01858f218e27600621660b87.jpg",
+              "localized_name": "Level 100",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 100",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/afcd4a7cb556ccee01858f218e27600621660b87.jpg"
+            },
+            {
+              "icon": "9ecbb754a747cf78f5ffc3b3ba5c7cfbc9bea62f.jpg",
+              "localized_name": "House Owner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "House Owner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/9ecbb754a747cf78f5ffc3b3ba5c7cfbc9bea62f.jpg"
+            },
+            {
+              "icon": "0e13d531ae9fcc01b9b500ebbd47d38e912de6cb.jpg",
+              "localized_name": "Dwarf Quest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dwarf Quest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/0e13d531ae9fcc01b9b500ebbd47d38e912de6cb.jpg"
+            },
+            {
+              "icon": "1356f38bb10a2370c30948ae5861da2f218d938e.jpg",
+              "localized_name": "Orc Quest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Orc Quest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/1356f38bb10a2370c30948ae5861da2f218d938e.jpg"
+            },
+            {
+              "icon": "b530b7432f2bdd37d1b81c9f2fa906237e3c209e.jpg",
+              "localized_name": "Black Dragon",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Black Dragon",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/b530b7432f2bdd37d1b81c9f2fa906237e3c209e.jpg"
+            },
+            {
+              "icon": "f4346305ff3a6d504bf5579a9cdb72d42273d931.jpg",
+              "localized_name": "Alaric",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Alaric",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/f4346305ff3a6d504bf5579a9cdb72d42273d931.jpg"
+            },
+            {
+              "icon": "073703cff0c54025dcbcfe825246debddc9a18ef.jpg",
+              "localized_name": "Zyrmaruk",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zyrmaruk",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/073703cff0c54025dcbcfe825246debddc9a18ef.jpg"
+            },
+            {
+              "icon": "bcf77eedbe5f79debe4e0dd67c08f6396287bbe6.jpg",
+              "localized_name": "Dracula",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dracula",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3840890/bcf77eedbe5f79debe4e0dd67c08f6396287bbe6.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 16, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "luneragame@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3840890?t=1788615485",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3840890?t=1788615485",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

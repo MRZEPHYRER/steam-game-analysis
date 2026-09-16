@@ -1,0 +1,66 @@
+{
+  "appid": 3900070,
+  "requested_at": "2026-09-13T19:57:15.853296+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206428828",
+        "author": {
+          "steamid": "76561198077338225",
+          "personaname": "Bentdick Lamar",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/caponandigotrackson/",
+          "num_games_owned": 207,
+          "num_reviews": 14,
+          "playtime_forever": 1567,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1094,
+          "last_played": 1784485419,
+          "avatar": "d45651ccd425c14ab2c03c88d39178187fb1cd2f"
+        },
+        "language": "english",
+        "review": "It's actually a cool new idea for flashcards. Instead of just clicking through cards mindlessly, you're actually playing a little game that keeps you more engaged. Different modes help with this too.\r\n\r\nIt's nothing fancy, but that's kind of the point. Could use some more features down the line, but for what it is right now, it does the job and makes studying a bit less painful. Worth checking out if you're tired of the same old flashcard grind.",
+        "timestamp_created": 1760178704,
+        "timestamp_updated": 1760178704,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756300785",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB8qbuTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2039999999997235,
+  "transport_error_count": 0
+}

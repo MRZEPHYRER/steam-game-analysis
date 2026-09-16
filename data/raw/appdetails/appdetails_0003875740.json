@@ -1,0 +1,271 @@
+{
+  "requested_at": "2026-09-12T17:40:59.625197+00:00",
+  "request_params": {
+    "appids": 3875740,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3875740,
+  "payload": {
+    "3875740": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Jump Now",
+        "steam_appid": 3875740,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a minimalist, precision-based platformer that focuses on tight controls, strategic level design, and increasing challenge. Just you, gravity, and a series of carefully crafted levels to overcome. Created with love, passion and dedication. As any self-respecting game-developer, I have decided that the next step on my journey has to be a proper platformer.</p><p class=\"bb_paragraph\" >I hope you enjoy it!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.poster.avif?t=1759343314\" width=32 height=32 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.webm?t=1759343314\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.mp4?t=1759343314\" type=\"video/mp4\"></video></span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a minimalist, precision-based platformer that focuses on tight controls, strategic level design, and increasing challenge. Just you, gravity, and a series of carefully crafted levels to overcome. Created with love, passion and dedication. As any self-respecting game-developer, I have decided that the next step on my journey has to be a proper platformer.</p><p class=\"bb_paragraph\" >I hope you enjoy it!</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.poster.avif?t=1759343314\" width=32 height=32 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.webm?t=1759343314\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/extras/5b286731dc837a80c9bc7de0a1bc4572.mp4?t=1759343314\" type=\"video/mp4\"></video></span></p>",
+        "short_description": "A simple yet challenging platformer. Jump from platform to platform, collect stars, and unlock new worlds every 15 stars. Each world brings fresh ideas, new mechanics, and tricky challenges. Precise jumps, pure platforming, no frills.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/c9c037d73812947f1acc8562f3ca502032a385e2/header.jpg?t=1759343314",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/e3136cf2f803676429f16e2cf3028b9d27a28536/capsule_231x87.jpg?t=1759343314",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/e3136cf2f803676429f16e2cf3028b9d27a28536/capsule_184x69.jpg?t=1759343314",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (SP1+), Windows 10 and Windows 11, 64-bit versions only.<br></li><li><strong>Processor:</strong> X64 architecture with SSE2 instruction set support<br></li><li><strong>Graphics:</strong> DX10, DX11, and DX12-capable GPUs<br></li><li><strong>Additional Notes:</strong> Used the general requirements for the Unity-Editor. Since that should be generously sufficient.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Now1K"
+        ],
+        "publishers": [
+          "Now Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1362454
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Jump Now",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1362454,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Now Jump - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/893fe2061a4d3d3b6635f53fd70e87989c35a68c/ss_893fe2061a4d3d3b6635f53fd70e87989c35a68c.600x338.jpg?t=1759343314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/893fe2061a4d3d3b6635f53fd70e87989c35a68c/ss_893fe2061a4d3d3b6635f53fd70e87989c35a68c.1920x1080.jpg?t=1759343314"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/6bc9b61af477b9e9b81af60c48e94eac29b31750/ss_6bc9b61af477b9e9b81af60c48e94eac29b31750.600x338.jpg?t=1759343314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/6bc9b61af477b9e9b81af60c48e94eac29b31750/ss_6bc9b61af477b9e9b81af60c48e94eac29b31750.1920x1080.jpg?t=1759343314"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/f5598daeebdd15e9248f25ec7d26314720588054/ss_f5598daeebdd15e9248f25ec7d26314720588054.600x338.jpg?t=1759343314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/f5598daeebdd15e9248f25ec7d26314720588054/ss_f5598daeebdd15e9248f25ec7d26314720588054.1920x1080.jpg?t=1759343314"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/2a87034a6c169394f936dc923990b8cc3f108219/ss_2a87034a6c169394f936dc923990b8cc3f108219.600x338.jpg?t=1759343314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/2a87034a6c169394f936dc923990b8cc3f108219/ss_2a87034a6c169394f936dc923990b8cc3f108219.1920x1080.jpg?t=1759343314"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/881732ae172af5db59ff161c7053795b211c642a/ss_881732ae172af5db59ff161c7053795b211c642a.600x338.jpg?t=1759343314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875740/881732ae172af5db59ff161c7053795b211c642a/ss_881732ae172af5db59ff161c7053795b211c642a.1920x1080.jpg?t=1759343314"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257208042,
+            "name": "NowJumpTrailer1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257208042/13278fa155ec3a28b6c839156e137b31787173fe/movie_600x337.jpg?t=1759084462",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3875740/531689749/78b4a729ce6f99ca1037836fe7dfcd71774df213/1759082127/dash_av1.mpd?t=1759084462",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3875740/531689749/78b4a729ce6f99ca1037836fe7dfcd71774df213/1759082127/dash_h264.mpd?t=1759084462",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3875740/531689749/78b4a729ce6f99ca1037836fe7dfcd71774df213/1759082127/hls_264_master.m3u8?t=1759084462",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "36c0c51dce01f0a055203768dacaf5abb981d97d.jpg",
+              "localized_name": "10 STARS!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "10 STARS!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/36c0c51dce01f0a055203768dacaf5abb981d97d.jpg"
+            },
+            {
+              "icon": "40204857742c0b133ae9c4b58e50c987a6bd4a5e.jpg",
+              "localized_name": "20 STARS!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "20 STARS!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/40204857742c0b133ae9c4b58e50c987a6bd4a5e.jpg"
+            },
+            {
+              "icon": "93511a52b923542860d8ac33ea3d2c0ffc17f997.jpg",
+              "localized_name": "30 STARS!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "30 STARS!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/93511a52b923542860d8ac33ea3d2c0ffc17f997.jpg"
+            },
+            {
+              "icon": "e702434153746f0f8ce2e08e275259e087e38adf.jpg",
+              "localized_name": "50 STARS!!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "50 STARS!!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/e702434153746f0f8ce2e08e275259e087e38adf.jpg"
+            },
+            {
+              "icon": "a2927acf1cfc4e3a45613c81beb010494fa83270.jpg",
+              "localized_name": "70 Stars!!!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "70 Stars!!!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/a2927acf1cfc4e3a45613c81beb010494fa83270.jpg"
+            },
+            {
+              "icon": "ff6b753fd78f6f0aa303f5b773724b68a29aafef.jpg",
+              "localized_name": "ALL THE STARS!!!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ALL THE STARS!!!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/ff6b753fd78f6f0aa303f5b773724b68a29aafef.jpg"
+            },
+            {
+              "icon": "92eb05439e62d30b365c5c5d9198d433ec7b07b7.jpg",
+              "localized_name": "First Level",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Level",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/92eb05439e62d30b365c5c5d9198d433ec7b07b7.jpg"
+            },
+            {
+              "icon": "754853ab8a1ae7afdf8aec1582f88f8711d6493f.jpg",
+              "localized_name": "World 2!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "World 2!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/754853ab8a1ae7afdf8aec1582f88f8711d6493f.jpg"
+            },
+            {
+              "icon": "dbfd1e76db1228bf2cb5d7320189e4e036dc2ce9.jpg",
+              "localized_name": "World 3!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "World 3!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3875740/dbfd1e76db1228bf2cb5d7320189e4e036dc2ce9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "DNowGames@proton.me"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3875740?t=1759343314",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3875740?t=1759343314",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

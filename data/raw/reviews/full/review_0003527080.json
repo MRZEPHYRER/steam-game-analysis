@@ -1,0 +1,66 @@
+{
+  "appid": 3527080,
+  "requested_at": "2026-09-13T19:20:35.182899+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 9,
+      "total_negative": 1,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "207850061",
+        "author": {
+          "steamid": "76561198053853659",
+          "personaname": "pixel",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/pix_el69/",
+          "num_games_owned": 1887,
+          "num_reviews": 372,
+          "playtime_forever": 68,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 68,
+          "last_played": 1761181960,
+          "avatar": "a65a2a40028240f807e412fde1ae27b85ca8d725"
+        },
+        "language": "english",
+        "review": "Pretty good and well designed horror game. I liked the voice acting and story plus the puzzles weren't that bad nor were they very hard besides the bookshelf puzzle. I would say this is pretty light horror game as it relies on atmosphere for a vast majority of the game and you don't get chased by anything unless you enter the one room and get teleported to hell. The only bad part of the game in my opinion is that there are no checkpoints or a chapter selector so you will have to play the game all the way from the beginning to see the other ending. Other than that this was a good horror game and I enjoyed it\n\nhttps://youtu.be/bKIiCeoalrw\n",
+        "timestamp_created": 1761716258,
+        "timestamp_updated": 1761716258,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.566929101943969727",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760810859",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYqVMAAAAAFP+IkSEAAAAB9pPGYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

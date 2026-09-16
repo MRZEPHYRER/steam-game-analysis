@@ -1,0 +1,189 @@
+{
+  "requested_at": "2026-09-13T07:23:32.117520+00:00",
+  "request_params": {
+    "appids": 4211930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4211930,
+  "payload": {
+    "4211930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Fireplace Game",
+        "steam_appid": 4211930,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >It's a game where you can build a cozy fire. You can add logs, kindling, stoke it, use bellows (the accordion looking thing), and more. There are also cute themes for different holidays. You can even extinguish it. (Whoa, this game is action packed!) Put it on your TV or your second monitor at work. It's an interactive fireplace. You get it.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >It's a game where you can build a cozy fire. You can add logs, kindling, stoke it, use bellows (the accordion looking thing), and more. There are also cute themes for different holidays. You can even extinguish it. (Whoa, this game is action packed!) Put it on your TV or your second monitor at work. It's an interactive fireplace. You get it.</p>",
+        "short_description": "It's a game where you can build a cozy fire. You can add logs, stoke it, use bellows (the accordion looking thing), and more. There are also cute themes for different holidays. Put it on your TV or your second monitor at work. It's an interactive fireplace. You get it.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/0b1cdad14f01c2e316c4ad8ec6c78c29864160ed/header.jpg?t=1765875271",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/bd700b06addcd06abc15e9e2749c2f1aa15f2838/capsule_231x87.jpg?t=1765875271",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/bd700b06addcd06abc15e9e2749c2f1aa15f2838/capsule_184x69.jpg?t=1765875271",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Any<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Any<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.13+<br></li><li><strong>Processor:</strong> Intel/Apple Silicon<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.13+<br></li><li><strong>Processor:</strong> Intel/Apple Silicon<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Aviva Siegel"
+        ],
+        "publishers": [
+          "Aviva Siegel"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1474999
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Fireplace Game",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1474999,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Fireplace Game - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/f3981673b78ee9b6a6d0ff31ddb93b344e90c44c/ss_f3981673b78ee9b6a6d0ff31ddb93b344e90c44c.600x338.jpg?t=1765875271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/f3981673b78ee9b6a6d0ff31ddb93b344e90c44c/ss_f3981673b78ee9b6a6d0ff31ddb93b344e90c44c.1920x1080.jpg?t=1765875271"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/ad4a08ae070178b8b71fc41e6703e06cf289aaad/ss_ad4a08ae070178b8b71fc41e6703e06cf289aaad.600x338.jpg?t=1765875271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/ad4a08ae070178b8b71fc41e6703e06cf289aaad/ss_ad4a08ae070178b8b71fc41e6703e06cf289aaad.1920x1080.jpg?t=1765875271"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/f2c69bf0b47b5882c9bbdea741826df7a5599a18/ss_f2c69bf0b47b5882c9bbdea741826df7a5599a18.600x338.jpg?t=1765875271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/f2c69bf0b47b5882c9bbdea741826df7a5599a18/ss_f2c69bf0b47b5882c9bbdea741826df7a5599a18.1920x1080.jpg?t=1765875271"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/d56427260ae3427f71000fac424bf4129d736f46/ss_d56427260ae3427f71000fac424bf4129d736f46.600x338.jpg?t=1765875271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/d56427260ae3427f71000fac424bf4129d736f46/ss_d56427260ae3427f71000fac424bf4129d736f46.1920x1080.jpg?t=1765875271"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/df268c4a92697d6f3ce07d15cc284562731fae8d/ss_df268c4a92697d6f3ce07d15cc284562731fae8d.600x338.jpg?t=1765875271",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211930/df268c4a92697d6f3ce07d15cc284562731fae8d/ss_df268c4a92697d6f3ce07d15cc284562731fae8d.1920x1080.jpg?t=1765875271"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257239709,
+            "name": "Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257239709/9e4a723aa38e907166aaa8325186a44fb4af7bdf/movie_600x337.jpg?t=1764356394",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4211930/508539126/0ef195c0589929551f6de2945f8380488f98b6c0/1764309086/dash_av1.mpd?t=1764356394",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4211930/508539126/0ef195c0589929551f6de2945f8380488f98b6c0/1764309086/dash_h264.mpd?t=1764356394",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4211930/508539126/0ef195c0589929551f6de2945f8380488f98b6c0/1764309086/hls_264_master.m3u8?t=1764356394",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 16, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "fireplacegamehelp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4211930?t=1765875271",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4211930?t=1765875271",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

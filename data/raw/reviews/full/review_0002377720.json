@@ -1,0 +1,75 @@
+{
+  "appid": 2377720,
+  "requested_at": "2026-09-13T18:50:21.429829+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "211802962",
+        "author": {
+          "steamid": "76561198016978315",
+          "personaname": "scottchiefbaker",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/scottchiefbaker/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 6,
+          "last_played": 1778646528,
+          "avatar": "175427b8f270bf15dd4de3baa55fc3d1a234f1ab"
+        },
+        "language": "english",
+        "review": " Let's see here\n\n* Support a small indie developer\n* Controls feel great\n*Nostalgia bomb\n* $5!?!\n\nThis is such a no-brainer. What a fun game.",
+        "timestamp_created": 1764476048,
+        "timestamp_updated": 1764476048,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.619800031185150146",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764440010",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 1
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXmqAAAAAAFP+PVZsAAAABytfunBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1870000000001255,
+  "transport_error_count": 0
+}

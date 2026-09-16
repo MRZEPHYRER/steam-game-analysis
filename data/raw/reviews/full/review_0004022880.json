@@ -1,0 +1,66 @@
+{
+  "appid": 4022880,
+  "requested_at": "2026-09-13T20:12:36.061168+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "207035641",
+        "author": {
+          "steamid": "76561198084630299",
+          "personaname": "준스배드",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198084630299/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 34,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 34,
+          "last_played": 1760817514,
+          "avatar": "8b2c635f87d0c4f507405c64e334b978d2364152"
+        },
+        "language": "koreana",
+        "review": "34분을 게임했는데, 발암이 치솟아 오름..\n1. 힌트를 유추해서 진행하는것 까진 ok, 작동오브젝트 표시도 안되어있고, 상호작용 문구도 안뜨니까 1~5번 생활관 계속 돌아다녀서 찾아다녀야함.\n2. 막힌 길을 찾아서 벽을 뚫고 미로까지 해쳐나가 앞에있는 포탈을 타고가도, 미로 첫지점으로 무한루프탐.\n3. 무엇보다 눈이 존나 아픔 왜케 빨건거임??.. \n4. 스태미너가 있는지 없는지 모르겠지만(ui가 없음), 가만히 서서 운좋게 돌아오거나, 죽어야 초기화됨\n5. 설정 못건드림. 마우스 감도 그대로 계속 해야함.",
+        "timestamp_created": 1760817700,
+        "timestamp_updated": 1760817923,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760777843",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB5z+OVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

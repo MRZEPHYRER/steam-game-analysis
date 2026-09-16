@@ -1,0 +1,85 @@
+{
+  "appid": 2308690,
+  "requested_at": "2026-09-13T18:49:23.498017+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1187,
+      "total_negative": 216,
+      "total_reviews": 1403
+    },
+    "reviews": [
+      {
+        "recommendationid": "228022347",
+        "author": {
+          "steamid": "76561197999711115",
+          "personaname": "StoneAndTimber",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197999711115/",
+          "num_games_owned": 0,
+          "num_reviews": 47,
+          "playtime_forever": 32,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 32,
+          "last_played": 1781494536,
+          "avatar": "9f7df87a39a3051069dc4450e6e74d8cc0d8a7ad"
+        },
+        "language": "english",
+        "review": "Ground of Aces has an incredible premise: build and manage a WWII airbase during the Battle of Britain. Unfortunately, after trying it, I came away feeling like it is an average colony sim wrapped in a thin WWII blanket.\n\nThe biggest issue is that the WWII theme often feels cosmetic rather than fundamental to the gameplay. I came in expecting to manage aircraft operations, logistics, pilots, maintenance, repairs, and the constant pressure of wartime operations. Instead, I spent a surprising amount of time gathering resources, constructing facilities piece by piece, and engaging in fairly standard colony-sim activities that could exist in almost any setting.\n\nA good question to ask is: if you replaced the airplanes with generic workers and buildings, would this still stand out? For me, the answer was no.\n\nThe game also feels caught between two design philosophies. In some areas it demands meticulous micromanagement—such as building tent structures section by section—while in other areas the world itself feels oddly artificial and underdeveloped. The maps I played on felt small and uninteresting. Instead of organic terrain features like rivers or natural geography shaping an airfield, I found tiny circular ponds scattered around the map. It creates an odd disconnect: if the game is asking me to care about tiny construction details, why does the world itself feel so gamey?\n\nOnboarding was rough as well. During the tutorial I ran into issues with workstations not being built properly, which is not a great first impression for a management game that lives or dies by its systems and clarity.\n\nMore broadly, the game feels shallow in some ways while taking itself very seriously in others. There are hints of deeper systems here, but many mechanics currently feel more like checklists than meaningful decisions. I never really felt like I was running a living wartime airbase. I felt like I was managing a colony sim wearing an RAF uniform.\n\nTo be clear: the art style is attractive, the premise is fantastic, and I can see why people are excited about its future. But in its current Early Access state, it feels undercooked, lacking refinement, and overly reliant on its excellent theme to carry gameplay that isn't yet exceptional.\n\nI may revisit it in a year or two, because the potential is absolutely there. But right now, I ultimately refunded it.",
+        "timestamp_created": 1781527193,
+        "timestamp_updated": 1781527344,
+        "voted_up": false,
+        "votes_up": 86,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.860305666923522949",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1781788125,
+        "developer_response": "Thank you for your detailed review; we appreciate the honest feedback. It's good to hear that you like the art style and premise, and I am sorry that the other parts felt undercooked for you. These perspectives are also important for us so that we know what we can improve.\n\nWe keep the feedback from reviews like this in mind while we continue to expand the game and work towards the 1.0 version. I hope you can come back to the game at a later point.",
+        "app_release_date": "1752159559",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 3
+          },
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 34,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSyzuAAAAAFP+uHoIAAAAB7hOvlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

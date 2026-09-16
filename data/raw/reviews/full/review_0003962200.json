@@ -1,0 +1,66 @@
+{
+  "appid": 3962200,
+  "requested_at": "2026-09-13T20:05:47.871291+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 0,
+      "total_negative": 4,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "213485889",
+        "author": {
+          "steamid": "76561198076912244",
+          "personaname": "CAG17",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Ceyro17/",
+          "num_games_owned": 412,
+          "num_reviews": 63,
+          "playtime_forever": 194,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 190,
+          "last_played": 1765959159,
+          "avatar": "acfeb35368053fc492fea73249f317f03fba3767"
+        },
+        "language": "english",
+        "review": "No speed ups, no bulk buy units, I'd've 100% this in under an hour if the game didnt bog down when you buy too many units, and the main money multiplier late game as far as I can tell... is having more units. Definitely not worth full price, I think I paid 3$ something when it was on sale and even that feels like I wasted it,",
+        "timestamp_created": 1765958920,
+        "timestamp_updated": 1765958920,
+        "voted_up": false,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.538284420967102051",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765900819",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZQjKAAAAAFP+Evr4AAAABxlLGuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.7659999999996217,
+  "transport_error_count": 0
+}

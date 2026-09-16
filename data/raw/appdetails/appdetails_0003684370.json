@@ -1,0 +1,361 @@
+{
+  "requested_at": "2026-09-12T16:04:57.091292+00:00",
+  "request_params": {
+    "appids": 3684370,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3684370,
+  "payload": {
+    "3684370": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Rabbit's Hop",
+        "steam_appid": 3684370,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Test your brain with this clever rabbit puzzle game full of strategy and charm!</p><p class=\"bb_paragraph\" >In each level, you’ll guide a group of bunnies as they hop over each other into a single hole — but their jumps are limited, so every move must be planned with care.</p><p class=\"bb_paragraph\" >Use logic and timing to create the perfect chain of hops. Think it’s simple? Think again! The world is alive with obstacles and helpers — squirrels, tree barks, and water lilies offer moving rides across ponds.</p><p class=\"bb_paragraph\" >Every puzzle is a test of wit and planning, with fun mechanics that grow as you play. Whether you’re hopping past hazards or using nature to your advantage, each level offers a new challenge to solve. Perfect for fans of thoughtful, grid-based puzzles with a fresh twist!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Test your brain with this clever rabbit puzzle game full of strategy and charm!</p><p class=\"bb_paragraph\" >In each level, you’ll guide a group of bunnies as they hop over each other into a single hole — but their jumps are limited, so every move must be planned with care.</p><p class=\"bb_paragraph\" >Use logic and timing to create the perfect chain of hops. Think it’s simple? Think again! The world is alive with obstacles and helpers — squirrels, tree barks, and water lilies offer moving rides across ponds.</p><p class=\"bb_paragraph\" >Every puzzle is a test of wit and planning, with fun mechanics that grow as you play. Whether you’re hopping past hazards or using nature to your advantage, each level offers a new challenge to solve. Perfect for fans of thoughtful, grid-based puzzles with a fresh twist!</p>",
+        "short_description": "Guide clever rabbits into one hole using smart hops and limited moves. Plan each jump carefully — squirrels, logs, and lily pads add fun twists! Use obstacles wisely to solve unique puzzles that blend logic, timing, and strategy.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Portuguese - Portugal, Romanian, Russian, Simplified Chinese, Spanish - Latin America, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/cfe4c646bf2af15c5c8b96cc81b8c7732a96bbd5/header.jpg?t=1786966001",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/6ac6ee6228498538663db8ab022c0f70b27126fb/capsule_231x87.jpg?t=1786966001",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/6ac6ee6228498538663db8ab022c0f70b27126fb/capsule_184x69.jpg?t=1786966001",
+        "website": "https://triomatica.games",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7 or newer<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7 and newer<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS 10.10 and newer<br></li><li><strong>Processor:</strong> Both Apple Silicon and Intel<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS 10.10 and newer<br></li><li><strong>Processor:</strong> Both Apple Silicon and Intel<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14 and newer<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14 and newer<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "developers": [
+          "Triomatica Games"
+        ],
+        "publishers": [
+          "Triomatica Games"
+        ],
+        "demos": [
+          {
+            "appid": 3684380,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1297624
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Rabbit's Hop",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1297624,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Rabbit's Hop - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/d1916c2147ff9ab3f16abd1c6c619a1441e12e2d/ss_d1916c2147ff9ab3f16abd1c6c619a1441e12e2d.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/d1916c2147ff9ab3f16abd1c6c619a1441e12e2d/ss_d1916c2147ff9ab3f16abd1c6c619a1441e12e2d.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/cc524522246e479bf412a5d6140d27204ff71ceb/ss_cc524522246e479bf412a5d6140d27204ff71ceb.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/cc524522246e479bf412a5d6140d27204ff71ceb/ss_cc524522246e479bf412a5d6140d27204ff71ceb.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/46008f5edfdaf7101d4f6600aa0e7c9e7926995f/ss_46008f5edfdaf7101d4f6600aa0e7c9e7926995f.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/46008f5edfdaf7101d4f6600aa0e7c9e7926995f/ss_46008f5edfdaf7101d4f6600aa0e7c9e7926995f.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/80101dbbd4bbe5660546da644a495b235757390a/ss_80101dbbd4bbe5660546da644a495b235757390a.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/80101dbbd4bbe5660546da644a495b235757390a/ss_80101dbbd4bbe5660546da644a495b235757390a.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/1d438d0c0889cfaea16f890e983a4ea24d7f07d6/ss_1d438d0c0889cfaea16f890e983a4ea24d7f07d6.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/1d438d0c0889cfaea16f890e983a4ea24d7f07d6/ss_1d438d0c0889cfaea16f890e983a4ea24d7f07d6.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/89827be8a34797d10e154fea22d902ed30ae0623/ss_89827be8a34797d10e154fea22d902ed30ae0623.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/89827be8a34797d10e154fea22d902ed30ae0623/ss_89827be8a34797d10e154fea22d902ed30ae0623.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/0d50006b7834b0e2dfb1c74acc8f10c86aed952e/ss_0d50006b7834b0e2dfb1c74acc8f10c86aed952e.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/0d50006b7834b0e2dfb1c74acc8f10c86aed952e/ss_0d50006b7834b0e2dfb1c74acc8f10c86aed952e.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/4afaa83a80ec9ad0303c0812c8b19426d541c367/ss_4afaa83a80ec9ad0303c0812c8b19426d541c367.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/4afaa83a80ec9ad0303c0812c8b19426d541c367/ss_4afaa83a80ec9ad0303c0812c8b19426d541c367.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/0f48821f1ea54bc22bd04dc2a4f4020e5af3709d/ss_0f48821f1ea54bc22bd04dc2a4f4020e5af3709d.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/0f48821f1ea54bc22bd04dc2a4f4020e5af3709d/ss_0f48821f1ea54bc22bd04dc2a4f4020e5af3709d.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/fe07d7fe37d7bbf1a21c8eb3d5f7ecb89d3b121d/ss_fe07d7fe37d7bbf1a21c8eb3d5f7ecb89d3b121d.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/fe07d7fe37d7bbf1a21c8eb3d5f7ecb89d3b121d/ss_fe07d7fe37d7bbf1a21c8eb3d5f7ecb89d3b121d.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/741e39d2df0c5a7e8c1c2e7c24915760238568cc/ss_741e39d2df0c5a7e8c1c2e7c24915760238568cc.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/741e39d2df0c5a7e8c1c2e7c24915760238568cc/ss_741e39d2df0c5a7e8c1c2e7c24915760238568cc.1920x1080.jpg?t=1786966001"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/d95d450c2b92a807c21a524da038e4e4d9ee871e/ss_d95d450c2b92a807c21a524da038e4e4d9ee871e.600x338.jpg?t=1786966001",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/d95d450c2b92a807c21a524da038e4e4d9ee871e/ss_d95d450c2b92a807c21a524da038e4e4d9ee871e.1920x1080.jpg?t=1786966001"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257216595,
+            "name": "Rabbit's Hop Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257216595/9f07cd198a766d362f0ef1412b19ab3ec28c867b/movie_600x337.jpg?t=1760303031",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3684370/1001737832/4f5c52a5eaeb92dc6e410f6382ee47275a8890e3/1760302607/dash_av1.mpd?t=1760303031",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3684370/1001737832/4f5c52a5eaeb92dc6e410f6382ee47275a8890e3/1760302607/dash_h264.mpd?t=1760303031",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3684370/1001737832/4f5c52a5eaeb92dc6e410f6382ee47275a8890e3/1760302607/hls_264_master.m3u8?t=1760303031",
+            "highlight": true
+          },
+          {
+            "id": 257217358,
+            "name": "Rabbit's Hop Trailer 2",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217358/29cae3e5b0f95e83a957818382d452b108617f94/movie_600x337.jpg?t=1760384256",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3684370/791696401/99a3a70750b1883022078017cbf8be9bb08a50e2/1760383407/dash_av1.mpd?t=1760384256",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3684370/791696401/99a3a70750b1883022078017cbf8be9bb08a50e2/1760383407/dash_h264.mpd?t=1760384256",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3684370/791696401/99a3a70750b1883022078017cbf8be9bb08a50e2/1760383407/hls_264_master.m3u8?t=1760384256",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 17,
+          "highlighted": [
+            {
+              "icon": "02c5f7d4e16e1c0c36e23c718a53d537ae8bfa27.jpg",
+              "localized_name": "Green Forest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Green Forest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/02c5f7d4e16e1c0c36e23c718a53d537ae8bfa27.jpg"
+            },
+            {
+              "icon": "888a1d32c1f92e752b420d4943217a71747c2f2e.jpg",
+              "localized_name": "Sunny Beach",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sunny Beach",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/888a1d32c1f92e752b420d4943217a71747c2f2e.jpg"
+            },
+            {
+              "icon": "958a4c7540c575d1b03f89404a1e26f1a29052ed.jpg",
+              "localized_name": "Snowy Mountains",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Snowy Mountains",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/958a4c7540c575d1b03f89404a1e26f1a29052ed.jpg"
+            },
+            {
+              "icon": "8b75f213bd2b88f37dfee657632f8e652dd75b41.jpg",
+              "localized_name": "Moon Base",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Moon Base",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/8b75f213bd2b88f37dfee657632f8e652dd75b41.jpg"
+            },
+            {
+              "icon": "8fca20f4e70e013a997d1391130aa5a91b275929.jpg",
+              "localized_name": "Golden Forest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Golden Forest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/8fca20f4e70e013a997d1391130aa5a91b275929.jpg"
+            },
+            {
+              "icon": "7b525dba6353b9c3450145a7b17fa66f0f55240e.jpg",
+              "localized_name": "Golden Beach",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Golden Beach",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/7b525dba6353b9c3450145a7b17fa66f0f55240e.jpg"
+            },
+            {
+              "icon": "0dc73e136540681586507af586dcc799497993e0.jpg",
+              "localized_name": "Golden Moon",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Golden Moon",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/0dc73e136540681586507af586dcc799497993e0.jpg"
+            },
+            {
+              "icon": "ab329f31c3be78554b7ecc32e4a2b9d43e7bc20b.jpg",
+              "localized_name": "Golden Rabbit",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Golden Rabbit",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/ab329f31c3be78554b7ecc32e4a2b9d43e7bc20b.jpg"
+            },
+            {
+              "icon": "fc2b0315b1d2678601b115479e91efce9d66bb6b.jpg",
+              "localized_name": "Rabbit Commander",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rabbit Commander",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/fc2b0315b1d2678601b115479e91efce9d66bb6b.jpg"
+            },
+            {
+              "icon": "ec97ab3b145c53e623f0b57be53ef027e16e70d9.jpg",
+              "localized_name": "Home Sweet Home",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Home Sweet Home",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3684370/ec97ab3b145c53e623f0b57be53ef027e16e70d9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "support_info": {
+          "url": "https://triomatica.games",
+          "email": "hi@triomatica.games"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3684370?t=1786966001",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3684370/fd7e87fb2d4e207e9a5a8efc844b973ea25c8ffb/page_bg_raw.jpg?t=1786966001",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

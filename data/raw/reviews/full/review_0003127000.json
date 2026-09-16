@@ -1,0 +1,66 @@
+{
+  "appid": 3127000,
+  "requested_at": "2026-09-13T19:04:52.194853+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 273,
+      "total_negative": 34,
+      "total_reviews": 307
+    },
+    "reviews": [
+      {
+        "recommendationid": "207542460",
+        "author": {
+          "steamid": "76561199106962419",
+          "personaname": "simezi9",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199106962419/",
+          "num_games_owned": 277,
+          "num_reviews": 81,
+          "playtime_forever": 634,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 634,
+          "last_played": 1761331475,
+          "avatar": "9c0782bf8f4544a2f63d5471204c8c90143c4e05"
+        },
+        "language": "japanese",
+        "review": "正式リリースで最後の5章までプレイしました。\n結論から言えば、ランダマイザーによる斬新なレトロRPGの再解釈！みたいな壮大なことを期待していると肩透かしを喰らいますが、悪いゲームではないです。\n\nその程度の評価に留まるのは、そもそもゲームのボリューム（アイテム・ダンジョン・魔法etc)自体があまり多くないので、それらをいかにランダムに組み替えてみたところで斬新なゲーム体験が毎回展開されるわけではないからです。\n\nとはいえシンプルなDQ1ライクのRPGに一捻り入ったもの、と思えばなかなか楽しめますし\n宝箱を開けて何が出てくるか楽しんだり、マップで街を見つけたときにどこの街だろう？とワクワクしながら入っていき武器屋の品揃えに一喜一憂する体験が何度も出来る、というのはいいところだと思います。\n\nまた別の視点として、タイムアタック的な探求を好む方にはなかなか手応えのあるゲームなのかもしれません。",
+        "timestamp_created": 1761395752,
+        "timestamp_updated": 1761490255,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.744909703731536865",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1742576450",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVGg+AAAAAFP+fWTYAAAAB8i9uXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

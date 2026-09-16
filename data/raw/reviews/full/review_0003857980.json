@@ -1,0 +1,66 @@
+{
+  "appid": 3857980,
+  "requested_at": "2026-09-13T19:50:32.539756+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 17,
+      "total_negative": 5,
+      "total_reviews": 22
+    },
+    "reviews": [
+      {
+        "recommendationid": "209118369",
+        "author": {
+          "steamid": "76561198125359324",
+          "personaname": "小黑大王",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198125359324/",
+          "num_games_owned": 0,
+          "num_reviews": 136,
+          "playtime_forever": 103,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 103,
+          "last_played": 1763041944,
+          "avatar": "0e20b76775d41becda6b2ddff7a12c84aa3a2112"
+        },
+        "language": "schinese",
+        "review": "好玩 爱玩 多玩 大家快来玩！！！手指特别美味 特别好吃！吸溜吸溜~粗美味~",
+        "timestamp_created": 1763042032,
+        "timestamp_updated": 1763042067,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762876841",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAABxytydBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

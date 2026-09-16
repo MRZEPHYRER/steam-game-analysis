@@ -1,0 +1,81 @@
+{
+  "appid": 1594040,
+  "requested_at": "2026-09-13T18:43:46.732420+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 229,
+      "total_negative": 130,
+      "total_reviews": 359
+    },
+    "reviews": [
+      {
+        "recommendationid": "207799851",
+        "author": {
+          "steamid": "76561198789711896",
+          "personaname": "Evoltal",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Evoltal/",
+          "num_games_owned": 136,
+          "num_reviews": 35,
+          "playtime_forever": 275,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 61,
+          "last_played": 1788090424,
+          "avatar": "a36fe7a03bc4bc590e8cd1681b341f786f7b6986"
+        },
+        "language": "english",
+        "review": "Playing this i realized i'd rather just play Burnout. And it's really unfortunate, because i was really looking forward to this game, but it just feels like an Alpha.\n-The handling is weird and really unpredictable\n-The performance can be ok, tho there are too many frame drops. One time i took down an opponent and after that the frame rate just DIPPED to 10 FPS and didn't change back at all. Not really understandable, considering the game really doesn't look that great.\n-The map is really bland and boring\n-When you missed a corner or something, the game doesn't give you an option to reset back before the checkpoint, meaning you either have to go back, get the checkpoint and then try to catch up (wich is almost impossible, since there apparently is no rubberbanding)\n-Some Road Rages are just not normally possible, since you have way too less time and can only crash 3 times\n\nThese are just some things that bothered me. I might check it out later down the line, when it got a few updates and is on sale, but rn i don't this game is worth 40€ (or 36€ due to release sale). I can't deny that i had some fun, but that was probably just because the gameplay is very similar to Burnout, but it does nothing better at all.\nReally a shame",
+        "timestamp_created": 1761667503,
+        "timestamp_updated": 1761667503,
+        "voted_up": false,
+        "votes_up": 157,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.870780706405639648",
+        "comment_count": 13,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1764154785,
+        "developer_response": "Hi, I can totally understand why you would write this after an hour of play with the frame rate issues you mentioned - it would have affected almost all the issues you mentioned particularly handling. We had a caching issue that we weren't aware of until release as the game had passed all previous tests fine - this was not ideal but we fixed it quickly. Hopefully you will give it another go now that we have patched the game and you will have more fun.",
+        "app_release_date": "1761659737",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 19,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSlZoAAAAAFP+vdcCAAAAB74tiYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9680000000000746,
+  "transport_error_count": 0
+}

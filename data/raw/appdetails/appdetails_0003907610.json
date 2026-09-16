@@ -1,0 +1,190 @@
+{
+  "requested_at": "2026-09-12T17:56:44.763527+00:00",
+  "request_params": {
+    "appids": 3907610,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3907610,
+  "payload": {
+    "3907610": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "君の心臓とコスモスを見る",
+        "steam_appid": 3907610,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>With love from the heart, anytime.</strong></p><p class=\"bb_paragraph\" ><strong>At any time, people can live on.</strong></p><p class=\"bb_paragraph\" >A visual novel with about 2 hours of playtime.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>With love from the heart, anytime.</strong></p><p class=\"bb_paragraph\" ><strong>At any time, people can live on.</strong></p><p class=\"bb_paragraph\" >A visual novel with about 2 hours of playtime.</p>",
+        "short_description": "In this story, three troubled high school girls. The tale then shifts to his past, where he meets his destined partner, only to face her congenital heart disease. It’s a story of how each path leads to its own form of happiness.",
+        "supported_languages": "Japanese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/bbd67a3ee95e7d3496978295805059084c42c92a/header.jpg?t=1758731293",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/afc74899850b1a8a7875c1b19c6edea219146694/capsule_231x87.jpg?t=1758731293",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/afc74899850b1a8a7875c1b19c6edea219146694/capsule_184x69.jpg?t=1758731293",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> 2.0GHz Dual Core or better<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 compatible GPU<br></li><li><strong>Storage:</strong> 5000 MB available space<br></li><li><strong>Sound Card:</strong> DirectSound compatible sound card</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "まるソフト"
+        ],
+        "publishers": [
+          "まるソフト"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1423134
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 君の心臓とコスモスを見る",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1423134,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "君の心臓とコスモスを見る - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/6b2d8a538c70908fd3d94f7f1d4c42340dc2624f/ss_6b2d8a538c70908fd3d94f7f1d4c42340dc2624f.600x338.jpg?t=1758731293",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/6b2d8a538c70908fd3d94f7f1d4c42340dc2624f/ss_6b2d8a538c70908fd3d94f7f1d4c42340dc2624f.1920x1080.jpg?t=1758731293"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/99f17d41c519253686bda9eff3be3a2a8e1ff7d3/ss_99f17d41c519253686bda9eff3be3a2a8e1ff7d3.600x338.jpg?t=1758731293",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/99f17d41c519253686bda9eff3be3a2a8e1ff7d3/ss_99f17d41c519253686bda9eff3be3a2a8e1ff7d3.1920x1080.jpg?t=1758731293"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/e9efebb4ed6bdc0dd59a2fcf35b1c123aca138f6/ss_e9efebb4ed6bdc0dd59a2fcf35b1c123aca138f6.600x338.jpg?t=1758731293",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/e9efebb4ed6bdc0dd59a2fcf35b1c123aca138f6/ss_e9efebb4ed6bdc0dd59a2fcf35b1c123aca138f6.1920x1080.jpg?t=1758731293"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/c93c33764b7737e2edf6a8a177473953999fffd5/ss_c93c33764b7737e2edf6a8a177473953999fffd5.600x338.jpg?t=1758731293",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/c93c33764b7737e2edf6a8a177473953999fffd5/ss_c93c33764b7737e2edf6a8a177473953999fffd5.1920x1080.jpg?t=1758731293"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/e379c5bffbeeb5c4786e38858cf620eb7e62b9ae/ss_e379c5bffbeeb5c4786e38858cf620eb7e62b9ae.600x338.jpg?t=1758731293",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907610/e379c5bffbeeb5c4786e38858cf620eb7e62b9ae/ss_e379c5bffbeeb5c4786e38858cf620eb7e62b9ae.1920x1080.jpg?t=1758731293"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257175059,
+            "name": "【プレイ動画（3つ目のお話）】",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257175059/1f7b2ce56543885398966226c8e515ff473152a7/movie_600x337.jpg?t=1753988622",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3907610/1386397254/8f1b6e021c742cb4667b354df03385015024d224/1753744915/dash_av1.mpd?t=1753988622",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3907610/1386397254/8f1b6e021c742cb4667b354df03385015024d224/1753744915/dash_h264.mpd?t=1753988622",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3907610/1386397254/8f1b6e021c742cb4667b354df03385015024d224/1753744915/hls_264_master.m3u8?t=1753988622",
+            "highlight": true
+          },
+          {
+            "id": 257174219,
+            "name": "【エンディングテーマ（絵なし）】",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174219/38f87065647726ac7238e96e038e924d23abe515/movie_600x337.jpg?t=1753988625",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3907610/1108796108/84497c66b9d045716346eb99b8467e53dc8b03db/1753510794/dash_av1.mpd?t=1753988625",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3907610/1108796108/84497c66b9d045716346eb99b8467e53dc8b03db/1753510794/dash_h264.mpd?t=1753988625",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3907610/1108796108/84497c66b9d045716346eb99b8467e53dc8b03db/1753510794/hls_264_master.m3u8?t=1753988625",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2025"
+        },
+        "support_info": {
+          "url": "https://twitter.com/UIFLOBvmrK64687",
+          "email": "cross.2cicadas@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3907610?t=1758731293",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3907610?t=1758731293",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

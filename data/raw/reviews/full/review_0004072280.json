@@ -1,0 +1,66 @@
+{
+  "appid": 4072280,
+  "requested_at": "2026-09-13T20:17:11.147221+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "208885742",
+        "author": {
+          "steamid": "76561199849593315",
+          "personaname": "Drill",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199849593315/",
+          "num_games_owned": 0,
+          "num_reviews": 20,
+          "playtime_forever": 46,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 45,
+          "last_played": 1762785984,
+          "avatar": "7d04bf241ba6f5e5fcb5111ca1cce6b6d99fa439"
+        },
+        "language": "english",
+        "review": "I love this, because I can create any profession! I’m tired of GPT always telling me to consult an expert just to get some information. Here I’ve created several experts who can help you with your questions! They’re published — give me a like :)",
+        "timestamp_created": 1762785599,
+        "timestamp_updated": 1762785599,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.428919106721878052",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762775894",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFda6IAAAAAFP9t0YCAAAAB+/uqcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

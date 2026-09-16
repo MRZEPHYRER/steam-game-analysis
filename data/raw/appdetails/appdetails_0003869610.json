@@ -1,0 +1,202 @@
+{
+  "requested_at": "2026-09-12T17:37:57.179074+00:00",
+  "request_params": {
+    "appids": 3869610,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3869610,
+  "payload": {
+    "3869610": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Astraphia",
+        "steam_appid": 3869610,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Astraphia is an action roguelike with fast-paced combat, class-based progression, and procedural generation. Build unique loadouts, unlock abilities, defeat challenging enemies, and earn divine blessings as you fight to survive intense, replayable runs.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Astraphia is an action roguelike with fast-paced combat, class-based progression, and procedural generation. Build unique loadouts, unlock abilities, defeat challenging enemies, and earn divine blessings as you fight to survive intense, replayable runs.</p>",
+        "short_description": "Astraphia is an action roguelike with fast-paced combat, class-based progression, and procedural generation. Build unique loadouts, unlock abilities, defeat challenging enemies, and earn divine blessings as you fight to survive intense, replayable runs.",
+        "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/9515a2851da08dd0c01c49c2675d22107695d83b/header.jpg?t=1759249419",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/27adb63bf915212ff393ca2d68a5d6e8ab2315d5/capsule_231x87.jpg?t=1759249419",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/27adb63bf915212ff393ca2d68a5d6e8ab2315d5/capsule_184x69.jpg?t=1759249419",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows® 10 (64-bit)<br></li><li><strong>Processor:</strong>  Intel® Core™ i5-750 (quad-core) / AMD® Phenom™ II X4 965 (quad-core)<br></li><li><strong>Memory:</strong> 4  GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA® GeForce® GT 630 (2 GB) / AMD® Radeon™ HD 6670 (2 GB)<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows® 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel® Core™ i5-3570 (quad-core) / AMD® FX-Series™ FX-8300 (quad-core)<br></li><li><strong>Memory:</strong> 8  GB RAM<br></li><li><strong>Graphics:</strong>  NVIDIA® GeForce® GTX 650 (2 GB) / AMD® Radeon™ HD 7750 (2 GB)<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 (Big Sur) or later<br></li><li><strong>Processor:</strong> Any Intel or Apple Silicon processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 2 GB<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11 (Big Sur) or later<br></li><li><strong>Processor:</strong> Any Intel or Apple Silicon processor<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> 4 GB<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 or equivalent<br></li><li><strong>Processor:</strong> Intel Core i3 (3rd generation or higher)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphics 630 or equivalent<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Memory:</strong> 8 GB RAM</li></ul>"
+        },
+        "developers": [
+          "Archerforge Studios"
+        ],
+        "publishers": [
+          "Archerforge Studios"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1360276
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Astraphia",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1360276,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Astraphia - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/a5f891aff53e78ed05b21653838bda0e3fd534af/ss_a5f891aff53e78ed05b21653838bda0e3fd534af.600x338.jpg?t=1759249419",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/a5f891aff53e78ed05b21653838bda0e3fd534af/ss_a5f891aff53e78ed05b21653838bda0e3fd534af.1920x1080.jpg?t=1759249419"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/7b9c18b1bc375417c5be974f277b0b5ceda6b8a4/ss_7b9c18b1bc375417c5be974f277b0b5ceda6b8a4.600x338.jpg?t=1759249419",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/7b9c18b1bc375417c5be974f277b0b5ceda6b8a4/ss_7b9c18b1bc375417c5be974f277b0b5ceda6b8a4.1920x1080.jpg?t=1759249419"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/9819fc49d716aee2e515214429f92a62c882733b/ss_9819fc49d716aee2e515214429f92a62c882733b.600x338.jpg?t=1759249419",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/9819fc49d716aee2e515214429f92a62c882733b/ss_9819fc49d716aee2e515214429f92a62c882733b.1920x1080.jpg?t=1759249419"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/6839e6782f51023b5bd259f3d7328f0b5e16ad7f/ss_6839e6782f51023b5bd259f3d7328f0b5e16ad7f.600x338.jpg?t=1759249419",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/6839e6782f51023b5bd259f3d7328f0b5e16ad7f/ss_6839e6782f51023b5bd259f3d7328f0b5e16ad7f.1920x1080.jpg?t=1759249419"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/fc7ab96440fe1ae3fcc8fe5532cdb738742c4840/ss_fc7ab96440fe1ae3fcc8fe5532cdb738742c4840.600x338.jpg?t=1759249419",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869610/fc7ab96440fe1ae3fcc8fe5532cdb738742c4840/ss_fc7ab96440fe1ae3fcc8fe5532cdb738742c4840.1920x1080.jpg?t=1759249419"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257188099,
+            "name": "Gameplay Astraphia",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257188099/96bd093a405f8cd90687c072dae3489dfd72926f/movie_600x337.jpg?t=1756065418",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3869610/1808296887/49b6f6e04476b5728be5468e372697123404f15b/1756064083/dash_av1.mpd?t=1756065418",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3869610/1808296887/49b6f6e04476b5728be5468e372697123404f15b/1756064083/dash_h264.mpd?t=1756065418",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3869610/1808296887/49b6f6e04476b5728be5468e372697123404f15b/1756064083/hls_264_master.m3u8?t=1756065418",
+            "highlight": true
+          },
+          {
+            "id": 257174289,
+            "name": "Cinematic Astraphia",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174289/7527cc22af9759d6bfb522ea2ef54c30828007b2/movie_600x337.jpg?t=1755069984",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3869610/973111221/862e2412df93998c8b794ea626f309226900fe8c/1753555477/dash_av1.mpd?t=1755069984",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3869610/973111221/862e2412df93998c8b794ea626f309226900fe8c/1753555477/dash_h264.mpd?t=1755069984",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3869610/973111221/862e2412df93998c8b794ea626f309226900fe8c/1753555477/hls_264_master.m3u8?t=1755069984",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "willpapeteiro@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3869610?t=1759249419",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3869610?t=1759249419",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

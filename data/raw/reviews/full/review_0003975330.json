@@ -1,0 +1,66 @@
+{
+  "appid": 3975330,
+  "requested_at": "2026-09-13T20:07:06.291545+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 0,
+      "total_negative": 4,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "205028843",
+        "author": {
+          "steamid": "76561198855314616",
+          "personaname": "gamagang",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198855314616/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1758625300,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "koreana",
+        "review": "가시성이 너무 없고 이건 vr로도 못써먹을거 같은데 토하는 다이어트 하려면 이 게임을 하세요",
+        "timestamp_created": 1758635447,
+        "timestamp_updated": 1758635447,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758179639",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB73o+OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

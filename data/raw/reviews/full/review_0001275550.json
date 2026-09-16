@@ -1,0 +1,75 @@
+{
+  "appid": 1275550,
+  "requested_at": "2026-09-13T18:42:19.410762+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 274,
+      "total_negative": 52,
+      "total_reviews": 326
+    },
+    "reviews": [
+      {
+        "recommendationid": "225184611",
+        "author": {
+          "steamid": "76561198042722798",
+          "personaname": "StavroS",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198042722798/",
+          "num_games_owned": 287,
+          "num_reviews": 16,
+          "playtime_forever": 576,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 576,
+          "last_played": 1778405556,
+          "avatar": "e89ef12e1cf9aa5f1866666dad566c7a679d00ee"
+        },
+        "language": "russian",
+        "review": "В общем, после firewatch эта игра не вызывала у меня каких-либо завышенных ожиданий. В итоге так и оказалось. Те же переговоры по рации без встреч с другими персонажами, только с примесью современных и будущих технологий и ботом по имени Альфи. Большую часть времени ты просто ходишь из одной локации в другую, абсолютно никакого геймлея, простенькие головоломки, а о главном антагонисте и чем все закончится я понял еще тогда, когда нам первый раз пришлось приложить руку к сканеру и нам любезно объяснили, что требуется именно человеческое вмешательство - после этого запустился один из отключенных модулей. К концу второй серии я практически уснул, насколько однообразны эти переходы между локациями. Понравился более менее только короткий эпизод с Альфи в самолете, когда шла долгая буря. Финал якобы открытый, но любому разумному человеку понятно, чем все закончилось.\nПодытоживая, могу сказать, что игра может понравиться людям только из-за сюжета. Молодому и неискушенному зрителю возможно даже зайдет. Но я уже в своей жизни видел и прочел немало, поэтому все твисты сюжета не вызвали у меня ни малейшего восторга. Стилистика напоминает the long dark. Иногда можно полюбоваться красивыми видами. На этом все.",
+        "timestamp_created": 1778406609,
+        "timestamp_updated": 1778406609,
+        "voted_up": false,
+        "votes_up": 37,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.766499876976013184",
+        "comment_count": 17,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1778853182,
+        "developer_response": "Спасибо, что нашли время поделиться своим мнением. Мы понимаем, что более медленный, ориентированный на сюжет подход и темп игры подойдут не всем, особенно тем, кто ожидает больше игрового взаимодействия. Рады, что вам всё же понравились отдельные моменты, такие как эпизод со штормом и общая атмосфера.",
+        "app_release_date": "1758204098",
+        "hardware": {
+          "system_ram": "65081",
+          "os": "Windows 11",
+          "cpu_name": "AMD Ryzen 7 9800X3D 8-Core Processor           ",
+          "adapter_description": "NVIDIA GeForce RTX 5090",
+          "vram_size": 32187
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUq4UAAAAAFP+iHKwAAAABztoHbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.796999999999798,
+  "transport_error_count": 0
+}

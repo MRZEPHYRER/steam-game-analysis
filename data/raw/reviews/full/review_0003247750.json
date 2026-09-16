@@ -1,0 +1,99 @@
+{
+  "appid": 3247750,
+  "requested_at": "2026-09-13T19:08:42.828701+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 3602,
+      "total_negative": 467,
+      "total_reviews": 4069
+    },
+    "reviews": [
+      {
+        "recommendationid": "209673183",
+        "author": {
+          "steamid": "76561198026125065",
+          "personaname": "Treefolk",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/TreefolkTrample/",
+          "num_games_owned": 530,
+          "num_reviews": 13,
+          "playtime_forever": 1527,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1527,
+          "last_played": 1763615120,
+          "avatar": "e24c46a8f3c8c07e46a54af0d745c6472378da91"
+        },
+        "language": "english",
+        "review": "It's...okay. This has been a challenging review to write because it is so apparent that the developers behind this game legitimately care and enjoy what they're doing, and I don't want to be needlessly harsh. The first 5, 10 hours were a lot of fun, the progression was solid, the enemies were interesting, playing build tetris was great, this game has so much style and character it oozes from the menus! I love it! It basically felt like I was on a nostalgia trip through a long lost childhood favorite. Then the grind became atrocious. Then I started feeling the weird momentum clamps on the movement. Then I started dying to those *stupid* missile barrages. And like any good nostalgia trip, I realized why I quit playing.\n\nThis game exists in a weird superstate. It wants you to go fast but it has harsh momentum clamps that stop you. It wants you to do wild and wacky things with your guns but it never gives you the drops to enable those wacky things. It has an incredibly unique and interesting enemy design that's let down by bloated hp pools and a lack of respect for physics colliders. A decade ago, this title would've been inspirational and genre defining but it seems to miss the mark in significant ways that feels like the developers haven't learned any lessons (good or bad) from titles with similar mechanics (i.e. looter shooters, platformers, roguelikes, movement titles, etc). \n\nAs a bulleted list this is what is keeping me from recommending this game:\n- The Grind (drop RNG).\nThis is atrocious. The \"cool\" stuff is fairly heavily \"playtime gated\" and the content isn't diverse enough to be a distraction from the fact that I haven't seen a non-duplicate exotic drop in the last 10 hours of gameplay. From skimming patch notes and discussions, it seems like this is fully intentional as efficient methods of farming have been nerf or patched out. If there is no method to focus / build / obtain *specific* drops and upgrades and everything has to be obtained through straight RNG (with no duplicate or knockout protection), then we need to be drowning in dice to roll.\n\n- Currency Caps.\nI personally hate currency caps, while they're currently high compared to the amounts we spend, I always find currency caps to make me feel like the game is disrespecting my time as a player. I have a limited amount of time to game so why should I spend that time playing a game that won't let me earn currency anymore?\n\n- Momentum Conservation (the lack thereof)\nI played a lot of Warframe. I don't think that this game is Warframe, but Warframe did get the *feel* of it's movement very right. Moving around in that game feels very good. This game, by contrast, feels very bad. The speed caps / momentum clamps / etc feel wrong, like I'm faceplanting repeatedly into invisible jello walls. Certainly with the right mod setup, it is quite possible to bypass the limits, but it stills feels super awkward to get launched into the air at march 9 only to nosedive into the ground.\n\n- Enemy AI Behavior\nIt's too simplistic. Everything just chases you. Nothing takes cover, nothing hides. Some enemies will grab objectives but they don't do anything different once they have them (no transformation, no secret boss loot pinata).\n\n- The Grind (character levels)\nFeels like runescape where level 8 is halfway to level 10. It makes playing other characters feel like punishment. This compounds with the shared perk unlocks (good luck getting them all unlocked if the xp curve continues increasing). If all xp was shared across each character (and their unlocks were independent instead of shared), it would create a positive feedback loop where progressing one character would incentivize playing other characters to experiment with their unlocks and experimenting would also progress the unlocks of the other characters. Instead of the current system where I'm weighing every character unlock against every other possible character unlock (wrangler is never getting unlocks because I'm just using his unlocks on the characters I want to play).\n\n- The Grind (weapon levels)\nI'm going to skip the broken record part of this. I would make the weapon level progression include a *basic* copy of every weapon mod then the grind is about finding weapon mods with better random stats while getting to try out different builds.\n\ntl;dr The Grind kills this game, for a looter shooter there's not enough drops. For a buildcrafting game, you have to pay a grind tax for xp and for the \"right\" drops (hamstrung by the lack of drops).",
+        "timestamp_created": 1763619308,
+        "timestamp_updated": 1765817197,
+        "voted_up": false,
+        "votes_up": 155,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.845485687255859375",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752165899",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 5
+          },
+          {
+            "reaction_type": 6,
+            "count": 4
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTFxyAAAAAFP+sOOKAAAAB/veufBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

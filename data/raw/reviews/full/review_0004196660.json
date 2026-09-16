@@ -1,0 +1,66 @@
+{
+  "appid": 4196660,
+  "requested_at": "2026-09-13T20:25:24.013867+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "214192741",
+        "author": {
+          "steamid": "76561199249631726",
+          "personaname": "brian-08",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199249631726/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 729,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 284,
+          "last_played": 1768894897,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "yes i would actually recommend this latest version of the game. there are new things that are added that aren't recycled from the previous versions. overall this is a fun and relaxing, calming game. this is something that i've enjoyed since playing the first version of this game. i was so excited to see a new version come out this year! you know what i really liked added on, the Diner. Oh it felt so relaxing, peaceful, fun, and calming. That was an awesome addition to the map.",
+        "timestamp_created": 1766703798,
+        "timestamp_updated": 1766714856,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.484154939651489258",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765529574",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaUSCAAAAAFP978ZUAAAAB1poqxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

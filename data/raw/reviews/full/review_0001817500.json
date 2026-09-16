@@ -1,0 +1,83 @@
+{
+  "appid": 1817500,
+  "requested_at": "2026-09-13T18:44:59.109404+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 698,
+      "total_negative": 48,
+      "total_reviews": 746
+    },
+    "reviews": [
+      {
+        "recommendationid": "210016566",
+        "author": {
+          "steamid": "76561198109815049",
+          "personaname": "Eisbear_DeWitt",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Eisbear_DeWitt/",
+          "num_games_owned": 0,
+          "num_reviews": 16,
+          "playtime_forever": 384,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1764021601,
+          "avatar": "290d2d9537e20ff68adeec42cbba7a043797237e"
+        },
+        "language": "english",
+        "review": "SUPPORT THE TUTEL!\n\nBut in all honesty, I think this game is great and does make a lot of fun on it's own even without mentioning by whom it was made! Props to all who worked on this game and congrats for creating a fun to play game!",
+        "timestamp_created": 1763998573,
+        "timestamp_updated": 1763998792,
+        "voted_up": true,
+        "votes_up": 206,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.918763697147369385",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763996352",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRn+2AAAAAFP+1mg8AAAAB2k5OhBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

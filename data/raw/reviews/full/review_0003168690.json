@@ -1,0 +1,66 @@
+{
+  "appid": 3168690,
+  "requested_at": "2026-09-13T19:05:56.330784+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 8,
+      "total_negative": 2,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "206830829",
+        "author": {
+          "steamid": "76561198074656621",
+          "personaname": "Pixie",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198074656621/",
+          "num_games_owned": 586,
+          "num_reviews": 7,
+          "playtime_forever": 84,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 82,
+          "last_played": 1761427243,
+          "avatar": "1d7ef7648a284ec84a9ae648783c354e6591597f"
+        },
+        "language": "english",
+        "review": "Tried to play it but the 2 mannequins are glitched they keep coming to get me even though I am looking at them. No matter which one I look at the one crawling on the floor or the other one they just wont stop. I have quit it and restarted the game right from the beginning but the same thing keeps happening.  I do recommend this game but i will change my thumbs down to a thumbs up when there is a patch.",
+        "timestamp_created": 1760588760,
+        "timestamp_updated": 1760588760,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759937627",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB9zv+UBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

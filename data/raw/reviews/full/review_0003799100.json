@@ -1,0 +1,71 @@
+{
+  "appid": 3799100,
+  "requested_at": "2026-09-13T19:41:19.145129+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 708,
+      "total_negative": 143,
+      "total_reviews": 851
+    },
+    "reviews": [
+      {
+        "recommendationid": "209808121",
+        "author": {
+          "steamid": "76561198839896459",
+          "personaname": "Doomer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198839896459/",
+          "num_games_owned": 467,
+          "num_reviews": 4,
+          "playtime_forever": 343,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1763837587,
+          "avatar": "049c17be063397d25c0ddf9d6556e780ae5184c5"
+        },
+        "language": "english",
+        "review": "People leaving the game after they have one death is insane. The host does this to manipulate a win. I am hosting lobbys where I stay in the game but people rarely join. Host should be moved to another player or rotated in game",
+        "timestamp_created": 1763774741,
+        "timestamp_updated": 1763774741,
+        "voted_up": true,
+        "votes_up": 60,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.853841185569763184",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763737408",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFS7BGAAAAAFP+tTF2AAAAB5r62gBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

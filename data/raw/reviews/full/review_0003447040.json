@@ -1,0 +1,87 @@
+{
+  "appid": 3447040,
+  "requested_at": "2026-09-13T19:16:29.672710+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 5030,
+      "total_negative": 140,
+      "total_reviews": 5170
+    },
+    "reviews": [
+      {
+        "recommendationid": "205461056",
+        "author": {
+          "steamid": "76561198213052383",
+          "personaname": "弥悠白",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198213052383/",
+          "num_games_owned": 232,
+          "num_reviews": 60,
+          "playtime_forever": 2674,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2674,
+          "last_played": 1759136999,
+          "avatar": "8fb5cc712b6c646f978b5a0a2149f09e43331fdf"
+        },
+        "language": "schinese",
+        "review": "玩完让人泪目的作品，不仅仅是优秀的剧情演出，更是这部作品种种细节都展现出的制作组对于玩家的“尊重”。许多落后时代的糟粕被改良，原汁原味的剧情得以保留，加上现代化的玩法改进，堪称老游戏重制的教科书。\r\n\r\n原来输掉战斗后是不会有惩罚，不需要在城镇复活跑尸的，而是可以重试、降低难度重试、读档自由选择的。\r\n\r\n原来查看怪物详细资料是不需要先打过一次，不需要“检视”技能去检视，而是可以随时随地查看的，哪怕是新怪也一样。\r\n\r\n原来遇到野怪是不会触发强制战斗的，而是可以走位避开的。\r\n\r\n原来想刷钱刷资源是不需要跑东跑西做一大堆功课的，而是有官方准备的刷怪洞窟的。\r\n\r\n原来谜语人任务是不需要玩家在那儿硬猜查攻略的，而是每处地点都被官方标识出来的。\r\n\r\n原来战斗动画是不需要强制看完的，跑图是不需要一步一步走完的，而是有高速模式随时开关节省时间的。\r\n\r\n原来换装备、传送等重要功能是不需要到特定地点才能使用的，而是可以打开菜单可以随时随地使用的。\r\n\r\n原来错过的一些关键道具，是不需要特意读10h之前的档重玩的，而是可以在下一个城镇买到的。\r\n\r\n原来老游戏重制是不需要加一些穿插在主线中的小游戏注水并且和成就绑定的，而是可以原汁原味的保留原剧情的。\r\n\r\n或许因为技术力有限，使得空之轨迹1st重制看上去并不是那么“精美”，那么“现代”，但是毫无疑问这是一部真正为新老玩家着想，真正值得尊敬的好游戏。",
+        "timestamp_created": 1759138480,
+        "timestamp_updated": 1759138480,
+        "voted_up": true,
+        "votes_up": 267,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.957806229591369629",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758265226",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 7
+          },
+          {
+            "reaction_type": 16,
+            "count": 2
+          },
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQ2AiAAAAAFP+6mWMAAAABw5OKPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

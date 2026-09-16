@@ -1,0 +1,66 @@
+{
+  "appid": 4093400,
+  "requested_at": "2026-09-13T20:18:24.019155+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 64,
+      "total_negative": 4,
+      "total_reviews": 68
+    },
+    "reviews": [
+      {
+        "recommendationid": "235151108",
+        "author": {
+          "steamid": "76561199533084270",
+          "personaname": "震震喵",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199533084270/",
+          "num_games_owned": 550,
+          "num_reviews": 27,
+          "playtime_forever": 483,
+          "playtime_last_two_weeks": 181,
+          "playtime_at_review": 318,
+          "last_played": 1789275603,
+          "avatar": "cfb822a2c22d040c8be9fa20dbcad917386aba94"
+        },
+        "language": "schinese",
+        "review": "是真骨，好爽……玩之前一定要打补丁，打了一半才知道有补丁，好险差点白玩了",
+        "timestamp_created": 1789266223,
+        "timestamp_updated": 1789266223,
+        "voted_up": true,
+        "votes_up": 15,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.70963740348815918",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764824387",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVzqiAAAAAFP+a1WKAAAAB08IOBBw=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

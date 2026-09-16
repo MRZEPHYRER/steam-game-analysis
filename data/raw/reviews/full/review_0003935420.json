@@ -1,0 +1,66 @@
+{
+  "appid": 3935420,
+  "requested_at": "2026-09-13T20:02:22.396584+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 0,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "222124566",
+        "author": {
+          "steamid": "76561198264215560",
+          "personaname": "RuMor",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198264215560/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 429,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 297,
+          "last_played": 1777676329,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "5+ hours so far - Highly recommend. \n\nTL/DR: It is fun. Tremendous value, good replayability, the skill development is real and is translating to on-ice performance.\n\nValue is better than every alternative stick handling aid I've seen. Look up the cost of any physical training aids and you're hundreds of dollars to start - digital floortop versions with sensors that light up vs stationary and now mechanical moving aids, VR. Hotdangle forces the trainee to keep their head up while using all the same equipment you use to play hockey. Games / Apps elsehwere are more than double the price with some locked behind a specific OS / ecosystem also requiring a specifc tech setup. The product works as intended and does it well, without lag.\n\nReplayability and Kid Enjoyment:\nWith all the other hockey in our life, my kid actually asks to play this and loves to show friends. I did several rounds of semi-pro and felt my arms start to burn. My kid will happily spend 20 minutes+ at a time.\n\nPros:\nConfidence boosting as well as noticeable puck handling improvement on the ice.\nLove that anything can be the puck. Can use a ball or puck on tiles, even on a driveway with tennis ball would work great. Local leaderboard is fun to track progress. No lag, functionality as expected.\n\nCons:\nWould love attention to the graphics and UI but for the price, not complaining.\n\nTechnical info \nCould play this using a laptop and second screen. Recommend at least a cheap webcam for a significant experience improvement.\nYou want the puck to have a strong contrast to the floor and stick. Black puck and black stick will cause a probem. Use white tape and cover th blade. \n\nRecommendations:\nAs much puck-based menu navigation as you can add. Maybe the main menu could be controlled by the puck after the puck is identified?\nServer Hosted Solution? Global leaderboard, maybe live tournament or ability to play live vs another player heads-up 1v1? Relative leaderboards between friends?",
+        "timestamp_created": 1774898260,
+        "timestamp_updated": 1774898260,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756773775",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB2oavPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

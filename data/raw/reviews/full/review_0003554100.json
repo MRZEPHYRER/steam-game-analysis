@@ -1,0 +1,66 @@
+{
+  "appid": 3554100,
+  "requested_at": "2026-09-13T19:22:15.211819+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "220658738",
+        "author": {
+          "steamid": "76561198281445061",
+          "personaname": "tyw66",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tyw66/",
+          "num_games_owned": 87,
+          "num_reviews": 22,
+          "playtime_forever": 241,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 241,
+          "last_played": 1773500528,
+          "avatar": "02824a7f6e98b080c3dafb134741aa49609895c0"
+        },
+        "language": "schinese",
+        "review": "魔塔游戏，还可以。最后打魔王是一分钱一个钥匙都没浪费，卡着过的。\r\n\r\n这个游戏没有随机暴击的设定，就是一个玩数字游戏。血量是最不重要的，只要让自己防御力大于敌人的攻击力就行了。比较坑的是最后有1种怪物是起手攻击就扣玩家3分之1的血，但是介绍中没说，最开始被唬住了，其实可以无视。\r\n\r\n只要将攻击力最后提升到4001点，防御力提升到5000点，哪怕只有1滴血，都能击杀魔王。\r\n\r\n不足之处是，敌人全部叫做“魔物”，都做出来了，该给每一种怪取一个名字，再加1句话介绍的。一点小小的工作量就能极大提升游戏体验。\r\n\r\n",
+        "timestamp_created": 1773501043,
+        "timestamp_updated": 1773501043,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752853266",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAByw9/JBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0149999999998727,
+  "transport_error_count": 0
+}

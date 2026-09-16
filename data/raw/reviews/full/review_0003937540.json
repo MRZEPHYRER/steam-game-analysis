@@ -1,0 +1,66 @@
+{
+  "appid": 3937540,
+  "requested_at": "2026-09-13T20:02:39.609734+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "227840647",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 747,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 747,
+          "last_played": 1781299372,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Links is a thoughtfully designed puzzle game developed by Alexis Clemente and published by AleC Games. At first glance, its simple visual presentation may suggest a casual experience, but beneath the minimalist exterior lies a surprisingly engaging challenge built around interconnected puzzle mechanics. Rather than overwhelming players with complicated systems, the game focuses on a single core idea and explores it in creative ways, delivering a satisfying experience for fans of logic-based gameplay.\n\nThe central objective revolves around manipulating linked tiles to recreate specific target formations. What makes the concept stand out is that pieces are connected to one another, meaning every move can influence multiple elements simultaneously. This creates a constant need for planning and foresight, as solutions rarely come from random experimentation alone. The interconnected movement system gives each puzzle its own personality and encourages players to think several steps ahead before committing to an action.\n\nOne of the strongest aspects of Links is how effectively it develops its mechanics through level progression. Early stages serve as a natural introduction, teaching players the fundamentals without relying heavily on tutorials or lengthy explanations. As the game advances, puzzle layouts become increasingly intricate, demanding greater attention to detail and a deeper understanding of how linked movements affect the overall board. The gradual increase in complexity creates a rewarding sense of mastery as players learn to recognize patterns and discover more efficient solutions.\n\nThe game also benefits from offering multiple modes that expand upon the main concept. Classic mode provides the purest version of the puzzle-solving experience, while additional modes such as Switch Color and Magic introduce fresh variations that alter the way players approach challenges. A Relaxing mode further broadens the appeal by allowing players to enjoy the game's mechanics in a more laid-back environment. These different options help maintain variety and ensure that the core gameplay remains engaging over extended sessions.\n\nVisually, Links embraces a clean and uncluttered style that suits its puzzle-focused design. The straightforward presentation keeps attention on the challenges themselves rather than distracting players with excessive effects or unnecessary visual noise. Bright colors and readable layouts make puzzles easy to understand at a glance, while the calm atmosphere complements the game's emphasis on thoughtful problem-solving. The overall presentation may be modest, but it effectively supports the gameplay and contributes to a relaxing experience.\n\nAnother appealing quality is the balance between accessibility and challenge. The rules are easy to grasp, making the game approachable for newcomers, yet the later puzzles provide enough complexity to satisfy experienced puzzle enthusiasts. Success often comes from observation, experimentation, and logical reasoning rather than quick reflexes, making each completed puzzle feel earned. Players who enjoy exercising their minds through strategic thinking will likely appreciate the game's carefully constructed challenges.\n\nThe game's focused design can also be viewed as a limitation for certain audiences. Those seeking narrative content, progression systems, or action-oriented gameplay may find the experience too specialized. Links remains dedicated to its puzzle mechanics from beginning to end, which means enjoyment depends largely on a player's appreciation for logic puzzles and methodical problem-solving. However, for its intended audience, this focus is more of a strength than a weakness.\n\nOverall, Links is an impressive example of how a simple concept can be transformed into a compelling and rewarding puzzle experience. Its clever linked-tile mechanics, well-structured difficulty curve, multiple gameplay modes, and relaxing presentation work together to create a game that consistently challenges the mind without becoming frustrating. While it may not offer the variety or spectacle of larger puzzle titles, it succeeds through smart design and a clear understanding of its strengths.\n\nRating: 6/10",
+        "timestamp_created": 1781324530,
+        "timestamp_updated": 1781324530,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757690195",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3qJLlBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.280999999999949,
+  "transport_error_count": 0
+}

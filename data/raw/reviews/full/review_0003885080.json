@@ -1,0 +1,66 @@
+{
+  "appid": 3885080,
+  "requested_at": "2026-09-13T19:54:59.502938+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "214619007",
+        "author": {
+          "steamid": "76561198017171396",
+          "personaname": "CULT|jeffrobot494",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/jeffrobot/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 238,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 178,
+          "last_played": 1767222901,
+          "avatar": "1e3c9240be572810c0b47e1d2af613e5610c061b"
+        },
+        "language": "english",
+        "review": "I've played a lot of weird TCG + some other genre mashups, and this is my favorite one. The monster art is awesome, the animations look good, the spell effects look good, and you can have dozens or even hundreds of monsters on screen at once all battling - it looks pretty epic. \n\nOverall it's a little too easy against the AI. Every couple of battles I do have to change up my strategy, which is good. There are tons of interesting spell cards with interesting effects, but I haven't needed to use most of them yet. I wish there was online play against humans - that would be freaking incredible. \n\nOverall, it's a really cool game, and if you're into weird TCG mashups, I encourage you to check it out. Although there is a lot of jank. Also, to open the menu during a battle, press \"P\".",
+        "timestamp_created": 1767078456,
+        "timestamp_updated": 1767078456,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762777504",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB/t9qyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

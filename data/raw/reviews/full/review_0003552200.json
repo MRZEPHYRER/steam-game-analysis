@@ -1,0 +1,71 @@
+{
+  "appid": 3552200,
+  "requested_at": "2026-09-13T19:21:55.658122+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 7,
+      "total_negative": 4,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "208588871",
+        "author": {
+          "steamid": "76561199087221879",
+          "personaname": "Larskurucz",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199087221879/",
+          "num_games_owned": 237,
+          "num_reviews": 10,
+          "playtime_forever": 157,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 157,
+          "last_played": 1762378565,
+          "avatar": "9dbe11dc2d15c238a8a5006f36c5aa897358b3cb"
+        },
+        "language": "hungarian",
+        "review": "(English version below) \n\nTöbb mint egy egyszerű horror. Az It's john House jóval túlmutat egy szokványos anomália-kereső játékon. \nItt tényleg kapunk egy történetet, ami fokozatosan bontakozik ki, és végig fenntartja az érdeklődést. \n\nKülön öröm volt számomra a magyar szinkron – ritka, hogy egy indie játék ilyen figyelmet fordít a lokalizációra. \nA fejlesztő munkássága felkeltette az érdeklődésemet, biztosan megnézem majd a leendő játékait is. \n\nÉs végre egy játék, ami nem akarja megsütni a videókártyámat! Erős gépem van, de sok más, rosszabbul optimalizált játéknál 98–100%-on pörög a GPU. Itt viszont maximum 70%-on ment, miközben a játékélmény végig sima és stabil maradt. \n\nAmi pedig különösen pozitív: a végigjátszásom óta naponta érkeznek frissítések és javítások. \nLátszik, hogy a fejlesztő tényleg figyel a visszajelzésekre, és folyamatosan csiszolja a játékot. \n\nHa belenéznétek egy végigjátszásba, itt megtehetitek: https://youtu.be/dHrSv22bCso?si=0p3bQVA2UGcoX0as\n\nAjánlom mindenkinek, aki valami különlegesre vágyik!\n\nMore Than Just a Simple Horror Game It's john House goes far beyond your average anomaly-spotting horror experience. \nYou actually get a story here—one that unfolds gradually and keeps you engaged throughout. \n\nThe Hungarian voice acting was a pleasant surprise. \nIt’s rare to see an indie game pay this much attention to localization. \n\nThe developer’s work has definitely caught my attention, and I’ll be keeping an eye out for future titles. \nAnd finally, a game that doesn’t try to fry my GPU! I’ve got a powerful rig, but many poorly optimized games push it to 98–100%. This one ran smoothly, maxing out at just 70%, which is impressive. \n\nWhat’s even better: since I finished the game, updates and fixes have been rolling out daily. \nIt’s clear the developer listens to feedback and actively improves the game. \n\nIf you’d like to check out a playthrough, you can do so here: https://youtu.be/dHrSv22bCso?si=0p3bQVA2UGcoX0as\n\nHighly recommended for anyone looking for something unique!",
+        "timestamp_created": 1762468101,
+        "timestamp_updated": 1762532519,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759514470",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB3hNqbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

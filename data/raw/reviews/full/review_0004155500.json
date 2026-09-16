@@ -1,0 +1,66 @@
+{
+  "appid": 4155500,
+  "requested_at": "2026-09-13T20:22:51.973295+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "229680070",
+        "author": {
+          "steamid": "76561198260830216",
+          "personaname": "astro8192",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/astro8192/",
+          "num_games_owned": 76,
+          "num_reviews": 12,
+          "playtime_forever": 762,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 324,
+          "last_played": 1783843945,
+          "avatar": "79d3fe5839617eb83a9661071ed021dd56ac8a5b"
+        },
+        "language": "schinese",
+        "review": "走了很久才走到第五章，怎么说呢……这是一个完全不在乎游戏性的创作团队写出来的（零）互动小说。我还是比较想看到后面几个世界的切换逻辑，以及完整的世界观下埋藏的私货是什么的（虽然几乎可以猜到了）。最让人惊讶的是单线程文本量如此巨大，如果喜欢这个调调那么这个传统AVG 的味儿还是很正的。缺点就是有点太正了（男主好多纠结有必要写成5段文本吗），以及像素风立绘偶尔会有的出戏感（听说续作就改了（什么这个鬼东西竟然还有续作……",
+        "timestamp_created": 1783258113,
+        "timestamp_updated": 1783258113,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764932478",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2vJTsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

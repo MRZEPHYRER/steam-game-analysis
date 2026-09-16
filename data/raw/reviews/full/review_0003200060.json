@@ -1,0 +1,67 @@
+{
+  "appid": 3200060,
+  "requested_at": "2026-09-13T19:06:49.555032+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 148,
+      "total_negative": 27,
+      "total_reviews": 175
+    },
+    "reviews": [
+      {
+        "recommendationid": "226117591",
+        "author": {
+          "steamid": "76561198108265772",
+          "personaname": "Tekki",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/lovelytekki/",
+          "num_games_owned": 2535,
+          "num_reviews": 231,
+          "playtime_forever": 187,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 187,
+          "deck_playtime_at_review": 187,
+          "last_played": 1779075685,
+          "avatar": "7ada1e83a663dcd0ecd200c283071e1770a6b494"
+        },
+        "language": "english",
+        "review": "It's Kirby but with Touhou characters. You'll have fun with it if you're a fan of either series or are just looking for a solid platformer with great pixel art, but with how short it is I do recommend waiting for a sale.",
+        "timestamp_created": 1779425845,
+        "timestamp_updated": 1779425845,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.670566797256469727",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1752202839",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWlrKAAAAAFP+V1SOAAAAB3/cjeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

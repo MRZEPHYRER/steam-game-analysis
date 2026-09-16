@@ -1,0 +1,311 @@
+{
+  "requested_at": "2026-09-13T06:43:38.254619+00:00",
+  "request_params": {
+    "appids": 4066790,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4066790,
+  "payload": {
+    "4066790": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Backrooms Deluxe 2",
+        "steam_appid": 4066790,
+        "required_age": 0,
+        "is_free": true,
+        "dlc": [
+          4066930
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >The Backrooms Deluxe 2 is a spin on The Backrooms Deluxe with new features such as:</p><h2 class=\"bb_tag\" >Modifiers</h2><p class=\"bb_paragraph\" >Mix and match positive and negative effects that give you more or less Deluxe Coins at the end of your run.</p><h2 class=\"bb_tag\" >Much better multiplayer replication</h2><p class=\"bb_paragraph\" >The entire game has been rewritten to support a much more seamless multiplayer experience. </p><h2 class=\"bb_tag\" >More Achievements</h2><p class=\"bb_paragraph\" >The game has received more achievements, as well as support for non-Steam achievements (only in the game but don't affect Steam progression) for harder challenges.</p><h2 class=\"bb_tag\" >Roguelite Elements</h2><p class=\"bb_paragraph\" >Since the original game, permadeath has been added, which adds a new element of challenge as well as being able to earn Deluxe Coins without having to do a full run every time. All players have to die for the run to end.</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >The Backrooms Deluxe 2 is a spin on The Backrooms Deluxe with new features such as:</p><h2 class=\"bb_tag\" >Modifiers</h2><p class=\"bb_paragraph\" >Mix and match positive and negative effects that give you more or less Deluxe Coins at the end of your run.</p><h2 class=\"bb_tag\" >Much better multiplayer replication</h2><p class=\"bb_paragraph\" >The entire game has been rewritten to support a much more seamless multiplayer experience. </p><h2 class=\"bb_tag\" >More Achievements</h2><p class=\"bb_paragraph\" >The game has received more achievements, as well as support for non-Steam achievements (only in the game but don't affect Steam progression) for harder challenges.</p><h2 class=\"bb_tag\" >Roguelite Elements</h2><p class=\"bb_paragraph\" >Since the original game, permadeath has been added, which adds a new element of challenge as well as being able to earn Deluxe Coins without having to do a full run every time. All players have to die for the run to end.</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A roguelite multiplayer Backrooms game that bases itself on The Backrooms Deluxe's levels and expands on the mechanics, levels, networking and enemy AI.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/442facae7ea0c095317f20fd107f3441b01d951f/header.jpg?t=1786473719",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/9b0666af9e00d0f912393868ea1241bf51badaee/capsule_231x87.jpg?t=1786473719",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/9b0666af9e00d0f912393868ea1241bf51badaee/capsule_184x69.jpg?t=1786473719",
+        "website": "https://lory.dev",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 64-bit<br></li><li><strong>Processor:</strong> Intel 6th Generation and higher or AMD equivalent<br></li><li><strong>Memory:</strong> 6 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 600 Series or higher / Radeon HD 7000 Series<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 13 GB available space<br></li><li><strong>Additional Notes:</strong> Requirements for 30-60FPS on Low/Medium graphics settings. Results may vary. SSD is heavily recommended for faster loading times.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 64-bit<br></li><li><strong>Processor:</strong> AMD Ryzen 5000 Series and higher or Intel equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1080 / Radeon RX 580 / Intel Arc a380<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 13 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Lory Games"
+        ],
+        "publishers": [
+          "Lory Games"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/837c72a82fccf8b440673997dce67e41a6539e25/ss_837c72a82fccf8b440673997dce67e41a6539e25.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/837c72a82fccf8b440673997dce67e41a6539e25/ss_837c72a82fccf8b440673997dce67e41a6539e25.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/7d276c3bc292427b2a7fe0a76b897f117bb6441a/ss_7d276c3bc292427b2a7fe0a76b897f117bb6441a.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/7d276c3bc292427b2a7fe0a76b897f117bb6441a/ss_7d276c3bc292427b2a7fe0a76b897f117bb6441a.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/656aecb08909d746c52575827f97ceff1e1b1207/ss_656aecb08909d746c52575827f97ceff1e1b1207.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/656aecb08909d746c52575827f97ceff1e1b1207/ss_656aecb08909d746c52575827f97ceff1e1b1207.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/09db3d5644d42e24f634c46b19f01b05936bac6d/ss_09db3d5644d42e24f634c46b19f01b05936bac6d.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/09db3d5644d42e24f634c46b19f01b05936bac6d/ss_09db3d5644d42e24f634c46b19f01b05936bac6d.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/81b444ca921253c2911597fdd7222535f90f5935/ss_81b444ca921253c2911597fdd7222535f90f5935.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/81b444ca921253c2911597fdd7222535f90f5935/ss_81b444ca921253c2911597fdd7222535f90f5935.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/4365053026c3526185cc1d53078b8d9ed702caee/ss_4365053026c3526185cc1d53078b8d9ed702caee.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/4365053026c3526185cc1d53078b8d9ed702caee/ss_4365053026c3526185cc1d53078b8d9ed702caee.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/cdc444e845ce3cafa16d59833b88164ba01801c5/ss_cdc444e845ce3cafa16d59833b88164ba01801c5.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/cdc444e845ce3cafa16d59833b88164ba01801c5/ss_cdc444e845ce3cafa16d59833b88164ba01801c5.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/4a013dc662f308de155bc3c841ba402fd9e328c0/ss_4a013dc662f308de155bc3c841ba402fd9e328c0.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/4a013dc662f308de155bc3c841ba402fd9e328c0/ss_4a013dc662f308de155bc3c841ba402fd9e328c0.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/97ef7da3ed289250a0c2c996dee0f20e901bf6f2/ss_97ef7da3ed289250a0c2c996dee0f20e901bf6f2.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/97ef7da3ed289250a0c2c996dee0f20e901bf6f2/ss_97ef7da3ed289250a0c2c996dee0f20e901bf6f2.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/eb688a74bf81ea0c70f9d4ae341b06833c96b06b/ss_eb688a74bf81ea0c70f9d4ae341b06833c96b06b.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/eb688a74bf81ea0c70f9d4ae341b06833c96b06b/ss_eb688a74bf81ea0c70f9d4ae341b06833c96b06b.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/be701746697a232b92a3debef496e174f055a254/ss_be701746697a232b92a3debef496e174f055a254.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/be701746697a232b92a3debef496e174f055a254/ss_be701746697a232b92a3debef496e174f055a254.1920x1080.jpg?t=1786473719"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/99e99c67fd5deb0ee9af07e394a8d3de4ecfcf81/ss_99e99c67fd5deb0ee9af07e394a8d3de4ecfcf81.600x338.jpg?t=1786473719",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066790/99e99c67fd5deb0ee9af07e394a8d3de4ecfcf81/ss_99e99c67fd5deb0ee9af07e394a8d3de4ecfcf81.1920x1080.jpg?t=1786473719"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257240172,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257240172/ecf1cfc94f03118da06c862ff2fbab21bdbb9be8/movie_600x337.jpg?t=1764369502",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4066790/1754525684/b19d8f00e2864f730049c33506774fd434a3086d/1764367126/dash_av1.mpd?t=1764369502",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4066790/1754525684/b19d8f00e2864f730049c33506774fd434a3086d/1764367126/dash_h264.mpd?t=1764369502",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4066790/1754525684/b19d8f00e2864f730049c33506774fd434a3086d/1764367126/hls_264_master.m3u8?t=1764369502",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 34,
+          "highlighted": [
+            {
+              "icon": "e696515dee5b6444b4c287d07a4d5a40e26f8fa5.jpg",
+              "localized_name": "You can't jump",
+              "archived": 0,
+              "hidden": 0,
+              "name": "You can't jump",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/e696515dee5b6444b4c287d07a4d5a40e26f8fa5.jpg"
+            },
+            {
+              "icon": "c973d03f682f64c46f673c3c0bc485db0a71c865.jpg",
+              "localized_name": "Oh boy!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Oh boy!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/c973d03f682f64c46f673c3c0bc485db0a71c865.jpg"
+            },
+            {
+              "icon": "ce757379041057d9f13b565b793d92b1af87537d.jpg",
+              "localized_name": "Empty Parking Lot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Empty Parking Lot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/ce757379041057d9f13b565b793d92b1af87537d.jpg"
+            },
+            {
+              "icon": "ce71b1191036cb60438be3e57da00654600929f5.jpg",
+              "localized_name": "Dreamer's Pipes",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dreamer's Pipes",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/ce71b1191036cb60438be3e57da00654600929f5.jpg"
+            },
+            {
+              "icon": "d684f8d63a6b2b47274ec04947ada2af5af1536a.jpg",
+              "localized_name": "Dreamer's Pools",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dreamer's Pools",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/d684f8d63a6b2b47274ec04947ada2af5af1536a.jpg"
+            },
+            {
+              "icon": "4080153c13a127b4ceaf00a096385ba554014938.jpg",
+              "localized_name": "Office Hell",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Office Hell",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/4080153c13a127b4ceaf00a096385ba554014938.jpg"
+            },
+            {
+              "icon": "1e8434049f5b6433af9eb185b6417185c28c928b.jpg",
+              "localized_name": "Terrific Hotel",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Terrific Hotel",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/1e8434049f5b6433af9eb185b6417185c28c928b.jpg"
+            },
+            {
+              "icon": "ce1ae505380a508b188a6caa953965df5e75eee8.jpg",
+              "localized_name": "Falling Elevator",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Falling Elevator",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/ce1ae505380a508b188a6caa953965df5e75eee8.jpg"
+            },
+            {
+              "icon": "82dbe4dbeb5057329f498407f659d906015a1b92.jpg",
+              "localized_name": "Thalassophobia",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Thalassophobia",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/82dbe4dbeb5057329f498407f659d906015a1b92.jpg"
+            },
+            {
+              "icon": "6028118081b728596e6fbec062a2fff544ec78e6.jpg",
+              "localized_name": "Attic",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Attic",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4066790/6028118081b728596e6fbec062a2fff544ec78e6.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 24, 2025"
+        },
+        "support_info": {
+          "url": "https://lory.dev",
+          "email": "lory@lory.dev"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4066790?t=1786473719",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4066790?t=1786473719",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "15",
+            "required_age": "15",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

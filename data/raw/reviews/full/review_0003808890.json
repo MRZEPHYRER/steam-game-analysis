@@ -1,0 +1,66 @@
+{
+  "appid": 3808890,
+  "requested_at": "2026-09-13T19:42:25.764375+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "202287114",
+        "author": {
+          "steamid": "76561199383539647",
+          "personaname": "Jox",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199383539647/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 66,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 66,
+          "last_played": 1755389774,
+          "avatar": "77a5f4e00b11694237c142590ca2cea7eaea9cf8"
+        },
+        "language": "french",
+        "review": "Bravo ! Pour un jeu indépendant c'est vraiment bien: je n'ai même pas vu le temps passer ce qui est une très bonne nouvelle. Les mécaniques sont biens trouvées. Ma préférée était celle où nous devions détruire les taupes: j'ai vraiment apprécié le fait qu'il y en ait de plus en plus à chaque amélioration ce qui permettait de sentir une VRAIE progression. Même le fait de devoir couper le gazon était très satisfaisant à faire. J'ai également vraiment apprécié la cinématique de fin qui était tout de même assez détaillés\n\nBref, le jeu étais fun, mais un peu trop court à mon goût (ce qui est compréhensible)\n\nNéanmoins, j'aimerais apporter quelques commentaires constructifs à quelques éléments du jeu pour le rende meilleur !\n\nPour commencer, cela m'a pris beaucoup de temps avant de comprendre chaque mécanique du jeu. Par exemple, je n'avais pas compris comment arroser les plantes, ni comment donner nos légumes aux clients et ni comment acheter de nouvelles graines. Un tutoriel serait donc nécessaire dans une futur mise à jour afin que tout le monde puissent comprendre.\n\nDe plus, l'endroit où ranger les légumes était mal fait puisqu'il n'y avait pas de texte pour nous dire comment les me\nttre à l'intérieur ni comment les sortir. Je pense mëme que c'était assez buggé parce que quand on les sort du rangement si on baisse trop rapidement la caméra, cela remet les légumes directements dans le rangement ce qui est assez génant (je ne sais pas si j'ai été assez clair, mais c'est ce que j'ai ressenti)\n\nEnsuite, au début je ne comprenait pas où cliquer pour acheter les améliorations de la HolyCarrot. Je conseillerais donc de mettre un petit rectangle pour que ce soit plus clair.\n\nFinalement, le bouton E était, à mon avis, buggé dans presque toutes les situations parce qu'il fallaitr que j'apppuie plusieurs fois sur le bouton E pour faire l'action. Si jamais ce problème pourrait être réglé ce serait génial !\n\nPour conclure, je dois dire que le jeu est vraiment bien malgré quelques défaults. C'est pourquoi je conseillerais une mise à jour qui corrigerait la majorité de ces problèmes pour avoir une meilleure expérience de jeu !",
+        "timestamp_created": 1755391231,
+        "timestamp_updated": 1755391261,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755156109",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB6gNWDBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

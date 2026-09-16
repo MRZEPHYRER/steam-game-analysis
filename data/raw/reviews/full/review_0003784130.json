@@ -1,0 +1,66 @@
+{
+  "appid": 3784130,
+  "requested_at": "2026-09-13T19:39:41.171142+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "214830938",
+        "author": {
+          "steamid": "76561197995498126",
+          "personaname": "BxBender [GER]",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/BxBender/",
+          "num_games_owned": 2650,
+          "num_reviews": 831,
+          "playtime_forever": 1037,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1037,
+          "last_played": 1767279665,
+          "avatar": "ae3be2be6fc7899c177f880582e64b3efb01d4e8"
+        },
+        "language": "german",
+        "review": "Schön für Zwischendurch.\r\n\r\nIn diesem Time-Management-Spiel muss man nicht um die Wette laufen und Wege freischaufeln, sondern man muss bestimmte Waren in einem Zeitlimit herstellen.\r\nDiese müssen manchmal in 3-4 Lieferketten hergestellt werden, in Ausnahmefällen steht nicht einmal genug Bauplatz zur Verfügung, sondern man muss seine Fertigungsgebäude dann auf neue Erzeugnisse umbauen.\r\nNach jeder Mission bekommt man Sterne, die man in Bonusitems für eine Zeitspanne investieren kann.\r\nDas ist bei etlichen Missionen durchaus sinnvoll, da man oft nur unter sehr harten Bedingungen die vollen 3 Sterne abgrasen wird.\r\nAlternativ gibt es auch jederzeit den Wechsel zu einem entspannten Modus ohne Zeit, so kann jeder alles schaffen.\r\nDie Grafik und der Sound sind ok, Story nett, aber eher belanglos, Casual halt.\r\nEs gibt 55 Missionen, man bekommt also viel fürs Geld, vor allem, wenn man alles selber auf volle Punktzahl stemmen will und deshalb mehrmals wiederholen muss.\r\nIch hätte mir leicht erspielbare Steam Errungenschaften und Sammelkarten gewünscht, drauf warten braucht man vermutlich eher nicht.\r\n\r\nWer diese Art von Spiele mag, oder es einmal mal versuchen möchte, kann hier für ein paar Euro im Sale eigentlich bedenkenlos zugreifen.\r\n\r\nFazit: beim vielen spielen nicht vergessen, auch was echtes mal zu essen :-)",
+        "timestamp_created": 1767284199,
+        "timestamp_updated": 1767284199,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.551851034164428711",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754055097",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY9n4AAAAAFP+Go0AAAAAB69cGzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

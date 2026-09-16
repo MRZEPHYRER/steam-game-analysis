@@ -1,0 +1,66 @@
+{
+  "appid": 3952050,
+  "requested_at": "2026-09-13T20:04:39.929914+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 0,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "215193312",
+        "author": {
+          "steamid": "76561198093585500",
+          "personaname": "rabin34",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198093585500/",
+          "num_games_owned": 0,
+          "num_reviews": 6,
+          "playtime_forever": 68,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 68,
+          "last_played": 1772985341,
+          "avatar": "9662c3a65c2ebdeb553041c7420dd8ded8e82841"
+        },
+        "language": "koreana",
+        "review": "좋았던 점\n\n먹이를 합치는 부분과 바람으로 랜덤하게 움직이는 거북이에게 밥을 먹이는 느낌이 재미있었습니다.\n거북이의 외형이 변하고 레벨업마다 도전과제가 보이게 하는 부분도 키우기의 재미요소 처럼느꼈습니다.\n\n\n아쉬웠던 점\n\n게임 방법란 글의 위치가 중앙이 아니어서 가독성이 약간 떨어져 보입니다.\n아래의 키를 이용하라는 문구에 저만 안보이는 건지 모르겠지만 키 안내가 없었습니다.\n\n인게임에 대한 그림과함께 게임방식을 설명하주는 부분이 있었다면 더 게임을 이해하기 쉬웠을 것 같습니다.\n처음 한두판은 복어도 그냥 맛있게 먹는 음식인줄만 알았습니다.\n인게임에서 기본먹이와 해양생물 리젠 타이밍을 알수없다는 점과\nWASD로 거품과 해양생물을 움직이는 부분의 조작감이 아쉬웠습니다.\n먹이를 합치는 시스템은 좋으나, 이득이 되는것처럼 느껴지는 사운드나 이펙트가 미미했던 것 같습니다. ex)마리오 버섯먹듯이\n합쳐서 먹으면 아주 좋구나 라는 인식과 위험한 생물이나 특징이 있는 생물체 (무거운 조개류)에 대한 인지 이펙트나 UI등이\n구현되었으면 좋겠습니다.\nWASD 입력시 거품이 각 상우좌하 중간에 조그맣게 표현이 되는데 바닷속에서 해류가 흐르듯한 느낌의 효과가\n연출되면 가시성이 더 좋아지지 않을까 생각했습니다.\n\n이러한 부분들이 개선되면 더 좋은 게임이 될 것 같습니다!\n재미있게 플레이했습니다!\n\n\n-----------------------------------------------------------------\n패치 이후에 인게임에서 먹이를 합치라는 말이 나와서 직관적임\n게임 방법에 각 먹이별 특징이 나와있어서 이해가 잘된다.\n가끔 조개가 합쳐지지 않을때가 있다 그럴 때는 일단 먹여버렸다.\n거북이 체력이 복어를 먹지 않아도 순식간에 떨어질때가 있는데 왜그러는지 모르겠다.\n먹이가 합쳐질 때 반응 피드백이 좋았다. \n거북이가 먹고 성장할 때 이펙트 피드백도 있으면 더 재미있을 것 같다.\n",
+        "timestamp_created": 1767586182,
+        "timestamp_updated": 1772985545,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760514069",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABw7vK0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.625,
+  "transport_error_count": 0
+}

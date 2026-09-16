@@ -1,0 +1,66 @@
+{
+  "appid": 4042100,
+  "requested_at": "2026-09-13T20:14:45.269993+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "215134148",
+        "author": {
+          "steamid": "76561198373196923",
+          "personaname": "bunaguchi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198373196923/",
+          "num_games_owned": 0,
+          "num_reviews": 18,
+          "playtime_forever": 437,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 430,
+          "last_played": 1772258461,
+          "avatar": "37b09956f28d73a40ea989f4f481a2d9174ace57"
+        },
+        "language": "japanese",
+        "review": "Ver 1.0.0でプレイしました。\r\nコレクションということで、『ブーメランサバイバー』と『ブーメランサバイバー２』の２つのゲームが収録されています。元のゲームを知らずに買いましたが、トップビューの固定画面で、上下左右から出現する敵を倒していくシンプルなアクションゲームです。タイトルにサバイバーと付いていますが、近年流行りのいわゆるヴァンサバ系ではありません。\r\n\r\n１も２も基本アクションは同じで、１はエンドレスで敵を倒すスコアアタック。２は敵を全滅させるステージクリア制になっていてボス戦もあり。シンプルなシステムで、２はセーブがパスワード制だったりとレトロゲームのような雰囲気です。\r\n\r\n自キャラの武器であるブーメランは４方向に投げられますが、見た目も当たり判定も小さくて若干の当て辛さがあります。アイテムの判定も小さくて、自キャラとカスったくらいでは取れない点は少々慣れが必要に感じました。\r\nそのあたりだけ少し気になりましたが、ゲームとしてはしっかり作られており、プリミティブなアクションゲームの楽しさがあると思います。\r\n\r\nSteamの実績機能には非対応のようですが、ゲーム内にシークレット情報や音楽のアンロック条件という形で近い仕組みがあります。他にハードモードなどもあり、やり込みを楽しめる作りになっていて良かったです。\r\n\r\n難易度は基本的に易しめ。２はステージクリア制ですがボリュームも控えめですぐクリアできます。\r\n一方で、全ての要素のアンロックを目指すと少々手ごわい部分もあり、特に、１のスコア100万越えと、２のチャンピオンモードでの最高ランク到達はなかなか手応えがありました。\r\n\r\n最終的に、「シークレット情報集」と「オーディオセレクション」の全ての項目をアンロックするまでプレイしました。おまけとして関連イラストや短い漫画も収録されており、充実のコンテンツ。最後まで楽しませていただきました。",
+        "timestamp_created": 1767541642,
+        "timestamp_updated": 1767541642,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764169492",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB0/NW0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9679999999998472,
+  "transport_error_count": 0
+}

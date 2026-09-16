@@ -1,0 +1,68 @@
+{
+  "appid": 3852930,
+  "requested_at": "2026-09-13T19:49:38.478823+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 1,
+      "total_negative": 2,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "208484166",
+        "author": {
+          "steamid": "76561198215822437",
+          "personaname": "Candy Rhomb",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198215822437/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 5,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1762357692,
+          "avatar": "6158d6bb421f4bf240897955ba9d798e07840144"
+        },
+        "language": "english",
+        "review": "I think the premise of this game was really promising. The actual building of the fish tanks is fun and has potential. The graphics of the fish and the tank itself were good and there was a lot of variety. My problem is the AI art and AI usage for the campaign mode, which really was off putting for me. I do not support AI. This game would be greatly improved with graphics from a real artist. A shame because the game-play itself is kind of fun!",
+        "timestamp_created": 1762358005,
+        "timestamp_updated": 1762358005,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.543859660625457764",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1769497776,
+        "developer_response": "Thank you for sharing your thoughts and for recognizing the potential in the core gameplay. Hearing that you enjoyed building the fish tanks and appreciated the variety in the fish and tank visuals really means a lot to us.\n\nI also want to be upfront and acknowledge your main concern. The AI-generated art used in the campaign mode clearly had a negative impact on your experience, and I understand why that would feel off-putting — especially if you strongly oppose AI usage. That reaction is completely fair.\n\nTo clarify, AI was not used in the creation of the core gameplay systems, aquarium customization, fish models, or decorations. The use of AI was limited to certain visual elements in the campaign presentation. That said, even limited use can still affect immersion, and we take responsibility for that choice.\n\nAs a small three-person team, we made some compromises during development, but that doesn’t mean the feedback should be ignored. We agree that the campaign would feel stronger with artwork created by human artists, and we’re actively evaluating ways to improve or replace those elements in future updates.\n\nI’m glad you still found the gameplay itself enjoyable, even despite those issues. Feedback like yours helps guide where the game goes next, and it’s genuinely appreciated.",
+        "app_release_date": "1753945382",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZH3AAAAAAFP+FnTSAAAAB29KabBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

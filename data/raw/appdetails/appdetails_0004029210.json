@@ -1,0 +1,202 @@
+{
+  "requested_at": "2026-09-13T06:31:18.291769+00:00",
+  "request_params": {
+    "appids": 4029210,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4029210,
+  "payload": {
+    "4029210": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "WAVEBEAM",
+        "steam_appid": 4029210,
+        "required_age": 0,
+        "is_free": true,
+        "controller_support": "full",
+        "dlc": [
+          4049060
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >In <strong>WAVEBEAM</strong>, 2-4 local players navigate the darkness while battling one another to be the last ship left. Fire your BEAM to destroy other ships and stay hidden while navigating the arena. Your PING not only reflects enemy BEAMs, but also reveals your surroundings and your location to everyone, so use it wisely!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><i>A Note from the Designer:</i></strong></p><p class=\"bb_paragraph\" ><i>The concept behind this game was developed by myself and a few others during the 2017 Global Game Jam. Eight years later, I wanted to experiment with modern AI coding tools to assess their capability and limitations. I spent about an hour distilling the game's concept and writing a comprehensive game design document that aligned with my own vision, then I provided an AI coding agent with the design doc. Although it missed the mark in a few areas initially, the agent started out with something surprisingly playable that roughly reflected the design. After about 10 hours of additional tweaks, additions, and iterations, I ended up something that I was happy to share with the public - all without writing a single line of code.</i></p><p class=\"bb_paragraph\" ><i>The product of this experiment was well worth the time and money put into it, and while I could have developed this game entirely myself as a Software Engineer, I chose to do so with the use of AI and thus can't justify charging anyone for it.</i></p><p class=\"bb_paragraph\" ><i>HOWEVER - if you want to invest in the ongoing development of this game, I'll gladly accept donations via an upcoming &quot;Dev Support DLC&quot;, or you can donate via Venmo (@RyanCollins86) or reach out to me directly via . I'll be sharing a roadmap in the Discord where you can also chat with other players, report bugs, and provide suggestions new features for the roadmap.</i></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >In <strong>WAVEBEAM</strong>, 2-4 local players navigate the darkness while battling one another to be the last ship left. Fire your BEAM to destroy other ships and stay hidden while navigating the arena. Your PING not only reflects enemy BEAMs, but also reveals your surroundings and your location to everyone, so use it wisely!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><i>A Note from the Designer:</i></strong></p><p class=\"bb_paragraph\" ><i>The concept behind this game was developed by myself and a few others during the 2017 Global Game Jam. Eight years later, I wanted to experiment with modern AI coding tools to assess their capability and limitations. I spent about an hour distilling the game's concept and writing a comprehensive game design document that aligned with my own vision, then I provided an AI coding agent with the design doc. Although it missed the mark in a few areas initially, the agent started out with something surprisingly playable that roughly reflected the design. After about 10 hours of additional tweaks, additions, and iterations, I ended up something that I was happy to share with the public - all without writing a single line of code.</i></p><p class=\"bb_paragraph\" ><i>The product of this experiment was well worth the time and money put into it, and while I could have developed this game entirely myself as a Software Engineer, I chose to do so with the use of AI and thus can't justify charging anyone for it.</i></p><p class=\"bb_paragraph\" ><i>HOWEVER - if you want to invest in the ongoing development of this game, I'll gladly accept donations via an upcoming &quot;Dev Support DLC&quot;, or you can donate via Venmo (@RyanCollins86) or reach out to me directly via . I'll be sharing a roadmap in the Discord where you can also chat with other players, report bugs, and provide suggestions new features for the roadmap.</i></p>",
+        "short_description": "2-4 local players navigate the darkness while battling one another to be the last ship left. Fire your BEAM to destroy other ships and stay hidden while navigating the arena. Your PING not only reflects enemy BEAMs, but also reveals your surroundings and your location to everyone, so use it wisely!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/971ae44d3bf27ea036e5115fbfc6120918c8e484/header.jpg?t=1760558799",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/0a7e18e4fa1603a49d7a7d38f2d0926e3ce87fe6/capsule_231x87.jpg?t=1760558799",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/0a7e18e4fa1603a49d7a7d38f2d0926e3ce87fe6/capsule_184x69.jpg?t=1760558799",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3-2100 / AMD FX-6300 or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 660 / AMD Radeon HD 7870 or equivalent<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> As long as your computer can run a web browser and WebGL, it should support this game. </li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.15<br></li><li><strong>Processor:</strong> Apple Silicon<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> As long as your computer can run a web browser and WebGL, it should support this game. </li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Any<br></li><li><strong>Processor:</strong> Any<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> As long as your computer can run a web browser, it should support this game. </li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Any<br></li><li><strong>Processor:</strong> Any<br></li><li><strong>Graphics:</strong> Any<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> As long as your computer can run a web browser, it should support this game. </li></ul>"
+        },
+        "developers": [
+          "Ryan Collins"
+        ],
+        "publishers": [
+          "Ryan Collins"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/5fce54f9c42c0aae65403367342338304efd901d/ss_5fce54f9c42c0aae65403367342338304efd901d.600x338.jpg?t=1760558799",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/5fce54f9c42c0aae65403367342338304efd901d/ss_5fce54f9c42c0aae65403367342338304efd901d.1920x1080.jpg?t=1760558799"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/7c55d2fcbdb49d29f591a9467304c4de9efc5ba8/ss_7c55d2fcbdb49d29f591a9467304c4de9efc5ba8.600x338.jpg?t=1760558799",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/7c55d2fcbdb49d29f591a9467304c4de9efc5ba8/ss_7c55d2fcbdb49d29f591a9467304c4de9efc5ba8.1920x1080.jpg?t=1760558799"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/2bc8a9d092b902b344975eb06e0624bdaa13a76d/ss_2bc8a9d092b902b344975eb06e0624bdaa13a76d.600x338.jpg?t=1760558799",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/2bc8a9d092b902b344975eb06e0624bdaa13a76d/ss_2bc8a9d092b902b344975eb06e0624bdaa13a76d.1920x1080.jpg?t=1760558799"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/10dbf36a1b636bc4ad0852ca1527c6de2299f006/ss_10dbf36a1b636bc4ad0852ca1527c6de2299f006.600x338.jpg?t=1760558799",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/10dbf36a1b636bc4ad0852ca1527c6de2299f006/ss_10dbf36a1b636bc4ad0852ca1527c6de2299f006.1920x1080.jpg?t=1760558799"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/4a6cf42c8ffa2d9bb70b7bea05ffe1b78e69c412/ss_4a6cf42c8ffa2d9bb70b7bea05ffe1b78e69c412.600x338.jpg?t=1760558799",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029210/4a6cf42c8ffa2d9bb70b7bea05ffe1b78e69c412/ss_4a6cf42c8ffa2d9bb70b7bea05ffe1b78e69c412.1920x1080.jpg?t=1760558799"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257197023,
+            "name": "WAVEBEAM - Launch Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257197023/5fce54f9c42c0aae65403367342338304efd901d/movie_600x337.jpg?t=1758904597",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4029210/1429614671/3cfb6b5d6f4158b73bbd0583d05802e8f4b6769f/1757709565/dash_av1.mpd?t=1758904597",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4029210/1429614671/3cfb6b5d6f4158b73bbd0583d05802e8f4b6769f/1757709565/dash_h264.mpd?t=1758904597",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4029210/1429614671/3cfb6b5d6f4158b73bbd0583d05802e8f4b6769f/1757709565/hls_264_master.m3u8?t=1758904597",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "phayzr@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4029210?t=1760558799",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4029210?t=1760558799",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

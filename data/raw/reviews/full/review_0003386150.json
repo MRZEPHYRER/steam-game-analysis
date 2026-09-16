@@ -1,0 +1,66 @@
+{
+  "appid": 3386150,
+  "requested_at": "2026-09-13T19:13:31.657942+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "225164201",
+        "author": {
+          "steamid": "76561199610191452",
+          "personaname": "Thunner64",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199610191452/",
+          "num_games_owned": 67,
+          "num_reviews": 14,
+          "playtime_forever": 85,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 52,
+          "last_played": 1778548748,
+          "avatar": "58ffb00725491425081c7913e6014bd8632b70db"
+        },
+        "language": "english",
+        "review": "for a first game this game is great, but you need take it is a first game. if you like ultakill you will most likely like it. I'm excited to see what the Devious Devs are going to make next",
+        "timestamp_created": 1778381275,
+        "timestamp_updated": 1778381275,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765675614",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFkAAAAAAAAFAAAAAAAAAAB5uvfaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

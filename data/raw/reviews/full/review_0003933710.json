@@ -1,0 +1,67 @@
+{
+  "appid": 3933710,
+  "requested_at": "2026-09-13T20:02:11.842539+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 165,
+      "total_negative": 3,
+      "total_reviews": 168
+    },
+    "reviews": [
+      {
+        "recommendationid": "230415878",
+        "author": {
+          "steamid": "76561199101361255",
+          "personaname": "Martinelli",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/l2zzz/",
+          "num_games_owned": 218,
+          "num_reviews": 17,
+          "playtime_forever": 95170,
+          "playtime_last_two_weeks": 19294,
+          "playtime_at_review": 8606,
+          "deck_playtime_at_review": 8495,
+          "last_played": 1789325725,
+          "avatar": "848c065eaff3c128918b364966d1eb91bb39e705"
+        },
+        "language": "brazilian",
+        "review": "Cara... que jogo foda.\n\nJá joguei um trilhão de jogos, mas poucos escutam a comunidade igual esse. Dá pra ver que os desenvolvedores realmente se importam com o feedback dos jogadores.\n\nO jogo tem a cara do Brasil: gírias, piadas de tiozão e um humor que faz tudo ficar mais divertido. A jogabilidade é bem intuitiva e o progresso é muito satisfatório.\n\nPra quem nunca mexeu com motor ou não entende de acerto de FT, pode assustar no começo. Mas depois de algumas horas você pega o jeito, e é justamente isso que torna a experiência tão boa.\n\nSe você gosta de carros e de jogos que passam personalidade, vale muito a pena. Parabéns aos desenvolvedores.",
+        "timestamp_created": 1783983489,
+        "timestamp_updated": 1783983489,
+        "voted_up": true,
+        "votes_up": 36,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.819078922271728516",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "app_release_date": "1765555435",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFTnlEAAAAAFP+o15SAAAAB24PvuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

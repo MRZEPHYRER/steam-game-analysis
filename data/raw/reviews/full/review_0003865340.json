@@ -1,0 +1,91 @@
+{
+  "appid": 3865340,
+  "requested_at": "2026-09-13T19:51:42.702347+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 44,
+      "total_negative": 17,
+      "total_reviews": 61
+    },
+    "reviews": [
+      {
+        "recommendationid": "208538623",
+        "author": {
+          "steamid": "76561199070083301",
+          "personaname": "Nas",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199070083301/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 218,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 218,
+          "last_played": 1762409029,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "First off, respect for putting your work into the world, that’s not EASY at all!\n\nI’m writing this because I KNOW YOU CAN DO BETTER!!\n\nI played this game for 3.6 hours with my community, and honestly, it feels no different from the demo at ALL!\nTo ask people to pay for something like this is UNACCEPTABLE. I’m not refunding it because\nI BELIEVE YOU HAVE SOMETHING HERE,\nbut it’s just not polished at ALL!\n\nHere is the GOOD:\n\n1. The idea is CREATIVE AF and that first round with Margo is absolutely terrifying\n\nHere is the BAD:\n\n1. Margo and the gameplay become boring pretty fast\n\n2. This game feels no different from the demo!\nThere are some new cutscenes, sure, but that’s about it\n\n3. Randomized item locations are SO FRUSTRATING!\nIt’s not a game of skill, it’s a game of LUCK!!!\n\n4. Opening drawers and cupboards ISN’T GAMEPLAY!!\n\nRemove the randomizer PLEASE KEEP ITEMS IN SET LOCATIONS, ALWAYS THE SAME!!!\nMake this damn game FREE or fix these problems, add new content that wasn’t in the demo, and then you can sell it!\n\n",
+        "timestamp_created": 1762417875,
+        "timestamp_updated": 1762417875,
+        "voted_up": false,
+        "votes_up": 86,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.720494568347930908",
+        "comment_count": 13,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762355089",
+        "reactions": [
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 10
+          },
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVlxEAAAAAFP+cOS4AAAAB/v8GbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

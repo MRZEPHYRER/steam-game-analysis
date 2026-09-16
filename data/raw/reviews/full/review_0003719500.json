@@ -1,0 +1,66 @@
+{
+  "appid": 3719500,
+  "requested_at": "2026-09-13T19:34:13.911021+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "221510945",
+        "author": {
+          "steamid": "76561198940370788",
+          "personaname": "Commieboo",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Commieboo/",
+          "num_games_owned": 1865,
+          "num_reviews": 25,
+          "playtime_forever": 52,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 42,
+          "last_played": 1774290961,
+          "avatar": "e9d5298573f5b03e6b9583c32dc32eb5e6e63af2"
+        },
+        "language": "english",
+        "review": "Alright, I am going to try and be constructive.\nWhen I saw this game I thought it was just going to be a wierd little space battle sim or something like that. It looked wierd and didn't have any reviews yet so I was down for it.\n\nWhen you open the game up you're faced with a massive lore dump and a single button to start. \nYou get a starting fund and you buy and upgrade little ships to defend your mothership. You buy these in the resources menu. The game does not tell you that. You also have a research screen, I think those upgrade your 'main' ship. You then decide the speed at which you want to move through the sector an all have little % chances for random events, practically always a battle. During the battle ships automatically move and attack and.. That's it. I'm writing this battle while I'm stuck in an 8 minute long fight.\n\nIt plays like an autobattler and you don't have a massive amount of control over it outside of pumping resources into new upgrades.\nThe UI is a mess and the combat just isn't that fun. I eventually just put on some videos on my second screen to pass the time. \nWith some better presentation, more events, some basic tactics during battles and an options menu it might improve but right now it's just very difficult to recommend sadly.\nSorry dev, good luck on your next project & wishing you the best.",
+        "timestamp_created": 1774290366,
+        "timestamp_updated": 1774290366,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761750405",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABx0v/MBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

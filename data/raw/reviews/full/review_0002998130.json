@@ -1,0 +1,66 @@
+{
+  "appid": 2998130,
+  "requested_at": "2026-09-13T19:00:25.523069+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206526288",
+        "author": {
+          "steamid": "76561198838113003",
+          "personaname": "UntrustM3M1lly",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198838113003/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 42,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 42,
+          "last_played": 1760258283,
+          "avatar": "235e6e10cd66af9a6c42020f8053cf3a32508522"
+        },
+        "language": "english",
+        "review": "cant look all the way down, so items got stuck under things and i was screwed. Early in the game, i was in need of sigils but you have to draw them manually, and the drawing tool is a giant marker that is too chunky so the \"progress bar\" insists you didnt do it right and fail to make a sigil, essentially softlocking you from everything.",
+        "timestamp_created": 1760258651,
+        "timestamp_updated": 1760258651,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758719414",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABw9eqTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

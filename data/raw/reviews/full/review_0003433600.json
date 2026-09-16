@@ -1,0 +1,75 @@
+{
+  "appid": 3433600,
+  "requested_at": "2026-09-13T19:15:34.628800+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209646168",
+        "author": {
+          "steamid": "76561197993867485",
+          "personaname": "Gremlin Snek, Stealing shinies",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/vladsnakedragon/",
+          "num_games_owned": 1984,
+          "num_reviews": 123,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1763583660,
+          "avatar": "9503b85ae5f907b06193409e7abd234c0d5126c7"
+        },
+        "language": "english",
+        "review": "Boot into game. First thing I am greeted with, for a FULL RELEASE. \"Future things to be added, such as campaign missions... etc etc\". Not a good sign.\n\nLoad into Tutorial. Tutorial doesn't progress through camera movement. Reload tutorial 3 times, until it finally registers the first stage of tutorial passing.\n\nOh boy..... This feels like someone trying to make Transport Tycoon, in a 3 dimensional space, with the most horrendous UI and item placement system ever.\n\nThings are placed from the camera outward. Camera moves in X Y Z directions only. You cannot move the camera where you are 'looking'. To place things, you have to \"Scroll wheel\" to the right 'height' then move along the X and Z axis until you are close enough to a planet to place something on it. You cannot just look towards the planet and effectively fly your camera there.\n\nThings in space are placed on the same principal, with the items lining up to the 'height' you are at, and starting out super close to the camera. Ok, getting very annoyed at basic building mechanics.\n\nNext, let's create a 'line', or rather, a path station to station. Once again, have to get REAL close to the planet, either above or below it, then look down or Up, to be able to see the 'depot' (loading station), and add it to the line. If you add something to the line, you cannot edit it. You have to remove the whole of order, in order to insert something you missed (like a navigational marker). You can't move it up or down on the list. Gotta delete all station listings, and start from where you messed up.\n\nAt this stage the tutorial broke again, not registering that I assigned ships to the lines I created, no matter the type, and used up the money I had in the tutorial.\n\nThis is an EARLY ACCESS game at BEST releasing as FULL RELEASE. DO NOT BUY. There was minimal testing done.",
+        "timestamp_created": 1763584183,
+        "timestamp_updated": 1763584183,
+        "voted_up": false,
+        "votes_up": 41,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.752655088901519775",
+        "comment_count": 3,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763569463",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFU8mgAAAAAFP+gVwAAAAAB4pd6fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

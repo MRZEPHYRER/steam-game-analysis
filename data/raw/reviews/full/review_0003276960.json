@@ -1,0 +1,66 @@
+{
+  "appid": 3276960,
+  "requested_at": "2026-09-13T19:09:29.860601+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "206748249",
+        "author": {
+          "steamid": "76561198204717871",
+          "personaname": "kheaton",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198204717871/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 1365,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 611,
+          "last_played": 1767910385,
+          "avatar": "a73955f5d746e6e266b5170c2eed3047928ff0b7"
+        },
+        "language": "english",
+        "review": "This game reminds me a lot of Tetris and especially Dr. Mario, but with some upgrades!\n\nThere are two single player modes. The first times you while you clear progressively more difficult stages, with the goal being to reduce your time in future runs. The other is a survival mode where you attempt to survive as long as possible with more gems to clear raising from the floor at predetermined intervals. They're both quite challenging.\n\nMultiplayer is where this game really shines, in my opinion. Players receive power-up items according to how fast they clear blocks and if they use combos, chain reactions, etc. The items can be turned on or off, but I enjoy playing with them all on. In a group of four to six, you can get a lot of effects happening at once. That keeps things pretty engaging even if you have more than six players, with some watching and waiting to switch in.\n\nVery fun, very engaging game for a single player or a group. Would recommend!",
+        "timestamp_created": 1760484591,
+        "timestamp_updated": 1760484591,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.583333313465118408",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760148084",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYVVYAAAAAFP+KqqgAAAAB5pdeUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

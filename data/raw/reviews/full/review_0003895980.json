@@ -1,0 +1,66 @@
+{
+  "appid": 3895980,
+  "requested_at": "2026-09-13T19:56:26.868848+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "229240535",
+        "author": {
+          "steamid": "76561198207083779",
+          "personaname": "Miss Zi Bunney",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/IntenseFluffinessAttack/",
+          "num_games_owned": 2660,
+          "num_reviews": 1317,
+          "playtime_forever": 126,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 126,
+          "last_played": 1782784054,
+          "avatar": "9c980cd6bcff88984449c9cbf60ab0d6096fa3a0"
+        },
+        "language": "english",
+        "review": "It's definitely a fun little mystery/adventure game.\n\nI can't say it's hard and you are given clues constantly, but I do enjoy the interactions with the characters a lot.  Especially the main Duo.\n\nThe twist was nice too.  Didn't expect it.\n\nThe Moonicorns were adorable.  ^^\n\nI finished the game and saw that this game has \"FOUR Hidden Endings\".  o.o...  And here I thought it was linear.  Okay hmm...\n\nI found all the Moonicorns and got that Epilogue, but [spoiler]Keane leaves and they never confess to one another.[/spoiler]  D:\n\nUnless of course that's a hint at a sequel and that I got a pretty good ending, then I am all for it.  :D\n\nNow that I think back...  Did I accidentally choose a \"Career\" path.  Ahahah...\n\nWell, there is always room for a replay.  :>",
+        "timestamp_created": 1782825999,
+        "timestamp_updated": 1782825999,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.532374083995819092",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764300882",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZWj6AAAAAFP+EJNUAAAAB37b3qBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

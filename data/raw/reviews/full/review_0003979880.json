@@ -1,0 +1,66 @@
+{
+  "appid": 3979880,
+  "requested_at": "2026-09-13T20:07:34.049563+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "211432721",
+        "author": {
+          "steamid": "76561199833148289",
+          "personaname": "kentidamn",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199833148289/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 668,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 233,
+          "last_played": 1779574057,
+          "avatar": "430acdaab5ff5ce7af723ced7fac36e827c658a9"
+        },
+        "language": "russian",
+        "review": "игра топ, но 14 ночь сложна",
+        "timestamp_created": 1764344306,
+        "timestamp_updated": 1764344306,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764167378",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFvshcAAAAAFP+IWQgAAAABx0camBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

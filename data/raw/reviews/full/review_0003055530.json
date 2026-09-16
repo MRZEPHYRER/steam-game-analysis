@@ -1,0 +1,66 @@
+{
+  "appid": 3055530,
+  "requested_at": "2026-09-13T19:02:31.485311+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 20,
+      "total_negative": 0,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "212062430",
+        "author": {
+          "steamid": "76561199133936292",
+          "personaname": "sonamy357",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199133936292/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 588,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 588,
+          "last_played": 1753306476,
+          "avatar": "26267e2550b782298e458f84ffd98e961711c9e9"
+        },
+        "language": "english",
+        "review": "ive played this games demo when it was first available and i got drawn into it even then, the stroy of the game is fantastic, the visuals are amazings and the soundtrack is great, and i loved the touch of the ending credits song\n10/10 would play again. highly recommanded to visual novel players",
+        "timestamp_created": 1764527091,
+        "timestamp_updated": 1764527091,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751910445",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB+jfqoBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

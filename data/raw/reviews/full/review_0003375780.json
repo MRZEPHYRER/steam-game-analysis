@@ -1,0 +1,107 @@
+{
+  "appid": 3375780,
+  "requested_at": "2026-09-13T19:13:10.072433+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 4380,
+      "total_negative": 213,
+      "total_reviews": 4593
+    },
+    "reviews": [
+      {
+        "recommendationid": "227751255",
+        "author": {
+          "steamid": "76561198356542787",
+          "personaname": "madafakaman30",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/madafakaman30/",
+          "num_games_owned": 361,
+          "num_reviews": 19,
+          "playtime_forever": 13749,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13748,
+          "deck_playtime_at_review": 2,
+          "last_played": 1786251300,
+          "avatar": "d01fb559abe5aebb717676d01559e10332dab2e9"
+        },
+        "language": "english",
+        "review": "How to even begin. I stumbled upon this game while searching for something similar to Final Fantasy. I love turn-based combat and JRPGs in general, and what I am about to say is not something I say lightly — I have been gaming my entire life. I rarely write reviews for games, but this time I absolutely have to share my experience: this was probably the greatest adventure I have ever experienced. For me, the Final Fantasy series always held that crown. I love brilliantly written stories that can make me cry and leave a lasting impact on me, but this game has completely surpassed everything else to become the absolute best thing I have ever played.\n\nI spent nearly 250 hours in this game and I cannot find the words to express what a masterpiece this is. I bow deeply before the developers, because no other game has ever captivated me like this. Nowhere else, in no other game, do you see this level of dedication to character development and relationships. The ending... that ending completely shattered me. Do not let the art style fool you — this game deals with politics, pain, and love; everything a truly great story needs. It is definitely not a game for children, despite what it might look like at first glance.\n\nI already know right now that I will never play another game quite like this, and I have never looked forward to a sequel as much as I do with this one. I promise anyone who appreciates a good story: you have to play this. This was the biggest surprise of my gaming life. I initially went into it just for the turn-based combat, but with every passing hour, I sank deeper and deeper into this world. And the best part is that the sequel comes out this September and the entire series spans 13 games. This is a remake of the very beginning of that universe. Nihon Falcom — you own me now, I am going to play every single one of them. I will never forget this game and I thank you for the opportunity to experience it. Despite everything I have seen — and I am no longer the youngest — this simply moved me to tears. The ending was one of the biggest twists ever; I just stared at the credits with my jaw on the floor.",
+        "timestamp_created": 1781220102,
+        "timestamp_updated": 1781220102,
+        "voted_up": true,
+        "votes_up": 116,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.914501428604125977",
+        "comment_count": 16,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758265218",
+        "hardware": {
+          "system_ram": "32451",
+          "os": "Windows 11",
+          "cpu_name": "Intel(R) Core(TM) i7-14700K",
+          "adapter_description": "NVIDIA GeForce RTX 4090",
+          "vram_size": 24138
+        },
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 13
+          },
+          {
+            "reaction_type": 34,
+            "count": 2
+          },
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 29,
+            "count": 1
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRtcEAAAAAFP+1Dl6AAAAB31ebkBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

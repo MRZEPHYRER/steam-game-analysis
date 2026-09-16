@@ -1,0 +1,215 @@
+{
+  "requested_at": "2026-09-13T06:55:12.285896+00:00",
+  "request_params": {
+    "appids": 4110880,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4110880,
+  "payload": {
+    "4110880": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Epic Game Maker",
+        "steam_appid": 4110880,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4153170,
+          4154310,
+          4154320,
+          4154330,
+          4154340,
+          4154350,
+          4154360,
+          4154370,
+          4154380
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Epic Game Maker is a sandbox 2D platformer with a level editor. Create levels of your dreams and share your creations with other players. Compete with your friends in multiplayer mode!</p><p class=\"bb_paragraph\" >Also you can play online levels created by other players and rate them. The best levels will appear at the top of the list, which will give an opportunity their authors to become famous! Make the game of your dreams, it's simple!</p><p class=\"bb_paragraph\" >Features:</p><p class=\"bb_paragraph\" >• Built-in level editor with different themes (castle, wild west, town, cave etc.)</p><p class=\"bb_paragraph\" >• Upload levels to the game server</p><p class=\"bb_paragraph\" >• Ability to play any levels online without downloading</p><p class=\"bb_paragraph\" >• Multiplayer  co-op mode (up to 4 players)</p><p class=\"bb_paragraph\" >• Nice interface and fantasy 2D graphics</p><p class=\"bb_paragraph\" >• Different characters like knight, goblin, demon, orc etc.</p><p class=\"bb_paragraph\" >Creating levels in this game is a very fun and easy process. You simply draw objects in cells, arrange blocks, objects and characters.</p><p class=\"bb_paragraph\" >The mission at the level will depend on what objects you used when creating. </p><p class=\"bb_paragraph\" >Each character in the game has a unique weapon and characteristics. All characters can be divided into 3 types - warriors, archers and mages.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Epic Game Maker is a sandbox 2D platformer with a level editor. Create levels of your dreams and share your creations with other players. Compete with your friends in multiplayer mode!</p><p class=\"bb_paragraph\" >Also you can play online levels created by other players and rate them. The best levels will appear at the top of the list, which will give an opportunity their authors to become famous! Make the game of your dreams, it's simple!</p><p class=\"bb_paragraph\" >Features:</p><p class=\"bb_paragraph\" >• Built-in level editor with different themes (castle, wild west, town, cave etc.)</p><p class=\"bb_paragraph\" >• Upload levels to the game server</p><p class=\"bb_paragraph\" >• Ability to play any levels online without downloading</p><p class=\"bb_paragraph\" >• Multiplayer  co-op mode (up to 4 players)</p><p class=\"bb_paragraph\" >• Nice interface and fantasy 2D graphics</p><p class=\"bb_paragraph\" >• Different characters like knight, goblin, demon, orc etc.</p><p class=\"bb_paragraph\" >Creating levels in this game is a very fun and easy process. You simply draw objects in cells, arrange blocks, objects and characters.</p><p class=\"bb_paragraph\" >The mission at the level will depend on what objects you used when creating. </p><p class=\"bb_paragraph\" >Each character in the game has a unique weapon and characteristics. All characters can be divided into 3 types - warriors, archers and mages.</p>",
+        "short_description": "Epic Game Maker is a 2D sandbox platformer with a built-in level editor. Create your own worlds, play online with friends, and share your levels with the community. Rate other players’ creations and rise to the top! Convenient level editor with different themes and fun gameplay await you.",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/71482bf0b793bf5039c8675485d773622e27348f/header.jpg?t=1766559696",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/7f3c16ab62388316b488685b296eccae6837179f/capsule_231x87.jpg?t=1766559696",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/7f3c16ab62388316b488685b296eccae6837179f/capsule_184x69.jpg?t=1766559696",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or later<br></li><li><strong>Processor:</strong> Intel Core 2 Duo 2.1 ghz or equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and mouse required</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Electricpunch"
+        ],
+        "publishers": [
+          "Akhmetova Meruyert"
+        ],
+        "demos": [
+          {
+            "appid": 4208590,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1440444
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Epic Game Maker",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1440444,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Epic Game Maker HD - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/7ffc72fd1a1db5ac90d2398f4ec53b7da83031a8/ss_7ffc72fd1a1db5ac90d2398f4ec53b7da83031a8.600x338.jpg?t=1766559696",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/7ffc72fd1a1db5ac90d2398f4ec53b7da83031a8/ss_7ffc72fd1a1db5ac90d2398f4ec53b7da83031a8.1920x1080.jpg?t=1766559696"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/f0cc848f11ae9855fedf7e26c89ec9a12f554636/ss_f0cc848f11ae9855fedf7e26c89ec9a12f554636.600x338.jpg?t=1766559696",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/f0cc848f11ae9855fedf7e26c89ec9a12f554636/ss_f0cc848f11ae9855fedf7e26c89ec9a12f554636.1920x1080.jpg?t=1766559696"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/81d2acef4fecf624e76d2d98a4d506a912c9891c/ss_81d2acef4fecf624e76d2d98a4d506a912c9891c.600x338.jpg?t=1766559696",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/81d2acef4fecf624e76d2d98a4d506a912c9891c/ss_81d2acef4fecf624e76d2d98a4d506a912c9891c.1920x1080.jpg?t=1766559696"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/dc99f428a9f80fce290d2c628ad8bc1d71f803ed/ss_dc99f428a9f80fce290d2c628ad8bc1d71f803ed.600x338.jpg?t=1766559696",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/dc99f428a9f80fce290d2c628ad8bc1d71f803ed/ss_dc99f428a9f80fce290d2c628ad8bc1d71f803ed.1920x1080.jpg?t=1766559696"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/137e372b69de5b1c3e6318cb18dc58e98a6c9091/ss_137e372b69de5b1c3e6318cb18dc58e98a6c9091.600x338.jpg?t=1766559696",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110880/137e372b69de5b1c3e6318cb18dc58e98a6c9091/ss_137e372b69de5b1c3e6318cb18dc58e98a6c9091.1920x1080.jpg?t=1766559696"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257226579,
+            "name": "Creating a level",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257226579/659e4921a78f84f12ba941d9e4b28477063e874f/movie_600x337.jpg?t=1762683338",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4110880/875256288/2ab8f0dea27bd38214f196d21479d6a6624bfdcf/1762244305/dash_av1.mpd?t=1762683338",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4110880/875256288/2ab8f0dea27bd38214f196d21479d6a6624bfdcf/1762244305/dash_h264.mpd?t=1762683338",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4110880/875256288/2ab8f0dea27bd38214f196d21479d6a6624bfdcf/1762244305/hls_264_master.m3u8?t=1762683338",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "support_info": {
+          "url": "https://electricpunch.net/",
+          "email": "gudkovtimur@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4110880?t=1766559696",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4110880?t=1766559696",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

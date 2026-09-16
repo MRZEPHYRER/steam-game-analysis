@@ -1,0 +1,313 @@
+{
+  "requested_at": "2026-09-13T05:52:33.137768+00:00",
+  "request_params": {
+    "appids": 3927070,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3927070,
+  "payload": {
+    "3927070": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Gone Down",
+        "steam_appid": 3927070,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>Walking along a solitary path, you come across a lonely cave.</i></p><p class=\"bb_paragraph\" ><i>But this cave holds mysteries and a darkness inside of it.</i></p><p class=\"bb_paragraph\" ><i>Whether you want to or not, you must traverse it to retrieve your core.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Welcome to Gone Down, traverse a deep cave with many mysteries as a little slime, that must go down to retrieve their core. Travel the many layers of the cave exploring its secrets as you dash and platform your way to the bottom.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Precise and unforgiving platforming </p></li><li><p class=\"bb_paragraph\" >Multiple Layers with varying designs and obstacles</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>Walking along a solitary path, you come across a lonely cave.</i></p><p class=\"bb_paragraph\" ><i>But this cave holds mysteries and a darkness inside of it.</i></p><p class=\"bb_paragraph\" ><i>Whether you want to or not, you must traverse it to retrieve your core.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Welcome to Gone Down, traverse a deep cave with many mysteries as a little slime, that must go down to retrieve their core. Travel the many layers of the cave exploring its secrets as you dash and platform your way to the bottom.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Precise and unforgiving platforming </p></li><li><p class=\"bb_paragraph\" >Multiple Layers with varying designs and obstacles</p></li></ul>",
+        "short_description": "A challenging 2D platformer with tough and precise platforming. Inspired by games like Jump King and Getting Over It, traverse the treacherous cave as you travel further down it to recover your lost core and become whole again.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/207dbaf48fccef89190789319a32992d9db1344f/header.jpg?t=1756442379",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/c2b2e9dbd5ff26eb63146e5ac2dfc2c8396f1aab/capsule_231x87.jpg?t=1756442379",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/c2b2e9dbd5ff26eb63146e5ac2dfc2c8396f1aab/capsule_184x69.jpg?t=1756442379",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD 2.5 GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Graphics:</strong> GTX 970<br></li><li><strong>Storage:</strong> 110 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Spajan"
+        ],
+        "publishers": [
+          "Spajan"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1379838
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Gone Down",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1379838,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Gone Down - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/762804f6362db1407b217d55cc0baec4388c1e00/ss_762804f6362db1407b217d55cc0baec4388c1e00.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/762804f6362db1407b217d55cc0baec4388c1e00/ss_762804f6362db1407b217d55cc0baec4388c1e00.1920x1080.jpg?t=1756442379"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/ad991b0bec601256d09a28a5f1abd9de8e8190dd/ss_ad991b0bec601256d09a28a5f1abd9de8e8190dd.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/ad991b0bec601256d09a28a5f1abd9de8e8190dd/ss_ad991b0bec601256d09a28a5f1abd9de8e8190dd.1920x1080.jpg?t=1756442379"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/d75428f320e37e3f8042d385aa9bec38464a0d74/ss_d75428f320e37e3f8042d385aa9bec38464a0d74.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/d75428f320e37e3f8042d385aa9bec38464a0d74/ss_d75428f320e37e3f8042d385aa9bec38464a0d74.1920x1080.jpg?t=1756442379"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/087dcab9c1f36e936a0751ef23d686b02ad610c2/ss_087dcab9c1f36e936a0751ef23d686b02ad610c2.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/087dcab9c1f36e936a0751ef23d686b02ad610c2/ss_087dcab9c1f36e936a0751ef23d686b02ad610c2.1920x1080.jpg?t=1756442379"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/0f79ddbd09a66f4d36b9eca7453d6a7d1278f3c9/ss_0f79ddbd09a66f4d36b9eca7453d6a7d1278f3c9.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/0f79ddbd09a66f4d36b9eca7453d6a7d1278f3c9/ss_0f79ddbd09a66f4d36b9eca7453d6a7d1278f3c9.1920x1080.jpg?t=1756442379"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/09374dbff55cd6b0e6aa52deca44d759fc919eb2/ss_09374dbff55cd6b0e6aa52deca44d759fc919eb2.600x338.jpg?t=1756442379",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/09374dbff55cd6b0e6aa52deca44d759fc919eb2/ss_09374dbff55cd6b0e6aa52deca44d759fc919eb2.1920x1080.jpg?t=1756442379"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257180962,
+            "name": "Gone Down Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257180962/a7fee5c5a15536c302bb779aaff5f778226564bf/movie_600x337.jpg?t=1754789186",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3927070/839965704/c9f617806060862478636a59f3bec7254495173b/1754787267/dash_av1.mpd?t=1754789186",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3927070/839965704/c9f617806060862478636a59f3bec7254495173b/1754787267/dash_h264.mpd?t=1754789186",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3927070/839965704/c9f617806060862478636a59f3bec7254495173b/1754787267/hls_264_master.m3u8?t=1754789186",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 14,
+          "highlighted": [
+            {
+              "icon": "6869797aa990891c0e509fd4d702a71883c85c5f.jpg",
+              "localized_name": "A Solitary Entrance",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Solitary Entrance",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/6869797aa990891c0e509fd4d702a71883c85c5f.jpg"
+            },
+            {
+              "icon": "a45ddfe9e485f992b6aa2bc37b26debd72403777.jpg",
+              "localized_name": "A Metallic Factory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Metallic Factory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/a45ddfe9e485f992b6aa2bc37b26debd72403777.jpg"
+            },
+            {
+              "icon": "9ee7c9209391f75e680bc2c2728a2d93f5298cc4.jpg",
+              "localized_name": "A Mystical Forest",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Mystical Forest",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/9ee7c9209391f75e680bc2c2728a2d93f5298cc4.jpg"
+            },
+            {
+              "icon": "3cf4f186c59b10d6b93e020d636484374a64df3f.jpg",
+              "localized_name": "A Dark Cavern",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Dark Cavern",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/3cf4f186c59b10d6b93e020d636484374a64df3f.jpg"
+            },
+            {
+              "icon": "33fddb5a59b0ba89abbb23e78c572d678f7e0679.jpg",
+              "localized_name": "A Crystalline Cavern",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Crystalline Cavern",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/33fddb5a59b0ba89abbb23e78c572d678f7e0679.jpg"
+            },
+            {
+              "icon": "bca2d8ae32b198451b77bba3922918790330b1fd.jpg",
+              "localized_name": "An Ancient Temple",
+              "archived": 0,
+              "hidden": 0,
+              "name": "An Ancient Temple",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/bca2d8ae32b198451b77bba3922918790330b1fd.jpg"
+            },
+            {
+              "icon": "018f8ec1f1e2a07b1086ae283a6f3e590ec105f1.jpg",
+              "localized_name": "A Fiery Place",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Fiery Place",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/018f8ec1f1e2a07b1086ae283a6f3e590ec105f1.jpg"
+            },
+            {
+              "icon": "d8810331469d7413e04bd0cd48ec32e365091ea2.jpg",
+              "localized_name": "A Frozen Place",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Frozen Place",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/d8810331469d7413e04bd0cd48ec32e365091ea2.jpg"
+            },
+            {
+              "icon": "15d4b7d8b3194dde0e38bd7e507c6736c52d008b.jpg",
+              "localized_name": "A Marble Ruin",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Marble Ruin",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/15d4b7d8b3194dde0e38bd7e507c6736c52d008b.jpg"
+            },
+            {
+              "icon": "4aaf8a7c0409062852537aadf277b5fd98823574.jpg",
+              "localized_name": "A Straightforward Journey",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A Straightforward Journey",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927070/4aaf8a7c0409062852537aadf277b5fd98823574.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "spajangames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3927070?t=1756442379",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927070/3d7aa2937afe078fcec997e2f5ae7974a08ef46c/page_bg_raw.jpg?t=1756442379",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

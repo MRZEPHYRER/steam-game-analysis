@@ -1,0 +1,66 @@
+{
+  "appid": 3837380,
+  "requested_at": "2026-09-13T19:47:10.982456+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 137,
+      "total_negative": 15,
+      "total_reviews": 152
+    },
+    "reviews": [
+      {
+        "recommendationid": "208542054",
+        "author": {
+          "steamid": "76561198071482913",
+          "personaname": "1-900-JOHHNY",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/hkpx/",
+          "num_games_owned": 912,
+          "num_reviews": 64,
+          "playtime_forever": 121,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 28,
+          "last_played": 1762428504,
+          "avatar": "75c35fd4f7a02d8a7753705ad13e0e9e6a75fe76"
+        },
+        "language": "english",
+        "review": "90% Gunvolt\n5% Black knight sword\n2.5% Cereza\n2.5% Madoka\n100% Cute witches\n\n\n\n\n200% LOVE\n",
+        "timestamp_created": 1762423227,
+        "timestamp_updated": 1762423227,
+        "voted_up": true,
+        "votes_up": 50,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.797825276851654053",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762416029",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVCyMAAAAAFP+mHyEAAAAB2lsObBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

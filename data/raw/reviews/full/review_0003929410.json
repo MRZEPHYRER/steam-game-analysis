@@ -1,0 +1,66 @@
+{
+  "appid": 3929410,
+  "requested_at": "2026-09-13T20:01:33.416750+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 76,
+      "total_negative": 5,
+      "total_reviews": 81
+    },
+    "reviews": [
+      {
+        "recommendationid": "213390512",
+        "author": {
+          "steamid": "76561199095404406",
+          "personaname": "asstr0h0e",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199095404406/",
+          "num_games_owned": 80,
+          "num_reviews": 2,
+          "playtime_forever": 87,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 87,
+          "last_played": 1765766104,
+          "avatar": "bc335b23143b8bbf8bd96e787b8bdca0e8f36a1b"
+        },
+        "language": "english",
+        "review": "As other players have mentioned, the game is quite short. It took me about an hour and a half to finish, and the puzzles were fairly simple. The art style is enjoyable, classic pixel point-and-click with a nice visual charm.\n\nMy biggest drawback is the story. It feels like it’s almost there, but not quite. The short runtime doesn’t give the narrative enough space to fully develop, which made it hard for me to feel immersed. I struggled to connect with the characters or understand why saving the Abbey was so important. The storytelling feels underdeveloped, and I wish Beatrix’s story and the Abbey were more meaningfully tied together. From my perspective, the narrative fell flat, which is frustrating because the game clearly has a strong foundation for something much more compelling.\n\nIf there were a “neutral” or “mixed” option instead of a thumbs down, I would choose that.\n\nThat said, if you’re looking for a quick experience with charming pixel art, this game might still be worth checking out. 🙂",
+        "timestamp_created": 1765847806,
+        "timestamp_updated": 1765847806,
+        "voted_up": false,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.705508112907409668",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765291275",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFV48yAAAAAFP+aThYAAAABwy4KuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3669750,
+  "requested_at": "2026-09-13T19:30:05.732996+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 29,
+      "total_negative": 3,
+      "total_reviews": 32
+    },
+    "reviews": [
+      {
+        "recommendationid": "208840144",
+        "author": {
+          "steamid": "76561199879672353",
+          "personaname": "pamfis",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199879672353/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 2301,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 223,
+          "last_played": 1771318560,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "turkish",
+        "review": "Absolutely beautiful!\nA chill and cozy escape with stunning visuals and a soothing ambience. Every moment feels peaceful and sincere. 🌊✨",
+        "timestamp_created": 1762723980,
+        "timestamp_updated": 1762723980,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762707616",
+        "reactions": [
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAABw3dScBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2030000000004293,
+  "transport_error_count": 0
+}

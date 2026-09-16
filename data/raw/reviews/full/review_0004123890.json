@@ -1,0 +1,68 @@
+{
+  "appid": 4123890,
+  "requested_at": "2026-09-13T20:20:50.402077+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 53,
+      "total_negative": 3,
+      "total_reviews": 56
+    },
+    "reviews": [
+      {
+        "recommendationid": "216578716",
+        "author": {
+          "steamid": "76561198147690848",
+          "personaname": "DeviL",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198147690848/",
+          "num_games_owned": 1581,
+          "num_reviews": 141,
+          "playtime_forever": 14,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1769128398,
+          "avatar": "f8f7744cb1dcc2f42b5b31d41a57d44c516be721"
+        },
+        "language": "russian",
+        "review": "RU/ Ну что сказать?\nГонки на рохлях это база, правда штрафы да штрафы, но если вы не жили на складе и не гоняли на этих малышках, OZON вам судья, а так с пивком потянет.\nОднозначно весело, хотя кооп бы не помещал, но парни, есть идея для некст игры \"бег по мезонинам\" \nЕсли будет, хоть укажите в игре ради рофла :) \nА так развития вам и продаж 7/10 \n\nENG/ \nWell, what can I say?\nRoughly racing is the base, true fines and fines, but if you didn't live in the warehouse and didn't race on these little ones, OZON is your judge, and so with a beer.\nDefinitely fun, although the coop would not hurt, but guys, there is an idea for the next game \"running on the mezzanine\" \nIf there is, at least specify in the game for the sake of rofl :) \nAnd so development and sales to you 7/10",
+        "timestamp_created": 1769128860,
+        "timestamp_updated": 1769128860,
+        "voted_up": true,
+        "votes_up": 47,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.771172523498535156",
+        "comment_count": 27,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1784850504,
+        "developer_response": "Спасибо за отзыв!\n\nМы возьмём на вооружение вашу идею, но пока есть более приоритетные проекты (можно увидеть в планируемых релизах издательства)\n\nИз аналога ближайшего по физике есть \"Побег мемов\":\nhttps://store.steampowered.com/app/3731350/Memologiya_Pobeg_Memov/",
+        "app_release_date": "1765731205",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUlDMAAAAAFP+ise4AAAAB8qZe6Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

@@ -1,0 +1,287 @@
+{
+  "requested_at": "2026-09-13T06:33:36.839778+00:00",
+  "request_params": {
+    "appids": 4035660,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4035660,
+  "payload": {
+    "4035660": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "DarkVein",
+        "steam_appid": 4035660,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          5187270
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>DarkVein</strong> is a <strong>third-person tactical RPG</strong> set in a vast open world filled with life, mystery, and danger.<br>Amid dense forests, lakes, and ancient ruins lurks a threat — <strong>infected creatures</strong> that were once human.</p><p class=\"bb_paragraph\" >Players must <strong>survive</strong>, <strong>build shelters</strong>, <strong>gather resources</strong>, and <strong>fight for every day</strong>.<br>Combat relies on <strong>tactics, stamina management</strong>, and <strong>environmental awareness</strong>, where even nature itself can become an ally — or an enemy.</p><p class=\"bb_paragraph\" ><strong>DarkVein</strong> blends a sense of <strong>calm and danger</strong>, turning every journey into a fight for survival.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>DarkVein</strong> is a <strong>third-person tactical RPG</strong> set in a vast open world filled with life, mystery, and danger.<br>Amid dense forests, lakes, and ancient ruins lurks a threat — <strong>infected creatures</strong> that were once human.</p><p class=\"bb_paragraph\" >Players must <strong>survive</strong>, <strong>build shelters</strong>, <strong>gather resources</strong>, and <strong>fight for every day</strong>.<br>Combat relies on <strong>tactics, stamina management</strong>, and <strong>environmental awareness</strong>, where even nature itself can become an ally — or an enemy.</p><p class=\"bb_paragraph\" ><strong>DarkVein</strong> blends a sense of <strong>calm and danger</strong>, turning every journey into a fight for survival.</p>",
+        "short_description": "DarkVein is a tactical RPG about survival in infected lands. Explore, build shelters, gather resources, and fight zombies. Every day tests your stamina, awareness, and will to live.",
+        "supported_languages": "English, Italian, Traditional Chinese, Simplified Chinese, Russian, Ukrainian, Japanese, Kyrgyz, French, German",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/e60916a4d2c1baaf96f323310faa9cb3a28a34f2/header.jpg?t=1788109724",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/f3c56407d3b4f8c7db57988dd115b45cf8be2ada/capsule_231x87.jpg?t=1788109724",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/f3c56407d3b4f8c7db57988dd115b45cf8be2ada/capsule_184x69.jpg?t=1788109724",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> Intel® Core™ i5-9400 / AMD Ryzen™ 5 2600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA® GeForce® GTX 1660 Ti 6GB / AMD Radeon™ RX 5600 XT 6GB<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 11 GB available space<br></li><li><strong>Additional Notes:</strong> The game must be installed on an SSD.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> Intel® Core™ i5-12400 / AMD Ryzen™ 5 5600<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA® GeForce RTX™ 3060 8GB / AMD Radeon™ RX 6600 XT 8GB<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 11 GB available space<br></li><li><strong>Additional Notes:</strong> The game must be installed on an SSD.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "CodeCraf",
+          "NovaCore Studios"
+        ],
+        "publishers": [
+          "NovaCore Studios"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 500,
+          "final": 500,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.00"
+        },
+        "packages": [
+          1415641
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy DarkVein",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1415641,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "War Surge - $5.00",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 500
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/0decb2d0c0670dfca9c7c1e9dfbf35674fa4e9e3/ss_0decb2d0c0670dfca9c7c1e9dfbf35674fa4e9e3.600x338.jpg?t=1788109724",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/0decb2d0c0670dfca9c7c1e9dfbf35674fa4e9e3/ss_0decb2d0c0670dfca9c7c1e9dfbf35674fa4e9e3.1920x1080.jpg?t=1788109724"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/565cd68c21c28efd6904a8020505179e9d24972d/ss_565cd68c21c28efd6904a8020505179e9d24972d.600x338.jpg?t=1788109724",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/565cd68c21c28efd6904a8020505179e9d24972d/ss_565cd68c21c28efd6904a8020505179e9d24972d.1920x1080.jpg?t=1788109724"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/84fab437a4583d264621fe0c95449e316231af96/ss_84fab437a4583d264621fe0c95449e316231af96.600x338.jpg?t=1788109724",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/84fab437a4583d264621fe0c95449e316231af96/ss_84fab437a4583d264621fe0c95449e316231af96.1920x1080.jpg?t=1788109724"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/288d1052e23ceca90f47c67255cc0f97c9b622f7/ss_288d1052e23ceca90f47c67255cc0f97c9b622f7.600x338.jpg?t=1788109724",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/288d1052e23ceca90f47c67255cc0f97c9b622f7/ss_288d1052e23ceca90f47c67255cc0f97c9b622f7.1920x1080.jpg?t=1788109724"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/16c0f0a92a1c900cf2a31d068f4749a9ea3d51c2/ss_16c0f0a92a1c900cf2a31d068f4749a9ea3d51c2.600x338.jpg?t=1788109724",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/16c0f0a92a1c900cf2a31d068f4749a9ea3d51c2/ss_16c0f0a92a1c900cf2a31d068f4749a9ea3d51c2.1920x1080.jpg?t=1788109724"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257412837,
+            "name": "Gamplay ",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257412837/b635567bedd12f5a7f597b3a0ba67d4e5b5ee97d/movie_600x337.jpg?t=1788107103",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4035660/308025440/fe657bbd4ff8b0cd778877ed3adf85dedaa2c1ac/1788106317/dash_av1.mpd?t=1788107103",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4035660/308025440/fe657bbd4ff8b0cd778877ed3adf85dedaa2c1ac/1788106317/dash_h264.mpd?t=1788107103",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4035660/308025440/fe657bbd4ff8b0cd778877ed3adf85dedaa2c1ac/1788106317/hls_264_master.m3u8?t=1788107103",
+            "highlight": true
+          },
+          {
+            "id": 257226524,
+            "name": "Тизер",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257226524/cf8bbf735a252b52a85d323a70c7c40ea6cbd8af/movie_600x337.jpg?t=1788107104",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4035660/1513352054/825bca70c2fdfab9bf36dea34bc7c736519aa7c1/1787918964/dash_av1.mpd?t=1788107104",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4035660/1513352054/825bca70c2fdfab9bf36dea34bc7c736519aa7c1/1787918964/dash_h264.mpd?t=1788107104",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4035660/1513352054/825bca70c2fdfab9bf36dea34bc7c736519aa7c1/1787918964/hls_264_master.m3u8?t=1788107104",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "297fc4bd3449618e2a4002658c292dad896158f8.jpg",
+              "localized_name": "Убить бегемота ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Убить бегемота ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/297fc4bd3449618e2a4002658c292dad896158f8.jpg"
+            },
+            {
+              "icon": "70f310252990fd41695554652eb4dd872c62db63.jpg",
+              "localized_name": "Убить Зомби ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Убить Зомби ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/70f310252990fd41695554652eb4dd872c62db63.jpg"
+            },
+            {
+              "icon": "3ceeea147af54f3fe7c4ce98573052ac1277c0e0.jpg",
+              "localized_name": "Убейте Бандитов ",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Убейте Бандитов ",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/3ceeea147af54f3fe7c4ce98573052ac1277c0e0.jpg"
+            },
+            {
+              "icon": "10a2948b3d0d286b9374b54e6c1ad1b9e889cc65.jpg",
+              "localized_name": "Первая кровь",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Первая кровь",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/10a2948b3d0d286b9374b54e6c1ad1b9e889cc65.jpg"
+            },
+            {
+              "icon": "65b64b530c1206a5796be10a354b341d7ffb9a3a.jpg",
+              "localized_name": "Охотник",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Охотник",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/65b64b530c1206a5796be10a354b341d7ffb9a3a.jpg"
+            },
+            {
+              "icon": "",
+              "localized_name": "Птицелов",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Птицелов",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/"
+            },
+            {
+              "icon": "",
+              "localized_name": "Чистильщик Зоны",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Чистильщик Зоны",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/"
+            },
+            {
+              "icon": "",
+              "localized_name": "Долгий путь",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Долгий путь",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/"
+            },
+            {
+              "icon": "",
+              "localized_name": "Полчаса без смерти",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Полчаса без смерти",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035660/"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2025"
+        },
+        "support_info": {
+          "url": "https://codecraf.ru/",
+          "email": "sdsasdsadsa5@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4035660?t=1788109724",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035660/ccc219cdf970b7a27ccfdd519fc9208dfdca27b7/page_bg_raw.jpg?t=1788109724",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

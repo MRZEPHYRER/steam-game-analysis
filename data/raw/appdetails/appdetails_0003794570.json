@@ -1,0 +1,202 @@
+{
+  "requested_at": "2026-09-12T16:39:09.064711+00:00",
+  "request_params": {
+    "appids": 3794570,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3794570,
+  "payload": {
+    "3794570": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Memory Showdown",
+        "steam_appid": 3794570,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Memory Showdown</h2><p class=\"bb_paragraph\" ><strong>Memory meets mayhem! Classic card matching turns into a tactical showdown!</strong></p><p class=\"bb_paragraph\" ><i>Memory Showdown</i> is a unique card battle game that combines the nostalgic gameplay of concentration (a.k.a. memory match) with intense turn-based combat.</p><h2 class=\"bb_tag\" >🔥 Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Match number cards to deal damage to your opponent’s HP!</p></li><li><p class=\"bb_paragraph\" >The higher the number, the stronger the hit — test both your memory and your strategy!</p></li><li><p class=\"bb_paragraph\" >Flip a hidden item card and gain powerful advantages mid-battle!</p></li><li><p class=\"bb_paragraph\" >Use healing, traps, buffs, and more to turn the tide in your favor!</p></li></ul><h2 class=\"bb_tag\" >🎮 Easy to learn, hard to master:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Take turns flipping cards — it’s that simple!</p></li><li><p class=\"bb_paragraph\" >Be the first to bring your opponent’s HP to zero and claim victory!</p></li></ul><p class=\"bb_paragraph\" >It’s not just about memory — use items, strategy, and mind games to dominate the showdown!</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Memory Showdown</h2><p class=\"bb_paragraph\" ><strong>Memory meets mayhem! Classic card matching turns into a tactical showdown!</strong></p><p class=\"bb_paragraph\" ><i>Memory Showdown</i> is a unique card battle game that combines the nostalgic gameplay of concentration (a.k.a. memory match) with intense turn-based combat.</p><h2 class=\"bb_tag\" >🔥 Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Match number cards to deal damage to your opponent’s HP!</p></li><li><p class=\"bb_paragraph\" >The higher the number, the stronger the hit — test both your memory and your strategy!</p></li><li><p class=\"bb_paragraph\" >Flip a hidden item card and gain powerful advantages mid-battle!</p></li><li><p class=\"bb_paragraph\" >Use healing, traps, buffs, and more to turn the tide in your favor!</p></li></ul><h2 class=\"bb_tag\" >🎮 Easy to learn, hard to master:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Take turns flipping cards — it’s that simple!</p></li><li><p class=\"bb_paragraph\" >Be the first to bring your opponent’s HP to zero and claim victory!</p></li></ul><p class=\"bb_paragraph\" >It’s not just about memory — use items, strategy, and mind games to dominate the showdown!</p>",
+        "short_description": "Flip number cards to attack and outsmart your opponent in this memory-based turn-based battle! Use hidden item cards to gain the upper hand and secure victory!",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/0cbcc1aaa41702b6c170cbe8a1d4340a311c3e8b/header.jpg?t=1756776449",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/ac39f4ba94c858f91876a0e8bbf12f04acc6ae26/capsule_231x87.jpg?t=1756776449",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/ac39f4ba94c858f91876a0e8bbf12f04acc6ae26/capsule_184x69.jpg?t=1756776449",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 64bit<br></li><li><strong>Processor:</strong> Intel Core i5-2400 or AMD FX-6300 or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 / AMD RX 580 or better<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Amakumo Co., Ltd."
+        ],
+        "publishers": [
+          "Amakumo Co., Ltd."
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1334762
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Memory Showdown",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1334762,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Memory Showdown - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/d0162c7172b94688009fbf899f09550c9eab7dbd/ss_d0162c7172b94688009fbf899f09550c9eab7dbd.600x338.jpg?t=1756776449",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/d0162c7172b94688009fbf899f09550c9eab7dbd/ss_d0162c7172b94688009fbf899f09550c9eab7dbd.1920x1080.jpg?t=1756776449"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/669c850a6887ab40311f506c8beea4d2fc3fb2f2/ss_669c850a6887ab40311f506c8beea4d2fc3fb2f2.600x338.jpg?t=1756776449",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/669c850a6887ab40311f506c8beea4d2fc3fb2f2/ss_669c850a6887ab40311f506c8beea4d2fc3fb2f2.1920x1080.jpg?t=1756776449"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/1149af01840b989bfb9f805982a62fa6a3827801/ss_1149af01840b989bfb9f805982a62fa6a3827801.600x338.jpg?t=1756776449",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/1149af01840b989bfb9f805982a62fa6a3827801/ss_1149af01840b989bfb9f805982a62fa6a3827801.1920x1080.jpg?t=1756776449"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/217604b43bae67e27d3047ea87d6bc6241bbde58/ss_217604b43bae67e27d3047ea87d6bc6241bbde58.600x338.jpg?t=1756776449",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/217604b43bae67e27d3047ea87d6bc6241bbde58/ss_217604b43bae67e27d3047ea87d6bc6241bbde58.1920x1080.jpg?t=1756776449"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/b38b38694ff445f6d41948de13eff4ac494126fd/ss_b38b38694ff445f6d41948de13eff4ac494126fd.600x338.jpg?t=1756776449",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794570/b38b38694ff445f6d41948de13eff4ac494126fd/ss_b38b38694ff445f6d41948de13eff4ac494126fd.1920x1080.jpg?t=1756776449"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257178891,
+            "name": "Game Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257178891/9e46bdaddd55b9d67a71ef6a1f654c11123a4405/movie_600x337.jpg?t=1756693446",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3794570/1579529915/a2f224a5c4c13bfa9b8e036a12d31b968d9396b3/1754451738/dash_av1.mpd?t=1756693446",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3794570/1579529915/a2f224a5c4c13bfa9b8e036a12d31b968d9396b3/1754451738/dash_h264.mpd?t=1756693446",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3794570/1579529915/a2f224a5c4c13bfa9b8e036a12d31b968d9396b3/1754451738/hls_264_master.m3u8?t=1756693446",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2025"
+        },
+        "support_info": {
+          "url": "https://amakumo.co.jp/cp-bin/wordpress5/contact/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3794570?t=1756776449",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3794570?t=1756776449",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

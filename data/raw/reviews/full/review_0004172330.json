@@ -1,0 +1,66 @@
+{
+  "appid": 4172330,
+  "requested_at": "2026-09-13T20:24:10.981578+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224788563",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 596,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 596,
+          "last_played": 1777617658,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "魔塔三国之曹操传奇 is a niche, retro-inspired strategy RPG that merges the classic “Magic Tower” formula with the historical backdrop of the Three Kingdoms era. Rather than focusing on fast-paced combat or cinematic storytelling, the game builds its identity around careful planning, numerical precision, and long-term decision-making. From the very beginning, it makes it clear that this is not a typical role-playing experience, but one that leans heavily into puzzle-like structure, where every step, battle, and resource expenditure must be calculated in advance.\n\nThe core gameplay follows the traditional Magic Tower design philosophy, where combat outcomes are determined by fixed values rather than randomness. This creates a system where players can predict exactly how much health they will lose in each encounter, turning every decision into a strategic calculation. Instead of reacting to unexpected events, the player is constantly analyzing whether they can afford to fight a certain enemy, open a specific path, or spend valuable resources. This deterministic approach gives the game a unique sense of tension, as progress depends entirely on foresight and efficiency rather than reflexes or luck.\n\nOne of the more interesting additions to this formula is the recruitment system, which allows players to gather well-known generals from the Three Kingdoms setting using specific tokens. Each character requires different resources depending on their abilities, encouraging players to think carefully about how they allocate what they have. This mechanic adds a layer of customization and strategy, as building the right team can significantly influence how you approach later challenges. However, while this system introduces some variation, it remains constrained by the overall linear structure of the game, limiting how much freedom you truly have in shaping your strategy.\n\nThe narrative attempts to expand beyond the typical simplicity of the genre by incorporating branching choices and multiple endings. Players are occasionally presented with decisions that affect how the story unfolds, giving a sense of agency that complements the otherwise rigid gameplay systems. The use of an alternate interpretation of the Three Kingdoms era provides an interesting backdrop, though the storytelling itself is fairly minimal. It serves more as a framework to connect gameplay segments than as a deeply developed narrative, and those looking for rich character development or complex plotlines may find it lacking.\n\nVisually, the game embraces a pixel-based aesthetic that reinforces its retro design. The environments are functional and easy to read, which is important for a game that relies heavily on strategic planning. Character and enemy designs are recognizable but simple, and the overall presentation feels reminiscent of older PC or early mobile titles. While this style may appeal to players who enjoy nostalgic visuals, it does little to distinguish the game in a modern context. The focus is clearly on gameplay rather than visual polish.\n\nOne of the game’s strengths lies in how it rewards careful thinking. Because resources such as health, keys, and upgrades are limited and placed deliberately, every action has consequences that can affect the entire run. Successfully navigating a difficult section through precise planning can be highly satisfying, giving a sense of accomplishment that few modern games attempt to replicate. At the same time, this design can also be unforgiving. A single mistake can disrupt your entire strategy, sometimes forcing you to restart or rethink your approach from the beginning.\n\nHowever, the game’s adherence to traditional mechanics also highlights its weaknesses. The pacing can feel slow, and the lack of modern quality-of-life features makes the experience less accessible to newer players. The gameplay does not evolve significantly over time, and once you understand the core systems, the challenge becomes more about endurance and optimization than discovery. This can lead to repetition, especially for those who are not already invested in this specific style of gameplay.\n\nThe overall scope of the game reflects its indie origins and its focus on a very specific audience. It does not attempt to compete with larger RPGs or introduce expansive systems, instead delivering a concentrated experience built around a single design philosophy. This makes it appealing to fans of classic Magic Tower games or players who enjoy methodical, puzzle-driven progression, but it also limits its broader appeal.\n\nIn the end, 魔塔三国之曹操传奇 is a thoughtful but highly specialized game that succeeds in delivering a deliberate and strategic experience rooted in classic design principles. Its combination of deterministic combat and historical theming offers something distinctive, but its rigid structure, minimal narrative depth, and lack of variety prevent it from reaching a wider audience. It is best suited for players who appreciate slow, calculated gameplay and are willing to engage deeply with its systems, rather than those seeking a more dynamic or modern RPG.\n\nRating: 6/10",
+        "timestamp_created": 1777932582,
+        "timestamp_updated": 1777932582,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 1,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764813085",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABzhcDZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.266000000000531,
+  "transport_error_count": 0
+}

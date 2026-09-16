@@ -1,0 +1,68 @@
+{
+  "appid": 3807790,
+  "requested_at": "2026-09-13T19:42:17.440571+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "202367584",
+        "author": {
+          "steamid": "76561198053422627",
+          "personaname": "Zaxtor99®",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Zaxtor99/",
+          "num_games_owned": 2804,
+          "num_reviews": 1374,
+          "playtime_forever": 77,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 64,
+          "last_played": 1757290183,
+          "avatar": "2ef0f8c7cf9b4884927007a6f51a1b6ddb0d0293"
+        },
+        "language": "english",
+        "review": "REVIEW UPDATE: (Aug 28, 2025):\n\nSo this is one of those rare indie developers who actually listens to feedback to make simple changes that vastly improve their game.  He has made some changes that now make it MUCH easier to move into lines you've already created instead of needing to be super \"pixel perfect\" and pulling your hair out VS having good old fashion \"fun\".\n\nI also didn't see any screens where the enemies were an identical color as the background, which makes the game much easier on the eyes and makes the enemies much easier to see.  This is pretty vital in a game like this, so \"GG\" to the dev here!\n\nOne thing that I forgot to list in my original review is that this developer also NEEDS to add a volume setting because upon launching the game, your headset (or speakers) will be obnoxiously loud and there is no way to adjust the game and music volume except minimizing the game destroying your ears and going to your Windows volume mixer.  NO GAME SHOULD BE VOID OF A BASIC MASTER VOLUME SETTING, PERIOD!  I don't know if a basic volume setting was left out due to laziness on the developers part, or just simply overlooking the obvious, but hopefully he will rectify this soon with another update.\n\n\n-----  ORIGINAL REVIEW (August 17, 2025)  -----\n\nPretty decent old school \"Qix\" style remake.. and the price is definitely right..\n\nI have a couple of small complaints however and if this indie developer would just fix these issues, this game would be considered a \"Must Buy!\" recommendation from me.\n\nProblem #1:\nTOO DIFFICULT TO MOVE ONTO SELF MADE LINES: \nThis is the main problem with this game and my biggest annoyance.  The developer simply needs to give the player a \"cushion\" so that your player doesn't have to be lined up pixel perfect to move onto self made lines.  To the dev:  No, this is NOT hard to code or implement.  All you need to is check the player is moving perpendicular (90 degrees) from the current line he is on and if an existing player-made line exists within say 20 pixels, automatically move the player onto that line.  This NEEDS to be implemented to make this make much less frustrating and more enjoyable to play. \n\nProblem #2:\nSOME ENEMIES ARE TOO HARD TO SEE AGAINST THE BACKGROUND:\nThis is harsh I know, but this is just terrible game design, period.  Why on earth would make a dark purple background and an almost identical colored dark purple enemy so that it's nearly impossible to clearly see?  Please make sure your enemies are bright enough and have a high enough contrast against the backgrounds so they are easily seen.  To the dev:  Come on bro.  You know better!  Easy fix, make it happen.\n\nProblem #3:\nNO GLOBAL HIGH SCORES IN 2025??!?\nThis is the least important thing to fix in my mind, and I know this game is only 99 cents, but implementing a proper global high score list helps your game have MUCH more play-ability and replay value!  Local high scores are something found on \"Komodor\" computers back in 1982.  This IS Steam in 2025.  Come on dev.  \n\n\nThe fact is that I'd gladly pay $3 or maybe even a little more for this game IF the 3 problems above are properly fixed.  As it is, it's just a frustrating game that I likely won't play too much.  I hope the dev cares about his game here enough to improve his game with this pretty simple fixes I suggest.",
+        "timestamp_created": 1755490150,
+        "timestamp_updated": 1756393756,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.50049901008605957",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1756379093,
+        "developer_response": "Thank you for your feedback.  Based on your suggestions, a patch has been created to address these issues; please see below.\n\n1.  The player controls have been reworked to allow for easier movement on to self-drawn lines. (+/- 3 tile buffer)\n\n2.  Background colours have been modified to increase contrast and make enemy droids more visible.\n\nAnd while a global high score system has not yet been implemented, if interest continues to grow, this is something that will be further explored.\n\nThanks again!\n\n- Komodor Games\n",
+        "app_release_date": "1755193302",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ/XIAAAAAFP+AEFoAAAABwpvyDBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.844000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,73 @@
+{
+  "appid": 3631260,
+  "requested_at": "2026-09-13T19:27:38.625785+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 42,
+      "total_negative": 3,
+      "total_reviews": 45
+    },
+    "reviews": [
+      {
+        "recommendationid": "205110873",
+        "author": {
+          "steamid": "76561197987089584",
+          "personaname": "JarlFrank",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/jarlfrank/",
+          "num_games_owned": 4321,
+          "num_reviews": 117,
+          "playtime_forever": 368,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 368,
+          "last_played": 1758734131,
+          "avatar": "94b403bc545072279e1c449c4a749f57b7d72062"
+        },
+        "language": "english",
+        "review": "(Follow [url=https://store.steampowered.com/curator/42150626-Jarl%27s-Game-Treasury/]my curator[/url] for more reviews like this)\n\nThis is an enjoyable King's Field clone, a bit janky but that's to be expected from a game in this genre, especially one made by a solo dev and priced at a lowly 4€. You'll easily get your money's worth out of this one.\n\nThe game starts you out on an island, where you're supposed to enter a village and delve into the dungeon underneath its church. There's not much story beyond \"evil stuff is below, destroy it!\" and there doesn't need to be. This is pure, raw dungeon crawling fun. Combat is a simple affair of hitting your enemies and either blocking their hits (which reflects damage and heals you) or walking back/circlestrafing to avoid their strikes. Whenever you get enough XP from killing enemies, you level up, which raises all of your stats. There are no different builds, your numbers simply get bigger the higher your level gets. Every character is expected to use combat and magic at the same time.\n\nWhat this game focuses on is exploration, and on that front it delivers. Checking out every corner of a dungeon level is rewarded with various loot. You can find new weapons, spells, and consumables that permanently increase your health/mana/stamina or give you experience on drinking. These perma-bonuses are higher than what you get from a levelup, so exploration is the primary way of improving your character. You can also find rings and amulets with various effects.\n\nThe exploration has a bit of metroidvania in it, too, as many of the spells you find allow you to get to places you couldn't reach otherwise. There's a leapfrog spell that makes you jump higher, a speed spell that makes you run faster, a bomb spell that can break cracked walls. There are also two movement abilities you can find by defeating optional bosses: dashing and double jumping.\n\nThere are plenty of secrets and optional areas to find in this game, and since many of these secret areas contain consumables that permanently improve your stats, finding them feels very rewarding. With every secret you find, your character gets stronger. This made me want to clear every dungeon level thoroughly. There are also some optional locked doors you can open with key items, and before the final boss there's a sealed cage containing the game's best weapon, which can only be opened with 4 keys found throughout the game.\n\nEnvironments and enemies are varied enough to keep the game fresh through all its levels, even though the combat itself is very simple. Some areas have little puzzles and twist, including one I found quite creepy (you'll know it when you get there). In some levels, the game also plays with its view distance, which is usually rather low, but is increased in a few well-lit areas.\n\nMy only complaint is that the low view distance coupled with most areas having boxy architecture with samey textures makes it easy to lose your orientation in some places, giving you that feel of \"Did I already go down that hallway? Which of these did I not explore yet?\" It isn't too bad, though, and usually there are at least one or two visual details to help you orient yourself.\n\nAt the point of writing this review, the game has one annoying bug that happens consistently. When you level up, a \"Level Up\" message appears in the center of your screen. If you take damage while that message is still there, it will remain and not go away until you quit and restart the game. That happened to me quite a few times, and I hope it will get fixed in a patch.\n\nOther than that, I had no issues and found this an enjoyable KF-style dungeon crawler with great exploration. It took me about six hours to complete, in which I found most secrets and killed all optional bosses, getting 100% achievements. It's a pretty short game, but still plenty of content for a 4€ game.\n\nOverall I can recommend this if you like exploration-focused dungeon crawls with plenty of secrets and optional areas.",
+        "timestamp_created": 1758736428,
+        "timestamp_updated": 1758736428,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.638124644756317139",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758228149",
+        "hardware": {
+          "system_ram": "64667",
+          "os": "Windows 10",
+          "cpu_name": "AMD Ryzen 9 7950X3D 16-Core Processor          ",
+          "adapter_description": "AMD Radeon RX 7900 XT",
+          "vram_size": 20401
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXPM0AAAAAFP+RrhSAAAAB55beOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1709999999998217,
+  "transport_error_count": 0
+}

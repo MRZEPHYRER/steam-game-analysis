@@ -1,0 +1,66 @@
+{
+  "appid": 3561230,
+  "requested_at": "2026-09-13T19:22:36.297739+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 12,
+      "total_negative": 4,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "209414131",
+        "author": {
+          "steamid": "76561198034423768",
+          "personaname": "Snivets",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/snivets/",
+          "num_games_owned": 934,
+          "num_reviews": 198,
+          "playtime_forever": 689,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 668,
+          "last_played": 1763344355,
+          "avatar": "3032008716cd3193a94459dfc2cb17f8c40cf98c"
+        },
+        "language": "english",
+        "review": "This is definitely one for the arts sickos. The style is insane, I enjoyed every frame of this game and really appreciated that it had ultrawide support during gameplay. The voice acting is a bit slow and amateur, but it kind of adds to the overall feeling of this as a real piece of art. I like what it was poking at but I think I need to go to Youtube essays to really understand it. In a way I would have liked some editing here to trim this down, but every frame really was enjoyable. It is full of odd choices that feel from the mind of an artist, for example returning to the main menu every 5 minutes or so - I'm sure this means something, but it's passing me by.\n\nDefinitely a work of art, there's no question about that. If you like pretty things, this is worth a look.",
+        "timestamp_created": 1763320054,
+        "timestamp_updated": 1763320054,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.657570362091064453",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760050988",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW2T4AAAAAFP+UK0EAAAABz/+yeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

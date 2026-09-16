@@ -1,0 +1,66 @@
+{
+  "appid": 3960750,
+  "requested_at": "2026-09-13T20:05:34.978310+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 2,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "207320552",
+        "author": {
+          "steamid": "76561197971060328",
+          "personaname": "Goth667",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Goth667/",
+          "num_games_owned": 1499,
+          "num_reviews": 30,
+          "playtime_forever": 120,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 120,
+          "last_played": 1761148389,
+          "avatar": "3351f823c3d61f09b8bf7dae54beb6e7841e766f"
+        },
+        "language": "english",
+        "review": "Fun little game, if you like mining. I wish the pick axe speed was faster and maybe reduce the damage. Compared to the demo it is really slow. The walking speed gets way too fast, when you just want to pickup some pieces, maybe a sprint button for the last 3 levels?\nThanks for the story :)",
+        "timestamp_created": 1761148839,
+        "timestamp_updated": 1761148839,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.557198762893676758",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761138350",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY2yQAAAAAFP+HUkwAAAAB43u6WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3594000,
+  "requested_at": "2026-09-13T19:25:00.799690+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 227,
+      "total_negative": 2,
+      "total_reviews": 229
+    },
+    "reviews": [
+      {
+        "recommendationid": "205302659",
+        "author": {
+          "steamid": "76561198021433778",
+          "personaname": "[KOR] Hong-Gil-Dong🔞",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/korHongGilDong/",
+          "num_games_owned": 1393,
+          "num_reviews": 6718,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1758964486,
+          "avatar": "9d47838e6a9978825e9f45599f5e8f1f3e75b75c"
+        },
+        "language": "koreana",
+        "review": "그냥 짧게 적음.\n광고페이지에 나오는것과 동일한 방식의 게임이고 성인용 DLC가 있는데\n전투 후에 도대체 뭐 어떻게 하라는건지 도무지 이해가 안되서 환불함.\n\n더 적을 말도 없음. 비추천.",
+        "timestamp_created": 1758964563,
+        "timestamp_updated": 1758964563,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.535097301006317139",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753286541",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZTE2AAAAAFP+Efg8AAAABzuJWPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 3262810,
+  "requested_at": "2026-09-13T19:09:02.098306+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 5,
+      "total_negative": 3,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "206067587",
+        "author": {
+          "steamid": "76561198271535664",
+          "personaname": "Миха",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198271535664/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1759770354,
+          "avatar": "c6ce06daaa3da0121a24c11d37a85157fc4eeb43"
+        },
+        "language": "english",
+        "review": "I learned a lot of new types of mushrooms, which will be useful in a real hike in the forest. the mushrooms in the game are very similar to the real ones. There are tasks not only for collecting mushrooms, which makes the game interesting. I recommend.",
+        "timestamp_created": 1759782797,
+        "timestamp_updated": 1759782797,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.615412354469299316",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759762628",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXrr2AAAAAFP+O1NyAAAABz+IqSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2660000000000764,
+  "transport_error_count": 0
+}

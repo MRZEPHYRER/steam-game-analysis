@@ -1,0 +1,66 @@
+{
+  "appid": 3371110,
+  "requested_at": "2026-09-13T19:12:54.978291+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 24,
+      "total_negative": 13,
+      "total_reviews": 37
+    },
+    "reviews": [
+      {
+        "recommendationid": "207461566",
+        "author": {
+          "steamid": "76561198127453212",
+          "personaname": "港甘多托柒咩`",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/snakeschen/",
+          "num_games_owned": 1076,
+          "num_reviews": 37,
+          "playtime_forever": 36,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 36,
+          "last_played": 1761311291,
+          "avatar": "2b1b6e9f6269ff8b5e8291939687b8dbacf98826"
+        },
+        "language": "schinese",
+        "review": "先不说这游戏神人运营装死节奏，光说游戏本体。\n画质建模方面还算可以，有碧蓝档案的味道。\n但是玩法这类战旗说实话很无聊，不多塞点日常小游戏小互动剧情，就是非常的单一。\n剧情开局有点白开水，光玩这个战旗没有好剧情，真没有继续想玩下去的动力了。\n而且配音几乎只有哦哦啊啊嗯嗯，\n还有op唱得一股suno ai的味道，听完op后瞬间想退款润了，等什么时候大减价再入手玩玩算了。",
+        "timestamp_created": 1761312164,
+        "timestamp_updated": 1761312709,
+        "voted_up": false,
+        "votes_up": 70,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.784791052341461182",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761274747",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUTd8AAAAAFP+kdAgAAAAB+y7OXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0149999999998727,
+  "transport_error_count": 0
+}

@@ -1,0 +1,214 @@
+{
+  "requested_at": "2026-09-12T18:03:18.361882+00:00",
+  "request_params": {
+    "appids": 3921140,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3921140,
+  "payload": {
+    "3921140": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Who is Dumb",
+        "steam_appid": 3921140,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Who is Dumb?</strong> is a fast-paced and entertaining <strong>multiplayer trivia quiz game</strong> where knowledge, speed, and strategy decide who’s smart and who’s not.</p><p class=\"bb_paragraph\" >Play with <strong>1–8 players</strong>: practice solo or challenge friends and rivals online.</p><p class=\"bb_paragraph\" >Enjoy <strong>varied categories and difficulty levels</strong>, perfect for both casual players and quiz enthusiasts.</p><p class=\"bb_paragraph\" >Compete on the <strong>Steam Leaderboards</strong> and prove your intelligence to the world.</p><p class=\"bb_paragraph\" >But beware: there’s only one rule… <strong>Don’t finish last, or you’ll be the dumb one!</strong></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Who is Dumb?</strong> is a fast-paced and entertaining <strong>multiplayer trivia quiz game</strong> where knowledge, speed, and strategy decide who’s smart and who’s not.</p><p class=\"bb_paragraph\" >Play with <strong>1–8 players</strong>: practice solo or challenge friends and rivals online.</p><p class=\"bb_paragraph\" >Enjoy <strong>varied categories and difficulty levels</strong>, perfect for both casual players and quiz enthusiasts.</p><p class=\"bb_paragraph\" >Compete on the <strong>Steam Leaderboards</strong> and prove your intelligence to the world.</p><p class=\"bb_paragraph\" >But beware: there’s only one rule… <strong>Don’t finish last, or you’ll be the dumb one!</strong></p>",
+        "short_description": "Who is Dumb? is a fun multiplayer trivia quiz game! Play with 1–8 players, test your knowledge, compete with friends, and climb the leaderboards. Don’t finish last… or you’ll be the dumb one!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/bace07222052b8160c2a1c44a4db0fb580aa9866/header.jpg?t=1760973499",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/3df4817331f7707c308041dbce4b136254bea7c2/capsule_231x87.jpg?t=1760973499",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/3df4817331f7707c308041dbce4b136254bea7c2/capsule_184x69.jpg?t=1760973499",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64 bit) or Never (64 bit) Windows OS<br></li><li><strong>Processor:</strong> 2.5 GHz Dual Core<br></li><li><strong>Memory:</strong> 4 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 760, AMD Radeon R7 270X, or better<br></li><li><strong>Storage:</strong> 900 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64 bit) or Never (64 bit) Windows OS<br></li><li><strong>Processor:</strong> 3.0+ GHz Quad Core<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better<br></li><li><strong>Storage:</strong> 900 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Artneron Games"
+        ],
+        "publishers": [
+          "Artneron Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1377820
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Who is Dumb",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1377820,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Who is Dumb - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/2552cd7b7668004c66992b19e47631a52abe6238/ss_2552cd7b7668004c66992b19e47631a52abe6238.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/2552cd7b7668004c66992b19e47631a52abe6238/ss_2552cd7b7668004c66992b19e47631a52abe6238.1920x1080.jpg?t=1760973499"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/1e636fb67b6505284e37ee302f40b1e85d03722f/ss_1e636fb67b6505284e37ee302f40b1e85d03722f.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/1e636fb67b6505284e37ee302f40b1e85d03722f/ss_1e636fb67b6505284e37ee302f40b1e85d03722f.1920x1080.jpg?t=1760973499"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/33bb85f9beda3f63a5dfb9aa34ad8b6817ac5882/ss_33bb85f9beda3f63a5dfb9aa34ad8b6817ac5882.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/33bb85f9beda3f63a5dfb9aa34ad8b6817ac5882/ss_33bb85f9beda3f63a5dfb9aa34ad8b6817ac5882.1920x1080.jpg?t=1760973499"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/fc4659c1cb27e5aa0a8fc261febf0e361d954cf1/ss_fc4659c1cb27e5aa0a8fc261febf0e361d954cf1.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/fc4659c1cb27e5aa0a8fc261febf0e361d954cf1/ss_fc4659c1cb27e5aa0a8fc261febf0e361d954cf1.1920x1080.jpg?t=1760973499"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/afb01aa980dfe353f918776aec9e9350652ac6f8/ss_afb01aa980dfe353f918776aec9e9350652ac6f8.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/afb01aa980dfe353f918776aec9e9350652ac6f8/ss_afb01aa980dfe353f918776aec9e9350652ac6f8.1920x1080.jpg?t=1760973499"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/fb237b7e21561ba4e7c84bacfddc36146732877d/ss_fb237b7e21561ba4e7c84bacfddc36146732877d.600x338.jpg?t=1760973499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/fb237b7e21561ba4e7c84bacfddc36146732877d/ss_fb237b7e21561ba4e7c84bacfddc36146732877d.1920x1080.jpg?t=1760973499"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257196069,
+            "name": "Game Play",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257196069/33ff2031a0d8d7f5cbf420b463f35e087e74d789/movie_600x337.jpg?t=1758048573",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3921140/1990754936/bd54bb00a64737aae56d4d144671abf6687f940f/1757577499/dash_av1.mpd?t=1758048573",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3921140/1990754936/bd54bb00a64737aae56d4d144671abf6687f940f/1757577499/dash_h264.mpd?t=1758048573",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3921140/1990754936/bd54bb00a64737aae56d4d144671abf6687f940f/1757577499/hls_264_master.m3u8?t=1758048573",
+            "highlight": false
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2025"
+        },
+        "support_info": {
+          "url": "https://ottogames.studio",
+          "email": "autosalelife@outlook.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3921140?t=1760973499",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921140/3726048cbf2ed179cc0b517236d4721218a8eae7/page_bg_raw.jpg?t=1760973499",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

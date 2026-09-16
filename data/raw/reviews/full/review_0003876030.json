@@ -1,0 +1,71 @@
+{
+  "appid": 3876030,
+  "requested_at": "2026-09-13T19:53:17.160107+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "208831788",
+        "author": {
+          "steamid": "76561199113635780",
+          "personaname": "madmaxi ♡",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199113635780/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 880,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 880,
+          "last_played": 1764084066,
+          "avatar": "15d895758cf919a7b2cb0008435e0ca030e5010b"
+        },
+        "language": "english",
+        "review": "a pretty solid start for early access, feels like the rest gonna be even better",
+        "timestamp_created": 1762716883,
+        "timestamp_updated": 1764084096,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519685029983520508",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762711762",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFamzaAAAAAFP+ChQmAAAAB80tCcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9679999999998472,
+  "transport_error_count": 0
+}

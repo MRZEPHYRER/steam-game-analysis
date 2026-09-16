@@ -1,0 +1,66 @@
+{
+  "appid": 3698680,
+  "requested_at": "2026-09-13T19:32:46.826738+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 6,
+      "total_reviews": 45
+    },
+    "reviews": [
+      {
+        "recommendationid": "205968896",
+        "author": {
+          "steamid": "76561199151940462",
+          "personaname": "Alt",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/turok/",
+          "num_games_owned": 1345,
+          "num_reviews": 172,
+          "playtime_forever": 388,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 197,
+          "last_played": 1785627197,
+          "avatar": "1dc5a633b8f0446361247e214bba2b777836e84a"
+        },
+        "language": "english",
+        "review": "Includes six games from the Golden Tee series + two from the same company (Incredible Technologies, Inc.) not related to Golf. The six golf games are very similar to each other, with the only apparent difference being the courses.\n\nGreat collection, reasonably priced. I really liked the trackball emulation the Digital Eclipse team developed — especially since it works incredibly well with a mouse.\n\nHowever, I would like to highlight my opinion on things that could be better, in addition to mentioning defects (which are, for the most part, small).\n\nSuggestions:\n-More achievements — why not? :)\nIt would make a big difference to include other games from the Tee Golf series, to add variety. Like:\n-Golden Tee Golf (1989/90)\n-Golden Par Golf (1992)\n-Golden Par Golf II (1992)\n-All Golden Tee Fore!\n\nDefects:\n-Little precision in Shuffleshot, but I don't know if it's from the controller emulation or if the original was already like that;\n-I don't have access to the flyers section because the button placed in this port doesn't exist on the keyboard I use (Brazilian Portuguese keyboard), so it would be very interesting if they added an option to change the keys.",
+        "timestamp_created": 1759683917,
+        "timestamp_updated": 1759683917,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.621610283851623535",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752750770",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXkVuAAAAAFP+PkOqAAAABw4NqRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

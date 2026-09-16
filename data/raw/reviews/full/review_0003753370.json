@@ -1,0 +1,66 @@
+{
+  "appid": 3753370,
+  "requested_at": "2026-09-13T19:37:18.386252+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 2,
+      "total_negative": 3,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "221958877",
+        "author": {
+          "steamid": "76561198202348686",
+          "personaname": "Smile",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/smile331030/",
+          "num_games_owned": 121,
+          "num_reviews": 24,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1774733849,
+          "avatar": "cd9dc4d7c22609d659a327e382b43c725af82811"
+        },
+        "language": "english",
+        "review": "Nice game with little bugs. Before every minigame could be some little tutorial first so you get to know the mechanics of the game. Visuals could be litttle better too. Little weird generated profile pictures. Could be somwhere shown the polls after every turn. Maybe even add something after votes. Something like fully political game little similar to the democracy 4 and like after someturns have again the campaign and things like that. I twould be very  cool tho",
+        "timestamp_created": 1774734046,
+        "timestamp_updated": 1774734046,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752242474",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB9rdrOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.016000000000531,
+  "transport_error_count": 0
+}

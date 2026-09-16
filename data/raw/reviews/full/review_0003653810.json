@@ -1,0 +1,77 @@
+{
+  "appid": 3653810,
+  "requested_at": "2026-09-13T19:29:03.554372+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 4,
+      "total_negative": 4,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "209080720",
+        "author": {
+          "steamid": "76561199886564926",
+          "personaname": "EdgarEdging",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/EdgarEdging/",
+          "num_games_owned": 36,
+          "num_reviews": 3,
+          "playtime_forever": 126,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 126,
+          "last_played": 1762996775,
+          "avatar": "50ec4555ff89d4756b935c6b536175ffc6db1283"
+        },
+        "language": "english",
+        "review": "GAME IS GREAT. unfortunately needs little work. \nAlso, there is a bug: \nnot allowing you to place tables in the cafe. \n\n bug with infinite ingredients. \nno names above customers. \nthe cats seem like there just there\n\nreally wanted this game to be great. because the game plays well aside from the bugs\n\nreally hope the devs fix the issues and update thiss game",
+        "timestamp_created": 1762997201,
+        "timestamp_updated": 1762997201,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.633328676223754883",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763026598,
+        "developer_response": "Hello!\nThank you so much for your kind review of our game! We’re truly happy and grateful — it’s our very first review, and it means a lot to us.\nRegarding the bug you mentioned where tables couldn’t be placed in the café, we’ve already fixed it. We’ve also received your other suggestions and plan to include them in an upcoming update.\nOnce again, thank you for enjoying our game! We’ll keep working hard to make it even better.",
+        "app_release_date": "1762967439",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXVTuAAAAAFP+REbYAAAABwmcqdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3853780,
+  "requested_at": "2026-09-13T19:49:46.964592+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "214186226",
+        "author": {
+          "steamid": "76561198250533384",
+          "personaname": "ღ Ayumi ღ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/CuteGrillNoticeMePls/",
+          "num_games_owned": 1906,
+          "num_reviews": 18,
+          "playtime_forever": 62,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 62,
+          "last_played": 1766462504,
+          "avatar": "1627034888686916eb7075555a161a95eed19404"
+        },
+        "language": "english",
+        "review": "I'm quite surprised a game from the '90s is not only being released in 2025, but runs perfectly in Windows 11 and at modern resolutions, in my case 1440p (original aspect ratio). Worth a buy if you have nostalgia for this game.",
+        "timestamp_created": 1766698229,
+        "timestamp_updated": 1766698229,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.610280930995941162",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756365676",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXy1yAAAAAFP+OHbAAAAAByj4exBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

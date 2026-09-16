@@ -1,0 +1,66 @@
+{
+  "appid": 3437170,
+  "requested_at": "2026-09-13T19:15:53.927229+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 301,
+      "total_negative": 87,
+      "total_reviews": 388
+    },
+    "reviews": [
+      {
+        "recommendationid": "204545614",
+        "author": {
+          "steamid": "76561198414439293",
+          "personaname": "秋风无名",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198414439293/",
+          "num_games_owned": 105,
+          "num_reviews": 12,
+          "playtime_forever": 3150,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3150,
+          "last_played": 1754755894,
+          "avatar": "10c4fc6424afd292eb70e57e822ed9aa4ce5111b"
+        },
+        "language": "schinese",
+        "review": "内容太少了，完全不推荐买！！！\n买了也挺久的了，没有任何更新和修复啥的补丁。加了官方的群，是兼职做的游戏，看样子是不太想继续完善做下去的。",
+        "timestamp_created": 1758110317,
+        "timestamp_updated": 1758110317,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.575975000858306885",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1738603984",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYewIAAAAAFP+JuYyAAAAB+5KOMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

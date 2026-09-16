@@ -1,0 +1,262 @@
+{
+  "requested_at": "2026-09-13T05:52:18.527705+00:00",
+  "request_params": {
+    "appids": 3926560,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3926560,
+  "payload": {
+    "3926560": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "SuperPacker",
+        "steam_appid": 3926560,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >SuperPacker is a game about packing an absurd amount of cardboard boxes. To help you in this endeavour, you will recruit a wide variety of helpful box packers, like double hand, friendly worker, and a cat (though she is not much of a help :P).</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Pack cardboard boxes and sell them to earn cash</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >a lot of QoL upgrades to speed up packing boxes</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > cat</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > cloud saving (you are taking your boxes everywhere)</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > music and art by my friend Raghav Gohil</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >SuperPacker is a game about packing an absurd amount of cardboard boxes. To help you in this endeavour, you will recruit a wide variety of helpful box packers, like double hand, friendly worker, and a cat (though she is not much of a help :P).</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Pack cardboard boxes and sell them to earn cash</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >a lot of QoL upgrades to speed up packing boxes</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > cat</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > cloud saving (you are taking your boxes everywhere)</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > music and art by my friend Raghav Gohil</p></li></ul>",
+        "short_description": "An idle game about packing boxes!",
+        "supported_languages": "English, Simplified Chinese, Japanese, Russian, French, German",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/2f7b79c1954bc9337ed4887a59bf735ddf24a906/header.jpg?t=1766820464",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/675ae7e7a3d01642a8cb3e7525cc58b0c228f0be/capsule_231x87.jpg?t=1766820464",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/675ae7e7a3d01642a8cb3e7525cc58b0c228f0be/capsule_184x69.jpg?t=1766820464",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> WIndows 10/11<br></li><li><strong>Processor:</strong> Intel i5-9300H or similar AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Any vulkan compatible GPU<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS 10 or higher<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core M<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 400 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Kernel 6 or higher<br></li><li><strong>Processor:</strong> Intel i5-9300H or similar AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Any vulkan compatible GPU<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> On Steam Deck it is recommended for you to play it on desktop mode instead of game mode.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "GamersInUnity Studio"
+        ],
+        "publishers": [
+          "GamersInUnity Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1379671
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy SuperPacker",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1379671,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "SuperPacker - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/b5811df423eb99eddcce7d24945429db5e19f8c5/ss_b5811df423eb99eddcce7d24945429db5e19f8c5.600x338.jpg?t=1766820464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/b5811df423eb99eddcce7d24945429db5e19f8c5/ss_b5811df423eb99eddcce7d24945429db5e19f8c5.1920x1080.jpg?t=1766820464"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/ffd0e02534dbcffddcf10f403497e7526034f26e/ss_ffd0e02534dbcffddcf10f403497e7526034f26e.600x338.jpg?t=1766820464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/ffd0e02534dbcffddcf10f403497e7526034f26e/ss_ffd0e02534dbcffddcf10f403497e7526034f26e.1920x1080.jpg?t=1766820464"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/8a51fc63fda3fc3a1b4ea4f2a96470317467c100/ss_8a51fc63fda3fc3a1b4ea4f2a96470317467c100.600x338.jpg?t=1766820464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/8a51fc63fda3fc3a1b4ea4f2a96470317467c100/ss_8a51fc63fda3fc3a1b4ea4f2a96470317467c100.1920x1080.jpg?t=1766820464"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/42b3c2964022f5cbb78319605ea2f052c0f9901b/ss_42b3c2964022f5cbb78319605ea2f052c0f9901b.600x338.jpg?t=1766820464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/42b3c2964022f5cbb78319605ea2f052c0f9901b/ss_42b3c2964022f5cbb78319605ea2f052c0f9901b.1920x1080.jpg?t=1766820464"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/7611f39ae497cb0fdf82d538b2d3e0f28e759023/ss_7611f39ae497cb0fdf82d538b2d3e0f28e759023.600x338.jpg?t=1766820464",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3926560/7611f39ae497cb0fdf82d538b2d3e0f28e759023/ss_7611f39ae497cb0fdf82d538b2d3e0f28e759023.1920x1080.jpg?t=1766820464"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257187204,
+            "name": "superpacker-trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257187204/9fa2b8f655fb3eda9808e7ec2e6d371c8aa7b637/movie_600x337.jpg?t=1756897088",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3926560/1689761349/b27f4e9c035fae12b4805c62efc7f4398ed89c6b/1755868838/dash_av1.mpd?t=1756897088",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3926560/1689761349/b27f4e9c035fae12b4805c62efc7f4398ed89c6b/1755868838/dash_h264.mpd?t=1756897088",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3926560/1689761349/b27f4e9c035fae12b4805c62efc7f4398ed89c6b/1755868838/hls_264_master.m3u8?t=1756897088",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "7d054069afac732564dc2785f9ff2b753b8165fa.jpg",
+              "localized_name": "We Begin",
+              "archived": 0,
+              "hidden": 0,
+              "name": "We Begin",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/7d054069afac732564dc2785f9ff2b753b8165fa.jpg"
+            },
+            {
+              "icon": "8822bd11914980f7a094f00c6e5296751ba9d8c5.jpg",
+              "localized_name": "Play the game on Linux",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Play the game on Linux",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/8822bd11914980f7a094f00c6e5296751ba9d8c5.jpg"
+            },
+            {
+              "icon": "b0b0b3c1583579fe008198e2d86e1e2bca7f3d37.jpg",
+              "localized_name": "Nice!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Nice!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/b0b0b3c1583579fe008198e2d86e1e2bca7f3d37.jpg"
+            },
+            {
+              "icon": "41c7701814a44b6ed3661952459f0795847bfd77.jpg",
+              "localized_name": "Two hands are better than one",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Two hands are better than one",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/41c7701814a44b6ed3661952459f0795847bfd77.jpg"
+            },
+            {
+              "icon": "18d48d8cc5fd1213c6c7fb58528a3d123cd98b9c.jpg",
+              "localized_name": "Welcome to Camp!",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Welcome to Camp!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/18d48d8cc5fd1213c6c7fb58528a3d123cd98b9c.jpg"
+            },
+            {
+              "icon": "f4aa5b576bc400c74728b8d45dfa96274f1608ab.jpg",
+              "localized_name": "Cat-astrophic",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cat-astrophic",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3926560/f4aa5b576bc400c74728b8d45dfa96274f1608ab.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 10, 2025"
+        },
+        "support_info": {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLScIGVSlfloGBqhy0g36r35gmABls1YXxS2cf0FabzgJQxuM5Q/viewform?usp=header",
+          "email": "gamersinunity@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3926560?t=1766820464",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3926560?t=1766820464",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

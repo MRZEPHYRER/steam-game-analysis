@@ -1,0 +1,66 @@
+{
+  "appid": 3670200,
+  "requested_at": "2026-09-13T19:30:10.126975+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "213699123",
+        "author": {
+          "steamid": "76561198428702035",
+          "personaname": "Salvor",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198428702035/",
+          "num_games_owned": 2176,
+          "num_reviews": 1126,
+          "playtime_forever": 79,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 66,
+          "last_played": 1766374307,
+          "avatar": "7f5af1184c34e797ae43762818b09fafe17b976b"
+        },
+        "language": "english",
+        "review": "A curious little football game where three humans who can barely perform a slide tackle face off against various monsters / deities with different powers in an absurds and really unfair 3 vs 1 matches.\n\nBeyond the initial presentation explaining the arrival of these monsters, the game has no story mode or campaign, you simply set up the game and play.\nIt has some nice voice narrations and its funny, more geared towards playing VS or co-op in local / remote play multiplayer, which I haven't managed to coordinate with a friend yet, but possibly will in the next few days.\n\nThe base price is a bit high, so wait for it to go on sale.\n[quote] [i] Check out [url=https://store.steampowered.com/curator/44959158-Critiques-Sans-Frontiers/] our curator page [/url] to discover more little interesting games. [/i] [/quote]",
+        "timestamp_created": 1766208833,
+        "timestamp_updated": 1766208944,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.619432032108306885",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1747368056",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXnIIAAAAAFP+PSYwAAAABzo5mvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2969999999995707,
+  "transport_error_count": 0
+}

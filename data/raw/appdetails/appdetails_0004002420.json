@@ -1,0 +1,245 @@
+{
+  "requested_at": "2026-09-13T06:22:30.697774+00:00",
+  "request_params": {
+    "appids": 4002420,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4002420,
+  "payload": {
+    "4002420": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Tooth N' Fin",
+        "steam_appid": 4002420,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Submerse yourself and explore the underwater world as a fish! Play as one of many saltwater fish species, as you navigate through shallow grass flats or pelagic depths. You'll need to hunt and eat other smaller fish to grow and unlock new species. But watch out danger lurks in the distance and around every structure! Start the game as a Mangrove Snapper, explore the world with its many wrecks and underwater structures. Keep your distance from larger predators or end up as dinner. While avoiding danger eat smaller fish to earn bones and use them to unlock the next species.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Now explore in a new way with the new mode &quot;Hook N' Line&quot; </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Submerse yourself and explore the underwater world as a fish! Play as one of many saltwater fish species, as you navigate through shallow grass flats or pelagic depths. You'll need to hunt and eat other smaller fish to grow and unlock new species. But watch out danger lurks in the distance and around every structure! Start the game as a Mangrove Snapper, explore the world with its many wrecks and underwater structures. Keep your distance from larger predators or end up as dinner. While avoiding danger eat smaller fish to earn bones and use them to unlock the next species.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Now explore in a new way with the new mode &quot;Hook N' Line&quot; </p>",
+        "short_description": "An underwater arcade survival game where you eat and grow to climb up the food chain Or play in the new fishing mode unlock new boats buy new lures fish and spearfish with the new Hook N' Line mode",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/54fc6bea9ab74f5f3491e6b2f1482534ce4283a4/header.jpg?t=1779646182",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/1e8f1883028df23ee0f8dbfb8f88ca3379974a96/capsule_231x87.jpg?t=1779646182",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/1e8f1883028df23ee0f8dbfb8f88ca3379974a96/capsule_184x69.jpg?t=1779646182",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows10/11 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-4660<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vega 8 integrated GTX 750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Additional Notes:</strong> Tested on a laptop with Ryzen 7 5700u with vega 8 integrated graphics. getting 20-30 fps on Epic settings</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows10/11 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5-9600k / AMD Ryzen 5 3600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1660 / AMD Radeon RX 580<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Unreal ® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. Unreal Engine © 1998-2025 Epic Games, Inc. All right reserved.<br />\r\n© 2025 Tooth N' Fin. All rights reserved<br />\r\nMusic:\"Lord of the Rangs \" Kevin MacLeod (incompetech.com)<br />\r\nLicensed under Creative Commons: By Attribution 4.0 License<br />\r\nhttp://creativecommons.org/licenses/by/4.0/ ",
+        "developers": [
+          "Slack Tide Games"
+        ],
+        "publishers": [
+          "Slack Tide Games"
+        ],
+        "demos": [
+          {
+            "appid": 4164200,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1404551
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Tooth N' Fin",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1404551,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Tooth N' Fin - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/f105b38f655b3234be86fc784e986aece2554180/ss_f105b38f655b3234be86fc784e986aece2554180.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/f105b38f655b3234be86fc784e986aece2554180/ss_f105b38f655b3234be86fc784e986aece2554180.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/ac8069ffe950e24fb2fc5ff54b2bbf22d22f907d/ss_ac8069ffe950e24fb2fc5ff54b2bbf22d22f907d.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/ac8069ffe950e24fb2fc5ff54b2bbf22d22f907d/ss_ac8069ffe950e24fb2fc5ff54b2bbf22d22f907d.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/15416bd3668a488f03373482e0a0993b61b39eb5/ss_15416bd3668a488f03373482e0a0993b61b39eb5.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/15416bd3668a488f03373482e0a0993b61b39eb5/ss_15416bd3668a488f03373482e0a0993b61b39eb5.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/b662b3ef10e73682c2c9b907c3f29bc6d2771abb/ss_b662b3ef10e73682c2c9b907c3f29bc6d2771abb.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/b662b3ef10e73682c2c9b907c3f29bc6d2771abb/ss_b662b3ef10e73682c2c9b907c3f29bc6d2771abb.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/9fb4ea84f2b1a45d9ab9a53774f22e4d89a660ae/ss_9fb4ea84f2b1a45d9ab9a53774f22e4d89a660ae.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/9fb4ea84f2b1a45d9ab9a53774f22e4d89a660ae/ss_9fb4ea84f2b1a45d9ab9a53774f22e4d89a660ae.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/ade8cd33e0d4e432ce1d80761739812e509d5eee/ss_ade8cd33e0d4e432ce1d80761739812e509d5eee.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/ade8cd33e0d4e432ce1d80761739812e509d5eee/ss_ade8cd33e0d4e432ce1d80761739812e509d5eee.1920x1080.jpg?t=1779646182"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/4bb9fd0a04729e89444808948bad3fb6a1e69f7f/ss_4bb9fd0a04729e89444808948bad3fb6a1e69f7f.600x338.jpg?t=1779646182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002420/4bb9fd0a04729e89444808948bad3fb6a1e69f7f/ss_4bb9fd0a04729e89444808948bad3fb6a1e69f7f.1920x1080.jpg?t=1779646182"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257342441,
+            "name": "Hook N' Line Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257342441/39ad8a1c702935d09b81c49cfc203939eabed86e/movie_600x337.jpg?t=1779646173",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4002420/1400698845/23adfb751d8bdd3e821a468cbdf8af326d7c3285/1779645634/dash_av1.mpd?t=1779646173",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/1400698845/23adfb751d8bdd3e821a468cbdf8af326d7c3285/1779645634/dash_h264.mpd?t=1779646173",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/1400698845/23adfb751d8bdd3e821a468cbdf8af326d7c3285/1779645634/hls_264_master.m3u8?t=1779646173",
+            "highlight": true
+          },
+          {
+            "id": 257237408,
+            "name": "Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257237408/cd36f46f964b3d580bf5b34812c104d7962ab0a9/movie_600x337.jpg?t=1764037443",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4002420/819368084/867e3c1c8f6027064e99a0094d62befb3ef8f0df/1764034362/dash_av1.mpd?t=1764037443",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/819368084/867e3c1c8f6027064e99a0094d62befb3ef8f0df/1764034362/dash_h264.mpd?t=1764037443",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/819368084/867e3c1c8f6027064e99a0094d62befb3ef8f0df/1764034362/hls_264_master.m3u8?t=1764037443",
+            "highlight": true
+          },
+          {
+            "id": 257216043,
+            "name": "Tooth N' Fin Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257216043/6dc3a9413fd64e834916fafbde9826e690ab402e/movie_600x337.jpg?t=1760186528",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4002420/486003594/7211b639624a7a10a1adf16c4700c4062f8c5699/1760185263/dash_av1.mpd?t=1760186528",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/486003594/7211b639624a7a10a1adf16c4700c4062f8c5699/1760185263/dash_h264.mpd?t=1760186528",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/486003594/7211b639624a7a10a1adf16c4700c4062f8c5699/1760185263/hls_264_master.m3u8?t=1760186528",
+            "highlight": true
+          },
+          {
+            "id": 257205069,
+            "name": "Tooth N' Fin Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257205069/8718579e19ce903b32e40e067da7d218fd67b069/movie_600x337.jpg?t=1758670246",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4002420/57915075/9984432faca07d592c38698dd40acc5fd3a03e40/1758668065/dash_av1.mpd?t=1758670246",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/57915075/9984432faca07d592c38698dd40acc5fd3a03e40/1758668065/dash_h264.mpd?t=1758670246",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4002420/57915075/9984432faca07d592c38698dd40acc5fd3a03e40/1758668065/hls_264_master.m3u8?t=1758670246",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 7, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "slacktidegames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4002420?t=1779646182",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4002420?t=1779646182",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

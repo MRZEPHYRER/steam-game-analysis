@@ -1,0 +1,68 @@
+{
+  "appid": 3610700,
+  "requested_at": "2026-09-13T19:25:47.684098+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 4,
+      "total_negative": 3,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "205713338",
+        "author": {
+          "steamid": "76561199524994010",
+          "personaname": "sherrylauren30",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199524994010/",
+          "num_games_owned": 104,
+          "num_reviews": 79,
+          "playtime_forever": 177,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 144,
+          "last_played": 1772626480,
+          "avatar": "30c695b3cf3ad928fd261e2181a65557f4d8e00d"
+        },
+        "language": "english",
+        "review": "Please note -- even if my review says \"product refunded\" on top, but I own the game. I did re-buy it.. \n\nEDITED REVIEW -- I gotta rewrite my review because the game has changed so much for good and all the optimisations work so well. Much better than some other \"very famous\" games. After the recent update of Feb 28, 2026 -- the game feels very smooth. It will take a bit time to compile shaders when loading for first time after game installation. The CPU/GPU usage has become much lower than before which means less stress on our PC/Laptop. I am on a mid range gaming laptop and I can run the game on high settings with NO LAG or NO STUTTER. \nThe game now offers mid game saving function which means we can save and quit whenever we want, which has been a great help for quick play sessions. Lots of important QOLs have been implemented which I can't list here but you'll see it yourself if you try it. The devs have also balanced in-game too much saturated color -- which is why the environment now gives REAL COZY vibe. \nI am excited about the 'greenhouse feature\" the devs have said they are gonna implement. I can't wait to grow my own vegetables in greenhouse and harvest them to use for my tavern. That will feel much more cozy. \n\nIt's a real shame that good and cozy game like this is staying hidden just because most players love fighting and violence and zombies in their game. They love to see gross things, so beauty like this steps backward. Games that are full of battle or destroying/killing monsters -- gets overwhelming reviews. I am thankful that I am not like them.\n\nI request anyone who own the game -- please leave a review, whatever you feel. It gives the developer courage and work on the game more, and the DEVs are really good, they listen.. Offering inspiration to someone to create something beautiful is a good thing to do.\n\nAnd please don't go thinking that I'm a bot or AI typing for the Devs. I'm just a real \"human\" player and I love the game and I'm telling the honest truth.",
+        "timestamp_created": 1759429979,
+        "timestamp_updated": 1772342522,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.572602748870849609",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763911181,
+        "developer_response": "Thank you so much for your incredibly kind words — it truly means a lot to our tiny two-person team. We’re very happy to hear that you repurchased the game and updated your review again. Your support helps the project more than you can imagine.\nWe’re really glad that manual saving works well for you now. This feature took a lot of time to implement properly, and feedback like yours reminds us why it was worth it. Optimization is also ongoing — the game uses a demanding version of the engine, but we continue improving performance step by step so more players can enjoy the experience comfortably.\nWe’re also very excited about the upcoming greenhouse update. It will expand the gameplay loop and give players more meaningful things to do during the day. We can’t wait to show it to you!\n\nThank you again for the honest and heartfelt review. And don’t worry — we can definitely tell you’re a real player and not a bot. 😊 Your passion shines through every word.\n\nWith gratitude,\n— The Rose of Wind Team 💜",
+        "app_release_date": "1759090969",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYjEYAAAAAFP+JSw4AAAAB6+92QBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3906110,
+  "requested_at": "2026-09-13T19:57:58.383625+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 25,
+      "total_negative": 14,
+      "total_reviews": 39
+    },
+    "reviews": [
+      {
+        "recommendationid": "211479941",
+        "author": {
+          "steamid": "76561199152269610",
+          "personaname": "j00nc0r3",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199152269610/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 71,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1764358569,
+          "avatar": "bb1f2ee88b9cd0678273c6c5de38f43099b73a74"
+        },
+        "language": "english",
+        "review": "FEED MY MECH RELEASE !!!!!!!!! \n\nI am not the best with horror so I was very uneasy playing at almost any given moment, which is good! The atmosphere is extremely well done. All of the sound cues you start picking up on make you feel so in tune with the game and make it immersive. The writing is great, sound design is awesome, mechanics are unique and intuitive. Best of all, it seriously is super enjoyable.\n\nI truly think that this game is such a gem. There was clearly so much hard work put into it, it's extremely admirable. Especially for a solo developer ! Great job Martian !! Can't wait to see what other awesome stuff you put out in the future. Keep it rolling !",
+        "timestamp_created": 1764356673,
+        "timestamp_updated": 1764356673,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.649880528450012207",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764352158",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXAQkAAAAAFP+TLJSAAAAB12N2mBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.7340000000003783,
+  "transport_error_count": 0
+}

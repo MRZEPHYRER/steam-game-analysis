@@ -1,0 +1,92 @@
+{
+  "appid": 3365030,
+  "requested_at": "2026-09-13T19:12:44.140750+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 191,
+      "total_negative": 59,
+      "total_reviews": 250
+    },
+    "reviews": [
+      {
+        "recommendationid": "209129167",
+        "author": {
+          "steamid": "76561198214720364",
+          "personaname": "JXSama298",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/JXSama298/",
+          "num_games_owned": 0,
+          "num_reviews": 55,
+          "playtime_forever": 1864,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1864,
+          "deck_playtime_at_review": 96,
+          "last_played": 1763604100,
+          "avatar": "f879dd7de877f39895b0c50e26eaa09a0d9f5477"
+        },
+        "language": "english",
+        "review": "I've now finished the game post patch and the loading times have indeed improved. I'll be leaving my original review below as a record of this release's history, but let's go over my overall thoughts on Ryza DX.\n\nThe original Atelier Ryza was my personal entry point to the series, and the DX release gave me a perfect excuse to go back and replay the game to see how my thoughts have evolved now that I've played all the other modern entries. I would say that it's...fine? The game definitely felt a bit clunky to explore and I'd find myself stuck in seemingly random terrain from time to time. I also felt the DX version could've maybe added a little more to the QoL features? It was great seeing my basket total in the field so I knew how much space I had...but other than that I didn't really notice any other improvements over the original release. It's nice that Legendary difficulty is unlocked from the get go, but it's definitely not possible to start a fresh save on it due to the insane HP and damage the first enemy does in game before you even get a chance to equip yourself.\n\nSynthesis is largely the same. Place your materials onto the node and fill it out as much as possible to make the best items. My biggest gripe here is actually a problem with the original as well...and that's duplication is unlocked like 70% of the way through the game. Until that point you just have to keep synthesizing the same things over and over and it's extremely tedious to do. I'd wanted to fully equip all my party members and use the new characters...but I had to give up on that since it was just taking way too much time and I wasn't having fun. Even so...it's a decent enough system once all the features are unlocked and you can break it in half.\n\nCombat however, I'm sad to say it's the worst of the series. I kinda see what they were going for with the ATB system...however you're locked to a 3 person party and can't change out members mid-combat. And if everyone gets KO'd, you go back to base and lose some items even if there's healthy backups. With the way it's formatted the game is almost actively discouraging you from experimenting with different lineups and to just use your 3 favorites. New party members also join with just...the worst gear ever. You get the last one (new to the DX version) towards the latter half of the game, but if you want to use her you have to stop what you're doing and build her equipment from scratch. This isn't exactly \"new\" to the series of course but it doesn't make it any less annoying.\n\nAnd finally, let's talk about what's new with this version. The main story remains mostly unchanged, though there is a brief 15-20 minute side chapter added in for one of the new playable characters. There's also a brand new After Story in the Episodes section of the main menu that bridges the gap between Ryza 1 and 2. Won't take too long to beat that as I think it took me maybe 40 minutes. Some have talked about it but the game is definitely more saturated than the original was. I personally didn't notice myself until I saw some side by side screen shots so if you're sensitive to that kind of thing...be warned. We also have 3 new playable characters but...alas, I didn't really end up using them for the reasons I'd stated above. \n\nAlso included with the DX version is all the original DLC. The costumes are a little lacking unfortunately...mostly just being palette swaps and swimsuits. Ryza herself has the most but it's still a small list. You can change the music if you like as well to any of the old Atelier or Gust titles if that's your thing, though I still really enjoy Ryza's OST so I left mine the same. And then there's the extra Episodes...I really don't know what to say about them. I tried Klaudia's and the beach one and...I didn't like them one bit. There's no voice acting, your gear is preset and they're kinda on the short side...maybe like 30 minutes each? If that? I guess if you WANT more time with these characters it does give you that...but like...so do the sequels so...\n\nSo overall thoughts? Yeah I'm not sure this one was worth double dipping for. It doesn't quite add as much as I was hoping they would, and had some issues on launch that the community was thankfully able to troubleshoot until a patch could be made. I'll still recommend it to anyone who hasn't gotten into the series yet as it's still a very easy entry point...but for everyone else...the original works just fine if you have it.\n\n(ORIGINAL REVIEW)\n\nI never write reviews after only an hour but this HAS to be said. There is a MASSIVE issue with the loading screens and KT needs to address this ASAP. I'm running this game on an NVMe SSD and have had loading screens varying from 20 to 40 seconds, something which was not an issue for the original release of Ryza. Finish a cutscene? Loading screen. Enter an area? Loading screen. Change your outfit? Better believe that's a 20 second loading screen. I'm considering requesting a refund if a hotfix isn't implemented within the next day or so because this is ridiculous.\n\nPOSSIBLE FIX: Thanks to Mr. F and Angel0886 in the forums for troubleshooting, by using 3rd party software or the Nvidia Control Panel, if you manually limit your framerate and set the in game cap to Unlimited, the loading screens practically disappear to maybe a few seconds at most. Still keeping this as a negative review for the time being so KT knows this needs an official patch.",
+        "timestamp_created": 1763051597,
+        "timestamp_updated": 1763607459,
+        "voted_up": false,
+        "votes_up": 260,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.912512779235839844",
+        "comment_count": 13,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762995649",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 7
+          },
+          {
+            "reaction_type": 19,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRv+8AAAAAFP+0zToAAAAB/7OGdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

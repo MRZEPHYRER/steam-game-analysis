@@ -1,0 +1,66 @@
+{
+  "appid": 2000780,
+  "requested_at": "2026-09-13T18:46:35.152614+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 1,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "205091381",
+        "author": {
+          "steamid": "76561197995228146",
+          "personaname": "CodeDanEXE",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/codedanexe/",
+          "num_games_owned": 333,
+          "num_reviews": 7,
+          "playtime_forever": 437,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 437,
+          "last_played": 1758695951,
+          "avatar": "9c054cbae75d25661e4164a5b01b440f4cc676c5"
+        },
+        "language": "english",
+        "review": "A very fun and charming exploration platformer! The highlight of the game is the movement with the drill. It feels really good and exploring was a lot more fun than I expected! Combat was a little rough but some bosses were cleverly designed and a blast once you learned their patterns, especially Mizu. I think Zephyra and Alan's fights could be a tad shorter, they feel longer than the other bosses in the game.\r\n\r\nThere may be a few minor bugs but that never ruined the experience for me! One of the Diamond Trio bosses involved shattering glass and each hit did cause the game to lag/freeze for a bit, making the fight a bit easier than intended I think, so I hope that gets addressed in a future patch.\r\n\r\nOtherwise its a great game worth checking out!",
+        "timestamp_created": 1758696297,
+        "timestamp_updated": 1758696297,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.583333313465118408",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757044808",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYVVYAAAAAFP+KqqgAAAAB1o66OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

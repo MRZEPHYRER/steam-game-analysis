@@ -1,0 +1,66 @@
+{
+  "appid": 3597530,
+  "requested_at": "2026-09-13T19:25:05.256584+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 6,
+      "total_negative": 0,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "208399327",
+        "author": {
+          "steamid": "76561197997214892",
+          "personaname": "2Dskillz",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/2Dskillz/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 344,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 44,
+          "last_played": 1777310526,
+          "avatar": "ac08dc3821a8b16828fe2b640f1707d81e3ceb9b"
+        },
+        "language": "english",
+        "review": "This is the perfect next level of addictive solitaire. It is a just one more game situation every time. The customization of your deck has you always wondering what is the best strategy. Additionally the presentation is charming without getting in the way of the great core game play loop.",
+        "timestamp_created": 1762271494,
+        "timestamp_updated": 1762271494,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.537166893482208252",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762268424",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZQbSAAAAAFP+EweOAAAAB/vf2aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

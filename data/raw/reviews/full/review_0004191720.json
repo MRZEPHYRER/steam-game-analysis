@@ -1,0 +1,66 @@
+{
+  "appid": 4191720,
+  "requested_at": "2026-09-13T20:25:11.096385+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212491126",
+        "author": {
+          "steamid": "76561198168930755",
+          "personaname": "Try Relaxing",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tryrelaxing/",
+          "num_games_owned": 303,
+          "num_reviews": 7,
+          "playtime_forever": 5,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1764784384,
+          "avatar": "96fa7f84d239fdc1dbdbf795e3121d95447dce9b"
+        },
+        "language": "english",
+        "review": "for a .99 cent game its not completely terrible. but having no pause screen or any settings is abysmal. you need to at least be able to disable sound or change sensitivity.\n another thing is the aimbot is unbiased and unchangable meaning if you're locked onto someone across the map and someone else comes closer, you are unable to switch targets or stop focusing the initial target. \nis it worth a dollar? probably not. would love if it had just a bit more user interface",
+        "timestamp_created": 1764784624,
+        "timestamp_updated": 1764784624,
+        "voted_up": false,
+        "votes_up": 8,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.643341183662414551",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764769993",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXIhgAAAAAFP+SWP+AAAAB2t8uqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.141000000000531,
+  "transport_error_count": 0
+}

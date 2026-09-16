@@ -1,0 +1,254 @@
+{
+  "requested_at": "2026-09-12T13:54:13.628099+00:00",
+  "request_params": {
+    "appids": 2685850,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2685850,
+  "payload": {
+    "2685850": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Hoku Shrine",
+        "steam_appid": 2685850,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "A beautiful open world is waiting for you! Learn different fighting styles and magic skills, practice archery. Explore the world, mine resources, create weapons and brew potions, combine combat sets. Fight for justice and restore the Hoku Shrine!<br><br>Currently implemented in the game:<br>  <br><ul class=\"bb_ul\"><li>Character progression<br></li><li>Melee Combat (Two-handed Axe, Two-handed Sword, Sword and Shield, Halberd)<br></li><li>Ranged Combat with Bow and Arrow<br></li><li>Magic Spells<br></li><li>Enhancement with magic and potions<br></li><li>Resource Gathering: wood, herbs, crystals and minerals.<br></li><li>Armor and weapon crafting, potion brewing<br></li><li>Locations full of mobs, dungeons with guards and bosses.</li></ul>",
+        "about_the_game": "A beautiful open world is waiting for you! Learn different fighting styles and magic skills, practice archery. Explore the world, mine resources, create weapons and brew potions, combine combat sets. Fight for justice and restore the Hoku Shrine!<br><br>Currently implemented in the game:<br>  <br><ul class=\"bb_ul\"><li>Character progression<br></li><li>Melee Combat (Two-handed Axe, Two-handed Sword, Sword and Shield, Halberd)<br></li><li>Ranged Combat with Bow and Arrow<br></li><li>Magic Spells<br></li><li>Enhancement with magic and potions<br></li><li>Resource Gathering: wood, herbs, crystals and minerals.<br></li><li>Armor and weapon crafting, potion brewing<br></li><li>Locations full of mobs, dungeons with guards and bosses.</li></ul>",
+        "short_description": "A beautiful open world is waiting for you! Learn different fighting styles and magic skills, practice archery. Explore the world, mine resources, create weapons and brew potions, combine combat sets. Fight for justice and restore the Shrine of Hoku!",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/2952955fa2cbbdee9696529bee5e5c820a3590fe/header.jpg?t=1766053748",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/769eb0a4139e0b465858ccc271c793baa922999c/capsule_231x87.jpg?t=1766053748",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/769eb0a4139e0b465858ccc271c793baa922999c/capsule_184x69.jpg?t=1766053748",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit<br></li><li><strong>Processor:</strong> Intel Core i3-2100 / AMD® FX-6300<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit<br></li><li><strong>Processor:</strong> Intel Core i7-3770 / AMD® Ryzen 7 2700<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA® GeForce RTX 3060 Ti / AMD® Radeon RX 6700<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Ibragim Shaipov"
+        ],
+        "publishers": [
+          "Ibragim Shaipov"
+        ],
+        "demos": [
+          {
+            "appid": 2889110,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          961977
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Hoku Shrine",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 961977,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Hoku Shrine - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_f50ab8a1a1262aeaf6a5edc6fc93e53ee6e299f7.600x338.jpg?t=1766053748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_f50ab8a1a1262aeaf6a5edc6fc93e53ee6e299f7.1920x1080.jpg?t=1766053748"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_02bdbdb94b227afd1f4ae4607ed1fe6d420e288f.600x338.jpg?t=1766053748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_02bdbdb94b227afd1f4ae4607ed1fe6d420e288f.1920x1080.jpg?t=1766053748"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_f3f73588cfc006a82893c007abb04b90c63af00c.600x338.jpg?t=1766053748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_f3f73588cfc006a82893c007abb04b90c63af00c.1920x1080.jpg?t=1766053748"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_4c9a0922742a55c7f643b2c285a9cb839a521581.600x338.jpg?t=1766053748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_4c9a0922742a55c7f643b2c285a9cb839a521581.1920x1080.jpg?t=1766053748"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_fecae7ef9b2eb6194b10a750eca85c61e5a09f8f.600x338.jpg?t=1766053748",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/ss_fecae7ef9b2eb6194b10a750eca85c61e5a09f8f.1920x1080.jpg?t=1766053748"
+          }
+        ],
+        "movies": [
+          {
+            "id": 256980529,
+            "name": "Hoku Shrine Game Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256980529/movie.293x165.jpg?t=1699904036",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2685850/626671/6a5b71a39a4c1dc2d3097a9c211f38c980d26786/1750943134/dash_av1.mpd?t=1699904036",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2685850/626671/6a5b71a39a4c1dc2d3097a9c211f38c980d26786/1750943134/dash_h264.mpd?t=1699904036",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2685850/626671/6a5b71a39a4c1dc2d3097a9c211f38c980d26786/1750943134/hls_264_master.m3u8?t=1699904036",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "3797293df5f1a4cbf9b757e510f6cb988fcdb03f.jpg",
+              "localized_name": "Alchemist Beginner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Alchemist Beginner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/3797293df5f1a4cbf9b757e510f6cb988fcdb03f.jpg"
+            },
+            {
+              "icon": "46c18bab46045f3b47ef03ebfe03c506842f99ef.jpg",
+              "localized_name": "Alchemist Expert",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Alchemist Expert",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/46c18bab46045f3b47ef03ebfe03c506842f99ef.jpg"
+            },
+            {
+              "icon": "e5fd4c925a0e3531f57f838bdb27c46452622725.jpg",
+              "localized_name": "Alchemist Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Alchemist Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/e5fd4c925a0e3531f57f838bdb27c46452622725.jpg"
+            },
+            {
+              "icon": "531f000981d59c42056881909151e970b42c5b5c.jpg",
+              "localized_name": "Blacksmith Beginner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blacksmith Beginner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/531f000981d59c42056881909151e970b42c5b5c.jpg"
+            },
+            {
+              "icon": "a346825822d94e3c6c19f728a29db238c4e8f80b.jpg",
+              "localized_name": "Blacksmith Expert",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blacksmith Expert",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/a346825822d94e3c6c19f728a29db238c4e8f80b.jpg"
+            },
+            {
+              "icon": "668e586bcb593de4dfc29509eabb13ae8646f5fe.jpg",
+              "localized_name": "Blacksmith Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blacksmith Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2685850/668e586bcb593de4dfc29509eabb13ae8646f5fe.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "devenimp@yandex.ru"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2685850?t=1766053748",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685850/page_bg_raw.jpg?t=1766053748",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

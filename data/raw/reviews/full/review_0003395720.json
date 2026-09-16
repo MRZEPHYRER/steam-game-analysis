@@ -1,0 +1,66 @@
+{
+  "appid": 3395720,
+  "requested_at": "2026-09-13T19:13:48.885692+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 4,
+      "total_negative": 5,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "209437098",
+        "author": {
+          "steamid": "76561198865105355",
+          "personaname": "Grey",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198865105355/",
+          "num_games_owned": 0,
+          "num_reviews": 36,
+          "playtime_forever": 62,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 62,
+          "last_played": 1763340348,
+          "avatar": "e15917d1b03e00a5bdf461dfc59dbc286ca7cc2a"
+        },
+        "language": "english",
+        "review": "So i completed this in 62 minutes.\n\nSome Jump scares caught me off guard.\n\nSome tasks don't make sense, however, if they did, the completion time would of been halved.\n\nWorth the money i spent for an hour of game play. I can also appreciate, how hard it is to make a game.",
+        "timestamp_created": 1763340666,
+        "timestamp_updated": 1763340666,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.652757108211517334",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763238510",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW8eKAAAAAFP+TjYqAAAAB6mvieBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

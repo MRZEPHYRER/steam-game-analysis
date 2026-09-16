@@ -1,0 +1,71 @@
+{
+  "appid": 690320,
+  "requested_at": "2026-09-13T18:41:03.133496+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209558836",
+        "author": {
+          "steamid": "76561197964830810",
+          "personaname": "PsychicParrot",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197964830810/",
+          "num_games_owned": 0,
+          "num_reviews": 154,
+          "playtime_forever": 134,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1763509234,
+          "avatar": "950f9f3147d4c8530a5072825d01c34ee3f1afa1"
+        },
+        "language": "english",
+        "review": "It's snake, but mega hectic and pretty psychedelic. Maybe the snake ate one of those trippy frogs? Whatever it is, it's fun! Love the idea of mixing Asteroids in here, it fits really well. It's a pretty tough game to play, the bosses are really tough to beat but it's rewarding when you get through them. Powerups work well and it feels awesome when you're fully powered up blasting everything on the screen! (although tbh if it were up to me there'd be more powerups on the boss levels because they're pretty tough!)\n\nWorks well with an xbox 360 controller (wireless, in this case) and I like that there are options to turn up/down the vibration on the controller as well as toggle screen shake on/off for folks who need less of that. \n\nIt runs really well, no issues here, has a bangin' chiptune soundtrack, nice arcadey sounds and a nice arcadey feel to it all, so if you like classic arcade games I'm sure you'll like this.",
+        "timestamp_created": 1763489195,
+        "timestamp_updated": 1763490199,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.573879361152648926",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763481689",
+        "reactions": [
+          {
+            "reaction_type": 22,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYhb2AAAAAFP+JdN4AAAAB007OfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0629999999998745,
+  "transport_error_count": 0
+}

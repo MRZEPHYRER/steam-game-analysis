@@ -1,0 +1,66 @@
+{
+  "appid": 2815080,
+  "requested_at": "2026-09-13T18:56:21.531939+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 1,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "204573242",
+        "author": {
+          "steamid": "76561198058955004",
+          "personaname": "EUPatrik",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198058955004/",
+          "num_games_owned": 186,
+          "num_reviews": 33,
+          "playtime_forever": 166,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 95,
+          "last_played": 1758224059,
+          "avatar": "e49df9e19ca580ebd13d8d6b69c43a6c9bad8ac0"
+        },
+        "language": "english",
+        "review": "Cool idea, price fair. The gameplay reminds me of Terraformental by Shadowsand. Some loops are pretty short could be merged to not break the immersion with reset.\nThis would be perfect with controller support/controls.",
+        "timestamp_created": 1758137526,
+        "timestamp_updated": 1758217911,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.587476968765258789",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752854297",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYQB4AAAAAFP+LMnKAAAAB6o7GMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.4220000000000255,
+  "transport_error_count": 0
+}

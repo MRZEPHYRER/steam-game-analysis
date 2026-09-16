@@ -1,0 +1,66 @@
+{
+  "appid": 3051240,
+  "requested_at": "2026-09-13T19:02:18.789921+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 6,
+      "total_negative": 3,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "207099790",
+        "author": {
+          "steamid": "76561199438741073",
+          "personaname": "ne61nda-4",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199438741073/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 19519,
+          "playtime_last_two_weeks": 258,
+          "playtime_at_review": 7802,
+          "last_played": 1789310629,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "いつの間にか通算プレイ時間が100時間超えてしまう程度には、面白いゲームです。\r\n音楽や効果音も含めたアートワーク全般がすばらしく、独特の世界観が丁寧に表現されています。\r\nミームは基本アホなので思い通りに動かないことも多いですが、出来の悪い子ほどかわいいを地で行く存在。徐々に愛着がわいてきます。\r\n\r\nシミュレーションゲームのツボはしっかり押さえた作りになっていて、ヘルプやチュートリアルもしっかりしているので、ちゃんと文章を読めばクリアはできると思います。\r\nただ、一度歯車が狂うと転がり落ちるように状況は悪化するので、忍耐力に自信のない方は枝セーブをこまめに作ることをお勧めします。あと、難易度「むずかしい」は本当に難しいので、最初に選ぶと挫折につながります。\r\n\r\nSTEAMでの発売初日に買いましたが、いきなり割引されていたのはショックでした。決して好調なセールスではないのでしょうが、はらぺこミームが一人でも多くの方に手に取ってもらえることを切に願っております。",
+        "timestamp_created": 1760886821,
+        "timestamp_updated": 1760886821,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.643291473388671875",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753944689",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXIlmAAAAAFP+SV1wAAAAB++IKWBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

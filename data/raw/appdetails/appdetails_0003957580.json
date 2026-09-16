@@ -1,0 +1,220 @@
+{
+  "requested_at": "2026-09-13T06:05:32.348348+00:00",
+  "request_params": {
+    "appids": 3957580,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3957580,
+  "payload": {
+    "3957580": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Monster Survival",
+        "steam_appid": 3957580,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Join the battle</h2><p class=\"bb_paragraph\" >Face a plethora of foes - zombies, demons, vampires, aliens, mythological creatures...</p><p class=\"bb_paragraph\" >Last for as long as you can.</p><h2 class=\"bb_tag\" >Prepare for anything</h2><p class=\"bb_paragraph\" >There are monsters everywhere, so be prepared.</p><p class=\"bb_paragraph\" >Arm yourself as best you can, and take down your foes.</p><h2 class=\"bb_tag\" >Upgrade weapons</h2><p class=\"bb_paragraph\" >The longer you last the more chance you have of earning more powerful weapons.</p><p class=\"bb_paragraph\" >Swords and axes are fine, but a gift from the gods can decimate your foes.</p><p class=\"bb_paragraph\" >The  better armed you are the better your chances of survival.</p><h2 class=\"bb_tag\" >Replenish health</h2><p class=\"bb_paragraph\" >Survive for long enough, and you'll be rewarded with a health boost.</p><h2 class=\"bb_tag\" >Prolong the battle</h2><p class=\"bb_paragraph\" >Survive long enough, and you will be confronted by menacing Bosses.</p><p class=\"bb_paragraph\" >Their only priority is your destruction.</p><h2 class=\"bb_tag\" >Achieve a high score</h2><p class=\"bb_paragraph\" >If you lasted long enough then you've achieved a new best score.</p><p class=\"bb_paragraph\" >Aim to kill as many enemies as possible, to set a new best for the total number of enemies killed.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Join the battle</h2><p class=\"bb_paragraph\" >Face a plethora of foes - zombies, demons, vampires, aliens, mythological creatures...</p><p class=\"bb_paragraph\" >Last for as long as you can.</p><h2 class=\"bb_tag\" >Prepare for anything</h2><p class=\"bb_paragraph\" >There are monsters everywhere, so be prepared.</p><p class=\"bb_paragraph\" >Arm yourself as best you can, and take down your foes.</p><h2 class=\"bb_tag\" >Upgrade weapons</h2><p class=\"bb_paragraph\" >The longer you last the more chance you have of earning more powerful weapons.</p><p class=\"bb_paragraph\" >Swords and axes are fine, but a gift from the gods can decimate your foes.</p><p class=\"bb_paragraph\" >The  better armed you are the better your chances of survival.</p><h2 class=\"bb_tag\" >Replenish health</h2><p class=\"bb_paragraph\" >Survive for long enough, and you'll be rewarded with a health boost.</p><h2 class=\"bb_tag\" >Prolong the battle</h2><p class=\"bb_paragraph\" >Survive long enough, and you will be confronted by menacing Bosses.</p><p class=\"bb_paragraph\" >Their only priority is your destruction.</p><h2 class=\"bb_tag\" >Achieve a high score</h2><p class=\"bb_paragraph\" >If you lasted long enough then you've achieved a new best score.</p><p class=\"bb_paragraph\" >Aim to kill as many enemies as possible, to set a new best for the total number of enemies killed.</p>",
+        "short_description": "Battle for survival against enemy hordes. Different levels, but always the same goal - stay alive for as long as possible. Fight your way to a new high score.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/fb95d6ab915a81c25d4d104697391fb15ef5b8fa/header.jpg?t=1762178499",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/f9425eb4f328c5d7382e64d0c2494c05a5e46677/capsule_231x87.jpg?t=1762178499",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/f9425eb4f328c5d7382e64d0c2494c05a5e46677/capsule_184x69.jpg?t=1762178499",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> core i3 or equivalent<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> nvidia 1050 or equivalent<br></li><li><strong>Storage:</strong> 20 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "B Rees"
+        ],
+        "publishers": [
+          "B Rees"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.99"
+        },
+        "packages": [
+          1389890
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Monster Survival",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1389890,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Monster Survival - $7.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 799
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/2eb71174ae5f275cbd099781d1750f6f1d13ab32/ss_2eb71174ae5f275cbd099781d1750f6f1d13ab32.600x338.jpg?t=1762178499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/2eb71174ae5f275cbd099781d1750f6f1d13ab32/ss_2eb71174ae5f275cbd099781d1750f6f1d13ab32.1920x1080.jpg?t=1762178499"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/cbfb32b694e7c154a872d92a4bfb44a805e6ddd1/ss_cbfb32b694e7c154a872d92a4bfb44a805e6ddd1.600x338.jpg?t=1762178499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/cbfb32b694e7c154a872d92a4bfb44a805e6ddd1/ss_cbfb32b694e7c154a872d92a4bfb44a805e6ddd1.1920x1080.jpg?t=1762178499"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/3c7ce477862d4e8baf81ea283992e6e3d0e82dd1/ss_3c7ce477862d4e8baf81ea283992e6e3d0e82dd1.600x338.jpg?t=1762178499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/3c7ce477862d4e8baf81ea283992e6e3d0e82dd1/ss_3c7ce477862d4e8baf81ea283992e6e3d0e82dd1.1920x1080.jpg?t=1762178499"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/57408f387acc6f36b16500d983e7098094499919/ss_57408f387acc6f36b16500d983e7098094499919.600x338.jpg?t=1762178499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/57408f387acc6f36b16500d983e7098094499919/ss_57408f387acc6f36b16500d983e7098094499919.1920x1080.jpg?t=1762178499"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/88938aaedee5bfc582420c61b78aa02626868aaf/ss_88938aaedee5bfc582420c61b78aa02626868aaf.600x338.jpg?t=1762178499",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957580/88938aaedee5bfc582420c61b78aa02626868aaf/ss_88938aaedee5bfc582420c61b78aa02626868aaf.1920x1080.jpg?t=1762178499"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257184473,
+            "name": "gameplay4",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257184473/637ab8f5c325a541f6650a43a22aa7c4280172b7/movie_600x337.jpg?t=1755805025",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3957580/1344796555/b4cf042891b5ece957ce6284fd9746166e1d8036/1755450056/dash_av1.mpd?t=1755805025",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1344796555/b4cf042891b5ece957ce6284fd9746166e1d8036/1755450056/dash_h264.mpd?t=1755805025",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1344796555/b4cf042891b5ece957ce6284fd9746166e1d8036/1755450056/hls_264_master.m3u8?t=1755805025",
+            "highlight": true
+          },
+          {
+            "id": 257183932,
+            "name": "gameplay3",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257183932/611bd6d3ac014a9818d0fc8e6bfb5c5c4dbc66f7/movie_600x337.jpg?t=1755805026",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3957580/1325653296/73f4016d508a1abac1d8bc940bf158eaeff9b1cc/1755289719/dash_av1.mpd?t=1755805026",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1325653296/73f4016d508a1abac1d8bc940bf158eaeff9b1cc/1755289719/dash_h264.mpd?t=1755805026",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1325653296/73f4016d508a1abac1d8bc940bf158eaeff9b1cc/1755289719/hls_264_master.m3u8?t=1755805026",
+            "highlight": true
+          },
+          {
+            "id": 257183859,
+            "name": "gameplay1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257183859/9993239e389a51acb1a591cdd1ee052e94e2d643/movie_600x337.jpg?t=1755805029",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3957580/1736732818/593c3a4786d16b057790cebaa6835025b62b7837/1755281039/dash_av1.mpd?t=1755805029",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1736732818/593c3a4786d16b057790cebaa6835025b62b7837/1755281039/dash_h264.mpd?t=1755805029",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/1736732818/593c3a4786d16b057790cebaa6835025b62b7837/1755281039/hls_264_master.m3u8?t=1755805029",
+            "highlight": true
+          },
+          {
+            "id": 257183838,
+            "name": "gameplay2",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257183838/9bdbe6f91694e58e30548dd7217f93d80e2022cd/movie_600x337.jpg?t=1755805031",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3957580/612134397/177294e0b360998a4527fa15ec1873bc9ba8bab5/1755277582/dash_av1.mpd?t=1755805031",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/612134397/177294e0b360998a4527fa15ec1873bc9ba8bab5/1755277582/dash_h264.mpd?t=1755805031",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3957580/612134397/177294e0b360998a4527fa15ec1873bc9ba8bab5/1755277582/hls_264_master.m3u8?t=1755805031",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 3, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "reessoftmail@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3957580?t=1762178499",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3957580?t=1762178499",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "Constant battles with foes such as zombies, vampires, aliens, demons, reanimated skeletons.\r\nOccasional blood splatter, to emphasize weapon hits."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

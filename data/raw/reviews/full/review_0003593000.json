@@ -1,0 +1,66 @@
+{
+  "appid": 3593000,
+  "requested_at": "2026-09-13T19:24:56.664483+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "227374356",
+        "author": {
+          "steamid": "76561198018673620",
+          "personaname": "HottyMcBoddy",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198018673620/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1783898241,
+          "avatar": "4d9b4713c7b38a16f506d3a9b9a1dd5ea270a6a9"
+        },
+        "language": "english",
+        "review": "The controls were as challenging as they were interesting. I really felt like I was actually at the carnival getting scammed myself",
+        "timestamp_created": 1780804754,
+        "timestamp_updated": 1780804754,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751653921",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB00a7jBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

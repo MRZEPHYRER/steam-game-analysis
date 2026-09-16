@@ -1,0 +1,111 @@
+{
+  "appid": 4015530,
+  "requested_at": "2026-09-13T20:11:29.680686+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 3066,
+      "total_negative": 268,
+      "total_reviews": 3334
+    },
+    "reviews": [
+      {
+        "recommendationid": "216506802",
+        "author": {
+          "steamid": "76561199000136058",
+          "personaname": "BlizzardBunny",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199000136058/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 36,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1774998068,
+          "avatar": "ec7ab2bae11262a5de693aad52f1797bb3708f0a"
+        },
+        "language": "english",
+        "review": "Great game for everyone.\n\nFor kids: a fun and innocent game.\n\nFor adults: an exercise in unlearning shame and giving into intrusive thoughts.\n\nConclusion: fun for the whole family.",
+        "timestamp_created": 1769038078,
+        "timestamp_updated": 1769038078,
+        "voted_up": true,
+        "votes_up": 586,
+        "votes_funny": 140,
+        "weighted_vote_score": "0.979793727397918701",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758870437",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 25
+          },
+          {
+            "reaction_type": 29,
+            "count": 14
+          },
+          {
+            "reaction_type": 24,
+            "count": 5
+          },
+          {
+            "reaction_type": 27,
+            "count": 4
+          },
+          {
+            "reaction_type": 31,
+            "count": 3
+          },
+          {
+            "reaction_type": 34,
+            "count": 3
+          },
+          {
+            "reaction_type": 35,
+            "count": 3
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          },
+          {
+            "reaction_type": 33,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQZ3SAAAAAFP+9aeQAAAABym/S5Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.235000000000582,
+  "transport_error_count": 0
+}

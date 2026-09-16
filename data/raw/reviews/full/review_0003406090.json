@@ -1,0 +1,75 @@
+{
+  "appid": 3406090,
+  "requested_at": "2026-09-13T19:14:14.631335+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 5,
+      "total_negative": 3,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "219266887",
+        "author": {
+          "steamid": "76561199568599421",
+          "personaname": "야시로",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199568599421/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 103,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 103,
+          "last_played": 1772111758,
+          "avatar": "26c8a98c1983ee70e2f947222253f3ad0094053c"
+        },
+        "language": "koreana",
+        "review": "휠체어 타시는 분들의 고통을 이해할 수 있는 갓 겜입니다.\n건강에 대한 감사와 인생을 되돌아 볼 수 있었습니다.\n꼭 해보세요.\n전 일이 너무 바빠서 조금밖에 못 했네요\n아쉽다 ㅠ",
+        "timestamp_created": 1772111916,
+        "timestamp_updated": 1772111916,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754215234",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 28,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB39LfEBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,207 @@
+{
+  "requested_at": "2026-09-12T17:12:41.780224+00:00",
+  "request_params": {
+    "appids": 3848540,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3848540,
+  "payload": {
+    "3848540": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Save Granny",
+        "steam_appid": 3848540,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Save Granny</strong> is a fast-paced, absurd 3D platformer where you play as Daniel, a panicked grandson racing to deliver anti-explosive diarrhea pills to his grandma before she literally blows up.</p><p class=\"bb_paragraph\" >You only have 1 hour until granny explodes. But hey, you can still finish the game after that :P<br><br>The game will feature all kinds of bioms, with some hard challanges.<br><br>Also, your fastest time will be presented in the leaderboard!<br><br>Have fun!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Save Granny</strong> is a fast-paced, absurd 3D platformer where you play as Daniel, a panicked grandson racing to deliver anti-explosive diarrhea pills to his grandma before she literally blows up.</p><p class=\"bb_paragraph\" >You only have 1 hour until granny explodes. But hey, you can still finish the game after that :P<br><br>The game will feature all kinds of bioms, with some hard challanges.<br><br>Also, your fastest time will be presented in the leaderboard!<br><br>Have fun!</p>",
+        "short_description": "Save Granny is a fast-paced 3D platformer where you play as Daniel, a desperate grandson racing through absurd, hazard-filled levels to deliver anti-explosive diarrhea pills to his grandma before she detonates. Time’s ticking, and Granny’s fuse is short.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/ffc96401bd0c50e9052ec50a2fbc4908399cb100/header.jpg?t=1759671980",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/d721328d7ea774dd807fb95757398ec8c133d85b/capsule_231x87.jpg?t=1759671980",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/d721328d7ea774dd807fb95757398ec8c133d85b/capsule_184x69.jpg?t=1759671980",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Nothing special<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Nothing special<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Nothing special<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Nothing special<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Andreas"
+        ],
+        "publishers": [
+          "Andreas"
+        ],
+        "demos": [
+          {
+            "appid": 3848550,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1353241
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Save Granny",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1353241,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Save Granny - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/bd8110075ff46e49aabcbb6b72c1f60833c51cc0/ss_bd8110075ff46e49aabcbb6b72c1f60833c51cc0.600x338.jpg?t=1759671980",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/bd8110075ff46e49aabcbb6b72c1f60833c51cc0/ss_bd8110075ff46e49aabcbb6b72c1f60833c51cc0.1920x1080.jpg?t=1759671980"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/19e98589fa62fd22f3be94ad187a131408cac297/ss_19e98589fa62fd22f3be94ad187a131408cac297.600x338.jpg?t=1759671980",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/19e98589fa62fd22f3be94ad187a131408cac297/ss_19e98589fa62fd22f3be94ad187a131408cac297.1920x1080.jpg?t=1759671980"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/3874cee0693cd878b7c0a601ec79b94bd01c8562/ss_3874cee0693cd878b7c0a601ec79b94bd01c8562.600x338.jpg?t=1759671980",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/3874cee0693cd878b7c0a601ec79b94bd01c8562/ss_3874cee0693cd878b7c0a601ec79b94bd01c8562.1920x1080.jpg?t=1759671980"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/a6096d316f3907d1f36ec74d74216240fa247d67/ss_a6096d316f3907d1f36ec74d74216240fa247d67.600x338.jpg?t=1759671980",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/a6096d316f3907d1f36ec74d74216240fa247d67/ss_a6096d316f3907d1f36ec74d74216240fa247d67.1920x1080.jpg?t=1759671980"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/b51de44e15a9822066d5698ccb27bc06cd80cb34/ss_b51de44e15a9822066d5698ccb27bc06cd80cb34.600x338.jpg?t=1759671980",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848540/b51de44e15a9822066d5698ccb27bc06cd80cb34/ss_b51de44e15a9822066d5698ccb27bc06cd80cb34.1920x1080.jpg?t=1759671980"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257207466,
+            "name": "GrannyTrailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257207466/517d23ccb9ec30301f8264440a4a0e2469deab24/movie_600x337.jpg?t=1759303189",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3848540/2060733683/b45ceb32fbd4dcfd750ea5cf2b965eea12be1f74/1758986986/dash_av1.mpd?t=1759303189",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3848540/2060733683/b45ceb32fbd4dcfd750ea5cf2b965eea12be1f74/1758986986/dash_h264.mpd?t=1759303189",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3848540/2060733683/b45ceb32fbd4dcfd750ea5cf2b965eea12be1f74/1758986986/hls_264_master.m3u8?t=1759303189",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "andreas-alenius@hotmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3848540?t=1759671980",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3848540?t=1759671980",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

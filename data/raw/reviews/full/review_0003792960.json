@@ -1,0 +1,71 @@
+{
+  "appid": 3792960,
+  "requested_at": "2026-09-13T19:40:34.516547+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "206991327",
+        "author": {
+          "steamid": "76561198274735223",
+          "personaname": "Mystic_the_Ghost",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198274735223/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 1153,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 344,
+          "last_played": 1761351978,
+          "avatar": "de9d8aa8923a89a4f2fffcec1d3be903e97e6f7f"
+        },
+        "language": "english",
+        "review": "Still in EARLY ACCESS and only been out a couple weeks at the time of this post so please keep it in mind, but very active devs and good folks on the disc. if you have a issue or problem they'll help you out. i was looking for a new survival game browsing steam and dont know the devs or mods from adam.  People compare it to rust or dayz, but Dayz is Dayz, rust is rust and they are their own games. Fade doesnt compare to the two, gameplay seems a bit more fast paced and can be hard to learn but after 5 hours i feel like im really starting to get the hang of it and starting to have fun. The community is good, the devs are active and fast with replies and updates and that has my utmost respect. the game currently needs more players/testers but it seems quite promising!!\r\n\r\nWhen i first got in, i had spoken to one of the main devs about the price. i had thought about refunding but decided not to and give them a chance. Immediately they told me im free to do whatever, that if i need to refund/put back on wishlist i'm free to do so and come back at a later time. This statement right here tells me its not a cash grab, and im happy to see dev support. looking forward to putting more time in the game, i recommend joining their disc before playing but its all good either way.",
+        "timestamp_created": 1760779062,
+        "timestamp_updated": 1760779062,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.547325074672698975",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759248111",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZDbIAAAAAFP+GDr8AAAAB//c2VBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9210000000002765,
+  "transport_error_count": 0
+}

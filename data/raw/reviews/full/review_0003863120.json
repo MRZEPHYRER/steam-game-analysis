@@ -1,0 +1,71 @@
+{
+  "appid": 3863120,
+  "requested_at": "2026-09-13T19:51:21.584787+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214149669",
+        "author": {
+          "steamid": "76561198090516872",
+          "personaname": "deadfear1188",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198090516872/",
+          "num_games_owned": 0,
+          "num_reviews": 8,
+          "playtime_forever": 8,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8,
+          "last_played": 1766668532,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "First of all, you need to have a tutorial or some thing like that. I found guns but game does not allow me to equip it. I like theme game but it's too rough to even call it a game. So i am refunding it",
+        "timestamp_created": 1766668719,
+        "timestamp_updated": 1766668719,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.585157215595245361",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764942235",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYS/8AAAAAFP+K5myAAAAB1ovWwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

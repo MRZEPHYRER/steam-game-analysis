@@ -1,0 +1,71 @@
+{
+  "appid": 4017450,
+  "requested_at": "2026-09-13T20:11:44.954057+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 82,
+      "total_negative": 5,
+      "total_reviews": 87
+    },
+    "reviews": [
+      {
+        "recommendationid": "213385895",
+        "author": {
+          "steamid": "76561198024872640",
+          "personaname": "BlueNexa",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/bluenexa/",
+          "num_games_owned": 1183,
+          "num_reviews": 67,
+          "playtime_forever": 703,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 507,
+          "last_played": 1766161213,
+          "avatar": "192211a02b9c8446c8512a432f4b43c3efdfc012"
+        },
+        "language": "english",
+        "review": "Super super fun social deduction game, very unique with cool character abilities, dev is super responsive and pushed like 20 patches on the first day <3\nDev even got back out of bed after thinking of a fix\nGive this project some love <3",
+        "timestamp_created": 1765841569,
+        "timestamp_updated": 1765872089,
+        "voted_up": true,
+        "votes_up": 29,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.776294171810150146",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765821423",
+        "reactions": [
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUeYyAAAAAFP+jXH0AAAAB3qoCuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,308 @@
+{
+  "requested_at": "2026-09-12T17:17:00.689700+00:00",
+  "request_params": {
+    "appids": 3856060,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3856060,
+  "payload": {
+    "3856060": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Red Bow: Strange Dream",
+        "steam_appid": 3856060,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Embark on an immersive adventure alongside Roh as she tries to break free from her strange dream. Red Bow: Strange Dream offers a nice 1 to 2 hours of engaging gameplay. Dive into a semi-open world filled with puzzles and navigate between different realms, uncover secrets, and encounter enigmatic entities. Unlock the path to awakening by diving deeper and unraveling the mysteries of this strange spirit world.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><u>GAMEPLAY</u></strong><br>Take control of Roh and explore a strange fantasy world with spirits, ghosts, and other unnatural monstrosities as she try to find a way to return home. Search for objects to solve simple puzzles and talk to characters to unravel the lore behind this mysterious place.<br><br>Across the game’s multiple areas, players can expect to clear puzzles and find specific items should they wish to advance through the game’s story, but be sure to take your time. In this all new adventure of Red Bow is now fully explorable from the game's start. Travel between realms to find items for others and interact with the spirits to help you uncover clues. <br><br><strong>FEATURES</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Unique enhanced story which adds more to the lore of the strangaverse games </p></li><li><p class=\"bb_paragraph\" >Adventure style gameplay</p></li><li><p class=\"bb_paragraph\" >Top-down all new pixel artwork with stunning scenery </p></li><li><p class=\"bb_paragraph\" >All new Original Soundtrack</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Embark on an immersive adventure alongside Roh as she tries to break free from her strange dream. Red Bow: Strange Dream offers a nice 1 to 2 hours of engaging gameplay. Dive into a semi-open world filled with puzzles and navigate between different realms, uncover secrets, and encounter enigmatic entities. Unlock the path to awakening by diving deeper and unraveling the mysteries of this strange spirit world.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong><u>GAMEPLAY</u></strong><br>Take control of Roh and explore a strange fantasy world with spirits, ghosts, and other unnatural monstrosities as she try to find a way to return home. Search for objects to solve simple puzzles and talk to characters to unravel the lore behind this mysterious place.<br><br>Across the game’s multiple areas, players can expect to clear puzzles and find specific items should they wish to advance through the game’s story, but be sure to take your time. In this all new adventure of Red Bow is now fully explorable from the game's start. Travel between realms to find items for others and interact with the spirits to help you uncover clues. <br><br><strong>FEATURES</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Unique enhanced story which adds more to the lore of the strangaverse games </p></li><li><p class=\"bb_paragraph\" >Adventure style gameplay</p></li><li><p class=\"bb_paragraph\" >Top-down all new pixel artwork with stunning scenery </p></li><li><p class=\"bb_paragraph\" >All new Original Soundtrack</p></li></ul>",
+        "short_description": "Embark on an immersive adventure alongside Roh as she tries to break free from her strange dream.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/a096e19d1251bf88eac2ebe389fe4d6837b0af4a/header.jpg?t=1765562551",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/4dca5062305e9ca6621c53e3572aea76dd5429a6/capsule_231x87.jpg?t=1765562551",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/4dca5062305e9ca6621c53e3572aea76dd5429a6/capsule_184x69.jpg?t=1765562551",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> any<br></li><li><strong>Processor:</strong> Any<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> any<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Stranga Games"
+        ],
+        "publishers": [
+          "GrabTheGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 249,
+          "discount_percent": 50,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$2.49"
+        },
+        "packages": [
+          1355704
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Red Bow: Strange Dream",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1355704,
+                "percent_savings_text": "-50% ",
+                "percent_savings": 0,
+                "option_text": "Red Bow: Stranga Dream - <span class=\"discount_original_price\">$4.99</span> $2.49",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 249
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/4459c379e007330222ebd5adcab92c2669256119/ss_4459c379e007330222ebd5adcab92c2669256119.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/4459c379e007330222ebd5adcab92c2669256119/ss_4459c379e007330222ebd5adcab92c2669256119.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/cc3d050d10f1bd5583417572c9ab3d4146c64b32/ss_cc3d050d10f1bd5583417572c9ab3d4146c64b32.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/cc3d050d10f1bd5583417572c9ab3d4146c64b32/ss_cc3d050d10f1bd5583417572c9ab3d4146c64b32.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/564501b84789e7c554d5146d1253bfd7a14da793/ss_564501b84789e7c554d5146d1253bfd7a14da793.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/564501b84789e7c554d5146d1253bfd7a14da793/ss_564501b84789e7c554d5146d1253bfd7a14da793.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/a65e936cc5f60e9d5a584f86b62b62bdf36f5937/ss_a65e936cc5f60e9d5a584f86b62b62bdf36f5937.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/a65e936cc5f60e9d5a584f86b62b62bdf36f5937/ss_a65e936cc5f60e9d5a584f86b62b62bdf36f5937.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/443f2e65538f597021e03dcad49976df254fdda1/ss_443f2e65538f597021e03dcad49976df254fdda1.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/443f2e65538f597021e03dcad49976df254fdda1/ss_443f2e65538f597021e03dcad49976df254fdda1.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/d28ee1158ef586a81ba06e6dc07041812fcfae37/ss_d28ee1158ef586a81ba06e6dc07041812fcfae37.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/d28ee1158ef586a81ba06e6dc07041812fcfae37/ss_d28ee1158ef586a81ba06e6dc07041812fcfae37.1920x1080.jpg?t=1765562551"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/5c7e0cb7d64b1cec256012ee6c508b9b4164d2be/ss_5c7e0cb7d64b1cec256012ee6c508b9b4164d2be.600x338.jpg?t=1765562551",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856060/5c7e0cb7d64b1cec256012ee6c508b9b4164d2be/ss_5c7e0cb7d64b1cec256012ee6c508b9b4164d2be.1920x1080.jpg?t=1765562551"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257241804,
+            "name": "Red Bow: Strange Dream Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257241804/f2865af6bafb186c07870a81fa33419db3010bce/movie_600x337.jpg?t=1764638808",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3856060/2078271727/5a5104f6df1d90aed9bea9fafc1f56671917453c/1764638260/dash_av1.mpd?t=1764638808",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3856060/2078271727/5a5104f6df1d90aed9bea9fafc1f56671917453c/1764638260/dash_h264.mpd?t=1764638808",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3856060/2078271727/5a5104f6df1d90aed9bea9fafc1f56671917453c/1764638260/hls_264_master.m3u8?t=1764638808",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 20,
+          "highlighted": [
+            {
+              "icon": "f394ac4319e6bbafb0374fbfc688972d726a433e.jpg",
+              "localized_name": "Awaken",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Awaken",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/f394ac4319e6bbafb0374fbfc688972d726a433e.jpg"
+            },
+            {
+              "icon": "f394ac4319e6bbafb0374fbfc688972d726a433e.jpg",
+              "localized_name": "Kubi",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Kubi",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/f394ac4319e6bbafb0374fbfc688972d726a433e.jpg"
+            },
+            {
+              "icon": "f394ac4319e6bbafb0374fbfc688972d726a433e.jpg",
+              "localized_name": "Mogah",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mogah",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/f394ac4319e6bbafb0374fbfc688972d726a433e.jpg"
+            },
+            {
+              "icon": "9abebfb4c0311878edbc3d78230673a9f69142ce.jpg",
+              "localized_name": "Blue Mug",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blue Mug",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/9abebfb4c0311878edbc3d78230673a9f69142ce.jpg"
+            },
+            {
+              "icon": "9abebfb4c0311878edbc3d78230673a9f69142ce.jpg",
+              "localized_name": "Hello?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hello?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/9abebfb4c0311878edbc3d78230673a9f69142ce.jpg"
+            },
+            {
+              "icon": "f394ac4319e6bbafb0374fbfc688972d726a433e.jpg",
+              "localized_name": "Firecrackers anyone?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Firecrackers anyone?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/f394ac4319e6bbafb0374fbfc688972d726a433e.jpg"
+            },
+            {
+              "icon": "bae318fc5a22f949a40dd119da2bdc7809eba3d9.jpg",
+              "localized_name": "A New Friend",
+              "archived": 0,
+              "hidden": 0,
+              "name": "A New Friend",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/bae318fc5a22f949a40dd119da2bdc7809eba3d9.jpg"
+            },
+            {
+              "icon": "f394ac4319e6bbafb0374fbfc688972d726a433e.jpg",
+              "localized_name": "Am I Pretty?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Am I Pretty?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/f394ac4319e6bbafb0374fbfc688972d726a433e.jpg"
+            },
+            {
+              "icon": "9abebfb4c0311878edbc3d78230673a9f69142ce.jpg",
+              "localized_name": "Are they Smiling?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Are they Smiling?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/9abebfb4c0311878edbc3d78230673a9f69142ce.jpg"
+            },
+            {
+              "icon": "9abebfb4c0311878edbc3d78230673a9f69142ce.jpg",
+              "localized_name": "Together Forever",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Together Forever",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3856060/9abebfb4c0311878edbc3d78230673a9f69142ce.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "strangastudios@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3856060?t=1765562551",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3856060?t=1765562551",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "Depicts mild themes of suicide, self, and psychological harm. "
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nTemas sensíveis\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Selbstmord\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nPenggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

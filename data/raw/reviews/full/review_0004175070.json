@@ -1,0 +1,66 @@
+{
+  "appid": 4175070,
+  "requested_at": "2026-09-13T20:24:25.835181+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "213607825",
+        "author": {
+          "steamid": "76561198028690771",
+          "personaname": "Ninkazi",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/NiNKaZi/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 878,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 59,
+          "last_played": 1766703521,
+          "avatar": "52d00e880f5642fd77735cfd2062613f7dd2b206"
+        },
+        "language": "english",
+        "review": "Engaging and nostalgic. Fun little roguelite twin-stick shooter that has a decent bit of depth to it. The core mechanics are solid and I'm having a lot of fun playing it when I have brief moments of down time.",
+        "timestamp_created": 1766107831,
+        "timestamp_updated": 1766107831,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.562211990356445312",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766034100",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYwXmAAAAAFP+H9pAAAAABx2eyuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.313000000000102,
+  "transport_error_count": 0
+}

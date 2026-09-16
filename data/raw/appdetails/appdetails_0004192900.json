@@ -1,0 +1,202 @@
+{
+  "requested_at": "2026-09-13T07:20:11.306777+00:00",
+  "request_params": {
+    "appids": 4192900,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4192900,
+  "payload": {
+    "4192900": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Terria Tactics",
+        "steam_appid": 4192900,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Grow! Deploy! Siege!  Play as one of the five rulers on the land of Terria.  Grow your cities and troops by selecting right policy.  Recruit warriors to lead your troops to attack the opponents!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Key Features include:</p><p class=\"bb_paragraph\" >Select right policy to grow your cities and troops;</p><p class=\"bb_paragraph\" >Recruit and manage the warriors to execute your commands;</p><p class=\"bb_paragraph\" >Assign your warriors to perform special missions including Explore, Patrol, Demand and even Spying;</p><p class=\"bb_paragraph\" >Deploy your troops to defend your cities or to attack opponents' cities, with strategy.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game is to explore the possibility of FPSG (Fast-Paced-Strategy-Game) and also give the players experiencing the retro style of fun gaming!  By purchasing this game, you gave a vote to the continue exploring different angles of fun gameplay!</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Grow! Deploy! Siege!  Play as one of the five rulers on the land of Terria.  Grow your cities and troops by selecting right policy.  Recruit warriors to lead your troops to attack the opponents!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Key Features include:</p><p class=\"bb_paragraph\" >Select right policy to grow your cities and troops;</p><p class=\"bb_paragraph\" >Recruit and manage the warriors to execute your commands;</p><p class=\"bb_paragraph\" >Assign your warriors to perform special missions including Explore, Patrol, Demand and even Spying;</p><p class=\"bb_paragraph\" >Deploy your troops to defend your cities or to attack opponents' cities, with strategy.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game is to explore the possibility of FPSG (Fast-Paced-Strategy-Game) and also give the players experiencing the retro style of fun gaming!  By purchasing this game, you gave a vote to the continue exploring different angles of fun gameplay!</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "An indie-developed retro turn-base strategy game. It delivers the Fast-Paced-Strategy-Game experience. Grow your cities and troops. Recruit and manage your warriors to lead the troops to siege opponents' cities. Ultimately your goal is to conquer the whole land of Terria!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/46bf09bbfb1febb92a5753e827defe00b6bc17fe/header.jpg?t=1776590233",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/1f3197ac1d5d31e90e18d5a77a66cbd34e0fe871/capsule_231x87.jpg?t=1776590233",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/1f3197ac1d5d31e90e18d5a77a66cbd34e0fe871/capsule_184x69.jpg?t=1776590233",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> Graphic Card with 4GB VRAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> 13.0 or later<br></li><li><strong>Processor:</strong> Apple M1<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "TactiGame Limited"
+        ],
+        "publishers": [
+          "TactiGame Limited"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 489,
+          "discount_percent": 30,
+          "initial_formatted": "$6.99",
+          "final_formatted": "$4.89"
+        },
+        "packages": [
+          1468474
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Terria Tactics",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1468474,
+                "percent_savings_text": "-30% ",
+                "percent_savings": 0,
+                "option_text": "Terria Tactics - <span class=\"discount_original_price\">$6.99</span> $4.89",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 489
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/b9605e30624f41df358369e6d110aea6f1a6edea/ss_b9605e30624f41df358369e6d110aea6f1a6edea.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/b9605e30624f41df358369e6d110aea6f1a6edea/ss_b9605e30624f41df358369e6d110aea6f1a6edea.1920x1080.jpg?t=1776590233"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/9988523b4aaf92a429041ee08d39bc60b75c9ac2/ss_9988523b4aaf92a429041ee08d39bc60b75c9ac2.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/9988523b4aaf92a429041ee08d39bc60b75c9ac2/ss_9988523b4aaf92a429041ee08d39bc60b75c9ac2.1920x1080.jpg?t=1776590233"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/c3279ac81af4789bc94b53226994ed58eaae3e7e/ss_c3279ac81af4789bc94b53226994ed58eaae3e7e.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/c3279ac81af4789bc94b53226994ed58eaae3e7e/ss_c3279ac81af4789bc94b53226994ed58eaae3e7e.1920x1080.jpg?t=1776590233"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/d2f4abf5f34408d7905b8d4fb5d4e1f945e35f12/ss_d2f4abf5f34408d7905b8d4fb5d4e1f945e35f12.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/d2f4abf5f34408d7905b8d4fb5d4e1f945e35f12/ss_d2f4abf5f34408d7905b8d4fb5d4e1f945e35f12.1920x1080.jpg?t=1776590233"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/39e9bd9c8d771192e250e1e115c89ed8176494ea/ss_39e9bd9c8d771192e250e1e115c89ed8176494ea.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/39e9bd9c8d771192e250e1e115c89ed8176494ea/ss_39e9bd9c8d771192e250e1e115c89ed8176494ea.1920x1080.jpg?t=1776590233"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/609844af4be38f03e0b864984283bf54cbcdf7a1/ss_609844af4be38f03e0b864984283bf54cbcdf7a1.600x338.jpg?t=1776590233",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192900/609844af4be38f03e0b864984283bf54cbcdf7a1/ss_609844af4be38f03e0b864984283bf54cbcdf7a1.1920x1080.jpg?t=1776590233"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257234174,
+            "name": "TerriaTacticsTrailer1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257234174/699376fc69f34dd7205a10576477a03d2072f22d/movie_600x337.jpg?t=1763676791",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4192900/976717569/1dd14cfe18c40a0de0f8339adf922416b0e2e9a9/1763526113/dash_av1.mpd?t=1763676791",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4192900/976717569/1dd14cfe18c40a0de0f8339adf922416b0e2e9a9/1763526113/dash_h264.mpd?t=1763676791",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4192900/976717569/1dd14cfe18c40a0de0f8339adf922416b0e2e9a9/1763526113/hls_264_master.m3u8?t=1763676791",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "terriatactics@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4192900?t=1776590233",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4192900?t=1776590233",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

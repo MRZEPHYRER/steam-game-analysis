@@ -1,0 +1,5 @@
+"reason","n_games","handling"
+"paid_current_price_missing",1,"Retained in market descriptive denominator; excluded from price-containing models"
+"days_since_release_missing",0,"Retained in market descriptive denominator; excluded from primary model"
+"platform_segment_outside_prespecified_four",1,"Retained in market descriptive denominator; excluded rather than creating a sparse fifth platform level"
+"primary_model_total_excluded",2,"Complete-case exclusions only for pre-specified primary fields"

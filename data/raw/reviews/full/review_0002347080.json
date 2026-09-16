@@ -1,0 +1,66 @@
+{
+  "appid": 2347080,
+  "requested_at": "2026-09-13T18:49:51.622015+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 588,
+      "total_negative": 222,
+      "total_reviews": 810
+    },
+    "reviews": [
+      {
+        "recommendationid": "204838628",
+        "author": {
+          "steamid": "76561198013806320",
+          "personaname": "Vavs",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/GuidanAro/",
+          "num_games_owned": 654,
+          "num_reviews": 10,
+          "playtime_forever": 1478,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1087,
+          "last_played": 1758847854,
+          "avatar": "1b57ef27b3cc12e68e0b68b849f23b1267e56840"
+        },
+        "language": "english",
+        "review": "Wait on this one. Unless you're willing to suffer through constant reconnects and lots of bugs. If you haven't played Gloomhaven yet, play that. I'll update this when the game gets into a better state, but right now the first hour of our game time is spent just trying to start a mission.",
+        "timestamp_created": 1758428415,
+        "timestamp_updated": 1758428415,
+        "voted_up": false,
+        "votes_up": 50,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.814171075820922852",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753977327",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFTtxuAAAAAFP+oOOsAAAAB07rKNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

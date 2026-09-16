@@ -1,0 +1,66 @@
+{
+  "appid": 2212790,
+  "requested_at": "2026-09-13T18:48:25.718870+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 499,
+      "total_negative": 53,
+      "total_reviews": 552
+    },
+    "reviews": [
+      {
+        "recommendationid": "209909955",
+        "author": {
+          "steamid": "76561198188163986",
+          "personaname": "NoSleepLee",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/alonelygin/",
+          "num_games_owned": 517,
+          "num_reviews": 26,
+          "playtime_forever": 2781,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 120,
+          "last_played": 1777511769,
+          "avatar": "6889e542266ff1eca9c32d7f405a723a0e19f756"
+        },
+        "language": "schinese",
+        "review": "Let me say the most important thing first: We need Chinese!\n\nAlthough some interfaces remind me of Melvor Idle, I still find it truly unique. I never thought an idle game could be combined with storytelling. I can also observe the passage of time from a top-down perspective—the resources in each era are calculated based on the resources from previous eras using a specific formula (which is probably why the game describes itself as an incremental game). I can also witness the growth and changes of the same character across different eras. So far, I’ve unlocked three eras, and I’m eagerly anticipating more eras and the stories within them.",
+        "timestamp_created": 1763880903,
+        "timestamp_updated": 1763880903,
+        "voted_up": true,
+        "votes_up": 18,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.713615238666534424",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763559340",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVukqAAAAAFP+bV7yAAAABzjN+gBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

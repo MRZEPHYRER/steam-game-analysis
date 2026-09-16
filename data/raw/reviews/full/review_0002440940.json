@@ -1,0 +1,66 @@
+{
+  "appid": 2440940,
+  "requested_at": "2026-09-13T18:50:55.410031+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "203864856",
+        "author": {
+          "steamid": "76561198796658829",
+          "personaname": "송엘",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198796658829/",
+          "num_games_owned": 0,
+          "num_reviews": 353,
+          "playtime_forever": 92,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 92,
+          "last_played": 1757326413,
+          "avatar": "405712296b61c81e63cb8e2673b85ccd56e81b53"
+        },
+        "language": "koreana",
+        "review": "벽타기가 무슨 키를 안눌러도 자동으로 쳐타짐 그리고 시점도 개거지같아서 멀미유발함",
+        "timestamp_created": 1757326536,
+        "timestamp_updated": 1757326536,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754697639",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFcAAAAAAAAFP+AAAAAAAAB4sdeJBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

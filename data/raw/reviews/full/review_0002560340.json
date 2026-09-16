@@ -1,0 +1,77 @@
+{
+  "appid": 2560340,
+  "requested_at": "2026-09-13T18:52:38.229819+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 49,
+      "total_negative": 23,
+      "total_reviews": 72
+    },
+    "reviews": [
+      {
+        "recommendationid": "208944923",
+        "author": {
+          "steamid": "76561197988883636",
+          "personaname": "Isisius",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197988883636/",
+          "num_games_owned": 0,
+          "num_reviews": 27,
+          "playtime_forever": 258,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 232,
+          "last_played": 1762855122,
+          "avatar": "40a292b81a00a97c43e372aff06dcc7c5c7e4b6b"
+        },
+        "language": "english",
+        "review": "I dont understand how this is positively reviewed?\n\n1. No ability to manage your army or garrisons.\nSitting on a million gold and fuel? Bad luck, go fight some battles and force your own units to die because those basic units you started with are unable to be disbanded despite you being able to afford some of the best units in the game now. Just such a massive thing thats missing, no idea how its out of early access.\n\n2. No \"Objectives\"? The game is constantly telling me about stuff happening but i can never tell if im actually supposed to do anything about it or if its just flavor text because. I was just told stationing a colossi in the garrison would be good to keep the peace, and it was delievered in the exact same way as when i got told i should stop the king fleeing. Expect the king was a unit on the map i could interact with when i looked, but i dont seem to have the ability to add colossi to garisons. Neither was listed as an objective, how does the player know what they are supposed to act on?\n\n3. I can only have one army it seems? So not only can i not dismiss units, i have an army with a 10 unit limit and am sitting on a ton of money but cant use it to create better units.\n\n4. The combat is mediocre. Its fine. If the rest of the game was good, it would serve. But combat seems to be the main part of the game. The national convention has limited policies where only one or two seem to do anything interesting, the strategic map also seems fairly limited in what you can build or do, everything is incredibly basic when compared to any otehr game in the genre, which means it needs a good story and the ability to interact with that story to make it stand out, and after a few hours playing its just not doing it.\n\nAs someone who came into this looking for either an interesting grand strategy game or an alternate historical game where i could make some interesting decisions in a revolution, ive been thoroughly underwhelmed and cant understand why this is in the \"positive\" range or reviews, it feels so bare bones i could be playing a game just entering early access, not a game thats supposedly launched into 1.0.",
+        "timestamp_created": 1762855100,
+        "timestamp_updated": 1762855100,
+        "voted_up": false,
+        "votes_up": 57,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.800930917263031006",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763691232,
+        "developer_response": "Thank you for your feedback!\n\nAfter consideration of player comments, we prepared a game guide that we hope may improve the experience and will continue to update it as we receive more player insights. https://steamcommunity.com/sharedfiles/filedetails/?id=3608579630 \n\nThanks again for playing!\n",
+        "app_release_date": "1747832891",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFT+zwAAAAAFP+mhOgAAAAB78YedBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

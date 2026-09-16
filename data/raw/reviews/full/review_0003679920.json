@@ -1,0 +1,66 @@
+{
+  "appid": 3679920,
+  "requested_at": "2026-09-13T19:31:02.353134+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "210462307",
+        "author": {
+          "steamid": "76561198106676717",
+          "personaname": "Katerpillar",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/JLSL/",
+          "num_games_owned": 149,
+          "num_reviews": 115,
+          "playtime_forever": 92,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 61,
+          "last_played": 1764159541,
+          "avatar": "e091b4013cd556566c5ead60462a7bb4e31f8733"
+        },
+        "language": "brazilian",
+        "review": "Precisa de V-Sync, upgrades (cartas) permanentes e dar a opção de tirar somente a música sem tirar todo o som do jogo.\r\nJogo nostálgico, espero que venha também aquele outro game Heroes Survivor.",
+        "timestamp_created": 1764075761,
+        "timestamp_updated": 1764075761,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752868957",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAABz5uyiBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

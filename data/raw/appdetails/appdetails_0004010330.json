@@ -1,0 +1,189 @@
+{
+  "requested_at": "2026-09-13T06:25:23.237148+00:00",
+  "request_params": {
+    "appids": 4010330,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4010330,
+  "payload": {
+    "4010330": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Sabbatical In Merzouga",
+        "steam_appid": 4010330,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Sabbatical in Merzouga</strong> is a visual novel where you play as a student on a sabbatical. Explore the city of Merzouga and discover a creature that haunts you at night.<br>The choices you make will determine the ending of the story.</p><p class=\"bb_paragraph\" ><strong>GAME FEATURES:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A short branching narrative with player choices that shape the flow of the dream.</p></li><li><p class=\"bb_paragraph\" >5 dream nights where you interact with the worm.</p></li><li><p class=\"bb_paragraph\" >Contains all 8 different endings.</p></li><li><p class=\"bb_paragraph\" >Atmospheric background art of the cabin, desert, and worm.</p></li><li><p class=\"bb_paragraph\" >Subtle sound design and music to heighten the mystery.</p></li><li><p class=\"bb_paragraph\" >Playtime: around 10–15 minutes for one complete run on any ending.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Sabbatical in Merzouga</strong> is a visual novel where you play as a student on a sabbatical. Explore the city of Merzouga and discover a creature that haunts you at night.<br>The choices you make will determine the ending of the story.</p><p class=\"bb_paragraph\" ><strong>GAME FEATURES:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A short branching narrative with player choices that shape the flow of the dream.</p></li><li><p class=\"bb_paragraph\" >5 dream nights where you interact with the worm.</p></li><li><p class=\"bb_paragraph\" >Contains all 8 different endings.</p></li><li><p class=\"bb_paragraph\" >Atmospheric background art of the cabin, desert, and worm.</p></li><li><p class=\"bb_paragraph\" >Subtle sound design and music to heighten the mystery.</p></li><li><p class=\"bb_paragraph\" >Playtime: around 10–15 minutes for one complete run on any ending.</p></li></ul>",
+        "short_description": "You went to the desert to rest. You crushed a worm. Now it talks to you in dreams.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/614502a4ae298cc1d2e106e7fee39afb9cc52eda/header.jpg?t=1761307204",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/f10bf0a652c260f3d898c72a5f87a0be39e36b9d/capsule_231x87.jpg?t=1761307204",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/f10bf0a652c260f3d898c72a5f87a0be39e36b9d/capsule_184x69.jpg?t=1761307204",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 11<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> 10.15<br></li><li><strong>Processor:</strong> Apple Silicon<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> 14.6.1<br></li><li><strong>Processor:</strong> Apple Silicon<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Feeling Potion"
+        ],
+        "publishers": [
+          "Feeling Potion"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1407197
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Sabbatical In Merzouga",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1407197,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Sabbatical In Merzouga - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/a98ed13ead4659fb5c6d5ca4b3c6b93bb47256e3/ss_a98ed13ead4659fb5c6d5ca4b3c6b93bb47256e3.600x338.jpg?t=1761307204",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/a98ed13ead4659fb5c6d5ca4b3c6b93bb47256e3/ss_a98ed13ead4659fb5c6d5ca4b3c6b93bb47256e3.1920x1080.jpg?t=1761307204"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/52025b76e8cd5d9d3b8263283aec99c72d78fa92/ss_52025b76e8cd5d9d3b8263283aec99c72d78fa92.600x338.jpg?t=1761307204",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/52025b76e8cd5d9d3b8263283aec99c72d78fa92/ss_52025b76e8cd5d9d3b8263283aec99c72d78fa92.1920x1080.jpg?t=1761307204"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/3fd3f4253d72277d0467ad2dcf44452bdfcafb81/ss_3fd3f4253d72277d0467ad2dcf44452bdfcafb81.600x338.jpg?t=1761307204",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/3fd3f4253d72277d0467ad2dcf44452bdfcafb81/ss_3fd3f4253d72277d0467ad2dcf44452bdfcafb81.1920x1080.jpg?t=1761307204"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/d3568f560ab8285ce44a694dc0cd14c0b146da19/ss_d3568f560ab8285ce44a694dc0cd14c0b146da19.600x338.jpg?t=1761307204",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/d3568f560ab8285ce44a694dc0cd14c0b146da19/ss_d3568f560ab8285ce44a694dc0cd14c0b146da19.1920x1080.jpg?t=1761307204"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/ee5743aae6c399e8828cf63e59b334a2f05d2f56/ss_ee5743aae6c399e8828cf63e59b334a2f05d2f56.600x338.jpg?t=1761307204",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4010330/ee5743aae6c399e8828cf63e59b334a2f05d2f56/ss_ee5743aae6c399e8828cf63e59b334a2f05d2f56.1920x1080.jpg?t=1761307204"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257195495,
+            "name": "Sabbatical In Merzouga",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257195495/a98ed13ead4659fb5c6d5ca4b3c6b93bb47256e3/movie_600x337.jpg?t=1761050335",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4010330/1991080210/699606bf687cb225df14af76b6567559fa79336f/1757490895/dash_av1.mpd?t=1761050335",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4010330/1991080210/699606bf687cb225df14af76b6567559fa79336f/1757490895/dash_h264.mpd?t=1761050335",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4010330/1991080210/699606bf687cb225df14af76b6567559fa79336f/1757490895/hls_264_master.m3u8?t=1761050335",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "https://www.feelingpotion.com/",
+          "email": "hello@feelingpotion.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4010330?t=1761307204",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4010330?t=1761307204",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

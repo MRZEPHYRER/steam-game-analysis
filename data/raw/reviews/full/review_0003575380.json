@@ -1,0 +1,66 @@
+{
+  "appid": 3575380,
+  "requested_at": "2026-09-13T19:23:31.507156+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "205112586",
+        "author": {
+          "steamid": "76561198051979604",
+          "personaname": "Law",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/RevLaw/",
+          "num_games_owned": 353,
+          "num_reviews": 5,
+          "playtime_forever": 243,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 210,
+          "last_played": 1769542610,
+          "avatar": "ae43eb59965672193d5765fb2422bfe5d54a0040"
+        },
+        "language": "english",
+        "review": "We really enjoyed this game! The 4 rooms were very diverse and kept things interesting throughout. There were a few small bugs, but they were always easy to solve and never got in the way of the fun. The multiplayer worked flawlessly and the lobby system was excellent – especially the fact that you can rejoin the lobby even in the middle of a game.\n\nOne playthrough took us about an hour, and in the end we even decided to speedrun it, which was a blast!\n\nA great first game from the devs, we’re looking forward to seeing more!",
+        "timestamp_created": 1758737890,
+        "timestamp_updated": 1758737890,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.570135712623596191",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758306133",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYmYsAAAAAFP+I9h8AAAAB60LiOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

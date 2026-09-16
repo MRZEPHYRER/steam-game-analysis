@@ -1,0 +1,71 @@
+{
+  "appid": 3726630,
+  "requested_at": "2026-09-13T19:34:54.920093+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "214571267",
+        "author": {
+          "steamid": "76561198020054491",
+          "personaname": "Dukeduster",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/dukeduster/",
+          "num_games_owned": 409,
+          "num_reviews": 9,
+          "playtime_forever": 75,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 75,
+          "last_played": 1767035801,
+          "avatar": "e61b6d6c317eea531b4b6ad3ac79be64ccd4f204"
+        },
+        "language": "english",
+        "review": "\"Chaotic, colorful, and surprisingly deep.\"\n\nI’ve only put about an hour and a half into this so far, but it’s definitely one of the most unique games I’ve played this year. I’ll admit, I made the mistake of skipping the intro and just jumping straight into the gameplay, so I was a little lost at first. A lot of the confusion was definitely my fault for not learning the ropes properly, but once things started clicking, I really got into it.\n\nWhat I liked: The variety here is wild. I’ve spent most of my time so far working the Farmer job, and honestly? It’s really satisfying. There is something cool about managing your crops and building stuff in a world that is otherwise completely bizarre and \"out there.\" It balances out the craziness of the setting really well.\n\nNotes on Controls: I’m playing on Mouse & Keyboard, and the one thing that took some getting used to was the camera. I was expecting it to rotate freely around the character a bit more than it does, so navigation felt a little different than your standard third-person adventure game. The UI was also slightly hard to figure out at a glance (though again, skipping the tutorial probably didn't help me there).\n\nOverall: Even with the slight learning curve on the interface and camera, the charm of the game wins out. It’s weird in the best way possible. If you’re looking for something with a lot of personality, give it a shot.",
+        "timestamp_created": 1767036384,
+        "timestamp_updated": 1767036384,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.562696695327758789",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766995228",
+        "reactions": [
+          {
+            "reaction_type": 22,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYvv4AAAAAFP+IBnSAAAABzkMOyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

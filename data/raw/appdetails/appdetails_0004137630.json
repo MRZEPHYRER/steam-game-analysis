@@ -1,0 +1,287 @@
+{
+  "requested_at": "2026-09-13T07:06:47.080776+00:00",
+  "request_params": {
+    "appids": 4137630,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4137630,
+  "payload": {
+    "4137630": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Piggy Food Run",
+        "steam_appid": 4137630,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >🎮 Piggy Food Run</h2><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Piggy Food Run</strong> is a challenging casual platformer for 1 to 8 players.</p><p class=\"bb_paragraph\" >In this game, you play as a <strong>hungry pig</strong> that needs to race to the finish line to eat berries. The map is filled with various <strong>fruits</strong> that obstruct your path. If you fall, you must start over, however, there are <strong>mid-game checkpoints</strong> so you won't have to start from the very beginning.</p><p class=\"bb_paragraph\" >Cooperate with your friends, reach the goal, and enjoy the berries!</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >🎮 Piggy Food Run</h2><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Piggy Food Run</strong> is a challenging casual platformer for 1 to 8 players.</p><p class=\"bb_paragraph\" >In this game, you play as a <strong>hungry pig</strong> that needs to race to the finish line to eat berries. The map is filled with various <strong>fruits</strong> that obstruct your path. If you fall, you must start over, however, there are <strong>mid-game checkpoints</strong> so you won't have to start from the very beginning.</p><p class=\"bb_paragraph\" >Cooperate with your friends, reach the goal, and enjoy the berries!</p>",
+        "short_description": "🎮 Piggy Food Run is a challenging casual platformer for 1 to 8 players. In this game, you play as a hungry pig that needs to race to the finish line to eat berries.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/57a6fba4e3d478d724b2ee22a09b4e224abec5fa/header.jpg?t=1765431975",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/1fe21b13553c36e0e6e8a07dad1670c961d101f1/capsule_231x87.jpg?t=1765431975",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/1fe21b13553c36e0e6e8a07dad1670c961d101f1/capsule_184x69.jpg?t=1765431975",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11 64 bit<br></li><li><strong>Processor:</strong> Intel Core i5-4590 (3.70 GHz) or better<br></li><li><strong>Memory:</strong> 8192 MB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11 64 bit<br></li><li><strong>Processor:</strong> Intel Core i5-4590 (3.70 GHz) or better<br></li><li><strong>Memory:</strong> 8192 MB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1660<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "KeithFrost"
+        ],
+        "publishers": [
+          " Unnulltor Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1449684
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Piggy Food Run",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1449684,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Piggy Run - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/8e642bdc570849378de5f3f631ad453909a09985/ss_8e642bdc570849378de5f3f631ad453909a09985.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/8e642bdc570849378de5f3f631ad453909a09985/ss_8e642bdc570849378de5f3f631ad453909a09985.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/872f6f80ef54de563da5286b1236b69098e6b914/ss_872f6f80ef54de563da5286b1236b69098e6b914.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/872f6f80ef54de563da5286b1236b69098e6b914/ss_872f6f80ef54de563da5286b1236b69098e6b914.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/7f87b1cf06c0a8fea2d16e06c76caacb4ce38cbb/ss_7f87b1cf06c0a8fea2d16e06c76caacb4ce38cbb.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/7f87b1cf06c0a8fea2d16e06c76caacb4ce38cbb/ss_7f87b1cf06c0a8fea2d16e06c76caacb4ce38cbb.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/34749ccaa645e893692486db309399fe9baa4fc8/ss_34749ccaa645e893692486db309399fe9baa4fc8.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/34749ccaa645e893692486db309399fe9baa4fc8/ss_34749ccaa645e893692486db309399fe9baa4fc8.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/2ed2315edb73923a5516f56c43229cbd676e52cd/ss_2ed2315edb73923a5516f56c43229cbd676e52cd.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/2ed2315edb73923a5516f56c43229cbd676e52cd/ss_2ed2315edb73923a5516f56c43229cbd676e52cd.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/a16f564b2e9b4fd180b34d5f2661b21f7bb1762f/ss_a16f564b2e9b4fd180b34d5f2661b21f7bb1762f.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/a16f564b2e9b4fd180b34d5f2661b21f7bb1762f/ss_a16f564b2e9b4fd180b34d5f2661b21f7bb1762f.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/8df14d88e4c81ffb4bccb841a55ec72a6d75c6f4/ss_8df14d88e4c81ffb4bccb841a55ec72a6d75c6f4.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/8df14d88e4c81ffb4bccb841a55ec72a6d75c6f4/ss_8df14d88e4c81ffb4bccb841a55ec72a6d75c6f4.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/c54cc38a584ba526eae46cbaef870cf6a5317deb/ss_c54cc38a584ba526eae46cbaef870cf6a5317deb.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/c54cc38a584ba526eae46cbaef870cf6a5317deb/ss_c54cc38a584ba526eae46cbaef870cf6a5317deb.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/e3d0749ce248a7cc42b1e43789c944e52c37d4a9/ss_e3d0749ce248a7cc42b1e43789c944e52c37d4a9.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/e3d0749ce248a7cc42b1e43789c944e52c37d4a9/ss_e3d0749ce248a7cc42b1e43789c944e52c37d4a9.1920x1080.jpg?t=1765431975"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/216a92c6b32dbb01c9629a14d9ecc519e78cac12/ss_216a92c6b32dbb01c9629a14d9ecc519e78cac12.600x338.jpg?t=1765431975",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137630/216a92c6b32dbb01c9629a14d9ecc519e78cac12/ss_216a92c6b32dbb01c9629a14d9ecc519e78cac12.1920x1080.jpg?t=1765431975"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257230506,
+            "name": "Piggy Food Run",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257230506/8e642bdc570849378de5f3f631ad453909a09985/movie_600x337.jpg?t=1763652092",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4137630/623362550/4e0ad057dd87c5e47c3575dc1155f3380de406d5/1763018291/dash_av1.mpd?t=1763652092",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4137630/623362550/4e0ad057dd87c5e47c3575dc1155f3380de406d5/1763018291/dash_h264.mpd?t=1763652092",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4137630/623362550/4e0ad057dd87c5e47c3575dc1155f3380de406d5/1763018291/hls_264_master.m3u8?t=1763652092",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "新手教學",
+              "archived": 0,
+              "hidden": 0,
+              "name": "新手教學",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            },
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "第一關",
+              "archived": 0,
+              "hidden": 0,
+              "name": "第一關",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            },
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "第五關",
+              "archived": 0,
+              "hidden": 0,
+              "name": "第五關",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            },
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "第十關",
+              "archived": 0,
+              "hidden": 0,
+              "name": "第十關",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            },
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "第十五關",
+              "archived": 0,
+              "hidden": 0,
+              "name": "第十五關",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            },
+            {
+              "icon": "8bd62211b8016ec9be73b31f02406160b28518c6.jpg",
+              "localized_name": "第二十關",
+              "archived": 0,
+              "hidden": 0,
+              "name": "第二十關",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4137630/8bd62211b8016ec9be73b31f02406160b28518c6.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 10, 2025"
+        },
+        "support_info": {
+          "url": "https://www.unnulltor.com/",
+          "email": "keithfrost@unnulltor.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4137630?t=1765431975",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4137630?t=1765431975",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

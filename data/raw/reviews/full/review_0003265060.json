@@ -1,0 +1,66 @@
+{
+  "appid": 3265060,
+  "requested_at": "2026-09-13T19:09:04.112674+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 2097,
+      "total_negative": 50,
+      "total_reviews": 2147
+    },
+    "reviews": [
+      {
+        "recommendationid": "208639871",
+        "author": {
+          "steamid": "76561198443807541",
+          "personaname": "阿缇",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198443807541/",
+          "num_games_owned": 194,
+          "num_reviews": 23,
+          "playtime_forever": 1057,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1057,
+          "last_played": 1762445240,
+          "avatar": "d5381a081cb7f9ebb6bbce88f8bbcc43dabc1830"
+        },
+        "language": "schinese",
+        "review": "作者你睡了吗？创意工坊，DLC，随机关卡什么都有在做吧\n我有异域症，我现在就想玩博丽灵梦、十六夜咲夜、东风谷早苗、八云紫、比那名居天子、琪露诺、帕秋莉等自机角色!",
+        "timestamp_created": 1762531030,
+        "timestamp_updated": 1764036997,
+        "voted_up": true,
+        "votes_up": 139,
+        "votes_funny": 15,
+        "weighted_vote_score": "0.927350103855133057",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760745258",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFSc/gAAAAAFP+2s2eAAAAB/9/KbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

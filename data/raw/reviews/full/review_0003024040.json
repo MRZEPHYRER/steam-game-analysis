@@ -1,0 +1,103 @@
+{
+  "appid": 3024040,
+  "requested_at": "2026-09-13T19:01:10.591225+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 9813,
+      "total_negative": 767,
+      "total_reviews": 10580
+    },
+    "reviews": [
+      {
+        "recommendationid": "217488362",
+        "author": {
+          "steamid": "76561198034899968",
+          "personaname": "Popsy",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198034899968/",
+          "num_games_owned": 465,
+          "num_reviews": 24,
+          "playtime_forever": 824,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 208,
+          "last_played": 1782728489,
+          "avatar": "aa0ca8a38f01afd5ae6f1b0d9364a255076c91d0"
+        },
+        "language": "english",
+        "review": "One of the first games I ever played thanks to my old man. Dad would set LAN games because we didn't have broadband or dial up.\n\nAlas those days are gone... I shall play in his memory.",
+        "timestamp_created": 1770122388,
+        "timestamp_updated": 1770122388,
+        "voted_up": true,
+        "votes_up": 387,
+        "votes_funny": 5,
+        "weighted_vote_score": "0.948108673095703125",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752590643",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 89
+          },
+          {
+            "reaction_type": 35,
+            "count": 38
+          },
+          {
+            "reaction_type": 24,
+            "count": 18
+          },
+          {
+            "reaction_type": 34,
+            "count": 5
+          },
+          {
+            "reaction_type": 26,
+            "count": 2
+          },
+          {
+            "reaction_type": 32,
+            "count": 2
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          },
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRCa6AAAAAFP+5W6KAAAAB6vtO9Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

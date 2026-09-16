@@ -1,0 +1,107 @@
+{
+  "appid": 2319790,
+  "requested_at": "2026-09-13T18:49:29.768400+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 983,
+      "total_negative": 26,
+      "total_reviews": 1009
+    },
+    "reviews": [
+      {
+        "recommendationid": "210594999",
+        "author": {
+          "steamid": "76561198214463593",
+          "personaname": "Kneeco",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/AlfartoBrapalm/",
+          "num_games_owned": 300,
+          "num_reviews": 8,
+          "playtime_forever": 409,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 29,
+          "last_played": 1764395687,
+          "avatar": "47f8ae43f0f4be713a460af2f73369bf421a9bb8"
+        },
+        "language": "english",
+        "review": "battleslop 6 and black slops 7 seething over chad captain wayne",
+        "timestamp_created": 1764093882,
+        "timestamp_updated": 1764093882,
+        "voted_up": true,
+        "votes_up": 167,
+        "votes_funny": 38,
+        "weighted_vote_score": "0.845379829406738281",
+        "comment_count": 8,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764083074",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 11
+          },
+          {
+            "reaction_type": 8,
+            "count": 6
+          },
+          {
+            "reaction_type": 13,
+            "count": 3
+          },
+          {
+            "reaction_type": 3,
+            "count": 2
+          },
+          {
+            "reaction_type": 7,
+            "count": 2
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTF6eAAAAAFP+sNWmAAAAB3y62jBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

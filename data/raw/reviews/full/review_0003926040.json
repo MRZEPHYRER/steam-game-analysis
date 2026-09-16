@@ -1,0 +1,66 @@
+{
+  "appid": 3926040,
+  "requested_at": "2026-09-13T20:00:50.940671+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 9,
+      "total_negative": 0,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "216549427",
+        "author": {
+          "steamid": "76561198369045785",
+          "personaname": "schyro",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/schyro/",
+          "num_games_owned": 0,
+          "num_reviews": 11,
+          "playtime_forever": 400,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 136,
+          "last_played": 1769127038,
+          "avatar": "cfaf6917f47ca6122396f46e485a79a090f29fa0"
+        },
+        "language": "english",
+        "review": "The cute cat dancing on your desk is definitely worth the price. I recommend it.",
+        "timestamp_created": 1769097134,
+        "timestamp_updated": 1769097134,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519230782985687256",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756304599",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFanYmAAAAAFP+CdimAAAABzg4m6Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 1408730,
+  "requested_at": "2026-09-13T18:42:53.741406+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "224514630",
+        "author": {
+          "steamid": "76561198120222580",
+          "personaname": "DJDiceZ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/DJDiceZ/",
+          "num_games_owned": 0,
+          "num_reviews": 192,
+          "playtime_forever": 35,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 35,
+          "last_played": 1777231279,
+          "avatar": "932d93d32a441fb705b935b50c475006c9351718"
+        },
+        "language": "english",
+        "review": "I'm sure there's a good game with good gameplay in here, though the balance looks a bit questionable, but overall the UX is so abominably atrocious that it is unbearable to play. Zero fluidity and responsiveness in the controls.\n\nYes sorry, just because a game is turn based doesn't mean it can feel awful to interact with the game elements. The UI is ugly and feels worse than a flash game.\n\nThe chara design (environments too) is completely aimless aswell, cohesion is important for visuals. Story is just there to be there and doesn't really add anything, it could have been skipped or fleshed out.\n\nThe raving reviews feel a bit disingenuous after having played, like they are from friends of the studio or something. The game didn't sell ultimately and that's not just because of being unlucky with visibility.",
+        "timestamp_created": 1777647783,
+        "timestamp_updated": 1777648262,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752598894",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB2pLrYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

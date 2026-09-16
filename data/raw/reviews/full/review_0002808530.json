@@ -1,0 +1,66 @@
+{
+  "appid": 2808530,
+  "requested_at": "2026-09-13T18:56:13.067278+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 24,
+      "total_negative": 0,
+      "total_reviews": 24
+    },
+    "reviews": [
+      {
+        "recommendationid": "218097981",
+        "author": {
+          "steamid": "76561198112782322",
+          "personaname": "newsPEPEr",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ragepepe/",
+          "num_games_owned": 0,
+          "num_reviews": 16,
+          "playtime_forever": 274,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 60,
+          "last_played": 1770895488,
+          "avatar": "f7592937db4a925392db31f3bd55d148f7f0fc25"
+        },
+        "language": "english",
+        "review": "Nice game",
+        "timestamp_created": 1770838847,
+        "timestamp_updated": 1770838847,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753117230",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF3AAAAAAAAFP+AAAAAAAAB9k/2/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 3.0779999999999745,
+  "transport_error_count": 0
+}

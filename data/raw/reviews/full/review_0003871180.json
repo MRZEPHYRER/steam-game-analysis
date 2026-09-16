@@ -1,0 +1,67 @@
+{
+  "appid": 3871180,
+  "requested_at": "2026-09-13T19:52:47.083777+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "214816538",
+        "author": {
+          "steamid": "76561198037423687",
+          "personaname": "Renonsical",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198037423687/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 242,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 154,
+          "deck_playtime_at_review": 154,
+          "last_played": 1785061741,
+          "avatar": "45d4ebc1b9ac690c0c73523187e992243010a26c"
+        },
+        "language": "english",
+        "review": "I have fond memories of playing Boulder Dash on my C128 and I'm aware of the rich history of rocks-and-diamonds games that exist. One More Gem is a great reinterpretation of these games, with the same kind of clear and colorful toy-like aestethics, reimagined with modern technology. The levels range from simple and relaxing to tricky ones where you really have to think and plan ahead. Most levels I've played so far aren't too hard to finish, but trying to get all the stars is a much more challenging proposition. The undo feature was especially welcome, it really removes the most frustrating aspect of the original, leaving room for more clever and challenging puzzles.\n\nMore than anything this is a perfect game for the Deck, playing in short sessions between other tasks. Only... they don't always end up so short... because there is always One More Gem to try and collect... the tricky one in the corner... for that extra star.",
+        "timestamp_created": 1767272928,
+        "timestamp_updated": 1767272928,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.592298984527587891",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1766256028",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYJ24AAAAAFP+L0HQAAAAB68bqzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

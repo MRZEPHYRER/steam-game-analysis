@@ -1,0 +1,182 @@
+{
+  "requested_at": "2026-09-13T07:27:53.404832+00:00",
+  "request_params": {
+    "appids": 4246050,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4246050,
+  "payload": {
+    "4246050": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Through Space",
+        "steam_appid": 4246050,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >In this fast-paced arcade game, you take control of a powerful spacecraft, flying through an endless tunnel and avoiding various obstacles. Score as many points as possible and set your own incredible high score!</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >- Excellent graphics</p><p class=\"bb_paragraph\" >- Pleasant soundtrack</p><p class=\"bb_paragraph\" >- Various spaceships</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >In this fast-paced arcade game, you take control of a powerful spacecraft, flying through an endless tunnel and avoiding various obstacles. Score as many points as possible and set your own incredible high score!</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >- Excellent graphics</p><p class=\"bb_paragraph\" >- Pleasant soundtrack</p><p class=\"bb_paragraph\" >- Various spaceships</p>",
+        "short_description": "In this fast-paced arcade game, you take control of a powerful spacecraft, flying through an endless tunnel and avoiding various obstacles. Score as many points as possible and set your own incredible high score!",
+        "supported_languages": "English<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/5511d12e2419e26d41f831280dc8d12f536a36f3/header.jpg?t=1766654149",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/eeee44c44086527a3d628919092c95c1fffed915/capsule_231x87.jpg?t=1766654149",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/eeee44c44086527a3d628919092c95c1fffed915/capsule_184x69.jpg?t=1766654149",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> Intel Core 2 Duo E6320 (2*1866) or equivalent<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> GeForce 7600 GS (512 MB) or equivalent<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Bell Studio"
+        ],
+        "publishers": [
+          "Bell Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 119,
+          "discount_percent": 80,
+          "initial_formatted": "$5.99",
+          "final_formatted": "$1.19"
+        },
+        "packages": [
+          1486318
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Through Space",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1486318,
+                "percent_savings_text": "-80% ",
+                "percent_savings": 0,
+                "option_text": "Through Space - <span class=\"discount_original_price\">$5.99</span> $1.19",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 119
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/34deabfdeb71554270ba36951cee00a992125ae1/ss_34deabfdeb71554270ba36951cee00a992125ae1.600x338.jpg?t=1766654149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/34deabfdeb71554270ba36951cee00a992125ae1/ss_34deabfdeb71554270ba36951cee00a992125ae1.1920x1080.jpg?t=1766654149"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/32e51dd0418c8cbf9f51e62de9e1137bb2fafd78/ss_32e51dd0418c8cbf9f51e62de9e1137bb2fafd78.600x338.jpg?t=1766654149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/32e51dd0418c8cbf9f51e62de9e1137bb2fafd78/ss_32e51dd0418c8cbf9f51e62de9e1137bb2fafd78.1920x1080.jpg?t=1766654149"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/0a307c8350036bdf505ef2c56f38c7b6ec14ace1/ss_0a307c8350036bdf505ef2c56f38c7b6ec14ace1.600x338.jpg?t=1766654149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/0a307c8350036bdf505ef2c56f38c7b6ec14ace1/ss_0a307c8350036bdf505ef2c56f38c7b6ec14ace1.1920x1080.jpg?t=1766654149"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/a71cda4c0efcbd5dfbb3165605a96bcb84e77cb3/ss_a71cda4c0efcbd5dfbb3165605a96bcb84e77cb3.600x338.jpg?t=1766654149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/a71cda4c0efcbd5dfbb3165605a96bcb84e77cb3/ss_a71cda4c0efcbd5dfbb3165605a96bcb84e77cb3.1920x1080.jpg?t=1766654149"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/6d0481d68ded0f45517322fbb827b5773538b5a9/ss_6d0481d68ded0f45517322fbb827b5773538b5a9.600x338.jpg?t=1766654149",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246050/6d0481d68ded0f45517322fbb827b5773538b5a9/ss_6d0481d68ded0f45517322fbb827b5773538b5a9.1920x1080.jpg?t=1766654149"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257246587,
+            "name": "Through Space",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257246587/4623f1804099d477938a855bfc1c274df83a439b/movie_600x337.jpg?t=1765480131",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4246050/2096610078/fe59a3c8cae86acf93950cf44fdc1c24797eb541/1765374256/dash_av1.mpd?t=1765480131",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4246050/2096610078/fe59a3c8cae86acf93950cf44fdc1c24797eb541/1765374256/dash_h264.mpd?t=1765480131",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4246050/2096610078/fe59a3c8cae86acf93950cf44fdc1c24797eb541/1765374256/hls_264_master.m3u8?t=1765480131",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "world-and-chaos@yandex.ru"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4246050?t=1766654149",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4246050?t=1766654149",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

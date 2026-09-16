@@ -1,0 +1,205 @@
+{
+  "requested_at": "2026-09-12T16:37:08.861881+00:00",
+  "request_params": {
+    "appids": 3789750,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3789750,
+  "payload": {
+    "3789750": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Bilge Su Bullet Baroness",
+        "steam_appid": 3789750,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >A mysterious organization has begun installing hidden transmitters around the world, using their signals to control the minds of the population. Under this influence, people are turning into obedient, thoughtless shells — a zombified society stripped of free will.</p><p class=\"bb_paragraph\" ><strong>Bilge Su</strong> is the only one who can stop this global enslavement. Alone, she launches a silent but determined resistance.</p><p class=\"bb_paragraph\" >Destroy the transmitters, eliminate the operatives, and awaken humanity — the future is in your hands.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >A mysterious organization has begun installing hidden transmitters around the world, using their signals to control the minds of the population. Under this influence, people are turning into obedient, thoughtless shells — a zombified society stripped of free will.</p><p class=\"bb_paragraph\" ><strong>Bilge Su</strong> is the only one who can stop this global enslavement. Alone, she launches a silent but determined resistance.</p><p class=\"bb_paragraph\" >Destroy the transmitters, eliminate the operatives, and awaken humanity — the future is in your hands.</p>",
+        "short_description": "Bilge Su: Bullet Baroness is a mission-based first-person shooter where you take on waves of enemies with powerful weapons and explosives. Fight through linear combat zones, complete objectives, and survive without checkpoints. Pure action from start to finish.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/68521a042b83b750bd12136ba0cdc6de9237e563/header.jpg?t=1754377366",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/d15a0f74097b28c436c8cd5e85ffaa7dfb47b113/capsule_231x87.jpg?t=1754377366",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/d15a0f74097b28c436c8cd5e85ffaa7dfb47b113/capsule_184x69.jpg?t=1754377366",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong>  Intel Pentium G4400 / AMD Athlon 3000G<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong>  Intel HD Graphics 4000 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 6 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card<br></li><li><strong>VR Support:</strong> Not Supported<br></li><li><strong>Additional Notes:</strong> This game is optimized for low-end systems. It runs smoothly even on basic laptops without dedicated GPUs.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3 9100F / AMD Ryzen 3 3200G<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong>  NVIDIA GeForce GT 1030 / AMD Radeon R7 250 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 6 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card<br></li><li><strong>VR Support:</strong> Not Supported<br></li><li><strong>Additional Notes:</strong> For the best experience, a low-end dedicated GPU is recommended. The game remains lightweight and does not require high specs.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Developed by Selçuk Çetiner.",
+        "developers": [
+          "Selçuk Çetiner"
+        ],
+        "publishers": [
+          "Selçuk Çetiner"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1333182
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Bilge Su Bullet Baroness",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1333182,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Bilge Su Bullet Baroness - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/38a730726a3cb3332b055e9e6c295ea849a9ef0c/ss_38a730726a3cb3332b055e9e6c295ea849a9ef0c.600x338.jpg?t=1754377366",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/38a730726a3cb3332b055e9e6c295ea849a9ef0c/ss_38a730726a3cb3332b055e9e6c295ea849a9ef0c.1920x1080.jpg?t=1754377366"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/558f7fcf58741e68bd12417eb435991d1f305d76/ss_558f7fcf58741e68bd12417eb435991d1f305d76.600x338.jpg?t=1754377366",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/558f7fcf58741e68bd12417eb435991d1f305d76/ss_558f7fcf58741e68bd12417eb435991d1f305d76.1920x1080.jpg?t=1754377366"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/ca20215f76650b7063fefcfb0b7146b7b7acb3e8/ss_ca20215f76650b7063fefcfb0b7146b7b7acb3e8.600x338.jpg?t=1754377366",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/ca20215f76650b7063fefcfb0b7146b7b7acb3e8/ss_ca20215f76650b7063fefcfb0b7146b7b7acb3e8.1920x1080.jpg?t=1754377366"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/7ef1e0602469c65ceb7a9dc1f25f6150ab0da39e/ss_7ef1e0602469c65ceb7a9dc1f25f6150ab0da39e.600x338.jpg?t=1754377366",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/7ef1e0602469c65ceb7a9dc1f25f6150ab0da39e/ss_7ef1e0602469c65ceb7a9dc1f25f6150ab0da39e.1920x1080.jpg?t=1754377366"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/941b210137fa5eaddf7ed6f8d416455e774137db/ss_941b210137fa5eaddf7ed6f8d416455e774137db.600x338.jpg?t=1754377366",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/941b210137fa5eaddf7ed6f8d416455e774137db/ss_941b210137fa5eaddf7ed6f8d416455e774137db.1920x1080.jpg?t=1754377366"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257171470,
+            "name": "Bilge Su",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257171470/cc77e8cc36749ca5dc6ff6bd2f3f7228620e2ae6/movie_600x337.jpg?t=1753203524",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3789750/2044202631/12c7248ca87df5bb422576ba6e6dfe9da178599e/1753014820/dash_av1.mpd?t=1753203524",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3789750/2044202631/12c7248ca87df5bb422576ba6e6dfe9da178599e/1753014820/dash_h264.mpd?t=1753203524",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3789750/2044202631/12c7248ca87df5bb422576ba6e6dfe9da178599e/1753014820/hls_264_master.m3u8?t=1753203524",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "selcukcetineriletisim@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3789750?t=1754377366",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3789750/6477d2f314aabb64e73fa9e62715ebc0e2898550/page_bg_raw.jpg?t=1754377366",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "This game contains realistic violence, frequent gunfights, and explosive action scenes with visible blood effects. There is no depiction of sexual content, drug or alcohol use, or self-harm. Suitable for mature audiences due to intense action gameplay.\r\n"
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nAtos criminosos"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "15",
+            "required_age": "15",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 3370050,
+  "requested_at": "2026-09-13T19:12:50.726223+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 5,
+      "total_negative": 2,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "200051083",
+        "author": {
+          "steamid": "76561198921383148",
+          "personaname": "Cherrynasb",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Cherrynasb/",
+          "num_games_owned": 148,
+          "num_reviews": 23,
+          "playtime_forever": 93,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 88,
+          "last_played": 1785437173,
+          "avatar": "cc14d33c920425ec8324b27b79b0a9a68e68a10f"
+        },
+        "language": "english",
+        "review": "This is unfortunately the worst platform fighter ive ever played",
+        "timestamp_created": 1752802020,
+        "timestamp_updated": 1752802020,
+        "voted_up": false,
+        "votes_up": 25,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.652689933776855469",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754915477",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 3
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFW8joAAAAAFP+Ti1iAAAAB7mJH7BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

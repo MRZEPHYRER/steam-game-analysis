@@ -1,0 +1,66 @@
+{
+  "appid": 3853960,
+  "requested_at": "2026-09-13T19:49:49.194038+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "224155740",
+        "author": {
+          "steamid": "76561198443388781",
+          "personaname": "立志学好数理化",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198443388781/",
+          "num_games_owned": 20495,
+          "num_reviews": 170,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1777221607,
+          "avatar": "2f7fdfd66aa3b61ff8b8a7b1123bb7be66949588"
+        },
+        "language": "schinese",
+        "review": "2026年4月27日 00:45:31\n先不提稀烂的关卡设计，这傻逼作者在背景模糊不清加光污染的情况下还把球搞成透明的，玩起来都不知道球在哪里。让我家仓鼠学两个星期软件做出来的游戏都比这坨东西强",
+        "timestamp_created": 1777221936,
+        "timestamp_updated": 1777221936,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525862038135528564",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753544450",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZe5YAAAAAFP+DT3IAAAAB8hYvXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2969999999995707,
+  "transport_error_count": 0
+}

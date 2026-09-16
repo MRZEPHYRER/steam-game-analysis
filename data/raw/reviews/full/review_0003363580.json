@@ -1,0 +1,66 @@
+{
+  "appid": 3363580,
+  "requested_at": "2026-09-13T19:12:39.926893+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "205771045",
+        "author": {
+          "steamid": "76561197971277104",
+          "personaname": "z0d!@c",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561197971277104/",
+          "num_games_owned": 249,
+          "num_reviews": 16,
+          "playtime_forever": 27,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "last_played": 1769283609,
+          "avatar": "cbdde3b1360e488f2452ba4bc6c108b5fb259f23"
+        },
+        "language": "german",
+        "review": "Absolut empfehlenswert, sehr süchtigmachend. Coole mechanic, dass man sich die Map selbst erweitern kann/muss.",
+        "timestamp_created": 1759498163,
+        "timestamp_updated": 1759498163,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759434768",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB1kvqQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3968450,
+  "requested_at": "2026-09-13T20:06:32.489067+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "209606471",
+        "author": {
+          "steamid": "76561199151328467",
+          "personaname": "Raycon Man",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199151328467/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 52,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 52,
+          "last_played": 1763534474,
+          "avatar": "4362a99184d8f2e211e72bb4bec228e959d127a8"
+        },
+        "language": "english",
+        "review": "I am unsure as where to begin with this review. This game is not at all what i thought it would be. That can or cannot be a bad thing, but in the case of \"Darko\", it's a good thing. At the time of buying, playing, and beating [all of which was done in less than an hour], it has 0 reviews. This game does a lot of things right, and a few things kind of poorly. I will start with the positives.\n\nPOSITIVES: \n--I personally really love the art direction, it's hard to hate, but looks very good for unity. The monsters are genuinely scary, and it fits well with what its going for story wise. I also would like to think the characters arms are actually the dev's arms, and were recorded and edited into the game.\n--The ambiance is actually very creepy, It had me on edge almost the entire time, and fit the intended vibe. Following that, the noises the monsters make were very scary, occasionally making me jump and not want to go into a room, anticipating the monster attacking me\n--The story is actually very interesting, and the monsters make more sense after having gotten all the notes and paid attention, I will refrain from spoiling anything\n--This is the creators ONLY game, and I think might be made by a solo dev. I'm not entirely sure but its still impressive.\n\nNEGATIVES:\n--This game definitely suffers from a \"Where tf am I\" issue, which i understand is the intention, but there is no way to know what your objective is if you didn't read the full steam page, which is a bummer because i like to avoid the descriptions so i can avoid spoilers.\n--It is so painfully dark in the damn house. Like, good lord man, I found myself unable to discern the colors of some of the doors and resorted to actually smashing my face into them like a psychopath to see if i could open it or unlock it\n--The monsters were extremely easy to avoid. I'm not sure if this is because I had full \"Sanity\" the entire time, but they were slow, and I had to die on purpose to see if they actually did anything, and some doors [I think only the color doors], the monsters wouldn't follow at all, and would just turn around and leave, making escape even easier.\n\nAll in all, this game is very unique, very short, very scary and very fun. I definitely recommend it, maybe not for $8, but I got it on sale for $5.59, and given the lack of content, i think $4.99 would be a more reasonable base price.",
+        "timestamp_created": 1763535479,
+        "timestamp_updated": 1763535479,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.611940324306488037",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763138819",
+        "reactions": [
+          {
+            "reaction_type": 18,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXwt4AAAAAFP+OVA0AAAAB39MqfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.29700000000048,
+  "transport_error_count": 0
+}

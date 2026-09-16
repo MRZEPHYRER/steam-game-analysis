@@ -1,0 +1,4 @@
+"model","n_games","n_coefficients","log_likelihood","aic","bic","dispersion","dispersion_definition","convergence","likelihood_comparable_to_binomial","delta_aic_vs_binomial","loglik_difference_vs_binomial"
+"Binomial",836,13,-27230.0654113446,54486.1308226893,54547.6029946594,73.5158752726562,"Pearson chi-square/residual df",TRUE,TRUE,0,0
+"Quasibinomial",836,13,,,,73.5158762129127,"estimated quasi variance multiplier",TRUE,FALSE,,
+"Beta-binomial",836,13,-3395.15300093938,6818.30600187876,6884.50680246195,8.746726659122,"beta precision phi (not a variance multiplier)",TRUE,TRUE,-47667.8248208105,23834.9124104053

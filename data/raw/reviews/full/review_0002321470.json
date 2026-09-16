@@ -1,0 +1,76 @@
+{
+  "appid": 2321470,
+  "requested_at": "2026-09-13T18:49:34.013709+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 39900,
+      "total_negative": 6406,
+      "total_reviews": 46306
+    },
+    "reviews": [
+      {
+        "recommendationid": "204571133",
+        "author": {
+          "steamid": "76561198158556090",
+          "personaname": "Gotonafig",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198158556090/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 5649,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3287,
+          "deck_playtime_at_review": 3287,
+          "last_played": 1777626239,
+          "avatar": "7c87ce0cc0911101a7f7c6b0c5917bd4485550a7"
+        },
+        "language": "russian",
+        "review": "Игра весьма интересная, но очень не хватает лобби с баром, танцами и пинанием бочек в кольцо",
+        "timestamp_created": 1758135510,
+        "timestamp_updated": 1758135510,
+        "voted_up": true,
+        "votes_up": 93,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.875293552875518799",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1707911752",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSfn6AAAAAFP+wCaKAAAAB9n7CMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.078999999999951,
+  "transport_error_count": 0
+}

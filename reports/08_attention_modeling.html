@@ -1,0 +1,2253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Review Attention Hurdle Modeling</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="08_attention_modeling_files/libs/clipboard/clipboard.min.js"></script>
+<script src="08_attention_modeling_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="08_attention_modeling_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="08_attention_modeling_files/libs/quarto-html/popper.min.js"></script>
+<script src="08_attention_modeling_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="08_attention_modeling_files/libs/quarto-html/anchor.min.js"></script>
+<link href="08_attention_modeling_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="08_attention_modeling_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="08_attention_modeling_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="08_attention_modeling_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="08_attention_modeling_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#research-question" id="toc-research-question" class="nav-link active" data-scroll-target="#research-question"><span class="header-section-number">1</span> Research question</a></li>
+  <li><a href="#market-outcome" id="toc-market-outcome" class="nav-link" data-scroll-target="#market-outcome"><span class="header-section-number">2</span> Market outcome</a></li>
+  <li><a href="#primary-linear-logistic" id="toc-primary-linear-logistic" class="nav-link" data-scroll-target="#primary-linear-logistic"><span class="header-section-number">3</span> Primary linear Logistic</a></li>
+  <li><a href="#functional-form" id="toc-functional-form" class="nav-link" data-scroll-target="#functional-form"><span class="header-section-number">4</span> Functional form</a></li>
+  <li><a href="#diagnostics" id="toc-diagnostics" class="nav-link" data-scroll-target="#diagnostics"><span class="header-section-number">5</span> Diagnostics</a></li>
+  <li><a href="#step-6a-decision" id="toc-step-6a-decision" class="nav-link" data-scroll-target="#step-6a-decision"><span class="header-section-number">6</span> Step 6A decision</a></li>
+  <li><a href="#step-6a.1-nonlinear-specification-freeze" id="toc-step-6a.1-nonlinear-specification-freeze" class="nav-link" data-scroll-target="#step-6a.1-nonlinear-specification-freeze"><span class="header-section-number">7</span> Step 6A.1 Nonlinear Specification Freeze</a></li>
+  <li><a href="#step-6b-positive-review-count-intensity" id="toc-step-6b-positive-review-count-intensity" class="nav-link" data-scroll-target="#step-6b-positive-review-count-intensity"><span class="header-section-number">8</span> Step 6B Positive Review-Count Intensity</a></li>
+  <li><a href="#step-6b.1-fast-attention-tier-model-freeze" id="toc-step-6b.1-fast-attention-tier-model-freeze" class="nav-link" data-scroll-target="#step-6b.1-fast-attention-tier-model-freeze"><span class="header-section-number">9</span> Step 6B.1 Fast Attention Tier Model Freeze</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Review Attention Hurdle Modeling</h1>
+<p class="subtitle lead">Step 6A entry, Step 6B count audit, Step 6B.1 tier freeze</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="research-question" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Research question</h1>
+<p>Step 6A models whether a game obtains at least one Steam review. This is review attention entry, not reception, sales, owners, or a count-volume model.</p>
+</section>
+<section id="market-outcome" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Market outcome</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Market review-entry outcome</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">market_n</th>
+<th style="text-align: right;">has_review_n</th>
+<th style="text-align: right;">zero_review_n</th>
+<th style="text-align: right;">has_review_rate</th>
+<th style="text-align: right;">unique_appids</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">759</td>
+<td style="text-align: right;">0.747</td>
+<td style="text-align: right;">3000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Free and paid raw review-entry rates</caption>
+<colgroup>
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 25%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">game_type</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">has_review_n</th>
+<th style="text-align: right;">zero_review_n</th>
+<th style="text-align: right;">has_review_rate</th>
+<th style="text-align: right;">has_review_percent</th>
+<th style="text-align: right;">raw_risk_difference_free_minus_paid</th>
+<th style="text-align: right;">raw_odds_ratio_free_vs_paid</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Free</td>
+<td style="text-align: right;">402</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">368</td>
+<td style="text-align: right;">0.08458</td>
+<td style="text-align: right;">8.45771</td>
+<td style="text-align: right;">-0.76492</td>
+<td style="text-align: right;">0.01637</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Paid</td>
+<td style="text-align: right;">2598</td>
+<td style="text-align: right;">2207</td>
+<td style="text-align: right;">391</td>
+<td style="text-align: right;">0.84950</td>
+<td style="text-align: right;">84.94996</td>
+<td style="text-align: right;">-0.76492</td>
+<td style="text-align: right;">0.01637</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="primary-linear-logistic" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Primary linear Logistic</h1>
+<p>Primary uses <code>is_free</code>, a paid-only standardized log-price component, standardized days since release, four pre-specified platform segments, and seven genres. Free rows receive a price component of zero. One missing paid-price game and one non-pre-specified Platform Other game remain in market descriptions but are excluded from the 2,998-row model.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Primary fit</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 47%">
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">event_n</th>
+<th style="text-align: right;">non_event_n</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">null_deviance</th>
+<th style="text-align: right;">residual_deviance</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">matrix_rank</th>
+<th style="text-align: right;">matrix_columns</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">formula</th>
+<th style="text-align: left;">weights_used</th>
+<th style="text-align: left;">count_offset_used</th>
+<th style="text-align: left;">interactions_used</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">758</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2984</td>
+<td style="text-align: right;">-1179.934</td>
+<td style="text-align: right;">2387.869</td>
+<td style="text-align: right;">2471.949</td>
+<td style="text-align: right;">3390.31</td>
+<td style="text-align: right;">2359.869</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">has_review ~ is_free + z_log1p_paid_price_component + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Primary odds ratios and 95% intervals</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 26%">
+<col style="width: 11%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">z_value</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: left;">direction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">1.54147</td>
+<td style="text-align: right;">0.14112</td>
+<td style="text-align: right;">10.92297</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">4.67146</td>
+<td style="text-align: right;">3.54266</td>
+<td style="text-align: right;">6.15994</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">is_free</td>
+<td style="text-align: right;">-4.19550</td>
+<td style="text-align: right;">0.19142</td>
+<td style="text-align: right;">-21.91807</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.01506</td>
+<td style="text-align: right;">0.01035</td>
+<td style="text-align: right;">0.02192</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">z_log1p_paid_price_component</td>
+<td style="text-align: right;">0.18181</td>
+<td style="text-align: right;">0.05979</td>
+<td style="text-align: right;">3.04071</td>
+<td style="text-align: right;">0.00236</td>
+<td style="text-align: right;">1.19938</td>
+<td style="text-align: right;">1.06675</td>
+<td style="text-align: right;">1.34850</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.00851</td>
+<td style="text-align: right;">0.05309</td>
+<td style="text-align: right;">0.16025</td>
+<td style="text-align: right;">0.87268</td>
+<td style="text-align: right;">1.00854</td>
+<td style="text-align: right;">0.90887</td>
+<td style="text-align: right;">1.11915</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.39609</td>
+<td style="text-align: right;">0.21753</td>
+<td style="text-align: right;">1.82081</td>
+<td style="text-align: right;">0.06864</td>
+<td style="text-align: right;">1.48600</td>
+<td style="text-align: right;">0.97018</td>
+<td style="text-align: right;">2.27605</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.03424</td>
+<td style="text-align: right;">0.23015</td>
+<td style="text-align: right;">0.14878</td>
+<td style="text-align: right;">0.88173</td>
+<td style="text-align: right;">1.03483</td>
+<td style="text-align: right;">0.65913</td>
+<td style="text-align: right;">1.62469</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.71996</td>
+<td style="text-align: right;">0.25521</td>
+<td style="text-align: right;">2.82103</td>
+<td style="text-align: right;">0.00479</td>
+<td style="text-align: right;">2.05436</td>
+<td style="text-align: right;">1.24577</td>
+<td style="text-align: right;">3.38777</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.11818</td>
+<td style="text-align: right;">0.11662</td>
+<td style="text-align: right;">1.01339</td>
+<td style="text-align: right;">0.31087</td>
+<td style="text-align: right;">1.12545</td>
+<td style="text-align: right;">0.89549</td>
+<td style="text-align: right;">1.41446</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">0.23804</td>
+<td style="text-align: right;">0.11598</td>
+<td style="text-align: right;">2.05238</td>
+<td style="text-align: right;">0.04013</td>
+<td style="text-align: right;">1.26876</td>
+<td style="text-align: right;">1.01078</td>
+<td style="text-align: right;">1.59259</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">-0.42786</td>
+<td style="text-align: right;">0.11392</td>
+<td style="text-align: right;">-3.75582</td>
+<td style="text-align: right;">0.00017</td>
+<td style="text-align: right;">0.65191</td>
+<td style="text-align: right;">0.52146</td>
+<td style="text-align: right;">0.81499</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.18809</td>
+<td style="text-align: right;">0.12316</td>
+<td style="text-align: right;">1.52725</td>
+<td style="text-align: right;">0.12670</td>
+<td style="text-align: right;">1.20694</td>
+<td style="text-align: right;">0.94810</td>
+<td style="text-align: right;">1.53645</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">0.01533</td>
+<td style="text-align: right;">0.14246</td>
+<td style="text-align: right;">0.10763</td>
+<td style="text-align: right;">0.91429</td>
+<td style="text-align: right;">1.01545</td>
+<td style="text-align: right;">0.76806</td>
+<td style="text-align: right;">1.34254</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.53512</td>
+<td style="text-align: right;">0.14053</td>
+<td style="text-align: right;">3.80801</td>
+<td style="text-align: right;">0.00014</td>
+<td style="text-align: right;">1.70766</td>
+<td style="text-align: right;">1.29654</td>
+<td style="text-align: right;">2.24914</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRIMARY_LINEAR</td>
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.14280</td>
+<td style="text-align: right;">0.13160</td>
+<td style="text-align: right;">-1.08511</td>
+<td style="text-align: right;">0.27787</td>
+<td style="text-align: right;">0.86693</td>
+<td style="text-align: right;">0.66984</td>
+<td style="text-align: right;">1.12202</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/39_attention_entry_primary_or.png" class="img-fluid figure-img" width="855"></p>
+<figcaption>Primary review-entry odds ratios</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="functional-form" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Functional form</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Pre-specified linear versus spline df=3 audit</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 14%">
+<col style="width: 13%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">predictor</th>
+<th style="text-align: right;">linear_aic</th>
+<th style="text-align: right;">spline_aic</th>
+<th style="text-align: right;">delta_aic_spline_minus_linear</th>
+<th style="text-align: right;">max_absolute_probability_gap</th>
+<th style="text-align: right;">lrt_p_value</th>
+<th style="text-align: left;">assessment</th>
+<th style="text-align: left;">pre_specified_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">days_since_release</td>
+<td style="text-align: right;">2387.869</td>
+<td style="text-align: right;">2388.528</td>
+<td style="text-align: right;">0.65957</td>
+<td style="text-align: right;">0.03298</td>
+<td style="text-align: right;">0.18821</td>
+<td style="text-align: left;">MODEST_NONLINEARITY</td>
+<td style="text-align: left;">Spline df=3; substantive if delta AIC &lt;= -10 and max probability gap &gt;= 0.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">paid_log1p_price</td>
+<td style="text-align: right;">2158.185</td>
+<td style="text-align: right;">2143.249</td>
+<td style="text-align: right;">-14.93634</td>
+<td style="text-align: right;">0.52477</td>
+<td style="text-align: right;">0.00008</td>
+<td style="text-align: left;">SUBSTANTIVE_NONLINEARITY</td>
+<td style="text-align: left;">Spline df=3; substantive if delta AIC &lt;= -10 and max probability gap &gt;= 0.05</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Days does not gain AIC under the spline sensitivity. Paid price shows materially lower spline AIC and a visibly different probability curve, so the single linear paid-price term is inadequate across the observed range.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/36_paid_price_review_entry_curve.png" class="img-fluid figure-img" width="756"></p>
+<figcaption>Paid-price linear and spline probability curves</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="diagnostics" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Diagnostics</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>In-sample calibration deciles</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 33%">
+<col style="width: 31%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">decile</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">mean_predicted_probability</th>
+<th style="text-align: right;">observed_has_review_rate</th>
+<th style="text-align: right;">absolute_gap</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.07080</td>
+<td style="text-align: right;">0.06000</td>
+<td style="text-align: right;">0.01080</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.52305</td>
+<td style="text-align: right;">0.53667</td>
+<td style="text-align: right;">0.01361</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.77888</td>
+<td style="text-align: right;">0.77667</td>
+<td style="text-align: right;">0.00221</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.81352</td>
+<td style="text-align: right;">0.79667</td>
+<td style="text-align: right;">0.01686</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.83891</td>
+<td style="text-align: right;">0.85333</td>
+<td style="text-align: right;">0.01442</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.85732</td>
+<td style="text-align: right;">0.84667</td>
+<td style="text-align: right;">0.01065</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.87124</td>
+<td style="text-align: right;">0.89333</td>
+<td style="text-align: right;">0.02209</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0.88555</td>
+<td style="text-align: right;">0.89667</td>
+<td style="text-align: right;">0.01112</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">299</td>
+<td style="text-align: right;">0.90327</td>
+<td style="text-align: right;">0.88963</td>
+<td style="text-align: right;">0.01364</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">299</td>
+<td style="text-align: right;">0.93022</td>
+<td style="text-align: right;">0.92308</td>
+<td style="text-align: right;">0.00715</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>In-sample ROC AUC</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 28%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">auc</th>
+<th style="text-align: right;">standard_error</th>
+<th style="text-align: right;">ci95_lower</th>
+<th style="text-align: right;">ci95_upper</th>
+<th style="text-align: left;">ci_method</th>
+<th style="text-align: left;">diagnostic_scope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.79897</td>
+<td style="text-align: right;">0.01049</td>
+<td style="text-align: right;">0.77841</td>
+<td style="text-align: right;">0.81953</td>
+<td style="text-align: left;">DeLong placement-value normal approximation</td>
+<td style="text-align: left;">In-sample descriptive discrimination; no threshold optimization</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Separation diagnostics</caption>
+<colgroup>
+<col style="width: 45%">
+<col style="width: 11%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">check</th>
+<th style="text-align: right;">n_flagged</th>
+<th style="text-align: left;">details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">glm_not_converged</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">converged = TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rank_deficient_model_matrix</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">rank = 14 of 14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">absolute_coefficient_gt_10_or_se_gt_10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">none</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">fitted_probability_below_1e_6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Complete/quasi-separation heuristic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">fitted_probability_above_1_minus_1e_6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Complete/quasi-separation heuristic</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">categorical_zero_event_cell</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Raw categorical outcome cells</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">categorical_zero_non_event_cell</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">Raw categorical outcome cells</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">glm_warning</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">warning count = 0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="step-6a-decision" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Step 6A decision</h1>
+<p>The Step 6A audit is complete, but the linear price specification is not ready to freeze. The linear model remains as a benchmark. No count model was fitted in Step 6A.</p>
+</section>
+<section id="step-6a.1-nonlinear-specification-freeze" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Step 6A.1 Nonlinear Specification Freeze</h1>
+<p>The final entry candidate replaces only the paid-price linear term with a frozen, centered natural spline with df=3. Free rows retain zero in all spline-basis columns, days remains linear, and the sample and all other predictors stay unchanged.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Linear benchmark and nonlinear primary comparison</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 41%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">event_n</th>
+<th style="text-align: right;">non_event_n</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">null_deviance</th>
+<th style="text-align: right;">residual_deviance</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">matrix_rank</th>
+<th style="text-align: right;">matrix_columns</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">formula</th>
+<th style="text-align: left;">weights_used</th>
+<th style="text-align: left;">count_offset_used</th>
+<th style="text-align: left;">interactions_used</th>
+<th style="text-align: left;">same_rows</th>
+<th style="text-align: right;">delta_aic_from_linear</th>
+<th style="text-align: right;">delta_bic_from_linear</th>
+<th style="text-align: left;">formal_lrt_valid</th>
+<th style="text-align: right;">lrt_p_value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LINEAR_BENCHMARK</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">758</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2984</td>
+<td style="text-align: right;">-1179.934</td>
+<td style="text-align: right;">2387.869</td>
+<td style="text-align: right;">2471.949</td>
+<td style="text-align: right;">3390.31</td>
+<td style="text-align: right;">2359.869</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">has_review ~ is_free + z_log1p_paid_price_component + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">8e-05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: right;">2998</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">758</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">2982</td>
+<td style="text-align: right;">-1170.514</td>
+<td style="text-align: right;">2373.027</td>
+<td style="text-align: right;">2469.119</td>
+<td style="text-align: right;">3390.31</td>
+<td style="text-align: right;">2341.027</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">has_review ~ is_free + price_spline_1 + price_spline_2 + price_spline_3 + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">-14.84139</td>
+<td style="text-align: right;">-2.82999</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">8e-05</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Frozen spline basis definition</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">spline_df</th>
+<th style="text-align: left;">intercept_in_basis</th>
+<th style="text-align: left;">centered_basis</th>
+<th style="text-align: right;">center_price_usd</th>
+<th style="text-align: right;">center_log1p_price</th>
+<th style="text-align: right;">center_basis_1_raw</th>
+<th style="text-align: right;">center_basis_2_raw</th>
+<th style="text-align: right;">center_basis_3_raw</th>
+<th style="text-align: right;">internal_knot_1_log1p</th>
+<th style="text-align: right;">internal_knot_2_log1p</th>
+<th style="text-align: left;">internal_knot_3_log1p</th>
+<th style="text-align: right;">boundary_knot_lower_log1p</th>
+<th style="text-align: right;">boundary_knot_upper_log1p</th>
+<th style="text-align: right;">training_n</th>
+<th style="text-align: right;">training_price_min_usd</th>
+<th style="text-align: right;">training_price_max_usd</th>
+<th style="text-align: left;">prediction_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">6.000014</td>
+<td style="text-align: right;">1.945912</td>
+<td style="text-align: right;">0.04211</td>
+<td style="text-align: right;">0.605661</td>
+<td style="text-align: right;">-0.33196</td>
+<td style="text-align: right;">1.607436</td>
+<td style="text-align: right;">2.301585</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">0.398776</td>
+<td style="text-align: right;">5.303255</td>
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">199.99</td>
+<td style="text-align: left;">Reuse saved knots, Boundary.knots, and centering basis; free rows equal zero</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Paid-price support audit</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">paid_price_n</th>
+<th style="text-align: right;">min_usd</th>
+<th style="text-align: right;">p01_usd</th>
+<th style="text-align: right;">p05_usd</th>
+<th style="text-align: right;">p25_usd</th>
+<th style="text-align: right;">p50_usd</th>
+<th style="text-align: right;">p75_usd</th>
+<th style="text-align: right;">p95_usd</th>
+<th style="text-align: right;">p99_usd</th>
+<th style="text-align: right;">max_usd</th>
+<th style="text-align: right;">n_ge_20_usd</th>
+<th style="text-align: right;">n_ge_30_usd</th>
+<th style="text-align: right;">n_ge_50_usd</th>
+<th style="text-align: right;">n_ge_100_usd</th>
+<th style="text-align: left;">central_support_definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2597</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">2.99</td>
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">19.99</td>
+<td style="text-align: right;">39.99</td>
+<td style="text-align: right;">199.99</td>
+<td style="text-align: right;">126</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Paid-market empirical 5th to 95th percentile</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/45_price_nonlinear_primary_curve.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>Final nonlinear paid-price curve and central support</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The fitted peak is descriptive, not an optimal or causal price. Interpretation centers on the paid-price 5th to 95th percentile because the high-price tail is sparse.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Descriptive fitted peak and plateau</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 11%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">peak_price_usd</th>
+<th style="text-align: right;">peak_predicted_probability</th>
+<th style="text-align: right;">peak_ci95_lower</th>
+<th style="text-align: right;">peak_ci95_upper</th>
+<th style="text-align: left;">local_plateau_definition</th>
+<th style="text-align: right;">plateau_lower_price_usd</th>
+<th style="text-align: right;">plateau_upper_price_usd</th>
+<th style="text-align: right;">plateau_width_usd</th>
+<th style="text-align: left;">peak_within_central_5_95_support</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">14.92192</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.8411</td>
+<td style="text-align: right;">0.91268</td>
+<td style="text-align: left;">Contiguous prices within 0.5 percentage points of fitted peak</td>
+<td style="text-align: right;">11.06614</td>
+<td style="text-align: right;">20.29533</td>
+<td style="text-align: right;">9.22918</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">Descriptive fitted maximum; not an optimal or causal price</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Representative price probability contrasts</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">contrast_id</th>
+<th style="text-align: right;">price_1_usd</th>
+<th style="text-align: right;">price_2_usd</th>
+<th style="text-align: right;">probability_1</th>
+<th style="text-align: right;">probability_2</th>
+<th style="text-align: right;">probability_difference</th>
+<th style="text-align: right;">percentage_point_difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4.99_TO_9.99</td>
+<td style="text-align: right;">4.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">0.81566</td>
+<td style="text-align: right;">0.87259</td>
+<td style="text-align: right;">0.05693</td>
+<td style="text-align: right;">5.69305</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9.99_TO_14.99</td>
+<td style="text-align: right;">9.99</td>
+<td style="text-align: right;">14.99</td>
+<td style="text-align: right;">0.87259</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.00890</td>
+<td style="text-align: right;">0.89050</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14.99_TO_29.99</td>
+<td style="text-align: right;">14.99</td>
+<td style="text-align: right;">29.99</td>
+<td style="text-align: right;">0.88149</td>
+<td style="text-align: right;">0.85504</td>
+<td style="text-align: right;">-0.02645</td>
+<td style="text-align: right;">-2.64549</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>In-sample AUC, Brier score, and log loss</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">auc</th>
+<th style="text-align: right;">auc_standard_error</th>
+<th style="text-align: right;">auc_ci95_lower</th>
+<th style="text-align: right;">auc_ci95_upper</th>
+<th style="text-align: right;">brier_score</th>
+<th style="text-align: right;">binary_log_loss</th>
+<th style="text-align: left;">diagnostic_scope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LINEAR_BENCHMARK</td>
+<td style="text-align: right;">0.798973</td>
+<td style="text-align: right;">0.010490</td>
+<td style="text-align: right;">0.778413</td>
+<td style="text-align: right;">0.819533</td>
+<td style="text-align: right;">0.117982</td>
+<td style="text-align: right;">0.393574</td>
+<td style="text-align: left;">In-sample descriptive fit; not a model-selection contest</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NONLINEAR_PRICE_DF3_PRIMARY</td>
+<td style="text-align: right;">0.804436</td>
+<td style="text-align: right;">0.010338</td>
+<td style="text-align: right;">0.784174</td>
+<td style="text-align: right;">0.824699</td>
+<td style="text-align: right;">0.116924</td>
+<td style="text-align: right;">0.390432</td>
+<td style="text-align: left;">In-sample descriptive fit; not a model-selection contest</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/50_nonlinear_price_sensitivity.png" class="img-fluid figure-img" width="774"></p>
+<figcaption>Nonlinear price-curve sensitivity</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Nonlinear primary freeze criteria</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 7%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">criterion</th>
+<th style="text-align: left;">passed</th>
+<th style="text-align: left;">threshold_or_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">convergence</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">glm converged</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">no_separation</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">all separation heuristics zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">influence_acceptable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">all diagnostics defined and max Cook’s D &lt; 0.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">calibration_acceptable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">maximum decile absolute gap &lt;= 0.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">release_curve_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% max probability difference &lt;= 0.03</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_curve_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% max probability difference &lt;= 0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">df4_central_shape_stable</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">central 5-95% df4-vs-df3 max probability difference &lt;= 0.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">no_numerical_instability</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">full rank, no primary warnings, finite coefficients</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 6A.1 decision</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 45%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">step6a1_status</th>
+<th style="text-align: left;">price_functional_form</th>
+<th style="text-align: left;">review_entry_model_frozen</th>
+<th style="text-align: left;">ready_for_step6b</th>
+<th style="text-align: left;">final_entry_model</th>
+<th style="text-align: left;">next_gate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">SPLINE ADEQUATE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">Logistic regression with centered frozen natural spline df=3 for paid collection-time price</td>
+<td style="text-align: left;">Human approval before Step 6B</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The Step 6A.1 entry model remains frozen. Its odds ratios do not compare directly with Step 6B count ratios.</p>
+</section>
+<section id="step-6b-positive-review-count-intensity" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Step 6B Positive Review-Count Intensity</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Positive-count population and model sample</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 19%">
+<col style="width: 7%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">market_n</th>
+<th style="text-align: right;">zero_review_n</th>
+<th style="text-align: right;">positive_n</th>
+<th style="text-align: right;">positive_free_n</th>
+<th style="text-align: right;">positive_paid_n</th>
+<th style="text-align: right;">missing_paid_price_n</th>
+<th style="text-align: right;">model_n</th>
+<th style="text-align: right;">excluded_n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">759</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">2207</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Positive review-volume distribution</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">n</th>
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">p01</th>
+<th style="text-align: right;">p05</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p90</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">variance</th>
+<th style="text-align: right;">variance_mean_ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">481.69</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">308</td>
+<td style="text-align: right;">1009</td>
+<td style="text-align: right;">8811.6</td>
+<td style="text-align: right;">136842</td>
+<td style="text-align: right;">20840399</td>
+<td style="text-align: right;">43265.34</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Poisson, ordinary NB2, and zero-truncated NB2</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">theta</th>
+<th style="text-align: left;">converged</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">M1_POISSON</td>
+<td style="text-align: right;">5438448.07</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M2_NB2_ORDINARY</td>
+<td style="text-align: right;">23330.82</td>
+<td style="text-align: right;">0.2729</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M3_TRUNCATED_NB2</td>
+<td style="text-align: right;">21297.11</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Exposure specification audit</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 3%">
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">specification</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">theta</th>
+<th style="text-align: right;">beta_log_days</th>
+<th style="text-align: right;">beta_log_days_se</th>
+<th style="text-align: right;">beta_vs_one_z</th>
+<th style="text-align: right;">delta_aic_from_best</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">LOG_DAYS_COVARIATE</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">-10632.53</td>
+<td style="text-align: right;">21299.05</td>
+<td style="text-align: right;">21396.19</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.8894</td>
+<td style="text-align: right;">0.4668</td>
+<td style="text-align: right;">-0.2369</td>
+<td style="text-align: right;">1.9437</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OFFSET</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">-10632.55</td>
+<td style="text-align: right;">21297.11</td>
+<td style="text-align: right;">21388.54</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">0.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NONLINEAR_LOG_DAYS</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">-10630.83</td>
+<td style="text-align: right;">21299.66</td>
+<td style="text-align: right;">21408.23</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">2.5475</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Step 6B estimates <span class="math inline">\(E(Y\mid Y&gt;0)\)</span> for games already reviewed; 759 zero-review games are excluded. The 2,240-row count model retains 34 free games and excludes only one paid game with missing current price. Poisson is severely overdispersed. Zero-truncated NB2 has the lowest comparable AIC, but a near-boundary dispersion parameter, severe head concentration, unstable tail sensitivity, and count-bin residual mismatch prevent freezing.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/55_count_rootogram.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Positive-count observed and fitted count bins</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Head-game sensitivity</caption>
+<colgroup>
+<col style="width: 31%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">scenario</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">removed_n</th>
+<th style="text-align: right;">retained_review_share</th>
+<th style="text-align: right;">theta</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">warning_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FULL</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">21297.11</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REMOVE_TOP1_GAME</td>
+<td style="text-align: right;">2239</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.8732</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">21194.94</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">REMOVE_TOP1_PERCENT_BY_REVIEW_COUNT</td>
+<td style="text-align: right;">2217</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0.3456</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">20387.80</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REMOVE_TOP5_PERCENT_BY_REVIEW_COUNT</td>
+<td style="text-align: right;">2128</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">0.1108</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">18108.01</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>Positive-count observed and fitted count bins</p>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 6B freeze decision</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 4%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">positive_count_model_frozen</th>
+<th style="text-align: left;">count_distribution</th>
+<th style="text-align: left;">exposure_specification</th>
+<th style="text-align: right;">model_n</th>
+<th style="text-align: left;">failed_criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FAIL</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUNCATED NB2 CANDIDATE</td>
+<td style="text-align: left;">OFFSET</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: left;">no_single_observation_dominates; tail_sensitivity_acceptable; diagnostics_acceptable</td>
+</tr>
+</tbody>
+</table>
+<p>Positive-count observed and fitted count bins</p>
+</div>
+</div>
+<p>The full Chinese visual audit is in <code>10_attention_count_visual_audit.html</code>. The Step 6B candidate remains diagnostic, not frozen. Review count is not sales, owners, or revenue. No causal conclusion or Step 6C model follows from this audit.</p>
+</section>
+<section id="step-6b.1-fast-attention-tier-model-freeze" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Step 6B.1 Fast Attention Tier Model Freeze</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Four ordered attention tiers</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">attention_tier</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">percent</th>
+<th style="text-align: right;">free_n</th>
+<th style="text-align: right;">paid_n</th>
+<th style="text-align: right;">median_review_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tier1</td>
+<td style="text-align: right;">1102</td>
+<td style="text-align: right;">49.17</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">1080</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tier2</td>
+<td style="text-align: right;">733</td>
+<td style="text-align: right;">32.71</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">724</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tier3</td>
+<td style="text-align: right;">293</td>
+<td style="text-align: right;">13.07</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">291</td>
+<td style="text-align: right;">231</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tier4</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">5.04</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">2574</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Final ordinal attention-intensity model</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 50%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">tier1_n</th>
+<th style="text-align: right;">tier2_n</th>
+<th style="text-align: right;">tier3_n</th>
+<th style="text-align: right;">tier4_n</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: right;">design_rank</th>
+<th style="text-align: right;">design_columns</th>
+<th style="text-align: right;">max_coefficient_se</th>
+<th style="text-align: left;">numerical_stability</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">formula</th>
+<th style="text-align: left;">weights_used</th>
+<th style="text-align: left;">offset_used</th>
+<th style="text-align: left;">interactions_used</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ORDINAL_PROPORTIONAL_ODDS</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">1101</td>
+<td style="text-align: right;">733</td>
+<td style="text-align: right;">293</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">-2313.742</td>
+<td style="text-align: right;">4663.485</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0.8858</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">attention_tier ~ is_free + tier_price_spline_1 + tier_price_spline_2 + tier_price_spline_3 + log_days + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The raw Step 6B count model remains a documented diagnostic failure and is not deleted. Step 6B.1 replaces it as the portfolio-level attention-intensity model by defining Tier 1 as 1–9 reviews, Tier 2 as 10–99, Tier 3 as 100–999, and Tier 4 as 1000+.</p>
+<p>The cumulative ordinal logistic model uses the same 2,240-row positive-count price-complete sample, a newly estimated df=3 paid-price spline, ordinary <code>log(days)</code> covariate, free status, platform, and seven pre-specified genres. It converges with a full-rank design and valid probabilities.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/64_attention_tier_distribution.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Attention tiers among reviewed games</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/attention/65_attention_tier_price_probabilities.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Attention tiers among reviewed games</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Threshold-specific binary logits indicate that proportional odds holds approximately rather than exactly: several weak coefficients change sign, but there are no major direction reversals. The single pre-specified High-100 logistic robustness model broadly agrees with the ordinal model, including the paid-price probability shape.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>High-100 robustness model</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 52%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">event_n</th>
+<th style="text-align: right;">non_event_n</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: left;">convergence</th>
+<th style="text-align: right;">design_rank</th>
+<th style="text-align: right;">design_columns</th>
+<th style="text-align: right;">max_coefficient_se</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">formula</th>
+<th style="text-align: left;">weights_used</th>
+<th style="text-align: left;">offset_used</th>
+<th style="text-align: left;">interactions_used</th>
+<th style="text-align: left;">threshold_searched</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HIGH_ATTENTION_100_LOGISTIC</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">406</td>
+<td style="text-align: right;">1834</td>
+<td style="text-align: right;">-891.3315</td>
+<td style="text-align: right;">1814.663</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">2.4075</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">high_attention_100 ~ is_free + tier_price_spline_1 + tier_price_spline_2 + tier_price_spline_3 + log_days + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 6B.1 freeze decision</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 29%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">proportional_odds_assumption</th>
+<th style="text-align: left;">high100_robustness</th>
+<th style="text-align: left;">numerical_stability</th>
+<th style="text-align: left;">attention_intensity_model_frozen</th>
+<th style="text-align: left;">attention_analysis_closed</th>
+<th style="text-align: left;">ready_for_portfolio_packaging</th>
+<th style="text-align: left;">final_model</th>
+<th style="text-align: right;">model_n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">APPROXIMATE</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">Cumulative ordinal logistic (proportional odds; approximate assumption)</td>
+<td style="text-align: right;">2240</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>An ordinal OR above 1 indicates higher odds of belonging to a higher attention tier; it is not a review-count multiplier. Associations are not causal. The free subgroup contains only 34 reviewed games and remains highly uncertain. The concise Chinese audit is in <code>11_attention_tier_visual_audit.html</code>.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,66 @@
+{
+  "appid": 4161930,
+  "requested_at": "2026-09-13T20:23:20.072562+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 85,
+      "total_negative": 5,
+      "total_reviews": 90
+    },
+    "reviews": [
+      {
+        "recommendationid": "214869970",
+        "author": {
+          "steamid": "76561198010046139",
+          "personaname": "ThePaper",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/kkangta2000/",
+          "num_games_owned": 1341,
+          "num_reviews": 658,
+          "playtime_forever": 57,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 57,
+          "last_played": 1767200524,
+          "avatar": "db674e033f42607e3c51094d57dfa0c66ba63b15"
+        },
+        "language": "koreana",
+        "review": "예전 칠라스아트 느낌을 갖고 있어서 너무 좋았고 \n한국어도 굉장히 잘 정돈된 번역이 되어 있어서 너무 좋았습니다.\n요즘 인디 공포게임들 보면 그래픽에 과하게 신경쓸려는 경향이 있는데 \n막상 게임 내놓으면 별로인 경우가 많았습니다. \n그래픽이 딱히 특출나지 않아도 스토리와 게임내 분위기, 사운드가 좋으면 얼마든지 좋은 게임이 나올수 있다는 거죠.\n이 게임이 바로 그런 예시인것 같네요. 너무 재밌게 플레이 했습니다.\n(방송할때 시청자분들이 그러더군요. 신뢰의 그래픽이라고 ㅋㅋ)\n그리고\n체크포인트가 있어서 바로바로 다른 엔딩도 볼수있는 편의성과 \n굉장히 저렴한 가격까지 장점을 두루두루 갖춘 게임이었다고 봅니다.\n앞으로도 많은 게임 내주셨으면 좋겠네요. 화이팅 입니다.\n\n[url=https://store.steampowered.com/curator/45555420-%25EB%258D%2594%25ED%258E%2598%25EC%259D%25B4%25ED%258D%25BC%25EC%2599%2580-%25EA%25B2%258C%25EC%259E%2584%25ED%2595%2598%25EA%25B8%25B0/]Steam Curator ThePaper <--큐레이터 주소[/url]",
+        "timestamp_created": 1767312780,
+        "timestamp_updated": 1767312864,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.599375665187835693",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764917161",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYAzIAAAAAFP+MuFqAAAABy/dSzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

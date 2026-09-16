@@ -1,0 +1,71 @@
+{
+  "appid": 3130800,
+  "requested_at": "2026-09-13T19:04:54.234674+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 208,
+      "total_negative": 0,
+      "total_reviews": 208
+    },
+    "reviews": [
+      {
+        "recommendationid": "220787310",
+        "author": {
+          "steamid": "76561198987909303",
+          "personaname": "EleanoraManticore_TTV",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198987909303/",
+          "num_games_owned": 0,
+          "num_reviews": 397,
+          "playtime_forever": 40,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 40,
+          "last_played": 1773617513,
+          "avatar": "3bee5915b0130ad3fc30fef98bc07cae0930fd51"
+        },
+        "language": "english",
+        "review": "[H1]The most relaxing frog hunt ever, where the only danger is to lose track of time[/H1]\n\nOne big image, 8 sub-levels, and over 400 frogs, toads and little oddities waiting to be spotted. This was easily one of the best hidden object games I’ve played in months! It’s adorable, relaxing, full of secrets, and honestly? Worth every damn penny.\n\nThe artwork is lovely and the frog placement feels fair, which makes the search satisfying and slightly challenging. Interactive items like bags and coffers are clearly marked, so you always know what can be poked. Beyond the frogs and toads, there are tons of side discoveries like sneaky gnomes and strawberry pieces. If you’re unsure what to check for next, a visit to grandpa frog chilling in his chair reveals the options at the bottom of the explanations, and the achievements help narrow down the nature of the mystery items too.\n\nHints recharge extremely quickly and don’t interfere with 100% completion, which makes them great for nudging the search without ruining the fun, though they do give the answer right away. There’s also a surprising amount of QoL options: sound controls, fullscreen, and even a day/night mode with four different color hues for night play. Add a super relaxing soundtrack and a generous amount of content for the price (especially on sale) and it becomes very easy to fall in love.\n\nThe only real issue appears right at the start. The instructions introduce several symbols before you know what they mean, so the explanation doesn’t fully land until later in the game. Achievement descriptions and general play clarify those secret items listed in the tutorial, so everything clicks into place pretty quickly, but it is worth noting that the start can take aback. But this little bump isn't enough to tamper with the flow of the whole game. So yep, I’m completely in love with this one, and will probably also be with the sequel already on the way ([url=https://store.steampowered.com/app/3948760/Find_My_Frogs_Branches/?curator_clanid=45639970]Find My Frogs: Branches[/url]). I am [i]so[/i] ready for more amphibian hide-and-seek and hope you are too!\n\n[quote]For more reviews like this one, please check out [url=https://store.steampowered.com/curator/45639970-Ele%2527s-Little-Recommendation-Corner/][b]Ele's Little Recommendation Corner[/b][/url]![/quote]",
+        "timestamp_created": 1773618804,
+        "timestamp_updated": 1773618804,
+        "voted_up": true,
+        "votes_up": 27,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.756563007831573486",
+        "comment_count": 12,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753289971",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFV3mYAAAAAFP+g1w6AAAAB+pp7KBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

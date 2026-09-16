@@ -1,0 +1,68 @@
+{
+  "appid": 3966010,
+  "requested_at": "2026-09-13T20:06:09.208741+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 2,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "213309965",
+        "author": {
+          "steamid": "76561198280355869",
+          "personaname": "goose",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198280355869/",
+          "num_games_owned": 4245,
+          "num_reviews": 199,
+          "playtime_forever": 14,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1765693023,
+          "avatar": "89142a90da7db41eaea9c11d94ea5e2c49453ef4"
+        },
+        "language": "english",
+        "review": "Light downvote. The controller support is horrendous. The right stick works like a mouse cursor rather than acting as a twin-stick shooter as it should (like where the aiming rotates around your character). This makes aiming very annoying and slow.  Also you dash towards your aiming direction, meaning that if you're aiming at an enemy and you try to dash, you'll dash right into the enemy. \n\nBecause of this combined with the slow cursor-like aiming, it becomes a really annoying gameplay loop of aiming at an enemy, then using the cursor to slowly aim in the opposite direction (taking like 2 or 3 seconds) if you want to dash, then having to aim all the way back, taking another 2 or 3 seconds. It's just so bad.\n\nOn TOP of that, some of the dialogue that pops up doing the level is completely unskippable with controller. Like you literally have to use keyboard to get out of it. \n\nAlso you HAVE to use right bumper to jump, which makes it awkward to play and there doesn't seem to be a way to rebind the controls.\n\nHopefully this is fixed soon...",
+        "timestamp_created": 1765746101,
+        "timestamp_updated": 1765746484,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.571355581283569336",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1765773535,
+        "developer_response": "Hello!\nThis is Cheese Burger Studio 🍔\n\nFirst of all, we sincerely apologize for the disappointment caused by these shortcomings.\n\nRegarding the controller support issues you mentioned, we are currently preparing improvements and plan to update them within December.\n\nWe kindly ask for your understanding, and until then, we recommend playing with a keyboard and mouse.\n\nThank you very much for your valuable feedback. We truly appreciate it and will continue working to provide a better experience.\n\nThank you.\nCheese Burger Studio",
+        "app_release_date": "1765522780",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYjvoAAAAAFP+JOcEAAAAB9oNutBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9070000000001528,
+  "transport_error_count": 0
+}

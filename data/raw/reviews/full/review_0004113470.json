@@ -1,0 +1,66 @@
+{
+  "appid": 4113470,
+  "requested_at": "2026-09-13T20:20:07.266566+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 97,
+      "total_negative": 0,
+      "total_reviews": 97
+    },
+    "reviews": [
+      {
+        "recommendationid": "211663161",
+        "author": {
+          "steamid": "76561199002451092",
+          "personaname": "𝓕𝓡𝓣𝓩",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/frtz01/",
+          "num_games_owned": 2588,
+          "num_reviews": 400,
+          "playtime_forever": 353,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 302,
+          "last_played": 1764429876,
+          "avatar": "a0b22ddbae3b4b8e5b812c8008ab78ac9c6a00e6"
+        },
+        "language": "schinese",
+        "review": "非常好玩非常上头，就是我这种手残党有一点难哈哈哈，整体的画风我还是很喜欢的",
+        "timestamp_created": 1764427924,
+        "timestamp_updated": 1764427924,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764262373",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB5k7enBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1090000000003783,
+  "transport_error_count": 0
+}

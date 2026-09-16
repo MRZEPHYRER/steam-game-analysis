@@ -1,0 +1,71 @@
+{
+  "appid": 4217990,
+  "requested_at": "2026-09-13T20:26:39.033764+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214965842",
+        "author": {
+          "steamid": "76561198151853139",
+          "personaname": "Wootpaddle",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198151853139/",
+          "num_games_owned": 994,
+          "num_reviews": 137,
+          "playtime_forever": 175,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 121,
+          "last_played": 1767573742,
+          "avatar": "332b6a64ca976e817ac1d42c38d4829cafce8d44"
+        },
+        "language": "english",
+        "review": "Another fun board game from SAT-BOX, this time celebrating the Japanese New Year, which is something of a rarity in game form.  The imagery is pleasing, mostly new to western audiences, and the mini games, as per usual, are quite solid.  The music is expectedly appropriate. \n\nThere is a mode where you can just play your favorite mini games, and forget about the board game aspect.  The board itself contains many surprises, and makes it worth the time to play, as does an array of unlockable characters.  Additional bonus coins are awarded at an end ceremony, to add an element of mystery as to the actual winner of each game.\n\nMultiplayer is local, once again.  Up to six players.  NPCs can be added and edited, not only in difficulty but custom appearance as well.  Players can assign their own names to their characters, as well as setting the target for rounds played.\n\nThis one moves a bit faster than 'Casino Party.'  It's a little lighter, and better suited to a quick burst with a friend or two.  This for me, is the better choice.  Hopefully SAT-BOX will keep delivering these board games, and eventually add online functions.",
+        "timestamp_created": 1767395529,
+        "timestamp_updated": 1767395529,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.564812660217285156",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766634598",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYtCiAAAAAFP+IS8sAAAABy5YO0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.235000000000582,
+  "transport_error_count": 0
+}

@@ -1,0 +1,72 @@
+{
+  "appid": 1560160,
+  "requested_at": "2026-09-13T18:43:34.119674+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 72,
+      "total_negative": 3,
+      "total_reviews": 75
+    },
+    "reviews": [
+      {
+        "recommendationid": "215712201",
+        "author": {
+          "steamid": "76561197996139669",
+          "personaname": "selfnoise",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/selfnoise/",
+          "num_games_owned": 672,
+          "num_reviews": 52,
+          "playtime_forever": 192,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 192,
+          "deck_playtime_at_review": 192,
+          "last_played": 1767662165,
+          "avatar": "f24f471cd19e04ee737db0c71e4b53721661898c"
+        },
+        "language": "english",
+        "review": "This game did not make the best first impression: the camera is not tremendously well designed, the movement feels a bit pokey, and performance on Steam Deck is choppy.  \r\n\r\nThat said, after I settled into it I concluded that it does scratch a pleasant itch and the lore and vibes of the game are pretty neat.  You'll probably like it if you liked something like \"A Short Hike\".",
+        "timestamp_created": 1768104762,
+        "timestamp_updated": 1768104762,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.66099315881729126",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1760982897",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWx7eAAAAAFP+Um2sAAAAB5nPC2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9849999999999,
+  "transport_error_count": 0
+}

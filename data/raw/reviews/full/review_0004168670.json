@@ -1,0 +1,67 @@
+{
+  "appid": 4168670,
+  "requested_at": "2026-09-13T20:23:53.830639+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "235045321",
+        "author": {
+          "steamid": "76561198073017999",
+          "personaname": "Dr slippy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/doublewidesuprise/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 54,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 54,
+          "deck_playtime_at_review": 35,
+          "last_played": 1774736985,
+          "avatar": "6d74ac2da795305043bdd63a381cef0d3129230d"
+        },
+        "language": "english",
+        "review": "very excellent game for a game done by one person its well  done HIGHLY RECCOMEND",
+        "timestamp_created": 1789162775,
+        "timestamp_updated": 1789162775,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1767135630",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB5nNCABw=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999994689,
+  "transport_error_count": 0
+}

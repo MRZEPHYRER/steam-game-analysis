@@ -1,0 +1,66 @@
+{
+  "appid": 3880670,
+  "requested_at": "2026-09-13T19:54:14.341270+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "201631007",
+        "author": {
+          "steamid": "76561198842986759",
+          "personaname": "professional psychiatric patient",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/psychiatricpatient/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 6,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 6,
+          "last_played": 1754567902,
+          "avatar": "f4b1a7e38ebe85fe068fb396d0c9e5e427de886d"
+        },
+        "language": "english",
+        "review": "having no affiliation with the creator of this game i can say with confidence that this game sucks ass",
+        "timestamp_created": 1754567915,
+        "timestamp_updated": 1754567915,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.547325074672698975",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754399433",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZDbIAAAAAFP+GDr8AAAAB/0ZSBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.17200000000048,
+  "transport_error_count": 0
+}

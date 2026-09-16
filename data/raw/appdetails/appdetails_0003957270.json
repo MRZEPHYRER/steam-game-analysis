@@ -1,0 +1,194 @@
+{
+  "requested_at": "2026-09-13T06:05:23.882699+00:00",
+  "request_params": {
+    "appids": 3957270,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3957270,
+  "payload": {
+    "3957270": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Bozimer's Rage Game",
+        "steam_appid": 3957270,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Bozimer’s Rage Game</strong> is a minimalist 2D platformer where the environment is your only enemy. </p><p class=\"bb_paragraph\" >Across five color-coded worlds, each with unique mechanics that build upon one another, you’ll face increasingly punishing platforming challenges. Every death teaches you something new, but Bozimer — the smug Rage Demon — will be there to mock your failures and remind you of his control.</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Minimalist platforming challenge</strong> – No enemies, no combat, only environmental hazards.</p></li><li><p class=\"bb_paragraph\" ><strong>Color-coded worlds</strong> – Five worlds inspired by reversed rainbow colors, each introducing new mechanics.</p></li><li><p class=\"bb_paragraph\" ><strong>Progressive difficulty</strong> – Mechanics layer together for a brutal but rewarding final challenge.</p></li><li><p class=\"bb_paragraph\" ><strong>Death as a teacher</strong> – Track your deaths at the end of each level to reflect and improve.</p></li><li><p class=\"bb_paragraph\" ><strong>One final boss</strong> – Face Bozimer himself at the peak of the Soul Spire.</p></li></ul><p class=\"bb_paragraph\" >Do you have the patience to keep your cool, or will you become just another lost soul at Bozimer’s after-party?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Bozimer’s Rage Game</strong> is a minimalist 2D platformer where the environment is your only enemy. </p><p class=\"bb_paragraph\" >Across five color-coded worlds, each with unique mechanics that build upon one another, you’ll face increasingly punishing platforming challenges. Every death teaches you something new, but Bozimer — the smug Rage Demon — will be there to mock your failures and remind you of his control.</p><p class=\"bb_paragraph\" ><strong>Key Features:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Minimalist platforming challenge</strong> – No enemies, no combat, only environmental hazards.</p></li><li><p class=\"bb_paragraph\" ><strong>Color-coded worlds</strong> – Five worlds inspired by reversed rainbow colors, each introducing new mechanics.</p></li><li><p class=\"bb_paragraph\" ><strong>Progressive difficulty</strong> – Mechanics layer together for a brutal but rewarding final challenge.</p></li><li><p class=\"bb_paragraph\" ><strong>Death as a teacher</strong> – Track your deaths at the end of each level to reflect and improve.</p></li><li><p class=\"bb_paragraph\" ><strong>One final boss</strong> – Face Bozimer himself at the peak of the Soul Spire.</p></li></ul><p class=\"bb_paragraph\" >Do you have the patience to keep your cool, or will you become just another lost soul at Bozimer’s after-party?</p>",
+        "short_description": "A minimalist precision 2D platformer where you jump, dodge, and adapt to deadly environmental challenges across color-coded worlds that grow harsher with each step.",
+        "supported_languages": "English, French, Italian, German, Spanish - Latin America",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/1899464859c7e3e639611e267bf370c3bf8fe733/header.jpg?t=1764897654",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/ca5b7fe79f787d08351eb824ea47e2af1731bd26/capsule_231x87.jpg?t=1764897654",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/ca5b7fe79f787d08351eb824ea47e2af1731bd26/capsule_184x69.jpg?t=1764897654",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP<br></li><li><strong>Processor:</strong> 2 GHz<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Graphics:</strong>  Direct X9.0c Compatible Card<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 10 MB available space<br></li><li><strong>Sound Card:</strong>  Standard audio</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "ByteBrine"
+        ],
+        "publishers": [
+          "ByteBrine"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1389795
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Bozimer's Rage Game",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1389795,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Bozimer's Rage Game - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/421790f9302e0f64da841d57c908cc5b4092b069/ss_421790f9302e0f64da841d57c908cc5b4092b069.600x338.jpg?t=1764897654",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/421790f9302e0f64da841d57c908cc5b4092b069/ss_421790f9302e0f64da841d57c908cc5b4092b069.1920x1080.jpg?t=1764897654"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/526ebe83bfe00cfb7c2a0491d3fd32e400180def/ss_526ebe83bfe00cfb7c2a0491d3fd32e400180def.600x338.jpg?t=1764897654",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/526ebe83bfe00cfb7c2a0491d3fd32e400180def/ss_526ebe83bfe00cfb7c2a0491d3fd32e400180def.1920x1080.jpg?t=1764897654"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/79883ce144d07fab7ec5b8e2862a38cfceb764d2/ss_79883ce144d07fab7ec5b8e2862a38cfceb764d2.600x338.jpg?t=1764897654",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/79883ce144d07fab7ec5b8e2862a38cfceb764d2/ss_79883ce144d07fab7ec5b8e2862a38cfceb764d2.1920x1080.jpg?t=1764897654"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/c6401f3cb6a17b3e6cb16b5cf0ce0a7abbaec94d/ss_c6401f3cb6a17b3e6cb16b5cf0ce0a7abbaec94d.600x338.jpg?t=1764897654",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/c6401f3cb6a17b3e6cb16b5cf0ce0a7abbaec94d/ss_c6401f3cb6a17b3e6cb16b5cf0ce0a7abbaec94d.1920x1080.jpg?t=1764897654"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/884489d21ac15bc271b904bb2a38584d3f0a12d7/ss_884489d21ac15bc271b904bb2a38584d3f0a12d7.600x338.jpg?t=1764897654",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/884489d21ac15bc271b904bb2a38584d3f0a12d7/ss_884489d21ac15bc271b904bb2a38584d3f0a12d7.1920x1080.jpg?t=1764897654"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257197471,
+            "name": "Bozimer's Rage Game | Teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257197471/cf16214d3d0ef55f3550199eae9463d13a7eb1d5/movie_600x337.jpg?t=1757827980",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3957270/697443615/a8140134e80915253f73261f7f3111808ff78b25/1757827705/dash_av1.mpd?t=1757827980",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3957270/697443615/a8140134e80915253f73261f7f3111808ff78b25/1757827705/dash_h264.mpd?t=1757827980",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3957270/697443615/a8140134e80915253f73261f7f3111808ff78b25/1757827705/hls_264_master.m3u8?t=1757827980",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "darriku.disk@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3957270?t=1764897654",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3957270/3193474d533aa5e73b2dbed512beb3d246cbfc1d/page_bg_raw.jpg?t=1764897654",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

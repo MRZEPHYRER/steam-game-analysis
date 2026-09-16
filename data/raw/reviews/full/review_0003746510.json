@@ -1,0 +1,66 @@
+{
+  "appid": 3746510,
+  "requested_at": "2026-09-13T19:36:37.511404+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "207743650",
+        "author": {
+          "steamid": "76561198056326988",
+          "personaname": "A1ice[useless] TV",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/FunMove/",
+          "num_games_owned": 4159,
+          "num_reviews": 575,
+          "playtime_forever": 75,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 75,
+          "last_played": 1761597750,
+          "avatar": "397fdc373af287c1f263c3f51aaeb9b97db0e529"
+        },
+        "language": "russian",
+        "review": "Плюсы - работает\nМинусы - не работает вторым окном к таркову\n\nПомогите китайцам построить очередную тысячелетнюю достопримечательность для привлечения туристов и рубилова кэша.",
+        "timestamp_created": 1761597850,
+        "timestamp_updated": 1761597850,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.522827684879302979",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760557274",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZix8AAAAAFP+C7AcAAAAByqr2YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

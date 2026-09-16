@@ -1,0 +1,201 @@
+{
+  "requested_at": "2026-09-13T07:06:31.782427+00:00",
+  "request_params": {
+    "appids": 4136600,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4136600,
+  "payload": {
+    "4136600": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Falconer",
+        "steam_appid": 4136600,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>THE FALCONER:</strong> <strong>Experience the ancient art of falconry</strong> in a vast, open-world setting designed for relaxation and discovery. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/extras/cd2e7029cd28bc9100cd562e5a7f7269.avif?t=1763600095\" width=1560 height=492 /></span></p><p class=\"bb_paragraph\" >You aren't just a hunter—you are part of a team. Command your loyal <strong>English Setter</strong> to track and flush prey from the undergrowth.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/extras/63bff323d0f417518262869ebfa093c9.avif?t=1763600095\" width=1560 height=496 /></span> </p><p class=\"bb_paragraph\" >Then, watch the skies as your magnificent <strong>hawk</strong> dives in a breathtaking chase. Perfect for players seeking a peaceful, single-player experience with a unique and rewarding gameplay loop.</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>THE FALCONER:</strong> <strong>Experience the ancient art of falconry</strong> in a vast, open-world setting designed for relaxation and discovery. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/extras/cd2e7029cd28bc9100cd562e5a7f7269.avif?t=1763600095\" width=1560 height=492 /></span></p><p class=\"bb_paragraph\" >You aren't just a hunter—you are part of a team. Command your loyal <strong>English Setter</strong> to track and flush prey from the undergrowth.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/extras/63bff323d0f417518262869ebfa093c9.avif?t=1763600095\" width=1560 height=496 /></span> </p><p class=\"bb_paragraph\" >Then, watch the skies as your magnificent <strong>hawk</strong> dives in a breathtaking chase. Perfect for players seeking a peaceful, single-player experience with a unique and rewarding gameplay loop.</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "The Falconer is single player casual open world game that lets you explore and hunt rabbits with a bird of prey and dog companion at your side.  &quot;Falconry, the sport of kings&quot;",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/7c176a47f40b583484475274818725310aa00db4/header.jpg?t=1763600095",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/ddd2c7631f5115342c3c8395154ca546892d117c/capsule_231x87.jpg?t=1763600095",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/ddd2c7631f5115342c3c8395154ca546892d117c/capsule_184x69.jpg?t=1763600095",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Win 10<br></li><li><strong>Processor:</strong> Intel Core I5 @ 2.5 GHz or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1060 or Rx 6600 XT<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> Requires a 64-bit processor and operating system</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "ACR Media"
+        ],
+        "publishers": [
+          "ACR Media"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1449353
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Falconer",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1449353,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Falconer - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/feb42397b903b3d4336eea62e50b3e00d4b9482d/ss_feb42397b903b3d4336eea62e50b3e00d4b9482d.600x338.jpg?t=1763600095",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/feb42397b903b3d4336eea62e50b3e00d4b9482d/ss_feb42397b903b3d4336eea62e50b3e00d4b9482d.1920x1080.jpg?t=1763600095"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/4ca9483c7ff94752b534e51d815e5496a5f10918/ss_4ca9483c7ff94752b534e51d815e5496a5f10918.600x338.jpg?t=1763600095",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/4ca9483c7ff94752b534e51d815e5496a5f10918/ss_4ca9483c7ff94752b534e51d815e5496a5f10918.1920x1080.jpg?t=1763600095"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/355ca0343235dd8ef9077bfc923b7b18e8c9fb26/ss_355ca0343235dd8ef9077bfc923b7b18e8c9fb26.600x338.jpg?t=1763600095",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/355ca0343235dd8ef9077bfc923b7b18e8c9fb26/ss_355ca0343235dd8ef9077bfc923b7b18e8c9fb26.1920x1080.jpg?t=1763600095"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/b0d9f2a5f95b75d2254fcbc9da06fd691716bc9c/ss_b0d9f2a5f95b75d2254fcbc9da06fd691716bc9c.600x338.jpg?t=1763600095",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/b0d9f2a5f95b75d2254fcbc9da06fd691716bc9c/ss_b0d9f2a5f95b75d2254fcbc9da06fd691716bc9c.1920x1080.jpg?t=1763600095"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/f4fa872af5b3e13202874f13e924a706c78d44bd/ss_f4fa872af5b3e13202874f13e924a706c78d44bd.600x338.jpg?t=1763600095",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136600/f4fa872af5b3e13202874f13e924a706c78d44bd/ss_f4fa872af5b3e13202874f13e924a706c78d44bd.1920x1080.jpg?t=1763600095"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257222501,
+            "name": "The Falconer Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257222501/272e2b4d5eeb419d47af6800fc4ca1fef1fcab8d/movie_600x337.jpg?t=1762290716",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4136600/1585378947/375e26c5e4ec4e6ccdd8e7215126e91a2f34c152/1761417616/dash_av1.mpd?t=1762290716",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4136600/1585378947/375e26c5e4ec4e6ccdd8e7215126e91a2f34c152/1761417616/dash_h264.mpd?t=1762290716",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4136600/1585378947/375e26c5e4ec4e6ccdd8e7215126e91a2f34c152/1761417616/hls_264_master.m3u8?t=1762290716",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "acrmediadev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4136600?t=1763600095",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4136600?t=1763600095",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

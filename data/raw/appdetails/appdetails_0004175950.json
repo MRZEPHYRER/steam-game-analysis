@@ -1,0 +1,288 @@
+{
+  "requested_at": "2026-09-13T07:16:40.989412+00:00",
+  "request_params": {
+    "appids": 4175950,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4175950,
+  "payload": {
+    "4175950": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Voidnomaly",
+        "steam_appid": 4175950,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Voidnomaly will take you to a mansion invaded by energy from another dimension, which you will have to inspect to determine what is an anomaly, and what is not. Also, if you like to explore, you may end up in different places outside the mansion... but you will probably not like what you find.</p><p class=\"bb_paragraph\" >This is an important job, and you have to complete your quota before your shift ends. No one likes lazy workers.</p><p class=\"bb_paragraph\" >Voidnomaly is a first person horror game (Depending on the fear level selected), which focuses into the search of discrepancies in the rooms of the mansion where you have been hired. In this game, you can adjust the difficulty and fear level, in case you just want to enjoy the search of anomalies without being bothered a lot.</p><p class=\"bb_paragraph\" >You will face creatures that want to play with you, with events that make no sense, and you will have to do it alone. Will you survive 4 days and receive your reward, or will you quit before finishing?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Voidnomaly will take you to a mansion invaded by energy from another dimension, which you will have to inspect to determine what is an anomaly, and what is not. Also, if you like to explore, you may end up in different places outside the mansion... but you will probably not like what you find.</p><p class=\"bb_paragraph\" >This is an important job, and you have to complete your quota before your shift ends. No one likes lazy workers.</p><p class=\"bb_paragraph\" >Voidnomaly is a first person horror game (Depending on the fear level selected), which focuses into the search of discrepancies in the rooms of the mansion where you have been hired. In this game, you can adjust the difficulty and fear level, in case you just want to enjoy the search of anomalies without being bothered a lot.</p><p class=\"bb_paragraph\" >You will face creatures that want to play with you, with events that make no sense, and you will have to do it alone. Will you survive 4 days and receive your reward, or will you quit before finishing?</p>",
+        "short_description": "You finally got a good job, with an incredible pay for just 4 days of work. Get into the mansion, find the anomalies, complete your daily quota, and leave. The company said there isn't any life or death risk, but you may face &quot;weird&quot; things. It doesn't sound too dangerous. Easy-peasy.... right?",
+        "supported_languages": "English, Spanish - Spain",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/13afa8b31fec850a72dd43105eca4de7169761d2/header.jpg?t=1765469819",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/2082b404d97c57af02d2025ffe153806ef041356/capsule_231x87.jpg?t=1765469819",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/2082b404d97c57af02d2025ffe153806ef041356/capsule_184x69.jpg?t=1765469819",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64 bits<br></li><li><strong>Processor:</strong> Intel i5-7500<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX™ 1060<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64 bits<br></li><li><strong>Processor:</strong> Intel i7-9700K<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX™ 3060<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Sabacon Games"
+        ],
+        "publishers": [
+          "Sabacon Games"
+        ],
+        "demos": [
+          {
+            "appid": 4192220,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1462808
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Voidnomaly",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1462808,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Voidnomaly - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/e91c52163e8a11a2d3770c9c8deb5f22de2b4d70/ss_e91c52163e8a11a2d3770c9c8deb5f22de2b4d70.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/e91c52163e8a11a2d3770c9c8deb5f22de2b4d70/ss_e91c52163e8a11a2d3770c9c8deb5f22de2b4d70.1920x1080.jpg?t=1765469819"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/a04eac3b1deeabc3c98d526f57bfe455b70d9eb3/ss_a04eac3b1deeabc3c98d526f57bfe455b70d9eb3.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/a04eac3b1deeabc3c98d526f57bfe455b70d9eb3/ss_a04eac3b1deeabc3c98d526f57bfe455b70d9eb3.1920x1080.jpg?t=1765469819"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/3cad14c14d051bd340cafc8bba0aa7107784900d/ss_3cad14c14d051bd340cafc8bba0aa7107784900d.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/3cad14c14d051bd340cafc8bba0aa7107784900d/ss_3cad14c14d051bd340cafc8bba0aa7107784900d.1920x1080.jpg?t=1765469819"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/79d7a947eb87e48a847a3333f9a6aa584c9a6a7b/ss_79d7a947eb87e48a847a3333f9a6aa584c9a6a7b.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/79d7a947eb87e48a847a3333f9a6aa584c9a6a7b/ss_79d7a947eb87e48a847a3333f9a6aa584c9a6a7b.1920x1080.jpg?t=1765469819"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/2af0e9f0bf74a5c652c3433d8db0ac93295fc148/ss_2af0e9f0bf74a5c652c3433d8db0ac93295fc148.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/2af0e9f0bf74a5c652c3433d8db0ac93295fc148/ss_2af0e9f0bf74a5c652c3433d8db0ac93295fc148.1920x1080.jpg?t=1765469819"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/313d5f9fa9d222b6bddc23f9cc236c1d2229a551/ss_313d5f9fa9d222b6bddc23f9cc236c1d2229a551.600x338.jpg?t=1765469819",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175950/313d5f9fa9d222b6bddc23f9cc236c1d2229a551/ss_313d5f9fa9d222b6bddc23f9cc236c1d2229a551.1920x1080.jpg?t=1765469819"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257232752,
+            "name": "Voidnomaly trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257232752/ecb9b4bfddc0bd1c5768300ecd3bf16d187e2808/movie_600x337.jpg?t=1763807042",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4175950/376367087/50b6db7bfe333b1574d23b965d1d4adc251d5815/1763321328/dash_av1.mpd?t=1763807042",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4175950/376367087/50b6db7bfe333b1574d23b965d1d4adc251d5815/1763321328/dash_h264.mpd?t=1763807042",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4175950/376367087/50b6db7bfe333b1574d23b965d1d4adc251d5815/1763321328/hls_264_master.m3u8?t=1763807042",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "ebcdac0c5619d24adc4a3762ae2c4317c6c79913.jpg",
+              "localized_name": "Good ending?",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Good ending?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/ebcdac0c5619d24adc4a3762ae2c4317c6c79913.jpg"
+            },
+            {
+              "icon": "eddb3bf8c8721f565d6dc3110d516f0fc160f632.jpg",
+              "localized_name": "Too lazy to be in danger",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Too lazy to be in danger",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/eddb3bf8c8721f565d6dc3110d516f0fc160f632.jpg"
+            },
+            {
+              "icon": "3480e16b96d3c11abce786ebfa427d67fc3f0f9a.jpg",
+              "localized_name": "That's asking for a lot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "That's asking for a lot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/3480e16b96d3c11abce786ebfa427d67fc3f0f9a.jpg"
+            },
+            {
+              "icon": "7620adcdaac0953e626b87996a9dbae647dd7159.jpg",
+              "localized_name": "Face a god",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Face a god",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/7620adcdaac0953e626b87996a9dbae647dd7159.jpg"
+            },
+            {
+              "icon": "9864e36b966baffe89f8f173170ecc338a9bf23e.jpg",
+              "localized_name": "Darkness",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Darkness",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/9864e36b966baffe89f8f173170ecc338a9bf23e.jpg"
+            },
+            {
+              "icon": "af5333b2d03eb0eddac855dd4e6be91f47ff1b17.jpg",
+              "localized_name": "Clipped",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Clipped",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/af5333b2d03eb0eddac855dd4e6be91f47ff1b17.jpg"
+            },
+            {
+              "icon": "fd3cef7b00a424ffb0b0d6611fb045f1973a88d8.jpg",
+              "localized_name": "Lost in the void",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Lost in the void",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4175950/fd3cef7b00a424ffb0b0d6611fb045f1973a88d8.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 11, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "sabacon.games@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4175950?t=1765469819",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4175950?t=1765469819",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "This game may be scary for younger audiences and have a few ugly monsters."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt\nDerbe Sprache"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nPenggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

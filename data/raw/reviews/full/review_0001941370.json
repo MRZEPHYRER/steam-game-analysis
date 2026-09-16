@@ -1,0 +1,75 @@
+{
+  "appid": 1941370,
+  "requested_at": "2026-09-13T18:45:56.519605+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 52,
+      "total_negative": 4,
+      "total_reviews": 56
+    },
+    "reviews": [
+      {
+        "recommendationid": "211332612",
+        "author": {
+          "steamid": "76561197968613768",
+          "personaname": "Ringo",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/ss5ringo/",
+          "num_games_owned": 967,
+          "num_reviews": 120,
+          "playtime_forever": 166,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 83,
+          "last_played": 1764597476,
+          "avatar": "6febceda4fe272f8b5252ae08d8215fd3f02f372"
+        },
+        "language": "english",
+        "review": "Pretty fun beat em up with some pretty great art and fun/silly animations for all the characters. The story is pretty simple but got several chuckles out of me. It does NOT take itself seriously. There are a few choices to make during a playthrough that leads to different stages, enemies and bosses. There are also a decent amount of unlocks such as various character galleries, jukebox, scene viewers, cheats, etc. which cost gold (in game currency) to unlock. A single playthrough takes about 1-1.5 hours depending on difficulty/player skill. \n\nI only unlocked Viva's gallery (the blue Diva) and while the art is nice, nothing is especially \"spicy\". So unless there's something in other galleries this game doesn't have THAT kind of \"sexual content\" (per user tags).",
+        "timestamp_created": 1764304685,
+        "timestamp_updated": 1764304685,
+        "voted_up": true,
+        "votes_up": 37,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.795530498027801514",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764294487",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 2
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUFuMAAAAAFP+l0+2AAAAB04JWmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

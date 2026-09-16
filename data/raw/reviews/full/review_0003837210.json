@@ -1,0 +1,71 @@
+{
+  "appid": 3837210,
+  "requested_at": "2026-09-13T19:47:02.597103+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 9,
+      "total_negative": 0,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "213104137",
+        "author": {
+          "steamid": "76561198474991994",
+          "personaname": "Lobster4569",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198474991994/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 295,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 295,
+          "last_played": 1765517053,
+          "avatar": "788087b4a836b070550851d0c0f04cb9558b86cc"
+        },
+        "language": "schinese",
+        "review": "在The Sequence和缺氧的缝隙中，帮我挠了我不知道有的痒的游戏。旋转，翻转，和调整位置，看似简单，但是想要最优化布局真的容易一不小心投入数个小时。数值设计在前期会比较惊心动魄，而如果“玩懂了”则基本不会有什么问题，让人觉得自己是个天才。\r\n在稳定正产出后，想要达成多高的产出基本就变成了玩家自己来决定的事情。由于地图上已存在的大量管道，玩家的考虑会指数化地复杂，而收获不一定显而易见地充满除了炫耀资本（当检测要求为100，而你花了30分钟将每回合收入从16K调整成20k）。所以如果你也有强迫性的优化冲动，或者对于触发事件中的引用小巧思会会心一笑，这个游戏会让你很喜欢。",
+        "timestamp_created": 1765530119,
+        "timestamp_updated": 1765530119,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.563492059707641602",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765159033",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYuuwAAAAAFP+IIIGAAAAB54PasBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3177210,
+  "requested_at": "2026-09-13T19:06:04.443243+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 40,
+      "total_negative": 4,
+      "total_reviews": 44
+    },
+    "reviews": [
+      {
+        "recommendationid": "229756052",
+        "author": {
+          "steamid": "76561199600571162",
+          "personaname": "炸毛百事",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199600571162/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 202,
+          "playtime_last_two_weeks": 47,
+          "playtime_at_review": 89,
+          "last_played": 1788754559,
+          "avatar": "e24cc33bedb3a47c8fb7067aca618071e840c190"
+        },
+        "language": "schinese",
+        "review": "很经典的pvp自走棋玩法，希望可以增加一些新鲜的玩法",
+        "timestamp_created": 1783333107,
+        "timestamp_updated": 1783333107,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752426420",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB0ybnsBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

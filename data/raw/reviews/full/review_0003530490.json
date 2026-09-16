@@ -1,0 +1,66 @@
+{
+  "appid": 3530490,
+  "requested_at": "2026-09-13T19:20:47.896714+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 33,
+      "total_negative": 1,
+      "total_reviews": 34
+    },
+    "reviews": [
+      {
+        "recommendationid": "204438768",
+        "author": {
+          "steamid": "76561197991053032",
+          "personaname": "Guybrush",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197991053032/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 579,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 579,
+          "last_played": 1757975364,
+          "avatar": "036409b08d38ebfc353e228073676ddca7ecb325"
+        },
+        "language": "english",
+        "review": "Finished the game in 9hrs so I hope they release more content, but albeit a bit short its already worth the price. Its a clean roguelite deckbuilder with nice cheesy pixel graphics. It starts out pretty hard, with a steep learning curve like the old days of gaming, but then you get the hang of it.",
+        "timestamp_created": 1757976576,
+        "timestamp_updated": 1757976576,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755244483",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABwz++LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

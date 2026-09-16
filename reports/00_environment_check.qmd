@@ -1,0 +1,28 @@
+---
+title: "Steam Game Analysis Environment Check"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+source("../R/db_connect.R")
+counts <- with_steam_db(function(con) {
+  counts <- DBI::dbGetQuery(
+    con,
+    paste(
+      "SELECT",
+      "(SELECT COUNT(*) FROM games) AS games,",
+      "(SELECT COUNT(*) FROM review_snapshots) AS review_snapshots,",
+      "(SELECT COUNT(*) FROM vw_model_sample_20) AS model_sample"
+    )
+  )
+  stopifnot(
+    counts$games[[1]] == 3000,
+    counts$review_snapshots[[1]] == 3000,
+    counts$model_sample[[1]] == 844
+  )
+  counts
+})
+counts
+```

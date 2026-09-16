@@ -1,0 +1,66 @@
+{
+  "appid": 3453330,
+  "requested_at": "2026-09-13T19:16:51.308119+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 8,
+      "total_negative": 8,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "225542430",
+        "author": {
+          "steamid": "76561198403408247",
+          "personaname": "Trigger_Happy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/8md7jh/",
+          "num_games_owned": 0,
+          "num_reviews": 77,
+          "playtime_forever": 812,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 661,
+          "last_played": 1780060586,
+          "avatar": "aec0a15b2b15ca6fe7d8ce1785967222128fa655"
+        },
+        "language": "japanese",
+        "review": "俺の宗教で全米制覇なガチャゲー\nやることは\n・戦術カードを１枚引いてアメリカのどっかに置く\n・イベントカードを引いてその指示に従う\n・イベントカードで次の日がめくれたら、置いた戦術カードに書かれた分の収入なり支出なりが発生してドロー権１を得る\n以上。\n\nたいていの戦術カードにはデメリットがついているのと、州を制覇するとカードの効果が２～３倍になるのだがその際デメリットも同様の係数がかかるところに戦略っぽさを見いだせはするのだが、\n何が引けるかは運次第かつ山札が切れるとゲームオーバーな割に山札の枚数が結構タイトなためカードの破棄が事実上無理なので出たものを順繰りに並べがちになり、\n結局全米制覇したければ鬼ヅモが続くように自分の神に祈るしかなかったりする（その様はある意味カルト教祖的ではある）\n正直それで２０００円はちょっとどうよと思わんでもない\n\n雰囲気はよいのでセールが来たときに摘んでいく分にはまぁ良さげ",
+        "timestamp_created": 1778829836,
+        "timestamp_updated": 1778829836,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754042558",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB+kbDcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

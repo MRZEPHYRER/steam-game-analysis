@@ -1,0 +1,66 @@
+{
+  "appid": 3715440,
+  "requested_at": "2026-09-13T19:33:48.892106+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "199700840",
+        "author": {
+          "steamid": "76561198113040161",
+          "personaname": "pablens",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198113040161/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 115,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 115,
+          "last_played": 1752406131,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "spanish",
+        "review": "Me ha recordado muchísimo a juegos de mi época. Ghost goblins, Sir Fred...La verdad es que me ha encantado recordar esos momentos inolvidables. Es bastante difícil, como eran los juegos originales, pero mis reflejos ya no son lo mismo jaja. \nMe estoy divirtiendo muchísimo jugándolo. Gracias a los desarrolladores por traerme este soplo de nostalgia. \nMe voy a permitir hacer una petición...Abu simbel, camelot warriors, phantomas...hay un montón de clásicos por ahí para que sigáis por esta senda. Yo personalmente estaría encantado de jugarlos.",
+        "timestamp_created": 1752406480,
+        "timestamp_updated": 1752406480,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752213434",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB4lub5BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

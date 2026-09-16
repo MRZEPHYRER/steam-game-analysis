@@ -1,0 +1,66 @@
+{
+  "appid": 3906690,
+  "requested_at": "2026-09-13T19:58:02.656020+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "221493375",
+        "author": {
+          "steamid": "76561198056707990",
+          "personaname": "crasisa",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/crasisa/",
+          "num_games_owned": 196,
+          "num_reviews": 16,
+          "playtime_forever": 528,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13,
+          "last_played": 1781180726,
+          "avatar": "51ab654565e3a88fd8981d09cce4cb4c36475027"
+        },
+        "language": "turkish",
+        "review": "I’ve been doing diamond painting for two years now. Whoever developed this game clearly understands the nuances of this hobby. From the peeling of the protective layer to the specific sound made when the pen meets the adhesive, everything has been captured beautifully. There are many diamond painting games on mobile, but none are this detailed; these features are implemented perfectly and accurately.\n\nThose who share this hobby know that it can be physically demanding. Personally, I have to stop after 20 minutes due to various aches and pains. Even if it's virtual, this game is satisfying enough for me. Whenever I can't work on a physical canvas, this game will be my go-to spot.",
+        "timestamp_created": 1774277739,
+        "timestamp_updated": 1774277739,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757008955",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB/h/fMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

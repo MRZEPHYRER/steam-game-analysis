@@ -1,0 +1,66 @@
+{
+  "appid": 3160110,
+  "requested_at": "2026-09-13T19:05:36.861059+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 2,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "216625645",
+        "author": {
+          "steamid": "76561198075249667",
+          "personaname": "Leon Magnus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198075249667/",
+          "num_games_owned": 1094,
+          "num_reviews": 43,
+          "playtime_forever": 377,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 377,
+          "last_played": 1769347919,
+          "avatar": "b698f81978cd408b5e210f5b5c09d308ae75165b"
+        },
+        "language": "brazilian",
+        "review": "Recomendaria este jogo pra todo mundo que gosta MUITO de insetos e jogos indie. Caso contrário, não acho uma boa indicação. Vou resumir aqui os prós e contras, lembrando que uma obra sempre é mais do que a soma de suas características, e que muitos dos \"prós\" e \"contras\" são baseados na MINHA opinião, que pode ser diferente da sua. Então um pró meu pode ser um contra seu. Mas vamos lá:\n\n=======================================================================\nFATOS\n=======================================================================\n-O jogo é de tática com mapa de \"colméia\", ou seja, as \"casas\" são hexagonais;\n-O combate é em tempo real, você se transporta para outro cenário junto com as unidades próximas e faz um combate em conjunto;\n-Segue muito o estilo dos primeiros SD Gundam, onde bases dão recursos por turno e os recursos são usados para construir naves, que neste jogo têm temática de insetos;\n-O jogo é um port de mobile;\n-O jogo faz vários trocadilhos com nomes de insetos, e tem tradução PT-BR, A história é bem simples, sem muitos diálogos;\n============================================================\nOPINIÃO\n=======================================================================\nPrós:\n-Temática de insetos! Foi o que me fez comprar o jogo, e não conheço muitos jogos bons com esta temática dentro dos gêneros da minha preferência (RPG, Tática, Estratégia), sendo assim uma das poucas opções aqui na Steam;\n-Jogabilidade simples, fácil de aprender para quem não tem experiência com o gênero;\n-O character design eu achei atraente, mas há alguns poréns. Mais detalhes nos \"contras\";\n-Algumas naves possuem habilidades criativas, a ideia do jogo por si só é criativa, mas é difícil dizer que é \"diferente\" com a enxurrada de jogos que recebemos todos os dias. Sempre parece alguma coisa, né. Mas me chamou a atenção do mesmo jeito.\n-Gosto desse tipo de piadas bobas com trocadilhos (o próprio nome do jogo é uma brincadeira com Starship Troopers, ou Tropas Estelares);\n-Suporte tem respondido rapidamente e tenta ajudar. Já corrigiram um dos bugs que mencionei (vou remover da review), o patch ainda não saiu mas deve sair logo,\n\n======================================================================\n\nContras:\n-O fator tático chega a ser quase irrelevante quando levamos em consideração que se tu for um bom piloto pode acabar com um exército inteiro com poucas unidades simplesmente porque causou muito mais dano do que sofreu. Outros jogos parecidos têm o mesmo tipo de gameplay, mas isso aqui se agrava pelo fato mencionado no próximo contra;\n-Só é possível realizar um ataque por turno. Se atacar, o turno acaba. Se tu tem 40 unidades, não importa. Somente um ataque. Se não moveu as outras, só vai mover no próximo turno. O mesmo vale para os inimigos. Isso minimiza ainda mais a questão de lutar contra exércitos gigantes com poucas unidades, pois estas duas coisas beneficiam MUITO que tu fique tartarugando em volta da base recuperando vida até que o inimigo perca todo seu exercito tentando brigar atacando apenas uma vez por turno em um local onde não consegue acumular aliados;\n-Por este mesmo motivo, o jogo acaba se tornando demasiado lento. Combates que acabariam em poucos turnos ficam muito longos porque não se pode atacar muitas vezes, dando tempo de se criar mais unidades que no final das contas só vão arrastar mais o jogo.\n-Outro problema se dá na QUITINA, um recurso utilizado para se fabricar a maioria das naves e geralmente só podemos coletar ao derrotar inimigos. Ou seja, quem está perdendo geralmente vai continuar perdendo, pois precisaria vencer combates para coletar o recurso;\n-O port para PC veio com alguns probleminhas pequenos, mas podem atrapalhar um pouco. Temos alguns pequenos bugs, como telas que não fecham quando deveriam, a repetição de diálogos fora de hora, configuração inicial dos controles é horrenda. Precisa ajustar antes de jogar e não é muito bem explicado;\n-Falando em idioma, a maior parte das piadas se perde em PT-BR. Não houve nenhuma adaptação das piadas e trocadilhos, manteve-se todos os nomes próprios em inglês, o que eu consideraria coerente caso eles não fizessem parte das piadas;\n-Como grande parte de jogos indies, ele está repleto de boas ideias, mas mal implementadas. Muitas unidades têm usos específicos demais e não fazem absolutamente nada além de usar uma única habilidade que nem sempre é útil;\n-O combate, embora interessante, possui diversos problemas, como a falta de feedback visual e sonoro do que está acontecendo, e os elementos na tela não nos dão uma visão muito boa das unidades próximas.\n-A cada batalha vencida, a nave que VOCÊ CONTROLA passa de nível, aumentando o número de \"drones\" (dá pra dizer que seriam os \"fighters\" da nave) que a nave leva em combate. NUNCA vi fazer diferença alguma, exceto quando são os zilhões de drones dos inimigos.\n\n======================================================================\nVEREDITO\n======================================================================\n\nO jogo é péssimo? Não. O jogo é até razoável, mas certamente não é condizente com a atual votação \"Positiva\" da Steam. Se precisasse dar uma nota, seria algo entre 6 e 6,5 (lembrando que eu considero acima de 5 positivo). \nIndicaria a compra apenas em promoção, e apenas se gostar muito do tema ou deste tipo de piada. Eu tenho gostos meio curiosos, então não me arrependo da compra, até porque foi baratinho na Winter Sale, mas não recomendaria.\n\n======================================================================\nEDIT: GAMEBREAKING BUG\n======================================================================\n\nAparentemente, por motivos desconhecidos, estou preso em uma batalha obrigatória para o progresso onde ao começar a batalha, o jogo DESLIGA o PC! Este é um bug inédito, nunca tinha visto algo do gênero na vida (e olha que estou vivo há muito tempo). Este bug SEMPRE ocorre. Não é problema de desempenho, eu rodo jogos pesadíssimos, lançamentos de 2025, nunca ocorreu algo do gênero. Apenas neste jogo.",
+        "timestamp_created": 1769191678,
+        "timestamp_updated": 1769559421,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757959065",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB9nq66Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4103720,
+  "requested_at": "2026-09-13T20:19:04.850589+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209677975",
+        "author": {
+          "steamid": "76561198068478923",
+          "personaname": "Rika",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198068478923/",
+          "num_games_owned": 303,
+          "num_reviews": 112,
+          "playtime_forever": 51,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 51,
+          "last_played": 1763626288,
+          "avatar": "0331a7152c782bdf8a7f1a40fa3db8a5054382a2"
+        },
+        "language": "english",
+        "review": "is a good game but sadly not for me (sorry for refunding)\nit has a very nice art style, characters and a good music & sound\nbut the problem it's too easy for me (even on the hardest difficulty x3)\nalso I didn't like most the skills and it doesn't have that much to pick \n(I only take what ever gives attack damage and speed)\nalso the font type is very hard for me to read (as someone whose second language is English)\nhowever, I still recommend trying the game",
+        "timestamp_created": 1763628019,
+        "timestamp_updated": 1763628019,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.555468916893005371",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762513571",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY4/+AAAAAFP+HGZuAAAAB36e2fBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

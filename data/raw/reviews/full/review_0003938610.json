@@ -1,0 +1,66 @@
+{
+  "appid": 3938610,
+  "requested_at": "2026-09-13T20:02:50.438370+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "204503272",
+        "author": {
+          "steamid": "76561197965180950",
+          "personaname": "Nepo Baby Failson",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/sapphon/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 223,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 152,
+          "last_played": 1758685403,
+          "avatar": "79f4ef477f7df2f8b7a7e1ecfa12723ee1206ae9"
+        },
+        "language": "english",
+        "review": "Great work, everybody!",
+        "timestamp_created": 1758053842,
+        "timestamp_updated": 1758053842,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758042873",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFsAAAAAAAAFP+AAAAAAAAB4jo+MBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.141000000000531,
+  "transport_error_count": 0
+}

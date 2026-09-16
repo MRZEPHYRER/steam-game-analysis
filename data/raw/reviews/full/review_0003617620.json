@@ -1,0 +1,71 @@
+{
+  "appid": 3617620,
+  "requested_at": "2026-09-13T19:26:19.935624+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1112,
+      "total_negative": 65,
+      "total_reviews": 1177
+    },
+    "reviews": [
+      {
+        "recommendationid": "206535455",
+        "author": {
+          "steamid": "76561199045665088",
+          "personaname": "NuclearFurret",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/nuclearfurret/",
+          "num_games_owned": 65,
+          "num_reviews": 6,
+          "playtime_forever": 1518,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 297,
+          "last_played": 1783774986,
+          "avatar": "9d037896c27bb57d7cdacc492120f9a42c04d229"
+        },
+        "language": "english",
+        "review": "You know how in Yu-Gi-Oh where you play a card, spend 4 minutes explaining it's effects and nuances and it ultimately turns into a nuclear bomb that decimates the opponent? \nThis game brings that feeling, though the balancing COULD use a bit of tweaking. It is in Early Access after all, so I expect some workarounds.\n10/10 I can nuke people with my x4 Fever 18 Candy Cost card that generates enough stars that makes the Zodiac three times while costing NOTHING thanks to my Chef Hats/Neckties\n\nI wish we gain the ability to save down cards we made and name them though. I feel like it'll be awesome for kids to just name their cards",
+        "timestamp_created": 1760266407,
+        "timestamp_updated": 1760266407,
+        "voted_up": true,
+        "votes_up": 50,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.82545846700668335",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759773723",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTfaeAAAAAFP+pqJuAAAAB/se+TBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

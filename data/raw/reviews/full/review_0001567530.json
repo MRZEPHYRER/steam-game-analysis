@@ -1,0 +1,73 @@
+{
+  "appid": 1567530,
+  "requested_at": "2026-09-13T18:43:36.362069+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 17,
+      "total_negative": 2,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "222680458",
+        "author": {
+          "steamid": "76561198416393179",
+          "personaname": "MaraoDemon",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198416393179/",
+          "num_games_owned": 1174,
+          "num_reviews": 311,
+          "playtime_forever": 475,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 475,
+          "last_played": 1775493623,
+          "avatar": "e73e74a65dca67916ca3b996222d746726bf2035"
+        },
+        "language": "russian",
+        "review": "Vlad Circus: Curse of Asmodeus — это point-and-click хоррор-квест, который сочетает элементы выживания и психологического напряжения. Игра является приквелом-сиквелом к Vlad Circus: Descend Into Madness (2022) и рассказывает историю Йозефа Петреску, пытающегося восстановить память и одолеть демона Асмодея.\r\n\r\nCurse of Asmodeus может понравиться поклонникам первой части, желающим узнать больше о лоре, а также ценителям простых квестов с атмосферной подачей. Тем, кто ищет более глубокий геймплей или долгосрочное погружение, игра может не подойти.\r\n\r\nПлюсы:\r\n- интересный сюжет, который проливает свет на события первой части и держит в напряжении;\r\n- оригинальная механика перемещения между временными линиями через зеркала;\r\n- атмосферная подача с мрачной графикой и музыкой;\r\n- использование психологических элементов, где ужас исходит не только от сверхъестественного, но и от человеческих страхов, страданий и моральных провалов главного героя.\r\n\r\nМинусы:\r\n- простота механик — это типичный point-and-click с инвентарными головоломками, без инноваций или интересных испытаний;\r\n- линейность — одна концовка, отсутствие вариативности, секретов или влияния выбора игрока на сюжет; \r\n- некоторые диалоги, которые могут казаться неуклюжими, возможно, из-за проблем с переводом; \r\n- отдельные элементы геймплея (например, столкновения с крысами или осколками стекла), которые иногда кажутся неуместными в общем контексте повествования и окружения; \r\n- относительно высокая цена при относительно коротком времени прохождения.",
+        "timestamp_created": 1775494266,
+        "timestamp_updated": 1775494266,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756160892",
+        "hardware": {
+          "system_ram": "32419",
+          "os": "Windows 11",
+          "cpu_name": "AMD Ryzen 5 7500F 6-Core Processor             ",
+          "adapter_description": "AMD Radeon RX 9070 XT",
+          "vram_size": 16304
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZIO6AAAAAFP+Fk6MAAAAB62LrRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

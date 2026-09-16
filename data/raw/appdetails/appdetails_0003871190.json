@@ -1,0 +1,350 @@
+{
+  "requested_at": "2026-09-12T17:39:00.768639+00:00",
+  "request_params": {
+    "appids": 3871190,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3871190,
+  "payload": {
+    "3871190": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "AWSS",
+        "steam_appid": 3871190,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >AWSS is a first person shooter with low-poly graphics and dark atmosphere. A Nightmare of bullets and chaos.</p><p class=\"bb_paragraph\" >- Various opponents</p><p class=\"bb_paragraph\" >- 6 types of  weapons with different attachments</p><p class=\"bb_paragraph\" >-good shooting mechanics</p><p class=\"bb_paragraph\" >-Maps with open areas</p><p class=\"bb_paragraph\" >-Low-poly cartoonish visuals</p><p class=\"bb_paragraph\" >-gloomy atmosphere</p><p class=\"bb_paragraph\" >-upgrade system for player</p><p class=\"bb_paragraph\" >You are a team of mercenaries hired to retrieve a high-value data case from a contaminated zone. Fight through hostile forces, infiltrate the secure laboratory, and fight your way to the extraction point.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >AWSS is a first person shooter with low-poly graphics and dark atmosphere. A Nightmare of bullets and chaos.</p><p class=\"bb_paragraph\" >- Various opponents</p><p class=\"bb_paragraph\" >- 6 types of  weapons with different attachments</p><p class=\"bb_paragraph\" >-good shooting mechanics</p><p class=\"bb_paragraph\" >-Maps with open areas</p><p class=\"bb_paragraph\" >-Low-poly cartoonish visuals</p><p class=\"bb_paragraph\" >-gloomy atmosphere</p><p class=\"bb_paragraph\" >-upgrade system for player</p><p class=\"bb_paragraph\" >You are a team of mercenaries hired to retrieve a high-value data case from a contaminated zone. Fight through hostile forces, infiltrate the secure laboratory, and fight your way to the extraction point.</p>",
+        "short_description": "Immerse yourself in a first-person shooter where Low-poly cartoonish visuals clash with a sinister, gloomy atmosphere. Armed with a massive arsenal of weapons, you’ll blast through hordes of Enemies, infiltrate a sinister lab, and fight your way to the escape point.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/687e029bba3284542e989f0a9c19571d390ccaf6/header.jpg?t=1766315872",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/f6a41cfe13f8b98ad501bcad0fc3501fc4e571d5/capsule_231x87.jpg?t=1766315872",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/f6a41cfe13f8b98ad501bcad0fc3501fc4e571d5/capsule_184x69.jpg?t=1766315872",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> quad-core Intel or AMD processor<br></li><li><strong>Memory:</strong> 8  GB RAM<br></li><li><strong>Graphics:</strong> DirectX 11 or 12 compatible<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 14 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64-bit<br></li><li><strong>Processor:</strong> 8-core or higher<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA RTX 3060 or radeon rx 6600 xt<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 14 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Nesbitt Corporation "
+        ],
+        "publishers": [
+          "Nesbitt Corporation "
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1360795
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy AWSS",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1360795,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "AWSS - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/02c2712f3456f2187d469489e8c3030e3740ccf5/ss_02c2712f3456f2187d469489e8c3030e3740ccf5.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/02c2712f3456f2187d469489e8c3030e3740ccf5/ss_02c2712f3456f2187d469489e8c3030e3740ccf5.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/dd28eeff9509790455e96916f740aad483e32b6c/ss_dd28eeff9509790455e96916f740aad483e32b6c.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/dd28eeff9509790455e96916f740aad483e32b6c/ss_dd28eeff9509790455e96916f740aad483e32b6c.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/90483cbea03e51b186fe5b8dbeffc24a24da438c/ss_90483cbea03e51b186fe5b8dbeffc24a24da438c.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/90483cbea03e51b186fe5b8dbeffc24a24da438c/ss_90483cbea03e51b186fe5b8dbeffc24a24da438c.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/b517fd21daed3cc5b803881f5ee0ab3e3230ddd0/ss_b517fd21daed3cc5b803881f5ee0ab3e3230ddd0.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/b517fd21daed3cc5b803881f5ee0ab3e3230ddd0/ss_b517fd21daed3cc5b803881f5ee0ab3e3230ddd0.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/c2bb89bbeafa51faf2974d9406766fac604fc010/ss_c2bb89bbeafa51faf2974d9406766fac604fc010.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/c2bb89bbeafa51faf2974d9406766fac604fc010/ss_c2bb89bbeafa51faf2974d9406766fac604fc010.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/beff54831f5823a072753cb98d97b4f3f880f85c/ss_beff54831f5823a072753cb98d97b4f3f880f85c.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/beff54831f5823a072753cb98d97b4f3f880f85c/ss_beff54831f5823a072753cb98d97b4f3f880f85c.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/941be2ec136719fcdba2491151473e786833a30e/ss_941be2ec136719fcdba2491151473e786833a30e.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/941be2ec136719fcdba2491151473e786833a30e/ss_941be2ec136719fcdba2491151473e786833a30e.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/ae45e56e74e03227e716f1e6a4f275f619f12b3b/ss_ae45e56e74e03227e716f1e6a4f275f619f12b3b.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/ae45e56e74e03227e716f1e6a4f275f619f12b3b/ss_ae45e56e74e03227e716f1e6a4f275f619f12b3b.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/afa27aecd2521ef9320cd51ea328cb9334f90853/ss_afa27aecd2521ef9320cd51ea328cb9334f90853.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/afa27aecd2521ef9320cd51ea328cb9334f90853/ss_afa27aecd2521ef9320cd51ea328cb9334f90853.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/374ae04cec47806181e9089221129a844ea41d65/ss_374ae04cec47806181e9089221129a844ea41d65.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/374ae04cec47806181e9089221129a844ea41d65/ss_374ae04cec47806181e9089221129a844ea41d65.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/230714b4aff5a6226da8e9ad9046edd84e28bd8a/ss_230714b4aff5a6226da8e9ad9046edd84e28bd8a.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/230714b4aff5a6226da8e9ad9046edd84e28bd8a/ss_230714b4aff5a6226da8e9ad9046edd84e28bd8a.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/4625cfe0f3c3083dd5886aed68544794abbe1074/ss_4625cfe0f3c3083dd5886aed68544794abbe1074.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/4625cfe0f3c3083dd5886aed68544794abbe1074/ss_4625cfe0f3c3083dd5886aed68544794abbe1074.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/bebea89cf0270d1941bde3f73f2e916a1ae82a5a/ss_bebea89cf0270d1941bde3f73f2e916a1ae82a5a.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/bebea89cf0270d1941bde3f73f2e916a1ae82a5a/ss_bebea89cf0270d1941bde3f73f2e916a1ae82a5a.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/f306fbe2a2d2bee08635d595b76ad4ce911bee6b/ss_f306fbe2a2d2bee08635d595b76ad4ce911bee6b.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/f306fbe2a2d2bee08635d595b76ad4ce911bee6b/ss_f306fbe2a2d2bee08635d595b76ad4ce911bee6b.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/c994f5a88ebf4b54480c3045f6e8474190cc31ec/ss_c994f5a88ebf4b54480c3045f6e8474190cc31ec.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/c994f5a88ebf4b54480c3045f6e8474190cc31ec/ss_c994f5a88ebf4b54480c3045f6e8474190cc31ec.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/277edacaed6a5fdd39688775ade81f62b52f7ac6/ss_277edacaed6a5fdd39688775ade81f62b52f7ac6.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/277edacaed6a5fdd39688775ade81f62b52f7ac6/ss_277edacaed6a5fdd39688775ade81f62b52f7ac6.1920x1080.jpg?t=1766315872"
+          },
+          {
+            "id": 16,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/e87889eae73ffa41c00754b7773b75aa74192201/ss_e87889eae73ffa41c00754b7773b75aa74192201.600x338.jpg?t=1766315872",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/e87889eae73ffa41c00754b7773b75aa74192201/ss_e87889eae73ffa41c00754b7773b75aa74192201.1920x1080.jpg?t=1766315872"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257189824,
+            "name": "AWSS Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257189824/8b23bb85267949aedf0c232dd6e016ead248f856/movie_600x337.jpg?t=1756324094",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3871190/806828891/3d740681bdda458e783d82f8604ae115f42fe507/1756311800/dash_av1.mpd?t=1756324094",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3871190/806828891/3d740681bdda458e783d82f8604ae115f42fe507/1756311800/dash_h264.mpd?t=1756324094",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3871190/806828891/3d740681bdda458e783d82f8604ae115f42fe507/1756311800/hls_264_master.m3u8?t=1756324094",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "cddd1c87903d214e15fc5cdf638a0e4c76487e1c.jpg",
+              "localized_name": "Beat Autumn Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Autumn Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/cddd1c87903d214e15fc5cdf638a0e4c76487e1c.jpg"
+            },
+            {
+              "icon": "c4337d0346dd7b2b3328800271c046c6b7c1f3cf.jpg",
+              "localized_name": "Beat Winter Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Winter Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/c4337d0346dd7b2b3328800271c046c6b7c1f3cf.jpg"
+            },
+            {
+              "icon": "25eba69ee99dc0b8c9e3966f434c4ede8543c864.jpg",
+              "localized_name": "Beat Spring Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Spring Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/25eba69ee99dc0b8c9e3966f434c4ede8543c864.jpg"
+            },
+            {
+              "icon": "bcc0290e049b50b78db9a2749d97f4a0231180ec.jpg",
+              "localized_name": "Beat Summer Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Summer Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/bcc0290e049b50b78db9a2749d97f4a0231180ec.jpg"
+            },
+            {
+              "icon": "db34075868c1e3da55f1fa2c4638b7ffff624111.jpg",
+              "localized_name": "Beat Autumn Map on hard difficulty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Autumn Map on hard difficulty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/db34075868c1e3da55f1fa2c4638b7ffff624111.jpg"
+            },
+            {
+              "icon": "d3d71812b0e98126eb061d5a12e79a7d57149f64.jpg",
+              "localized_name": "Beat Winter Map on hard difficulty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Winter Map on hard difficulty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/d3d71812b0e98126eb061d5a12e79a7d57149f64.jpg"
+            },
+            {
+              "icon": "da14b15a0313b0f580c81d6de121ddfcdf5f4785.jpg",
+              "localized_name": "Beat Spring Map on hard difficulty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Spring Map on hard difficulty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/da14b15a0313b0f580c81d6de121ddfcdf5f4785.jpg"
+            },
+            {
+              "icon": "ea1d8a4ec98371759d4c4e81e933ae81bb7883b0.jpg",
+              "localized_name": "Beat Summer Map on hard difficulty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Summer Map on hard difficulty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/ea1d8a4ec98371759d4c4e81e933ae81bb7883b0.jpg"
+            },
+            {
+              "icon": "3929e4f4a29b4d4e34cc4b5775443a740c0f2a62.jpg",
+              "localized_name": "Beat AutumnR Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat AutumnR Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/3929e4f4a29b4d4e34cc4b5775443a740c0f2a62.jpg"
+            },
+            {
+              "icon": "daf384b29b1d6a229c51165742bc8c52278a9c8f.jpg",
+              "localized_name": "Beat WinterR Map",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat WinterR Map",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3871190/daf384b29b1d6a229c51165742bc8c52278a9c8f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 7, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "28ohurit@mail.ru"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3871190?t=1766315872",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3871190/65e7552ae6be4fe74ccbe532ef9086c9497c59df/page_bg_raw.jpg?t=1766315872",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3597710,
+  "requested_at": "2026-09-13T19:25:07.278119+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "210858322",
+        "author": {
+          "steamid": "76561199224498158",
+          "personaname": "☆STAR☆ Maksonik",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Maksonik07/",
+          "num_games_owned": 202,
+          "num_reviews": 11,
+          "playtime_forever": 332,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 239,
+          "last_played": 1785300316,
+          "avatar": "d830ba0240fefee4e8d823bd2237d9218dd5920d"
+        },
+        "language": "russian",
+        "review": "Легендарная игра про пингвинов! 2 часть ну уж очень сложная! Даже спустя месяц её не прошёл...",
+        "timestamp_created": 1764162066,
+        "timestamp_updated": 1764162066,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761260807",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFjkLIAAAAAFP+CyFgAAAAByla6kBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

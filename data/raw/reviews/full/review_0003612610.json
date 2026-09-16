@@ -1,0 +1,71 @@
+{
+  "appid": 3612610,
+  "requested_at": "2026-09-13T19:25:58.621420+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "206672341",
+        "author": {
+          "steamid": "76561198064542745",
+          "personaname": "Idrel",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/llIdrelll/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 412,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 412,
+          "last_played": 1760372833,
+          "avatar": "4c5593270dd25e1811a68312b8186c4fb65b116c"
+        },
+        "language": "english",
+        "review": "A pretty good minimalist yet addictive fast paced stack-like game. Normally, I'm not into games like this, but I'm actually enjoying Stackmancy. I do still experience panic / meltdown mode in later game stages, though I think even if you really don't want to feel overwhelmed with quick thinking you might still enjoy this game.\n\nAt the time of writing, there are 12 quests (stages / levels), including an endless mode. In each quest you can earn up to 3 stars by completing it within a time limit. Generally, you'll be replaying these quests multiple times to improve the time score.\n\nMeta progression is quite simple. There are passive perks for better QoL. For example, Insight shows the total power of a card stack, which helps you with math and basically prevents those 1 off lethal moments. You also unlock special arcane cards, many are useful while others are quite situational.\n\nMy only pet peeve is board management. It's extremely important. In later quests the board can become so cluttered with cards that they start to wobble. RNG can be a bit frustrating as well when I'm trying to find cards of a specific element. You'll need to learn how to plan around it.\n\nBut overall, I recommend Stackmancy. I think it has around 7-10 hours of content, and it can be replayed whanever you feel like it.",
+        "timestamp_created": 1760397057,
+        "timestamp_updated": 1760397057,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.566929101943969727",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760341696",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYqVMAAAAAFP+IkSEAAAAB1nbKUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

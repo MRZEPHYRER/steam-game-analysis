@@ -1,0 +1,71 @@
+{
+  "appid": 3386100,
+  "requested_at": "2026-09-13T19:13:29.530125+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 24,
+      "total_negative": 2,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "204371690",
+        "author": {
+          "steamid": "76561198313763547",
+          "personaname": "Nyx",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198313763547/",
+          "num_games_owned": 505,
+          "num_reviews": 204,
+          "playtime_forever": 98,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1756697331,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "schinese",
+        "review": "飙车射击、冲撞的体验做的很不错\n爽感不在割草，而是漂移。风格很赞",
+        "timestamp_created": 1757903641,
+        "timestamp_updated": 1757903641,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.503816783428192139",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756348912",
+        "reactions": [
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZ7HUAAAAAFP+AfROAAAAB67s6LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

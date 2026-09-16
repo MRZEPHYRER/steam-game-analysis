@@ -1,0 +1,66 @@
+{
+  "appid": 2503550,
+  "requested_at": "2026-09-13T18:51:48.757525+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 105,
+      "total_negative": 2,
+      "total_reviews": 107
+    },
+    "reviews": [
+      {
+        "recommendationid": "207571898",
+        "author": {
+          "steamid": "76561198285614863",
+          "personaname": "Jack-o-lantern enjoyer",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198285614863/",
+          "num_games_owned": 193,
+          "num_reviews": 12,
+          "playtime_forever": 3025,
+          "playtime_last_two_weeks": 1,
+          "playtime_at_review": 2344,
+          "last_played": 1789018339,
+          "avatar": "be65902c43f582d8c064c0fed73dceaf885b6455"
+        },
+        "language": "english",
+        "review": "The game is really good you get a ton of quality content for the cheap cost and the music is really good as well also buy this instead of pvz replanted trust me. Edit: Now that I've played even more of this game and got all the current achievements I can definitively say this is a peak game with even more validation than before.",
+        "timestamp_created": 1761417004,
+        "timestamp_updated": 1764081068,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.634013056755065918",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757543569",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXUdqAAAAAFP+RJ1aAAAAB6u+mXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

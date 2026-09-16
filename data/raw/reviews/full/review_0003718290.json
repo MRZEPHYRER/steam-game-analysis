@@ -1,0 +1,66 @@
+{
+  "appid": 3718290,
+  "requested_at": "2026-09-13T19:34:09.775192+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "211216166",
+        "author": {
+          "steamid": "76561199073547649",
+          "personaname": "星期五女士",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/chxi20190112/",
+          "num_games_owned": 51,
+          "num_reviews": 10,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1764168667,
+          "avatar": "422cc3a60e2aa92af82849347eb5083733c05b12"
+        },
+        "language": "schinese",
+        "review": "真在衡水上过，看到该游时很有兴趣，但是很失望。我以为40的定价，不说多精细，至少得几个小游戏结合吧？比如定期举行小测验，某题错二次扣体力上限；抢电话时如何根据前方人物特征排到更快的队伍；以及上课时突发特殊情况，如果点击查看则被级部老师当场发现视为违纪；多次违纪停学巴拉巴拉。\n结果纯跑操啊。。。要知道即使算上早读时间，跑操最多只有一个小时（也可能是一个半），只占学生一天的少数时间。并且文本又臭又长，读了一个太太太啰嗦了，给我读困了。。。真要贴切现实，有几个高中生有时间跟同伴说这么长的东西啊。不如缩短文本，再在此基础上加上跑操口号，时不时弹个“现在是迈左脚还是迈右脚”的选项。\n真的不推荐，爱看这种故事不如上xhs评论区看",
+        "timestamp_created": 1764263263,
+        "timestamp_updated": 1764263376,
+        "voted_up": false,
+        "votes_up": 23,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.755333304405212402",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763379810",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFU5LIAAAAAFP+grsCAAAAB28tylBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3943440,
+  "requested_at": "2026-09-13T20:03:37.632637+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 34,
+      "total_negative": 3,
+      "total_reviews": 37
+    },
+    "reviews": [
+      {
+        "recommendationid": "218014548",
+        "author": {
+          "steamid": "76561199212056701",
+          "personaname": "It's Happening",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/ccllxchm/",
+          "num_games_owned": 892,
+          "num_reviews": 675,
+          "playtime_forever": 2500,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2500,
+          "last_played": 1770248978,
+          "avatar": "31a0c8fde8b12b9365c6e71e6d0eb0949de5b01b"
+        },
+        "language": "schinese",
+        "review": "娇蛮任性HIGHSPEC的FD，开局直接选人也太强了，大家都好棒，每一个都很喜欢，毕竟这画风太好了，不愧是窗社，这一作和富婆妹完全说得上是窗社双雄了。",
+        "timestamp_created": 1770742680,
+        "timestamp_updated": 1770742680,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.664321601390838623",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765847244",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWtqwAAAAAFP+VCIEAAAAB0tdS/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1400000000003274,
+  "transport_error_count": 0
+}

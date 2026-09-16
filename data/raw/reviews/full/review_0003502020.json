@@ -1,0 +1,66 @@
+{
+  "appid": 3502020,
+  "requested_at": "2026-09-13T19:19:27.832979+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "227104198",
+        "author": {
+          "steamid": "76561198315886368",
+          "personaname": "Nickel",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198315886368/",
+          "num_games_owned": 0,
+          "num_reviews": 225,
+          "playtime_forever": 53,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 53,
+          "last_played": 1755451366,
+          "avatar": "af1cf9cf15be50bc6eda5a5c35bb1698bbf77ecd"
+        },
+        "language": "english",
+        "review": "I don't know what I'm supposed to say about this. This is a small sandbox game of just messing around with toast in a kitchen. You have bread, you have a sink that makes bread, you have an oven that makes bread, and its a real marvel how birds haven't invaded your house and made your living space an all-you-can-eat buffet. (Maybe thats where your cabinet demon that you have for some reason comes useful.) Also you can kill yourself via burning your house down or eating toast with whatever dangerous chemicals you keep in your pantry for some reason. Its not much, but toast is toast and people enjoy that kind of thing.",
+        "timestamp_created": 1780510816,
+        "timestamp_updated": 1780510816,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755270019",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB23KriBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

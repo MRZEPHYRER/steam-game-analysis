@@ -1,0 +1,227 @@
+{
+  "requested_at": "2026-09-12T16:05:41.537807+00:00",
+  "request_params": {
+    "appids": 3687530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3687530,
+  "payload": {
+    "3687530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "TANK DEFEATER",
+        "steam_appid": 3687530,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a top-down 2D tank action game.</p><p class=\"bb_paragraph\" >Players control a tank, called a &quot;TANK,&quot; and defeat enemy TANKs by charging and firing to clear missions.</p><p class=\"bb_paragraph\" >A TANK is mainly composed of a body, turret, shield, caterpillar tracks, and bullets, and can also be equipped with optional parts called modules and gadgets. Players can freely customize their TANKs and set off on missions.</p><p class=\"bb_paragraph\" >There are three main types of bullets, and players can switch between them during missions.</p><p class=\"bb_paragraph\" >Charge type</p><p class=\"bb_paragraph\" >Equipped with a &quot;ricochet&quot; function that reflects bullets when they hit a wall, allowing you to target enemy TANKs from blind spots.</p><p class=\"bb_paragraph\" >Rapid type</p><p class=\"bb_paragraph\" >Fires small bullets in rapid succession, dealing large damage with a concentrated attack on one point.</p><p class=\"bb_paragraph\" >Blade type</p><p class=\"bb_paragraph\" >Firing a blade from the turret, slashing the opponent repeatedly.</p><p class=\"bb_paragraph\" >The appeal of this game is that you can freely build tactics based on the battle situation, terrain, and your own equipment, and win.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a top-down 2D tank action game.</p><p class=\"bb_paragraph\" >Players control a tank, called a &quot;TANK,&quot; and defeat enemy TANKs by charging and firing to clear missions.</p><p class=\"bb_paragraph\" >A TANK is mainly composed of a body, turret, shield, caterpillar tracks, and bullets, and can also be equipped with optional parts called modules and gadgets. Players can freely customize their TANKs and set off on missions.</p><p class=\"bb_paragraph\" >There are three main types of bullets, and players can switch between them during missions.</p><p class=\"bb_paragraph\" >Charge type</p><p class=\"bb_paragraph\" >Equipped with a &quot;ricochet&quot; function that reflects bullets when they hit a wall, allowing you to target enemy TANKs from blind spots.</p><p class=\"bb_paragraph\" >Rapid type</p><p class=\"bb_paragraph\" >Fires small bullets in rapid succession, dealing large damage with a concentrated attack on one point.</p><p class=\"bb_paragraph\" >Blade type</p><p class=\"bb_paragraph\" >Firing a blade from the turret, slashing the opponent repeatedly.</p><p class=\"bb_paragraph\" >The appeal of this game is that you can freely build tactics based on the battle situation, terrain, and your own equipment, and win.</p>",
+        "short_description": "This is a top-down 2D tank action game. Players control a tank called a &quot;TANK&quot; and clear missions by defeating opposing TANKs by charging and firing. The appeal of this game is being able to freely develop tactics based on the battle situation, terrain, and your own equipment, and win.",
+        "supported_languages": "Japanese, English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/89d226b8ec2bbe82a0ace1b29b56d4436580e64a/header.jpg?t=1764255694",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/15838b331960e225f3173aa21b5a519ced11e392/capsule_231x87.jpg?t=1764255694",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/15838b331960e225f3173aa21b5a519ced11e392/capsule_184x69.jpg?t=1764255694",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 Home<br></li><li><strong>Processor:</strong> AMD Ryzen 5 7520U with Radeon Graphics<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 1.5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "bitman",
+          "bitman_games"
+        ],
+        "publishers": [
+          "bitman"
+        ],
+        "demos": [
+          {
+            "appid": 3703600,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1298636
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy TANK DEFEATER",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1298636,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "TANK DEFEATER - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/c89b57250d9056509d75cfa191b82a69f020008f/ss_c89b57250d9056509d75cfa191b82a69f020008f.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/c89b57250d9056509d75cfa191b82a69f020008f/ss_c89b57250d9056509d75cfa191b82a69f020008f.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/604eb32c5bdba8a22ad9c8523749b55324b8a234/ss_604eb32c5bdba8a22ad9c8523749b55324b8a234.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/604eb32c5bdba8a22ad9c8523749b55324b8a234/ss_604eb32c5bdba8a22ad9c8523749b55324b8a234.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/e0d935713c67e21db1b23ce90bacb52a6c6b913d/ss_e0d935713c67e21db1b23ce90bacb52a6c6b913d.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/e0d935713c67e21db1b23ce90bacb52a6c6b913d/ss_e0d935713c67e21db1b23ce90bacb52a6c6b913d.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/687a945b882dbb321f9e4858cbdb579e07bb7fda/ss_687a945b882dbb321f9e4858cbdb579e07bb7fda.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/687a945b882dbb321f9e4858cbdb579e07bb7fda/ss_687a945b882dbb321f9e4858cbdb579e07bb7fda.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/38263d31ae4f0310e051917ba54c3a3729c18f1b/ss_38263d31ae4f0310e051917ba54c3a3729c18f1b.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/38263d31ae4f0310e051917ba54c3a3729c18f1b/ss_38263d31ae4f0310e051917ba54c3a3729c18f1b.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/5fc41f9aabec1b9a92959cca9b3ab8f615fd25dd/ss_5fc41f9aabec1b9a92959cca9b3ab8f615fd25dd.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/5fc41f9aabec1b9a92959cca9b3ab8f615fd25dd/ss_5fc41f9aabec1b9a92959cca9b3ab8f615fd25dd.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/cf68881e7be81a6a3f407b7265dfd0a61c038b2e/ss_cf68881e7be81a6a3f407b7265dfd0a61c038b2e.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/cf68881e7be81a6a3f407b7265dfd0a61c038b2e/ss_cf68881e7be81a6a3f407b7265dfd0a61c038b2e.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/a45f3ebde98a54bd390e6c8100e12da93b2df948/ss_a45f3ebde98a54bd390e6c8100e12da93b2df948.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/a45f3ebde98a54bd390e6c8100e12da93b2df948/ss_a45f3ebde98a54bd390e6c8100e12da93b2df948.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/b7040426b1e345de65293b7332ab4eb3dba59533/ss_b7040426b1e345de65293b7332ab4eb3dba59533.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/b7040426b1e345de65293b7332ab4eb3dba59533/ss_b7040426b1e345de65293b7332ab4eb3dba59533.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/8082a1b46656084830f62660d271b2983b001778/ss_8082a1b46656084830f62660d271b2983b001778.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/8082a1b46656084830f62660d271b2983b001778/ss_8082a1b46656084830f62660d271b2983b001778.1920x1080.jpg?t=1764255694"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/04260a811325d5b681be6c9f5789b7ddc3d65107/ss_04260a811325d5b681be6c9f5789b7ddc3d65107.600x338.jpg?t=1764255694",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687530/04260a811325d5b681be6c9f5789b7ddc3d65107/ss_04260a811325d5b681be6c9f5789b7ddc3d65107.1920x1080.jpg?t=1764255694"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257131177,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257131177/83d4dd619fa5b00b3478e5a3c54b2bb24450d70d/movie_600x337.jpg?t=1757458994",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3687530/1579318630/96d245a5e8b2c2cb126fd1d9a4385553808cf5a2/1757431107/dash_av1.mpd?t=1757458994",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3687530/1579318630/96d245a5e8b2c2cb126fd1d9a4385553808cf5a2/1757431107/dash_h264.mpd?t=1757458994",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3687530/1579318630/96d245a5e8b2c2cb126fd1d9a4385553808cf5a2/1757431107/hls_264_master.m3u8?t=1757458994",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 27, 2025"
+        },
+        "support_info": {
+          "url": "https://x.com/bitman_games",
+          "email": "bitman_games001@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3687530?t=1764255694",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3687530?t=1764255694",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

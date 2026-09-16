@@ -1,0 +1,68 @@
+{
+  "appid": 4062770,
+  "requested_at": "2026-09-13T20:16:45.118023+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "212176593",
+        "author": {
+          "steamid": "76561198159693414",
+          "personaname": "TheBriarCat",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198159693414/",
+          "num_games_owned": 144,
+          "num_reviews": 60,
+          "playtime_forever": 86,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 86,
+          "last_played": 1764538230,
+          "avatar": "79e6ae6117f203a78fdbb90369ae193fdf2ffff2"
+        },
+        "language": "english",
+        "review": "I was going to record this to put on youtube. I did not finish this game for a few reasons. \n\nQuite frankly, this seems like a walking simulator with a few jumpscares thrown in. By a few, I mean all jumpscares. Nothing is subtle. I thought the atmosphere was good until I was constantly getting jumpscared. A huge problem is that some papers you cannot turn over and look at the back, and some you can. This makes finding the photos/numbers for the safe pretty annoying to get. I did not realize I need those numbers until I turned one over by happenstance and then realized I needed to find four. It is hard to figure out what papers and items you can pick up and not, because there is only a small \"q to pick up\" prompt and if you dont see it, you miss it. I made it to the third number, then could not find any more. There is still a locked door I couldn't do anything with.\n\nI'm unsure if this is operator error, but I searched every room in the house 12 times and could not find the last number. I am assuming it may be in the locked room. Nonetheless, my issues are:\n\n- It builds up a slight atmosphere, then just ruins it with jumpscares over and over. Ones that are way too loud.\n- A few of the jumpscares are repeating, so if you go in the same area/pick up the same thing, it'll play again. The car was honking after the second time it went off, and I could not turn it off AT ALL. It definitely ruins the experience when you hear a honking toy car the entire time you're playing the game.\n- The game promised a lot of lore and atmosphere, but honestly there were only a few notes and they were more casual than actually explaining what was going on in the story. I still have no clue what happened. This may be later in the game, but I explore 95% of the areas, rooms, and environments and there was not a lot of story.\n- The game advertises as \"voice acted\" but it's AI, it's a bit misleading. \n\nIt may have been I who could not find the third number or a key to unlock the last door, but honestly it was near impossible to find every single paper/notes as they don't really stand out enough to say \"that's a grabbable item\" and I promise you I went through the entire place at least 4, 5 times. Maybe more. Overall it was not worth it to me to keep going with a car honking in my ears, jumpscares that had played already repeating, and having to look in every drawer, shelf, ect a 5th or 6th time for a number (brute forcing didn't work). \n\nI think this game has promise, but has a lot of work that needs done.\n\n",
+        "timestamp_created": 1764538827,
+        "timestamp_updated": 1764538827,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.551787376403808594",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1764545999,
+        "developer_response": "Thank you for the positive feedback, it helps me a lot to improve in the future!\n\nFirst of all... it would be helpful if you could specify what the problems with the jumpscares are and which ones are repeated, but I still want to give you my opinion!\n\n- The sound from the toy should be muted when you are above it, it works fine when muted and does not restart.\n- The game promises lore and atmosphere, but not at the beginning. The story and atmosphere start intensely in body b, and that's also where the story begins to make sense.\n- The game doesn't give you exact instructions on what to do because it was designed to be a psychological game, not to give you hints on every move you have to make.\n- The game description clearly states that the voice is created using AI.\n- You mentioned that you couldn't find the key to a locked door (I don't know which door you're referring to), but all the keys are visible using the floating icon, just like the icons in the notes. It's probably too difficult for some people to find every clue, and I agree with that, but that's how the game works.\n\nI want you to send me a video of your gameplay so I can see what you're doing wrong and improve it!\n\nThanks for review!",
+        "app_release_date": "1764444593",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY9tmAAAAAFP+GoPUAAAABx7bGpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.358999999999469,
+  "transport_error_count": 0
+}

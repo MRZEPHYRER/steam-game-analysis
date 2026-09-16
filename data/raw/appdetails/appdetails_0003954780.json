@@ -1,0 +1,297 @@
+{
+  "requested_at": "2026-09-13T06:04:14.173499+00:00",
+  "request_params": {
+    "appids": 3954780,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3954780,
+  "payload": {
+    "3954780": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Arrowburst",
+        "steam_appid": 3954780,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Collect Squares</h2><p class=\"bb_paragraph\" >Collect squares that spawn around the map by destroying them using your upgrades.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.poster.avif?t=1766167265\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.webm?t=1766167265\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.mp4?t=1766167265\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Purchase Upgrades</h2><p class=\"bb_paragraph\" >Progress through a skill tree to unlock new mechanics that boost your collection power.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/843940143d7e35c7151e5e2b8889c8b5.avif?t=1766167265\" width=1560 height=878 /></span></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Collect Squares</h2><p class=\"bb_paragraph\" >Collect squares that spawn around the map by destroying them using your upgrades.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.poster.avif?t=1766167265\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.webm?t=1766167265\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/fa372af553fcea604283e7ef3704335a.mp4?t=1766167265\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Purchase Upgrades</h2><p class=\"bb_paragraph\" >Progress through a skill tree to unlock new mechanics that boost your collection power.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/extras/843940143d7e35c7151e5e2b8889c8b5.avif?t=1766167265\" width=1560 height=878 /></span></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Arrowburst is a calm, relaxing, short incremental game about bursting squares and upgrading your arrow.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/99417c1c537d124077232087dc8641c658faadee/header.jpg?t=1766167265",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/c0638acea51e15fd078b3dee1377aa87f7f76c77/capsule_231x87.jpg?t=1766167265",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/c0638acea51e15fd078b3dee1377aa87f7f76c77/capsule_184x69.jpg?t=1766167265",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11<br></li><li><strong>Processor:</strong> 3 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "TheTallLeaf"
+        ],
+        "publishers": [
+          "TheTallLeaf"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1388903
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Arrowburst",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1388903,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Arrowburst - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/643048971aec5d5e72f37d6ff022fd26fbdfd84d/ss_643048971aec5d5e72f37d6ff022fd26fbdfd84d.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/643048971aec5d5e72f37d6ff022fd26fbdfd84d/ss_643048971aec5d5e72f37d6ff022fd26fbdfd84d.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/ac8a07ea2e918ac8b0b4a75d4858bd73e84931ac/ss_ac8a07ea2e918ac8b0b4a75d4858bd73e84931ac.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/ac8a07ea2e918ac8b0b4a75d4858bd73e84931ac/ss_ac8a07ea2e918ac8b0b4a75d4858bd73e84931ac.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/f5e10b5534e3eef861c7445e3084eb043b00bc63/ss_f5e10b5534e3eef861c7445e3084eb043b00bc63.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/f5e10b5534e3eef861c7445e3084eb043b00bc63/ss_f5e10b5534e3eef861c7445e3084eb043b00bc63.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/0c0b02ae5e4155b6273cfc4901bcb835df454403/ss_0c0b02ae5e4155b6273cfc4901bcb835df454403.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/0c0b02ae5e4155b6273cfc4901bcb835df454403/ss_0c0b02ae5e4155b6273cfc4901bcb835df454403.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/36a035ddc6abdad6698f8bbf65949bd9533fe30b/ss_36a035ddc6abdad6698f8bbf65949bd9533fe30b.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/36a035ddc6abdad6698f8bbf65949bd9533fe30b/ss_36a035ddc6abdad6698f8bbf65949bd9533fe30b.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/6321b12761033aa08350c5b383a653323ce3ee86/ss_6321b12761033aa08350c5b383a653323ce3ee86.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/6321b12761033aa08350c5b383a653323ce3ee86/ss_6321b12761033aa08350c5b383a653323ce3ee86.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/2aa75e9b41a8129a583e867d6bc134b7a0261b0c/ss_2aa75e9b41a8129a583e867d6bc134b7a0261b0c.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/2aa75e9b41a8129a583e867d6bc134b7a0261b0c/ss_2aa75e9b41a8129a583e867d6bc134b7a0261b0c.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/956b3c381de1328ead9cdd37ad9d5523e1375a14/ss_956b3c381de1328ead9cdd37ad9d5523e1375a14.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/956b3c381de1328ead9cdd37ad9d5523e1375a14/ss_956b3c381de1328ead9cdd37ad9d5523e1375a14.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/cfa7ff85a35ed2fcd4cdd5035601af5cbbdffa28/ss_cfa7ff85a35ed2fcd4cdd5035601af5cbbdffa28.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/cfa7ff85a35ed2fcd4cdd5035601af5cbbdffa28/ss_cfa7ff85a35ed2fcd4cdd5035601af5cbbdffa28.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/c18e190d5c67b11ea81ebe925987f7236d7dc2dd/ss_c18e190d5c67b11ea81ebe925987f7236d7dc2dd.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/c18e190d5c67b11ea81ebe925987f7236d7dc2dd/ss_c18e190d5c67b11ea81ebe925987f7236d7dc2dd.1920x1080.jpg?t=1766167265"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/cc29675c4fb3773cc60f56eabe835eaa57975d02/ss_cc29675c4fb3773cc60f56eabe835eaa57975d02.600x338.jpg?t=1766167265",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954780/cc29675c4fb3773cc60f56eabe835eaa57975d02/ss_cc29675c4fb3773cc60f56eabe835eaa57975d02.1920x1080.jpg?t=1766167265"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257202323,
+            "name": "Arrowburst Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257202323/0a3085b8def9f8bb1eaa00d4c41acc1c775e1729/movie_600x337.jpg?t=1766114135",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3954780/1897174428/72622d5a87f0ca52700a76abe824e5d694009fdb/1766113668/dash_av1.mpd?t=1766114135",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3954780/1897174428/72622d5a87f0ca52700a76abe824e5d694009fdb/1766113668/dash_h264.mpd?t=1766114135",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3954780/1897174428/72622d5a87f0ca52700a76abe824e5d694009fdb/1766113668/hls_264_master.m3u8?t=1766114135",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 8,
+          "highlighted": [
+            {
+              "icon": "f8346129bd692e798edc9e485b9bba5454e44732.jpg",
+              "localized_name": "Squarecollector",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Squarecollector",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/f8346129bd692e798edc9e485b9bba5454e44732.jpg"
+            },
+            {
+              "icon": "eec9d5ffa597d1b133dc1c0cc5e5435954e31fc7.jpg",
+              "localized_name": "Zone 2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zone 2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/eec9d5ffa597d1b133dc1c0cc5e5435954e31fc7.jpg"
+            },
+            {
+              "icon": "145d08448b5eb8e58d17f54260543b8c925dc33b.jpg",
+              "localized_name": "Zone 3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zone 3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/145d08448b5eb8e58d17f54260543b8c925dc33b.jpg"
+            },
+            {
+              "icon": "83c3005ab9935b593bf743b9bd206001e38a0dd3.jpg",
+              "localized_name": "Zone 1 Conqueror",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zone 1 Conqueror",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/83c3005ab9935b593bf743b9bd206001e38a0dd3.jpg"
+            },
+            {
+              "icon": "115fb054369ab58e0e16287e8a965a5e00edc8d5.jpg",
+              "localized_name": "Zone 2 Conqueror",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zone 2 Conqueror",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/115fb054369ab58e0e16287e8a965a5e00edc8d5.jpg"
+            },
+            {
+              "icon": "0eb3e64ba69db87afbda003b0d676605d1bfbefa.jpg",
+              "localized_name": "Zone 3 Conqueror",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Zone 3 Conqueror",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/0eb3e64ba69db87afbda003b0d676605d1bfbefa.jpg"
+            },
+            {
+              "icon": "3c18984136952d79e8ec2895d32f92ff26bfecc8.jpg",
+              "localized_name": "Arrowburst",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Arrowburst",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/3c18984136952d79e8ec2895d32f92ff26bfecc8.jpg"
+            },
+            {
+              "icon": "e3fa513a1edcff148f01d8bff5976f2d5fd53b1e.jpg",
+              "localized_name": "Proficient Arrow",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Proficient Arrow",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3954780/e3fa513a1edcff148f01d8bff5976f2d5fd53b1e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 19, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "valleyoftribes@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3954780?t=1766167265",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3954780?t=1766167265",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

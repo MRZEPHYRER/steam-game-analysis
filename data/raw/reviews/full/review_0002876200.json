@@ -1,0 +1,73 @@
+{
+  "appid": 2876200,
+  "requested_at": "2026-09-13T18:57:39.248483+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 35,
+      "total_negative": 8,
+      "total_reviews": 43
+    },
+    "reviews": [
+      {
+        "recommendationid": "204727698",
+        "author": {
+          "steamid": "76561198105365639",
+          "personaname": "Shedopen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198105365639/",
+          "num_games_owned": 0,
+          "num_reviews": 18,
+          "playtime_forever": 3086,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 285,
+          "last_played": 1783274327,
+          "avatar": "2f84135f6aafbf066527fba913283d09cbe8b4e9"
+        },
+        "language": "english",
+        "review": "Although the game is fun and I like the concept, I don't see the point of saving the design of ships if you lose all blueprints and metals after every mission. It would be more fun if there was a storyline in which the progress is slower but in which you don't lose everything you unlocked after every boss.\n\nAnother approach would be to make blueprints rarer but let the player carry them over to the next mission.",
+        "timestamp_created": 1758315765,
+        "timestamp_updated": 1758315765,
+        "voted_up": true,
+        "votes_up": 24,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.748527765274047852",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1780662979,
+        "developer_response": "Hi Shedopen, thanks for your feedback. The Persistence update just launched, letting you keep your ship, blueprints and resources after every mission, allowing for a steady progression. Hope you will give it another try!",
+        "app_release_date": "1757918601",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVB4mAAAAAFP+fz8QAAAABy2fyMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

@@ -1,0 +1,196 @@
+{
+  "requested_at": "2026-09-12T16:14:07.939020+00:00",
+  "request_params": {
+    "appids": 3711650,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3711650,
+  "payload": {
+    "3711650": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Stalked At Home",
+        "steam_appid": 3711650,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Overview</h2><p class=\"bb_paragraph\" ><i>Stalked At Home</i> is a <strong>single-player first-person horror game</strong>.<br>You play as a <strong>21-year-old woman</strong> who arrives at her boyfriend's house while he is away.<br>At first, everything feels normal — you can perform daily activities like cooking, driving, and interacting with objects around the house.<br>But as time passes, <strong>strange and frightening events</strong> begin to unfold.</p><h2 class=\"bb_tag\" >Gameplay</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >First-person perspective</p></li><li><p class=\"bb_paragraph\" >Fully explorable house environment</p></li><li><p class=\"bb_paragraph\" >Perform daily activities (cooking, driving, interacting with objects)</p></li><li><p class=\"bb_paragraph\" >Gradual build-up of psychological horror</p></li><li><p class=\"bb_paragraph\" >Realistic object interaction</p></li></ul><h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Immersive and tense atmosphere</p></li><li><p class=\"bb_paragraph\" >A mix of normal life and sudden fear</p></li><li><p class=\"bb_paragraph\" >Focus on storytelling and environmental details</p></li><li><p class=\"bb_paragraph\" >No combat — the horror comes from the feeling of being watched</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Overview</h2><p class=\"bb_paragraph\" ><i>Stalked At Home</i> is a <strong>single-player first-person horror game</strong>.<br>You play as a <strong>21-year-old woman</strong> who arrives at her boyfriend's house while he is away.<br>At first, everything feels normal — you can perform daily activities like cooking, driving, and interacting with objects around the house.<br>But as time passes, <strong>strange and frightening events</strong> begin to unfold.</p><h2 class=\"bb_tag\" >Gameplay</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >First-person perspective</p></li><li><p class=\"bb_paragraph\" >Fully explorable house environment</p></li><li><p class=\"bb_paragraph\" >Perform daily activities (cooking, driving, interacting with objects)</p></li><li><p class=\"bb_paragraph\" >Gradual build-up of psychological horror</p></li><li><p class=\"bb_paragraph\" >Realistic object interaction</p></li></ul><h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Immersive and tense atmosphere</p></li><li><p class=\"bb_paragraph\" >A mix of normal life and sudden fear</p></li><li><p class=\"bb_paragraph\" >Focus on storytelling and environmental details</p></li><li><p class=\"bb_paragraph\" >No combat — the horror comes from the feeling of being watched</p></li></ul>",
+        "short_description": "Stalked At Home is a first-person single-player horror game where you play as a young woman alone in a house. Cook, drive, explore, and live your life—until strange things begin to happen and you're no longer sure you're alone.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/0aa39bb6e9f1e5b8a6cd018734f1b46d77c65f96/header.jpg?t=1766432230",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c93b09249c4eb0197541f5f20ab06be4391012d9/capsule_231x87.jpg?t=1766432230",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c93b09249c4eb0197541f5f20ab06be4391012d9/capsule_184x69.jpg?t=1766432230",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong>  Intel Core i5-2300<br></li><li><strong>Memory:</strong> 3 MB RAM<br></li><li><strong>Graphics:</strong>  NVIDIA GeForce GTX 650<br></li><li><strong>Storage:</strong> 15 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Matan.N"
+        ],
+        "publishers": [
+          "Matan.N"
+        ],
+        "demos": [
+          {
+            "appid": 3712260,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1306672
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Stalked At Home",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1306672,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Stalked At Home - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/b44ea90064294b2cfc6e1a4d333c6dac86989139/ss_b44ea90064294b2cfc6e1a4d333c6dac86989139.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/b44ea90064294b2cfc6e1a4d333c6dac86989139/ss_b44ea90064294b2cfc6e1a4d333c6dac86989139.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c416b9e6755981e18bdc85d5e71387536e1a55f8/ss_c416b9e6755981e18bdc85d5e71387536e1a55f8.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c416b9e6755981e18bdc85d5e71387536e1a55f8/ss_c416b9e6755981e18bdc85d5e71387536e1a55f8.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c6fd96ded2477477ebc6e26ebe1412078ac2e198/ss_c6fd96ded2477477ebc6e26ebe1412078ac2e198.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/c6fd96ded2477477ebc6e26ebe1412078ac2e198/ss_c6fd96ded2477477ebc6e26ebe1412078ac2e198.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/775311c8a267080566169b16bce9c40610083f24/ss_775311c8a267080566169b16bce9c40610083f24.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/775311c8a267080566169b16bce9c40610083f24/ss_775311c8a267080566169b16bce9c40610083f24.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/be789e76fe0034e48ae866ab88838944e2ec1d91/ss_be789e76fe0034e48ae866ab88838944e2ec1d91.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/be789e76fe0034e48ae866ab88838944e2ec1d91/ss_be789e76fe0034e48ae866ab88838944e2ec1d91.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/56e4677afba6e5aa91cc76b363f155117cd94973/ss_56e4677afba6e5aa91cc76b363f155117cd94973.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/56e4677afba6e5aa91cc76b363f155117cd94973/ss_56e4677afba6e5aa91cc76b363f155117cd94973.1920x1080.jpg?t=1766432230"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/d1d10eb366f4723a189b8d35ec4fc04fa76b0c44/ss_d1d10eb366f4723a189b8d35ec4fc04fa76b0c44.600x338.jpg?t=1766432230",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711650/d1d10eb366f4723a189b8d35ec4fc04fa76b0c44/ss_d1d10eb366f4723a189b8d35ec4fc04fa76b0c44.1920x1080.jpg?t=1766432230"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257147229,
+            "name": "Trailer 1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257147229/f4f94a60f20c87b5e0fa4daca278257ecb4220d2/movie_600x337.jpg?t=1762521154",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3711650/1415949791/c00c5cc57a546f98b41dfe8713db35bff317570d/1762520070/dash_av1.mpd?t=1762521154",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3711650/1415949791/c00c5cc57a546f98b41dfe8713db35bff317570d/1762520070/dash_h264.mpd?t=1762521154",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3711650/1415949791/c00c5cc57a546f98b41dfe8713db35bff317570d/1762520070/hls_264_master.m3u8?t=1762521154",
+            "highlight": false
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 22, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "matann82727@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3711650?t=1766432230",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3711650?t=1766432230",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "This game includes jumpscares, stressful and scary moments."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo\nLinguagem imprópria"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "appid": 3755860,
+  "requested_at": "2026-09-13T19:37:35.135869+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 6947,
+      "total_negative": 350,
+      "total_reviews": 7297
+    },
+    "reviews": [
+      {
+        "recommendationid": "206827608",
+        "author": {
+          "steamid": "76561199102520526",
+          "personaname": "PlotyedStvo",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199102520526/",
+          "num_games_owned": 0,
+          "num_reviews": 15,
+          "playtime_forever": 1091,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 523,
+          "last_played": 1781723703,
+          "avatar": "2a4c172ec3c42231c7bb78d15c197481bf848a83"
+        },
+        "language": "english",
+        "review": "[h1] YOU NEED TO DOWNLOAD THE PATCH RIGHT AFTER PURCHASING THIS GAME!!!! [/h1]\nDev had to remove 90% of this game so it could be on steam lol. Just search up \"blacksouls patch\" and should be the first web. \n\nalso don't buy this if you're not comfortable with the themes it presents, easy as it is. It's a good RPG with excellent story telling but it's insanely dark which I bet you already know.",
+        "timestamp_created": 1760583831,
+        "timestamp_updated": 1760584262,
+        "voted_up": true,
+        "votes_up": 205,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.917037665843963623",
+        "comment_count": 11,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755309729",
+        "reactions": [
+          {
+            "reaction_type": 30,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 2
+          },
+          {
+            "reaction_type": 5,
+            "count": 2
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRqMQAAAAAFP+1YYCAAAAB4hf6UBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9679999999998472,
+  "transport_error_count": 0
+}

@@ -1,0 +1,300 @@
+{
+  "requested_at": "2026-09-13T06:23:55.645351+00:00",
+  "request_params": {
+    "appids": 4006160,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4006160,
+  "payload": {
+    "4006160": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "20 Days",
+        "steam_appid": 4006160,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Survive 20 tense days aboard a failing spaceship while hunting down an enemy satellite. Every day brings new malfunctions, random story events, and difficult choices. Will you find the target before it's too late?<br><br>Full Description:</strong>In this 2D indie survival-strategy game, each run lasts a maximum of <strong>20 in-game days</strong>. Your mission is clear: track down and identify a hostile spy satellite before time runs out.</p><p class=\"bb_paragraph\" >But survival won’t be easy. Every single day, something breaks aboard your ship, from solar panels to the engine, and you’ll need to decide what to repair first. Balancing time, resources, and risk becomes the key to success.</p><p class=\"bb_paragraph\" >To make things more unpredictable, the game includes <strong>10 different narrative scenarios</strong>, randomly selected at the start of each run. These text-based story events range from mysterious discoveries to tense emergencies. </p><p class=\"bb_paragraph\" >Along the way, you can unlock <strong>achievements</strong> that encourage replayability and exploration.<br><br><strong>Future Updates:</strong></p><p class=\"bb_paragraph\" >I plan to expand the game in future updates with:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Additional language support</p></li><li><p class=\"bb_paragraph\" >New storylines</p></li><li><p class=\"bb_paragraph\" >More achievements and surprises</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Survive 20 tense days aboard a failing spaceship while hunting down an enemy satellite. Every day brings new malfunctions, random story events, and difficult choices. Will you find the target before it's too late?<br><br>Full Description:</strong>In this 2D indie survival-strategy game, each run lasts a maximum of <strong>20 in-game days</strong>. Your mission is clear: track down and identify a hostile spy satellite before time runs out.</p><p class=\"bb_paragraph\" >But survival won’t be easy. Every single day, something breaks aboard your ship, from solar panels to the engine, and you’ll need to decide what to repair first. Balancing time, resources, and risk becomes the key to success.</p><p class=\"bb_paragraph\" >To make things more unpredictable, the game includes <strong>10 different narrative scenarios</strong>, randomly selected at the start of each run. These text-based story events range from mysterious discoveries to tense emergencies. </p><p class=\"bb_paragraph\" >Along the way, you can unlock <strong>achievements</strong> that encourage replayability and exploration.<br><br><strong>Future Updates:</strong></p><p class=\"bb_paragraph\" >I plan to expand the game in future updates with:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Additional language support</p></li><li><p class=\"bb_paragraph\" >New storylines</p></li><li><p class=\"bb_paragraph\" >More achievements and surprises</p></li></ul>",
+        "short_description": "Survive 20 tense days aboard a failing spaceship while hunting down an enemy satellite. Every day brings new malfunctions, random story events, and difficult choices. Will you find the target before it's too late?",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/e4105c4c17f23c23a2121bf8eb30ae9dd6447eab/header.jpg?t=1760541665",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/a2fad77450596465fe23c52d4a86c2020687246e/capsule_231x87.jpg?t=1760541665",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/a2fad77450596465fe23c52d4a86c2020687246e/capsule_184x69.jpg?t=1760541665",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> 2.0 GHz Dual Core<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 460, AMD Radeon HD 5770<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or newer<br></li><li><strong>Processor:</strong> 2.5 GHz Dual Core or better<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 750, AMD Radeon R7 260X or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Integrated</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "AgostonB"
+        ],
+        "publishers": [
+          "AgostonB"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 199,
+          "discount_percent": 60,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1405748
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 20 Days",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1405748,
+                "percent_savings_text": "-60% ",
+                "percent_savings": 0,
+                "option_text": "20 Days - <span class=\"discount_original_price\">$4.99</span> $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/b25e6f1916a8b189c76624c43084c3ac24e1f7c6/ss_b25e6f1916a8b189c76624c43084c3ac24e1f7c6.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/b25e6f1916a8b189c76624c43084c3ac24e1f7c6/ss_b25e6f1916a8b189c76624c43084c3ac24e1f7c6.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/f37ddf0bfd0c9642c93820cfb00e55a4ea11f508/ss_f37ddf0bfd0c9642c93820cfb00e55a4ea11f508.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/f37ddf0bfd0c9642c93820cfb00e55a4ea11f508/ss_f37ddf0bfd0c9642c93820cfb00e55a4ea11f508.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/82d597cfe043f28e89a2cc07d222e351010ab352/ss_82d597cfe043f28e89a2cc07d222e351010ab352.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/82d597cfe043f28e89a2cc07d222e351010ab352/ss_82d597cfe043f28e89a2cc07d222e351010ab352.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/25c69d46105a3402ca82c61dffe522a4de923923/ss_25c69d46105a3402ca82c61dffe522a4de923923.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/25c69d46105a3402ca82c61dffe522a4de923923/ss_25c69d46105a3402ca82c61dffe522a4de923923.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/33e6b9b3119f3a50b6fb797c6a69777260ee3311/ss_33e6b9b3119f3a50b6fb797c6a69777260ee3311.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/33e6b9b3119f3a50b6fb797c6a69777260ee3311/ss_33e6b9b3119f3a50b6fb797c6a69777260ee3311.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/7b570d10598dd973b4edcd2a1ade87f3ca4f451f/ss_7b570d10598dd973b4edcd2a1ade87f3ca4f451f.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/7b570d10598dd973b4edcd2a1ade87f3ca4f451f/ss_7b570d10598dd973b4edcd2a1ade87f3ca4f451f.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/91c343ced6cf43ce0c0290ada76cd14c756c4696/ss_91c343ced6cf43ce0c0290ada76cd14c756c4696.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/91c343ced6cf43ce0c0290ada76cd14c756c4696/ss_91c343ced6cf43ce0c0290ada76cd14c756c4696.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/3d4313c9cda794f287b5eccd3c22b927b6a05846/ss_3d4313c9cda794f287b5eccd3c22b927b6a05846.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/3d4313c9cda794f287b5eccd3c22b927b6a05846/ss_3d4313c9cda794f287b5eccd3c22b927b6a05846.1920x1080.jpg?t=1760541665"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/d259fc2b7b6766f3b494fa5ffa0d3f3bcde8ecac/ss_d259fc2b7b6766f3b494fa5ffa0d3f3bcde8ecac.600x338.jpg?t=1760541665",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/d259fc2b7b6766f3b494fa5ffa0d3f3bcde8ecac/ss_d259fc2b7b6766f3b494fa5ffa0d3f3bcde8ecac.1920x1080.jpg?t=1760541665"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257194228,
+            "name": "20 Days - trailer #1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194228/9a4a0d87095db86d150eb5bfb62670196859986f/movie_600x337.jpg?t=1757600613",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4006160/993812140/3592522f9ab0e35591bee3953527e00ba0489a32/1757257006/dash_av1.mpd?t=1757600613",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4006160/993812140/3592522f9ab0e35591bee3953527e00ba0489a32/1757257006/dash_h264.mpd?t=1757600613",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4006160/993812140/3592522f9ab0e35591bee3953527e00ba0489a32/1757257006/hls_264_master.m3u8?t=1757600613",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 35,
+          "highlighted": [
+            {
+              "icon": "57abee9ea84a27c4af25262e73b3f98efcb54c4a.jpg",
+              "localized_name": "Win story 1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/57abee9ea84a27c4af25262e73b3f98efcb54c4a.jpg"
+            },
+            {
+              "icon": "fadc2021e5962dae3d1329a63240b5c586b4f696.jpg",
+              "localized_name": "Win story 2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/fadc2021e5962dae3d1329a63240b5c586b4f696.jpg"
+            },
+            {
+              "icon": "85311c2735b514f030ea2f741fb5cc57e63a5d11.jpg",
+              "localized_name": "Win story 3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/85311c2735b514f030ea2f741fb5cc57e63a5d11.jpg"
+            },
+            {
+              "icon": "d02fa46aec5000ef10d9a53f40a2daf1f0af1ca5.jpg",
+              "localized_name": "Win story 4",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/d02fa46aec5000ef10d9a53f40a2daf1f0af1ca5.jpg"
+            },
+            {
+              "icon": "9134b205552cc4066d20230f75568b12b92079bf.jpg",
+              "localized_name": "Win story 5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/9134b205552cc4066d20230f75568b12b92079bf.jpg"
+            },
+            {
+              "icon": "945959ec2ec747e91d27e3566f2c8390ef6f3fb7.jpg",
+              "localized_name": "Win story 6",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 6",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/945959ec2ec747e91d27e3566f2c8390ef6f3fb7.jpg"
+            },
+            {
+              "icon": "928ae8316dfc059ea3b09f07d1eb8cd08286c182.jpg",
+              "localized_name": "Win story 7",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/928ae8316dfc059ea3b09f07d1eb8cd08286c182.jpg"
+            },
+            {
+              "icon": "f2a05d3252a15a1ee2c7fe56832f22c1b280846c.jpg",
+              "localized_name": "Win story 8",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 8",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/f2a05d3252a15a1ee2c7fe56832f22c1b280846c.jpg"
+            },
+            {
+              "icon": "30591b2702fdffe8a6c8bf0db68a3c2372d547f0.jpg",
+              "localized_name": "Win story 9",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 9",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/30591b2702fdffe8a6c8bf0db68a3c2372d547f0.jpg"
+            },
+            {
+              "icon": "0725c1c2f152bcf6268bfd8947cebbf3abad520d.jpg",
+              "localized_name": "Win story 10",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Win story 10",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4006160/0725c1c2f152bcf6268bfd8947cebbf3abad520d.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "info@agostonb.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4006160?t=1760541665",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006160/9bd40458db17b5d05663ed6b47f435681202e509/page_bg_raw.jpg?t=1760541665",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

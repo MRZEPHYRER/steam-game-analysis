@@ -1,0 +1,71 @@
+{
+  "appid": 4032670,
+  "requested_at": "2026-09-13T20:13:28.927635+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213846500",
+        "author": {
+          "steamid": "76561198135609064",
+          "personaname": "nicoca_nicolas",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/nicoca_nicolas/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1766339222,
+          "avatar": "197f1afa35eb8ea8b204fb45914873847116c693"
+        },
+        "language": "french",
+        "review": "Nice puzzle game, siple and addictive. played on a rog aliy, Worth a try!",
+        "timestamp_created": 1766340428,
+        "timestamp_updated": 1766340428,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763620500",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB0nuGvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2030000000004293,
+  "transport_error_count": 0
+}

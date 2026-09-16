@@ -1,0 +1,66 @@
+{
+  "appid": 3076240,
+  "requested_at": "2026-09-13T19:03:15.952913+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 107,
+      "total_negative": 27,
+      "total_reviews": 134
+    },
+    "reviews": [
+      {
+        "recommendationid": "221688892",
+        "author": {
+          "steamid": "76561199266636269",
+          "personaname": "♦️RELeon♦",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199266636269/",
+          "num_games_owned": 649,
+          "num_reviews": 340,
+          "playtime_forever": 126,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 126,
+          "last_played": 1774467478,
+          "avatar": "3889a719a0a2e5061db7048b73d4695d8e029ff3"
+        },
+        "language": "spanish",
+        "review": "This reminds me a lot of Fears to Fathom in the visuals, game play mechanics, and title logo. The atmosphere is awesome.",
+        "timestamp_created": 1774467514,
+        "timestamp_updated": 1774467514,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.581749081611633301",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753124067",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYXXIAAAAAFP+KdsCAAAAB8w9bNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2040000000001783,
+  "transport_error_count": 0
+}

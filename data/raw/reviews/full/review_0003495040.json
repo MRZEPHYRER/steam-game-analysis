@@ -1,0 +1,66 @@
+{
+  "appid": 3495040,
+  "requested_at": "2026-09-13T19:19:06.229157+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 28,
+      "total_negative": 4,
+      "total_reviews": 32
+    },
+    "reviews": [
+      {
+        "recommendationid": "214513673",
+        "author": {
+          "steamid": "76561198302208299",
+          "personaname": "cassandra_strand",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/cassandra581/",
+          "num_games_owned": 334,
+          "num_reviews": 161,
+          "playtime_forever": 25,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "last_played": 1766550445,
+          "avatar": "ca0244325eb23d5686e100e0fee50e240d429885"
+        },
+        "language": "english",
+        "review": "100 Dubai Cats is a simple hidden object game where you find 100 cats.  There's 2 scenes  and 100 cats to find in each.  There's nothing new or unique in this game, but that's not why people generally play these.  There's a quiet calm that's enjoyed from the simple interface and expectations.  This is the type of game you go into for 30 minutes of sort of mindless tasks where you can just enjoy the cute images and the dopamine hit from finding hidden cats and getting achievements for it.  It's the perfect type of game to sit down to after a stressful day and decompress.  I chose this game because it sits at the intersection of several personal interests.  I love cats, I have an interest in Middle Eastern themes, and of course, I enjoy an occasional game to just relax somewhat mindlessly to while I de-stress.\n\n100 Cozy games has (at the time of writing this) around forty 100 Cats games.  They also have almost the same number listed as coming soon.  So if Dubai isn't your thing, you could probably find a more suitable backdrop for your own tastes.  I've played several of their games and I liked the Dubai setting.  The images are cute and whimsical, calm for viewing, pleasant to look at.  The scenery does a fair job of depicting some iconic buildings from Dubai, so I'd say it's reasonably representative of Dubai.  The music was livelier than most of their games I've played and while not truly Middle Eastern it had a reasonable Middle Eastern flavor to it.\n\nGameplay is simple, you click on hidden cats to find them in the picture.  The cats aren't necessarily obviously cat shaped though so you have to look for any shape that doesn't quite seem like it fits.  You can zoom in or out and some cats will be easier to spot only when zoomed in.  You can also switch between color or black and white.  There are some cats that are more obvious when viewed in the black and white mode as opposed to the color.  My usual method is to zoom in while in color mode and move around the scene till I've searched once over, then switch to black and white and do the same.  I've usually found most of the cats by the time I'm done with the color search and usually find al but 1 or 2 by the time I've finished the B&W search.  These generally take around 15 minutes per scene (or 30 minutes for both) so it can make for a nice quick activity when you only have 15-30 minutes to play a game.\n\nIf you like achievements this game gives you 1 per cat found in the first scene.  The second scene unlocks after you complete the first but no new cat finding achievements pop up in it.  I don't prefer this because it doesn't feel like an achievement to just find each cat.  That's like the basic function of the game and I prefer there to be achievements that make you actually work for it a little so it feels like an achievement.  That's lost in a game like this that rewards you 100 achievements, 1 for each cat found.  However, I do appreciate getting the achievements and reading the names they give to each cat is also fun.\n\nMy one complaint about this game is that the cat shapes are very repetitive in this game.  There's a little variety but some shapes are really overused.\n\nOverall, if you like cats and want to spend 15-30 minutes in a hidden object game looking for them to unwind... this game may be for you.",
+        "timestamp_created": 1766984556,
+        "timestamp_updated": 1766984556,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.591014683246612549",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760886055",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYLgEAAAAAFP+LpmEAAAAB5gKeyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

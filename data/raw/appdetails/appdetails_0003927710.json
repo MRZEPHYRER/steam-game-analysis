@@ -1,0 +1,290 @@
+{
+  "requested_at": "2026-09-13T05:52:54.992085+00:00",
+  "request_params": {
+    "appids": 3927710,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3927710,
+  "payload": {
+    "3927710": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ZENith Break",
+        "steam_appid": 3927710,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Play Time</strong></h2><p class=\"bb_paragraph\" >It's entirely up to you.</p><h2 class=\"bb_tag\" ><strong>How to Play</strong></h2><p class=\"bb_paragraph\" >Increase the number of balls, upgrade your balls, increase bonuses, and upgrade those bonuses.</p><p class=\"bb_paragraph\" >What you choose to increase and upgrade is entirely up to you.</p><p class=\"bb_paragraph\" >Embrace the feeling of ZEN as you push your limits.</p><h2 class=\"bb_tag\" ><strong>Guidelines for Streaming and Video Content</strong></h2><p class=\"bb_paragraph\" >You are welcome to stream or upload videos of this game without requesting prior permission.</p><p class=\"bb_paragraph\" >Please include the game’s title in your video or stream title, and add a link to this store page in the description.</p><p class=\"bb_paragraph\" >We are not liable for any issues or damages that may arise from playing or streaming the game.</p><p class=\"bb_paragraph\" >Please note that these guidelines are subject to change without notice.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Play Time</strong></h2><p class=\"bb_paragraph\" >It's entirely up to you.</p><h2 class=\"bb_tag\" ><strong>How to Play</strong></h2><p class=\"bb_paragraph\" >Increase the number of balls, upgrade your balls, increase bonuses, and upgrade those bonuses.</p><p class=\"bb_paragraph\" >What you choose to increase and upgrade is entirely up to you.</p><p class=\"bb_paragraph\" >Embrace the feeling of ZEN as you push your limits.</p><h2 class=\"bb_tag\" ><strong>Guidelines for Streaming and Video Content</strong></h2><p class=\"bb_paragraph\" >You are welcome to stream or upload videos of this game without requesting prior permission.</p><p class=\"bb_paragraph\" >Please include the game’s title in your video or stream title, and add a link to this store page in the description.</p><p class=\"bb_paragraph\" >We are not liable for any issues or damages that may arise from playing or streaming the game.</p><p class=\"bb_paragraph\" >Please note that these guidelines are subject to change without notice.</p>",
+        "short_description": "You can strive for peak efficiency by upgrading strategically, or simply enjoy the soothing sights and sounds. Find your own way to have fun.",
+        "supported_languages": "English, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/e3a9db38f1ebc02d3effb5911fa25f62df57e0ed/header.jpg?t=1762522314",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/405f65f11959d12530308ed35c29ff7a825df9ec/capsule_231x87.jpg?t=1762522314",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/405f65f11959d12530308ed35c29ff7a825df9ec/capsule_184x69.jpg?t=1762522314",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong>  Intel(R) Core(TM) i7-6700HQ<br></li><li><strong>Memory:</strong> 16 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 950M<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Akimochi Games"
+        ],
+        "publishers": [
+          "Akimochi Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1380054
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ZENith Break",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1380054,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Zenith Break - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/8fc9914fddae4e611917a82e4a806c4219453516/ss_8fc9914fddae4e611917a82e4a806c4219453516.600x338.jpg?t=1762522314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/8fc9914fddae4e611917a82e4a806c4219453516/ss_8fc9914fddae4e611917a82e4a806c4219453516.1920x1080.jpg?t=1762522314"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/861997bb3321f5792c7f066d92e46d0506c492c8/ss_861997bb3321f5792c7f066d92e46d0506c492c8.600x338.jpg?t=1762522314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/861997bb3321f5792c7f066d92e46d0506c492c8/ss_861997bb3321f5792c7f066d92e46d0506c492c8.1920x1080.jpg?t=1762522314"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/e8ee7d9291234c7e82529385936387441db037a1/ss_e8ee7d9291234c7e82529385936387441db037a1.600x338.jpg?t=1762522314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/e8ee7d9291234c7e82529385936387441db037a1/ss_e8ee7d9291234c7e82529385936387441db037a1.1920x1080.jpg?t=1762522314"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/0f4f7812abb94d31e233450954184dd0bdf84dfb/ss_0f4f7812abb94d31e233450954184dd0bdf84dfb.600x338.jpg?t=1762522314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/0f4f7812abb94d31e233450954184dd0bdf84dfb/ss_0f4f7812abb94d31e233450954184dd0bdf84dfb.1920x1080.jpg?t=1762522314"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/8bfc00815ff7792a1de0155e2e5145f20e7324e2/ss_8bfc00815ff7792a1de0155e2e5145f20e7324e2.600x338.jpg?t=1762522314",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3927710/8bfc00815ff7792a1de0155e2e5145f20e7324e2/ss_8bfc00815ff7792a1de0155e2e5145f20e7324e2.1920x1080.jpg?t=1762522314"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257184327,
+            "name": "ZENith Break",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257184327/92f22f8ec5249c96d5069866eb96d48a4eae0513/movie_600x337.jpg?t=1755875047",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3927710/2103813363/204fc210581e56989632f0181bad652a2d27dfff/1755874624/dash_av1.mpd?t=1755875047",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3927710/2103813363/204fc210581e56989632f0181bad652a2d27dfff/1755874624/dash_h264.mpd?t=1755875047",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3927710/2103813363/204fc210581e56989632f0181bad652a2d27dfff/1755874624/hls_264_master.m3u8?t=1755875047",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "c774681cf92a8d6d244435132b4277ac0c5d3e15.jpg",
+              "localized_name": "ホーミングボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ホーミングボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/c774681cf92a8d6d244435132b4277ac0c5d3e15.jpg"
+            },
+            {
+              "icon": "aab926682b98005accbe1e4787dd6a556ecf9961.jpg",
+              "localized_name": "エコーボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "エコーボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/aab926682b98005accbe1e4787dd6a556ecf9961.jpg"
+            },
+            {
+              "icon": "10c6d5cf39ab1eda368d9068d344e3e318d64095.jpg",
+              "localized_name": "パラサイトボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "パラサイトボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/10c6d5cf39ab1eda368d9068d344e3e318d64095.jpg"
+            },
+            {
+              "icon": "6bd14db9862ca80e4025273c802da0388bc3f4c5.jpg",
+              "localized_name": "ジャガーノートボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ジャガーノートボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/6bd14db9862ca80e4025273c802da0388bc3f4c5.jpg"
+            },
+            {
+              "icon": "a12889b45f018b11e36ac888325024cba833c67d.jpg",
+              "localized_name": "ゴールドボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ゴールドボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/a12889b45f018b11e36ac888325024cba833c67d.jpg"
+            },
+            {
+              "icon": "3999418a77ac76fdbf1aae51bc67507f8f1be382.jpg",
+              "localized_name": "ペネトレイトボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ペネトレイトボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/3999418a77ac76fdbf1aae51bc67507f8f1be382.jpg"
+            },
+            {
+              "icon": "2d4600d8bdfb371a38dc87d5e9b5243c17992076.jpg",
+              "localized_name": "ファントムボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "ファントムボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/2d4600d8bdfb371a38dc87d5e9b5243c17992076.jpg"
+            },
+            {
+              "icon": "ec8ddb0cfb1f929c18255042f5426273dfd3595d.jpg",
+              "localized_name": "チェインボール",
+              "archived": 0,
+              "hidden": 0,
+              "name": "チェインボール",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/ec8ddb0cfb1f929c18255042f5426273dfd3595d.jpg"
+            },
+            {
+              "icon": "ea15de5417a818c23439a61da3d674e3ce1f0094.jpg",
+              "localized_name": "レベルボーナス獲得",
+              "archived": 0,
+              "hidden": 0,
+              "name": "レベルボーナス獲得",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/ea15de5417a818c23439a61da3d674e3ce1f0094.jpg"
+            },
+            {
+              "icon": "bee0c9d832db228a77af3dff128cbfe118ddb8a5.jpg",
+              "localized_name": "スピードレベル100",
+              "archived": 0,
+              "hidden": 0,
+              "name": "スピードレベル100",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3927710/bee0c9d832db228a77af3dff128cbfe118ddb8a5.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 7, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "akimochi.satoshi@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3927710?t=1762522314",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3927710?t=1762522314",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

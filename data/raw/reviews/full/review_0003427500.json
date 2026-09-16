@@ -1,0 +1,66 @@
+{
+  "appid": 3427500,
+  "requested_at": "2026-09-13T19:15:06.674444+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224787944",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 602,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 602,
+          "last_played": 1777617776,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Bat-Rush is a tightly focused arcade experience that builds its identity around simplicity, precision, and repetition. At its core, the game revolves around controlling a small bat as it navigates through obstacle-filled environments, relying on a single input to maintain altitude and avoid hazards. The concept is instantly familiar, echoing the style of tap-controlled arcade games, but it is structured in a way that leans more toward level-based progression than endless survival alone. This gives the experience a slightly more deliberate pace, where each stage feels like a contained challenge designed to test your control and timing.\n\nThe gameplay loop is easy to grasp but surprisingly demanding in execution. Every press affects your movement in a direct and immediate way, and success depends on developing a consistent rhythm while reacting to increasingly complex obstacle patterns. Early levels serve as a gentle introduction, allowing you to get comfortable with the controls, but the difficulty ramps up quickly. Narrow passages, moving hazards, and tighter timing windows force you to refine your inputs, turning what initially feels like a casual experience into something that requires focus and patience. The addition of harder variations of each level further reinforces this, offering a more punishing version of the same challenges for players who want to push their skills to the limit.\n\nIn addition to its structured stages, the game includes an endless mode that shifts the focus toward survival and score accumulation. This mode feels more in line with traditional arcade design, where the objective is simply to last as long as possible while conditions gradually become more difficult. It complements the level-based approach by providing a space where players can practice mechanics without the constraints of predefined layouts. There is also a light progression system tied to collectible currency, which can be used for small advantages or cosmetic changes, though these additions do not significantly alter the core gameplay.\n\nVisually, the game adopts a bright and cartoon-like style that prioritizes clarity over detail. The environments are varied enough to avoid feeling completely repetitive, with different themes that subtly change the look of each level. Animations are simple but functional, ensuring that obstacles and movement remain easy to read even at higher speeds. This approach works well for the type of gameplay being offered, as it keeps the focus on precision and reaction time rather than visual complexity. While it lacks a strong artistic identity, it remains clean and accessible throughout.\n\nDespite its strengths in accessibility and responsiveness, the game’s biggest limitation is how little it evolves over time. The core mechanic remains unchanged from start to finish, and while level design introduces new patterns, it rarely introduces entirely new ideas. After spending enough time with the game, the experience begins to feel repetitive, as the challenge shifts from discovery to pure execution. The progression system, while present, is too minimal to provide a strong sense of advancement, and the unlockable elements do little to refresh the gameplay loop.\n\nThe overall scale of the game reflects its nature as a small indie project. It delivers exactly what it sets out to do, offering a straightforward arcade challenge without unnecessary complexity, but it also lacks the depth and variety needed to sustain long-term engagement. There is a certain appeal in its simplicity, particularly for players who enjoy quick, skill-based games that can be played in short sessions, but it does not provide enough content or innovation to stand out in a crowded genre.\n\nIn the end, Bat-Rush is a competent and occasionally satisfying arcade title that excels in short bursts but struggles to maintain interest over extended play. It captures the essence of reflex-driven gameplay and delivers a fair challenge for those willing to master its mechanics. However, its limited scope, repetitive structure, and lack of meaningful progression keep it from reaching a higher level of appeal. It is best approached as a quick, low-commitment experience rather than a deeply engaging one, offering moments of enjoyment without leaving a lasting impression.\n\nRating: 5/10",
+        "timestamp_created": 1777931856,
+        "timestamp_updated": 1777931856,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.502673804759979248",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759911324",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ8k8AAAAAFP+AV58AAAAB43r/ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.280999999999949,
+  "transport_error_count": 0
+}

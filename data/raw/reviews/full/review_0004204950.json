@@ -1,0 +1,66 @@
+{
+  "appid": 4204950,
+  "requested_at": "2026-09-13T20:25:57.995407+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224208639",
+        "author": {
+          "steamid": "76561198141987010",
+          "personaname": "HanzoMost",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/hanzomost/",
+          "num_games_owned": 189,
+          "num_reviews": 10,
+          "playtime_forever": 161,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 161,
+          "last_played": 1775581361,
+          "avatar": "1c31b766b5ed072238117513985479b83f328487"
+        },
+        "language": "koreana",
+        "review": "3시간 쯤 플레이하고 후기\n\n1. 해당 개발사의 첫 작품으로 보입니다. \n2. 경험이 없는 개발사치고 버그 없이 여러번 플레이 루프를 경험할 수 있어서 매우 긍정적\n3. 똑같은 다회차 플레이가 강제 되지않고, 도전과제와 스킬과 퍽들이 점차 해금되는 것에서 반복 플레이 가치 굿\n4. 다양한 캐릭터가 있어서, 한 캐릭터 다 파먹었다 싶으면 새로운 전투방식으로 교체도 가능\n\n해당 개발사의 다음 작품이 기대됩니다 화이팅~",
+        "timestamp_created": 1777289985,
+        "timestamp_updated": 1777289985,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765481213",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB/76TXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999996726,
+  "transport_error_count": 0
+}

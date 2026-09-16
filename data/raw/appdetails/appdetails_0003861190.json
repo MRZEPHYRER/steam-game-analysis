@@ -1,0 +1,276 @@
+{
+  "requested_at": "2026-09-12T17:33:07.102780+00:00",
+  "request_params": {
+    "appids": 3861190,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3861190,
+  "payload": {
+    "3861190": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "ECHO Re:Kill",
+        "steam_appid": 3861190,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Game Background</strong></h2><p class=\"bb_paragraph\" >You wake up in an unfamiliar “preparation area,” surrounded by strangers.</p><p class=\"bb_paragraph\" >At that moment, the system’s voice rings in your ears—“New mission, commencing immediately.”</p><p class=\"bb_paragraph\" >Mission after mission, life and death hang in the balance. Some return safely, while others remain lost at the end of the line.</p><p class=\"bb_paragraph\" >Only by accumulating points can you reclaim your freedom.</p><p class=\"bb_paragraph\" >This is an adventure with no retreat. All you can do is keep moving forward.</p><h2 class=\"bb_tag\" ><strong>Game Features</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >An 80,000-word mid-length story</p></li><li><p class=\"bb_paragraph\" >Linear narrative—A no-choice visual novel that delivers a tightly woven and gripping narrative.</p></li><li><p class=\"bb_paragraph\" >Varied mission settings, From mystery to horror, and into the realm of the bizarre, the atmosphere constantly shifts.</p></li><li><p class=\"bb_paragraph\" >Emotional storytelling focused on bonds, survival, and character growth</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Game Background</strong></h2><p class=\"bb_paragraph\" >You wake up in an unfamiliar “preparation area,” surrounded by strangers.</p><p class=\"bb_paragraph\" >At that moment, the system’s voice rings in your ears—“New mission, commencing immediately.”</p><p class=\"bb_paragraph\" >Mission after mission, life and death hang in the balance. Some return safely, while others remain lost at the end of the line.</p><p class=\"bb_paragraph\" >Only by accumulating points can you reclaim your freedom.</p><p class=\"bb_paragraph\" >This is an adventure with no retreat. All you can do is keep moving forward.</p><h2 class=\"bb_tag\" ><strong>Game Features</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >An 80,000-word mid-length story</p></li><li><p class=\"bb_paragraph\" >Linear narrative—A no-choice visual novel that delivers a tightly woven and gripping narrative.</p></li><li><p class=\"bb_paragraph\" >Varied mission settings, From mystery to horror, and into the realm of the bizarre, the atmosphere constantly shifts.</p></li><li><p class=\"bb_paragraph\" >Emotional storytelling focused on bonds, survival, and character growth</p></li></ul>",
+        "short_description": "You wake in an unfamiliar “Preparation Area”, surrounded by strangers. The system declares: “New mission, commencing immediately.” Mission after mission, where life and death hang in the balance. Only by earning points can you reclaim freedom. An adventure with no retreat—move forward or vanish.",
+        "supported_languages": "Simplified Chinese, English, Japanese, Traditional Chinese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/1aa8e55043bdc727dec91dba50a94ce85f364481/header.jpg?t=1756771226",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/fef83a0bb13c866e0d4312fa51ec2560d0fa8164/capsule_231x87.jpg?t=1756771226",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/fef83a0bb13c866e0d4312fa51ec2560d0fa8164/capsule_184x69.jpg?t=1756771226",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (SP1+), Windows 10 and Windows 11<br></li><li><strong>Processor:</strong> x86, x64<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 600 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (SP1+), Windows 10 and Windows 11<br></li><li><strong>Processor:</strong> x86, x64<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "MulPersona"
+        ],
+        "publishers": [
+          "MulPersona"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1357514
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy ECHO Re:Kill",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1357514,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "ECHO Re:Kill - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/ebc251d927d1b96864da2815eb8d070e250eb326/ss_ebc251d927d1b96864da2815eb8d070e250eb326.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/ebc251d927d1b96864da2815eb8d070e250eb326/ss_ebc251d927d1b96864da2815eb8d070e250eb326.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/7c51efdab58e91482c7fe929f7e42ee0363ad8af/ss_7c51efdab58e91482c7fe929f7e42ee0363ad8af.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/7c51efdab58e91482c7fe929f7e42ee0363ad8af/ss_7c51efdab58e91482c7fe929f7e42ee0363ad8af.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/41f4ed878ae49a40cff37c2c3e575e988fc13258/ss_41f4ed878ae49a40cff37c2c3e575e988fc13258.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/41f4ed878ae49a40cff37c2c3e575e988fc13258/ss_41f4ed878ae49a40cff37c2c3e575e988fc13258.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/3c126fb58b46b7b9a4e74d41a8795f8b17b592fe/ss_3c126fb58b46b7b9a4e74d41a8795f8b17b592fe.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/3c126fb58b46b7b9a4e74d41a8795f8b17b592fe/ss_3c126fb58b46b7b9a4e74d41a8795f8b17b592fe.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/8e2deeb8ed07fd768dd2c8b80d06ef78b6c502ae/ss_8e2deeb8ed07fd768dd2c8b80d06ef78b6c502ae.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/8e2deeb8ed07fd768dd2c8b80d06ef78b6c502ae/ss_8e2deeb8ed07fd768dd2c8b80d06ef78b6c502ae.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/081628dae0ee7435cb2371ad7c4c516561f1e6b0/ss_081628dae0ee7435cb2371ad7c4c516561f1e6b0.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/081628dae0ee7435cb2371ad7c4c516561f1e6b0/ss_081628dae0ee7435cb2371ad7c4c516561f1e6b0.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/81afe48bbdb46a637e119375caff5f8aa63c3d24/ss_81afe48bbdb46a637e119375caff5f8aa63c3d24.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/81afe48bbdb46a637e119375caff5f8aa63c3d24/ss_81afe48bbdb46a637e119375caff5f8aa63c3d24.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/8c8b81037dd1b66932eeeb8dbdf2e3a2a56f89d8/ss_8c8b81037dd1b66932eeeb8dbdf2e3a2a56f89d8.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/8c8b81037dd1b66932eeeb8dbdf2e3a2a56f89d8/ss_8c8b81037dd1b66932eeeb8dbdf2e3a2a56f89d8.1920x1080.jpg?t=1756771226"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/79989032fc5500b710f10d26b923f65d5ba15afd/ss_79989032fc5500b710f10d26b923f65d5ba15afd.600x338.jpg?t=1756771226",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861190/79989032fc5500b710f10d26b923f65d5ba15afd/ss_79989032fc5500b710f10d26b923f65d5ba15afd.1920x1080.jpg?t=1756771226"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257186589,
+            "name": "pv-en",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257186589/f319fe9a219f35b1001a140312d9a87a17b406b4/movie_600x337.jpg?t=1755778164",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3861190/1325670699/d4b81956cce11d59b0a92adcf619e96c5cfc98b3/1755774687/dash_av1.mpd?t=1755778164",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3861190/1325670699/d4b81956cce11d59b0a92adcf619e96c5cfc98b3/1755774687/dash_h264.mpd?t=1755778164",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3861190/1325670699/d4b81956cce11d59b0a92adcf619e96c5cfc98b3/1755774687/hls_264_master.m3u8?t=1755778164",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "df635d9b7302498889d406c9756e66ba98c21742.jpg",
+              "localized_name": "The Witness",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Witness",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/df635d9b7302498889d406c9756e66ba98c21742.jpg"
+            },
+            {
+              "icon": "9940ff8c1426869c258078dd97c4abb6ae04ae3b.jpg",
+              "localized_name": "Unknown Area",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Unknown Area",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/9940ff8c1426869c258078dd97c4abb6ae04ae3b.jpg"
+            },
+            {
+              "icon": "98ba55562b00ae771d4abefc4b4bd85f0468afcd.jpg",
+              "localized_name": "Chapter1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Chapter1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/98ba55562b00ae771d4abefc4b4bd85f0468afcd.jpg"
+            },
+            {
+              "icon": "d6884b51dff1bd1bd52a58d6e669ed6cb2fe73d2.jpg",
+              "localized_name": "Chapter2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Chapter2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/d6884b51dff1bd1bd52a58d6e669ed6cb2fe73d2.jpg"
+            },
+            {
+              "icon": "ecb7049ec915fc111d381bc652161354db8230ad.jpg",
+              "localized_name": "Chapter3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Chapter3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/ecb7049ec915fc111d381bc652161354db8230ad.jpg"
+            },
+            {
+              "icon": "779b94168ff0c86214ee9eff16eab85e54dd5dc8.jpg",
+              "localized_name": "Party Wipe",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Party Wipe",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3861190/779b94168ff0c86214ee9eff16eab85e54dd5dc8.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 1, 2025"
+        },
+        "support_info": {
+          "url": "https://x.com/mulpersona",
+          "email": "mulpersona@outlook.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3861190?t=1756771226",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3861190?t=1756771226",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Schimpfwörte\nÄngstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

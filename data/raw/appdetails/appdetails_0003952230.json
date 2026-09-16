@@ -1,0 +1,273 @@
+{
+  "requested_at": "2026-09-13T06:03:12.764900+00:00",
+  "request_params": {
+    "appids": 3952230,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3952230,
+  "payload": {
+    "3952230": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "3000m to Whatever’s Up There",
+        "steam_appid": 3952230,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >You were discarded the moment you drew your first breath. Weak, useless, nothing but a statistical failure. Thrown into an abyss… The end of the line.</p><p class=\"bb_paragraph\" >But you survived.</p><p class=\"bb_paragraph\" >Climb through <strong>cursed</strong> paths toward the <strong>malevolent</strong> peak, where, so they say, something incredible awaits. No one has ever made it that far.<br>And yet… you keep jumping.</p><h2 class=\"bb_tag\" ><strong>Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>One single action:</strong> Jump. Every leap is designed to look easy. It never is.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>A unique atmosphere:</strong> Sounds and visuals crafted to disguise the hell that awaits you.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Relentless playtime:</strong> From 2 hours to 2 years, depending on the instability of the path… and the stubbornness of the climber.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >You were discarded the moment you drew your first breath. Weak, useless, nothing but a statistical failure. Thrown into an abyss… The end of the line.</p><p class=\"bb_paragraph\" >But you survived.</p><p class=\"bb_paragraph\" >Climb through <strong>cursed</strong> paths toward the <strong>malevolent</strong> peak, where, so they say, something incredible awaits. No one has ever made it that far.<br>And yet… you keep jumping.</p><h2 class=\"bb_tag\" ><strong>Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>One single action:</strong> Jump. Every leap is designed to look easy. It never is.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>A unique atmosphere:</strong> Sounds and visuals crafted to disguise the hell that awaits you.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Relentless playtime:</strong> From 2 hours to 2 years, depending on the instability of the path… and the stubbornness of the climber.</p></li></ul>",
+        "short_description": "Jump. There must be something up there.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/684182e5c6d68bfe9ce7b33481af5e1a48f4cabf/header.jpg?t=1761328338",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/4cff729e0f71ebfa20f7b477ac91c4a98dae7598/capsule_231x87.jpg?t=1761328338",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/4cff729e0f71ebfa20f7b477ac91c4a98dae7598/capsule_184x69.jpg?t=1761328338",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Dual Core 2.4 GhZ<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 700 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Roko"
+        ],
+        "publishers": [
+          "Roko"
+        ],
+        "demos": [
+          {
+            "appid": 4063260,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.99"
+        },
+        "packages": [
+          1388008
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 3000m to Whatever’s Up There",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1388008,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "3000m to Whatever’s Up There - $7.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 799
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/420987dde6bd1d5ef2cf0aa3a04e8b2f5ee8c296/ss_420987dde6bd1d5ef2cf0aa3a04e8b2f5ee8c296.600x338.jpg?t=1761328338",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/420987dde6bd1d5ef2cf0aa3a04e8b2f5ee8c296/ss_420987dde6bd1d5ef2cf0aa3a04e8b2f5ee8c296.1920x1080.jpg?t=1761328338"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/70db2b66d712ade6adb8268042be6d950407d8f5/ss_70db2b66d712ade6adb8268042be6d950407d8f5.600x338.jpg?t=1761328338",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/70db2b66d712ade6adb8268042be6d950407d8f5/ss_70db2b66d712ade6adb8268042be6d950407d8f5.1920x1080.jpg?t=1761328338"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/6ad4ecc9434388e8710356a0987a5e023481b4c3/ss_6ad4ecc9434388e8710356a0987a5e023481b4c3.600x338.jpg?t=1761328338",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/6ad4ecc9434388e8710356a0987a5e023481b4c3/ss_6ad4ecc9434388e8710356a0987a5e023481b4c3.1920x1080.jpg?t=1761328338"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/25e0f2af3c45c6edddfd7a8e5dddcbe941bfa164/ss_25e0f2af3c45c6edddfd7a8e5dddcbe941bfa164.600x338.jpg?t=1761328338",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/25e0f2af3c45c6edddfd7a8e5dddcbe941bfa164/ss_25e0f2af3c45c6edddfd7a8e5dddcbe941bfa164.1920x1080.jpg?t=1761328338"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/66c05403af9ed2658bf4aae9a5adc37565571a0a/ss_66c05403af9ed2658bf4aae9a5adc37565571a0a.600x338.jpg?t=1761328338",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/66c05403af9ed2658bf4aae9a5adc37565571a0a/ss_66c05403af9ed2658bf4aae9a5adc37565571a0a.1920x1080.jpg?t=1761328338"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257182281,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182281/85f614837dc5c0cd08398f199741c680b8559117/movie_600x337.jpg?t=1755211190",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3952230/221714164/c7fcc09068f80740182b283d19c58d2ffe284b3e/1755209865/dash_av1.mpd?t=1755211190",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3952230/221714164/c7fcc09068f80740182b283d19c58d2ffe284b3e/1755209865/dash_h264.mpd?t=1755211190",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3952230/221714164/c7fcc09068f80740182b283d19c58d2ffe284b3e/1755209865/hls_264_master.m3u8?t=1755211190",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 3,
+          "highlighted": [
+            {
+              "icon": "9ae82aaf2ca585059afb0b57527f07bed7bbd295.jpg",
+              "localized_name": "FERTILIZE!",
+              "archived": 0,
+              "hidden": 1,
+              "name": "FERTILIZE!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3952230/9ae82aaf2ca585059afb0b57527f07bed7bbd295.jpg"
+            },
+            {
+              "icon": "82d3d0e1ba9a6530fc9d5fa01bfe4910ce6bfef3.jpg",
+              "localized_name": "HALFWAY THERE!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "HALFWAY THERE!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3952230/82d3d0e1ba9a6530fc9d5fa01bfe4910ce6bfef3.jpg"
+            },
+            {
+              "icon": "710a8a4c3dd4b73856a789cd3dc33c92a1baba33.jpg",
+              "localized_name": "THE LAST ONE LEFT!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "THE LAST ONE LEFT!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3952230/710a8a4c3dd4b73856a789cd3dc33c92a1baba33.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "rokolusot@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3952230?t=1761328338",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3952230/494f1095ffea53f98ee54eba7708e075712b7457/page_bg_raw.jpg?t=1761328338",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

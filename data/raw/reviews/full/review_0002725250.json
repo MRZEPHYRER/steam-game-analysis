@@ -1,0 +1,66 @@
+{
+  "appid": 2725250,
+  "requested_at": "2026-09-13T18:54:45.522123+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 155,
+      "total_negative": 3,
+      "total_reviews": 158
+    },
+    "reviews": [
+      {
+        "recommendationid": "210012051",
+        "author": {
+          "steamid": "76561198054559795",
+          "personaname": "ホワイト",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/op467m/",
+          "num_games_owned": 284,
+          "num_reviews": 122,
+          "playtime_forever": 351,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 257,
+          "last_played": 1769781011,
+          "avatar": "5c2a9441a5ab95a9e0d5ff7f277a787f75b90c73"
+        },
+        "language": "japanese",
+        "review": "[h1]演劇×リズムゲームの融合が楽しい良作！[/h1]\n以前プレイした体験版が面白かったので購入。\n2025年11月24日時点ではアーリーアクセスのゲームとなります。\n\nプラットフォーマーに演劇的な演出、そしてリズムゲーム要素を組み合わせた作品で大満足です。\nしっかりと世界観を感じられる音楽も魅力的でした。\n\n[h2]操作周り[/h2]\nリズムゲームの基本操作はFキーとJキーの2つのみ。\nキーコンフィグにも対応しており、好みのキーに割り当てることも可能。\n\nシンプルな操作ながら演出面が非常に凝っているので、爽快感を味わいつつ楽しむことができます。\n\n[h2]ストーリー[/h2]\n記憶をなくした2人の少女「アレフ」と「リオラ」が互いに協力して演劇を行い、劇場の秘密に迫っていくストーリー。\n2人の個性と世界観、そして音楽が見事にマッチしていて惹き込まれました。\n\nストーリーはアドベンチャーパートで繰り広げられます。\n綺麗なスチルも用意されており、ビジュアル面でも見応えあり。\nさらに、本作はキャラボイスありのゲームなので、より一層ストーリーを楽しむことができます。\n\n記憶喪失という少し重い状況ではありますが、アレフとリオラの掛け合いにはユーモアがあり、暗くなりすぎないバランスも良かったです。\n特にアレフの好みの物語を聞こうとするリオラのシーンは、年相応のふてくされた反応が可愛くて必見です！\n\n[h2]リズムゲームパート[/h2]\nアレフが舞台装置を起動し、リオラが演劇を演じているという設定で繰り広げられます。\n「二人で舞台を作り上げていく」という構成を、リズムゲームとして上手く落とし込んでいると感じられました。\n\nプレイ中、アレフ視点からリオラ視点へと切り替わる演出やステージが大きく変化する場面があり、まるで舞台の中にいるような没入感を味わえるのは魅力的です。\nただし、ステージの変化自体が激しい箇所は、ノーツ位置が少し見づらいと感じる場面もありました。\n\n[h2]まとめ[/h2]\n演出・音楽・ストーリーがうまく融合した魅力的な作品。\n「二人で舞台を作り上げていく」という構成を、演劇×リズムゲームという独特の表現で魅せてくれるのが素晴らしい。\nリズムゲームを遊びつつ、ストーリーも楽しみたい人にはぜひおすすめしたい作品です。",
+        "timestamp_created": 1763994137,
+        "timestamp_updated": 1764005821,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.693774640560150146",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763976609",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWH98AAAAAFP+YzZ6AAAABz+ZChBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

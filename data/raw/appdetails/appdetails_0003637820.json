@@ -1,0 +1,281 @@
+{
+  "requested_at": "2026-09-12T15:51:47.947827+00:00",
+  "request_params": {
+    "appids": 3637820,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3637820,
+  "payload": {
+    "3637820": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Addy",
+        "steam_appid": 3637820,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Welcome to Nowhere Tech, transfer student- where you'll meet people, make choices, make mistakes, and make even more mistakes. You came here to have new experiences and live a little, but you might get more than you bargained for...</p><p class=\"bb_paragraph\" >Navigate this choice-heavy, dialogue-heavy story and crack the code behind your enigmatic new classmate.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>INCLUDING:</strong></p><p class=\"bb_paragraph\" >- TWO semi-dateable beautiful young women!</p><p class=\"bb_paragraph\" >- 4 major linear endings</p><p class=\"bb_paragraph\" >- Countless possible diverging routes</p><p class=\"bb_paragraph\" >- Unlockable images and special events</p><p class=\"bb_paragraph\" >- Surprise gameplay at the most inopportune time</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Content Warnings:</strong></p><p class=\"bb_paragraph\" >Cursing, discussion of sexual themes, drug references- typical college life stuff.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Any resemblance of characters, events, or themes to real people in my life is unintended. Probably.</p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Welcome to Nowhere Tech, transfer student- where you'll meet people, make choices, make mistakes, and make even more mistakes. You came here to have new experiences and live a little, but you might get more than you bargained for...</p><p class=\"bb_paragraph\" >Navigate this choice-heavy, dialogue-heavy story and crack the code behind your enigmatic new classmate.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>INCLUDING:</strong></p><p class=\"bb_paragraph\" >- TWO semi-dateable beautiful young women!</p><p class=\"bb_paragraph\" >- 4 major linear endings</p><p class=\"bb_paragraph\" >- Countless possible diverging routes</p><p class=\"bb_paragraph\" >- Unlockable images and special events</p><p class=\"bb_paragraph\" >- Surprise gameplay at the most inopportune time</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Content Warnings:</strong></p><p class=\"bb_paragraph\" >Cursing, discussion of sexual themes, drug references- typical college life stuff.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Any resemblance of characters, events, or themes to real people in my life is unintended. Probably.</p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "It's hard to focus on schoolwork when she's missing.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/16dea71453a15146059593bc77214d12393ae6d5/header.jpg?t=1762456106",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/dbf075dfd35f890bf9122ab4a4cecda49553d91d/capsule_231x87.jpg?t=1762456106",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/dbf075dfd35f890bf9122ab4a4cecda49553d91d/capsule_184x69.jpg?t=1762456106",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> 2.0 Ghz 64-bit Intel-compatible<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0 or DirectX 11</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10.10+<br></li><li><strong>Processor:</strong> 2.0 Ghz 64-bit Intel-compatible<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 16.04+<br></li><li><strong>Processor:</strong> 2.0 Ghz 64-bit Intel-compatible<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Open GL 3.0</li></ul>"
+        },
+        "developers": [
+          "Sofia Gyger"
+        ],
+        "publishers": [
+          "Sofia Gyger"
+        ],
+        "demos": [
+          {
+            "appid": 3758040,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1282231
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Addy",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1282231,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Addy - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/356cab4db1073be6e748f185cda647c63881b33a/ss_356cab4db1073be6e748f185cda647c63881b33a.600x338.jpg?t=1762456106",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/356cab4db1073be6e748f185cda647c63881b33a/ss_356cab4db1073be6e748f185cda647c63881b33a.1920x1080.jpg?t=1762456106"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/b8d0036be78d4886e81311c24e014bf1a8531938/ss_b8d0036be78d4886e81311c24e014bf1a8531938.600x338.jpg?t=1762456106",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/b8d0036be78d4886e81311c24e014bf1a8531938/ss_b8d0036be78d4886e81311c24e014bf1a8531938.1920x1080.jpg?t=1762456106"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/55dd15a5e3fb5e606d66cdacc48661dff0d559f7/ss_55dd15a5e3fb5e606d66cdacc48661dff0d559f7.600x338.jpg?t=1762456106",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/55dd15a5e3fb5e606d66cdacc48661dff0d559f7/ss_55dd15a5e3fb5e606d66cdacc48661dff0d559f7.1920x1080.jpg?t=1762456106"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/4f0cdddc03b90f9fb5c956e3710de206c98fcc0d/ss_4f0cdddc03b90f9fb5c956e3710de206c98fcc0d.600x338.jpg?t=1762456106",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/4f0cdddc03b90f9fb5c956e3710de206c98fcc0d/ss_4f0cdddc03b90f9fb5c956e3710de206c98fcc0d.1920x1080.jpg?t=1762456106"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/f16b88f17d638bdf5da6542ce6e05632aac6a696/ss_f16b88f17d638bdf5da6542ce6e05632aac6a696.600x338.jpg?t=1762456106",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3637820/f16b88f17d638bdf5da6542ce6e05632aac6a696/ss_f16b88f17d638bdf5da6542ce6e05632aac6a696.1920x1080.jpg?t=1762456106"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257121042,
+            "name": "Teaser Trailer 01",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257121042/a1ca6a5cd61f127ebd533f322d556f4b1a6e62d6/movie_600x337.jpg?t=1745419946",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3637820/861838/c9d73a1b3c9a2fc406265e74b01bbd177a9423e5/1750408476/dash_av1.mpd?t=1745419946",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3637820/861838/c9d73a1b3c9a2fc406265e74b01bbd177a9423e5/1750408476/dash_h264.mpd?t=1745419946",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3637820/861838/c9d73a1b3c9a2fc406265e74b01bbd177a9423e5/1750408476/hls_264_master.m3u8?t=1745419946",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 19,
+          "highlighted": [
+            {
+              "icon": "3659ba47a00d41ceb2040ba54b9dd340e4050928.jpg",
+              "localized_name": "Chronic Unemployment",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Chronic Unemployment",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/3659ba47a00d41ceb2040ba54b9dd340e4050928.jpg"
+            },
+            {
+              "icon": "81f950ca29e9ecde834a0a40cba226c65ecb5349.jpg",
+              "localized_name": "Addict",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Addict",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/81f950ca29e9ecde834a0a40cba226c65ecb5349.jpg"
+            },
+            {
+              "icon": "7441000e767720dcb0b47f65465574dd2efb3905.jpg",
+              "localized_name": "Two for One",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Two for One",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/7441000e767720dcb0b47f65465574dd2efb3905.jpg"
+            },
+            {
+              "icon": "1431396fc481cf746a1f15caaca357bd49ff34d3.jpg",
+              "localized_name": "I hope you don't act like this in real life.",
+              "archived": 0,
+              "hidden": 1,
+              "name": "I hope you don't act like this in real life.",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/1431396fc481cf746a1f15caaca357bd49ff34d3.jpg"
+            },
+            {
+              "icon": "d727768d07ba9675aef1b6e3bf589bed434ed500.jpg",
+              "localized_name": "Completionist",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Completionist",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/d727768d07ba9675aef1b6e3bf589bed434ed500.jpg"
+            },
+            {
+              "icon": "b9b57e203ce6d811b546eae8bf7c2b555dda76b0.jpg",
+              "localized_name": "Completionist Completionist",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Completionist Completionist",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/b9b57e203ce6d811b546eae8bf7c2b555dda76b0.jpg"
+            },
+            {
+              "icon": "2ad7070799d8a38f42a5548e16fc64d4f4cd8bf0.jpg",
+              "localized_name": "Is he going to be okay?",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Is he going to be okay?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/2ad7070799d8a38f42a5548e16fc64d4f4cd8bf0.jpg"
+            },
+            {
+              "icon": "41f2d0bd8ce8c57795687c2f46b323955938d5f7.jpg",
+              "localized_name": "Stellar",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Stellar",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/41f2d0bd8ce8c57795687c2f46b323955938d5f7.jpg"
+            },
+            {
+              "icon": "2a9e4e1d530bcec290315ec882184635c99ebd8c.jpg",
+              "localized_name": "Incel no More",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Incel no More",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/2a9e4e1d530bcec290315ec882184635c99ebd8c.jpg"
+            },
+            {
+              "icon": "2aab408bb60bd81d09960681e6f9bc18f39d701e.jpg",
+              "localized_name": "You can do better than that.",
+              "archived": 0,
+              "hidden": 1,
+              "name": "You can do better than that.",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3637820/2aab408bb60bd81d09960681e6f9bc18f39d701e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 6, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "srgyger@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3637820?t=1762456106",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3637820?t=1762456106",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas ilícitas\nLinguagem imprópria\nAtos criminosos"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogen\nGewalt\nDerbe Sprache"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nPenggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

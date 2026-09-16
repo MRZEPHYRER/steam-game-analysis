@@ -1,0 +1,66 @@
+{
+  "appid": 3624520,
+  "requested_at": "2026-09-13T19:26:56.217477+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 3,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "215161416",
+        "author": {
+          "steamid": "76561198080632860",
+          "personaname": "RobDiazBel",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/robdiazbel/",
+          "num_games_owned": 753,
+          "num_reviews": 57,
+          "playtime_forever": 204,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 204,
+          "last_played": 1767552945,
+          "avatar": "a48155a8af392ee1dc03132796dffce8f851669e"
+        },
+        "language": "english",
+        "review": "it's a good game, UI and menus are a little wonky but the gameplay is fun!",
+        "timestamp_created": 1767559331,
+        "timestamp_updated": 1767559331,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756461626",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB4pOO0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

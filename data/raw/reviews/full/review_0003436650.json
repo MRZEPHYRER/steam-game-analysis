@@ -1,0 +1,66 @@
+{
+  "appid": 3436650,
+  "requested_at": "2026-09-13T19:15:47.629334+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "218528270",
+        "author": {
+          "steamid": "76561198051633575",
+          "personaname": "Nykizta",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/nykizta/",
+          "num_games_owned": 927,
+          "num_reviews": 8,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1771324118,
+          "avatar": "795b96abce3e98fe97d1bb7b2b9ddd16aa75d7b6"
+        },
+        "language": "english",
+        "review": "So, I actually chose to pick this game up because I noticed it didn't have a lot of reviews and wanted to give a lesser known game a shot. I just wished I had better feedback to give. Now, I want to preface the rest of my review with the fact that I'm disabled and a bit visually impaired, so the issues that made this bad for me may not apply to most people considering the game.\n\nUnfortunately, after playing the game less than an hour, I have a migraine.\n\n- There's no way to adjust the resolution or text size, which is rough given the font they use isn't the easiest to read to start with.\n- You can't review the tutorials again, so good luck if you miss some like I did.\n- No hints whatsoever if you get stuck, but still pressure. There is negative handholding in this game. It says, \"Yo, get these elements or die,\" and I go, \"The ♥♥♥♥ are those, I've literally not discovered anything like that.\" And then I just die. Doesn't feel like worthwhile progress, really.\n- Due to the lack of handholding or real structure of any kind, the story feels annoying and intrusive. Especially since I have to squint to read the pop-ups and more often just close out the window rather than try.\n\nSo yeah, I didn't love this one. The concept is there if you like games like Doodle God and the like, cute art and music and such, but it's not enough to keep me playing through the annoyance and frustration and mounting head pain.",
+        "timestamp_created": 1771324733,
+        "timestamp_updated": 1771324733,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.548872172832489014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767171690",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZBcaAAAAAFP+GQXAAAAAB+oM/BBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

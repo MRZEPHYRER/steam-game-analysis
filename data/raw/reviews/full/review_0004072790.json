@@ -1,0 +1,66 @@
+{
+  "appid": 4072790,
+  "requested_at": "2026-09-13T20:17:13.226435+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 29,
+      "total_negative": 0,
+      "total_reviews": 29
+    },
+    "reviews": [
+      {
+        "recommendationid": "208440121",
+        "author": {
+          "steamid": "76561199258484746",
+          "personaname": "Alime",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199258484746/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 165,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 165,
+          "last_played": 1762303683,
+          "avatar": "51bb78fd07a616dffa959c285ad0951a7ece4680"
+        },
+        "language": "english",
+        "review": "This part 2 is so good. It’s more intense and gory than the first, and the horror is even scarier this time. The story is incredible; while playing, I felt chills through my body and even got a little scared. You can really tell the devs put a lot of passion and effort into this game. 10/10.",
+        "timestamp_created": 1762304773,
+        "timestamp_updated": 1762304773,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.6337319016456604",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762290015",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXU0sAAAAAFP+RHiGAAAAB5s5GbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

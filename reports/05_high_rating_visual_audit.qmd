@@ -1,0 +1,421 @@
+---
+title: "Step 5E 高评分 Logistic 可视化审计"
+subtitle: "次要、游戏层级、业务可读的高评分门槛关联分析"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+
+model_dir <- file.path("..", "data", "analysis", "modeling")
+figure_dir <- file.path("..", "figures", "modeling")
+read_5e <- function(name) {
+  read.csv(
+    file.path(model_dir, name),
+    stringsAsFactors = FALSE,
+    check.names = FALSE,
+    fileEncoding = "UTF-8"
+  )
+}
+figure_5e <- function(name) file.path(figure_dir, name)
+
+outcomes <- read_5e("step5e_outcome_distribution.csv")
+primary_fit <- read_5e("step5e_primary_fit.csv")
+primary_coef <- read_5e("step5e_primary_coefficients.csv")
+profile_ci <- read_5e("step5e_primary_profile_ci.csv")
+separation <- read_5e("step5e_separation_diagnostics.csv")
+predictor_cells <- read_5e("step5e_predictor_level_outcomes.csv")
+influence <- read_5e("step5e_influence_summary.csv")
+top_influence <- read_5e("step5e_top_influence.csv")
+calibration <- read_5e("step5e_calibration_deciles.csv")
+auc <- read_5e("step5e_auc.csv")
+threshold_fit <- read_5e("step5e_rating_threshold_fit.csv")
+threshold_coef <- read_5e("step5e_rating_threshold_coefficients.csv")
+stability <- read_5e("step5e_rating_threshold_stability.csv")
+probability <- read_5e("step5e_predicted_probability_contrasts.csv")
+beta_compare <- read_5e("step5e_beta_logistic_direction_comparison.csv")
+fit_warnings <- read_5e("step5e_fit_warnings.csv")
+
+term_labels <- c(
+  "(Intercept)" = "截距",
+  "z_log1p_price" = "当前价格（log1p，+1 SD）",
+  "z_days_since_release" = "上市至快照天数（+1 SD）",
+  "platform_segmentWindows + macOS" = "Windows + macOS",
+  "platform_segmentWindows + Linux" = "Windows + Linux",
+  "platform_segmentWindows + macOS + Linux" = "三平台支持",
+  "genre_action" = "Action",
+  "genre_adventure" = "Adventure",
+  "genre_casual" = "Casual",
+  "genre_indie" = "Indie",
+  "genre_rpg" = "RPG",
+  "genre_simulation" = "Simulation",
+  "genre_strategy" = "Strategy"
+)
+primary_coef$display_term <- unname(term_labels[primary_coef$term])
+primary_or_table <- primary_coef[, c(
+  "display_term", "estimate_log_odds", "std_error", "z_value", "p_value",
+  "odds_ratio", "or_ci95_lower", "or_ci95_upper"
+)]
+names(primary_or_table) <- c(
+  "预测变量", "log odds", "标准误", "z 值", "p 值", "OR",
+  "95% CI 下限", "95% CI 上限"
+)
+```
+
+# Step 5E 分析目的
+
+Step 5E 回答的是：哪些游戏特征与“达到较高 Steam 正面评价水平”相关。它是次要、业务可读的游戏层级分析，不替代 Step 5C/5D 的 Beta-binomial 主推断。
+
+# 为什么需要 Secondary High-Rating Analysis
+
+Beta-binomial 直接建模每款游戏的正面/负面评论计数，并处理游戏之间的额外异质性。这里的 Logistic 模型则让每个游戏只贡献一个二元 outcome：20 条评论与 100,000 条评论的游戏，在 likelihood 中都是一个 observation。
+
+因此，本分析用于审计“达到门槛”的条件关联，而不是更准确地替代 Beta-binomial，也不使用评论数量作为权重或协变量。
+
+# 样本与 Outcome 定义
+
+Primary sample 固定为 `model20_paid` 的完整建模样本：`r primary_fit$n_games` 个付费游戏，均有至少 20 条评论且 AppID 唯一。高评分严格由 `positive_reviews / total_reviews >= cutoff` 定义，不使用 Steam 的 review-score category。
+
+85% 是预先指定的业务可读阈值，不是自然科学分界点；80% 与 90% 仅作为预先指定的敏感性分析。
+
+# 80/85/90 Rating Threshold 分布
+
+```{r}
+outcome_table <- outcomes[, c(
+  "model_id", "rating_threshold", "n_total", "high_rated_n",
+  "high_rated_percent", "not_high_rated_n", "not_high_rated_percent",
+  "exact_boundary_n"
+)]
+names(outcome_table) <- c(
+  "模型", "评分阈值", "总 N", "高评分 N", "高评分比例（%）",
+  "非高评分 N", "非高评分比例（%）", "精确落在边界 N"
+)
+knitr::kable(outcome_table, digits = 2, caption = "表：80/85/90 outcome 分布")
+```
+
+三个模型使用相同的 836 个游戏、相同预测变量、相同缩放参数和相同 reference level；只改变二元 outcome。
+
+# HIGH85 主 Logistic 模型
+
+```{r}
+fit_table <- primary_fit[, c(
+  "n_games", "event_n", "non_event_n", "number_of_coefficients",
+  "residual_df", "log_likelihood", "aic", "bic", "null_deviance",
+  "residual_deviance", "converged", "warning_count"
+)]
+names(fit_table) <- c(
+  "N", "事件 N", "非事件 N", "参数数", "残差自由度", "logLik", "AIC",
+  "BIC", "Null deviance", "Residual deviance", "收敛", "警告数"
+)
+fit_table[c("logLik", "AIC", "BIC", "Null deviance", "Residual deviance")] <-
+  lapply(
+    fit_table[c("logLik", "AIC", "BIC", "Null deviance", "Residual deviance")],
+    function(x) sprintf("%.4f", x)
+  )
+knitr::kable(fit_table, caption = "表：模型拟合指标")
+```
+
+主模型收敛状态为 `r primary_fit$converged`，profile likelihood CI 状态为 `r paste(unique(profile_ci$status), collapse = ", ")`。解释顺序依次为方向、OR 幅度、95% 置信区间、rating-threshold 稳健性，最后才是 p 值；不使用显著性星号。
+
+# 参数与 OR
+
+```{r}
+knitr::kable(
+  primary_or_table,
+  digits = 4,
+  caption = "表：HIGH85 主模型 OR 与 95% CI"
+)
+```
+
+```{r}
+#| fig-cap: "HIGH85 主 Logistic 模型的 OR 与 Wald 95% 置信区间"
+knitr::include_graphics(figure_5e("21_high_rating_primary_or.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Price、Simulation、Strategy 是否低于 OR = 1？
+- Platforms 与 Indie 是否总体高于 OR = 1？
+- RPG 的方向与区间是否支持“偏负”的谨慎表述？
+- 哪些 95% 置信区间跨越 OR = 1？
+:::
+
+# 模型诊断
+
+```{r}
+separation_table <- separation
+names(separation_table) <- c("检查", "标记数", "说明")
+knitr::kable(separation_table, caption = "表：Separation diagnostics")
+
+influence_table <- influence
+names(influence_table) <- c(
+  "N", "参数数", "最大绝对标准化偏差残差", "|残差| > 2 N",
+  "|残差| > 3 N", "最大 leverage", "2p/n", "leverage > 2p/n N",
+  "3p/n", "leverage > 3p/n N", "最大 Cook's D", "4/n",
+  "Cook's D > 4/n N", "Cook's D > 0.5 N", "Cook's D > 1 N"
+)
+knitr::kable(influence_table, digits = 5, caption = "表：Influence diagnostics")
+```
+
+```{r}
+cell_table <- predictor_cells
+names(cell_table) <- c(
+  "预测变量", "水平", "N", "高评分 N", "高评分比例（%）",
+  "非高评分 N", "非高评分比例（%）"
+)
+knitr::kable(cell_table, digits = 2, caption = "表：Platform 与 Genre outcome cell 审计")
+```
+
+```{r}
+top_table <- top_influence[, c(
+  "appid", "name", "positive_rate", "total_reviews", "high_rating_85",
+  "fitted_probability", "standardized_residual", "leverage",
+  "cooks_distance", "price", "platform", "genres"
+)]
+names(top_table) <- c(
+  "AppID", "游戏", "正面率", "总评论", "HIGH85", "预测概率",
+  "标准化残差", "Leverage", "Cook's D", "价格", "平台", "Genres"
+)
+knitr::kable(top_table, digits = 4, caption = "表：Cook's D 排名前 20 的游戏")
+```
+
+上述诊断用于识别稀疏 outcome cell、极端拟合概率、较大系数/标准误以及可能具有较强影响的游戏；它们不是自动删点规则。
+
+# Calibration 与 AUC
+
+```{r}
+calibration_table <- calibration
+names(calibration_table) <- c(
+  "十分位", "N", "平均预测概率", "观察高评分比例", "绝对差"
+)
+knitr::kable(calibration_table, digits = 4, caption = "表：HIGH85 样本内校准十分位")
+knitr::kable(auc, digits = 4, caption = "表：HIGH85 ROC AUC")
+```
+
+```{r}
+#| fig-cap: "HIGH85 主模型的描述性样本内校准"
+knitr::include_graphics(figure_5e("19_high_rating_calibration.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 各十分位的预测概率与观察比例是否系统性偏离？
+- 是否只有少数十分位出现明显绝对差？
+- 本图是 in-sample descriptive calibration，不是 external validation。
+:::
+
+```{r}
+#| fig-cap: "HIGH85 主模型的描述性 ROC 曲线"
+knitr::include_graphics(figure_5e("20_high_rating_roc.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- AUC 只描述样本内区分能力，不用于选择或优化分类 threshold。
+- 本研究目标主要是解释关联，而不是训练部署型分类器。
+:::
+
+# Rating Threshold 敏感性
+
+```{r}
+threshold_fit_table <- threshold_fit[, c(
+  "model_id", "rating_threshold", "n_games", "event_n", "event_rate",
+  "converged", "warning_count", "log_likelihood", "aic", "bic"
+)]
+names(threshold_fit_table) <- c(
+  "模型", "评分阈值", "N", "事件 N", "事件比例", "收敛", "警告数",
+  "logLik", "AIC", "BIC"
+)
+knitr::kable(threshold_fit_table, digits = 4, caption = "表：Rating cutoff sensitivity")
+
+stability_table <- stability[, c(
+  "term", "odds_ratio_HIGH80", "or_ci95_lower_HIGH80", "or_ci95_upper_HIGH80",
+  "odds_ratio_HIGH85", "or_ci95_lower_HIGH85", "or_ci95_upper_HIGH85",
+  "odds_ratio_HIGH90", "or_ci95_lower_HIGH90", "or_ci95_upper_HIGH90",
+  "direction_agreement", "max_or_drift_from_high85", "stability_class"
+)]
+stability_table$term <- unname(term_labels[stability_table$term])
+names(stability_table) <- c(
+  "预测变量", "OR 80", "CI80 下限", "CI80 上限", "OR 85", "CI85 下限",
+  "CI85 上限", "OR 90", "CI90 下限", "CI90 上限", "方向一致",
+  "相对 HIGH85 最大漂移", "稳健性分类"
+)
+knitr::kable(stability_table, digits = 4, caption = "表：核心 predictor 稳健性")
+```
+
+ROBUST / PARTIAL / SENSITIVE 只是一项描述性审计：以 HIGH85 为基准计算最大相对 OR 漂移，并检查三个阈值方向是否一致；它不是统计检验。
+
+```{r}
+#| fig-cap: "三个预先指定的高评分阈值下完整预测变量 OR 对比"
+knitr::include_graphics(figure_5e("22_rating_threshold_or_comparison.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 是否存在 80/85/90 之间方向反转？
+- 是否只有某一个 cutoff 给出异常 OR 或明显扩大的区间？
+- 不能根据本图选择“最佳” rating cutoff。
+:::
+
+```{r}
+#| fig-cap: "核心预测变量在 80/85/90 cutoff 下的 OR 漂移"
+knitr::include_graphics(figure_5e("23_rating_threshold_drift.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- Price、Simulation、Strategy 的负方向是否持续？
+- Platform、Indie 与 RPG 的方向和幅度是否稳定？
+- 每个面板纵轴独立，只用于查看同一预测变量跨 cutoff 的漂移。
+:::
+
+# Price 深入审计
+
+```{r}
+compact_stability <- function(rows) {
+  out <- data.frame(
+    display_term = unname(term_labels[rows$term]),
+    or80 = rows$odds_ratio_HIGH80,
+    or85 = rows$odds_ratio_HIGH85,
+    or90 = rows$odds_ratio_HIGH90,
+    direction_agreement = rows$direction_agreement,
+    max_drift = sprintf("%.1f%%", 100 * rows$max_or_drift_from_high85),
+    stability = rows$stability_class,
+    check.names = FALSE
+  )
+  names(out) <- c(
+    "预测变量", "OR80", "OR85", "OR90", "方向一致", "最大相对漂移", "稳定性"
+  )
+  out
+}
+compact_probability <- function(rows) {
+  out <- data.frame(
+    scenario = rows$scenario,
+    reference_probability = rows$reference_probability,
+    modified_probability = rows$modified_probability,
+    percentage_point_change = rows$percentage_point_change,
+    check.names = FALSE
+  )
+  names(out) <- c("情景", "参考概率", "情景概率", "变化百分点")
+  out
+}
+price_rows <- stability[stability$term == "z_log1p_price", ]
+knitr::kable(
+  compact_stability(price_rows),
+  digits = 4,
+  caption = "表：Price 高评分阈值敏感性"
+)
+knitr::kable(
+  compact_probability(
+    probability[probability$scenario %in% c("REFERENCE", "PRICE_PLUS_1SD"), ]
+  ),
+  digits = 5,
+  caption = "表：Price 模型预测概率对比"
+)
+```
+
+这里的百分点变化是 model-based predicted probability contrast，不是因果 marginal effect。
+
+# Simulation 深入审计
+
+```{r}
+simulation_rows <- stability[stability$term == "genre_simulation", ]
+knitr::kable(
+  compact_stability(simulation_rows),
+  digits = 4,
+  caption = "表：Simulation 高评分阈值敏感性"
+)
+knitr::kable(
+  compact_probability(
+    probability[probability$scenario %in% c("REFERENCE", "GENRE_SIMULATION"), ]
+  ),
+  digits = 5,
+  caption = "表：Simulation 模型预测概率对比"
+)
+```
+
+# Platform 深入审计
+
+```{r}
+platform_rows <- stability[grepl("^platform_segment", stability$term), ]
+knitr::kable(
+  compact_stability(platform_rows),
+  digits = 4,
+  caption = "表：Platform 高评分阈值敏感性"
+)
+knitr::kable(
+  compact_probability(
+    probability[grepl("^PLATFORM|^REFERENCE", probability$scenario), ]
+  ),
+  digits = 5,
+  caption = "表：Platform 模型预测概率对比"
+)
+```
+
+# Beta-binomial 与 High-Rating Logistic 方向对比
+
+```{r}
+beta_table <- data.frame(
+  display_term = unname(term_labels[beta_compare$term]),
+  beta_or = beta_compare$beta_binomial_odds_ratio,
+  beta_direction = beta_compare$beta_binomial_direction,
+  high85_or = beta_compare$high85_logistic_odds_ratio,
+  high85_direction = beta_compare$high85_logistic_direction,
+  direction_agreement = beta_compare$direction_agreement,
+  check.names = FALSE
+)
+names(beta_table) <- c(
+  "预测变量", "Beta OR", "Beta 方向", "HIGH85 OR", "HIGH85 方向", "方向一致"
+)
+knitr::kable(
+  beta_table,
+  digits = 4,
+  caption = "表：Beta-binomial vs Logistic direction comparison"
+)
+```
+
+两种 OR 对应不同 outcome，不应直接比较数值大小。这里只比较方向和定性一致性：Beta-binomial 解释正面评论相对负面评论的 odds，HIGH85 Logistic 解释游戏达到 85% 门槛的 odds。
+
+```{r}
+#| fig-cap: "Beta-binomial 与 HIGH85 Logistic 的共同预测变量方向审计"
+knitr::include_graphics(figure_5e("24_beta_vs_high_rating_direction.png"))
+```
+
+::: {.callout-note}
+## 人工审计重点
+
+- 是否存在 Logistic 与 Beta-binomial 的方向冲突？
+- 冲突只说明 outcome 定义下的定性结果不同，不表示某个模型自动“更正确”。
+- 不得把两种模型的 OR 数值当作同尺度 effect size。
+:::
+
+# 人工审计清单
+
+- 确认所有三个 rating cutoff 使用相同 AppID、相同 N、相同冻结缩放与 reference level。
+- 确认 HIGH85 精确使用 `>= 0.85`，边界游戏计入高评分。
+- 确认模型没有 sample weights，也没有评论数量协变量。
+- 审查 platform 与 genre 是否存在 zero-event 或 zero-non-event cell。
+- 审查拟合警告、极端概率、大系数/标准误、leverage、Cook's D 与残差。
+- 确认所有解释使用“相关”“条件关联”，不作因果陈述。
+
+```{r}
+knitr::kable(fit_warnings, caption = "表：Step 5E 拟合警告审计")
+```
+
+# 阶段性结论
+
+Step 5E 提供的是次要、游戏层级的高评分门槛分析。它让每款游戏获得相同 likelihood 权重，适合回答“哪些特征与达到门槛相关”，但不能替代利用正面/负面评论计数和 denominator information 的 Beta-binomial 主模型。80/85/90 敏感性用于判断结论是否依赖任一预设阈值，而不是寻找最有利的 cutoff。

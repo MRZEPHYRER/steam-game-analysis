@@ -1,0 +1,66 @@
+{
+  "appid": 3874510,
+  "requested_at": "2026-09-13T19:53:08.677381+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "217509340",
+        "author": {
+          "steamid": "76561198083548607",
+          "personaname": "Puzzlebeast",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198083548607/",
+          "num_games_owned": 164,
+          "num_reviews": 6,
+          "playtime_forever": 389,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 28,
+          "last_played": 1770476495,
+          "avatar": "80ebfbe84c6b67bc28e355b36bf76fc7991c2dbf"
+        },
+        "language": "brazilian",
+        "review": "Impressionante para um jogo tão simples, a quantidade de estratégia que você tem que colocar pra ganhar haha! nota 10!",
+        "timestamp_created": 1770144775,
+        "timestamp_updated": 1770144775,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755875413",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFmAAAAAAAAFAAAAAAAAAAB83d29Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

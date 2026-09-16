@@ -1,0 +1,66 @@
+{
+  "appid": 3736550,
+  "requested_at": "2026-09-13T19:35:46.493607+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 32,
+      "total_negative": 1,
+      "total_reviews": 33
+    },
+    "reviews": [
+      {
+        "recommendationid": "208537884",
+        "author": {
+          "steamid": "76561199029892591",
+          "personaname": "北北北北北北",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199029892591/",
+          "num_games_owned": 39,
+          "num_reviews": 14,
+          "playtime_forever": 165,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 165,
+          "last_played": 1762415356,
+          "avatar": "95526b3a8ee86c62dc18332d794d26415de291fc"
+        },
+        "language": "schinese",
+        "review": "花了点时间打完了，实在太有意思了，很喜欢！！！^^\r\n探讨了现实社会的问题，虽然并不指望在游戏中得到解答，又或者说类似的道理其实大家都明白的但是能不能行真的是另外一回事呢~不过这样就很好了哦！非常喜欢。\r\n玩法也很有意思，虽然我觉得最后的思维迷宫可能有一点点难但也还行！(*^▽^*)能玩到这么一款游戏真的很高兴",
+        "timestamp_created": 1762416700,
+        "timestamp_updated": 1762416700,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.608433723449707031",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762390824",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX1NGAAAAAFP+N4SqAAAAB8kcGbBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

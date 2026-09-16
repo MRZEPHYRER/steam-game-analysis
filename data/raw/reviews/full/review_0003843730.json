@@ -1,0 +1,66 @@
+{
+  "appid": 3843730,
+  "requested_at": "2026-09-13T19:48:15.221421+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "200131538",
+        "author": {
+          "steamid": "76561198311621765",
+          "personaname": "Promatag",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/promatag/",
+          "num_games_owned": 510,
+          "num_reviews": 26,
+          "playtime_forever": 142,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1753771428,
+          "avatar": "0e96fd1da4c91017a7c1de980d6361b139e6831d"
+        },
+        "language": "english",
+        "review": "Heed my warning, try the demo first. \n\nThis game doesn't hide its difficulty. If this level of drifting is new to you, like it was to me, have a heck of a time with the learning curve with the beginning. \n\nHowever, that's not to say the learning curve is bad. In fact, I would call it great!\n\nThe feeling of practicing a drift over and over again, then nailing it during a run was great! \n\nTl;dr: this game is a simple, stylized, rewarding pain in the ass.\n\nWould recommend to those looking to exchange their drywall for a dopamine hit.",
+        "timestamp_created": 1752902397,
+        "timestamp_updated": 1752902397,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752872513",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAByvbj7BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1400000000003274,
+  "transport_error_count": 0
+}

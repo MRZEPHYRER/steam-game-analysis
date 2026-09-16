@@ -1,0 +1,86 @@
+{
+  "appid": 3521410,
+  "requested_at": "2026-09-13T19:20:30.978025+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 928,
+      "total_negative": 106,
+      "total_reviews": 1034
+    },
+    "reviews": [
+      {
+        "recommendationid": "208139604",
+        "author": {
+          "steamid": "76561198136596235",
+          "personaname": "Lalune",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198136596235/",
+          "num_games_owned": 811,
+          "num_reviews": 197,
+          "playtime_forever": 222,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 193,
+          "deck_playtime_at_review": 3,
+          "last_played": 1762257905,
+          "avatar": "3897ec360eef2df47b9a7bccdd3d3a29e0f59f0b"
+        },
+        "language": "english",
+        "review": "Cats and coffee, the perfect combo... or so I thought >.>\n\nI actually had to [b]DELETE[/b] my positive review for this game because the thieves were literally coming into my shop, taking all my money and breaking down all my gear. I couldn't even make money to rectify the situation. This has to be a glitch?\n\nSomething is not right here. I played for almost 2 hours and was having lots of fun despite the sloppy tutorials and QOL concerns addressed in the other reviews. \n\nThis game is very reminiscent of 'Good Coffee, Great Coffee', so fans of that will def appreciate this [i]ONCE THE BUGS ARE SORTED[/i]. When that happens, I will delete this review and re-post my old one because there are some really great things here. \n\nHonestly, I love the games that Rogue Duck has put out in the past and have never run into issues like this from them before. 2 games by this developer were supposed to get released today, and I was looking forward to playing both. The other one got delayed. But I feel like you guys may have bitten off more than you can chew. This game feels like it was pushed out before you had time to fine tune it. \n\nGreat concept but very unpolished. At first I was able to look past it because I was having fun but it soon became impossible for me to progress. Please fix your game or at least properly explain what is going on so we know how to respond (cause apparently the guy I thought was a thief is actually the landlord… like what in tarnation?? Genuinely lost at what you have done here) </3\n\nUpdate: Even with the patch, this game is still a bit of a hot mess. I have coffee machines breaking 3-4 times a day, the guy coming to collect rent every day and am getting robbed at minimum twice a shift. I am having EXPENSIVE croissants disappear at the end of shift (which honestly renders baking useless as it is a waste of resources and money) yet people are coming in and ordering stock that I don't even have. All of this results is me making very little profit to progress the game. This is ultimately a really frustrating cafe management experience.",
+        "timestamp_created": 1762009851,
+        "timestamp_updated": 1762072628,
+        "voted_up": false,
+        "votes_up": 102,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.875026047229766846",
+        "comment_count": 19,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763528969,
+        "developer_response": "Hello, thank you for the detailed review. We already sent few balance patches and bug fixes. We will keep on working the game, learning from players, and make new adjustments <3",
+        "app_release_date": "1761991211",
+        "reactions": [
+          {
+            "reaction_type": 1,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 23,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSf94AAAAAFP+wANoAAAAB01f6ZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.217999999999847,
+  "transport_error_count": 0
+}

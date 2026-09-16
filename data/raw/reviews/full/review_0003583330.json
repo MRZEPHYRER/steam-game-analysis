@@ -1,0 +1,66 @@
+{
+  "appid": 3583330,
+  "requested_at": "2026-09-13T19:24:16.169441+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 10,
+      "total_negative": 5,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "210558859",
+        "author": {
+          "steamid": "76561198211491353",
+          "personaname": "Падший Ангел",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198211491353/",
+          "num_games_owned": 0,
+          "num_reviews": 85,
+          "playtime_forever": 31,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 31,
+          "last_played": 1764097960,
+          "avatar": "81a378868f8acdc32de33c2de44dd61b46b3b899"
+        },
+        "language": "russian",
+        "review": "Игра сама по себе неплоха, но есть один немалый такой нюанс. Почему когда я начинаю играть в саму игру fps падает ниже 10 (НА ЛЮБОМ КАЧЕСТВЕ!!!) и в тоже время, если войти в меню возвращается до 120. В играх с куда более значительными требованиями у меня таких проблем нет, но вот эта дичь что происходит с игрой отбивает все желание в неё играть. Проверил демку ещё, так так аж целых 20 fps. Что за дичь с этой игрой? Почему в других играх нормально работает, а в этой происходит это?",
+        "timestamp_created": 1764088753,
+        "timestamp_updated": 1764098750,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.561901688575744629",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752683320",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYwxAAAAAAFP+H7GeAAAAB7+JujBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.5470000000000255,
+  "transport_error_count": 0
+}

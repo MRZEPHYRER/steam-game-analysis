@@ -1,0 +1,116 @@
+{
+  "appid": 1004640,
+  "requested_at": "2026-09-13T18:41:18.192514+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 5059,
+      "total_negative": 591,
+      "total_reviews": 5650
+    },
+    "reviews": [
+      {
+        "recommendationid": "227246231",
+        "author": {
+          "steamid": "76561198072360209",
+          "personaname": "Rafael Frozen",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/frozennoises/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 2703,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1916,
+          "deck_playtime_at_review": 1759,
+          "last_played": 1787597764,
+          "avatar": "b141fa197ea108f87657dd5d578d78a0703d908e"
+        },
+        "language": "english",
+        "review": "Absolutely unacceptable that Denuvo DRM requires me to be online to play a game I already purchased and that I already run multiple times and that I find this only in the airplane without any kind of connection. They should never block me from play my game offline, never.",
+        "timestamp_created": 1780677894,
+        "timestamp_updated": 1780677894,
+        "voted_up": false,
+        "votes_up": 1235,
+        "votes_funny": 27,
+        "weighted_vote_score": "0.938654839992523193",
+        "comment_count": 53,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1759247896",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 185
+          },
+          {
+            "reaction_type": 31,
+            "count": 22
+          },
+          {
+            "reaction_type": 26,
+            "count": 20
+          },
+          {
+            "reaction_type": 24,
+            "count": 12
+          },
+          {
+            "reaction_type": 30,
+            "count": 11
+          },
+          {
+            "reaction_type": 27,
+            "count": 4
+          },
+          {
+            "reaction_type": 32,
+            "count": 3
+          },
+          {
+            "reaction_type": 34,
+            "count": 3
+          },
+          {
+            "reaction_type": 28,
+            "count": 2
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFROhYAAAAAFP+4JdkAAAAB3ifDiBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0319999999999254,
+  "transport_error_count": 0
+}

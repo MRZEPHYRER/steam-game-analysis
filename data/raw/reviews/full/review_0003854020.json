@@ -1,0 +1,75 @@
+{
+  "appid": 3854020,
+  "requested_at": "2026-09-13T19:49:51.405283+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 56,
+      "total_negative": 17,
+      "total_reviews": 73
+    },
+    "reviews": [
+      {
+        "recommendationid": "204469328",
+        "author": {
+          "steamid": "76561199790730516",
+          "personaname": "vgromov222",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199790730516/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 94,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 89,
+          "last_played": 1758021277,
+          "avatar": "1a2f56fa04c2293a7b65a40118d84986a2efc28c"
+        },
+        "language": "russian",
+        "review": "Всем привет! Игру я прошел на все достяги 15/15. Рекомендую. \nПару слов об игре\n-Механики +\n-Музыка +\n-Отсылки +\n-Оптимизация и настройки +\n-Таскания ведер 10/10 \nИз минусов - Где мои соседи? \n",
+        "timestamp_created": 1758021094,
+        "timestamp_updated": 1758021094,
+        "voted_up": true,
+        "votes_up": 38,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.776527643203735352",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758010138",
+        "reactions": [
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUeC0AAAAAFP+jZUUAAAABwxf6LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9679999999998472,
+  "transport_error_count": 0
+}

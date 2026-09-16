@@ -1,0 +1,66 @@
+{
+  "appid": 3725070,
+  "requested_at": "2026-09-13T19:34:46.226627+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 22,
+      "total_negative": 5,
+      "total_reviews": 27
+    },
+    "reviews": [
+      {
+        "recommendationid": "209220366",
+        "author": {
+          "steamid": "76561198045061508",
+          "personaname": "Justyn",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/justywusty87/",
+          "num_games_owned": 1282,
+          "num_reviews": 426,
+          "playtime_forever": 422,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 192,
+          "last_played": 1772137789,
+          "avatar": "681c0adb62897fe53b6a6c44e96212ad893d1eba"
+        },
+        "language": "english",
+        "review": "Pretty fun game, I do enjoy most of the levels in the game and the different challenges to face. I like that there is a puzzle involved along with figuring out if there is an anomaly, rather than just Green for safe or Red for not safe, you have to solve a little number puzzle with elements hidden around the room. The notes are also another nice touch, it adds story elements to the game. I definitely want to see more anomaly games adapt their games like this so there is more to do in them. \n\nA couple of levels are very annoying to me.. There is 1 where there are 20+ different keypads floating in the air and you gotta figure out which 1 is real (Very boring time waster level). Another level that was difficult is 1 of the last levels you get to is just too dark, even with lamp, there is too much black that doesn't let light through, you can't even see the lasers that well.. I struggled for 10 minutes trying to find the keypad lock, it was just too dark to see anything.. I eventually found it entered the number then died as i couldn't see the lasers due to where the keypad was positioned inside a cabinet.. I feel those 2 levels should be made more enjoyable for the player. A player shouldn't struggle due to accessibility features. There does not seem to really be a way for the user to adjust brightness within the game or reduce the black shadow effect that doesn't allow light to pass, its too close to the player view to see clearly.",
+        "timestamp_created": 1763151171,
+        "timestamp_updated": 1763151171,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.543634891510009766",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752178971",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZIJaAAAAAFP+FldUAAAAB+sI6eBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.29700000000048,
+  "transport_error_count": 0
+}

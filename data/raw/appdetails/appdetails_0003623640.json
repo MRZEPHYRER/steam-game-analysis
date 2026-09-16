@@ -1,0 +1,294 @@
+{
+  "requested_at": "2026-09-12T15:47:50.571225+00:00",
+  "request_params": {
+    "appids": 3623640,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3623640,
+  "payload": {
+    "3623640": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Unfound Footage",
+        "steam_appid": 3623640,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>After a long day at work</strong>, your only goal was to get home.</p><p class=\"bb_paragraph\" ><strong>But your night turns into a nightmare</strong> when you wake up trapped inside a <strong>forgotten mansion</strong>, lost somewhere between <strong><i>reality</i></strong> and <strong><i>dreams</i></strong>.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Explore a vast, mysterious mansion full of hidden paths and secrets.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Solve simple puzzles to unlock new areas and find your way out.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Multiple endings based on your choices and actions.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Minimal jumpscares — fear comes from atmosphere and tension.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Deep, immersive sound design to pull you into the nightmare.</strong></p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>No monsters under your bed.</strong> <i>Only behind every door.</i></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>After a long day at work</strong>, your only goal was to get home.</p><p class=\"bb_paragraph\" ><strong>But your night turns into a nightmare</strong> when you wake up trapped inside a <strong>forgotten mansion</strong>, lost somewhere between <strong><i>reality</i></strong> and <strong><i>dreams</i></strong>.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Explore a vast, mysterious mansion full of hidden paths and secrets.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Solve simple puzzles to unlock new areas and find your way out.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Multiple endings based on your choices and actions.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Minimal jumpscares — fear comes from atmosphere and tension.</strong></p></li><li><p class=\"bb_paragraph\" ><strong>Deep, immersive sound design to pull you into the nightmare.</strong></p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>No monsters under your bed.</strong> <i>Only behind every door.</i></p>",
+        "short_description": "Unfound Footage is a short, atmospheric psychological horror game where you must survive inside a mysterious mansion after a strange disappearance.",
+        "supported_languages": "English<strong>*</strong>, Spanish - Spain, Russian<br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/06280056ee4bd0f5070288cdf7ad89eb7eae0b32/header.jpg?t=1763666612",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/723a2d742b6a038c5ecb2473d9c5d04029becacc/capsule_231x87.jpg?t=1763666612",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/723a2d742b6a038c5ecb2473d9c5d04029becacc/capsule_184x69.jpg?t=1763666612",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows<br></li><li><strong>Processor:</strong> Intel Core i5-7400<br></li><li><strong>Memory:</strong> 5 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1060<br></li><li><strong>Storage:</strong> 900 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Frixxy Games"
+        ],
+        "publishers": [
+          "Frixxy Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1277559
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Unfound Footage",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1277559,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Unfound Footage - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/8ea1d1bd96d255aa33cee6a58a40a062dc375ae5/ss_8ea1d1bd96d255aa33cee6a58a40a062dc375ae5.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/8ea1d1bd96d255aa33cee6a58a40a062dc375ae5/ss_8ea1d1bd96d255aa33cee6a58a40a062dc375ae5.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/890019bcb72a4578ff62c21dbea2fd5bbdf0f9a3/ss_890019bcb72a4578ff62c21dbea2fd5bbdf0f9a3.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/890019bcb72a4578ff62c21dbea2fd5bbdf0f9a3/ss_890019bcb72a4578ff62c21dbea2fd5bbdf0f9a3.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/8c5e87fd713215e7c3c200314270a838129f3304/ss_8c5e87fd713215e7c3c200314270a838129f3304.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/8c5e87fd713215e7c3c200314270a838129f3304/ss_8c5e87fd713215e7c3c200314270a838129f3304.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/c029dcd8cc330d3cd761a6555e700ff18e619e77/ss_c029dcd8cc330d3cd761a6555e700ff18e619e77.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/c029dcd8cc330d3cd761a6555e700ff18e619e77/ss_c029dcd8cc330d3cd761a6555e700ff18e619e77.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/97a019e5511a7d090bf7dcef971e0b6dff02643e/ss_97a019e5511a7d090bf7dcef971e0b6dff02643e.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/97a019e5511a7d090bf7dcef971e0b6dff02643e/ss_97a019e5511a7d090bf7dcef971e0b6dff02643e.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/85b0a0ea1e553429756467a8e9d29329d9aaf844/ss_85b0a0ea1e553429756467a8e9d29329d9aaf844.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/85b0a0ea1e553429756467a8e9d29329d9aaf844/ss_85b0a0ea1e553429756467a8e9d29329d9aaf844.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/a1207aa63c065d2dc095dc6c740b7ff2509853fc/ss_a1207aa63c065d2dc095dc6c740b7ff2509853fc.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/a1207aa63c065d2dc095dc6c740b7ff2509853fc/ss_a1207aa63c065d2dc095dc6c740b7ff2509853fc.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/9dfa366cffdf470aa7a08ef6895a3d0bfd636ae4/ss_9dfa366cffdf470aa7a08ef6895a3d0bfd636ae4.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/9dfa366cffdf470aa7a08ef6895a3d0bfd636ae4/ss_9dfa366cffdf470aa7a08ef6895a3d0bfd636ae4.1920x1080.jpg?t=1763666612"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/ee448e851fd7552f2d8ee9c4340afc9ff54cb6b8/ss_ee448e851fd7552f2d8ee9c4340afc9ff54cb6b8.600x338.jpg?t=1763666612",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/ee448e851fd7552f2d8ee9c4340afc9ff54cb6b8/ss_ee448e851fd7552f2d8ee9c4340afc9ff54cb6b8.1920x1080.jpg?t=1763666612"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257128591,
+            "name": "Unfound Footage - Gameplay Teaser Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257128591/825ed4ee408fe8152fe2cac03931145147831199/movie_600x337.jpg?t=1747978851",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3623640/874285/1d833413146fc2d437325aaeb1e37105dce07152/1750455825/dash_av1.mpd?t=1747978851",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3623640/874285/1d833413146fc2d437325aaeb1e37105dce07152/1750455825/dash_h264.mpd?t=1747978851",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3623640/874285/1d833413146fc2d437325aaeb1e37105dce07152/1750455825/hls_264_master.m3u8?t=1747978851",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 15,
+          "highlighted": [
+            {
+              "icon": "d36d909bcecb9d5fb6af20c96c72d9444d7e5047.jpg",
+              "localized_name": "End of Shift",
+              "archived": 0,
+              "hidden": 0,
+              "name": "End of Shift",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/d36d909bcecb9d5fb6af20c96c72d9444d7e5047.jpg"
+            },
+            {
+              "icon": "3127e395dab79750aee42e1c2ba771869ccbefa4.jpg",
+              "localized_name": "Threshold of Terror",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Threshold of Terror",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/3127e395dab79750aee42e1c2ba771869ccbefa4.jpg"
+            },
+            {
+              "icon": "2182d6d38103f0f5219b45dd49c9de56bbe27f7d.jpg",
+              "localized_name": "Rust and Ruin",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rust and Ruin",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/2182d6d38103f0f5219b45dd49c9de56bbe27f7d.jpg"
+            },
+            {
+              "icon": "183baee73707ce6e2d759eaac438812934fb5bfe.jpg",
+              "localized_name": "Down the Drain",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Down the Drain",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/183baee73707ce6e2d759eaac438812934fb5bfe.jpg"
+            },
+            {
+              "icon": "4a377f38f4dcc5bf3a5825d8d97abf691084d4ab.jpg",
+              "localized_name": "Where Science Sleeps",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Where Science Sleeps",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/4a377f38f4dcc5bf3a5825d8d97abf691084d4ab.jpg"
+            },
+            {
+              "icon": "9eaffb5d9a55bf6ed412f4de0bb6c84d34716317.jpg",
+              "localized_name": "???",
+              "archived": 0,
+              "hidden": 0,
+              "name": "???",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/9eaffb5d9a55bf6ed412f4de0bb6c84d34716317.jpg"
+            },
+            {
+              "icon": "00d5689f1afbcdd254f6ebedd2392849e80dabeb.jpg",
+              "localized_name": "Back to The World",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Back to The World",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/00d5689f1afbcdd254f6ebedd2392849e80dabeb.jpg"
+            },
+            {
+              "icon": "da37196e5934c4c83d1b7fd6626207289ffce68e.jpg",
+              "localized_name": "Lost Forever",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Lost Forever",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/da37196e5934c4c83d1b7fd6626207289ffce68e.jpg"
+            },
+            {
+              "icon": "876b46e1cd79fdda59633fee8064b0957384aaf4.jpg",
+              "localized_name": "Mind Fractured",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Mind Fractured",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/876b46e1cd79fdda59633fee8064b0957384aaf4.jpg"
+            },
+            {
+              "icon": "7b5408a27ab275dc95c483fd819b0fa0765d24b7.jpg",
+              "localized_name": "Secret",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Secret",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3623640/7b5408a27ab275dc95c483fd819b0fa0765d24b7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "frixxygames123lol@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3623640?t=1763666612",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3623640/f0d1e4356d8e01918da577dd7f1b6e0fad68586a/page_bg_raw.jpg?t=1763666612",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

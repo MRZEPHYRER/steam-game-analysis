@@ -1,0 +1,66 @@
+{
+  "appid": 3977750,
+  "requested_at": "2026-09-13T20:07:16.918620+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "204526044",
+        "author": {
+          "steamid": "76561198808328024",
+          "personaname": "RyaStream",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/RyaStream/",
+          "num_games_owned": 0,
+          "num_reviews": 238,
+          "playtime_forever": 13,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13,
+          "last_played": 1758079642,
+          "avatar": "95ae46881d187f9e7fcc25b40fdd58b23806dcc2"
+        },
+        "language": "english",
+        "review": "Controls are really bad. backing up the trailer makes it flip upward on one side. right stick on controller needs inverted option. settings dont save, vsync does not work. truck interior view gets locked to the side and bugs out, also game launched with only 1 level out of the 5 that it shows. needs a ton of work and not worth even close to the price at launch.",
+        "timestamp_created": 1758079741,
+        "timestamp_updated": 1758079962,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758043314",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB8nZqMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.233999999999469,
+  "transport_error_count": 0
+}

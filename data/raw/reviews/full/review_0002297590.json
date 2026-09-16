@@ -1,0 +1,72 @@
+{
+  "appid": 2297590,
+  "requested_at": "2026-09-13T18:49:16.870863+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 3,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "210655051",
+        "author": {
+          "steamid": "76561198067945774",
+          "personaname": "zedek40",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198067945774/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 73,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "deck_playtime_at_review": 50,
+          "last_played": 1764373867,
+          "avatar": "470399545032b934659539e7e42fe1894b8c46ce"
+        },
+        "language": "english",
+        "review": "This is one of those perfect indie games that make a lot of sense to play in portable devices. I'm amazed by the amount of content this game has considering that it was created with \"old school\" technology based on the classic GameBoy games.  You get way more than expected for the price paid and if you are a solid collector you can spend dozens of hours getting as many achievements as possible. Exploring and grinding achievemnts is a novelty for games during the time of the GameBoy and Glory Hunters achieves both solid gameplay and novelty with grace and without sacrificing fun or story. The fantasy of seeking glory is very well developed as a fantasy tale within this game and despite the obvious inspiration most of the game feels fresh, original and fun. Graphics are very cute, fantasy based and a solid 10 out of 10 for the time and limitations the GameBoy era had. Surprisinglye the game also excells with its music which I was not expecting. I honestly believe this game left no stone unturned. Its an experience you must play in order to fully appreciate the work. Finally, try to get a 90s kid mindset while playing this.. you won't stop being amazed if you do that. As a fellow glory hunter, I wish you all find the strenght to achieve honor, justice, respect and perseverance in your quest to find glory, specially if you play in hardcore mode. Glorianta forever!!",
+        "timestamp_created": 1764103677,
+        "timestamp_updated": 1764103677,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.618675827980041504",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1764089218",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXoGEAAAAAFP+PMMaAAAAB79MqjBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

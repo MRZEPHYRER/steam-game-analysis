@@ -1,0 +1,66 @@
+{
+  "appid": 2449060,
+  "requested_at": "2026-09-13T18:51:03.969000+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "160875462",
+        "author": {
+          "steamid": "76561197970539229",
+          "personaname": "vMeezo",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/vmeezo/",
+          "num_games_owned": 14645,
+          "num_reviews": 3222,
+          "playtime_forever": 184,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 167,
+          "last_played": 1715776684,
+          "avatar": "59302143832fbb719db5cba5219d0b8ec324d565"
+        },
+        "language": "english",
+        "review": "Gameplay is very simple, and honestly I feel like I experienced everything the game had to offer within 5 minutes.  \n\nThere is a graphical upgrade coming, which will probably be beneficial to the game. I personally didn't mind the graphics too much, I just accepted it was all pretty simple.  I did find the dungeon design to be rather boring though, as every floor looks the same.  Some of the higher floors tend to be darker, but they all look the same.\n\nOh, before I get much further... If there's a way to quit the game without using Alt+F4 I was unable to find it.\n\nCombat is the main bit of the game, and well really at the moment that's the only thing there is.  Kill enemies, find boxes that give you abilities, kill more enemies, climb floors, and just kind of repeat the process.  It's ultimately a bit on the boring side, as every enemy feels about the same outside of the fish that shoots at you.  I guess the sheep also counts, which uses their wool to occasionally transport you to random points on the map.\n\nThe more you play it the better it gets I suppose, but you're still faced with the fact it feels as if you're playing the same thing after just 5 minutes.  I'm recommending it only because I think the game is a legitimate attempt at being something good, and maybe one day gets there.  I won't try again, but I did give it a shot.",
+        "timestamp_created": 1710799512,
+        "timestamp_updated": 1710799746,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1687927387",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB2vNjlBA=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.203999999999951,
+  "transport_error_count": 0
+}

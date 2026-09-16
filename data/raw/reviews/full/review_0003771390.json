@@ -1,0 +1,90 @@
+{
+  "appid": 3771390,
+  "requested_at": "2026-09-13T19:38:45.530934+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 87,
+      "total_negative": 65,
+      "total_reviews": 152
+    },
+    "reviews": [
+      {
+        "recommendationid": "209379853",
+        "author": {
+          "steamid": "76561199181215707",
+          "personaname": "Kuromi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Lusamane/",
+          "num_games_owned": 0,
+          "num_reviews": 28,
+          "playtime_forever": 25,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "deck_playtime_at_review": 25,
+          "last_played": 1763297853,
+          "avatar": "4b6f5fcac0d965da46df9879b57a82f4d6d2ac99"
+        },
+        "language": "english",
+        "review": "I have played a few of this developers games now as I am very much pulled in by the graphics/art style and overall \"chill\" vibes of the games they have to offer. I like them for the most part they're affordable, simple and fun but... it's becoming very clear that the devs really are more \"quantity over quality\" and I'm starting to feel like by purchasing these games, I'm very much just contributing to a cash grab scheme.\n\nThe games are always buggy at some point with a few never even being addressed. All the games are super short and repetitive with very little to no replayability and they run on an extremely similar track. They're basically all the same thing in a different font. Oh, this one is witchy, this one is cute etc.\n\nCarefully Stamped really solidified all of the above for me. The second the game loaded it was buggy, lol. I literally can not even progress in the game from the get go because there is NO TEXT. All the dialogue boxes are just blank with a random tick or cross where I am presumably supposed to make a choice or something? I have about 15 minutes \"played\" and all of those minutes are me trying to start the game, reloading, guessing where to click to try to get some progress to be able to start. \n\nI just can't with this dev studio anymore. They are starting to pump out games way too fast and too often. If you look at their profile, they have sooo many games coming out one after the other. There are currently TWENTY TWO confirmed games coming soon? All of them are just the same thing with a different theme, its crazy. It's clear they found their \"niche\" but it's a testament to the fact that very little effort is put in and goes back to it being quantity over quality with them. Having similar themed games isn't an issue, I would still enjoy that personally but when they're being churned out constantly and they're forever filled with bugs and issues - that's a problem. \n There is no way these devs test their games or play through them themselves for the games to be shipping in the states they do and if they do... it's just further proof that they're here to make a quick buck and they do NOT care. \n\nI saw a dev response on another review claiming they spend a couple of months on games or whatever... that isn't anything to be bragging about imo. A couple of months per game and constantly pushing them out/announcing them one after the other is NOT a flex. Especially when they are a studio of \"30 devs\" with at least 22(!) games currently in development, wtf?\n Spend time and effort on the games and actually play and test them before taking people's money? \n\nI'm fed up of these games now, they're no longer fun and in this case - unplayable. Hoping the devs can calm down and make something good with actual stories and a decent playtime in the future. Oh, and of course no game breaking bugs on release?\n\nUPDATE: I tried AGAIN and started a new game and almost all the achievements unlocked! I still haven't played the game and would like to add another complaint that there are no instructions/tutorials anywhere, for anything!",
+        "timestamp_created": 1763294949,
+        "timestamp_updated": 1763298158,
+        "voted_up": false,
+        "votes_up": 67,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.832831442356109619",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "timestamp_dev_responded": 1763451413,
+        "developer_response": "Hey, thank you for the deep review and sorry about your experience, we fixed the issue you mentioned in our latest patch. I hope you can give it another try :^3",
+        "app_release_date": "1763201356",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 4
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTV+eAAAAAFP+qmjUAAAAB9oNyeBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

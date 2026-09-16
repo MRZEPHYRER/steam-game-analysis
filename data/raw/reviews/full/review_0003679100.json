@@ -1,0 +1,66 @@
+{
+  "appid": 3679100,
+  "requested_at": "2026-09-13T19:30:55.778135+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 0,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "206998663",
+        "author": {
+          "steamid": "76561199352832254",
+          "personaname": "零零七是恩赐",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199352832254/",
+          "num_games_owned": 112,
+          "num_reviews": 12,
+          "playtime_forever": 53,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 53,
+          "last_played": 1760786657,
+          "avatar": "7d182e6eca1fd227e177f0f0487771138ae3be4f"
+        },
+        "language": "schinese",
+        "review": "这立绘还是难蹦，特别是蕾米莉亚，要不我们众筹吧，请人画也不是不行，看着真的很怪，",
+        "timestamp_created": 1760786766,
+        "timestamp_updated": 1760786766,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.630787372589111328",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760781122",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYYl8AAAAAFP+QvaEAAAAB3yNGVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.016000000000531,
+  "transport_error_count": 0
+}

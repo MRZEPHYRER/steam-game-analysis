@@ -1,0 +1,71 @@
+{
+  "appid": 3924300,
+  "requested_at": "2026-09-13T20:00:36.205172+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 1,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "213017378",
+        "author": {
+          "steamid": "76561197986360343",
+          "personaname": "CorvusCorax",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/peterhollo/",
+          "num_games_owned": 2031,
+          "num_reviews": 1188,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1765201785,
+          "avatar": "4a5d39b3af06ceb20a43e1fcf354fe701534a093"
+        },
+        "language": "english",
+        "review": "It's a nice HOG, but the [i]Hidden Cats vs Zombies[/i] series is better with the clickable cats. Only the zombies require ammo first. Here, you need to find these boxes and then you can continue shooting your targets. \n\nSome buildings have cats inside - the cursor shows how the interiors look like. Overall, it is an OK HOG but this dev has many better ones. Also, there is an achievement requiring you to replay the same level. Why not include more levels instead?",
+        "timestamp_created": 1765412503,
+        "timestamp_updated": 1765412503,
+        "voted_up": true,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.715065658092498779",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755720183",
+        "reactions": [
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVstyAAAAAFP+bh0iAAAAByssysBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2074740,
+  "requested_at": "2026-09-13T18:47:05.012761+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 2,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "221840591",
+        "author": {
+          "steamid": "76561197970268668",
+          "personaname": "BobaFettJ7",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/BobaFettJ7/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 774,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 774,
+          "last_played": 1772069955,
+          "avatar": "84986f94bb9be9902199addb5eb011d05b853351"
+        },
+        "language": "english",
+        "review": "A beautiful game that feels new yet nostalgic at the same time. It touches on some heavy topics but in an accessible way that my 5 year old son was able to still enjoy while watching me play.  It touches on themes of loss, regret, consequences and fate. It is very heartfelt and the music is amazing. Tonally it lands somewhere between Shadow of the Colossus and Breath of the Wild with an emphasis on exploration and puzzles. Quite an achievement for such a small team. I highly recommend it.",
+        "timestamp_created": 1774629136,
+        "timestamp_updated": 1774629136,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.553072631359100342",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756143879",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY8EQAAAAAFP+GyxiAAAAB/zKDOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1569999999999254,
+  "transport_error_count": 0
+}

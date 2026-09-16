@@ -1,0 +1,66 @@
+{
+  "appid": 3008340,
+  "requested_at": "2026-09-13T19:00:45.069246+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 262,
+      "total_negative": 119,
+      "total_reviews": 381
+    },
+    "reviews": [
+      {
+        "recommendationid": "208187632",
+        "author": {
+          "steamid": "76561198009113282",
+          "personaname": "CallMe",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198009113282/",
+          "num_games_owned": 389,
+          "num_reviews": 64,
+          "playtime_forever": 54,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 54,
+          "last_played": 1762045063,
+          "avatar": "ec5b3701736103bba2af92a6982ad24c6a5aca49"
+        },
+        "language": "english",
+        "review": "Game is as if it was a tech demo for a combat system that was incomplete. Really needs one or two more mechanics to truly shine. In its current state it is fun, however.",
+        "timestamp_created": 1762048938,
+        "timestamp_updated": 1762048938,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.693029820919036865",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753807612",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWI6+AAAAAFP+YtTUAAAABwj5aaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

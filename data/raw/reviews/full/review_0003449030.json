@@ -1,0 +1,66 @@
+{
+  "appid": 3449030,
+  "requested_at": "2026-09-13T19:16:40.626047+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 128,
+      "total_negative": 3,
+      "total_reviews": 131
+    },
+    "reviews": [
+      {
+        "recommendationid": "230352542",
+        "author": {
+          "steamid": "76561198169509025",
+          "personaname": "kiki7766",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198169509025/",
+          "num_games_owned": 218,
+          "num_reviews": 7,
+          "playtime_forever": 316,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 316,
+          "last_played": 1783911975,
+          "avatar": "64455b3f80e6419b182bf68c483de214f5f56d75"
+        },
+        "language": "english",
+        "review": "I honestly wasn't expecting much, but this game completely stole my heart. It all started like this...\n\nMe: \"Oh, this looks like a cute little visual novel.\"\nThe game: \"How about we make you emotionally attached to everyone instead?\"\nMe: \"...that's rude.\" 😭❤️\n\nThe characters are so lovable, the friendships feel genuine, and before I knew it, I was smiling one minute and tearing up the next. This game had no business making me this emotional!\n\nThe art is absolutely adorable, the soundtrack is beautiful, and the voice acting is fantastic. Everything comes together perfectly and makes every emotional moment hit even harder.\n\nCame for the cute art.\nStayed for the friendship.\nLeft with tears, a full heart, and absolutely no regrets.\n\nHighly recommended if you're looking for a wholesome visual novel that'll make you laugh, smile, and maybe cry a little too. ❤️",
+        "timestamp_created": 1783912718,
+        "timestamp_updated": 1783912718,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.557839274406433105",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751385704",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY192AAAAAFP+HZ0SAAAAB+6dzuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2815570,
+  "requested_at": "2026-09-13T18:56:23.569238+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "216866415",
+        "author": {
+          "steamid": "76561198048556126",
+          "personaname": "Norable",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198048556126/",
+          "num_games_owned": 874,
+          "num_reviews": 140,
+          "playtime_forever": 78,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 78,
+          "last_played": 1769451993,
+          "avatar": "9883d9069c5481ae07bc2624cf8af77fe62eb637"
+        },
+        "language": "english",
+        "review": "Its not for me. Its a little bit to ugly and even after the tutorial I find managing your units a bit to tedious. But it is cheap. So maybe try the demo first?",
+        "timestamp_created": 1769452069,
+        "timestamp_updated": 1769452069,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1747904757",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB/5qO7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.719000000000051,
+  "transport_error_count": 0
+}

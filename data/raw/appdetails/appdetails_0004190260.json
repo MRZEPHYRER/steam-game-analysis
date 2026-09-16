@@ -1,0 +1,409 @@
+{
+  "requested_at": "2026-09-13T07:19:35.113035+00:00",
+  "request_params": {
+    "appids": 4190260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4190260,
+  "payload": {
+    "4190260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "AI Games",
+        "steam_appid": 4190260,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4265040,
+          4265050,
+          4302820,
+          4269310
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >AI Games, as the name suggests, is a series of AI games. We utilize deep reinforcement learning and achieve Nash equilibrium through zero-sum self-play. We have named this neural network model SUN. AI SUN will compete against you on one stage, accompanying your performance with melody moment by moment. The game supports dynamic render scale, featuring NVIDIA Deep Learning Super Sampling and AMD FidelityFX Super Resolution. Players can configure antialias, bloom, and aberration. The game's personalization includes fade, animate, themes, colors and materials. Beyond that, you can customize nearly every aspect of the game through what we call Haute Couture.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the events in AI Games. We will incorporate more based on player insights in the future.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Table Tennis</p></li></ul><p class=\"bb_paragraph\" >Table tennis is the national sport of China, the Ping-Pong Diplomacy in Chinese history is famously hailed as a small ball moving a big ball. Building upon the fundamentals of batting the ball, we integrate fluid dynamics to enable players to deliver spin shots.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Curling</p></li></ul><p class=\"bb_paragraph\" >Curling is known as chess on ice. Canada is widely recognized as the curling powerhouse. Montréal is the birthplace of curling in Canada, and Toronto established the modern competitive framework for the sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Football</p></li></ul><p class=\"bb_paragraph\" >Football is celebrated as the world's most popular sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Billiards</p></li></ul><p class=\"bb_paragraph\" >Originating among European royalty and nobility, billiards is regarded as a gentleman's sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Sumo</p></li></ul><p class=\"bb_paragraph\" >Sumo is revered as Japan's national martial art.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the personalization themes in AI Games.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Light</p></li><li><p class=\"bb_paragraph\" >Dim</p></li><li><p class=\"bb_paragraph\" >Dark</p></li><li><p class=\"bb_paragraph\" >Cyberpunk</p></li><li><p class=\"bb_paragraph\" >Matrix</p></li><li><p class=\"bb_paragraph\" >Black Pink</p></li><li><p class=\"bb_paragraph\" >Neon</p></li><li><p class=\"bb_paragraph\" >Hollywood</p></li><li><p class=\"bb_paragraph\" >Renaissance</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the personalization colors in AI Games.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >White</p></li><li><p class=\"bb_paragraph\" >Gray</p></li><li><p class=\"bb_paragraph\" >Black</p></li><li><p class=\"bb_paragraph\" >Red</p></li><li><p class=\"bb_paragraph\" >Orange</p></li><li><p class=\"bb_paragraph\" >Yellow</p></li><li><p class=\"bb_paragraph\" >Chartreuse</p></li><li><p class=\"bb_paragraph\" >Green</p></li><li><p class=\"bb_paragraph\" >Mint Green</p></li><li><p class=\"bb_paragraph\" >Cyan</p></li><li><p class=\"bb_paragraph\" >Sky Blue</p></li><li><p class=\"bb_paragraph\" >Blue</p></li><li><p class=\"bb_paragraph\" >Winter Blue</p></li><li><p class=\"bb_paragraph\" >Purple</p></li><li><p class=\"bb_paragraph\" >Magenta</p></li><li><p class=\"bb_paragraph\" >Rosé Red</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >AI Games, as the name suggests, is a series of AI games. We utilize deep reinforcement learning and achieve Nash equilibrium through zero-sum self-play. We have named this neural network model SUN. AI SUN will compete against you on one stage, accompanying your performance with melody moment by moment. The game supports dynamic render scale, featuring NVIDIA Deep Learning Super Sampling and AMD FidelityFX Super Resolution. Players can configure antialias, bloom, and aberration. The game's personalization includes fade, animate, themes, colors and materials. Beyond that, you can customize nearly every aspect of the game through what we call Haute Couture.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the events in AI Games. We will incorporate more based on player insights in the future.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Table Tennis</p></li></ul><p class=\"bb_paragraph\" >Table tennis is the national sport of China, the Ping-Pong Diplomacy in Chinese history is famously hailed as a small ball moving a big ball. Building upon the fundamentals of batting the ball, we integrate fluid dynamics to enable players to deliver spin shots.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Curling</p></li></ul><p class=\"bb_paragraph\" >Curling is known as chess on ice. Canada is widely recognized as the curling powerhouse. Montréal is the birthplace of curling in Canada, and Toronto established the modern competitive framework for the sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Football</p></li></ul><p class=\"bb_paragraph\" >Football is celebrated as the world's most popular sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Billiards</p></li></ul><p class=\"bb_paragraph\" >Originating among European royalty and nobility, billiards is regarded as a gentleman's sport.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Sumo</p></li></ul><p class=\"bb_paragraph\" >Sumo is revered as Japan's national martial art.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the personalization themes in AI Games.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Light</p></li><li><p class=\"bb_paragraph\" >Dim</p></li><li><p class=\"bb_paragraph\" >Dark</p></li><li><p class=\"bb_paragraph\" >Cyberpunk</p></li><li><p class=\"bb_paragraph\" >Matrix</p></li><li><p class=\"bb_paragraph\" >Black Pink</p></li><li><p class=\"bb_paragraph\" >Neon</p></li><li><p class=\"bb_paragraph\" >Hollywood</p></li><li><p class=\"bb_paragraph\" >Renaissance</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Below are the personalization colors in AI Games.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >White</p></li><li><p class=\"bb_paragraph\" >Gray</p></li><li><p class=\"bb_paragraph\" >Black</p></li><li><p class=\"bb_paragraph\" >Red</p></li><li><p class=\"bb_paragraph\" >Orange</p></li><li><p class=\"bb_paragraph\" >Yellow</p></li><li><p class=\"bb_paragraph\" >Chartreuse</p></li><li><p class=\"bb_paragraph\" >Green</p></li><li><p class=\"bb_paragraph\" >Mint Green</p></li><li><p class=\"bb_paragraph\" >Cyan</p></li><li><p class=\"bb_paragraph\" >Sky Blue</p></li><li><p class=\"bb_paragraph\" >Blue</p></li><li><p class=\"bb_paragraph\" >Winter Blue</p></li><li><p class=\"bb_paragraph\" >Purple</p></li><li><p class=\"bb_paragraph\" >Magenta</p></li><li><p class=\"bb_paragraph\" >Rosé Red</p></li></ul>",
+        "short_description": "Welcome to the inaugural AI Games, where you'll compete against the AI SUN. Come leave your scores and rank alongside players around the world, but your ultimate opponent is none other than yourself!",
+        "supported_languages": "English, Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/a38ec93f505ef8d42f220edffdec11a31f084058/header.jpg?t=1788996593",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/71dec0b20631eb99639054ac2089e415ed686198/capsule_231x87.jpg?t=1788996593",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/71dec0b20631eb99639054ac2089e415ed686198/capsule_184x69.jpg?t=1788996593",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows<br></li><li><strong>Processor:</strong> Intel Core Processor, AMD Ryzen Processors<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows<br></li><li><strong>Processor:</strong> Intel Core Processor, AMD Ryzen Processors<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX Graphics, AMD Radeon RX Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS<br></li><li><strong>Processor:</strong> Intel Core Processor<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS<br></li><li><strong>Processor:</strong> Apple M Chip<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M Chip<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "SUNYU Games"
+        ],
+        "publishers": [
+          "SUNYU Games"
+        ],
+        "demos": [
+          {
+            "appid": 4467290,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "packages": [
+          1467562,
+          1509720
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy AI Games",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1467562,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "AI Games - $59.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 5999
+              },
+              {
+                "packageid": 1509720,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "AI Games - $59.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 5999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 20,
+            "description": "MMO"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 82,
+            "description": "#category_contrast_controls"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 80,
+            "description": "#category_playable_at_your_own_pace"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/b36785a8f0e0bbdeceeca5f82a62b8b7605f514f/ss_b36785a8f0e0bbdeceeca5f82a62b8b7605f514f.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/b36785a8f0e0bbdeceeca5f82a62b8b7605f514f/ss_b36785a8f0e0bbdeceeca5f82a62b8b7605f514f.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/a55621cc73364d8632474d4dd525bb60a4253781/ss_a55621cc73364d8632474d4dd525bb60a4253781.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/a55621cc73364d8632474d4dd525bb60a4253781/ss_a55621cc73364d8632474d4dd525bb60a4253781.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/3d209e15a674b1e729281eaeac59d0ac0b041284/ss_3d209e15a674b1e729281eaeac59d0ac0b041284.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/3d209e15a674b1e729281eaeac59d0ac0b041284/ss_3d209e15a674b1e729281eaeac59d0ac0b041284.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/107d32dc8435370bb80d88c622a63d4b5b1f01c6/ss_107d32dc8435370bb80d88c622a63d4b5b1f01c6.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/107d32dc8435370bb80d88c622a63d4b5b1f01c6/ss_107d32dc8435370bb80d88c622a63d4b5b1f01c6.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/317d623e05908c37c35a560a1c12b5a449d8a070/ss_317d623e05908c37c35a560a1c12b5a449d8a070.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/317d623e05908c37c35a560a1c12b5a449d8a070/ss_317d623e05908c37c35a560a1c12b5a449d8a070.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/0fdd8d1a504e98d51a7ad0c5785c01ad0b9d14ab/ss_0fdd8d1a504e98d51a7ad0c5785c01ad0b9d14ab.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/0fdd8d1a504e98d51a7ad0c5785c01ad0b9d14ab/ss_0fdd8d1a504e98d51a7ad0c5785c01ad0b9d14ab.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/20193a11834aec62a3128f854a6113908f3dc2d6/ss_20193a11834aec62a3128f854a6113908f3dc2d6.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/20193a11834aec62a3128f854a6113908f3dc2d6/ss_20193a11834aec62a3128f854a6113908f3dc2d6.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/5b8fc87c0a370ff2c52f708a3647084e4eb6020e/ss_5b8fc87c0a370ff2c52f708a3647084e4eb6020e.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/5b8fc87c0a370ff2c52f708a3647084e4eb6020e/ss_5b8fc87c0a370ff2c52f708a3647084e4eb6020e.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/8142f405b3fafaab42b7327ebbfb21a0ae1a80b5/ss_8142f405b3fafaab42b7327ebbfb21a0ae1a80b5.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/8142f405b3fafaab42b7327ebbfb21a0ae1a80b5/ss_8142f405b3fafaab42b7327ebbfb21a0ae1a80b5.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/0c9bea3c2d27acbca9c122e86ee64dbb0bd4e3fe/ss_0c9bea3c2d27acbca9c122e86ee64dbb0bd4e3fe.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/0c9bea3c2d27acbca9c122e86ee64dbb0bd4e3fe/ss_0c9bea3c2d27acbca9c122e86ee64dbb0bd4e3fe.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/164371dc2d84b4675a03d73a2ac517f05f65484f/ss_164371dc2d84b4675a03d73a2ac517f05f65484f.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/164371dc2d84b4675a03d73a2ac517f05f65484f/ss_164371dc2d84b4675a03d73a2ac517f05f65484f.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/862fdca410c0e79422e072b192d10417380bbc33/ss_862fdca410c0e79422e072b192d10417380bbc33.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/862fdca410c0e79422e072b192d10417380bbc33/ss_862fdca410c0e79422e072b192d10417380bbc33.1920x1080.jpg?t=1788996593"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/3f2606bd27f1d8d3cab72317c0860051f322992e/ss_3f2606bd27f1d8d3cab72317c0860051f322992e.600x338.jpg?t=1788996593",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/3f2606bd27f1d8d3cab72317c0860051f322992e/ss_3f2606bd27f1d8d3cab72317c0860051f322992e.1920x1080.jpg?t=1788996593"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257261166,
+            "name": "Demo",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257261166/b929ec1b67af7acb710ac37a272df4c090aab503/movie_600x337.jpg?t=1771679905",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4190260/1242197255/b9e9a92579d03287d49f805b66a2399eff0da9c9/1767802943/dash_av1.mpd?t=1771679905",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4190260/1242197255/b9e9a92579d03287d49f805b66a2399eff0da9c9/1767802943/dash_h264.mpd?t=1771679905",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4190260/1242197255/b9e9a92579d03287d49f805b66a2399eff0da9c9/1767802943/hls_264_master.m3u8?t=1771679905",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 35,
+          "highlighted": [
+            {
+              "icon": "50923e6e1dcd52271da7fc06faebea5cc8e9a717.jpg",
+              "localized_name": "Table Tennis",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Table Tennis",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/50923e6e1dcd52271da7fc06faebea5cc8e9a717.jpg"
+            },
+            {
+              "icon": "bca014e34b095a7205c15da95609fed846bb3ee0.jpg",
+              "localized_name": "Curling",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Curling",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/bca014e34b095a7205c15da95609fed846bb3ee0.jpg"
+            },
+            {
+              "icon": "e1c4c7476aaae4654efe41ee06f268ab4bbfcdb0.jpg",
+              "localized_name": "Football",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Football",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/e1c4c7476aaae4654efe41ee06f268ab4bbfcdb0.jpg"
+            },
+            {
+              "icon": "16ed6ec96226e133f7ccddce0a0ca61e4b9ad3cd.jpg",
+              "localized_name": "Billiards",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Billiards",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/16ed6ec96226e133f7ccddce0a0ca61e4b9ad3cd.jpg"
+            },
+            {
+              "icon": "fea22286fd2d3c9ab13bb504cc26714dec350e24.jpg",
+              "localized_name": "Sumo",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sumo",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/fea22286fd2d3c9ab13bb504cc26714dec350e24.jpg"
+            },
+            {
+              "icon": "7a9d3527a1d2beda0bf721e18e2a3dd8216918ea.jpg",
+              "localized_name": "Light",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Light",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/7a9d3527a1d2beda0bf721e18e2a3dd8216918ea.jpg"
+            },
+            {
+              "icon": "064a32219bcb5561e22ff664164e36fbf6bf94b3.jpg",
+              "localized_name": "Dim",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dim",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/064a32219bcb5561e22ff664164e36fbf6bf94b3.jpg"
+            },
+            {
+              "icon": "d7dade91aeeee948a703a8cf1226f8f8feb07b7c.jpg",
+              "localized_name": "Dark",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dark",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/d7dade91aeeee948a703a8cf1226f8f8feb07b7c.jpg"
+            },
+            {
+              "icon": "29bab5f59c4210ba7a6cb0255b23dedc9178e252.jpg",
+              "localized_name": "Cyberpunk",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cyberpunk",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/29bab5f59c4210ba7a6cb0255b23dedc9178e252.jpg"
+            },
+            {
+              "icon": "936ca0aad934ac8ee61b79348b165ef28a66fac7.jpg",
+              "localized_name": "Matrix",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Matrix",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4190260/936ca0aad934ac8ee61b79348b165ef28a66fac7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 31, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "imsunyu@icloud.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4190260?t=1788996593",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4190260/90e41e794ca064fbacd86d8da3e1a877c8f13423/page_bg_raw.jpg?t=1788996593",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

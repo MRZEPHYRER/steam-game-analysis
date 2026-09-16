@@ -1,0 +1,297 @@
+{
+  "requested_at": "2026-09-13T05:57:33.370428+00:00",
+  "request_params": {
+    "appids": 3939080,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3939080,
+  "payload": {
+    "3939080": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Ironwood Conquest",
+        "steam_appid": 3939080,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4011950,
+          4011960,
+          4011970,
+          4011980,
+          4011990,
+          4012000,
+          4012010,
+          4012020
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Embark on a medieval adventure in this real-time strategy game, where you'll build, manage, and conquer your way to victory. Engage in fierce battles with players online, climb the ranks, and showcase your skills in competitive matches. Alternatively, play casual games or create your own custom games with friends. Test your mettle against the computer-controlled opponents or challenge friends and foes in thrilling multiplayer battles. With robust building mechanics and intense combat, this game offers endless hours of strategic fun.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Embark on a medieval adventure in this real-time strategy game, where you'll build, manage, and conquer your way to victory. Engage in fierce battles with players online, climb the ranks, and showcase your skills in competitive matches. Alternatively, play casual games or create your own custom games with friends. Test your mettle against the computer-controlled opponents or challenge friends and foes in thrilling multiplayer battles. With robust building mechanics and intense combat, this game offers endless hours of strategic fun.</p>",
+        "short_description": "Medieval RTS game with building, management, and online multiplayer battles. Climb the ranks, play casual games, or create custom matches. Battle against computer opponents or challenge friends and foes in thrilling multiplayer battles.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Arabic, Japanese, Korean, Hindi, Polish, Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/ec7a5e69cb37aac2c54e1bd2f9c2747cde55bc2b/header.jpg?t=1784041197",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/5b2f05c2e22a9fc6f6990641805b022a45c8bb27/capsule_231x87.jpg?t=1784041197",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/5b2f05c2e22a9fc6f6990641805b022a45c8bb27/capsule_184x69.jpg?t=1784041197",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> Intel Core i7<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> nVidia GEFORCE RTX 3050<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 11<br></li><li><strong>Processor:</strong> Intel Core i7<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> nVidia GEFORCE RTX 4070<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "MrMero"
+        ],
+        "publishers": [
+          "MrMero"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1383747
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Ironwood Conquest",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1383747,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Ironwood Conquest - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/e0be290c60a1efc32fbe4c9a5abe5000ea7c7a56/ss_e0be290c60a1efc32fbe4c9a5abe5000ea7c7a56.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/e0be290c60a1efc32fbe4c9a5abe5000ea7c7a56/ss_e0be290c60a1efc32fbe4c9a5abe5000ea7c7a56.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/3b2c57e530972d39c97cc2bb7bc9ef8f657097d8/ss_3b2c57e530972d39c97cc2bb7bc9ef8f657097d8.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/3b2c57e530972d39c97cc2bb7bc9ef8f657097d8/ss_3b2c57e530972d39c97cc2bb7bc9ef8f657097d8.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/43bed020e1b5da5065e730ee2e3148a40820a104/ss_43bed020e1b5da5065e730ee2e3148a40820a104.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/43bed020e1b5da5065e730ee2e3148a40820a104/ss_43bed020e1b5da5065e730ee2e3148a40820a104.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/deb016b823903bad62f8e0de4ed7ccfbf1cb6571/ss_deb016b823903bad62f8e0de4ed7ccfbf1cb6571.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/deb016b823903bad62f8e0de4ed7ccfbf1cb6571/ss_deb016b823903bad62f8e0de4ed7ccfbf1cb6571.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/eda5542726cc55ad56c437594852815a4f1f4045/ss_eda5542726cc55ad56c437594852815a4f1f4045.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/eda5542726cc55ad56c437594852815a4f1f4045/ss_eda5542726cc55ad56c437594852815a4f1f4045.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/17272ca30b007e8abb02dd89739b1bb1d80fd81b/ss_17272ca30b007e8abb02dd89739b1bb1d80fd81b.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/17272ca30b007e8abb02dd89739b1bb1d80fd81b/ss_17272ca30b007e8abb02dd89739b1bb1d80fd81b.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/7df22218a2a41587aeb6ef905afa289ef21c5403/ss_7df22218a2a41587aeb6ef905afa289ef21c5403.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/7df22218a2a41587aeb6ef905afa289ef21c5403/ss_7df22218a2a41587aeb6ef905afa289ef21c5403.1920x1080.jpg?t=1784041197"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/a7763f3761ab2ee97f34adbd2c0c4e95bdff0551/ss_a7763f3761ab2ee97f34adbd2c0c4e95bdff0551.600x338.jpg?t=1784041197",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/a7763f3761ab2ee97f34adbd2c0c4e95bdff0551/ss_a7763f3761ab2ee97f34adbd2c0c4e95bdff0551.1920x1080.jpg?t=1784041197"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257193660,
+            "name": "Ironwood Conquest (Gameplay)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193660/42523af0bcb3c429ed70e15f7692607fad8f4b3a/movie_600x337.jpg?t=1784041196",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3939080/1743376216/a2d9216abbfbbe5287374dcaad7ce71770eb3a22/1784040554/dash_av1.mpd?t=1784041196",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3939080/1743376216/a2d9216abbfbbe5287374dcaad7ce71770eb3a22/1784040554/dash_h264.mpd?t=1784041196",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3939080/1743376216/a2d9216abbfbbe5287374dcaad7ce71770eb3a22/1784040554/hls_264_master.m3u8?t=1784041196",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "595bcab205c91f65a8c65777946fa93300a73b20.jpg",
+              "localized_name": "Tutorial mission",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tutorial mission",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/595bcab205c91f65a8c65777946fa93300a73b20.jpg"
+            },
+            {
+              "icon": "01d0e8633f7f239ba2034d35d343e390dfe229f8.jpg",
+              "localized_name": "Romans missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Romans missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/01d0e8633f7f239ba2034d35d343e390dfe229f8.jpg"
+            },
+            {
+              "icon": "164d3e23d5d8f931db05710f09053a4214a6496a.jpg",
+              "localized_name": "Revenge for betrayal missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Revenge for betrayal missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/164d3e23d5d8f931db05710f09053a4214a6496a.jpg"
+            },
+            {
+              "icon": "218e5a4adbea64a004bb8b615e8208bf7a7e9fa1.jpg",
+              "localized_name": "Fortress siege missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fortress siege missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/218e5a4adbea64a004bb8b615e8208bf7a7e9fa1.jpg"
+            },
+            {
+              "icon": "2f8af34cd653b76bac4021f8997985acd27745fe.jpg",
+              "localized_name": "Stopping the invasion missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Stopping the invasion missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/2f8af34cd653b76bac4021f8997985acd27745fe.jpg"
+            },
+            {
+              "icon": "48f90760146445e0152f83296ecf1c15259c1c50.jpg",
+              "localized_name": "Recapture of the village missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Recapture of the village missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/48f90760146445e0152f83296ecf1c15259c1c50.jpg"
+            },
+            {
+              "icon": "6ca8bdcc051152770524b8da9986dd061582386e.jpg",
+              "localized_name": "Destruction of the camp missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Destruction of the camp missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/6ca8bdcc051152770524b8da9986dd061582386e.jpg"
+            },
+            {
+              "icon": "10b886415797b18394d03e93f924631397690591.jpg",
+              "localized_name": "Elimination of the leader missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Elimination of the leader missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/10b886415797b18394d03e93f924631397690591.jpg"
+            },
+            {
+              "icon": "409b1d98c020074d37153f3a4b06967b106bbf07.jpg",
+              "localized_name": "Legendary battle missions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Legendary battle missions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3939080/409b1d98c020074d37153f3a4b06967b106bbf07.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ironwoodconquest@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3939080?t=1784041197",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3939080/d3120e1afa7ba753d70af8ae8c354e7797716cf5/page_bg_raw.jpg?t=1784041197",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

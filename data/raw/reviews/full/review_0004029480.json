@@ -1,0 +1,71 @@
+{
+  "appid": 4029480,
+  "requested_at": "2026-09-13T20:13:11.989554+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 1,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "205812715",
+        "author": {
+          "steamid": "76561198014393081",
+          "personaname": "WillDaBeard",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/WillDaBeard/",
+          "num_games_owned": 0,
+          "num_reviews": 186,
+          "playtime_forever": 104,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 23,
+          "last_played": 1759991426,
+          "avatar": "aff3f8822db2bf5a6eae5d142fe7eb7c385c35fc"
+        },
+        "language": "english",
+        "review": "I beat the tutorial just now... oh I'm in for a time, aren't I? Just buy this, I can tell this is something special. Avoiding spoilers, the animation and art style is REALLY SLICK! I'm impressed by that alone.",
+        "timestamp_created": 1759534962,
+        "timestamp_updated": 1759534962,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.64331740140914917",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759492890",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXG4+AAAAAFP+Sgs+AAAAB7vo6RBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000004802,
+  "transport_error_count": 0
+}

@@ -1,0 +1,227 @@
+{
+  "requested_at": "2026-09-13T07:23:17.387864+00:00",
+  "request_params": {
+    "appids": 4210730,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4210730,
+  "payload": {
+    "4210730": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "DRUNKEN BARON",
+        "steam_appid": 4210730,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>DRUNKEN BARON</strong> is a fast-paced 2D arcade shooter inspired by classic flappy-style games. <br>Keep your plane in the air by tapping the button, fly through chaotic corridors, shoot invading aliens, drop bombs, and survive as long as you can!</p><p class=\"bb_paragraph\" >Created entirely by a <strong>solo developer</strong>, this game combines simple controls with intense action: <br>tap, dodge, shoot — and try not to crash!</p><p class=\"bb_paragraph\" >If you enjoy quick, skill-based arcade action with a twist, <strong>DRUNKEN BARON</strong> is for you!</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>DRUNKEN BARON</strong> is a fast-paced 2D arcade shooter inspired by classic flappy-style games. <br>Keep your plane in the air by tapping the button, fly through chaotic corridors, shoot invading aliens, drop bombs, and survive as long as you can!</p><p class=\"bb_paragraph\" >Created entirely by a <strong>solo developer</strong>, this game combines simple controls with intense action: <br>tap, dodge, shoot — and try not to crash!</p><p class=\"bb_paragraph\" >If you enjoy quick, skill-based arcade action with a twist, <strong>DRUNKEN BARON</strong> is for you!</p>",
+        "short_description": "DRUNKEN BARON is a fast-paced 2D arcade shooter inspired by classic flappy-style games. Keep your plane in the air by tapping the button, fly through chaotic corridors, shoot invading aliens, drop bombs, and survive as long as you can!",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/c6007ab4da89991393a0d41bb1fefdce8414cf7f/header.jpg?t=1765842918",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/65cca189fa0c1c1802d82dd07a92eed19d4eafb3/capsule_231x87.jpg?t=1765842918",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/65cca189fa0c1c1802d82dd07a92eed19d4eafb3/capsule_184x69.jpg?t=1765842918",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64-bit) or newer<br></li><li><strong>Processor:</strong> Intel Core i3 or equivalent dual-core CPU at 2.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000 / AMD Radeon R5 or better<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / 11<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD Ryzen 3<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD 620 / NVIDIA GT 1030 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 (64-bit) or compatible<br></li><li><strong>Processor:</strong> Intel Core i3 or equivalent dual-core CPU at 2.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000 / AMD Radeon R5 or better, with OpenGL 3.3 support<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Additional Notes:</strong> Requires a modern 64-bit Linux distribution</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 (64-bit) or newer<br></li><li><strong>Processor:</strong> Intel Core i5 or AMD Ryzen 3<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD 620 / NVIDIA GT 1030 or better, OpenGL 4.0+<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Additional Notes:</strong> Performance may vary depending on your desktop environment and drivers</li></ul>"
+        },
+        "legal_notice": "All content © [Florian Schäfer].<br>Unauthorized copying, distribution or modification of the game or its assets is prohibited.",
+        "developers": [
+          "Florian Schäfer"
+        ],
+        "publishers": [
+          "Florian Schäfer"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1474520
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy DRUNKEN BARON",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1474520,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "DRUNKEN BARON - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/91198f8796691d7f4a9668ea08a8a2a031fbcf69/ss_91198f8796691d7f4a9668ea08a8a2a031fbcf69.600x338.jpg?t=1765842918",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/91198f8796691d7f4a9668ea08a8a2a031fbcf69/ss_91198f8796691d7f4a9668ea08a8a2a031fbcf69.1920x1080.jpg?t=1765842918"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/b5e0b06cca63405bc0a3c0a1b1d80ea175935637/ss_b5e0b06cca63405bc0a3c0a1b1d80ea175935637.600x338.jpg?t=1765842918",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/b5e0b06cca63405bc0a3c0a1b1d80ea175935637/ss_b5e0b06cca63405bc0a3c0a1b1d80ea175935637.1920x1080.jpg?t=1765842918"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/5d675fa6c0db8e0dae18f4760af9d52e13fa06b4/ss_5d675fa6c0db8e0dae18f4760af9d52e13fa06b4.600x338.jpg?t=1765842918",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/5d675fa6c0db8e0dae18f4760af9d52e13fa06b4/ss_5d675fa6c0db8e0dae18f4760af9d52e13fa06b4.1920x1080.jpg?t=1765842918"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/12ab76abb215b20d8c710098acaa8a11dcadef4c/ss_12ab76abb215b20d8c710098acaa8a11dcadef4c.600x338.jpg?t=1765842918",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/12ab76abb215b20d8c710098acaa8a11dcadef4c/ss_12ab76abb215b20d8c710098acaa8a11dcadef4c.1920x1080.jpg?t=1765842918"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/8acfb22643fc9c7ec8017ba376acdd00f7e99435/ss_8acfb22643fc9c7ec8017ba376acdd00f7e99435.600x338.jpg?t=1765842918",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/8acfb22643fc9c7ec8017ba376acdd00f7e99435/ss_8acfb22643fc9c7ec8017ba376acdd00f7e99435.1920x1080.jpg?t=1765842918"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257238067,
+            "name": "DRUNKEN BARON-First Look",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257238067/601c6616bf578d8db1e99ed997e57ede3b048dc9/movie_600x337.jpg?t=1765453623",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4210730/1486936298/902c982c0f7d11d76fba72c4a11dbe44098f81d9/1765452940/dash_av1.mpd?t=1765453623",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4210730/1486936298/902c982c0f7d11d76fba72c4a11dbe44098f81d9/1765452940/dash_h264.mpd?t=1765453623",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4210730/1486936298/902c982c0f7d11d76fba72c4a11dbe44098f81d9/1765452940/hls_264_master.m3u8?t=1765453623",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 4,
+          "highlighted": [
+            {
+              "icon": "906aeb4b629e2d7f13d431e43875ad45d1716669.jpg",
+              "localized_name": "Bronze-Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze-Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4210730/906aeb4b629e2d7f13d431e43875ad45d1716669.jpg"
+            },
+            {
+              "icon": "3831b4fdf490aec6c6562bc54e6a4e4c4bb25ec1.jpg",
+              "localized_name": "Silver-Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Silver-Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4210730/3831b4fdf490aec6c6562bc54e6a4e4c4bb25ec1.jpg"
+            },
+            {
+              "icon": "8350b28676c406494c0ac684edc9a9820d2b0179.jpg",
+              "localized_name": "Gold-Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gold-Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4210730/8350b28676c406494c0ac684edc9a9820d2b0179.jpg"
+            },
+            {
+              "icon": "d917898a973d937c6ef3f4f78b9dfa2df96dd8c9.jpg",
+              "localized_name": "Platin-Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Platin-Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4210730/d917898a973d937c6ef3f4f78b9dfa2df96dd8c9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "schaefer-fl@t-online.de"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4210730?t=1765842918",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210730/c17739c9972618091616473dee3958d858c71dc8/page_bg_raw.jpg?t=1765842918",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

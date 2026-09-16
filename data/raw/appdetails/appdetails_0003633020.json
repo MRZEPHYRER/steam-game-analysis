@@ -1,0 +1,259 @@
+{
+  "requested_at": "2026-09-12T15:50:09.833116+00:00",
+  "request_params": {
+    "appids": 3633020,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3633020,
+  "payload": {
+    "3633020": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Winter Witch",
+        "steam_appid": 3633020,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >There once was a witch who lived in the woods...</p><p class=\"bb_paragraph\" >She would explore those woods in pursuit of a personal goal.  These woods were mysterious, but that would not stop her from completing her quest.</p><p class=\"bb_paragraph\" >She wasn't alone of course.  She had her familiar Merlin, a housecat who slept on the couch.</p><p class=\"bb_paragraph\" >Her story is that of exploration and fantasy as she traverses these winter woods.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/extras/walking.gif?t=1763744647\" /></span></p><p class=\"bb_paragraph\" ><strong>FEATURES</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Collect materials to craft resources and tools to explore deeper into the woods</p></li><li><p class=\"bb_paragraph\" >A limited day cycle that encourages you to plan how to explore each day</p></li><li><p class=\"bb_paragraph\" >Hand-drawn graphics in a 3D monochromatic world</p></li><li><p class=\"bb_paragraph\" >A lovely soundtrack by Dreamware</p></li><li><p class=\"bb_paragraph\" >Yes, you can pet the cat</p></li></ul><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >There once was a witch who lived in the woods...</p><p class=\"bb_paragraph\" >She would explore those woods in pursuit of a personal goal.  These woods were mysterious, but that would not stop her from completing her quest.</p><p class=\"bb_paragraph\" >She wasn't alone of course.  She had her familiar Merlin, a housecat who slept on the couch.</p><p class=\"bb_paragraph\" >Her story is that of exploration and fantasy as she traverses these winter woods.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/extras/walking.gif?t=1763744647\" /></span></p><p class=\"bb_paragraph\" ><strong>FEATURES</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Collect materials to craft resources and tools to explore deeper into the woods</p></li><li><p class=\"bb_paragraph\" >A limited day cycle that encourages you to plan how to explore each day</p></li><li><p class=\"bb_paragraph\" >Hand-drawn graphics in a 3D monochromatic world</p></li><li><p class=\"bb_paragraph\" >A lovely soundtrack by Dreamware</p></li><li><p class=\"bb_paragraph\" >Yes, you can pet the cat</p></li></ul><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A cozy game about a witch who lived in the woods. Explore and craft as you traverse deeper into the woods.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/b967f1eec708ea17e7e5bceefbc5cc734021e770/header.jpg?t=1763744647",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/15b1225d4ae580388f64c7624bd3106a885edc69/capsule_231x87.jpg?t=1763744647",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/15b1225d4ae580388f64c7624bd3106a885edc69/capsule_184x69.jpg?t=1763744647",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or newer<br></li><li><strong>Processor:</strong>  Intel Core i7 / AMD Ryzen 7 or better<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "solarVagrant"
+        ],
+        "publishers": [
+          "solarVagrant"
+        ],
+        "demos": [
+          {
+            "appid": 4016400,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1280621
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Winter Witch",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1280621,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Winter Witch - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/44064cda80a9c950365ce1056ed5d3a8b8cf8e1b/ss_44064cda80a9c950365ce1056ed5d3a8b8cf8e1b.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/44064cda80a9c950365ce1056ed5d3a8b8cf8e1b/ss_44064cda80a9c950365ce1056ed5d3a8b8cf8e1b.1920x1080.jpg?t=1763744647"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/910e4124d2bce918ce16e4cd13b2b1e1c72ffde9/ss_910e4124d2bce918ce16e4cd13b2b1e1c72ffde9.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/910e4124d2bce918ce16e4cd13b2b1e1c72ffde9/ss_910e4124d2bce918ce16e4cd13b2b1e1c72ffde9.1920x1080.jpg?t=1763744647"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/5e26d2ee0dbf732a12727ee9ead37783173788f1/ss_5e26d2ee0dbf732a12727ee9ead37783173788f1.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/5e26d2ee0dbf732a12727ee9ead37783173788f1/ss_5e26d2ee0dbf732a12727ee9ead37783173788f1.1920x1080.jpg?t=1763744647"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/b35ae42f0acd6aa7d628cc772f975f6eea62e63f/ss_b35ae42f0acd6aa7d628cc772f975f6eea62e63f.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/b35ae42f0acd6aa7d628cc772f975f6eea62e63f/ss_b35ae42f0acd6aa7d628cc772f975f6eea62e63f.1920x1080.jpg?t=1763744647"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/542b59ebd22c14fc656065662a5cee5d517fa610/ss_542b59ebd22c14fc656065662a5cee5d517fa610.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/542b59ebd22c14fc656065662a5cee5d517fa610/ss_542b59ebd22c14fc656065662a5cee5d517fa610.1920x1080.jpg?t=1763744647"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/763fb0fa17a23564d22a2e87b5347e08b843a4e0/ss_763fb0fa17a23564d22a2e87b5347e08b843a4e0.600x338.jpg?t=1763744647",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/763fb0fa17a23564d22a2e87b5347e08b843a4e0/ss_763fb0fa17a23564d22a2e87b5347e08b843a4e0.1920x1080.jpg?t=1763744647"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257159484,
+            "name": "Game Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257159484/9a219c402cc96330690411130dae382ec465abf6/movie_600x337.jpg?t=1754159837",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3633020/1854800867/3cd32eb19d437bdfcbc7141259544862809b32ab/1750635154/dash_av1.mpd?t=1754159837",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3633020/1854800867/3cd32eb19d437bdfcbc7141259544862809b32ab/1750635154/dash_h264.mpd?t=1754159837",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3633020/1854800867/3cd32eb19d437bdfcbc7141259544862809b32ab/1750635154/hls_264_master.m3u8?t=1754159837",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 4,
+          "highlighted": [
+            {
+              "icon": "455d60e515aa457d0c834dd09e322b4add01bf61.jpg",
+              "localized_name": "Quest Complete",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Quest Complete",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3633020/455d60e515aa457d0c834dd09e322b4add01bf61.jpg"
+            },
+            {
+              "icon": "04c472cab6cd784fb516744f7ce777b7bbafb98d.jpg",
+              "localized_name": "A Good Roommate",
+              "archived": 0,
+              "hidden": 1,
+              "name": "A Good Roommate",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3633020/04c472cab6cd784fb516744f7ce777b7bbafb98d.jpg"
+            },
+            {
+              "icon": "5dd266083ad01e776003cbb6bed532b76e637eb7.jpg",
+              "localized_name": "Have Bush, Will Travel",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Have Bush, Will Travel",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3633020/5dd266083ad01e776003cbb6bed532b76e637eb7.jpg"
+            },
+            {
+              "icon": "39a940f9a8f4620fabf20f017b194befdaf82c03.jpg",
+              "localized_name": "The Truth of the Matter",
+              "archived": 0,
+              "hidden": 1,
+              "name": "The Truth of the Matter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3633020/39a940f9a8f4620fabf20f017b194befdaf82c03.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 21, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "solarvagrant@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3633020?t=1763744647",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633020/c161f077376bd07a4b0fe0dc2572e440ec775b6b/page_bg_raw.jpg?t=1763744647",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

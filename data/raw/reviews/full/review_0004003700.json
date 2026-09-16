@@ -1,0 +1,66 @@
+{
+  "appid": 4003700,
+  "requested_at": "2026-09-13T20:10:39.228256+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 6,
+      "total_negative": 1,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "205201473",
+        "author": {
+          "steamid": "76561199784718463",
+          "personaname": "yannamaegames",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199784718463/",
+          "num_games_owned": 0,
+          "num_reviews": 212,
+          "playtime_forever": 138,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 138,
+          "last_played": 1758755358,
+          "avatar": "4fc6cbb23a3747075ae61d9693d45fc6d7deea24"
+        },
+        "language": "english",
+        "review": "i do love the concept of the game and did for the most part enjoy the game! i will say it hard to tell where he is in the house since the steps sound the same. there were also a fee times where it seemed he knew i was hiding even when i was holding my breathe. other than that i still enjoyed the game and its concept https://youtu.be/kDTr3xmkBoo?si=vvWdkWs5yS2P-d9h",
+        "timestamp_created": 1758842398,
+        "timestamp_updated": 1758842398,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.53125",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758567625",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZYAAAAAAAFP+EAAAAAAABxhOSOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

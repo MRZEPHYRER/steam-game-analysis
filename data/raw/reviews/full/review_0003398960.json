@@ -1,0 +1,73 @@
+{
+  "appid": 3398960,
+  "requested_at": "2026-09-13T19:13:57.333782+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "234595409",
+        "author": {
+          "steamid": "76561198025164091",
+          "personaname": "Salex5000",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198025164091/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 48,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 48,
+          "last_played": 1786861051,
+          "avatar": "792852fad5716fcdac03bfea8e354ba88b4b2417"
+        },
+        "language": "english",
+        "review": "This game has a great atmosphere, but I would say that the stand out thing for me is the story and the music. Trying to get the notes while I can see the scarecrows are getting close and I ran into a dead end is genuinely unnerving.. and the music doesn't help at all.. and I mean that as a compliment. it really sells the theme and the tension. definitely check it out",
+        "timestamp_created": 1788676457,
+        "timestamp_updated": 1788676457,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761907759",
+        "hardware": {
+          "system_ram": "32520",
+          "os": "Windows 11",
+          "cpu_name": "Intel(R) Core(TM) i7-14700F",
+          "adapter_description": "NVIDIA GeForce RTX 5070",
+          "vram_size": 11944
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABxxfT+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

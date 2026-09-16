@@ -1,0 +1,66 @@
+{
+  "appid": 4229050,
+  "requested_at": "2026-09-13T20:27:04.382254+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 13,
+      "total_negative": 0,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "213938459",
+        "author": {
+          "steamid": "76561198853969535",
+          "personaname": "CAGEsadK",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/IbibigonI/",
+          "num_games_owned": 380,
+          "num_reviews": 40,
+          "playtime_forever": 56,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 56,
+          "last_played": 1766430759,
+          "avatar": "d0ece67da56ecc1322dff5a9404cc1171ba0df01"
+        },
+        "language": "russian",
+        "review": "Когда игра начинается с фразы “я твоя девушка”, а ты уже ищешь кнопку “проверить реальность.",
+        "timestamp_created": 1766431009,
+        "timestamp_updated": 1766431009,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.651443362236022949",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766404975",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX+JyAAAAAFP+TYnwAAAAB7kY6wBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.280999999999949,
+  "transport_error_count": 0
+}

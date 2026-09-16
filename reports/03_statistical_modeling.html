@@ -1,0 +1,4835 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 5B-5F Reception Modeling and Diagnostics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="03_statistical_modeling_files/libs/clipboard/clipboard.min.js"></script>
+<script src="03_statistical_modeling_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="03_statistical_modeling_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="03_statistical_modeling_files/libs/quarto-html/popper.min.js"></script>
+<script src="03_statistical_modeling_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="03_statistical_modeling_files/libs/quarto-html/anchor.min.js"></script>
+<link href="03_statistical_modeling_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="03_statistical_modeling_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="03_statistical_modeling_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="03_statistical_modeling_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="03_statistical_modeling_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#frozen-specification" id="toc-frozen-specification" class="nav-link active" data-scroll-target="#frozen-specification"><span class="header-section-number">1</span> Frozen specification</a></li>
+  <li><a href="#coefficients-and-model-contrasts" id="toc-coefficients-and-model-contrasts" class="nav-link" data-scroll-target="#coefficients-and-model-contrasts"><span class="header-section-number">2</span> Coefficients and model contrasts</a></li>
+  <li><a href="#overdispersion-and-residuals" id="toc-overdispersion-and-residuals" class="nav-link" data-scroll-target="#overdispersion-and-residuals"><span class="header-section-number">3</span> Overdispersion and residuals</a></li>
+  <li><a href="#leverage-influence-and-review-concentration" id="toc-leverage-influence-and-review-concentration" class="nav-link" data-scroll-target="#leverage-influence-and-review-concentration"><span class="header-section-number">4</span> Leverage, influence, and review concentration</a></li>
+  <li><a href="#collinearity-convergence-and-fitted-probabilities" id="toc-collinearity-convergence-and-fitted-probabilities" class="nav-link" data-scroll-target="#collinearity-convergence-and-fitted-probabilities"><span class="header-section-number">5</span> Collinearity, convergence, and fitted probabilities</a></li>
+  <li><a href="#descriptive-calibration" id="toc-descriptive-calibration" class="nav-link" data-scroll-target="#descriptive-calibration"><span class="header-section-number">6</span> Descriptive calibration</a></li>
+  <li><a href="#baseline-limitations-and-next-step" id="toc-baseline-limitations-and-next-step" class="nav-link" data-scroll-target="#baseline-limitations-and-next-step"><span class="header-section-number">7</span> Baseline limitations and next step</a></li>
+  <li><a href="#step-5c-overdispersion-robust-reception-modeling" id="toc-step-5c-overdispersion-robust-reception-modeling" class="nav-link" data-scroll-target="#step-5c-overdispersion-robust-reception-modeling"><span class="header-section-number">8</span> Step 5C: Overdispersion-robust reception modeling</a>
+  <ul class="collapse">
+  <li><a href="#quasibinomial-uncertainty-correction" id="toc-quasibinomial-uncertainty-correction" class="nav-link" data-scroll-target="#quasibinomial-uncertainty-correction"><span class="header-section-number">8.1</span> Quasibinomial uncertainty correction</a></li>
+  <li><a href="#beta-binomial-implementation-and-heterogeneity" id="toc-beta-binomial-implementation-and-heterogeneity" class="nav-link" data-scroll-target="#beta-binomial-implementation-and-heterogeneity"><span class="header-section-number">8.2</span> Beta-binomial implementation and heterogeneity</a></li>
+  <li><a href="#robust-model-and-coefficient-comparison" id="toc-robust-model-and-coefficient-comparison" class="nav-link" data-scroll-target="#robust-model-and-coefficient-comparison"><span class="header-section-number">8.3</span> Robust model and coefficient comparison</a></li>
+  <li><a href="#pre-defined-review-volume-influence-sensitivity" id="toc-pre-defined-review-volume-influence-sensitivity" class="nav-link" data-scroll-target="#pre-defined-review-volume-influence-sensitivity"><span class="header-section-number">8.4</span> Pre-defined review-volume influence sensitivity</a></li>
+  <li><a href="#robust-predicted-effects-warnings-and-recommendation" id="toc-robust-predicted-effects-warnings-and-recommendation" class="nav-link" data-scroll-target="#robust-predicted-effects-warnings-and-recommendation"><span class="header-section-number">8.5</span> Robust predicted effects, warnings, and recommendation</a></li>
+  </ul></li>
+  <li><a href="#step-5d-pre-specified-sensitivity-analysis" id="toc-step-5d-pre-specified-sensitivity-analysis" class="nav-link" data-scroll-target="#step-5d-pre-specified-sensitivity-analysis"><span class="header-section-number">9</span> Step 5D: Pre-specified sensitivity analysis</a></li>
+  <li><a href="#step-5e-secondary-high-rating-logistic-analysis" id="toc-step-5e-secondary-high-rating-logistic-analysis" class="nav-link" data-scroll-target="#step-5e-secondary-high-rating-logistic-analysis"><span class="header-section-number">10</span> Step 5E: Secondary high-rating logistic analysis</a></li>
+  <li><a href="#step-5f-wilson-uncertainty-and-empirical-bayes-rating-adjustment" id="toc-step-5f-wilson-uncertainty-and-empirical-bayes-rating-adjustment" class="nav-link" data-scroll-target="#step-5f-wilson-uncertainty-and-empirical-bayes-rating-adjustment"><span class="header-section-number">11</span> Step 5F: Wilson uncertainty and empirical-Bayes rating adjustment</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Step 5B-5F Reception Modeling and Diagnostics</h1>
+<p class="subtitle lead">Frozen inference, sensitivity, high-rating, and rating-reliability analyses</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="frozen-specification" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Frozen specification</h1>
+<p>The primary population is <code>model20_paid</code>: paid games with at least 20 reviews. The response is <code>cbind(positive_reviews, negative_reviews)</code> under a binomial logit model. The frozen predictors are standardized <code>log1p(current_price_usd)</code>, standardized days since release, the four observed platform levels (Windows only as reference), and seven independently coded genre indicators. No rows were removed because of residuals, leverage, influence, volume, or price.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">unique_appids</th>
+<th style="text-align: right;">response_trials</th>
+<th style="text-align: right;">total_positive_reviews</th>
+<th style="text-align: right;">total_negative_reviews</th>
+<th style="text-align: right;">pooled_positive_rate</th>
+<th style="text-align: right;">number_of_coefficients</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">deviance</th>
+<th style="text-align: right;">null_deviance</th>
+<th style="text-align: right;">residual_deviance</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">iterations</th>
+<th style="text-align: right;">fit_warning_count</th>
+<th style="text-align: left;">profile_ci_status</th>
+<th style="text-align: left;">formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">1069024</td>
+<td style="text-align: right;">943294</td>
+<td style="text-align: right;">125730</td>
+<td style="text-align: right;">0.8824</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: right;">-27230.07</td>
+<td style="text-align: right;">50874.43</td>
+<td style="text-align: right;">66451.4</td>
+<td style="text-align: right;">50874.43</td>
+<td style="text-align: right;">54486.13</td>
+<td style="text-align: right;">54547.6</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">cbind(positive_reviews, negative_reviews) ~ z_log1p_price + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">predictor</th>
+<th style="text-align: right;">scaling_mean</th>
+<th style="text-align: right;">scaling_sd</th>
+<th style="text-align: right;">minus_1sd_original</th>
+<th style="text-align: right;">mean_original</th>
+<th style="text-align: right;">plus_1sd_original</th>
+<th style="text-align: left;">original_unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">log1p_current_price</td>
+<td style="text-align: right;">2.2793</td>
+<td style="text-align: right;">0.7226</td>
+<td style="text-align: right;">3.7430</td>
+<td style="text-align: right;">8.7699</td>
+<td style="text-align: right;">19.1245</td>
+<td style="text-align: left;">USD (back-transformed from log1p)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">days_since_release</td>
+<td style="text-align: right;">347.3038</td>
+<td style="text-align: right;">49.9820</td>
+<td style="text-align: right;">297.3218</td>
+<td style="text-align: right;">347.3038</td>
+<td style="text-align: right;">397.2858</td>
+<td style="text-align: left;">days</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="coefficients-and-model-contrasts" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Coefficients and model contrasts</h1>
+<p>Odds ratios for the two numeric predictors represent a +1 SD contrast. Platform terms compare with Windows only; genre terms compare presence with absence. P-values remain available for audit, while interpretation emphasizes effect size, direction, and interval uncertainty. The modeled contrasts are descriptive, not causal.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 11%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">z_value</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: right;">ci95_logit_lower</th>
+<th style="text-align: right;">ci95_logit_upper</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">1.77088</td>
+<td style="text-align: right;">0.00946</td>
+<td style="text-align: right;">187.17028</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">1.75233</td>
+<td style="text-align: right;">1.78942</td>
+<td style="text-align: right;">5.87600</td>
+<td style="text-align: right;">5.76804</td>
+<td style="text-align: right;">5.98598</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">-0.04173</td>
+<td style="text-align: right;">0.00491</td>
+<td style="text-align: right;">-8.50111</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">-0.05135</td>
+<td style="text-align: right;">-0.03211</td>
+<td style="text-align: right;">0.95913</td>
+<td style="text-align: right;">0.94995</td>
+<td style="text-align: right;">0.96840</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.26114</td>
+<td style="text-align: right;">0.00431</td>
+<td style="text-align: right;">60.55007</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.25269</td>
+<td style="text-align: right;">0.26959</td>
+<td style="text-align: right;">1.29841</td>
+<td style="text-align: right;">1.28748</td>
+<td style="text-align: right;">1.30943</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.19299</td>
+<td style="text-align: right;">0.00960</td>
+<td style="text-align: right;">20.09883</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.17417</td>
+<td style="text-align: right;">0.21181</td>
+<td style="text-align: right;">1.21288</td>
+<td style="text-align: right;">1.19026</td>
+<td style="text-align: right;">1.23592</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.71446</td>
+<td style="text-align: right;">0.01541</td>
+<td style="text-align: right;">46.36716</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.68426</td>
+<td style="text-align: right;">0.74466</td>
+<td style="text-align: right;">2.04308</td>
+<td style="text-align: right;">1.98230</td>
+<td style="text-align: right;">2.10572</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.37315</td>
+<td style="text-align: right;">0.02109</td>
+<td style="text-align: right;">17.69169</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.33181</td>
+<td style="text-align: right;">0.41449</td>
+<td style="text-align: right;">1.45231</td>
+<td style="text-align: right;">1.39349</td>
+<td style="text-align: right;">1.51360</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.01976</td>
+<td style="text-align: right;">0.00714</td>
+<td style="text-align: right;">2.76859</td>
+<td style="text-align: right;">0.00563</td>
+<td style="text-align: right;">0.00577</td>
+<td style="text-align: right;">0.03374</td>
+<td style="text-align: right;">1.01995</td>
+<td style="text-align: right;">1.00579</td>
+<td style="text-align: right;">1.03432</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">0.00163</td>
+<td style="text-align: right;">0.00761</td>
+<td style="text-align: right;">0.21464</td>
+<td style="text-align: right;">0.83005</td>
+<td style="text-align: right;">-0.01328</td>
+<td style="text-align: right;">0.01654</td>
+<td style="text-align: right;">1.00163</td>
+<td style="text-align: right;">0.98681</td>
+<td style="text-align: right;">1.01668</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.03457</td>
+<td style="text-align: right;">0.00876</td>
+<td style="text-align: right;">3.94496</td>
+<td style="text-align: right;">0.00008</td>
+<td style="text-align: right;">0.01739</td>
+<td style="text-align: right;">0.05174</td>
+<td style="text-align: right;">1.03517</td>
+<td style="text-align: right;">1.01755</td>
+<td style="text-align: right;">1.05310</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.21530</td>
+<td style="text-align: right;">0.00869</td>
+<td style="text-align: right;">24.76305</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.19826</td>
+<td style="text-align: right;">0.23234</td>
+<td style="text-align: right;">1.24023</td>
+<td style="text-align: right;">1.21928</td>
+<td style="text-align: right;">1.26155</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">-0.23032</td>
+<td style="text-align: right;">0.00781</td>
+<td style="text-align: right;">-29.48490</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">-0.24563</td>
+<td style="text-align: right;">-0.21501</td>
+<td style="text-align: right;">0.79428</td>
+<td style="text-align: right;">0.78221</td>
+<td style="text-align: right;">0.80653</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.30338</td>
+<td style="text-align: right;">0.00827</td>
+<td style="text-align: right;">36.66540</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.28716</td>
+<td style="text-align: right;">0.31960</td>
+<td style="text-align: right;">1.35443</td>
+<td style="text-align: right;">1.33264</td>
+<td style="text-align: right;">1.37657</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.12424</td>
+<td style="text-align: right;">0.00865</td>
+<td style="text-align: right;">-14.35940</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">-0.14120</td>
+<td style="text-align: right;">-0.10728</td>
+<td style="text-align: right;">0.88317</td>
+<td style="text-align: right;">0.86832</td>
+<td style="text-align: right;">0.89827</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">profile_ci95_logit_lower</th>
+<th style="text-align: right;">profile_ci95_logit_upper</th>
+<th style="text-align: right;">profile_or_ci95_lower</th>
+<th style="text-align: right;">profile_or_ci95_upper</th>
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">failure_reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">1.75235</td>
+<td style="text-align: right;">1.78944</td>
+<td style="text-align: right;">5.76814</td>
+<td style="text-align: right;">5.98609</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">-0.05135</td>
+<td style="text-align: right;">-0.03211</td>
+<td style="text-align: right;">0.94994</td>
+<td style="text-align: right;">0.96840</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.25269</td>
+<td style="text-align: right;">0.26959</td>
+<td style="text-align: right;">1.28748</td>
+<td style="text-align: right;">1.30943</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.17419</td>
+<td style="text-align: right;">0.21183</td>
+<td style="text-align: right;">1.19028</td>
+<td style="text-align: right;">1.23593</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.68432</td>
+<td style="text-align: right;">0.74473</td>
+<td style="text-align: right;">1.98243</td>
+<td style="text-align: right;">2.10586</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.33201</td>
+<td style="text-align: right;">0.41469</td>
+<td style="text-align: right;">1.39377</td>
+<td style="text-align: right;">1.51391</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.00576</td>
+<td style="text-align: right;">0.03374</td>
+<td style="text-align: right;">1.00578</td>
+<td style="text-align: right;">1.03431</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">-0.01327</td>
+<td style="text-align: right;">0.01655</td>
+<td style="text-align: right;">0.98682</td>
+<td style="text-align: right;">1.01669</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.01740</td>
+<td style="text-align: right;">0.05175</td>
+<td style="text-align: right;">1.01756</td>
+<td style="text-align: right;">1.05311</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.19825</td>
+<td style="text-align: right;">0.23233</td>
+<td style="text-align: right;">1.21927</td>
+<td style="text-align: right;">1.26154</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">-0.24563</td>
+<td style="text-align: right;">-0.21501</td>
+<td style="text-align: right;">0.78221</td>
+<td style="text-align: right;">0.80653</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.28717</td>
+<td style="text-align: right;">0.31960</td>
+<td style="text-align: right;">1.33265</td>
+<td style="text-align: right;">1.37658</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.14118</td>
+<td style="text-align: right;">-0.10726</td>
+<td style="text-align: right;">0.86833</td>
+<td style="text-align: right;">0.89829</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: left;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 14%">
+<col style="width: 21%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">scenario</th>
+<th style="text-align: right;">predicted_probability</th>
+<th style="text-align: right;">absolute_probability_difference</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baseline: means, Windows only, genres absent</td>
+<td style="text-align: right;">0.85457</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">+1 SD log1p price</td>
+<td style="text-align: right;">0.84930</td>
+<td style="text-align: right;">-0.00526</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">+1 SD days since release</td>
+<td style="text-align: right;">0.88412</td>
+<td style="text-align: right;">0.02955</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Platform: Windows + macOS</td>
+<td style="text-align: right;">0.87695</td>
+<td style="text-align: right;">0.02238</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Platform: Windows + Linux</td>
+<td style="text-align: right;">0.92311</td>
+<td style="text-align: right;">0.06854</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Platform: Windows + macOS + Linux</td>
+<td style="text-align: right;">0.89511</td>
+<td style="text-align: right;">0.04054</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: action</td>
+<td style="text-align: right;">0.85700</td>
+<td style="text-align: right;">0.00244</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: adventure</td>
+<td style="text-align: right;">0.85477</td>
+<td style="text-align: right;">0.00020</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: casual</td>
+<td style="text-align: right;">0.85881</td>
+<td style="text-align: right;">0.00424</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: indie</td>
+<td style="text-align: right;">0.87934</td>
+<td style="text-align: right;">0.02477</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: rpg</td>
+<td style="text-align: right;">0.82355</td>
+<td style="text-align: right;">-0.03102</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: simulation</td>
+<td style="text-align: right;">0.88838</td>
+<td style="text-align: right;">0.03381</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: strategy</td>
+<td style="text-align: right;">0.83844</td>
+<td style="text-align: right;">-0.01613</td>
+<td style="text-align: left;">Descriptive model contrast; not a causal effect</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/04_baseline_odds_ratios.png" class="img-fluid figure-img" width="756"></p>
+<figcaption>Baseline odds ratios and Wald 95% intervals (log scale)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="overdispersion-and-residuals" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Overdispersion and residuals</h1>
+<p>The grouped-binomial denominator is part of the likelihood; no artificial game-level weights or denominator caps were added. Pearson and deviance dispersion quantify whether nominal Bernoulli information yields overly precise standard-binomial inference.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 9%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">pearson_chi_square</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">pearson_dispersion_ratio</th>
+<th style="text-align: right;">residual_deviance</th>
+<th style="text-align: right;">deviance_dispersion_ratio</th>
+<th style="text-align: left;">overdispersion_flag</th>
+<th style="text-align: left;">flag_reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">60503.57</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: right;">50874.43</td>
+<td style="text-align: right;">61.81584</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">ratio &gt; 1.5 used as a material diagnostic flag; ratio &gt; 1 indicates overdispersion</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">residual_type</th>
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">p01</th>
+<th style="text-align: right;">p05</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Pearson</td>
+<td style="text-align: right;">-70.6958</td>
+<td style="text-align: right;">-29.5398</td>
+<td style="text-align: right;">-15.6845</td>
+<td style="text-align: right;">-3.8576</td>
+<td style="text-align: right;">-0.3659</td>
+<td style="text-align: right;">1.8034</td>
+<td style="text-align: right;">7.5595</td>
+<td style="text-align: right;">21.4096</td>
+<td style="text-align: right;">42.1432</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Deviance</td>
+<td style="text-align: right;">-58.7019</td>
+<td style="text-align: right;">-25.9751</td>
+<td style="text-align: right;">-12.6133</td>
+<td style="text-align: right;">-3.3942</td>
+<td style="text-align: right;">-0.3576</td>
+<td style="text-align: right;">2.1213</td>
+<td style="text-align: right;">9.1580</td>
+<td style="text-align: right;">23.8991</td>
+<td style="text-align: right;">47.4548</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Standardized Pearson</td>
+<td style="text-align: right;">-74.3706</td>
+<td style="text-align: right;">-29.9561</td>
+<td style="text-align: right;">-16.0541</td>
+<td style="text-align: right;">-3.8599</td>
+<td style="text-align: right;">-0.3660</td>
+<td style="text-align: right;">1.8044</td>
+<td style="text-align: right;">7.7493</td>
+<td style="text-align: right;">22.1904</td>
+<td style="text-align: right;">57.7121</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Standardized deviance</td>
+<td style="text-align: right;">-61.7532</td>
+<td style="text-align: right;">-27.3828</td>
+<td style="text-align: right;">-12.7451</td>
+<td style="text-align: right;">-3.3954</td>
+<td style="text-align: right;">-0.3577</td>
+<td style="text-align: right;">2.1220</td>
+<td style="text-align: right;">9.5023</td>
+<td style="text-align: right;">24.6791</td>
+<td style="text-align: right;">63.2526</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: right;">threshold</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">share_games</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">519</td>
+<td style="text-align: right;">0.6208</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">372</td>
+<td style="text-align: right;">0.4450</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">273</td>
+<td style="text-align: right;">0.3266</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/02_residuals_vs_fitted.png" class="img-fluid figure-img" width="702"></p>
+<figcaption>Standardized deviance residuals versus fitted probability</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="leverage-influence-and-review-concentration" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Leverage, influence, and review concentration</h1>
+<p>Step 5A found that approximately 49.98%, 77.24%, and 86.42% of all reviews came from the top 1%, 5%, and 10% of games by volume. This concentration is not itself an error: larger grouped-binomial denominators contribute more nominal Bernoulli information. Hat values, Cook’s distance, and their rank association with review volume assess whether particular games dominate the fitted model.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">parameter_count</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">threshold_2p_over_n</th>
+<th style="text-align: right;">n_above_2p_over_n</th>
+<th style="text-align: right;">share_above_2p_over_n</th>
+<th style="text-align: right;">threshold_3p_over_n</th>
+<th style="text-align: right;">n_above_3p_over_n</th>
+<th style="text-align: right;">share_above_3p_over_n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.000132</td>
+<td style="text-align: right;">0.001761</td>
+<td style="text-align: right;">0.01555</td>
+<td style="text-align: right;">0.066189</td>
+<td style="text-align: right;">0.326613</td>
+<td style="text-align: right;">0.900272</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0.0311</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">0.087321</td>
+<td style="text-align: right;">0.046651</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0.061005</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">threshold_4_over_n</th>
+<th style="text-align: right;">n_above_4_over_n</th>
+<th style="text-align: right;">share_above_4_over_n</th>
+<th style="text-align: right;">n_above_0_5</th>
+<th style="text-align: right;">share_above_0_5</th>
+<th style="text-align: right;">n_above_1</th>
+<th style="text-align: right;">share_above_1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.000766</td>
+<td style="text-align: right;">1.050402</td>
+<td style="text-align: right;">12.8997</td>
+<td style="text-align: right;">376.0692</td>
+<td style="text-align: right;">0.004785</td>
+<td style="text-align: right;">255</td>
+<td style="text-align: right;">0.305024</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">0.07177</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">0.052632</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 68%">
+<col style="width: 11%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">metric</th>
+<th style="text-align: right;">value</th>
+<th style="text-align: left;">reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Spearman total_reviews vs leverage</td>
+<td style="text-align: right;">0.92471</td>
+<td style="text-align: left;">Spearman rho</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spearman total_reviews vs Cook’s D</td>
+<td style="text-align: right;">0.77621</td>
+<td style="text-align: left;">Spearman rho</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Top-20 review volume and top-20 Cook’s D overlap count</td>
+<td style="text-align: right;">10.00000</td>
+<td style="text-align: left;">games</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Top-20 review volume and top-20 Cook’s D overlap share</td>
+<td style="text-align: right;">0.50000</td>
+<td style="text-align: left;">share of top 20</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/03_influence_review_volume.png" class="img-fluid figure-img" width="702"></p>
+<figcaption>Review volume and Cook’s distance; dashed line is the 4/n reference</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="collinearity-convergence-and-fitted-probabilities" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Collinearity, convergence, and fitted probabilities</h1>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">vif_or_gvif</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">adjusted_gvif</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">1.79101</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.33829</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">1.26165</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.12323</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segment</td>
+<td style="text-align: right;">1.92684</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1.11551</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">1.29018</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.13586</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">1.56152</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.24961</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">1.52894</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.23650</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">1.75533</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.32489</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">1.39296</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.18024</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">1.46018</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.20838</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">1.17044</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.08187</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 54%">
+<col style="width: 10%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">matrix_rows</th>
+<th style="text-align: right;">matrix_columns</th>
+<th style="text-align: right;">matrix_rank</th>
+<th style="text-align: right;">condition_number</th>
+<th style="text-align: right;">exact_dependencies</th>
+<th style="text-align: left;">formula</th>
+<th style="text-align: left;">response</th>
+<th style="text-align: left;">family</th>
+<th style="text-align: left;">platform_reference</th>
+<th style="text-align: left;">genre_reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">5.44244</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">cbind(positive_reviews, negative_reviews) ~ z_log1p_price + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+<td style="text-align: left;">cbind(positive_reviews, negative_reviews)</td>
+<td style="text-align: left;">binomial(link = logit)</td>
+<td style="text-align: left;">Windows only</td>
+<td style="text-align: left;">absent (0)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 11%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">p01</th>
+<th style="text-align: right;">p05</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p95</th>
+<th style="text-align: right;">p99</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">n_below_0_001</th>
+<th style="text-align: right;">n_above_0_999</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.722345</td>
+<td style="text-align: right;">0.779671</td>
+<td style="text-align: right;">0.809695</td>
+<td style="text-align: right;">0.854124</td>
+<td style="text-align: right;">0.883826</td>
+<td style="text-align: right;">0.909496</td>
+<td style="text-align: right;">0.936662</td>
+<td style="text-align: right;">0.953491</td>
+<td style="text-align: right;">0.960995</td>
+<td style="text-align: right;">0.879752</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">stage</th>
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">warning_text</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">glm fit</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">profile likelihood CI</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="descriptive-calibration" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Descriptive calibration</h1>
+<p>This in-sample decile check compares mean fitted probability with the pooled observed review-level positive rate. It is descriptive and is not a formal calibration test or out-of-sample validation claim.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 12%">
+<col style="width: 22%">
+<col style="width: 27%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">decile</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">mean_fitted_probability</th>
+<th style="text-align: right;">pooled_observed_positive_rate</th>
+<th style="text-align: right;">median_game_positive_rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">86788</td>
+<td style="text-align: right;">0.80361</td>
+<td style="text-align: right;">0.79305</td>
+<td style="text-align: right;">0.86052</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">47983</td>
+<td style="text-align: right;">0.83750</td>
+<td style="text-align: right;">0.85528</td>
+<td style="text-align: right;">0.84475</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">55861</td>
+<td style="text-align: right;">0.85407</td>
+<td style="text-align: right;">0.87406</td>
+<td style="text-align: right;">0.87569</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">357679</td>
+<td style="text-align: right;">0.86624</td>
+<td style="text-align: right;">0.86859</td>
+<td style="text-align: right;">0.85945</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">38167</td>
+<td style="text-align: right;">0.87797</td>
+<td style="text-align: right;">0.83397</td>
+<td style="text-align: right;">0.83337</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">41376</td>
+<td style="text-align: right;">0.88960</td>
+<td style="text-align: right;">0.79696</td>
+<td style="text-align: right;">0.86406</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">112924</td>
+<td style="text-align: right;">0.89944</td>
+<td style="text-align: right;">0.92753</td>
+<td style="text-align: right;">0.91257</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">140082</td>
+<td style="text-align: right;">0.90966</td>
+<td style="text-align: right;">0.92569</td>
+<td style="text-align: right;">0.89655</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">37035</td>
+<td style="text-align: right;">0.92186</td>
+<td style="text-align: right;">0.87941</td>
+<td style="text-align: right;">0.85294</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">151129</td>
+<td style="text-align: right;">0.93937</td>
+<td style="text-align: right;">0.94052</td>
+<td style="text-align: right;">0.90000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/01_baseline_calibration.png" class="img-fluid figure-img" width="648"></p>
+<figcaption>Descriptive in-sample calibration by fitted-probability decile</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="baseline-limitations-and-next-step" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Baseline limitations and next step</h1>
+<p>The standard binomial assumes review-level Bernoulli variation is adequately represented by the grouped counts. The numerical dispersion and influence diagnostics above show that this baseline is not adequate for final inference. The following Step 5C section implements only the pre-specified quasi-binomial, beta-binomial, and review-volume exclusion analyses. It does not run alternative release specifications, threshold sensitivity, or other Step 5D analyses.</p>
+</section>
+<section id="step-5c-overdispersion-robust-reception-modeling" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Step 5C: Overdispersion-robust reception modeling</h1>
+<section id="quasibinomial-uncertainty-correction" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="quasibinomial-uncertainty-correction"><span class="header-section-number">8.1</span> Quasibinomial uncertainty correction</h2>
+<p>The quasibinomial fit keeps the frozen Binomial mean coefficients and estimates a variance multiplier from the Pearson residuals. It has no likelihood-comparable log-likelihood, AIC, or BIC. This model is therefore a direct check of how severely the standard Binomial understated coefficient uncertainty.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 3%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 6%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 18%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">n_coefficients</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">iterations</th>
+<th style="text-align: right;">estimated_dispersion</th>
+<th style="text-align: right;">pearson_dispersion</th>
+<th style="text-align: right;">baseline_pearson_dispersion</th>
+<th style="text-align: left;">log_likelihood</th>
+<th style="text-align: left;">aic</th>
+<th style="text-align: left;">bic</th>
+<th style="text-align: left;">likelihood_note</th>
+<th style="text-align: right;">warning_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Not defined/comparable: quasi-likelihood</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 14%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">se_inflation_ratio</th>
+<th style="text-align: right;">ci_width_inflation_ratio</th>
+<th style="text-align: left;">binomial_ci_crosses_or_1</th>
+<th style="text-align: left;">quasi_ci_crosses_or_1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">8.5741</td>
+<td style="text-align: right;">8.5868</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="beta-binomial-implementation-and-heterogeneity" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="beta-binomial-implementation-and-heterogeneity"><span class="header-section-number">8.2</span> Beta-binomial implementation and heterogeneity</h2>
+<p>The grouped beta-binomial fit uses <code>glmmTMB::betabinomial(link="logit")</code>. Its dispersion parameter is beta precision <code>phi</code>, with variance <code>n*p*(1-p)*(phi+n)/(phi+1)</code> and derived within-game correlation <code>rho=1/(phi+1)</code>. Larger <code>phi</code> means less extra-binomial heterogeneity; the Binomial limit is approached as <code>phi</code> tends to infinity.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 2%">
+<col style="width: 6%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 3%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model</th>
+<th style="text-align: left;">package</th>
+<th style="text-align: left;">package_version</th>
+<th style="text-align: left;">tmb_dependency_version</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">total_positive_reviews</th>
+<th style="text-align: right;">total_negative_reviews</th>
+<th style="text-align: right;">n_coefficients</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: left;">positive_definite_hessian</th>
+<th style="text-align: right;">max_abs_fixed_gradient</th>
+<th style="text-align: left;">optimizer</th>
+<th style="text-align: right;">iterations</th>
+<th style="text-align: left;">optimizer_message</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">profile_ci_status</th>
+<th style="text-align: right;">profile_ci_warning_count</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">dispersion_phi</th>
+<th style="text-align: right;">intra_game_rho</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: left;">glmmTMB</td>
+<td style="text-align: left;">1.1.14</td>
+<td style="text-align: left;">1.9.25</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">943294</td>
+<td style="text-align: right;">125730</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">822</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.002506</td>
+<td style="text-align: left;">nlminb (glmmTMB default)</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3395.153</td>
+<td style="text-align: right;">6818.306</td>
+<td style="text-align: right;">6884.507</td>
+<td style="text-align: right;">8.746727</td>
+<td style="text-align: right;">0.102599</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 3%">
+<col style="width: 7%">
+<col style="width: 25%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 24%">
+<col style="width: 3%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">package</th>
+<th style="text-align: left;">package_version</th>
+<th style="text-align: left;">family</th>
+<th style="text-align: left;">parameter_name</th>
+<th style="text-align: right;">parameter_value</th>
+<th style="text-align: left;">variance_definition</th>
+<th style="text-align: left;">interpretation</th>
+<th style="text-align: left;">derived_rho_name</th>
+<th style="text-align: right;">derived_rho</th>
+<th style="text-align: left;">rho_interpretation</th>
+<th style="text-align: left;">boundary_flag</th>
+<th style="text-align: right;">extreme_fixed_parameter_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">glmmTMB</td>
+<td style="text-align: left;">1.1.14</td>
+<td style="text-align: left;">glmmTMB::betabinomial(link = logit)</td>
+<td style="text-align: left;">phi = exp(dispersion linear predictor)</td>
+<td style="text-align: right;">8.746727</td>
+<td style="text-align: left;">Var(Y)=n<em>p</em>(1-p)*(phi+n)/(phi+1)</td>
+<td style="text-align: left;">phi is beta precision; larger phi means less extra-binomial heterogeneity and phi -&gt; infinity is the binomial limit</td>
+<td style="text-align: left;">rho = 1/(phi+1)</td>
+<td style="text-align: right;">0.102599</td>
+<td style="text-align: left;">latent within-game Bernoulli intraclass correlation; larger rho means more within-game dependence/heterogeneity</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 28%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: left;">positive_definite_hessian</th>
+<th style="text-align: right;">max_abs_fixed_gradient</th>
+<th style="text-align: left;">optimizer_message</th>
+<th style="text-align: left;">diagnose_return</th>
+<th style="text-align: left;">diagnose_flag_reason</th>
+<th style="text-align: right;">conditional_intercept_z</th>
+<th style="text-align: right;">dispersion_log_estimate</th>
+<th style="text-align: right;">dispersion_log_se</th>
+<th style="text-align: right;">dispersion_log_z</th>
+<th style="text-align: right;">extreme_fixed_estimate_or_se_count</th>
+<th style="text-align: right;">fitted_probability_min</th>
+<th style="text-align: right;">fitted_probability_max</th>
+<th style="text-align: left;">dispersion_boundary_flag</th>
+<th style="text-align: left;">profile_ci_status</th>
+<th style="text-align: right;">profile_ci_warning_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.002506</td>
+<td style="text-align: left;">relative convergence (4)</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">Unusually large |z|&gt;5 only for conditional intercept and dispersion intercept; no bad parameter, gradient, or Hessian flag</td>
+<td style="text-align: right;">20.7417</td>
+<td style="text-align: right;">2.16868</td>
+<td style="text-align: right;">0.05788</td>
+<td style="text-align: right;">37.46887</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.726975</td>
+<td style="text-align: right;">0.928388</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">PASS</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Both Wald and profile-likelihood intervals are retained for all 13 beta-binomial fixed effects. The model comparison below uses profile intervals for beta-binomial and Wald intervals for Binomial and Quasibinomial.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 10%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: right;">profile_or_ci95_lower</th>
+<th style="text-align: right;">profile_or_ci95_upper</th>
+<th style="text-align: left;">profile_ci_status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">1.64855</td>
+<td style="text-align: right;">0.07948</td>
+<td style="text-align: right;">5.19942</td>
+<td style="text-align: right;">4.44940</td>
+<td style="text-align: right;">6.07587</td>
+<td style="text-align: right;">4.45175</td>
+<td style="text-align: right;">6.08143</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">-0.07304</td>
+<td style="text-align: right;">0.03217</td>
+<td style="text-align: right;">0.92956</td>
+<td style="text-align: right;">0.87277</td>
+<td style="text-align: right;">0.99005</td>
+<td style="text-align: right;">0.87254</td>
+<td style="text-align: right;">0.98994</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">-0.01746</td>
+<td style="text-align: right;">0.03060</td>
+<td style="text-align: right;">0.98269</td>
+<td style="text-align: right;">0.92549</td>
+<td style="text-align: right;">1.04343</td>
+<td style="text-align: right;">0.92548</td>
+<td style="text-align: right;">1.04355</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.36653</td>
+<td style="text-align: right;">0.10834</td>
+<td style="text-align: right;">1.44272</td>
+<td style="text-align: right;">1.16672</td>
+<td style="text-align: right;">1.78401</td>
+<td style="text-align: right;">1.17245</td>
+<td style="text-align: right;">1.79457</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.48950</td>
+<td style="text-align: right;">0.16577</td>
+<td style="text-align: right;">1.63150</td>
+<td style="text-align: right;">1.17892</td>
+<td style="text-align: right;">2.25784</td>
+<td style="text-align: right;">1.19599</td>
+<td style="text-align: right;">2.29778</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.41819</td>
+<td style="text-align: right;">0.11287</td>
+<td style="text-align: right;">1.51920</td>
+<td style="text-align: right;">1.21770</td>
+<td style="text-align: right;">1.89537</td>
+<td style="text-align: right;">1.22499</td>
+<td style="text-align: right;">1.90891</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">-0.12469</td>
+<td style="text-align: right;">0.06552</td>
+<td style="text-align: right;">0.88277</td>
+<td style="text-align: right;">0.77638</td>
+<td style="text-align: right;">1.00374</td>
+<td style="text-align: right;">0.77659</td>
+<td style="text-align: right;">1.00431</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">-0.00769</td>
+<td style="text-align: right;">0.06261</td>
+<td style="text-align: right;">0.99234</td>
+<td style="text-align: right;">0.87774</td>
+<td style="text-align: right;">1.12190</td>
+<td style="text-align: right;">0.87759</td>
+<td style="text-align: right;">1.12202</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.10122</td>
+<td style="text-align: right;">0.06700</td>
+<td style="text-align: right;">1.10652</td>
+<td style="text-align: right;">0.97035</td>
+<td style="text-align: right;">1.26180</td>
+<td style="text-align: right;">0.97062</td>
+<td style="text-align: right;">1.26252</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.13509</td>
+<td style="text-align: right;">0.06932</td>
+<td style="text-align: right;">1.14464</td>
+<td style="text-align: right;">0.99922</td>
+<td style="text-align: right;">1.31122</td>
+<td style="text-align: right;">0.99792</td>
+<td style="text-align: right;">1.31000</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">-0.08719</td>
+<td style="text-align: right;">0.06922</td>
+<td style="text-align: right;">0.91650</td>
+<td style="text-align: right;">0.80023</td>
+<td style="text-align: right;">1.04967</td>
+<td style="text-align: right;">0.80114</td>
+<td style="text-align: right;">1.05123</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">-0.24096</td>
+<td style="text-align: right;">0.06520</td>
+<td style="text-align: right;">0.78588</td>
+<td style="text-align: right;">0.69161</td>
+<td style="text-align: right;">0.89300</td>
+<td style="text-align: right;">0.69203</td>
+<td style="text-align: right;">0.89382</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.19151</td>
+<td style="text-align: right;">0.07463</td>
+<td style="text-align: right;">0.82571</td>
+<td style="text-align: right;">0.71335</td>
+<td style="text-align: right;">0.95578</td>
+<td style="text-align: right;">0.71422</td>
+<td style="text-align: right;">0.95734</td>
+<td style="text-align: left;">PASS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="robust-model-and-coefficient-comparison" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="robust-model-and-coefficient-comparison"><span class="header-section-number">8.3</span> Robust model and coefficient comparison</h2>
+<p>Step 5B Binomial p-values and intervals remain only a benchmark because the extreme overdispersion invalidates their nominal precision. Interpretation prioritizes direction, OR magnitude, interval width, robust-model stability, and review-volume sensitivity; p-values are considered last.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 3%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 14%">
+<col style="width: 9%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">n_coefficients</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">dispersion</th>
+<th style="text-align: left;">dispersion_definition</th>
+<th style="text-align: left;">convergence</th>
+<th style="text-align: left;">likelihood_comparable_to_binomial</th>
+<th style="text-align: right;">delta_aic_vs_binomial</th>
+<th style="text-align: right;">loglik_difference_vs_binomial</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Binomial</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-27230.065</td>
+<td style="text-align: right;">54486.131</td>
+<td style="text-align: right;">54547.603</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: left;">Pearson chi-square/residual df</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">73.51588</td>
+<td style="text-align: left;">estimated quasi variance multiplier</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-3395.153</td>
+<td style="text-align: right;">6818.306</td>
+<td style="text-align: right;">6884.507</td>
+<td style="text-align: right;">8.74673</td>
+<td style="text-align: left;">beta precision phi (not a variance multiplier)</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">-47667.82</td>
+<td style="text-align: right;">23834.91</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">binomial_or</th>
+<th style="text-align: right;">quasi_or</th>
+<th style="text-align: right;">beta_or</th>
+<th style="text-align: right;">beta_profile_or_ci_lower</th>
+<th style="text-align: right;">beta_profile_or_ci_upper</th>
+<th style="text-align: right;">beta_or_change_vs_binomial_pct</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">5.8760</td>
+<td style="text-align: right;">5.8760</td>
+<td style="text-align: right;">5.1994</td>
+<td style="text-align: right;">4.4517</td>
+<td style="text-align: right;">6.0814</td>
+<td style="text-align: right;">11.5142</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">0.9591</td>
+<td style="text-align: right;">0.9591</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: right;">0.8725</td>
+<td style="text-align: right;">0.9899</td>
+<td style="text-align: right;">3.0828</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">1.2984</td>
+<td style="text-align: right;">1.2984</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: right;">0.9255</td>
+<td style="text-align: right;">1.0436</td>
+<td style="text-align: right;">24.3156</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">1.2129</td>
+<td style="text-align: right;">1.2129</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: right;">1.1724</td>
+<td style="text-align: right;">1.7946</td>
+<td style="text-align: right;">18.9502</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">2.0431</td>
+<td style="text-align: right;">2.0431</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">1.1960</td>
+<td style="text-align: right;">2.2978</td>
+<td style="text-align: right;">20.1449</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">1.4523</td>
+<td style="text-align: right;">1.4523</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: right;">1.2250</td>
+<td style="text-align: right;">1.9089</td>
+<td style="text-align: right;">4.6061</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">1.0200</td>
+<td style="text-align: right;">1.0200</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.7766</td>
+<td style="text-align: right;">1.0043</td>
+<td style="text-align: right;">13.4497</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">1.0016</td>
+<td style="text-align: right;">1.0016</td>
+<td style="text-align: right;">0.9923</td>
+<td style="text-align: right;">0.8776</td>
+<td style="text-align: right;">1.1220</td>
+<td style="text-align: right;">0.9281</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">1.0352</td>
+<td style="text-align: right;">1.0352</td>
+<td style="text-align: right;">1.1065</td>
+<td style="text-align: right;">0.9706</td>
+<td style="text-align: right;">1.2625</td>
+<td style="text-align: right;">6.8925</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">1.2402</td>
+<td style="text-align: right;">1.2402</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">0.9979</td>
+<td style="text-align: right;">1.3100</td>
+<td style="text-align: right;">7.7079</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">0.7943</td>
+<td style="text-align: right;">0.7943</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: right;">0.8011</td>
+<td style="text-align: right;">1.0512</td>
+<td style="text-align: right;">15.3884</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">1.3544</td>
+<td style="text-align: right;">1.3544</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: right;">0.6920</td>
+<td style="text-align: right;">0.8938</td>
+<td style="text-align: right;">41.9773</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">0.8832</td>
+<td style="text-align: right;">0.8832</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">0.7142</td>
+<td style="text-align: right;">0.9573</td>
+<td style="text-align: right;">6.5055</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 7%">
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: left;">binomial_sign</th>
+<th style="text-align: left;">quasi_sign</th>
+<th style="text-align: left;">beta_sign</th>
+<th style="text-align: left;">same_direction_all</th>
+<th style="text-align: right;">beta_or_change_vs_binomial_pct</th>
+<th style="text-align: left;">practical_stability</th>
+<th style="text-align: left;">descriptive_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">11.514</td>
+<td style="text-align: left;">Moderately sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">3.083</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">24.316</td>
+<td style="text-align: left;">Highly sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">18.950</td>
+<td style="text-align: left;">Moderately sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">20.145</td>
+<td style="text-align: left;">Moderately sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">4.606</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">13.450</td>
+<td style="text-align: left;">Highly sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">0.928</td>
+<td style="text-align: left;">Highly sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">6.892</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">7.708</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">15.388</td>
+<td style="text-align: left;">Moderately sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">positive</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">41.977</td>
+<td style="text-align: left;">Highly sensitive</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">negative</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">6.505</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and beta-vs-binomial OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/05_robust_or_comparison.png" class="img-fluid figure-img" width="936"></p>
+<figcaption>Binomial, Quasibinomial, and Beta-binomial odds ratios and 95% intervals</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/06_ci_width_comparison.png" class="img-fluid figure-img" width="846"></p>
+<figcaption>Robust-model 95% interval width relative to the standard Binomial</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="pre-defined-review-volume-influence-sensitivity" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="pre-defined-review-volume-influence-sensitivity"><span class="header-section-number">8.4</span> Pre-defined review-volume influence sensitivity</h2>
+<p>Sensitivity populations remove exactly the top 1, top 1%, and top 5% of games after sorting total reviews descending and AppID ascending. The primary-sample price and days scaling parameters remain frozen in every fit. These exclusions are exposure-defined and do not use residuals, Cook’s distance, p-values, or model performance.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">population</th>
+<th style="text-align: left;">population_label</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">games_removed</th>
+<th style="text-align: right;">share_games_removed</th>
+<th style="text-align: right;">cutoff_review_count</th>
+<th style="text-align: right;">ties_at_cutoff_in_primary</th>
+<th style="text-align: right;">total_reviews_retained</th>
+<th style="text-align: right;">fraction_reviews_retained</th>
+<th style="text-align: right;">reviews_removed</th>
+<th style="text-align: right;">share_reviews_removed</th>
+<th style="text-align: right;">pooled_positive_rate</th>
+<th style="text-align: left;">ranking_rule</th>
+<th style="text-align: left;">scaling_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">full</td>
+<td style="text-align: left;">Full</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">1069024</td>
+<td style="text-align: right;">1.00000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00000</td>
+<td style="text-align: right;">0.88239</td>
+<td style="text-align: left;">total_reviews descending, appid ascending; remove exactly the pre-specified count</td>
+<td style="text-align: left;">frozen full-sample Step 5B mean and SD; no re-scaling after exclusion</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">minus_top1</td>
+<td style="text-align: left;">Minus top 1</td>
+<td style="text-align: right;">835</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.00120</td>
+<td style="text-align: right;">136842</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">932182</td>
+<td style="text-align: right;">0.87199</td>
+<td style="text-align: right;">136842</td>
+<td style="text-align: right;">0.12801</td>
+<td style="text-align: right;">0.87958</td>
+<td style="text-align: left;">total_reviews descending, appid ascending; remove exactly the pre-specified count</td>
+<td style="text-align: left;">frozen full-sample Step 5B mean and SD; no re-scaling after exclusion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">Minus top 1%</td>
+<td style="text-align: right;">827</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0.01077</td>
+<td style="text-align: right;">27097</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">533367</td>
+<td style="text-align: right;">0.49893</td>
+<td style="text-align: right;">535657</td>
+<td style="text-align: right;">0.50107</td>
+<td style="text-align: right;">0.85598</td>
+<td style="text-align: left;">total_reviews descending, appid ascending; remove exactly the pre-specified count</td>
+<td style="text-align: left;">frozen full-sample Step 5B mean and SD; no re-scaling after exclusion</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Minus top 5%</td>
+<td style="text-align: right;">794</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">0.05024</td>
+<td style="text-align: right;">4205</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">245216</td>
+<td style="text-align: right;">0.22938</td>
+<td style="text-align: right;">823808</td>
+<td style="text-align: right;">0.77062</td>
+<td style="text-align: right;">0.83790</td>
+<td style="text-align: left;">total_reviews descending, appid ascending; remove exactly the pre-specified count</td>
+<td style="text-align: left;">frozen full-sample Step 5B mean and SD; no re-scaling after exclusion</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">max_absolute_estimate_change</th>
+<th style="text-align: right;">max_estimate_change_pct</th>
+<th style="text-align: right;">max_or_change_pct</th>
+<th style="text-align: left;">any_sign_change</th>
+<th style="text-align: left;">most_sensitive_population</th>
+<th style="text-align: left;">headline_flag</th>
+<th style="text-align: left;">descriptive_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">0.0251</td>
+<td style="text-align: right;">1.5213</td>
+<td style="text-align: right;">2.4767</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.0111</td>
+<td style="text-align: right;">8.8706</td>
+<td style="text-align: right;">1.1000</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">0.0059</td>
+<td style="text-align: right;">76.9752</td>
+<td style="text-align: right;">0.5903</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.0018</td>
+<td style="text-align: right;">1.7534</td>
+<td style="text-align: right;">0.1773</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.0285</td>
+<td style="text-align: right;">21.1108</td>
+<td style="text-align: right;">2.8929</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">0.0109</td>
+<td style="text-align: right;">12.5398</td>
+<td style="text-align: right;">1.0874</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.0492</td>
+<td style="text-align: right;">20.4341</td>
+<td style="text-align: right;">4.8045</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">0.0103</td>
+<td style="text-align: right;">5.3613</td>
+<td style="text-align: right;">1.0320</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.0127</td>
+<td style="text-align: right;">2.5978</td>
+<td style="text-align: right;">1.2798</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.0132</td>
+<td style="text-align: right;">3.5905</td>
+<td style="text-align: right;">1.3247</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.0095</td>
+<td style="text-align: right;">2.2813</td>
+<td style="text-align: right;">0.9586</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.0229</td>
+<td style="text-align: right;">131.3480</td>
+<td style="text-align: right;">2.2672</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">0.0319</td>
+<td style="text-align: right;">43.6351</td>
+<td style="text-align: right;">3.1369</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">Stable</td>
+<td style="text-align: left;">Stable: same sign and max OR change &lt;=10%; Moderate: same sign and &gt;10%-25%; High: sign reversal or &gt;25%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/07_influence_sensitivity_coefficients.png" class="img-fluid figure-img" width="972"></p>
+<figcaption>Beta-binomial coefficient sensitivity under pre-defined review-volume exclusions</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/08_review_mass_removed.png" class="img-fluid figure-img" width="666"></p>
+<figcaption>Share of games removed versus share of review mass removed</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="robust-predicted-effects-warnings-and-recommendation" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="robust-predicted-effects-warnings-and-recommendation"><span class="header-section-number">8.5</span> Robust predicted effects, warnings, and recommendation</h2>
+<p>Predicted probabilities use the Step 5B reference scenario and one-at-a-time predictor changes. They remain associational model contrasts rather than causal effects.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">scenario</th>
+<th style="text-align: right;">binomial_probability</th>
+<th style="text-align: right;">quasi_probability</th>
+<th style="text-align: right;">beta_binomial_probability</th>
+<th style="text-align: right;">quasi_minus_binomial</th>
+<th style="text-align: right;">beta_minus_binomial</th>
+<th style="text-align: right;">beta_minus_quasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baseline: means, Windows only, genres absent</td>
+<td style="text-align: right;">0.85457</td>
+<td style="text-align: right;">0.85457</td>
+<td style="text-align: right;">0.83869</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.01587</td>
+<td style="text-align: right;">-0.01587</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">+1 SD log1p price</td>
+<td style="text-align: right;">0.84930</td>
+<td style="text-align: right;">0.84930</td>
+<td style="text-align: right;">0.82857</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.02074</td>
+<td style="text-align: right;">-0.02074</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">+1 SD days since release</td>
+<td style="text-align: right;">0.88412</td>
+<td style="text-align: right;">0.88412</td>
+<td style="text-align: right;">0.83632</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.04780</td>
+<td style="text-align: right;">-0.04780</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Platform: Windows + macOS</td>
+<td style="text-align: right;">0.87695</td>
+<td style="text-align: right;">0.87695</td>
+<td style="text-align: right;">0.88237</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00542</td>
+<td style="text-align: right;">0.00542</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Platform: Windows + Linux</td>
+<td style="text-align: right;">0.92311</td>
+<td style="text-align: right;">0.92311</td>
+<td style="text-align: right;">0.89455</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.02856</td>
+<td style="text-align: right;">-0.02856</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Platform: Windows + macOS + Linux</td>
+<td style="text-align: right;">0.89511</td>
+<td style="text-align: right;">0.89511</td>
+<td style="text-align: right;">0.88763</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.00748</td>
+<td style="text-align: right;">-0.00748</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: action</td>
+<td style="text-align: right;">0.85700</td>
+<td style="text-align: right;">0.85700</td>
+<td style="text-align: right;">0.82111</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.03590</td>
+<td style="text-align: right;">-0.03590</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: adventure</td>
+<td style="text-align: right;">0.85477</td>
+<td style="text-align: right;">0.85477</td>
+<td style="text-align: right;">0.83765</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.01712</td>
+<td style="text-align: right;">-0.01712</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: casual</td>
+<td style="text-align: right;">0.85881</td>
+<td style="text-align: right;">0.85881</td>
+<td style="text-align: right;">0.85192</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.00689</td>
+<td style="text-align: right;">-0.00689</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: indie</td>
+<td style="text-align: right;">0.87934</td>
+<td style="text-align: right;">0.87934</td>
+<td style="text-align: right;">0.85615</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.02319</td>
+<td style="text-align: right;">-0.02319</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: rpg</td>
+<td style="text-align: right;">0.82355</td>
+<td style="text-align: right;">0.82355</td>
+<td style="text-align: right;">0.82655</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00300</td>
+<td style="text-align: right;">0.00300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Genre present: simulation</td>
+<td style="text-align: right;">0.88838</td>
+<td style="text-align: right;">0.88838</td>
+<td style="text-align: right;">0.80339</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.08499</td>
+<td style="text-align: right;">-0.08499</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Genre present: strategy</td>
+<td style="text-align: right;">0.83844</td>
+<td style="text-align: right;">0.83844</td>
+<td style="text-align: right;">0.81108</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.02736</td>
+<td style="text-align: right;">-0.02736</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">model</th>
+<th style="text-align: left;">population</th>
+<th style="text-align: left;">status</th>
+<th style="text-align: left;">warning_text</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: left;">full</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: left;">full</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial profile CI</td>
+<td style="text-align: left;">full</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: left;">minus_top1</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: left;">minus_top1</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: left;">minus_top1pct</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quasibinomial</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beta-binomial</td>
+<td style="text-align: left;">minus_top5pct</td>
+<td style="text-align: left;">NO WARNING</td>
+<td style="text-align: left;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The beta-binomial is the candidate final inferential model because it directly represents game-level extra-binomial heterogeneity, has a comparable likelihood, converged with a positive-definite Hessian, completed profile intervals, and remained stable under the pre-defined review-volume exclusions. Quasibinomial remains a variance-only cross-check. The following section adds only the pre-specified Step 5D one-at-a-time sensitivity audit; the frozen primary model is not replaced automatically.</p>
+</section>
+</section>
+<section id="step-5d-pre-specified-sensitivity-analysis" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Step 5D: Pre-specified sensitivity analysis</h1>
+<p>Seven beta-binomial specifications change exactly one design choice at a time. The four paid-game review thresholds contain 2,206, 1,127, 836, and 548 complete model rows. The broadest paid reviewed source contains 2,207 rows; one two-review game without the frozen price predictor is explicitly excluded. Threshold AIC values are not compared because the populations differ.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 5D nested threshold populations</caption>
+<colgroup>
+<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 21%">
+<col style="width: 6%">
+<col style="width: 10%">
+<col style="width: 16%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">threshold</th>
+<th style="text-align: right;">source_paid_games</th>
+<th style="text-align: right;">excluded_missing_predictors</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">total_reviews</th>
+<th style="text-align: right;">pooled_positive_rate</th>
+<th style="text-align: right;">median_game_positive_rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">&gt;0</td>
+<td style="text-align: right;">2207</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2206</td>
+<td style="text-align: right;">1076604</td>
+<td style="text-align: right;">0.8819</td>
+<td style="text-align: right;">0.9147</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&gt;=10</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">1072990</td>
+<td style="text-align: right;">0.8822</td>
+<td style="text-align: right;">0.8824</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&gt;=20 (Primary)</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">1069024</td>
+<td style="text-align: right;">0.8824</td>
+<td style="text-align: right;">0.8765</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&gt;=50</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">1059875</td>
+<td style="text-align: right;">0.8828</td>
+<td style="text-align: right;">0.8699</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 5D beta-binomial diagnostics</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 5%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">specification_id</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: left;">positive_definite_hessian</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: right;">beta_precision_phi</th>
+<th style="text-align: right;">intra_game_rho</th>
+<th style="text-align: right;">delta_aic_vs_primary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.74673</td>
+<td style="text-align: right;">0.10260</td>
+<td style="text-align: right;">0.00000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TH_GT0</td>
+<td style="text-align: right;">2206</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6.53558</td>
+<td style="text-align: right;">0.13270</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">TH_10</td>
+<td style="text-align: right;">1127</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7.80239</td>
+<td style="text-align: right;">0.11361</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TH_50</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9.40182</td>
+<td style="text-align: right;">0.09614</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RELEASE_MONTH</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.80782</td>
+<td style="text-align: right;">0.10196</td>
+<td style="text-align: right;">3.89561</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRICE_RAW</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.73900</td>
+<td style="text-align: right;">0.10268</td>
+<td style="text-align: right;">0.10606</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GENRE_EXPANDED</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.76938</td>
+<td style="text-align: right;">0.10236</td>
+<td style="text-align: right;">3.91957</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The focus predictors retain their primary directions across every specification in which they appear. Price ORs range from 0.926 to 0.955; Simulation ranges from 0.714 to 0.840. Magnitude drift is predictor-specific: the three platform contrasts and Strategy receive PARTIAL audit flags, while Price, Days, Indie, RPG, and Simulation meet the pre-specified ROBUST rule. These labels are descriptive checks, not hypothesis tests.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Core predictor stability across Step 5D</caption>
+<colgroup>
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">conceptual_term</th>
+<th style="text-align: right;">specifications_available</th>
+<th style="text-align: right;">minimum_or</th>
+<th style="text-align: right;">maximum_or</th>
+<th style="text-align: right;">median_or</th>
+<th style="text-align: right;">same_direction_specs</th>
+<th style="text-align: right;">ci_excluding_1_specs</th>
+<th style="text-align: right;">ci_crossing_1_specs</th>
+<th style="text-align: right;">max_or_drift_pct</th>
+<th style="text-align: right;">primary_or</th>
+<th style="text-align: left;">primary_direction</th>
+<th style="text-align: left;">any_direction_change</th>
+<th style="text-align: left;">robustness_class</th>
+<th style="text-align: left;">descriptive_rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.0795</td>
+<td style="text-align: right;">1.1785</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5.6888</td>
+<td style="text-align: right;">1.1446</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.9118</td>
+<td style="text-align: right;">0.9590</td>
+<td style="text-align: right;">0.9205</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4.6400</td>
+<td style="text-align: right;">0.9165</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.7138</td>
+<td style="text-align: right;">0.8397</td>
+<td style="text-align: right;">0.7856</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9.1719</td>
+<td style="text-align: right;">0.7859</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.8066</td>
+<td style="text-align: right;">0.9104</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10.2562</td>
+<td style="text-align: right;">0.8257</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.2674</td>
+<td style="text-align: right;">1.7575</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">22.3158</td>
+<td style="text-align: right;">1.6315</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.2585</td>
+<td style="text-align: right;">1.4759</td>
+<td style="text-align: right;">1.4300</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12.7698</td>
+<td style="text-align: right;">1.4427</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1.3586</td>
+<td style="text-align: right;">1.7006</td>
+<td style="text-align: right;">1.5289</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">11.9371</td>
+<td style="text-align: right;">1.5192</td>
+<td style="text-align: left;">+</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.9523</td>
+<td style="text-align: right;">0.9830</td>
+<td style="text-align: right;">0.9779</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3.0896</td>
+<td style="text-align: right;">0.9827</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.9256</td>
+<td style="text-align: right;">0.9554</td>
+<td style="text-align: right;">0.9309</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2.7824</td>
+<td style="text-align: right;">0.9296</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">ROBUST: same sign and max OR drift &lt;=10%; PARTIAL: same sign and &gt;10%-25%; SENSITIVE: sign reversal or &gt;25%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/15_robustness_heatmap.png" class="img-fluid figure-img" width="918"></p>
+<figcaption>Cross-specification log-odds direction and magnitude</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/16_or_range_summary.png" class="img-fluid figure-img" width="828"></p>
+<figcaption>Primary odds ratio and observed sensitivity range</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The release-month alternative uses July 2025 as reference; all August-December intervals cross OR = 1. Raw and log-price models both produce negative +1 SD probability contrasts. The expanded genre model adds only Early Access, Sports, and Racing; the latter two occur in 31 and 20 primary-sample games, respectively, and all three new genre intervals cross OR = 1. Early Access is the frozen Steam genre/category label, not a historical status.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Release-month alternative; July 2025 is the reference</caption>
+<colgroup>
+<col style="width: 28%">
+<col style="width: 15%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: left;">ci_crosses_1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">release_month2025-07</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: right;">1.0000</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">release_month2025-08</td>
+<td style="text-align: right;">1.1090</td>
+<td style="text-align: right;">0.9053</td>
+<td style="text-align: right;">1.3587</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">release_month2025-09</td>
+<td style="text-align: right;">1.2066</td>
+<td style="text-align: right;">0.9834</td>
+<td style="text-align: right;">1.4804</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">release_month2025-10</td>
+<td style="text-align: right;">1.1707</td>
+<td style="text-align: right;">0.9549</td>
+<td style="text-align: right;">1.4352</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">release_month2025-11</td>
+<td style="text-align: right;">1.1370</td>
+<td style="text-align: right;">0.9364</td>
+<td style="text-align: right;">1.3804</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">release_month2025-12</td>
+<td style="text-align: right;">1.0415</td>
+<td style="text-align: right;">0.8367</td>
+<td style="text-align: right;">1.2963</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Price transformation predicted-probability contrasts</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 25%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">specification_id</th>
+<th style="text-align: left;">price_term</th>
+<th style="text-align: left;">price_scale</th>
+<th style="text-align: right;">baseline_probability</th>
+<th style="text-align: right;">plus_1sd_probability</th>
+<th style="text-align: right;">absolute_probability_contrast</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PRIMARY</td>
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: left;">per +1 SD log1p price</td>
+<td style="text-align: right;">0.83869</td>
+<td style="text-align: right;">0.82857</td>
+<td style="text-align: right;">-0.01013</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRICE_RAW</td>
+<td style="text-align: left;">z_raw_price</td>
+<td style="text-align: left;">per +1 primary-sample SD raw price</td>
+<td style="text-align: right;">0.83990</td>
+<td style="text-align: right;">0.83065</td>
+<td style="text-align: right;">-0.00925</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Added genre indicators</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">n_games_with_genre</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">genre_early_access</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">0.9746</td>
+<td style="text-align: right;">0.8094</td>
+<td style="text-align: right;">1.1735</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">genre_sports</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">1.2384</td>
+<td style="text-align: right;">0.8881</td>
+<td style="text-align: right;">1.7269</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">genre_racing</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1.0611</td>
+<td style="text-align: right;">0.7059</td>
+<td style="text-align: right;">1.5950</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The dedicated <code>04_sensitivity_visual_audit.html</code> is the primary human-review surface and includes all ten Step 5D figures, full coefficient tables, diagnostic checks, and manual inspection prompts. No later modeling stage is run.</p>
+</section>
+<section id="step-5e-secondary-high-rating-logistic-analysis" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Step 5E: Secondary high-rating logistic analysis</h1>
+<p>Step 5E is a secondary, game-level analysis of whether a paid game with at least 20 reviews reaches a pre-specified positive-review-rate threshold. HIGH85 is primary; HIGH80 and HIGH90 are fixed sensitivity outcomes. Each game contributes one binary observation regardless of review volume. This differs from the Beta-binomial primary model, which uses positive and negative review counts. The 85% cutoff is business-readable rather than a natural scientific boundary, and neither rating nor classification thresholds are optimized.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 5E high-rating outcome audit</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 12%">
+<col style="width: 9%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">rating_threshold</th>
+<th style="text-align: left;">comparator</th>
+<th style="text-align: right;">n_total</th>
+<th style="text-align: right;">high_rated_n</th>
+<th style="text-align: right;">high_rated_percent</th>
+<th style="text-align: right;">not_high_rated_n</th>
+<th style="text-align: right;">not_high_rated_percent</th>
+<th style="text-align: right;">exact_boundary_n</th>
+<th style="text-align: left;">outcome_definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HIGH80</td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: left;">&gt;=</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">574</td>
+<td style="text-align: right;">68.6603</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">31.3397</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">positive_reviews / total_reviews &gt;= rating_threshold</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">&gt;=</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">471</td>
+<td style="text-align: right;">56.3397</td>
+<td style="text-align: right;">365</td>
+<td style="text-align: right;">43.6603</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">positive_reviews / total_reviews &gt;= rating_threshold</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH90</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: left;">&gt;=</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">359</td>
+<td style="text-align: right;">42.9426</td>
+<td style="text-align: right;">477</td>
+<td style="text-align: right;">57.0574</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">positive_reviews / total_reviews &gt;= rating_threshold</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>HIGH85 logistic fit</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">rating_threshold</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">event_n</th>
+<th style="text-align: right;">non_event_n</th>
+<th style="text-align: right;">event_rate</th>
+<th style="text-align: right;">number_of_coefficients</th>
+<th style="text-align: right;">residual_df</th>
+<th style="text-align: right;">matrix_columns</th>
+<th style="text-align: right;">matrix_rank</th>
+<th style="text-align: left;">converged</th>
+<th style="text-align: right;">iterations</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: right;">aic</th>
+<th style="text-align: right;">bic</th>
+<th style="text-align: right;">null_deviance</th>
+<th style="text-align: right;">residual_deviance</th>
+<th style="text-align: right;">warning_count</th>
+<th style="text-align: left;">weights_used</th>
+<th style="text-align: left;">all_prior_weights_one</th>
+<th style="text-align: left;">review_count_covariate_included</th>
+<th style="text-align: left;">formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">471</td>
+<td style="text-align: right;">365</td>
+<td style="text-align: right;">0.5634</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">-540.2353</td>
+<td style="text-align: right;">1106.47</td>
+<td style="text-align: right;">1167.943</td>
+<td style="text-align: right;">1145.466</td>
+<td style="text-align: right;">1080.47</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">high_rating ~ z_log1p_price + z_days_since_release + platform_segment + genre_action + genre_adventure + genre_casual + genre_indie + genre_rpg + genre_simulation + genre_strategy</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>HIGH85 odds ratios and Wald intervals</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 20%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_id</th>
+<th style="text-align: right;">rating_threshold</th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate_log_odds</th>
+<th style="text-align: right;">std_error</th>
+<th style="text-align: right;">z_value</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: right;">ci95_logit_lower</th>
+<th style="text-align: right;">ci95_logit_upper</th>
+<th style="text-align: right;">odds_ratio</th>
+<th style="text-align: right;">or_ci95_lower</th>
+<th style="text-align: right;">or_ci95_upper</th>
+<th style="text-align: left;">direction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">(Intercept)</td>
+<td style="text-align: right;">0.2516</td>
+<td style="text-align: right;">0.1939</td>
+<td style="text-align: right;">1.2975</td>
+<td style="text-align: right;">0.1945</td>
+<td style="text-align: right;">-0.1285</td>
+<td style="text-align: right;">0.6317</td>
+<td style="text-align: right;">1.2861</td>
+<td style="text-align: right;">0.8794</td>
+<td style="text-align: right;">1.8809</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">-0.1482</td>
+<td style="text-align: right;">0.0789</td>
+<td style="text-align: right;">-1.8792</td>
+<td style="text-align: right;">0.0602</td>
+<td style="text-align: right;">-0.3028</td>
+<td style="text-align: right;">0.0064</td>
+<td style="text-align: right;">0.8623</td>
+<td style="text-align: right;">0.7388</td>
+<td style="text-align: right;">1.0064</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.0063</td>
+<td style="text-align: right;">0.0731</td>
+<td style="text-align: right;">0.0867</td>
+<td style="text-align: right;">0.9309</td>
+<td style="text-align: right;">-0.1370</td>
+<td style="text-align: right;">0.1497</td>
+<td style="text-align: right;">1.0064</td>
+<td style="text-align: right;">0.8720</td>
+<td style="text-align: right;">1.1615</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.9010</td>
+<td style="text-align: right;">0.2749</td>
+<td style="text-align: right;">3.2768</td>
+<td style="text-align: right;">0.0010</td>
+<td style="text-align: right;">0.3621</td>
+<td style="text-align: right;">1.4398</td>
+<td style="text-align: right;">2.4619</td>
+<td style="text-align: right;">1.4363</td>
+<td style="text-align: right;">4.2200</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">1.1169</td>
+<td style="text-align: right;">0.3951</td>
+<td style="text-align: right;">2.8271</td>
+<td style="text-align: right;">0.0047</td>
+<td style="text-align: right;">0.3426</td>
+<td style="text-align: right;">1.8913</td>
+<td style="text-align: right;">3.0554</td>
+<td style="text-align: right;">1.4086</td>
+<td style="text-align: right;">6.6277</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.9667</td>
+<td style="text-align: right;">0.2796</td>
+<td style="text-align: right;">3.4573</td>
+<td style="text-align: right;">0.0005</td>
+<td style="text-align: right;">0.4187</td>
+<td style="text-align: right;">1.5147</td>
+<td style="text-align: right;">2.6292</td>
+<td style="text-align: right;">1.5199</td>
+<td style="text-align: right;">4.5481</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">-0.3235</td>
+<td style="text-align: right;">0.1597</td>
+<td style="text-align: right;">-2.0262</td>
+<td style="text-align: right;">0.0427</td>
+<td style="text-align: right;">-0.6365</td>
+<td style="text-align: right;">-0.0106</td>
+<td style="text-align: right;">0.7236</td>
+<td style="text-align: right;">0.5291</td>
+<td style="text-align: right;">0.9895</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">-0.1721</td>
+<td style="text-align: right;">0.1529</td>
+<td style="text-align: right;">-1.1255</td>
+<td style="text-align: right;">0.2604</td>
+<td style="text-align: right;">-0.4718</td>
+<td style="text-align: right;">0.1276</td>
+<td style="text-align: right;">0.8419</td>
+<td style="text-align: right;">0.6239</td>
+<td style="text-align: right;">1.1361</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.2419</td>
+<td style="text-align: right;">0.1634</td>
+<td style="text-align: right;">1.4801</td>
+<td style="text-align: right;">0.1389</td>
+<td style="text-align: right;">-0.0784</td>
+<td style="text-align: right;">0.5622</td>
+<td style="text-align: right;">1.2737</td>
+<td style="text-align: right;">0.9246</td>
+<td style="text-align: right;">1.7545</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.2255</td>
+<td style="text-align: right;">0.1736</td>
+<td style="text-align: right;">1.2992</td>
+<td style="text-align: right;">0.1939</td>
+<td style="text-align: right;">-0.1147</td>
+<td style="text-align: right;">0.5657</td>
+<td style="text-align: right;">1.2530</td>
+<td style="text-align: right;">0.8916</td>
+<td style="text-align: right;">1.7607</td>
+<td style="text-align: left;">POSITIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">-0.0260</td>
+<td style="text-align: right;">0.1703</td>
+<td style="text-align: right;">-0.1527</td>
+<td style="text-align: right;">0.8786</td>
+<td style="text-align: right;">-0.3597</td>
+<td style="text-align: right;">0.3077</td>
+<td style="text-align: right;">0.9743</td>
+<td style="text-align: right;">0.6979</td>
+<td style="text-align: right;">1.3603</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">-0.4351</td>
+<td style="text-align: right;">0.1627</td>
+<td style="text-align: right;">-2.6743</td>
+<td style="text-align: right;">0.0075</td>
+<td style="text-align: right;">-0.7540</td>
+<td style="text-align: right;">-0.1162</td>
+<td style="text-align: right;">0.6472</td>
+<td style="text-align: right;">0.4705</td>
+<td style="text-align: right;">0.8903</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HIGH85</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">-0.4982</td>
+<td style="text-align: right;">0.1880</td>
+<td style="text-align: right;">-2.6497</td>
+<td style="text-align: right;">0.0081</td>
+<td style="text-align: right;">-0.8666</td>
+<td style="text-align: right;">-0.1297</td>
+<td style="text-align: right;">0.6076</td>
+<td style="text-align: right;">0.4204</td>
+<td style="text-align: right;">0.8784</td>
+<td style="text-align: left;">NEGATIVE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The dedicated <code>05_high_rating_visual_audit.html</code> contains the complete Chinese audit surface, including predictor cells, separation heuristics, influence diagnostics, calibration, AUC, predicted-probability contrasts, and the 80/85/90 coefficient stability audit. AUC (0.661) is an in-sample descriptive diagnostic, not the model-selection objective. Stability labels are descriptive rather than hypothesis tests.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Rating-threshold coefficient stability</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">rating_threshold_HIGH80</th>
+<th style="text-align: right;">rating_threshold_HIGH85</th>
+<th style="text-align: right;">rating_threshold_HIGH90</th>
+<th style="text-align: right;">odds_ratio_HIGH80</th>
+<th style="text-align: right;">odds_ratio_HIGH85</th>
+<th style="text-align: right;">odds_ratio_HIGH90</th>
+<th style="text-align: right;">or_ci95_lower_HIGH80</th>
+<th style="text-align: right;">or_ci95_lower_HIGH85</th>
+<th style="text-align: right;">or_ci95_lower_HIGH90</th>
+<th style="text-align: right;">or_ci95_upper_HIGH80</th>
+<th style="text-align: right;">or_ci95_upper_HIGH85</th>
+<th style="text-align: right;">or_ci95_upper_HIGH90</th>
+<th style="text-align: left;">direction_HIGH80</th>
+<th style="text-align: left;">direction_HIGH85</th>
+<th style="text-align: left;">direction_HIGH90</th>
+<th style="text-align: left;">direction_agreement</th>
+<th style="text-align: right;">max_or_drift_from_high85</th>
+<th style="text-align: left;">stability_class</th>
+<th style="text-align: left;">classification_note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.9450</td>
+<td style="text-align: right;">0.8623</td>
+<td style="text-align: right;">0.8758</td>
+<td style="text-align: right;">0.8031</td>
+<td style="text-align: right;">0.7388</td>
+<td style="text-align: right;">0.7498</td>
+<td style="text-align: right;">1.1119</td>
+<td style="text-align: right;">1.0064</td>
+<td style="text-align: right;">1.0230</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.0959</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.9642</td>
+<td style="text-align: right;">1.0064</td>
+<td style="text-align: right;">0.9534</td>
+<td style="text-align: right;">0.8265</td>
+<td style="text-align: right;">0.8720</td>
+<td style="text-align: right;">0.8263</td>
+<td style="text-align: right;">1.1248</td>
+<td style="text-align: right;">1.1615</td>
+<td style="text-align: right;">1.0999</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: right;">0.0527</td>
+<td style="text-align: left;">SENSITIVE</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">4.3484</td>
+<td style="text-align: right;">2.4619</td>
+<td style="text-align: right;">1.7097</td>
+<td style="text-align: right;">2.0948</td>
+<td style="text-align: right;">1.4363</td>
+<td style="text-align: right;">1.0397</td>
+<td style="text-align: right;">9.0261</td>
+<td style="text-align: right;">4.2200</td>
+<td style="text-align: right;">2.8117</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.7662</td>
+<td style="text-align: left;">SENSITIVE</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">3.4162</td>
+<td style="text-align: right;">3.0554</td>
+<td style="text-align: right;">3.1125</td>
+<td style="text-align: right;">1.3057</td>
+<td style="text-align: right;">1.4086</td>
+<td style="text-align: right;">1.5453</td>
+<td style="text-align: right;">8.9381</td>
+<td style="text-align: right;">6.6277</td>
+<td style="text-align: right;">6.2692</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.1181</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">2.9922</td>
+<td style="text-align: right;">2.6292</td>
+<td style="text-align: right;">2.4408</td>
+<td style="text-align: right;">1.5610</td>
+<td style="text-align: right;">1.5199</td>
+<td style="text-align: right;">1.4716</td>
+<td style="text-align: right;">5.7357</td>
+<td style="text-align: right;">4.5481</td>
+<td style="text-align: right;">4.0481</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.1381</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.7038</td>
+<td style="text-align: right;">0.7236</td>
+<td style="text-align: right;">0.8259</td>
+<td style="text-align: right;">0.5044</td>
+<td style="text-align: right;">0.5291</td>
+<td style="text-align: right;">0.6030</td>
+<td style="text-align: right;">0.9819</td>
+<td style="text-align: right;">0.9895</td>
+<td style="text-align: right;">1.1310</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.1413</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.8442</td>
+<td style="text-align: right;">0.8419</td>
+<td style="text-align: right;">0.9617</td>
+<td style="text-align: right;">0.6126</td>
+<td style="text-align: right;">0.6239</td>
+<td style="text-align: right;">0.7130</td>
+<td style="text-align: right;">1.1633</td>
+<td style="text-align: right;">1.1361</td>
+<td style="text-align: right;">1.2973</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.1423</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">1.1513</td>
+<td style="text-align: right;">1.2737</td>
+<td style="text-align: right;">1.3489</td>
+<td style="text-align: right;">0.8144</td>
+<td style="text-align: right;">0.9246</td>
+<td style="text-align: right;">0.9812</td>
+<td style="text-align: right;">1.6274</td>
+<td style="text-align: right;">1.7545</td>
+<td style="text-align: right;">1.8544</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.0961</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">1.4852</td>
+<td style="text-align: right;">1.2530</td>
+<td style="text-align: right;">1.0405</td>
+<td style="text-align: right;">1.0393</td>
+<td style="text-align: right;">0.8916</td>
+<td style="text-align: right;">0.7365</td>
+<td style="text-align: right;">2.1223</td>
+<td style="text-align: right;">1.7607</td>
+<td style="text-align: right;">1.4698</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.1853</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.7626</td>
+<td style="text-align: right;">0.9743</td>
+<td style="text-align: right;">0.7834</td>
+<td style="text-align: right;">0.5369</td>
+<td style="text-align: right;">0.6979</td>
+<td style="text-align: right;">0.5586</td>
+<td style="text-align: right;">1.0832</td>
+<td style="text-align: right;">1.3603</td>
+<td style="text-align: right;">1.0988</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.2173</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.5955</td>
+<td style="text-align: right;">0.6472</td>
+<td style="text-align: right;">0.6051</td>
+<td style="text-align: right;">0.4252</td>
+<td style="text-align: right;">0.4705</td>
+<td style="text-align: right;">0.4375</td>
+<td style="text-align: right;">0.8341</td>
+<td style="text-align: right;">0.8903</td>
+<td style="text-align: right;">0.8369</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.0798</td>
+<td style="text-align: left;">ROBUST</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.9</td>
+<td style="text-align: right;">0.7292</td>
+<td style="text-align: right;">0.6076</td>
+<td style="text-align: right;">0.5378</td>
+<td style="text-align: right;">0.4925</td>
+<td style="text-align: right;">0.4204</td>
+<td style="text-align: right;">0.3673</td>
+<td style="text-align: right;">1.0797</td>
+<td style="text-align: right;">0.8784</td>
+<td style="text-align: right;">0.7875</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0.2001</td>
+<td style="text-align: left;">PARTIAL</td>
+<td style="text-align: left;">Descriptive audit only; drift is the maximum absolute relative OR change from the pre-specified HIGH85 model</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Beta-binomial versus HIGH85 qualitative direction</caption>
+<colgroup>
+<col style="width: 36%">
+<col style="width: 21%">
+<col style="width: 23%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: left;">beta_binomial_direction</th>
+<th style="text-align: left;">high85_logistic_direction</th>
+<th style="text-align: left;">direction_agreement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">z_log1p_price</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">z_days_since_release</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">platform_segmentWindows + Linux</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">platform_segmentWindows + macOS + Linux</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_action</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_adventure</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_casual</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_indie</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">POSITIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_rpg</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">genre_simulation</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">genre_strategy</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">NEGATIVE</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/21_high_rating_primary_or.png" class="img-fluid figure-img" width="855"></p>
+<figcaption>HIGH85 game-level odds ratios and Wald 95% intervals</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/24_beta_vs_high_rating_direction.png" class="img-fluid figure-img" width="720"></p>
+<figcaption>Direction audit across outcomes; magnitudes are not directly comparable</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>All Step 5E estimates are conditional associations with reaching a high-rating threshold. They do not establish that a feature causes a rating change, and the Beta-binomial remains the primary inferential analysis.</p>
+</section>
+<section id="step-5f-wilson-uncertainty-and-empirical-bayes-rating-adjustment" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Step 5F: Wilson uncertainty and empirical-Bayes rating adjustment</h1>
+<p>Step 5F uses all 2,241 games with at least one review, including both free and paid games. The 759 zero-review games remain part of the 3,000-game market sample but have no observed reception outcome and are excluded from Wilson and empirical-Bayes estimation. No price, genre, platform, or release regression is introduced.</p>
+<p>The 95% Wilson score interval quantifies sampling uncertainty without changing the observed point estimate. Its lower bound supports a conservative ranking but is not a posterior mean or an adjusted rating. The empirical-Bayes posterior mean instead shrinks low-denominator extremes toward a Beta prior estimated by deterministic maximum marginal likelihood. Priors estimated on games with at least 10 and 20 reviews are sensitivity checks applied to the same 2,241-game evaluation population.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Step 5F empirical-Bayes prior estimates and optimization audit</caption>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 3%">
+<col style="width: 4%">
+<col style="width: 20%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">prior_id</th>
+<th style="text-align: right;">minimum_reviews_for_prior_fit</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">alpha</th>
+<th style="text-align: right;">beta</th>
+<th style="text-align: right;">prior_mean</th>
+<th style="text-align: right;">prior_precision_ess</th>
+<th style="text-align: right;">prior_variance</th>
+<th style="text-align: right;">prior_mode</th>
+<th style="text-align: right;">log_likelihood</th>
+<th style="text-align: left;">optimizer</th>
+<th style="text-align: right;">convergence_code</th>
+<th style="text-align: right;">gradient_max_abs</th>
+<th style="text-align: right;">hessian_min_eigenvalue</th>
+<th style="text-align: right;">deterministic_starts</th>
+<th style="text-align: left;">starts_agree</th>
+<th style="text-align: right;">relative_alpha_range</th>
+<th style="text-align: right;">relative_beta_range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">EB_ALL_POSITIVE_N</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2241</td>
+<td style="text-align: right;">5.022109</td>
+<td style="text-align: right;">1.044820</td>
+<td style="text-align: right;">0.827784</td>
+<td style="text-align: right;">6.066930</td>
+<td style="text-align: right;">0.020172</td>
+<td style="text-align: right;">0.988979</td>
+<td style="text-align: right;">-5198.723</td>
+<td style="text-align: left;">bounded L-BFGS-B location plus BFGS refinement on log(alpha), log(beta)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0e+00</td>
+<td style="text-align: right;">201.3623</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">1e-06</td>
+<td style="text-align: right;">1e-06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EB_N_GE_10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1139</td>
+<td style="text-align: right;">6.024869</td>
+<td style="text-align: right;">1.141740</td>
+<td style="text-align: right;">0.840686</td>
+<td style="text-align: right;">7.166609</td>
+<td style="text-align: right;">0.016400</td>
+<td style="text-align: right;">0.972566</td>
+<td style="text-align: right;">-4050.899</td>
+<td style="text-align: left;">bounded L-BFGS-B location plus BFGS refinement on log(alpha), log(beta)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.4e-04</td>
+<td style="text-align: right;">191.4318</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">1e-06</td>
+<td style="text-align: right;">0e+00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EB_N_GE_20</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: right;">6.599048</td>
+<td style="text-align: right;">1.247117</td>
+<td style="text-align: right;">0.841054</td>
+<td style="text-align: right;">7.846164</td>
+<td style="text-align: right;">0.015112</td>
+<td style="text-align: right;">0.957730</td>
+<td style="text-align: right;">-3464.093</td>
+<td style="text-align: left;">bounded L-BFGS-B location plus BFGS refinement on log(alpha), log(beta)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8.8e-05</td>
+<td style="text-align: right;">172.5816</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">0e+00</td>
+<td style="text-align: right;">0e+00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Raw, Wilson, and EB rank correlations</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison</th>
+<th style="text-align: right;">spearman</th>
+<th style="text-align: right;">kendall_tau_b</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">0.23946</td>
+<td style="text-align: right;">0.21279</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">0.77608</td>
+<td style="text-align: right;">0.63826</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">0.67248</td>
+<td style="text-align: right;">0.51110</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Raw, Wilson, and EB Top-K overlap</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">top_k</th>
+<th style="text-align: left;">comparison</th>
+<th style="text-align: right;">intersection_n</th>
+<th style="text-align: right;">union_n</th>
+<th style="text-align: right;">jaccard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0.11111</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0.33333</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0.53846</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">0.11111</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">0.28205</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0.56250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">0.08696</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">0.26582</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">0.49254</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">RAW_VS_WILSON</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">187</td>
+<td style="text-align: right;">0.06952</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">RAW_VS_EB</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">0.29870</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">WILSON_VS_EB</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">0.47059</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>High-review-count EB preservation audit</caption>
+<colgroup>
+<col style="width: 21%">
+<col style="width: 7%">
+<col style="width: 25%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">threshold</th>
+<th style="text-align: right;">n_games</th>
+<th style="text-align: right;">median_absolute_shrinkage</th>
+<th style="text-align: right;">p95_absolute_shrinkage</th>
+<th style="text-align: right;">max_absolute_shrinkage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">total_reviews &gt;= 1000</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">0.0001701</td>
+<td style="text-align: right;">0.000874</td>
+<td style="text-align: right;">0.001592</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/28_raw_vs_eb_rating.png" class="img-fluid figure-img" width="666"></p>
+<figcaption>Raw positive rate versus empirical-Bayes posterior mean</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figures/modeling/32_eb_prior_sensitivity.png" class="img-fluid figure-img" width="828"></p>
+<figcaption>Primary and sensitivity EB priors among low-review-count games</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The dedicated <code>06_rating_adjustment_visual_audit.html</code> contains the complete Chinese audit. Scientific roles remain separate: Beta-binomial is the primary inferential regression; HIGH85 Logistic is the secondary threshold analysis; Wilson is an uncertainty-aware descriptive interval; and empirical Bayes is a population-informed shrinkage rating. None is a causal model or a claim about a game’’s true quality.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

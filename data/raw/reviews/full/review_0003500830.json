@@ -1,0 +1,71 @@
+{
+  "appid": 3500830,
+  "requested_at": "2026-09-13T19:19:23.519930+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11,
+      "total_negative": 3,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "207846583",
+        "author": {
+          "steamid": "76561199100930526",
+          "personaname": "( Ł ❄️ N ł ❄️ N Ż",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199100930526/",
+          "num_games_owned": 99,
+          "num_reviews": 4,
+          "playtime_forever": 527,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 408,
+          "last_played": 1774392917,
+          "avatar": "e0a70f3654e60c38b94db94252693b2f9b5b0e2c"
+        },
+        "language": "russian",
+        "review": "Что могу сказать по поводу этой замечательной игре! Вот эти 7 часов прошли для меня незаметно, игра затягивает, хотя не то что затягивает а засасывает своим геймплеем. Но! К сожалению, но..... Игре есть куда расти, расширятся и развиваться. Молю не забрасываете её. Идей для расширения геймплея уйма. \nТакие как: \n1. Увеличение продукции. А то есть. \nУвеличить что уже есть:\n 1)Овощи(можно добавить ещё уйма овощей по типу: батат, лук порей, допустим разновидности картофеля, перца и тд.) 2)Фрукты(всё так же? Да! лимоны, нектарины, бананы и тд) \n3)Молочная продукция: так же расширить ничего нового(ряженка, творог, йогурты, сделать побольше производителей имеющихся товаров,)\n4) Бытовая химия(вся так же)\n5) Электронника(Тут тоже не стоит пояснять)\n2.Сделать по больше место для склада\nМне лично не хватало места для хранения всей продукции, и из за этого приходилось маневрировать на тележке между стелажами. \n3. Сделать по больше разнообразных заказов.\n4. Ну а дальше пока не придумал. \nТак что буду молится что игра будет процветать и позгнает популярность среди всех игр подобного жанра!!!! Спасибо вам!",
+        "timestamp_created": 1761710913,
+        "timestamp_updated": 1761710913,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.529243946075439453",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752656468",
+        "reactions": [
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFaakWAAAAAFP+DvkSAAAAB3y++YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

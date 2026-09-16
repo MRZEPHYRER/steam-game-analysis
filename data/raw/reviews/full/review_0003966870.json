@@ -1,0 +1,71 @@
+{
+  "appid": 3966870,
+  "requested_at": "2026-09-13T20:06:17.664836+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "8 user reviews",
+      "total_positive": 7,
+      "total_negative": 1,
+      "total_reviews": 8
+    },
+    "reviews": [
+      {
+        "recommendationid": "211578610",
+        "author": {
+          "steamid": "76561198038553944",
+          "personaname": "Isilidor0404",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198038553944/",
+          "num_games_owned": 864,
+          "num_reviews": 22,
+          "playtime_forever": 188,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 97,
+          "last_played": 1764452986,
+          "avatar": "3f47c3634c822270cbccf23f4cb4fcf2272e23d1"
+        },
+        "language": "english",
+        "review": "What a nice little Backrooms/liminal spaces game that totally flew under my radar! It's not really scary, but it definitely has its creepy moments, which is exactly what I look for in these types of games. Worth picking up especially for the price. Definitely check it out!",
+        "timestamp_created": 1764397452,
+        "timestamp_updated": 1764397452,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.578342080116271973",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764351483",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYbuOAAAAAFP+KBxyAAAABy742nBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.360000000000582,
+  "transport_error_count": 0
+}

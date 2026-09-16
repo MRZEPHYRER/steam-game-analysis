@@ -1,0 +1,306 @@
+{
+  "requested_at": "2026-09-12T13:31:13.483843+00:00",
+  "request_params": {
+    "appids": 2143760,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2143760,
+  "payload": {
+    "2143760": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Her Name",
+        "steam_appid": 2143760,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Dive into <strong>Her Name</strong>, a 2D platformer and puzzle game where every movement, every silence, and every light tells a story.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Guided by a mysterious sphere sliding along its rails, move in synergy with it to uncover the fears, doubts, and dreams of a character searching for meaning.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\">The game never speaks.<br>It shows.<br>It listens.<br>And it invites you to do the same.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >With no dialogue, <strong>Her Name</strong> asks you to observe the world, read between gestures, and interpret symbols. Explore six thematic chapters, navigate 39 puzzle levels, solve over a hundred challenges, and discover 31 scripted narrative stages that slowly assemble a fragile, complex, and essential love story.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Collect 24 hidden objects, unravel the mysteries of reality and dreams, and accompany the character to the heart of what haunts him… and what keeps him standing.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Explore his dreams. Face his fears. And finally discover… her name.</strong></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Dive into <strong>Her Name</strong>, a 2D platformer and puzzle game where every movement, every silence, and every light tells a story.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Guided by a mysterious sphere sliding along its rails, move in synergy with it to uncover the fears, doubts, and dreams of a character searching for meaning.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\">The game never speaks.<br>It shows.<br>It listens.<br>And it invites you to do the same.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >With no dialogue, <strong>Her Name</strong> asks you to observe the world, read between gestures, and interpret symbols. Explore six thematic chapters, navigate 39 puzzle levels, solve over a hundred challenges, and discover 31 scripted narrative stages that slowly assemble a fragile, complex, and essential love story.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Collect 24 hidden objects, unravel the mysteries of reality and dreams, and accompany the character to the heart of what haunts him… and what keeps him standing.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Explore his dreams. Face his fears. And finally discover… her name.</strong></p>",
+        "short_description": "A 2D platformer and puzzle game where silence and symbols tell a love story. Move in synergy with a mysterious sphere, explore the character’s reality and dreams, and solve over a hundred puzzles. An intimate journey through fear, memory… and love.",
+        "supported_languages": "English, French",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/02dd30cfc3d27f3370bded165469995534fc3932/header.jpg?t=1763969169",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/18d8ec92f0573d2b168f9d05983a691600c83a4e/capsule_231x87.jpg?t=1763969169",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/18d8ec92f0573d2b168f9d05983a691600c83a4e/capsule_184x69.jpg?t=1763969169",
+        "website": "https://flyingbutterstudio.wixsite.com/studio",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> 1.2GHz processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 950<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> 1.2GHz processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "legal_notice": "© Flying Butter. All Rights Reserved.",
+        "developers": [
+          "Flying Butter"
+        ],
+        "publishers": [
+          "Flying Butter"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          766863
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Her Name",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 766863,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Her Name - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/7a709e6b96cae52661f5a46d12a3807b0cddc8e8/ss_7a709e6b96cae52661f5a46d12a3807b0cddc8e8.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/7a709e6b96cae52661f5a46d12a3807b0cddc8e8/ss_7a709e6b96cae52661f5a46d12a3807b0cddc8e8.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/ad4d691a6aba7f6b4156947ae662b1326817a362/ss_ad4d691a6aba7f6b4156947ae662b1326817a362.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/ad4d691a6aba7f6b4156947ae662b1326817a362/ss_ad4d691a6aba7f6b4156947ae662b1326817a362.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/f8d25a5a40458c3523afb0d0cef2f69eb3a5f928/ss_f8d25a5a40458c3523afb0d0cef2f69eb3a5f928.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/f8d25a5a40458c3523afb0d0cef2f69eb3a5f928/ss_f8d25a5a40458c3523afb0d0cef2f69eb3a5f928.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/fea091a3c6fe80a097b998d9a63364a95bb29897/ss_fea091a3c6fe80a097b998d9a63364a95bb29897.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/fea091a3c6fe80a097b998d9a63364a95bb29897/ss_fea091a3c6fe80a097b998d9a63364a95bb29897.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/111d4730b4e1d054f9634f469c2ba2568335e509/ss_111d4730b4e1d054f9634f469c2ba2568335e509.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/111d4730b4e1d054f9634f469c2ba2568335e509/ss_111d4730b4e1d054f9634f469c2ba2568335e509.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/3e37ad7d8e535881f6fd83bb2c255281eb55ca99/ss_3e37ad7d8e535881f6fd83bb2c255281eb55ca99.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/3e37ad7d8e535881f6fd83bb2c255281eb55ca99/ss_3e37ad7d8e535881f6fd83bb2c255281eb55ca99.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/87f77510f4ce6097f70c2957eac83fd8b1e56278/ss_87f77510f4ce6097f70c2957eac83fd8b1e56278.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/87f77510f4ce6097f70c2957eac83fd8b1e56278/ss_87f77510f4ce6097f70c2957eac83fd8b1e56278.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/a7aaa9de7f80e74ac8d342dd8311c716fb4e2408/ss_a7aaa9de7f80e74ac8d342dd8311c716fb4e2408.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/a7aaa9de7f80e74ac8d342dd8311c716fb4e2408/ss_a7aaa9de7f80e74ac8d342dd8311c716fb4e2408.1920x1080.jpg?t=1763969169"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/349057db0fcdceace75cb36d5a3d6b07b0531085/ss_349057db0fcdceace75cb36d5a3d6b07b0531085.600x338.jpg?t=1763969169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/349057db0fcdceace75cb36d5a3d6b07b0531085/ss_349057db0fcdceace75cb36d5a3d6b07b0531085.1920x1080.jpg?t=1763969169"
+          }
+        ],
+        "movies": [
+          {
+            "id": 256909968,
+            "name": "Trailer_EN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256909968/2f214cb5f279a1629f054fbf2b0e4dae7fea7470/movie_600x337.jpg?t=1763138904",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2143760/211981744/925010d3cccf102e43ccb8291d19ff43d8fbec2e/1763137413/dash_av1.mpd?t=1763138904",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2143760/211981744/925010d3cccf102e43ccb8291d19ff43d8fbec2e/1763137413/dash_h264.mpd?t=1763138904",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2143760/211981744/925010d3cccf102e43ccb8291d19ff43d8fbec2e/1763137413/hls_264_master.m3u8?t=1763138904",
+            "highlight": true
+          },
+          {
+            "id": 256909967,
+            "name": "Trailer_FR",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256909967/2f214cb5f279a1629f054fbf2b0e4dae7fea7470/movie_600x337.jpg?t=1763138906",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2143760/18721831/97acd391b326d37a5945e8d63233e234c0fcf448/1763137937/dash_av1.mpd?t=1763138906",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2143760/18721831/97acd391b326d37a5945e8d63233e234c0fcf448/1763137937/dash_h264.mpd?t=1763138906",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2143760/18721831/97acd391b326d37a5945e8d63233e234c0fcf448/1763137937/hls_264_master.m3u8?t=1763138906",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 8,
+          "highlighted": [
+            {
+              "icon": "d4c92abc8173beab6df243faf5bc1f7b121222c8.jpg",
+              "localized_name": "First shot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First shot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/d4c92abc8173beab6df243faf5bc1f7b121222c8.jpg"
+            },
+            {
+              "icon": "8b2f90cb0be1e9c98b272a61a2b89f4bde237478.jpg",
+              "localized_name": "Routine",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Routine",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/8b2f90cb0be1e9c98b272a61a2b89f4bde237478.jpg"
+            },
+            {
+              "icon": "bc59be70783b873f89983388e6488d0fc63a4e9e.jpg",
+              "localized_name": "First sight",
+              "archived": 0,
+              "hidden": 1,
+              "name": "First sight",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/bc59be70783b873f89983388e6488d0fc63a4e9e.jpg"
+            },
+            {
+              "icon": "18853930dfb14ab9cd22ab4375be53fef265aeca.jpg",
+              "localized_name": "Greyness on the ivory tower",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Greyness on the ivory tower",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/18853930dfb14ab9cd22ab4375be53fef265aeca.jpg"
+            },
+            {
+              "icon": "031ccd9170d07795915b3c631a7a21ce3792bf87.jpg",
+              "localized_name": "Biting cold",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Biting cold",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/031ccd9170d07795915b3c631a7a21ce3792bf87.jpg"
+            },
+            {
+              "icon": "9696c94f4728295c3e5496395e6db7a9699564ed.jpg",
+              "localized_name": "Together",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Together",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/9696c94f4728295c3e5496395e6db7a9699564ed.jpg"
+            },
+            {
+              "icon": "0770bbbfacb4cb0ff62df17288ea772b75f2885b.jpg",
+              "localized_name": "Her Name",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Her Name",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/0770bbbfacb4cb0ff62df17288ea772b75f2885b.jpg"
+            },
+            {
+              "icon": "191163d6cf1a7b867f0f8d9ccdab9fe66d006007.jpg",
+              "localized_name": "Memories",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Memories",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2143760/191163d6cf1a7b867f0f8d9ccdab9fe66d006007.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 23, 2025"
+        },
+        "support_info": {
+          "url": "https://flyingbutterstudio.wixsite.com/studio",
+          "email": "flyingbutter.studio@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2143760?t=1763969169",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2143760/page_bg_raw.jpg?t=1763969169",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating": "l"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

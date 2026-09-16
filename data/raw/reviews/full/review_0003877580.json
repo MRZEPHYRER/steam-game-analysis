@@ -1,0 +1,71 @@
+{
+  "appid": 3877580,
+  "requested_at": "2026-09-13T19:53:42.508823+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "208692341",
+        "author": {
+          "steamid": "76561199058607772",
+          "personaname": "Discount Cthulhu",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/imnotverycreativesothisisit/",
+          "num_games_owned": 139,
+          "num_reviews": 2,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 12,
+          "last_played": 1766387691,
+          "avatar": "fe639691663abb66576bc5ed99ecff8c8296e8fe"
+        },
+        "language": "english",
+        "review": "Very good. I liked the testicle cocoons and the resemblance to faith. Overall very scary and it does have a femboy. Also condones safe electrical usage with ones penis.",
+        "timestamp_created": 1762584130,
+        "timestamp_updated": 1762584130,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.559748470783233643",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754206315",
+        "reactions": [
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYzhcAAAAAFP+HpdKAAAAB1x4ycBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.016000000000531,
+  "transport_error_count": 0
+}

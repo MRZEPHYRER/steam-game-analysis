@@ -1,0 +1,66 @@
+{
+  "appid": 3444220,
+  "requested_at": "2026-09-13T19:16:12.947867+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 241,
+      "total_negative": 22,
+      "total_reviews": 263
+    },
+    "reviews": [
+      {
+        "recommendationid": "232892821",
+        "author": {
+          "steamid": "76561199518026161",
+          "personaname": "Ty大帅B",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tianyi4459/",
+          "num_games_owned": 182,
+          "num_reviews": 18,
+          "playtime_forever": 724,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 318,
+          "last_played": 1787036428,
+          "avatar": "cc8ec1abf904f32e697f66089fab66e4c2c1d3b4"
+        },
+        "language": "schinese",
+        "review": "非常适合几个朋友一起玩的派对游戏，画风建模都不错玩法也还行推荐！希望制作组更新些新玩法新地图！！",
+        "timestamp_created": 1786805684,
+        "timestamp_updated": 1786805684,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.526457428932189941",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755134822",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZeIqAAAAAFP+DYvGAAAAB1mbX4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

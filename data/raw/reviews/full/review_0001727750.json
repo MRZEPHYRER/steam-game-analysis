@@ -1,0 +1,71 @@
+{
+  "appid": 1727750,
+  "requested_at": "2026-09-13T18:44:42.037858+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "217048064",
+        "author": {
+          "steamid": "76561198142543136",
+          "personaname": "Windder",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/WindderArmy/",
+          "num_games_owned": 341,
+          "num_reviews": 94,
+          "playtime_forever": 74,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 74,
+          "last_played": 1769633274,
+          "avatar": "a219fdf7c26c9a4be8d40566af48ed64253dde60"
+        },
+        "language": "english",
+        "review": "banger",
+        "timestamp_created": 1769633294,
+        "timestamp_updated": 1769633294,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1642637843",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQGF2QuAAAAAFP+IWQgAAAABwwPy7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2650000000001,
+  "transport_error_count": 0
+}

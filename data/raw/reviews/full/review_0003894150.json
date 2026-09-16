@@ -1,0 +1,66 @@
+{
+  "appid": 3894150,
+  "requested_at": "2026-09-13T19:56:05.453684+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 42,
+      "total_negative": 3,
+      "total_reviews": 45
+    },
+    "reviews": [
+      {
+        "recommendationid": "207666850",
+        "author": {
+          "steamid": "76561199230916558",
+          "personaname": "слопность",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199230916558/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 37,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 37,
+          "last_played": 1761507935,
+          "avatar": "1aa9a058666569274d74c707dc47bebe1bff427b"
+        },
+        "language": "russian",
+        "review": "замечательная игра так и хочется копнуть поглубже но конечно не для всех для настоящих ценителей жаль мишку не нашла",
+        "timestamp_created": 1761508196,
+        "timestamp_updated": 1761508196,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525862038135528564",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754651714",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZe5YAAAAAFP+DT3IAAAABy6peYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0469999999995707,
+  "transport_error_count": 0
+}

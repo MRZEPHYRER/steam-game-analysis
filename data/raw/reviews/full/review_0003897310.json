@@ -1,0 +1,68 @@
+{
+  "appid": 3897310,
+  "requested_at": "2026-09-13T19:56:33.084477+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "212459052",
+        "author": {
+          "steamid": "76561198014292023",
+          "personaname": "ClosedVolumeIntegral ∰",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/closedvolumeintegral/",
+          "num_games_owned": 0,
+          "num_reviews": 40,
+          "playtime_forever": 451,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 14,
+          "last_played": 1780005822,
+          "avatar": "515e63a762ae639f96b18955ef646d09b2d29ec5"
+        },
+        "language": "english",
+        "review": "First impressions are: a chill train game.\n\nI was looking for a train game that did not ask for 100$+ in dlcs and was not trying to make me run an actual train by flipping some handles and stuff. And this is a great game to just chillax. Got a delivery done, and it was nice, it was easy it was cool. Similar vibes to American Truck Simulator.\n\nFor me the game is only missing an ability to invert mouse directions and easier control of crane, I think crane controls were pretty rough in the demo version. I guess map scroll speed is a bit too low and some way to highlight locations relevant to the mission taken would be great. But these are small things in the end.\n\nBut as a whole, a great way to chill",
+        "timestamp_created": 1764744501,
+        "timestamp_updated": 1764744501,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.636027872562408447",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1764757908,
+        "developer_response": "Thank you so much for taking the time to share such detailed first impressions!\n\nI'm truly happy to hear that you enjoyed the relaxed atmosphere of the game.\nOne of my goals was to create a train experience that you can simply enjoy at your own pace, without complicated procedures or overwhelming controls, so it means a lot to me that this resonated with you.\n\nI also sincerely appreciate your thoughtful feedback.\nThe points you mentioned make perfect sense, and I plan to improve these areas during the Early Access updates.\n\nYour suggestions are extremely valuable and will help me make the experience more comfortable and intuitive for everyone.\n\nThank you again for your support.\nI hope Physical Train continues to be a fun and relaxing place for you to spend time.\n\nWishing you many pleasant journeys through Chamland!\n\n--- Cham",
+        "app_release_date": "1764742057",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXR4mAAAAAFP+RaV2AAAAB84ruqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

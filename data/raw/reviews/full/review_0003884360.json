@@ -1,0 +1,71 @@
+{
+  "appid": 3884360,
+  "requested_at": "2026-09-13T19:54:48.592684+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "202865425",
+        "author": {
+          "steamid": "76561198041817360",
+          "personaname": "Siggy_AF",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198041817360/",
+          "num_games_owned": 0,
+          "num_reviews": 74,
+          "playtime_forever": 7,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1756140771,
+          "avatar": "115b93b8639b87dfe4bd664913120efe842900eb"
+        },
+        "language": "english",
+        "review": "I wanted to be the first review this game got so I decided to give it a go, unfortunately, I could only manage to play this game for about 7 minutes before I decided to quit.\n\nThere's multiple problems with this game from the get go:\n\nThere's no introduction, you're just dropped in the room without zero explanation of what's going on, who you are or what this place is.\n\nThe most glaring issue is the gameplay however, without a proper tutorial you're basically left there to figure things out, is it hard? Not really, just classify trash in the correct containers to gain money.\n\nBut here's the thing, first, if you're not fast enough, any trash piece can either go left or right away from your work area (why put two exits?), and if you didn't manage to classify it correctly, you're out of luck and you lose a dollar.\n\nWhat is even the purpose of this mechanic? Why hurry the player on the first minutes of the game to quickly adapt or else?\nIf this place wants me to classify and organize trash, why not give me cubicule where trash gets piled up and I can organize it?\n\nIf you classify one piece of trash correctly, you gain a dolar, if you do it incorrectly, you lose a dollar, I say that's fair, but there's another issue:\n\nYou start with four containers \"Paper/Cardboard\", \"Containers\", \"Organic\" and \"Residual\"\nNow, you think this would be self explanatory, but, sometimes you're unsure as to where the trash should go (this coupled with the fact that if you hesitate, you'll lose money every few seconds).\n\nA cereal box is a container, but is wrong to put it there so therefore it goes to paper/cardboard.\nA metal box in theory IS a container but it goes into Residual.\n\nI feel like a proper tutorial would help, or even an in-game guide as to how distinguish trash or how to categorize them, if there is, I didn't see it.\n\nHey, maybe is not my type of game, fair enough, but just thought I should let my opinion here.\nI'll ask for a refund and keep it on my wishlist, maybe in the future the developers would consider making the game a bit more beginner friendly at least.",
+        "timestamp_created": 1756141484,
+        "timestamp_updated": 1756141484,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.561685085296630859",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756136779",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYxCwAAAAAFP+H5UuAAAABxse+FBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2039999999997235,
+  "transport_error_count": 0
+}

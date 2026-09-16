@@ -1,0 +1,66 @@
+{
+  "appid": 4127400,
+  "requested_at": "2026-09-13T20:21:01.300159+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "231399258",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 801,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 801,
+          "last_played": 1785102821,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Developed and published by Pixel Flight Games, Tic Tac Rogue delivers a creative spin on the roguelite genre by transforming the timeless game of tic-tac-toe into a tactical fantasy adventure. Rather than relying on familiar dungeon-crawling formulas, it builds its identity around strategic board placement, tabletop-inspired dice mechanics, and RPG progression. The result is a game that immediately captures attention through originality, proving that even one of the simplest games ever created can become the foundation for an engaging modern experience. Its blend of luck and careful planning creates a gameplay loop that feels distinctive without becoming overly complicated, making it approachable while still offering room for strategic mastery.\n\nThe core gameplay revolves around battling fantasy creatures by rolling a twenty-sided die to determine whether attacks successfully overcome an enemy's defenses. Every successful strike allows players to claim a square on the tic-tac-toe grid, turning every encounter into a contest of positioning as much as combat. Winning requires more than favorable dice rolls, since players must constantly evaluate how each move affects the board while preventing opponents from securing their own victories. This balance between probability and tactical decision-making gives every encounter a satisfying level of tension, ensuring that even routine battles remain engaging throughout multiple runs.\n\nBeyond its clever combat system, the game embraces roguelite progression with collectible magical equipment that changes how each adventure unfolds. New items introduce fresh abilities and synergies that encourage experimentation, rewarding players who adapt their strategies instead of relying on a single approach. Defeated enemies provide currency that can be invested into better gear, while increasingly dangerous encounters gradually test the effectiveness of every build. The addition of Endless Mode further expands replayability by challenging players to push successful characters as far as possible after completing the main objective, making repeated runs feel worthwhile instead of repetitive.\n\nThe presentation complements the gameplay with colorful pixel art and a lighthearted fantasy atmosphere. Character sprites, monsters, and environments emphasize charm over visual complexity, resulting in an art style that remains easy to read during tactical battles. The game also includes a Classic Mode that removes the roguelite systems entirely, allowing players to enjoy traditional tic-tac-toe against computer opponents or another local player. This extra feature not only celebrates the inspiration behind the project but also provides a relaxing alternative to the more demanding adventure mode, adding welcome variety to the overall package.\n\nAlthough still in Early Access, the game already provides a solid amount of content with multiple playable classes, boss encounters, elite enemies, collectible magical items, and two distinct game modes. Pixel Flight Games has outlined plans for future updates that include additional character classes, new abilities, expanded enemy rosters, cursed equipment, improved interface features, controller support, and additional environments. These planned additions suggest that the game has considerable room to grow, while the current version already demonstrates a well-defined vision built around creativity rather than imitation. The fact that the project is developed by a solo creator without the use of AI-generated assets further highlights the personal attention invested in its design.\n\nTic Tac Rogue succeeds because it takes an idea that initially sounds like a novelty and develops it into a surprisingly thoughtful strategy experience. Its combination of board-game tactics, RPG progression, and roguelite replayability creates a refreshing alternative to more conventional entries in the genre. While players should expect additional content as development continues, the existing mechanics already offer a strong foundation filled with clever ideas and enjoyable experimentation. Anyone looking for an indie roguelite that prioritizes innovation over familiar formulas will likely find this to be a memorable and rewarding experience.\n\nRating: 6/10",
+        "timestamp_created": 1785107378,
+        "timestamp_updated": 1785107378,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.520231187343597412",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763480306",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZmGsAAAAAFP+Clu4AAAAB69dvyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

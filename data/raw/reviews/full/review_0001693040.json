@@ -1,0 +1,66 @@
+{
+  "appid": 1693040,
+  "requested_at": "2026-09-13T18:44:22.887322+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 787,
+      "total_negative": 269,
+      "total_reviews": 1056
+    },
+    "reviews": [
+      {
+        "recommendationid": "225209161",
+        "author": {
+          "steamid": "76561199071530414",
+          "personaname": "Alan James",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Alan_James_Is_Right/",
+          "num_games_owned": 0,
+          "num_reviews": 194,
+          "playtime_forever": 175,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 98,
+          "last_played": 1778433610,
+          "avatar": "7301a05cbcfb99464cc726d17ee189129866b720"
+        },
+        "language": "russian",
+        "review": "Если брать в комплекте или по скидке, ещё терпимо, но лучше уж вообще не брать.\nОптимизация кошмар. Физика машин такое себе, но хуже физика столкновений (можно неожиданно вылететь с трассы просто от касания авто из трафика).",
+        "timestamp_created": 1778428816,
+        "timestamp_updated": 1778428816,
+        "voted_up": false,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.699904143810272217",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1630742598",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWAH4AAAAAFP+ZlnSAAAAB5tI3bBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

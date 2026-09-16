@@ -1,0 +1,66 @@
+{
+  "appid": 3676270,
+  "requested_at": "2026-09-13T19:30:40.670299+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "209405351",
+        "author": {
+          "steamid": "76561197971097885",
+          "personaname": "karate_ninja",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197971097885/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 197,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "last_played": 1771885044,
+          "avatar": "becd86842f0ad3b1c722989503fec092663fe086"
+        },
+        "language": "french",
+        "review": "Yop !\n\nA 5 ans, tu demandes un pistolet à eau à tes parents pour faire le con avec le chat des voisins.\n\nA 9 ans, tu passes au fusil de tir aux pigeons avec des ventouses.\n\nQuand tu as 14 ans, tu demandes un flingue en SOFT AIR pour ton anniversaire, mais tes vieux refusent parce qu'ils ont peur que tu fasses de la merde avec un pétard qui fait 0.7 joules.\n\nTu attends d'avoir 18 ans pour t'acheter en armurerie une réplique 1:1 d'un Desert Eagle Chromé, et tu joues au dur dans la rue. C'est toujours du soft air, mais légalement, tu as le droit.\n\nQuand tu fêtes tes 40 piges, tu achètes POLY FRENZY pour défoncer des sacs en ligne.\nC'est ça la magie de 2025 : en confrontation frontale avec les grosses prod, tu as des indés en mode solo qui n'ont pas les deux mains sur le même clavier : ils ont DEUX CLAVIERS.\n\nJ'ai pas mal joué à la démo, défoncé du bot, maintenant le multi en ligne arrive et ça va envoyer du plomb.\n\nPas besoin d'accent de cow-boy ou de démarche burnée pour te prouver que tu es \"un vrai\" en ligne : tu fais juste dans le sale en attendant l'update couteau qui va te permettre de planter des noobs en ligne qui ont oublié qu'ils étaient en QWERTY. \n\nLe teabag de victimes, ça a du bon : y'a pas à tortiller, POLY réveille ce qu'on a de meilleur en nous.\n\nVive la haine, les bruits de détonations, et les gros flingues.",
+        "timestamp_created": 1763313751,
+        "timestamp_updated": 1763313751,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762884072",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB32uieBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

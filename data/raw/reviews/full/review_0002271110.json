@@ -1,0 +1,66 @@
+{
+  "appid": 2271110,
+  "requested_at": "2026-09-13T18:48:57.514138+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 1,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "211721303",
+        "author": {
+          "steamid": "76561199486891352",
+          "personaname": "Cateruser",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/cateruser/",
+          "num_games_owned": 27,
+          "num_reviews": 3,
+          "playtime_forever": 26,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1782165033,
+          "avatar": "facb93ba324a8dd24a1eacd657281181cb106994"
+        },
+        "language": "english",
+        "review": "My brain is barely processing what's happening on my screen but I enjoy",
+        "timestamp_created": 1764444523,
+        "timestamp_updated": 1764444523,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756277952",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFahheAAAAAFP+DDDUAAAAB3xdOnBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1099999999999,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3502910,
+  "requested_at": "2026-09-13T19:19:36.130608+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 6,
+      "total_negative": 7,
+      "total_reviews": 13
+    },
+    "reviews": [
+      {
+        "recommendationid": "204215786",
+        "author": {
+          "steamid": "76561198438855341",
+          "personaname": "gnxnt690",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198438855341/",
+          "num_games_owned": 10,
+          "num_reviews": 2,
+          "playtime_forever": 404,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 404,
+          "last_played": 1757746002,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "いわゆる8番出口のような異変を探すゲーム。\r\nそこに異変を探す為のストーリーや異変が起こったり間違ったら戻る事の設定があったりと物語を読んで楽しめるようにもなってます。\r\nテキストの内容から色々楽しめる人向けです。",
+        "timestamp_created": 1757746369,
+        "timestamp_updated": 1757746369,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.511686146259307861",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756954904",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZxCsAAAAAFP+Bfu2AAAAB63oKLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

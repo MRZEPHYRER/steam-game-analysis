@@ -1,0 +1,71 @@
+{
+  "appid": 3110450,
+  "requested_at": "2026-09-13T19:04:19.650747+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 74,
+      "total_negative": 15,
+      "total_reviews": 89
+    },
+    "reviews": [
+      {
+        "recommendationid": "212799848",
+        "author": {
+          "steamid": "76561198378654999",
+          "personaname": "Random Meme Bot",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/R_M_B/",
+          "num_games_owned": 164,
+          "num_reviews": 7,
+          "playtime_forever": 315,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 315,
+          "last_played": 1765133303,
+          "avatar": "ce55da073a7912ab56c612c8b8ab1923e2450315"
+        },
+        "language": "spanish",
+        "review": "Tras terminar el juego, puedo decir que es una experiencia breve pero entretenida, que sin llegar a la calidad de su predecesor y con un final que se siente apresurado, da para una tarde amena y se disfruta bastante mas si te has jugado Monday primero. Si te interesa pillártelo espérate a unas rebajas eso si, por que como he dicho el juego es corto y por 20 pavos tienes aventuras graficas mejores.\n\nPero eso no es el motivo de que este escribiendo esta reseña, es mas, si eso fuera todo lo mas probable es que ni me hubiera molestado en escribir una reseña, el problema es que el juego cuenta con multitud de imágenes hechas por IA, no hay ningún sprite de personaje ni ningún fondo entero, pero si varios posters de los fondos y assets secundarios como la pantalla del DM durante la partida de Rol, y arte usado en objetos de inventario como el cartucho de juego del Acto 1 de Matt, y yo por ahí si que no paso, entiendo que el juego se financio por Kickstarter (el juego se asegura de recordártelo a cada momento que puede), y que por lo tanto el presupuesto era ajustado, pero un poquito de por favor que Steam tiene para que los desarrolladores del juego lo indiquen en la pagina de la tienda.",
+        "timestamp_created": 1765135153,
+        "timestamp_updated": 1769799845,
+        "voted_up": false,
+        "votes_up": 27,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.687321305274963379",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764889356",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWQOqAAAAAFP+X+iKAAAAB4luKrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

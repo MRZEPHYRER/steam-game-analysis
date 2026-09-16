@@ -1,0 +1,66 @@
+{
+  "appid": 3948200,
+  "requested_at": "2026-09-13T20:04:11.969104+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 8,
+      "total_negative": 11,
+      "total_reviews": 19
+    },
+    "reviews": [
+      {
+        "recommendationid": "217346239",
+        "author": {
+          "steamid": "76561198036951931",
+          "personaname": "💖Scummy Christ💖",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/scummychrist/",
+          "num_games_owned": 0,
+          "num_reviews": 321,
+          "playtime_forever": 24,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 24,
+          "last_played": 1769902813,
+          "avatar": "c0e42b57d22d9c1b9ac16a4c52ee33dfcdb14293"
+        },
+        "language": "russian",
+        "review": "[b]PLATFORM 0[/b] хоррор на выживание, в котором мы — последний выживший в заброшенном метро, а наш преследователь — призрачный поезд, реагирующий на каждый звук и движение\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3657668195\n[b]Плюсы[/b]\n* Давящая атмосфера изоляции и клаустрофобии. Мрачные тоннели, эхо и постоянное ощущение охоты работают на общее настроение\n* Интересная концепция поезда-охотника и хороший звуковой дизайн\n* Первые встречи с угрозой, когда механику ещё не изучили по-настоящему волнительно \n\n[b]Минусы[/b]\n* Вводящие в заблуждение скриншоты и трейлеры к игре на странице магазина. Они демонстрируют более кинематографичный и динамичный геймплей, чем есть на самом деле\n* Стадия крайне сырого раннего доступа\n* В меню не поддерживается управление мышкой\n* После понимания простых механик игры игра наскучивает и некоторые пугающие моменты работают как предсказуемые препятствия, а не как источники страха\n* Фонарик разряжается слишком быстро и теряет смысл\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3657668561\n[b]Вердикт[/b]\nВ текущем состоянии игра остаётся сырой многообещающей концепцией, которая из-за своего состояния сильно не оправдывает ожиданий. Игре нужны месяцы серьёзной доработки\n✔️ Понравится, если любите тестировать сырые, но амбициозные проекты или рассматриваете игру, как демо-версию\n✖️ Не понравится, если вас раздражают однообразные, медлительные  и монотонные игры со скучным сбором предметов в темноте",
+        "timestamp_created": 1769955889,
+        "timestamp_updated": 1769955889,
+        "voted_up": false,
+        "votes_up": 36,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.764786064624786377",
+        "comment_count": 24,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762873414",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUtEuAAAAAFP+h5IIAAAAB/i469Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,303 @@
+{
+  "requested_at": "2026-09-12T14:54:22.512134+00:00",
+  "request_params": {
+    "appids": 3310220,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3310220,
+  "payload": {
+    "3310220": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Stranded In Starlight",
+        "steam_appid": 3310220,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >While traveling through hyperspace, your ship's drive field suddenly fails. Moments later, a relentless alien force attacks, determined to ensure your journey ends here. Now, <strong>Stranded In Starlight</strong>, survival is your only option.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Features</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Fast gameplay sessions (under 30 minutes)</p></li><li><p class=\"bb_paragraph\" >Many different weapons and utilities</p></li><li><p class=\"bb_paragraph\" >Bosses</p></li><li><p class=\"bb_paragraph\" >Survive hordes of enemies that grow larger and stronger as time passes</p></li><li><p class=\"bb_paragraph\" >Gain experience and upgrade your ship</p></li><li><p class=\"bb_paragraph\" >Between runs you can permanently upgrade your ship and unlock new abilities</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >While traveling through hyperspace, your ship's drive field suddenly fails. Moments later, a relentless alien force attacks, determined to ensure your journey ends here. Now, <strong>Stranded In Starlight</strong>, survival is your only option.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Features</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Fast gameplay sessions (under 30 minutes)</p></li><li><p class=\"bb_paragraph\" >Many different weapons and utilities</p></li><li><p class=\"bb_paragraph\" >Bosses</p></li><li><p class=\"bb_paragraph\" >Survive hordes of enemies that grow larger and stronger as time passes</p></li><li><p class=\"bb_paragraph\" >Gain experience and upgrade your ship</p></li><li><p class=\"bb_paragraph\" >Between runs you can permanently upgrade your ship and unlock new abilities</p></li></ul>",
+        "short_description": "Stranded in Starlight is a top-down roguelite where you pilot a spaceship armed with a variety of unique weapons and utilities. Battle relentless enemy hordes and powerful bosses as you upgrade your ship, adapting to each challenge in an ever-changing fight for survival.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/c9b3087f15f9cdf13738e9cef43dece294c120b1/header.jpg?t=1762691930",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/1c670d88b5a738bdfc8129211ea1c23bb5a7c43c/capsule_231x87.jpg?t=1762691930",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/1c670d88b5a738bdfc8129211ea1c23bb5a7c43c/capsule_184x69.jpg?t=1762691930",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 128MB, OpenGL 3+<br></li><li><strong>Storage:</strong> 800 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64bit<br></li><li><strong>Processor:</strong> 3 Ghz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 800 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Surfing Otter Studio"
+        ],
+        "publishers": [
+          "Surfing Otter Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1172289
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Stranded In Starlight",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1172289,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Stranded In Starlight - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/2ca3ef4aa145b67956473230e3ca3affbdda4d2d/ss_2ca3ef4aa145b67956473230e3ca3affbdda4d2d.600x338.jpg?t=1762691930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/2ca3ef4aa145b67956473230e3ca3affbdda4d2d/ss_2ca3ef4aa145b67956473230e3ca3affbdda4d2d.1920x1080.jpg?t=1762691930"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/ce298c9049c81b1b6e1a67ebadb3d78980de8266/ss_ce298c9049c81b1b6e1a67ebadb3d78980de8266.600x338.jpg?t=1762691930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/ce298c9049c81b1b6e1a67ebadb3d78980de8266/ss_ce298c9049c81b1b6e1a67ebadb3d78980de8266.1920x1080.jpg?t=1762691930"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/67480f3007ee3877cdbf29c0f73e9b497dee1fd1/ss_67480f3007ee3877cdbf29c0f73e9b497dee1fd1.600x338.jpg?t=1762691930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/67480f3007ee3877cdbf29c0f73e9b497dee1fd1/ss_67480f3007ee3877cdbf29c0f73e9b497dee1fd1.1920x1080.jpg?t=1762691930"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/1e1d56da564069996669370b891fc48ab6fc420b/ss_1e1d56da564069996669370b891fc48ab6fc420b.600x338.jpg?t=1762691930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/1e1d56da564069996669370b891fc48ab6fc420b/ss_1e1d56da564069996669370b891fc48ab6fc420b.1920x1080.jpg?t=1762691930"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/2b70c472583dd320a556057c1129d21652c0dea8/ss_2b70c472583dd320a556057c1129d21652c0dea8.600x338.jpg?t=1762691930",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310220/2b70c472583dd320a556057c1129d21652c0dea8/ss_2b70c472583dd320a556057c1129d21652c0dea8.1920x1080.jpg?t=1762691930"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257228572,
+            "name": "Stranded In Starlight release trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257228572/58c3a2408be3f7b0a24224431798895a38e7ccb9/movie_600x337.jpg?t=1762607717",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3310220/893842141/66aeb071cf5960ab493d01a0f00ecef7d6229814/1762606588/dash_av1.mpd?t=1762607717",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3310220/893842141/66aeb071cf5960ab493d01a0f00ecef7d6229814/1762606588/dash_h264.mpd?t=1762607717",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3310220/893842141/66aeb071cf5960ab493d01a0f00ecef7d6229814/1762606588/hls_264_master.m3u8?t=1762607717",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 31,
+          "highlighted": [
+            {
+              "icon": "f88ea4671331aabeb87ac93149715c1827bbbc93.jpg",
+              "localized_name": "Survivor I",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Survivor I",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/f88ea4671331aabeb87ac93149715c1827bbbc93.jpg"
+            },
+            {
+              "icon": "ee37fa765d166ba50b05d94b3c534471dc2c0cd2.jpg",
+              "localized_name": "Survivor II",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Survivor II",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/ee37fa765d166ba50b05d94b3c534471dc2c0cd2.jpg"
+            },
+            {
+              "icon": "9877032fcb8b02b6f3cde8d90d45f948e6dc6db9.jpg",
+              "localized_name": "Survivor III",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Survivor III",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/9877032fcb8b02b6f3cde8d90d45f948e6dc6db9.jpg"
+            },
+            {
+              "icon": "4888dfd12a0403b04105c74602035817c27e5a4d.jpg",
+              "localized_name": "Survivor IIII",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Survivor IIII",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/4888dfd12a0403b04105c74602035817c27e5a4d.jpg"
+            },
+            {
+              "icon": "c9f0a29876c84ec5976ff3c69ce0371210e09afa.jpg",
+              "localized_name": "Survivor V",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Survivor V",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/c9f0a29876c84ec5976ff3c69ce0371210e09afa.jpg"
+            },
+            {
+              "icon": "27dcb0c5dd6b95846c77edccbbfad7d1ae7663db.jpg",
+              "localized_name": "Anti Swarmer I",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Anti Swarmer I",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/27dcb0c5dd6b95846c77edccbbfad7d1ae7663db.jpg"
+            },
+            {
+              "icon": "8bec9b1de6cd8326ef5ea5ac2b1a178290f633f6.jpg",
+              "localized_name": "Anti Swarmer II",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Anti Swarmer II",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/8bec9b1de6cd8326ef5ea5ac2b1a178290f633f6.jpg"
+            },
+            {
+              "icon": "17097a1679df555322af5f4773fa2ec7e8b46b33.jpg",
+              "localized_name": "Anti Swarmer III",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Anti Swarmer III",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/17097a1679df555322af5f4773fa2ec7e8b46b33.jpg"
+            },
+            {
+              "icon": "3a1f13f416834f7ee7114a8cef9931836d71018a.jpg",
+              "localized_name": "Anti Swarmer IIII",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Anti Swarmer IIII",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/3a1f13f416834f7ee7114a8cef9931836d71018a.jpg"
+            },
+            {
+              "icon": "632b435b9dd4d4764d4eb44e5eeba1e2991562b1.jpg",
+              "localized_name": "Anti Swarmer V",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Anti Swarmer V",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3310220/632b435b9dd4d4764d4eb44e5eeba1e2991562b1.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": " support@surfingotterstudio.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3310220?t=1762691930",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3310220?t=1762691930",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "requested_at": "2026-09-12T17:56:25.688181+00:00",
+  "request_params": {
+    "appids": 3906930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3906930,
+  "payload": {
+    "3906930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Card World",
+        "steam_appid": 3906930,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >&quot;Card World&quot; is a card game completely under your control. You can adapt other games, novels, and movies to create a brand-new game that belongs entirely to you.<br>This game is intended for players with a desire to create and play. It is planned to open a creative workshop, allowing you to play games made by everyone, share the games you make, and of course, share your created games with others offline.<br>The way to create a new game is through editing Excel spreadsheets. It takes a little time to watch the tutorials (recommended), or you can directly check the comments in Excel to make the game.<br>Although the game only provides Chinese and English, in fact, you can use it to make games in any language and with any BGM. However, the video tutorials are currently planned to be only in Chinese and English versions.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >&quot;Card World&quot; is a card game completely under your control. You can adapt other games, novels, and movies to create a brand-new game that belongs entirely to you.<br>This game is intended for players with a desire to create and play. It is planned to open a creative workshop, allowing you to play games made by everyone, share the games you make, and of course, share your created games with others offline.<br>The way to create a new game is through editing Excel spreadsheets. It takes a little time to watch the tutorials (recommended), or you can directly check the comments in Excel to make the game.<br>Although the game only provides Chinese and English, in fact, you can use it to make games in any language and with any BGM. However, the video tutorials are currently planned to be only in Chinese and English versions.</p>",
+        "short_description": "Card World is a card game entirely under your control. You can adventure in this card world, create new cards, new themes, new BGM, new backgrounds, and even make a completely new game.",
+        "supported_languages": "English, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/ac508fbc587c9b5799bcc506c0b9e4349bfd55a4/header.jpg?t=1756110690",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/f7bbdafa0d2edb82a0c773d2074022833ea022db/capsule_231x87.jpg?t=1756110690",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/f7bbdafa0d2edb82a0c773d2074022833ea022db/capsule_184x69.jpg?t=1756110690",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong>  Windows 7 (64 - bit) or later versions (Windows 8, Windows 10, etc.).<br></li><li><strong>Processor:</strong> Intel Core2 Duo 2.4ghz+ or equivalent AMD processor<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics card that supports DirectX 9.0 or above.<br></li><li><strong>DirectX:</strong> Version 8.0<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> A sound card compatible with DirectX.<br></li><li><strong>VR Support:</strong> None.<br></li><li><strong>Additional Notes:</strong> </li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64 - bit (latest update).<br></li><li><strong>Processor:</strong>  Intel Core i5 - 10600 or AMD Ryzen 5 3600X.<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2070 8GB / AMD Radeon RX 5700 8GB / Intel Arc A770.<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 20 GB available space<br></li><li><strong>Sound Card:</strong> A high - quality sound card compatible with DirectX.<br></li><li><strong>VR Support:</strong> None.</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Huawen"
+        ],
+        "publishers": [
+          "Huawen"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1373073
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Card World",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1373073,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "卡牌世界 Card World - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          },
+          {
+            "id": 63,
+            "description": "Steam Timeline"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/24a4ac132e5af9147a2929ec217f3a46ee131637/ss_24a4ac132e5af9147a2929ec217f3a46ee131637.600x338.jpg?t=1756110690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/24a4ac132e5af9147a2929ec217f3a46ee131637/ss_24a4ac132e5af9147a2929ec217f3a46ee131637.1920x1080.jpg?t=1756110690"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/1f71499b5f3fdf42a17412a7bd9964ff7380489a/ss_1f71499b5f3fdf42a17412a7bd9964ff7380489a.600x338.jpg?t=1756110690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/1f71499b5f3fdf42a17412a7bd9964ff7380489a/ss_1f71499b5f3fdf42a17412a7bd9964ff7380489a.1920x1080.jpg?t=1756110690"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/59385a94e9bb908926ebe55d06d1bbbd1be59813/ss_59385a94e9bb908926ebe55d06d1bbbd1be59813.600x338.jpg?t=1756110690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/59385a94e9bb908926ebe55d06d1bbbd1be59813/ss_59385a94e9bb908926ebe55d06d1bbbd1be59813.1920x1080.jpg?t=1756110690"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/fb07c7ef903a1448a9467dd603401e85780c3307/ss_fb07c7ef903a1448a9467dd603401e85780c3307.600x338.jpg?t=1756110690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/fb07c7ef903a1448a9467dd603401e85780c3307/ss_fb07c7ef903a1448a9467dd603401e85780c3307.1920x1080.jpg?t=1756110690"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/6321f077f4fb41fa5b3a44e2ed1da207584a2c0c/ss_6321f077f4fb41fa5b3a44e2ed1da207584a2c0c.600x338.jpg?t=1756110690",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/6321f077f4fb41fa5b3a44e2ed1da207584a2c0c/ss_6321f077f4fb41fa5b3a44e2ed1da207584a2c0c.1920x1080.jpg?t=1756110690"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257175745,
+            "name": "卡牌世界_介绍",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257175745/a7c503bc9bd4951d369ff0b852f88f728af274fd/movie_600x337.jpg?t=1754550154",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3906930/427615402/9ff6dbae0c6ad35a70b9815e5e80cf835ec277d9/1753882001/dash_av1.mpd?t=1754550154",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3906930/427615402/9ff6dbae0c6ad35a70b9815e5e80cf835ec277d9/1753882001/dash_h264.mpd?t=1754550154",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3906930/427615402/9ff6dbae0c6ad35a70b9815e5e80cf835ec277d9/1753882001/hls_264_master.m3u8?t=1754550154",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 1,
+          "highlighted": [
+            {
+              "icon": "7fd5648809e34ef4820ccf630f1b08485fb73ec5.jpg",
+              "localized_name": "Author · Star",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Author · Star",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3906930/7fd5648809e34ef4820ccf630f1b08485fb73ec5.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "875220656@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3906930?t=1756110690",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906930/832685c76ef8dc6b739396432cc8f4c394f1f802/page_bg_raw.jpg?t=1756110690",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

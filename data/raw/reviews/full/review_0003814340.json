@@ -1,0 +1,79 @@
+{
+  "appid": 3814340,
+  "requested_at": "2026-09-13T19:43:15.316128+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 206,
+      "total_negative": 24,
+      "total_reviews": 230
+    },
+    "reviews": [
+      {
+        "recommendationid": "221065053",
+        "author": {
+          "steamid": "76561198020728468",
+          "personaname": "Gerard",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198020728468/",
+          "num_games_owned": 0,
+          "num_reviews": 164,
+          "playtime_forever": 488,
+          "playtime_last_two_weeks": 63,
+          "playtime_at_review": 425,
+          "last_played": 1788781971,
+          "avatar": "09d0335c3e970377d6929ad8306c89c4289ea156"
+        },
+        "language": "english",
+        "review": "After 10 years, the tank PVE market is an empty desert. This dev straight up just created the PVE mode that Gajin and Wargaming refused to make in a single weekend. \n\nIs it good? Nahh, it's jank as hell. Armor barely works and barely matters. And 20bucks is a steep price for this. Quite expensive tbh. I completed the game almost fast enough I could've refunded. But I won't. Since this is the only dev that just made a working tank PVE game, I got no choice. \n\n10/10 literally the best game in the tank genre.",
+        "timestamp_created": 1773941382,
+        "timestamp_updated": 1773941382,
+        "voted_up": true,
+        "votes_up": 74,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.828438222408294678",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763056770",
+        "reactions": [
+          {
+            "reaction_type": 34,
+            "count": 4
+          },
+          {
+            "reaction_type": 28,
+            "count": 3
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTbngAAAAAFP+qCcwAAAAB99aXLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2039999999997235,
+  "transport_error_count": 0
+}

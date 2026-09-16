@@ -1,0 +1,260 @@
+{
+  "requested_at": "2026-09-12T18:02:13.275631+00:00",
+  "request_params": {
+    "appids": 3919270,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3919270,
+  "payload": {
+    "3919270": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "RovNav",
+        "steam_appid": 3919270,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Code the Rovers to Navigate Various Complex Paths Using a Dynamic Flow-Based Node Graph System</strong></p><p class=\"bb_paragraph\" >Take control of your rover's journey across a variety of intricate <strong>grid-based paths</strong> by coding its behavior through an intuitive and powerful <i><strong>flow-based Node Graph</strong></i>. This visual system lets you build logical sequences by simply connecting nodes.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.poster.avif?t=1770521968\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.webm?t=1770521968\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.mp4?t=1770521968\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >The Node Graph consists of five distinct types of nodes, each with a specialized function, they all fall into one of the three categories below.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Movement Nodes</strong>: Command the rover to move forward, rotate</p></li><li><p class=\"bb_paragraph\" ><strong>Sensor Nodes</strong>: Detect the color of the tile beneath the rover, enabling conditional actions.</p></li><li><p class=\"bb_paragraph\" ><strong>State Nodes</strong>: Toggle, or check switch states. </p></li></ul><p class=\"bb_paragraph\" ><strong>Each node includes configurable variables, accessible through intuitive dropdown menus—allowing behavior customization.</strong></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.poster.avif?t=1770521968\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.webm?t=1770521968\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.mp4?t=1770521968\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Nodes are equipped with <i>sockets</i> that can be linked together using <i>wires</i>. These connections define the execution flow, determining the order in which actions occur and how decisions are made. </p><p class=\"bb_paragraph\" >Whether you're building a straightforward movement chain or a complex autonomous routine, the Node Graph offers a hands-on, visual approach to coding that makes logic design both accessible and deeply engaging.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Code the Rovers to Navigate Various Complex Paths Using a Dynamic Flow-Based Node Graph System</strong></p><p class=\"bb_paragraph\" >Take control of your rover's journey across a variety of intricate <strong>grid-based paths</strong> by coding its behavior through an intuitive and powerful <i><strong>flow-based Node Graph</strong></i>. This visual system lets you build logical sequences by simply connecting nodes.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.poster.avif?t=1770521968\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.webm?t=1770521968\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/472bb81bf1fa2d98f8f79c1dbc5a0330.mp4?t=1770521968\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >The Node Graph consists of five distinct types of nodes, each with a specialized function, they all fall into one of the three categories below.</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Movement Nodes</strong>: Command the rover to move forward, rotate</p></li><li><p class=\"bb_paragraph\" ><strong>Sensor Nodes</strong>: Detect the color of the tile beneath the rover, enabling conditional actions.</p></li><li><p class=\"bb_paragraph\" ><strong>State Nodes</strong>: Toggle, or check switch states. </p></li></ul><p class=\"bb_paragraph\" ><strong>Each node includes configurable variables, accessible through intuitive dropdown menus—allowing behavior customization.</strong></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.poster.avif?t=1770521968\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.webm?t=1770521968\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/extras/f9eac2cae90ea90ac81ed82c6e6b305e.mp4?t=1770521968\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Nodes are equipped with <i>sockets</i> that can be linked together using <i>wires</i>. These connections define the execution flow, determining the order in which actions occur and how decisions are made. </p><p class=\"bb_paragraph\" >Whether you're building a straightforward movement chain or a complex autonomous routine, the Node Graph offers a hands-on, visual approach to coding that makes logic design both accessible and deeply engaging.</p>",
+        "short_description": "Code the rovers with a visual Node Graph system to Navigate Complex Paths. Connect different types of Nodes to build custom logic. Use parameters to configure actions and wires to define flow.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/fb5f126a9f940978df86201b816325246a70f3b9/header.jpg?t=1770521968",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/57a940a09c72534b8c0d9ed4cbeb36e389c755cf/capsule_231x87.jpg?t=1770521968",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/57a940a09c72534b8c0d9ed4cbeb36e389c755cf/capsule_184x69.jpg?t=1770521968",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10/11<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 550 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Enigmatix Interactive"
+        ],
+        "publishers": [
+          "Enigmatix Interactive"
+        ],
+        "demos": [
+          {
+            "appid": 3999190,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 699,
+          "discount_percent": 30,
+          "initial_formatted": "$9.99",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1377192
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy RovNav",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1377192,
+                "percent_savings_text": "-30% ",
+                "percent_savings": 0,
+                "option_text": "RovNav - <span class=\"discount_original_price\">$9.99</span> $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/7216d4d499cb5995aaa6f839cf2f60812777a430/ss_7216d4d499cb5995aaa6f839cf2f60812777a430.600x338.jpg?t=1770521968",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/7216d4d499cb5995aaa6f839cf2f60812777a430/ss_7216d4d499cb5995aaa6f839cf2f60812777a430.1920x1080.jpg?t=1770521968"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/5252fe7bb808ad269c7a5c0fa616ab382876d349/ss_5252fe7bb808ad269c7a5c0fa616ab382876d349.600x338.jpg?t=1770521968",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/5252fe7bb808ad269c7a5c0fa616ab382876d349/ss_5252fe7bb808ad269c7a5c0fa616ab382876d349.1920x1080.jpg?t=1770521968"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/b98871f91a081dfdb4da99e82b831318371d7e8f/ss_b98871f91a081dfdb4da99e82b831318371d7e8f.600x338.jpg?t=1770521968",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/b98871f91a081dfdb4da99e82b831318371d7e8f/ss_b98871f91a081dfdb4da99e82b831318371d7e8f.1920x1080.jpg?t=1770521968"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/1fba8d1aae94f34a30225534c775003354d43e79/ss_1fba8d1aae94f34a30225534c775003354d43e79.600x338.jpg?t=1770521968",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/1fba8d1aae94f34a30225534c775003354d43e79/ss_1fba8d1aae94f34a30225534c775003354d43e79.1920x1080.jpg?t=1770521968"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/e17df7de15ea5686c705077c13aea1ab78a74837/ss_e17df7de15ea5686c705077c13aea1ab78a74837.600x338.jpg?t=1770521968",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3919270/e17df7de15ea5686c705077c13aea1ab78a74837/ss_e17df7de15ea5686c705077c13aea1ab78a74837.1920x1080.jpg?t=1770521968"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257179413,
+            "name": "RovNav Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257179413/37f98267b1579ccd79baa8576e2a4831c1df6009/movie_600x337.jpg?t=1756410139",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3919270/1291649644/938d55e2fcd44fa2137f06309e17b458f76f0820/1756408616/dash_av1.mpd?t=1756410139",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3919270/1291649644/938d55e2fcd44fa2137f06309e17b458f76f0820/1756408616/dash_h264.mpd?t=1756410139",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3919270/1291649644/938d55e2fcd44fa2137f06309e17b458f76f0820/1756408616/hls_264_master.m3u8?t=1756410139",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 6,
+          "highlighted": [
+            {
+              "icon": "e42126868954c215f6da9ef34e2ccd9bc99e94ce.jpg",
+              "localized_name": "Single Rover",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Rover",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/e42126868954c215f6da9ef34e2ccd9bc99e94ce.jpg"
+            },
+            {
+              "icon": "ce71650b5dea75104bab0ad5b31b2a418e41140f.jpg",
+              "localized_name": "Double Rover",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Double Rover",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/ce71650b5dea75104bab0ad5b31b2a418e41140f.jpg"
+            },
+            {
+              "icon": "4d8f5f01e06132522786ee18249e1b17b1735d23.jpg",
+              "localized_name": "Single Rover Special Tile",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Single Rover Special Tile",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/4d8f5f01e06132522786ee18249e1b17b1735d23.jpg"
+            },
+            {
+              "icon": "afdb1668c8cd325d4c7c48ce822fc930f17239c9.jpg",
+              "localized_name": "Double Rover Special Tile",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Double Rover Special Tile",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/afdb1668c8cd325d4c7c48ce822fc930f17239c9.jpg"
+            },
+            {
+              "icon": "95cbe83806fbab52f7489ed0b16594e1563fd90b.jpg",
+              "localized_name": "All Main Levels Completed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All Main Levels Completed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/95cbe83806fbab52f7489ed0b16594e1563fd90b.jpg"
+            },
+            {
+              "icon": "ad41f06107c61a27de8e3b2441fe9203ebaea46d.jpg",
+              "localized_name": "All Levels Completed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All Levels Completed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3919270/ad41f06107c61a27de8e3b2441fe9203ebaea46d.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 29, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "aahan27122712@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3919270?t=1770521968",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3919270?t=1770521968",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

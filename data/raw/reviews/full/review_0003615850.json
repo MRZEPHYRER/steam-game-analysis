@@ -1,0 +1,71 @@
+{
+  "appid": 3615850,
+  "requested_at": "2026-09-13T19:26:17.680891+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "207125844",
+        "author": {
+          "steamid": "76561198385893603",
+          "personaname": "B.D. SUCHT",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/jooshiiii/",
+          "num_games_owned": 27,
+          "num_reviews": 2,
+          "playtime_forever": 390,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1770434301,
+          "avatar": "26521bcb989d4b5a28475518027261f40e1370a6"
+        },
+        "language": "english",
+        "review": "The gameplay is very smooth and fun. There is a lot of variation in the enemies and especially the bosses. The upgrade mechanic is nicely done and the bosses are very fun. I just played a little bit but will for sure put more time into this banger of a game. I hope I can become skilled enough to beat the final boss. It is a very cool second game of the developer and I cant wait for more of his games",
+        "timestamp_created": 1760907888,
+        "timestamp_updated": 1760907888,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756489002",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB01Y+WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2350000000001273,
+  "transport_error_count": 0
+}

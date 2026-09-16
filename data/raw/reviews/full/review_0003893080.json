@@ -1,0 +1,68 @@
+{
+  "appid": 3893080,
+  "requested_at": "2026-09-13T19:55:54.949169+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "202315514",
+        "author": {
+          "steamid": "76561198054125987",
+          "personaname": "kyvour",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/kyvour/",
+          "num_games_owned": 531,
+          "num_reviews": 26,
+          "playtime_forever": 40,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "last_played": 1757243202,
+          "avatar": "9b75cb8641bec11676f66f3d8eb4995ddec08908"
+        },
+        "language": "english",
+        "review": "Game is promising but for now it in very bad technical state.\nImpossible to play as for me, so I needed to request a refund :(\nThe developers should do some kind of demo or early access and gather feedback before making a full release...\n",
+        "timestamp_created": 1755431659,
+        "timestamp_updated": 1755431659,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.46742209792137146",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": true,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1755456562,
+        "developer_response": "Hello, kyvour.\nThank you for taking the time to leave your review and share your experience with Roxanne: The Forgotten Path. We greatly value every comment, as we are always attentive to player feedback and reviews in order to improve.\n\nWe would like to know a bit more about your experience:\n\nWhat kind of issue did you encounter when trying to play?\n\nWas there any specific error or technical difficulty that we should look into?\n\nYour feedback helps us understand which aspects to focus on, and we sincerely appreciate any additional details you can provide.\n\nSupport Team.",
+        "app_release_date": "1755312106",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFapsyAAAAAFP93qPgAAAAB67+KDBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8910000000005311,
+  "transport_error_count": 0
+}

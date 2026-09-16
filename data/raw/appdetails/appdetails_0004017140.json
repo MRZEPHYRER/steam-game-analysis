@@ -1,0 +1,199 @@
+{
+  "requested_at": "2026-09-13T06:27:13.696840+00:00",
+  "request_params": {
+    "appids": 4017140,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4017140,
+  "payload": {
+    "4017140": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Drone-Locked",
+        "steam_appid": 4017140,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Drone-Locked is a first person shooter with emphasis on exploration and secret hunting.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Key Features</strong></p><p class=\"bb_paragraph\" >-A short adventure, the game can be completed in a single sitting or played in smaller sessions, manually saving your progress along the way at save stations.</p><p class=\"bb_paragraph\" >-Survive Drone attacks</p><p class=\"bb_paragraph\" >Flee or fight against autonomous Drones.</p><p class=\"bb_paragraph\" >-Uncover the mystery</p><p class=\"bb_paragraph\" >Make your way through the adventure exploring the environment and finding clues to help complete your objectives.</p><p class=\"bb_paragraph\" >-Multiple endings</p><p class=\"bb_paragraph\" >Can you discover the two unique playable ending levels? </p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Drone-Locked is a first person shooter with emphasis on exploration and secret hunting.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Key Features</strong></p><p class=\"bb_paragraph\" >-A short adventure, the game can be completed in a single sitting or played in smaller sessions, manually saving your progress along the way at save stations.</p><p class=\"bb_paragraph\" >-Survive Drone attacks</p><p class=\"bb_paragraph\" >Flee or fight against autonomous Drones.</p><p class=\"bb_paragraph\" >-Uncover the mystery</p><p class=\"bb_paragraph\" >Make your way through the adventure exploring the environment and finding clues to help complete your objectives.</p><p class=\"bb_paragraph\" >-Multiple endings</p><p class=\"bb_paragraph\" >Can you discover the two unique playable ending levels? </p>",
+        "short_description": "In this First Person Shooter, take on a dangerous mission in infiltration and battling Autonomous Drones. Will you uncover the conspiracy?",
+        "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/a79139e8a6b349879cf45086108eb4af89b01705/header.jpg?t=1781689021",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/0d5cf6e85988d8b7927c8d1fdb5572cfa19f1f44/capsule_231x87.jpg?t=1781689021",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/0d5cf6e85988d8b7927c8d1fdb5572cfa19f1f44/capsule_184x69.jpg?t=1781689021",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 / Windows 11<br></li><li><strong>Processor:</strong> Dual-core 2.0 GHz (Intel Core 2 Duo or AMD equivalent)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.3 compatible GPU with 512 MB VRAM<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 250 MB available space<br></li><li><strong>Sound Card:</strong> yes</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "© 2025 Wonderful Lizard. All rights reserved.<br />\r\n<br />\r\nThis game uses the GZDoom engine, © 1998-2025 Randy Heit, Christoph Oelckers, and contributors. GZDoom is licensed under the GNU General Public License v3. <br />\r\n",
+        "developers": [
+          "Wonderful Lizard"
+        ],
+        "publishers": [
+          "Wonderful Lizard"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1409468
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Drone-Locked",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1409468,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Drone-Locked - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/8af886ec16de43728d9b7c4d7778e8cd6c5438f6/ss_8af886ec16de43728d9b7c4d7778e8cd6c5438f6.600x338.jpg?t=1781689021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/8af886ec16de43728d9b7c4d7778e8cd6c5438f6/ss_8af886ec16de43728d9b7c4d7778e8cd6c5438f6.1920x1080.jpg?t=1781689021"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/c68ab6f804c52b0e8b4f2d4a9285a16b75c0d1d5/ss_c68ab6f804c52b0e8b4f2d4a9285a16b75c0d1d5.600x338.jpg?t=1781689021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/c68ab6f804c52b0e8b4f2d4a9285a16b75c0d1d5/ss_c68ab6f804c52b0e8b4f2d4a9285a16b75c0d1d5.1920x1080.jpg?t=1781689021"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/59e799c008a1694b423871af9330ebd1bb5c38d4/ss_59e799c008a1694b423871af9330ebd1bb5c38d4.600x338.jpg?t=1781689021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/59e799c008a1694b423871af9330ebd1bb5c38d4/ss_59e799c008a1694b423871af9330ebd1bb5c38d4.1920x1080.jpg?t=1781689021"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/148eebc150f68af7d9d5c13ae0074e093ddcb220/ss_148eebc150f68af7d9d5c13ae0074e093ddcb220.600x338.jpg?t=1781689021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/148eebc150f68af7d9d5c13ae0074e093ddcb220/ss_148eebc150f68af7d9d5c13ae0074e093ddcb220.1920x1080.jpg?t=1781689021"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/c53023f6d5b26edd04f15089dfcd4fb725c1b55e/ss_c53023f6d5b26edd04f15089dfcd4fb725c1b55e.600x338.jpg?t=1781689021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017140/c53023f6d5b26edd04f15089dfcd4fb725c1b55e/ss_c53023f6d5b26edd04f15089dfcd4fb725c1b55e.1920x1080.jpg?t=1781689021"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257360733,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257360733/9a4307e16d46dc6d83e845110f2e775e99eecc36/movie_600x337.jpg?t=1781689019",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4017140/1782697809/2e3347ea205059edb82b24a29360532ab535d7f3/1781646528/dash_av1.mpd?t=1781689019",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4017140/1782697809/2e3347ea205059edb82b24a29360532ab535d7f3/1781646528/dash_h264.mpd?t=1781689019",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4017140/1782697809/2e3347ea205059edb82b24a29360532ab535d7f3/1781646528/hls_264_master.m3u8?t=1781689019",
+            "highlight": true
+          },
+          {
+            "id": 257212200,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257212200/ba78500c36788855dd7d144bbdee769f5f5c5582/movie_600x337.jpg?t=1781689020",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4017140/1834040434/3dfa500bc732beffaf7ec8aa2f9d005257ea02cf/1759593417/dash_av1.mpd?t=1781689020",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4017140/1834040434/3dfa500bc732beffaf7ec8aa2f9d005257ea02cf/1759593417/dash_h264.mpd?t=1781689020",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4017140/1834040434/3dfa500bc732beffaf7ec8aa2f9d005257ea02cf/1759593417/hls_264_master.m3u8?t=1781689020",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 22, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "wonderfullizardhelp@outlook.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4017140?t=1781689021",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4017140?t=1781689021",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4045300,
+  "requested_at": "2026-09-13T20:15:02.105878+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "213902649",
+        "author": {
+          "steamid": "76561198054929360",
+          "personaname": "REX2630-CZ",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/davidkonvin/",
+          "num_games_owned": 5800,
+          "num_reviews": 283,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1766358728,
+          "avatar": "b04effccf062783c8e26028907448bbf27b1478f"
+        },
+        "language": "english",
+        "review": "This game itself is not bad, but the implementation of it is really bad.\n\nThis is just re-release of old flash game, which comes to a question, does the dev even have rights to re-release this? We probably won't ever know.\n\nThe game is full of bugs and its really short, i dont know if i would recommend this even for a discounted price, since  it doesn't even have achievements.",
+        "timestamp_created": 1766399404,
+        "timestamp_updated": 1766399448,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.637834668159484863",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766051116",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXQIcAAAAAFP+RljmAAAAB50/yvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

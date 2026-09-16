@@ -1,0 +1,68 @@
+{
+  "appid": 3947730,
+  "requested_at": "2026-09-13T20:04:09.726586+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "205020429",
+        "author": {
+          "steamid": "76561199301790481",
+          "personaname": "ScottWizCork",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/scottwizcork/",
+          "num_games_owned": 1056,
+          "num_reviews": 570,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1758626168,
+          "avatar": "c26286f1a292309692f9a3a04eed8e0b8c15c66b"
+        },
+        "language": "tchinese",
+        "review": "[h3]▼缺點[/h3]\n●雖有四個職業，但每一個職業設計都大同小異，3個技能第一招大多都是突刺、第二招大多都是Y軸柱攻擊，沒什麼新意\n●跳躍的空白鍵如果長按會跳不起來，導致只能輕按，跳躍的高度是固定的，許多攻擊始終無法躲過\n●作者時常設計弓箭陷阱，但弓箭陷阱距離遠到誇張，我在一邊慢慢的磨小Boss也會被弓箭荼毒，太噁心人了，再加上跳躍的糟糕機制我完全無法躲過那些攻擊\n●跳躍中無法使用技能，只要可以空中施展技能，上一個問題就會好了一半\n●無法空中下樓梯\n\n[h3]▼Bug[/h3]\n●死亡時復活，BGM會產生重疊，變得非常吵\n●法師爬樓梯的圖像比其他角色還大\n●下樓梯有困難，人物會抽動\n●施展技能時常無法造成傷害\n●跳到台階時有時候人物會抽動，無法行動",
+        "timestamp_created": 1758625852,
+        "timestamp_updated": 1758636845,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763471781,
+        "developer_response": "I'm very sorry for causing you negative emotions and a bad gaming experience.",
+        "app_release_date": "1757224275",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFuhheAAAAAFP+DDDUAAAAB90IuOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

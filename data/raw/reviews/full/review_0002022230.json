@@ -1,0 +1,73 @@
+{
+  "appid": 2022230,
+  "requested_at": "2026-09-13T18:46:47.888856+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 96,
+      "total_negative": 8,
+      "total_reviews": 104
+    },
+    "reviews": [
+      {
+        "recommendationid": "225019860",
+        "author": {
+          "steamid": "76561198110961422",
+          "personaname": "trecenachos",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/trecenachos/",
+          "num_games_owned": 134,
+          "num_reviews": 8,
+          "playtime_forever": 7194,
+          "playtime_last_two_weeks": 17,
+          "playtime_at_review": 3569,
+          "last_played": 1789075873,
+          "avatar": "b0c0a418389526b05d1bb06edc0ca1ed8fc349a3"
+        },
+        "language": "english",
+        "review": "This is a game for tabletop lovers and fighting game enthusiasts. It's somewhat complex in the beginning like any other good card game—that's what makes it interesting and fun. Game mechanics and dozens of character match-ups to learn.\n\n    You can do the Career Mode while waiting for online matches. It's a fun story mode where you play against several NPC with different personalities at different venues. The in-game (fake) social media posts are hilarious. I think their playstyle matches their perceived personality. They are not easy to beat though. Anyway, this grind is fun and good specially in the beginning to learn the game. Otherwise, get on Discord to meet game enthusiasts and to find (async) matches!\n\n    Right! Async matches are a godsend. Once you get friends in-game, you can challenge them to async matches and you've got 72 hours per turn. Ideal for busy people or to play with your little nephew that takes too long to decide what to do in his turn. There's also a Pass and Play mode which I think is designed for and plays better on hanheld PCs.\n\n    I use a wiimote with Touchmote and a Dolphinbar on Windows to give the game a more \"grounded\" feel—it's just an idea if it sounds like something you could be into and if you already have the hardware because it's totally overkill otherwise. The game plays perfectly fine on keyboard or control. I was told touch will be supported on Switch when released next week on the 13th. I'm unsure if touch is already supported on the Steam Deck.\n\nEdit: Actually, it occurred to me that I had not played this game using a control and after trying it, let me tell you I feel this game is optimized for it. You can quicly access the opponents hand and his/her discard pile with one button press. It's weird though the UI is stuck at PlayStation style, even though all my controllers are either D-Input, X-Input or weird sh*t like the Steam Controller (2015) or the Xbox Elite controller which I thought could be good to program the extra buttons with something, like to access your own known cards in the hand. Anyway, YOU DON'T NEED TO BE CONCERNED WITH ANY OF THIS. XD It's just me that I like to experiment with a wide variety of input methods.",
+        "timestamp_created": 1778229492,
+        "timestamp_updated": 1780727125,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.580152690410614014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1687845918",
+        "hardware": {
+          "system_ram": "16250",
+          "os": "Windows 11",
+          "cpu_name": "Intel(R) Core(TM) i3-8109U CPU @ 3.00GHz",
+          "adapter_description": "Intel(R) Iris(R) Plus Graphics 655",
+          "vram_size": 128
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYZZ4AAAAAFP+KQnQAAAAB0/bDaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

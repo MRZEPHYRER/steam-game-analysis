@@ -1,0 +1,214 @@
+{
+  "requested_at": "2026-09-12T18:02:50.746195+00:00",
+  "request_params": {
+    "appids": 3920260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3920260,
+  "payload": {
+    "3920260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Don't Flip First",
+        "steam_appid": 3920260,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >This is a reflex game where a fat cartoon cat flips you off, and you have to flip back at the same time. That's it. That's the game.<br><br>This <u>IS</u> the greatest game you'll ever play in your entire life. Probably. You won't regret spending $1. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/extras/1a64e75ca96d7c5333f4d934dbe0d82e.avif?t=1755729916\" width=1600 height=900 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_strike\">(no refunds.... jk)</span></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >This is a reflex game where a fat cartoon cat flips you off, and you have to flip back at the same time. That's it. That's the game.<br><br>This <u>IS</u> the greatest game you'll ever play in your entire life. Probably. You won't regret spending $1. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/extras/1a64e75ca96d7c5333f4d934dbe0d82e.avif?t=1755729916\" width=1600 height=900 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_strike\">(no refunds.... jk)</span></p>",
+        "short_description": "This is a reflex game where a fat cartoon cat flips you off, and you have to flip back at the same time. That's it. That's the game. This IS the greatest game you'll ever play in your entire life. Probably. You won't regret spending $1.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/e1769353f39faf714758ef78ab2d632452852df2/header.jpg?t=1755729916",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/735d737490cfac031c826576bac566fde15fd609/capsule_231x87.jpg?t=1755729916",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/735d737490cfac031c826576bac566fde15fd609/capsule_184x69.jpg?t=1755729916",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 SP1+<br></li><li><strong>Processor:</strong> Dual-core 2.0 GHz<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics (Intel HD 4000 or better)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> Designed to run on a potato. If it doesn’t, you might be the problem.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Quad-core 2.5 GHz<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Graphics:</strong> Anything that turns on<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 200 MB available space<br></li><li><strong>Sound Card:</strong> Any<br></li><li><strong>Additional Notes:</strong> Best enjoyed with snacks and no dignity.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "legal_notice": "© 2025 LionsHead Development. All rights reserved.<br />\r\n",
+        "developers": [
+          "LionsHead Development"
+        ],
+        "publishers": [
+          "LionsHead Development"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1377535
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Don't Flip First",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1377535,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Don't Flip First - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "9",
+            "description": "Racing"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/9502f27a2154a7fdcbe857d49fca08f53b855a51/ss_9502f27a2154a7fdcbe857d49fca08f53b855a51.600x338.jpg?t=1755729916",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/9502f27a2154a7fdcbe857d49fca08f53b855a51/ss_9502f27a2154a7fdcbe857d49fca08f53b855a51.1920x1080.jpg?t=1755729916"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/abc02d614cd8e2b5e8eb5651c65276343033df86/ss_abc02d614cd8e2b5e8eb5651c65276343033df86.600x338.jpg?t=1755729916",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/abc02d614cd8e2b5e8eb5651c65276343033df86/ss_abc02d614cd8e2b5e8eb5651c65276343033df86.1920x1080.jpg?t=1755729916"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/0ec1317e701716d72462ad2890bc0c4a609eb773/ss_0ec1317e701716d72462ad2890bc0c4a609eb773.600x338.jpg?t=1755729916",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/0ec1317e701716d72462ad2890bc0c4a609eb773/ss_0ec1317e701716d72462ad2890bc0c4a609eb773.1920x1080.jpg?t=1755729916"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/d58e68b22071d7745bffbbda9722969dee704602/ss_d58e68b22071d7745bffbbda9722969dee704602.600x338.jpg?t=1755729916",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/d58e68b22071d7745bffbbda9722969dee704602/ss_d58e68b22071d7745bffbbda9722969dee704602.1920x1080.jpg?t=1755729916"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/01540d337bf5776d021bc86fc1a9baa96abf1e58/ss_01540d337bf5776d021bc86fc1a9baa96abf1e58.600x338.jpg?t=1755729916",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/01540d337bf5776d021bc86fc1a9baa96abf1e58/ss_01540d337bf5776d021bc86fc1a9baa96abf1e58.1920x1080.jpg?t=1755729916"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257175937,
+            "name": "Don't_Flip_First_Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257175937/109ec3e05ee416e0c0a500fe13de2e17eabddec0/movie_600x337.jpg?t=1754046318",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3920260/681009486/14f1cd22640826a9add4d92c0690833bc9d22f5e/1753911616/dash_av1.mpd?t=1754046318",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3920260/681009486/14f1cd22640826a9add4d92c0690833bc9d22f5e/1753911616/dash_h264.mpd?t=1754046318",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3920260/681009486/14f1cd22640826a9add4d92c0690833bc9d22f5e/1753911616/hls_264_master.m3u8?t=1754046318",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 20, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "LionsHeadDev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3920260?t=1755729916",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920260/1234613564bb48068799b8566a040623b9058ae9/page_bg_raw.jpg?t=1755729916",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "You get flipped off by a cartoon cat."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nViolência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Schimpfwörte\nFantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Penggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

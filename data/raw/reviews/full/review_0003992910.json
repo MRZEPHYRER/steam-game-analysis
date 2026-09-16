@@ -1,0 +1,68 @@
+{
+  "appid": 3992910,
+  "requested_at": "2026-09-13T20:09:03.859994+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "223757196",
+        "author": {
+          "steamid": "76561198154618267",
+          "personaname": "thunderbolt3v",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198154618267/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 61,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 61,
+          "last_played": 1776755452,
+          "avatar": "6b7a8789bc7d2fc5d606e782906b7bb72d238e23"
+        },
+        "language": "english",
+        "review": "Loving this game. Classic top down zombie truck shooter with the aura of H3:ODST. I'll be replaying it once a month and praying for updates.",
+        "timestamp_created": 1776755540,
+        "timestamp_updated": 1776755540,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525862038135528564",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1780979019,
+        "developer_response": "Thank you so much for this wonderful review!! Hearing you found it felt like Halo 3 ODST is such an amazing complement and so awesome to hear, thank you!! :D",
+        "app_release_date": "1758868807",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZe5YAAAAAFP+DT3IAAAAB8uMjVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2659999999996217,
+  "transport_error_count": 0
+}

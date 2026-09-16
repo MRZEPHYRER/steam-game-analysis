@@ -1,0 +1,306 @@
+{
+  "requested_at": "2026-09-12T16:43:44.842245+00:00",
+  "request_params": {
+    "appids": 3806460,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3806460,
+  "payload": {
+    "3806460": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Stickman Beach Volleyball DELUXE",
+        "steam_appid": 3806460,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Be among the stick beach volleyball champions! </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >The DELUXE Windows version features:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Improved graphics using the HDRP rendering pipleine and HDR display outuput support</p></li><li><p class=\"bb_paragraph\" >Controller support</p></li><li><p class=\"bb_paragraph\" >More varied locations</p></li><li><p class=\"bb_paragraph\" >Improved game code</p><p class=\"bb_paragraph\" ></p></li></ul><p class=\"bb_paragraph\" >You are a stickman volleyball player! Time for some running and smashing of the ball on a beautiful 3d beach to relax.</p><p class=\"bb_paragraph\" >Features:</p><p class=\"bb_paragraph\" >★ 3D levels and stick men</p><p class=\"bb_paragraph\" >★ Quick match and tournament mode</p><p class=\"bb_paragraph\" >★ Select your difficulty, and points per game ( 5, 15 or the full 25)</p><p class=\"bb_paragraph\" >★ quick volleyball match: single match, best out of 2 and best out of 5</p><p class=\"bb_paragraph\" >★ no confusing things like career options, leveling or multiplayer </p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Be among the stick beach volleyball champions! </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >The DELUXE Windows version features:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Improved graphics using the HDRP rendering pipleine and HDR display outuput support</p></li><li><p class=\"bb_paragraph\" >Controller support</p></li><li><p class=\"bb_paragraph\" >More varied locations</p></li><li><p class=\"bb_paragraph\" >Improved game code</p><p class=\"bb_paragraph\" ></p></li></ul><p class=\"bb_paragraph\" >You are a stickman volleyball player! Time for some running and smashing of the ball on a beautiful 3d beach to relax.</p><p class=\"bb_paragraph\" >Features:</p><p class=\"bb_paragraph\" >★ 3D levels and stick men</p><p class=\"bb_paragraph\" >★ Quick match and tournament mode</p><p class=\"bb_paragraph\" >★ Select your difficulty, and points per game ( 5, 15 or the full 25)</p><p class=\"bb_paragraph\" >★ quick volleyball match: single match, best out of 2 and best out of 5</p><p class=\"bb_paragraph\" >★ no confusing things like career options, leveling or multiplayer </p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Become a stick beach volleyball champion!  Multiple varied beach locations!",
+        "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Czech<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, Polish<strong>*</strong>, Portuguese - Brazil<strong>*</strong>, Russian<strong>*</strong>, Simplified Chinese<strong>*</strong>, Thai<strong>*</strong>, Turkish<strong>*</strong>, Ukrainian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/e717c0252b30d7b1d620e53f302be5efda192c9e/header.jpg?t=1781267074",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/1ece5ab6cccae4d4cac98c0a626f85e63c8d015b/capsule_231x87.jpg?t=1781267074",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/1ece5ab6cccae4d4cac98c0a626f85e63c8d015b/capsule_184x69.jpg?t=1781267074",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 version 21H1<br></li><li><strong>Processor:</strong> x86, x64 architecture with SSE2 instruction set support, ARM64<br></li><li><strong>Memory:</strong> 4 GB RAM</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Big Sur 11.0+<br></li><li><strong>Processor:</strong> Apple Silicon, x64 architecture with SSE2 instruction set support<br></li><li><strong>Memory:</strong> 4 GB RAM</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 and Ubuntu 22.04<br></li><li><strong>Processor:</strong> X64 architecture with SSE2 instruction set support<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan-capable  Nvidia and AMD GPUs</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Yurii Nikshych"
+        ],
+        "publishers": [
+          "Yurii Nikshych",
+          "GrabTheGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 79,
+          "discount_percent": 84,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$0.79"
+        },
+        "packages": [
+          1338851
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Stickman Beach Volleyball DELUXE",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1338851,
+                "percent_savings_text": "-84% ",
+                "percent_savings": 0,
+                "option_text": "Stickman Beach Volleyball - <span class=\"discount_original_price\">$4.99</span> $0.79",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 79
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/2c5a7610163d78c29420f2bcb1d9c8a1f1672070/ss_2c5a7610163d78c29420f2bcb1d9c8a1f1672070.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/2c5a7610163d78c29420f2bcb1d9c8a1f1672070/ss_2c5a7610163d78c29420f2bcb1d9c8a1f1672070.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/47469fa372330609296d3252d8bd790f60c4158a/ss_47469fa372330609296d3252d8bd790f60c4158a.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/47469fa372330609296d3252d8bd790f60c4158a/ss_47469fa372330609296d3252d8bd790f60c4158a.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/4ba102064bd1b754a4e9116065cd3a4b1cfc127c/ss_4ba102064bd1b754a4e9116065cd3a4b1cfc127c.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/4ba102064bd1b754a4e9116065cd3a4b1cfc127c/ss_4ba102064bd1b754a4e9116065cd3a4b1cfc127c.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/51dc084e5249dbedde044d98589bdb303dc9cfd6/ss_51dc084e5249dbedde044d98589bdb303dc9cfd6.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/51dc084e5249dbedde044d98589bdb303dc9cfd6/ss_51dc084e5249dbedde044d98589bdb303dc9cfd6.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/bd1869dc8da1d7578c3993983a776ffcda3b345d/ss_bd1869dc8da1d7578c3993983a776ffcda3b345d.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/bd1869dc8da1d7578c3993983a776ffcda3b345d/ss_bd1869dc8da1d7578c3993983a776ffcda3b345d.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/a4a80cbfebb46f47cbec41565ec628ea24608603/ss_a4a80cbfebb46f47cbec41565ec628ea24608603.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/a4a80cbfebb46f47cbec41565ec628ea24608603/ss_a4a80cbfebb46f47cbec41565ec628ea24608603.1920x1080.jpg?t=1781267074"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/764bfbf5d6fd75c9bcf32523b19a318f98d92ab2/ss_764bfbf5d6fd75c9bcf32523b19a318f98d92ab2.600x338.jpg?t=1781267074",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/764bfbf5d6fd75c9bcf32523b19a318f98d92ab2/ss_764bfbf5d6fd75c9bcf32523b19a318f98d92ab2.1920x1080.jpg?t=1781267074"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257174963,
+            "name": "Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174963/900f2906d4c478484fc88cd65f4ebe75684660cb/movie_600x337.jpg?t=1756209646",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3806460/2107649081/3501382a5c4639805ee2182a8210180b9a97e26e/1753720129/dash_av1.mpd?t=1756209646",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3806460/2107649081/3501382a5c4639805ee2182a8210180b9a97e26e/1753720129/dash_h264.mpd?t=1756209646",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3806460/2107649081/3501382a5c4639805ee2182a8210180b9a97e26e/1753720129/hls_264_master.m3u8?t=1756209646",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 12,
+          "highlighted": [
+            {
+              "icon": "9d85c760c7fd330bd69c6370bc95eaaf417a2740.jpg",
+              "localized_name": "Tutorial",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tutorial",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/9d85c760c7fd330bd69c6370bc95eaaf417a2740.jpg"
+            },
+            {
+              "icon": "25cda9ce453a836ef3732b08c05cf825a63a2fca.jpg",
+              "localized_name": "One Match",
+              "archived": 0,
+              "hidden": 0,
+              "name": "One Match",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/25cda9ce453a836ef3732b08c05cf825a63a2fca.jpg"
+            },
+            {
+              "icon": "5974d84dd9d2a2cd0088dc3efc8dc02df473766a.jpg",
+              "localized_name": "Two Matches",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Two Matches",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/5974d84dd9d2a2cd0088dc3efc8dc02df473766a.jpg"
+            },
+            {
+              "icon": "f34259a27a7e0818e765d5cdfed9a3b77dffe27e.jpg",
+              "localized_name": "Five Matches",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Five Matches",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/f34259a27a7e0818e765d5cdfed9a3b77dffe27e.jpg"
+            },
+            {
+              "icon": "0ef7c09dc6e3150137271182b2a34a935dd669f5.jpg",
+              "localized_name": "Fifteen Matches",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fifteen Matches",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/0ef7c09dc6e3150137271182b2a34a935dd669f5.jpg"
+            },
+            {
+              "icon": "576b3954f1e5aa278c2c42f9c83f742536b9e0cd.jpg",
+              "localized_name": "Fifty!!!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fifty!!!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/576b3954f1e5aa278c2c42f9c83f742536b9e0cd.jpg"
+            },
+            {
+              "icon": "90eaba3019c73cf7f1524db6aff7752486a6a424.jpg",
+              "localized_name": "The noble hundred",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The noble hundred",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/90eaba3019c73cf7f1524db6aff7752486a6a424.jpg"
+            },
+            {
+              "icon": "19a3b93c65bd39bd4ec03de052fd688271cd5909.jpg",
+              "localized_name": "Won a tournament",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Won a tournament",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/19a3b93c65bd39bd4ec03de052fd688271cd5909.jpg"
+            },
+            {
+              "icon": "d170ef75150b3d34be108387fed6b6452b449677.jpg",
+              "localized_name": "Won 3 tournaments",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Won 3 tournaments",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/d170ef75150b3d34be108387fed6b6452b449677.jpg"
+            },
+            {
+              "icon": "ddb6b2598478f9c08d4bdca04bc48f3825dbc3cf.jpg",
+              "localized_name": "Won 10 tournaments! Nice!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Won 10 tournaments! Nice!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3806460/ddb6b2598478f9c08d4bdca04bc48f3825dbc3cf.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 4, 2025"
+        },
+        "support_info": {
+          "url": "http://bestgamesstudios.coolpage.biz/",
+          "email": "bestgamesstudioscontact@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3806460?t=1781267074",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3806460/f29bbdf585cb494a28ede6283d80c4b38502663b/page_bg_raw.jpg?t=1781267074",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

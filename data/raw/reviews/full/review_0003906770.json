@@ -1,0 +1,71 @@
+{
+  "appid": 3906770,
+  "requested_at": "2026-09-13T19:58:04.878528+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 106,
+      "total_negative": 34,
+      "total_reviews": 140
+    },
+    "reviews": [
+      {
+        "recommendationid": "204263973",
+        "author": {
+          "steamid": "76561198129330054",
+          "personaname": "Yumeneko",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198129330054/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 57,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 57,
+          "last_played": 1757790594,
+          "avatar": "fea3200ece156c32c408a9c09d97cb2648fc575c"
+        },
+        "language": "japanese",
+        "review": "試みは面白いと思った。\n特に、ジャンプスケアがホラーとして認めない人がいるなどジャンルを調べていると高評価だった。\n\nしかし、ゲーム性は酷いと言わざるを得ない。\n\nテスト2では、見ない・聞かないの２つのアクションが出来る。\nここまではまぁ良いと思う。(そもそも暗すぎて見ない対象すら見えないと言う気持ちも一旦抑える)\n隠れてくださいという指示なのに隠れるアクションが無いのはゲームとしてどうだろうか？\n追跡されながら敵の行動を分析し、適切に巻く事が目的の設計ということか？\n確かにそのようなゲームも多い。ただし、このテストには正気度がチェック項目に含まれている。\nチェック項目と操作・テスト内容が乖離しており何がしたいのかわからない。\n\nテスト３では、逃げることが内容となっている。\n一見すると、逃げながらドーナツを集めるゲームなのだから内容として問題はない。\nしかし実情は大きく異なる。\nまず、敵は障害物を貫通することが出来る。\nそして行き止まりがマップの要所にありほぼ詰みといった状況も発生しうる。\n更に、敵の声は音響設定が正しくないため正確な距離感を掴むこともできない。\n\nこの状況でドーナツを探しながら、マップ構成や障害物を正確に判断し即座にルート構築。\n一瞬の判断ミスもせず行き止まりは即座にUターン。\nプロゲーマー用のテスト(未調整版)だろうか？\n\n最後にここからは個人的な感想だが、ゲームを買わせる立場の人間が\n逃げとして文章を用意してることに憤りを感じる。このテストに意味があるか疑わしい？\nなら売るな。売る側の責任としても疑問を覚えずにいられないゲームとなった。",
+        "timestamp_created": 1757791932,
+        "timestamp_updated": 1757791932,
+        "voted_up": false,
+        "votes_up": 20,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.703612327575683594",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755672963",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFV7YGAAAAAFP+aD/WAAAAB1opqLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

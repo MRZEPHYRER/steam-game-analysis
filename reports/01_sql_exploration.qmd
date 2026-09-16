@@ -1,0 +1,122 @@
+---
+title: "Step 4A SQL Exploration"
+subtitle: "Steam 3,000-game market sample"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+---
+
+```{r}
+source("../R/db_connect.R")
+project_root <- find_project_root()
+result_path <- function(name) {
+  file.path(project_root, "data", "analysis", "sql", paste0(name, ".csv"))
+}
+read_result <- function(name) read.csv(result_path(name), check.names = FALSE)
+
+db_counts <- with_steam_db(function(con) {
+  DBI::dbGetQuery(
+    con,
+    paste(
+      "SELECT",
+      "(SELECT COUNT(*) FROM games) AS games,",
+      "(SELECT COUNT(*) FROM review_snapshots) AS review_snapshots,",
+      "(SELECT COUNT(*) FROM game_genres) AS game_genres,",
+      "(SELECT COUNT(*) FROM genres) AS genres,",
+      "(SELECT COUNT(*) FROM vw_model_sample_20) AS model_sample"
+    )
+  )
+})
+stopifnot(
+  db_counts$games[[1]] == 3000,
+  db_counts$review_snapshots[[1]] == 3000,
+  db_counts$game_genres[[1]] == 8796,
+  db_counts$genres[[1]] == 13,
+  db_counts$model_sample[[1]] == 844
+)
+
+market <- read_result("market_overview")
+price_bands <- read_result("price_bands")
+review_volume <- read_result("review_volume_distribution")
+genre_summary <- read_result("genre_summary")
+release_month <- read_result("release_month_summary")
+model_comparison <- read_result("model_sample_comparison")
+```
+
+# Scope and semantics
+
+This is SQL-first descriptive exploration. The market sample contains all 3,000
+games, including zero- and low-review games. The model candidate sample is the
+844 games with at least 20 Steam-purchase reviews. `total_reviews` is interpreted
+only as a player-attention/market-engagement proxy, never sales. `positive_rate`
+is observed Steam-review positivity and is used only when reviews exist. Prices
+are collection-time storefront snapshots rather than launch or lifetime prices.
+
+# Market structure
+
+```{r}
+knitr::kable(market, digits = 2)
+```
+
+Observed in this sample, `r market$free_games` games (`r market$free_share_pct`%)
+are free and `r market$zero_review_games` (`r market$zero_review_share_pct`%)
+have no reviews. Windows support is nearly universal; macOS and Linux support
+are much less common.
+
+# Collection-time price bands
+
+```{r}
+knitr::kable(price_bands, digits = 4)
+```
+
+Review volume is strongly skewed inside price bands, so medians and means are
+shown together. These observed differences do not establish a price effect.
+
+# Review-volume distribution
+
+```{r}
+knitr::kable(review_volume, digits = 4)
+```
+
+The first two bands contain `r sum(review_volume$games[1:2])` games, showing that
+zero or single-digit review counts are common. The long upper tail motivates the
+supplementary `LN(1 + total_reviews)` summary and robust statistics.
+
+# Genre membership
+
+```{r}
+knitr::kable(genre_summary, digits = 4)
+```
+
+Genres are multi-label: membership counts and percentages are not mutually
+exclusive, and genre counts can sum above 3,000.
+
+# Release-month structure
+
+```{r}
+knitr::kable(release_month, digits = 4)
+```
+
+The table describes observed differences among the six sampled release months.
+It does not identify seasonality or a causal month effect.
+
+# Full market versus model candidate sample
+
+```{r}
+knitr::kable(model_comparison, digits = 4)
+```
+
+The >=20-review restriction materially changes sample composition, especially
+free-game prevalence, observed price, genre mix, and attention. These selection
+differences must be retained as a limitation in later modeling.
+
+# Next questions
+
+- Examine skew-aware visual summaries in Step 4B without discarding zero-review games.
+- Assess uncertainty in raw positive rates, especially for low-review games.
+- Consider Wilson intervals or empirical-Bayes shrinkage before rating comparisons.
+- Explore price, genre, platform, and release-month associations without causal language.
+- Diagnose selection into the >=20-review candidate sample before formal modeling.

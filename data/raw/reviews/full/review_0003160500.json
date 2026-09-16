@@ -1,0 +1,66 @@
+{
+  "appid": 3160500,
+  "requested_at": "2026-09-13T19:05:39.011253+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 54,
+      "total_negative": 20,
+      "total_reviews": 74
+    },
+    "reviews": [
+      {
+        "recommendationid": "205364980",
+        "author": {
+          "steamid": "76561197984855878",
+          "personaname": "Pie",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/pie-zero/",
+          "num_games_owned": 0,
+          "num_reviews": 272,
+          "playtime_forever": 871,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 289,
+          "last_played": 1759386227,
+          "avatar": "42d9cf89cb1f25ad3198904fdb499ba463b291fd"
+        },
+        "language": "english",
+        "review": "I played the Demo when a while ago. I thought it was fun, and with some evolution it may get to where it needs to.\n\nUnfortunately I don't think that's where it is. It's a fun game, please do not get me wrong. And the price tag is low.\n\nBut once you've played your second game after unlocking a bunch of things - it doesn't get tons different each play through. It's mostly waiting and trying out new card combos. The strategy level isn't super high.\n\nIt's not a bad game at all. I'd rate it middling if I could. It's more so just a game that hasn't fully flourished into what it can be. I'm in no means saying don't get it, I'm saying that be careful that you super like the gameplay loop you played in the demo.)",
+        "timestamp_created": 1759024937,
+        "timestamp_updated": 1759024937,
+        "voted_up": false,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.647599577903747559",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1742809333",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXDEmAAAAAFP+S5I6AAAAB077OPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1089999999999236,
+  "transport_error_count": 0
+}

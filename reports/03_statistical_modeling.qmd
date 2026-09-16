@@ -1,0 +1,480 @@
+---
+title: "Step 5B-5F Reception Modeling and Diagnostics"
+subtitle: "Frozen inference, sensitivity, high-rating, and rating-reliability analyses"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: true
+---
+
+```{r}
+source("../R/modeling/00_model_helpers.R")
+
+read_model_output <- function(name) {
+  read.csv(file.path(model_audit_dir, name), check.names = FALSE, encoding = "UTF-8")
+}
+model_figure <- function(name) file.path(model_figure_dir, name)
+
+fit <- read_model_output("step5b_model_fit_summary.csv")
+coef <- read_model_output("step5b_coefficients.csv")
+profile_ci <- read_model_output("step5b_profile_ci.csv")
+scaling <- read_model_output("step5b_scaling_parameters.csv")
+effects <- read_model_output("step5b_predicted_effects.csv")
+dispersion <- read_model_output("step5b_dispersion_diagnostics.csv")
+residuals <- read_model_output("step5b_residual_summary.csv")
+large_residuals <- read_model_output("step5b_large_residual_counts.csv")
+leverage <- read_model_output("step5b_leverage_summary.csv")
+cooks <- read_model_output("step5b_cooks_summary.csv")
+association <- read_model_output("step5b_review_influence_association.csv")
+collinearity <- read_model_output("step5b_collinearity.csv")
+matrix_audit <- read_model_output("step5b_matrix_diagnostics.csv")
+probability <- read_model_output("step5b_fitted_probability_summary.csv")
+calibration <- read_model_output("step5b_calibration_deciles.csv")
+warnings <- read_model_output("step5b_fit_warnings.csv")
+
+stopifnot(
+  fit$n_games == 836,
+  fit$unique_appids == 836,
+  fit$converged,
+  all(probability$min > 0),
+  all(probability$max < 1)
+)
+```
+
+# Frozen specification
+
+The primary population is `model20_paid`: paid games with at least 20 reviews. The response is
+`cbind(positive_reviews, negative_reviews)` under a binomial logit model. The frozen predictors are standardized
+`log1p(current_price_usd)`, standardized days since release, the four observed platform levels (Windows only as
+reference), and seven independently coded genre indicators. No rows were removed because of residuals, leverage,
+influence, volume, or price.
+
+```{r}
+knitr::kable(fit, digits = 4)
+knitr::kable(scaling, digits = 4)
+```
+
+# Coefficients and model contrasts
+
+Odds ratios for the two numeric predictors represent a +1 SD contrast. Platform terms compare with Windows only;
+genre terms compare presence with absence. P-values remain available for audit, while interpretation emphasizes
+effect size, direction, and interval uncertainty. The modeled contrasts are descriptive, not causal.
+
+```{r}
+knitr::kable(coef, digits = 5)
+knitr::kable(profile_ci, digits = 5)
+knitr::kable(effects, digits = 5)
+```
+
+```{r}
+#| fig-cap: "Baseline odds ratios and Wald 95% intervals (log scale)"
+knitr::include_graphics(model_figure("04_baseline_odds_ratios.png"))
+```
+
+# Overdispersion and residuals
+
+The grouped-binomial denominator is part of the likelihood; no artificial game-level weights or denominator caps
+were added. Pearson and deviance dispersion quantify whether nominal Bernoulli information yields overly precise
+standard-binomial inference.
+
+```{r}
+knitr::kable(dispersion, digits = 5)
+knitr::kable(residuals, digits = 4)
+knitr::kable(large_residuals, digits = 4)
+```
+
+```{r}
+#| fig-cap: "Standardized deviance residuals versus fitted probability"
+knitr::include_graphics(model_figure("02_residuals_vs_fitted.png"))
+```
+
+# Leverage, influence, and review concentration
+
+Step 5A found that approximately 49.98%, 77.24%, and 86.42% of all reviews came from the top 1%, 5%, and 10% of
+games by volume. This concentration is not itself an error: larger grouped-binomial denominators contribute more
+nominal Bernoulli information. Hat values, Cook's distance, and their rank association with review volume assess
+whether particular games dominate the fitted model.
+
+```{r}
+knitr::kable(leverage, digits = 6)
+knitr::kable(cooks, digits = 6)
+knitr::kable(association, digits = 5)
+```
+
+```{r}
+#| fig-cap: "Review volume and Cook's distance; dashed line is the 4/n reference"
+knitr::include_graphics(model_figure("03_influence_review_volume.png"))
+```
+
+# Collinearity, convergence, and fitted probabilities
+
+```{r}
+knitr::kable(collinearity, digits = 5)
+knitr::kable(matrix_audit, digits = 5)
+knitr::kable(probability, digits = 6)
+knitr::kable(warnings)
+```
+
+# Descriptive calibration
+
+This in-sample decile check compares mean fitted probability with the pooled observed review-level positive rate.
+It is descriptive and is not a formal calibration test or out-of-sample validation claim.
+
+```{r}
+knitr::kable(calibration, digits = 5)
+```
+
+```{r}
+#| fig-cap: "Descriptive in-sample calibration by fitted-probability decile"
+knitr::include_graphics(model_figure("01_baseline_calibration.png"))
+```
+
+# Baseline limitations and next step
+
+The standard binomial assumes review-level Bernoulli variation is adequately represented by the grouped counts.
+The numerical dispersion and influence diagnostics above show that this baseline is not adequate for final
+inference. The following Step 5C section implements only the pre-specified quasi-binomial, beta-binomial, and
+review-volume exclusion analyses. It does not run alternative release specifications, threshold sensitivity, or
+other Step 5D analyses.
+
+# Step 5C: Overdispersion-robust reception modeling
+
+```{r}
+quasi_fit_5c <- read_model_output("step5c_quasi_fit.csv")
+quasi_coef_5c <- read_model_output("step5c_quasi_coefficients.csv")
+quasi_inflation_5c <- read_model_output("step5c_quasi_inflation.csv")
+beta_fit_5c <- read_model_output("step5c_beta_binomial_fit.csv")
+beta_coef_5c <- read_model_output("step5c_beta_binomial_coefficients.csv")
+beta_dispersion_5c <- read_model_output("step5c_beta_dispersion.csv")
+beta_diagnostics_5c <- read_model_output("step5c_beta_diagnostics.csv")
+model_comparison_5c <- read_model_output("step5c_model_comparison.csv")
+coef_comparison_5c <- read_model_output("step5c_coefficient_comparison.csv")
+direction_5c <- read_model_output("step5c_direction_stability.csv")
+populations_5c <- read_model_output("step5c_influence_populations.csv")
+influence_robustness_5c <- read_model_output("step5c_influence_robustness.csv")
+predicted_5c <- read_model_output("step5c_predicted_effect_comparison.csv")
+warnings_5c <- read_model_output("step5c_fit_warnings.csv")
+
+stopifnot(
+  all(model_comparison_5c$n_games == 836),
+  quasi_fit_5c$converged,
+  beta_fit_5c$converged,
+  beta_fit_5c$positive_definite_hessian,
+  all(beta_coef_5c$profile_ci_status == "PASS"),
+  identical(populations_5c$n_games, c(836L, 835L, 827L, 794L))
+)
+```
+
+## Quasibinomial uncertainty correction
+
+The quasibinomial fit keeps the frozen Binomial mean coefficients and estimates a variance multiplier from the
+Pearson residuals. It has no likelihood-comparable log-likelihood, AIC, or BIC. This model is therefore a direct
+check of how severely the standard Binomial understated coefficient uncertainty.
+
+```{r}
+knitr::kable(quasi_fit_5c, digits = 5)
+knitr::kable(
+  quasi_inflation_5c[, c(
+    "term", "se_inflation_ratio", "ci_width_inflation_ratio",
+    "binomial_ci_crosses_or_1", "quasi_ci_crosses_or_1"
+  )],
+  digits = 4
+)
+```
+
+## Beta-binomial implementation and heterogeneity
+
+The grouped beta-binomial fit uses `glmmTMB::betabinomial(link="logit")`. Its dispersion parameter is beta precision
+`phi`, with variance `n*p*(1-p)*(phi+n)/(phi+1)` and derived within-game correlation `rho=1/(phi+1)`. Larger `phi`
+means less extra-binomial heterogeneity; the Binomial limit is approached as `phi` tends to infinity.
+
+```{r}
+knitr::kable(beta_fit_5c, digits = 6)
+knitr::kable(beta_dispersion_5c, digits = 6)
+knitr::kable(beta_diagnostics_5c, digits = 6)
+```
+
+Both Wald and profile-likelihood intervals are retained for all 13 beta-binomial fixed effects. The model comparison
+below uses profile intervals for beta-binomial and Wald intervals for Binomial and Quasibinomial.
+
+```{r}
+knitr::kable(
+  beta_coef_5c[, c(
+    "term", "estimate_log_odds", "std_error", "odds_ratio",
+    "or_ci95_lower", "or_ci95_upper",
+    "profile_or_ci95_lower", "profile_or_ci95_upper", "profile_ci_status"
+  )],
+  digits = 5
+)
+```
+
+## Robust model and coefficient comparison
+
+Step 5B Binomial p-values and intervals remain only a benchmark because the extreme overdispersion invalidates their
+nominal precision. Interpretation prioritizes direction, OR magnitude, interval width, robust-model stability, and
+review-volume sensitivity; p-values are considered last.
+
+```{r}
+knitr::kable(model_comparison_5c, digits = 5)
+knitr::kable(
+  coef_comparison_5c[, c(
+    "term", "binomial_or", "quasi_or", "beta_or",
+    "beta_profile_or_ci_lower", "beta_profile_or_ci_upper",
+    "beta_or_change_vs_binomial_pct"
+  )],
+  digits = 4
+)
+knitr::kable(direction_5c, digits = 3)
+```
+
+```{r}
+#| fig-cap: "Binomial, Quasibinomial, and Beta-binomial odds ratios and 95% intervals"
+knitr::include_graphics(model_figure("05_robust_or_comparison.png"))
+```
+
+```{r}
+#| fig-cap: "Robust-model 95% interval width relative to the standard Binomial"
+knitr::include_graphics(model_figure("06_ci_width_comparison.png"))
+```
+
+## Pre-defined review-volume influence sensitivity
+
+Sensitivity populations remove exactly the top 1, top 1%, and top 5% of games after sorting total reviews descending
+and AppID ascending. The primary-sample price and days scaling parameters remain frozen in every fit. These exclusions
+are exposure-defined and do not use residuals, Cook's distance, p-values, or model performance.
+
+```{r}
+knitr::kable(populations_5c, digits = 5)
+knitr::kable(influence_robustness_5c, digits = 4)
+```
+
+```{r}
+#| fig-cap: "Beta-binomial coefficient sensitivity under pre-defined review-volume exclusions"
+knitr::include_graphics(model_figure("07_influence_sensitivity_coefficients.png"))
+```
+
+```{r}
+#| fig-cap: "Share of games removed versus share of review mass removed"
+knitr::include_graphics(model_figure("08_review_mass_removed.png"))
+```
+
+## Robust predicted effects, warnings, and recommendation
+
+Predicted probabilities use the Step 5B reference scenario and one-at-a-time predictor changes. They remain
+associational model contrasts rather than causal effects.
+
+```{r}
+knitr::kable(predicted_5c, digits = 5)
+knitr::kable(warnings_5c)
+```
+
+The beta-binomial is the candidate final inferential model because it directly represents game-level extra-binomial
+heterogeneity, has a comparable likelihood, converged with a positive-definite Hessian, completed profile intervals,
+and remained stable under the pre-defined review-volume exclusions. Quasibinomial remains a variance-only cross-check.
+The following section adds only the pre-specified Step 5D one-at-a-time sensitivity audit; the frozen primary model
+is not replaced automatically.
+
+# Step 5D: Pre-specified sensitivity analysis
+
+```{r}
+threshold_samples_5d <- read_model_output("step5d_threshold_samples.csv")
+diagnostics_5d <- read_model_output("step5d_diagnostics.csv")
+stability_5d <- read_model_output("step5d_core_predictor_stability.csv")
+release_5d <- read_model_output("step5d_release_coefficients.csv")
+price_5d <- read_model_output("step5d_price_predicted_contrasts.csv")
+genre_5d <- read_model_output("step5d_genre_comparison.csv")
+
+stopifnot(
+  nrow(diagnostics_5d) == 7,
+  all(diagnostics_5d$converged),
+  all(diagnostics_5d$positive_definite_hessian),
+  all(diagnostics_5d$warning_count == 0),
+  identical(threshold_samples_5d$n_games, c(2206L, 1127L, 836L, 548L))
+)
+```
+
+Seven beta-binomial specifications change exactly one design choice at a time. The four paid-game review thresholds
+contain 2,206, 1,127, 836, and 548 complete model rows. The broadest paid reviewed source contains 2,207 rows; one
+two-review game without the frozen price predictor is explicitly excluded. Threshold AIC values are not compared
+because the populations differ.
+
+```{r}
+knitr::kable(
+  threshold_samples_5d[, c(
+    "threshold", "source_paid_games", "excluded_missing_predictors", "n_games",
+    "total_reviews", "pooled_positive_rate", "median_game_positive_rate"
+  )],
+  digits = 4,
+  caption = "Step 5D nested threshold populations"
+)
+knitr::kable(
+  diagnostics_5d[, c(
+    "specification_id", "n_games", "convergence_code", "positive_definite_hessian",
+    "warning_count", "beta_precision_phi", "intra_game_rho", "delta_aic_vs_primary"
+  )],
+  digits = 5,
+  caption = "Step 5D beta-binomial diagnostics"
+)
+```
+
+The focus predictors retain their primary directions across every specification in which they appear. Price ORs
+range from `r sprintf("%.3f", stability_5d$minimum_or[stability_5d$conceptual_term == "z_log1p_price"])` to
+`r sprintf("%.3f", stability_5d$maximum_or[stability_5d$conceptual_term == "z_log1p_price"])`; Simulation ranges
+from `r sprintf("%.3f", stability_5d$minimum_or[stability_5d$conceptual_term == "genre_simulation"])` to
+`r sprintf("%.3f", stability_5d$maximum_or[stability_5d$conceptual_term == "genre_simulation"])`. Magnitude drift
+is predictor-specific: the three platform contrasts and Strategy receive PARTIAL audit flags, while Price, Days,
+Indie, RPG, and Simulation meet the pre-specified ROBUST rule. These labels are descriptive checks, not hypothesis
+tests.
+
+```{r}
+knitr::kable(stability_5d, digits = 4, caption = "Core predictor stability across Step 5D")
+```
+
+```{r}
+#| fig-cap: "Cross-specification log-odds direction and magnitude"
+knitr::include_graphics(model_figure("15_robustness_heatmap.png"))
+```
+
+```{r}
+#| fig-cap: "Primary odds ratio and observed sensitivity range"
+knitr::include_graphics(model_figure("16_or_range_summary.png"))
+```
+
+The release-month alternative uses July 2025 as reference; all August-December intervals cross OR = 1. Raw and
+log-price models both produce negative +1 SD probability contrasts. The expanded genre model adds only Early
+Access, Sports, and Racing; the latter two occur in 31 and 20 primary-sample games, respectively, and all three new
+genre intervals cross OR = 1. Early Access is the frozen Steam genre/category label, not a historical status.
+
+```{r}
+knitr::kable(
+  release_5d[grepl("^release_month", release_5d$term), c(
+    "term", "odds_ratio", "or_ci95_lower", "or_ci95_upper", "ci_crosses_1"
+  )],
+  digits = 4,
+  caption = "Release-month alternative; July 2025 is the reference"
+)
+knitr::kable(price_5d, digits = 5, caption = "Price transformation predicted-probability contrasts")
+knitr::kable(
+  genre_5d[genre_5d$term %in% c("genre_early_access", "genre_sports", "genre_racing"), c(
+    "term", "n_games_with_genre", "odds_ratio", "or_ci95_lower", "or_ci95_upper"
+  )],
+  digits = 4,
+  caption = "Added genre indicators"
+)
+```
+
+The dedicated `04_sensitivity_visual_audit.html` is the primary human-review surface and includes all ten Step 5D
+figures, full coefficient tables, diagnostic checks, and manual inspection prompts. No later modeling stage is run.
+
+# Step 5E: Secondary high-rating logistic analysis
+
+```{r}
+outcomes_5e <- read_model_output("step5e_outcome_distribution.csv")
+fit_5e <- read_model_output("step5e_primary_fit.csv")
+coef_5e <- read_model_output("step5e_primary_coefficients.csv")
+stability_5e <- read_model_output("step5e_rating_threshold_stability.csv")
+auc_5e <- read_model_output("step5e_auc.csv")
+beta_compare_5e <- read_model_output("step5e_beta_logistic_direction_comparison.csv")
+
+stopifnot(
+  fit_5e$n_games == 836,
+  fit_5e$converged,
+  identical(outcomes_5e$n_total, c(836L, 836L, 836L)),
+  all(outcomes_5e$comparator == ">="),
+  !fit_5e$weights_used,
+  !fit_5e$review_count_covariate_included
+)
+```
+
+Step 5E is a secondary, game-level analysis of whether a paid game with at least 20 reviews reaches a pre-specified
+positive-review-rate threshold. HIGH85 is primary; HIGH80 and HIGH90 are fixed sensitivity outcomes. Each game
+contributes one binary observation regardless of review volume. This differs from the Beta-binomial primary model,
+which uses positive and negative review counts. The 85% cutoff is business-readable rather than a natural scientific
+boundary, and neither rating nor classification thresholds are optimized.
+
+```{r}
+knitr::kable(outcomes_5e, digits = 4, caption = "Step 5E high-rating outcome audit")
+knitr::kable(fit_5e, digits = 4, caption = "HIGH85 logistic fit")
+knitr::kable(coef_5e, digits = 4, caption = "HIGH85 odds ratios and Wald intervals")
+```
+
+The dedicated `05_high_rating_visual_audit.html` contains the complete Chinese audit surface, including predictor
+cells, separation heuristics, influence diagnostics, calibration, AUC, predicted-probability contrasts, and the
+80/85/90 coefficient stability audit. AUC (`r sprintf("%.3f", auc_5e$auc)`) is an in-sample descriptive diagnostic,
+not the model-selection objective. Stability labels are descriptive rather than hypothesis tests.
+
+```{r}
+knitr::kable(stability_5e, digits = 4, caption = "Rating-threshold coefficient stability")
+knitr::kable(
+  beta_compare_5e[, c(
+    "term", "beta_binomial_direction", "high85_logistic_direction",
+    "direction_agreement"
+  )],
+  caption = "Beta-binomial versus HIGH85 qualitative direction"
+)
+```
+
+```{r}
+#| fig-cap: "HIGH85 game-level odds ratios and Wald 95% intervals"
+knitr::include_graphics(model_figure("21_high_rating_primary_or.png"))
+```
+
+```{r}
+#| fig-cap: "Direction audit across outcomes; magnitudes are not directly comparable"
+knitr::include_graphics(model_figure("24_beta_vs_high_rating_direction.png"))
+```
+
+All Step 5E estimates are conditional associations with reaching a high-rating threshold. They do not establish that
+a feature causes a rating change, and the Beta-binomial remains the primary inferential analysis.
+
+# Step 5F: Wilson uncertainty and empirical-Bayes rating adjustment
+
+```{r}
+ratings_5f <- read_model_output("step5f_rating_estimates.csv")
+priors_5f <- read_model_output("step5f_eb_prior_parameters.csv")
+rank_correlations_5f <- read_model_output("step5f_rank_correlations.csv")
+topk_5f <- read_model_output("step5f_topk_overlap.csv")
+high_n_5f <- read_model_output("step5f_high_n_preservation.csv")
+
+stopifnot(
+  nrow(ratings_5f) == 2241,
+  all(ratings_5f$total_reviews > 0),
+  all(priors_5f$convergence_code == 0),
+  all(priors_5f$starts_agree)
+)
+```
+
+Step 5F uses all 2,241 games with at least one review, including both free and paid games. The 759 zero-review games
+remain part of the 3,000-game market sample but have no observed reception outcome and are excluded from Wilson and
+empirical-Bayes estimation. No price, genre, platform, or release regression is introduced.
+
+The 95% Wilson score interval quantifies sampling uncertainty without changing the observed point estimate. Its lower
+bound supports a conservative ranking but is not a posterior mean or an adjusted rating. The empirical-Bayes posterior
+mean instead shrinks low-denominator extremes toward a Beta prior estimated by deterministic maximum marginal
+likelihood. Priors estimated on games with at least 10 and 20 reviews are sensitivity checks applied to the same
+2,241-game evaluation population.
+
+```{r}
+knitr::kable(priors_5f, digits = 6, caption = "Step 5F empirical-Bayes prior estimates and optimization audit")
+knitr::kable(rank_correlations_5f, digits = 5, caption = "Raw, Wilson, and EB rank correlations")
+knitr::kable(topk_5f, digits = 5, caption = "Raw, Wilson, and EB Top-K overlap")
+knitr::kable(high_n_5f, digits = 7, caption = "High-review-count EB preservation audit")
+```
+
+```{r}
+#| fig-cap: "Raw positive rate versus empirical-Bayes posterior mean"
+knitr::include_graphics(model_figure("28_raw_vs_eb_rating.png"))
+```
+
+```{r}
+#| fig-cap: "Primary and sensitivity EB priors among low-review-count games"
+knitr::include_graphics(model_figure("32_eb_prior_sensitivity.png"))
+```
+
+The dedicated `06_rating_adjustment_visual_audit.html` contains the complete Chinese audit. Scientific roles remain
+separate: Beta-binomial is the primary inferential regression; HIGH85 Logistic is the secondary threshold analysis;
+Wilson is an uncertainty-aware descriptive interval; and empirical Bayes is a population-informed shrinkage rating.
+None is a causal model or a claim about a game''s true quality.

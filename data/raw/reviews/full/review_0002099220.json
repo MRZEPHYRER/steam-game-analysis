@@ -1,0 +1,66 @@
+{
+  "appid": 2099220,
+  "requested_at": "2026-09-13T18:47:19.761575+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 319,
+      "total_negative": 50,
+      "total_reviews": 369
+    },
+    "reviews": [
+      {
+        "recommendationid": "221870461",
+        "author": {
+          "steamid": "76561198029818690",
+          "personaname": "fuch1141",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198029818690/",
+          "num_games_owned": 0,
+          "num_reviews": 16,
+          "playtime_forever": 3604,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2143,
+          "last_played": 1776438686,
+          "avatar": "c7166e6a46bda48df4a8f243dc8b5e13a267b078"
+        },
+        "language": "english",
+        "review": "Very good survivor-like game with multiplayer capability. It deserves more attention.",
+        "timestamp_created": 1774653993,
+        "timestamp_updated": 1775323643,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1660865213",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB9l6/OBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

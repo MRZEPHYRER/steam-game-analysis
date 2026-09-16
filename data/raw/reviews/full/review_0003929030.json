@@ -1,0 +1,73 @@
+{
+  "appid": 3929030,
+  "requested_at": "2026-09-13T20:01:29.167824+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "203816324",
+        "author": {
+          "steamid": "76561198009585222",
+          "personaname": "THIEVIUS FOX",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/THIEVIUSFOX/",
+          "num_games_owned": 1371,
+          "num_reviews": 136,
+          "playtime_forever": 249,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 249,
+          "last_played": 1757800871,
+          "avatar": "94c47d46969d1ce03b588f67cb954bcacee9f51d"
+        },
+        "language": "english",
+        "review": "[UPDATED]: \"Why Did You Leave Me Like This\" has me invested in this developer's future. As the first release from this developer I found myself thoroughly impressed and effectively terrified. \n\nI was first drawn in from the unsettling trailer, although the use of AI dialogue and that font choice almost turned me just as quickly as it pulled me in (thankfully the protagonist dialogue is not present in the actual game). Still, I saw something in the trailer and I listened to my gut, gave the game a shot and I was rewarded with a \"screamfest\" of a time.\n\n\"WDYLMLT\" excels in two areas: Story and sound design.\n♥♥♥♥♥♥♥♥, I love a good story in a game. Even if it's short, even if it's delivered to notes, a story, to me, is the most important part to any horror experience. If I'm not invested in the \"why\" or \"how\" everything else just feels lazy and pointless. I really appreciated discovering the mystery and the dark past that filled this home.\n\nThe sound design was by far my favorite part and truly amplified the whole experience; Voices heard but sources unseen, the way the audio distorted itself and elevated Natalie's presence, the sound in this game is INTENSE and effective. Visually there were some wonderfully horrific moments as well such as the face at the end when Natalie gets you and the eerie video playing on the TV. \n\nWhile the graphics are not the best, and the gameplay is very similar to classics before it, like Slender Man, the game literally shines in every other category. For $5 I had fun!",
+        "timestamp_created": 1757267905,
+        "timestamp_updated": 1758303571,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1757276094,
+        "developer_response": "Hi! Thank you so so much for giving my game a shot and leaving such a detailed review, I cannot overstate how much I appreciate that. \n\nYou are correct that two updates have been pushed, and I'm currently working on one more to address the difficulty of finding Natalie's toys (e.g., adding a louder, wider-ranged sound cue when you are close). The toys will still be challenging to find, but you will be able to locate them much easier when you get close enough (which still might require some careful searching). I also added more detailed instructions in the \"How to Play\" section so you know what you're looking for, how to trigger the game to start, etc.\n\nAs far as Natalie's aggression increasing exponentially, that has been addressed in one of the previous patches. She is now unable to spawn on top of you once you hit Stage/Level 3, but she will be able to get close enough to hopefully create some tension and a sense of urgency.\n\nFinally, as for the screen tearing, I'm going to be looking into that today and hopefully get a patch out ASAP. I noticed it while watching your gameplay and definitely want to get that fixed.\n\nAgain, I appreciate your review and gameplay (watching it right now actually!) and hope you stick around!\n\n- Leah",
+        "app_release_date": "1757094974",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB02L+JBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

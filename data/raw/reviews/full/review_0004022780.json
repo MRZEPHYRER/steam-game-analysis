@@ -1,0 +1,66 @@
+{
+  "appid": 4022780,
+  "requested_at": "2026-09-13T20:12:33.942186+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213700107",
+        "author": {
+          "steamid": "76561198330888468",
+          "personaname": "helix2",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198330888468/",
+          "num_games_owned": 0,
+          "num_reviews": 814,
+          "playtime_forever": 432,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 93,
+          "last_played": 1766616559,
+          "avatar": "4f2450896b10de50ab747d58a568bd966175482b"
+        },
+        "language": "english",
+        "review": "It's okay. It all seems to work. There is only one map, but that wasn't a secret. \nVery few player choices to be made, all the merges are automatic, you can't even pick which one you want to be the location after the merge. There is a farming portion, but it is minimal and not very interesting. you can buy weapons if you save 100 coins, and it helps everyone. Guessing maybe you can get better ones for multiples? There is a fishing thing going on but it has yet to tempt me, as the chance of success is so low. \nI do like that every time you level up, you keep the bonus you chose in all later games.\nAll told, this is as close to a thumbs down as a game has ever come and still gotten a thumbs up from me, and that is because it all seems to work. It could be better explained, but nothing was hard to figure out.\nBut it's all... okay.",
+        "timestamp_created": 1766209977,
+        "timestamp_updated": 1766211421,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759475612",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB74JmvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

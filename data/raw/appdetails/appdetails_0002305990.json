@@ -1,0 +1,320 @@
+{
+  "requested_at": "2026-09-12T13:36:57.510566+00:00",
+  "request_params": {
+    "appids": 2305990,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2305990,
+  "payload": {
+    "2305990": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Street Basket Challenge",
+        "steam_appid": 2305990,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Street Basket Challenge is a 2-on-2 SD-style basketball game featuring charismatic characters and a gameplay system inspired by classic arcade beat ’em ups.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >As usual for the series, traditional sports rules don’t apply. Players can steal the ball from opponents by any means necessary.</p><p class=\"bb_paragraph\" > Each team has a basket on three different backboards—high, medium, and low. Once a basket receives enough points, it breaks off the backboard. You can pick it up and repair it… or take it and attach it to your opponent’s board.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Stages include unique features such as traps and boost zones, and each character comes equipped with distinct abilities, special techniques, and powerful super shots.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game also includes a full tournament mode where players can level up, unlock improvements, and customize their playstyle. With a wide variety of stages, items, teams, characters, and special shots, Street Basket Challenge offers a deep and chaotic arcade-style experience with plenty of replay value.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Street Basket Challenge is a 2-on-2 SD-style basketball game featuring charismatic characters and a gameplay system inspired by classic arcade beat ’em ups.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >As usual for the series, traditional sports rules don’t apply. Players can steal the ball from opponents by any means necessary.</p><p class=\"bb_paragraph\" > Each team has a basket on three different backboards—high, medium, and low. Once a basket receives enough points, it breaks off the backboard. You can pick it up and repair it… or take it and attach it to your opponent’s board.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Stages include unique features such as traps and boost zones, and each character comes equipped with distinct abilities, special techniques, and powerful super shots.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game also includes a full tournament mode where players can level up, unlock improvements, and customize their playstyle. With a wide variety of stages, items, teams, characters, and special shots, Street Basket Challenge offers a deep and chaotic arcade-style experience with plenty of replay value.</p>",
+        "short_description": "Accept the challenge in this 2-on-2 SD-style basketball game, featuring charismatic characters and gameplay inspired by classic arcade beat ’em ups.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Spanish - Latin America, Japanese, Portuguese - Brazil, Portuguese - Portugal, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/78e9b52409094a30a0209627cbfa030f592c745d/header.jpg?t=1770860923",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/cf4fa4bb1e15c314cfe0231c8db059d2120a7c01/capsule_231x87.jpg?t=1770860923",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/cf4fa4bb1e15c314cfe0231c8db059d2120a7c01/capsule_184x69.jpg?t=1770860923",
+        "website": "http://ronaldgames.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> CPU @ 1.44GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> CPU @ 2.0GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 18.04 or newer, Debian 10+<br></li><li><strong>Processor:</strong> CPU @ 1.44GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 18.04 or newer, Debian 10+<br></li><li><strong>Processor:</strong> CPU @ 2.0GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>"
+        },
+        "developers": [
+          "Ronald Games"
+        ],
+        "publishers": [
+          "Ronald Games"
+        ],
+        "demos": [
+          {
+            "appid": 2306500,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "packages": [
+          827736
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Street Basket Challenge",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 827736,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Street Basket Challenge - $19.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 1999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "18",
+            "description": "Sports"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/eb424095d337a62a3baccd652b1779135dcf52c9/ss_eb424095d337a62a3baccd652b1779135dcf52c9.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/eb424095d337a62a3baccd652b1779135dcf52c9/ss_eb424095d337a62a3baccd652b1779135dcf52c9.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/8fa19a6ed125a41e3a3e770dd0fe9403162f65d4/ss_8fa19a6ed125a41e3a3e770dd0fe9403162f65d4.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/8fa19a6ed125a41e3a3e770dd0fe9403162f65d4/ss_8fa19a6ed125a41e3a3e770dd0fe9403162f65d4.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/8a4a4cb4d18fb7d0c5cfe3138264c97e03a27135/ss_8a4a4cb4d18fb7d0c5cfe3138264c97e03a27135.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/8a4a4cb4d18fb7d0c5cfe3138264c97e03a27135/ss_8a4a4cb4d18fb7d0c5cfe3138264c97e03a27135.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/9393be15e03a1900991f9af5de80cae540cf0368/ss_9393be15e03a1900991f9af5de80cae540cf0368.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/9393be15e03a1900991f9af5de80cae540cf0368/ss_9393be15e03a1900991f9af5de80cae540cf0368.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/14afc1afc7ee736b0b1ddd731f5ba8404c20ce33/ss_14afc1afc7ee736b0b1ddd731f5ba8404c20ce33.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/14afc1afc7ee736b0b1ddd731f5ba8404c20ce33/ss_14afc1afc7ee736b0b1ddd731f5ba8404c20ce33.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/9ec1c26d2a3ec4cb344a9d71c6ec4280044202ba/ss_9ec1c26d2a3ec4cb344a9d71c6ec4280044202ba.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/9ec1c26d2a3ec4cb344a9d71c6ec4280044202ba/ss_9ec1c26d2a3ec4cb344a9d71c6ec4280044202ba.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/02163a7653d5aa3edcf3265ec0a055bbe368cc51/ss_02163a7653d5aa3edcf3265ec0a055bbe368cc51.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/02163a7653d5aa3edcf3265ec0a055bbe368cc51/ss_02163a7653d5aa3edcf3265ec0a055bbe368cc51.1920x1080.jpg?t=1770860923"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/c293585acad2d7d0e0517b7271b5eeac2dde99b6/ss_c293585acad2d7d0e0517b7271b5eeac2dde99b6.600x338.jpg?t=1770860923",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/c293585acad2d7d0e0517b7271b5eeac2dde99b6/ss_c293585acad2d7d0e0517b7271b5eeac2dde99b6.1920x1080.jpg?t=1770860923"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257261981,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257261981/775e00e3ececf8ff7c2d5d97230cbee90fce42b2/movie_600x337.jpg?t=1767932668",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2305990/1513261739/ebcec850e4a9903ec4b320a519086ae92f301107/1767929184/dash_av1.mpd?t=1767932668",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2305990/1513261739/ebcec850e4a9903ec4b320a519086ae92f301107/1767929184/dash_h264.mpd?t=1767932668",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2305990/1513261739/ebcec850e4a9903ec4b320a519086ae92f301107/1767929184/hls_264_master.m3u8?t=1767932668",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 28,
+          "highlighted": [
+            {
+              "icon": "37c1b57ab5dd024e800b23124aaff46fbe9c6db9.jpg",
+              "localized_name": "Super Shot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Super Shot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/37c1b57ab5dd024e800b23124aaff46fbe9c6db9.jpg"
+            },
+            {
+              "icon": "8c56211d1b3ede9af5ebc6785ce5bc11f8081cc2.jpg",
+              "localized_name": "Slam Dunk",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Slam Dunk",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/8c56211d1b3ede9af5ebc6785ce5bc11f8081cc2.jpg"
+            },
+            {
+              "icon": "8e9886555723e0147fff8de188fc373b138dab2f.jpg",
+              "localized_name": "Winner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Winner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/8e9886555723e0147fff8de188fc373b138dab2f.jpg"
+            },
+            {
+              "icon": "3a4fffca1807ac0b0ae876fc7c39289e904538b2.jpg",
+              "localized_name": "Bronze Medal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bronze Medal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/3a4fffca1807ac0b0ae876fc7c39289e904538b2.jpg"
+            },
+            {
+              "icon": "b38f525c78af94bc5ce02ca9d1243a1c0975fbd4.jpg",
+              "localized_name": "Silver Medal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Silver Medal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/b38f525c78af94bc5ce02ca9d1243a1c0975fbd4.jpg"
+            },
+            {
+              "icon": "ec1d507cf298ab78690e6305442e0b1905abf4ea.jpg",
+              "localized_name": "Champion",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Champion",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/ec1d507cf298ab78690e6305442e0b1905abf4ea.jpg"
+            },
+            {
+              "icon": "9a3baf4cb616141ffc094c93a048cf86613af778.jpg",
+              "localized_name": "All Winners",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All Winners",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/9a3baf4cb616141ffc094c93a048cf86613af778.jpg"
+            },
+            {
+              "icon": "349c0bc1792cf180d871b7336be28e5a6129b0ad.jpg",
+              "localized_name": "Gold Medal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Gold Medal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/349c0bc1792cf180d871b7336be28e5a6129b0ad.jpg"
+            },
+            {
+              "icon": "5e691b4c5af21b06374483443921e18936ee1e41.jpg",
+              "localized_name": "Platinum Medal",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Platinum Medal",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/5e691b4c5af21b06374483443921e18936ee1e41.jpg"
+            },
+            {
+              "icon": "9b629456498bd20f165e91cafa5258451eb77fff.jpg",
+              "localized_name": "All Champions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "All Champions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2305990/9b629456498bd20f165e91cafa5258451eb77fff.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 24, 2025"
+        },
+        "support_info": {
+          "url": "http://ronaldgames.com/",
+          "email": "mail@ronaldgames.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2305990?t=1770860923",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2305990/page_bg_raw.jpg?t=1770860923",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating": "l",
+            "descriptors": "Violência fantasiosa"
+          }
+        }
+      }
+    }
+  }
+}

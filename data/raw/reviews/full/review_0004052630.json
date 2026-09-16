@@ -1,0 +1,71 @@
+{
+  "appid": 4052630,
+  "requested_at": "2026-09-13T20:15:53.042614+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "207282934",
+        "author": {
+          "steamid": "76561198059862257",
+          "personaname": "raineman76",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Raineman76/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 26,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 26,
+          "last_played": 1760847423,
+          "avatar": "71b0211848973d0218fcfa39f48308ebc4ac257b"
+        },
+        "language": "english",
+        "review": "Boss Battle arena is a phenomenal game and its only in the early stages, I highly recommend getting this game. Im excited to see what else is in store",
+        "timestamp_created": 1761100510,
+        "timestamp_updated": 1761100510,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760342205",
+        "reactions": [
+          {
+            "reaction_type": 9,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2r9yWBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

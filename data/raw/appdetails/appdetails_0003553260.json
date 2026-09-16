@@ -1,0 +1,287 @@
+{
+  "requested_at": "2026-09-12T15:32:20.673128+00:00",
+  "request_params": {
+    "appids": 3553260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3553260,
+  "payload": {
+    "3553260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "QuickMaze",
+        "steam_appid": 3553260,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/extras/1f24c11562fd73d6a3b7406331eee171.avif?t=1755069566\" width=800 height=480 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A simple game of maze, the goal of which is to get the ball to the endpoint. As the player makes a progress the difficulty increases. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >▪ 40 Levels.</p><p class=\"bb_paragraph\" >▪ 100 Achievements (at the moment).</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Credits</strong></h2><p class=\"bb_paragraph\" >&quot;QuickMaze&quot; is powered by Clickteam Fusion 2.5</p><p class=\"bb_paragraph\" >Music by Kevin MacLeod</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/extras/1f24c11562fd73d6a3b7406331eee171.avif?t=1755069566\" width=800 height=480 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >A simple game of maze, the goal of which is to get the ball to the endpoint. As the player makes a progress the difficulty increases. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >▪ 40 Levels.</p><p class=\"bb_paragraph\" >▪ 100 Achievements (at the moment).</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" ><strong>Credits</strong></h2><p class=\"bb_paragraph\" >&quot;QuickMaze&quot; is powered by Clickteam Fusion 2.5</p><p class=\"bb_paragraph\" >Music by Kevin MacLeod</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A simple game of maze, the goal of which is to get the ball to the endpoint. As the player makes a progress the difficulty increases. ",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/661e7639c92b7047655edef3bfbaa54baab5cde5/header.jpg?t=1755069566",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/26307f61bcf18c7ceeda0961f20f170b994d4814/capsule_231x87.jpg?t=1755069566",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/26307f61bcf18c7ceeda0961f20f170b994d4814/capsule_184x69.jpg?t=1755069566",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3 2120<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 20 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "no tilt"
+        ],
+        "publishers": [
+          "no tilt"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1253905
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy QuickMaze",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1253905,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "QuickMaze - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 71,
+            "description": "Narrated Game Menus"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/45e8cf285534529c88d113962b687758274ea725/ss_45e8cf285534529c88d113962b687758274ea725.600x338.jpg?t=1755069566",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/45e8cf285534529c88d113962b687758274ea725/ss_45e8cf285534529c88d113962b687758274ea725.1920x1080.jpg?t=1755069566"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/bede4f88044217467f4bfae97a03194a034e2382/ss_bede4f88044217467f4bfae97a03194a034e2382.600x338.jpg?t=1755069566",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/bede4f88044217467f4bfae97a03194a034e2382/ss_bede4f88044217467f4bfae97a03194a034e2382.1920x1080.jpg?t=1755069566"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/e89a901efea388182463b261f552c52a9940f88d/ss_e89a901efea388182463b261f552c52a9940f88d.600x338.jpg?t=1755069566",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/e89a901efea388182463b261f552c52a9940f88d/ss_e89a901efea388182463b261f552c52a9940f88d.1920x1080.jpg?t=1755069566"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/13d4c3806d931f92aa3edda9ddcbbd75215f6c60/ss_13d4c3806d931f92aa3edda9ddcbbd75215f6c60.600x338.jpg?t=1755069566",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/13d4c3806d931f92aa3edda9ddcbbd75215f6c60/ss_13d4c3806d931f92aa3edda9ddcbbd75215f6c60.1920x1080.jpg?t=1755069566"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/66f55f27d9ee06e6a81df3a1e42c9192436b01f7/ss_66f55f27d9ee06e6a81df3a1e42c9192436b01f7.600x338.jpg?t=1755069566",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3553260/66f55f27d9ee06e6a81df3a1e42c9192436b01f7/ss_66f55f27d9ee06e6a81df3a1e42c9192436b01f7.1920x1080.jpg?t=1755069566"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257174549,
+            "name": "Quickmaze_Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257174549/c03b5c2aa9d1f59a772dbd8808e9d5aaa6e1176a/movie_600x337.jpg?t=1753886458",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3553260/549877638/eeadca219c5c305074b394bfb8a5768611351cc9/1753634266/dash_av1.mpd?t=1753886458",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3553260/549877638/eeadca219c5c305074b394bfb8a5768611351cc9/1753634266/dash_h264.mpd?t=1753886458",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3553260/549877638/eeadca219c5c305074b394bfb8a5768611351cc9/1753634266/hls_264_master.m3u8?t=1753886458",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 100,
+          "highlighted": [
+            {
+              "icon": "8631028ff7f7a6cb12e16871811059858b4c4908.jpg",
+              "localized_name": "1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/8631028ff7f7a6cb12e16871811059858b4c4908.jpg"
+            },
+            {
+              "icon": "ca038c43548ebbbd2d2a34cb3248a0b74c9f2ba0.jpg",
+              "localized_name": "1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/ca038c43548ebbbd2d2a34cb3248a0b74c9f2ba0.jpg"
+            },
+            {
+              "icon": "09d008538178f083b0bf6923daad7d52ff4602be.jpg",
+              "localized_name": "4",
+              "archived": 0,
+              "hidden": 0,
+              "name": "4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/09d008538178f083b0bf6923daad7d52ff4602be.jpg"
+            },
+            {
+              "icon": "0ac45187627f1773589e87a8517851ad4048156e.jpg",
+              "localized_name": "4",
+              "archived": 0,
+              "hidden": 0,
+              "name": "4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/0ac45187627f1773589e87a8517851ad4048156e.jpg"
+            },
+            {
+              "icon": "212e911ed372f8f7926a8f883dd13bfe1e3190bc.jpg",
+              "localized_name": "5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/212e911ed372f8f7926a8f883dd13bfe1e3190bc.jpg"
+            },
+            {
+              "icon": "800c785b93a4e78ebb5abc8825b82f525f3660e5.jpg",
+              "localized_name": "5",
+              "archived": 0,
+              "hidden": 0,
+              "name": "5",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/800c785b93a4e78ebb5abc8825b82f525f3660e5.jpg"
+            },
+            {
+              "icon": "522457212dc7011e2c2e8a9f7d43ddd4a67b71ff.jpg",
+              "localized_name": "6",
+              "archived": 0,
+              "hidden": 0,
+              "name": "6",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/522457212dc7011e2c2e8a9f7d43ddd4a67b71ff.jpg"
+            },
+            {
+              "icon": "45fa9576f575458c631f87b38339bf1899c2429e.jpg",
+              "localized_name": "6",
+              "archived": 0,
+              "hidden": 0,
+              "name": "6",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/45fa9576f575458c631f87b38339bf1899c2429e.jpg"
+            },
+            {
+              "icon": "19a774874a96c87dc71ca44a55d6d45cca29edd1.jpg",
+              "localized_name": "7",
+              "archived": 0,
+              "hidden": 0,
+              "name": "7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/19a774874a96c87dc71ca44a55d6d45cca29edd1.jpg"
+            },
+            {
+              "icon": "aa667011e7fa2aa3c1cc945b41ce892643e08273.jpg",
+              "localized_name": "7",
+              "archived": 0,
+              "hidden": 0,
+              "name": "7",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3553260/aa667011e7fa2aa3c1cc945b41ce892643e08273.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 13, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gamesbynotilt@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3553260?t=1755069566",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3553260?t=1755069566",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

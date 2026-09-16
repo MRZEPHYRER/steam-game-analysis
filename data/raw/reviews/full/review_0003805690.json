@@ -1,0 +1,68 @@
+{
+  "appid": 3805690,
+  "requested_at": "2026-09-13T19:41:51.387473+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206609349",
+        "author": {
+          "steamid": "76561198045061508",
+          "personaname": "Justyn",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/justywusty87/",
+          "num_games_owned": 1282,
+          "num_reviews": 426,
+          "playtime_forever": 484,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 484,
+          "last_played": 1777317516,
+          "avatar": "681c0adb62897fe53b6a6c44e96212ad893d1eba"
+        },
+        "language": "english",
+        "review": "Dialogue can now be skipped during the beginning sequence of the game, which is a big help. Playing days 1, 2, 3, 4, over and over is time consuming and while I did enjoy finding most of the endings, I was unable to find the one where the intruder and player both perish together in the house. I have left the gas on during day 4 and I hide, after 20 seconds I can press X to execute the explosion (While in the house still), but some reason my character lives. I was hoping to get the achievement \"That's Enough\". But after multiple failed attempts I have to give up. \n\n_\n\n\nNow on to how the the actual plot of the game.. Some things just don't really make sense. Without spoiling too much, you the player return to the same area each night and search for clues. A mysterious figure comes and enters the house searching for you. Eventually he leaves if you can manage to hide from him for long enough. Then the player decides to sleep in the house because he's afraid the intruder might still be there... Which is dumb. Why would you sleep in the place an intruder has access to?  Wouldn't it be better to escape from the house and leave back to your office and sleep there?",
+        "timestamp_created": 1760329673,
+        "timestamp_updated": 1777333515,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1760633021,
+        "developer_response": "Hello independent game enthusiast!\n\nThank you for your constructive and detailed criticism about our game. We’re also sorry for the bad experience we caused you.\n\nThe theme of the game emphasizes that David has only one chance, and he must make the most of it. For this reason, there is no \"savegame\" system in the game. We understand this might be a bit frustrating, but considering the theme and the gameplay, we believe that permadeath suits this type of game better.\n\nBased on your feedback about the game’s progression, we realized that we should have provided more information. We’re sorry for falling short in this regard.\n[spoiler]The escape option that becomes available only on the second day opens a secret ending if the character, frightened by the obsessive killer, refuses the mission and leaves the area at all costs. The reason we didn’t mention or hint at this is that we didn’t want to spoil the player’s sense of discovery.[/spoiler]\n\nThank you again for your constructive comment that motivates us to improve.\n\nWe wish you good gaming!",
+        "app_release_date": "1753475976",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFehheAAAAAFP+DDDUAAAAB1vJOUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.5,
+  "transport_error_count": 0
+}

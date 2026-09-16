@@ -1,0 +1,66 @@
+{
+  "appid": 4211070,
+  "requested_at": "2026-09-13T20:26:06.634162+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 2,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "222451569",
+        "author": {
+          "steamid": "76561198910750663",
+          "personaname": "NANAlia",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198910750663/",
+          "num_games_owned": 201,
+          "num_reviews": 14,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1775262514,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "english",
+        "review": "At this point, no. But I believe it can be better. This is a cozy designed game with cute puppies and background. \r\n\r\nMain problem: Based on the playing, you will get board in 1 hour and feel to tired to reopen it. It's just 300 levels with three sizes of the board. No special design for levels changes, such as drop or move, color change, link to 3 or 4, it's easy to get bored. \r\n\r\nOther small things can be improved: \r\n- You can stop the music by clicking the ||, however, it will replay automatically when you enter the next level. There is a requirement of getting a crown for each level which related to the time spent, meaning you can use fewer than 60 seconds to pass an easy level. Replaying music automatically is not necessary\r\n- The changes of the background can also related to the background when playing/ The change of color can reduce the use of eyes.",
+        "timestamp_created": 1775262873,
+        "timestamp_updated": 1775262873,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.584664523601531982",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765521052",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYToQAAAAAFP+K1k2AAAABx98rQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.280999999999949,
+  "transport_error_count": 0
+}

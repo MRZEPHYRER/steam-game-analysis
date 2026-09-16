@@ -1,0 +1,66 @@
+{
+  "appid": 3425460,
+  "requested_at": "2026-09-13T19:15:04.450664+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 474,
+      "total_negative": 39,
+      "total_reviews": 513
+    },
+    "reviews": [
+      {
+        "recommendationid": "207099435",
+        "author": {
+          "steamid": "76561198044108063",
+          "personaname": "Pixxie Plays",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/pixxieplays/",
+          "num_games_owned": 0,
+          "num_reviews": 30,
+          "playtime_forever": 3238,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1888,
+          "last_played": 1768682434,
+          "avatar": "39efd569d31ef6981f97a4290350325c08abe426"
+        },
+        "language": "english",
+        "review": "As someone who was a manager for Gamestop for years, I'm absolutely loving your game. SO WHEN ARE YOU ADDING A PRO CARD?! I kid. I love how organically you watch your shop grow. I really enjoy the trade aspect and how  you handle the drops. Everything is just very fluid and works well. I just can't wait to see you add maybe a Nintendon't section, handheld consoles, maybe figures, pop toys?.. idk it's crazy because of the endless possibilities. Anyway, games great. I'm addicted. It's ruining my marriage. Much love!",
+        "timestamp_created": 1760886555,
+        "timestamp_updated": 1760886555,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.676002383232116699",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753069308",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWet6AAAAAFP+WhzwAAAAB74oKWBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

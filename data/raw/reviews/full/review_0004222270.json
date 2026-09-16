@@ -1,0 +1,66 @@
+{
+  "appid": 4222270,
+  "requested_at": "2026-09-13T20:26:51.712525+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "215143780",
+        "author": {
+          "steamid": "76561198213693971",
+          "personaname": "noxachi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198213693971/",
+          "num_games_owned": 0,
+          "num_reviews": 61,
+          "playtime_forever": 163,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 163,
+          "last_played": 1767543794,
+          "avatar": "34ccc934138215aa1b2efe969ac44ea53239039b"
+        },
+        "language": "english",
+        "review": "fun little exploration game that reminds me of being thrown into an escape room but the escape room is a lighthouse. the story is simple but intriguing, the environment definitely charming. the game explains next to nothing but rewards you for paying attention to your surroundings and interpreting the tidbits of clues you find around the island. i also felt somewhat reminded of firewatch while playing, though on a much smaller scale.\n\ni had some issues with the audio on the island switching to something else if i was close enough to specific locations, and found some of the walking/climbing/jumping a bit tedious. it also took me ages to manage to move one specific item because it felt sort of stuck. i assume that was the intention but it certainly discouraged me in the beginning because i thought i just missed a clue on how to go about that. \nalso sadly i was getting some motion sickness so i was only able to play in short bursts, which made progressing a little difficult as there's no manual save.\n\nall in all, i'd still recommend the game! it's small, charming, and while it has its shortcomings they are easy to overlook. :D",
+        "timestamp_created": 1767547945,
+        "timestamp_updated": 1767547945,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767025160",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB01tq0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

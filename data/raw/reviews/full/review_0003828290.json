@@ -1,0 +1,66 @@
+{
+  "appid": 3828290,
+  "requested_at": "2026-09-13T19:45:29.930152+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "200042491",
+        "author": {
+          "steamid": "76561198255008387",
+          "personaname": "magicrules45",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198255008387/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 71,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 71,
+          "last_played": 1752790281,
+          "avatar": "ee180447c2799c10e40d697c356f53b610088b4e"
+        },
+        "language": "english",
+        "review": "A short but sweet puzzle game. I was recommended to try it by a friend of the developer, and enjoyed my time with it. There's a lot to take in, but with some persistence (and some liberal use of the in-game hint mechanism when getting stuck) I made it to the end.\n\nMy only complaint is that the difficulty curve was a bit uneven - I found the middle levels (5-7) to be the hardest, with level 7 being VERY hard to keep everything I was trying to accomplish in my head. Then level 8-9 were comparably much more straightforward.\n\nDefinitely worth the low, low price of two bucks. Kudos for making this!",
+        "timestamp_created": 1752790474,
+        "timestamp_updated": 1752790474,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752257084",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZIO6AAAAAFP+Fk6MAAAAB7/4z7BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.735000000000582,
+  "transport_error_count": 0
+}

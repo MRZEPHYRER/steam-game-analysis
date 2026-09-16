@@ -1,0 +1,66 @@
+{
+  "appid": 3845720,
+  "requested_at": "2026-09-13T19:48:32.419251+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "205081426",
+        "author": {
+          "steamid": "76561198004262925",
+          "personaname": "Chowster",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Chowster44/",
+          "num_games_owned": 1321,
+          "num_reviews": 24,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1758679221,
+          "avatar": "b0a6818c90ed26d16db13924f28bb5fc70aee10f"
+        },
+        "language": "english",
+        "review": "-To the Dev Joseph \"Dragon\" Dalman\n\nKeep making games, honestly, truly. I think the world is a better place with more art.\nI like what you had here, it was a nice little experience, but charging two dollars for this is a bit rough. At only about 5-10 minutes of play time, I can't recommend this to anyone. \nI would recommend to you though, setting up a itch.io page and try to share your games there. I'll be interested in seeing more from you for sure. I'll even follow your itch.io page if you create one.\nitch.io is easier for these short experience, after some time try to get something more fleshed out here on steam.\n\nI'll be rooting for you!",
+        "timestamp_created": 1758680171,
+        "timestamp_updated": 1758680171,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753736616",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbAAAAAAAAFP+AAAAAAAABytamOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

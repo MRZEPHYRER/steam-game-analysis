@@ -1,0 +1,68 @@
+{
+  "appid": 3862060,
+  "requested_at": "2026-09-13T19:51:12.953993+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "204728627",
+        "author": {
+          "steamid": "76561198097509202",
+          "personaname": "zexterior",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198097509202/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 263,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1786983904,
+          "avatar": "082b719b3a875dff64f23361a50e3349d363b196"
+        },
+        "language": "english",
+        "review": "Thank you for releasing this game. Having a flash card that my child can interact using keyboard on PC is very useful. My only nitpick is that: 1) there is no control tutorial shown inside the game, 2) the sound for booting the game is very loud, while the voice telling about the flash card is very soft",
+        "timestamp_created": 1758316612,
+        "timestamp_updated": 1758316612,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.504140257835388184",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1769154527,
+        "developer_response": "Thank you so much for your feedback, I really appreciate it! I have adjusted the volume of the music in the intro portion of the game. I have also added a controls button so that players may review all the controls available to them! I hope this helps make the game more enjoyable and look forward to your feedback in the future!",
+        "app_release_date": "1758304991",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ6s2AAAAAFP+Ah6kAAAABzk/2MBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

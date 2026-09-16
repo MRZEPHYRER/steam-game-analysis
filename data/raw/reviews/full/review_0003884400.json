@@ -1,0 +1,71 @@
+{
+  "appid": 3884400,
+  "requested_at": "2026-09-13T19:54:50.789519+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "218518345",
+        "author": {
+          "steamid": "76561198110581205",
+          "personaname": "whoscindy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198110581205/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 1620,
+          "playtime_last_two_weeks": 47,
+          "playtime_at_review": 220,
+          "last_played": 1788416217,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "hunt & kill dinosaurs, smash nerdy cavemen and steal their women, just like a real alpha chad caveman.",
+        "timestamp_created": 1771308834,
+        "timestamp_updated": 1771308834,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.59478604793548584",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758236437",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYGrIAAAAAFP+MIfKAAAAB5tMrBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

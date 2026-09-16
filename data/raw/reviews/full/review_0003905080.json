@@ -1,0 +1,66 @@
+{
+  "appid": 3905080,
+  "requested_at": "2026-09-13T19:57:49.848715+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "203496742",
+        "author": {
+          "steamid": "76561198152533356",
+          "personaname": "精肛猪",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198152533356/",
+          "num_games_owned": 42,
+          "num_reviews": 1,
+          "playtime_forever": 51,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 50,
+          "last_played": 1766652120,
+          "avatar": "0a7b13816e3c917220b6310209ae6bd7a1e58edd"
+        },
+        "language": "schinese",
+        "review": "难度有点太高了，休闲玩家不看攻略很难迈出第一关，希望降难度",
+        "timestamp_created": 1756987061,
+        "timestamp_updated": 1756987061,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.561936676502227783",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756279363",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYwuIAAAAAFP+H7Y0AAAAB20qOIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

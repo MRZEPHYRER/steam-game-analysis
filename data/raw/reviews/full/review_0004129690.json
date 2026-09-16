@@ -1,0 +1,66 @@
+{
+  "appid": 4129690,
+  "requested_at": "2026-09-13T20:21:16.242587+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "229431075",
+        "author": {
+          "steamid": "76561198779269128",
+          "personaname": "h.weiss.52",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198779269128/",
+          "num_games_owned": 53,
+          "num_reviews": 1,
+          "playtime_forever": 41,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 41,
+          "last_played": 1783011962,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "german",
+        "review": "War ein Fehlkauf. Primitives Spiel !!!",
+        "timestamp_created": 1783012196,
+        "timestamp_updated": 1783012196,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764243800",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFzAAAAAAAAFP+AAAAAAAABz8prrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

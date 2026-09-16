@@ -1,0 +1,66 @@
+{
+  "appid": 4230400,
+  "requested_at": "2026-09-13T20:27:06.501165+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "215246578",
+        "author": {
+          "steamid": "76561197960279256",
+          "personaname": "「FCKAFD」Der Trivia",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Triviaweise/",
+          "num_games_owned": 585,
+          "num_reviews": 40,
+          "playtime_forever": 15,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13,
+          "last_played": 1767638226,
+          "avatar": "327c4f90cfa2210beb327d6da379657022b22d41"
+        },
+        "language": "english",
+        "review": "Well… what can I really say?\nIt’s relaxing. It has nice music. It has reflexes. Boom — game explained.\n\nHonestly, it’s one of those games where you just sit back, vibe a bit, and suddenly your reflexes are being tested while your brain is still in chill mode. The music is pleasant, the gameplay works, and for the price? Yeah, you really can’t mess this up.\n\nNo stress, no drama, just good vibes and “oh wow I reacted to that” moments.\nTotally worth it — your wallet will survive, I promise.",
+        "timestamp_created": 1767638168,
+        "timestamp_updated": 1767638168,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766485037",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAABy74y1Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8119999999998981,
+  "transport_error_count": 0
+}

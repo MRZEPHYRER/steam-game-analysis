@@ -1,0 +1,71 @@
+{
+  "appid": 3527920,
+  "requested_at": "2026-09-13T19:20:39.594155+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 34,
+      "total_negative": 15,
+      "total_reviews": 49
+    },
+    "reviews": [
+      {
+        "recommendationid": "209964906",
+        "author": {
+          "steamid": "76561198009585222",
+          "personaname": "THIEVIUS FOX",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/THIEVIUSFOX/",
+          "num_games_owned": 1371,
+          "num_reviews": 135,
+          "playtime_forever": 351,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 351,
+          "last_played": 1763875301,
+          "avatar": "94c47d46969d1ce03b588f67cb954bcacee9f51d"
+        },
+        "language": "english",
+        "review": "TWO THUMBS UP!\nHands down one of the top 3 indie horror games I played in 2025. Possibly #1 (once I get that true ending).\nCoRoT has a lot to deliver, but divulging anymore into what makes it fantastic would be a spoiler. Here's what you need to know:\n\n- Heavily P.T. inspired AT FIRST. I thought this was just going to be another \"P.T. Clone\" but was VERY PLEASED to see the dev take their own creative liberties with their inspiration. There's a shift that occurs that made me realize this is so much more than what I initially thought it was going to be.\n- As someone who has played HUNDREDS of indie horror games, CoRoT did a few things that I have never seen before with it's techniques that just absolutely blew me away.\n- No Jumpscares. Pure atmosphere. Tension and terror carried through with a deep story that will have your head spinning. Audio and lighting are top notch and I praise the developer for having me completely unsettled from beginning to end. No cheap tricks. Just passion that is clearly visible through this dev's work.\n- Okay, maybe one jumpscare.\n- In a way, this game is an experience that's like Blue Prince meets P.T.. I won't say more, but if you know you know.\n- Streaming this game was a blast. My viewers were just as invested and hooked as I was.\n\nFor $6, this isn't just a game, it's a full on experience that I DEVOURED. I thought I had gotten the \"real ending\" twice, just to learn there's more... if I can just figure it out. \nIf you're a lover of horror this is a must.",
+        "timestamp_created": 1763930622,
+        "timestamp_updated": 1763930622,
+        "voted_up": true,
+        "votes_up": 35,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.762372374534606934",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763753899",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUwKgAAAAAFP+hlWgAAAAB69vmgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

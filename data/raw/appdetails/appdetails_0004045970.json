@@ -1,0 +1,269 @@
+{
+  "requested_at": "2026-09-13T06:36:58.287809+00:00",
+  "request_params": {
+    "appids": 4045970,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4045970,
+  "payload": {
+    "4045970": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Farm Simulator",
+        "steam_appid": 4045970,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Farm Simulator is a cozy farming simulator with a focus on the fast &quot;plant-grow-sell&quot; cycle. Start with a tiny plot and gradually expand your farm, unlocking new fields. Buy seeds, feed, and tools at the local market: plant crops in beds using a convenient context menu, monitor the growth stages, and harvest. Sell your produce at the market stand to earn coins and experience, then unlock more rows of land and upgrades.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Farm Simulator is a cozy farming simulator with a focus on the fast &quot;plant-grow-sell&quot; cycle. Start with a tiny plot and gradually expand your farm, unlocking new fields. Buy seeds, feed, and tools at the local market: plant crops in beds using a convenient context menu, monitor the growth stages, and harvest. Sell your produce at the market stand to earn coins and experience, then unlock more rows of land and upgrades.</p>",
+        "short_description": "Build your own farm: grow plants, raise animals, sell crops and do task for delivery and to develop your farm.",
+        "supported_languages": "English, Polish, Russian, Ukrainian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/0b0a033b0d492afe58f58c19cb971b789f6d4266/header.jpg?t=1769640266",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/c62962874a70fb8e4e3fbca550dc86b7b862cb15/capsule_231x87.jpg?t=1769640266",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/c62962874a70fb8e4e3fbca550dc86b7b862cb15/capsule_184x69.jpg?t=1769640266",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> ryzen 3 1200 / intel i3 7100<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> Ryzen 5 2600 / intel i5 10400<br></li><li><strong>Memory:</strong> 2 MB RAM<br></li><li><strong>Graphics:</strong> GTX 1050 / AMD RX 570<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.15<br></li><li><strong>Processor:</strong> Apple M1 / Intel i7<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS Sonoma<br></li><li><strong>Processor:</strong> Apple M2<br></li><li><strong>Memory:</strong> 2 MB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22<br></li><li><strong>Processor:</strong> ryzen 3 1200 / intel i3 7100<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated Graphics<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22<br></li><li><strong>Processor:</strong> Ryzen 5 2600 / intel i5 10400<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1050 / AMD RX 570<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "developers": [
+          "B.B.B.Games"
+        ],
+        "publishers": [
+          "B.B.B.Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 300,
+          "final": 300,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.00"
+        },
+        "packages": [
+          1419085
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Farm Simulator",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1419085,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Farm Simulator - $3.00",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 300
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/1201b4774cb365b81c37b6c9c25e41eff4ea34e8/ss_1201b4774cb365b81c37b6c9c25e41eff4ea34e8.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/1201b4774cb365b81c37b6c9c25e41eff4ea34e8/ss_1201b4774cb365b81c37b6c9c25e41eff4ea34e8.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/58125aca269b8a6daf3f7497aea7e83573a73e50/ss_58125aca269b8a6daf3f7497aea7e83573a73e50.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/58125aca269b8a6daf3f7497aea7e83573a73e50/ss_58125aca269b8a6daf3f7497aea7e83573a73e50.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/b35fd3944658853dd4ce95cbdce8b991565fb8a1/ss_b35fd3944658853dd4ce95cbdce8b991565fb8a1.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/b35fd3944658853dd4ce95cbdce8b991565fb8a1/ss_b35fd3944658853dd4ce95cbdce8b991565fb8a1.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/b4f28d6e400c85929317a9115df80b5fec6fe5cf/ss_b4f28d6e400c85929317a9115df80b5fec6fe5cf.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/b4f28d6e400c85929317a9115df80b5fec6fe5cf/ss_b4f28d6e400c85929317a9115df80b5fec6fe5cf.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/3addbb3edaa52f299990ef67c02fd3c5aa6f2067/ss_3addbb3edaa52f299990ef67c02fd3c5aa6f2067.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/3addbb3edaa52f299990ef67c02fd3c5aa6f2067/ss_3addbb3edaa52f299990ef67c02fd3c5aa6f2067.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/72651373ca0506092a7eeda7f8e1cd728ea9f9cf/ss_72651373ca0506092a7eeda7f8e1cd728ea9f9cf.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/72651373ca0506092a7eeda7f8e1cd728ea9f9cf/ss_72651373ca0506092a7eeda7f8e1cd728ea9f9cf.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/2359dafa2015720b027a8cfd8649161176e8e3dd/ss_2359dafa2015720b027a8cfd8649161176e8e3dd.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/2359dafa2015720b027a8cfd8649161176e8e3dd/ss_2359dafa2015720b027a8cfd8649161176e8e3dd.1920x1080.jpg?t=1769640266"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/634d0ba1ab45fafa33811dfe1a3242a5684c5770/ss_634d0ba1ab45fafa33811dfe1a3242a5684c5770.600x338.jpg?t=1769640266",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045970/634d0ba1ab45fafa33811dfe1a3242a5684c5770/ss_634d0ba1ab45fafa33811dfe1a3242a5684c5770.1920x1080.jpg?t=1769640266"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257202946,
+            "name": "trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257202946/0d539d4d0599f22357122f9a3fe1a8bb4c526cad/movie_600x337.jpg?t=1759160510",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4045970/2002290347/d6982c00cae3396a2ab750604a75cb13408daef2/1758392690/dash_av1.mpd?t=1759160510",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4045970/2002290347/d6982c00cae3396a2ab750604a75cb13408daef2/1758392690/dash_h264.mpd?t=1759160510",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4045970/2002290347/d6982c00cae3396a2ab750604a75cb13408daef2/1758392690/hls_264_master.m3u8?t=1759160510",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 7,
+          "highlighted": [
+            {
+              "icon": "f27dfeea224d4c9c201bdcdb6d13399d7b9a9be7.jpg",
+              "localized_name": "Level 2 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 2 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/f27dfeea224d4c9c201bdcdb6d13399d7b9a9be7.jpg"
+            },
+            {
+              "icon": "093df57e260a7dcdb00d1bb5068c1c9f934e5a84.jpg",
+              "localized_name": "Level 3 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 3 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/093df57e260a7dcdb00d1bb5068c1c9f934e5a84.jpg"
+            },
+            {
+              "icon": "9e456c3a59a745fed550fe386d8f23cb109d0811.jpg",
+              "localized_name": "Level 4 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 4 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/9e456c3a59a745fed550fe386d8f23cb109d0811.jpg"
+            },
+            {
+              "icon": "fa4a5de66641edcefc0ba65355839bb9a9b613c4.jpg",
+              "localized_name": "Level 5 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 5 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/fa4a5de66641edcefc0ba65355839bb9a9b613c4.jpg"
+            },
+            {
+              "icon": "f7bf7224ae396a9f2f8e9c3c3345a150b26d2076.jpg",
+              "localized_name": "Level 6 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 6 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/f7bf7224ae396a9f2f8e9c3c3345a150b26d2076.jpg"
+            },
+            {
+              "icon": "58b7695ab67854a86e11f8e0aab22968ef9226b1.jpg",
+              "localized_name": "Level 7 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 7 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/58b7695ab67854a86e11f8e0aab22968ef9226b1.jpg"
+            },
+            {
+              "icon": "acce2dacf72d7327f889e94f6906f96bf6c952e7.jpg",
+              "localized_name": "Level 8 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 8 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4045970/acce2dacf72d7327f889e94f6906f96bf6c952e7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 13, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "bbbgames2024@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045970?t=1769640266",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045970?t=1769640266",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

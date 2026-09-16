@@ -1,0 +1,66 @@
+{
+  "appid": 3120890,
+  "requested_at": "2026-09-13T19:04:39.286833+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 21,
+      "total_negative": 2,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "214884171",
+        "author": {
+          "steamid": "76561199447279064",
+          "personaname": "呜呜呜呜鸦！",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199447279064/",
+          "num_games_owned": 47,
+          "num_reviews": 14,
+          "playtime_forever": 1976,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1976,
+          "last_played": 1764818127,
+          "avatar": "a932c152f04ade6a543c28b99a63a73879f5db4a"
+        },
+        "language": "schinese",
+        "review": "激情输出一万字总结一句\n食之无味弃之可惜 \n玩法没有吸引点  但买都买了 有空就打开挂着吧 结果挂久了积攒的扭蛋只能一个一个手动开  ？开扭蛋开崩溃 都挂机游戏了咱们怎么想的不加一个一键开启/收集呢  \n",
+        "timestamp_created": 1767326526,
+        "timestamp_updated": 1767326526,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.60759204626083374",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758024153",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX2SEAAAAAFP+NxZMAAAAB79NuzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

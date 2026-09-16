@@ -1,0 +1,66 @@
+{
+  "appid": 3727240,
+  "requested_at": "2026-09-13T19:34:59.250403+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 0,
+      "total_negative": 2,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "199876461",
+        "author": {
+          "steamid": "76561198059126249",
+          "personaname": "Borble Jonklet",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/nodzi/",
+          "num_games_owned": 0,
+          "num_reviews": 210,
+          "playtime_forever": 6,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 6,
+          "last_played": 1752602454,
+          "avatar": "9db4379c2531f5accd95570c7ac358f7169393dc"
+        },
+        "language": "english",
+        "review": "Wow, just when I thought developers on Steam have hit rock bottom, this game came along and proved to me that we still haven't hit the lowest of low. The game is such a lazy mobile port that the devs didn't remove the energy system. I tried to see what would happen and I'm now soft locked because I have 6 coins and 0 energy.\n\nThis is wild, definitely refunding and reporting this game",
+        "timestamp_created": 1752602641,
+        "timestamp_updated": 1752602867,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.613112688064575195",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752544828",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXvNyAAAAAFP+OenyAAAAB99rv6BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

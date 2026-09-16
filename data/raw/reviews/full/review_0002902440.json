@@ -1,0 +1,66 @@
+{
+  "appid": 2902440,
+  "requested_at": "2026-09-13T18:58:17.299824+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 114,
+      "total_negative": 16,
+      "total_reviews": 130
+    },
+    "reviews": [
+      {
+        "recommendationid": "213812287",
+        "author": {
+          "steamid": "76561198075742770",
+          "personaname": "THE RTN",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/Realtione/",
+          "num_games_owned": 6311,
+          "num_reviews": 278,
+          "playtime_forever": 428,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 428,
+          "last_played": 1766314092,
+          "avatar": "3899d800a18b42c61ce22d59b934844e9af3cd3f"
+        },
+        "language": "english",
+        "review": "If you think any suika is good, you’re probably onto something. It’s essentially still a physics-based game, and it can lead to some fun chaos. However, I tend to believe the roguelite aspect of the game also strips down the simplicity of what makes the original \"Suika\" so good. But its derivatives can be fun too!\n\n I would rather give a cautious thumbs up than a soft thumbs down because it’s still suika. You really need to play a few games to get used to its physics. There are several arenas, and each works differently. Take Canyon as an example, you’ll need to block the gap in-between two sides and maintain it. Overcrowding the pot is still usually unwanted, though there are some objects that truly let you brute-force the game, such as disco balls (you can combine any disco ball with another, and they get smaller while handing you more points) and storages that cannot combine but upgrade into a better one once the required amount is reached. You can then combine these builds with passives to create strong synergies, for instance, each storage could reward you with one VHS tape, or storages might require one less object to upgrade, and so forth. Storages are essentially great because they don't need to TOUCH, they just need to be present. \n\nYou may not hit the required number of points for that stage, and that’s alright. You won’t lose the game; however, you’ll be punished with a malus (usually an immovable wheel, for starters) that will occupy your pot. It’s still manageable, as you can use a passive that lets you reduce their size or get a Ferris wheel, which will eat the regular wheels.\n\nPassives will also be stored in your pot, and you can lose them if they somehow fall out. There are quite wacky moments where multiple objects spawn and go out in arenas like Boat, Canyon, or the last one where you must use bricks to create your own boundaries. It’s frustrating but also part of the fun and learning curve.\n\nEach arena has a boss level, and you’ll face challenges such as continuously dropping things and such. There are certain quests that will earn you a medal, and medals will unlock new objects; however, you can only unlock one medal each game, which is unnecessary in my humble opinion.\n\nOverall, though, it’s mostly a neat game though you’ll probably stick to the same strategies once you figure them out, so each playthrough won’t be that different. I think games like Ballionaire handle that aspect better, but they end up being much more frustrating at the same time.\n\n★ ★ ★ ☆ ☆\n\n[url=https://steamcommunity.com/groups/theDeusExFox/curation] Please take a moment to check out my curator for more in-depth reviews [/url]",
+        "timestamp_created": 1766314358,
+        "timestamp_updated": 1766314358,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.600755751132965088",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753191980",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX/CEAAAAAFP+M5ZKAAAAB/w9CvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

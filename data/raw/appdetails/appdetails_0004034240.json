@@ -1,0 +1,299 @@
+{
+  "requested_at": "2026-09-13T06:32:56.523293+00:00",
+  "request_params": {
+    "appids": 4034240,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4034240,
+  "payload": {
+    "4034240": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Primora",
+        "steam_appid": 4034240,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Battle your way through a large wave of enemies, each infused with the power of their own biome. Every gauntlet brings its own rhythm, testing your skills against enemies that draw strength from fire, frost, desert, or cosmic domains. Survive the escalating onslaught, defeat the gauntlet's boss, and push forward to the next gauntlet where new enemies, environments, and challenges awaits.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Battle your way through a large wave of enemies, each infused with the power of their own biome. Every gauntlet brings its own rhythm, testing your skills against enemies that draw strength from fire, frost, desert, or cosmic domains. Survive the escalating onslaught, defeat the gauntlet's boss, and push forward to the next gauntlet where new enemies, environments, and challenges awaits.</p>",
+        "short_description": "Battle across diverse and relentless gauntlets, playable in first-person or third-person, where each fight grows deadlier and demands true mastery of spells and abilities as enemies and bosses unleash elemental powers of their own.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/b5582b9003c0fff8b14d343c3ff9b6f46f45e716/header.jpg?t=1761510236",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/ff7eb416fa806f8ed14a47aeba4e07a7604a1ebf/capsule_231x87.jpg?t=1761510236",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/ff7eb416fa806f8ed14a47aeba4e07a7604a1ebf/capsule_184x69.jpg?t=1761510236",
+        "website": "https://onecraftforge.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel i5-2500 / AMD FX-6300<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti / AMD Radeon R7 260X<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel i5-8400 / AMD Ryzen 5 2600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 / AMD RX 580<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Onecraft Forge"
+        ],
+        "publishers": [
+          "Onecraft Forge"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1415182
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Primora",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1415182,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Primora - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/b90541c943f6b58ab23d82225a6630bae4b4cc7d/ss_b90541c943f6b58ab23d82225a6630bae4b4cc7d.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/b90541c943f6b58ab23d82225a6630bae4b4cc7d/ss_b90541c943f6b58ab23d82225a6630bae4b4cc7d.1920x1080.jpg?t=1761510236"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/b8d14300ab5771c68574c6881689aeca6e9c32f0/ss_b8d14300ab5771c68574c6881689aeca6e9c32f0.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/b8d14300ab5771c68574c6881689aeca6e9c32f0/ss_b8d14300ab5771c68574c6881689aeca6e9c32f0.1920x1080.jpg?t=1761510236"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/430160e81028703a8950478e6156a6638433a55a/ss_430160e81028703a8950478e6156a6638433a55a.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/430160e81028703a8950478e6156a6638433a55a/ss_430160e81028703a8950478e6156a6638433a55a.1920x1080.jpg?t=1761510236"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/426a76fa0bdc78f3bc1c190297a8d904e6bbcad9/ss_426a76fa0bdc78f3bc1c190297a8d904e6bbcad9.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/426a76fa0bdc78f3bc1c190297a8d904e6bbcad9/ss_426a76fa0bdc78f3bc1c190297a8d904e6bbcad9.1920x1080.jpg?t=1761510236"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/2efc80cff62ccc1f0910df2e77562c13f1d89a79/ss_2efc80cff62ccc1f0910df2e77562c13f1d89a79.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/2efc80cff62ccc1f0910df2e77562c13f1d89a79/ss_2efc80cff62ccc1f0910df2e77562c13f1d89a79.1920x1080.jpg?t=1761510236"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/9703cef2d259346b80927ee5eadccbe6f9964cb0/ss_9703cef2d259346b80927ee5eadccbe6f9964cb0.600x338.jpg?t=1761510236",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/9703cef2d259346b80927ee5eadccbe6f9964cb0/ss_9703cef2d259346b80927ee5eadccbe6f9964cb0.1920x1080.jpg?t=1761510236"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257200831,
+            "name": "Primora Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257200831/671bc8ebeb2534ba5731238ecb8971389027525c/movie_600x337.jpg?t=1758666739",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4034240/1864108021/40ffc17b23dd764501fca2b6f40d71392c4bc299/1758177944/dash_av1.mpd?t=1758666739",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4034240/1864108021/40ffc17b23dd764501fca2b6f40d71392c4bc299/1758177944/dash_h264.mpd?t=1758666739",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4034240/1864108021/40ffc17b23dd764501fca2b6f40d71392c4bc299/1758177944/hls_264_master.m3u8?t=1758666739",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 10,
+          "highlighted": [
+            {
+              "icon": "06efe00eb32eca60d9e4d73b47b8fc27a99ce16a.jpg",
+              "localized_name": "Frozen No More",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Frozen No More",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/06efe00eb32eca60d9e4d73b47b8fc27a99ce16a.jpg"
+            },
+            {
+              "icon": "f5ef45455ea2ae595fd7987c320f9a1562c54ef1.jpg",
+              "localized_name": "Extinguished Fire",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Extinguished Fire",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/f5ef45455ea2ae595fd7987c320f9a1562c54ef1.jpg"
+            },
+            {
+              "icon": "57a876b790798505ad3e05a057b80834d66c8d5f.jpg",
+              "localized_name": "Chill of the Flame",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Chill of the Flame",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/57a876b790798505ad3e05a057b80834d66c8d5f.jpg"
+            },
+            {
+              "icon": "d1589f03ddc2fdba168cc34ced03f6bc72bf0951.jpg",
+              "localized_name": "Buried Hunger",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Buried Hunger",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/d1589f03ddc2fdba168cc34ced03f6bc72bf0951.jpg"
+            },
+            {
+              "icon": "eba969946a52d7e369060ad8ed8fdd3bfcf3455b.jpg",
+              "localized_name": "Fractured Prism",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fractured Prism",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/eba969946a52d7e369060ad8ed8fdd3bfcf3455b.jpg"
+            },
+            {
+              "icon": "c2c5a7ef8ccdb7063834df4c4d4ca6cf1be96ed3.jpg",
+              "localized_name": "Blightbreaker",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blightbreaker",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/c2c5a7ef8ccdb7063834df4c4d4ca6cf1be96ed3.jpg"
+            },
+            {
+              "icon": "e8c333dc4027d7f5052dff016bc1e7f6a6a84e3a.jpg",
+              "localized_name": "The Final Silence",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Final Silence",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/e8c333dc4027d7f5052dff016bc1e7f6a6a84e3a.jpg"
+            },
+            {
+              "icon": "b8803b48d8bd613461784af15e2998b4cd6c36d4.jpg",
+              "localized_name": "Cleansed Chaos",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Cleansed Chaos",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/b8803b48d8bd613461784af15e2998b4cd6c36d4.jpg"
+            },
+            {
+              "icon": "867f39df948e8cd715854a544d994f3e721ca3f6.jpg",
+              "localized_name": "Trial Challenger",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Trial Challenger",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/867f39df948e8cd715854a544d994f3e721ca3f6.jpg"
+            },
+            {
+              "icon": "8393d3ebcd6aedb48ccec36593a2ec505a5295a2.jpg",
+              "localized_name": "Boundless Sorcery",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Boundless Sorcery",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4034240/8393d3ebcd6aedb48ccec36593a2ec505a5295a2.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 8, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "onecraftforge@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4034240?t=1761510236",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034240/f2d2375447af8160958f984af87c048228b1a89b/page_bg_raw.jpg?t=1761510236",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "requested_at": "2026-09-12T15:29:33.462167+00:00",
+  "request_params": {
+    "appids": 3537890,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3537890,
+  "payload": {
+    "3537890": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Drill Beat",
+        "steam_appid": 3537890,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<h2 class=\"bb_tag\" >A Puzzle Unfolds to the Rhythm</h2><p class=\"bb_paragraph\" ><strong><br>Drill Beat</strong> is a <strong>puzzle-rhythm</strong> game where movement is driven by <strong>music</strong>. You control an <strong>animated drill bit</strong> that can only move <strong>to the beat</strong>, challenging you to <strong>time every step</strong>. Navigate through a series of <strong>intricate puzzles</strong>, avoid <strong>hazards</strong>, and find the <strong>best path forward</strong> as you collect <strong>golden cogs</strong> to unlock new stages.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >As you <strong>descend deeper</strong> into this <strong>mechanical world</strong>, the puzzles grow <strong>more complex</strong>, requiring a mix of <strong>rhythm, strategy, and quick thinking</strong>. With a unique blend of <strong>timing-based movement</strong> and <strong>puzzle-solving</strong>, Drill Beat delivers a <strong>fresh and engaging experience</strong> for players who enjoy both <strong>rhythm and logic-based challenges</strong>. </p><p class=\"bb_paragraph\" ><strong>Can you make it to the bottom?</strong></p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >A Puzzle Unfolds to the Rhythm</h2><p class=\"bb_paragraph\" ><strong><br>Drill Beat</strong> is a <strong>puzzle-rhythm</strong> game where movement is driven by <strong>music</strong>. You control an <strong>animated drill bit</strong> that can only move <strong>to the beat</strong>, challenging you to <strong>time every step</strong>. Navigate through a series of <strong>intricate puzzles</strong>, avoid <strong>hazards</strong>, and find the <strong>best path forward</strong> as you collect <strong>golden cogs</strong> to unlock new stages.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >As you <strong>descend deeper</strong> into this <strong>mechanical world</strong>, the puzzles grow <strong>more complex</strong>, requiring a mix of <strong>rhythm, strategy, and quick thinking</strong>. With a unique blend of <strong>timing-based movement</strong> and <strong>puzzle-solving</strong>, Drill Beat delivers a <strong>fresh and engaging experience</strong> for players who enjoy both <strong>rhythm and logic-based challenges</strong>. </p><p class=\"bb_paragraph\" ><strong>Can you make it to the bottom?</strong></p>",
+        "short_description": "Drill Beat is a puzzle-rhythm game where you control an animated bit that moves to the beat. Navigate through its puzzling landscape, and collect golden cogs to progress. Explore deeper into this mysterious mechanical world and uncover what lies at the bottom.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/header.jpg?t=1761240144",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/71ad8005b35eb2cee4850ed4565e2743ea897f0f/capsule_231x87.jpg?t=1761240144",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/71ad8005b35eb2cee4850ed4565e2743ea897f0f/capsule_184x69.jpg?t=1761240144",
+        "website": "https://duvicstudio.com/drill-beat",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Pentium CPU N4200 1.1GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Core i3-6006U<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Duvic Studio"
+        ],
+        "publishers": [
+          "Duvic Studio"
+        ],
+        "demos": [
+          {
+            "appid": 3780640,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1248814
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Drill Beat",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1248814,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Drill Beat - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/95966caa96864185982fe0676eeee54bd7579d6b/ss_95966caa96864185982fe0676eeee54bd7579d6b.600x338.jpg?t=1761240144",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/95966caa96864185982fe0676eeee54bd7579d6b/ss_95966caa96864185982fe0676eeee54bd7579d6b.1920x1080.jpg?t=1761240144"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/8b319e014e3106d7d73759da83156077bbec6df0/ss_8b319e014e3106d7d73759da83156077bbec6df0.600x338.jpg?t=1761240144",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/8b319e014e3106d7d73759da83156077bbec6df0/ss_8b319e014e3106d7d73759da83156077bbec6df0.1920x1080.jpg?t=1761240144"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/eb071e017b4148b4263123ff310d262f35bfcba3/ss_eb071e017b4148b4263123ff310d262f35bfcba3.600x338.jpg?t=1761240144",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/eb071e017b4148b4263123ff310d262f35bfcba3/ss_eb071e017b4148b4263123ff310d262f35bfcba3.1920x1080.jpg?t=1761240144"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/d127c8885453765d734dbbd59fd229cc4bc9c7ba/ss_d127c8885453765d734dbbd59fd229cc4bc9c7ba.600x338.jpg?t=1761240144",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/d127c8885453765d734dbbd59fd229cc4bc9c7ba/ss_d127c8885453765d734dbbd59fd229cc4bc9c7ba.1920x1080.jpg?t=1761240144"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/6752b325a7768fc591164b04dbbb6144df8f96ef/ss_6752b325a7768fc591164b04dbbb6144df8f96ef.600x338.jpg?t=1761240144",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/6752b325a7768fc591164b04dbbb6144df8f96ef/ss_6752b325a7768fc591164b04dbbb6144df8f96ef.1920x1080.jpg?t=1761240144"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257133017,
+            "name": "Drill Beat Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257133017/fa82097f3f8bfc241d46f70554e20f0059a8021a/movie_600x337.jpg?t=1745961159",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3537890/881250/5c9c63291cda3f2dc6f1559d84bba7e00f29d12d/1750859072/dash_av1.mpd?t=1745961159",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3537890/881250/5c9c63291cda3f2dc6f1559d84bba7e00f29d12d/1750859072/dash_h264.mpd?t=1745961159",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3537890/881250/5c9c63291cda3f2dc6f1559d84bba7e00f29d12d/1750859072/hls_264_master.m3u8?t=1745961159",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2025"
+        },
+        "support_info": {
+          "url": "https://duvicstudio.com/support",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3537890?t=1761240144",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3537890/9b92d59382f932f3aef19448c1fa3c858042e09a/page_bg_raw.jpg?t=1761240144",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

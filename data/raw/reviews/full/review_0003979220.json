@@ -1,0 +1,66 @@
+{
+  "appid": 3979220,
+  "requested_at": "2026-09-13T20:07:29.781477+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224800493",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 887,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 887,
+          "last_played": 1777671189,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "YUNHANZHI is a tightly focused action RPG that strips the genre down to its most demanding core, removing many of the systems players typically rely on and replacing them with a pure emphasis on execution and skill. Set against a backdrop inspired by the Three Kingdoms era, it presents a world shaped by conflict and discipline, but instead of immersing players in a sprawling narrative or complex progression systems, it challenges them to succeed through precision, timing, and adaptability alone. The result is an experience that feels both refreshing in its simplicity and uncompromising in its difficulty.\n\nWhat immediately sets the game apart is its rejection of traditional progression mechanics. There are no equipment upgrades, no stat-based advantages, and no gradual power scaling to soften the challenge. Every encounter is approached on equal footing, where victory depends entirely on how well the player understands and responds to the mechanics. This design places a heavy emphasis on learning enemy behavior, refining reflexes, and mastering movement and attack timing. Progression is not measured through numbers or items, but through the player’s own improvement, which creates a strong sense of personal achievement when obstacles are finally overcome.\n\nCombat is the centerpiece of the experience, and it demands constant attention. Encounters are fast and unforgiving, requiring players to react quickly and make deliberate decisions in the middle of intense situations. Enemies are designed to pressure the player, often leaving little room for hesitation or mistakes. The system encourages careful observation, as recognizing patterns and anticipating attacks becomes essential for survival. Skill combinations add a layer of flexibility, allowing players to develop their own combat style, but the margin for error remains extremely small. This creates a loop where failure is frequent, but each attempt contributes to a deeper understanding of the game’s mechanics.\n\nThe structure of the game is relatively linear, guiding players through a sequence of challenges that steadily increase in difficulty. This approach keeps the focus firmly on combat, ensuring that each new encounter builds on what has been learned previously. While this linearity helps maintain a consistent pace, it also limits the sense of exploration and variety. The game does not offer a wide range of environments or alternative paths, instead concentrating its efforts on delivering a continuous series of tests that refine the player’s abilities.\n\nThe setting draws from historical inspiration, providing a thematic foundation that adds context to the action. While the narrative is present, it remains understated and secondary to the gameplay. The story serves more as a backdrop than a central element, offering just enough detail to give meaning to the journey without diverting attention from the combat. This aligns with the game’s overall design philosophy, which prioritizes gameplay over storytelling depth.\n\nVisually, the game adopts a clean and functional 2D style that emphasizes clarity during combat. Character movements, attacks, and environmental hazards are easy to read, which is crucial given the speed and precision required. While the presentation is not particularly elaborate, it supports the gameplay effectively by ensuring that players can focus on what matters most. The audio design complements this with straightforward effects that reinforce actions without becoming a focal point, maintaining the game’s emphasis on mechanics.\n\nOne of the most defining aspects of the experience is how it handles repetition. Without traditional progression systems or varied mechanics, the game relies heavily on repeated attempts to drive engagement. Each failure becomes part of the learning process, and each success feels earned through persistence. For players who enjoy this kind of challenge, the experience can be deeply satisfying, as it rewards dedication and improvement. However, for those who prefer more forgiving systems or a greater sense of variety, the repetition may feel limiting.\n\nIn the end, YUNHANZHI stands as a bold interpretation of the action RPG formula, offering a pure and skill-driven experience that refuses to compromise on its vision. It delivers intense and rewarding combat that challenges players to improve through effort rather than progression systems. While its narrow focus and high difficulty may not appeal to everyone, it provides a compelling experience for those who appreciate precision, discipline, and mastery in their gameplay.\n\nRating: 7/10",
+        "timestamp_created": 1777949154,
+        "timestamp_updated": 1777949154,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757660473",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFfAAAAAAAAFP+AAAAAAAAB97sXZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.311999999999898,
+  "transport_error_count": 0
+}

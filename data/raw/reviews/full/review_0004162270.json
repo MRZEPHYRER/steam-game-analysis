@@ -1,0 +1,66 @@
+{
+  "appid": 4162270,
+  "requested_at": "2026-09-13T20:23:26.354534+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 4,
+      "total_negative": 2,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "212410424",
+        "author": {
+          "steamid": "76561199274576252",
+          "personaname": "密造酒100%",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199274576252/",
+          "num_games_owned": 751,
+          "num_reviews": 75,
+          "playtime_forever": 10,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 10,
+          "last_played": 1765705173,
+          "avatar": "586a3593585482196e175333c7fa9abfd5008a71"
+        },
+        "language": "japanese",
+        "review": "[h1]うんち！（がったいのおと）[/h1]\nうんちを合体させながら最終形態のゲーミングカラーを目指すスイカライクゲーム。\n背景が個室トイレにも関わらず交差点の環境音がBGMで垂れ流されていたり、合体する度に再生されるうんちSEによって、脳裏に某森のカタツムリ♀の姿が浮かんでくるなどかなり混沌としたゲーム。\nローンチセールで100円を切ってはいるものの、UnityRoomとGooglePlayで無料で遊べるうえ、Steam版の固有要素がオンラインランキングのみなのでお布施かオンラインランキングに名前を残したいとかでもない限りは買う意味は薄いかと思います。\nちなみにレビュー執筆時点で自分含め17人の物好きがうんち遊びをしています。現場からは以上です。",
+        "timestamp_created": 1764687898,
+        "timestamp_updated": 1764687898,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.592274665832519531",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764235264",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYJ42AAAAAFP+Lz6sAAAAB4g6SqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

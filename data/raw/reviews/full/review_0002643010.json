@@ -1,0 +1,75 @@
+{
+  "appid": 2643010,
+  "requested_at": "2026-09-13T18:53:26.999037+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 87,
+      "total_negative": 48,
+      "total_reviews": 135
+    },
+    "reviews": [
+      {
+        "recommendationid": "213985356",
+        "author": {
+          "steamid": "76561198202260774",
+          "personaname": "De \"Punished\" Gurkin",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/DeGurkin/",
+          "num_games_owned": 281,
+          "num_reviews": 22,
+          "playtime_forever": 329,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 329,
+          "last_played": 1766315280,
+          "avatar": "b93380b9994ad8baca1d4620ba9149ba56713735"
+        },
+        "language": "english",
+        "review": "I was hoping the full game would have any kind of system for this but no.\nIt does not matter how good you are at tactical battles, it does not matter how your cult handles economics, it does not matter if you send 5 groups of beggars at excellent begging and make a net surplus of food when you go out.\n\nIn the end, at all difficulties, you will run into severe food shortages.\nEven if you conquer the best producing cities\neven if you play everything straight.\nI got something like 20 runs under my belt and I have come to realise the tenants you choose for your cult do not impact this at all.\nin the end we all starve.\n\nThe game seriously expects you to intentionally loose units or do fake attacks and retreats just so you do not have to feed your flock at the feast.\nThe mandatory feast is really the core issue of this game.\nI do not mean the halfway feast. I mean the victory feast.\n\nIf you do not intentionally shoot yourself in the leg (which feels awful to do) you are not making it past day 10.\nAnd that is awful.\nThere is no way to mitigate this, there is no laws to pick or decisions to make, just a group of 5 follower groups at 3 stars will never be self-sustaining until you have conquered about 15 towns.\n\nThe game expects you to struggle? I do not struggle I am good at the tactical part of the game.\nSo the game punishes me for not loosing units by forcing me to pay out food.\nHorrible design.\n\nThere is no mechanic to gain extra food either, and good luck if you chose Tenants that attract followers that do not beg for you.\nInstantly down 10 food.\n\nAnd the game acts like you have food to spare all the time \"Oh you converted 14 folks of 3 different groups do you want to feed them 14 food?\"  \nReward: 1 Charisma.\n\nNone of the recources scale off of each other either.\nIf you spend 143 food during a feast or spend 4 food you always gain 2 Charisma.\n\nClown universe.\n\nThe Relics do ♥♥♥♥ all, there is no city management at all, it's just numbers in the background, there is no-win scenarios, the game expects you to fail and punishes you if you win.\nJust straight up not a fun experience.",
+        "timestamp_created": 1766482147,
+        "timestamp_updated": 1766482147,
+        "voted_up": false,
+        "votes_up": 63,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.826846837997436523",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752587560",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTdosAAAAAFP+p1h+AAAAB8hKWwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

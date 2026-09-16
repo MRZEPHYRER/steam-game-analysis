@@ -1,0 +1,66 @@
+{
+  "appid": 3828830,
+  "requested_at": "2026-09-13T19:45:38.466688+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "231844988",
+        "author": {
+          "steamid": "76561198278731532",
+          "personaname": "Lieutenant Doughnut",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198278731532/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1785616054,
+          "avatar": "9f3b80a64678c80403fa0b9972a440a04b1dc8ec"
+        },
+        "language": "english",
+        "review": "This game was a decent little horror game. don't expect too much gameplay, but the few jump scares actually scared me pretty well. the ending was also anticlimactic but the music was hype so there's that. if you don't care about spending the money its worth your time!",
+        "timestamp_created": 1785616188,
+        "timestamp_updated": 1785616188,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762387162",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB8x7X0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

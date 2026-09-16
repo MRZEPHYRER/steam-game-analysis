@@ -1,0 +1,233 @@
+{
+  "requested_at": "2026-09-13T07:12:58.138515+00:00",
+  "request_params": {
+    "appids": 4161490,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4161490,
+  "payload": {
+    "4161490": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Tatvalok",
+        "steam_appid": 4161490,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><strong>Tatvalok</strong> is a story-driven third-person action RPG set on a mystical alien planet where ancient gods, forgotten technology, and corrupted creatures collide. After a crash landing, you wake up in a world once ruled by an advanced civilization. Your arrival was not a coincidence or was it?</p><p class=\"bb_paragraph\" >Explore vast open biomes, from sacred temples to ruined alien cities overrun by nature and corruption. Fight dragons, mutated beasts, and legendary guardians . Upgrade weapons, learn combat abilities, and uncover the truth behind the lost race that still watches from the shadows.</p><p class=\"bb_paragraph\" >Every temple holds a secret, every creature has a history, and every battle brings you closer to the moment when the gods finally reveal why <strong>you</strong> were chosen.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>Tatvalok</strong> is a story-driven third-person action RPG set on a mystical alien planet where ancient gods, forgotten technology, and corrupted creatures collide. After a crash landing, you wake up in a world once ruled by an advanced civilization. Your arrival was not a coincidence or was it?</p><p class=\"bb_paragraph\" >Explore vast open biomes, from sacred temples to ruined alien cities overrun by nature and corruption. Fight dragons, mutated beasts, and legendary guardians . Upgrade weapons, learn combat abilities, and uncover the truth behind the lost race that still watches from the shadows.</p><p class=\"bb_paragraph\" >Every temple holds a secret, every creature has a history, and every battle brings you closer to the moment when the gods finally reveal why <strong>you</strong> were chosen.</p>",
+        "short_description": "A fallen world. A forgotten prophecy. And a stranger who was never meant to survive. Explore a vast mythical planet where alien technology and divine magic collide. Face legendary beasts and uncover the truth behind a cosmic plan written long before your birth.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/a3cc0f4af9ee80d858314a42a3bcf525d343f045/header.jpg?t=1764335108",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/77c7aab49a0ad6480d7f8c3c750fde8af65212df/capsule_231x87.jpg?t=1764335108",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/77c7aab49a0ad6480d7f8c3c750fde8af65212df/capsule_184x69.jpg?t=1764335108",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64)<br></li><li><strong>Processor:</strong> Intel i3 / Ryzen 3 <br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 750 Ti / AMD Radeon R7 260X or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 3 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 (64-bit)<br></li><li><strong>Processor:</strong> Intel i5 / Ryzen 5<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1060 / RX 580 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 3 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Suryansh Garg"
+        ],
+        "publishers": [
+          "Suryansh Garg"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1457981
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Tatvalok",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1457981,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Tatvalok: The Story Of Asidhara - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 71,
+            "description": "Narrated Game Menus"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/b478865c5f3a4410faf87956d9018bea1d79df3e/ss_b478865c5f3a4410faf87956d9018bea1d79df3e.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/b478865c5f3a4410faf87956d9018bea1d79df3e/ss_b478865c5f3a4410faf87956d9018bea1d79df3e.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/514daa5020d75ec33bcf542e0c2d523e2884ab7d/ss_514daa5020d75ec33bcf542e0c2d523e2884ab7d.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/514daa5020d75ec33bcf542e0c2d523e2884ab7d/ss_514daa5020d75ec33bcf542e0c2d523e2884ab7d.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/71ffe7bc79ccf2f1bd6c402818316d9139924957/ss_71ffe7bc79ccf2f1bd6c402818316d9139924957.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/71ffe7bc79ccf2f1bd6c402818316d9139924957/ss_71ffe7bc79ccf2f1bd6c402818316d9139924957.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/af6a33bb5b29703b2976a703425fdac70a6d4dba/ss_af6a33bb5b29703b2976a703425fdac70a6d4dba.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/af6a33bb5b29703b2976a703425fdac70a6d4dba/ss_af6a33bb5b29703b2976a703425fdac70a6d4dba.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/608513885d556a2635fbf309172ec87116fc4eee/ss_608513885d556a2635fbf309172ec87116fc4eee.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/608513885d556a2635fbf309172ec87116fc4eee/ss_608513885d556a2635fbf309172ec87116fc4eee.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/afd4fd291291ca21ef92927837918a8ea64fc6da/ss_afd4fd291291ca21ef92927837918a8ea64fc6da.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/afd4fd291291ca21ef92927837918a8ea64fc6da/ss_afd4fd291291ca21ef92927837918a8ea64fc6da.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/42d69380a7841b36fc716f5b7ae258a393571c60/ss_42d69380a7841b36fc716f5b7ae258a393571c60.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/42d69380a7841b36fc716f5b7ae258a393571c60/ss_42d69380a7841b36fc716f5b7ae258a393571c60.1920x1080.jpg?t=1764335108"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/11523da8105b3a3f9f89eac138af8285e4cd2472/ss_11523da8105b3a3f9f89eac138af8285e4cd2472.600x338.jpg?t=1764335108",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/11523da8105b3a3f9f89eac138af8285e4cd2472/ss_11523da8105b3a3f9f89eac138af8285e4cd2472.1920x1080.jpg?t=1764335108"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257227047,
+            "name": "Tatvalok – The Prophecy of the Fallen Star",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257227047/f55eb381af665fd49058b73322c6a95bc2b1cd9e/movie_600x337.jpg?t=1763360097",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4161490/968782883/281d5e9685c78fd9794322b3fcb403b3ba7357d0/1763359737/dash_av1.mpd?t=1763360097",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4161490/968782883/281d5e9685c78fd9794322b3fcb403b3ba7357d0/1763359737/dash_h264.mpd?t=1763360097",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4161490/968782883/281d5e9685c78fd9794322b3fcb403b3ba7357d0/1763359737/hls_264_master.m3u8?t=1763360097",
+            "highlight": true
+          },
+          {
+            "id": 257232961,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257232961/1d373f73c423827389f0b9ba13437be803446431/movie_600x337.jpg?t=1763358890",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4161490/963882438/bedacd597d333913c59fe53e7793cef26458027f/1763357910/dash_av1.mpd?t=1763358890",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4161490/963882438/bedacd597d333913c59fe53e7793cef26458027f/1763357910/dash_h264.mpd?t=1763358890",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4161490/963882438/bedacd597d333913c59fe53e7793cef26458027f/1763357910/hls_264_master.m3u8?t=1763358890",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 28, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "tatvalokgame@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4161490?t=1764335108",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161490/02c99cda8e4e8d0ee73c863b025557394daaf634/page_bg_raw.jpg?t=1764335108",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

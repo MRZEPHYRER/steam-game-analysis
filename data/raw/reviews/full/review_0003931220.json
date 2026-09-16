@@ -1,0 +1,75 @@
+{
+  "appid": 3931220,
+  "requested_at": "2026-09-13T20:01:48.184861+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "216091587",
+        "author": {
+          "steamid": "76561198057108596",
+          "personaname": "AzurQ",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198057108596/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 1762,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1762,
+          "last_played": 1768339136,
+          "avatar": "6889e542266ff1eca9c32d7f405a723a0e19f756"
+        },
+        "language": "english",
+        "review": "A clever puzzle game once you get into its logic. I did not finished all the post-game harder levels, but the learning cuve was well designed. The interface is rather simple and might lack polish, but the game as it core design brings these small moments when everything clicks together in your head.\n\nThe game is globally about optimizing your space station to fulfill the level objective in time, and you have access to time travel in order to constantly re-adjust your strategy. The mechanic feels like you're playing chess and you can easily test what would happenif you actuallyplayed a different move five turns ago, so it feels really smooth and you can focus on your strategy instead of too much micro-management.",
+        "timestamp_created": 1768580755,
+        "timestamp_updated": 1768580755,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.547325074672698975",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765194200",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZDbIAAAAAFP+GDr8AAAABzvKm4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8130000000001019,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3758560,
+  "requested_at": "2026-09-13T19:37:46.032113+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 16,
+      "total_negative": 0,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "207830081",
+        "author": {
+          "steamid": "76561198160860355",
+          "personaname": "danielmonteiro87",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198160860355/",
+          "num_games_owned": 213,
+          "num_reviews": 65,
+          "playtime_forever": 110,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 110,
+          "last_played": 1761690523,
+          "avatar": "e4fd1c5699adbcdb9c96909c2b56e01f42b850a3"
+        },
+        "language": "english",
+        "review": "Super cheap and gorgeous. \n\n-Visuals: simple, well-crafted art. \n-Gameplay: Responsive cotrols with nice feedbacks. \n-Experience: perfect difficulty, levels are short and just the right amount so you won't get bored. \n-Audio: simple music that never gets annoying.  \n\n-Suggestion to dev: Game is perfect for leaderboards with time record and scores!  \n\nHighly recommend.\n",
+        "timestamp_created": 1761692153,
+        "timestamp_updated": 1761692153,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761534497",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABxxOeYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999994689,
+  "transport_error_count": 0
+}

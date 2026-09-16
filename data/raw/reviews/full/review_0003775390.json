@@ -1,0 +1,67 @@
+{
+  "appid": 3775390,
+  "requested_at": "2026-09-13T19:39:02.605465+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "216852855",
+        "author": {
+          "steamid": "76561198881545899",
+          "personaname": "nowayfarout",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/nowayfarout/",
+          "num_games_owned": 1637,
+          "num_reviews": 413,
+          "playtime_forever": 30,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "deck_playtime_at_review": 30,
+          "last_played": 1769398462,
+          "avatar": "86e0c5bd9b7bd8f704efd0b5473ecb1e2d9d53f0"
+        },
+        "language": "english",
+        "review": "The Ruin Wanderer looks, feels, and plays like a tribute to a certain classic adventure series. Although, it’s certainly  a departure from Hedgefield’s more mood and narrative driven games, mechanics and functionality are well done here.",
+        "timestamp_created": 1769439481,
+        "timestamp_updated": 1769451385,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1753966345",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3l527Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.375,
+  "transport_error_count": 0
+}

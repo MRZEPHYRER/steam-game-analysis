@@ -1,0 +1,309 @@
+{
+  "requested_at": "2026-09-13T06:43:19.337847+00:00",
+  "request_params": {
+    "appids": 4065770,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4065770,
+  "payload": {
+    "4065770": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "EraClicker",
+        "steam_appid": 4065770,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4168780
+        ],
+        "detailed_description": "<h1>Roadmap</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/extras/64a97bab36c24f8c9d99b14696ee416e.avif?t=1781537465\" width=1024 height=432 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" ><strong>EraClicker</strong> is an incremental game where you generate an absurd amount of energy and advance through different eras. Each era brings new buildings, upgrades, and unique achievements. Travel through time, enjoy the changes, and of course, click a lot on this journey!</p><p class=\"bb_paragraph\" ><strong>What you can expect from EraClicker:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Over 839 upgrades</p></li><li><p class=\"bb_paragraph\" >Over 432 achievements</p></li><li><p class=\"bb_paragraph\" >6 eras availables at the moment</p></li><li><p class=\"bb_paragraph\" >Cloud saving</p></li><li><p class=\"bb_paragraph\" >Random events that can boost your energy production</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><strong>EraClicker</strong> is an incremental game where you generate an absurd amount of energy and advance through different eras. Each era brings new buildings, upgrades, and unique achievements. Travel through time, enjoy the changes, and of course, click a lot on this journey!</p><p class=\"bb_paragraph\" ><strong>What you can expect from EraClicker:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Over 839 upgrades</p></li><li><p class=\"bb_paragraph\" >Over 432 achievements</p></li><li><p class=\"bb_paragraph\" >6 eras availables at the moment</p></li><li><p class=\"bb_paragraph\" >Cloud saving</p></li><li><p class=\"bb_paragraph\" >Random events that can boost your energy production</p></li></ul>",
+        "short_description": "Incremental game where you travel through time, starting in the Paleolithic and advancing through different eras!",
+        "supported_languages": "English, Portuguese - Brazil, French, Italian, German, Spanish - Spain, Simplified Chinese, Korean, Japanese, Polish, Russian, Spanish - Latin America",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/a2a588e4fc0bad9107a74b30ae8ad0760dd47bdb/header.jpg?t=1781537465",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/323ee0e1f7059ade88cf1ab9047e49be861b8277/capsule_231x87.jpg?t=1781537465",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/323ee0e1f7059ade88cf1ab9047e49be861b8277/capsule_184x69.jpg?t=1781537465",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Processor:</strong> 2Ghz+<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Any Graphics Card<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Reard Studio"
+        ],
+        "publishers": [
+          "Reard Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1425687
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy EraClicker",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1425687,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "EraClicker - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/3e545c7c2a48464bd83f0f5f540a2b810e60ae80/ss_3e545c7c2a48464bd83f0f5f540a2b810e60ae80.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/3e545c7c2a48464bd83f0f5f540a2b810e60ae80/ss_3e545c7c2a48464bd83f0f5f540a2b810e60ae80.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/386a29f04aae7c42d898d107f7f3192cf0e5cdb3/ss_386a29f04aae7c42d898d107f7f3192cf0e5cdb3.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/386a29f04aae7c42d898d107f7f3192cf0e5cdb3/ss_386a29f04aae7c42d898d107f7f3192cf0e5cdb3.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/5a79771d3e029fdd87f5cfd67862f151b15e3b11/ss_5a79771d3e029fdd87f5cfd67862f151b15e3b11.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/5a79771d3e029fdd87f5cfd67862f151b15e3b11/ss_5a79771d3e029fdd87f5cfd67862f151b15e3b11.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/7c038d91a447d408be20e5ee6c94366703a356d0/ss_7c038d91a447d408be20e5ee6c94366703a356d0.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/7c038d91a447d408be20e5ee6c94366703a356d0/ss_7c038d91a447d408be20e5ee6c94366703a356d0.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/7ca8792cca3c1ec911ba8ef58f213110f09ac03e/ss_7ca8792cca3c1ec911ba8ef58f213110f09ac03e.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/7ca8792cca3c1ec911ba8ef58f213110f09ac03e/ss_7ca8792cca3c1ec911ba8ef58f213110f09ac03e.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/d6f63a16c46702b4356964dbdc62aa4bb1f3fd41/ss_d6f63a16c46702b4356964dbdc62aa4bb1f3fd41.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/d6f63a16c46702b4356964dbdc62aa4bb1f3fd41/ss_d6f63a16c46702b4356964dbdc62aa4bb1f3fd41.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/56982b57deb4ef0644a780d4b99940f17ebb8a52/ss_56982b57deb4ef0644a780d4b99940f17ebb8a52.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/56982b57deb4ef0644a780d4b99940f17ebb8a52/ss_56982b57deb4ef0644a780d4b99940f17ebb8a52.1920x1080.jpg?t=1781537465"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/e65bda54b9734d93b8e87ffc9ac46aea51e906db/ss_e65bda54b9734d93b8e87ffc9ac46aea51e906db.600x338.jpg?t=1781537465",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4065770/e65bda54b9734d93b8e87ffc9ac46aea51e906db/ss_e65bda54b9734d93b8e87ffc9ac46aea51e906db.1920x1080.jpg?t=1781537465"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257270592,
+            "name": "EraClicker teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257270592/209bf022bd00883cac67ff37df6d48408a65dac8/movie_600x337.jpg?t=1769120837",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4065770/1134399624/94af18fc8c0054d20190eb79142ee05a37727aa7/1769117547/dash_av1.mpd?t=1769120837",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4065770/1134399624/94af18fc8c0054d20190eb79142ee05a37727aa7/1769117547/dash_h264.mpd?t=1769120837",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4065770/1134399624/94af18fc8c0054d20190eb79142ee05a37727aa7/1769117547/hls_264_master.m3u8?t=1769120837",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 100,
+          "highlighted": [
+            {
+              "icon": "f1b51b8e4c11b48a7fe300f847048ecdcf1a06ac.jpg",
+              "localized_name": "Click",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Click",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/f1b51b8e4c11b48a7fe300f847048ecdcf1a06ac.jpg"
+            },
+            {
+              "icon": "999a129078ba772304a6de53d9cd6066248d1c53.jpg",
+              "localized_name": "Initial Tap",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Initial Tap",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/999a129078ba772304a6de53d9cd6066248d1c53.jpg"
+            },
+            {
+              "icon": "a7c3c61f9e3c2e95e97ab7725f3618e66f03c029.jpg",
+              "localized_name": "Multiplying",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Multiplying",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/a7c3c61f9e3c2e95e97ab7725f3618e66f03c029.jpg"
+            },
+            {
+              "icon": "a71a820ed5248ce346081b087c9db65db5871aae.jpg",
+              "localized_name": "Finger Power",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Finger Power",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/a71a820ed5248ce346081b087c9db65db5871aae.jpg"
+            },
+            {
+              "icon": "76da9cbd1f6804308ee1cafcf7c47e25354080d5.jpg",
+              "localized_name": "Unstoppable",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Unstoppable",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/76da9cbd1f6804308ee1cafcf7c47e25354080d5.jpg"
+            },
+            {
+              "icon": "09606026a51c1522b0bbf01acc8eefc79dbdfd20.jpg",
+              "localized_name": "Clicking Forever",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Clicking Forever",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/09606026a51c1522b0bbf01acc8eefc79dbdfd20.jpg"
+            },
+            {
+              "icon": "27e92fa5e33b2bc5813f35e892d16380bf3cce75.jpg",
+              "localized_name": "First Settlers",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Settlers",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/27e92fa5e33b2bc5813f35e892d16380bf3cce75.jpg"
+            },
+            {
+              "icon": "89d81cd5543b51dd4c8a6807421af97e8a44f39e.jpg",
+              "localized_name": "Initial Growth",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Initial Growth",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/89d81cd5543b51dd4c8a6807421af97e8a44f39e.jpg"
+            },
+            {
+              "icon": "44e8efef1a44623de46f6f3684f0223252261443.jpg",
+              "localized_name": "Nomads on Duty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Nomads on Duty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/44e8efef1a44623de46f6f3684f0223252261443.jpg"
+            },
+            {
+              "icon": "351dfa1ae49c4b568ea0f42fec8d814641e84311.jpg",
+              "localized_name": "Promising Expansion",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Promising Expansion",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4065770/351dfa1ae49c4b568ea0f42fec8d814641e84311.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "contact.reardstudio@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4065770?t=1781537465",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4065770?t=1781537465",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

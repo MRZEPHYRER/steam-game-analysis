@@ -1,0 +1,66 @@
+{
+  "appid": 3882730,
+  "requested_at": "2026-09-13T19:54:29.208463+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 17,
+      "total_negative": 3,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "217423471",
+        "author": {
+          "steamid": "76561198313130381",
+          "personaname": "kind0505",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198313130381/",
+          "num_games_owned": 0,
+          "num_reviews": 13,
+          "playtime_forever": 17303,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2007,
+          "last_played": 1771119106,
+          "avatar": "590ad64cb45408ba7fbcff9c04381c55886614e0"
+        },
+        "language": "koreana",
+        "review": "일단 호불호 갈리는 요소에 대해 빨리 설명하겠음.\n\n1. 방치하려면 과금 필수 \n대략 16000원 까지는 ( 1,2 과금패스) 까지는 구매해야됨.\n효율 따질거면 2만원까지는 거의 필수. \n2만원은 재도전 5초, 부활 220초 줄여주는건데 \n스킬포인트 15포인트 찍어야 재도전 4초줄여준다는 점을 생각한다면,  스테이지 10-3까지 밀면 대략 21포인트 라는 점을 감안한다면, 오래할 생각이라면 포기할 수 없는 수치임. 10초컷을 한다고해도, 재도전 대기시간이 10초라면, 이 누계는 무시못함.\n\n즉 3.5만원 짜리 패키지 게임이나 마찬가지임. 만약 2만원은 너무 심하다 싶어서 안건드리더라도, 1.5만원은 써야 방치가됨.\n1.5만원에 들어가는 건, 방치시키면서 생성되는 상자의 수량과 관련된거라. 이것조차도 안살거면 15포인트 박아서 방치에 관련된 스탯을 찍어야됨. 근데. 그러면 그 스탯을 상자 획득에 투자한 사람에 비해서 성장은 당연히 느리겠지?\n\n\n2. 최대 8캐릭을 동시에 성장시킬 수 있는 구조\n당연히 처음에는 1캐릭에 몰빵해서 지휘관 레벨 올리고, 1캐릭이 파밍한 장비를 바탕으로 부캐 키워주면 베스트이긴한데.\n8종류나 되는 캐릭을 키워야된다는 점이 장점이자 단점임.\n\n심지어 같은 캐릭을 3개 이상은 절대로 키울 수 없음. 이유는 스킬의 공유 때문인데, \n1번 기사가 끼고있는 스킬은 2번 기사가 못끼고, 3번 기사는 1,2번이 낀 스킬을 못 낌.\n그나마 암살자는 주문형 / 물리형 스킬이 나뉘어져있어서 물리, 주문으로 나눠서 키울 순 있는데, 이런 애를 제외하고는 힘듬. \n\n그리고 8종류나 되는 캐릭을 키우다보면, 당연히 사제도 키워야 되는데 문제는 사제는 범위 스킬 처먹기 전에는 답이 없다는 거임. 서포팅 스킬이 주력에 딜스킬이 고작 2개라서 (그나마도 하나는 전설급....) \n개인적으로 사제를 최대한 늦게 키우는 걸 추천함. 어차피 기사 + 마법사 로 앵간하면 다 밀림. \n\n\n",
+        "timestamp_created": 1770040799,
+        "timestamp_updated": 1770040799,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.59168010950088501",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764241648",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYKpkAAAAAFP+LvCuAAAAB/5rO9Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

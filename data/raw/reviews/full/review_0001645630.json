@@ -1,0 +1,97 @@
+{
+  "appid": 1645630,
+  "requested_at": "2026-09-13T18:44:05.640610+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 465,
+      "total_negative": 272,
+      "total_reviews": 737
+    },
+    "reviews": [
+      {
+        "recommendationid": "212574966",
+        "author": {
+          "steamid": "76561198253132472",
+          "personaname": "CorZ",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/WelcomeToCorZ/",
+          "num_games_owned": 425,
+          "num_reviews": 89,
+          "playtime_forever": 23,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 23,
+          "last_played": 1764884729,
+          "avatar": "0eb4dc3a0b6ac298c13243272f5b20536bfce15f"
+        },
+        "language": "english",
+        "review": "I was hyped for a good dino game, and I like to support little devs, but sadly that's not it. Compared to the trailers/demo:\n\n- The game is extremely blurry on 1440p.\n- has only 2 graphic settings.\n- many FPS drops.\n- is extremely dark even on 100% brightness.\n- audio bugged/way too loud.\n- The movement/crafting feels cheap.\n- AI is bad.\n- The main character goes from normal guy to Navy SEAL in 1 min.\n\nSadly, it's a refund for me.",
+        "timestamp_created": 1764885674,
+        "timestamp_updated": 1764889946,
+        "voted_up": false,
+        "votes_up": 409,
+        "votes_funny": 15,
+        "weighted_vote_score": "0.895528912544250488",
+        "comment_count": 40,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1765011571,
+        "developer_response": "Hi CorZ, \n\nUpdate on your feedback: as of now we've released a patch with more graphic settings (Contrast, Upscaler, Render Scale, ChromaticAberration, Vignette, FilmGrain, Upscaler, AntiAliasing, ShadowQuality, DepthOfField) and addressed the audio issues you reported. The patch also included improvements for optimization which should improve the performance on your PC. In addition to brightness adjustment, you can now also adjust contrast, which hopefully resolves the issue where certain areas are too dark. \n\nAs for AI, we'll try our best to improve in future patches. \n\nThanks again for your feedback!",
+        "app_release_date": "1764878769",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 5
+          },
+          {
+            "reaction_type": 19,
+            "count": 4
+          },
+          {
+            "reaction_type": 6,
+            "count": 3
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSFuQAAAAAFP+yoLGAAAAB2r/SqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

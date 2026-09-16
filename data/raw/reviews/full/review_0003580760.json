@@ -1,0 +1,67 @@
+{
+  "appid": 3580760,
+  "requested_at": "2026-09-13T19:24:05.499068+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 6,
+      "total_negative": 0,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "214034351",
+        "author": {
+          "steamid": "76561197998300195",
+          "personaname": "Friendnard",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/NoLongerNow/",
+          "num_games_owned": 0,
+          "num_reviews": 142,
+          "playtime_forever": 18,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "deck_playtime_at_review": 2,
+          "last_played": 1766526304,
+          "avatar": "8c4120768c46e7162baf3146f40b0ceba28462c4"
+        },
+        "language": "english",
+        "review": "A collection of small poems, meant to be taken in slowly and deliberately.",
+        "timestamp_created": 1766526421,
+        "timestamp_updated": 1766526421,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751403554",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB/+rywBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

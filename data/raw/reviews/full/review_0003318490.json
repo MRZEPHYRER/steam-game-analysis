@@ -1,0 +1,66 @@
+{
+  "appid": 3318490,
+  "requested_at": "2026-09-13T19:10:52.511193+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 3,
+      "total_negative": 6,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "213694981",
+        "author": {
+          "steamid": "76561199573274221",
+          "personaname": "Kammy",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199573274221/",
+          "num_games_owned": 0,
+          "num_reviews": 16,
+          "playtime_forever": 51,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 51,
+          "last_played": 1766202832,
+          "avatar": "a8c5d92192f114f5ed05a03a86e53facc7d22a27"
+        },
+        "language": "english",
+        "review": "So far this game has potential; however, there are bugs. I had to manually get out of the game because escape would not bring up my exit and i had to start all over. I had built the walls and was stuck on \"build shaft walls and floors\" which I did unless I am missing something? Needs work. I get this in early access and fairly priced game, so I will keep it in hopes of growth.",
+        "timestamp_created": 1766202990,
+        "timestamp_updated": 1766202990,
+        "voted_up": false,
+        "votes_up": 9,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.651972174644470215",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765903546",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW9eeAAAAAFP+Tc9GAAAAB1oJevBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

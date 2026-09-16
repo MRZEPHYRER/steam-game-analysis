@@ -1,0 +1,66 @@
+{
+  "appid": 3777690,
+  "requested_at": "2026-09-13T19:39:09.132366+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "215882190",
+        "author": {
+          "steamid": "76561198365217551",
+          "personaname": "ripperjunkie",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/rafaelzagolin/",
+          "num_games_owned": 0,
+          "num_reviews": 16,
+          "playtime_forever": 16,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 16,
+          "last_played": 1768296277,
+          "avatar": "70775bea7f686494de0674f0becf4c82468c78a2"
+        },
+        "language": "english",
+        "review": "I played this game because it got my interest. I like the steam capsule art and I watched some gameplay and it seemed fun. I bought the game, but I got really disappointed with the lack of features such as progression, other mechanics, levels, etc. You earn money, but there's nothing to spend on. If you bump on walls enough times or at a certain speed (I can't tell which one because the game does not make it clear), you enter ragdoll mode and it slows you down from completing the delivery. It should have a health bar or some kinda of way to inform the player about the bumping on walls mechanic.\n\nThe music choice is good. The city is nicely built.\n\nI would recommend this game if it was cheaper like 2 or 3 dollars, but 7 dollars for a game that feels like a game jam game, I cannot recommend it.",
+        "timestamp_created": 1768296943,
+        "timestamp_updated": 1768296943,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753196438",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB+nMO3Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999994689,
+  "transport_error_count": 0
+}

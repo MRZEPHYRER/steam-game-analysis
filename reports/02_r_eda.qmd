@@ -1,0 +1,213 @@
+---
+title: "Step 4B R-based Exploratory Data Analysis"
+subtitle: "Steam 3,000-game market cohort and 844-game review-qualified sample"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/analysis/00_helpers.R")
+source(file.path(project_root, "R", "analysis", "01_load_data.R"))
+
+summary_path <- function(name) {
+  file.path(project_root, "data", "analysis", "r", paste0(name, ".csv"))
+}
+read_summary <- function(name) read.csv(summary_path(name), check.names = FALSE)
+figure_path <- function(name) file.path(project_root, "figures", "eda", name)
+
+dataset_audit <- read_summary("dataset_audit")
+market_overview <- read_summary("market_overview")
+payment_summary <- read_summary("payment_summary")
+price_summary <- read_summary("price_summary")
+missingness_summary <- read_summary("missingness_summary")
+genre_summary <- read_summary("genre_eda_summary")
+release_month <- read_summary("release_month_eda")
+correlations <- read_summary("correlation_summary")
+model_prep <- read_summary("model_preparation_summary")
+outliers <- read_summary("outlier_table")
+
+stopifnot(
+  dataset_audit$rows[dataset_audit$dataset == "games_market"] == 3000,
+  dataset_audit$rows[dataset_audit$dataset == "games_model20"] == 844,
+  dataset_audit$rows[dataset_audit$dataset == "games_genres"] == 8796
+)
+```
+
+# 研究范围与数据语义
+
+本报告是描述性探索，不包含正式假设检验、GLM、机器学习或因果推断。
+市场层数据保留全部 3,000 个游戏，包括 759 个零评论游戏；只有在分析
+`positive_rate` 时才排除评论数为零、该比率按定义为空的游戏。
+`total_reviews` 仅作为玩家关注度/市场互动代理，不能解释为销量。
+价格是采集时点的商店快照，不是首发价或历史价格。
+
+```{r}
+knitr::kable(dataset_audit)
+knitr::kable(missingness_summary, digits = 2)
+```
+
+# 评论量分布
+
+原始评论量高度右偏，最大值为 136,842。对数变换明显降低尾部支配，
+但不删除零评论游戏。20 条评论阈值把 3,000 个市场游戏缩减为 844 个。
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["原始评论量直方图", "log10(1 + 评论量) 直方图"]
+knitr::include_graphics(c(
+  figure_path("01_review_count_hist_raw.png"),
+  figure_path("02_review_count_hist_log.png")
+))
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["评论量 ECDF", "免费/付费游戏评论量"]
+knitr::include_graphics(c(
+  figure_path("03_review_count_ecdf.png"),
+  figure_path("04_free_paid_review_volume.png")
+))
+```
+
+# 正面率与分母问题
+
+正面率只在 2,241 个至少有一条评论的游戏中有定义。低评论数下存在大量
+0% 或 100% 的离散极值：832 个游戏正面率为 100%，其中 672 个只有
+1–9 条评论。Wilson 区间示例用于展示小分母的不确定性，不是正式模型。
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["有评论游戏的正面率分布", "正面率与评论量"]
+knitr::include_graphics(c(
+  figure_path("05_positive_rate_distribution.png"),
+  figure_path("06_positive_rate_vs_reviews.png")
+))
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["满分正面率与评论量", "Wilson 区间示例"]
+knitr::include_graphics(c(
+  figure_path("07_perfect_rate_by_count_group.png"),
+  figure_path("19_wilson_interval_examples.png")
+))
+```
+
+# 价格
+
+2,597 个付费游戏拥有有效现价；中位数为 $4.99，均值为 $8.52，范围为
+$0.49–$199.99。价格与评论关注度、正面率的图形关系均有大幅重叠，
+仅作描述，不能解释为价格效应。
+
+```{r}
+knitr::kable(price_summary, digits = 2)
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["付费游戏价格分布", "价格与评论量"]
+knitr::include_graphics(c(
+  figure_path("08_price_distribution.png"),
+  figure_path("09_price_vs_review_volume.png")
+))
+```
+
+```{r}
+#| fig-cap: "价格与正面率：全部有评论游戏和 20 条评论样本"
+knitr::include_graphics(figure_path("16_price_positive_rate_all_vs_model20.png"))
+```
+
+# 类型（多标签）
+
+类型关系包含 8,796 行，类型计数可超过 3,000，因为同一游戏可以属于多个
+类型。20 条评论阈值改变了类型构成；Free To Play 和 Casual 的份额下降，
+Adventure、Simulation 和 RPG 的份额上升。
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["20 条评论规则造成的类型构成变化", "市场类型频数"]
+knitr::include_graphics(c(
+  figure_path("11_model_selection_by_genre.png"),
+  figure_path("12_genre_frequency.png")
+))
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["各类型达到 20 条评论的覆盖率", "类型正面率：全部有评论与 20+ 评论"]
+knitr::include_graphics(c(
+  figure_path("13_genre_review_coverage.png"),
+  figure_path("17_genre_positive_rate_all_vs_model20.png")
+))
+```
+
+# 样本选择、月份与平台
+
+完整市场中免费游戏占 13.4%，而 20 条评论样本中仅占 0.95%。
+免费游戏达到阈值的比例为 1.99%，付费游戏为 32.18%，因此后续任何
+模型都必须明确承认样本选择。月份和平台差异同样是描述性结构，不是
+季节效应或平台效应。
+
+```{r}
+knitr::kable(payment_summary, digits = 2)
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["完整市场与模型样本的免费占比", "完整市场与模型样本的价格"]
+knitr::include_graphics(c(
+  figure_path("10_full_model_free_share.png"),
+  figure_path("15_full_model_price_distribution.png")
+))
+```
+
+```{r}
+#| fig-cap: "发布月份的样本数量、评论覆盖和正面率"
+knitr::include_graphics(figure_path("14_release_month_coverage.png"))
+```
+
+```{r}
+#| layout-ncol: 2
+#| fig-cap: ["平台支持与样本保留", "评论关注度最高的 20 个游戏"]
+knitr::include_graphics(c(
+  figure_path("18_platform_support_and_selection.png"),
+  figure_path("20_high_attention_games.png")
+))
+```
+
+# 相关性与 Step 5 准备
+
+Pearson 与 Spearman 结果均作为 EDA 描述。原始评论量的偏度很高，
+`log1p(total_reviews)` 更适合后续诊断；正面率需要保留分母信息；
+类型必须以多标签结构处理，不能把 8,796 行当作独立游戏。
+
+```{r}
+knitr::kable(
+  correlations[
+    correlations$variable_x != correlations$variable_y,
+    c("variable_x", "variable_y", "method", "correlation")
+  ],
+  digits = 3
+)
+knitr::kable(model_prep, digits = 2)
+```
+
+# 异常值与限制
+
+高评论量和高价格游戏保留在数据中，没有因极端值而删除。图中必要时只
+限制显示范围，并在标题或副标题中说明。异常值清单用于后续稳健性检查。
+
+```{r}
+knitr::kable(outliers, digits = 3)
+```
+
+# 结论
+
+Step 4B 支持进入模型设计阶段，但不等于模型已经获准。后续工作应分别
+处理评论量与正面率、保留零评论市场语义、显式诊断 20 条评论阈值造成的
+选择，并避免把观察到的价格、类型、月份或平台差异作因果解释。

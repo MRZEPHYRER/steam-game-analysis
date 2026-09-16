@@ -1,0 +1,67 @@
+{
+  "appid": 3672100,
+  "requested_at": "2026-09-13T19:30:18.959738+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 52,
+      "total_negative": 5,
+      "total_reviews": 57
+    },
+    "reviews": [
+      {
+        "recommendationid": "210132507",
+        "author": {
+          "steamid": "76561199806182234",
+          "personaname": "abeunoia",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199806182234/",
+          "num_games_owned": 57,
+          "num_reviews": 9,
+          "playtime_forever": 923,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 356,
+          "deck_playtime_at_review": 356,
+          "last_played": 1764715606,
+          "avatar": "3171f4bf7780ac20bdcc7b9615fa9fe37757a458"
+        },
+        "language": "english",
+        "review": "I just discovered a hidden gem of a game, and OMG why did no one tell me about this sooner?! Imagine Stardew Valley… but you’re not just farming you’re running an entire Edwardian-inspired village like some cute, cozy dictator. You can even start a cult if you’re feeling ✨spicy✨. And yes, you get to decorate your villagers’ houses too, because interior design is life. 💖\n\nThe farming? Stress-free.\nThe animal care? Adorable.\nThe mining? Addictive to the point that “one more run” becomes 3 hours.\nThe fishing? Finally a fishing mini-game that doesn’t make me cry.\nHas mini games\nHopefully, there would be a plan for festivals and holiday 💖\n\nThere are so many quests, and romance is coming soon! Even though it’s still early access, I barely encountered any bugs like, this game is more stable than my mental health.\n\nI can’t wait for the full release. Plus, the dev is super active and friendly on Discord. Love it so much 😭💖",
+        "timestamp_created": 1764015846,
+        "timestamp_updated": 1764015846,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.699219167232513428",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "app_release_date": "1758540728",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWA/+AAAAAFP+ZgAIAAAAB74cuhBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.17200000000048,
+  "transport_error_count": 0
+}

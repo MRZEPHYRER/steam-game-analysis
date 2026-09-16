@@ -1,0 +1,87 @@
+{
+  "appid": 2508780,
+  "requested_at": "2026-09-13T18:51:55.069960+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 2922,
+      "total_negative": 196,
+      "total_reviews": 3118
+    },
+    "reviews": [
+      {
+        "recommendationid": "206238456",
+        "author": {
+          "steamid": "76561198046611139",
+          "personaname": "HowlingCoffee",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198046611139/",
+          "num_games_owned": 171,
+          "num_reviews": 9,
+          "playtime_forever": 25606,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 8582,
+          "last_played": 1768057895,
+          "avatar": "f6f494be161d6b4d73e3483a4cd8608b5e07e953"
+        },
+        "language": "english",
+        "review": "At the age of 61, I've discovered what it's like to be hopelessly addicted to running and jumping and gliding all over a scenic alpine town when I'm not actually planting and watering and petting and milking and cooking and relentlessly checking the weather report on the radio because hurricanes and blizzards are the scariest thing in this otherwise super cosy game. \r\n\r\nYes, I'm in love with this game. I've realized that I sometimes play it with a big silly smile on my face.\r\n\r\nPS. If you're having trouble jumping and gliding up seemingly inaccessible cliffs, I'd say practice makes perfect. Don't give up. If my elderly hands can do it (using an old wired controller), so can you!",
+        "timestamp_created": 1759985636,
+        "timestamp_updated": 1759985636,
+        "voted_up": true,
+        "votes_up": 103,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.908332228660583496",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756313460",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 12
+          },
+          {
+            "reaction_type": 2,
+            "count": 9
+          },
+          {
+            "reaction_type": 18,
+            "count": 7
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFR1VcAAAAAFP+0RDkAAAAB4r96SBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

@@ -1,0 +1,79 @@
+{
+  "appid": 2739150,
+  "requested_at": "2026-09-13T18:55:00.499371+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 38,
+      "total_negative": 9,
+      "total_reviews": 47
+    },
+    "reviews": [
+      {
+        "recommendationid": "204466601",
+        "author": {
+          "steamid": "76561198167541154",
+          "personaname": "CozyCardboard",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/CozyCardboard/",
+          "num_games_owned": 0,
+          "num_reviews": 37,
+          "playtime_forever": 262,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 186,
+          "last_played": 1758087300,
+          "avatar": "1c8a95545e6076ee6250ee4b7911340d164040a1"
+        },
+        "language": "english",
+        "review": "this game is janky... its got slight optimization issues... its got a few problems... but.... its actually pretty kino.\nit takes place in a small american town and your goal is to play guess who against a trio of aliens that hide amongst the denizens and snuff their existence out from the community. on its face a great and novel idea. there is a lot i would change about it a lot i would improve add and fine tune but... i imagine it was quite a lot of work to make what was already there for a small indie dev. \n\noverall theres a lot i dislike about this game but all that doesnt matter when the emergent gameplay that is produced culminates into extremely high moments and in some weird morbid way the stuff i dislike the stuff thats sort of tedious makes room for those climax moments and makes them pop like a gunshot in a wealthy neighborhood.\n\nyou must investigate the folks who live in roswood and find out the rumors and actions of the many citizens. you take pictures of everyone briefly ask them who they are and if theyve seen anything weird. once you start adding up evidence you put it on the tinfoil hat board and piece together who is guilty and who is innocent, whats cool is the more information you get the more pictures you take the more you can google information and the more the dots start to connect eventually leading to you going to the bar waiting for your mortal enemy the hiding alien you follow them home in the dead of night wait for them to go to sleep and kill them.\n\nyoud think thats not interesting enough but there are a few systems that combine togther to make this hunt more interesting. you have to dispose of the body and clean the evidence. you have to make sure your well rested and a whole  minagerie of other things.\n\nyes there are a lot of things i dislike about this game and would improve but for what it is its an excellent attempt at a novel idea and follows through when it needs to. my only complaint is that i want more. i want more systems i want more customization. i want more interaction more trucks more guns more evidence more of everything and imo thats a good problem to have because it means the core is there and that you could easily improve on the idea and make it better. \n\ni recommend this game with the caveat that this game leaves you bitter because you know that if the systems were more refined that this could be s+ tier but as it stands its at a B+ which is far better than 90% of other 15 dollar games.\n\nalso as a final note i have no issue with the radio and in fact the radio is the only thing that really tethers this game to its location. there is a slight culture shock when a non american makes a small american town. its uncanny and jarring but fascinating and interesting. the radio is the staples that hold it all together. sure its AI but its good AI. i think the culture and design of the houses and culture could be improved as well but the country radio is what really cements its goal of being american even though there is a lot of inconsistencies. its that same uncanny valley you get when you play japanese games that take place in the US there is a lot of over the top and embellished memes and ideas that simply arent authentic... weird and in some ways not true but its endearing at the same time. i dont dislike that but i also think if you go for that vibe you really gotta follow through. you got to get a lot of small details right which is hard and only really effects American players foreign players wouldnt really notice but its very obvious as a US player\n\ni think deadly premonition is a great example because it pulls so heavily from twin peaks it takes a strange and uncanny americans take on a small american town and adds a japanese spin on it. its extremely janky but because it gets the vibe and setting down so well its in a strange way inauthentically authentic. this game comes very close to that but falls short in many ways. i cant hate it but as i said it leaves you bitter because if it had more devs more work more everything it could be the most novel and interesting game in the last 5 to 10 years but because its such a small scale project its hard to look past its shortcomings.",
+        "timestamp_created": 1758017010,
+        "timestamp_updated": 1758017999,
+        "voted_up": true,
+        "votes_up": 19,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.666747391223907471",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757927052",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWqkGAAAAAFP+VV/cAAAAB5mv2LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1870000000001255,
+  "transport_error_count": 0
+}

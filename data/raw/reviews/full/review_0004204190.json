@@ -1,0 +1,66 @@
+{
+  "appid": 4204190,
+  "requested_at": "2026-09-13T20:25:53.602041+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 10,
+      "total_negative": 5,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "225916801",
+        "author": {
+          "steamid": "76561198385681031",
+          "personaname": "杰克斯",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198385681031/",
+          "num_games_owned": 31,
+          "num_reviews": 1,
+          "playtime_forever": 12,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 12,
+          "last_played": 1779024642,
+          "avatar": "0305805e63fe66ad672186ff17c4126c96c790b1"
+        },
+        "language": "schinese",
+        "review": "我实在是无法想象有曹操传这样一个有集体记忆的游戏作为榜样，还能在2026年看见这种玩意。又让我想起当年的血狮，还拿民族英雄当噱头，所以说垃圾游戏真该死个马",
+        "timestamp_created": 1779196019,
+        "timestamp_updated": 1779196019,
+        "voted_up": false,
+        "votes_up": 53,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.848323464393615723",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766065812",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFTCJYAAAAAFP+sldkAAAABx+ObdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

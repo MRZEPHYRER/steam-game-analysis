@@ -1,0 +1,66 @@
+{
+  "appid": 2932990,
+  "requested_at": "2026-09-13T18:59:12.595620+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 17,
+      "total_negative": 4,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "208061703",
+        "author": {
+          "steamid": "76561199043119372",
+          "personaname": "Diamond",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199043119372/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 85,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 85,
+          "last_played": 1761929526,
+          "avatar": "61c36d58c5b7793ece87db6d2ae5bf7de78c4092"
+        },
+        "language": "turkish",
+        "review": "It was hard to find the stairs in the first mission, but I finally found it. The game has funny and silly gameplay. There's a crazy baby with strange habits. Be careful with him 👶🏻",
+        "timestamp_created": 1761929678,
+        "timestamp_updated": 1761930029,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761922768",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB30NiZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8899999999998727,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3618060,
+  "requested_at": "2026-09-13T19:26:22.066001+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 0,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "214540635",
+        "author": {
+          "steamid": "76561199567782959",
+          "personaname": "s󠁳aint ⁧⁧ 󠁳 water",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/swpm911/",
+          "num_games_owned": 72,
+          "num_reviews": 17,
+          "playtime_forever": 74,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 74,
+          "last_played": 1767013572,
+          "avatar": "a006d35403efe93aac64432b79d238ce21f304dd"
+        },
+        "language": "tchinese",
+        "review": "[h1] Astro Busters — Space Shooter Reimagined [/h1]\n\nOnce in a while, a game comes along that takes a classic idea and gives it a fresh sense of speed, weight, and presence. Astro Busters is exactly this: a modern homage to the timeless asteroid shooters of old, brought into sharper focus with responsive controls, physics that feel alive, and arcade-style intensity that keeps you locked into the action from the very first fight. \n\n\n[u]From the moment you launch your ship into the void,[/u] there’s a tangible thrill in weaving through debris, blasting foes and watching your weapons and upgrades change how you approach each encounter. Missions unfold with a rhythmic pulse — never too slow, always hinting at what’s next — while the option to dive into multiplayer adds another layer of unpredictable chaos. \n\n\nWhat stands out most is how Astro Busters manages to honor its roots and yet feels distinctly its own. The physics-based combat gives every shot weight, every dodge feels earned, and the way enemies swarm or fall apart keeps you thinking on your feet. Whether you’re upgrading ships, unlocking new weapons, or just racing to beat your own score, there’s a satisfying flow that’s hard to shake off. \n\n\nAs with many early access titles, you’ll catch moments where the polish isn’t quite complete and the progression hints at even greater potential waiting on the horizon. But those glimpses of brilliance — the tension of a near-wipe, the joy of mastering a tricky mechanic, the buzz of multiplayer chaos — are what make the journey here worthwhile",
+        "timestamp_created": 1767013748,
+        "timestamp_updated": 1767013748,
+        "voted_up": true,
+        "votes_up": 35,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.776592075824737549",
+        "comment_count": 23,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764955989",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUd9mAAAAAFP+jZ14AAAAB7lbSyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

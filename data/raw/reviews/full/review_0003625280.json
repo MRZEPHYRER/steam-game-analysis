@@ -1,0 +1,66 @@
+{
+  "appid": 3625280,
+  "requested_at": "2026-09-13T19:27:04.627769+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "210945180",
+        "author": {
+          "steamid": "76561199027502590",
+          "personaname": "Puholkaka",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199027502590/",
+          "num_games_owned": 0,
+          "num_reviews": 59,
+          "playtime_forever": 53,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 53,
+          "last_played": 1764179773,
+          "avatar": "c1a18860e3fd8e13bfecca61086d058fc6405412"
+        },
+        "language": "russian",
+        "review": "Игра сделана новичком и немного сыровата, но при этом есть потенциал и интересные идеи. Решил вернуть деньги так как не затянуло. Надеюсь, в будущем у разраба получится реализовать ещё более качественный проект.",
+        "timestamp_created": 1764180352,
+        "timestamp_updated": 1764180352,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760120215",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB8ydikBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2350000000001273,
+  "transport_error_count": 0
+}

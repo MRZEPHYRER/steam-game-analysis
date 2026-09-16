@@ -1,0 +1,66 @@
+{
+  "appid": 4115350,
+  "requested_at": "2026-09-13T20:20:13.898687+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "223900423",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 885,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 885,
+          "last_played": 1776723230,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "HorrorDungeon, developed and published by XUZHIHAO, is a minimalist survival horror experience that leans heavily on tension, confinement, and uncertainty rather than spectacle or mechanical complexity. It places players in a dimly lit dungeon where the environment itself feels oppressive, using tight corridors and limited visibility to create a persistent sense of unease. From the outset, the game makes it clear that it is not aiming for large-scale storytelling or elaborate systems, but instead for a focused, stripped-down approach to fear.\n\nThe gameplay centers on exploration under pressure. Players move cautiously through interconnected dungeon spaces, uncovering paths while remaining alert to potential threats. The pacing is deliberately slow, encouraging careful observation rather than impulsive action. This design choice works in the game’s favor, as it allows tension to build naturally. The fear is not generated through constant action, but through anticipation—the feeling that something could happen at any moment, even when nothing is immediately visible. This restraint gives the early portions of the game a strong sense of atmosphere, drawing players into its unsettling rhythm.\n\nEncounters with danger are spaced in a way that emphasizes unpredictability. Rather than overwhelming the player with frequent attacks, the game introduces threats sparingly, making each one feel more significant. This approach reinforces the idea that the dungeon is not just a static environment but a living space with hidden dangers. However, while this design initially creates effective tension, it begins to lose impact over time due to limited variation. Enemy behavior and encounter structure do not evolve significantly, which can make later sections feel less engaging once the player becomes familiar with the patterns.\n\nMechanically, the experience remains intentionally simple. Interaction is limited to movement, basic environmental engagement, and survival-oriented decision-making. There are no deep progression systems or complex mechanics to master, which keeps the focus squarely on atmosphere and navigation. This simplicity makes the game accessible, but it also restricts its depth. Once players understand the core loop, there is little in the way of new systems or challenges to keep the experience feeling fresh, which can lead to repetition during extended play.\n\nThe visual presentation reflects the game’s minimalist philosophy. Environments are dark and often intentionally obscured, with lighting used sparingly to highlight key areas or guide the player forward. While the graphical fidelity is modest, the use of shadow and limited visibility contributes effectively to the sense of isolation and vulnerability. The dungeon layout, though somewhat repetitive, reinforces the feeling of being trapped in a confined and disorienting space. It is not visually diverse, but it serves its purpose in maintaining a consistent tone.\n\nAudio design plays a crucial role in shaping the experience. Ambient sounds—such as distant echoes, subtle movements, and environmental noise—are used to create tension and provide cues about potential threats. The absence of a constant musical score allows these sounds to stand out, making silence itself an important element of the game’s atmosphere. This restrained use of audio enhances immersion, as players are encouraged to rely on sound as much as sight when navigating the dungeon.\n\nWhere HorrorDungeon falls short is in its overall scope and longevity. The initial atmosphere is effective, but the lack of evolving mechanics, environmental variety, or deeper systems limits its staying power. The experience can begin to feel repetitive once its core elements are fully revealed, and there is little to sustain long-term engagement beyond the initial tension. It feels more like a contained horror scenario than a fully developed game, offering a specific type of experience rather than a broad one.\n\nDespite these limitations, the game demonstrates a clear understanding of how to build tension through restraint. It does not rely on excessive jump scares or constant action, instead focusing on mood and pacing to create unease. For players who appreciate minimalist horror and are willing to accept a more limited scope, it can provide a focused and occasionally effective experience. For others seeking variety, depth, or more dynamic gameplay, it may feel too narrow in its design.\n\nIn the end, HorrorDungeon is defined by its simplicity and intent. It succeeds in creating moments of genuine tension through atmosphere and careful pacing, but its lack of variety and mechanical depth prevent it from sustaining that impact over time. It is best approached as a short, atmospheric experience rather than a long-term engagement, offering a glimpse of what can be achieved with minimal tools, even if it does not fully expand on its ideas.\n\nRating: 6/10",
+        "timestamp_created": 1776939691,
+        "timestamp_updated": 1776939691,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.478951364755630493",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762747248",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaa8WAAAAAFP96nIiAAAAB3sI7WBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2349999999996726,
+  "transport_error_count": 0
+}

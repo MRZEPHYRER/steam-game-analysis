@@ -1,0 +1,206 @@
+{
+  "requested_at": "2026-09-13T06:22:54.262216+00:00",
+  "request_params": {
+    "appids": 4003400,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4003400,
+  "payload": {
+    "4003400": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Somebody Save Snuffles",
+        "steam_appid": 4003400,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Snuffles the cat has gone missing. Save Snuffles by traversing various perilous 2.5D landscapes, and make sure the final boss gets sploded. You can choose a cosy pathway, or a medium-difficulty pathway, or even attempt the nightmare mode level.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >This game is a solo project by myself, Bryn, and I would value your feedback if you play the game. I would also love to know if you made it through the nightmare level.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Snuffles the cat has gone missing. Save Snuffles by traversing various perilous 2.5D landscapes, and make sure the final boss gets sploded. You can choose a cosy pathway, or a medium-difficulty pathway, or even attempt the nightmare mode level.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >This game is a solo project by myself, Bryn, and I would value your feedback if you play the game. I would also love to know if you made it through the nightmare level.</p>",
+        "short_description": "Snuffles the cat has gone missing. Save Snuffles by traversing various perilous 2.5D landscapes, and make sure the final boss gets sploded. You can choose a cosy pathway, or a medium-difficulty pathway, or even attempt the nightmare mode level.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/41ff08063b9e95dbf42c2309bddd1b5d573b2548/header.jpg?t=1759136828",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/5e1be18957bc63d8cfcdeda445084fc1ec46b19a/capsule_231x87.jpg?t=1759136828",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/5e1be18957bc63d8cfcdeda445084fc1ec46b19a/capsule_184x69.jpg?t=1759136828",
+        "website": "https://www.elevencomics.com/snuffles",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64 Bit<br></li><li><strong>Processor:</strong> AMD Ryzen 5 4600HS with Radeon Graphics<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce 1650 Ti<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 589 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64 Bit<br></li><li><strong>Processor:</strong> AMD Ryzen 9 3900X<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 2060<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 589 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Bryn Jones"
+        ],
+        "publishers": [
+          "Bryn Jones"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1404864
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Somebody Save Snuffles",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1404864,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Somebody Save Snuffles - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/493b7834f04c6e0da2fbc4337c0872c058f96637/ss_493b7834f04c6e0da2fbc4337c0872c058f96637.600x338.jpg?t=1759136828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/493b7834f04c6e0da2fbc4337c0872c058f96637/ss_493b7834f04c6e0da2fbc4337c0872c058f96637.1920x1080.jpg?t=1759136828"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/a09587d156c9f99f30e505ee09b670ae828bba8a/ss_a09587d156c9f99f30e505ee09b670ae828bba8a.600x338.jpg?t=1759136828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/a09587d156c9f99f30e505ee09b670ae828bba8a/ss_a09587d156c9f99f30e505ee09b670ae828bba8a.1920x1080.jpg?t=1759136828"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/abf10860cffeefaab49101e48f1153107f929f01/ss_abf10860cffeefaab49101e48f1153107f929f01.600x338.jpg?t=1759136828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/abf10860cffeefaab49101e48f1153107f929f01/ss_abf10860cffeefaab49101e48f1153107f929f01.1920x1080.jpg?t=1759136828"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/2740ff68446bd1f7e071535a8e1235557ff2583a/ss_2740ff68446bd1f7e071535a8e1235557ff2583a.600x338.jpg?t=1759136828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/2740ff68446bd1f7e071535a8e1235557ff2583a/ss_2740ff68446bd1f7e071535a8e1235557ff2583a.1920x1080.jpg?t=1759136828"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/83b87c44ee4131ed8a2eb1e08a5afb4b23db7c74/ss_83b87c44ee4131ed8a2eb1e08a5afb4b23db7c74.600x338.jpg?t=1759136828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/83b87c44ee4131ed8a2eb1e08a5afb4b23db7c74/ss_83b87c44ee4131ed8a2eb1e08a5afb4b23db7c74.1920x1080.jpg?t=1759136828"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257192128,
+            "name": "Somebody Save Snuffles Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257192128/d5b7cead15b608b3babd2d0dd0270e9fb41a87a1/movie_600x337.jpg?t=1757967496",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4003400/571348761/9c281e2f2a7ad0f56a2b29c049c8fe0f424596e5/1756894165/dash_av1.mpd?t=1757967496",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4003400/571348761/9c281e2f2a7ad0f56a2b29c049c8fe0f424596e5/1756894165/dash_h264.mpd?t=1757967496",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4003400/571348761/9c281e2f2a7ad0f56a2b29c049c8fe0f424596e5/1756894165/hls_264_master.m3u8?t=1757967496",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 29, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "bryn@elevencomics.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4003400?t=1759136828",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4003400/578564201471378346adea85ec8fb2ef5b5bc93b/page_bg_raw.jpg?t=1759136828",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

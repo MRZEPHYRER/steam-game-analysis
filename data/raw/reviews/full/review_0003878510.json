@@ -1,0 +1,66 @@
+{
+  "appid": 3878510,
+  "requested_at": "2026-09-13T19:53:53.128073+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "204697389",
+        "author": {
+          "steamid": "76561199529405226",
+          "personaname": "月影の谜",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199529405226/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 90,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 62,
+          "last_played": 1772720942,
+          "avatar": "0a03cfdf0bb5386397e07de27195fa7e4671a84a"
+        },
+        "language": "schinese",
+        "review": "还行，有点难度，不知道能不能加个Esc快捷暂停",
+        "timestamp_created": 1758290015,
+        "timestamp_updated": 1758290015,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757043697",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB98u2MBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

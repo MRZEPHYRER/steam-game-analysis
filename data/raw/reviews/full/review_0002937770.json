@@ -1,0 +1,81 @@
+{
+  "appid": 2937770,
+  "requested_at": "2026-09-13T18:59:23.173892+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 10,
+      "total_negative": 7,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "212390962",
+        "author": {
+          "steamid": "76561197969418821",
+          "personaname": "TangoBunny",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/tangobunny/",
+          "num_games_owned": 4429,
+          "num_reviews": 44,
+          "playtime_forever": 469,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 469,
+          "last_played": 1764478217,
+          "avatar": "a6517325ee52ac109c64d1d0ef24d6aa202ac2fe"
+        },
+        "language": "english",
+        "review": "Begrudgingly, I'm going to have to say 'no' on this one. I really tried to enjoy it, but the irritants outweigh the positives! It ended up at a point where I ended up thinking \"Ah, I really don't want to play this again, I'm just wasting my own time. Doing these same annoying level patterns over and over kinda sucks, even if they are in a random order.\"\n\nThe core idea of the game has merit, but the way it's implemented is painful.\n\n\"You can use treasure to upgrade your abilities!\" - Not until you can beat 40 stages without ever getting hit in 100 seconds. The whole upgrade thing is post-game mechanic. Unless you can play 40 rounds of the original Bubble Bobble without being hit a single time, it's unlikely you'll reach this point.\n\n\"Complete missions to earn things!\" - You earn currencies like gems which you can't actually use. Again, it's for the post-game. \n\n\"There's dungeons!\" - There's two dungeons, and they're kind of annoying to play. It's based around slowly clearing out enemies with powerups you obtain before you start the dungeon. \n\n\"You can take items to help you!\" - The items you 'take' are limited use consumable bubbles or items that let you skip floors. The skip-floor items would be nice for, say, reaching that 40th round without getting hit, but you can only take four items with you. \n\n\"The levels are random!\" - It's the same handful of layouts in a random order with minor differences, like thesame layout being horizontally flipped, or a couple of enemies being slightly harder versions.\n\nIt has severe difficulty/balancing issues. Normal players won't even reach the point of character upgrades, and experts will be turned off by having to grind for items before being allowed to play further.\n\nHere's hoping they balance it in some way in the future, but I'm not too hopeful - it seems like an abandoned proof of concept game that they decided to ditch and just release what they had made so far.\n",
+        "timestamp_created": 1764662257,
+        "timestamp_updated": 1764662257,
+        "voted_up": false,
+        "votes_up": 93,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.866546511650085449",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1787534215,
+        "developer_response": "\"Thank you for your feedback.\n> I really tried to enjoy it, but the irritants outweigh the positives! \nTo make the dungeons more enjoyable, we added Bob's Gate, rebalanced the stages, revised the unlock requirements for skills and items, and adjusted the materials required for leveling up and obtaining items.\n\nWe've  also made a variety of gameplay adjustments to improve the overall experience. We hope you'll give the game another try and this time the positives outweigh everything else.\n\nBased on everyone's feedback, we have made major balance adjustments and added new features to improve the game, making it more enjoyable and satisfying to play.\nWe would greatly appreciate it if you could give it another try.\n\nRegards save data\n\nDue to the game undergoing significant changes, existing save data cannot be carried over post-update.\nTo resume playing, please delete your existing save data before starting again.\nDetails can be found in the news section.\n\nPlease accept our apologies for the inconvenience and our thanks for your continued support. \"\n",
+        "app_release_date": "1764201693",
+        "reactions": [
+          {
+            "reaction_type": 25,
+            "count": 2
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSq0eAAAAAFP+u6wMAAAAByw5qqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4133980,
+  "requested_at": "2026-09-13T20:21:41.333209+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "213276816",
+        "author": {
+          "steamid": "76561198203959901",
+          "personaname": "Norbait",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Norbait/",
+          "num_games_owned": 171,
+          "num_reviews": 3,
+          "playtime_forever": 494,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 390,
+          "last_played": 1770670382,
+          "avatar": "e3c8828547dc9c1df69048d560b91fc1a21c649c"
+        },
+        "language": "english",
+        "review": "Touhou bezalako bullet hell jokoa, baina boss rush formatuan. \n\nJoko nagusiak bi zailtasun maila eskeintzen ditu: \"Erraza\" jokalari hasiberrientzako aproposa iruditzen zait eta \"Normala\" erronka aipagarria, baina ez zailegia: Deathsmiles MegaBlack Label bezalakoa gutxi gora behera. Hontaz gain, modu normala garaitzerakoan \"Extra\" modua jolastu daiteke Aker jainkoari aurre egiteko. Extra modu hau bai iruditzen zaidala nahiko zaila. Nire jolas denbora gehiena extra modu hau jolasten igaro dut eta oraindik asko falta zait garaipena eskuratzeko.\n\nAurkarien erasoak dentsoak eta motelak dira orokorrean, danmaku estiloan. Eta haietako gehienek berezitasunen bat daukate, zuzen dihoazen balak izan beharrean.\nBi pertsonaien artean hautatu dezakezu, Nahia bizkorra eta Barkane motela. Focus aktibatzea berehalakoa da, ez dut input-atzerapenik nabaritu eta jokoak normalizatu gabeko diagonalak erabiltzen ditu, Battle Gareggan bezala.\n\nJoko gomendagarria.",
+        "timestamp_created": 1765717323,
+        "timestamp_updated": 1765738988,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525862038135528564",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764663840",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZe5YAAAAAFP+DT3IAAAABwicutBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

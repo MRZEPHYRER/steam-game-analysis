@@ -1,0 +1,87 @@
+{
+  "appid": 3034350,
+  "requested_at": "2026-09-13T19:01:36.173260+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 10,
+      "total_reviews": 21
+    },
+    "reviews": [
+      {
+        "recommendationid": "211716409",
+        "author": {
+          "steamid": "76561198057530497",
+          "personaname": "ma",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198057530497/",
+          "num_games_owned": 0,
+          "num_reviews": 38,
+          "playtime_forever": 482,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 482,
+          "last_played": 1764442606,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "ストーリーはさておき、ゲームバランス最悪。\n鳥の攻撃を避ける下りがしつこすぎてホラーゲームではなく\n鳥の攻撃回避ゲームになってます\n\nストーリーは最初と最後だけちゃんとしてますがとにかく間の鳥との攻防酷かったです\nヒッチコックの鳥という映画を２回見るくらい鳥と戦わせられました\nFF10の最強武器手に入れるために雷100回よけるみたいなのを本編を入れないで\nあれ伝説級の不評でしたからね\nそれがとにかくつまらない。最初と最後はまあまあいいけど鳥のせいで大減点\n1500円のゲームなんだから水増ししなくていいでしょ",
+        "timestamp_created": 1764443097,
+        "timestamp_updated": 1764474977,
+        "voted_up": false,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.645437836647033691",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764309633",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 15,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXF1uAAAAAFP+SnbaAAAAB5k9GnBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

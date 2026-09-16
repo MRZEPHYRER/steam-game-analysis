@@ -1,0 +1,95 @@
+{
+  "appid": 3194360,
+  "requested_at": "2026-09-13T19:06:39.023173+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 704,
+      "total_negative": 149,
+      "total_reviews": 853
+    },
+    "reviews": [
+      {
+        "recommendationid": "214580000",
+        "author": {
+          "steamid": "76561198054438066",
+          "personaname": "Leniwcowaty",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/leniwcowaty/",
+          "num_games_owned": 218,
+          "num_reviews": 5,
+          "playtime_forever": 1096,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 949,
+          "last_played": 1767537613,
+          "avatar": "6d70347091528fd3123342065f76037e15559b7b"
+        },
+        "language": "english",
+        "review": "This game is good. Exceptionally good if you are looking for semi-casual arcade F1 racing game. After the updates the steering is crisp and precise on the controller, the cars handle really good and predictable, the difficulty is (mostly) fair. Custom camera settings is just a cherry on top.\n\nHowever, as of right now I can't recommend it for a very particular reason.\n\nThe reason is the DLC strategy. We are only 3 months after the release, and the devs already released 5 DLCs, that sum up to $20, so same as the base game. And these DLCs don't really add nothing new, it's obviously content that was cut from the game to later sell it as a DLC. \nWhat's worse, the devs have already scheduled next 4 DLCs in \"early 2026\" (so I assume next 3 months). 3 of which are again just cut content - 2 track packs and Late 2020 season. Only one could be argued is worthy of being a \"real\" DLC, because it's officially licensed championship. \nIf this continues, the \"full game\" will quadruple its price by the first anniversary. And in my opinion, this game will not be worth  $80. I realize this is kind of standard for racing games, but it shouldn't be.\n\nI would say - wishlist the game, wait for all the \"fake\" DLCs to be released (all the car and track packs) and buy it on Winter Sale in a bundle.",
+        "timestamp_created": 1767042376,
+        "timestamp_updated": 1767042498,
+        "voted_up": false,
+        "votes_up": 113,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.882059097290039062",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758190577",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 3
+          },
+          {
+            "reaction_type": 29,
+            "count": 3
+          },
+          {
+            "reaction_type": 31,
+            "count": 2
+          },
+          {
+            "reaction_type": 35,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSW9uAAAAAFP+w508AAAABwsseyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

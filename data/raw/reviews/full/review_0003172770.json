@@ -1,0 +1,66 @@
+{
+  "appid": 3172770,
+  "requested_at": "2026-09-13T19:06:02.422736+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 43,
+      "total_negative": 8,
+      "total_reviews": 51
+    },
+    "reviews": [
+      {
+        "recommendationid": "215551945",
+        "author": {
+          "steamid": "76561199070108583",
+          "personaname": "asever",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199070108583/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 203,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 181,
+          "last_played": 1767956232,
+          "avatar": "bbf92da41c71072be8cff1f602bf9a26aa117ef4"
+        },
+        "language": "koreana",
+        "review": "정말 재밋는데 떠나는 엔딩이 약간 허무함 근데 ㄱㅊ음 어차피 이어하기 영원히 됨 엔딩 없는 게임이라고 생각하는게 재밋을듯 엔딩 볼라고 게임하지말고 그냥 리썰하는 기분으로 플레이하면 재밋음",
+        "timestamp_created": 1767956201,
+        "timestamp_updated": 1767956201,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1729606607",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB5/KG2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

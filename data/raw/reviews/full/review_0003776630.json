@@ -1,0 +1,66 @@
+{
+  "appid": 3776630,
+  "requested_at": "2026-09-13T19:39:04.849345+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "199215760",
+        "author": {
+          "steamid": "76561199580672603",
+          "personaname": "charushi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199580672603/",
+          "num_games_owned": 0,
+          "num_reviews": 22,
+          "playtime_forever": 650,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 622,
+          "last_played": 1756569745,
+          "avatar": "ffc06397744cc94e908766d13978e684f122bcb8"
+        },
+        "language": "english",
+        "review": "3/10 for hand-eye coordination... Turns out my reflexes are about as useless as I am in real life\nTIL I can peel bananas pretty well but can’t slice for dear life\n\nWould recommend especially if you want to test your reflexes and fruit-cutting abilities.",
+        "timestamp_created": 1751907447,
+        "timestamp_updated": 1752150882,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.611111104488372803",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751634598",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXxxyAAAAAFP+OOOKAAAABwqfn3BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.780999999999949,
+  "transport_error_count": 0
+}

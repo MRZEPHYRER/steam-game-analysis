@@ -1,0 +1,66 @@
+{
+  "appid": 2522040,
+  "requested_at": "2026-09-13T18:52:01.335610+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "204615637",
+        "author": {
+          "steamid": "76561197968147924",
+          "personaname": "NotRandomEnough",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Makinsanity/",
+          "num_games_owned": 962,
+          "num_reviews": 172,
+          "playtime_forever": 25,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "last_played": 1758288513,
+          "avatar": "fc6c63e3ec3167aec9ec7e71f931e3746b9e84a5"
+        },
+        "language": "english",
+        "review": "As it stands, I would not recommend this game to anyone expecting a polished experience, but it has potential to grow into something amazing over time. Steam needs a middle ground between \"yes\" and \"no\" for review purposes.\n\nThe developer still has a long road ahead and you might want to wait out until they are a little further in the process. Do keep your eye on it, and buy it if you want to support the developer.\n\nYes, the basic simulation is there; you can set up transport lines between various companies and these will slowly but surely net you a decent profit allowing you to branch out from trains to other transport vehicles.\n\nUnfortunately there are also some problems which inhibit your playing.\n- The floating boxes explaining what each industrial building offloads or onloads are very large and get in the way when you're panning around trying to lay tracks.\n- You have to select either a horizontal or diagonal track and there's no quick switching.\n- You cannot set up a diagonal track easily. It will always need to extend three or more spaces at once so forget using it for a quick corner. I have had to delete the excess quite a few times now but this sometimes also takes away the corner you need.\n- As far as I've been able to tell there are no signals for tracks yet. Perhaps I missed this or it might come with a later update, so just run a single train per track.\n- You can't get to the graphics or sound menu from within the game unless you exit to the menu first.\n- The menu is larger than life and elements could be shrunk down a lot while still remaining readable.\n- I have had a hang at least twice now (playing the native Linux version).\n\nThis game has potential, and I hope the developer sticks with it and improves it one update at a time. Don't get disheartened by my review, it may change as the game improves.\n\nI am keeping my eye on this title and will continue to play it when I have time, just to see the improvements happen.\n\nOnce more; buy it to support the developer and have fun with the quirks of the game as it exists now, but don't expect it to be polished.",
+        "timestamp_created": 1758199799,
+        "timestamp_updated": 1758366120,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.568499088287353516",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753686103",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYoUkAAAAAFP+IxJOAAAAB1/cWMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2780990,
+  "requested_at": "2026-09-13T18:55:36.957291+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 19,
+      "total_negative": 4,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "213409813",
+        "author": {
+          "steamid": "76561198095996394",
+          "personaname": "Hanuli",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198095996394/",
+          "num_games_owned": 127,
+          "num_reviews": 5,
+          "playtime_forever": 232,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 232,
+          "last_played": 1765877903,
+          "avatar": "0a954a0f2fe3d8ce8ad63ae75b598a579d0effee"
+        },
+        "language": "english",
+        "review": "Short but sweet disco-like game. After completing two endings, I'm left with the feeling that my playthrough was somehow... cut-short? I never even saw a skill check for 50+% of the available skills. This leads me to think this game while short, is probably very lateral in it's writing. I think I'm still gonna go for a third ending with some... radically different choices.\n\nThe writing has some good jokes and I enjoyed the story generally quite a bit. I only wish there had been more of it, but alas I know the realities of micro indie development very well. I hope the team can continue developing games and very much look forward to what they make next!",
+        "timestamp_created": 1765878624,
+        "timestamp_updated": 1765878624,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.537037014961242676",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753974781",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZQl8AAAAAFP+EvaEAAAAB1gYyuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1560000000001764,
+  "transport_error_count": 0
+}

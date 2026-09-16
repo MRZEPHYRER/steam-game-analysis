@@ -1,0 +1,66 @@
+{
+  "appid": 2904420,
+  "requested_at": "2026-09-13T18:58:25.800510+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 20,
+      "total_negative": 6,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "214679341",
+        "author": {
+          "steamid": "76561198865654252",
+          "personaname": "西风北岳",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198865654252/",
+          "num_games_owned": 34,
+          "num_reviews": 1,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 20,
+          "last_played": 1767106116,
+          "avatar": "4bf1d33fd148805f847ce4983c3a420ca8407a26"
+        },
+        "language": "schinese",
+        "review": "游戏优化很差，玩的时候电脑风扇转出了令我害怕的声音。明明画面也没多精致，甚至可以说建模是很塑料复古有点唐的，优化怎么能差成这样……电脑配置不是很好的朋友们慎重购买游玩。\n而且游戏里的各种动画播片不能跳过，每做一次料理就要被画面很唐的劣质3D小动画硬控几秒，做出来的料理还要你自己花时间去集市里跟人一份一份的谈价格售卖，有点意义不明。\n我电脑风扇好像要炸了我不玩了，优化真的太烂了。",
+        "timestamp_created": 1767130530,
+        "timestamp_updated": 1767130530,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757322006",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB98veyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000000255,
+  "transport_error_count": 0
+}

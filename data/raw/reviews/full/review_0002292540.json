@@ -1,0 +1,68 @@
+{
+  "appid": 2292540,
+  "requested_at": "2026-09-13T18:49:10.506905+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "206362574",
+        "author": {
+          "steamid": "76561198147982063",
+          "personaname": "TheSerialVibeKiller",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198147982063/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 2058,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1186,
+          "last_played": 1761965169,
+          "avatar": "f0bccb6a609efe2f66567f4ff946b5a6143fd937"
+        },
+        "language": "english",
+        "review": "The rigid-body dynamics for this game are too jank. From the gaps between the cubes, to the ball's inconsistent behavior when it hits the edge of the paddle, it's impossible to tell what the ball will do or where it will go.\nAt the start of each level, the ball is hovering over the paddle, implying that the hitbox is slightly greater than the paddle's appearance. However, after launching not only is the hitbox different, it appears that contact only happens at the bottom of the paddle, which, thanks to the perspective, makes the hitbox appear smaller than the paddle is as the contact happens later than expected.\nThere isn't an option to aim straight towards a target. That's not a fun challenge.\nGetting S-Rank for a world doesn't reward you the resources it that each world claims it will, making the already painfully slow mining for upgrades futile. \nThe overlaps of drops and special effects hides the ball.\nPaddle sensitivity is screen-resolution-dependent for some reason.\nDon't let this game suck any of your time; you will hate yourself and everything soon after.",
+        "timestamp_created": 1760121976,
+        "timestamp_updated": 1760150274,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.584197938442230225",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763185051,
+        "developer_response": "Thank you for playing Cosmic Waves. I'm sorry to hear that the physics are not to your tastes, gameplay and physics feedback has always been very positive for our game. I urge players on the fence to try the free demo and see for themselves.\nAs for the bug where section rewards were not applied correctly it has since been fixed. Best wishes, Squirrel Knight",
+        "app_release_date": "1753714703",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZUdgAAAAAFP+KwQEAAAAB+/JqTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.046999999999798,
+  "transport_error_count": 0
+}

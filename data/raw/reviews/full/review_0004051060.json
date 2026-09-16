@@ -1,0 +1,66 @@
+{
+  "appid": 4051060,
+  "requested_at": "2026-09-13T20:15:46.626596+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "233607961",
+        "author": {
+          "steamid": "76561197974131998",
+          "personaname": "hamdaw",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197974131998/",
+          "num_games_owned": 455,
+          "num_reviews": 106,
+          "playtime_forever": 57,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 57,
+          "last_played": 1787592714,
+          "avatar": "18cf9e93edbe79213f24fd277a0c8fc05e9ec68f"
+        },
+        "language": "english",
+        "review": "completed it .\nneeds more improvement. worth the try.",
+        "timestamp_created": 1787592773,
+        "timestamp_updated": 1787592773,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761154686",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFpAAAAAAAAFP+AAAAAAAAB5sZL7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

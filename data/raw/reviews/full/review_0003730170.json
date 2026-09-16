@@ -1,0 +1,66 @@
+{
+  "appid": 3730170,
+  "requested_at": "2026-09-13T19:35:22.963025+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "225843203",
+        "author": {
+          "steamid": "76561198119876421",
+          "personaname": "Shamoji",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198119876421/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 551,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 472,
+          "last_played": 1780813255,
+          "avatar": "71e8a25f5a7b182863a3c5ae8d0ab7f2b157a0f4"
+        },
+        "language": "japanese",
+        "review": "FPS Creator製のゾンビとかと戦うFPS。ジャンプスケアとか直接のホラー表現はあんまり無い。\nデモ版起動時にPhysxのRuntimeが必要とか出てくるけど必要なのはググって最初に出てくる奴じゃなくてPhysX Legacy System Softwareの方なので注意。\nFPSC特有の妙に長いロードとか不安定な敵AIとか欠点はあるが、1チャプターが10分20分で終わるテンポの良さとゲームモードの多さで結構楽しめた。\nザコ敵の超反応ロケットランチャーにブチ殺されたり、敵が音もなく突然スポーンしたりする2000年代の低価格FPSとかにありがちな理不尽要素を許せる人向け。\n\n・メインストーリーのチャプター1が1番きつかった。画面が暗すぎる上にハンドガンが弱すぎる\n・Doom3みたいなカス精度で大ダメージのショットガンは使ってて気分が良い\n・セッティングのキーコンフィグ画面には出てこないけどTキーでオブジェクトを掴む。クリアに必須\n・同じく、Gキーでフラッシュライト（チャプター1では使えない）\n・現状は実績解除ができない\n・エージェントとカルティストの外見が同じモデルのテクスチャ変えただけなので、暗いマップだと照準を合わせた時の名前表記でしか瞬時に判断がつかない。\n・INFESTATIONモードのキャラ格差が激しすぎる。Survivorだけスタミナ有限+弾薬効率悪い+DPS低いで高ランククリアは運ゲーに近い。",
+        "timestamp_created": 1779112437,
+        "timestamp_updated": 1779541786,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757908816",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABzgMPdBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

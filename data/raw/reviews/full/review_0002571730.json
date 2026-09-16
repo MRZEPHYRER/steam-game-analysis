@@ -1,0 +1,67 @@
+{
+  "appid": 2571730,
+  "requested_at": "2026-09-13T18:52:51.254270+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "230233938",
+        "author": {
+          "steamid": "76561198018699018",
+          "personaname": "TooshFatoosh",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198018699018/",
+          "num_games_owned": 2522,
+          "num_reviews": 239,
+          "playtime_forever": 111,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 111,
+          "deck_playtime_at_review": 97,
+          "last_played": 1783793713,
+          "avatar": "874ff26867ae56d28f0d7099387649d073ca8567"
+        },
+        "language": "english",
+        "review": "It's sooo good! The animation and visual design are stellar, the story is engaging,the puzzles are clever, and the combat is incredibly well designed. This is an under-the-radar gem that you should buy if you enjoy metroidvanias!",
+        "timestamp_created": 1783794026,
+        "timestamp_updated": 1783794026,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525101780891418457",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "app_release_date": "1765452644",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZf3qAAAAAFP+DNosAAAABy9aLuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0939999999998236,
+  "transport_error_count": 0
+}

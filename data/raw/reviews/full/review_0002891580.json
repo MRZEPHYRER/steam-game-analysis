@@ -1,0 +1,67 @@
+{
+  "appid": 2891580,
+  "requested_at": "2026-09-13T18:57:58.445979+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 16,
+      "total_negative": 0,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "215571458",
+        "author": {
+          "steamid": "76561198212133635",
+          "personaname": "Zoidberg",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198212133635/",
+          "num_games_owned": 265,
+          "num_reviews": 8,
+          "playtime_forever": 89,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 89,
+          "deck_playtime_at_review": 34,
+          "last_played": 1767972349,
+          "avatar": "950f9f3147d4c8530a5072825d01c34ee3f1afa1"
+        },
+        "language": "schinese",
+        "review": "从制作的视角看，美术纯手绘卖相很吃亏，想不到除了亲友团和B站网友，还有谁会被封面和截图吸引进来看看，费力不讨好。从游玩的视角看，解谜节奏过于紧凑，音乐存在感太强，很快就玩得心烦意乱，玩到转盘那里，六边形对不齐很别扭（这么简单的问题都搞不定？），跨层做标记很难用，抓手判定又很迷，被抓了挫败感又强，需要记忆和推理的内容又很多，一下失去耐心了，先弃了。万一以后有重大改进可能再重玩。这其实是个差评，看在小朋友裸辞创业勇气可嘉打个好评，以后做游戏都是这个水平可不足矣谋生哦。",
+        "timestamp_created": 1767974577,
+        "timestamp_updated": 1767974577,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.578294098377227783",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764950426",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZbyKAAAAAFP+KBYmAAAABywKu2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

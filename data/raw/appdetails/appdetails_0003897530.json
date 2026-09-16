@@ -1,0 +1,185 @@
+{
+  "requested_at": "2026-09-12T17:52:23.375191+00:00",
+  "request_params": {
+    "appids": 3897530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3897530,
+  "payload": {
+    "3897530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Dark Monastry",
+        "steam_appid": 3897530,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Dark Monastry is a horror in which you are an agent of a secret organization tasked with protecting the world from the forces of darkness. Your latest mission sends you undercover to an ancient monastery, where a forbidden ritual scroll is hidden. But you’re not the only one hunting for it… Somewhere in the shadows lurks an ancient demon, willing to do anything to claim the scroll and unleash its power upon humanity.<br>Immerse yourself in a chilling horror experience where every step could be your last. Solve puzzles, evade unspeakable horrors, and fight to survive against something that should not exist. </p><p class=\"bb_paragraph\" >Will you complete your mission… or become its next victim?</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Atmospheric horror with stealth and survival elements </p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Gripping story with unexpected twists </p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > A relentless enemy that stalks you throughout the game </p></li><li><p class=\"bb_paragraph\" > A haunting location filled with secrets</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Are you ready to face the terror hidden within the monastery’s walls?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Dark Monastry is a horror in which you are an agent of a secret organization tasked with protecting the world from the forces of darkness. Your latest mission sends you undercover to an ancient monastery, where a forbidden ritual scroll is hidden. But you’re not the only one hunting for it… Somewhere in the shadows lurks an ancient demon, willing to do anything to claim the scroll and unleash its power upon humanity.<br>Immerse yourself in a chilling horror experience where every step could be your last. Solve puzzles, evade unspeakable horrors, and fight to survive against something that should not exist. </p><p class=\"bb_paragraph\" >Will you complete your mission… or become its next victim?</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Atmospheric horror with stealth and survival elements </p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > Gripping story with unexpected twists </p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" > A relentless enemy that stalks you throughout the game </p></li><li><p class=\"bb_paragraph\" > A haunting location filled with secrets</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Are you ready to face the terror hidden within the monastery’s walls?</p>",
+        "short_description": "Dark Monastry is a horror in which you are an agent of a secret organization tasked with protecting the world from the forces of darkness. Your latest mission sends you undercover to an ancient monastery, where a forbidden ritual scroll is hidden. But you’re not the only one hunting for it…",
+        "supported_languages": "English, Russian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/ad1e1ab450c592f01d09089c70d214679542c746/header.jpg?t=1764695279",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/6ac88b07cf09db06ee197e69d61ba922befe5ecf/capsule_231x87.jpg?t=1764695279",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/6ac88b07cf09db06ee197e69d61ba922befe5ecf/capsule_184x69.jpg?t=1764695279",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1900 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i5-9400F<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce RTX 2060<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 1900 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "GentlmensGames"
+        ],
+        "publishers": [
+          "GentlmensGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1369925
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Dark Monastry",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1369925,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Dark Monastry - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/6a557b3b004afc4d31204f5b515b9e98cbccdf7c/ss_6a557b3b004afc4d31204f5b515b9e98cbccdf7c.600x338.jpg?t=1764695279",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/6a557b3b004afc4d31204f5b515b9e98cbccdf7c/ss_6a557b3b004afc4d31204f5b515b9e98cbccdf7c.1920x1080.jpg?t=1764695279"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/0bd9bd731ad95cb00a8c8596fcb76f73bd3a1e4e/ss_0bd9bd731ad95cb00a8c8596fcb76f73bd3a1e4e.600x338.jpg?t=1764695279",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/0bd9bd731ad95cb00a8c8596fcb76f73bd3a1e4e/ss_0bd9bd731ad95cb00a8c8596fcb76f73bd3a1e4e.1920x1080.jpg?t=1764695279"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/287193243e61b8fd08788c7966606fe5d0aa9f84/ss_287193243e61b8fd08788c7966606fe5d0aa9f84.600x338.jpg?t=1764695279",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/287193243e61b8fd08788c7966606fe5d0aa9f84/ss_287193243e61b8fd08788c7966606fe5d0aa9f84.1920x1080.jpg?t=1764695279"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/067cb64ab62f51f7c204167a2b397a2b4235bfc9/ss_067cb64ab62f51f7c204167a2b397a2b4235bfc9.600x338.jpg?t=1764695279",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/067cb64ab62f51f7c204167a2b397a2b4235bfc9/ss_067cb64ab62f51f7c204167a2b397a2b4235bfc9.1920x1080.jpg?t=1764695279"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/c1e990634dd4aba73284b1fb9e3b807999ed45c7/ss_c1e990634dd4aba73284b1fb9e3b807999ed45c7.600x338.jpg?t=1764695279",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897530/c1e990634dd4aba73284b1fb9e3b807999ed45c7/ss_c1e990634dd4aba73284b1fb9e3b807999ed45c7.1920x1080.jpg?t=1764695279"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257211797,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257211797/2b9dc5b10935accd48420a2d29cf27f3e8a31944/movie_600x337.jpg?t=1759569807",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3897530/567229265/9d9145841385d869afa6ab2d7747ea7e4d1e4b34/1759567942/dash_av1.mpd?t=1759569807",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3897530/567229265/9d9145841385d869afa6ab2d7747ea7e4d1e4b34/1759567942/dash_h264.mpd?t=1759569807",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3897530/567229265/9d9145841385d869afa6ab2d7747ea7e4d1e4b34/1759567942/hls_264_master.m3u8?t=1759569807",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "gentlemangamesbusiness@mail.ru"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3897530?t=1764695279",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3897530?t=1764695279",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nViolência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt\nSchimpfwörte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

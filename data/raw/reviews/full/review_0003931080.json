@@ -1,0 +1,66 @@
+{
+  "appid": 3931080,
+  "requested_at": "2026-09-13T20:01:46.101686+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213255766",
+        "author": {
+          "steamid": "76561199379954400",
+          "personaname": "反正这只是游戏",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199379954400/",
+          "num_games_owned": 328,
+          "num_reviews": 29,
+          "playtime_forever": 54,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1765693634,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "攻略：点数当做技能，分为攻击和辅助，两种不同等式且等式结果数字必须是相应类别。\n一开始啥也没有就拿加号乘号凑可用大数，辅助都是有长时间冷却且手动触发的一次性效果，必须先凑攻击，先拿到或者计算出10解锁10初始可用，其次拿到等号，等号相当于扩充技能栏，后面就是下一个算式\n加乘>属性>数字\n此游戏也是一种搜打撤，时间到了觉得可以了赶快找指针方向撤离，出来就是把东西全卖了换钱（把换钱倍率点满）\n",
+        "timestamp_created": 1765692905,
+        "timestamp_updated": 1765692905,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765551674",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFahheAAAAAFP+DDDUAAAAB25cCtBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.344000000000051,
+  "transport_error_count": 0
+}

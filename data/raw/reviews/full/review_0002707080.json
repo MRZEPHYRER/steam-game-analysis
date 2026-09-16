@@ -1,0 +1,66 @@
+{
+  "appid": 2707080,
+  "requested_at": "2026-09-13T18:54:30.600844+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 6,
+      "total_negative": 0,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "204796829",
+        "author": {
+          "steamid": "76561198004065880",
+          "personaname": "Eporediese",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198004065880/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 3363,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 3340,
+          "last_played": 1758965213,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "I played all levels of this game while it was under development as a beta tester. \r\n\r\nSome terms that I would use to describe it are 'highly original', 'fun' and 'quite challenging'. The characters are cute too.\r\n\r\nIf you enjoy physics games and solving puzzles, then Inflatum could be worth a pop.",
+        "timestamp_created": 1758387392,
+        "timestamp_updated": 1758387392,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757673146",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB9uZ6NBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

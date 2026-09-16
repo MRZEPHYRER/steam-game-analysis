@@ -1,0 +1,66 @@
+{
+  "appid": 3577140,
+  "requested_at": "2026-09-13T19:23:46.309616+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214623170",
+        "author": {
+          "steamid": "76561198370156352",
+          "personaname": "TexMurphy555",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198370156352/",
+          "num_games_owned": 0,
+          "num_reviews": 89,
+          "playtime_forever": 482,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 156,
+          "last_played": 1767118651,
+          "avatar": "732bf704a6920eb61923e22cf87f27c471aab7d5"
+        },
+        "language": "english",
+        "review": "very well prepared game with 60 short levels. interesting design choice but it works better than i expected. the story unfolds slowly as you solve puzzles in each level and progress to the next room/patient. each one has a mental health problem. some more familiar than others. graphics are of the highest quality, puzzles are fun to solve. you have to click on several spots on the screen to find the relevant objects. it's not a pixel hunt though, rather easy to find them all. music and voicing are pretty good too. highly recommended for fans of puzzle and hidden object adventure games.",
+        "timestamp_created": 1767083566,
+        "timestamp_updated": 1767083566,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.525862038135528564",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763386460",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZe5YAAAAAFP+DT3IAAAAByvNyyBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8910000000000764,
+  "transport_error_count": 0
+}

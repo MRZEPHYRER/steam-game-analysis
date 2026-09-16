@@ -1,0 +1,66 @@
+{
+  "appid": 2659530,
+  "requested_at": "2026-09-13T18:53:48.260137+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "220282551",
+        "author": {
+          "steamid": "76561198047891209",
+          "personaname": "BizarreFog",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198047891209/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 109,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 109,
+          "last_played": 1773034212,
+          "avatar": "86f1c70be36ea69f0eb4967e95877a6aaa826423"
+        },
+        "language": "english",
+        "review": "Stop The Slimes is a really good take on the tower defense genre, if you grew up playing Bloons tower defense then you'd really enjoy this one. There's a solid amount of challenge over time and a good chunk of new mechanics to mix it up so its not like every one out there. One really cool thing this guy's doing is he added deck building mechanics, so over the course of your playthrough you're collecting cards and building a playstyle by choosing which card you want to keep in your hand.\n\nAlso the crossbow item is my favorite, lets you puncture a bunch of slimes at once\n\nGreat game so far! Excited for the final release",
+        "timestamp_created": 1773071849,
+        "timestamp_updated": 1773071849,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753225260",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB366fIBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9689999999998236,
+  "transport_error_count": 0
+}

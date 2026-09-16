@@ -1,0 +1,66 @@
+{
+  "appid": 2986340,
+  "requested_at": "2026-09-13T19:00:14.675932+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 9,
+      "total_negative": 0,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "233115433",
+        "author": {
+          "steamid": "76561199384250432",
+          "personaname": "kopzil4",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199384250432/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 254,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 254,
+          "last_played": 1755286499,
+          "avatar": "c3a6a8df9a22427b7d137eece895a37d2afe6ede"
+        },
+        "language": "russian",
+        "review": "круто но не популярно к сожалению\n",
+        "timestamp_created": 1787051559,
+        "timestamp_updated": 1787051559,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1730458821",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF8AAAAAAAAFAAAAAAAAAAB58qH5Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2040000000001783,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3270580,
+  "requested_at": "2026-09-13T19:09:10.483331+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 1,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "212605048",
+        "author": {
+          "steamid": "76561199232537529",
+          "personaname": "今日宜养生",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199232537529/",
+          "num_games_owned": 49,
+          "num_reviews": 14,
+          "playtime_forever": 518,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 149,
+          "last_played": 1780669147,
+          "avatar": "b33b300ef3b26d996a12d0647a4dc2cc3c34740c"
+        },
+        "language": "schinese",
+        "review": "可玩性很高，2.5小时过了简单难度，有一定学习成本，但玩明白了就简单了，很爽！",
+        "timestamp_created": 1764930175,
+        "timestamp_updated": 1764930175,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764917975",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB4h4OrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

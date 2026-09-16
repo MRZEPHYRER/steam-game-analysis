@@ -1,0 +1,71 @@
+{
+  "appid": 2234150,
+  "requested_at": "2026-09-13T18:48:40.521372+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1136,
+      "total_negative": 230,
+      "total_reviews": 1366
+    },
+    "reviews": [
+      {
+        "recommendationid": "229470921",
+        "author": {
+          "steamid": "76561199102232866",
+          "personaname": "Maxcaradepapa",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199102232866/",
+          "num_games_owned": 107,
+          "num_reviews": 45,
+          "playtime_forever": 203,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 203,
+          "last_played": 1779573403,
+          "avatar": "bbf35096097f649954ae9f6a7d4f1d2636d7f35c"
+        },
+        "language": "spanish",
+        "review": "yyy masomierda tirando a regular, esta bueno para hinchar las bolas un rato pero se vuelve repetitivo. Es como querer hacerte 2 pajas seguidas, si estas muy cebado t las mandas, pero si no estas no t las haces.",
+        "timestamp_created": 1783050767,
+        "timestamp_updated": 1783050767,
+        "voted_up": true,
+        "votes_up": 27,
+        "votes_funny": 20,
+        "weighted_vote_score": "0.769962012767791748",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1675194684",
+        "reactions": [
+          {
+            "reaction_type": 30,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUmcuAAAAAFP+ijh2AAAAB5rK7rBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9069999999999254,
+  "transport_error_count": 0
+}

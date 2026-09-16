@@ -1,0 +1,79 @@
+{
+  "appid": 3727130,
+  "requested_at": "2026-09-13T19:34:57.174190+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 0,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "206888664",
+        "author": {
+          "steamid": "76561197978615854",
+          "personaname": "Mossmouth",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/bossquibble/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 596,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 186,
+          "last_played": 1779911992,
+          "avatar": "4c9b8ec90ea6bd023c90a5e7cb82f49e2c02c175"
+        },
+        "language": "english",
+        "review": "I've known the creator, Paul Hubans, for a long time and we worked together on UFO 50 for many years, so this is a biased review in that sense... but at the same time, it should make it clear that I'm a genuine appreciator of his games!\n\nPaul always puts a lot of heart into his work, and MADHOUSE is no different. It's a (darkly) charming top-down action adventure with classic design sensibilities. Despite the horror themes, I find it to be a very cozy game to play - the pacing is brisk and consistently keeps you entertained with new narrative beats, setpieces, and objectives. Structurally, there is exploration, but it's not an open world that takes you far away from the main storyline. There's no aimless wandering around, getting lost in side quests, etc., which I find quite refreshing.\n\nGiven that it's Early Access, it's worth noting that there are some rough edges and the story is only partially complete. But what is there is already quite juicy - at least a few hours of nutritious GAME without any padding.\n\nAnd then there's the Versus Mode, which is even more fleshed out... although I haven't had the opportunity to play it as much, the times I have were full of chaotic interactions that reminded me of various DOS splitscreen games from my youth, like Cyberdogs and Liero. Experimenting with all the different characters and weapons is really enjoyable. Also, I was impressed with the amount of bespoke details in each arena, which are based around a unique theme and mechanical gimmick.",
+        "timestamp_created": 1760655282,
+        "timestamp_updated": 1760655282,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.680746555328369141",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759338523",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 22,
+            "count": 1
+          },
+          {
+            "reaction_type": 7,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWYpOAAAAAFP+XIreAAAAB47ZuVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1409999999996217,
+  "transport_error_count": 0
+}

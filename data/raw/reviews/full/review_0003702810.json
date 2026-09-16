@@ -1,0 +1,71 @@
+{
+  "appid": 3702810,
+  "requested_at": "2026-09-13T19:32:55.260847+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "220991711",
+        "author": {
+          "steamid": "76561198869032674",
+          "personaname": "DaphneDoo",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198869032674/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 91,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 91,
+          "last_played": 1772609146,
+          "avatar": "10426c565fb41bf4a72b502c89917a498f766056"
+        },
+        "language": "english",
+        "review": "I am so glad i found this game. it was so good. game was simple to get through, relatively quick, but such a good read and i cant lie i definitely cried a bit at the ending. I cannot recommend enough. Everyone should play through this at least once. And the dev is constantly trying to update it to give new art and new content. Always worth coming back to",
+        "timestamp_created": 1773853834,
+        "timestamp_updated": 1773853834,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.496240615844726562",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752633789",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFaEz8AAAAAFP9/CaaAAAAB/jYLLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2659999999996217,
+  "transport_error_count": 0
+}

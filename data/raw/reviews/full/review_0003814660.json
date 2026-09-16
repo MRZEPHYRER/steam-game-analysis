@@ -1,0 +1,66 @@
+{
+  "appid": 3814660,
+  "requested_at": "2026-09-13T19:43:23.890289+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "198736725",
+        "author": {
+          "steamid": "76561198814271080",
+          "personaname": "杀菌在此",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198814271080/",
+          "num_games_owned": 230,
+          "num_reviews": 2,
+          "playtime_forever": 19,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 19,
+          "last_played": 1751462816,
+          "avatar": "dbb77cfddf3c46e9d3a3f69a1c256b3def672b60"
+        },
+        "language": "schinese",
+        "review": "开局GB的拉那么远进里面，进去转™十来圈是有什么目的？？？？掉下去又要转十多圈回去爬，点一下ESC直接退出去了，作者自己玩的时候真的不会笑吗？",
+        "timestamp_created": 1751462937,
+        "timestamp_updated": 1751463112,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751378693",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbAAAAAAAAFP+AAAAAAAAB1tY/2BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999995198,
+  "transport_error_count": 0
+}

@@ -1,0 +1,85 @@
+{
+  "appid": 2112750,
+  "requested_at": "2026-09-13T18:47:24.058930+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 109,
+      "total_negative": 28,
+      "total_reviews": 137
+    },
+    "reviews": [
+      {
+        "recommendationid": "207757366",
+        "author": {
+          "steamid": "76561198039692645",
+          "personaname": "Jackson",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/jaxxxson/",
+          "num_games_owned": 1152,
+          "num_reviews": 221,
+          "playtime_forever": 626,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 626,
+          "last_played": 1761790328,
+          "avatar": "4f7bcfd19d6cfaec1b48a8d5b6512100e46b3059"
+        },
+        "language": "english",
+        "review": "[b]10 hours in — I called it quits.[/b]\nI stopped having consistent fun several hours ago. The short version: there’s a lot of wasted potential here. What starts off promising becomes increasingly repetitive. I recognize that backtracking is part of the Metroidvania genre, but this feels like Backtracking: The Game. Venturing into the “wrong” areas doesn’t just waste time—it often results in getting one-shot by overpowered enemies you weren’t meant to fight yet. Wishing the dev the best, but this one’s a miss for me.\n\n[h2]Pros[/h2]\n[list]\n[*]I like the pixel art and gothic aesthetic. The blend of European towns, swamps, and cathedral-like architecture nails the dark fantasy atmosphere.\n[*]You can skip most cutscenes, which I always appreciate.\n[*]The gameplay initially feels great—like a love letter to DS-era Castlevania.\n[*]The first half of the bosses were fun and fair, offering challenge without feeling cheap.\n[*]Enemy placement feels deliberate early on, adding tension without being unfair (unless you’re in an overleveled area). This quality drops off later in the game.\n[*]Leveling up provides a noticeable power boost early on. That immediate sense of growth helps pacing—for a while.\n[/list]\n[h2]Cons[/h2]\n[*]Leveling gives huge stat jumps, which creates a binary difficulty curve. You either melt enemies or get deleted in seconds. A smoother progression with ability gating would have worked better.\n[*]Only one weapon type—the whip. If you don’t enjoy its moveset, that’s it. Equipment variety is too grindy and spread out to help early on.\n[*]Controls are intentionally rigid, just like classic Castlevania. I personally like it, but it won’t be for everyone. You have to be very deliberate with movement and attacks.\n[*]The game wants you to go in a specific direction, blocking other paths with overpowered enemies or missing traversal powers. Getting punished with instant death for exploring feels awful.\n[*]Navigation lacks intuition. It’s easy to get lost with little guidance on where to find new traversal abilities. It almost feels like the game is designed to halt your progress repeatedly just to send you elsewhere.\n[*]The forced story segment where the main character loses their weapon and must sneak past enemies is miserable. It doesn’t fit the game’s core design and single-handedly ruins replay value.\n[*]Crafting (Transmutation) is clunky and grindy. The resource demands are high, and the menus are frustrating to use.\n[*]Menus in general are poorly designed. Items are sorted by acquisition time with no filters, and the map must be closed using the same button that opens it—pressing your reflexive “cancel” button just zooms the map instead.\n[*]“Puzzles” that require selecting items from your inventory to destroy objects add pointless tedium.\n[*]Status effects are punishing without depth. Poison drains your health rapidly, Curse disables mana regeneration, and Injury halves your stats. They’re just annoyances that waste time.\n[*]A few cutscenes cannot be skipped.\n[*]Later bosses feel overtuned—designed around abusing heals or near-perfect runs. They’re frustrating, not fun.\n[/list]\n[h2]“Do I Want to Keep Playing?”[/h2]\n\n[b]1 Hour In:[/b] Absolutely.\nThe game feels great, looks beautiful, and sounds excellent. A strong first impression.\n\n[b]5 Hours In:[/b] Yes.\nStill engaged, but the forced stealth section and occasional direction confusion are starting to bother me.\n\n[b]8 Hours In:[/b] Barely.\nThe pacing keeps breaking, and finding new content feels more like a chore than progress.\n\n[b]10 Hours In:[/b] No.\nI’m done. The repetition, backtracking, and recycled content killed my interest. It’s a beautiful, atmospheric game that forgets to respect the player’s time.",
+        "timestamp_created": 1761613119,
+        "timestamp_updated": 1761791191,
+        "voted_up": false,
+        "votes_up": 59,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.793689548969268799",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1762965790,
+        "developer_response": "Thank you for your feedback. We have been working to resolve several issues since launch. Anyone interested can check the news section for full details of the various patches that have been released. \nhttps://steamcommunity.com/app/2112750/allnews/",
+        "app_release_date": "1728312119",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 3
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUIE6AAAAAFP+ll6KAAAAB2g8SYBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

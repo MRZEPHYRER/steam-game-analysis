@@ -1,0 +1,66 @@
+{
+  "appid": 2359390,
+  "requested_at": "2026-09-13T18:50:06.399381+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "216778158",
+        "author": {
+          "steamid": "76561198062155765",
+          "personaname": "MADMartinQc",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198062155765/",
+          "num_games_owned": 0,
+          "num_reviews": 40,
+          "playtime_forever": 198,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1769360411,
+          "avatar": "b7e3772eb6c13ed1bb05f212aef0ec300e96c754"
+        },
+        "language": "english",
+        "review": "Overall a great climbing game and well worth the price.\nReally afordable game for couple hours of fun!",
+        "timestamp_created": 1769354597,
+        "timestamp_updated": 1769354597,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763145721",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB+2vi6Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

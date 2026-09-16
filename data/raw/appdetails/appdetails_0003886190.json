@@ -1,0 +1,209 @@
+{
+  "requested_at": "2026-09-12T17:46:27.932126+00:00",
+  "request_params": {
+    "appids": 3886190,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3886190,
+  "payload": {
+    "3886190": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Magic Cat",
+        "steam_appid": 3886190,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A hand-drawn 2D fantasy world</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A roguelike adventure full of randomness</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Wave after wave of monsters</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Rich boss battles</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Beginner Tips:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Off-field enhancement is crucial. Armor and damage are enhancement attributes worth investing money in early on.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >There's no rush to collect gems or items—they won't disappear.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >When starting the game, specialize in your initial weapon. The staff has a greater advantage when fighting bosses.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A hand-drawn 2D fantasy world</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >A roguelike adventure full of randomness</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Wave after wave of monsters</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Rich boss battles</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Beginner Tips:</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Off-field enhancement is crucial. Armor and damage are enhancement attributes worth investing money in early on.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >There's no rush to collect gems or items—they won't disappear.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >When starting the game, specialize in your initial weapon. The staff has a greater advantage when fighting bosses.</p></li></ul>",
+        "short_description": "&quot;Magic Cat&quot; is a hand-drawn 2D roguelike game. Players play a little black cat mage to fight—each battle a new trial. Leveling up brings surprises; challenges are unique. Facing monster waves, players strengthen magic via choices, move step by step, defeat the ultimate Boss.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Ukrainian, Russian, Turkish, Japanese, Polish, Simplified Chinese, Traditional Chinese, Portuguese - Brazil, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/45d5c3dc7a1f9dae9ade04c190ba9e691f541a28/header.jpg?t=1756825926",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/951c28381b1992c148cfdbc3ec3b9c668afb71ed/capsule_231x87.jpg?t=1756825926",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/951c28381b1992c148cfdbc3ec3b9c668afb71ed/capsule_184x69.jpg?t=1756825926",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong> x64 architecture with SSE2 instruction set support<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong>  DX11, DX12 capable<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Hakimi Game"
+        ],
+        "publishers": [
+          "Hakimi Game"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1366065
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Magic Cat",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1366065,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "魔法猫 - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/b6ec9ce8f76c30affc8b06365bad15ad202c9f0e/ss_b6ec9ce8f76c30affc8b06365bad15ad202c9f0e.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/b6ec9ce8f76c30affc8b06365bad15ad202c9f0e/ss_b6ec9ce8f76c30affc8b06365bad15ad202c9f0e.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/4bd1474f769e5aeb48c10a233b700f7c68b62785/ss_4bd1474f769e5aeb48c10a233b700f7c68b62785.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/4bd1474f769e5aeb48c10a233b700f7c68b62785/ss_4bd1474f769e5aeb48c10a233b700f7c68b62785.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/2e4b5c6d8a27158e49efe3b5e7d35c67262b9449/ss_2e4b5c6d8a27158e49efe3b5e7d35c67262b9449.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/2e4b5c6d8a27158e49efe3b5e7d35c67262b9449/ss_2e4b5c6d8a27158e49efe3b5e7d35c67262b9449.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/74f425661b9727662a9f1c54263a8d9e6490ba22/ss_74f425661b9727662a9f1c54263a8d9e6490ba22.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/74f425661b9727662a9f1c54263a8d9e6490ba22/ss_74f425661b9727662a9f1c54263a8d9e6490ba22.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/eee02017f22270f616ee1bf49f695b51fe256e4c/ss_eee02017f22270f616ee1bf49f695b51fe256e4c.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/eee02017f22270f616ee1bf49f695b51fe256e4c/ss_eee02017f22270f616ee1bf49f695b51fe256e4c.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/ed84a6ce89c636d6518247e66670a7ae9cc1f43c/ss_ed84a6ce89c636d6518247e66670a7ae9cc1f43c.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/ed84a6ce89c636d6518247e66670a7ae9cc1f43c/ss_ed84a6ce89c636d6518247e66670a7ae9cc1f43c.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/c6a7e99d6f66b982717b082f681c0a2f8e92078a/ss_c6a7e99d6f66b982717b082f681c0a2f8e92078a.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/c6a7e99d6f66b982717b082f681c0a2f8e92078a/ss_c6a7e99d6f66b982717b082f681c0a2f8e92078a.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/25e79cf041678bbfae9472b759a728bdef50dc35/ss_25e79cf041678bbfae9472b759a728bdef50dc35.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/25e79cf041678bbfae9472b759a728bdef50dc35/ss_25e79cf041678bbfae9472b759a728bdef50dc35.1920x1080.jpg?t=1756825926"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/4fc67de605f30391df42780501b16cc78dc3481a/ss_4fc67de605f30391df42780501b16cc78dc3481a.600x338.jpg?t=1756825926",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886190/4fc67de605f30391df42780501b16cc78dc3481a/ss_4fc67de605f30391df42780501b16cc78dc3481a.1920x1080.jpg?t=1756825926"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257181885,
+            "name": "魔法猫",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257181885/8c00025eabf9d66f11a3b9e942d89443bfdaca43/movie_600x337.jpg?t=1754975590",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3886190/1040550201/37938e551dc9e7cafc760a3ac889ab33a1f0e2c0/1754974712/dash_av1.mpd?t=1754975590",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3886190/1040550201/37938e551dc9e7cafc760a3ac889ab33a1f0e2c0/1754974712/dash_h264.mpd?t=1754975590",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3886190/1040550201/37938e551dc9e7cafc760a3ac889ab33a1f0e2c0/1754974712/hls_264_master.m3u8?t=1754975590",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 14, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "942784994@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3886190?t=1756825926",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3886190?t=1756825926",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

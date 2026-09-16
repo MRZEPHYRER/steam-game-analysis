@@ -1,0 +1,71 @@
+{
+  "appid": 3084740,
+  "requested_at": "2026-09-13T19:03:30.948607+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 73,
+      "total_negative": 1,
+      "total_reviews": 74
+    },
+    "reviews": [
+      {
+        "recommendationid": "208842049",
+        "author": {
+          "steamid": "76561198121726775",
+          "personaname": "Alexann",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/t4tune2017/",
+          "num_games_owned": 9291,
+          "num_reviews": 135,
+          "playtime_forever": 171,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 171,
+          "last_played": 1762725552,
+          "avatar": "37a06b978698416badb3e3f5993ece963b4b56a7"
+        },
+        "language": "russian",
+        "review": "У нас здесь простой, но очень залипательный, заводной и боевой  декбилдер на тему космических сражений.\n\nПлюсы\n- Ретрофутуристический антураж, дизайн кораблей из журналов 60-70 годов\n- Оригинальная идея визуализации  - дроны, щиты\n- Крутые анимации боя - атаки, взрывы, поверженные противники выглядят ШИКАРНО! А уж тараны, оооО! )))\n- Заточка игры под боевку, практически ничего лишнего.\n- Оригинальная система боя - ты не знаешь какую именно атаку применит твой противник, ты только видишь его руку и количество действий. Т.е игра никогда не дает тебе однозначности, приходится планировать несколько исходов событий и пытаться снизить количество доступных вариантов розыгрыша для противника. Есть неблокируемые атаки!\n- Оригинальная система передвижения по карте - ты никак не ограничен, можешь возвращаться на ноды в любом порядке, как тебе захочется - просто класс!\n\nМинусы \n- визуальный стиль меню и UI в виде консоли из ранних 90-х здесь выглядит чужеродно, к сожалению\n- Довольно невыразительный саундтрек, хотелось бы что-то под стать визуалу.\n\n\nРекомендую к ознакомлению, пара отличных вечеров обеспечена!",
+        "timestamp_created": 1762725724,
+        "timestamp_updated": 1762751229,
+        "voted_up": true,
+        "votes_up": 68,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.886870145797729492",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758736715",
+        "reactions": [
+          {
+            "reaction_type": 7,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTQzmAAAAAFP+xhPUAAAABx1NWcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.313000000000102,
+  "transport_error_count": 0
+}

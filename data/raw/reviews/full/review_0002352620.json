@@ -1,0 +1,83 @@
+{
+  "appid": 2352620,
+  "requested_at": "2026-09-13T18:49:58.077368+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11436,
+      "total_negative": 3837,
+      "total_reviews": 15273
+    },
+    "reviews": [
+      {
+        "recommendationid": "228734572",
+        "author": {
+          "steamid": "76561198132123339",
+          "personaname": "Smoothiez",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/notsmoothiez/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 8438,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7747,
+          "last_played": 1784271489,
+          "avatar": "55ed6e8090847f667e87d7c8f36be98336b48a9d"
+        },
+        "language": "english",
+        "review": "I enjoy Fellowship when I'm playing with friends. The combat is fun, the encounters are engaging, and there's a solid foundation here for players who enjoy cooperative PvE content.\n\nUnfortunately, the biggest obstacle to my continued play isn't the gameplay—it's the community.\n\nI've spent a lot of time pugging Fellowship, and I've been surprised by how quickly routine mistakes in learning-level content turn into hostility. Constructive feedback is one thing; that's a necessary part of any team-based game. What I've encountered far more often is players using mistakes as an excuse to be rude, condescending, or outright toxic.\n\nThe strange part is that much of this occurs in content that is explicitly designed for players to learn, I.E. Contender/Adept content. New players are expected to make mistakes. Experienced players should be expected to help them improve, or atleast say nothing if you have nothing nice to say. Instead, many interactions feel like people are more interested in finding someone to blame than completing the *checks notes* 11 minute dungeon run.\n\nNone of this ruins the game when I have a full group of friends online. But when they're not available, the pug experience becomes difficult to recommend. A multiplayer game lives and dies by the quality of its community, and right now Fellowship's community is the single biggest factor pushing me away from playing.\n\nI hope the developers take community health seriously as the game grows, because the gameplay itself deserves better than the environment that currently surrounds it.",
+        "timestamp_created": 1782325842,
+        "timestamp_updated": 1784064888,
+        "voted_up": true,
+        "votes_up": 140,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.903449118137359619",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760630011",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 6
+          },
+          {
+            "reaction_type": 29,
+            "count": 3
+          },
+          {
+            "reaction_type": 31,
+            "count": 2
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFR7leAAAAAFP+zpDeAAAAB85sboBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

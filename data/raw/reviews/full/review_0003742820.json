@@ -1,0 +1,66 @@
+{
+  "appid": 3742820,
+  "requested_at": "2026-09-13T19:36:18.393854+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 34,
+      "total_negative": 0,
+      "total_reviews": 34
+    },
+    "reviews": [
+      {
+        "recommendationid": "212747494",
+        "author": {
+          "steamid": "76561199178257317",
+          "personaname": "大藏里想奈",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199178257317/",
+          "num_games_owned": 2131,
+          "num_reviews": 97,
+          "playtime_forever": 2261,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1067,
+          "last_played": 1765184152,
+          "avatar": "ab00099b4342cf2e2934174cc0e9cba81cf349e0"
+        },
+        "language": "schinese",
+        "review": "  白舟的翻译还是一如既往的难蚌啊，错翻、漏翻、意义不明的词语、语序不同的句子，不知道到底有没有人检查过文本问题.....\r\n  回归到作品本身，本作是一部短篇的废萌校园恋爱故事，日常挺有趣的，就是故事太短，进展太快了，也有可能是角色太多导致的，但人设方面，白毛瑛美是真无敌了，是妹妹、是学妹、是青梅竹马、是初恋，天降系青梅妹妹，太伟大了，我喜欢你Emi。",
+        "timestamp_created": 1765081887,
+        "timestamp_updated": 1765081887,
+        "voted_up": true,
+        "votes_up": 26,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.739459574222564697",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763427609",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVNfcAAAAAFP+epqAAAAAB2zsirBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9849999999996726,
+  "transport_error_count": 0
+}

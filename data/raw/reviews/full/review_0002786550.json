@@ -1,0 +1,79 @@
+{
+  "appid": 2786550,
+  "requested_at": "2026-09-13T18:55:49.706877+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 713,
+      "total_negative": 109,
+      "total_reviews": 822
+    },
+    "reviews": [
+      {
+        "recommendationid": "215281785",
+        "author": {
+          "steamid": "76561198079914522",
+          "personaname": "The Great Goose",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198079914522/",
+          "num_games_owned": 0,
+          "num_reviews": 15,
+          "playtime_forever": 1329,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 927,
+          "last_played": 1767849873,
+          "avatar": "c04aba57b5ab5d799c7d1984713ddf21a47b9160"
+        },
+        "language": "english",
+        "review": "Let me preface this with the fact that I really do enjoy this game. CURE has very strong bones and a great foundation to expand upon. The gameplay loop is somewhat simple once you wrap your head around it, but it feels all the more rewarding once you have. Most of my experience with this game has been with 1 other person in co-op, so my experience is tailored toward that. We're on day like 80-something. However, the reasoning behind this negative review is because light needs to be shed on some of the minor and critical issues that this game possesses.\n\nFirstly, let me say that none of my complaints are about the zombies, like so many gripe about. They are an intended feature and easy enough to dispose of. They present a challenge that can be overcome. Be smart and quarantine potentially problematic patients from the ones who don't possess any of the cautionary symptoms. (Though it can be frustrating when patients turn RIGHT AFTER you've finished administering your treatments to them)\n\nThe hospital upgrade system is well implemented... for the most part. But, as you advance in levels and unlock more diagnostic tools, better medicines, etc., you will come across a dilemma in this juncture. There are patients with symptoms that require diagnostic tools such as 'Urine Test', 'Blood Test', and 'CT Scan'. Why is this an issue? Those diagnostic tools do not exist in the game right now. What is more brow-raising about this particular problem is the way Devs responded to the queries relating to it, as many players were naturally confused about how they were supposed to diagnose patients when they didn't possess the means.\n\nThe Devs' response? To paraphrase: \"Figure it out.\"\n\nSir, this is a hospital at the end of the day. Telling your players (who are supposed to be Doctors) to more or less treat their establishment like some madman's experimental laboratory is absolutely ludicrous. Yeah, sure! Just pump them full of random medications until something sticks! Or, you're free to turn them away and refuse them care! What? Are you kidding me? That's money. Money we NEED. Guessing and checking with the myriad of patients who come with these diagnostic requirements is not only ridiculous, it's not even economically-friendly if you don't get lucky with your first few medical guesses. Some patients who have nausea will reject anti-nausea medications? Huh? At first, this problem is trivial. Moderate at worst. But eventually, these types of diagnostic-requiring patients become the MAJORITY of who you're admitting into your hospital.\n\nAnd your answer is \"Figure it out.\"? You took the trouble to include the diagnostic requirements in your game but skipped out on implementing the necessary tools to meet said requirements? That's not fun. That's not quirky. It's not haha-funny-mystery-oOoOOO! It's LAZY, and you know it. It would have been easier (and sensical) to NOT throw those into the game UNTIL you had the necessary diagnostic tools included as well. If you HAD, then maybe that 'medical tools pegboard' that you already have in the game would have some legitimate use. And don't throw that \"It's a zombie apocalypse scenario! You might not have the equipment you need!\" garbage excuse at me when I'm dropping 10 Gs on a ♥♥♥♥♥♥♥♥ X-Ray machine. If we have the means to do that, then I'm sure I can manage to test someone's blood or urine. Alas, I digress.\n\nAnother issue with this game, which I imagine becomes more glaring with the less people you have in co-op (or god forbid you're playing solo) is how functionally useless and inefficient all of that extra hospital space by leveling up your hospital becomes. There's just nothing to do with all of this open space. You can only have 1 reception desk (which is a VERY strange move in my opinion, and the problems this creates are exacerbated with every additional person you have in your lobby) so there's no real point to diversify your hospital and have series of beds in a multitude of different locations. Since ONLY the first person in line can be interacted with, whoever you're playing with has to wait until you're done examining the patient you're interacting with, sending them to a chair/bed/X-ray machine/whatever, it unnecessarily crimps the process. It is inefficient and badly implemented. It's a waste of potential.\n\nIf you can work on the hospital leveling systems, give us the diagnostic tools that we require, and find a way for us to actually optimize all of the empty space we eventually find ourselves surrounded with, then I will go positive.",
+        "timestamp_created": 1767668708,
+        "timestamp_updated": 1767668708,
+        "voted_up": false,
+        "votes_up": 92,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.867090880870819092",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763658485",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 4
+          },
+          {
+            "reaction_type": 32,
+            "count": 4
+          },
+          {
+            "reaction_type": 5,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSqH6AAAAAFP+u/NaAAAAB5h561Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3854270,
+  "requested_at": "2026-09-13T19:49:57.700520+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 12,
+      "total_negative": 0,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "204566784",
+        "author": {
+          "steamid": "76561197990667440",
+          "personaname": "Abidingphantom",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197990667440/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 65,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 65,
+          "last_played": 1757282270,
+          "avatar": "80d10911f09fe26e755aa0508676d92576837a31"
+        },
+        "language": "english",
+        "review": "Already a fun little game! At the easier difficulties you can quickly get used to the concept, discover power ups and form some basic strategies for solving the maze. Once you get to the harder difficulties, the question becomes how many bodies will haunt your screen when the finish line is found at last!\n\nMost liked things\n[list]\n[*] The ambiance and art style are nice! I like how simplistic things are, while still being clear and recognizable. That's an achievement in and of itself. \n[*] Variety of traps. There could be more, but I think as it is it's already varied enough to remain interesting. [spoiler] Especially that little (big) freak who eats my corpses. Kept me on my toes![/spoiler] \n[*] Some powerups stay, some reset. I think it was a good touch that the compass doesn't stick around after death, else it would have become too easy. Finding a spotlight is always nice and exciting.\n[*] Having seeds is cool, I can see this being a fun party game where a bunch of people all join with the same seed and compete for the best time/body count.\n[/list]\nMost disliked things\n[list]\n[*] Required progress resets. Being punished for not noticing a trap and blithely walking through it is one thing, and I died from that plenty. However, it seems like for saw traps and spike traps there's no way to avoid them, even if you know they're there. Lots of times I backtracked to try and find a way around and just couldn't. I had to build a bridge with my body. Which... Maybe that's the point. But for someone categorically *terrible* with directions, it's pretty disheartening to feel like I got really far then get killed by something I knew was there but had no way to avoid. Having some form of very-difficult, but technically achievable dodge/deflect/whatever would be really nice. Even if it was a power-up that you had to gather and then expend (maybe a one-time use shield that you have to trigger with a keystroke at a specific time before being killed?)\n[/list]\n\n[h1]Some additional thoughts/ideas[/h1]\n\n[list]\n[*] Possible \"negative\" powerups? \n    [list]\n    [*] Something that resets traps if you touch it? Or maybe a stationary enemy that does that?\n    [*] Something that temporarily restricts vision even more than the initial sphere, while calling dogs after you?\n    [*] Body cleanup which removes bodies from the map, removing important landmarks\n    [*] Ghost \"powerup\" which sometimes spawn over your bodies -- If you touch them they take control and send you running through the maze randomly for a certain number of seconds.\n     [/list]\n[*] Summary Screen ideas which could be cool to have as part of the final review process\n    [list]\n    [*] Time stats: Total run time, average attempt time, time of final attempt\n    [*] Death stats: Total deaths, deaths by traps, average distance from start/end at death\n    [*] Powers Found: total found/total % found, breakout of which power ups found\n    [*] An overview of the map with little red dots showing where the player died most, blue for starting spot, green for exit, and a line showing the final route they took? Bonus points if a line showing the most efficient path is also included. (Note: I could see an argument against this in case people want to reuse the seeds and want to avoid cheating... But at the same time, who wants to play with someone who's gonna be such a little baby and cheat when challenged to a Midnight Murder Maze duel?)\n[/list]\n[/list]",
+        "timestamp_created": 1758131235,
+        "timestamp_updated": 1758131548,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755802841",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAABwkK6MBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.108999999999469,
+  "transport_error_count": 0
+}

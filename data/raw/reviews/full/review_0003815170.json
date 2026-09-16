@@ -1,0 +1,66 @@
+{
+  "appid": 3815170,
+  "requested_at": "2026-09-13T19:43:34.412270+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 2,
+      "total_reviews": 12
+    },
+    "reviews": [
+      {
+        "recommendationid": "209444746",
+        "author": {
+          "steamid": "76561198066590240",
+          "personaname": "FastLawyer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/FastLawyer/",
+          "num_games_owned": 0,
+          "num_reviews": 3349,
+          "playtime_forever": 105,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 105,
+          "last_played": 1763349264,
+          "avatar": "af6a683a6b239c01e7d3c9ce9b67814286e42a81"
+        },
+        "language": "english",
+        "review": "[h1]Experienced on the Meta Quest 3[/h1]\n\nYou can view my gameplay & early impressions here: https://youtu.be/Vt-DGI6vh_o\n\nThis is a fun simulation game. It's got just enough immersion to make it fun to play as a medieval tavern keeper. However, not so much that it becomes tedious or boring. You unlock new ingredients, recipes, and upgrades to your tavern at a brisk pace too. \n\nIt's not super realistic though and don't expect the best physics. However, there's just enough there IMO. It can get quite hectic having to manage the tavern by yourself as you'll be prepping, cooking, serving, getting money, cleaning, and also getting rid of unruly customers. You can eventually hire help. You can hire a bard to keep clients entertained or you can play the mandolin yourself.\n\nI did find one thing annoying though about this game and I hope it's only because of Early Access and it's something the dev plans to change soon: your customer (at least early on) will only want a drink or a soup. You can give them whatever drink or soup you make. The difference will be in what amount they will pay you. Which just doesn't make sense ... customers should request a specific drink or food. The tutorial is also not the best and can explain things much better.  \n\nGame is running on the Unreal Engine 5. On my RTX 5090, I was getting a steady 90 fps with everything set to the max. You do have full locomotion, along with smooth or snap turning. You can set your height as well, so you can play comfortably seated. You can turn off the auto vignette as well.\n\n[b]Rate 7.5/10.[/b]\n\n[quote]I bought this game! If you enjoyed my review, please consider joining my Steam Curator group [url=https://steamcommunity.com/groups/Oculus_WMR]Oculus Rift Reviews.[/url][/quote]",
+        "timestamp_created": 1763350263,
+        "timestamp_updated": 1763350263,
+        "voted_up": true,
+        "votes_up": 13,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.650481522083282471",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763104772",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW/YgAAAAAFP+TQv6AAAAB6+PueBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

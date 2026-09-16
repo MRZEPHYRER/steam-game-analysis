@@ -1,0 +1,66 @@
+{
+  "appid": 3635710,
+  "requested_at": "2026-09-13T19:27:51.420673+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 9,
+      "total_negative": 6,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "234676547",
+        "author": {
+          "steamid": "76561198018463637",
+          "personaname": "Whovencroft",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/whovencroft/",
+          "num_games_owned": 411,
+          "num_reviews": 35,
+          "playtime_forever": 88,
+          "playtime_last_two_weeks": 88,
+          "playtime_at_review": 88,
+          "last_played": 1788759171,
+          "avatar": "3131f6f5aaddaef201ed54cdfd54b63f1c31b8a4"
+        },
+        "language": "english",
+        "review": "I'm never the person complaining about graphics or archaic gameplay.  Without worrying about either of those, this game is bad.  It's not just bad for a steam game, it's bad for a Warcraft III map.  It's been 20+ years since the mapping scene hit its stride, and low effort garbage like this still shows up.  Makes me want to just go grab the good forgotten maps and flip them for some quick money.",
+        "timestamp_created": 1788759411,
+        "timestamp_updated": 1788759411,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755272675",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABzlJz/Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

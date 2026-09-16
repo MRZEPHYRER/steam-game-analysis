@@ -1,0 +1,66 @@
+{
+  "appid": 3456830,
+  "requested_at": "2026-09-13T19:17:06.512109+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 28,
+      "total_negative": 10,
+      "total_reviews": 38
+    },
+    "reviews": [
+      {
+        "recommendationid": "206113414",
+        "author": {
+          "steamid": "76561198425870050",
+          "personaname": "卑下やかん",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198425870050/",
+          "num_games_owned": 0,
+          "num_reviews": 9,
+          "playtime_forever": 273,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 59,
+          "last_played": 1760018916,
+          "avatar": "c52a4dfcf642497c69ddcba9812fafbd65b1bc36"
+        },
+        "language": "japanese",
+        "review": "キャラデザがとても好みでした。またボイス入りで、楽しくプレイすることができました。細かい部分のネタも散りばめられていてよかったです。まだ途中ですが、事件解決に向けてプレイしていきます！",
+        "timestamp_created": 1759841530,
+        "timestamp_updated": 1759841530,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.514240086078643799",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752159740",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZtxeAAAAAFP+B0p4AAAAB2qKGSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

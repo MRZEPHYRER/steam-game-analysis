@@ -1,0 +1,66 @@
+{
+  "appid": 3748360,
+  "requested_at": "2026-09-13T19:36:48.396338+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "204385143",
+        "author": {
+          "steamid": "76561198972636958",
+          "personaname": "Zalcano",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/Zalcano/",
+          "num_games_owned": 98,
+          "num_reviews": 79,
+          "playtime_forever": 292,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 292,
+          "last_played": 1757879092,
+          "avatar": "1df684ca6b79853a6675f0dd109bd163d54acd3c"
+        },
+        "language": "english",
+        "review": "Neat and has great variety of powerups. However, there is no list for already chosen ones, no way to check other 2 pages of stats during the powerup choose menu and no save run option. Eventually waiting for a some sort of spin that adds, perhaps, a mini-boss stage midrun that isn't just several flat lines of blocks. Kinda to make it feel more like peglin with balls going above the main chunk of blocks and then providing dopamine with bounces. Also would be interesting to see ways to change the shape of the player's bar. Making it curved outward/inward adds a range of direction changes at the cost of it being harder to not miss the balls.\r\n\r\nGreat sounds too, no ear-rapy stuff",
+        "timestamp_created": 1757927005,
+        "timestamp_updated": 1757927005,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757774159",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB3t9WLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0789999999997235,
+  "transport_error_count": 0
+}

@@ -1,0 +1,237 @@
+{
+  "requested_at": "2026-09-13T06:49:49.737267+00:00",
+  "request_params": {
+    "appids": 4091250,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4091250,
+  "payload": {
+    "4091250": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "If you’re a man, hold on for half a song",
+        "steam_appid": 4091250,
+        "required_age": 0,
+        "is_free": true,
+        "detailed_description": "<p class=\"bb_paragraph\" >Are you a man? If you are, hold on for the duration of half a song!</p><p class=\"bb_paragraph\" >In this game, players will play as a small square, dodging and defeating enemies within half a song’s time. As the difficulty increases, the excitement also increases! Feel free to take on the challenge!</p><h2 class=\"bb_tag\" ><strong>Game features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Simple yet smooth controls</p></li><li><p class=\"bb_paragraph\" >Awesome special effects</p></li><li><p class=\"bb_paragraph\" >3 difficulty levels to suit all types of players</p></li><li><p class=\"bb_paragraph\" >3 distinctively styled artifact weapons and 12 artifact accessories for you to mix and match</p></li><li><p class=\"bb_paragraph\" >The songs in the game are really catchy! Play the game while listening to the music</p></li></ul><h2 class=\"bb_tag\" ><strong>Author's note:</strong></h2><p class=\"bb_paragraph\" >This is my first project while learning the Godot engine. I wanted to challenge myself to create a small game using mostly Godot's built-in assets. This game is free, and I hope everyone can show more support and come to love it.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Are you a man? If you are, hold on for the duration of half a song!</p><p class=\"bb_paragraph\" >In this game, players will play as a small square, dodging and defeating enemies within half a song’s time. As the difficulty increases, the excitement also increases! Feel free to take on the challenge!</p><h2 class=\"bb_tag\" ><strong>Game features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Simple yet smooth controls</p></li><li><p class=\"bb_paragraph\" >Awesome special effects</p></li><li><p class=\"bb_paragraph\" >3 difficulty levels to suit all types of players</p></li><li><p class=\"bb_paragraph\" >3 distinctively styled artifact weapons and 12 artifact accessories for you to mix and match</p></li><li><p class=\"bb_paragraph\" >The songs in the game are really catchy! Play the game while listening to the music</p></li></ul><h2 class=\"bb_tag\" ><strong>Author's note:</strong></h2><p class=\"bb_paragraph\" >This is my first project while learning the Godot engine. I wanted to challenge myself to create a small game using mostly Godot's built-in assets. This game is free, and I hope everyone can show more support and come to love it.</p>",
+        "short_description": "This is an action shooter with extremely simple controls.Its gameplay duration is short but concise, with no filler content at all.The levels seem simple yet hide subtle twists, and there are plenty of little surprises waiting for you to discover!Anyway, it’s free—you can’t go wrong with it.",
+        "supported_languages": "English, Simplified Chinese<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/f05319febf61d5bfbbdc8d00ef6455022840660a/header.jpg?t=1762114511",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/0d329687f5190c3a3e1c1a19c2fb3a9c5eb14966/capsule_231x87.jpg?t=1762114511",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/0d329687f5190c3a3e1c1a19c2fb3a9c5eb14966/capsule_184x69.jpg?t=1762114511",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 10<br></li><li><strong>Processor:</strong> i3 12100<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1660<br></li><li><strong>Storage:</strong> 120 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 11<br></li><li><strong>Processor:</strong> i5 12400<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> RTX 4060<br></li><li><strong>Storage:</strong> 150 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "AnG"
+        ],
+        "publishers": [
+          "AnG"
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/bbaf1e9ae31774772032378eee9c95da8a0f0b78/ss_bbaf1e9ae31774772032378eee9c95da8a0f0b78.600x338.jpg?t=1762114511",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/bbaf1e9ae31774772032378eee9c95da8a0f0b78/ss_bbaf1e9ae31774772032378eee9c95da8a0f0b78.1920x1080.jpg?t=1762114511"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/6f0d93aa9f343d1470e51c765290c3fdc0690807/ss_6f0d93aa9f343d1470e51c765290c3fdc0690807.600x338.jpg?t=1762114511",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/6f0d93aa9f343d1470e51c765290c3fdc0690807/ss_6f0d93aa9f343d1470e51c765290c3fdc0690807.1920x1080.jpg?t=1762114511"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/5c5e5fd28b31ee52644c939a78322a0528b03bd2/ss_5c5e5fd28b31ee52644c939a78322a0528b03bd2.600x338.jpg?t=1762114511",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/5c5e5fd28b31ee52644c939a78322a0528b03bd2/ss_5c5e5fd28b31ee52644c939a78322a0528b03bd2.1920x1080.jpg?t=1762114511"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/f3fcf822a7acbc852fcf4f30795ef057c6d356e6/ss_f3fcf822a7acbc852fcf4f30795ef057c6d356e6.600x338.jpg?t=1762114511",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/f3fcf822a7acbc852fcf4f30795ef057c6d356e6/ss_f3fcf822a7acbc852fcf4f30795ef057c6d356e6.1920x1080.jpg?t=1762114511"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/7a60d3a6ff87bfaee8ce0dec93fb55401dcfdcf3/ss_7a60d3a6ff87bfaee8ce0dec93fb55401dcfdcf3.600x338.jpg?t=1762114511",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/7a60d3a6ff87bfaee8ce0dec93fb55401dcfdcf3/ss_7a60d3a6ff87bfaee8ce0dec93fb55401dcfdcf3.1920x1080.jpg?t=1762114511"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257213653,
+            "name": "是男人就坚持半首歌的时间 宣传片",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257213653/0c7bdd0413b65141615bc95dab135041bb6e7a11/movie_600x337.jpg?t=1760628679",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4091250/803610723/a0e73f0fbc60959b7ffd0c311b356212ff7f6b2f/1759859977/dash_av1.mpd?t=1760628679",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4091250/803610723/a0e73f0fbc60959b7ffd0c311b356212ff7f6b2f/1759859977/dash_h264.mpd?t=1760628679",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4091250/803610723/a0e73f0fbc60959b7ffd0c311b356212ff7f6b2f/1759859977/hls_264_master.m3u8?t=1760628679",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "213a79eb9e050498d5035c8781e28539c7ca165a.jpg",
+              "localized_name": "Beat Normal Difficulty!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Normal Difficulty!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4091250/213a79eb9e050498d5035c8781e28539c7ca165a.jpg"
+            },
+            {
+              "icon": "4fedba650fdd22d76219f2d9c4660bad47fc61d8.jpg",
+              "localized_name": "Obtain the Left Eye!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Obtain the Left Eye!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4091250/4fedba650fdd22d76219f2d9c4660bad47fc61d8.jpg"
+            },
+            {
+              "icon": "76004598181cc4de8e3e9b250eb610920e06f87f.jpg",
+              "localized_name": "Obtain the Right Eye!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Obtain the Right Eye!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4091250/76004598181cc4de8e3e9b250eb610920e06f87f.jpg"
+            },
+            {
+              "icon": "5c388aacee547815acbab76f3d407230b7b764c5.jpg",
+              "localized_name": "Beat Hard Difficulty!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Beat Hard Difficulty!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4091250/5c388aacee547815acbab76f3d407230b7b764c5.jpg"
+            },
+            {
+              "icon": "eb9c29138e754c4897e7ba452e001dc260785be9.jpg",
+              "localized_name": "To die unbowed",
+              "archived": 0,
+              "hidden": 0,
+              "name": "To die unbowed",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4091250/eb9c29138e754c4897e7ba452e001dc260785be9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "837294207@qq.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4091250?t=1762114511",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091250/3b9873cecdb2076ac1069fbdaef5ccc35b4ab291/page_bg_raw.jpg?t=1762114511",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

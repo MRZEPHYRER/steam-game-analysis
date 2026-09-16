@@ -1,0 +1,71 @@
+{
+  "appid": 4038680,
+  "requested_at": "2026-09-13T20:14:17.907785+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "213889708",
+        "author": {
+          "steamid": "76561198087394414",
+          "personaname": "MDSteinkamp",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198087394414/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 289,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 245,
+          "last_played": 1767610474,
+          "avatar": "b257de94e94dc4bb3775adc33e4f430492370912"
+        },
+        "language": "english",
+        "review": "This is a unique experience. If you know anything about Aquanaut's Holiday, then you know the fun of exploring a vast, largely barren world to occasionally encounter an intentionally placed, strange object with no concrete 'game value.' Tail of the Sun takes that concept and folds in combat, where you are forced to gauge \"am I able to win this fight? Can I cheese it? Do I need to just flee?\" The ultimate quarry and driver of purpose is the mammoth, who will just obliterate you on first encounter. This combat dynamic is coupled with general intangible stat growth behind obfuscated values, influenced by picking up and eating the plethora of random items strewn about. This loop is literally running on the same emotional engine as Souls games (\"Do I fight or skip or cheese?\"->grow in power->return later if you can find your way again), and does it very well. Wild music cues you as to finding some new area, and the lack of a map and the constrained camera make any grasp you gain of the terrain one that feels very significant.\r\n\r\nIf you look up the English manual of the original ps1 release, be aware that it has much more revealed than the original Japanese release, presumably to increase onboarding. I recommend especially not looking at any maps, as discovery is half of what you are paying for here. I hope Artdink keeps these rereleases coming.",
+        "timestamp_created": 1766381762,
+        "timestamp_updated": 1766381762,
+        "voted_up": true,
+        "votes_up": 11,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.671578943729400635",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765846526",
+        "reactions": [
+          {
+            "reaction_type": 33,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFWkYQAAAAAFP+V9k0AAAAB8qvavBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

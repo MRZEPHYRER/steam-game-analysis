@@ -1,0 +1,66 @@
+{
+  "appid": 3353000,
+  "requested_at": "2026-09-13T19:11:56.474221+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "228719399",
+        "author": {
+          "steamid": "76561199379050699",
+          "personaname": "Toxic_Katakuriskins.army",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199379050699/",
+          "num_games_owned": 25,
+          "num_reviews": 2,
+          "playtime_forever": 101,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 101,
+          "last_played": 1782312709,
+          "avatar": "2648b8bf2a176645c47b8002c0dc0be6e7f9af05"
+        },
+        "language": "polish",
+        "review": "fajna gra ale mogli by dodać tryb gdzie można sie odrarzać",
+        "timestamp_created": 1782312817,
+        "timestamp_updated": 1782312817,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758863901",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFpAAAAAAAAFAAAAAAAAAAB3sr/oBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

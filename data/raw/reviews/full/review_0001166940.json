@@ -1,0 +1,95 @@
+{
+  "appid": 1166940,
+  "requested_at": "2026-09-13T18:42:00.525697+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 4,
+      "review_score_desc": "Mostly Negative",
+      "total_positive": 16,
+      "total_negative": 27,
+      "total_reviews": 43
+    },
+    "reviews": [
+      {
+        "recommendationid": "208453882",
+        "author": {
+          "steamid": "76561199021577321",
+          "personaname": "BlueRaincoat22",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199021577321/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 158,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 158,
+          "last_played": 1762310654,
+          "avatar": "8ac62c5ae9e7f158aee8d9deb72d565e51e363c7"
+        },
+        "language": "english",
+        "review": "I really wanted to love this game. I wishlisted it ages ago and followed its development through delay after delay. Everything about this seemed like it would be right up my alley. But now that it's here and I've played it, I feel underwhelmed. The vibes are amazing, don't get me wrong. Blaring some classic synthwave as you tear past a bunch of ghoulish nightmares or switching off your headlights as you pass by a building just in case it isn't as empty as it appears feels fantastic. But so far, it feels like there's not much game here. \r\n\r\nIt feels like Dead Static is going for something kind of similar to Pacific Drive with the whole feel of a haunted road trip, but after an hour or two playing, most of the time, I don't have to make the same choices I made in Pacific Drive. I don't have much of a reason to explore most monster-infested buildings. Gas is plentiful enough I can keep my car pretty well topped off and there's no real need to grab more weapons and ammo if I'm mostly just passing through most of the zones. I struggle to get a sense of what the game actually wants me to do. I'm mostly just zipping around the zones trying to find the exit while my character complains about how dirty the car is and I grumble about having no clear way to clean it (Normally I am the mortal enemy of excessive tutorialization, but here, I'd welcome a bit more). Yeah, I have an objective marker telling me where I should be trying to go, but there's no real sense I'll be rewarded for exploring this world beyond just following that red line. I wish there was just more to do here. \r\n\r\nAnd speaking of the world, it feels really empty. I get that's partly the idea, but it makes it feel genuinely really weird when you meet a friendly NPC and they're the only person around for miles in a town full of boarded-up pizza places infested with otherworldly horrors and they're just over here treating it like it's a normal Tuesday. The world either needs to feel more like people actually live in it, or the people who do need to act more like they're doing their best to live their lives in a blasted nightmare. \r\n\r\nAnd for a final note, there's still a lot of jank and clunk to this game. Menu management is cumbersome, combat feels clumsy, the camera feels too zoomed in when driving to feel like I can navigate the world well (I really wish there were an alternate camera mode when behind the wheel), and cars sometimes control oddly.\r\n\r\nAnd I hate leaving a negative review because again, I've wanted this game for years and I know the devs have been working on it for a long time. And with more polish and shine, it could be great. I love the atmosphere and the aesthetic, the friendship system is really cool and adds to the road trip feel. With some more attention paid to making the world feel lived-in, streamlined UI, and a little more incentive to explore - maybe some background lore in the form of journal entries or a safe player home that you can return to easily to keep a few cars and decorate at your leisure (as well as offload some of the junk in my far too small inventory) - this game could be great. But for now, I just feel disappointed.",
+        "timestamp_created": 1762322556,
+        "timestamp_updated": 1762322556,
+        "voted_up": false,
+        "votes_up": 289,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.955664873123168945",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762300826",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 5
+          },
+          {
+            "reaction_type": 6,
+            "count": 8
+          },
+          {
+            "reaction_type": 17,
+            "count": 2
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 14,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 1
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQ4v8AAAAAFP+6UzsAAAAB6j5ibBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.015999999999849,
+  "transport_error_count": 0
+}

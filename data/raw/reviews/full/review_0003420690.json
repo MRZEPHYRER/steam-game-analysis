@@ -1,0 +1,71 @@
+{
+  "appid": 3420690,
+  "requested_at": "2026-09-13T19:14:51.532909+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11,
+      "total_negative": 4,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "204749833",
+        "author": {
+          "steamid": "76561198017899240",
+          "personaname": "SplingyDude",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/SPLINGYDUDE/",
+          "num_games_owned": 861,
+          "num_reviews": 284,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1758339989,
+          "avatar": "9dc785421bee667fbd3b74f27aad12d3fb53f5b3"
+        },
+        "language": "english",
+        "review": "BLOODKILL and BLOODKILL: GOREBLAST OVERKILL are like that 3d maze game for Windows 95 you played in Excel or something and your computer got struck by lightning and it becomes an ultra immersive ultra simplistic 3d maze shooter with HEAVY serious sam elements\n\nIt's like AssaultCube, Serious Sam, and Catacomb 3D walked into a bar and took turns passing a joint and this was their spirit voyage into the stone cold \"Windows 95 Demo Software\" vibes. I get reminded of Dead Hunt and some kind of Java Flip Phone FPS game. You could tell me this was a sequel to a hit on the nokia n gage, and I'd believe you. Pure simplicity in John Romero-Style Maze Design and immersive graphics. \n\nThese games are the SlowRoads of FPS. A game to play when you're reaching your zen.\n\nBonus Points for the BFG being an Elephant Gun, although it'd be more accurate to call it a Kinetic Bombardment via Shoulder Mounted Artillery. The music is amazing, too. I want to buy the soundtracks.",
+        "timestamp_created": 1758340481,
+        "timestamp_updated": 1758939550,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.576940953731536865",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755185534",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYdhAAAAAAFP+J2TQAAAAB5wIeNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

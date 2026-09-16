@@ -1,0 +1,66 @@
+{
+  "appid": 4105170,
+  "requested_at": "2026-09-13T20:19:19.675948+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213159579",
+        "author": {
+          "steamid": "76561197975359829",
+          "personaname": "Daxel",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/daxelthedeer/",
+          "num_games_owned": 924,
+          "num_reviews": 75,
+          "playtime_forever": 53,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 53,
+          "last_played": 1764905409,
+          "avatar": "b2a1f53fa5606acd26b1b88682e0d2c25e8d51dd"
+        },
+        "language": "english",
+        "review": "We had a really fun time playing through this anomaly game! Took us about an hour or so to complete it, and I'm sure we'd see more anomalies as we played it more, but for $3.99 it was full of surprises and ran well.\n\nPROS:\n*Unique environment for an anomaly game\n*Ran well on my system\n*Surprising anomalies\n\nCONS:\n*Couldn't figure out what we missed with rewatches of the footage we took\n*Lots of opportunity for more insane anomalies, but I'm sure we'll find more!\n\nVideo compilation of our experience with Disturbulence: https://www.youtube.com/watch?v=GSDXQN3qQ4E",
+        "timestamp_created": 1765588255,
+        "timestamp_updated": 1765588255,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764863193",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB76ZGtBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.405999999999949,
+  "transport_error_count": 0
+}

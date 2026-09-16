@@ -1,0 +1,79 @@
+{
+  "appid": 2957700,
+  "requested_at": "2026-09-13T18:59:42.436249+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1130,
+      "total_negative": 170,
+      "total_reviews": 1300
+    },
+    "reviews": [
+      {
+        "recommendationid": "218507753",
+        "author": {
+          "steamid": "76561199389536099",
+          "personaname": "neon_comic",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199389536099/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 2587,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 554,
+          "last_played": 1784696076,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "Posting this review so that people are more aware of what to expect from the game. \r\n\r\nPros:\r\n-Character customization is fun\r\n-The desk companion feature is cute and adds a little bit of fun to my tasks (it's probably the reason why my recorded playtime is so high).\r\n-Some of the fanfictions you unlock are very enjoyable to read and interesting\r\n-I like the fake merchandise that you can collect of your characters. I also appreciate that you can freely switch which characters are in which role. \r\n\r\nCons:\r\n-The main reason why I can't recommend this game to other people is because it is a bit buggy. The worst bug of all is in its filtering system. Neither the warning system nor the content blocking system seem to work properly. I've gotten jump scared a few times by some unsavory content that I didn't expect to see in certain fics. This includes one character taking advantage of a drunk character, a character almost having a miscarriage after a car accident (which is never mentioned again in the fic), sudden confinement that was not originally tagged in the fic, a character's drink getting spiked and then suddenly being \"touched\" by a bunch of hands (this one truly came out of nowhere, which led to me exiting the fic immediately). \r\nI don't have a problem with dark content existing in media. My problem is that this game is supposed to have a filtering system that makes it optional, but it doesn't work. I still haven't decided on if I'd like to get a refund on the game or not. I don't like randomly being jump scared when I think my player character is writing a regular fic, but there are also a few unique aspects of this game that I still enjoy (such as the desk companion feature).\r\nI wouldn't recommend playing the game in its current state if you are sensitive to any of the content mentioned in the above paragraph. \r\n-To be completely honest, the main story that follows the game's original characters isn't too interesting to me. I usually enjoy stories about creative people exploring their hobbies, but there's just something about the way this game's story is written that hasn't really captivated me. \r\n\r\nOverall, I have mixed feelings about this game. There are aspects of it that I like and I appreciate the unique concept, but some of the unsavory aspects make it difficult for me to enjoy the game as a whole. \r\n",
+        "timestamp_created": 1771293824,
+        "timestamp_updated": 1771293824,
+        "voted_up": false,
+        "votes_up": 68,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.82974088191986084",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1732852226",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 4
+          },
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 30,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTZ7oAAAAAFP+qNPQAAAAB5nsXBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

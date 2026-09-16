@@ -1,0 +1,66 @@
+{
+  "appid": 3446230,
+  "requested_at": "2026-09-13T19:16:21.335514+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "204854132",
+        "author": {
+          "steamid": "76561198053853659",
+          "personaname": "pixel",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/pix_el69/",
+          "num_games_owned": 1887,
+          "num_reviews": 372,
+          "playtime_forever": 124,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1758335888,
+          "avatar": "a65a2a40028240f807e412fde1ae27b85ca8d725"
+        },
+        "language": "english",
+        "review": "I would say this game is interesting but it does have quite a few flaws such as the story being incoherent as hell and leaving me more confused on how we went from getting whacked in the face with a shovel to having some acid trip of a journey through various levels and the ending I got left me more confused than anything. There were quite a few levels that were confusing as well on what to do but thankfully the dev put in a hint system & skip level button that makes it much easier. I still don't understand what happened to our friends though since all of them only appear in levels 1 to 2 and the third friend only reappearing in the last level. They all were experiencing the same thing as us and the other 2 friends just disappear never to be mentioned again. \n\nThe game does have nice level design but they are massive and feels like a walking sim and the game does have great music and character design too. The dialogue boxes with their faces were pretty good and the cut scenes were decent as well. If this game didn't have the hint system then I would say hell no to this game because it is confusing as hell but other than that it was interesting \n\nhttps://youtu.be/DCNik7Bwvh4",
+        "timestamp_created": 1758446916,
+        "timestamp_updated": 1758446916,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.563492059707641602",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756261450",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYuuwAAAAAFP+IIIGAAAAB0t7qNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1709999999998217,
+  "transport_error_count": 0
+}

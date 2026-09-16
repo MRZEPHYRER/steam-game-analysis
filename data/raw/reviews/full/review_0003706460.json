@@ -1,0 +1,68 @@
+{
+  "appid": 3706460,
+  "requested_at": "2026-09-13T19:33:12.740175+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "206427276",
+        "author": {
+          "steamid": "76561198025077833",
+          "personaname": "WarYore",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/waryore/",
+          "num_games_owned": 9621,
+          "num_reviews": 122,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1760177211,
+          "avatar": "7627fa4758b5ff71dad0ad3d57b3de088563979a"
+        },
+        "language": "english",
+        "review": "It's only $2.... but it's not worth it.  I'm going to ask for a refund.  It barely works for me.  Maybe I am too dumb to play it, but it doesn't seem to respond and even quitting was uncertain.",
+        "timestamp_created": 1760177347,
+        "timestamp_updated": 1760177347,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1760740836,
+        "developer_response": "I'm sorry to hear it wasn't working well.  Could you provide more information about why it seemed to not be working?\nAre you on windows, linux or steam deck? Controller or mouse and keyboard? What actions didn't seem to respond? Any other additional details could help make improvements",
+        "app_release_date": "1747935464",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB8yLqTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.20299999999952,
+  "transport_error_count": 0
+}

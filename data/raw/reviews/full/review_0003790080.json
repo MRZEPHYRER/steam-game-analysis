@@ -1,0 +1,73 @@
+{
+  "appid": 3790080,
+  "requested_at": "2026-09-13T19:40:15.457603+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "227686907",
+        "author": {
+          "steamid": "76561199655272544",
+          "personaname": "SYM - 353",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199655272544/",
+          "num_games_owned": 255,
+          "num_reviews": 88,
+          "playtime_forever": 20,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 15,
+          "last_played": 1781404564,
+          "avatar": "7f41b88a0c5361c97f9e1163d01482a407635f8a"
+        },
+        "language": "english",
+        "review": "--> Works in Manjaro Linux! <--\n\nBeing a Greek mythology buff, I wanted to test my skills how much I truly knew about one my favorite subjects since I was a little kid. Any time I got my hands on a book or something that related to the Grecian mythology I was always hooked.\n\nWell I'm not shocked I knew so little! This program truly tests you and your knowledge about the Greek gods, goddesses and beasts. There's even more that I knew so little about and I'm shocked. I'm truly glad I picked this program up the second I saw it! Shows I'm never too old to learn more about things that I love.\n\nGORGEOUS graphics and wonderful music along with a very interesting program. If you fancy Greek mythology and THINK you know much about it, you're sadly mistaken and this program proves it. The second you open this program you'll be greeted by the beautiful imagery and lustrous music. As you play you'll get some very interesting lore and information. It's a treasure trove of Greek mythology information and it's NOT to be missed!\n\nWell done devs!",
+        "timestamp_created": 1781145602,
+        "timestamp_updated": 1781145602,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752355478",
+        "hardware": {
+          "system_ram": "64093",
+          "os": "Freedesktop SDK 25.08 (Flatpak runtime)",
+          "cpu_name": "Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz",
+          "adapter_description": "AMD AMD Radeon RX 7600 (radeonsi, navi33, ACO, DRM 3.54, 6.6.144-3-MANJARO)",
+          "vram_size": 8192
+        },
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFghheAAAAAFP+DDDUAAAAB7n8fkBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

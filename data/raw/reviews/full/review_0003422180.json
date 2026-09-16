@@ -1,0 +1,66 @@
+{
+  "appid": 3422180,
+  "requested_at": "2026-09-13T19:14:58.006878+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 23,
+      "total_negative": 0,
+      "total_reviews": 23
+    },
+    "reviews": [
+      {
+        "recommendationid": "211389506",
+        "author": {
+          "steamid": "76561198138437975",
+          "personaname": "MirandaKym",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198138437975/",
+          "num_games_owned": 0,
+          "num_reviews": 133,
+          "playtime_forever": 311,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 311,
+          "last_played": 1764332093,
+          "avatar": "e5e6febd7da8e5b029b541a2aef7a7f711ecf7be"
+        },
+        "language": "english",
+        "review": "Great Sokoban game. Kept me highly entertained throughout. Both the puzzles and the story. More please!",
+        "timestamp_created": 1764332412,
+        "timestamp_updated": 1764332412,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.657302439212799072",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758300618",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW2p0AAAAAFP+UInkAAAAByxLGmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1410000000000764,
+  "transport_error_count": 0
+}

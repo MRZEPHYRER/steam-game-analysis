@@ -1,0 +1,313 @@
+{
+  "requested_at": "2026-09-12T17:53:18.133656+00:00",
+  "request_params": {
+    "appids": 3899090,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3899090,
+  "payload": {
+    "3899090": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Add Cross",
+        "steam_appid": 3899090,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/497eea4c1c20e5d19175d6d24b90b1af.avif?t=1761059127\" width=512 height=64 /></span><br>This pencil puzzle involves filling in the blanks with numbers 1 - 9 to match the numbers in the problem squares. Enjoy the light-hearted effects and have fun!<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/f09d6b67d1698da3fc3d9a6cf3622e26.avif?t=1761059127\" width=512 height=160 /></span><br>A: A row of confirmed numbers<br>B: Temporary numbers<br>C: Numbers not yet confirmed<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/1e9a89383ddeb3a49398272878df2b35.avif?t=1761059127\" width=512 height=560 /></span><br><ul class=\"bb_ul\"><li>Among the connected blocks there are numbers up to  1-9. The same numbers do not enter.<br></li><li>The same number can be entered for blocks interrupted by hint blocks.<br></li><li>If you put numbers in all blocks except hint block, it is clear!</li></ul>",
+        "about_the_game": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/497eea4c1c20e5d19175d6d24b90b1af.avif?t=1761059127\" width=512 height=64 /></span><br>This pencil puzzle involves filling in the blanks with numbers 1 - 9 to match the numbers in the problem squares. Enjoy the light-hearted effects and have fun!<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/f09d6b67d1698da3fc3d9a6cf3622e26.avif?t=1761059127\" width=512 height=160 /></span><br>A: A row of confirmed numbers<br>B: Temporary numbers<br>C: Numbers not yet confirmed<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/extras/1e9a89383ddeb3a49398272878df2b35.avif?t=1761059127\" width=512 height=560 /></span><br><ul class=\"bb_ul\"><li>Among the connected blocks there are numbers up to  1-9. The same numbers do not enter.<br></li><li>The same number can be entered for blocks interrupted by hint blocks.<br></li><li>If you put numbers in all blocks except hint block, it is clear!</li></ul>",
+        "short_description": "This pencil puzzle involves filling in the blanks with numbers 1 - 9 to match the numbers in the problem squares. Enjoy the light-hearted effects and have fun!",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Portugal, Simplified Chinese, Traditional Chinese, Japanese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/9d8380921f39c5c36d2ec8cfabb9227c7c88db5c/header.jpg?t=1761059127",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/e78ffbbd087bdd5e305b078314163ffb44bab9b8/capsule_231x87.jpg?t=1761059127",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/e78ffbbd087bdd5e305b078314163ffb44bab9b8/capsule_184x69.jpg?t=1761059127",
+        "website": "https://ruckygames.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> WIndows8/10<br></li><li><strong>Processor:</strong> 2.0GHz<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "RucKyGAMES"
+        ],
+        "publishers": [
+          "RucKyGAMES"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1370406
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Add Cross",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1370406,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "AddCross - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/7d8566010ec2e9c9f0bf825019beb06d89bccd61/ss_7d8566010ec2e9c9f0bf825019beb06d89bccd61.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/7d8566010ec2e9c9f0bf825019beb06d89bccd61/ss_7d8566010ec2e9c9f0bf825019beb06d89bccd61.1920x1080.jpg?t=1761059127"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/66718a6c55168756e2a6a5a00cc5fc8b8fac5b25/ss_66718a6c55168756e2a6a5a00cc5fc8b8fac5b25.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/66718a6c55168756e2a6a5a00cc5fc8b8fac5b25/ss_66718a6c55168756e2a6a5a00cc5fc8b8fac5b25.1920x1080.jpg?t=1761059127"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/cb058ab81d2e6d4c617c4b3e40843ab5b3dd4045/ss_cb058ab81d2e6d4c617c4b3e40843ab5b3dd4045.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/cb058ab81d2e6d4c617c4b3e40843ab5b3dd4045/ss_cb058ab81d2e6d4c617c4b3e40843ab5b3dd4045.1920x1080.jpg?t=1761059127"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/5b4bf61af09e4c70b80583d4944dd1678ef9954b/ss_5b4bf61af09e4c70b80583d4944dd1678ef9954b.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/5b4bf61af09e4c70b80583d4944dd1678ef9954b/ss_5b4bf61af09e4c70b80583d4944dd1678ef9954b.1920x1080.jpg?t=1761059127"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/2a97a16f334aa91056550958b8fbcb4dff622ab1/ss_2a97a16f334aa91056550958b8fbcb4dff622ab1.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/2a97a16f334aa91056550958b8fbcb4dff622ab1/ss_2a97a16f334aa91056550958b8fbcb4dff622ab1.1920x1080.jpg?t=1761059127"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/6ddc8a46a0c6e50b94b826fe4a7d6362baedeb92/ss_6ddc8a46a0c6e50b94b826fe4a7d6362baedeb92.600x338.jpg?t=1761059127",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/6ddc8a46a0c6e50b94b826fe4a7d6362baedeb92/ss_6ddc8a46a0c6e50b94b826fe4a7d6362baedeb92.1920x1080.jpg?t=1761059127"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257190486,
+            "name": "PV02_UI_En",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257190486/b7fdb62d103ce106c838cc6346ec8eff0344dec5/movie_600x337.jpg?t=1758032977",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3899090/462470860/7dc582aa3ef052742c500b95b3276b1332c11da9/1758011892/dash_av1.mpd?t=1758032977",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3899090/462470860/7dc582aa3ef052742c500b95b3276b1332c11da9/1758011892/dash_h264.mpd?t=1758032977",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3899090/462470860/7dc582aa3ef052742c500b95b3276b1332c11da9/1758011892/hls_264_master.m3u8?t=1758032977",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 17,
+          "highlighted": [
+            {
+              "icon": "5b1c68683feb4c4f1351d309c4bd1c9f45bd2d1f.jpg",
+              "localized_name": "Complete 1 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 1 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/5b1c68683feb4c4f1351d309c4bd1c9f45bd2d1f.jpg"
+            },
+            {
+              "icon": "77395d9fdacdb84584648977514c5fdae6762421.jpg",
+              "localized_name": "Complete 5 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 5 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/77395d9fdacdb84584648977514c5fdae6762421.jpg"
+            },
+            {
+              "icon": "b7954365540014e6e1ae6417cd31efa0dd766d35.jpg",
+              "localized_name": "Complete 10 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 10 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/b7954365540014e6e1ae6417cd31efa0dd766d35.jpg"
+            },
+            {
+              "icon": "3de5d235abafd8f857594de5f0fab81d3397e612.jpg",
+              "localized_name": "Complete 20 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 20 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/3de5d235abafd8f857594de5f0fab81d3397e612.jpg"
+            },
+            {
+              "icon": "f6106a8ea4a4e9694469421b81a0afdbf3fb7d8a.jpg",
+              "localized_name": "Complete 30 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 30 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/f6106a8ea4a4e9694469421b81a0afdbf3fb7d8a.jpg"
+            },
+            {
+              "icon": "8c35a47a67d6bc2e1a87c6e5ca90fad35a1b9d8e.jpg",
+              "localized_name": "Complete 40 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 40 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/8c35a47a67d6bc2e1a87c6e5ca90fad35a1b9d8e.jpg"
+            },
+            {
+              "icon": "a8df0d2bc646c4ded90aa49f2ce42613cdea61d5.jpg",
+              "localized_name": "Complete 50 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 50 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/a8df0d2bc646c4ded90aa49f2ce42613cdea61d5.jpg"
+            },
+            {
+              "icon": "da7b86b5a48c50e49d131c8aab0765a221dbe686.jpg",
+              "localized_name": "Complete 60 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 60 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/da7b86b5a48c50e49d131c8aab0765a221dbe686.jpg"
+            },
+            {
+              "icon": "f679552d62ca373d28e0c625e6d78ca9f8d6977c.jpg",
+              "localized_name": "Complete 70 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 70 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/f679552d62ca373d28e0c625e6d78ca9f8d6977c.jpg"
+            },
+            {
+              "icon": "0170d8aa7b359d8f1d28dfd54fb3a6f4873fbfa0.jpg",
+              "localized_name": "Complete 80 questions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Complete 80 questions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3899090/0170d8aa7b359d8f1d28dfd54fb3a6f4873fbfa0.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        },
+        "support_info": {
+          "url": "https://ruckygames.com/",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3899090?t=1761059127",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899090/da211712d5c8cc370783f6a4d28983ace0f7ef17/page_bg_raw.jpg?t=1761059127",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

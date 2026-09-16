@@ -1,0 +1,66 @@
+{
+  "appid": 3318080,
+  "requested_at": "2026-09-13T19:10:50.460782+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "206813501",
+        "author": {
+          "steamid": "76561198090921532",
+          "personaname": "xLiGht",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198090921532/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 49,
+          "last_played": 1759196657,
+          "avatar": "b93f04b9194fba8980a2dc74947d47d0087ba113"
+        },
+        "language": "german",
+        "review": "Funny game and addicting, jst needs a bit more content. \n",
+        "timestamp_created": 1760564698,
+        "timestamp_updated": 1760564698,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752253438",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB9k/eUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

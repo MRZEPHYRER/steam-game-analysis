@@ -1,0 +1,66 @@
+{
+  "appid": 3033080,
+  "requested_at": "2026-09-13T19:01:31.960503+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 17,
+      "total_negative": 0,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "213206479",
+        "author": {
+          "steamid": "76561198312213946",
+          "personaname": "Renko",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198312213946/",
+          "num_games_owned": 2482,
+          "num_reviews": 310,
+          "playtime_forever": 394,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 7,
+          "last_played": 1765666446,
+          "avatar": "409cac2c4340f9beb19f3c4f9555bc83ccdb9472"
+        },
+        "language": "schinese",
+        "review": "又一款鸡哥的抽象游戏，作为鸡哥的真爱粉，哪有不买的道理，厉不厉害你鸡哥的真爱粉",
+        "timestamp_created": 1765641577,
+        "timestamp_updated": 1765641577,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.57371222972869873",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765619851",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYhpgAAAAAFP+Jb2UAAAAB/3KitBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

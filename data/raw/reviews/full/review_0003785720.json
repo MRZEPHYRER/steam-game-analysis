@@ -1,0 +1,66 @@
+{
+  "appid": 3785720,
+  "requested_at": "2026-09-13T19:39:45.417032+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 230,
+      "total_negative": 37,
+      "total_reviews": 267
+    },
+    "reviews": [
+      {
+        "recommendationid": "205912692",
+        "author": {
+          "steamid": "76561198074216529",
+          "personaname": "雪剑",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198074216529/",
+          "num_games_owned": 223,
+          "num_reviews": 3,
+          "playtime_forever": 180,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 180,
+          "last_played": 1759632194,
+          "avatar": "dc10b7d0f6d9fc023077553c3d403bc92d084497"
+        },
+        "language": "schinese",
+        "review": "可爱的妹妹只有前两年，12岁开始演员就换了，像是快30岁一样，剧情重复还无法跳过，无聊到要睡着",
+        "timestamp_created": 1759632546,
+        "timestamp_updated": 1759632546,
+        "voted_up": false,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.668791234493255615",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753444769",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWn8qAAAAAFP+VmvGAAAAB0p7+RBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4232360,
+  "requested_at": "2026-09-13T20:27:12.844052+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 43,
+      "total_negative": 8,
+      "total_reviews": 51
+    },
+    "reviews": [
+      {
+        "recommendationid": "218839406",
+        "author": {
+          "steamid": "76561198049020554",
+          "personaname": "berzha101",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/berzha101/",
+          "num_games_owned": 4853,
+          "num_reviews": 644,
+          "playtime_forever": 160,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 160,
+          "last_played": 1771635867,
+          "avatar": "9130744dcfd7cc3f3fc4cfff50145aff87355b11"
+        },
+        "language": "english",
+        "review": "Buttons Up! is a short incremental clicker/idle game about getting buttons to unlock more buttons. The concept of the game is pretty simple, and I was able to beat one run in less than 1.5 hours (and all achievements in <3 hours). The gameplay loops is pretty interesting at first, but it does grow old kind of fast. Until you get some later upgrades, you actually do need to pretty actively playing due to potentially losing earned button values from gnomes stealing them. The prestiging in the game is also not super well done, as all it does is unlock 1 new upgrade every time (up to 4 times). However, putting those faults aside, the game is also only $1 (sub $1 on sale), and honestly I had a good time for the first 1-2 hours to justify this pricepoint.\r\n\r\nIf you are looking for a incremental idler game with deep upgrade trees and replayability, this game falls far short of that. However, if you are looking for a game that costs less than a McDonald's cheeseburger to give you an hour or two of fun... this game is for you.",
+        "timestamp_created": 1771654908,
+        "timestamp_updated": 1771654908,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.568965494632720947",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1767172256",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYnuYAAAAAFP+I09iAAAAB+lufCBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

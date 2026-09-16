@@ -1,0 +1,66 @@
+{
+  "appid": 3837030,
+  "requested_at": "2026-09-13T19:46:58.274720+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "224148196",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 668,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 668,
+          "last_played": 1777190563,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Wukong 2088, developed and published by Uto88, is a compact roguelite action game that reinterprets the legendary figure of Sun Wukong through a futuristic, cyberpunk framework. Instead of leaning on traditional mythology, it imagines a world shaped by technology and conflict, where the spirit of Wukong exists as a force within a dystopian setting. This fusion of ancient inspiration and sci-fi aesthetics gives the game a distinctive premise, even if the experience itself remains grounded in familiar genre conventions.\n\nThe gameplay centers on survival within enclosed arenas, where enemies appear in increasing numbers and pressure builds quickly. Viewed from a top-down perspective, the player must constantly move, attack, and manage positioning to avoid being overwhelmed. The core loop is immediate and easy to understand, making it accessible from the start. Enemies approach from all directions, forcing players to balance offense with evasion, and as each run progresses, the intensity escalates to the point where awareness and quick reactions become essential. The challenge is not about navigating complex systems but about maintaining control in a constantly shifting situation.\n\nProgression during a run is driven by a series of upgrades that enhance the player’s abilities. Defeating enemies allows players to choose improvements that affect damage output, defensive capabilities, or how attacks behave. These choices provide some variation between runs, encouraging players to experiment with different combinations. However, the range of possibilities is relatively limited, and while builds can differ slightly, they rarely change the overall approach to combat. The experience remains focused on survival and repetition rather than on discovering entirely new playstyles.\n\nThe game’s thematic design is one of its more interesting elements. By blending mythological references with a futuristic setting, it creates a tone that feels different from more conventional roguelites. Enemies are presented as mechanical or technologically enhanced forces, reinforcing the contrast between the legendary inspiration behind the protagonist and the artificial world they inhabit. Despite this, the narrative itself is minimal and largely implied, serving more as background context than as a driving force. The game does not explore its setting in depth, leaving much of its potential untapped.\n\nVisually, Wukong 2088 adopts a neon-infused aesthetic that aligns with its cyberpunk theme. Effects are bright and often striking, helping to distinguish attacks and enemies during chaotic moments. At the same time, the environments are relatively simple and do not offer much variety, functioning mainly as backdrops for the action. The presentation is clear and functional, ensuring that gameplay remains readable, but it lacks the detail and polish that might make it more memorable.\n\nOne of the main challenges the game faces is its limited scope. While the core loop is engaging in short sessions, it does not evolve significantly over time. Enemy types, upgrade options, and overall structure remain consistent, which can lead to repetition once players become familiar with the mechanics. Without additional systems or modes to expand the experience, long-term engagement depends largely on the player’s interest in refining their performance rather than exploring new content.\n\nDespite these limitations, the game succeeds in delivering a straightforward and fast-paced action experience. Its simplicity allows players to jump in quickly and enjoy the core mechanics without needing to invest time in learning complex systems. For those who appreciate quick, repeatable runs and reflex-driven gameplay, it offers a consistent and accessible form of entertainment.\n\nIn the end, Wukong 2088 is a focused roguelite that combines an intriguing thematic concept with a familiar gameplay structure. It provides moments of intensity and satisfaction through its fast-paced combat, but its lack of depth and variety prevents it from reaching a higher level of engagement. It stands as a modest but enjoyable title that works best in short bursts rather than as a long-term experience.\n\nRating: 6/10",
+        "timestamp_created": 1777215991,
+        "timestamp_updated": 1777215991,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.506329119205474854",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760967283",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZ35iAAAAAFP+Az2OAAAAB0rofXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

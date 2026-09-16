@@ -1,0 +1,66 @@
+{
+  "appid": 3014460,
+  "requested_at": "2026-09-13T19:00:55.788918+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "205112672",
+        "author": {
+          "steamid": "76561198025764277",
+          "personaname": "V",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/graceless_vi/",
+          "num_games_owned": 352,
+          "num_reviews": 55,
+          "playtime_forever": 551,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 158,
+          "last_played": 1778132138,
+          "avatar": "aa41b66a005534fd4cf54bae06e970b80f94fba3"
+        },
+        "language": "english",
+        "review": "What a wonderful surprise to have [i]Raptor[/i], I mean [i]Azrael's Tear[/i], back. This first-person adventure feels as if it were carved from a 500-year-old log of charred wood, dredged up one day from a haunted bog.\n\nBe sure to make use of the DOSBox remapping feature (CTRL + F1), strafing originally is on the , and . keys, F10 inverts the camera.",
+        "timestamp_created": 1758737955,
+        "timestamp_updated": 1777470245,
+        "voted_up": true,
+        "votes_up": 50,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.823506355285644531",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752244986",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVh6YAAAAAFP+paKUAAAABw1riOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.905999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3424920,
+  "requested_at": "2026-09-13T19:15:00.246981+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 34,
+      "total_negative": 17,
+      "total_reviews": 51
+    },
+    "reviews": [
+      {
+        "recommendationid": "231564874",
+        "author": {
+          "steamid": "76561198751946296",
+          "personaname": "373231539",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198751946296/",
+          "num_games_owned": 8,
+          "num_reviews": 1,
+          "playtime_forever": 1267,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1267,
+          "last_played": 1781790477,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "该游戏内容体验极少，一共三个关卡，不到三小时即可全部通关，且该游戏在Taptap上有免费的试玩版，试玩版仅仅比正式版少两个关卡而已，且作者一直未更新后续，是的，如你所见，开发者搞了个半成品就丢STEAM上来骗钱了，然后不管不顾，不闻不问。\r\n个人建议大家可以在手机上玩试玩版，然后来steam下载，玩两小时通关，再申请退款。\r\n该游戏25年发布至今已经有接近一年未有任何动态了，游戏开发者正在做别的游戏，大概率已经放弃这款游戏了\r\n所以，朋友，对于这种态度的游戏开发者，白嫖就已经很给他面子了。",
+        "timestamp_created": 1785299427,
+        "timestamp_updated": 1785299427,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.557046949863433838",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752757277",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY2+uAAAAAFP+HTVEAAAAB65KzzBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.282000000000153,
+  "transport_error_count": 0
+}

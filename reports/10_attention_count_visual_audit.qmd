@@ -1,0 +1,187 @@
+---
+title: "Step 6B 正评论数强度：可视化审计"
+subtitle: "Positive review-count hurdle stage；候选模型尚未冻结"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+data_dir <- file.path("..", "data", "analysis", "attention")
+figure_dir <- file.path("..", "figures", "attention")
+read_6b <- function(name) read.csv(file.path(data_dir, name),
+  stringsAsFactors = FALSE, check.names = FALSE, encoding = "UTF-8")
+sample <- read_6b("step6b_model_sample_audit.csv")
+distribution <- read_6b("step6b_count_distribution.csv")
+bins <- read_6b("step6b_review_count_bins.csv")
+concentration <- read_6b("step6b_concentration.csv")
+model <- read_6b("step6b_model_comparison.csv")
+poisson <- read_6b("step6b_poisson_diagnostics.csv")
+exposure <- read_6b("step6b_exposure_audit.csv")
+basis <- read_6b("step6b_price_basis_definition.csv")
+contrasts <- read_6b("step6b_probability_count_contrasts.csv")
+fit_bins <- read_6b("step6b_observed_expected_bins.csv")
+residual <- read_6b("step6b_residual_diagnostics.csv")
+tail <- read_6b("step6b_tail_sensitivity.csv")
+coef_tail <- read_6b("step6b_coefficient_sensitivity.csv")
+price_tail <- read_6b("step6b_price_curve_sensitivity.csv")
+functional <- read_6b("step6b_functional_sensitivity.csv")
+free <- read_6b("step6b_free_summary.csv")
+platform <- read_6b("step6b_platform_summary.csv")
+genre <- read_6b("step6b_genre_summary.csv")
+criteria <- read_6b("step6b_freeze_criteria.csv")
+decision <- read_6b("step6b_stage_decision.csv")
+stopifnot(sample$positive_n == 2241, sample$model_n == 2240,
+  sample$positive_free_n == 34, all(model$n_games == 2240),
+  decision$positive_count_model_frozen == FALSE)
+```
+
+# 分析目的与 hurdle 结构
+
+Step 6A 估计游戏能否获得至少一条评论的概率 $P(Y>0)$。本页只审计 Step 6B：在已有评论的游戏中，评论数的条件期望 $E(Y\mid Y>0)$。零评论游戏不进入本轮计数拟合。评论数并非销量、拥有者数或收入；下述关系均为条件关联，不作因果解释。
+
+# 正评论样本
+
+```{r}
+knitr::kable(sample, digits = 0, caption = "市场、正评论总体与同样本模型")
+knitr::kable(free, digits = 2, caption = "免费与付费游戏的正评论数")
+```
+
+2,241 个游戏已有评论；34 个为免费游戏。模型 N=2,240，仅排除一款付费但缺失现价的游戏。免费游戏无付费价格，样条分量设为零，但 `is_free` 保留。
+
+# 评论数分布
+
+```{r}
+knitr::kable(distribution, digits = 2, caption = "正评论数分布")
+knitr::kable(bins, digits = 2, caption = "正评论数分组")
+```
+
+# 长尾与集中度
+
+```{r}
+knitr::kable(concentration, digits = 4, caption = "Review-volume concentration")
+knitr::include_graphics(file.path(figure_dir, "58_tail_concentration.png"))
+```
+
+人工审计重点：头部单款游戏占比是否足以改变模型方向？Top 1%、5%、10% 的集中程度应与后面的删尾敏感性合看，而非直接把头部游戏视为错误值。
+
+# Poisson 基准
+
+```{r}
+knitr::kable(poisson, digits = 2, caption = "Poisson 离散度")
+knitr::include_graphics(file.path(figure_dir, "56_poisson_vs_nb_fit.png"))
+```
+
+人工审计重点：Pearson dispersion 是否远大于 1？Poisson 在此仅是基准；极端过度离散时，不可把它的标准误和推断作为最终证据。
+
+# 普通 NB2 与零截断 NB2
+
+```{r}
+knitr::kable(model[, c("model_id", "n_games", "log_likelihood", "aic", "bic",
+  "theta", "converged", "full_likelihood_constants_verified")], digits = 5,
+  caption = "同一样本的三种计数 likelihood")
+```
+
+普通 NB2 允许零值，尽管本轮观察样本只有正数。零截断 NB2 对 $Y>0$ 条件化，更符合 hurdle 第二部分。已用逐行密度独立核对软件 likelihood 常数。不过，零截断模型的离散参数靠近零边界，不能仅凭 AIC 最低就冻结。
+
+# 上市天数与 exposure 规格
+
+```{r}
+knitr::kable(exposure, digits = 4, caption = "log-days、严格 offset 与非线性 log-days")
+knitr::include_graphics(file.path(figure_dir, "54_review_count_exposure_curve.png"))
+```
+
+人工审计重点：log-days 斜率与 1 是否明显不同？严格 offset 的线性累积假设是否合理？三种规格 AIC 差距较小，不应宣称持续评论到达率真正恒定。
+
+# 付费价格非线性
+
+```{r}
+knitr::kable(basis, digits = 4, caption = "基于正评论付费样本重新冻结的 df=3 样条")
+knitr::kable(functional, digits = 3, caption = "df4 与 release-month 敏感性")
+knitr::include_graphics(file.path(figure_dir, "53_review_count_price_curve.png"))
+```
+
+人工审计重点：价格曲线在 5%–95% 中央支持内如何变化？高价尾部是否样本稀疏？df4 明显改善 AIC，提示 df3 的形状尚不能冻结。样条系数本身不作逐项解释。
+
+# 代表性条件预测
+
+```{r}
+knitr::kable(contrasts, digits = 3, caption = "候选零截断 NB2 的代表性正评论数对比")
+```
+
+这些数值仅是未冻结模型的条件预测，尤其价格对比在头部敏感性下不稳定。非 offset 模型应称 expected-count ratio；若采用 offset，才可称 review-rate ratio。零截断后条件均值比也不等同于简单的潜在 NB 均值系数指数。
+
+# 原始平台、题材与免费游戏
+
+```{r}
+knitr::kable(platform, digits = 2, caption = "平台正评论数原始分布")
+knitr::include_graphics(file.path(figure_dir, "61_platform_review_volume.png"))
+```
+
+人工审计重点：平台组的头部极值与组内样本量是否主导均值？
+
+```{r}
+knitr::kable(genre[, c("genre", "n_games", "median_count", "mean_count", "p95_count")],
+  digits = 2, caption = "题材正评论数原始分布；题材可重叠")
+knitr::include_graphics(file.path(figure_dir, "62_genre_review_volume.png"))
+```
+
+人工审计重点：题材重叠，原始均值不是互斥组比较；免费游戏仅 34 款，`is_free` 的不确定性应特别谨慎。
+
+# 正评论数拟合与残差
+
+```{r}
+knitr::kable(fit_bins, digits = 2, caption = "观察与零截断 NB2 期望的游戏数")
+knitr::include_graphics(file.path(figure_dir, "55_count_rootogram.png"))
+```
+
+人工审计重点：低计数、中段和 1000+ 尾部是否系统偏离？当前若干分组偏差明显。
+
+```{r}
+knitr::kable(residual, digits = 3, caption = "条件 Pearson 残差与矩")
+knitr::include_graphics(file.path(figure_dir, "57_nb_residual_diagnostics.png"))
+```
+
+人工审计重点：是否有特别大的正残差与方差低估？`DHARMa` 未安装，故未运行模拟残差测试；不把缺失测试写成通过。
+
+# 头部影响敏感性
+
+```{r}
+knitr::kable(tail, digits = 4, caption = "保留完整样本与删去头部的敏感性")
+knitr::include_graphics(file.path(figure_dir, "59_tail_sensitivity_coefficients.png"))
+```
+
+人工审计重点：删去最高一款、Top 1%、Top 5% 后，非样条系数是否反向或大幅移动？头部游戏没有被从主分析删除。
+
+# 价格曲线敏感性
+
+```{r}
+knitr::kable(price_tail, digits = 3, caption = "中央价格支持内的预测漂移")
+knitr::include_graphics(file.path(figure_dir, "60_price_curve_tail_sensitivity.png"))
+```
+
+人工审计重点：中央价格区间内的曲线在删尾后是否仍保持形状？目前差异足以阻止冻结，不应把高价端曲线当成最优价格。
+
+# Hurdle 解释
+
+```{r}
+knitr::include_graphics(file.path(figure_dir, "63_hurdle_decomposition.png"))
+```
+
+此图只展示原始样本恒等式：$E(Y)=P(Y>0)E(Y\mid Y>0)$，不是两个已冻结模型的联合预测。不得把 Step 6A 的 log-odds 系数与本轮 log-count 系数直接比较。
+
+# 人工审计清单与冻结决定
+
+```{r}
+knitr::kable(criteria, caption = "十项冻结门槛")
+knitr::kable(decision, caption = "Step 6B 判定")
+```
+
+结论：本轮完成了正评论数强度审计，但零截断 NB2 仅为候选模型。头部集中、删尾漂移、df4 价格规格改善，以及计数分组残差共同阻止冻结。数据库未修改；暂停后续 Step 6C 与任何复杂机器学习。

@@ -1,0 +1,66 @@
+{
+  "appid": 2920510,
+  "requested_at": "2026-09-13T18:58:55.786420+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 50,
+      "total_negative": 6,
+      "total_reviews": 56
+    },
+    "reviews": [
+      {
+        "recommendationid": "230010029",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 637,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 637,
+          "last_played": 1783584844,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Werewolf Party is a multiplayer social deduction experience developed and published by Absam Studios that takes the familiar rules of the classic Werewolf party game and transforms them into an interactive first-person adventure. Instead of relying solely on text or menu-driven discussions, players physically navigate a lively medieval village, communicate through proximity voice chat, and use observation as their greatest weapon. Every session revolves around deception, trust, and deduction, but the immersive setting makes every accusation and every suspicious movement feel much more personal. The game's approach successfully captures the excitement of gathering around a table with friends while adding environmental interaction that gives each round its own memorable story.\n\nThe foundation of the gameplay is built around two opposing factions: the villagers and the werewolves. However, the game goes far beyond a simple good-versus-evil setup by introducing a wide selection of specialized roles. Each character possesses unique abilities that influence investigations, protection, sabotage, or survival, ensuring that every match unfolds differently. Villagers can gather valuable information through roles like the Seer, defend teammates with the Guard, heal or poison through the Witch, or manipulate situations using several other distinctive classes. Meanwhile, the werewolf team receives its own strategic variety through characters that create unexpected complications, making it difficult for the innocent side to identify the true threat. Since identities are randomly assigned every game, players are encouraged to adapt rather than rely on repetitive strategies.\n\nMatches alternate between daytime investigation and nighttime action, creating a satisfying rhythm that steadily builds tension. During the day, everyone is free to explore the village, hold conversations, form alliances, and accuse suspicious individuals before gathering for a public vote. Once darkness falls, every special role secretly performs its ability before the werewolf begins its hunt. This cycle creates a constant sense of uncertainty because every morning introduces new clues, missing players, and fresh theories. Voting itself becomes a dramatic event rather than a simple interface selection, reinforcing the social atmosphere and encouraging players to carefully defend themselves before facing possible execution.\n\nOne of the game's most refreshing features is the amount of interaction available outside the core deduction mechanics. The village contains numerous activities and mini-games that reward players with Lycan Coins while providing entertaining distractions between discussions. These include physical challenges, carnival-style games, and other interactive tasks that make exploration worthwhile. More importantly, these activities naturally create opportunities for suspicious behavior, allowing observant players to gather subtle evidence without relying exclusively on spoken conversations. The environment itself becomes another source of information, adding depth to every investigation.\n\nAdditional systems further strengthen the overall experience. Eliminated players are not forced to simply wait for the next round, as Ghost Mode allows them to continue exploring the map alongside other spirits. This helps keep everyone engaged even after being removed from active play. The Night Altar introduces another layer of strategy by giving players an alternative method of dealing with the werewolf under the proper circumstances, preventing matches from becoming overly dependent on voting alone. These mechanics demonstrate thoughtful design choices that keep gameplay varied while reducing the frustration commonly associated with early elimination in social deduction games.\n\nFrom a presentation standpoint, Werewolf Party embraces a colorful medieval visual style that favors atmosphere and readability over photorealism. The village is detailed enough to encourage exploration without becoming confusing, and its various buildings, gathering spots, and landmarks make communication easier during tense discussions. Sound design deserves particular recognition because proximity voice chat becomes one of the game's defining features. Conversations overheard from nearby players, whispered plans, nervous reactions, and panicked accusations all contribute to the illusion of participating in a genuine village mystery rather than simply playing another online multiplayer title.\n\nThe game naturally shines brightest with a full group of friends who are willing to communicate and embrace the role-playing aspects of each match. Public sessions can still provide entertaining moments, but coordinated groups are far more likely to create the dramatic betrayals, clever bluffs, and humorous misunderstandings that define the experience. New players may need time to learn every role and special mechanic, yet the gradual discovery of different character abilities gives the game excellent replay value and keeps returning matches feeling fresh.\n\nOverall, Werewolf Party successfully expands the traditional social deduction formula by combining immersive first-person exploration, a large roster of unique roles, enjoyable side activities, and creative multiplayer systems into a cohesive package. Its strongest qualities come from encouraging genuine player interaction instead of relying solely on scripted mechanics, making every match feel like a unique story shaped by the personalities of those participating. While the experience depends heavily on maintaining an active player community and benefits most from voice communication, it offers an engaging and highly replayable interpretation of a beloved party game concept. Fans of deception-based multiplayer games who enjoy reading people as much as mastering mechanics will find plenty of reasons to return for another round.\n\nRating: 8/10",
+        "timestamp_created": 1783585761,
+        "timestamp_updated": 1783585761,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.517241418361663818",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1717775619",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZp7oAAAAAFP+CNPQAAAAB9yrXtBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

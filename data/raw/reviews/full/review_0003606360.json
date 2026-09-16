@@ -1,0 +1,66 @@
+{
+  "appid": 3606360,
+  "requested_at": "2026-09-13T19:25:34.917830+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 24,
+      "total_negative": 14,
+      "total_reviews": 38
+    },
+    "reviews": [
+      {
+        "recommendationid": "207841873",
+        "author": {
+          "steamid": "76561198290067883",
+          "personaname": "共产之后杀你全家",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198290067883/",
+          "num_games_owned": 462,
+          "num_reviews": 14,
+          "playtime_forever": 100,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 48,
+          "last_played": 1776343055,
+          "avatar": "4dd5dc1ee527ec133cd0df50d8d87886ce4bbf75"
+        },
+        "language": "schinese",
+        "review": "不建议为了NTR题材的来买，H内容实用度勉强及格但是剧情实在是一言难尽。\n既然要搞NTR，那男女主的感情自然要有铺垫吧？女主的堕落要有过程吧？这方面的剧情实在跳的太快让人感觉像在看短篇H漫。我宁愿不要出那么多分支配角，只有一条线但是剧情要好好写。我玩NTR游戏是看女主变成母狗的过程的，不是让你告诉我这世上的女人都是随便母狗的。\n画风也略奇特，立绘是一套表情，而CG是另外一套表情，反差感太强了，虽然我能接受但是别的人恐怕接受不了。\n总之，如果你是追求NTR而来，那我是不建议你买这个的。",
+        "timestamp_created": 1761704672,
+        "timestamp_updated": 1761704672,
+        "voted_up": false,
+        "votes_up": 37,
+        "votes_funny": 6,
+        "weighted_vote_score": "0.790819168090820312",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759550409",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWLwIAAAAAFP+lOY6AAAABxpe2YBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

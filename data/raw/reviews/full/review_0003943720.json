@@ -1,0 +1,71 @@
+{
+  "appid": 3943720,
+  "requested_at": "2026-09-13T20:03:39.829337+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 23,
+      "total_negative": 14,
+      "total_reviews": 37
+    },
+    "reviews": [
+      {
+        "recommendationid": "229448156",
+        "author": {
+          "steamid": "76561198870087204",
+          "personaname": "ulle   𓇢𓆸",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/avielena/",
+          "num_games_owned": 1520,
+          "num_reviews": 101,
+          "playtime_forever": 91,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 91,
+          "last_played": 1783024490,
+          "avatar": "76192dac2e783a84e46b23e6713b87dd8995a87f"
+        },
+        "language": "english",
+        "review": "This is definitely a cozy, chill game, but there is just... not much to do? \nCustomer interactions are painfully slow, the decoration options are pretty limited, and you buy random boxes of books only to keep getting the same ones over and over again. There is also very little sorting or management to keep you engaged as well, super sad cus i love that part the most lol. \n\nIt is not a terrible game? But also just cant recommend it. \nIt feels like it's missing a lot of content.. After one hour i was already bored sadly.",
+        "timestamp_created": 1783025892,
+        "timestamp_updated": 1783025892,
+        "voted_up": false,
+        "votes_up": 25,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.770570635795593262",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761202709",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUlq0AAAAAFP+iohIAAAAB8naPrBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.17200000000048,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3513000,
+  "requested_at": "2026-09-13T19:19:57.123421+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 60,
+      "total_negative": 7,
+      "total_reviews": 67
+    },
+    "reviews": [
+      {
+        "recommendationid": "206486978",
+        "author": {
+          "steamid": "76561198919111547",
+          "personaname": "sailorthais ♡",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/moonrise18/",
+          "num_games_owned": 0,
+          "num_reviews": 51,
+          "playtime_forever": 183,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1761404552,
+          "avatar": "eee27a82526742b27c509830155be9f901f97984"
+        },
+        "language": "brazilian",
+        "review": "O jogo é promissor, só não gostei muito porque não dá para mudar cabelo, cor de pele, olhos e outras caracteristicas da personagem que são essenciais para a imersão. Gostei que a arte foi feita a mão inspirada no studio ghibli. Os tutoriais não são muito claros, então tem coisas que ainda não entendi.\n\nEu não achei ele muito eficiente como jogo para foco, porque sempre o jogo te incentiva a fazer algo no proprio jogo e isso me distraiu muito kkkkkkkkk mas pelo preço, um jogo feito a mão, vale muito a pena.",
+        "timestamp_created": 1760218975,
+        "timestamp_updated": 1760219143,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.639737963676452637",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759942108",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXNIqAAAAAFP+R4u+AAAABy3NeTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.6869999999998981,
+  "transport_error_count": 0
+}

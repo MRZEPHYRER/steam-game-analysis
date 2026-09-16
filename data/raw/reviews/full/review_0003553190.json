@@ -1,0 +1,73 @@
+{
+  "appid": 3553190,
+  "requested_at": "2026-09-13T19:22:06.437143+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 7,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "215279412",
+        "author": {
+          "steamid": "76561199026484528",
+          "personaname": "ToXIcDeVil",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199026484528/",
+          "num_games_owned": 118,
+          "num_reviews": 40,
+          "playtime_forever": 25,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 25,
+          "last_played": 1767664681,
+          "avatar": "236caf4df5cd405840c6f01ca849e8bd345fb90e"
+        },
+        "language": "english",
+        "review": "Got this game for 2.75 discount and its not even worth that, and 13$ is outrageous and here is why!\n1. It is not Fun\n2.Gunplay feel like your shooting a airsoft Gun, no modifications except imbue, no attachments\n3. most Gun bloom is insane, you have to semi it to hit something mid range\n4. imbuing guns with effects just gives your weapon a ok skin( dosen't even change how its shoots for Ex: fire stone on AR should make it shoot explosive shot, It dosen't)\n5. Dialogue is ass\n6, it is not a good roguelike their is nothing there just a few guns you can buy that's all. no Ability's no modifiers(from where i left off, to boring to continue.)\n7.same loop\n8.Goddess look like unity assets/low quality\n9.Demon minion is ♥♥♥♥♥♥♥ ass that's were i stopped\n10.No Gex! (Jk)\n\nNow to the good points \n\n1. Ok looking bosses and attacks, after Demon minion ♥♥♥♥♥",
+        "timestamp_created": 1767665951,
+        "timestamp_updated": 1767665951,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.574932873249053955",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1774118517,
+        "developer_response": "Hi!\nThe game has been updated, and in the latest patch we introduced a number of changes directly based on player feedback.\n\nThank you for your feedback - even if it’s very critical, it helps us see where the game is not meeting expectations.\n\nWe understand that earlier versions may have felt too shallow in terms of progression, variety, and combat feel. These were exactly the areas we focused on in the latest update. We expanded gameplay systems, added new weapons and enemies, and introduced changes that give players more control and impact during combat.\n\nThanks as well for pointing out the elements you liked. If you decide to come back and check the current version, we’d be happy to hear your thoughts.\n",
+        "app_release_date": "1753459734",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYgFgAAAAAFP+Jl2eAAAAB085y1Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

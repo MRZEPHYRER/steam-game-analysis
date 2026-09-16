@@ -1,0 +1,66 @@
+{
+  "appid": 2871820,
+  "requested_at": "2026-09-13T18:57:28.783334+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 6,
+      "total_reviews": 45
+    },
+    "reviews": [
+      {
+        "recommendationid": "214921141",
+        "author": {
+          "steamid": "76561197997678124",
+          "personaname": "fragkitten",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/therealfragkitten/",
+          "num_games_owned": 1960,
+          "num_reviews": 521,
+          "playtime_forever": 61,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "last_played": 1767366532,
+          "avatar": "272ffef991d4a9310249af4ae52f2a4ded261700"
+        },
+        "language": "english",
+        "review": "I wanted to like this. Cheap indie horror games are my wheelhouse. But this wasn't very fun to play. \n\nThe atmosphere is great! The ghost woman is super creepy and the constant chomping sound is actually terrifying. \n\nBut!! I tried to follow the arrows as the game instructed but only saw one, so I had no idea where to go. I tried finding different lights to stand in, but the ghost would just materialize in front of me and chase me away...\n\nThe path between the streetlights needs to be clearer for the player if you want to keep them engaged and avoid refunds. As it stands, I'm not interested enough to solve the maze if there is no clear way to navigate it and the AI for the ghost is constantly spawning in front of me. \n\nNot for me. </3",
+        "timestamp_created": 1767363905,
+        "timestamp_updated": 1767363905,
+        "voted_up": false,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.575892865657806396",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763197238",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYe22AAAAAFP+JttyAAAAB1++2zBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0160000000000764,
+  "transport_error_count": 0
+}

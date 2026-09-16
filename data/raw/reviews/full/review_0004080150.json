@@ -1,0 +1,66 @@
+{
+  "appid": 4080150,
+  "requested_at": "2026-09-13T20:17:47.361704+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "228554432",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 651,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 651,
+          "last_played": 1782116117,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Y.E.L.L. is a multiplayer party game that fully embraces chaos by turning one of the most natural human reactions—shouting—into its central gameplay mechanic. Developed by Y.E.L.L. Crew and published by Seraum Games, the title sets itself apart from traditional arena brawlers by requiring players to use their voices as a primary method of control. Rather than relying solely on quick button inputs and mechanical precision, the game encourages players to make noise, yell commands, and create vocal mayhem while competing in fast-paced matches. The result is a highly unconventional experience that immediately stands out among modern multiplayer releases.\n\nThe game's biggest strength lies in its commitment to its unusual concept. Voice-controlled gameplay is not treated as a simple gimmick but as the foundation of every match. Players control quirky animal fighters through sound, creating battles that are often unpredictable and hilarious. The louder and more expressive participants become, the more entertaining the experience tends to be. This design transforms ordinary matches into energetic social events where laughter and unexpected moments are often more memorable than victory itself. It is the kind of game that thrives on group interaction and works best when everyone is willing to embrace the absurdity.\n\nAdding to the charm is a roster of eccentric animal characters that perfectly match the game's comedic tone. Whether playing as a pug, goat, dodo, or pigeon, players are presented with characters that are intentionally silly rather than heroic. Their exaggerated animations and playful designs contribute to a lighthearted atmosphere that never takes itself too seriously. The focus is clearly on fun and accessibility, allowing players of different skill levels to jump in without feeling overwhelmed by complicated mechanics or extensive learning curves.\n\nThe arenas themselves are designed to support this philosophy. Instead of emphasizing strict competitive balance, the environments introduce a variety of chaotic situations that keep matches lively and unpredictable. Explosions, hazards, and unexpected interactions ensure that no two rounds feel exactly the same. This unpredictability works particularly well with the voice-control system, as players are constantly adapting to both environmental challenges and the often-uncontrollable reactions of their opponents. The combination creates a style of gameplay that feels spontaneous and entertaining even when things do not go according to plan.\n\nMultiplayer is undoubtedly the heart of the experience. While the inclusion of AI opponents provides an alternative for solo sessions, the game reaches its full potential when played with friends. Hearing a room—or a voice chat session—filled with players shouting instructions, reacting to mistakes, and celebrating victories adds a unique layer of entertainment that traditional multiplayer games cannot easily replicate. The social aspect becomes just as important as the gameplay itself, making Y.E.L.L. particularly appealing for parties, casual gatherings, and online game nights.\n\nVisually, the game adopts a colorful cartoon presentation that complements its playful identity. The art style favors personality over realism, using bright environments and expressive character designs to maintain an inviting atmosphere. While it does not aim for cutting-edge graphical fidelity, the visuals effectively communicate the game's humorous nature and help keep the action easy to follow during the most frantic moments.\n\nHowever, the game's heavy reliance on its central gimmick may limit its long-term appeal for some players. Those looking for deep competitive systems, extensive progression mechanics, or a large amount of content may find the experience somewhat narrow after repeated sessions. Because voice interaction is such a crucial part of the gameplay, enjoyment depends heavily on a player's willingness to participate actively and embrace the noise-driven mechanics. Players seeking a more traditional competitive experience may not connect with the concept as strongly.\n\nDespite this limitation, Y.E.L.L. succeeds in delivering a genuinely fresh and memorable multiplayer experience. It takes a simple idea and commits to it wholeheartedly, resulting in a game that prioritizes laughter, social interaction, and pure unpredictability. The combination of voice-controlled combat, amusing animal characters, and chaotic arenas creates an experience unlike most games currently available in the genre. For players searching for a party game that values fun and spontaneity above all else, Y.E.L.L. offers a distinctive and entertaining package that is difficult to forget.\n\nRating: 6/10",
+        "timestamp_created": 1782118476,
+        "timestamp_updated": 1782118476,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764338911",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAABw7O7nBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

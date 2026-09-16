@@ -1,0 +1,201 @@
+{
+  "requested_at": "2026-09-13T06:36:47.433178+00:00",
+  "request_params": {
+    "appids": 4045300,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4045300,
+  "payload": {
+    "4045300": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Trolling Adventure",
+        "steam_appid": 4045300,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Troll Adventures is a hilarious and unconventional puzzle game created by the trolls for the trolls. Get ready to embark on a wacky journey around the world filled with mind-bending challenges. Your goal is to navigate through each level, avoiding falling victim to the antics of a mischievous laughing face, and ultimately unlocking the next riddle. Do you have the intelligence and quirkiness required to solve every level and outsmart the king of pranks?</p><p class=\"bb_paragraph\" >In each level of The Trolling Adventure, you'll be presented with a unique and often absurd situation that requires your problem-solving skills. Carefully examine every detail on the screen, no matter how bizarre, to uncover a way out of these seemingly hopeless predicaments. Just remember not to let the game's peculiar sense of humor throw you off course!</p><p class=\"bb_paragraph\" >The Trolling Adventure is a test of your wit and ability to think outside the box. Can you conquer the unpredictable challenges and come out on top? Find out just how clever and unconventional you can be with this entertaining and laugh-out-loud funny game.</p><h2 class=\"bb_tag\" ><strong>Controls:</strong></h2><p class=\"bb_paragraph\" >Mouse</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Troll Adventures is a hilarious and unconventional puzzle game created by the trolls for the trolls. Get ready to embark on a wacky journey around the world filled with mind-bending challenges. Your goal is to navigate through each level, avoiding falling victim to the antics of a mischievous laughing face, and ultimately unlocking the next riddle. Do you have the intelligence and quirkiness required to solve every level and outsmart the king of pranks?</p><p class=\"bb_paragraph\" >In each level of The Trolling Adventure, you'll be presented with a unique and often absurd situation that requires your problem-solving skills. Carefully examine every detail on the screen, no matter how bizarre, to uncover a way out of these seemingly hopeless predicaments. Just remember not to let the game's peculiar sense of humor throw you off course!</p><p class=\"bb_paragraph\" >The Trolling Adventure is a test of your wit and ability to think outside the box. Can you conquer the unpredictable challenges and come out on top? Find out just how clever and unconventional you can be with this entertaining and laugh-out-loud funny game.</p><h2 class=\"bb_tag\" ><strong>Controls:</strong></h2><p class=\"bb_paragraph\" >Mouse</p>",
+        "short_description": "Troll Adventures is a hilarious and unconventional puzzle game created by the trolls for the trolls. Get ready to embark on a wacky journey around the world filled with mind-bending challenges.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/8935616253cff10bf990eeb16e425ef7a8a8931d/header.jpg?t=1766051114",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/dbcb62c0683acc777813291c43eb17545c0b8a50/capsule_231x87.jpg?t=1766051114",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/dbcb62c0683acc777813291c43eb17545c0b8a50/capsule_184x69.jpg?t=1766051114",
+        "website": "https://x.com/KeyjokerGames",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8/10/11<br></li><li><strong>Processor:</strong> Intel Pentium g5420 / AMD FX 4300 or higher<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GTX 650 or higher<br></li><li><strong>Storage:</strong> 512 MB available space<br></li><li><strong>Sound Card:</strong> Standard sound card</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8/10/11<br></li><li><strong>Processor:</strong> Intel Core i3 / AMD Ryzen 3 Series or higher<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GTX 1050 or higher<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Sound Card:</strong> Standard sound card</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Keyjoker Games"
+        ],
+        "publishers": [
+          "Keyjoker Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1418868
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Trolling Adventure",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1418868,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Trolling Adventures - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/1fb177b577137538ac3e4d5f2dde5109d69af705/ss_1fb177b577137538ac3e4d5f2dde5109d69af705.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/1fb177b577137538ac3e4d5f2dde5109d69af705/ss_1fb177b577137538ac3e4d5f2dde5109d69af705.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/db17ba3345ec2c757391bf0c92939b173f228d0f/ss_db17ba3345ec2c757391bf0c92939b173f228d0f.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/db17ba3345ec2c757391bf0c92939b173f228d0f/ss_db17ba3345ec2c757391bf0c92939b173f228d0f.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/6e65f7ebe572999a0090710a7cf58e947d391ca2/ss_6e65f7ebe572999a0090710a7cf58e947d391ca2.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/6e65f7ebe572999a0090710a7cf58e947d391ca2/ss_6e65f7ebe572999a0090710a7cf58e947d391ca2.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/c5d961f0adac49b50b4f05312d01d810f41bc8ac/ss_c5d961f0adac49b50b4f05312d01d810f41bc8ac.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/c5d961f0adac49b50b4f05312d01d810f41bc8ac/ss_c5d961f0adac49b50b4f05312d01d810f41bc8ac.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/afba930af6c6fc7767aa4e77f809b06c978fdb9e/ss_afba930af6c6fc7767aa4e77f809b06c978fdb9e.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/afba930af6c6fc7767aa4e77f809b06c978fdb9e/ss_afba930af6c6fc7767aa4e77f809b06c978fdb9e.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/fa27632b13815369a9648eaf1ed00197ab832c28/ss_fa27632b13815369a9648eaf1ed00197ab832c28.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/fa27632b13815369a9648eaf1ed00197ab832c28/ss_fa27632b13815369a9648eaf1ed00197ab832c28.1920x1080.jpg?t=1766051114"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/7ea9f4a121c9dde4469d54aa7caaa3dfee84a675/ss_7ea9f4a121c9dde4469d54aa7caaa3dfee84a675.600x338.jpg?t=1766051114",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045300/7ea9f4a121c9dde4469d54aa7caaa3dfee84a675/ss_7ea9f4a121c9dde4469d54aa7caaa3dfee84a675.1920x1080.jpg?t=1766051114"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257201078,
+            "name": "The Trolling Adventures Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257201078/c132868ed84870f9b9df1e62189b5d0b36c1cae9/movie_600x337.jpg?t=1758612584",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4045300/1825998176/57b5cfda777115df54574504161c1f50e6ccbfca/1758191699/dash_av1.mpd?t=1758612584",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4045300/1825998176/57b5cfda777115df54574504161c1f50e6ccbfca/1758191699/dash_h264.mpd?t=1758612584",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4045300/1825998176/57b5cfda777115df54574504161c1f50e6ccbfca/1758191699/hls_264_master.m3u8?t=1758612584",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 18, 2025"
+        },
+        "support_info": {
+          "url": "https://x.com/KeyjokerGames",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045300?t=1766051114",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4045300?t=1766051114",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

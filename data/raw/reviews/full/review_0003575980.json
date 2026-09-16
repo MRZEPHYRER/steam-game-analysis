@@ -1,0 +1,115 @@
+{
+  "appid": 3575980,
+  "requested_at": "2026-09-13T19:23:35.732221+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 565,
+      "total_negative": 9,
+      "total_reviews": 574
+    },
+    "reviews": [
+      {
+        "recommendationid": "208770456",
+        "author": {
+          "steamid": "76561198200762141",
+          "personaname": "恸哭者无畏圣园未花",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198200762141/",
+          "num_games_owned": 446,
+          "num_reviews": 26,
+          "playtime_forever": 6487,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 6482,
+          "last_played": 1783848054,
+          "avatar": "fc5d8974fd3b0cd4519d382edd70e89172d6da5b"
+        },
+        "language": "schinese",
+        "review": "2026 07 02 汉化进度\n整体82% 剧情100% 战斗50% 图书馆内容20%\n————————————————————————————————————————————\n\n\n关于之前说过的Steam版汉化移植，目前进度如下：\n1、移植工作基本完成，除中断对话和部分图书馆内容都已经移植完毕。\n2、校对进度：游戏界面校对完成，剧情10%，战斗文本10%\n3、希望有朋友来帮忙测试下汉化补丁，看有没有无法游玩的恶性bug，字体缺字，缺翻漏翻等。\n4、测试群号见https://paratranz.cn/projects/17002 项目简介",
+        "timestamp_created": 1762657052,
+        "timestamp_updated": 1783008402,
+        "voted_up": true,
+        "votes_up": 66,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.875576257705688477",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761015653",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 8
+          },
+          {
+            "reaction_type": 30,
+            "count": 3
+          },
+          {
+            "reaction_type": 29,
+            "count": 2
+          },
+          {
+            "reaction_type": 25,
+            "count": 1
+          },
+          {
+            "reaction_type": 34,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 4
+          },
+          {
+            "reaction_type": 6,
+            "count": 4
+          },
+          {
+            "reaction_type": 7,
+            "count": 2
+          },
+          {
+            "reaction_type": 17,
+            "count": 1
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 13,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSfQ0AAAAAFP+wEuAAAAAB42bKcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

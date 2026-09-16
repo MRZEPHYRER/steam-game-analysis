@@ -1,0 +1,223 @@
+{
+  "requested_at": "2026-09-13T06:58:02.713842+00:00",
+  "request_params": {
+    "appids": 4120060,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4120060,
+  "payload": {
+    "4120060": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Nightmares of darkness",
+        "steam_appid": 4120060,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >&quot;Nightmares of Darkness&quot; is a casual 2D &quot;roguelike&quot; action game where you must survive attacks from monsters lurking in the darkness.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >This game has:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Over 200 unique items</p></li><li><p class=\"bb_paragraph\" >Different difficulty levels</p></li><li><p class=\"bb_paragraph\" >A &quot;big&quot; variety of enemies</p></li><li><p class=\"bb_paragraph\" >Anxiety </p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >&quot;Nightmares of Darkness&quot; is a casual 2D &quot;roguelike&quot; action game where you must survive attacks from monsters lurking in the darkness.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >This game has:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Over 200 unique items</p></li><li><p class=\"bb_paragraph\" >Different difficulty levels</p></li><li><p class=\"bb_paragraph\" >A &quot;big&quot; variety of enemies</p></li><li><p class=\"bb_paragraph\" >Anxiety </p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Monsters lurk in the darkness and shadows, and among all those nightmares is an innocent soul trying to survive. Are you brave enough to face the monsters?",
+        "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Simplified Chinese<strong>*</strong>, Spanish - Latin America<strong>*</strong>, Portuguese - Portugal<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/9415b93ea35f8683e37d0169037d52e41c182ab9/header.jpg?t=1763227591",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/34b5c8e4cadecb77a290bce2e293356a47755347/capsule_231x87.jpg?t=1763227591",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/34b5c8e4cadecb77a290bce2e293356a47755347/capsule_184x69.jpg?t=1763227591",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7+<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 128MB, OpenGL 3+<br></li><li><strong>Storage:</strong> 400 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.14 (Mojave) or later<br></li><li><strong>Processor:</strong> Apple Silicon or Intel x64<br></li><li><strong>Graphics:</strong> Metal capable Intel and AMD GPUs</li></ul>"
+        },
+        "linux_requirements": [],
+        "legal_notice": "© 2025 JDJL",
+        "developers": [
+          "JDJL"
+        ],
+        "publishers": [
+          "JDJL"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1443721
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Nightmares of darkness",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1443721,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Nightmares of darkness - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 71,
+            "description": "Narrated Game Menus"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/04df14ab177df5b6739f65e63b8dfc158be57ecd/ss_04df14ab177df5b6739f65e63b8dfc158be57ecd.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/04df14ab177df5b6739f65e63b8dfc158be57ecd/ss_04df14ab177df5b6739f65e63b8dfc158be57ecd.1920x1080.jpg?t=1763227591"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/6b9f9be5046e391646a6c9c9ca00a7f112f40241/ss_6b9f9be5046e391646a6c9c9ca00a7f112f40241.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/6b9f9be5046e391646a6c9c9ca00a7f112f40241/ss_6b9f9be5046e391646a6c9c9ca00a7f112f40241.1920x1080.jpg?t=1763227591"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/899d3e0b3f33fb750bb5cdf5460ee98381e3d083/ss_899d3e0b3f33fb750bb5cdf5460ee98381e3d083.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/899d3e0b3f33fb750bb5cdf5460ee98381e3d083/ss_899d3e0b3f33fb750bb5cdf5460ee98381e3d083.1920x1080.jpg?t=1763227591"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/ea4ecd70f4cd49f213e199646e17668c993bb1ea/ss_ea4ecd70f4cd49f213e199646e17668c993bb1ea.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/ea4ecd70f4cd49f213e199646e17668c993bb1ea/ss_ea4ecd70f4cd49f213e199646e17668c993bb1ea.1920x1080.jpg?t=1763227591"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/445c6f3cbd27c10dbb80347ce127d3cf8ee5fc9d/ss_445c6f3cbd27c10dbb80347ce127d3cf8ee5fc9d.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/445c6f3cbd27c10dbb80347ce127d3cf8ee5fc9d/ss_445c6f3cbd27c10dbb80347ce127d3cf8ee5fc9d.1920x1080.jpg?t=1763227591"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/9d1c9c73a6e1029e170d10612f0dfb70e6593571/ss_9d1c9c73a6e1029e170d10612f0dfb70e6593571.600x338.jpg?t=1763227591",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/9d1c9c73a6e1029e170d10612f0dfb70e6593571/ss_9d1c9c73a6e1029e170d10612f0dfb70e6593571.1920x1080.jpg?t=1763227591"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257223849,
+            "name": "Nightmares of darkness Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257223849/7955af8ae564ba7a0e01f25e36b8bfbbb14a20b4/movie_600x337.jpg?t=1762033096",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4120060/1848034202/8c3299b8a91f897469ec40abaa8c3ee90fa93710/1761687120/dash_av1.mpd?t=1762033096",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4120060/1848034202/8c3299b8a91f897469ec40abaa8c3ee90fa93710/1761687120/dash_h264.mpd?t=1762033096",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4120060/1848034202/8c3299b8a91f897469ec40abaa8c3ee90fa93710/1761687120/hls_264_master.m3u8?t=1762033096",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "nightmaresofdarknesshelp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4120060?t=1763227591",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4120060/4d3fc2525bb9c7dec91bec0dc68da756685237f0/page_bg_raw.jpg?t=1763227591",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "10",
+            "required_age": "10",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Medo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Ängstigende Inhalte"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

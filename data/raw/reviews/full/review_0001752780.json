@@ -1,0 +1,66 @@
+{
+  "appid": 1752780,
+  "requested_at": "2026-09-13T18:44:50.396170+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 33,
+      "total_negative": 5,
+      "total_reviews": 38
+    },
+    "reviews": [
+      {
+        "recommendationid": "223521730",
+        "author": {
+          "steamid": "76561198005811981",
+          "personaname": "Jarenth",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/jarenth/",
+          "num_games_owned": 0,
+          "num_reviews": 29,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 49,
+          "last_played": 1776447798,
+          "avatar": "1d50fb21684f559361436422d973c241087998f7"
+        },
+        "language": "english",
+        "review": "There's an expression I like to use for games like City of Springs, which is 'this is going to be someone's first and favorite game'. If you've been into games for a while, and especially if you were around in the 90's / 00's era, you have one of these: A game that maybe isn't too well known, maybe isn't *strictly* incredibly good, but something about it just scratched or scratches a particular itch and it's embedded itself on you. For me, that's stuff like Netstorm and Chaos Overlords. For this generation of new gamers, it might well be City of Springs.\n\nIf you *have* been around for a while, City of Springs is mostly a decent idea wrapped in somewhat disappointing execution. Nothing about it is strictly bad or wrong, it just suffers from odd game design principles and a need for polish. Like what do you *mean* there's fall damage, and it's persistent, and I can only heal by hoofing it to healing stations around town that are otherwise totally free to use? What do you *mean* I can murder most robots effortlessly, unless it's a Mandatory Stealth Section, in which case the same robots I've been fighting directly can now instakill me -- sorry, I mean 'stun' me -- and I have to start over? It's just a lot of that.\n\nGiving this a positive recommendation because there's nothing 'wrong' with it at the end of the day, and supporting small artists in the face of Steam's algorithm nonsense is always the right thing to do. But, like, maybe check out a video or LP before you commit to this one.",
+        "timestamp_created": 1776508688,
+        "timestamp_updated": 1776508688,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.522058844566345215",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1738337419",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZjw8AAAAAFP+C0tSAAAAByvNXUBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.171999999999798,
+  "transport_error_count": 0
+}

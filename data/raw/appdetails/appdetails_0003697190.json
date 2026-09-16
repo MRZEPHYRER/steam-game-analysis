@@ -1,0 +1,205 @@
+{
+  "requested_at": "2026-09-12T16:08:37.346809+00:00",
+  "request_params": {
+    "appids": 3697190,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3697190,
+  "payload": {
+    "3697190": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Aurum",
+        "steam_appid": 3697190,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Draft The Goods You Sell</strong></h2><p class=\"bb_paragraph\" >Chose from over 100 cards to create the perfect deck of goods. With a variety of different builds me strategies, every store will find success in their own unique way. Be careful to meet your deadlines though, or your store will go bankrupt. It’s a cutthroat world, and the cost of running will quickly go up, so you’ll have to stay ready to adapt at a moments notice.</p><h2 class=\"bb_tag\" ><strong>Build Your Store Front</strong></h2><p class=\"bb_paragraph\" >Place your good out on your display table to get them ready to sell! When their sale date hits 0, the card gets sold for its value. Place your cards down where their value will be highest, and move the rows and columns to get them in the perfect spot. Buff the power of a row or a column or many other effects to boost the worth of your goods. Where you place your goods can be the difference between a successful store and bankruptcy!</p><h2 class=\"bb_tag\" ><strong>Survive Problem Customers</strong></h2><p class=\"bb_paragraph\" >Not every customer you meet is going to be considerate of your perfectly maintained display. From the devious thief to a more innocuous rearranger, you’ll have to work around the chaos they bring. Don’t let them devalue your goods or push them off your table. Stay on step ahead of them and you can even turn their actions into positives!</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Draft The Goods You Sell</strong></h2><p class=\"bb_paragraph\" >Chose from over 100 cards to create the perfect deck of goods. With a variety of different builds me strategies, every store will find success in their own unique way. Be careful to meet your deadlines though, or your store will go bankrupt. It’s a cutthroat world, and the cost of running will quickly go up, so you’ll have to stay ready to adapt at a moments notice.</p><h2 class=\"bb_tag\" ><strong>Build Your Store Front</strong></h2><p class=\"bb_paragraph\" >Place your good out on your display table to get them ready to sell! When their sale date hits 0, the card gets sold for its value. Place your cards down where their value will be highest, and move the rows and columns to get them in the perfect spot. Buff the power of a row or a column or many other effects to boost the worth of your goods. Where you place your goods can be the difference between a successful store and bankruptcy!</p><h2 class=\"bb_tag\" ><strong>Survive Problem Customers</strong></h2><p class=\"bb_paragraph\" >Not every customer you meet is going to be considerate of your perfectly maintained display. From the devious thief to a more innocuous rearranger, you’ll have to work around the chaos they bring. Don’t let them devalue your goods or push them off your table. Stay on step ahead of them and you can even turn their actions into positives!</p>",
+        "short_description": "Aurum is a roguelike deck building storefront simulator. Draft the goods you sell, arrange them to maximize their value, and counter the negative effects of problem customers. Combo your cards together to create the best store and earn as much as you can to stay open!",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/4443a7d67fef709f8a676b3e5cec4b7253026754/header.jpg?t=1765989199",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/cb991c7fb74e7468d3ef2ed731e7974961abf311/capsule_231x87.jpg?t=1765989199",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/cb991c7fb74e7468d3ef2ed731e7974961abf311/capsule_184x69.jpg?t=1765989199",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Pentium 4 2.0 GHz or faster<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Graphics:</strong> 640 x 416 pixels or higher desktop resolution</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version 10.11</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> SteamOS</li></ul>"
+        },
+        "developers": [
+          "Fighty Boys Games"
+        ],
+        "publishers": [
+          "Fighty Boys Games"
+        ],
+        "demos": [
+          {
+            "appid": 4061000,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 899,
+          "final": 899,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$8.99"
+        },
+        "packages": [
+          1301909
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Aurum",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1301909,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Merchant Deckbuilder - $8.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 899
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/7817415c0e0ef7cf6765ec158bf445e6bc52e926/ss_7817415c0e0ef7cf6765ec158bf445e6bc52e926.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/7817415c0e0ef7cf6765ec158bf445e6bc52e926/ss_7817415c0e0ef7cf6765ec158bf445e6bc52e926.1920x1080.jpg?t=1765989199"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/55dbfedb740578870dd333efa4ea4c30fd34bfe6/ss_55dbfedb740578870dd333efa4ea4c30fd34bfe6.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/55dbfedb740578870dd333efa4ea4c30fd34bfe6/ss_55dbfedb740578870dd333efa4ea4c30fd34bfe6.1920x1080.jpg?t=1765989199"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/0583bb5d7f7d4541ccd54c428fe62568ae379a99/ss_0583bb5d7f7d4541ccd54c428fe62568ae379a99.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/0583bb5d7f7d4541ccd54c428fe62568ae379a99/ss_0583bb5d7f7d4541ccd54c428fe62568ae379a99.1920x1080.jpg?t=1765989199"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/6c201bbe53f1273caf8968e01ad0d0dfc747dc45/ss_6c201bbe53f1273caf8968e01ad0d0dfc747dc45.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/6c201bbe53f1273caf8968e01ad0d0dfc747dc45/ss_6c201bbe53f1273caf8968e01ad0d0dfc747dc45.1920x1080.jpg?t=1765989199"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/911944b20fd2613835498defc4d89c0983d4664f/ss_911944b20fd2613835498defc4d89c0983d4664f.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/911944b20fd2613835498defc4d89c0983d4664f/ss_911944b20fd2613835498defc4d89c0983d4664f.1920x1080.jpg?t=1765989199"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/327cc351742a9cb5f85c4a58ca067f26787963e9/ss_327cc351742a9cb5f85c4a58ca067f26787963e9.600x338.jpg?t=1765989199",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3697190/327cc351742a9cb5f85c4a58ca067f26787963e9/ss_327cc351742a9cb5f85c4a58ca067f26787963e9.1920x1080.jpg?t=1765989199"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257251648,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257251648/3ec20b17b0f636c5639512d61ee86c909482ddc6/movie_600x337.jpg?t=1765989198",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3697190/1104116783/e91faf7dc54edad1e4f8099c985b924d8165b2dd/1765988935/dash_av1.mpd?t=1765989198",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3697190/1104116783/e91faf7dc54edad1e4f8099c985b924d8165b2dd/1765988935/dash_h264.mpd?t=1765989198",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3697190/1104116783/e91faf7dc54edad1e4f8099c985b924d8165b2dd/1765988935/hls_264_master.m3u8?t=1765989198",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "fightyboygames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3697190?t=1765989199",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3697190?t=1765989199",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

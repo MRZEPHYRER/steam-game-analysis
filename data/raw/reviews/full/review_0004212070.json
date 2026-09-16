@@ -1,0 +1,66 @@
+{
+  "appid": 4212070,
+  "requested_at": "2026-09-13T20:26:10.991958+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 44,
+      "total_negative": 15,
+      "total_reviews": 59
+    },
+    "reviews": [
+      {
+        "recommendationid": "223083843",
+        "author": {
+          "steamid": "76561198350905895",
+          "personaname": "南方的耳机",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198350905895/",
+          "num_games_owned": 1707,
+          "num_reviews": 17,
+          "playtime_forever": 46746,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 27221,
+          "last_played": 1779248247,
+          "avatar": "c6a56055082573a2c7dad5f3e830b1ba69eecbb1"
+        },
+        "language": "schinese",
+        "review": "在挂机类游戏里是还不错的，但是高层以后每50层就会暂停，每次还得手动重新刷那层才会继续推图，然后50层后又停。服气",
+        "timestamp_created": 1775976156,
+        "timestamp_updated": 1775976156,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.656428933143615723",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765985362",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW3xWAAAAAFP+UBd2AAAABz1P/SBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

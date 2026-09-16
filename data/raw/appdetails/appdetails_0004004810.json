@@ -1,0 +1,301 @@
+{
+  "requested_at": "2026-09-13T06:23:23.668380+00:00",
+  "request_params": {
+    "appids": 4004810,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4004810,
+  "payload": {
+    "4004810": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "There's No Differences: Monsters",
+        "steam_appid": 4004810,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Do you have a sharp eye? We challenge you to test it! Find 10 differences between two similar images. But beware, they change every time you attempt it!</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >changing differences to find (we didn't really count all the combinations, sorry!)</p></li><li><p class=\"bb_paragraph\" >cute hand-drawn monsters</p></li><li><p class=\"bb_paragraph\" >Steam achievements</p></li><li><p class=\"bb_paragraph\" >hints</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Do you have a sharp eye? We challenge you to test it! Find 10 differences between two similar images. But beware, they change every time you attempt it!</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >changing differences to find (we didn't really count all the combinations, sorry!)</p></li><li><p class=\"bb_paragraph\" >cute hand-drawn monsters</p></li><li><p class=\"bb_paragraph\" >Steam achievements</p></li><li><p class=\"bb_paragraph\" >hints</p></li></ul>",
+        "short_description": "Ready to test your detective skills? Find the differences between two similar monster-themed scenes!",
+        "supported_languages": "English, Japanese, Simplified Chinese, Traditional Chinese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/e957dd494dbccea7a766f0a984367bb8fee4b1de/header.jpg?t=1765508457",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/95c2aecec36ed5f9c8b063e4d8cfbda567ca7ae0/capsule_231x87.jpg?t=1765508457",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/95c2aecec36ed5f9c8b063e4d8cfbda567ca7ae0/capsule_184x69.jpg?t=1765508457",
+        "website": "https://error300.com/",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (SP1+) and Windows 10<br></li><li><strong>Processor:</strong> x86, x64 architecture with SSE2 instruction set support<br></li><li><strong>Graphics:</strong> DX10, DX11, DX12 capable</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10<br></li><li><strong>Processor:</strong> 2007 or later</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11<br></li><li><strong>Processor:</strong> 2007 or later</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 10<br></li><li><strong>Processor:</strong> Intel or AMD<br></li><li><strong>Graphics:</strong> NVIDIA Geforce GTX 1050</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 11<br></li><li><strong>Processor:</strong> Intel or AMD<br></li><li><strong>Graphics:</strong> NVIDIA Geforce GTX 1050</li></ul>"
+        },
+        "developers": [
+          "Error 300"
+        ],
+        "publishers": [
+          "Error 300",
+          "Gamersky Games"
+        ],
+        "demos": [
+          {
+            "appid": 4092360,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1405317
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy There's No Differences: Monsters",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1405317,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "There's No Differences: Monsters - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/724621863dcaa0fea2c4392d5fb26294992a046c/ss_724621863dcaa0fea2c4392d5fb26294992a046c.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/724621863dcaa0fea2c4392d5fb26294992a046c/ss_724621863dcaa0fea2c4392d5fb26294992a046c.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/23666324b0123d56f6b2ac9a8d4011d6cebe0387/ss_23666324b0123d56f6b2ac9a8d4011d6cebe0387.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/23666324b0123d56f6b2ac9a8d4011d6cebe0387/ss_23666324b0123d56f6b2ac9a8d4011d6cebe0387.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/eca9eef21ac4298977ec4e9a24c35030887758f2/ss_eca9eef21ac4298977ec4e9a24c35030887758f2.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/eca9eef21ac4298977ec4e9a24c35030887758f2/ss_eca9eef21ac4298977ec4e9a24c35030887758f2.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/e3151b54e5ec6289a4a7d453110202e9b99d98a2/ss_e3151b54e5ec6289a4a7d453110202e9b99d98a2.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/e3151b54e5ec6289a4a7d453110202e9b99d98a2/ss_e3151b54e5ec6289a4a7d453110202e9b99d98a2.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/458350fa31b82b629736256bb3daeaa5f293d33b/ss_458350fa31b82b629736256bb3daeaa5f293d33b.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/458350fa31b82b629736256bb3daeaa5f293d33b/ss_458350fa31b82b629736256bb3daeaa5f293d33b.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/1f6927c36d3b14c46076df5ce6aa63c5f9eb2c56/ss_1f6927c36d3b14c46076df5ce6aa63c5f9eb2c56.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/1f6927c36d3b14c46076df5ce6aa63c5f9eb2c56/ss_1f6927c36d3b14c46076df5ce6aa63c5f9eb2c56.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/6d1dcde0f4a46c3c0786d23dd7fdbda1ba6d0e85/ss_6d1dcde0f4a46c3c0786d23dd7fdbda1ba6d0e85.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/6d1dcde0f4a46c3c0786d23dd7fdbda1ba6d0e85/ss_6d1dcde0f4a46c3c0786d23dd7fdbda1ba6d0e85.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/e89a6daa6cde9f5dcf34f86a80512c07aa1d6b20/ss_e89a6daa6cde9f5dcf34f86a80512c07aa1d6b20.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/e89a6daa6cde9f5dcf34f86a80512c07aa1d6b20/ss_e89a6daa6cde9f5dcf34f86a80512c07aa1d6b20.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/de5ef988f4bb997bbf3e83e2c2b70fb3d0ad8c3f/ss_de5ef988f4bb997bbf3e83e2c2b70fb3d0ad8c3f.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/de5ef988f4bb997bbf3e83e2c2b70fb3d0ad8c3f/ss_de5ef988f4bb997bbf3e83e2c2b70fb3d0ad8c3f.1920x1080.jpg?t=1765508457"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/66072e4995e1af5429ffd7c379d043e6a4758f3b/ss_66072e4995e1af5429ffd7c379d043e6a4758f3b.600x338.jpg?t=1765508457",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004810/66072e4995e1af5429ffd7c379d043e6a4758f3b/ss_66072e4995e1af5429ffd7c379d043e6a4758f3b.1920x1080.jpg?t=1765508457"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257217451,
+            "name": "main trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217451/003ac3b2c126edf592b98e328bdf46985c5e6654/movie_600x337.jpg?t=1760394743",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4004810/777801701/bbe22db43234070d56c3cdb5f45317a89a0dbdb7/1760394567/dash_av1.mpd?t=1760394743",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4004810/777801701/bbe22db43234070d56c3cdb5f45317a89a0dbdb7/1760394567/dash_h264.mpd?t=1760394743",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4004810/777801701/bbe22db43234070d56c3cdb5f45317a89a0dbdb7/1760394567/hls_264_master.m3u8?t=1760394743",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 13,
+          "highlighted": [
+            {
+              "icon": "5859070300a9161bc12068fc26e8f62522f16328.jpg",
+              "localized_name": "The dragon's minions",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The dragon's minions",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/5859070300a9161bc12068fc26e8f62522f16328.jpg"
+            },
+            {
+              "icon": "371b56ae83d9ebb0dcd09f94dcc8923a34cb0639.jpg",
+              "localized_name": "Footprints in the sand",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Footprints in the sand",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/371b56ae83d9ebb0dcd09f94dcc8923a34cb0639.jpg"
+            },
+            {
+              "icon": "2475024b0719266526521d9e92199d18ae3c68bb.jpg",
+              "localized_name": "Do you want to build an Abominable Snowman?",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Do you want to build an Abominable Snowman?",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/2475024b0719266526521d9e92199d18ae3c68bb.jpg"
+            },
+            {
+              "icon": "ff21954ecf338b8f2efa1623fbbba59bdbcc87a9.jpg",
+              "localized_name": "Eyes between the trees",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Eyes between the trees",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/ff21954ecf338b8f2efa1623fbbba59bdbcc87a9.jpg"
+            },
+            {
+              "icon": "473b72f60a873dcdd51a4a9f597e7d36c330bc2a.jpg",
+              "localized_name": "Weird West",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Weird West",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/473b72f60a873dcdd51a4a9f597e7d36c330bc2a.jpg"
+            },
+            {
+              "icon": "6d92b23c9641d684e3a918267cb80983a713d568.jpg",
+              "localized_name": "Skeletons in the closet",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Skeletons in the closet",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/6d92b23c9641d684e3a918267cb80983a713d568.jpg"
+            },
+            {
+              "icon": "91ac932f6892415e3fb68a094462a73f62d1c6a5.jpg",
+              "localized_name": "I hope it ends with a monster",
+              "archived": 0,
+              "hidden": 0,
+              "name": "I hope it ends with a monster",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/91ac932f6892415e3fb68a094462a73f62d1c6a5.jpg"
+            },
+            {
+              "icon": "e565a3795ec1f13a07df75d2a40d897cc26a354b.jpg",
+              "localized_name": "Random monster spawns",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Random monster spawns",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/e565a3795ec1f13a07df75d2a40d897cc26a354b.jpg"
+            },
+            {
+              "icon": "245de74b66d93e1fde5fd461c4382ec14b9b84db.jpg",
+              "localized_name": "...R'lyeh wgah'nagl fhtagn",
+              "archived": 0,
+              "hidden": 0,
+              "name": "...R'lyeh wgah'nagl fhtagn",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/245de74b66d93e1fde5fd461c4382ec14b9b84db.jpg"
+            },
+            {
+              "icon": "e99ddea894d03efb50added8f64ee230f850dcb3.jpg",
+              "localized_name": "Spotted one!",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Spotted one!",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4004810/e99ddea894d03efb50added8f64ee230f850dcb3.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "https://error300.com/",
+          "email": "contact@error300.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4004810?t=1765508457",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4004810?t=1765508457",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

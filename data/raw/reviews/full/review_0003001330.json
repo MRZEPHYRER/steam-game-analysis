@@ -1,0 +1,66 @@
+{
+  "appid": 3001330,
+  "requested_at": "2026-09-13T19:00:29.900806+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 232,
+      "total_negative": 46,
+      "total_reviews": 278
+    },
+    "reviews": [
+      {
+        "recommendationid": "208730484",
+        "author": {
+          "steamid": "76561198061400021",
+          "personaname": "Garrett",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/geisendorferu/",
+          "num_games_owned": 0,
+          "num_reviews": 42,
+          "playtime_forever": 504,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 189,
+          "last_played": 1762725042,
+          "avatar": "4e8d70ce8428f8448e03054cd8614dc46e5bd10f"
+        },
+        "language": "english",
+        "review": "Game lacks intuitive controls for PC. Keyboard arrows and QWER is awkward to play with. While the first win took time, it is pretty short. By the time you find synergy between cards, it's over. I wish it were longer to fully build your cards. Card tool tips need more info or explanation on hover. There are short descriptions that cause confusion. Like, falls asleep and recovers HP when below 50%, but never tells you if they 'wake up' to continue fighting or not. They sleep to 51%? Or to 100%? Etc. Lots of cards could use fully fleshed out explanations to explain their entire process.\r\n\r\nI like that there are a lot of ways to enhance your deck, but again, it's short and doesn't feel fully reach the potential it could.",
+        "timestamp_created": 1762620803,
+        "timestamp_updated": 1762620803,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.598540127277374268",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1733533736",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYB3mAAAAAFP+MnPWAAAAB0l5+cBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

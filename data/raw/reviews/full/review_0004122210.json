@@ -1,0 +1,66 @@
+{
+  "appid": 4122210,
+  "requested_at": "2026-09-13T20:20:39.906380+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "232694677",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 827,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 827,
+          "last_played": 1786571620,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Mini Heroes: Squad Online is a lightweight multiplayer action game built around fast 2D battles between small cartoon-like characters. Developed and published by Rokito Games, it focuses on delivering straightforward online competition without the complicated mechanics, enormous maps, or demanding hardware requirements associated with larger multiplayer shooters. Its concept is deliberately simple: up to four players enter a compact floating arena, collect or use different weapons, and battle until someone establishes superiority. The result is an accessible experience that works best as a casual game for friends rather than as a deep competitive shooter intended for hundreds of hours.\n\nCombat is the centerpiece of the experience, and the game offers more than 20 weapons to keep encounters from becoming completely predictable. The arsenal includes weapons suited to different distances and situations, such as sniper rifles, miniguns, and assault-oriented firearms. This selection allows players to experiment with different approaches instead of relying on a single effective weapon. Long-range equipment rewards careful positioning, while faster weapons encourage aggressive engagements. Since the battlefield is relatively confined, encounters occur frequently, keeping matches active and minimizing the downtime that can sometimes affect larger multiplayer games.\n\nOne of the most unusual design decisions is the reliance on a single floating arena. This makes Mini Heroes: Squad Online extremely easy to understand because players can quickly learn the environment and concentrate on fighting rather than memorizing complicated maps. Familiarity with the arena can also place greater importance on movement, positioning, weapon knowledge, and understanding opponent behavior. Unfortunately, this simplicity becomes a weakness over time. Having only one primary battlefield greatly limits environmental variety, and repeated matches can eventually feel too familiar. Additional arenas with different layouts, hazards, or tactical opportunities would significantly strengthen the game's long-term appeal.\n\nThe online systems are appropriately uncomplicated. Players can create rooms for their own matches, enter rooms created by friends, or use Quick Match when they simply want to find a game without organizing one manually. Supporting up to four participants keeps battles manageable while still allowing enough players for unpredictable situations to emerge. Steam Leaderboards and ranking elements introduce additional competitive motivation, encouraging players to improve their performance rather than treating every match as an isolated event. These features give the game some structure beyond casual fighting, even though its overall competitive framework remains modest.\n\nCustomization provides another incentive to continue playing. Heroes can wear different outfits, while weapons can receive cosmetic skins. The game's currency is centered on cosmetic content rather than providing direct competitive advantages, which is a sensible decision for a PvP-focused title. Players can pursue visual rewards without creating an obvious situation where spending or accumulating currency makes one participant fundamentally stronger than another. The customization system may not transform the gameplay, but it gives players a way to personalize their characters and weapons while adding a small progression layer between matches.\n\nThe colorful visual direction complements the casual nature of the game. Instead of pursuing realism, Mini Heroes: Squad Online uses a playful style that makes its gunfights resemble an arcade competition. This presentation helps distinguish it from more serious military shooters and makes the experience easier to approach. The developer also discloses the use of pre-generated AI material for certain 2D backgrounds and promotional store imagery. This content is fixed rather than being generated dynamically during gameplay, so it functions as part of the prepared visual material rather than as an active gameplay system.\n\nAccessibility is one of the game's more positive characteristics. Its modest system requirements make it suitable for computers that would struggle with modern 3D competitive shooters. The Windows requirements are relatively low, storage demands are tiny by contemporary standards, and macOS support expands the potential audience further. The game also supports a large selection of interface languages. These characteristics fit its overall philosophy: Mini Heroes: Squad Online is designed to be something players can install quickly, understand easily, and begin playing without needing powerful hardware or extensive preparation.\n\nThe biggest practical weakness comes from its dependence on online participation. Multiplayer games require other active players, and a smaller title can struggle if matchmaking activity becomes limited. This makes playing with friends especially valuable because private rooms allow a group to enjoy the core mechanics without relying entirely on public matchmaking. Anyone considering the game primarily for spontaneous online competition should therefore recognize that the quality of the experience can depend heavily on whether opponents are available when they want to play.\n\nThere is also a noticeable contrast between the variety of weapons and the comparatively narrow overall content structure. More than 20 weapons can create different combat situations, but equipment variety only goes so far when matches repeatedly occur within the same environment. More maps, alternative objectives, team-based variants, environmental hazards, or additional modes could give the existing combat mechanics substantially more room to develop. The current design succeeds at being immediately understandable, but that accessibility comes at the expense of depth and longevity.\n\nMini Heroes: Squad Online ultimately works best when approached as a small-scale arcade multiplayer game rather than a comprehensive online shooter. Rokito Games has created a straightforward foundation with quick four-player battles, a respectable assortment of weapons, room creation, Quick Match, rankings, leaderboards, cosmetics, low hardware requirements, and broad language support. Its uncomplicated structure makes it easy to jump into, especially with friends, but the single-arena focus and reliance on an active online population prevent it from feeling particularly substantial. Players wanting short, chaotic multiplayer sessions may find it entertaining, while those expecting extensive maps, modes, progression, and strategic depth are likely to exhaust its possibilities relatively quickly.\n\nRating : 6/10",
+        "timestamp_created": 1786580897,
+        "timestamp_updated": 1786580897,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762701560",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB1udT3Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.311999999999898,
+  "transport_error_count": 0
+}

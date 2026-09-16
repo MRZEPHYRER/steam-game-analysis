@@ -1,0 +1,71 @@
+{
+  "appid": 1423630,
+  "requested_at": "2026-09-13T18:43:00.091744+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "214095643",
+        "author": {
+          "steamid": "76561197995669628",
+          "personaname": "American Dove Mitten",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561197995669628/",
+          "num_games_owned": 1789,
+          "num_reviews": 768,
+          "playtime_forever": 131,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 131,
+          "last_played": 1766591274,
+          "avatar": "05a8e0cfae2a31cc5d90b9af77d5d786a0ad2da4"
+        },
+        "language": "english",
+        "review": "Almost a good horror game, I would say it's somewhat comparable to Puppet Combo in overall approach & presentation, but not as well nuanced when it comes to building tension or having those playful character interactions. The first half of the game was not too bad, but the gunfight in the story mode was completely atrocious, glitchy and janky at the same time, so something you may want to consider addressing, maybe lowing the speed of the doll or having better hit detection.\n\nThe retro aesthetic was done really well, I like how the third person camera switches into fixed-camera angles, giving the game that cinematic feel. The models and texture also looked good, and I think you mostly handled those VHS/horror vibes pretty well, maybe with the exception of a few music choices that felt too goofy. Some of the camera positions in the house do need a little work, I am not too nitpicky when it comes to retro inspired games, but it was a little difficult to orient yourself upstairs. \n\nI didn't find the characters or the the narrative all that interesting, but not because of the premise, I think the conversations between the friends were too brief, and you didn't give them much to do. Try to write more than 2 lines of dialogue for interactions, you don't want the characters to feel like place holder models, and perhaps having a few more character buildings moments between them, otherwise you kill off characters that you never cared about. As a final insult, you faded to black during the first kill, which is not something you want to do in these games, you need to show me those kills.\n\nThe game is only 40 minutes for the story mode, and another 15 minutes for the mindless killing mode. So only 1 hour experience for the price, not amazing. On that note, I am not sure if the nightmare mode was unlocked right away, but it would make more sense if you played them in order so you don't get a weird experience playing the other one first.\n\n[h1] Pros: [/h1]\n\n(+) I think you handled the retro visuals really well, I like the dynamic use of camera, retro texture, and the modeling.\n\n(+) Has a decent presentation when it comes to overall horror vibes, kinda has that campy VHS horror thing going for it\n\n[h1] Feedback: [/h1]\n\n[u] Gunfight: [/u]\n\n- he runs at you at the same speed as you run away, so essentially you can't turn around and shoot, you just have to poke him once and run away while trying to avoid poor camera angles, it just feels really bad. The hit detection was also horrible, I think it takes like 5 shoots? But it took me like 25 missed hits or something. Maybe make him a little slower.\n\n[u] Random QOL: [/u] \n\n- you should map 'interact' to E or Mouse 1 in addition to ENTER, otherwise I play on WASD and have to move my hand\n\n- decorations can drop in the middle of the door if you enter one with them in hands\n\n[u] Narrative/Vibes: [/u]\n\n- the dialogue for the characters could use a little more context/personality, if you just have 2 sentences they feel like place holder models. In general, it's a good idea to have at least a few specific character moments for each of them with the main character, just so you care more when they are killed\n\n- when you inspect Becky outside, maybe don't loop the scream, just make it work once when you go outside\n\n- maybe don't fade to black during cutscene kills, you should be animating it, that is the best part\n\n- try to provide a little more closure during endings, you have like one panel for it, it should be a little more rewarding to finish the game\n\n[b] Overall Thoughts: 5/10 [/b]\n\nNot too bad but I didn't feel like the game was worth what I paid for it. I do think you need to work more on giving the characters more personality and something to do prior to the murders, it's not much of a horror game if you not building the tension. Maybe make the gunfight less clunky and work on those few issues I mentioned. It does remind me of Puppet Combo a lot, but it's the small things you getting wrong, you did the surface level right, but the game is missing some heart and personality for me.\n\n[code]Niche, obscure and underrated games: http://store.steampowered.com/curator/31294838-Hidden-Gem-Discovery/ [/code]",
+        "timestamp_created": 1766593703,
+        "timestamp_updated": 1768403002,
+        "voted_up": false,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.579664826393127441",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766520010",
+        "reactions": [
+          {
+            "reaction_type": 13,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYaB2AAAAAFP+KMnaAAAAB78dqwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

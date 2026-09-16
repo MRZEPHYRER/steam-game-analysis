@@ -1,0 +1,66 @@
+{
+  "appid": 1891030,
+  "requested_at": "2026-09-13T18:45:33.022679+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 3,
+      "total_negative": 1,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "212509572",
+        "author": {
+          "steamid": "76561197994804596",
+          "personaname": "Day-Old Games",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/dayoldgames/",
+          "num_games_owned": 551,
+          "num_reviews": 33,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1764803605,
+          "avatar": "95e68a1f7f573b61fa2ed3bc95ac5852001b6dc5"
+        },
+        "language": "english",
+        "review": "This game has a lot to it. So much game packed in just one game. Soulslikes are not really my thing though. However, I would suggest this game for those who are. It's stinking cute as crap!! I love getting killed over and over buy bad guys that I would want as plushies!\r\n\r\nPros:\r\n\r\nCute as crap.\r\nHard as crap.\r\nTons of gameplay\r\nTons of achevements\r\n\r\nCons:\r\nI'd like sounds when I hit bad guys\r\nI'd like sounds when I'm hit by bad guys\r\nIt's kinda hard to tell when you've been hit.\r\n\r\nGreat job on a great game!!",
+        "timestamp_created": 1764804098,
+        "timestamp_updated": 1764804098,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1709226376",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB0uNSqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

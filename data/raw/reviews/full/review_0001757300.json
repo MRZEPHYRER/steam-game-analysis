@@ -1,0 +1,107 @@
+{
+  "appid": 1757300,
+  "requested_at": "2026-09-13T18:44:52.620252+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 9095,
+      "total_negative": 1568,
+      "total_reviews": 10663
+    },
+    "reviews": [
+      {
+        "recommendationid": "205651750",
+        "author": {
+          "steamid": "76561198057985215",
+          "personaname": "sitrash",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198057985215/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 550,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 550,
+          "last_played": 1759358436,
+          "avatar": "7cc3514519ef83cf005953060271eb4928e46ae6"
+        },
+        "language": "english",
+        "review": "For the future, Devs, please don't fix what isn't broken. Running and shooting is awesome. If you start increasing enemy HP, everything will break. Damaging weak spot and enemy fall after a couple of bursts creates a really good impact. This is especially nice when all other games are making looter shooters where you spend ages shooting at enemies. I've seen a couple of people asking for an inventory and for the ship to not lose loot. In my opinion, this is a terrible idea. The game is clearly not focused on loot. Finally, someone did it. This enjoyable movement, shooting, and story-driven missions make it different from all other space co-op games, and for the better.",
+        "timestamp_created": 1759358757,
+        "timestamp_updated": 1759360287,
+        "voted_up": true,
+        "votes_up": 388,
+        "votes_funny": 4,
+        "weighted_vote_score": "0.933822035789489746",
+        "comment_count": 14,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758290424",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 7
+          },
+          {
+            "reaction_type": 7,
+            "count": 4
+          },
+          {
+            "reaction_type": 13,
+            "count": 3
+          },
+          {
+            "reaction_type": 1,
+            "count": 3
+          },
+          {
+            "reaction_type": 18,
+            "count": 3
+          },
+          {
+            "reaction_type": 2,
+            "count": 2
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFRUsEAAAAAFP+3h/iAAAAB28r+QBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

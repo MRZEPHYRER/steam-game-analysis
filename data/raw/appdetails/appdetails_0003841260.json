@@ -1,0 +1,194 @@
+{
+  "requested_at": "2026-09-12T17:08:41.316256+00:00",
+  "request_params": {
+    "appids": 3841260,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3841260,
+  "payload": {
+    "3841260": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Frame Sense Trainer",
+        "steam_appid": 3841260,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >So I'm looking at, what exactly?</h2><p class=\"bb_paragraph\" >Establishing some useful terminology and expanding on ideas covered in Masahiro Sakurai's video explanation of this topic, Frame Sense Trainer is a game with exercises, tutorials, examples, and tools useful to honing what this software will refer to as “Frame Sense”, or rather, “Temporal Frame Estimation” (TFE) if technical terms are preferred.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >What does Frame Sense Trainer have to offer?</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Tools for frame duration visualization</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Tutorials for learning to hone TFE</p></li><li><p class=\"bb_paragraph\" >A ranked leader board for exercises of various difficulty</p></li></ul><h2 class=\"bb_tag\" >Okay but like, who asked?</h2><p class=\"bb_paragraph\" >I did! I couldn't find software for doing this so I decided to make it myself.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >So I'm looking at, what exactly?</h2><p class=\"bb_paragraph\" >Establishing some useful terminology and expanding on ideas covered in Masahiro Sakurai's video explanation of this topic, Frame Sense Trainer is a game with exercises, tutorials, examples, and tools useful to honing what this software will refer to as “Frame Sense”, or rather, “Temporal Frame Estimation” (TFE) if technical terms are preferred.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >What does Frame Sense Trainer have to offer?</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Tools for frame duration visualization</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Tutorials for learning to hone TFE</p></li><li><p class=\"bb_paragraph\" >A ranked leader board for exercises of various difficulty</p></li></ul><h2 class=\"bb_tag\" >Okay but like, who asked?</h2><p class=\"bb_paragraph\" >I did! I couldn't find software for doing this so I decided to make it myself.</p>",
+        "short_description": "Frame Sense Trainer is a software to help build Frame Sense, or Temporal Frame Estimation if you're wordy. Basically, counting frames, assuming a video or game is playing at 60FPS",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/7559a0e7413bb005bb7126d4caf3246203ded361/header.jpg?t=1770521140",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/09409f8b9e3a2be9e3e9dfb2c60c80401420f926/capsule_231x87.jpg?t=1770521140",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/09409f8b9e3a2be9e3e9dfb2c60c80401420f926/capsule_184x69.jpg?t=1770521140",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7,10, or 11<br></li><li><strong>Processor:</strong> 64 Bit<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics with full OpenGL 3.3 support, monitor resolution of at least 1920x1080<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Windows 7, 10, or 11<br></li><li><strong>Processor:</strong> 64 Bit<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 660, AMD Radeon HD 7750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Five Games"
+        ],
+        "publishers": [
+          "Five Games"
+        ],
+        "demos": [
+          {
+            "appid": 4131210,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1350749
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Frame Sense Trainer",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1350749,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Frame Sense Trainer - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/8c959863b223b4a5fffaad45aaeb06fcbe811a04/ss_8c959863b223b4a5fffaad45aaeb06fcbe811a04.600x338.jpg?t=1770521140",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/8c959863b223b4a5fffaad45aaeb06fcbe811a04/ss_8c959863b223b4a5fffaad45aaeb06fcbe811a04.1920x1080.jpg?t=1770521140"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/981380e5d5e266372e91f4fa751b0a4d0ec1c23f/ss_981380e5d5e266372e91f4fa751b0a4d0ec1c23f.600x338.jpg?t=1770521140",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/981380e5d5e266372e91f4fa751b0a4d0ec1c23f/ss_981380e5d5e266372e91f4fa751b0a4d0ec1c23f.1920x1080.jpg?t=1770521140"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/a2fa2dd5c04694aaff246f4844d8a467d5315916/ss_a2fa2dd5c04694aaff246f4844d8a467d5315916.600x338.jpg?t=1770521140",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/a2fa2dd5c04694aaff246f4844d8a467d5315916/ss_a2fa2dd5c04694aaff246f4844d8a467d5315916.1920x1080.jpg?t=1770521140"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/a78a8e6c079d18d8f1b5cdceaa96ba84605539ba/ss_a78a8e6c079d18d8f1b5cdceaa96ba84605539ba.600x338.jpg?t=1770521140",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/a78a8e6c079d18d8f1b5cdceaa96ba84605539ba/ss_a78a8e6c079d18d8f1b5cdceaa96ba84605539ba.1920x1080.jpg?t=1770521140"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/2ab83404f4bc125fc9bcca3d37f4edc1171fae49/ss_2ab83404f4bc125fc9bcca3d37f4edc1171fae49.600x338.jpg?t=1770521140",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/2ab83404f4bc125fc9bcca3d37f4edc1171fae49/ss_2ab83404f4bc125fc9bcca3d37f4edc1171fae49.1920x1080.jpg?t=1770521140"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257168746,
+            "name": "Introduction tutorial",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257168746/aa14ac59c42cb68feab954679024cc429cd5998b/movie_600x337.jpg?t=1752700031",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3841260/1885576553/e929a940e312a6bab9ee36e438cf94f1e143d38a/1752515778/dash_av1.mpd?t=1752700031",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3841260/1885576553/e929a940e312a6bab9ee36e438cf94f1e143d38a/1752515778/dash_h264.mpd?t=1752700031",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3841260/1885576553/e929a940e312a6bab9ee36e438cf94f1e143d38a/1752515778/hls_264_master.m3u8?t=1752700031",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 0
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 30, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ssbucompendium@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3841260?t=1770521140",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841260/51bbfd21a609876f151c74d71dd0e242f04e2f9f/page_bg_raw.jpg?t=1770521140",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

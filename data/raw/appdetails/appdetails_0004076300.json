@@ -1,0 +1,318 @@
+{
+  "requested_at": "2026-09-13T06:46:24.261075+00:00",
+  "request_params": {
+    "appids": 4076300,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4076300,
+  "payload": {
+    "4076300": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Geo Fighters",
+        "steam_appid": 4076300,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Geo Fighters is an on rails, single player arcade style space shooter influenced by Geometry Wars. Single level infinite play mode getting progressively harder. Fight to put you name on the leaderboard and become the All time leader.<br><br>--Features--</p><p class=\"bb_paragraph\" >14 unlockable ships. <br>2 unique sound tracks.<br>In game Steam leaderboard. <br>3 unique enemy types.<br>4 shoot modes.<br>Collectable power ups.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Geo Fighters is an on rails, single player arcade style space shooter influenced by Geometry Wars. Single level infinite play mode getting progressively harder. Fight to put you name on the leaderboard and become the All time leader.<br><br>--Features--</p><p class=\"bb_paragraph\" >14 unlockable ships. <br>2 unique sound tracks.<br>In game Steam leaderboard. <br>3 unique enemy types.<br>4 shoot modes.<br>Collectable power ups.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "Geo Fighters is an on rails, single player arcade style space shooter influenced by Geometry Wars. Single level infinite play mode getting progressively harder. Fight to put you name on the leaderboard and become the All time leader.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/8746d9a810985f4edd6b4925bd7edb2aa00dce7f/header.jpg?t=1761635118",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/9a02b0d6f2ea9ea5d69c2122e6b89edfa02cf8a1/capsule_231x87.jpg?t=1761635118",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/9a02b0d6f2ea9ea5d69c2122e6b89edfa02cf8a1/capsule_184x69.jpg?t=1761635118",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or Greater<br></li><li><strong>Processor:</strong> 3.0 Ghz X64 architecture with SSE2 instruction set support, Arm64<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DX11, DX12 or Vulkan capable GPUs, 1Gb Vram<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Windows 10 version 21H1 (build 19043) or newer (X64), Windows 11 21H2 (build 22000) or newer (Arm64)</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or Greater<br></li><li><strong>Processor:</strong> 3.0 Ghz X64 architecture with SSE2 instruction set support, Arm64<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DX11, DX12 or Vulkan capable GPUs, 2Gb Vram<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Windows 10 version 21H1 (build 19043) or newer (X64), Windows 11 21H2 (build 22000) or newer (Arm64)</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Big Sur 11 or newer<br></li><li><strong>Processor:</strong> intel and Silicon<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Metal-capable Intel and AMD GPUs<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Windows 10 version 21H1 (build 19043) or newer (X64), Windows 11 21H2 (build 22000) or newer (Arm64)</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Big Sur 11 or newer<br></li><li><strong>Processor:</strong> intel and Silicon<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Metal-capable Intel and AMD GPUs<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Windows 10 version 21H1 (build 19043) or newer (X64), Windows 11 21H2 (build 22000) or newer (Arm64)</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 or newer, Arch, Debian 12 &quot;Bookworm&quot; or newer.<br></li><li><strong>Processor:</strong> X64 architecture with SSE2 instruction set support<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.2+ or Vulkan-capable, Nvidia and AMD GPUs, 1Gb Vram<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Gnome desktop environment running on top of X11 or Wayland windowing system, Nvidia official proprietary graphics driver, or AMD Mesa graphics driver. Other configuration and user environment as provided stock with the supported distribution (Kernel, Compositor, etc.) Notes: • Ubuntu 22.04: Wayland is supported with AMD graphics cards. • Ubuntu 24.04: Wayland is supported with AMD graphics cards and Nvidia graphics cards utilizing Nvidia proprietary graphics drivers 550 and above.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 22.04 or newer, Arch, Debian 12 &quot;Bookworm&quot; or newer.<br></li><li><strong>Processor:</strong> X64 architecture with SSE2 instruction set support<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.2+ or Vulkan-capable, Nvidia and AMD GPUs, 2Gb Vram<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Gnome desktop environment running on top of X11 or Wayland windowing system, Nvidia official proprietary graphics driver, or AMD Mesa graphics driver. Other configuration and user environment as provided stock with the supported distribution (Kernel, Compositor, etc.) Notes: • Ubuntu 22.04: Wayland is supported with AMD graphics cards. • Ubuntu 24.04: Wayland is supported with AMD graphics cards and Nvidia graphics cards utilizing Nvidia proprietary graphics drivers 550 and above.</li></ul>"
+        },
+        "developers": [
+          "BoucyGames",
+          "Sonicrings66 Game Studios"
+        ],
+        "publishers": [
+          "Alphanu Game Studios"
+        ],
+        "demos": [
+          {
+            "appid": 4139870,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "packages": [
+          1429089
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Geo Fighters",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1429089,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Geo Fighters - $9.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 999
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/7bedbfd62c8d519d9fd221926d9c371244020f4b/ss_7bedbfd62c8d519d9fd221926d9c371244020f4b.600x338.jpg?t=1761635118",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/7bedbfd62c8d519d9fd221926d9c371244020f4b/ss_7bedbfd62c8d519d9fd221926d9c371244020f4b.1920x1080.jpg?t=1761635118"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/3a24f3ffdceaa1a7a0ab00d248c3e7df8ced533b/ss_3a24f3ffdceaa1a7a0ab00d248c3e7df8ced533b.600x338.jpg?t=1761635118",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/3a24f3ffdceaa1a7a0ab00d248c3e7df8ced533b/ss_3a24f3ffdceaa1a7a0ab00d248c3e7df8ced533b.1920x1080.jpg?t=1761635118"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/2dd6ac0c1276fc36c4829720c03cbcf99af7f3da/ss_2dd6ac0c1276fc36c4829720c03cbcf99af7f3da.600x338.jpg?t=1761635118",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/2dd6ac0c1276fc36c4829720c03cbcf99af7f3da/ss_2dd6ac0c1276fc36c4829720c03cbcf99af7f3da.1920x1080.jpg?t=1761635118"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/92abfec9f42553594d53047d1b2bd8d80ade2778/ss_92abfec9f42553594d53047d1b2bd8d80ade2778.600x338.jpg?t=1761635118",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/92abfec9f42553594d53047d1b2bd8d80ade2778/ss_92abfec9f42553594d53047d1b2bd8d80ade2778.1920x1080.jpg?t=1761635118"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/870ca53e8319fdd73ac3861029394bbe8849f742/ss_870ca53e8319fdd73ac3861029394bbe8849f742.600x338.jpg?t=1761635118",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4076300/870ca53e8319fdd73ac3861029394bbe8849f742/ss_870ca53e8319fdd73ac3861029394bbe8849f742.1920x1080.jpg?t=1761635118"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257210144,
+            "name": "Preview",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257210144/5e52f11a99e7802e0c4d411c3efc6c319c15640e/movie_600x337.jpg?t=1760460960",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4076300/1323295967/ea7c200c36cf2726eca742b8d76143f97c83acf6/1759334006/dash_av1.mpd?t=1760460960",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4076300/1323295967/ea7c200c36cf2726eca742b8d76143f97c83acf6/1759334006/dash_h264.mpd?t=1760460960",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4076300/1323295967/ea7c200c36cf2726eca742b8d76143f97c83acf6/1759334006/hls_264_master.m3u8?t=1760460960",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 13,
+          "highlighted": [
+            {
+              "icon": "4f5148ca93535fb478bafe42510dc81727f4ed3b.jpg",
+              "localized_name": "Centurion",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Centurion",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/4f5148ca93535fb478bafe42510dc81727f4ed3b.jpg"
+            },
+            {
+              "icon": "4f5148ca93535fb478bafe42510dc81727f4ed3b.jpg",
+              "localized_name": "Massacre",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Massacre",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/4f5148ca93535fb478bafe42510dc81727f4ed3b.jpg"
+            },
+            {
+              "icon": "adb5795e94710c30caa986504b06c723d3058875.jpg",
+              "localized_name": "Exterminator",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Exterminator",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/adb5795e94710c30caa986504b06c723d3058875.jpg"
+            },
+            {
+              "icon": "98807b34f1be2e82ec2fd85be6cc39f252333226.jpg",
+              "localized_name": "Getting Started",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Getting Started",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/98807b34f1be2e82ec2fd85be6cc39f252333226.jpg"
+            },
+            {
+              "icon": "225045e10d1090a5b180669375638ab8634b317f.jpg",
+              "localized_name": "On a Roll",
+              "archived": 0,
+              "hidden": 0,
+              "name": "On a Roll",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/225045e10d1090a5b180669375638ab8634b317f.jpg"
+            },
+            {
+              "icon": "f913f3eb28c9ee9af302bdd0b0237709698a4509.jpg",
+              "localized_name": "High Score",
+              "archived": 0,
+              "hidden": 0,
+              "name": "High Score",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/f913f3eb28c9ee9af302bdd0b0237709698a4509.jpg"
+            },
+            {
+              "icon": "931c0dbc3244f28ce2fe50526a69cffa8186e643.jpg",
+              "localized_name": "Legend",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Legend",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/931c0dbc3244f28ce2fe50526a69cffa8186e643.jpg"
+            },
+            {
+              "icon": "a7bdc15341bf5dfac11e4baee99b545f4007fcfd.jpg",
+              "localized_name": "Collection",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Collection",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/a7bdc15341bf5dfac11e4baee99b545f4007fcfd.jpg"
+            },
+            {
+              "icon": "286843ad1cc101b49080d1fc6b4411e5c9b8cce7.jpg",
+              "localized_name": "Endurance I",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Endurance I",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/286843ad1cc101b49080d1fc6b4411e5c9b8cce7.jpg"
+            },
+            {
+              "icon": "286843ad1cc101b49080d1fc6b4411e5c9b8cce7.jpg",
+              "localized_name": "Endurance II",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Endurance II",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4076300/286843ad1cc101b49080d1fc6b4411e5c9b8cce7.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 28, 2025"
+        },
+        "support_info": {
+          "url": "https://alphanugamestudios.co.uk/contact-us",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4076300?t=1761635118",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4076300?t=1761635118",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

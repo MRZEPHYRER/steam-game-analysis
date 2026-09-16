@@ -1,0 +1,75 @@
+{
+  "appid": 2021390,
+  "requested_at": "2026-09-13T18:46:45.663707+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 53,
+      "total_negative": 11,
+      "total_reviews": 64
+    },
+    "reviews": [
+      {
+        "recommendationid": "213400400",
+        "author": {
+          "steamid": "76561198879364536",
+          "personaname": "Kawaii Doggo",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/kawaiidoggo/",
+          "num_games_owned": 244,
+          "num_reviews": 15,
+          "playtime_forever": 902,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 722,
+          "last_played": 1767495401,
+          "avatar": "057a9a7585c88e06aa4ecf263891f1ffb4bd7c55"
+        },
+        "language": "english",
+        "review": "Came from Youtube short to try and its a fun neat foddian game thats not too long. Currently has 3 levels, 2 more to come and for myself it took bout 8 hours to beat them all for the 1st time. This with major skill issue so you could probably do better.\n\nDifficulty wise would say to be easier than Jump King that it seems to be inspired from. Can recommend as the first \"Ragegame\" to play if youre interested in those as its not THAT hard. Currently tryna to 100% the achievements.\n\nAnd to the devs, #NoEasyMode, foddian/precision platformers dont need 'em, just takes from the core experience",
+        "timestamp_created": 1765862685,
+        "timestamp_updated": 1765932456,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.610892772674560547",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764872838",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXyDqAAAAAFP+OMb4AAAABwtYeuBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

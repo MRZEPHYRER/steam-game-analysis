@@ -1,0 +1,79 @@
+{
+  "appid": 3396740,
+  "requested_at": "2026-09-13T19:13:55.215441+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 28,
+      "total_negative": 35,
+      "total_reviews": 63
+    },
+    "reviews": [
+      {
+        "recommendationid": "215521166",
+        "author": {
+          "steamid": "76561199654546679",
+          "personaname": "VR Vada",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199654546679/",
+          "num_games_owned": 0,
+          "num_reviews": 86,
+          "playtime_forever": 300,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 153,
+          "last_played": 1774285049,
+          "avatar": "27d54041bede2e77ee768604c9ed89032ed77090"
+        },
+        "language": "english",
+        "review": "Had a blast playing this game with my friend. I didn't experience any bugs. Some entities are difficult and I hate spiders but the flame thrower is pretty effective; love the flame thrower. Not sure why reviews are mixed because this game is really good. You respawn fairly close to where you died so, there's no annoying start from the beginning nonsense. It's not too easy and not too hard so, it's just the right balance. Can't wait to play again. Just finished the game. Can't wait for more.",
+        "timestamp_created": 1767915588,
+        "timestamp_updated": 1768425186,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1744975589",
+        "reactions": [
+          {
+            "reaction_type": 24,
+            "count": 1
+          },
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB++JK2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

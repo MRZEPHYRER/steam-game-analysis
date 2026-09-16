@@ -1,0 +1,75 @@
+{
+  "appid": 2058140,
+  "requested_at": "2026-09-13T18:46:54.258412+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 173,
+      "total_negative": 4,
+      "total_reviews": 177
+    },
+    "reviews": [
+      {
+        "recommendationid": "204528077",
+        "author": {
+          "steamid": "76561197991182103",
+          "personaname": "raussell",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Raussell/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 338,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 338,
+          "last_played": 1758129265,
+          "avatar": "90a634fc802fef66c59a4eaac8187b627f9b1bc7"
+        },
+        "language": "english",
+        "review": "Alright, what the hell. I never feel strongly enough about games to leave reviews but this is just crazy. \n\nI bought this with zero context after Skate 4 ended up being a wash and Henry Halfhead just so happened to release the same day. I wasn't expecting to be so moved by such a silly and cool game, but this experience has made me want to go live my life and play like a child again. I firmly believe this 5 hours or so was used far more gratifyingly than what I would have spent trying to have fun on EA's latest dumpster fire. Media like this is the only way we will salvage what is left of people's humanity and move forward to a brighter and more playful future. Thanks guys, y'all are awesome.",
+        "timestamp_created": 1758082673,
+        "timestamp_updated": 1758082673,
+        "voted_up": true,
+        "votes_up": 52,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.834299147129058838",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758027607",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 8
+          },
+          {
+            "reaction_type": 9,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFTUGOAAAAAFP+qyk+AAAAB9nJuMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

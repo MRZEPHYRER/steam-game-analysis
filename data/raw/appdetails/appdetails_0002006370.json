@@ -1,0 +1,207 @@
+{
+  "requested_at": "2026-09-12T13:21:31.376171+00:00",
+  "request_params": {
+    "appids": 2006370,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2006370,
+  "payload": {
+    "2006370": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "PButtons",
+        "steam_appid": 2006370,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Have you ever felt the urge to press a button — even when you knew you weren’t supposed to? In shops, museums, or even at home, there’s something irresistible about a shiny red button just sitting there, begging to be pushed.</p><p class=\"bb_paragraph\" ><strong>What will happen if you press it?</strong><br>Will a mechanism spring to life? Will lights flash? Will an alarm sound? Or… will it explode?</p><p class=\"bb_paragraph\" ><strong>PButtons</strong> turns that instinct into a puzzle game. Here, the red buttons — called <strong>PButtons</strong> (for <i>Passive</i>) — are <strong>just out of reach</strong>. You can't click them with your mouse. Instead, they must be triggered by something else in the environment: a falling object, a mechanical arm, a chain reaction — anything but your direct input.</p><p class=\"bb_paragraph\" >Your only control? The AButtons (for Active) — square buttons in various colors that you can press to interact with the level. These stand in contrast to the round, red PButtons, which serve as passive elements within each puzzle.</p><p class=\"bb_paragraph\" >Every level is a small logical machine: press the right AButton at the right time, and you might trigger a mechanism that helps activate the PButton. Understand how the system works, solve the puzzle, and enjoy the deep satisfaction of watching that forbidden red button finally light up.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Have you ever felt the urge to press a button — even when you knew you weren’t supposed to? In shops, museums, or even at home, there’s something irresistible about a shiny red button just sitting there, begging to be pushed.</p><p class=\"bb_paragraph\" ><strong>What will happen if you press it?</strong><br>Will a mechanism spring to life? Will lights flash? Will an alarm sound? Or… will it explode?</p><p class=\"bb_paragraph\" ><strong>PButtons</strong> turns that instinct into a puzzle game. Here, the red buttons — called <strong>PButtons</strong> (for <i>Passive</i>) — are <strong>just out of reach</strong>. You can't click them with your mouse. Instead, they must be triggered by something else in the environment: a falling object, a mechanical arm, a chain reaction — anything but your direct input.</p><p class=\"bb_paragraph\" >Your only control? The AButtons (for Active) — square buttons in various colors that you can press to interact with the level. These stand in contrast to the round, red PButtons, which serve as passive elements within each puzzle.</p><p class=\"bb_paragraph\" >Every level is a small logical machine: press the right AButton at the right time, and you might trigger a mechanism that helps activate the PButton. Understand how the system works, solve the puzzle, and enjoy the deep satisfaction of watching that forbidden red button finally light up.</p>",
+        "short_description": "A puzzle game about the irresistible urge to push buttons. You can’t press the red ones — they must be activated indirectly. Use yellow AButtons to trigger clever mechanisms and solve each level. Satisfy your curiosity one forbidden button at a time.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/542eff48915402d5aa4526e515d3e3a46a85023d/header.jpg?t=1759199138",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/capsule_231x87.jpg?t=1759199138",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/capsule_184x69.jpg?t=1759199138",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i3<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Graphics card supporting OpenGL<br></li><li><strong>Storage:</strong> 800 MB available space<br></li><li><strong>Sound Card:</strong> any</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Graphics card supporting OpenGL<br></li><li><strong>Storage:</strong> 800 MB available space<br></li><li><strong>Sound Card:</strong> any</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Wallace Robert"
+        ],
+        "publishers": [
+          "Softclive"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          724392
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy PButtons",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 724392,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "PButtons - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/ec70e49dc7763d3d4b184d8794dcc01bfa346f7d/ss_ec70e49dc7763d3d4b184d8794dcc01bfa346f7d.600x338.jpg?t=1759199138",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/ec70e49dc7763d3d4b184d8794dcc01bfa346f7d/ss_ec70e49dc7763d3d4b184d8794dcc01bfa346f7d.1920x1080.jpg?t=1759199138"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/07f52b49aedd4b71fb7ede1e79e6b1d79c4f595d/ss_07f52b49aedd4b71fb7ede1e79e6b1d79c4f595d.600x338.jpg?t=1759199138",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/07f52b49aedd4b71fb7ede1e79e6b1d79c4f595d/ss_07f52b49aedd4b71fb7ede1e79e6b1d79c4f595d.1920x1080.jpg?t=1759199138"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/4a8494144b883ea5290116fa7bf46c5e7b348f98/ss_4a8494144b883ea5290116fa7bf46c5e7b348f98.600x338.jpg?t=1759199138",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/4a8494144b883ea5290116fa7bf46c5e7b348f98/ss_4a8494144b883ea5290116fa7bf46c5e7b348f98.1920x1080.jpg?t=1759199138"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/9f703f5041564d85e4e98bae6308d26feb419393/ss_9f703f5041564d85e4e98bae6308d26feb419393.600x338.jpg?t=1759199138",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/9f703f5041564d85e4e98bae6308d26feb419393/ss_9f703f5041564d85e4e98bae6308d26feb419393.1920x1080.jpg?t=1759199138"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/569b15bf3bb3d93726040ae20865be845a100a14/ss_569b15bf3bb3d93726040ae20865be845a100a14.600x338.jpg?t=1759199138",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2006370/569b15bf3bb3d93726040ae20865be845a100a14/ss_569b15bf3bb3d93726040ae20865be845a100a14.1920x1080.jpg?t=1759199138"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257209005,
+            "name": "PButtons v0.6.0",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257209005/0023242ac5085e0b49fc156025d225c3d876d2f4/movie_600x337.jpg?t=1759199137",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2006370/483850261/500fb51baa3c2bbf7775c7d2079a5a7b0f8f1dad/1759198199/dash_av1.mpd?t=1759199137",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/483850261/500fb51baa3c2bbf7775c7d2079a5a7b0f8f1dad/1759198199/dash_h264.mpd?t=1759199137",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/483850261/500fb51baa3c2bbf7775c7d2079a5a7b0f8f1dad/1759198199/hls_264_master.m3u8?t=1759199137",
+            "highlight": true
+          },
+          {
+            "id": 257195159,
+            "name": "PButtons v0.5.1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257195159/a12c9c5214df57034939974033369f2dc28e9301/movie_600x337.jpg?t=1757439996",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2006370/1052525052/7b7b60f3364d0ca84da11c712367ac31d2aac969/1757439456/dash_av1.mpd?t=1757439996",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/1052525052/7b7b60f3364d0ca84da11c712367ac31d2aac969/1757439456/dash_h264.mpd?t=1757439996",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/1052525052/7b7b60f3364d0ca84da11c712367ac31d2aac969/1757439456/hls_264_master.m3u8?t=1757439996",
+            "highlight": true
+          },
+          {
+            "id": 257169408,
+            "name": "Coming Soon - 1st trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257169408/ba920ed603073eea33a0d9a2fb07f0627db6c20f/movie_600x337.jpg?t=1753202947",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2006370/1956274609/30072f56b5c429ca8e2003a7a28a3f5668bf1b7d/1752632218/dash_av1.mpd?t=1753202947",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/1956274609/30072f56b5c429ca8e2003a7a28a3f5668bf1b7d/1752632218/dash_h264.mpd?t=1753202947",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2006370/1956274609/30072f56b5c429ca8e2003a7a28a3f5668bf1b7d/1752632218/hls_264_master.m3u8?t=1753202947",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 2, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "sottclive@hotmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2006370?t=1759199138",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2006370?t=1759199138",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

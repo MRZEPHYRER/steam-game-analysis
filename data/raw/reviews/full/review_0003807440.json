@@ -1,0 +1,66 @@
+{
+  "appid": 3807440,
+  "requested_at": "2026-09-13T19:42:06.583477+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "214250896",
+        "author": {
+          "steamid": "76561198262493287",
+          "personaname": "vocaotome",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198262493287/",
+          "num_games_owned": 245,
+          "num_reviews": 5,
+          "playtime_forever": 224,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 224,
+          "last_played": 1766764007,
+          "avatar": "599aec9838f066a46a72c57b4115c79bda7bf081"
+        },
+        "language": "english",
+        "review": "The writing is really cute, ​during my first route I legit felt cheered up by lobby's wisdom and got emotional. But at the same time it had so many somber parts. While on surface glance the game was about how a cute pet can give someone strength when life seems bleak, it was also subtly exploring the negative ​side of leaning too hard into a coping mechanism. Mc [spoiler] leaving for the sea the happy ends [/spoiler] made me worry that [spoiler] the whole game was her hallucination [/spoiler] out of her desperation to deal with stress and feelings of inadequacy, which would be sad if true but still a good story! There were occasional spelling and grammar issues but nothing extreme enough to ruin my enjoyment, the story was perfect in how it shows instead of telling (a common issue in many media),  the most important factor of writing imo.",
+        "timestamp_created": 1766764764,
+        "timestamp_updated": 1766764764,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.555555582046508789",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765492955",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY442AAAAAFP+HHHWAAAABw2aaxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

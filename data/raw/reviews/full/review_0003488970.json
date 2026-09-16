@@ -1,0 +1,66 @@
+{
+  "appid": 3488970,
+  "requested_at": "2026-09-13T19:18:47.215643+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 1614,
+      "total_negative": 245,
+      "total_reviews": 1859
+    },
+    "reviews": [
+      {
+        "recommendationid": "204998791",
+        "author": {
+          "steamid": "76561198071375554",
+          "personaname": "Feena",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198071375554/",
+          "num_games_owned": 3214,
+          "num_reviews": 515,
+          "playtime_forever": 716,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 716,
+          "last_played": 1757773147,
+          "avatar": "534f9e538b97f985709b5d84eb0badff4fe7d854"
+        },
+        "language": "english",
+        "review": "I've been exploring and enjoying Chinese FMV games lately, and this one is among the best ones I've played. The story about an ex cop who wakes up one day, injured and having a strange watch connected to his wrist, he then realises his daughter has been kidnapped. The kidnapper sent him a phone to keep in contact with him, giving him difficult missions to fulfil within a minimal time, as he can see on the countdown watch. The choices will shape the main character's personality and the way he perceives things around him. Each chapter will have multiple endings depending on your actions. The game has multiple endings, but one goal is to save your daughter. \nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3568779395\n\nThe characters' acting was good; it felt like watching a real movie. Although not all of them are likeable, they kept the story interesting, and I was wondering how it would end. The more you interact with the people around you, the more you'll learn and can analyse the actions and decide how to react to each character, either trust them or not. \nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3568779486\n\nThere are a couple of puzzles, but nothing too difficult to solve, and if you get a bad ending, you could always navigate the map and return to any scene you want to change your response to it to get another outcome. This significantly increases the game's replayability until you achieve 100% completion on each day. \n\nThe ending depends on your relationship with all four characters and whether you aid them or not. Fixing the relationship is easy, as you don't have to replay the entire game; only the scene where you interacted with them is required. I liked the soundtracks and the acting so much.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3568779299 \n\nPros:\n+Interesting dark story with six chapters\n+Choices and consequences.\n+Good soundtracks.\n+Great acting.\n+Good character personality development.\n+Good game length.\n+Multiple endings and routes. (You can go back to any choice to change it)\n+You can skip previously seen scenes.\n+Steam achievements.\n\nCons:\n- The English subtitles are quite fast.\n\nIt took me 12 hours to experience all endings and routes; most of them are interesting, but I didn't expect the 'real' ending to be like that. Nonetheless, the game is good and worth playing. \n\n[quote]𝐹𝑜𝑟 𝑚𝑜𝑟𝑒 𝑟𝑒𝑣𝑖𝑒𝑤𝑠 𝑐𝘩𝑒𝑐𝑘 𝑚𝑦 𝑐𝑢𝑟𝑎𝑡𝑜𝑟 𝑝𝑎𝑔𝑒 [url=http://store.steampowered.com/curator/32399565/]𝐹𝑒𝑒𝑛𝑎'𝑠 𝐶𝘩𝑜𝑖𝑐𝑒[/url][/quote]\n[quote][url=https://store.steampowered.com/curator/32732116-IndieGems/] Follow [b]IndieGems[/b] [/url] for more reviews like this one. [/quote]\n",
+        "timestamp_created": 1758593703,
+        "timestamp_updated": 1758593703,
+        "voted_up": true,
+        "votes_up": 31,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.737494409084320068",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755143465",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVP1cAAAAAFP+eaqCAAAAB3iIGOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2970000000000255,
+  "transport_error_count": 0
+}

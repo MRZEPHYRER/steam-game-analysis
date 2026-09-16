@@ -1,0 +1,66 @@
+{
+  "appid": 3902830,
+  "requested_at": "2026-09-13T19:57:37.041729+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 296,
+      "total_negative": 2,
+      "total_reviews": 298
+    },
+    "reviews": [
+      {
+        "recommendationid": "211430610",
+        "author": {
+          "steamid": "76561199117365672",
+          "personaname": "becauseIm",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/2steinsgate2/",
+          "num_games_owned": 3582,
+          "num_reviews": 674,
+          "playtime_forever": 137,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 137,
+          "last_played": 1764343821,
+          "avatar": "3f5e9daea59216d7fe13df4e031d3537580e5e21"
+        },
+        "language": "schinese",
+        "review": "这能给作者收益倒是好事，就是这样不太算游戏吧？还是互动做到更多点比较好",
+        "timestamp_created": 1764343868,
+        "timestamp_updated": 1764343868,
+        "voted_up": true,
+        "votes_up": 17,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.662801980972290039",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764306335",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWvnQAAAAAFP+U1rIAAAAByzcWmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.985000000000582,
+  "transport_error_count": 0
+}

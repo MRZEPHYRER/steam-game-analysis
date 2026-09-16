@@ -1,0 +1,250 @@
+{
+  "requested_at": "2026-09-12T18:04:05.317133+00:00",
+  "request_params": {
+    "appids": 3922760,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3922760,
+  "payload": {
+    "3922760": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Claws of the Forest",
+        "steam_appid": 3922760,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Two teenage brothers, Max and Rex, are at the family cabin with their father when something unexpectedly happens. Max comes across a tiny creature that he's never seen before, and not long after, a mysterious presence seems to stalk him. After running back home to his cabin, he assumes the danger is gone, but he and his brother's sinister night has only just begun. Will they survive the night?</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Claws of the Forest is a short visual novel experience with 4 different endings.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game features: ~70 unique images. ~15K words. and 4 different endings</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Two teenage brothers, Max and Rex, are at the family cabin with their father when something unexpectedly happens. Max comes across a tiny creature that he's never seen before, and not long after, a mysterious presence seems to stalk him. After running back home to his cabin, he assumes the danger is gone, but he and his brother's sinister night has only just begun. Will they survive the night?</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Claws of the Forest is a short visual novel experience with 4 different endings.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The game features: ~70 unique images. ~15K words. and 4 different endings</p>",
+        "short_description": "A mysterious and sinister presence stalks you back to your cabin, where you and your brother are all alone.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Bulgarian, Czech, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Norwegian, Polish, Portuguese - Brazil, Romanian, Russian, Simplified Chinese, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/550d6ed80b6d642a0ff9058a165c9339187a41fe/header.jpg?t=1770824686",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/c5f887ab9da41199c9b4c86b374bb538464c3618/capsule_231x87.jpg?t=1770824686",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/c5f887ab9da41199c9b4c86b374bb538464c3618/capsule_184x69.jpg?t=1770824686",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10+<br></li><li><strong>Processor:</strong> 1.2 GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Graphics:</strong> 1280x720<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS x 10.6<br></li><li><strong>Processor:</strong> Any 64 bit processor<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12 or higher; SteamOS<br></li><li><strong>Processor:</strong> 1.2 GHz<br></li><li><strong>Memory:</strong> 500 MB RAM<br></li><li><strong>Graphics:</strong> OpenGL compatible card<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "developers": [
+          "VisualNovelGames"
+        ],
+        "publishers": [
+          "VisualNovelGames"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 99,
+          "discount_percent": 50,
+          "initial_formatted": "$1.99",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1378371
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Claws of the Forest",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1378371,
+                "percent_savings_text": "-50% ",
+                "percent_savings": 0,
+                "option_text": "Claws of the Forest - <span class=\"discount_original_price\">$1.99</span> $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/f58c09afcfbeee93a992f74b4d2e06782adb3882/ss_f58c09afcfbeee93a992f74b4d2e06782adb3882.600x338.jpg?t=1770824686",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/f58c09afcfbeee93a992f74b4d2e06782adb3882/ss_f58c09afcfbeee93a992f74b4d2e06782adb3882.1920x1080.jpg?t=1770824686"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/0f97e80c9c53d78408d704937bdaecf54f7a0993/ss_0f97e80c9c53d78408d704937bdaecf54f7a0993.600x338.jpg?t=1770824686",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/0f97e80c9c53d78408d704937bdaecf54f7a0993/ss_0f97e80c9c53d78408d704937bdaecf54f7a0993.1920x1080.jpg?t=1770824686"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/46e70ae209800be57a8c276f1410e4c6ffb4d2f0/ss_46e70ae209800be57a8c276f1410e4c6ffb4d2f0.600x338.jpg?t=1770824686",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/46e70ae209800be57a8c276f1410e4c6ffb4d2f0/ss_46e70ae209800be57a8c276f1410e4c6ffb4d2f0.1920x1080.jpg?t=1770824686"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/9447b63c7e501cc329bd98155aaa65c539ecd084/ss_9447b63c7e501cc329bd98155aaa65c539ecd084.600x338.jpg?t=1770824686",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/9447b63c7e501cc329bd98155aaa65c539ecd084/ss_9447b63c7e501cc329bd98155aaa65c539ecd084.1920x1080.jpg?t=1770824686"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/beb30185bf2cb0f7f76dfaa7ee0a5b67ac42c6fa/ss_beb30185bf2cb0f7f76dfaa7ee0a5b67ac42c6fa.600x338.jpg?t=1770824686",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/beb30185bf2cb0f7f76dfaa7ee0a5b67ac42c6fa/ss_beb30185bf2cb0f7f76dfaa7ee0a5b67ac42c6fa.1920x1080.jpg?t=1770824686"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257176506,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257176506/a2d2e09509f042466f0c0b484d0c14c68666745c/movie_600x337.jpg?t=1754322924",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3922760/1943496194/0296034059063dade09b11fd2a40a594a55aa215/1754322021/dash_av1.mpd?t=1754322924",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3922760/1943496194/0296034059063dade09b11fd2a40a594a55aa215/1754322021/dash_h264.mpd?t=1754322924",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3922760/1943496194/0296034059063dade09b11fd2a40a594a55aa215/1754322021/hls_264_master.m3u8?t=1754322924",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg",
+              "localized_name": "Start",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Start",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3922760/bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg"
+            },
+            {
+              "icon": "bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg",
+              "localized_name": "Ending_1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending_1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3922760/bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg"
+            },
+            {
+              "icon": "bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg",
+              "localized_name": "Ending_2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending_2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3922760/bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg"
+            },
+            {
+              "icon": "bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg",
+              "localized_name": "Ending_3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending_3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3922760/bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg"
+            },
+            {
+              "icon": "bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg",
+              "localized_name": "Ending_4",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending_4",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3922760/bb2e9773e497631651ce2c94d1cbcb1acdf42a9b.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "visigamma@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3922760?t=1770824686",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922760/d9a44af054948527f0e2513750eaa3dadb0c4c12/page_bg_raw.jpg?t=1770824686",
+        "content_descriptors": {
+          "ids": [
+            2,
+            5
+          ],
+          "notes": "Visual depictions of gore, blood, and violence. Written description of gory scenarios"
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema\nLinguagem imprópria\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt\nDerbe Sprache"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor\nKekerasan\nPenggunaan bahasa"
+          }
+        }
+      }
+    }
+  }
+}

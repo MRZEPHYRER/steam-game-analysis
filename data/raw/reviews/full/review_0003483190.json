@@ -1,0 +1,66 @@
+{
+  "appid": 3483190,
+  "requested_at": "2026-09-13T19:18:34.150935+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11,
+      "total_negative": 4,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "231764944",
+        "author": {
+          "steamid": "76561198065180662",
+          "personaname": "old_gamer",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198065180662/",
+          "num_games_owned": 3537,
+          "num_reviews": 106,
+          "playtime_forever": 88,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 88,
+          "last_played": 1785519398,
+          "avatar": "ae2eee9f7a10ff41559b54b9ae655a7f8a531de8"
+        },
+        "language": "russian",
+        "review": "Рельсовый тир с \"пластиковыми персонажами\", убогой анимацией и небольшой кучкой багов. Но тем не менее играть вполне можно, хоть и сложность сильно завышена. Вообще в игре сильно чувствуется дух старых рельсовых шутеров, таких как house of the dead или re: umbrella chronicles только тут вместо зомби инопланетяне с огромными глазами)",
+        "timestamp_created": 1785526830,
+        "timestamp_updated": 1785526830,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.608667612075805664",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755817691",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY056AAAAAFP+N6NWAAAABwvY70Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

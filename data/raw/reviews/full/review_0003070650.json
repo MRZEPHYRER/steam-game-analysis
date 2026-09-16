@@ -1,0 +1,68 @@
+{
+  "appid": 3070650,
+  "requested_at": "2026-09-13T19:03:09.384766+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 25,
+      "total_negative": 2,
+      "total_reviews": 27
+    },
+    "reviews": [
+      {
+        "recommendationid": "233138643",
+        "author": {
+          "steamid": "76561198989473958",
+          "personaname": "Pauline",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198989473958/",
+          "num_games_owned": 0,
+          "num_reviews": 10,
+          "playtime_forever": 2077,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2077,
+          "last_played": 1787378907,
+          "avatar": "6e8e06ded0b16d3bff8598468bd988af8b18ea86"
+        },
+        "language": "schinese",
+        "review": "不想结束啊...真的、真的超好玩！\n大部分时候都好充实！事情一件接着一件，总有新的内容可以体验...\n在巴哈姆特闲逛的时候看到了第二部的宣传，出于好奇就搜了一下结果发现了第一部。\n本来我是不怎么感兴趣模拟经营类游戏的，但看了评论后还是抱着试试的心态下载玩了玩，结果一发不可收拾地沉迷了...连着玩了一周左右吧！角色的人设都好有意思，立绘也非常精美。\n真是...相当优秀的作品啊，后续的第二部也加愿望单了...一定要热门起来呀…^^",
+        "timestamp_created": 1787074232,
+        "timestamp_updated": 1787379215,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1787358360,
+        "developer_response": "1. 精灵村右边的路是指已经进去精灵村了吗？\n(如果是指进去前被木桶挡住的路，那右边就没有办法再过去了，也没有任何东西了)\n\n2. 游戏攻略可以参考讨论区的置顶文章或是以下网址(如果没有被 steam 移除的话)\nhttps://mizuotaku.com/%E7%BE%A4%E5%B3%B6%E7%89%A9%E8%AA%9E-%E5%AF%A6%E7%BF%92%E9%8D%8A%E9%87%91%E8%A1%93%E5%A3%AB%E7%9A%8490%E5%A4%A9%E4%B9%8B%E6%97%85-%E6%94%BB%E7%95%A5%E8%88%87%E5%BF%83%E5%BE%97/\n\n3. 后山的山崖那边就是一只幽灵，你可能已经捕获了？\n\n4.元素精灵建议搭配天气瓶转换天气效果，并帮主角上 BUFF (可以直接喝全能药水)\n记得课要先上好上满，然后先集火其中一只，就会比较轻松了！(建议等级 35 等以上)\n",
+        "app_release_date": "1754352015",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABzna35Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

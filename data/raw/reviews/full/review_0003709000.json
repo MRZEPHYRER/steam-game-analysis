@@ -1,0 +1,71 @@
+{
+  "appid": 3709000,
+  "requested_at": "2026-09-13T19:33:19.068921+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "225149533",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 873,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 873,
+          "last_played": 1778362587,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "The Drawstring Dungeon is a surprisingly inventive roguelike deckbuilder that combines strategic card combat, customizable progression, and quirky humor into a highly replayable experience. Developed by Sleeper Build Studio, the game clearly takes inspiration from genre favorites like Slay the Spire while introducing enough unique ideas to establish its own personality. Instead of simply following the familiar formula of building a deck and surviving randomized encounters, the game experiments with player-driven enemy customization and card enhancement systems that make each run feel more personal and unpredictable.\n\nThe gameplay revolves around exploring a strange dungeon filled with bizarre enemies, branching paths, treasure rooms, and increasingly dangerous encounters. Battles unfold through turn-based card combat where players use attacks, defensive abilities, status effects, and special powers to survive enemy assaults. While the basic structure will feel immediately familiar to anyone experienced with roguelike deckbuilders, the game quickly begins introducing mechanics that separate it from more traditional entries in the genre. The result is a combat system that feels strategic without becoming overly complicated or slow-paced.\n\nOne of the most enjoyable features in the game is the charm system, which allows players to permanently modify cards during a run. Instead of relying solely on finding stronger cards, players can attach charms that significantly alter how existing cards behave. Some charms increase damage output, others apply status effects, reduce costs, or create entirely new interactions between abilities. This system creates a huge amount of flexibility when building decks because even simple starter cards can evolve into extremely powerful tools with the right combinations. Experimenting with charm synergies becomes one of the game’s most satisfying aspects, especially during longer runs where builds gradually become more specialized and chaotic.\n\nThe boss customization mechanic is where The Drawstring Dungeon becomes especially creative. Throughout progression, players are occasionally asked to choose modifiers or perks that future bosses will possess. At first, intentionally strengthening enemies sounds like a terrible idea, but the system introduces an excellent layer of strategic planning. Players must think carefully about which boss abilities will be least threatening to their current deck while still offering worthwhile rewards. This mechanic creates a fascinating risk-versus-reward dynamic because players are partially responsible for shaping the challenges waiting ahead. It adds a level of long-term decision-making that many deckbuilders lack.\n\nCombat itself feels smooth and rewarding once players begin unlocking stronger cards and relic combinations. Battles move at a fast enough pace to remain exciting without sacrificing strategic depth. Enemy variety is solid throughout most of the game, with different creatures forcing players to constantly adapt their approach. Some enemies punish defensive strategies, while others overwhelm players through status effects or aggressive attacks. This variety helps keep encounters engaging and encourages players to continue refining their builds rather than relying on a single repetitive tactic.\n\nVisually, the game embraces a colorful and cartoonish art style filled with exaggerated enemy designs and playful dungeon environments. The overall presentation mixes fantasy dungeon aesthetics with absurd humor, creating a tone that feels charming rather than overly serious. Many monsters are intentionally ridiculous in both appearance and naming, giving the world a strong sense of personality. While the graphics are not technically groundbreaking, the art direction helps the game stand out among more generic-looking indie deckbuilders.\n\nThe soundtrack and sound design also contribute positively to the experience. Music remains energetic during combat and lighter during exploration, helping maintain the game’s playful atmosphere without becoming distracting. Sound effects for attacks, card activations, and status effects provide satisfying feedback, especially during powerful turns where multiple synergies trigger at once. The game understands how important audiovisual feedback is for card-based combat, and strong combinations feel appropriately impactful when executed successfully.\n\nReplayability is easily one of the game’s greatest strengths. The large variety of cards, charms, relics, and enemy modifiers ensures that runs rarely feel identical. Players are constantly encouraged to experiment with different builds and strategies because unexpected synergies frequently emerge during progression. Even failed runs usually provide useful knowledge or unlocks that motivate players to immediately start another attempt. The randomization systems strike a good balance between unpredictability and strategic control, which helps maintain long-term engagement.\n\nHowever, the game is not without flaws. Balance issues occasionally become noticeable, particularly when certain charm combinations create overwhelmingly powerful builds that trivialize later encounters. On the opposite side, unlucky card draws or weak upgrade options can make some runs feel frustratingly difficult. Because so much of the game revolves around experimentation and randomization, there are moments where success feels more dependent on fortunate combinations than pure strategy.\n\nThe game’s complexity may also intimidate newcomers to the genre. As more mechanics, status effects, and card interactions become available, understanding optimal synergies can become overwhelming. While the game explains its systems reasonably well, players unfamiliar with roguelike deckbuilders may initially struggle with long-term planning and build management. The learning curve is rewarding, but it does require patience.\n\nAnother minor weakness is the lack of environmental variety during extended play sessions. While enemy encounters remain entertaining, the dungeon themes and room designs eventually begin to feel repetitive after many runs. Additional visual diversity and more biome variation would have helped strengthen the sense of progression over longer periods of play.\n\nDespite these shortcomings, The Drawstring Dungeon succeeds because of how creative and flexible its systems feel. It takes familiar deckbuilding mechanics and adds enough experimental ideas to create something memorable. The charm system and customizable boss encounters make every run feel unique, while the strong replayability ensures players always have new combinations and strategies to discover.\n\nFor fans of roguelikes, deckbuilders, and strategy games focused on experimentation, The Drawstring Dungeon is an easy recommendation. Its mix of clever progression systems, satisfying combat, and playful presentation creates an addictive gameplay loop that remains entertaining long after the first few runs. While it still has a few balancing issues and some repetitive elements, the game’s creativity and strategic depth make it stand out as one of the more interesting indie deckbuilders in recent years.\n\nRating: 7/10",
+        "timestamp_created": 1778364480,
+        "timestamp_updated": 1778364480,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.439606070518493652",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751392765",
+        "reactions": [
+          {
+            "reaction_type": 27,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFbNTeAAAAAFP9wigUAAAAB9pfDaBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3126880,
+  "requested_at": "2026-09-13T19:04:50.005143+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 19,
+      "total_negative": 7,
+      "total_reviews": 26
+    },
+    "reviews": [
+      {
+        "recommendationid": "208121324",
+        "author": {
+          "steamid": "76561198091930247",
+          "personaname": "Maru",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/maruview/",
+          "num_games_owned": 353,
+          "num_reviews": 7,
+          "playtime_forever": 87,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 87,
+          "last_played": 1761993706,
+          "avatar": "de657fe0a9d572c0a9661344c82da615b84fe826"
+        },
+        "language": "spanish",
+        "review": "Early Access game, very ambitious, I like the style, it reminds me of games like Torchlight, and playing with friends is a lot of fun. I like the art style and gameplay, and being able to customize your character with dice. It's fun trying to match synergies with your partner, and the loot feels great.\n\n Keep up the good work! \n\nI would like a little more practical information rather than text panels at times, but that's something that can be improved over time and is to be expected from an EA game.\n\n Without being a big D&D fan, I found it fun, and there have been moments of trolling with friends that add spice to it. I also think the game loop is already very well done; playing feels good with the new items.\n\n I would also like to see level-up improvements appear automatically, but that's just my personal preference.",
+        "timestamp_created": 1761994030,
+        "timestamp_updated": 1761994030,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755165675",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZIO6AAAAAFP+Fk6MAAAAB83vWZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9529999999999745,
+  "transport_error_count": 0
+}

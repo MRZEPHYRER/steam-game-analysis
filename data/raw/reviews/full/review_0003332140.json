@@ -1,0 +1,73 @@
+{
+  "appid": 3332140,
+  "requested_at": "2026-09-13T19:11:22.164949+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 0,
+      "total_negative": 3,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "203078899",
+        "author": {
+          "steamid": "76561197985672769",
+          "personaname": "DitoMido",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/DitoMido/",
+          "num_games_owned": 2401,
+          "num_reviews": 1442,
+          "playtime_forever": 40,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 40,
+          "last_played": 1756423914,
+          "avatar": "6419ca8daf63a6318bb95bb1580b86abff7ef88e"
+        },
+        "language": "german",
+        "review": "Scary Scuffed Games #417\nhttps://twitch.tv/DitoMido\n\nBisherige Reviews Archiv:\nhttps://rsg.ditomido.de/archive\n\nVorgeschlagen von: drksmoo\n\nSmells Like Fear Blossoms ist nicht nur nicht fertig gekocht, sondern im vornherein halbgar. Wer sich das Spiel antut den erwartet eine 40 Minütige extrem laute Stille, keine klare angabe wie das Spiel zu spiel zu spielen ist, ein absolut unübersichtliches Gamedesign in welchem wir vor Zombieblumen davon davon laufen, ständig eingeholt werden und via trial and Error den richtigen Weg finden müssen. Das ganze in einem 2.5D Asset Flip Stadbild in welchem es einfacher ist out of Bounds zu gehen, als den richtigen Weg zu finden oder eine Idee zu bekommen, was überhaupt von uns verlangt wird. Hinzu kommen absolut grottige Übersetzungen und ein absolut unverständlicher Plot. Selbst bei 40% Rabatt ist der Preis in meinen Augen eine absolute Frechheit, dass so ein unfertiges undpoliertes Spiel überhaupt zum Kauf angeboten wird. Es ist im besten Falle eine wirklich unausgefeilte Demo.\n\nRating:\nDito: 1.4/5\nChat: 1.85/5\nGesamt: 1.63/5",
+        "timestamp_created": 1756424275,
+        "timestamp_updated": 1756424275,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1756439169,
+        "developer_response": "Vielen Dank, dass Sie Smells Like Fear Blossoms gespielt und uns Ihr ehrliches Feedback mitgeteilt haben.\nDie von Ihnen angesprochene mangelnde Benutzerfreundlichkeit im Gamedesign sowie die Unklarheit im Spielfortschritt sind für uns ein wichtiges Lernfeld, das wir sehr ernst nehmen.\n\nDie Inhalte Ihrer Rezension werden wir in zukünftigen Updates und auch in kommenden Projekten unbedingt berücksichtigen.\nFür dieses Spiel möchten wir so bald wie möglich Verbesserungen vornehmen, damit die Spielerinnen und Spieler klarere Hinweise und Leitfäden erhalten, was als Nächstes zu tun ist.\n\nWir entschuldigen uns aufrichtig dafür, dass wir Ihre Erwartungen diesmal nicht erfüllen konnten, und werden unser Bestes geben, um in Zukunft ein deutlich besseres Spielerlebnis zu bieten.\n\nAnoGame Studio",
+        "app_release_date": "1756379477",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAABzz9eGBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.157000000000153,
+  "transport_error_count": 0
+}

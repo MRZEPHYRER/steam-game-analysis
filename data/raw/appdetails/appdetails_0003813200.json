@@ -1,0 +1,174 @@
+{
+  "requested_at": "2026-09-12T16:47:42.851719+00:00",
+  "request_params": {
+    "appids": 3813200,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3813200,
+  "payload": {
+    "3813200": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "萌宠消消乐",
+        "steam_appid": 3813200,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >《萌宠消消乐》是一款轻松休闲的消除类游戏，玩家需要通过横向移动动物方块，移动下方有空位时方块会掉下去，遇到相同的方块会消除！</p><h2 class=\"bb_tag\" ><strong> 核心玩法</strong></h2><h2 class=\"bb_tag\" ><strong>（1）基本规则</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>横向消除：玩家可以横向移动动物方块，遇到相同的方块会消除！</strong></p></li><li><p class=\"bb_paragraph\" >消除效果：成功匹配后，动物头像会消失</p></li></ul><h2 class=\"bb_tag\" ><strong>（2）游戏目标</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>消除所有指定动物，完成关卡目标。</strong></p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >《萌宠消消乐》是一款轻松休闲的消除类游戏，玩家需要通过横向移动动物方块，移动下方有空位时方块会掉下去，遇到相同的方块会消除！</p><h2 class=\"bb_tag\" ><strong> 核心玩法</strong></h2><h2 class=\"bb_tag\" ><strong>（1）基本规则</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>横向消除：玩家可以横向移动动物方块，遇到相同的方块会消除！</strong></p></li><li><p class=\"bb_paragraph\" >消除效果：成功匹配后，动物头像会消失</p></li></ul><h2 class=\"bb_tag\" ><strong>（2）游戏目标</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>消除所有指定动物，完成关卡目标。</strong></p></li></ul>",
+        "short_description": "《萌宠消消乐》是一款轻松休闲的消除类游戏，玩家需要通过横向移动动物方块，移动下方有空位时方块会掉下去，遇到相同的方块会消除！",
+        "supported_languages": "Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/23606fb07ac74827397e433dcd56abaf339214c5/header.jpg?t=1752131747",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/769fada01eaf0c5fb1897cae6dafd3a0c98a5363/capsule_231x87.jpg?t=1752131747",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/769fada01eaf0c5fb1897cae6dafd3a0c98a5363/capsule_184x69.jpg?t=1752131747",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 or later<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 1gb VRAM, OpenGL 3.0 support<br></li><li><strong>Storage:</strong> 300 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "云栖工作室"
+        ],
+        "publishers": [
+          "云栖工作室"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1341247
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy 萌宠消消乐",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1341247,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "萌宠消消乐 - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/5a572adad491186d7589f56100f5b202449dbb2e/ss_5a572adad491186d7589f56100f5b202449dbb2e.600x338.jpg?t=1752131747",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/5a572adad491186d7589f56100f5b202449dbb2e/ss_5a572adad491186d7589f56100f5b202449dbb2e.1920x1080.jpg?t=1752131747"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/a515c323bebc3a36f49ccad35d9db9bb82b54122/ss_a515c323bebc3a36f49ccad35d9db9bb82b54122.600x338.jpg?t=1752131747",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/a515c323bebc3a36f49ccad35d9db9bb82b54122/ss_a515c323bebc3a36f49ccad35d9db9bb82b54122.1920x1080.jpg?t=1752131747"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/8add2157933bb25a8cc88456ce8051d43f9f10ec/ss_8add2157933bb25a8cc88456ce8051d43f9f10ec.600x338.jpg?t=1752131747",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/8add2157933bb25a8cc88456ce8051d43f9f10ec/ss_8add2157933bb25a8cc88456ce8051d43f9f10ec.1920x1080.jpg?t=1752131747"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/44a5792f67ee5f2809d35e93d4c570abfde78c3f/ss_44a5792f67ee5f2809d35e93d4c570abfde78c3f.600x338.jpg?t=1752131747",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/44a5792f67ee5f2809d35e93d4c570abfde78c3f/ss_44a5792f67ee5f2809d35e93d4c570abfde78c3f.1920x1080.jpg?t=1752131747"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/922e4e1f5586b7eab080eb4a5307f1c2beea5afb/ss_922e4e1f5586b7eab080eb4a5307f1c2beea5afb.600x338.jpg?t=1752131747",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/922e4e1f5586b7eab080eb4a5307f1c2beea5afb/ss_922e4e1f5586b7eab080eb4a5307f1c2beea5afb.1920x1080.jpg?t=1752131747"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257159498,
+            "name": "haoge2",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257159498/4755c329c3437539221cebc9734d51eb063ebe33/movie_600x337.jpg?t=1750980326",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3813200/874314256/5137945f39b923949902b5e9fb8a21e55594f26e/1750690400/dash_av1.mpd?t=1750980326",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3813200/874314256/5137945f39b923949902b5e9fb8a21e55594f26e/1750690400/dash_h264.mpd?t=1750980326",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3813200/874314256/5137945f39b923949902b5e9fb8a21e55594f26e/1750690400/hls_264_master.m3u8?t=1750980326",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 10, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "13713659927@163.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3813200?t=1752131747",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813200/5963b45658fac56adf428976974b715a16409169/page_bg_raw.jpg?t=1752131747",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appid": 3210590,
+  "requested_at": "2026-09-13T19:07:19.637912+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 5,
+      "total_negative": 0,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "213946564",
+        "author": {
+          "steamid": "76561198142319193",
+          "personaname": "[ DS ] GRISS0N",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/GRISS0N/",
+          "num_games_owned": 455,
+          "num_reviews": 42,
+          "playtime_forever": 21,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "last_played": 1767134331,
+          "avatar": "e55ccd92add6953767c58530aa8d540c95017cd8"
+        },
+        "language": "brazilian",
+        "review": "O jogo é bem divertido, pra quem gosta de jogos de plataforma. Destaque para a pixel art que foi muito bem feita!",
+        "timestamp_created": 1766437662,
+        "timestamp_updated": 1766437662,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756727095",
+        "reactions": [
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB0jJKwBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

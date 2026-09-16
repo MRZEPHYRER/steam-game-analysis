@@ -1,0 +1,66 @@
+{
+  "appid": 4023200,
+  "requested_at": "2026-09-13T20:12:38.086378+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "217662480",
+        "author": {
+          "steamid": "76561199000341143",
+          "personaname": "stevenm_120",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199000341143/",
+          "num_games_owned": 0,
+          "num_reviews": 71,
+          "playtime_forever": 1218,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1218,
+          "last_played": 1770862408,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "This is a really great game. I enjoyed this a lot.\n\nA few things that stood out to me:\n\n-The horror was well done. Don't be hesitant if you're easily scared though, it's a very manageable level of scares. It builds the suspense more with sound and atmosphere and survival. If you want a genuine scare though, try \"brave mode\" aka ghost mode, very creepy and fun.\n-You may be a bit confused at first. Much like the game Control, Penelope Syndrome drops you in with almost no info and unveils the story as it goes. Stick with it and you'll be rewarded with unique spin on storytelling and an emotional journey. Trust me, its worth it.\n-If you've played this developers previous games, just know that Penelope here is a very different character then Cherry, Trix, and Alicia Crash. You have to give Penelope some time to get to know her, but when you do, you'll be all in on her journey.\n-If you get to the end you'll be rewarded with a really great ending credit song. A+\n\none other thing to note:\n-There is a \"hoard mode\" that can possibly trigger rarely and randomly. If this happens try to get out of the level as quick as you can because things get intense and the difficulty heightens. The enemy balance during this initially caused some frustration for me, but upon replaying this as of 2/10/26, it appears the devs have noticed and patched it, so it is a much smoother experience. \n\nThere are so many games on steam, it can be hard to find quality in the sea of games sometimes. I'm happy I gave Critoniuum and Dd games a shot because they turned out to be really enjoyable experiences. I'd definitely recommend giving Penelope Syndrome a try. And to check out the previous games from the developer too.",
+        "timestamp_created": 1770335989,
+        "timestamp_updated": 1771130861,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.586206912994384766",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761582565",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYRp8AAAAAFP+LCNSAAAABwwai+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

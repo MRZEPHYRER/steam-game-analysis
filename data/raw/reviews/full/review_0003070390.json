@@ -1,0 +1,68 @@
+{
+  "appid": 3070390,
+  "requested_at": "2026-09-13T19:03:07.165667+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 108,
+      "total_negative": 0,
+      "total_reviews": 108
+    },
+    "reviews": [
+      {
+        "recommendationid": "215384290",
+        "author": {
+          "steamid": "76561199845462797",
+          "personaname": "maromiri",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199845462797/",
+          "num_games_owned": 0,
+          "num_reviews": 7,
+          "playtime_forever": 229,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1772204719,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "japanese",
+        "review": "ストーリーのしっかりした謎解きゲーム。様々な地域の言語をモチーフにしているところが独創的。\n待ちに待った日本語対応も嬉しい。\n嬉しいんだけどね。日本語版なのに、多くの漢字が簡体字なのよ！中国で使ってる文字ですよー！\n文脈からなんとなく分かるんだけど、これはなんの漢字だろ？って推測しながら読まないといけないところも多い。\n運営さんはすごく一生懸命な感じで、頑張ってるなーと応援したい気持ちなので、中国語と日本語の文字の違いについては、そのうち直してもらえたら嬉しいな。なんと言っても言語をモチーフにしているゲームですからね！\n\n→というレビューを書いたら、早速直してくださったんです。ありがとう！嬉しい！",
+        "timestamp_created": 1767774970,
+        "timestamp_updated": 1769811553,
+        "voted_up": true,
+        "votes_up": 25,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.774319291114807129",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1770286876,
+        "developer_response": "熱心なフィードバックをいただき、ありがとうございます！ ご報告いただいた件ですが、現在は修正が完了しており、日本語UIに簡体字が混ざることはなくなりました。ぜひ新しいバージョンで快適に遊んでいただければ幸いです。",
+        "app_release_date": "1762266584",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUg3yAAAAAFP+jHOKAAAAByjtC1Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,100 @@
+{
+  "appid": 2288470,
+  "requested_at": "2026-09-13T18:49:08.431957+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 2349,
+      "total_negative": 225,
+      "total_reviews": 2574
+    },
+    "reviews": [
+      {
+        "recommendationid": "228269286",
+        "author": {
+          "steamid": "76561197963635353",
+          "personaname": "coldize",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197963635353/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 5595,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 4944,
+          "deck_playtime_at_review": 4944,
+          "last_played": 1785216111,
+          "avatar": "1897af99dfd4d26885a8e64b1896c3ebd8a2aaa4"
+        },
+        "language": "english",
+        "review": "I really want to like this game.\n\nI've been thinking hard about what's making it feel unsatisfying, and I wanted to write this while it's still in early access and while I still have hope the devs might act on some of this.\n\n1. It's not that runs take too long, it's that they FEEL too long.\n\nNothing new or exciting happens from run to run. Players want to feel powerful, which means you need to give them opportunities both to acquire power and to use it. Get us to the action faster. Get us to the moments where our choices matter. Create more moments of excitement and delight, and make rare things actually feel rare.\n\n+ What if, instead of choosing a single monster in town and then summoning another at the start of a run, you offered a choice of 3 pairs of monsters before you began? What if each monster came with a pre-assigned random trait from their pool? \n+ What if we also skipped the first level of the pilgrimage path entirely? You'd be putting players ahead with a far more interesting beginning choice.\n\n\n2. Exploration feels like a chore.\n\nIt needs to be more dynamic. Combing a map just to find the last 3g shiny spot isn't fun. You already have breakable assets in the world. Follow Zelda's lead and let coins drop out of them occasionally. Think about how exciting it was to see a big red rupee appear out of a broken pot when Link smashed it. Use fewer shiny spots, but make each one matter. Either give players a real reason to care about the map, or lean into the Slay the Spire model and cut the exploration altogether.\n\n+ What if some enemies had a patrol path and if they spot you then you begin the fight staggered? \n+ What if enemies rarely dropped trophies you could collect and display in town — and destroying a trophy gave your next run a unique effect? \n+ What if there were rare hidden walls with a meaningful reward inside? \n+ What if a rare chest could appear sometimes containing a trophy, premium currency, or a permanent upgrade?\n\n\n3. Combat is somehow both too complex and one-dimensional.\n\nOne-dimensional: your party quickly gets optimized into following the same pattern every fight. Monsters get locked into single priority actions, so you're making the same choices each round regardless of what you're up against.\n\nToo complex: there are a lot of systems interacting in ways that aren't clearly communicated, so it's genuinely hard to know what will happen. Monster perks often fade into background noise until they suddenly matter. The worst offender is the interrupt mechanic: you ready an ability, the target shows it will be interrupted, you fire... and it doesn't interrupt. Then a burn or sidekick trigger steals the interrupt instead. The choice I made based on what the screen showed me turned out not to be the choice that actually happened.\n\nFights also just feel same-y because enemies don't have enough variety in how they're defeated. Your strategy rarely needs to change. You may as well give players a synergy score and let fights auto-resolve (which isn't fun, so don't). Boss fights are the one place where scaling power gets to shine. \n\n+ What if you sometimes encountered mini-bosses in biomes? \n+ What if fights weren't always 3v3? \n+ What if perks were displayed as icons under health bars, separate from the buff/debuff clutter?\n\n\n4. The lore and dialogue is exhausting.\n\nExposition dumps are outdated. The best lore is mysterious and discoverable.  Presenting a perfect opportunity to make map exploration more rewarding without just handing out more power. You don't have to say things outright; players care more when they feel like they earned the discovery. Hollow Knight is the obvious example: its lore is endlessly compelling precisely because it's subdued. You encounter things that make you curious. You don't get a wiki article read back to you.\n\nIf you're going to have this much dialogue, make it about the relationships between characters. Give NPCs personality rather than making them lore-dispensing machines.\n\n+ What if lore interactibles on maps were rarer and more significant? Instead of Siriux telling the player what he knows, what if he described it as if the player were there? Invoke a feeling, hint at a connection to your monsters? \n+ What if something special triggered when you encountered a lore moment with the right monster in your party?\n\n\n5. Progression peaks too fast.\n\nIt's very easy to buy out most of the town upgrades, and once you do, rewards stop feeling like rewards. I want to open a shop and get excited to try something in my next run. There's some of that, just not enough.\n\nIt's roguelike 101: make the baseline harder, and front-load the power curve with more direct, exciting rewards early on. Your first run should rarely be winnable. You quickly get stronger, push your progression further, until you settle into a steadier core loop where power jumps are fewer and farther between. That dopamine cycle is what hooks people in the early runs.\n\n\n6. Town and its NPCs need more life.\n\nAfter a run, I cross the bridge and go talk to the Knight. I've bought out his inventory for a while now, but I still open it every time, hoping something new appeared. I'm certain I'm not alone in that.\n\nWhat if you could buy something from the Knight that guaranteed he'd appear in your first level? From the Witch, something that guaranteed your first reroll included Maverick Skills? From the Cook, a guaranteed set of options when you find him on a run?\n\n+ What if NPCs had a rotating inventory so there's always something new to consider. \n+ What if the Knight sold something that guaranteed he'd appear in the first level?\n+ What if the Witch sold something that guaranteed your first reroll included Maverick Skills?\n+ What if you introduced quest lines? Quest lines could put major progression upgrades behind more interesting mechanisms than purchasing with currency. They can give personality to NPCs, be a vehicle for giving more lore, and present opportunities to make exploration or each run feel different.\n\nThe Cook quest line concept writes itself:\nStage 1: Craft a memento for an ooze → unlock monster meals between biomes\nStage 2: Complete a unique run with a full party of 3 oozes → unlock tier 2 monster meals\nStage 3: Complete a Heroic run starting with an ooze carrying a quest item it can't replace → unlock tier 3 monster meals (or a unique bonus)\n\nThe town is full of NPCs and things to look at that have nothing to do and no reason to interact with. That's a lot of wasted potential.\n\n\nI'll continue playing the game through early access and will be excited to try out new content and features as they're released. As it stands now, I just get bored with the game pretty quickly after trying to get into it again.",
+        "timestamp_created": 1781803668,
+        "timestamp_updated": 1781803668,
+        "voted_up": false,
+        "votes_up": 296,
+        "votes_funny": 7,
+        "weighted_vote_score": "0.889856457710266113",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "app_release_date": "1758628573",
+        "reactions": [
+          {
+            "reaction_type": 29,
+            "count": 18
+          },
+          {
+            "reaction_type": 26,
+            "count": 10
+          },
+          {
+            "reaction_type": 33,
+            "count": 7
+          },
+          {
+            "reaction_type": 31,
+            "count": 5
+          },
+          {
+            "reaction_type": 32,
+            "count": 5
+          },
+          {
+            "reaction_type": 24,
+            "count": 3
+          },
+          {
+            "reaction_type": 34,
+            "count": 3
+          },
+          {
+            "reaction_type": 27,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSM/AAAAAAFP+x5s0AAAAB2zuPmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2650000000001,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 2372450,
+  "requested_at": "2026-09-13T18:50:14.957999+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 6,
+      "total_negative": 0,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "204262568",
+        "author": {
+          "steamid": "76561199212200181",
+          "personaname": "Its Peter",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199212200181/",
+          "num_games_owned": 83,
+          "num_reviews": 2,
+          "playtime_forever": 493,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 372,
+          "last_played": 1767560953,
+          "avatar": "8a78a24d3ae3031caf2695bc4dede2d6eb7af7cf"
+        },
+        "language": "english",
+        "review": "Fun game, but tons of bugs existing",
+        "timestamp_created": 1757790630,
+        "timestamp_updated": 1757790630,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1712941227",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFmAAAAAAAAFAAAAAAAAAAB4ypmLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.046999999999798,
+  "transport_error_count": 0
+}

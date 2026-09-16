@@ -1,0 +1,69 @@
+{
+  "appid": 3262080,
+  "requested_at": "2026-09-13T19:08:57.708675+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "203174609",
+        "author": {
+          "steamid": "76561197998163834",
+          "personaname": "Katana Squirrel",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/katanasquirrel/",
+          "num_games_owned": 3667,
+          "num_reviews": 90,
+          "playtime_forever": 17,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "deck_playtime_at_review": 17,
+          "last_played": 1756552801,
+          "avatar": "3189a438213ca54663b859a8a9187c1a6b3e82bc"
+        },
+        "language": "english",
+        "review": "Edit: I am fully willing to eat crow on this review. Thanks to the developer for the insight on how the word list was obtained. I'm only leaving the original text of the review for larger context.\n\nKnowing that the list was pulled from an actual list instead of some AI generated list pulled off some random website is extremely helpful, even if Google could not, for the life of it, figure out what I was trying to search for. \n\nI'll move my review from Not Recommended to Recommended, with that further information. My only caveat is that, as mentioned in my initial review, some of the words that may pop up are extremely uncommon, so when you're trying to combo specific words together.\n\nI like the look and the style, and I hope once the game makes it to 1.0, the dev has gotten the chance to expand on this nifty little concept. \n\nRecommend if you like word puzzles and if you can get around the little bit of weirdness with some of the words. \n\n\n--------------\n\nI've had this on my wishlist for a bit, and I was really looking forward to having another word game on my Steam Deck. \n\nPlayed the demo a bit back during one of the Steam Next Fests. I didn't notice anything then, but I probably would have just written it off as the sort of jank you'd see in a demo. Not indicative of the final product, you know?\n\nI have no idea what dictionary they are pulling words from with this game. I've had words like \"dub,\" \"zzz,\" \"byad,\" \"ewt,\" \"togt,\" and \"hie.\"\n\nNow, a couple of them, you can understand. Dub, zzz, etc.\n\nBut I cannot, for the life of me, understand where the \"word\" \"togt\" comes from.\n\nInitially, I suspected that maybe the devs were not stationed out of a native English language country, which would explain it. I mean, it would make it tough for me, as a person who speaks English almost exclusively, but I could at least get why that would happen.\n\nBut once I started looking into the devs, I found a note that they're based out of the US. So what the heck happened here?\n\nI have a weird suspicion, and I want it abundantly clear, I have no concrete evidence to confirm this is what happened. It's a hunch and I do not endorse anyone buying or avoiding this purely on this hunch. Look into it, play the demo, and then make your mind up.\n\nBut I have a hunch that the dictionary might be pulling from some kind of AI generated list of words.\n\nThe reason is this: Looking into the developer, I see they've made a board game previously. Looking at the website for this board game (Runes of Zen,) and the card art is extremely AI generated looking. All of them have that kind of AI generated style (almost wispy, I could describe them as,) and buildings on the cards gave nonsensical windows and designs that wouldn't make sense if they were drawn by hand.\n\nThe game does list only two developers, and as far as a game concept, I think it's really nifty. But I also would guess that the developers used some kind of an AI generated list of four letter words, after having seen their board game art.\n\nAgain, I have no concrete evidence to support this,  and I encourage people to play the demo and make their own decisions.\n\nHowever, if the words are nonsensical, it makes it nearly impossible to really plan out lining up certain words to make certain combinations of higher scoring words.\n\nRegardless if AI was involved or not, that is my main issue. It only took me one game to notice these nonexistent words.\n\nMy genuine hope is that this issue, regardless of where it came from, gets resolved by the time 1.0 comes out. The game ran fine on my Steam Deck, and I do really enjoy the core idea here. If the issues get resolved, I'd be happy to check it out again, because these kinds of games excel on the Steam Deck.",
+        "timestamp_created": 1756553219,
+        "timestamp_updated": 1756590217,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": true,
+        "timestamp_dev_responded": 1756578391,
+        "developer_response": "Thanks for your review! No AI was used at all. The last word in question \"togt\" along with most of the others can be found in the Oxford English Dictionary among others. The only outlier for me seemed to be \"byad\" which looks like a borrowed word (English is brimming with them) and my google search only turned up the urban dictionary as a recent source. The word list we use is based on an open source version of the international Scrabble dictionary and it has tens of thousands of words, some very obscure indeed. We only removed some words from it (obvious slurs that have no modern primary meaning) because we don't want to promote them, and added our company name (gobico) for fun. Part of the interesting twist to our game is that it will show you words you've never heard of. Our hope is that it encourages players to go look up the weird ones. 😊\n\nScoring is based on: obscurity of letters in common use (like Scrabble tiles, but we use our own slightly different distribution based on our own surveys of modern source material). Additionally, stars match not just one letter that will work (Like Scrabble blank tiles), but all letters that can make legal words. This can be a lot! My personal best score in one pop is 82 words if I recall. The score for a given pop is also multiplied by the combo you have running. So if you had scored 100 words since your last pop, the next pop will be 100x whatever words are popped with it. This is easier to follow in the more difficult board setups where it's less common to score so many words at once.\n\nAs for the Runes of  tabletop game, we did experiment with generative AI art for one expansion back in 2021. It was very hard indeed. I would argue it almost took me longer to get the AI to work than if it had been done by hand. Plus it took a lot of Photoshopping in the end. It may work for some devs, but I didn't like the experience.\n\nI hope that helps! Please let us know if you have any other questions.",
+        "app_release_date": "1756506658",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFfF0UAAAAAFP+F0XgAAAABxrYaHBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0779999999999745,
+  "transport_error_count": 0
+}

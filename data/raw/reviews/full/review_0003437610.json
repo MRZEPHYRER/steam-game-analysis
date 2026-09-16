@@ -1,0 +1,66 @@
+{
+  "appid": 3437610,
+  "requested_at": "2026-09-13T19:15:55.995161+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "213713297",
+        "author": {
+          "steamid": "76561198121474820",
+          "personaname": "a.h.alfarsi",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/dante_uae/",
+          "num_games_owned": 0,
+          "num_reviews": 31,
+          "playtime_forever": 124,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 124,
+          "last_played": 1766224237,
+          "avatar": "c1a89c444b0745e6fb3f5ff7fa74e098de7eac16"
+        },
+        "language": "english",
+        "review": "This game has strong potential, and it’s clear that it was created with passion and care. The story is engaging, and the gameplay mechanics are enjoyable and well-designed.\nHowever, there are two areas that need improvement.\nFirst, the environments and maps feel cluttered and unfocused. There are too many unnecessary details, and the excessive visual effects become distracting rather than immersive.\nSecond, there is no Character Status screen to track EXP. Adding an EXP gauge or bar would help players understand their progression and when they can expect to level up. I defeated many enemies yet remained stuck at Level 1, which felt confusing. Additionally, the first boss should be much easier—challenging but not frustrating or seemingly unbeatable.\nDespite these issues, I still recommend this game. The story and mechanics are genuinely enjoyable, and with a few updates, it could become something truly great.",
+        "timestamp_created": 1766225092,
+        "timestamp_updated": 1766225092,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.540436029434204102",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760965180",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZMPeAAAAAFP+FLQIAAAABxmaCvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

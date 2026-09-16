@@ -1,0 +1,75 @@
+{
+  "appid": 3658230,
+  "requested_at": "2026-09-13T19:29:20.933563+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 11,
+      "total_negative": 0,
+      "total_reviews": 11
+    },
+    "reviews": [
+      {
+        "recommendationid": "217685428",
+        "author": {
+          "steamid": "76561199189893955",
+          "personaname": "Vivian Blue",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199189893955/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 217,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 217,
+          "last_played": 1769344229,
+          "avatar": "11eb2f5a4e1d270bd84c837f547b7f9122bc0269"
+        },
+        "language": "english",
+        "review": "I found the game through a Twitter post and found the trailer as well as the main premise incredibly intriguing. Reading the description, already a few themes come to mind: climate change, ecological destruction caused by human, motherhood, etc. explored under a horror lens. I've always been a big fan of this genre, and I must say the first half of the game truly delivered! \n\nThe opening immediately draws you in and give you a very good motivation/reason why you do the thing that you do: gorging people's eyes out to feed your dying child. Though the game does occasionally utilize flashing horror imagery and grating sound effects, the main horrors lie in the dialogues, the codependent relationship between mother magpie & child, and the attitudes & actions between the birds and the humans. The writing is quite great, effortlessly flows between being tragically beautiful, to deeply unsettling, to being quite existential and melancholic. It picks at my brain, and caught me off guard in the best ways: e.g.,[spoiler]I expect to find the humans to be the monstrous ones here, instead I find myself being frightened by the weak magpie child, especially in the scene where he rips out his mother's throat[/spoiler]. The mechanics are interesting enough, and the art style + sound designs are suitable & fitting to each scenes.\n\nNow on to some criticism. This could totally be a skill issues on my part, by I find the mechanic a bit frustrating at times and the difficulty curve increases exponentially in the last few level, [spoiler]and the crows jumpscare at you now which is interesting the first few times, but after multiple attempts it gets annoying quickly[/spoiler]. Also there weren't a cue that you can poke out fat guy's eyes with the space bar, or maybe ive missed it somewhere and only discovered it in the last few levels. I sadly weren't able to beat the last two levels but was deeply invested in the story, so I checked out a YouTube walkthrough. Story wise, mild spoilers ahead: [spoiler]while the first half of the game starts off super strong, the second half of the game along with the introduction of the cult + Richie being the Big Bad is when the story fells apart for me[/spoiler]. In the first half, you're given an intimate, contained story about mother and child, and already there are so much ground to cover and explore. [spoiler]It's a constant struggle of power, between bird mom and the humans, and between herself and her own child. It's a story about how a thirst for revenge drown out innocence and love and create fertile ground for selfishness and monstrosity to fester, but what choice do you have when the only sustenance available at all is not crickets but eyes, bloody and gory. It's a coming-of-age story where a young boy has to wrestle with his own place in the world, with his disabilities and what reasons he has for Being, especially when his own existence is only sustained from the suffering of others, of even his own mom. It's a lesson on how suffering only begets more suffering, and how what comes around will go around, until it consumes your whole being, your whole vision of what the future could be turns out to be what always has been. Life matters too little in this world, can be snuffed out at an instant at people's whim, and yet it's so costly to sustain even the smallest bit of it. The exhaustion weights on your whole being, weights on the people around you who depends on you, and you just have to continue even though you hate it. You *hate* it.[/spoiler] \n\nYet in the second half, or rather the last 1/4, [spoiler]the focus was taken away from this rich and deeply intriguing conflict to focus on a cult that was introduced too late into the game. Not once did I wonder, \"hey why can these birds talk and think\" and that I want to investigate that more than the existing relationship we have here. And then there's the cult, the populism, the humans being forced to stay inside, the drone surveillance, etc. Not that any of these ideas aren't interesting or the worldbuilding is lacking, but i feel like these might warrant their own games instead of fitting too much of everything into this one. The existing characters are already phenomenal, and their main internal/relational conflicts and ideologies are still yet to be resolved, so why do we need to care about some guy (Richie) thats gonna be killed off in like 30 seconds anyway. It dilutes the theme and character motivations in my opinion, which affect the impact of the ending. In the end, the child either jumps off or was thrown off his nest by the mom(?), and the magpie surrendered itself to the execution squad, and its supposed to be this ultimate climax for the story yet it's not because we have this gap where we had to focus on the cult stuffs + we're a bit desensitized at this point with all the bloodshed + the leading to this moment, which was supposed to be mother magpie's internal dialogue wasn't too clear. Less is often more for these types of stories, and there's a skeleton of a truly great game here still, if only the themes were explored and fleshed out just a bit deeper.[/spoiler] \n\nDespite my lengthy criticism part, I do believe this game is worth a playthrough! And being the first published game from the developer it's really amazing. Looking forwards to more of their game in the future and will definitely recommend this to my friends.\n",
+        "timestamp_created": 1770370501,
+        "timestamp_updated": 1770370501,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.648319363594055176",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1765661666",
+        "reactions": [
+          {
+            "reaction_type": 26,
+            "count": 1
+          },
+          {
+            "reaction_type": 32,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXCJuAAAAAFP+S/B4AAAAB027O+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1720000000000255,
+  "transport_error_count": 0
+}

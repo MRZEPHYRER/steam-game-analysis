@@ -1,0 +1,66 @@
+{
+  "appid": 3964640,
+  "requested_at": "2026-09-13T20:06:00.570389+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 7,
+      "total_negative": 3,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "205230673",
+        "author": {
+          "steamid": "76561199150231265",
+          "personaname": "Blow",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199150231265/",
+          "num_games_owned": 109,
+          "num_reviews": 10,
+          "playtime_forever": 58,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1762781805,
+          "avatar": "5684ce24abe0de4ae3f36a0fa85df9ecd5a97040"
+        },
+        "language": "russian",
+        "review": "Что хочу сказать. Эта игра произвела очень неописуемые эмоции, я как настоящий фанат булкина очень рад что наконец появилась такая игрушка про нашего любимого Санька) у игры есть потенциал и это точно, очень буду жать в дальнейшем второй эпизод и хочу выразить огромную благодарность разработчику(насколько я знаю он один) будем ожидать второй эпизод все вместе друзья!!",
+        "timestamp_created": 1758886553,
+        "timestamp_updated": 1758886553,
+        "voted_up": true,
+        "votes_up": 8,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.605633795261383057",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758815920",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX4yeAAAAAFP+NhWoAAAABxpfKOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999994689,
+  "transport_error_count": 0
+}

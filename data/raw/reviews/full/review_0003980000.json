@@ -1,0 +1,66 @@
+{
+  "appid": 3980000,
+  "requested_at": "2026-09-13T20:07:36.066883+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "204843899",
+        "author": {
+          "steamid": "76561199036255784",
+          "personaname": "LW",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199036255784/",
+          "num_games_owned": 453,
+          "num_reviews": 35,
+          "playtime_forever": 128,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 128,
+          "last_played": 1758433260,
+          "avatar": "9b5e8b3087a47948ce5ba81ea84ea790e41aeaf4"
+        },
+        "language": "schinese",
+        "review": "文风与系统层面的小问题就不说了，这里只说一些严重影响我观感的毛病。首先，世界观铺得太大而篇幅又过短。作为一个缝合了魔法与现代科学的世界观，作者对背景仅做了及其浅显的探讨。不公？枷锁？污秽？束缚？作者用了极多的形容词来描绘社会背景的黑暗，却并没有给予一个客观的例子来让读者感同身受，反而是留下了一个个谜语来强行试图提高作品的格调（失败的尝试）。魔法似乎更类似于一种很好用的设定而并没有融入到剧本当中。此外，过短的篇幅和与之不匹的野心也让本作的情感调动显得俗套而强行。毫无日常可言的剧情编排，以及突如其来的事件使得剧本充斥着源源不断地突兀感。在某些片段，你能明显的感受了作者写某一段剧情的用意是“哇，我得想办法让他们好上这里得整点事件提高一下好感度”的违和感。这一方面在索拉琦线是最明显的，我很难去理解作为不知道多少年的神明，在短短两周时间就被一个什么都没干（划重点）的少年给打动。更何况这条线的结尾留下了一大段谜团就突兀的完结导致观感极烂，我个人的推荐是吧整条线删了多在前期写一些日常反而能让情感的过度显得更加自然。男主也是，作者可能是想构思一个类似于房石阳明一样，有魅力有能力同时又从不展现真心的姿态，但实际观感碍于篇幅还是一坨浆糊。从第一步开始，读者就很难理解他的言行，更何况是共情了。前期编剧似乎是想把男主塑造成一个平平无奇的普通人，以“摆脱无趣重复的生活”为题来注解他帮助阿尔法的理由，但中后期则将其描述成了一个深藏不露的谜语人形象。16岁的天才少年，充斥着神秘的过去，冷面无心的帅哥，这些设定真的有必要追加吗？不要只用神秘小游戏来体现男主的高智商啊可恶！总体而言最多五分的作品，不过碍于本作是制作团队的第一作，已经看在作为国g难得没有犯大病的情况下给个好评以示支持。",
+        "timestamp_created": 1758435108,
+        "timestamp_updated": 1758435108,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.609756112098693848",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758416649",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZzgyAAAAAFP+ODHwAAAAB7t7WNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.985000000000582,
+  "transport_error_count": 0
+}

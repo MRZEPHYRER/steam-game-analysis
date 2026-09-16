@@ -1,0 +1,66 @@
+{
+  "appid": 2430170,
+  "requested_at": "2026-09-13T18:50:46.911344+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 5,
+      "total_reviews": 16
+    },
+    "reviews": [
+      {
+        "recommendationid": "212162589",
+        "author": {
+          "steamid": "76561198006447254",
+          "personaname": "martinjmills",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198006447254/",
+          "num_games_owned": 0,
+          "num_reviews": 19,
+          "playtime_forever": 487,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 487,
+          "last_played": 1764536196,
+          "avatar": "7283c70cb7f6255a0d31c73607f3c92f16e4b608"
+        },
+        "language": "english",
+        "review": "A hard one to review for me.  I liked the concept (though I am getting a little tired by now of roguelike elements showing up in every game), but the almost complete lack of any decent explanation of some of the game mechanics  really hurts it.  \n\nThat aside, I am very puzzled by the alleged base development components, which I can find no way to actually access even in the full game (as opposed to the Prologue).  If I'm understanding correctly what I read in the forums, those elements only are available in between runs - which seem to consist of 21 battles (or however many short of that it takes you to lose).  So in terms of keeping my interest, that element basically doesn't exist and I'm stuck playing with the intial squad of 2, since there's no way to increase the number of slots in the garrison.\n\nSo I'm probably not going to spend any more time on it.",
+        "timestamp_created": 1764536832,
+        "timestamp_updated": 1764536832,
+        "voted_up": false,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.541666686534881592",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755187271",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZKqoAAAAAFP+FVVgAAAAB9gaupBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8120000000001255,
+  "transport_error_count": 0
+}

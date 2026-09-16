@@ -1,0 +1,66 @@
+{
+  "appid": 3820330,
+  "requested_at": "2026-09-13T19:44:13.214778+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 8,
+      "total_negative": 2,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "208951841",
+        "author": {
+          "steamid": "76561198328753355",
+          "personaname": "Yeehaw Strike",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/marigoldms/",
+          "num_games_owned": 32,
+          "num_reviews": 3,
+          "playtime_forever": 157,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 157,
+          "last_played": 1762512139,
+          "avatar": "913521be50e840724d8dae93e495b6651050e1a8"
+        },
+        "language": "english",
+        "review": "hop on hazard versus",
+        "timestamp_created": 1762864078,
+        "timestamp_updated": 1762864078,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1751860510",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQF5AAAAAAAAFP+AAAAAAAABxooudBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

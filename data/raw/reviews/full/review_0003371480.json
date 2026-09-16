@@ -1,0 +1,66 @@
+{
+  "appid": 3371480,
+  "requested_at": "2026-09-13T19:12:59.217251+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 272,
+      "total_negative": 84,
+      "total_reviews": 356
+    },
+    "reviews": [
+      {
+        "recommendationid": "204293946",
+        "author": {
+          "steamid": "76561198099091962",
+          "personaname": "豆大爷",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198099091962/",
+          "num_games_owned": 766,
+          "num_reviews": 253,
+          "playtime_forever": 153,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 153,
+          "last_played": 1757825516,
+          "avatar": "3df95bf578570110a814c7d711e4aa6e5b82e37d"
+        },
+        "language": "schinese",
+        "review": "游戏属于不合格产品。\n今年第三人称的作品大作频出，这个产品实在与其他产品无法相比。\n一个穿越人，回到古代还要遵循历史的一步步去推进，白穿了吗？\n而且作为一个三国游戏，无任何大场面，基本就是几个人对话聊天，剧情拖沓严重，很多重要剧情直接跳过。\n古代和现代来回切换，现代剧情无聊至极，感觉就是用来拉时长的。\n当一个影游失去了剧情的支撑，实在玩不下去。其他的功能也懒得评价了。\n\n唯一的优点只能说9块9确实便宜，但这不是一个游戏合不合格的理由。",
+        "timestamp_created": 1757825130,
+        "timestamp_updated": 1757827340,
+        "voted_up": false,
+        "votes_up": 107,
+        "votes_funny": 8,
+        "weighted_vote_score": "0.787676990032196045",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757814947",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFUPxgAAAAAFP+k0pmAAAAB686iLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2339999999999236,
+  "transport_error_count": 0
+}

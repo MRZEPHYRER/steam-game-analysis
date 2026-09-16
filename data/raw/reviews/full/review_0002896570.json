@@ -1,0 +1,68 @@
+{
+  "appid": 2896570,
+  "requested_at": "2026-09-13T18:58:11.103667+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 3,
+      "total_reviews": 42
+    },
+    "reviews": [
+      {
+        "recommendationid": "209809101",
+        "author": {
+          "steamid": "76561197980652006",
+          "personaname": "Varkman",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561197980652006/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 6640,
+          "playtime_last_two_weeks": 234,
+          "playtime_at_review": 60,
+          "last_played": 1789244320,
+          "avatar": "5d932977a8fa0d2f35c4359dbe2aa9590c485342"
+        },
+        "language": "english",
+        "review": "Huge Empire Builder board game fan.  Been waiting for this all year, and the Kickstarter physical game which hasn't arrived yet.  Got the notice yesterday at work it was available, couldn't try it until today in the afternoon.  Was fully aware it did not include AI to play against.\n\nDownloaded it, tried to find an open game.  Nothing.  Hosted a game and sat there, nothing.  Exited the game and came back in a few times.  None of my settings changes stuck.  Had to turn off the music every darn time (I'm a \"no background music\" gamer).\n\nALL RIGHT.  I have a game under my belt now.  Had to sit in a lobby until someone showed up.  They creamed me - I had bad cards for many turns (that's not an issue, it happens).  The tutorials go by too fast - I should be able to get a walkthrough when there ISN'T a human being waiting for me to play.\n\nIt does work.  There's a lot of promise.  It moved from a \"no\" to a \"yes\".\n\nNeeds:\n-Bigger text.  I'm 51, and even with my bifocals it was hard to read the cards and city names.\n\n-Automove.  If I need to go somewhere several moves away I shouldn't have to keep putting 9 spaces ahead. - I should be able to tell the game \"I'm going to [city]\" and everyone doesn't have to wait for me to click that on my turn.  \n\n-If I have zero money and can't upgrade or build track, I don't see a need to have to click to complete my build phase.  This and the above slows down the game for the other players.\n\n-There's no communication.  I don't expect to have a conversation with the opposite guy, but a little \"hand wave\" something would be nice.  Hearthstone has a thing that you can click with a preset \"hello\" \"good move\" etc that speaks in the other guys language, I don't see why a game that REQUIRES you to pplay with others doesn't.",
+        "timestamp_created": 1763775995,
+        "timestamp_updated": 1763779850,
+        "voted_up": true,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.618435084819793701",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763785475,
+        "developer_response": "Great feedback! I'm glad you were able to get in to a game.\n\nWe're looking at all the suggestions you've made. As possible enhancements. We've got a lot of improvements coming.\n\nI encourage you to join the Discord community to stay up to date on the roadmap and find potential players to connect with.\n\nYou can join here: https://discord.gg/UVKPUDqU",
+        "app_release_date": "1763658016",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXoZ0AAAAAFP+PKOEAAAAB97K2gBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2029999999999745,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3447300,
+  "requested_at": "2026-09-13T19:16:31.799308+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "215662564",
+        "author": {
+          "steamid": "76561198067032983",
+          "personaname": "Emixus",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Emixus11/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 208,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 208,
+          "last_played": 1768062105,
+          "avatar": "fdd175c11d42a37380a864805d4fc723b9f952be"
+        },
+        "language": "english",
+        "review": "A nice little game, a bit on the simple side mechanically but it does what I think it sets out to do. It plays kinda like one of those puzzles where you have to move across a pattern without ever stepping in the same square more than once, except if it was a turnbased deckbuilder. The artstyle is really cool and the design of the enemies and player characters are really good. The 3 playable characters seem to have a surprisingly unique playstyle compared to one another, although you can pretty easily force a certain build every run in my admittedly limited experience with the game.\n\nEven without a tutorial I had no problems understanding how to play the game, and the tooltips did a good job of providing information, although there maybe could be a description on the card itself when picking it of what a buff or debuff does, instead of having to hover over the icon on a character that has the effect applied to it, and a little description that most buffs tick down one every move you make, but that is minor stuff.\n\nAll in all i think a very competent title for the asking price and if you're into little puzzly games and deckbuilders I can only recommend it.",
+        "timestamp_created": 1768062126,
+        "timestamp_updated": 1768062126,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.600223660469055176",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753107150",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX/tqAAAAAFP+M1CQAAAAB0/te2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

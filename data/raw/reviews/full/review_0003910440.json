@@ -1,0 +1,71 @@
+{
+  "appid": 3910440,
+  "requested_at": "2026-09-13T19:58:32.572694+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212524405",
+        "author": {
+          "steamid": "76561197970977129",
+          "personaname": "will shand",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/will_shand/",
+          "num_games_owned": 2728,
+          "num_reviews": 295,
+          "playtime_forever": 50,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 30,
+          "last_played": 1764825115,
+          "avatar": "abe77b9832613fac36ac996663307d6a7f55fed5"
+        },
+        "language": "english",
+        "review": "WHAT A COOL GAME! Gives me System Shock vibes in the best way. The rooms might be a bit repetitive but it's so fun exploring them and uncovering new bits of lore. Got my butt kicked by a really thin red dude though, kinda embarassed.\n\n10/10 for sexy E.T. you meet at the beginning of the game.",
+        "timestamp_created": 1764825047,
+        "timestamp_updated": 1764825073,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.581749081611633301",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761785762",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYXXIAAAAAFP+KdsCAAAAB119uqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0159999999996217,
+  "transport_error_count": 0
+}

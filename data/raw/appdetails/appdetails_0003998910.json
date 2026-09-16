@@ -1,0 +1,285 @@
+{
+  "requested_at": "2026-09-13T06:21:02.378436+00:00",
+  "request_params": {
+    "appids": 3998910,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3998910,
+  "payload": {
+    "3998910": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Creepy Fishing",
+        "steam_appid": 3998910,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >The main character came here for a peaceful fishing trip… but the lake hides something far more sinister. What begins as a quiet escape soon turns into a nightmare, as strange events unfold and an unseen presence makes itself known...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Main features of the game:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Atmospheric and scary sounds</p></li><li><p class=\"bb_paragraph\" >High-quality and varied locations</p></li><li><p class=\"bb_paragraph\" >Fishing mechanics</p></li><li><p class=\"bb_paragraph\" >Boat control</p></li><li><p class=\"bb_paragraph\" >Picking up and examining items</p></li><li><p class=\"bb_paragraph\" >High-quality cut scenes</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >The main character came here for a peaceful fishing trip… but the lake hides something far more sinister. What begins as a quiet escape soon turns into a nightmare, as strange events unfold and an unseen presence makes itself known...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Main features of the game:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Atmospheric and scary sounds</p></li><li><p class=\"bb_paragraph\" >High-quality and varied locations</p></li><li><p class=\"bb_paragraph\" >Fishing mechanics</p></li><li><p class=\"bb_paragraph\" >Boat control</p></li><li><p class=\"bb_paragraph\" >Picking up and examining items</p></li><li><p class=\"bb_paragraph\" >High-quality cut scenes</p></li></ul>",
+        "short_description": "The main character came here for a peaceful fishing trip… but the lake hides something far more sinister. What begins as a quiet escape soon turns into a nightmare, as strange events unfold and an unseen presence makes itself known...",
+        "supported_languages": "English, French, German, Spanish - Spain, Traditional Chinese, Russian, Turkish",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/0fe76f83f54a31e91f9ff41a8434b85aa9314341/header.jpg?t=1759139645",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/0175ec6f11ef5bba052580c4c271a8722d7b49a5/capsule_231x87.jpg?t=1759139645",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/0175ec6f11ef5bba052580c4c271a8722d7b49a5/capsule_184x69.jpg?t=1759139645",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5-8400 / AMD Ryzen 3 3300X<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 10 GB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card<br></li><li><strong>VR Support:</strong> VR is not supported<br></li><li><strong>Additional Notes:</strong> o immerse yourself in the horror atmosphere, headphones with surround sound are recommended.</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10/11 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i7-9700K / AMD Ryzen 5 5600X<br></li><li><strong>Memory:</strong> 10 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA RTX 3060 Ti / AMD Radeon RX 6700 XT<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 15 MB available space<br></li><li><strong>Sound Card:</strong> DirectX-compatible sound card with 3D audio<br></li><li><strong>VR Support:</strong> VR is not supported<br></li><li><strong>Additional Notes:</strong> o immerse yourself in the horror atmosphere, headphones with surround sound are recommended.</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          " Fireplay Studio"
+        ],
+        "publishers": [
+          " Fireplay Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1403415
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Creepy Fishing",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1403415,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Creepy Fishing - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/6e93461fc20311160f8aaa75c0de048a1c91764c/ss_6e93461fc20311160f8aaa75c0de048a1c91764c.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/6e93461fc20311160f8aaa75c0de048a1c91764c/ss_6e93461fc20311160f8aaa75c0de048a1c91764c.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/73b73a161dedee5c767b46b059c0f2040110d471/ss_73b73a161dedee5c767b46b059c0f2040110d471.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/73b73a161dedee5c767b46b059c0f2040110d471/ss_73b73a161dedee5c767b46b059c0f2040110d471.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/d1046faf636252662081718af6d8ad8385ddd845/ss_d1046faf636252662081718af6d8ad8385ddd845.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/d1046faf636252662081718af6d8ad8385ddd845/ss_d1046faf636252662081718af6d8ad8385ddd845.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/587aa65012a6ebc94222c4cb90f1b147af5a22c9/ss_587aa65012a6ebc94222c4cb90f1b147af5a22c9.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/587aa65012a6ebc94222c4cb90f1b147af5a22c9/ss_587aa65012a6ebc94222c4cb90f1b147af5a22c9.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/1e124dab07ca669de279823fa4cfb98926099111/ss_1e124dab07ca669de279823fa4cfb98926099111.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/1e124dab07ca669de279823fa4cfb98926099111/ss_1e124dab07ca669de279823fa4cfb98926099111.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/680aa3d6d04c934552dc4800177945d916d6b0f4/ss_680aa3d6d04c934552dc4800177945d916d6b0f4.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/680aa3d6d04c934552dc4800177945d916d6b0f4/ss_680aa3d6d04c934552dc4800177945d916d6b0f4.1920x1080.jpg?t=1759139645"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/18a390649b571b310f1370730ac5ce39e98f850e/ss_18a390649b571b310f1370730ac5ce39e98f850e.600x338.jpg?t=1759139645",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/18a390649b571b310f1370730ac5ce39e98f850e/ss_18a390649b571b310f1370730ac5ce39e98f850e.1920x1080.jpg?t=1759139645"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257191883,
+            "name": "Creepy Fishing  - Horror Game Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257191883/09dda74388242eccda791649be15a8777d9caffd/movie_600x337.jpg?t=1757682109",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3998910/1401007153/9443150bbe25ff0c7e4797d7967ac663274445e5/1756756409/dash_av1.mpd?t=1757682109",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3998910/1401007153/9443150bbe25ff0c7e4797d7967ac663274445e5/1756756409/dash_h264.mpd?t=1757682109",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3998910/1401007153/9443150bbe25ff0c7e4797d7967ac663274445e5/1756756409/hls_264_master.m3u8?t=1757682109",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 9,
+          "highlighted": [
+            {
+              "icon": "c81f7ed85784d0498a58fa8d2c28a3c6b3fd6a9a.jpg",
+              "localized_name": "Dinner",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dinner",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/c81f7ed85784d0498a58fa8d2c28a3c6b3fd6a9a.jpg"
+            },
+            {
+              "icon": "d8ba9ec49e1fabfc674c36a8897c7d6a811ac922.jpg",
+              "localized_name": "Find Key",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Find Key",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/d8ba9ec49e1fabfc674c36a8897c7d6a811ac922.jpg"
+            },
+            {
+              "icon": "355094a4a14bf3e71da4d17e2e10f94fef565c18.jpg",
+              "localized_name": "FirstDead",
+              "archived": 0,
+              "hidden": 0,
+              "name": "FirstDead",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/355094a4a14bf3e71da4d17e2e10f94fef565c18.jpg"
+            },
+            {
+              "icon": "de912a416d65b60f6c179fe941eabee93beee9c1.jpg",
+              "localized_name": "First Fish",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Fish",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/de912a416d65b60f6c179fe941eabee93beee9c1.jpg"
+            },
+            {
+              "icon": "d4704bf893173a075027bfb327df5aec1897b255.jpg",
+              "localized_name": "First Note",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Note",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/d4704bf893173a075027bfb327df5aec1897b255.jpg"
+            },
+            {
+              "icon": "1056e0abe40c376676ab26dccf667a02e999f1df.jpg",
+              "localized_name": "First Screamer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Screamer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/1056e0abe40c376676ab26dccf667a02e999f1df.jpg"
+            },
+            {
+              "icon": "62219b66f35b69c96879d29cc6875ac24d1062a4.jpg",
+              "localized_name": "Island",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Island",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/62219b66f35b69c96879d29cc6875ac24d1062a4.jpg"
+            },
+            {
+              "icon": "8a60a0835b4793098f5ebaa11407dc47871d3958.jpg",
+              "localized_name": "Island Ghosts",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Island Ghosts",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/8a60a0835b4793098f5ebaa11407dc47871d3958.jpg"
+            },
+            {
+              "icon": "ac723a46775d94a07882e83df929d5a51f4c4513.jpg",
+              "localized_name": "The End",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The End",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3998910/ac723a46775d94a07882e83df929d5a51f4c4513.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 26, 2025"
+        },
+        "support_info": {
+          "url": "rudojdavid16@gmail.com",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3998910?t=1759139645",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3998910/b815f1d8db6063e810045e252edbc5ea3b26fcb2/page_bg_raw.jpg?t=1759139645",
+        "content_descriptors": {
+          "ids": [
+            5
+          ],
+          "notes": "This game may contain content not suitable for all ages, the game contains scary scenes, general content for adults only."
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horor"
+          }
+        }
+      }
+    }
+  }
+}

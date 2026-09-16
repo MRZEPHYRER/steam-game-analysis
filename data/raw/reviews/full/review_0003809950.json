@@ -1,0 +1,68 @@
+{
+  "appid": 3809950,
+  "requested_at": "2026-09-13T19:42:38.716542+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "209438598",
+        "author": {
+          "steamid": "76561198015599438",
+          "personaname": "DJ_BLADE_GAMES_TTV",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/DJBLADEGAMES/",
+          "num_games_owned": 1042,
+          "num_reviews": 5,
+          "playtime_forever": 262,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 262,
+          "last_played": 1763307247,
+          "avatar": "e0cdf6a518a7f82ae365a7967abfcbe02bf5620a"
+        },
+        "language": "english",
+        "review": "Funny Game sadly it keeps crashing right now about 5 min in the game \n\nThings to add to the game \na list of products to sell to customors\nMore easy way to see how much filement there is still on the roll \n\nstarting money can go up a bit  starting with 1 printer is not going realy fast  ( 1000 / 1500 ) so you can buy 2 or 3 printers",
+        "timestamp_created": 1763342447,
+        "timestamp_updated": 1763342447,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1763480918,
+        "developer_response": "Thanks for the feedback! The crash issue will be investigated. The ideas about a product list, clearer filament visibility, and adjusting the starting balance are noted. Thanks for taking the time to share your thoughts!",
+        "app_release_date": "1762529031",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB2+PieBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

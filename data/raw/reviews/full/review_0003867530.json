@@ -1,0 +1,66 @@
+{
+  "appid": 3867530,
+  "requested_at": "2026-09-13T19:52:00.139342+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "210982105",
+        "author": {
+          "steamid": "76561199184167151",
+          "personaname": "Persepolis",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199184167151/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 117,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 117,
+          "last_played": 1756658621,
+          "avatar": "205d40ba481ef4a69ef0bad0706507d4abc07612"
+        },
+        "language": "ukrainian",
+        "review": "Лампова гра на ваш вечір, з якою ви відчуєте незабутні емоції, борючись з хітбоксами :) \nОсобисто я хотіла віддати цеглинки всі одразу голему, бо голем - то любов <3 \nМені сподобалось, приємна ціна, цікаві пастки, лайк!",
+        "timestamp_created": 1764187726,
+        "timestamp_updated": 1764187726,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.54356849193572998",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755274045",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbIO6AAAAAFP+Fk6MAAAAB5zeqkBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3843570,
+  "requested_at": "2026-09-13T19:48:13.093174+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 15,
+      "total_negative": 0,
+      "total_reviews": 15
+    },
+    "reviews": [
+      {
+        "recommendationid": "205009428",
+        "author": {
+          "steamid": "76561198028903083",
+          "personaname": "Chess_Forever",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198028903083/",
+          "num_games_owned": 0,
+          "num_reviews": 196,
+          "playtime_forever": 44,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 44,
+          "last_played": 1758704756,
+          "avatar": "7735f9f92f49dff9e767667054a389f469f86e55"
+        },
+        "language": "english",
+        "review": "Soon after the recent release, I looked at the bundle of three modestly priced classics (that includes this game) and thought \"why not\" ?\n\nI've tried all three now, saving this one (the third) for last.   \n\nIt has so far been a humbling experience.    Sure, the graphics are \"old school\" and might not win a modern beauty contest among war games.  \n\nBut simple chessmen aren't always gaudy, either, and this game (like chess) also seems to be a game of thought and skill. Actually planning, and taking careful account of the terrain and of the available and opposing weaponry, seems to be required to an extent that would not make me call this an arcade game, despite the relative simplicity of its nevertheless engaging graphics.\n\nAll three games, including (certainly) this one, seem to me at present to offer an enormous amount of, uh, bang for the buck. Or engagement per penny spent.  \n\nI consider this and the other two which apparently preceded it to be definite keepers and very lucky buys.   And because of their variety, I'm glad I picked up all three.  Unfortunately I'd probably have to live much longer than seems likely in order to fully exhaust their astonishingly large store of available scenarios.",
+        "timestamp_created": 1758609036,
+        "timestamp_updated": 1758609107,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.682280600070953369",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758026342",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWWriAAAAAFP+XVPwAAAAB0oYaOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.014999999999418,
+  "transport_error_count": 0
+}

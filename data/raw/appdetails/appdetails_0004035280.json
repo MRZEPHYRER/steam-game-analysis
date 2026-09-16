@@ -1,0 +1,259 @@
+{
+  "requested_at": "2026-09-13T06:33:22.032160+00:00",
+  "request_params": {
+    "appids": 4035280,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4035280,
+  "payload": {
+    "4035280": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Loop: Anomaly Lab",
+        "steam_appid": 4035280,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" ><strong>Game Introduction</strong></h2><p class=\"bb_paragraph\" >You have arrived at a research facility to rescue your younger sister. </p><p class=\"bb_paragraph\" >Your goal is to reach the 10th floor and save her.</p><h2 class=\"bb_tag\" ><strong>Game Progression</strong></h2><p class=\"bb_paragraph\" >If you detect an anomaly, exit through the right door. </p><p class=\"bb_paragraph\" >If no anomaly is detected, exit through the left door. </p><p class=\"bb_paragraph\" >Upon reaching the 10th floor, a corridor will appear in front of you, leading to a room where your younger sister is located.</p><h2 class=\"bb_tag\" ><strong>Multiple Endings</strong></h2><p class=\"bb_paragraph\" >Your choices and actions will determine the ending. </p><p class=\"bb_paragraph\" >There are a total of three possible endings.</p><p class=\"bb_paragraph\" >Find hidden items and interact with specific anomalies to uncover more.</p>",
+        "about_the_game": "<h2 class=\"bb_tag\" ><strong>Game Introduction</strong></h2><p class=\"bb_paragraph\" >You have arrived at a research facility to rescue your younger sister. </p><p class=\"bb_paragraph\" >Your goal is to reach the 10th floor and save her.</p><h2 class=\"bb_tag\" ><strong>Game Progression</strong></h2><p class=\"bb_paragraph\" >If you detect an anomaly, exit through the right door. </p><p class=\"bb_paragraph\" >If no anomaly is detected, exit through the left door. </p><p class=\"bb_paragraph\" >Upon reaching the 10th floor, a corridor will appear in front of you, leading to a room where your younger sister is located.</p><h2 class=\"bb_tag\" ><strong>Multiple Endings</strong></h2><p class=\"bb_paragraph\" >Your choices and actions will determine the ending. </p><p class=\"bb_paragraph\" >There are a total of three possible endings.</p><p class=\"bb_paragraph\" >Find hidden items and interact with specific anomalies to uncover more.</p>",
+        "short_description": "You have arrived at a research facility to rescue your younger sister. You’ve received information that she is on the 10th floor of the facility, but will you be able to reach her?",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/a7ff8fca421b237c7f863f02e087016356975517/header.jpg?t=1762245081",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/b3b26cdd84fc8383b0ce4f6f8a00613e2156ef3f/capsule_231x87.jpg?t=1762245081",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/b3b26cdd84fc8383b0ce4f6f8a00613e2156ef3f/capsule_184x69.jpg?t=1762245081",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 or later (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5 3570<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GTX 1060<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space<br></li><li><strong>Sound Card:</strong> realtek</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> TBD<br></li><li><strong>Processor:</strong> TBD<br></li><li><strong>Memory:</strong> 32 GB RAM<br></li><li><strong>Graphics:</strong> TBD<br></li><li><strong>Sound Card:</strong> realtek</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Hun Spark Studio"
+        ],
+        "publishers": [
+          "Hun Spark Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1415522
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Loop: Anomaly Lab",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1415522,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Loop: Anomaly Lab - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/527a3709742bd684b2034273ad3e47169ca77e17/ss_527a3709742bd684b2034273ad3e47169ca77e17.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/527a3709742bd684b2034273ad3e47169ca77e17/ss_527a3709742bd684b2034273ad3e47169ca77e17.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/e31cc6e00be85b8aae60768ac3bd8b352a5c98bd/ss_e31cc6e00be85b8aae60768ac3bd8b352a5c98bd.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/e31cc6e00be85b8aae60768ac3bd8b352a5c98bd/ss_e31cc6e00be85b8aae60768ac3bd8b352a5c98bd.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/7dfd273a105e0466040a34fcf51c9e643d92d182/ss_7dfd273a105e0466040a34fcf51c9e643d92d182.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/7dfd273a105e0466040a34fcf51c9e643d92d182/ss_7dfd273a105e0466040a34fcf51c9e643d92d182.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/198569fd4d088b4397b14868d21eacddc01ef5b9/ss_198569fd4d088b4397b14868d21eacddc01ef5b9.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/198569fd4d088b4397b14868d21eacddc01ef5b9/ss_198569fd4d088b4397b14868d21eacddc01ef5b9.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/fdcb77c422b078b251ac074b02d47682758cf00f/ss_fdcb77c422b078b251ac074b02d47682758cf00f.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/fdcb77c422b078b251ac074b02d47682758cf00f/ss_fdcb77c422b078b251ac074b02d47682758cf00f.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/8e2a43168f866228bf7a4f6ba4a189826f949d8b/ss_8e2a43168f866228bf7a4f6ba4a189826f949d8b.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/8e2a43168f866228bf7a4f6ba4a189826f949d8b/ss_8e2a43168f866228bf7a4f6ba4a189826f949d8b.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/206fbf7267727025754f79d6001e15b10b4c4aa1/ss_206fbf7267727025754f79d6001e15b10b4c4aa1.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/206fbf7267727025754f79d6001e15b10b4c4aa1/ss_206fbf7267727025754f79d6001e15b10b4c4aa1.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/1480a4242df96b200d2bd7d7d2f02a6a2452d383/ss_1480a4242df96b200d2bd7d7d2f02a6a2452d383.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/1480a4242df96b200d2bd7d7d2f02a6a2452d383/ss_1480a4242df96b200d2bd7d7d2f02a6a2452d383.1920x1080.jpg?t=1762245081"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/1d4c0dd47f0fb4d7db2496e143569c33dd930405/ss_1d4c0dd47f0fb4d7db2496e143569c33dd930405.600x338.jpg?t=1762245081",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4035280/1d4c0dd47f0fb4d7db2496e143569c33dd930405/ss_1d4c0dd47f0fb4d7db2496e143569c33dd930405.1920x1080.jpg?t=1762245081"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257218542,
+            "name": "Game Teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257218542/767cd03044cfaef215278f64fa8e7c0da233bc0a/movie_600x337.jpg?t=1761057672",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4035280/540252960/2f5a7977942c89c3ed16ea182dfd7f59cd337c8c/1760568216/dash_av1.mpd?t=1761057672",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4035280/540252960/2f5a7977942c89c3ed16ea182dfd7f59cd337c8c/1760568216/dash_h264.mpd?t=1761057672",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4035280/540252960/2f5a7977942c89c3ed16ea182dfd7f59cd337c8c/1760568216/hls_264_master.m3u8?t=1761057672",
+            "highlight": true
+          },
+          {
+            "id": 257218543,
+            "name": "Game Play",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257218543/e080138498a93954802655a70e6db92212c5a280/movie_600x337.jpg?t=1761057674",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4035280/1835706178/b55d4b6cf896a4339220d855e583c727f18e9ddd/1760568228/dash_av1.mpd?t=1761057674",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4035280/1835706178/b55d4b6cf896a4339220d855e583c727f18e9ddd/1760568228/dash_h264.mpd?t=1761057674",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4035280/1835706178/b55d4b6cf896a4339220d855e583c727f18e9ddd/1760568228/hls_264_master.m3u8?t=1761057674",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 4,
+          "highlighted": [
+            {
+              "icon": "52cf37c97c3748ba979bd5ddfa42eff91017a767.jpg",
+              "localized_name": "Clear Game",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Clear Game",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035280/52cf37c97c3748ba979bd5ddfa42eff91017a767.jpg"
+            },
+            {
+              "icon": "e7317c85aa3e4ba5ce9f99fb45d7b5dfbb40a5b1.jpg",
+              "localized_name": "Ending 1",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending 1",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035280/e7317c85aa3e4ba5ce9f99fb45d7b5dfbb40a5b1.jpg"
+            },
+            {
+              "icon": "5e2a9e2b6fe697210c15d2bd5c99c71e272f1c1e.jpg",
+              "localized_name": "Ending 2",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending 2",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035280/5e2a9e2b6fe697210c15d2bd5c99c71e272f1c1e.jpg"
+            },
+            {
+              "icon": "4c68385d9244cbcb3cffbcee5ab5c91a89668073.jpg",
+              "localized_name": "Ending 3",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ending 3",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4035280/4c68385d9244cbcb3cffbcee5ab5c91a89668073.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "ksh_424@naver.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4035280?t=1762245081",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4035280?t=1762245081",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas ilícitas\nViolência\nMedo"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Horror\nDrogen"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Rokok dan/atau rokok elektronik, minuman beralkohol, narkotika, psikotropika, dan/atau zat adiktif lainnya\nHoror\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

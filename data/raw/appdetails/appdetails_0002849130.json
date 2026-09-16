@@ -1,0 +1,206 @@
+{
+  "requested_at": "2026-09-12T14:03:42.809065+00:00",
+  "request_params": {
+    "appids": 2849130,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 2849130,
+  "payload": {
+    "2849130": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Shadows Over Harken",
+        "steam_appid": 2849130,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Step into the medieval fantasy world of Shadows over Harken, where a dark necromancer threatens to corrupt the peaceful village of Harken and its surrounding lands. Join a unique team of heroes—Relic, a strong warrior; Alessia, a gifted cleric blessed with power; Hiligon, a powerful paladin; Klean, an agile fighter from another plane; and Neville, a unique and special bard. Experience an immersive visual novel that combines deep storytelling with combat mechanics, where your choices shape the story and the fate of the land. Engage in battles, explore a richly detailed world, and uncover hidden secrets while enjoying captivating artwork and an epic soundtrack. Can you lead your team to victory and stop the necromancer before it’s too late? History based in an original roleplaying campaing.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Step into the medieval fantasy world of Shadows over Harken, where a dark necromancer threatens to corrupt the peaceful village of Harken and its surrounding lands. Join a unique team of heroes—Relic, a strong warrior; Alessia, a gifted cleric blessed with power; Hiligon, a powerful paladin; Klean, an agile fighter from another plane; and Neville, a unique and special bard. Experience an immersive visual novel that combines deep storytelling with combat mechanics, where your choices shape the story and the fate of the land. Engage in battles, explore a richly detailed world, and uncover hidden secrets while enjoying captivating artwork and an epic soundtrack. Can you lead your team to victory and stop the necromancer before it’s too late? History based in an original roleplaying campaing.</p>",
+        "short_description": "Welcome to Shadows over Harken, where a necromancer threatens to corrupt the peaceful village of Harken. Join our team of heroes: Relic, Alessia, Hiligon, Klean and Neville. Experience an immersive visual novel that combines deep storytelling with combat mechanics, where your choices shape the land.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/header.jpg?t=1785610132",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/f3b427bfeab9ff3a7d1608f3523ab8485da90013/capsule_231x87.jpg?t=1785610132",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/f3b427bfeab9ff3a7d1608f3523ab8485da90013/capsule_184x69.jpg?t=1785610132",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Big Sur<br></li><li><strong>Processor:</strong> M1<br></li><li><strong>Memory:</strong> 4096 GB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Big Sur<br></li><li><strong>Processor:</strong> M1<br></li><li><strong>Memory:</strong> 4096 GB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 10.04<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 10.04<br></li><li><strong>Processor:</strong> i5<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "developers": [
+          "Loyalty Games"
+        ],
+        "publishers": [
+          "Loyalty Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1016428
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Shadows Over Harken",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1016428,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Shadows over Harken - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_67a90feabf07584ffdd057acdd9b4cf755a27b67.600x338.jpg?t=1785610132",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_67a90feabf07584ffdd057acdd9b4cf755a27b67.1920x1080.jpg?t=1785610132"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_4478e2ee6ccf20293ad3d6a56268d81491b41981.600x338.jpg?t=1785610132",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_4478e2ee6ccf20293ad3d6a56268d81491b41981.1920x1080.jpg?t=1785610132"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_9b8adcd488afe40732838e50b210f3d4f4aa7160.600x338.jpg?t=1785610132",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_9b8adcd488afe40732838e50b210f3d4f4aa7160.1920x1080.jpg?t=1785610132"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_bf5c985478d6b0fa9ad6b0f33b55f0a32b33decd.600x338.jpg?t=1785610132",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_bf5c985478d6b0fa9ad6b0f33b55f0a32b33decd.1920x1080.jpg?t=1785610132"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_e7b221beabc994a86923998a5185595bc7808903.600x338.jpg?t=1785610132",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/ss_e7b221beabc994a86923998a5185595bc7808903.1920x1080.jpg?t=1785610132"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257200692,
+            "name": "Presentation and gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257200692/6b6642cfaa2c2c6f08afaf699fd2948572cd5ef5/movie_600x337.jpg?t=1758164263",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2849130/1953073067/7455f4ebb30c9f8327be570ebe1a9ad1f02465ed/1758163559/dash_av1.mpd?t=1758164263",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2849130/1953073067/7455f4ebb30c9f8327be570ebe1a9ad1f02465ed/1758163559/dash_h264.mpd?t=1758164263",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2849130/1953073067/7455f4ebb30c9f8327be570ebe1a9ad1f02465ed/1758163559/hls_264_master.m3u8?t=1758164263",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 1, 2025"
+        },
+        "support_info": {
+          "url": "https://loyaltygames.net/",
+          "email": "loyalty.games.dev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2849130?t=1785610132",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849130/page_bg_raw.jpg?t=1785610132",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nViolência"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt\nDerbe Sprache"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Penggunaan bahasa\nKekerasan"
+          }
+        }
+      }
+    }
+  }
+}

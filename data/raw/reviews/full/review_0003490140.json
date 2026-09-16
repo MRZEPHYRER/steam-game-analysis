@@ -1,0 +1,77 @@
+{
+  "appid": 3490140,
+  "requested_at": "2026-09-13T19:18:53.693251+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 2,
+      "total_negative": 3,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "198986765",
+        "author": {
+          "steamid": "76561199133477024",
+          "personaname": "Kettle",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/TheHolyKettle/",
+          "num_games_owned": 272,
+          "num_reviews": 60,
+          "playtime_forever": 52,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 52,
+          "last_played": 1751690265,
+          "avatar": "c800d45409502f92e5c742b0b751f885f2a74dc4"
+        },
+        "language": "english",
+        "review": "---{ Graphics }---\n☐ You forget what reality is\n☐ Beautiful\n☑ Good\n☐ Decent\n☐ Bad\n☐ Don‘t look too long at it\n☐ MS-DOS\n\n---{ Gameplay }---\n☐ Very good\n☑ Good\n☐ It's just gameplay\n☐ Mehh\n☐ Watch paint dry instead\n☐ Just don't\n\n---{ Audio }---\n☐ Eargasm\n☑ Very good\n☐ Good\n☐ Not too bad\n☐ Bad\n☐ I'm now deaf\n\n---{ Audience }---\n☐ Kids\n☐ Teens\n☑ Adults\n☐ Grandma\n\n---{ PC Requirements }---\n☐ Check if you can run paint\n☐ Potato\n☑ Decent\n☐ Fast\n☐ Rich boi\n☐ Ask NASA if they have a spare computer\n\n---{ Game Size }---\n☐ Floppy Disk\n☐ Old Fashioned\n☑ Workable\n☐ Big\n☐ Will eat 15% of your 1TB hard drive\n☐ You will want an entire hard drive to hold it\n☐ You will need to invest in a black hole to hold all the data\n\n---{ Difficulty }---\n☐ Just press 'W'\n☐ Easy\n☑ Easy to learn / Hard to master\n☐ Significant brain usage\n☐ Difficult\n☐ Dark Souls\n\n---{ Grind }---\n☑ Nothing to grind\n☐ Only if u care about leaderboards/ranks\n☐ Isn't necessary to progress\n☐ Average grind level\n☐ Too much grind\n☐ You'll need a second life for grinding\n\n---{ Story }---\n☐ No Story\n☐ Some lore\n☐ Average\n☑ Good\n☐ Lovely\n☐ It'll replace your life\n\n---{ Game Time }---\n☐ Long enough for a cup of coffee\n☐ Short\n☑ Average\n☐ Long\n☐ To infinity and beyond\n\n---{ Price }---\n☐ It's free!\n☑ Worth the price\n☐ If it's on sale\n☐ If u have some spare money left\n☐ Not recommended\n☐ You could also just burn your money\n\n---{ Bugs }---\n☑ Never heard of\n☐ Minor bugs\n☐ Can get annoying\n☐ ARK: Survival Evolved\n☐ The game itself is a big terrarium for bugs\n\n---{ ? / 10 }---\n☐ 1\n☐ 2\n☐ 3\n☐ 4\n☐ 5\n☐ 6\n☑ 7\n☐ 8\n☐ 9\n☐ 10\n\nNice little horror game! near the end when you finish the ritual and the diary tells you to leave. There's a spelling error in the sentence. \"a spossible\" Also I am curious to know what is behind the boarded up room in the basement. It looks interesting.",
+        "timestamp_created": 1751690573,
+        "timestamp_updated": 1751690919,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.629629611968994141",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1752103269,
+        "developer_response": "Thank you for feedback!",
+        "app_release_date": "1751672141",
+        "reactions": [
+          {
+            "reaction_type": 19,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXaEuAAAAAFP+Ql7eAAAAB9wIn3BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.219000000000051,
+  "transport_error_count": 0
+}

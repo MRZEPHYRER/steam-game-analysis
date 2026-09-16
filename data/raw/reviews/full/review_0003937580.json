@@ -1,0 +1,75 @@
+{
+  "appid": 3937580,
+  "requested_at": "2026-09-13T20:02:41.635696+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212525417",
+        "author": {
+          "steamid": "76561199686914727",
+          "personaname": "fluffyporpoise",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199686914727/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 416,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 413,
+          "last_played": 1771643503,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "A beautiful balance of challenging puzzles while being rewarding enough to keep trying to solve and escape. The lore had a twist that I wasn't expecting and the ending was super satisfying. Super fun game and will be playing to learn all the different ways to solve the puzzles throughout.",
+        "timestamp_created": 1764826683,
+        "timestamp_updated": 1764826683,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.625668466091156006",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762031923",
+        "reactions": [
+          {
+            "reaction_type": 33,
+            "count": 1
+          },
+          {
+            "reaction_type": 21,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFXfJSAAAAAFP+QFeOAAAAB5ltyqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.04700000000048,
+  "transport_error_count": 0
+}

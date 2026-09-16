@@ -1,0 +1,66 @@
+{
+  "appid": 4199400,
+  "requested_at": "2026-09-13T20:25:32.486391+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "219919776",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 808,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 808,
+          "last_played": 1772744752,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Rock Paper Scissors: The Roguelike Puzzle Game, developed and published by LunarCore Games, is a clever indie experiment that transforms one of the most universally recognized games in the world into a strategic puzzle experience with roguelike elements. On paper, the idea sounds almost absurdly simple: build an entire game around the classic rules of rock beating scissors, scissors beating paper, and paper beating rock. Yet the developer manages to stretch this familiar childhood mechanic into a layered gameplay system that blends logic puzzles, run-based progression, and score-chasing strategy. Instead of relying on guessing or reflexes, the game reinterprets rock-paper-scissors as a mechanical interaction system where players manipulate pieces on a board to trigger counters, destroy blocks, and build chain reactions that generate points.\n\nThe core gameplay revolves around a board filled with blocks representing the three iconic symbols. Players must strategically place or activate blocks so that the natural hierarchy of rock-paper-scissors interactions eliminates pieces and clears space on the board. The simplicity of the rule set makes the game immediately understandable, but the challenge comes from planning several moves ahead to create efficient clearing patterns. Since each symbol defeats another but is vulnerable to the third, positioning becomes a constant exercise in balance. Placing a rock might remove scissors in one direction but leave it exposed to paper elsewhere, forcing players to think carefully about how each move affects the overall structure of the board.\n\nAs the rounds progress, the puzzle mechanics become increasingly complex. The objective in each stage is typically to reach a specific score threshold before the board fills up or the available moves run out. Early rounds introduce the mechanics gently, allowing players to become comfortable with the logic of the system. However, later rounds demand far more careful planning as block layouts become less forgiving and the opportunity for mistakes grows. In these moments the game’s strategic depth becomes clear, as players must not only counter existing blocks but also create setups that will allow for larger combinations later in the round.\n\nWhere the game distinguishes itself from more traditional puzzle titles is through its roguelike structure. Each playthrough unfolds as a run composed of multiple stages, and between rounds players can access a shop where various upgrades and special blocks become available. These upgrades introduce new mechanics that expand the possibilities of the core puzzle system. Certain blocks may carry enhanced effects, trigger additional interactions, or modify how scoring works when pieces are cleared. Because the selection of upgrades varies from run to run, players are constantly encouraged to experiment with different combinations, gradually discovering strategies that can produce larger chains and higher scores.\n\nThe roguelike elements also introduce unpredictability through negative modifiers and hazard blocks. These obstacles can disrupt otherwise perfect setups, forcing players to adapt to unexpected board states. Some hazards might occupy valuable space, while others may interfere with combos or impose penalties that make clearing blocks more difficult. Managing these threats becomes a critical part of survival in later rounds. Players must weigh the immediate benefit of clearing blocks quickly against the potential long-term advantage of setting up a more powerful chain reaction, especially when hazards threaten to collapse a carefully constructed board.\n\nAnother distinctive feature is the way the game incorporates the titular rock-paper-scissors mechanic outside of the puzzle board itself. Between rounds, players occasionally encounter bonus encounters where they must literally play a quick game of rock-paper-scissors to determine whether they receive buffs or suffer penalties. Winning these mini challenges can grant valuable bonuses such as improved scoring potential or helpful modifiers for the next stage. Losing, on the other hand, can impose disadvantages that make the upcoming round significantly more difficult. This playful mechanic ties the entire theme of the game together while adding an element of risk and chance that complements the otherwise strategic gameplay.\n\nAs players become more familiar with the mechanics, the focus gradually shifts toward maximizing combo potential. Simply clearing blocks efficiently is not always enough to reach the higher score thresholds of later stages. Instead, the most successful strategies involve building elaborate chain reactions where multiple rock-paper-scissors interactions trigger in rapid succession. These cascades can produce enormous score multipliers, turning a single well-planned setup into a massive burst of points. Achieving these combos requires patience and spatial awareness, as players must learn how to manipulate the board into configurations where several counters can occur simultaneously.\n\nVisually, the game adopts a minimalist style that prioritizes clarity over graphical spectacle. The symbols for rock, paper, and scissors are easy to distinguish, ensuring that players can immediately understand the relationships between different blocks. The interface is clean and functional, with simple animations that highlight successful interactions without overwhelming the player with unnecessary visual noise. While the presentation may appear modest compared to larger puzzle titles, it serves the gameplay effectively by keeping attention focused on strategy and board management.\n\nThe audio and overall atmosphere reinforce the game’s straightforward design philosophy. Sound effects accompany successful counters and combo chains, providing satisfying feedback that makes each successful move feel rewarding. The soundtrack remains unobtrusive, allowing players to concentrate on the puzzle mechanics while maintaining a relaxed and focused environment. This understated approach complements the thoughtful pacing of the game, encouraging players to analyze the board carefully rather than rushing through moves.\n\nDespite its clever concept, the game’s reliance on a single foundational mechanic means it may not appeal to everyone. Players who prefer puzzle games with large mechanical variety or narrative progression might find the experience somewhat repetitive after extended play sessions. However, for those who enjoy refining strategies, chasing higher scores, and mastering deceptively simple systems, the game offers a surprising amount of depth. The roguelike structure ensures that each run feels slightly different, giving players a reason to return and experiment with new upgrade combinations.\n\nIn the end, Rock Paper Scissors: The Roguelike Puzzle Game stands as an inventive reinterpretation of a classic rule set that nearly everyone learns as a child. By transforming a simple decision game into a spatial puzzle with strategic planning and roguelike progression, LunarCore Games demonstrates how even the most basic ideas can evolve into compelling gameplay systems. The result is a puzzle experience that is easy to learn but gradually reveals layers of tactical complexity as players explore its mechanics and push for higher scores. For fans of roguelike puzzles and score-attack challenges, the game offers a creative and surprisingly engaging twist on a familiar concept.\n\nRating: 7/10",
+        "timestamp_created": 1772746024,
+        "timestamp_updated": 1772746301,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.522903382778167725",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766485897",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZiryAAAAAFP+C7nyAAAABw2vbGBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

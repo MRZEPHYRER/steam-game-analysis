@@ -1,0 +1,66 @@
+{
+  "appid": 3792610,
+  "requested_at": "2026-09-13T19:40:32.488694+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "208808252",
+        "author": {
+          "steamid": "76561198022716682",
+          "personaname": "GladiatorVale",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/GladiatorVale/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 17,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 5,
+          "last_played": 1762699018,
+          "avatar": "02e783ab1a4ff914833d9c8c54da19a07641470f"
+        },
+        "language": "english",
+        "review": "It's pretty straightforward. It turns pictures you upload into puzzles. You can choose different sizes and you can play with friends cooperatively or compete against each other. Recommended for all the Jigsaw puzzles lovers that don't have enough room in the house to put them up :)",
+        "timestamp_created": 1762698295,
+        "timestamp_updated": 1762698295,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761586746",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB8k8WcBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 4042220,
+  "requested_at": "2026-09-13T20:14:49.473376+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 11,
+      "total_negative": 3,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "224825431",
+        "author": {
+          "steamid": "76561199086494861",
+          "personaname": "Zronos30",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Zronos126/",
+          "num_games_owned": 2197,
+          "num_reviews": 897,
+          "playtime_forever": 1250,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 1250,
+          "last_played": 1777979102,
+          "avatar": "8dfe278c7493b6984540e57ecd57b791df13841e"
+        },
+        "language": "spanish",
+        "review": "Es un mini Dark Souls de baratillo pero que te da para unas horas de diversión. Es un simple not bad.",
+        "timestamp_created": 1777987329,
+        "timestamp_updated": 1777987329,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.540949404239654541",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759647634",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZLleAAAAAFP+FPdEAAAAB3hdLZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.07799999999952,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3902710,
+  "requested_at": "2026-09-13T19:57:35.019578+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "211493744",
+        "author": {
+          "steamid": "76561198039895549",
+          "personaname": "Daruma",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/OnlyDaruma/",
+          "num_games_owned": 1186,
+          "num_reviews": 75,
+          "playtime_forever": 182,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 182,
+          "last_played": 1764413259,
+          "avatar": "14b27fd4b63ceadfacb24f8144298b25162c3115"
+        },
+        "language": "english",
+        "review": "After just finishing Piotr Bunkowski's high school project from 2017 A trip to Yugolavia i wondered if he pursued a career in game development. His first effort was a succes in my eyes and i found out he and his colleague started developing a new FMV game called Purgatorium: A Family Torn Apart. Unfortunately it was cancelled, the reason was \"creative differences\". They did release a demo on itch.io. \n\nThis is a little backstory so you might understand the game a bit better.\nNow onto the gameplay, it's pretty limited, movement is only horizontal and mouse clicks are for firing.\nA simple heal system, 2 guns? and a front kick to back off enemies is all that is at your disposal. The story makes the game and i'm happy he chose this topic.\n\nThe good: \n\n+ Great enemy and weapon design.\n+ FMV mixed in between the levels to tell a story.\n+ Behind the scenes is always nice to see in the extras.\n\nThe not so good\n\n- Game is abit short\n- Gameplay could have been a bit more exciting.\n\nIn the end i do recommend it.",
+        "timestamp_created": 1764360987,
+        "timestamp_updated": 1764806110,
+        "voted_up": true,
+        "votes_up": 14,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.683396816253662109",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764349127",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWVQIAAAAAFP+XeY2AAAABwt+SmBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

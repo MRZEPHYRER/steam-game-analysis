@@ -1,0 +1,66 @@
+{
+  "appid": 3696180,
+  "requested_at": "2026-09-13T19:32:36.130176+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206393144",
+        "author": {
+          "steamid": "76561198169376761",
+          "personaname": "Nosteru",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198169376761/",
+          "num_games_owned": 0,
+          "num_reviews": 150,
+          "playtime_forever": 132,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 132,
+          "last_played": 1782068942,
+          "avatar": "3abcdb9ae7d20004dfa55eecc52ed6d08b85cee2"
+        },
+        "language": "english",
+        "review": "The artstyle is good, most skill are useful with good levelups, UI is clean and there is good feedback on hits. You can buy random artifacts (passive extra buffs) on the middle of arena. The gameplay is quite slow compare to other games in this genre. Meta progress also presented.\nThe Dev fixed most issue in the game I encountered.\nRecommended in this genre.",
+        "timestamp_created": 1760143895,
+        "timestamp_updated": 1782069349,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.449418514966964722",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752843211",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFbAvmAAAAAFP9zDR+AAAAB486mTBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.2659999999996217,
+  "transport_error_count": 0
+}

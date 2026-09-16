@@ -1,0 +1,73 @@
+{
+  "appid": 3432750,
+  "requested_at": "2026-09-13T19:15:28.253388+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 321,
+      "total_negative": 75,
+      "total_reviews": 396
+    },
+    "reviews": [
+      {
+        "recommendationid": "216824223",
+        "author": {
+          "steamid": "76561198041458730",
+          "personaname": "Vinton",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198041458730/",
+          "num_games_owned": 0,
+          "num_reviews": 36,
+          "playtime_forever": 368,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 368,
+          "last_played": 1769397535,
+          "avatar": "0b05a501cbf892625380f096afdf57b58cb1a51f"
+        },
+        "language": "english",
+        "review": "It only took my six hours give or take for eating dinner to finish all the quests in the game. The \"antagonist\" such as they are were non existent aside for an occasional payment, the cops are not a threat at all, the dialogue is repetitive, unskippable and eventually got annoying. I honestly enjoyed the loop of running the laundry more than the black market stuff but there just is not enough there to keep playing the game. \r\n\r\nI did not experience any bugs though.",
+        "timestamp_created": 1769397859,
+        "timestamp_updated": 1769397859,
+        "voted_up": false,
+        "votes_up": 17,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.652659416198730469",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1772206915,
+        "developer_response": "Thank you for taking the time to share your detailed feedback. We hear your concerns regarding the game's length, the threat from antagonists, and the dialogue experience.\n\nWe recently released a major content update which adds over six hours of new gameplay, and we hope you'll check it out! We're continuously working on improving the game based on player thoughts like yours. Thanks again for playing",
+        "app_release_date": "1762253901",
+        "reactions": [
+          {
+            "reaction_type": 27,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFW8mMAAAAAFP+TilSAAAAB/mY+7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

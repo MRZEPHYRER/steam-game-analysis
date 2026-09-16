@@ -1,0 +1,66 @@
+{
+  "appid": 3946860,
+  "requested_at": "2026-09-13T20:03:58.976518+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "204510253",
+        "author": {
+          "steamid": "76561198359431578",
+          "personaname": "Q",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198359431578/",
+          "num_games_owned": 46,
+          "num_reviews": 14,
+          "playtime_forever": 738,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 700,
+          "last_played": 1779577292,
+          "avatar": "d5abe3b86b03a5f832cb29e070971d0078bfc3d4"
+        },
+        "language": "english",
+        "review": "Begin the Slaughter is a strangely cohesive game once you get past the initial learning curve. What the demo doesn't do justice is how the game is still quite difficult with a high skill ceiling despite how simple the enemies are. While the game doesn't actually have that much within it compared to many more well known roguelike/roguelites, there's evident care put into the movement system and the core gameplay feel that easily make up for it. Going fast in the game is not only encouraged but rewarded with bonus damage, which gives the ability to potentially kill things you used to struggle with in 1 single hit. \nTLDR: Gotta go fast",
+        "timestamp_created": 1758060981,
+        "timestamp_updated": 1758060981,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.580152690410614014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757962183",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYZZ4AAAAAFP+KQnQAAAAB9wpKMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

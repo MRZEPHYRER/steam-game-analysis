@@ -1,0 +1,225 @@
+{
+  "requested_at": "2026-09-13T05:56:18.481011+00:00",
+  "request_params": {
+    "appids": 3936480,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3936480,
+  "payload": {
+    "3936480": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Astar Solis",
+        "steam_appid": 3936480,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>Astar Solis</i> is a meditation app like no other. Free your mind and enter a trance-like state by means of the ancient mystical practice of <i>&lt;checks notes&gt;</i> dodging bullets in space. Yeah, that's right.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" > This <span class=\"bb_strike\">game</span>... <i>uh</i>, meditation app... features 40 levels and infinite lives, the goal being: <strong>survive for 2 minutes without getting hit, or kill the boss if there is one.</strong> Dip in and out of the path to enlightenment at any time. </p><p class=\"bb_paragraph\" >This is a minimalistic, no-nonsense 2D shooter. For the authentic experience, a controller is highly recommended, but a mouse option also exists.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>Astar Solis</i> is a meditation app like no other. Free your mind and enter a trance-like state by means of the ancient mystical practice of <i>&lt;checks notes&gt;</i> dodging bullets in space. Yeah, that's right.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" > This <span class=\"bb_strike\">game</span>... <i>uh</i>, meditation app... features 40 levels and infinite lives, the goal being: <strong>survive for 2 minutes without getting hit, or kill the boss if there is one.</strong> Dip in and out of the path to enlightenment at any time. </p><p class=\"bb_paragraph\" >This is a minimalistic, no-nonsense 2D shooter. For the authentic experience, a controller is highly recommended, but a mouse option also exists.</p>",
+        "short_description": "A minimalistic 2D shoot-em-up, based on dodging bullets.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/b242915772e9ff6080c705c7b588020dc8e89efe/header.jpg?t=1764671401",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/21894613ab35da5ab4ab0243ae18eb7df46156d4/capsule_231x87.jpg?t=1764671401",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/21894613ab35da5ab4ab0243ae18eb7df46156d4/capsule_184x69.jpg?t=1764671401",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3, AMD equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 275 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong>  Intel Core i5, AMD equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce / AMD Radeon<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 275 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Rooklift Labs"
+        ],
+        "publishers": [
+          "Rooklift Labs"
+        ],
+        "demos": [
+          {
+            "appid": 4207820,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1382880
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Astar Solis",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1382880,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Astar Solis - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/9142de0c8afbe5c27301055c6a12d8c12ef238bf/ss_9142de0c8afbe5c27301055c6a12d8c12ef238bf.600x338.jpg?t=1764671401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/9142de0c8afbe5c27301055c6a12d8c12ef238bf/ss_9142de0c8afbe5c27301055c6a12d8c12ef238bf.1920x1080.jpg?t=1764671401"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/16b92acc5125bdecdacf64650b6a53890f372772/ss_16b92acc5125bdecdacf64650b6a53890f372772.600x338.jpg?t=1764671401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/16b92acc5125bdecdacf64650b6a53890f372772/ss_16b92acc5125bdecdacf64650b6a53890f372772.1920x1080.jpg?t=1764671401"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/d89a1ece9343ab057bdc219c9d9752f2689acd01/ss_d89a1ece9343ab057bdc219c9d9752f2689acd01.600x338.jpg?t=1764671401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/d89a1ece9343ab057bdc219c9d9752f2689acd01/ss_d89a1ece9343ab057bdc219c9d9752f2689acd01.1920x1080.jpg?t=1764671401"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/c1d66cd1c89e1890ca855b0fcbe60e19d145aee7/ss_c1d66cd1c89e1890ca855b0fcbe60e19d145aee7.600x338.jpg?t=1764671401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/c1d66cd1c89e1890ca855b0fcbe60e19d145aee7/ss_c1d66cd1c89e1890ca855b0fcbe60e19d145aee7.1920x1080.jpg?t=1764671401"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/5b7729b5767e887430e61ce735a8b14e141743fd/ss_5b7729b5767e887430e61ce735a8b14e141743fd.600x338.jpg?t=1764671401",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936480/5b7729b5767e887430e61ce735a8b14e141743fd/ss_5b7729b5767e887430e61ce735a8b14e141743fd.1920x1080.jpg?t=1764671401"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257210396,
+            "name": "Astar Solis Short Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257210396/533f2955628374fd377a770563a5a6c968462e51/movie_600x337.jpg?t=1759358911",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3936480/803884531/0afd611a1b0519bc0fa62a5267932a6a97af10b0/1759358597/dash_av1.mpd?t=1759358911",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3936480/803884531/0afd611a1b0519bc0fa62a5267932a6a97af10b0/1759358597/dash_h264.mpd?t=1759358911",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3936480/803884531/0afd611a1b0519bc0fa62a5267932a6a97af10b0/1759358597/hls_264_master.m3u8?t=1759358911",
+            "highlight": true
+          },
+          {
+            "id": 257222424,
+            "name": "Astar Solis level 26",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257222424/d9fc6b9c26259661091e3b247bb9ed8241c70071/movie_600x337.jpg?t=1761390839",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3936480/147442403/01aae018078cb64c31060f1c13cec61e4aa2d4da/1761387371/dash_av1.mpd?t=1761390839",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3936480/147442403/01aae018078cb64c31060f1c13cec61e4aa2d4da/1761387371/dash_h264.mpd?t=1761390839",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3936480/147442403/01aae018078cb64c31060f1c13cec61e4aa2d4da/1761387371/hls_264_master.m3u8?t=1761390839",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 5, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "rooklift@astarsolis.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936480?t=1764671401",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3936480?t=1764671401",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

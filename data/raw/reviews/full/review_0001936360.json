@@ -1,0 +1,66 @@
+{
+  "appid": 1936360,
+  "requested_at": "2026-09-13T18:45:52.408205+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 173,
+      "total_negative": 8,
+      "total_reviews": 181
+    },
+    "reviews": [
+      {
+        "recommendationid": "204299481",
+        "author": {
+          "steamid": "76561199125718378",
+          "personaname": "PэSS",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199125718378/",
+          "num_games_owned": 77,
+          "num_reviews": 7,
+          "playtime_forever": 762,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 80,
+          "last_played": 1776608225,
+          "avatar": "605860d53bbd894324ff35e2ac19f1874e639815"
+        },
+        "language": "russian",
+        "review": "большой минус что про эту игру мало кто знает в русском сообществе, очень интересная механиками и в вообщем геймплей очень интересный, таких игр я ещё не видел.",
+        "timestamp_created": 1757832436,
+        "timestamp_updated": 1757832436,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.580152690410614014",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1658129697",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYZZ4AAAAAFP+KQnQAAAAB5zauLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

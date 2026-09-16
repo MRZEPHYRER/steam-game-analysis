@@ -1,0 +1,66 @@
+{
+  "appid": 3882570,
+  "requested_at": "2026-09-13T19:54:27.059990+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "7 user reviews",
+      "total_positive": 7,
+      "total_negative": 0,
+      "total_reviews": 7
+    },
+    "reviews": [
+      {
+        "recommendationid": "228868568",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 633,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 633,
+          "last_played": 1782461990,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Skeleton Dungeon is a retro-inspired action adventure developed and published by Team Gar that embraces a simple but engaging design philosophy. Instead of building its appeal around a complex narrative or extensive role-playing mechanics, it delivers a straightforward dungeon-crawling experience where exploration, combat, and player skill take center stage. The objective is clear from the beginning: descend into a sprawling underground labyrinth, battle relentless skeletal foes, uncover hidden secrets, and ultimately confront the Skeleton King. Its classic approach makes it easy to pick up while still offering enough challenge to keep players invested as they venture deeper into the dungeon.\n\nOne of the game's most impressive features is the sheer size of its world. With more than one hundred handcrafted dungeon levels to explore, the adventure offers far more content than its modest presentation might initially suggest. Each new floor introduces fresh layouts and hidden pathways that encourage players to search every corner rather than simply rushing toward the exit. The developers have designed the dungeon with exploration in mind, rewarding curiosity through concealed areas and optional discoveries that make every successful search feel worthwhile. This steady sense of progression helps maintain player interest throughout the lengthy campaign.\n\nCombat is intentionally easy to understand but difficult to master. Rather than overwhelming players with elaborate combos or countless abilities, Skeleton Dungeon focuses on movement, timing, and learning enemy behaviors. The game features eight different enemy types, each requiring players to adapt their tactics as they progress through the dungeon. This variety prevents battles from becoming repetitive, while the inclusion of two major boss encounters provides memorable highlights that test everything learned during the journey. Success depends more on personal skill than on statistics, giving victories a satisfying sense of accomplishment.\n\nReplayability is another area where Skeleton Dungeon performs well. Beyond simply completing the campaign, players are encouraged to improve their performance through a classic high-score system that rewards efficient gameplay and mastery of the mechanics. This arcade-inspired feature gives experienced players an incentive to revisit levels, refine their strategies, and compete for better results. Steam achievements further expand the experience by providing additional objectives for completionists who enjoy unlocking every challenge the game has to offer.\n\nThe visual presentation embraces nostalgic pixel art without sacrificing clarity. The colorful sprites and top-down perspective make enemy attacks and environmental details easy to read during combat, while the dungeon environments successfully create an old-school fantasy atmosphere. Although the graphics remain relatively simple, they fit the overall design perfectly and complement the game's emphasis on gameplay over spectacle. Combined with an energetic soundtrack, the presentation reinforces the feeling of playing a modern tribute to classic dungeon adventures.\n\nSkeleton Dungeon may not satisfy players searching for deep storytelling, extensive character customization, or sophisticated RPG progression systems. Its minimalist structure means the experience remains focused almost entirely on exploration and action. However, that narrow focus ultimately becomes one of its strengths, as every gameplay system supports the core objective of delivering an accessible yet rewarding dungeon crawler. Players who appreciate old-school game design and skill-driven progression are likely to find plenty to enjoy throughout its lengthy adventure.\n\nOverall, Skeleton Dungeon succeeds by staying true to its vision. It offers a generous amount of content through its expansive dungeon, hidden secrets, varied enemy roster, and rewarding boss encounters while maintaining gameplay that remains accessible from beginning to end. Although it avoids unnecessary complexity, it delivers an entertaining experience built around satisfying exploration and responsive combat. Fans of retro action games and traditional dungeon crawlers will likely appreciate its focused execution and replay value, making it a worthwhile indie title for those seeking a classic-style adventure.\n\nRating: 6/10",
+        "timestamp_created": 1782477961,
+        "timestamp_updated": 1782477961,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754307141",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB4nYjpBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

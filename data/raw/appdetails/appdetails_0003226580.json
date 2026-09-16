@@ -1,0 +1,334 @@
+{
+  "requested_at": "2026-09-12T14:38:47.403698+00:00",
+  "request_params": {
+    "appids": 3226580,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3226580,
+  "payload": {
+    "3226580": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Monsters & Magics: Digital Card Game",
+        "steam_appid": 3226580,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >Monsters and Magics is a casual online card game meant to be played with friends.</p><p class=\"bb_paragraph\" > New and familiar mechanics inspired by classic card games combine to create a unique experience.</p><p class=\"bb_paragraph\" >Battle the computer or your friends to earn new cards and build stronger decks.</p><p class=\"bb_paragraph\" >With over 300 cards you can build a variety of decks with different ways to play and win. </p><h2 class=\"bb_tag\" >Game Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Play online with friends through Steam or LAN</p></li><li><p class=\"bb_paragraph\" >Battle against 10 computer controlled opponents with different play styles</p></li><li><p class=\"bb_paragraph\" >Over 300 unique cards</p></li><li><p class=\"bb_paragraph\" >Monster Summoning mechanic lets you play powerful cards from your deck and hand</p></li><li><p class=\"bb_paragraph\" >Action point system used to keep turns shorter and decision making important</p></li><li><p class=\"bb_paragraph\" >Start every game with your chosen Field card enabling synergies and combos while guiding deck building</p></li><li><p class=\"bb_paragraph\" >Unlock all cards in game by playing</p></li><li><p class=\"bb_paragraph\" >Earn in game money to buy any card</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Monsters and Magics is a casual online card game meant to be played with friends.</p><p class=\"bb_paragraph\" > New and familiar mechanics inspired by classic card games combine to create a unique experience.</p><p class=\"bb_paragraph\" >Battle the computer or your friends to earn new cards and build stronger decks.</p><p class=\"bb_paragraph\" >With over 300 cards you can build a variety of decks with different ways to play and win. </p><h2 class=\"bb_tag\" >Game Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Play online with friends through Steam or LAN</p></li><li><p class=\"bb_paragraph\" >Battle against 10 computer controlled opponents with different play styles</p></li><li><p class=\"bb_paragraph\" >Over 300 unique cards</p></li><li><p class=\"bb_paragraph\" >Monster Summoning mechanic lets you play powerful cards from your deck and hand</p></li><li><p class=\"bb_paragraph\" >Action point system used to keep turns shorter and decision making important</p></li><li><p class=\"bb_paragraph\" >Start every game with your chosen Field card enabling synergies and combos while guiding deck building</p></li><li><p class=\"bb_paragraph\" >Unlock all cards in game by playing</p></li><li><p class=\"bb_paragraph\" >Earn in game money to buy any card</p></li></ul>",
+        "short_description": "Battle against your friends online or computer controlled enemies in this digital card game. Play with the unique Summoning mechanic while the Action point system keep turns short and impactful. Unlock new cards by playing to build decks with varied strategies.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/8c742fbe52ffc5780e25fde269f94dbb755a922a/header.jpg?t=1781711377",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/122c9adb55f556cbd7638cb781669f24282b25b9/capsule_231x87.jpg?t=1781711377",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/122c9adb55f556cbd7638cb781669f24282b25b9/capsule_184x69.jpg?t=1781711377",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> x86_32 CPU with SSE2 instructions, x86_64 CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics with full OpenGL 3.3 support<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux distribution released after 2016<br></li><li><strong>Processor:</strong> x86_32 CPU with SSE2 instructions, x86_64 CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics with full OpenGL 3.3 support<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "developers": [
+          "Vestri the Dwarf"
+        ],
+        "publishers": [
+          "Vestri the Dwarf"
+        ],
+        "demos": [
+          {
+            "appid": 3971410,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1143827
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Monsters & Magics: Digital Card Game",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1143827,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "MMDCG - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/b67a1481053626182267b5cb7e7f474a3a7d44ab/ss_b67a1481053626182267b5cb7e7f474a3a7d44ab.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/b67a1481053626182267b5cb7e7f474a3a7d44ab/ss_b67a1481053626182267b5cb7e7f474a3a7d44ab.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/6568f2a5fd55f0632be3eb6e6c20607b97322d7e/ss_6568f2a5fd55f0632be3eb6e6c20607b97322d7e.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/6568f2a5fd55f0632be3eb6e6c20607b97322d7e/ss_6568f2a5fd55f0632be3eb6e6c20607b97322d7e.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/cf0604f6d4d909a74c5499bae2f4cad620bfefce/ss_cf0604f6d4d909a74c5499bae2f4cad620bfefce.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/cf0604f6d4d909a74c5499bae2f4cad620bfefce/ss_cf0604f6d4d909a74c5499bae2f4cad620bfefce.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/41df5c8ca1e183d94fd91cd3b56c681ad775b18c/ss_41df5c8ca1e183d94fd91cd3b56c681ad775b18c.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/41df5c8ca1e183d94fd91cd3b56c681ad775b18c/ss_41df5c8ca1e183d94fd91cd3b56c681ad775b18c.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/1546fd6f0882e8dec06f295aa2c56307ee5fe7a6/ss_1546fd6f0882e8dec06f295aa2c56307ee5fe7a6.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/1546fd6f0882e8dec06f295aa2c56307ee5fe7a6/ss_1546fd6f0882e8dec06f295aa2c56307ee5fe7a6.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/d9aa1fb3baf1cf17db2325cf7a8a831b250f4ecc/ss_d9aa1fb3baf1cf17db2325cf7a8a831b250f4ecc.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/d9aa1fb3baf1cf17db2325cf7a8a831b250f4ecc/ss_d9aa1fb3baf1cf17db2325cf7a8a831b250f4ecc.1920x1080.jpg?t=1781711377"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/f51b5077185a17c4910bc1dc9aadb1e43ded01c4/ss_f51b5077185a17c4910bc1dc9aadb1e43ded01c4.600x338.jpg?t=1781711377",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226580/f51b5077185a17c4910bc1dc9aadb1e43ded01c4/ss_f51b5077185a17c4910bc1dc9aadb1e43ded01c4.1920x1080.jpg?t=1781711377"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257232475,
+            "name": "ShortTrailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257232475/4e5ad666ca2186767ae3f81e2e460e8337d8f666/movie_600x337.jpg?t=1763262273",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3226580/220517457/9a04da266936223f9ee5370370c81b0a9852c017/1763261545/dash_av1.mpd?t=1763262273",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3226580/220517457/9a04da266936223f9ee5370370c81b0a9852c017/1763261545/dash_h264.mpd?t=1763262273",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3226580/220517457/9a04da266936223f9ee5370370c81b0a9852c017/1763261545/hls_264_master.m3u8?t=1763262273",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 19,
+          "highlighted": [
+            {
+              "icon": "7272adecfdbe82ad098f9ed09bffdf2359417d21.jpg",
+              "localized_name": "First Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/7272adecfdbe82ad098f9ed09bffdf2359417d21.jpg"
+            },
+            {
+              "icon": "ce58d7ffa34f1c3ec2e682cd47a3412fe4a968ad.jpg",
+              "localized_name": "Second Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Second Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/ce58d7ffa34f1c3ec2e682cd47a3412fe4a968ad.jpg"
+            },
+            {
+              "icon": "10800d4e9b145ed336b084d4fb95f7ec513d68e0.jpg",
+              "localized_name": "Third Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Third Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/10800d4e9b145ed336b084d4fb95f7ec513d68e0.jpg"
+            },
+            {
+              "icon": "01856226b4a16206ba91487c678310d1adf38433.jpg",
+              "localized_name": "Fourth Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fourth Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/01856226b4a16206ba91487c678310d1adf38433.jpg"
+            },
+            {
+              "icon": "31e7b9625f71e457b8d0e95900de2272c0b87088.jpg",
+              "localized_name": "Fifth Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fifth Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/31e7b9625f71e457b8d0e95900de2272c0b87088.jpg"
+            },
+            {
+              "icon": "f0cea09e6a5d182ef5a7eae7aca3c037043f21b8.jpg",
+              "localized_name": "Sixth Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sixth Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/f0cea09e6a5d182ef5a7eae7aca3c037043f21b8.jpg"
+            },
+            {
+              "icon": "8534ce0a654f876cc7a3441ad44728929f6109b9.jpg",
+              "localized_name": "Seventh Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Seventh Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/8534ce0a654f876cc7a3441ad44728929f6109b9.jpg"
+            },
+            {
+              "icon": "c920b25d35216bd5802bec274f327ee02fbcb50c.jpg",
+              "localized_name": "Eighth Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Eighth Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/c920b25d35216bd5802bec274f327ee02fbcb50c.jpg"
+            },
+            {
+              "icon": "b791ade1be3619131cae52a486a207e2b89215ab.jpg",
+              "localized_name": "Nineth Victory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Nineth Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/b791ade1be3619131cae52a486a207e2b89215ab.jpg"
+            },
+            {
+              "icon": "4d11f753892e28583d7384380636cc28303c140b.jpg",
+              "localized_name": "Final Victory",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Final Victory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3226580/4d11f753892e28583d7384380636cc28303c140b.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "vestri_dwarf@proton.me"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3226580?t=1781711377",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3226580?t=1781711377",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

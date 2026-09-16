@@ -1,0 +1,301 @@
+{
+  "requested_at": "2026-09-13T06:13:55.800887+00:00",
+  "request_params": {
+    "appids": 3981140,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3981140,
+  "payload": {
+    "3981140": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Happy Day",
+        "steam_appid": 3981140,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >If you are also tired of the pattern of brushing to eliminate the specified number, you can experience the game of solving puzzles.</p><p class=\"bb_paragraph\" >Different from the general three-elimination game, this game is to clear all icons on the screen, and will not be added in the process.</p><p class=\"bb_paragraph\" >You need to observe and plan the order of elimination, which may be eliminated in one step, which is a trap buried. If there are four similar targets, the four targets should be eliminated together. If you are eager to operate, you will fall into the &quot;trap&quot; prepared for you.</p><h2 class=\"bb_tag\" >point out</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >At least three horizontal and vertical connections are the same, which can be eliminated.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >When there is no drop, a single line/column can eliminate five together.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Due to the delay of vertical falling, when the vertical falling reaches the elimination conditions (three), the elimination will be triggered immediately without waiting for the subsequent falling.</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >If you are also tired of the pattern of brushing to eliminate the specified number, you can experience the game of solving puzzles.</p><p class=\"bb_paragraph\" >Different from the general three-elimination game, this game is to clear all icons on the screen, and will not be added in the process.</p><p class=\"bb_paragraph\" >You need to observe and plan the order of elimination, which may be eliminated in one step, which is a trap buried. If there are four similar targets, the four targets should be eliminated together. If you are eager to operate, you will fall into the &quot;trap&quot; prepared for you.</p><h2 class=\"bb_tag\" >point out</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >At least three horizontal and vertical connections are the same, which can be eliminated.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >When there is no drop, a single line/column can eliminate five together.</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Due to the delay of vertical falling, when the vertical falling reaches the elimination conditions (three), the elimination will be triggered immediately without waiting for the subsequent falling.</p></li></ul>",
+        "short_description": "This is a three-elimination game, which has displayed the target to be eliminated in full screen and will not generate unlimited content. Players need to observe and plan the elimination sequence to eliminate all targets.",
+        "supported_languages": "English, French, German, Spanish - Spain, Russian, Japanese, Polish, Thai, Simplified Chinese, Traditional Chinese, Vietnamese, Korean",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/28745f9a934cd2b2d7a3a7a05e42530bb7db55c7/header.jpg?t=1782888606",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/b3d1b9063be355b985867ead654b0f78f1e69210/capsule_231x87.jpg?t=1782888606",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/b3d1b9063be355b985867ead654b0f78f1e69210/capsule_184x69.jpg?t=1782888606",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 x64<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i5-12450H<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce MX130<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> OpenGL 4.1</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 15 (Sequoia)<br></li><li><strong>Processor:</strong> Apple 芯片或Intel <br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Storage:</strong> 1 GB available space<br></li><li><strong>Additional Notes:</strong> OpenGL 4.1</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "legal_notice": "Without authorization, it is forbidden for any unit or individual to use, copy, spread and modify in any form.",
+        "developers": [
+          "箱盒"
+        ],
+        "publishers": [
+          "箱盒"
+        ],
+        "demos": [
+          {
+            "appid": 3981160,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1397618
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Happy Day",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1397618,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Happy Day - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/217f67d4149b6158a9f07266d714092854e9c370/ss_217f67d4149b6158a9f07266d714092854e9c370.600x338.jpg?t=1782888606",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/217f67d4149b6158a9f07266d714092854e9c370/ss_217f67d4149b6158a9f07266d714092854e9c370.1920x1080.jpg?t=1782888606"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/a8de166a18466f2575f6b6f72614d57321bec694/ss_a8de166a18466f2575f6b6f72614d57321bec694.600x338.jpg?t=1782888606",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/a8de166a18466f2575f6b6f72614d57321bec694/ss_a8de166a18466f2575f6b6f72614d57321bec694.1920x1080.jpg?t=1782888606"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/545bf1fd47ee58fba0dfb19e144a329808d0de63/ss_545bf1fd47ee58fba0dfb19e144a329808d0de63.600x338.jpg?t=1782888606",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/545bf1fd47ee58fba0dfb19e144a329808d0de63/ss_545bf1fd47ee58fba0dfb19e144a329808d0de63.1920x1080.jpg?t=1782888606"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/0cdd15385ea923fde181b9bfc066afdc9dfd2590/ss_0cdd15385ea923fde181b9bfc066afdc9dfd2590.600x338.jpg?t=1782888606",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/0cdd15385ea923fde181b9bfc066afdc9dfd2590/ss_0cdd15385ea923fde181b9bfc066afdc9dfd2590.1920x1080.jpg?t=1782888606"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/2050204dfe3983722c76fa1308643b96c364117a/ss_2050204dfe3983722c76fa1308643b96c364117a.600x338.jpg?t=1782888606",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/2050204dfe3983722c76fa1308643b96c364117a/ss_2050204dfe3983722c76fa1308643b96c364117a.1920x1080.jpg?t=1782888606"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257200780,
+            "name": "玩法展示",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257200780/7731ecbc28c57715e51dec1f627a241891611763/movie_600x337.jpg?t=1763314660",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3981140/885022246/481de72a9227ec1dc3dd78d1d04e234f5d15954b/1763314361/dash_av1.mpd?t=1763314660",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3981140/885022246/481de72a9227ec1dc3dd78d1d04e234f5d15954b/1763314361/dash_h264.mpd?t=1763314660",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3981140/885022246/481de72a9227ec1dc3dd78d1d04e234f5d15954b/1763314361/hls_264_master.m3u8?t=1763314660",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 30,
+          "highlighted": [
+            {
+              "icon": "0e5ffd1a6729dc9f3ccfe176e39a63c5059d0a0d.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/0e5ffd1a6729dc9f3ccfe176e39a63c5059d0a0d.jpg"
+            },
+            {
+              "icon": "b585639d8eabdbe25a78fcb0a9ca18d4ba638ec5.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/b585639d8eabdbe25a78fcb0a9ca18d4ba638ec5.jpg"
+            },
+            {
+              "icon": "844d930e738b9272dbfe7c5c077aab140678875c.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/844d930e738b9272dbfe7c5c077aab140678875c.jpg"
+            },
+            {
+              "icon": "49be7604d44af6506a0b92fe52ac567fc169947c.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/49be7604d44af6506a0b92fe52ac567fc169947c.jpg"
+            },
+            {
+              "icon": "e45557ec54f7b0d29ec59ee632daa1fa04f95d19.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/e45557ec54f7b0d29ec59ee632daa1fa04f95d19.jpg"
+            },
+            {
+              "icon": "4b373140544992541baabd98f04e96f19e88b062.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/4b373140544992541baabd98f04e96f19e88b062.jpg"
+            },
+            {
+              "icon": "89b83df7d0536fdb0818c870831c67b1d71b70ad.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/89b83df7d0536fdb0818c870831c67b1d71b70ad.jpg"
+            },
+            {
+              "icon": "c03d71867f4d10bea20195a009c104722638ad3e.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/c03d71867f4d10bea20195a009c104722638ad3e.jpg"
+            },
+            {
+              "icon": "9816b76e8533c17d7dfdbe198e00dfeb34a5258a.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/9816b76e8533c17d7dfdbe198e00dfeb34a5258a.jpg"
+            },
+            {
+              "icon": "87a568cf083bc4c099453bb12605aec18903d855.jpg",
+              "localized_name": "关卡",
+              "archived": 0,
+              "hidden": 0,
+              "name": "关卡",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3981140/87a568cf083bc4c099453bb12605aec18903d855.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 17, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "w872018224@163.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3981140?t=1782888606",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981140/1718499aacba9a843f057bae70bea43b977b32ca/page_bg_raw.jpg?t=1782888606",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

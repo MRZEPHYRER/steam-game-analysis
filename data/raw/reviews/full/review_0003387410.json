@@ -1,0 +1,67 @@
+{
+  "appid": 3387410,
+  "requested_at": "2026-09-13T19:13:38.069536+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 4,
+      "total_negative": 1,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "200030063",
+        "author": {
+          "steamid": "76561198272418836",
+          "personaname": "Xx_GHOSTWAIFU360_xX & KNUCKLES",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198272418836/",
+          "num_games_owned": 0,
+          "num_reviews": 33,
+          "playtime_forever": 28,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 28,
+          "deck_playtime_at_review": 23,
+          "last_played": 1752813532,
+          "avatar": "df937e7fb73bdf358803863b3b3faf5bfb29878f"
+        },
+        "language": "english",
+        "review": "Works well on steam deck, no issues.\nGriffin is usually ~$100 for a loose game gear cartridge, so this is an excellent deal for a great game. \nThis is one of the best ROM-in-a-box setups I've seen; simple UI, savestates+cheats, and the art scans are great. Built on Ares with proper license docs, which is nice. \nNo ROM in the game folder, but being technically inclined, I can confirm they are using a known-good dump, so it's a solid release. \nI appreciate Edia/Ratalaika releasing this--this is a DEEP cut in the japan-exclusive game-gear library, and this release is very well done; this is the first time I've actually wanted to use the built-in emu.\n\nThe game itself is great. You have 3 weapons available at all times, switchable from the pause menu. Basic shot, over-the-wall-grenade-from-gain-ground-thing, and a rocket that explodes in a large area after traveling a long distance (and only fires forward).\n\nFinding the right weapon is fun, and combined with being a tank,  the game feels unique compared to the hundreds of other shmups from that era.\n\nFirst level music is a bit weak, but the rest of the tracks are solid.",
+        "timestamp_created": 1752777864,
+        "timestamp_updated": 1752849160,
+        "voted_up": true,
+        "votes_up": 9,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.629078924655914307",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1752249774",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXax2AAAAAFP+QhakAAAAB/9ob7BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.313000000000102,
+  "transport_error_count": 0
+}

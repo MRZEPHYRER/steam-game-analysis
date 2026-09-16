@@ -1,0 +1,66 @@
+{
+  "appid": 3075800,
+  "requested_at": "2026-09-13T19:03:13.699559+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 146,
+      "total_negative": 44,
+      "total_reviews": 190
+    },
+    "reviews": [
+      {
+        "recommendationid": "222779590",
+        "author": {
+          "steamid": "76561198224735920",
+          "personaname": "wesker <3 leon",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/oscarjeej/",
+          "num_games_owned": 244,
+          "num_reviews": 26,
+          "playtime_forever": 105,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 105,
+          "last_played": 1775388060,
+          "avatar": "ea7108dcc353c7d6baeec681239d937384ed216a"
+        },
+        "language": "english",
+        "review": "here from spiff's vid, i honestly really like this game so far and can see myself playing it a ton as long as some balancing changes are made. really frustrating in its current state but so fixable that i'm gonna stand by it anyway",
+        "timestamp_created": 1775611708,
+        "timestamp_updated": 1775611708,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.661906182765960693",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1729533597",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFWwwqAAAAAFP+UuVYAAAAB2jOvRBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

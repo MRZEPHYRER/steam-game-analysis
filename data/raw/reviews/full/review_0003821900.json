@@ -1,0 +1,71 @@
+{
+  "appid": 3821900,
+  "requested_at": "2026-09-13T19:44:28.264230+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "204958110",
+        "author": {
+          "steamid": "76561198047639540",
+          "personaname": "Phirmth",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198047639540/",
+          "num_games_owned": 443,
+          "num_reviews": 8,
+          "playtime_forever": 116,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 116,
+          "last_played": 1758329297,
+          "avatar": "cd51137b288de9a7c4cd285ea3baad7c3b6ea3a5"
+        },
+        "language": "english",
+        "review": "born too late to explore the Earth, born too early to explore space, born just in time to Hot Pig Jump",
+        "timestamp_created": 1758558535,
+        "timestamp_updated": 1758558535,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.60120844841003418",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758006283",
+        "reactions": [
+          {
+            "reaction_type": 17,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZ+dCAAAAAFP+M9GIAAAAB+me2NBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0780000000004293,
+  "transport_error_count": 0
+}

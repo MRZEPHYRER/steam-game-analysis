@@ -1,0 +1,283 @@
+{
+  "requested_at": "2026-09-12T16:30:02.391758+00:00",
+  "request_params": {
+    "appids": 3767020,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3767020,
+  "payload": {
+    "3767020": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Wordy Rain",
+        "steam_appid": 3767020,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Wordy Rain is a casual word-making puzzle game with different modes depending on how casual you want to get. Choose Challenge Mode to get faster gameplay the more you level up, or choose Chill or Cozy Modes for a more relaxed word-making session. Wordy Rain has relaxing music and 3D scenes to pair with your puzzling! </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/extras/d2a3cd45ba763ba42316d9dbc76c9172.avif?t=1756943742\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/extras_big/d2a3cd45ba763ba42316d9dbc76c9172.avif?t=1756943742 width=800 height=774 /></span></p><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Wordy Rain is a casual word-making puzzle game with different modes depending on how casual you want to get. Choose Challenge Mode to get faster gameplay the more you level up, or choose Chill or Cozy Modes for a more relaxed word-making session. Wordy Rain has relaxing music and 3D scenes to pair with your puzzling! </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/extras/d2a3cd45ba763ba42316d9dbc76c9172.avif?t=1756943742\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/extras_big/d2a3cd45ba763ba42316d9dbc76c9172.avif?t=1756943742 width=800 height=774 /></span></p><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A word-making puzzle game with an action mechanic, or a cozy chill experience. Make words from falling blocks, but don't let them get to the top! Use powerups and strategy to see how long you can go.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/5363c7a88d9cb5cdae03d05b1f1eef0757557939/header.jpg?t=1756943742",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/f62e7e6da75bcd5c4ce1715712f96cf975eb8805/capsule_231x87.jpg?t=1756943742",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/f62e7e6da75bcd5c4ce1715712f96cf975eb8805/capsule_184x69.jpg?t=1756943742",
+        "website": "http://shadowdoggames.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-8400 / AMD Ryzen 5 2600 or equivalent<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 980 Ti<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> macOS 10.15 Catalina or later<br></li><li><strong>Processor:</strong> Apple M1 chip<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> Apple Silicon: M1 integrated GPU (7-core or 8-core)<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires an Apple processor</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Shadow Dog Games"
+        ],
+        "publishers": [
+          "Shadow Dog Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 699,
+          "final": 699,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$6.99"
+        },
+        "packages": [
+          1325494
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Wordy Rain",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1325494,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Wordy Rain - $6.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 699
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/c80ddb115f48e793e9fe009d22bf0347683d8751/ss_c80ddb115f48e793e9fe009d22bf0347683d8751.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/c80ddb115f48e793e9fe009d22bf0347683d8751/ss_c80ddb115f48e793e9fe009d22bf0347683d8751.1920x1080.jpg?t=1756943742"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/e52e91a5cefc3c44f67f394c355190aa083c5f0e/ss_e52e91a5cefc3c44f67f394c355190aa083c5f0e.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/e52e91a5cefc3c44f67f394c355190aa083c5f0e/ss_e52e91a5cefc3c44f67f394c355190aa083c5f0e.1920x1080.jpg?t=1756943742"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/1ca033a5b76e75c305e6e8b3929c981f54407ba9/ss_1ca033a5b76e75c305e6e8b3929c981f54407ba9.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/1ca033a5b76e75c305e6e8b3929c981f54407ba9/ss_1ca033a5b76e75c305e6e8b3929c981f54407ba9.1920x1080.jpg?t=1756943742"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/2f695068dfc9634e486f516f5e5d00d6bd9f067a/ss_2f695068dfc9634e486f516f5e5d00d6bd9f067a.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/2f695068dfc9634e486f516f5e5d00d6bd9f067a/ss_2f695068dfc9634e486f516f5e5d00d6bd9f067a.1920x1080.jpg?t=1756943742"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/099b15f8709a37c2724699cf5af3234a6e58b9b7/ss_099b15f8709a37c2724699cf5af3234a6e58b9b7.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/099b15f8709a37c2724699cf5af3234a6e58b9b7/ss_099b15f8709a37c2724699cf5af3234a6e58b9b7.1920x1080.jpg?t=1756943742"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/2f695068dfc9634e486f516f5e5d00d6bd9f067a/ss_2f695068dfc9634e486f516f5e5d00d6bd9f067a.600x338.jpg?t=1756943742",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/2f695068dfc9634e486f516f5e5d00d6bd9f067a/ss_2f695068dfc9634e486f516f5e5d00d6bd9f067a.1920x1080.jpg?t=1756943742"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257192807,
+            "name": "Wordy Rain 1.2 Update",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257192807/561250a1795f3bb00f0e75990fb6b835d39fa9d7/movie_600x337.jpg?t=1756943741",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3767020/1053213111/b17675ed6beae39065b2cecba5b4de382b8cfaae/1756932659/dash_av1.mpd?t=1756943741",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3767020/1053213111/b17675ed6beae39065b2cecba5b4de382b8cfaae/1756932659/dash_h264.mpd?t=1756943741",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3767020/1053213111/b17675ed6beae39065b2cecba5b4de382b8cfaae/1756932659/hls_264_master.m3u8?t=1756943741",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 14,
+          "highlighted": [
+            {
+              "icon": "378e0863401f50ae8b43dbdeaae2b04545fdaba5.jpg",
+              "localized_name": "Level 10 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 10 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/378e0863401f50ae8b43dbdeaae2b04545fdaba5.jpg"
+            },
+            {
+              "icon": "2640d2f5f1496cb6288b78f43bdaa4ceb41a58a6.jpg",
+              "localized_name": "Level 20 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 20 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/2640d2f5f1496cb6288b78f43bdaa4ceb41a58a6.jpg"
+            },
+            {
+              "icon": "9802d3c726e8a86c7c3dc14678b93c6d2fe76025.jpg",
+              "localized_name": "Level 30 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 30 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/9802d3c726e8a86c7c3dc14678b93c6d2fe76025.jpg"
+            },
+            {
+              "icon": "f649179d64f77f234a027031c548e1c29643f082.jpg",
+              "localized_name": "Level 40 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 40 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/f649179d64f77f234a027031c548e1c29643f082.jpg"
+            },
+            {
+              "icon": "b44bf8411404f22eda9be6f1a82a54d782bebaea.jpg",
+              "localized_name": "Level 50 Reached",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Level 50 Reached",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/b44bf8411404f22eda9be6f1a82a54d782bebaea.jpg"
+            },
+            {
+              "icon": "5ba981af5c46c09585fa86c18ee926f46169b107.jpg",
+              "localized_name": "4 Letters and Up",
+              "archived": 0,
+              "hidden": 0,
+              "name": "4 Letters and Up",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/5ba981af5c46c09585fa86c18ee926f46169b107.jpg"
+            },
+            {
+              "icon": "e70994be5571e4ce14899000a81316e66a057aa6.jpg",
+              "localized_name": "Wordsmith",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wordsmith",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/e70994be5571e4ce14899000a81316e66a057aa6.jpg"
+            },
+            {
+              "icon": "17a6a65897565045d39429b8da3b52312a2e6e5d.jpg",
+              "localized_name": "Wordstar",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wordstar",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/17a6a65897565045d39429b8da3b52312a2e6e5d.jpg"
+            },
+            {
+              "icon": "61bec1d84f6223e44bc08a1df1064abfb2a1b66d.jpg",
+              "localized_name": "Wordwizard",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wordwizard",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/61bec1d84f6223e44bc08a1df1064abfb2a1b66d.jpg"
+            },
+            {
+              "icon": "cc028a1495a02a86dd67a864ee87e5c00e8bd9bd.jpg",
+              "localized_name": "Wordmaven",
+              "archived": 0,
+              "hidden": 1,
+              "name": "Wordmaven",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3767020/cc028a1495a02a86dd67a864ee87e5c00e8bd9bd.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "shadowdogdev@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3767020?t=1756943742",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767020/af5900f82a16cd79f7828e966630d5ff1459ccc7/page_bg_raw.jpg?t=1756943742",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

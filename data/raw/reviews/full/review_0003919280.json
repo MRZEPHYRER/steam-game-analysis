@@ -1,0 +1,66 @@
+{
+  "appid": 3919280,
+  "requested_at": "2026-09-13T19:59:53.313431+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "203336168",
+        "author": {
+          "steamid": "76561198143664251",
+          "personaname": "curlgirl76",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198143664251/",
+          "num_games_owned": 0,
+          "num_reviews": 31,
+          "playtime_forever": 153,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 153,
+          "last_played": 1756742406,
+          "avatar": "7455e6e244e069cb0e243ccd0acce0aa1371be86"
+        },
+        "language": "english",
+        "review": "I would not recommend this game for English speakers.  The translation is not clean.  There are words that are misspelled (find item listed as \"crane\" but you need to find a \"cane\"), words that are incorrect (find item listed as \"brush\" but you need to find a \"comb\") and find items that have not been translated from the original developers language (I just guessed and clicked on anything until something happened).  \r\nThe game is also not strictly a hidden object game.  There are many other types of puzzles that are in the game and that have to be played to proceed as there is no skip function or even a hint function on these other types of puzzles.  \r\nI spent about 2.5 hours to play through the game.  Figure out what you want to spend on only 2.5 hours of game play and you may want to take a pass on purchasing this game.",
+        "timestamp_created": 1756750409,
+        "timestamp_updated": 1756750409,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.550841569900512695",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1756360992",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY+7CAAAAAFP+Ggf2AAAAB4ntWHBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.4840000000003783,
+  "transport_error_count": 0
+}

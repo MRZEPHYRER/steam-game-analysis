@@ -1,0 +1,66 @@
+{
+  "appid": 3696020,
+  "requested_at": "2026-09-13T19:32:33.931204+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 2,
+      "total_negative": 4,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "209531212",
+        "author": {
+          "steamid": "76561198130150497",
+          "personaname": "andraxxusbear",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198130150497/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 347,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 252,
+          "last_played": 1766016105,
+          "avatar": "61fb61b5eed2b63d7974f77980c19a547c3c99a2"
+        },
+        "language": "english",
+        "review": "You know, I thought after 46.1 hours in the Demo I had the game \"figured out\", turns out someone had discovered a way to make a Jarl stronger than any I had before, by quite a lot actually, to the point I thought he had glitched it. So I set out to create the most broken Jarl I could, little did I know it would make me so strong that I would start losing the Raids, it just so happens that I also broke the game and bounced back to still make the strongest Jarl all in the same run.\nNow I've had fun in other games, but I've never laughed like a madman for 50+ minutes. \nAlso, folks, limit the FPS from the GPU software.\n\nTLDR: Strongest Jarl -> Break Game -> Bounce Back -> Strongest Jarl all in one run.",
+        "timestamp_created": 1763459686,
+        "timestamp_updated": 1763459686,
+        "voted_up": true,
+        "votes_up": 6,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.601417183876037598",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763397480",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFX+L6AAAAAFP+M+zuAAAAB8lKafBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1719999999995707,
+  "transport_error_count": 0
+}

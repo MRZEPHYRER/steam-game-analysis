@@ -1,0 +1,75 @@
+{
+  "appid": 3055230,
+  "requested_at": "2026-09-13T19:02:29.473708+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 314,
+      "total_negative": 118,
+      "total_reviews": 432
+    },
+    "reviews": [
+      {
+        "recommendationid": "205146924",
+        "author": {
+          "steamid": "76561198355086302",
+          "personaname": "♿Данил Бритва",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198355086302/",
+          "num_games_owned": 59,
+          "num_reviews": 2,
+          "playtime_forever": 62,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 62,
+          "last_played": 1758741012,
+          "avatar": "2acef2035ff4b6e9a96cf1338d6949c2753764b0"
+        },
+        "language": "russian",
+        "review": "За 192 рубля секса не было,я не увидел голых сисек и поп,игра не оправдала ожиданий да и не бесплатно вообще",
+        "timestamp_created": 1758781176,
+        "timestamp_updated": 1758781176,
+        "voted_up": false,
+        "votes_up": 122,
+        "votes_funny": 25,
+        "weighted_vote_score": "0.901520848274230957",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": true,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758207615",
+        "reactions": [
+          {
+            "reaction_type": 8,
+            "count": 1
+          },
+          {
+            "reaction_type": 18,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFR+DaAAAAAFP+zZQqAAAAB8ssmOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

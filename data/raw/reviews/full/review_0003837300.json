@@ -1,0 +1,68 @@
+{
+  "appid": 3837300,
+  "requested_at": "2026-09-13T19:47:06.737197+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "201622677",
+        "author": {
+          "steamid": "76561198452308672",
+          "personaname": "1148223463",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198452308672/",
+          "num_games_owned": 44,
+          "num_reviews": 10,
+          "playtime_forever": 800,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 695,
+          "last_played": 1759247539,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "好闪退BGU还很卡，我一万多的电脑都玩的费劲，希望抓紧优化，玩着玩着二十多分钟了直接给我闪退，我曹玩这麽久浪费我时间。还不带存档直接从新玩。",
+        "timestamp_created": 1754556102,
+        "timestamp_updated": 1754556102,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.565217375755310059",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1754773392,
+        "developer_response": "您好，对于崩溃和性能问题已进行初步修复，请您更新最新版本（v1.1.0.5）。若有其他问题，可加QQ群沟通，感谢您的支持~",
+        "app_release_date": "1754475430",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYshcAAAAAFP+IWQgAAAAB1yZCBBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

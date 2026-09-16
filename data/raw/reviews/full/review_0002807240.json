@@ -1,0 +1,66 @@
+{
+  "appid": 2807240,
+  "requested_at": "2026-09-13T18:56:10.941551+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 18,
+      "total_negative": 0,
+      "total_reviews": 18
+    },
+    "reviews": [
+      {
+        "recommendationid": "207520022",
+        "author": {
+          "steamid": "76561198040901746",
+          "personaname": "Highwire",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198040901746/",
+          "num_games_owned": 0,
+          "num_reviews": 31,
+          "playtime_forever": 18,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 18,
+          "last_played": 1758160663,
+          "avatar": "a5ae9d98f0ef2e5ae2019dca746c38b3747edcba"
+        },
+        "language": "english",
+        "review": "This got me with that \"one more try\" for a while. The controls have a learning curve but the game is a simple enjoyable little time, worth the price.",
+        "timestamp_created": 1761370454,
+        "timestamp_updated": 1761370454,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1718729850",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFkAAAAAAAAFAAAAAAAAAAB2kdCXBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

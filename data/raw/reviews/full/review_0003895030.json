@@ -1,0 +1,66 @@
+{
+  "appid": 3895030,
+  "requested_at": "2026-09-13T19:56:16.242418+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "215589495",
+        "author": {
+          "steamid": "76561198261500484",
+          "personaname": "Sklitterbeer",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/sklitterbeer/",
+          "num_games_owned": 253,
+          "num_reviews": 32,
+          "playtime_forever": 29,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 29,
+          "last_played": 1767989544,
+          "avatar": "8ffe0ac68d5b79e8569444f8968a264798d6a47b"
+        },
+        "language": "english",
+        "review": "A great improvement from Stretch. I look forward to further chapters.\n\nThe man wept as he said, \"Happiness really isn't distributed equally, is it?\"\n\n9/10",
+        "timestamp_created": 1767989698,
+        "timestamp_updated": 1767989698,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.483133226633071899",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760085023",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaVlwAAAAAFP97rpqAAAAB3p7S2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.233999999999469,
+  "transport_error_count": 0
+}

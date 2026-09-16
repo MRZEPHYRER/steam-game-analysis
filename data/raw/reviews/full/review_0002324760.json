@@ -1,0 +1,66 @@
+{
+  "appid": 2324760,
+  "requested_at": "2026-09-13T18:49:36.177705+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 20,
+      "total_negative": 2,
+      "total_reviews": 22
+    },
+    "reviews": [
+      {
+        "recommendationid": "218918150",
+        "author": {
+          "steamid": "76561197996441810",
+          "personaname": "Vaporwave Spirit",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/TheBackroomsLoiterer/",
+          "num_games_owned": 277,
+          "num_reviews": 14,
+          "playtime_forever": 466,
+          "playtime_last_two_weeks": 17,
+          "playtime_at_review": 30,
+          "last_played": 1788666050,
+          "avatar": "2aef140986a5bae231fb063d4f1fa5f2403d1aa5"
+        },
+        "language": "english",
+        "review": "Florida Interstate 86 is a rare species on steam, since there aren't that many games on here (good games atleast) that have floridian, miami vice, and vaporwave aesthetics to them, which is a shame since those are some of the best aesthetic genre's around. \n\nPROS\n\n- fluent controls. Ignore steam demanding you to play with a controller. A keyboard works just fine.\n\n-tropical aesthetic. Despite being simple, it conveys strong Miami vibes that I enjoy.\n\n-good music selection. The game has a good choice of synthwave, vaporwave, and Miami vice themed songs put into it\n\nCONS\n\n-graphics. The graphics seem a little dated, making the game feel like it came out in the mid 2010's, though this is a good thing for lower end computers\n\n-less diverse gameplay mechanics. I havent played it for long, but the gist of what I got is that you collect cassette tapes which make you go faster and extend the timer, and you also have a speed boost and can ram into cars. Besides that and a power up that lets you explode other cars, thats pretty much it. \n\nPERSONAL SUGGESTIONS\n\n-more ambience. Possibly adding more ambience to the game, such as the sounds of waves washing on the beach, Can make the game feel more alive. More flying birds, such as seagulls and parrots (Nanday conures and Monk Parakeets are known to fly in flocks out in the open.) would be nice too, especially since you can only see seagulls in the beginning of the drive/ menu and no where else through a game session.\n\n-car damage and gibs. It would be more satisfying if the cars you crash into take damage and crumple/ have parts flying off of them. Not necessary but it helps with immersion. \n\nCONCLUSION\n\nFlorida Interstate 86 is a good game if you have time to spend, and if you want to simply relax and listen to music while driving across a tropical floridian road. Its not the best game out there, but it definitely delivers what the steam store page advertises, So I reccomend it and give it a thumbs up. I hope the developer sees this and gets inspired to improve upon the game cause I do rather enjoy it a lot.",
+        "timestamp_created": 1771727966,
+        "timestamp_updated": 1771837053,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752584487",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB20I3DBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3870020,
+  "requested_at": "2026-09-13T19:52:36.595718+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 36,
+      "total_negative": 2,
+      "total_reviews": 38
+    },
+    "reviews": [
+      {
+        "recommendationid": "211465831",
+        "author": {
+          "steamid": "76561199032058184",
+          "personaname": "马枪艺术家茶司",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199032058184/",
+          "num_games_owned": 462,
+          "num_reviews": 51,
+          "playtime_forever": 326,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 186,
+          "last_played": 1764750820,
+          "avatar": "ff2040b8d5af108546d8e25fdbeeb266262b192b"
+        },
+        "language": "schinese",
+        "review": "非常有趣且带着些哲学思考与大量隐喻的前半段类八番出口找异常后半段脑银推理解谜走路模拟器。\n可以继承新品节demo存档，算上demo我花了大概四到五小时，以作参考。\n\n[h3]玩法与创新(10/10)[/h3]\n在前半段，也就是demo的内容里，玩家需要找出异常，到达一楼。游戏贴心地将你遇到的异常通过文件形式归档[spoiler]，也为了后续的解谜。[/spoiler]，利于玩家进行辨别。\n而后半段玩家需要通过获得的文档，解开谜题打开一道道门，以此解开这个无限回廊的谜题。\n部分谜题稍微有一些抽象，总而言之还是很有趣的。\n\n[h3]剧情与叙事(8/10)[/h3]\n并不是很复杂的故事。[spoiler]大抵是Phil临终前被对于自己生命的思考与走马灯？我并不是很确定。[/spoiler]\n\n[h3]本地化与优化(9/10)[/h3]\n游戏有很不错的汉化，但我认为有个地方的翻译似乎有些歧义，可能会导致难以解开谜题。[spoiler]即通过Rita和Phil的备忘录推断Mary生日那里，个人认为更好的翻译应该为“那么Mary如果在*屏蔽 日而不是*屏蔽 日出生就好了”，这样或许更好推断生日，原文导致我认为Phil的意思是因为这两分钟导致Mary的生日从0点退回到了23点……[/spoiler]\n优化感觉还行。我在游玩过程中并没有遇到什么BUG。\n\n[h3]美术与音乐附加分(0.8/1)[/h3]\n游戏的美术平平无奇。有几个地方的音乐倒是挺不错的。\n\n[h3]总分与总结[/h3]\n(10+8+9)/3+0.8=(9.8)，非常推荐，绝对值得一试。",
+        "timestamp_created": 1764352683,
+        "timestamp_updated": 1764352683,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.580152392387390137",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764334383",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYZZ8AAAAAFP+KQmuAAAAB35tamBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

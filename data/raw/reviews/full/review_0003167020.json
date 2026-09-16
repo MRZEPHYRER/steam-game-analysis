@@ -1,0 +1,159 @@
+{
+  "appid": 3167020,
+  "requested_at": "2026-09-13T19:05:47.554560+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 71481,
+      "total_negative": 11906,
+      "total_reviews": 83387
+    },
+    "reviews": [
+      {
+        "recommendationid": "207017319",
+        "author": {
+          "steamid": "76561198220107988",
+          "personaname": "小海赖",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198220107988/",
+          "num_games_owned": 0,
+          "num_reviews": 44,
+          "playtime_forever": 3690,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2642,
+          "last_played": 1774679272,
+          "avatar": "eb67f0c1a69abd3ad58fc2dfd4d8c2a2e2ea07ba"
+        },
+        "language": "schinese",
+        "review": "角色是鸭不是鸡，打怪探索捡垃圾。\n背包满了回基地，一顿猛肝升体力。\n单人愉快来摸金，没有护航和挂壁。\n玩法休闲又有趣，男女老少皆适宜。\n问我觉谁是条蛆，洲的策划是傻__",
+        "timestamp_created": 1760802843,
+        "timestamp_updated": 1761627567,
+        "voted_up": true,
+        "votes_up": 8134,
+        "votes_funny": 2871,
+        "weighted_vote_score": "0.995586097240447998",
+        "comment_count": 202,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1760598013",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 1
+          },
+          {
+            "reaction_type": 16,
+            "count": 567
+          },
+          {
+            "reaction_type": 5,
+            "count": 101
+          },
+          {
+            "reaction_type": 13,
+            "count": 80
+          },
+          {
+            "reaction_type": 3,
+            "count": 51
+          },
+          {
+            "reaction_type": 18,
+            "count": 34
+          },
+          {
+            "reaction_type": 17,
+            "count": 30
+          },
+          {
+            "reaction_type": 8,
+            "count": 17
+          },
+          {
+            "reaction_type": 12,
+            "count": 13
+          },
+          {
+            "reaction_type": 15,
+            "count": 12
+          },
+          {
+            "reaction_type": 2,
+            "count": 9
+          },
+          {
+            "reaction_type": 1,
+            "count": 8
+          },
+          {
+            "reaction_type": 21,
+            "count": 7
+          },
+          {
+            "reaction_type": 4,
+            "count": 5
+          },
+          {
+            "reaction_type": 14,
+            "count": 4
+          },
+          {
+            "reaction_type": 9,
+            "count": 3
+          },
+          {
+            "reaction_type": 22,
+            "count": 3
+          },
+          {
+            "reaction_type": 7,
+            "count": 3
+          },
+          {
+            "reaction_type": 20,
+            "count": 2
+          },
+          {
+            "reaction_type": 11,
+            "count": 1
+          },
+          {
+            "reaction_type": 10,
+            "count": 1
+          },
+          {
+            "reaction_type": 6,
+            "count": 1
+          },
+          {
+            "reaction_type": 23,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFQFpmAAAAAFP+/b1yAAAAB31tqVBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

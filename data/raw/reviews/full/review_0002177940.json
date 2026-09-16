@@ -1,0 +1,66 @@
+{
+  "appid": 2177940,
+  "requested_at": "2026-09-13T18:48:04.382816+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "205728494",
+        "author": {
+          "steamid": "76561197992866052",
+          "personaname": "Casper the Scorched Earth Cat",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Kogleru/",
+          "num_games_owned": 4399,
+          "num_reviews": 288,
+          "playtime_forever": 11,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 11,
+          "last_played": 1759377511,
+          "avatar": "597af36ca5ee078de40a77777660905963e68e16"
+        },
+        "language": "english",
+        "review": "This game would be good but the physics engine leaves A LOT to be wanted. There basically isn't one. Everything moves like there is no physics behind it...\n\nThe game modes are all in the same arena with the same looks. The graphics are what got me to buy it but the gameplay is so bad.\n\n3/10, needs a physic engine.",
+        "timestamp_created": 1759445224,
+        "timestamp_updated": 1759445224,
+        "voted_up": false,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.590938389301300049",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1668678880",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYLmYAAAAAFP+Lo9sAAAAB+ruWQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0319999999999254,
+  "transport_error_count": 0
+}

@@ -1,0 +1,68 @@
+{
+  "appid": 3995560,
+  "requested_at": "2026-09-13T20:09:27.378429+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "221727468",
+        "author": {
+          "steamid": "76561198177983099",
+          "personaname": "docschmidt",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198177983099/",
+          "num_games_owned": 0,
+          "num_reviews": 5,
+          "playtime_forever": 6870,
+          "playtime_last_two_weeks": 453,
+          "playtime_at_review": 47,
+          "last_played": 1789276745,
+          "avatar": "e8ef2b11eee5e2b7b13c3a82cbbbb5e4efdb454a"
+        },
+        "language": "german",
+        "review": "It's a very nice game with great visuals, but how can you save an unfinished puzzle?",
+        "timestamp_created": 1774513607,
+        "timestamp_updated": 1774513607,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1775215916,
+        "developer_response": "Thanks for the feedback.\nSince each puzzle only takes about 20 minutes to complete, saving unfinished ones wasn't an option. However, this feature is still on the roadmap. I can't say yet about the timeframe.",
+        "app_release_date": "1762248171",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB8runNBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.25,
+  "transport_error_count": 0
+}

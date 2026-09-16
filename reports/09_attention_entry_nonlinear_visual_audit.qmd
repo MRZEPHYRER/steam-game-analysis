@@ -1,0 +1,217 @@
+---
+title: "Step 6A.1 非线性 Review Entry 规格冻结"
+subtitle: "Paid-price natural spline df=3 的人工可视化审计"
+lang: zh-CN
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("../R/unicode_utils.R")
+knitr::knit_hooks$set(document = function(x) decode_uplus_notation(x))
+data_dir <- file.path("..", "data", "analysis", "attention")
+figure_dir <- file.path("..", "figures", "attention")
+read_6a1 <- function(name) read.csv(file.path(data_dir, name), check.names = FALSE,
+  stringsAsFactors = FALSE, encoding = "UTF-8")
+fit <- read_6a1("step6a1_primary_fit.csv")
+basis <- read_6a1("step6a1_spline_basis_definition.csv")
+support <- read_6a1("step6a1_price_support.csv")
+peak <- read_6a1("step6a1_peak_audit.csv")
+representative <- read_6a1("step6a1_representative_price_predictions.csv")
+contrasts <- read_6a1("step6a1_price_contrasts.csv")
+free_contrast <- read_6a1("step6a1_free_contrast.csv")
+nonprice_coef <- read_6a1("step6a1_primary_non_spline_coefficients.csv")
+comparison <- read_6a1("step6a1_linear_vs_nonlinear.csv")
+nesting <- read_6a1("step6a1_nesting_audit.csv")
+separation <- read_6a1("step6a1_separation_diagnostics.csv")
+influence <- read_6a1("step6a1_influence_summary.csv")
+scores <- read_6a1("step6a1_auc_brier.csv")
+curve_sensitivity <- read_6a1("step6a1_price_curve_sensitivity_summary.csv")
+df4 <- read_6a1("step6a1_df4_sensitivity.csv")
+gam <- read_6a1("step6a1_gam_diagnostic.csv")
+criteria <- read_6a1("step6a1_freeze_criteria.csv")
+decision <- read_6a1("step6a1_stage_decision.csv")
+stopifnot(fit$n_games == 2998, fit$converged, all(separation$n_flagged == 0))
+```
+
+# 为什么 Step 6A 不能冻结
+
+Step 6A 的 Logistic framework、样本、校准和 separation 均正常，但单一 linear paid-price term 无法描述观察到的 price-response shape。本轮只修复这个已识别的 functional-form misspecification，不进行广泛模型搜索，也不进入 count model。
+
+# Linear Benchmark
+
+```{r}
+knitr::kable(comparison[, c("model_id", "n_games", "parameter_count", "log_likelihood", "aic", "bic", "residual_deviance")], digits = 5, caption = "相同 2,998 行的 Linear Benchmark 与 Nonlinear Primary")
+```
+
+Linear 规格继续作为审计 benchmark。Nonlinear spline 只有在全部冻结条件通过时才成为最终 entry model。
+
+# Paid Price Nonlinearity
+
+```{r}
+#| fig-cap: "Linear benchmark 与 frozen spline df=3 的 price-response curve"
+knitr::include_graphics(file.path(figure_dir, "47_linear_vs_spline_price_curve.png"))
+```
+
+人工审计重点：linear 曲线是否掩盖了中价位附近的平台状峰值，以及高价尾部是否被错误解释为精确规律。
+
+# Spline Parameterization
+
+```{r}
+knitr::kable(basis, digits = 6, caption = "Frozen paid-price spline basis 定义")
+knitr::kable(nesting, digits = 8, caption = "Linear 与 spline 的严格 nesting 审计")
+```
+
+Knots 和 Boundary.knots 只从有效 paid-market price population 计算一次。Prediction 明确复用这些值和同一 centering basis；free rows 的三个 spline columns 全部等于 0。Spline basis coefficients 不作独立业务解释。
+
+# Price Data Support
+
+```{r}
+knitr::kable(support, digits = 3, caption = "Paid-price percentiles 与高价尾部样本量")
+```
+
+```{r}
+#| fig-cap: "Paid-price distribution、central 5–95% support 与拟合峰值"
+knitr::include_graphics(file.path(figure_dir, "46_price_curve_support_density.png"))
+```
+
+人工审计重点：$30 以上的 CI 是否快速扩大，以及高价尾部下降是否由少量 observations 支撑。主要解释固定在 empirical 5th–95th percentile。
+
+# Final Nonlinear Price Curve
+
+```{r}
+#| fig-cap: "最终 nonlinear paid-price curve 与 link-scale 95% CI"
+knitr::include_graphics(file.path(figure_dir, "45_price_nonlinear_primary_curve.png"))
+```
+
+```{r}
+knitr::kable(peak, digits = 5, caption = "拟合 peak 与局部 plateau 审计")
+```
+
+这里的 peak 是模型曲线在 observed support 内的描述性最大值，不是“最优价格”，也不是因果结论。
+
+# Representative Price Contrasts
+
+```{r}
+knitr::kable(representative, digits = 5, caption = "预设价格点的预测概率与 95% CI")
+knitr::kable(contrasts, digits = 5, caption = "预设价格变化的概率差")
+```
+
+# Free vs Paid
+
+```{r}
+knitr::kable(free_contrast, digits = 5, caption = "Centered paid-price reference 下的 free probability contrast")
+```
+
+Free association 可能反映产品组成、曝光、质量、开发成熟度、受众和 Steam 发行策略。不能解释为免费导致无人评论。
+
+# Platform
+
+```{r}
+platform_rows <- nonprice_coef[grepl("^platform_segment", nonprice_coef$term), ]
+knitr::kable(platform_rows, digits = 5, caption = "Nonlinear primary 的 Platform OR 与 95% CI")
+```
+
+# Genre
+
+```{r}
+genre_rows <- nonprice_coef[grepl("^genre_", nonprice_coef$term), ]
+knitr::kable(genre_rows, digits = 5, caption = "Nonlinear primary 的七个 Genre OR 与 95% CI")
+```
+
+```{r}
+#| fig-cap: "Nonlinear primary 的非 spline predictor OR"
+knitr::include_graphics(file.path(figure_dir, "48_nonlinear_primary_or.png"))
+```
+
+人工审计重点：Adventure、Casual、Simulation 的方向和 CI 是否保持；其他不确定关联不作强结论。
+
+# Model Diagnostics
+
+```{r}
+knitr::kable(separation, caption = "Nonlinear primary separation diagnostics")
+knitr::kable(influence, digits = 5, caption = "Nonlinear primary influence summary")
+```
+
+Influence thresholds 是审计工具，不是自动删点规则。
+
+# Calibration / AUC / Brier
+
+```{r}
+#| fig-cap: "Linear benchmark 与 nonlinear primary 的样本内校准"
+knitr::include_graphics(file.path(figure_dir, "49_nonlinear_calibration.png"))
+```
+
+```{r}
+knitr::kable(scores, digits = 6, caption = "AUC、Brier score 与 binary log loss")
+```
+
+这些指标只作 descriptive fit comparison。AUC 不是本轮选择 nonlinear form 的主要理由。
+
+# Release Sensitivity
+
+Primary 的 linear days 替换为 release month；price spline 的 frozen basis 不变。
+
+# Genre Sensitivity
+
+在 nonlinear price model 上加入 Early Access、Sports、Racing；不加入更稀疏类别，不改变 primary genre set。
+
+# Price Curve Sensitivity
+
+```{r}
+#| fig-cap: "Release 与 expanded-genre sensitivity 后的 price curve"
+knitr::include_graphics(file.path(figure_dir, "50_nonlinear_price_sensitivity.png"))
+```
+
+```{r}
+knitr::kable(curve_sensitivity, digits = 6, caption = "相对 primary 的最大预测概率差")
+```
+
+# df=4 Shape Sensitivity
+
+```{r}
+#| fig-cap: "预设 df=3 primary 与 df=4 shape sensitivity"
+knitr::include_graphics(file.path(figure_dir, "51_price_df3_vs_df4.png"))
+```
+
+```{r}
+knitr::kable(df4, digits = 6, caption = "df=4 sensitivity 汇总")
+```
+
+只运行 df=4 这一项有限 sensitivity；没有进行 df grid search、knot optimization 或超参数搜索。
+
+# Optional GAM Diagnostic
+
+```{r}
+knitr::kable(gam, digits = 6, caption = "Optional GAM diagnostic")
+if (gam$status == "RUN") {
+  knitr::include_graphics(file.path(figure_dir, "52_price_spline_vs_gam.png"))
+}
+```
+
+GAM 仅检查 df=3 是否遗漏明显 shape，不自动替代当前 inferential model。
+
+# 人工审计清单
+
+- $14–15 附近或重新估计后的 peak 是否 visually meaningful？
+- peak 是否是宽 plateau，而不是精确单点？
+- $30 以上区域 CI 是否快速扩大？
+- 高价尾部下降是否由极少 observations 驱动？
+- df=3 与 df=4 在 central support 是否一致？
+- release / genre sensitivity 后 curve 是否稳定？
+- nonlinear price 后 free effect 是否仍保持极强？
+- 是否存在 separation、数值不稳定或单个高影响游戏支配模型？
+
+# Freeze Decision
+
+```{r}
+knitr::kable(criteria, caption = "八项 nonlinear primary freeze criteria")
+knitr::kable(decision, caption = "Step 6A.1 冻结决定")
+```
+
+Logistic framework 没有失败。最终判断只针对 paid-price functional form：linear benchmark 是否应由 frozen natural spline df=3 取代。Step 6B 在本报告完成前始终保持 blocked。

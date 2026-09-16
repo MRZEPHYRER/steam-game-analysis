@@ -1,0 +1,66 @@
+{
+  "appid": 3653300,
+  "requested_at": "2026-09-13T19:28:54.929305+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "215044850",
+        "author": {
+          "steamid": "76561198831151776",
+          "personaname": "Littlesoul",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/littlesoulextra/",
+          "num_games_owned": 1307,
+          "num_reviews": 16,
+          "playtime_forever": 130,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 129,
+          "last_played": 1768615963,
+          "avatar": "57a91cbd52625aa4000071e67b717d328d60ab85"
+        },
+        "language": "polish",
+        "review": "Unfair, unfinished and probably only author completed this game, not worth it",
+        "timestamp_created": 1767465338,
+        "timestamp_updated": 1767465338,
+        "voted_up": false,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.530386745929718018",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755021301",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZZGsAAAAAFP+D47iAAAAByr6q0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

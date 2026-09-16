@@ -1,0 +1,310 @@
+{
+  "requested_at": "2026-09-13T07:12:30.344957+00:00",
+  "request_params": {
+    "appids": 4160290,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4160290,
+  "payload": {
+    "4160290": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "FIND KITTENS 7: Cookie Town",
+        "steam_appid": 4160290,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          4209950,
+          4209960
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" >Explore the amazing landscapes of the sweet gingerbread town, where cute cats are hiding from your gaze. Find them and the black and white picture will be filled with color. Nice background music will provide complete relaxation) Suitable for the whole family)</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >200 hidden cats</p><p class=\"bb_paragraph\" >There is a hint</p><p class=\"bb_paragraph\" >The map is colorable</p><p class=\"bb_paragraph\" >2.5D effect</p><p class=\"bb_paragraph\" >Customize brightness</p><p class=\"bb_paragraph\" >Saving progress</p><p class=\"bb_paragraph\" >Scaling</p><p class=\"bb_paragraph\" >Relaxing music</p><p class=\"bb_paragraph\" >Translated with  (free version)</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Explore the amazing landscapes of the sweet gingerbread town, where cute cats are hiding from your gaze. Find them and the black and white picture will be filled with color. Nice background music will provide complete relaxation) Suitable for the whole family)</p><p class=\"bb_paragraph\" >Game Features:</p><p class=\"bb_paragraph\" >200 hidden cats</p><p class=\"bb_paragraph\" >There is a hint</p><p class=\"bb_paragraph\" >The map is colorable</p><p class=\"bb_paragraph\" >2.5D effect</p><p class=\"bb_paragraph\" >Customize brightness</p><p class=\"bb_paragraph\" >Saving progress</p><p class=\"bb_paragraph\" >Scaling</p><p class=\"bb_paragraph\" >Relaxing music</p><p class=\"bb_paragraph\" >Translated with  (free version)</p>",
+        "short_description": "Explore the sweet gingerbread town while finding cute cats and paint black - white locations with colored paints.",
+        "supported_languages": "English, Russian, Czech, Japanese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/82bc026b3601a1f8a87af233e7ba87a1788a60ef/header.jpg?t=1771852999",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/817254d86bc64f93d121f17e939994eba5a1c27b/capsule_231x87.jpg?t=1771852999",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/817254d86bc64f93d121f17e939994eba5a1c27b/capsule_184x69.jpg?t=1771852999",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> 2.3 GHz Dual Core<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS<br></li><li><strong>Processor:</strong> Intel<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Linux<br></li><li><strong>Processor:</strong> 2.3 GHz Dual Core<br></li><li><strong>Memory:</strong> 2048 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>Storage:</strong> 350 MB available space</li></ul>"
+        },
+        "developers": [
+          "Very very LITTLE Studio"
+        ],
+        "publishers": [
+          "Very very LITTLE Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 99,
+          "final": 99,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$0.99"
+        },
+        "packages": [
+          1457493
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy FIND KITTENS 7: Cookie Town",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1457493,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "FIND KITTENS 7: Cookie Town - $0.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 99
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/a5b03ff70e60046b812699c36911a1d631822ba9/ss_a5b03ff70e60046b812699c36911a1d631822ba9.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/a5b03ff70e60046b812699c36911a1d631822ba9/ss_a5b03ff70e60046b812699c36911a1d631822ba9.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/d3650afaaf0f6d7d8b37350aba64ad1a3b10f79f/ss_d3650afaaf0f6d7d8b37350aba64ad1a3b10f79f.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/d3650afaaf0f6d7d8b37350aba64ad1a3b10f79f/ss_d3650afaaf0f6d7d8b37350aba64ad1a3b10f79f.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/2314a893882e975f19dc3ee6171e945e33b8c17e/ss_2314a893882e975f19dc3ee6171e945e33b8c17e.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/2314a893882e975f19dc3ee6171e945e33b8c17e/ss_2314a893882e975f19dc3ee6171e945e33b8c17e.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/3468aded92a8c75f6cbb093fbb7da0d564dbae7a/ss_3468aded92a8c75f6cbb093fbb7da0d564dbae7a.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/3468aded92a8c75f6cbb093fbb7da0d564dbae7a/ss_3468aded92a8c75f6cbb093fbb7da0d564dbae7a.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/dfa89b49aa0852f28f16d67538ffcf253f189ba4/ss_dfa89b49aa0852f28f16d67538ffcf253f189ba4.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/dfa89b49aa0852f28f16d67538ffcf253f189ba4/ss_dfa89b49aa0852f28f16d67538ffcf253f189ba4.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/9756695c54575ab5ea3ee30bfda1c48b0a33bd7e/ss_9756695c54575ab5ea3ee30bfda1c48b0a33bd7e.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/9756695c54575ab5ea3ee30bfda1c48b0a33bd7e/ss_9756695c54575ab5ea3ee30bfda1c48b0a33bd7e.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/60e4f6693b8997c77e5f38f39c7c6cc4ce0adf20/ss_60e4f6693b8997c77e5f38f39c7c6cc4ce0adf20.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/60e4f6693b8997c77e5f38f39c7c6cc4ce0adf20/ss_60e4f6693b8997c77e5f38f39c7c6cc4ce0adf20.1920x1080.jpg?t=1771852999"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/7653f2dab5c33043227d016dab0b1e98406a2d84/ss_7653f2dab5c33043227d016dab0b1e98406a2d84.600x338.jpg?t=1771852999",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/7653f2dab5c33043227d016dab0b1e98406a2d84/ss_7653f2dab5c33043227d016dab0b1e98406a2d84.1920x1080.jpg?t=1771852999"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257238780,
+            "name": "Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257238780/df159320c049b276942f877979e8ddc46e349c33/movie_600x337.jpg?t=1764649575",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4160290/1827589275/8d11b6d2549624daf8e07b828f8b7b9fc914b1d5/1764169014/dash_av1.mpd?t=1764649575",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4160290/1827589275/8d11b6d2549624daf8e07b828f8b7b9fc914b1d5/1764169014/dash_h264.mpd?t=1764649575",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4160290/1827589275/8d11b6d2549624daf8e07b828f8b7b9fc914b1d5/1764169014/hls_264_master.m3u8?t=1764649575",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 21,
+          "highlighted": [
+            {
+              "icon": "6f36d54007ede8b13b8d069c35f3efc22f755f4c.jpg",
+              "localized_name": "Your first cat",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Your first cat",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/6f36d54007ede8b13b8d069c35f3efc22f755f4c.jpg"
+            },
+            {
+              "icon": "6b21edaf15679ce972f06f28defab81c7fdf6f4e.jpg",
+              "localized_name": "Five cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Five cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/6b21edaf15679ce972f06f28defab81c7fdf6f4e.jpg"
+            },
+            {
+              "icon": "06c72f0d65c64e8ee127e33fe65e590add508706.jpg",
+              "localized_name": "Ten cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ten cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/06c72f0d65c64e8ee127e33fe65e590add508706.jpg"
+            },
+            {
+              "icon": "d0141e10442d26ac40c5c8e33a814b7c3fabe405.jpg",
+              "localized_name": "Twenty-five cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Twenty-five cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/d0141e10442d26ac40c5c8e33a814b7c3fabe405.jpg"
+            },
+            {
+              "icon": "88169ea437932f8901a8f88161ae51375ff2a061.jpg",
+              "localized_name": "Fifty cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Fifty cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/88169ea437932f8901a8f88161ae51375ff2a061.jpg"
+            },
+            {
+              "icon": "7d531ac6b118430afdd9a7d3e8f43dbd1ea99bd3.jpg",
+              "localized_name": "One hundred cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "One hundred cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/7d531ac6b118430afdd9a7d3e8f43dbd1ea99bd3.jpg"
+            },
+            {
+              "icon": "b2c21608af5af7a4af2b95e8205f5eb1e9f5e5bb.jpg",
+              "localized_name": "One hundred fifty cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "One hundred fifty cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/b2c21608af5af7a4af2b95e8205f5eb1e9f5e5bb.jpg"
+            },
+            {
+              "icon": "ddfa90d990b2230c46df4c092c663953b2b9983d.jpg",
+              "localized_name": "Two hundred cats",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Two hundred cats",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/ddfa90d990b2230c46df4c092c663953b2b9983d.jpg"
+            },
+            {
+              "icon": "1e45ce704220b777dd78a531d6382b8b15abac97.jpg",
+              "localized_name": "Tower of sweets",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tower of sweets",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/1e45ce704220b777dd78a531d6382b8b15abac97.jpg"
+            },
+            {
+              "icon": "0c14176272ebbf9e014ff8e757c2e500998ae0d9.jpg",
+              "localized_name": "The ice cream shop",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The ice cream shop",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4160290/0c14176272ebbf9e014ff8e757c2e500998ae0d9.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 1, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "VVL.studio.supp@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4160290?t=1771852999",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160290/4a9276a8e070be6eb7f13843be5f7fff7d07eea7/page_bg_raw.jpg?t=1771852999",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3708530,
+  "requested_at": "2026-09-13T19:33:16.933947+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "205565528",
+        "author": {
+          "steamid": "76561198053554126",
+          "personaname": "TheZimvader",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/desufire122/",
+          "num_games_owned": 307,
+          "num_reviews": 7,
+          "playtime_forever": 941,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 898,
+          "last_played": 1764912805,
+          "avatar": "661cfb9c3767a1b73aec00565ce6f438134aa60c"
+        },
+        "language": "english",
+        "review": "Flowerdrops is a fun, cozy Peggle-like that manages to explore so many fun and interesting spins on the base experience while not overstaying it's welcome. It's well worth the price of entry! \n\nGraphics - Adorable and cute. the environment and backgrounds are simple, but the character and UI art is just oozing with so much charm. The animations feel really snappy, the UI is easily understood while being quite minimal, and there is just so much whismy in the art (Big ups for free customization options! (and there are a lot of them))\n\nGameplay - Simple, yet addictive. The base gameplay is very easy to learn and the mechanics get slowly and slowly more complex that it never feels confusing but manages to keep gameplay fresh and exciting. I managed to full bloom well over half of the levels pretty easily, and most of the other ones I thought it was very doable after a few tries. Perfect for a game aiming to hit that cozy, relaxed mindset. \n\nAudio - Surprisingly varied and relaxing. For a game this small, there are a surprising amount of music tracks, to the point where I was surprised that there were still more music tracks coming and that they didn't just reuse some of the older ones.  While all the tracks do go for that relaxing vibe, there are quite a few that I could see myself popping on Spotify and just listening to all the time. The Sound Design outside of the music department is really fun effective. All the little boops and squirks happening really manage to make the game (which I assume takes place in some sort of post-apocalypse) feel alive.\n\nStory - Minimal, yet intriguing. There isn't much story that is overtly told to the player other than some small blurbs at the start of each level and a mysterious ending that seems to say something a little more nuanced. There seems to be a decent amount of lore you could pull out of this game but it is far from intrusive and would probably require a bit of digging to do. \n\nAll in all, this is a fantastic puzzle game for those who want a relaxing, cozy experience about making the world a better place. Could not recommend more!",
+        "timestamp_created": 1759259516,
+        "timestamp_updated": 1759259516,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.547325074672698975",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758517773",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZDbIAAAAAFP+GDr8AAAAB45ZWQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

@@ -1,0 +1,71 @@
+{
+  "appid": 3449040,
+  "requested_at": "2026-09-13T19:16:42.648020+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 535,
+      "total_negative": 69,
+      "total_reviews": 604
+    },
+    "reviews": [
+      {
+        "recommendationid": "208270881",
+        "author": {
+          "steamid": "76561198060739866",
+          "personaname": "TomatoRed",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/leoxsooz/",
+          "num_games_owned": 0,
+          "num_reviews": 11,
+          "playtime_forever": 3024,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 2990,
+          "last_played": 1763166033,
+          "avatar": "e31777e1c48c251314c40c4fae0c43dc6b0873f2"
+        },
+        "language": "brazilian",
+        "review": "Há muito tempo, entrei em contato com a desenvolvedora do jogo sem saber que eram brasileiros. Escrevi um texto bonitinho em inglês e mandei pra eles. Eles responderam humildemente em português, mas eu continuei em inglês mesmo. Joguei a beta do game e curti bastante — tinha muito potencial. Notei alguns erros na tradução para o português e enviei novamente, em inglês, os erros que encontrei. Fiz alguns vídeos e guardei tudo.\r\n\r\nQuando o jogo foi lançado, corri pra comprar e ajudar. Do nada, comecei a ver vários tweets do desenvolvedor todo feliz com o lançamento — foi aí que caiu a ficha de que o jogo era brasileiro! Comprei e deixei guardado. Agora, com mais tempo, voltei pra jogar e destrinchar tudo por completo.\r\n\r\nNão dá pra comparar com *Vampire Survivors* — é uma proposta diferente, algo com um “quê” a mais. Mesmo que não seja tão longo ou explorado quanto outros, é muito bom, viciante até. Joguei direto até platinar.\r\n\r\nDev’s, se vocês estiverem lendo isso: vocês têm ouro nas mãos!\r\nEu sempre falo isso quando vejo potencial em algo — e esse jogo tá incrível. Tá ótimo, tá redondinho, mas ainda dá pra ir além.\r\n\r\nFico imaginando as cenas de transição para os chefes... daria uma série fantástica sobre a galinha guerreira! Dentro do próprio jogo, seria muito legal ver mais galinhas, galinhas personalizáveis, armas personalizáveis... E pra quem já platinou, não seria nada mal um modo “debug”, né? Poder colocar quantas magias quiser, quantos equipamentos quiser — seria um prato cheio pra testar tudo.\r\n\r\nMas voltando à review: vale a pena demais. O jogo é bom, é viciante, e diferente de tudo que já tem no mercado. Você sente vontade de ir além, de chegar até o fim.\r\n\r\nAgora que finalizei vou ficar na depressão pós finalizar",
+        "timestamp_created": 1762121418,
+        "timestamp_updated": 1762121418,
+        "voted_up": true,
+        "votes_up": 16,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.713541626930236816",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757508180",
+        "reactions": [
+          {
+            "reaction_type": 4,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVuqoAAAAAFP+bVVgAAAABx4r6aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9369999999998981,
+  "transport_error_count": 0
+}

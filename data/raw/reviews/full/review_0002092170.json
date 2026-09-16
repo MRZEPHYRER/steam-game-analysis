@@ -1,0 +1,66 @@
+{
+  "appid": 2092170,
+  "requested_at": "2026-09-13T18:47:15.341668+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 6,
+      "total_negative": 0,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "208271888",
+        "author": {
+          "steamid": "76561198226790512",
+          "personaname": "BBP",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/drbig/",
+          "num_games_owned": 649,
+          "num_reviews": 78,
+          "playtime_forever": 268,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 268,
+          "last_played": 1762063027,
+          "avatar": "ed46ef53afb1945ab17a2366b3bc6fd161e72480"
+        },
+        "language": "english",
+        "review": "A very good story-driven VR shooter. At first glance, the visuals might turn some players away, but once you start playing, it becomes clear how much passion and effort the developers put into this game.\n\nThe strongest aspect of By Grit Alone lies in its storytelling and atmosphere. Each ship feels distinct, both visually and thematically. It uses my favorite environmental storytelling approach, letting the world itself tell the story through audio logs, notes, and holographic recordings — and it does this remarkably well. Most of the voice acting is excellent, which makes exploring and uncovering the truth even more engaging.\n\nHowever, the game’s flaws are also quite noticeable. The graphics are falling behind — while the alien and biomass models look fine, many interior details like walls, terminals, and healing stations feel overly simple. The lack of subtitles is another issue, especially for a game that relies so heavily on audio logs and voice transmissions. The good thing is that the story’s intrigue often made me forget about these rough edges.\n\nAlthough each ship’s story is self-contained, there’s also an overarching plot connecting them all. Sadly, the main character never uncovers the full mystery of the “space Bermuda Triangle” before the game ends on a cliffhanger. That ending left me genuinely eager for a sequel. And I truly hope the developers, after they get rich, consider an enhanced edition with improved visuals — this gem deserves it.",
+        "timestamp_created": 1762122222,
+        "timestamp_updated": 1762123137,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.584479033946990967",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761297357",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYT3eAAAAAFP+K0DUAAAABwob+aBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.969000000000051,
+  "transport_error_count": 0
+}

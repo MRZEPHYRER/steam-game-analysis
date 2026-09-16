@@ -1,0 +1,66 @@
+{
+  "appid": 2912770,
+  "requested_at": "2026-09-13T18:58:45.057791+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 14,
+      "total_negative": 0,
+      "total_reviews": 14
+    },
+    "reviews": [
+      {
+        "recommendationid": "205259090",
+        "author": {
+          "steamid": "76561197971244474",
+          "personaname": "Hedge Knight",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Iron_Brew/",
+          "num_games_owned": 0,
+          "num_reviews": 17,
+          "playtime_forever": 68,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 68,
+          "last_played": 1758911674,
+          "avatar": "db2062de5c5e2944933eb026d1e9ce792b71faec"
+        },
+        "language": "english",
+        "review": "Silver Daze released today so I figured I'd scribble some thoughts down about the game. TL;DR - it's pretty good, and is a unique indie rpg without feeling like a \"unique indie RPG\".\n\nFull disclosure, I know the developer of this game quite well. I shall try not to let it colour my review, but I do want to start with that piece of context for full transparency, as well as to say that it will become important when talking about the dev's previous title and how Silver Daze fits into his canon of work.\n\nThis also means my playtime is closer to 30h than the 1.1h I've put into the Gold release so far, so this review comes from a place of having played the content and knowing the game pretty well.\n\nSilver Daze is what you get if you cross The World Ends With You, Megaman Battle Network, Magic: The Gathering, and Bill Shakespeare's The Tempest. It is simultaneously a thoughtful character piece about yearning for our halcyon youths to extend indefinitely, a teen drama centring around what it means to mature and leave behind Childish Things, and at the same time manages to be a near-episodic Shonen anime about card battling.\n\nMost games attempting to be all three of those games at once would fail spectacularly. Silver Daze does not. It is a triumph in terms of what passion projects can be, unyielding in its clarity of vision and providing something that you can't really get anywhere else. Where I would call the developer's previous titles (the Axial games) a narrative overreach in terms of achieving what they set out to do, Silver Daze delivers expertly and really demonstrates growth and depth of character gained since the second Axial game which translates directly onto the page.\n\nPresentationally, the game is a mixed bag, but with a level of clarity of intent which makes every pixel and bleep seem deliberate. As I said, the game is uncompromising in its vision - and that can be both to the game's strength, and to its mild detriment in certain areas. The soundtrack is phenomenal, and the artwork is stylised in a way which hearkens back to its GBA-inspirations (especially the faceplates and abstract dungeons of twisting corridors suspended in space, which are MMBN to a tee). The game features a ton of visual variety too, capturing a style which puts one in mind of Yume Nikki, or other Indie RPG greats of that vein. Some sound effects are a bit midi-screechy, and there's gonna be stuff that isn't to everyone's taste, but all in all the game looks and sounds great.\n\nBattles are where the game shines hardest - there is a level of ludonarrative synergy at play where the characterisation of the party members and antagonists carry a direct through-line into the way they fight. The Axial games' equippable skills make a comeback, but now in a way which is more about build variety and synergy than gimmick - and it's a real joy to compare notes with other players about the way they solve the game's almost puzzle-like boss fights. There's no single route to victory, and you can create builds for you party which are remarkable and elaborate, or straightforward and pliable, and the game never punishes you for choosing one or the other.\n\nThe writing is really, REALLY good and the characters feel like real people - which is a refreshing departure not only from other indie RPGs in this sphere of zany teen melodrama, but also of the dev's previous work. There are some party members who are forefronted more than others, and that may cause contrition for some people, but the core conceit of the plot is incredibly strong and contrives a fish-tank where we see there people grow from the children they were into the people they will become. While engaging in a small-town adventure of chiptune-riddled self-discovery. It's sort of like Scott Pilgrim.\n\nScratch that, it's a lot like Scott Pilgrim.\n\nAnyway: Silver Daze is one of those games I think everyone should play - and not just because I'm a pretentious mug. I think it says something deeply human, and is a window into the developers' souls in a way that not many games (indie or otherwise) truly achieve. If you like TWEWY, Megaman Battle Network, or Card Games, or Teen Dramas, or Pretentious Plays About Feelings, or just RPGs in general, this is probably a game for you.\n\nIt represents a true step forward in the developer's ability, and I'm proud to see what they have achieved with this release.\n\n9/10 - Buy a copy, and play it.",
+        "timestamp_created": 1758913294,
+        "timestamp_updated": 1758915449,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.62891852855682373",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758862832",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFXa++AAAAAFP+QgGsAAAABylYCPBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.188000000000102,
+  "transport_error_count": 0
+}

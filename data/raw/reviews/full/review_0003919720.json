@@ -1,0 +1,71 @@
+{
+  "appid": 3919720,
+  "requested_at": "2026-09-13T19:59:59.586605+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "9 user reviews",
+      "total_positive": 8,
+      "total_negative": 1,
+      "total_reviews": 9
+    },
+    "reviews": [
+      {
+        "recommendationid": "205640951",
+        "author": {
+          "steamid": "76561199038039723",
+          "personaname": "dr cutie pie",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/drcutie42069/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 46,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 46,
+          "last_played": 1759261339,
+          "avatar": "625a913c2bd1525e4327f5196e62735cd93e90d7"
+        },
+        "language": "english",
+        "review": "I loved finding all the hidden jokes and multiple endings, but more importantly I learned about the power of generational wealth and endlessly subdividing units. Also the music slaps.\n\nFavourite character: flies\nMy partner's favourite character: rotten apple",
+        "timestamp_created": 1759346744,
+        "timestamp_updated": 1759346744,
+        "voted_up": true,
+        "votes_up": 5,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.563492059707641602",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759248984",
+        "reactions": [
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYuuwAAAAAFP+IIIGAAAAB3z7qQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.75,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3505240,
+  "requested_at": "2026-09-13T19:19:42.598745+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "206180192",
+        "author": {
+          "steamid": "76561197988726158",
+          "personaname": "Dr Nilsson 🖖",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/drnilsson/",
+          "num_games_owned": 2401,
+          "num_reviews": 97,
+          "playtime_forever": 10,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "last_played": 1759919170,
+          "avatar": "a627d3c0e9fe310d6ce9538c3594376522acbb00"
+        },
+        "language": "english",
+        "review": "A nice little game, and a nice \"pick up and play\" game.",
+        "timestamp_created": 1759918298,
+        "timestamp_updated": 1759918298,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1740908611",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAABw9sGSBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.032000000000153,
+  "transport_error_count": 0
+}

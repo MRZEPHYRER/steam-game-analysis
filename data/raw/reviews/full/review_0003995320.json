@@ -1,0 +1,71 @@
+{
+  "appid": 3995320,
+  "requested_at": "2026-09-13T20:09:25.216118+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "224799346",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 887,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 887,
+          "last_played": 1777671187,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Weird Store is an unusual indie title that builds its identity around contrast, blending the calm routine of shop management with bursts of unpredictable action. At first glance, it appears to be a straightforward store simulator where players organize products, manage inventory, and serve customers, but that expectation quickly shifts as the game introduces chaotic elements that disrupt the normal flow. Instead of committing to a single genre, it deliberately combines two very different gameplay styles, creating an experience that is both intriguing and occasionally uneven.\n\nThe management side of the game follows a familiar structure, asking players to maintain a functioning store by stocking shelves, arranging items, and keeping customers satisfied. These tasks are simple and easy to understand, giving the game an accessible entry point. There is a certain rhythm to these activities, as players gradually become more efficient and begin to optimize how the store operates. This part of the experience can feel relaxing, especially in moments where everything runs smoothly and there are no immediate disruptions.\n\nHowever, the defining feature of the game is how quickly that sense of routine can be interrupted. Without much warning, the store can come under attack from a variety of threats, forcing players to shift from management to defense almost instantly. These moments introduce a survival and shooter element, requiring players to react quickly while still keeping track of their responsibilities as a shop owner. The tension created by this dual focus is where the game finds its uniqueness, as it constantly pushes players to divide their attention between maintaining order and responding to chaos.\n\nThe pacing reflects this constant push and pull between calm and intensity. Periods of steady management are often followed by sudden, high-pressure situations that demand quick decision-making. This unpredictability keeps the experience from becoming monotonous, as players never fully settle into a single rhythm. At the same time, the transitions between these two modes are not always seamless, which can make the gameplay feel inconsistent. The game thrives on its unpredictability, but it can also struggle to maintain a smooth overall flow.\n\nMechanically, the game keeps things relatively simple on both fronts. The management systems do not expand significantly beyond their initial setup, and the combat mechanics, while functional, are fairly basic. This simplicity makes the game easy to pick up and play, but it also limits how much depth players can explore over time. Once the core loop is understood, there are fewer new elements introduced to keep the experience evolving, which can make longer sessions feel repetitive.\n\nVisually, the game adopts a straightforward 3D style that prioritizes clarity over detail. The environments and character designs are easy to read, which is important given the fast shifts between management and action. While the presentation supports the gameplay effectively, it does not stand out in terms of artistic style or technical polish. The audio design follows a similar approach, providing clear feedback for player actions without significantly enhancing the atmosphere.\n\nWhat ultimately sets the game apart is its commitment to its unusual concept. It fully embraces the idea of combining genres that do not typically overlap, creating a gameplay loop that feels distinct even when its individual components are simple. This gives the game a strong sense of personality, as it leans into its chaotic nature rather than trying to smooth it out completely. However, this same approach also highlights its limitations, as the mechanics themselves do not always support the ambition of the concept.\n\nIn the end, Weird Store is a creative and unconventional experience that offers something different from more traditional simulation or action games. It succeeds in delivering moments of tension and humor through its unpredictable design, but it is held back by its lack of depth and uneven pacing. It is best suited for players who enjoy experimental indie titles and are willing to embrace a gameplay loop that prioritizes novelty over refinement.\n\nRating: 7/10",
+        "timestamp_created": 1777947418,
+        "timestamp_updated": 1777947418,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.561243176460266113",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761580140",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFYxm+AAAAAFP+H1s+AAAAByp8XZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

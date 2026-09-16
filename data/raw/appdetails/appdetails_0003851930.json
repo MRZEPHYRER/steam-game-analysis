@@ -1,0 +1,290 @@
+{
+  "requested_at": "2026-09-12T17:14:18.757367+00:00",
+  "request_params": {
+    "appids": 3851930,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3851930,
+  "payload": {
+    "3851930": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "GSK",
+        "steam_appid": 3851930,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >GSK is a frenetic, action-packed adventure inspired by the great classic shooters, adventure games, and exploration titles that have marked generations. The game was created to offer an intense challenge, focusing on quick reflexes, precision, and complete mastery of the mechanics. Face hordes of enemies in challenging levels that test your speed and skill, collect stars to unlock new levels, and advance through increasingly demanding scenarios. With a strong arcade feel and a total focus on gameplay, GSK rewards persistent players who enjoy overcoming challenges and improving with each attempt.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >GSK is a frenetic, action-packed adventure inspired by the great classic shooters, adventure games, and exploration titles that have marked generations. The game was created to offer an intense challenge, focusing on quick reflexes, precision, and complete mastery of the mechanics. Face hordes of enemies in challenging levels that test your speed and skill, collect stars to unlock new levels, and advance through increasingly demanding scenarios. With a strong arcade feel and a total focus on gameplay, GSK rewards persistent players who enjoy overcoming challenges and improving with each attempt.</p>",
+        "short_description": "GSK is a fast-paced top-down shooter where you blast through hordes of enemies, collect stars, and master every stage.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/c928b264c3cdccc322c94b46639d8943c371f1d0/header.jpg?t=1767661601",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/41e2af5e2a43cd3e377a9525291d0921847e7409/capsule_231x87.jpg?t=1767661601",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/41e2af5e2a43cd3e377a9525291d0921847e7409/capsule_184x69.jpg?t=1767661601",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8/10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i3 2.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>  Windows 10 (64-bit)<br></li><li><strong>Processor:</strong> Intel Core i5 3.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 960 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 10.13 (High Sierra)<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core i3 2.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel Iris or equivalent<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11.0 (Big Sur) or newer<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Dedicated GPU or Apple Silicon<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>  Ubuntu 18.04 or equivalent<br></li><li><strong>Processor:</strong> Intel Core i3 2.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 4000 or equivalent<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 or newer<br></li><li><strong>Processor:</strong> Intel Core i5 3.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 960 or equivalent<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>"
+        },
+        "developers": [
+          "Caio Ragazzi"
+        ],
+        "publishers": [
+          "BRProToons"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1354350
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy GSK",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1354350,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "GSK - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/fb951a7481d015b56587c1dc83d8066544c57f07/ss_fb951a7481d015b56587c1dc83d8066544c57f07.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/fb951a7481d015b56587c1dc83d8066544c57f07/ss_fb951a7481d015b56587c1dc83d8066544c57f07.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/09ce875e8111ffe310f6ea7b2cb08487041ae601/ss_09ce875e8111ffe310f6ea7b2cb08487041ae601.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/09ce875e8111ffe310f6ea7b2cb08487041ae601/ss_09ce875e8111ffe310f6ea7b2cb08487041ae601.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/ca44fe850c8cb409ebd0c558827a8db567ab2a30/ss_ca44fe850c8cb409ebd0c558827a8db567ab2a30.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/ca44fe850c8cb409ebd0c558827a8db567ab2a30/ss_ca44fe850c8cb409ebd0c558827a8db567ab2a30.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/c5025f75f5dd49596e0eb0a12a201c9376583762/ss_c5025f75f5dd49596e0eb0a12a201c9376583762.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/c5025f75f5dd49596e0eb0a12a201c9376583762/ss_c5025f75f5dd49596e0eb0a12a201c9376583762.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/c280928392c61410918004eb6b30e643089c76b8/ss_c280928392c61410918004eb6b30e643089c76b8.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/c280928392c61410918004eb6b30e643089c76b8/ss_c280928392c61410918004eb6b30e643089c76b8.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/a6611522da91b4af9a0b19bfaf5e15f40ca2bbc3/ss_a6611522da91b4af9a0b19bfaf5e15f40ca2bbc3.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/a6611522da91b4af9a0b19bfaf5e15f40ca2bbc3/ss_a6611522da91b4af9a0b19bfaf5e15f40ca2bbc3.1920x1080.jpg?t=1767661601"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/43dfa630ffa7b091586502a05a1949cd6b6559f8/ss_43dfa630ffa7b091586502a05a1949cd6b6559f8.600x338.jpg?t=1767661601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3851930/43dfa630ffa7b091586502a05a1949cd6b6559f8/ss_43dfa630ffa7b091586502a05a1949cd6b6559f8.1920x1080.jpg?t=1767661601"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257257765,
+            "name": "GSK Special Stages ",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257257765/8ac3b12ee466cb90a9ee2e1fe5547d286ebfe497/movie_600x337.jpg?t=1767288925",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3851930/152026993/fa7d790b30b0dc695ef2d39293a5285349f9c9d2/1767287084/dash_av1.mpd?t=1767288925",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3851930/152026993/fa7d790b30b0dc695ef2d39293a5285349f9c9d2/1767287084/dash_h264.mpd?t=1767288925",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3851930/152026993/fa7d790b30b0dc695ef2d39293a5285349f9c9d2/1767287084/hls_264_master.m3u8?t=1767288925",
+            "highlight": true
+          },
+          {
+            "id": 257191231,
+            "name": "Trailer GSK ",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257191231/a4135f2b8d544072a8e004329ec4990fa3ff2f05/movie_600x337.jpg?t=1761063662",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3851930/485425689/762beaaed83dbb782ffe6e860ae14193b20e721e/1756589001/dash_av1.mpd?t=1761063662",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3851930/485425689/762beaaed83dbb782ffe6e860ae14193b20e721e/1756589001/dash_h264.mpd?t=1761063662",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3851930/485425689/762beaaed83dbb782ffe6e860ae14193b20e721e/1756589001/hls_264_master.m3u8?t=1761063662",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 5,
+          "highlighted": [
+            {
+              "icon": "d211c04d28b2b247d7cdf75ccef0eda31ad7e911.jpg",
+              "localized_name": "First Kill",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Kill",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3851930/d211c04d28b2b247d7cdf75ccef0eda31ad7e911.jpg"
+            },
+            {
+              "icon": "a02b8d3551c44efdb2230a6b9c22ab6d4351cc73.jpg",
+              "localized_name": "killer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "killer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3851930/a02b8d3551c44efdb2230a6b9c22ab6d4351cc73.jpg"
+            },
+            {
+              "icon": "8b85d8c8692d21febfbdc05b7fe41ba41aecece1.jpg",
+              "localized_name": "Dominate",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Dominate",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3851930/8b85d8c8692d21febfbdc05b7fe41ba41aecece1.jpg"
+            },
+            {
+              "icon": "dee719b51dcf51be545e60396d3fb5be6f682554.jpg",
+              "localized_name": "killing machine",
+              "archived": 0,
+              "hidden": 0,
+              "name": "killing machine",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3851930/dee719b51dcf51be545e60396d3fb5be6f682554.jpg"
+            },
+            {
+              "icon": "5103a85f37f1fd789641f9ae08cea0ff4db007c1.jpg",
+              "localized_name": "LEGENDARY KILLER",
+              "archived": 0,
+              "hidden": 0,
+              "name": "LEGENDARY KILLER",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3851930/5103a85f37f1fd789641f9ae08cea0ff4db007c1.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 21, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "brprotoonsarte@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3851930?t=1767661601",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3851930?t=1767661601",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

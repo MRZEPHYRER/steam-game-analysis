@@ -1,0 +1,66 @@
+{
+  "appid": 4097500,
+  "requested_at": "2026-09-13T20:18:41.192937+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 5,
+      "total_negative": 1,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "211483673",
+        "author": {
+          "steamid": "76561198766096682",
+          "personaname": "Hawks",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198766096682/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 187,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 119,
+          "last_played": 1764370026,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "english",
+        "review": "[h1]Solid foundation, nice loot with great potential but waiting for more content.[/h1]\r\nI’ve played for a couple hours, and the core gameplay loop is incredibly smooth. The movement is responsive, and the visual effects are decent-quality.\r\n\r\nThe Good: The progression system is the real hook here. The weapon drops feel genuinely rewarding; there is a real rush when you see a Purple or Golden chest drop after a tough wave. Unlike some games where upgrades feel negligible, getting a high-tier weapon from a Golden chest makes you feel powerful immediately.\r\n\r\nThe challenge ramps up well, too. Don't let the \"Easy\" difficulty fool you; Wave 60+ gets intense, and you need those high-tier weapons to survive. The competitive leaderboard and the Alliance system also add a nice social layer to the grind.\r\n\r\nThe Bad: Right now, the game feels a bit like a teaser. Only \"Easy\" mode is available. The menu lists Medium, Hard, and Endless as \"Upcoming,\"\r\n\r\nVerdict: If you like chasing high scores and hunting for that perfect Golden weapon drop, it’s worth a download. The foundation is solid, just needs the rest of the difficulty modes to open up.",
+        "timestamp_created": 1764357806,
+        "timestamp_updated": 1764357806,
+        "voted_up": true,
+        "votes_up": 3,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.52173912525177002",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764334788",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZkLIAAAAAFP+CyFgAAAAB5wd+mBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9530000000004293,
+  "transport_error_count": 0
+}

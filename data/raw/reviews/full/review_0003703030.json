@@ -1,0 +1,66 @@
+{
+  "appid": 3703030,
+  "requested_at": "2026-09-13T19:32:57.490580+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "209317221",
+        "author": {
+          "steamid": "76561198834476428",
+          "personaname": "Little_Potato73",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/profiles/76561198834476428/",
+          "num_games_owned": 87,
+          "num_reviews": 1,
+          "playtime_forever": 1009,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 364,
+          "last_played": 1784574826,
+          "avatar": "fdd6e4b88d70232dc685c9b13bf87ad8cd0751a5"
+        },
+        "language": "english",
+        "review": "Personally, I think that this game is really good. It is very difficult and punishing at times, mind you, but in a fun way. The game really feels like it is life or death, with how you have to juggle all of the tasks. It does seem short, with only 25 minutes of gameplay proposed to you in two different modes, but it really isn't that short. It takes longer, but it doesn't feel like the game is just wasting your time. Slowly getting the rhythm down and mastering the game feels very rewarding.\nOne thing to note about the other reviews of this game that are up rn, is that all but 1 were made back when the game was still a demo, and stuff has changed and been tweaked since then. \nI also think that for the price, it is definitely worth a try. You can get a sense of how the game feels, and if it is for you in under two hours, which lets you refund the game if it wasn't for you, which i think is great. It lets those that like it play for a cheap price, and those who don't think this is their cup of tea can get their money back. \nYou technically don't have to keep playing after beating the regular mode once, but the gameplay loop feels so nice that you try challenge mode, or even playing without the vitals monitor. I could've been done after beating the main modes, but somehow, this game keeps me coming back for more. \n\nI think one of my personal favourite things about Nourish is how it turns what seems like a pretty cheap jumpscare into something horrifying. It feels like a jumpscare like this shouldn't keep making me scream 6 hours in, but it does. It has to be because of how the game makes you feel so stressed. The games feels like it prides itself in making you feel powerless. You have to constantly worry about the plant, like its a child made out of glass. \"Did i give it enough soil?\". \"Do i have enough time to go crank the lights before the plant gets too much water?\". \"Are there any weeds taking all the plants nutrients?\". You have to make so many of these small decisions so many times, and you also have to do them quickly, or else you're dead. A mistake or two in the beginning is fine, sure, but the further you last the more you start to make silly mistakes. The slow beeping of the monitor is a bit stressful too, but its not that bad. But when the monitor starts to beep like crazy, and the character starts to hyperventilate, you start to panic. All these things happening at once, you become overwhelmed. You run around trying to fix everything, hoping that you can maybe salvage it, \"COME ONE, THERE HAS TO BE A WAY TO SAVE THIS\", and then suddenly BAM, you get jumpscared. All that paranoia and stress get released at once, and you, pun intended, get sent back to earth. It works so damn well, the atmosphere in this game is really ♥♥♥♥♥♥♥ good.\n\nIf you like challenging games, with some damn good ambiance, and even a little green kitty, this is the game for you!",
+        "timestamp_created": 1763235249,
+        "timestamp_updated": 1763235249,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761329526",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB11r2eBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.030999999999949,
+  "transport_error_count": 0
+}

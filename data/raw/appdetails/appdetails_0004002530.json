@@ -1,0 +1,306 @@
+{
+  "requested_at": "2026-09-13T06:22:35.112817+00:00",
+  "request_params": {
+    "appids": 4002530,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4002530,
+  "payload": {
+    "4002530": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Trialspire",
+        "steam_appid": 4002530,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" ><i>The Spire never ends — until you do. Face relentless waves of monsters and ever-changing floors in this roguelike survival adventure. Each climb is different, each fight more dangerous than the last.</i></p><p class=\"bb_paragraph\" ><i>Survive brutal battles, master your skills, and adapt your strategy as you ascend to new heights. Collect powerful upgrades, discover hidden secrets, and push further with every run. The higher you climb, the greater the challenge — and the greater the reward.</i></p><p class=\"bb_paragraph\" ><i>Do you have what it takes to conquer the 33rd floor, or will the Spire claim you like all who came before?</i></p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><i>The Spire never ends — until you do. Face relentless waves of monsters and ever-changing floors in this roguelike survival adventure. Each climb is different, each fight more dangerous than the last.</i></p><p class=\"bb_paragraph\" ><i>Survive brutal battles, master your skills, and adapt your strategy as you ascend to new heights. Collect powerful upgrades, discover hidden secrets, and push further with every run. The higher you climb, the greater the challenge — and the greater the reward.</i></p><p class=\"bb_paragraph\" ><i>Do you have what it takes to conquer the 33rd floor, or will the Spire claim you like all who came before?</i></p>",
+        "short_description": "Fight your way through an endless tower packed with monsters and treasures. Every run is a new chance to survive, adapt, and reach the 33rd floor.",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/c8053fad508c44a818c502d118474a7948ecc483/header.jpg?t=1763204431",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/494d26c12a348d46d5058127ab1267f49c9381a6/capsule_231x87.jpg?t=1763204431",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/494d26c12a348d46d5058127ab1267f49c9381a6/capsule_184x69.jpg?t=1763204431",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 64-bit<br></li><li><strong>Processor:</strong> Intel(R) Core i3 (1,20—4,40) GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1050<br></li><li><strong>Storage:</strong> 1500 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 64-bit<br></li><li><strong>Processor:</strong> Intel(R) Core i5 (1,20—4,40) GHz / AMD Ryzen 5 (2—4,3) GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1080 / AMD Radeon RX Vega 64<br></li><li><strong>Storage:</strong> 1500 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Ozymandias The First"
+        ],
+        "publishers": [
+          "Hosthood Studio"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 299,
+          "final": 299,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$2.99"
+        },
+        "packages": [
+          1404586
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Trialspire",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1404586,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Trialspire - $2.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 299
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/874158769f744ed8b72ea1094bba022ff4ed2b49/ss_874158769f744ed8b72ea1094bba022ff4ed2b49.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/874158769f744ed8b72ea1094bba022ff4ed2b49/ss_874158769f744ed8b72ea1094bba022ff4ed2b49.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/b4c03f59e3cf71d9e439a4081c6ff62c02c6a0a9/ss_b4c03f59e3cf71d9e439a4081c6ff62c02c6a0a9.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/b4c03f59e3cf71d9e439a4081c6ff62c02c6a0a9/ss_b4c03f59e3cf71d9e439a4081c6ff62c02c6a0a9.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/cc04a1d32770d109ebf594484e0154da6235702c/ss_cc04a1d32770d109ebf594484e0154da6235702c.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/cc04a1d32770d109ebf594484e0154da6235702c/ss_cc04a1d32770d109ebf594484e0154da6235702c.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/022dbce2bc99e096d58ee16d14c794f8c1a6b560/ss_022dbce2bc99e096d58ee16d14c794f8c1a6b560.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/022dbce2bc99e096d58ee16d14c794f8c1a6b560/ss_022dbce2bc99e096d58ee16d14c794f8c1a6b560.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/860c2c0bde6ff5a7c7849314f85d5a0b7624626a/ss_860c2c0bde6ff5a7c7849314f85d5a0b7624626a.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/860c2c0bde6ff5a7c7849314f85d5a0b7624626a/ss_860c2c0bde6ff5a7c7849314f85d5a0b7624626a.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/fa8a219ff786b4f1584ccfad9e2b7646fdd7e095/ss_fa8a219ff786b4f1584ccfad9e2b7646fdd7e095.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/fa8a219ff786b4f1584ccfad9e2b7646fdd7e095/ss_fa8a219ff786b4f1584ccfad9e2b7646fdd7e095.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/4098ca869898cec38ce7da48b38bfa9147c32278/ss_4098ca869898cec38ce7da48b38bfa9147c32278.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/4098ca869898cec38ce7da48b38bfa9147c32278/ss_4098ca869898cec38ce7da48b38bfa9147c32278.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/f7d35aabe09a81a4fb55ecb93ba060ee3fa55de6/ss_f7d35aabe09a81a4fb55ecb93ba060ee3fa55de6.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/f7d35aabe09a81a4fb55ecb93ba060ee3fa55de6/ss_f7d35aabe09a81a4fb55ecb93ba060ee3fa55de6.1920x1080.jpg?t=1763204431"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/216abf95be4a0bc8e81eaba15b79c9c35a77ca6c/ss_216abf95be4a0bc8e81eaba15b79c9c35a77ca6c.600x338.jpg?t=1763204431",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002530/216abf95be4a0bc8e81eaba15b79c9c35a77ca6c/ss_216abf95be4a0bc8e81eaba15b79c9c35a77ca6c.1920x1080.jpg?t=1763204431"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257230017,
+            "name": "TrialSpire trailer 1",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257230017/0684938d43598080fdb42877bf5a5ff3f5734b42/movie_600x337.jpg?t=1762950842",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4002530/1216544092/4cbb4cbf9da2e70a402a84c218b2049d33f74e23/1762949812/dash_av1.mpd?t=1762950842",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4002530/1216544092/4cbb4cbf9da2e70a402a84c218b2049d33f74e23/1762949812/dash_h264.mpd?t=1762950842",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4002530/1216544092/4cbb4cbf9da2e70a402a84c218b2049d33f74e23/1762949812/hls_264_master.m3u8?t=1762950842",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 26,
+          "highlighted": [
+            {
+              "icon": "f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg",
+              "localized_name": "First Trial",
+              "archived": 0,
+              "hidden": 0,
+              "name": "First Trial",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg"
+            },
+            {
+              "icon": "f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg",
+              "localized_name": "It Was Easy...",
+              "archived": 0,
+              "hidden": 0,
+              "name": "It Was Easy...",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg"
+            },
+            {
+              "icon": "642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg",
+              "localized_name": "Proof of Power",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Proof of Power",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg"
+            },
+            {
+              "icon": "642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg",
+              "localized_name": "Hunter",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Hunter",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg"
+            },
+            {
+              "icon": "7a5de79b0c238ec77d17523689827bc80fc700c1.jpg",
+              "localized_name": "You're Standing in My Way",
+              "archived": 0,
+              "hidden": 0,
+              "name": "You're Standing in My Way",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/7a5de79b0c238ec77d17523689827bc80fc700c1.jpg"
+            },
+            {
+              "icon": "7a5de79b0c238ec77d17523689827bc80fc700c1.jpg",
+              "localized_name": "Extinction",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Extinction",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/7a5de79b0c238ec77d17523689827bc80fc700c1.jpg"
+            },
+            {
+              "icon": "56b071e0a0884c58e05c68611dd69c022f2ed084.jpg",
+              "localized_name": "Slayer of Colossi",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Slayer of Colossi",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/56b071e0a0884c58e05c68611dd69c022f2ed084.jpg"
+            },
+            {
+              "icon": "642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg",
+              "localized_name": "Blue Zone",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Blue Zone",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg"
+            },
+            {
+              "icon": "f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg",
+              "localized_name": "Polyphemus",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Polyphemus",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/f8f3496a47acccce9675593b8eb0f6c4d942f32d.jpg"
+            },
+            {
+              "icon": "642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg",
+              "localized_name": "Lizzie",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Lizzie",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4002530/642bc62e21947dba5f1ba2f59240ad4d34bf152f.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 15, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "hosthoodreports@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4002530?t=1763204431",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4002530?t=1763204431",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

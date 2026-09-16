@@ -1,0 +1,85 @@
+{
+  "appid": 2934220,
+  "requested_at": "2026-09-13T18:59:16.789769+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 2145,
+      "total_negative": 553,
+      "total_reviews": 2698
+    },
+    "reviews": [
+      {
+        "recommendationid": "209914960",
+        "author": {
+          "steamid": "76561198069946038",
+          "personaname": "Slugdog Millionaire",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/BC893/",
+          "num_games_owned": 1369,
+          "num_reviews": 80,
+          "playtime_forever": 1436,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 471,
+          "last_played": 1769907701,
+          "avatar": "1d8f985154c95b592b6cc44bad830bcba970c9c5"
+        },
+        "language": "english",
+        "review": "I gave it a long, honest look as someone who loves this type of game and I have to be honest;\n\nFor the time being, stay away. \n\nIt's far too undercooked. The difficulty, balance, metaprogression, even basic QoL stuff that's standard in this flavor of Roguelite is so below par that playing the game makes me feel like I paid to alpha test for them.\n\nFor example; \n\nThis game doesn't even have Bans/Lock ins for level up choices as a mechanic, yet in order to progress to higher difficulties, some levels will make you do challenges like \"Complete a run on Hard using only 4 types of buildings\" with no actual way to narrow the pool down enough to make it conceivably doable, especially if you've unlocked other content.\n\nAs far as meta progression, it's a looooong grind for small, boring percentile increases: 5% at most and sometimes as low as 3%. No Second Wind, no actual abilities, just \"4% attack speed, 5% hp\" that scales up in cost exponentially and makes winning a run for the first time not actually feel rewarding or like a big satisfying thing like in Vampire Survivors, Ball X Pit, etc.\n\nThe potential is definitely there, and it's got incredible music and a fresh concept. But as of right now I'm left with a bad taste in my mouth",
+        "timestamp_created": 1763887183,
+        "timestamp_updated": 1763887183,
+        "voted_up": false,
+        "votes_up": 286,
+        "votes_funny": 3,
+        "weighted_vote_score": "0.893237531185150146",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1764261621,
+        "developer_response": "Hello,\nFirst, thanks a lot for the feedback and sorry that the game didn’t match what you were hoping for. We ran a lot of playtests before launch, but as always, once the game is out we get way more feedback (like yours!) and way more data to help us improve things.\n\nFor now, we’ve already tweaked the balancing of Hard and Expert modes. Most importantly, we added the Pick & Ban feature so you can choose which unlocked buildings you actually want in your pool.\n\nAbout meta progression, we’re still discussing how to improve it. Our goal isn’t to create a grindy experience, but a game where building the right setup is the key. That’s also why you can freely reinitiate your compass points: we want players to adapt to challenges and pick the right Town Hall for each run.\n\nIf you have any thoughts on these, or on the features added, feel free to share: it really helps. We’re here for the long run with this game and want player have fun with it.\n\nThanks again for taking the time to share your feedback!",
+        "app_release_date": "1763647093",
+        "reactions": [
+          {
+            "reaction_type": 6,
+            "count": 14
+          },
+          {
+            "reaction_type": 19,
+            "count": 2
+          },
+          {
+            "reaction_type": 1,
+            "count": 1
+          },
+          {
+            "reaction_type": 4,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFSIp8AAAAAFP+yVZ+AAAABwxeGgBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0470000000000255,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3743220,
+  "requested_at": "2026-09-13T19:36:20.526768+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 254,
+      "total_negative": 23,
+      "total_reviews": 277
+    },
+    "reviews": [
+      {
+        "recommendationid": "216926565",
+        "author": {
+          "steamid": "76561198371395404",
+          "personaname": "Gay Dragons from Outer Space",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/catgirldragon/",
+          "num_games_owned": 201,
+          "num_reviews": 81,
+          "playtime_forever": 1315,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 872,
+          "last_played": 1787569275,
+          "avatar": "f91e8904e3cbdee0daef212f7ad28c228de17cbc"
+        },
+        "language": "english",
+        "review": "Hempuli's talent for UX design is rivalled only by his penchant for simple, intuitive, easily understandable rulesets. Which is to say, he lacks either.",
+        "timestamp_created": 1769502968,
+        "timestamp_updated": 1769502985,
+        "voted_up": true,
+        "votes_up": 22,
+        "votes_funny": 28,
+        "weighted_vote_score": "0.756848335266113281",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752086260",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFU3PAAAAAAFP+g4GUAAAAB1lsG7Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.20299999999952,
+  "transport_error_count": 0
+}

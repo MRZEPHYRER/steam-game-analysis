@@ -1,0 +1,73 @@
+{
+  "appid": 3913290,
+  "requested_at": "2026-09-13T19:58:51.596709+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 4,
+      "total_negative": 2,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "205566997",
+        "author": {
+          "steamid": "76561198971129022",
+          "personaname": "налей на меня пиво",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198971129022/",
+          "num_games_owned": 51,
+          "num_reviews": 1,
+          "playtime_forever": 21,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1759260025,
+          "avatar": "db6a8565e038f6b5b332e73dd4cb2d7658cd3f72"
+        },
+        "language": "russian",
+        "review": "Новелла предполагает заумные размышления, но со стороны выглядит как непонятный поток бреда, пустые термины без раскрытия. Не понимаю, что разработчик хотел заложить в сюжет. Игра пустышка - не цепляет пользователя, нет никакого желания проходить ее, читать неинтересную бредятину, которая не разъясняется, нет пасхалочек, приколов различных, достижения отсутствуют, предметов за очки стима нет. Сухая игра. :c",
+        "timestamp_created": 1759260849,
+        "timestamp_updated": 1759260849,
+        "voted_up": false,
+        "votes_up": 9,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.628915667533874512",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1759659728,
+        "developer_response": "да достигаться тут не за что особо, во второй части будет где оторваться",
+        "app_release_date": "1758837858",
+        "reactions": [
+          {
+            "reaction_type": 14,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFaa/MAAAAAFP+QgFIAAAAB1wZaQBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9220000000004802,
+  "transport_error_count": 0
+}

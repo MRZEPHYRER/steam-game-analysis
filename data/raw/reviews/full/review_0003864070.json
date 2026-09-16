@@ -1,0 +1,66 @@
+{
+  "appid": 3864070,
+  "requested_at": "2026-09-13T19:51:38.562537+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 2,
+      "total_negative": 2,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "234592661",
+        "author": {
+          "steamid": "76561198967234349",
+          "personaname": "饼饼饼",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198967234349/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 69,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 69,
+          "last_played": 1786793723,
+          "avatar": "fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb"
+        },
+        "language": "schinese",
+        "review": "玩法其实有些枯燥单一。因为被盗版太多而特意来怜惜一下正版的，原本以为原版玩法可能会丰富一些，但是意料之外的有点枯燥和单一，主要就是钓鱼刮鳞刮藤壶。美术还不错。加油。",
+        "timestamp_created": 1788672727,
+        "timestamp_updated": 1788672727,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1754561635",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB1mfP+Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.092999999999847,
+  "transport_error_count": 0
+}

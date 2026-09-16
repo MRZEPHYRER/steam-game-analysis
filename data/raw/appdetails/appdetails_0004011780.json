@@ -1,0 +1,232 @@
+{
+  "requested_at": "2026-09-13T06:25:38.320418+00:00",
+  "request_params": {
+    "appids": 4011780,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4011780,
+  "payload": {
+    "4011780": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "/trace",
+        "steam_appid": 4011780,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >The rules are simple:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Always forwards, sometimes left, sometimes right</p></li><li><p class=\"bb_paragraph\" >Acquire points, avoid pain</p></li><li><p class=\"bb_paragraph\" >Disregard honour: crush your enemies and rejoice in the lamentations of their loved ones.</p></li></ul><p class=\"bb_paragraph\" >Supports up to 8 local players! Maximise revelry by:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Turning your steamdeck sideways</p></li><li><p class=\"bb_paragraph\" >Sharing controllers</p></li><li><p class=\"bb_paragraph\" >Controlling using smartphones over LAN connection</p></li></ul><p class=\"bb_paragraph\" >Also features three more bullet points!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Highly configurable game rules!</p></li><li><p class=\"bb_paragraph\" >Extremely irritating bot opponents!</p></li><li><p class=\"bb_paragraph\" >Fully monophonic sound!</p></li></ul>",
+        "about_the_game": "<p class=\"bb_paragraph\" >The rules are simple:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Always forwards, sometimes left, sometimes right</p></li><li><p class=\"bb_paragraph\" >Acquire points, avoid pain</p></li><li><p class=\"bb_paragraph\" >Disregard honour: crush your enemies and rejoice in the lamentations of their loved ones.</p></li></ul><p class=\"bb_paragraph\" >Supports up to 8 local players! Maximise revelry by:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Turning your steamdeck sideways</p></li><li><p class=\"bb_paragraph\" >Sharing controllers</p></li><li><p class=\"bb_paragraph\" >Controlling using smartphones over LAN connection</p></li></ul><p class=\"bb_paragraph\" >Also features three more bullet points!</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Highly configurable game rules!</p></li><li><p class=\"bb_paragraph\" >Extremely irritating bot opponents!</p></li><li><p class=\"bb_paragraph\" >Fully monophonic sound!</p></li></ul>",
+        "short_description": "Local-multiplayer arena-based race-battle-mageddon",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/9a77667153416dfd3ae3268b4724f059c9cb387b/header.jpg?t=1766484211",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/fd51a9188b676c8db0cfe5aa5a5c3697f76e8e73/capsule_231x87.jpg?t=1766484211",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/fd51a9188b676c8db0cfe5aa5a5c3697f76e8e73/capsule_184x69.jpg?t=1766484211",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 7<br></li><li><strong>Processor:</strong> Potato<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Potato<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> SteamOS<br></li><li><strong>Processor:</strong> Potato<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Potato<br></li><li><strong>Storage:</strong> 256 MB available space</li></ul>"
+        },
+        "developers": [
+          "flowty.dev"
+        ],
+        "publishers": [
+          "flowty.dev"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 399,
+          "final": 399,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$3.99"
+        },
+        "packages": [
+          1407697
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy /trace",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1407697,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "./trace - $3.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 399
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/bde95f39cbfb6659089eeab6ba7125c9b65bedf4/ss_bde95f39cbfb6659089eeab6ba7125c9b65bedf4.600x338.jpg?t=1766484211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/bde95f39cbfb6659089eeab6ba7125c9b65bedf4/ss_bde95f39cbfb6659089eeab6ba7125c9b65bedf4.1920x1080.jpg?t=1766484211"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/e1e314adcca2b0256cb9a286e61857e064648333/ss_e1e314adcca2b0256cb9a286e61857e064648333.600x338.jpg?t=1766484211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/e1e314adcca2b0256cb9a286e61857e064648333/ss_e1e314adcca2b0256cb9a286e61857e064648333.1920x1080.jpg?t=1766484211"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/a692f67a00799424382e45e5b5a7345a6c4725b7/ss_a692f67a00799424382e45e5b5a7345a6c4725b7.600x338.jpg?t=1766484211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/a692f67a00799424382e45e5b5a7345a6c4725b7/ss_a692f67a00799424382e45e5b5a7345a6c4725b7.1920x1080.jpg?t=1766484211"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/c1ec7f668162f71fb72f46e197733aa18a22f28e/ss_c1ec7f668162f71fb72f46e197733aa18a22f28e.600x338.jpg?t=1766484211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/c1ec7f668162f71fb72f46e197733aa18a22f28e/ss_c1ec7f668162f71fb72f46e197733aa18a22f28e.1920x1080.jpg?t=1766484211"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/87be622f58f5302b606f91df6de6e52c0e2a66ea/ss_87be622f58f5302b606f91df6de6e52c0e2a66ea.600x338.jpg?t=1766484211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/87be622f58f5302b606f91df6de6e52c0e2a66ea/ss_87be622f58f5302b606f91df6de6e52c0e2a66ea.1920x1080.jpg?t=1766484211"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257216502,
+            "name": "intro",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257216502/27814bd96432005b29c583a73445317fbb335e0c/movie_600x337.jpg?t=1760688778",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4011780/1651085746/230e91ab88ccf05b22a29b66a8863d861b91ae32/1760285533/dash_av1.mpd?t=1760688778",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4011780/1651085746/230e91ab88ccf05b22a29b66a8863d861b91ae32/1760285533/dash_h264.mpd?t=1760688778",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4011780/1651085746/230e91ab88ccf05b22a29b66a8863d861b91ae32/1760285533/hls_264_master.m3u8?t=1760688778",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 12, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "trace_support@flowty.dev"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4011780?t=1766484211",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4011780/b7813a558f9a6e5622678bfbc5f5ea516aa9bbef/page_bg_raw.jpg?t=1766484211",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "3",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Interaksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

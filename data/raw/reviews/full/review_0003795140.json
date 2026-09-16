@@ -1,0 +1,66 @@
+{
+  "appid": 3795140,
+  "requested_at": "2026-09-13T19:40:51.348522+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 3,
+      "total_negative": 0,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "231903362",
+        "author": {
+          "steamid": "76561199650011146",
+          "personaname": "DuuD4a",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199650011146/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 17,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "last_played": 1769787480,
+          "avatar": "96a901311da0695f2adf1d2717ff0188decdfd18"
+        },
+        "language": "english",
+        "review": "เกมนี้ดีมาก ตอนผม 2-8 ขวบ ผมรักเกมนี้ เป็นเกมดีที่สุด เกิดจากความฝันของเด็กคนนึงที่ชอบดูแอบปิดอยผมดีใจมาก จนนังดูทั้งวัน ผมชอบเกมนี้มาก",
+        "timestamp_created": 1785684994,
+        "timestamp_updated": 1785684994,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1761491034",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAByiNL0Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

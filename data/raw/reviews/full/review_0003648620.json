@@ -1,0 +1,66 @@
+{
+  "appid": 3648620,
+  "requested_at": "2026-09-13T19:28:46.420634+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 4,
+      "total_negative": 2,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "232331812",
+        "author": {
+          "steamid": "76561198725490222",
+          "personaname": "Nats",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198725490222/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 120,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 73,
+          "last_played": 1786179214,
+          "avatar": "35448410dfd4b8881bdc39b1df9e6e009831d318"
+        },
+        "language": "english",
+        "review": "This game has potential, but there isn't much content. Developer, if you're reading this, please don't abandon the project! I believe in you.",
+        "timestamp_created": 1786178930,
+        "timestamp_updated": 1786178930,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1762315090",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB0oqP2Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8600000000001273,
+  "transport_error_count": 0
+}

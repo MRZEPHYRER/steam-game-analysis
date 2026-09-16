@@ -1,0 +1,66 @@
+{
+  "appid": 3815120,
+  "requested_at": "2026-09-13T19:43:32.311071+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "214034162",
+        "author": {
+          "steamid": "76561198408668339",
+          "personaname": "Ezermester",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198408668339/",
+          "num_games_owned": 0,
+          "num_reviews": 359,
+          "playtime_forever": 24,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 24,
+          "last_played": 1766526227,
+          "avatar": "bf6cc03733c2b3aae75936f6359c2a7ca375e404"
+        },
+        "language": "hungarian",
+        "review": "Rendben van.",
+        "timestamp_created": 1766526255,
+        "timestamp_updated": 1766526255,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1752153189",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQGAgAAAAAAAFP+AAAAAAAABy77ywBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

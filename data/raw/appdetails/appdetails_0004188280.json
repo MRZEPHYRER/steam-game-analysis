@@ -1,0 +1,189 @@
+{
+  "requested_at": "2026-09-13T07:19:07.600455+00:00",
+  "request_params": {
+    "appids": 4188280,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4188280,
+  "payload": {
+    "4188280": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Balls2",
+        "steam_appid": 4188280,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Balls2 is a slow paced casual platformer where you play as a ball. Inspired by video games you would play on a school computer, Balls2 come with 20+ levels with varying lengths, difficulties and unique challenges.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Balls2 is a slow paced casual platformer where you play as a ball. Inspired by video games you would play on a school computer, Balls2 come with 20+ levels with varying lengths, difficulties and unique challenges.</p>",
+        "short_description": "Balls2 is a slow paced casual platformer where you play as a ball. Inspired by video games you would play on a school computer, Balls2 come with 20+ levels with varying lengths, difficulties and unique challenges.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/453ccc6283f08b606ccfbf69c262896aeed198ab/header.jpg?t=1766664020",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/7f1f141298fb2b4e49776f69d22aa1ed17b32fe8/capsule_231x87.jpg?t=1766664020",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/7f1f141298fb2b4e49776f69d22aa1ed17b32fe8/capsule_184x69.jpg?t=1766664020",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 10<br></li><li><strong>Processor:</strong> intel core i5<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel(R) Iris(R) Xe Graphics<br></li><li><strong>Additional Notes:</strong> x86_64</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Processor:</strong> Intel(R) Iris(R) Xe Graphics<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Intel(R) Iris(R) Xe Graphics<br></li><li><strong>Additional Notes:</strong> x86_64 Vulkan required</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Black Disk"
+        ],
+        "publishers": [
+          "Black Disk"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1466926
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Balls2",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1466926,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Balls2 - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/4dec0b40b8773c72ba277cf8aea1ea90842b77a0/ss_4dec0b40b8773c72ba277cf8aea1ea90842b77a0.600x338.jpg?t=1766664020",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/4dec0b40b8773c72ba277cf8aea1ea90842b77a0/ss_4dec0b40b8773c72ba277cf8aea1ea90842b77a0.1920x1080.jpg?t=1766664020"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/e4f042636938fd83aede3d028e05cdd65b6cdcc8/ss_e4f042636938fd83aede3d028e05cdd65b6cdcc8.600x338.jpg?t=1766664020",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/e4f042636938fd83aede3d028e05cdd65b6cdcc8/ss_e4f042636938fd83aede3d028e05cdd65b6cdcc8.1920x1080.jpg?t=1766664020"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/b709a99711a0872355af81785396f1011c5c5bbb/ss_b709a99711a0872355af81785396f1011c5c5bbb.600x338.jpg?t=1766664020",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/b709a99711a0872355af81785396f1011c5c5bbb/ss_b709a99711a0872355af81785396f1011c5c5bbb.1920x1080.jpg?t=1766664020"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/a2ea3a1596b458c728079798b805c1d2c4bd674f/ss_a2ea3a1596b458c728079798b805c1d2c4bd674f.600x338.jpg?t=1766664020",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/a2ea3a1596b458c728079798b805c1d2c4bd674f/ss_a2ea3a1596b458c728079798b805c1d2c4bd674f.1920x1080.jpg?t=1766664020"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/e9bd2c05d24e242268ab423bf5e44da2282f601b/ss_e9bd2c05d24e242268ab423bf5e44da2282f601b.600x338.jpg?t=1766664020",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/e9bd2c05d24e242268ab423bf5e44da2282f601b/ss_e9bd2c05d24e242268ab423bf5e44da2282f601b.1920x1080.jpg?t=1766664020"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257245968,
+            "name": "Balls2Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257245968/b3460b57330f138878c4a9e0a1f90c2e4f47f583/movie_600x337.jpg?t=1765304140",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4188280/933418386/50eae51805ec40ffd945ce988b69a9cf0c8df69f/1765303842/dash_av1.mpd?t=1765304140",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4188280/933418386/50eae51805ec40ffd945ce988b69a9cf0c8df69f/1765303842/dash_h264.mpd?t=1765304140",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4188280/933418386/50eae51805ec40ffd945ce988b69a9cf0c8df69f/1765303842/hls_264_master.m3u8?t=1765304140",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 25, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "blackdisk25@outlook.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4188280?t=1766664020",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188280/c69a01c495f90cb5cb96ef2c2aadc9b7bbd66536/page_bg_raw.jpg?t=1766664020",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "requested_at": "2026-09-13T06:13:21.874707+00:00",
+  "request_params": {
+    "appids": 3979650,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3979650,
+  "payload": {
+    "3979650": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Kicksharing Tycoon",
+        "steam_appid": 3979650,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<p class=\"bb_paragraph\" >Kicksharing Tycoon</p><p class=\"bb_paragraph\" >Kicksharing Tycoon is an economic strategy in which you create and develop your own electric scooter rental company. Starting with a garage and a couple of scooters, you can build a real international corporation.</p><p class=\"bb_paragraph\" >Key features:</p><p class=\"bb_paragraph\" >Startup from scratch - buy your first scooters for your last $10,000 and start your entrepreneurial journey.</p><p class=\"bb_paragraph\" >Business management - assign cities for rent, monitor the condition of the fleet, hire staff and expand to new cities and countries.</p><p class=\"bb_paragraph\" >Realism and challenges - cope with vandalism and government requirements.</p><p class=\"bb_paragraph\" >Flexible strategy - decide whether you will personally control the details or build a system that works without your participation.</p><p class=\"bb_paragraph\" >Can you turn a small garage business into a leader in the global micromobility industry?</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >Kicksharing Tycoon</p><p class=\"bb_paragraph\" >Kicksharing Tycoon is an economic strategy in which you create and develop your own electric scooter rental company. Starting with a garage and a couple of scooters, you can build a real international corporation.</p><p class=\"bb_paragraph\" >Key features:</p><p class=\"bb_paragraph\" >Startup from scratch - buy your first scooters for your last $10,000 and start your entrepreneurial journey.</p><p class=\"bb_paragraph\" >Business management - assign cities for rent, monitor the condition of the fleet, hire staff and expand to new cities and countries.</p><p class=\"bb_paragraph\" >Realism and challenges - cope with vandalism and government requirements.</p><p class=\"bb_paragraph\" >Flexible strategy - decide whether you will personally control the details or build a system that works without your participation.</p><p class=\"bb_paragraph\" >Can you turn a small garage business into a leader in the global micromobility industry?</p>",
+        "short_description": "Build your own kicksharing empire from a small garage startup to a global company. Manage scooters, expand across cities, face vandals, rivals, and tough regulations. Every decision shapes your path to success—or downfall.",
+        "supported_languages": "English, French, Italian, German, Spanish - Spain, Traditional Chinese, Polish, Russian, Turkish, Ukrainian",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/29aac9f914569648f4d8f00fdf584376681ea084/header.jpg?t=1764707153",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8de0e73db794599380824d34653dc8b53ccb38fb/capsule_231x87.jpg?t=1764707153",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8de0e73db794599380824d34653dc8b53ccb38fb/capsule_184x69.jpg?t=1764707153",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> Core i3<br></li><li><strong>Memory:</strong> 4000 MB RAM<br></li><li><strong>Graphics:</strong> 2000 Mb<br></li><li><strong>Storage:</strong> 600 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10, 11<br></li><li><strong>Processor:</strong> Core i5<br></li><li><strong>Memory:</strong> 8000 MB RAM<br></li><li><strong>Graphics:</strong> 2000 Mb<br></li><li><strong>Storage:</strong> 600 MB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "Kulix Games"
+        ],
+        "publishers": [
+          "Kulix Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 499,
+          "final": 499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$4.99"
+        },
+        "packages": [
+          1397117
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Kicksharing Tycoon",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1397117,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Kicksharing Tycoon - $4.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 499
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/217b34e8aa647fdbf363efc83c085cdb5bd57fb8/ss_217b34e8aa647fdbf363efc83c085cdb5bd57fb8.600x338.jpg?t=1764707153",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/217b34e8aa647fdbf363efc83c085cdb5bd57fb8/ss_217b34e8aa647fdbf363efc83c085cdb5bd57fb8.1920x1080.jpg?t=1764707153"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/2bdfa46d35f24afdba0d9de0f34ce7a6cbafaea8/ss_2bdfa46d35f24afdba0d9de0f34ce7a6cbafaea8.600x338.jpg?t=1764707153",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/2bdfa46d35f24afdba0d9de0f34ce7a6cbafaea8/ss_2bdfa46d35f24afdba0d9de0f34ce7a6cbafaea8.1920x1080.jpg?t=1764707153"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8799cdf9412e10e478613ccc75e8cb98adebd2c8/ss_8799cdf9412e10e478613ccc75e8cb98adebd2c8.600x338.jpg?t=1764707153",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8799cdf9412e10e478613ccc75e8cb98adebd2c8/ss_8799cdf9412e10e478613ccc75e8cb98adebd2c8.1920x1080.jpg?t=1764707153"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/41f42d93d0d9d59140af241f74360193866a42c3/ss_41f42d93d0d9d59140af241f74360193866a42c3.600x338.jpg?t=1764707153",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/41f42d93d0d9d59140af241f74360193866a42c3/ss_41f42d93d0d9d59140af241f74360193866a42c3.1920x1080.jpg?t=1764707153"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8e18b1478ffa97d29bb8db7df10ecd933c2b5258/ss_8e18b1478ffa97d29bb8db7df10ecd933c2b5258.600x338.jpg?t=1764707153",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/8e18b1478ffa97d29bb8db7df10ecd933c2b5258/ss_8e18b1478ffa97d29bb8db7df10ecd933c2b5258.1920x1080.jpg?t=1764707153"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257232696,
+            "name": "Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257232696/44418bfab4ffe1ffbcc2cab4dd68d796e402b17f/movie_600x337.jpg?t=1763306957",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3979650/1203085105/f22e9d4c80d83a23406a61cdbf09bc0d093b2507/1763304726/dash_av1.mpd?t=1763306957",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3979650/1203085105/f22e9d4c80d83a23406a61cdbf09bc0d093b2507/1763304726/dash_h264.mpd?t=1763306957",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3979650/1203085105/f22e9d4c80d83a23406a61cdbf09bc0d093b2507/1763304726/hls_264_master.m3u8?t=1763306957",
+            "highlight": true
+          },
+          {
+            "id": 257187957,
+            "name": "KickSharing Tycoon Promo Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257187957/e1a4f9c0e88412e6e7848ec900d4aef74d7f4dfb/movie_600x337.jpg?t=1758003130",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3979650/1650790093/1c1b4e8df4f947bdca18ebb3d4dfd6bd5cd08de0/1756041321/dash_av1.mpd?t=1758003130",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3979650/1650790093/1c1b4e8df4f947bdca18ebb3d4dfd6bd5cd08de0/1756041321/dash_h264.mpd?t=1758003130",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3979650/1650790093/1c1b4e8df4f947bdca18ebb3d4dfd6bd5cd08de0/1756041321/hls_264_master.m3u8?t=1758003130",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 4,
+          "highlighted": [
+            {
+              "icon": "01552b5a17af1e795bd96f5bfbaaf52639aaa485.jpg",
+              "localized_name": "Airborn",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Airborn",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979650/01552b5a17af1e795bd96f5bfbaaf52639aaa485.jpg"
+            },
+            {
+              "icon": "522e848007fb067fd247c7443e2cdf56c51dd92e.jpg",
+              "localized_name": "I'am millionare",
+              "archived": 0,
+              "hidden": 0,
+              "name": "I'am millionare",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979650/522e848007fb067fd247c7443e2cdf56c51dd92e.jpg"
+            },
+            {
+              "icon": "c27315b0a5fdbd20a2af96eb61e49d92dc5fd1e5.jpg",
+              "localized_name": "I'am a billionare",
+              "archived": 0,
+              "hidden": 0,
+              "name": "I'am a billionare",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979650/c27315b0a5fdbd20a2af96eb61e49d92dc5fd1e5.jpg"
+            },
+            {
+              "icon": "e057fc4a98604cc6d9f14b5da8f8dfd5e05a967e.jpg",
+              "localized_name": "100000 scooters",
+              "archived": 0,
+              "hidden": 0,
+              "name": "100000 scooters",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3979650/e057fc4a98604cc6d9f14b5da8f8dfd5e05a967e.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 2, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "kulixgames@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3979650?t=1764707153",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979650/fb008be38e1fc1dcd09783bb9e9374c8d9b41446/page_bg_raw.jpg?t=1764707153",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

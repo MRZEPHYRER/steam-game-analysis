@@ -1,0 +1,66 @@
+{
+  "appid": 3816720,
+  "requested_at": "2026-09-13T19:43:45.237748+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 27,
+      "total_negative": 1,
+      "total_reviews": 28
+    },
+    "reviews": [
+      {
+        "recommendationid": "233027268",
+        "author": {
+          "steamid": "76561199811963022",
+          "personaname": "达布六",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561199811963022/",
+          "num_games_owned": 116,
+          "num_reviews": 60,
+          "playtime_forever": 851,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 851,
+          "last_played": 1786843991,
+          "avatar": "3347685d5b0ffdf9fb2eacdabdcfe12d672d3294"
+        },
+        "language": "schinese",
+        "review": "选择不推荐，一是对官方的回应很失望，二是想要提醒有购买意向的姐妹做个心理准备，以免像我一样在兴致最高的时候吃到一口屎。\n\n因为demo精美的立绘和画风果断入手，但第1章突然迎面走来一位[u][b]扭成S形+完全不符合人体比例的气球胸+低胸装低到快要包不住胸的大姐姐[/b][/u]，说实话看到时游玩热情瞬间冷却。\n但想着买都买了，还是打了第2章第3章，然后就更加无法理解第1章这位女角色的设计了。\n[h3]你们制作组明明能做出好吃的小蛋糕，为什么一定要往蛋糕里塞一勺屎呢？[/h3]\n\n官方回应1：该女角色形象及服装设计是考量了人物设定和游戏演出。\n[b]-哇哦，想必该角色一定是个有着魅惑技能的性感大姐姐，故事背景必须要这种夸张擦边的性化特征来支撑吧？[/b]\n（然而并没有，实际人物背景薄如蝉翼。而且其它角色设计都有生动具象的性格特征和穿搭逻辑，唯独她没有。可能制作组觉得此游就是需要一个女性穿情趣内衣走秀吧。）\n\n官方回应2：我们严格遵守了游戏分级制度。\n[b]-做了最基础的东西，也需要我来夸夸你吗？分级是底线欸，你们追求的仅仅是一个符合分级标准的游戏吗？[/b]\n\n官方回应3：游戏里会登场各种多样化设计的角色，包括裸露的男性角色。\n[b]-但我暂时没看到呢。什么时候搬出一个辣弟，我就什么时候改成推荐。\n----不穿上衣的强壮肌肉男不行哦。我要的是那种：[u]瘦弱、讨好味重、刻意的局部夸张+摆着特定姿势、能让我凝视的辣弟[/u]才可以。这样我就相信你们是真的想做“多样化”。[/b]\n\n我承认此游有着极其精美的立绘和插画，第2章第3章的剧情也可圈可点，特别是第3章结尾的演出小高潮让我屡次感动落泪。\n但我仍然对第1章的屎耿耿于怀。我试图用上述优点来说服自己咽下去，但我发现我做不到。\n\n我受够这些参杂着的屎了，我真的受够了。",
+        "timestamp_created": 1786945853,
+        "timestamp_updated": 1786949064,
+        "voted_up": false,
+        "votes_up": 15,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.710902571678161621",
+        "comment_count": 5,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1766134805",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFVyC0AAAAAFP+a/t6AAAAB07Pb4Bg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

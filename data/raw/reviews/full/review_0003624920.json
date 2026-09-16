@@ -1,0 +1,68 @@
+{
+  "appid": 3624920,
+  "requested_at": "2026-09-13T19:27:00.277167+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 28,
+      "total_negative": 19,
+      "total_reviews": 47
+    },
+    "reviews": [
+      {
+        "recommendationid": "204242590",
+        "author": {
+          "steamid": "76561198356350565",
+          "personaname": "MioChan",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198356350565/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 1116,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 263,
+          "last_played": 1767881564,
+          "avatar": "3fca911cd3ce6ca3043d8d895197331cd8f7dcf5"
+        },
+        "language": "schinese",
+        "review": "好玩是好玩的，就是全是bug，一直鬼打墙，一来二去搞得心情继续玩下去了。慎入！",
+        "timestamp_created": 1757774370,
+        "timestamp_updated": 1757774370,
+        "voted_up": false,
+        "votes_up": 6,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.579298794269561768",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1758078938,
+        "developer_response": "您好，2025.9.16更新后，我们修复了大多数恶性丢档，存档，无限走路等bug，并预计持续为游戏提供后续更新，对游戏初期质量的糟糕，我们报以诚挚的歉意，同时，感谢您对游戏玩法的认可，我们会在后续不断为游戏提供售后保证，祝您游玩愉快。",
+        "app_release_date": "1757131466",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYaf0AAAAAFP+KJngAAAAB+6Y+LBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.1100000000001273,
+  "transport_error_count": 0
+}

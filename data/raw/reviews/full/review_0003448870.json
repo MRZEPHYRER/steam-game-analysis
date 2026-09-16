@@ -1,0 +1,66 @@
+{
+  "appid": 3448870,
+  "requested_at": "2026-09-13T19:16:38.418138+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 26,
+      "total_negative": 3,
+      "total_reviews": 29
+    },
+    "reviews": [
+      {
+        "recommendationid": "220740672",
+        "author": {
+          "steamid": "76561199170923477",
+          "personaname": "Cozy_and_Coop",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/Luenadra/",
+          "num_games_owned": 1147,
+          "num_reviews": 45,
+          "playtime_forever": 83,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 83,
+          "last_played": 1773580743,
+          "avatar": "a8306f8cd76819e608e183802635aa44810c582b"
+        },
+        "language": "english",
+        "review": "I just finished Necrologium, and I had a really good time with it.\n\nYes, it’s a short game, but it was genuinely fun from start to finish. The mix of story, investigation, and puzzle solving kept me engaged the whole time. Examining the bodies, looking for clues, and slowly piecing together what happened to the victims was really satisfying.\n\nI also have to admit something: I weirdly enjoy autopsy games. Maybe that’s my slightly morbid side talking… haha. But this one really scratched that itch. The atmosphere is dark and mysterious, and uncovering each character’s story made the investigation feel meaningful.\n\nThe puzzles were enjoyable and fit nicely with the narrative, and I liked how the investigation slowly revealed the bigger picture.\n\nMy only “complaint” is that I simply wanted more of it. I would absolutely play a longer version or even more cases in the future.\n\nShort, but definitely worth the experience if you enjoy story-driven mystery and investigative puzzle games.",
+        "timestamp_created": 1773580769,
+        "timestamp_updated": 1773580769,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.557979345321655273",
+        "comment_count": 4,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1759239397",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY1yYAAAAAFP+Ha9sAAAABwxIfKBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

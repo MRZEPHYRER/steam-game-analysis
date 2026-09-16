@@ -1,0 +1,67 @@
+{
+  "appid": 3895180,
+  "requested_at": "2026-09-13T19:56:22.557795+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 67,
+      "total_negative": 5,
+      "total_reviews": 72
+    },
+    "reviews": [
+      {
+        "recommendationid": "209458262",
+        "author": {
+          "steamid": "76561198284445667",
+          "personaname": "DinK",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198284445667/",
+          "num_games_owned": 903,
+          "num_reviews": 69,
+          "playtime_forever": 142,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 142,
+          "deck_playtime_at_review": 142,
+          "last_played": 1760991670,
+          "avatar": "721b6629e6d5152698d6fd80c07e3e52166d65d0"
+        },
+        "language": "english",
+        "review": "Was sleeping on this game for awhile and now that i finally played it the game shocked me with its quality, I went in with expectations of retro vibes and basic puzzles with a game on a scale this small, but the game understands what makes the mystery of zelda 1 work so well and nails it. It doesn't rely on any of the expected puzzle types and the few times it does use them it sets you up so it can subvert your expectations soon after. My favorite part of Zelda 1 is the overworld exploration and obviously this game does not have that but it works well within its limitations to get you into its world and feel lost in this dungeon that keeps being bigger than you expected.",
+        "timestamp_created": 1763372008,
+        "timestamp_updated": 1763372008,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1754391505",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB2xYKfBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3390310,
+  "requested_at": "2026-09-13T19:13:42.402323+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 39,
+      "total_negative": 2,
+      "total_reviews": 41
+    },
+    "reviews": [
+      {
+        "recommendationid": "210082306",
+        "author": {
+          "steamid": "76561199071916369",
+          "personaname": "normat",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199071916369/",
+          "num_games_owned": 0,
+          "num_reviews": 1,
+          "playtime_forever": 542,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 206,
+          "last_played": 1765161638,
+          "avatar": "46a12519730fe0bb6cb9834773acf0ecda52b0fb"
+        },
+        "language": "english",
+        "review": "This is the kind of game that I know I'll get to brag that \"I knew about it before it was cool\" after its inevitable takeoff. This is one of the most unique puzzle games I've ever played and it fits surprisingly well into my cozy games category.\nI've never had a game have me taking notes the way this one does - it has me paying attention to every single thing I come across and working through puzzles with pen and paper, and I've never once found myself skipping through the lore that you get as a reward. I feel like I'm getting to play a game and read my new favorite fantasy novel at the same time. The storytelling alone makes this game well worth the purchase, let alone the fact that it's all coming from a solo dev.\nSome of the puzzles are  definitely hard, but I've found myself motivated by that rather than frustrated. It feels so much more rewarding when I do solve a difficult puzzle knowing I slowed down genuinely put in the brain work. I also love that there's no combat AND now the option to turn off the part of the game that relates at all to combat - although I have left the feature on so far to keep myself moving.\n\nI love the music, I love the world, I love the story. If this was ever released as a book I would buy a hardcover copy.\n\nCozy game lovers, puzzle game lovers, metroidbrainia lovers: don't skip this one!!",
+        "timestamp_created": 1764011581,
+        "timestamp_updated": 1764011581,
+        "voted_up": true,
+        "votes_up": 12,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.657142877578735352",
+        "comment_count": 2,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763485029",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFW222AAAAAFP+UHUMAAAAByoLOhBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.905999999999949,
+  "transport_error_count": 0
+}

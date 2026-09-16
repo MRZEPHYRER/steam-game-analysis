@@ -1,0 +1,364 @@
+{
+  "requested_at": "2026-09-13T06:26:46.362906+00:00",
+  "request_params": {
+    "appids": 4015870,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 4015870,
+  "payload": {
+    "4015870": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "The Living Threeangle",
+        "steam_appid": 4015870,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Overview</h2><p class=\"bb_paragraph\" >You are a triangle in a hand-drawn world. Roll around and encounter other triangles.</p><p class=\"bb_paragraph\" >Golden platforms are your best friend. They will always get you to where you want to go.</p><p class=\"bb_paragraph\" >Unfortunately, sometimes they need to be persuaded by a nearby button or lever...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Must you be confined to remaining a triangle? Certainly not!</p><p class=\"bb_paragraph\" >You have the power to change your shape simply by picking up additional line segments or dropping ones you currently have.</p><p class=\"bb_paragraph\" >Changing your segment count will be useful as you travel across the land...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Where will you roll?</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Shapes of many sizes and colors</p></li><li><p class=\"bb_paragraph\" >Textures from scanned sheets of paper</p></li><li><p class=\"bb_paragraph\" >Physics-based platforming</p></li><li><p class=\"bb_paragraph\" >Simple puzzles</p></li><li><p class=\"bb_paragraph\" >Dynamic music system</p></li><li><p class=\"bb_paragraph\" >Extra areas to explore</p></li><li><p class=\"bb_paragraph\" >A story to be told</p></li></ul>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Overview</h2><p class=\"bb_paragraph\" >You are a triangle in a hand-drawn world. Roll around and encounter other triangles.</p><p class=\"bb_paragraph\" >Golden platforms are your best friend. They will always get you to where you want to go.</p><p class=\"bb_paragraph\" >Unfortunately, sometimes they need to be persuaded by a nearby button or lever...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Must you be confined to remaining a triangle? Certainly not!</p><p class=\"bb_paragraph\" >You have the power to change your shape simply by picking up additional line segments or dropping ones you currently have.</p><p class=\"bb_paragraph\" >Changing your segment count will be useful as you travel across the land...</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Where will you roll?</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Shapes of many sizes and colors</p></li><li><p class=\"bb_paragraph\" >Textures from scanned sheets of paper</p></li><li><p class=\"bb_paragraph\" >Physics-based platforming</p></li><li><p class=\"bb_paragraph\" >Simple puzzles</p></li><li><p class=\"bb_paragraph\" >Dynamic music system</p></li><li><p class=\"bb_paragraph\" >Extra areas to explore</p></li><li><p class=\"bb_paragraph\" >A story to be told</p></li></ul>",
+        "short_description": "Roll a triangle across a hand-drawn landscape. But sometimes, being a triangle isn't for the best which is why you can change your shape. This 2.5D puzzle platformer will take you through a variety of environments where you encounter other shapes, activate buttons, and flip levers.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/86f7e94a14f9fe8aa215b0d8a678cdc2f480f7da/header.jpg?t=1770323287",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/d47e22f0a97bef91067b9e18fa25845893628324/capsule_231x87.jpg?t=1770323287",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/d47e22f0a97bef91067b9e18fa25845893628324/capsule_184x69.jpg?t=1770323287",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD 2.5 GHz or superior<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Any DirectX 11 or 12 compatible card<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Rocky Linux 8 / Redhat Linux 8 or newer<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD 2.5 GHz or superior<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Any DirectX 11 or 12 compatible card<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "legal_notice": "The Living Threeangle uses Unreal® Engine. Unreal® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. Unreal® Engine, Copyright 1998 – 2025, Epic Games, Inc. All rights reserved.",
+        "developers": [
+          "Triple Helix and a Half, LLC"
+        ],
+        "publishers": [
+          "Triple Helix and a Half, LLC"
+        ],
+        "demos": [
+          {
+            "appid": 4056100,
+            "description": ""
+          }
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 799,
+          "final": 799,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$7.99"
+        },
+        "packages": [
+          1409059
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy The Living Threeangle",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1409059,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "The Living Threeangle - $7.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 799
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 14,
+            "description": "Commentary available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/8e52d861247ea4b6cbfaf09b963c5a23235ab75a/ss_8e52d861247ea4b6cbfaf09b963c5a23235ab75a.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/8e52d861247ea4b6cbfaf09b963c5a23235ab75a/ss_8e52d861247ea4b6cbfaf09b963c5a23235ab75a.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/9f6a5c84b02eb0af142d9c7009f09e2554616953/ss_9f6a5c84b02eb0af142d9c7009f09e2554616953.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/9f6a5c84b02eb0af142d9c7009f09e2554616953/ss_9f6a5c84b02eb0af142d9c7009f09e2554616953.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/f3692dc74f717466f52dd1ad1b52b6252547e2c2/ss_f3692dc74f717466f52dd1ad1b52b6252547e2c2.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/f3692dc74f717466f52dd1ad1b52b6252547e2c2/ss_f3692dc74f717466f52dd1ad1b52b6252547e2c2.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/7b42b77fcf412c1be4f0ef2fcbf58752adbbc323/ss_7b42b77fcf412c1be4f0ef2fcbf58752adbbc323.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/7b42b77fcf412c1be4f0ef2fcbf58752adbbc323/ss_7b42b77fcf412c1be4f0ef2fcbf58752adbbc323.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/fb4013d4a3c58f8f45d9d2a2f0b2fb9a11664b4e/ss_fb4013d4a3c58f8f45d9d2a2f0b2fb9a11664b4e.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/fb4013d4a3c58f8f45d9d2a2f0b2fb9a11664b4e/ss_fb4013d4a3c58f8f45d9d2a2f0b2fb9a11664b4e.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/ff1826a7638a8b078dd0a4b2d9ba8e16bcaa3a19/ss_ff1826a7638a8b078dd0a4b2d9ba8e16bcaa3a19.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/ff1826a7638a8b078dd0a4b2d9ba8e16bcaa3a19/ss_ff1826a7638a8b078dd0a4b2d9ba8e16bcaa3a19.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/0e5f0dd6f945cf9d0ab8d4128e56aca2325b5e7f/ss_0e5f0dd6f945cf9d0ab8d4128e56aca2325b5e7f.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/0e5f0dd6f945cf9d0ab8d4128e56aca2325b5e7f/ss_0e5f0dd6f945cf9d0ab8d4128e56aca2325b5e7f.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/f5143bad0f03299e9a0389593aa5f8809d2ed42e/ss_f5143bad0f03299e9a0389593aa5f8809d2ed42e.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/f5143bad0f03299e9a0389593aa5f8809d2ed42e/ss_f5143bad0f03299e9a0389593aa5f8809d2ed42e.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/bce45bafe197d07cb180c5b90e6b655a19c58f37/ss_bce45bafe197d07cb180c5b90e6b655a19c58f37.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/bce45bafe197d07cb180c5b90e6b655a19c58f37/ss_bce45bafe197d07cb180c5b90e6b655a19c58f37.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/a047684c129e2236321a81b1b7f24c19840d6a9b/ss_a047684c129e2236321a81b1b7f24c19840d6a9b.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/a047684c129e2236321a81b1b7f24c19840d6a9b/ss_a047684c129e2236321a81b1b7f24c19840d6a9b.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/7f72e7871d8a0b51409b908062268dda96f53eb1/ss_7f72e7871d8a0b51409b908062268dda96f53eb1.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/7f72e7871d8a0b51409b908062268dda96f53eb1/ss_7f72e7871d8a0b51409b908062268dda96f53eb1.1920x1080.jpg?t=1770323287"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/d9d6bde47b64c881a65e8c8cdfe048d23ff0066f/ss_d9d6bde47b64c881a65e8c8cdfe048d23ff0066f.600x338.jpg?t=1770323287",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/d9d6bde47b64c881a65e8c8cdfe048d23ff0066f/ss_d9d6bde47b64c881a65e8c8cdfe048d23ff0066f.1920x1080.jpg?t=1770323287"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257202408,
+            "name": "Steam Page Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257202408/8ff7a332dc188bcdfcf3b0d3936a7d8260b93b32/movie_600x337.jpg?t=1758597203",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4015870/559740840/a25401cd8e13bf70836de05fc58f5c3e540e2dff/1758310081/dash_av1.mpd?t=1758597203",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4015870/559740840/a25401cd8e13bf70836de05fc58f5c3e540e2dff/1758310081/dash_h264.mpd?t=1758597203",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4015870/559740840/a25401cd8e13bf70836de05fc58f5c3e540e2dff/1758310081/hls_264_master.m3u8?t=1758597203",
+            "highlight": true
+          },
+          {
+            "id": 257194003,
+            "name": "Official Teaser Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194003/0b7a9484fa8976c615fcd1ee478a2486ba5df4ce/movie_600x337.jpg?t=1758232915",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4015870/718607690/4096bfbb6905f2118b3ce204b36ac11759e7c920/1757178050/dash_av1.mpd?t=1758232915",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4015870/718607690/4096bfbb6905f2118b3ce204b36ac11759e7c920/1757178050/dash_h264.mpd?t=1758232915",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4015870/718607690/4096bfbb6905f2118b3ce204b36ac11759e7c920/1757178050/hls_264_master.m3u8?t=1758232915",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 74,
+          "highlighted": [
+            {
+              "icon": "b187625ca7d858a81661b43550cc94fc8333702d.jpg",
+              "localized_name": "Howdy",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Howdy",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/b187625ca7d858a81661b43550cc94fc8333702d.jpg"
+            },
+            {
+              "icon": "a03c8a2245522a79721efb2263db1053f41f3906.jpg",
+              "localized_name": "The Adventure Begins",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Adventure Begins",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/a03c8a2245522a79721efb2263db1053f41f3906.jpg"
+            },
+            {
+              "icon": "80ea0c5c6cdd182a2dcc0497dd311d33f2ea3065.jpg",
+              "localized_name": "Across the Country",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Across the Country",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/80ea0c5c6cdd182a2dcc0497dd311d33f2ea3065.jpg"
+            },
+            {
+              "icon": "af4aa6a80eb4f2ab9e14f00e7dd96c8bbefca163.jpg",
+              "localized_name": "Rollin' Into Town",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Rollin' Into Town",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/af4aa6a80eb4f2ab9e14f00e7dd96c8bbefca163.jpg"
+            },
+            {
+              "icon": "22e3465ee30a0cf77885f282671b3ed2a3837329.jpg",
+              "localized_name": "Seeing the High-Rises",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Seeing the High-Rises",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/22e3465ee30a0cf77885f282671b3ed2a3837329.jpg"
+            },
+            {
+              "icon": "8bc17d3d570325a433d549caf4c98a62b86a6a41.jpg",
+              "localized_name": "Meeting the Working Class",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Meeting the Working Class",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/8bc17d3d570325a433d549caf4c98a62b86a6a41.jpg"
+            },
+            {
+              "icon": "18ed01c576bdf58e4bbd202de8bba736854be78d.jpg",
+              "localized_name": "Over the Pillars",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Over the Pillars",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/18ed01c576bdf58e4bbd202de8bba736854be78d.jpg"
+            },
+            {
+              "icon": "4302c85f9c5f252ac772e19efbe2fdceb7f831b3.jpg",
+              "localized_name": "Sunset",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sunset",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/4302c85f9c5f252ac772e19efbe2fdceb7f831b3.jpg"
+            },
+            {
+              "icon": "0d4b2d4610552ae1c9a90e12cb5ccd6fd25576fa.jpg",
+              "localized_name": "Taking the Plunge",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Taking the Plunge",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/0d4b2d4610552ae1c9a90e12cb5ccd6fd25576fa.jpg"
+            },
+            {
+              "icon": "d0039be932a6cb8b8e62c9dd4e0ae202d1dca600.jpg",
+              "localized_name": "The Last Push",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Last Push",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4015870/d0039be932a6cb8b8e62c9dd4e0ae202d1dca600.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 20, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "triplehelixand.5@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4015870?t=1770323287",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015870/dadbbc98f510099f31b6edd84d29ea3d57e4570e/page_bg_raw.jpg?t=1770323287",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

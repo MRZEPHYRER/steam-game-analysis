@@ -1,0 +1,66 @@
+{
+  "appid": 2730970,
+  "requested_at": "2026-09-13T18:54:53.910937+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 0,
+      "total_negative": 1,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "208066986",
+        "author": {
+          "steamid": "76561198231494280",
+          "personaname": "Ktanos",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198231494280/",
+          "num_games_owned": 0,
+          "num_reviews": 3,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 47,
+          "last_played": 1785430120,
+          "avatar": "fb059ebad3d058d1cb868cdb2edf3010542145d5"
+        },
+        "language": "english",
+        "review": "Don't Waste your time this game is not worth it. \nIt is vastly unfair to the player making it impossible because all enemies bypass your armor and usually kill you almost immediately even at full heath. Healing items do not work until after your character has died. Special quests cannot be completed because by bypassing your armor they kill you instantly and if you manage to deal any damage they immediately refill their life back to full although you cannot do that with healing items. it immediately fails your quest. It them becomes a cash grab because you cannot try the quest again without paying money for special quests.",
+        "timestamp_created": 1761933931,
+        "timestamp_updated": 1761933931,
+        "voted_up": false,
+        "votes_up": 10,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.595291316509246826",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758722410",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYGBwAAAAAFP+MMn8AAAAB6mtuZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3918500,
+  "requested_at": "2026-09-13T19:59:36.194630+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "3 user reviews",
+      "total_positive": 2,
+      "total_negative": 1,
+      "total_reviews": 3
+    },
+    "reviews": [
+      {
+        "recommendationid": "204618497",
+        "author": {
+          "steamid": "76561199240893990",
+          "personaname": "xianyin",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199240893990/",
+          "num_games_owned": 81,
+          "num_reviews": 8,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "last_played": 1758109947,
+          "avatar": "738345e90541ec9e092fdad6321ae639eed49e4b"
+        },
+        "language": "schinese",
+        "review": "设计还是挺有意思的，可以看成是有限制的力学击球游戏。虽然只要4块钱但内容真的有点太少了只有20关而且有些关卡比较水，体感上半小时不到通关了。",
+        "timestamp_created": 1758203014,
+        "timestamp_updated": 1758203014,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.575835466384887695",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758081033",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYe7mAAAAAFP+JtPYAAAABxsMeMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.125,
+  "transport_error_count": 0
+}

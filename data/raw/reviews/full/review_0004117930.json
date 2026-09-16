@@ -1,0 +1,71 @@
+{
+  "appid": 4117930,
+  "requested_at": "2026-09-13T20:20:24.715082+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "224725467",
+        "author": {
+          "steamid": "76561198367471798",
+          "personaname": "xxadonisxx",
+          "persona_status": "in-game",
+          "profile_url": "https://steamcommunity.com/id/xxadonisxx/",
+          "num_games_owned": 32501,
+          "num_reviews": 26400,
+          "playtime_forever": 829,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 829,
+          "last_played": 1777581330,
+          "avatar": "07febd45da78f9257ae94745f864220b93e1efa2"
+        },
+        "language": "english",
+        "review": "Blue Balls from Cheapy Digital Studios is the kind of indie release that immediately signals its tone and scope through its name alone, leaning heavily into quirky humor and a deliberately simple concept. At its core, it is a retro-style platformer that revolves around guiding a spherical protagonist through a series of levels filled with obstacles, enemies, and timing-based challenges. The setup is intentionally minimal, offering just enough context to frame the journey without ever trying to build a complex narrative. Instead, the game focuses almost entirely on moment-to-moment gameplay, embracing a straightforward arcade philosophy that prioritizes reflexes and precision above all else.\n\nOnce in motion, the experience feels very much like a throwback to older platformers where mechanics are easy to grasp but require consistent execution. Movement is tight and responsive, encouraging players to master momentum and positioning as they progress through each stage. The level design forms the backbone of the game, gradually introducing new patterns and hazards that test the player’s ability to adapt. At its best, this creates a satisfying rhythm where each completed section feels earned, especially when navigating sequences that demand careful timing. However, because the core mechanics remain largely unchanged throughout, the game depends heavily on its level variety to maintain interest, and this is where it occasionally struggles.\n\nA notable aspect of the game is its attempt to differentiate itself through unconventional control suggestions, particularly the idea of using a trackball mouse to enhance immersion. While this adds a layer of novelty and can make the movement feel more tactile, it also creates a barrier for players who do not have access to such hardware. Using standard controls still works fine, but it lacks the distinctiveness the developers seem to be aiming for. This design choice highlights the game’s experimental edge, though it may not resonate equally with everyone.\n\nVisually, the game adopts a clean and colorful aesthetic that aligns well with its lighthearted tone. The graphics are simple and functional, prioritizing clarity so players can easily read the environment and react accordingly. While this approach works for the gameplay, it does mean the visual presentation remains relatively static from beginning to end. There is little in the way of evolution or surprise in how the game looks, which can make longer sessions feel somewhat repetitive. The audio follows a similar path, offering serviceable sound effects and music that complement the action without leaving a strong impression.\n\nWhere Blue Balls may divide players most is in its overall depth. The game offers a decent number of levels and a scoring system that encourages replayability, but beyond that, there is little in the way of progression systems or additional features. There are no significant upgrades, customization options, or narrative developments to keep things feeling fresh over time. For players who enjoy chasing high scores and refining their performance, this simplicity can be appealing. For others, it may feel like the experience runs out of new ideas relatively quickly.\n\nDespite these limitations, there is an undeniable charm to how focused the game is. It does not attempt to overextend itself or promise more than it can deliver. Instead, it commits fully to being a compact, skill-based platformer with a playful personality. This makes it well-suited for short bursts of play, where its quick levels and accessible mechanics can provide a satisfying distraction without requiring a major time investment. It is not a game that aims to be a centerpiece experience, but rather a small, self-contained project that offers a bit of fun within its narrow scope.\n\nIn the end, Blue Balls stands as a modest but earnest indie effort that succeeds in delivering a simple, mechanically driven experience with a touch of humor. Its strengths lie in its responsive controls and clear design, while its weaknesses come from a lack of variety and long-term depth. Players who appreciate minimalist arcade-style challenges will likely find something to enjoy, while those seeking a richer or more evolving experience may find it lacking. It ultimately feels like a game that knows exactly what it wants to be, even if that vision does not extend very far.\n\nRating: 6/10",
+        "timestamp_created": 1777856901,
+        "timestamp_updated": 1777857002,
+        "voted_up": true,
+        "votes_up": 1,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.523809552192687988",
+        "comment_count": 1,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763058955",
+        "reactions": [
+          {
+            "reaction_type": 31,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZhheAAAAAFP+DDDUAAAAB7naHZBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.141000000000531,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3575810,
+  "requested_at": "2026-09-13T19:23:33.555141+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 1,
+      "total_negative": 1,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "200800111",
+        "author": {
+          "steamid": "76561198239899694",
+          "personaname": "Andvalmer",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198239899694/",
+          "num_games_owned": 0,
+          "num_reviews": 4,
+          "playtime_forever": 13,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13,
+          "last_played": 1753560626,
+          "avatar": "abdc19876a8dca54cb71d6ca6580cae4a1f2446b"
+        },
+        "language": "english",
+        "review": "Game is so intriguing and fun! Would recommend! Made a whole video about it! https://youtu.be/ofYHMl32BqU?si=T4rMQcEXo-8bHIpx",
+        "timestamp_created": 1753580494,
+        "timestamp_updated": 1753580494,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.523121356964111328",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753538471",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZiZ8AAAAAFP+C9aEAAAAB/9v79BQ=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

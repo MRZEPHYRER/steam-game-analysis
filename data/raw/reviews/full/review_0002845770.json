@@ -1,0 +1,66 @@
+{
+  "appid": 2845770,
+  "requested_at": "2026-09-13T18:57:03.559827+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "5 user reviews",
+      "total_positive": 3,
+      "total_negative": 2,
+      "total_reviews": 5
+    },
+    "reviews": [
+      {
+        "recommendationid": "202360596",
+        "author": {
+          "steamid": "76561198901074647",
+          "personaname": "Futile Quest Games",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198901074647/",
+          "num_games_owned": 9348,
+          "num_reviews": 33,
+          "playtime_forever": 13,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 13,
+          "last_played": 1755478468,
+          "avatar": "a637ec3b65203ba74fee784ddfc865a18af27dfd"
+        },
+        "language": "english",
+        "review": "My review of Giant Crab. I went in with low expectations and was surprised to find that it is not that bad. I would beef up and add some better sound effects. However, for a budget kaiju game it does the trick. You control a giant crab that is decked out with various kaiju powers and takes off from earth on a mission of revenge against an alien race. \n\nI tried to find any reviews or game play videos but could not. You can expect to see the Giant Crab flying in space shooting space fleets and then landing on planets and using its powers to destroy buildings and ground forces. The latter forces will whittle down your health until you complete the objective or are displayed as a menu item at Red Lobster.  If you like giant monster movies and can skip a moderate lunch to spend 7 dollars for the game and have tempered expectations then you will not be disappointed.\n\n\nPs the space controls felt a little loose for precise shots on ships. On the ground the crab moves slow and is easier to control but I would have liked more crab claw animations. I played with a keyboard and mouse. On a side note I was happy to see another kaiju in the form of a Giant Alligator  cover with guns like a battleship. I would like to see an option to also control this creature.  This is a rather lofty request for a modest game.",
+        "timestamp_created": 1755479220,
+        "timestamp_updated": 1755485798,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.574468076229095459",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1755284434",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYgrmAAAAAFP+JiCsAAAAB08fiDBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.186999999999898,
+  "transport_error_count": 0
+}

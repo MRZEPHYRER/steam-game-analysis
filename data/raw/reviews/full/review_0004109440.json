@@ -1,0 +1,67 @@
+{
+  "appid": 4109440,
+  "requested_at": "2026-09-13T20:19:36.882458+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 10,
+      "total_negative": 0,
+      "total_reviews": 10
+    },
+    "reviews": [
+      {
+        "recommendationid": "212369970",
+        "author": {
+          "steamid": "76561198025213515",
+          "personaname": "Boern",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198025213515/",
+          "num_games_owned": 202,
+          "num_reviews": 5,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 22,
+          "deck_playtime_at_review": 9,
+          "last_played": 1764630109,
+          "avatar": "8dfe278c7493b6984540e57ecd57b791df13841e"
+        },
+        "language": "english",
+        "review": "This game is awful in the best way possible. I never had the feeling that there was enough time in the day to get even the small number of things done on my todo list. It was frankly too realistic. After ten minutes my own energy was drained. I will try again tomorrow if I have the energy.\n\nI also had trouble running it on my Steam Deck. It looked to me like the game thought I had an 800x1280 display when it's actually a 1280x800. But it ran perfectly on my Linux laptop.",
+        "timestamp_created": 1764630753,
+        "timestamp_updated": 1764630753,
+        "voted_up": true,
+        "votes_up": 7,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.586594939231872559",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1764584060",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFYRKIAAAAAFP+LFYuAAAAByo5CqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.155999999999949,
+  "transport_error_count": 0
+}

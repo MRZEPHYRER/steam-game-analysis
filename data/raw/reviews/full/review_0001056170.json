@@ -1,0 +1,66 @@
+{
+  "appid": 1056170,
+  "requested_at": "2026-09-13T18:41:24.699111+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 26,
+      "total_negative": 11,
+      "total_reviews": 37
+    },
+    "reviews": [
+      {
+        "recommendationid": "214370052",
+        "author": {
+          "steamid": "76561198078886982",
+          "personaname": "Outsider",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/profiles/76561198078886982/",
+          "num_games_owned": 0,
+          "num_reviews": 23,
+          "playtime_forever": 16,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 16,
+          "last_played": 1766863872,
+          "avatar": "9d485fb0461e4dbe575b170b08da98082cb61f55"
+        },
+        "language": "english",
+        "review": "Not a fan of the movement. It seems to want to be realistic, and it is, but takes away from the experience. You're going adrift rather than moving with intent. Too much inertia in an arcade style game where you'd expect the response to be snappy.\nI don't really know what I was expecting, but found a game that isn't polished. This is really really indie, and I wish the devs good luck, but this needs a bit more time in the oven.\nI guess the trailer really sold it to me and I came in with high expectations.",
+        "timestamp_created": 1766864436,
+        "timestamp_updated": 1766864436,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1573109533",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB08OCxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

@@ -1,0 +1,66 @@
+{
+  "appid": 3682530,
+  "requested_at": "2026-09-13T19:31:17.288381+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 74,
+      "total_negative": 12,
+      "total_reviews": 86
+    },
+    "reviews": [
+      {
+        "recommendationid": "204333941",
+        "author": {
+          "steamid": "76561199387907077",
+          "personaname": "令久",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199387907077/",
+          "num_games_owned": 0,
+          "num_reviews": 92,
+          "playtime_forever": 24,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 21,
+          "last_played": 1757865752,
+          "avatar": "acacec54c2cb39d998efbca9d09aa8295300b935"
+        },
+        "language": "schinese",
+        "review": "说实话，和我想象中不一样，有些失望，我以为是爽文那样各种囤囤囤，各种爽，然后看各种人心险恶，一出场便是爽文剧情，结果300元开局还没有任何筹钱办法，主角上辈子死的不冤，重活一世还能这么窝囊，然后圣人主角，邻居都救过主角命，要求是来者不拒的，末日了还在攒功德，哪怕自己自身难保也要各种脏活累活都接，有些踩到了我的雷区了，不是说喜欢黑深残，但是背景设定是丧尸爆发啊，也不是说这样的善良主角 邻居不好，但是毕竟末日题材，我还是更希望看见人性多样性，直接重开宿舍模式了，不过鉴于我还没有深入游玩，如果差评太过草率，等我细细游戏后再考虑评价。",
+        "timestamp_created": 1757865294,
+        "timestamp_updated": 1757865531,
+        "voted_up": true,
+        "votes_up": 4,
+        "votes_funny": 2,
+        "weighted_vote_score": "0.556202113628387451",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1757317946",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFY4D8AAAAAFP+HMaCAAAAB1t7yLBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.094000000000051,
+  "transport_error_count": 0
+}

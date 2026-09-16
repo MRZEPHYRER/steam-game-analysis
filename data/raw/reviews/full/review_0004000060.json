@@ -1,0 +1,66 @@
+{
+  "appid": 4000060,
+  "requested_at": "2026-09-13T20:10:05.569847+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "4 user reviews",
+      "total_positive": 4,
+      "total_negative": 0,
+      "total_reviews": 4
+    },
+    "reviews": [
+      {
+        "recommendationid": "205246665",
+        "author": {
+          "steamid": "76561199396487880",
+          "personaname": "TOFUCHAN",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199396487880/",
+          "num_games_owned": 0,
+          "num_reviews": 196,
+          "playtime_forever": 32,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 32,
+          "last_played": 1758902287,
+          "avatar": "91e655e3854c02a907828513307bf4f1963aed4d"
+        },
+        "language": "japanese",
+        "review": "とてもオーソドックスで遊びやすい異変探しでした！\r\n今回もかわいい8子ちゃんが見れます！\r\n\r\n配信で遊ばせていただきましたm(__)m\r\nhttps://youtu.be/iv00RkV6D40",
+        "timestamp_created": 1758902383,
+        "timestamp_updated": 1758902383,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1758866413",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB5jPqOBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.061999999999898,
+  "transport_error_count": 0
+}

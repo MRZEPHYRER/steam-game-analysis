@@ -1,0 +1,297 @@
+{
+  "requested_at": "2026-09-12T14:56:41.435879+00:00",
+  "request_params": {
+    "appids": 3334570,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3334570,
+  "payload": {
+    "3334570": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Lone Warrior's Fist",
+        "steam_appid": 3334570,
+        "required_age": 0,
+        "is_free": false,
+        "controller_support": "full",
+        "detailed_description": "<p class=\"bb_paragraph\" >You will play the role of a super warrior who hates evil and comes to a city controlled by gangs. You will encounter the besieged mayor and embark on the path of upholding justice and eliminating evil.</p><p class=\"bb_paragraph\" >Defeat countless enemies, constantly explore, collect coins, purchase supplies and equipment, constantly become stronger, and become the hero of the entire city.</p><h2 class=\"bb_tag\" >Game features:</h2><p class=\"bb_paragraph\" >A refreshing 2D action fighting game that combines fun gameplay from other types of games such as <strong>Metroidvania , 2D Platformer Game</strong>.</p><p class=\"bb_paragraph\" >Dual combat resources: Energy and Rage, along with a wide variety of skills.</p><p class=\"bb_paragraph\" >Accepts input buffering, making it easy for beginners to pick up and play.</p><p class=\"bb_paragraph\" >No collision damage, automatic health regeneration, and a tough, resilient hero who's hard to defeat.</p><p class=\"bb_paragraph\" >Multiple abilities available from the start, ensuring a frustration-free experience!</p><p class=\"bb_paragraph\" >Diverse mechanics: Combos, blocking, dodging, grabbing, throw techniques, and transformation.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" >You will play the role of a super warrior who hates evil and comes to a city controlled by gangs. You will encounter the besieged mayor and embark on the path of upholding justice and eliminating evil.</p><p class=\"bb_paragraph\" >Defeat countless enemies, constantly explore, collect coins, purchase supplies and equipment, constantly become stronger, and become the hero of the entire city.</p><h2 class=\"bb_tag\" >Game features:</h2><p class=\"bb_paragraph\" >A refreshing 2D action fighting game that combines fun gameplay from other types of games such as <strong>Metroidvania , 2D Platformer Game</strong>.</p><p class=\"bb_paragraph\" >Dual combat resources: Energy and Rage, along with a wide variety of skills.</p><p class=\"bb_paragraph\" >Accepts input buffering, making it easy for beginners to pick up and play.</p><p class=\"bb_paragraph\" >No collision damage, automatic health regeneration, and a tough, resilient hero who's hard to defeat.</p><p class=\"bb_paragraph\" >Multiple abilities available from the start, ensuring a frustration-free experience!</p><p class=\"bb_paragraph\" >Diverse mechanics: Combos, blocking, dodging, grabbing, throw techniques, and transformation.</p>",
+        "short_description": "Transform into a powerful superhero and rescue a city ruled by the Dark Empire. A variety of skills, fist to flesh impact, ultimate smooth combo, bring you a unique gaming experience.",
+        "supported_languages": "English, Simplified Chinese",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/3c1a888023020435ab076a000b637b0e1253352d/header.jpg?t=1761315014",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/bc8407ce313feb86cf09354141df05fe7fb914c3/capsule_231x87.jpg?t=1761315014",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/bc8407ce313feb86cf09354141df05fe7fb914c3/capsule_184x69.jpg?t=1761315014",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (64bit)<br></li><li><strong>Processor:</strong> Intel Core 2 Duo E5200<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong>  GeForce 9800GTX+ (1GB)<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 (64bit)<br></li><li><strong>Processor:</strong> Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 560<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "CreatiCell Games"
+        ],
+        "publishers": [
+          "CreatiCell Games"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 599,
+          "final": 599,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$5.99"
+        },
+        "packages": [
+          1180438
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Lone Warrior's Fist",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1180438,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Lone Warrior's Fist - $5.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 599
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/c1210317cf328bfded23abe8e029327ffbdd2ec9/ss_c1210317cf328bfded23abe8e029327ffbdd2ec9.600x338.jpg?t=1761315014",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/c1210317cf328bfded23abe8e029327ffbdd2ec9/ss_c1210317cf328bfded23abe8e029327ffbdd2ec9.1920x1080.jpg?t=1761315014"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/65cca39446b39116dfce8432e243417320cd9d41/ss_65cca39446b39116dfce8432e243417320cd9d41.600x338.jpg?t=1761315014",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/65cca39446b39116dfce8432e243417320cd9d41/ss_65cca39446b39116dfce8432e243417320cd9d41.1920x1080.jpg?t=1761315014"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/55a7526622ab6e3f9768fda141b64cea8aa4dc9f/ss_55a7526622ab6e3f9768fda141b64cea8aa4dc9f.600x338.jpg?t=1761315014",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/55a7526622ab6e3f9768fda141b64cea8aa4dc9f/ss_55a7526622ab6e3f9768fda141b64cea8aa4dc9f.1920x1080.jpg?t=1761315014"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/2be9eb587b6b67475daf527e1c3f1dd813e43433/ss_2be9eb587b6b67475daf527e1c3f1dd813e43433.600x338.jpg?t=1761315014",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/2be9eb587b6b67475daf527e1c3f1dd813e43433/ss_2be9eb587b6b67475daf527e1c3f1dd813e43433.1920x1080.jpg?t=1761315014"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/99055b3b36e27258cbaf503ebf425b5870a172af/ss_99055b3b36e27258cbaf503ebf425b5870a172af.600x338.jpg?t=1761315014",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/99055b3b36e27258cbaf503ebf425b5870a172af/ss_99055b3b36e27258cbaf503ebf425b5870a172af.1920x1080.jpg?t=1761315014"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257206697,
+            "name": "game_demo",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257206697/60f17d0d6952b6a17a9f593d22245bc595ab7c36/movie_600x337.jpg?t=1759317275",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3334570/1522142944/e720c252fe363fc0cf1c709eb84140d73c32d63a/1758872784/dash_av1.mpd?t=1759317275",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3334570/1522142944/e720c252fe363fc0cf1c709eb84140d73c32d63a/1758872784/dash_h264.mpd?t=1759317275",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3334570/1522142944/e720c252fe363fc0cf1c709eb84140d73c32d63a/1758872784/hls_264_master.m3u8?t=1759317275",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 11,
+          "highlighted": [
+            {
+              "icon": "d80b6ca15298c2fb6e3a392795cc6051a5541451.jpg",
+              "localized_name": "Save the Mayor",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Save the Mayor",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/d80b6ca15298c2fb6e3a392795cc6051a5541451.jpg"
+            },
+            {
+              "icon": "53cf85ba36a632acfe2a32f1a8c941846286c722.jpg",
+              "localized_name": "Get rid of evil",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Get rid of evil",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/53cf85ba36a632acfe2a32f1a8c941846286c722.jpg"
+            },
+            {
+              "icon": "6ddc67be932e46b8384d8fc8b779058412e12411.jpg",
+              "localized_name": "Sharpshooter Jack",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sharpshooter Jack",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/6ddc67be932e46b8384d8fc8b779058412e12411.jpg"
+            },
+            {
+              "icon": "b24fa7f5a074e5aadd46e3d205fcb1d075194ad3.jpg",
+              "localized_name": "Adjudicator-I",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Adjudicator-I",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/b24fa7f5a074e5aadd46e3d205fcb1d075194ad3.jpg"
+            },
+            {
+              "icon": "9e27238c4c0b9c505d4e79a4333325848e8562f7.jpg",
+              "localized_name": "King Kong",
+              "archived": 0,
+              "hidden": 0,
+              "name": "King Kong",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/9e27238c4c0b9c505d4e79a4333325848e8562f7.jpg"
+            },
+            {
+              "icon": "ef89efb3b638715ba379e9283d627c5ff72495cc.jpg",
+              "localized_name": "Forge legends",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Forge legends",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/ef89efb3b638715ba379e9283d627c5ff72495cc.jpg"
+            },
+            {
+              "icon": "515f94472d22ad9fc14b4b6a10cd304fb636fbe4.jpg",
+              "localized_name": "Enter the factory",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Enter the factory",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/515f94472d22ad9fc14b4b6a10cd304fb636fbe4.jpg"
+            },
+            {
+              "icon": "de813d3e8c7f1082f1bdec5ff71c46ff91c9101f.jpg",
+              "localized_name": "Streamline",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Streamline",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/de813d3e8c7f1082f1bdec5ff71c46ff91c9101f.jpg"
+            },
+            {
+              "icon": "0883d0878af886553dd3bc3300e693cf16c0321c.jpg",
+              "localized_name": "Conquering the Wilderness",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Conquering the Wilderness",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/0883d0878af886553dd3bc3300e693cf16c0321c.jpg"
+            },
+            {
+              "icon": "2f74964fe0622206fd37b8dc7a7c5c12c737c354.jpg",
+              "localized_name": "Enter the fortress",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Enter the fortress",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3334570/2f74964fe0622206fd37b8dc7a7c5c12c737c354.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 24, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "hzdx102468@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3334570?t=1761315014",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3334570/243182942c51f8f7f2e1b6f31cc4caaa82816c09/page_bg_raw.jpg?t=1761315014",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan"
+          }
+        }
+      }
+    }
+  }
+}

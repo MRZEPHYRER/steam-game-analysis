@@ -1,0 +1,71 @@
+{
+  "appid": 2784440,
+  "requested_at": "2026-09-13T18:55:45.447645+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 7,
+      "review_score_desc": "Positive",
+      "total_positive": 20,
+      "total_negative": 0,
+      "total_reviews": 20
+    },
+    "reviews": [
+      {
+        "recommendationid": "204621511",
+        "author": {
+          "steamid": "76561198009285302",
+          "personaname": "Kénoda",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/glitch70/",
+          "num_games_owned": 1049,
+          "num_reviews": 17,
+          "playtime_forever": 1442,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 662,
+          "last_played": 1770899462,
+          "avatar": "9615598dec56ed28e3a11af906ad978c50c252c0"
+        },
+        "language": "french",
+        "review": "Storage Looter est un jeu indie qui mélange exploration, loot et gestion avec une boucle de gameplay simple mais très addictive.\nLe concept de fouiller des entrepôts et revendre ses trouvailles pour améliorer sa boutique fonctionne parfaitement.\nLes graphismes en voxels offrent un style clair et relaxant, idéal pour ce type d’expérience.\nLa personnalisation du magasin (décos, sols, murs) donne une vraie identité à ton espace.\nLes mises à jour régulières enrichissent le contenu : casino, détecteur de métaux, nouvelles décorations.\nLe jeu est accessible et relaxant, parfait pour jouer sans stress après une longue journée.\nSon prix est très correct pour ce qu’il propose, surtout avec le suivi du développeur.\nQuelques limites existent : variété de missions un peu faible, challenge léger, solo uniquement.\nMalgré ça, la progression reste motivante et gratifiante.\nEn bref : un excellent petit jeu chill de loot et gestion, qui mérite largement d’être essayé.",
+        "timestamp_created": 1758205988,
+        "timestamp_updated": 1758205988,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1740162079",
+        "reactions": [
+          {
+            "reaction_type": 2,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFZF0UAAAAAFP+F0XgAAAAB37MiMBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.0,
+  "transport_error_count": 0
+}

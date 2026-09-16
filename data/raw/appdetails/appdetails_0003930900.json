@@ -1,0 +1,218 @@
+{
+  "requested_at": "2026-09-13T05:54:23.715026+00:00",
+  "request_params": {
+    "appids": 3930900,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 3930900,
+  "payload": {
+    "3930900": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "A Ball id",
+        "steam_appid": 3930900,
+        "required_age": 0,
+        "is_free": false,
+        "detailed_description": "<h2 class=\"bb_tag\" >Game Rules</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Do not touch the balls.</strong></p></li><li><p class=\"bb_paragraph\" >Complete the mission or survive for 3 minutes.</p></li><li><p class=\"bb_paragraph\" >Touch the cats.</p></li><li><p class=\"bb_paragraph\" >Clear all 20 stages to win.</p></li></ul><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Caution</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Touching a ball will eject you from the game.</p></li><li><p class=\"bb_paragraph\" >If you're kicked out, you'll be sent back 3 stages.</p></li><li><p class=\"bb_paragraph\" >Say 'Go' in the tutorial.</p></li></ul><p class=\"bb_paragraph\" ></p>",
+        "about_the_game": "<h2 class=\"bb_tag\" >Game Rules</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Do not touch the balls.</strong></p></li><li><p class=\"bb_paragraph\" >Complete the mission or survive for 3 minutes.</p></li><li><p class=\"bb_paragraph\" >Touch the cats.</p></li><li><p class=\"bb_paragraph\" >Clear all 20 stages to win.</p></li></ul><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Caution</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Touching a ball will eject you from the game.</p></li><li><p class=\"bb_paragraph\" >If you're kicked out, you'll be sent back 3 stages.</p></li><li><p class=\"bb_paragraph\" >Say 'Go' in the tutorial.</p></li></ul><p class=\"bb_paragraph\" ></p>",
+        "short_description": "A simple game where you just dodge balls and pet cats. (The balls are strong enough to kick you out of the game.)",
+        "supported_languages": "English",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/b65810401ab66b672cecc0f6597633feea7e0308/header.jpg?t=1765282738",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/6c0d3be5d3ccb237591a91a28e8c012112a9b7fb/capsule_231x87.jpg?t=1765282738",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/6c0d3be5d3ccb237591a91a28e8c012112a9b7fb/capsule_184x69.jpg?t=1765282738",
+        "website": null,
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i3 2.0GHz or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GT 710 / Intel HD 4000 (512 MB VRAM)<br></li><li><strong>Storage:</strong> 114 MB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel Core i5 3.0GHz or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 750 / AMD Radeon HD 7850 (2 GB VRAM)<br></li><li><strong>Storage:</strong> 114 MB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "jun"
+        ],
+        "publishers": [
+          "jun"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 199,
+          "final": 199,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$1.99"
+        },
+        "packages": [
+          1381072
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy A Ball id",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1381072,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "A Ball id - $1.99",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 199
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/32ce65350e21601f19fd3d2d978d2750beeacae2/ss_32ce65350e21601f19fd3d2d978d2750beeacae2.600x338.jpg?t=1765282738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/32ce65350e21601f19fd3d2d978d2750beeacae2/ss_32ce65350e21601f19fd3d2d978d2750beeacae2.1920x1080.jpg?t=1765282738"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/5a67754bedb5c454a7c6a013e645779cbc4c7350/ss_5a67754bedb5c454a7c6a013e645779cbc4c7350.600x338.jpg?t=1765282738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/5a67754bedb5c454a7c6a013e645779cbc4c7350/ss_5a67754bedb5c454a7c6a013e645779cbc4c7350.1920x1080.jpg?t=1765282738"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/302e2333ceaeea710bd760240ed23f47aede0c87/ss_302e2333ceaeea710bd760240ed23f47aede0c87.600x338.jpg?t=1765282738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/302e2333ceaeea710bd760240ed23f47aede0c87/ss_302e2333ceaeea710bd760240ed23f47aede0c87.1920x1080.jpg?t=1765282738"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/0782ef2c533c7696914fbe2e88b54dfd3d3af8f1/ss_0782ef2c533c7696914fbe2e88b54dfd3d3af8f1.600x338.jpg?t=1765282738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/0782ef2c533c7696914fbe2e88b54dfd3d3af8f1/ss_0782ef2c533c7696914fbe2e88b54dfd3d3af8f1.1920x1080.jpg?t=1765282738"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/1157b95f0bb645d6d4803b9d91d9c552e44556e9/ss_1157b95f0bb645d6d4803b9d91d9c552e44556e9.600x338.jpg?t=1765282738",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930900/1157b95f0bb645d6d4803b9d91d9c552e44556e9/ss_1157b95f0bb645d6d4803b9d91d9c552e44556e9.1920x1080.jpg?t=1765282738"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257180743,
+            "name": "ABallid",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257180743/cd35eb596a5a90095e14705caaed7a5899f8894a/movie_600x337.jpg?t=1755075791",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3930900/1660785028/21c90b1bfe131b860c4e9a0b14662270c345591c/1754735828/dash_av1.mpd?t=1755075791",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3930900/1660785028/21c90b1bfe131b860c4e9a0b14662270c345591c/1754735828/dash_h264.mpd?t=1755075791",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3930900/1660785028/21c90b1bfe131b860c4e9a0b14662270c345591c/1754735828/hls_264_master.m3u8?t=1755075791",
+            "highlight": true
+          }
+        ],
+        "achievements": {
+          "total": 3,
+          "highlighted": [
+            {
+              "icon": "545d0cf72d8eb50bdab10d7b7720e8756249f826.jpg",
+              "localized_name": "Game Clear",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Game Clear",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3930900/545d0cf72d8eb50bdab10d7b7720e8756249f826.jpg"
+            },
+            {
+              "icon": "51f3ea8d2feb9b36e3e92616e80de550706ec670.jpg",
+              "localized_name": "Ball Master",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Ball Master",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3930900/51f3ea8d2feb9b36e3e92616e80de550706ec670.jpg"
+            },
+            {
+              "icon": "320afe3581410d951e0cf7337080ee252facc3da.jpg",
+              "localized_name": "Tenacity",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Tenacity",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3930900/320afe3581410d951e0cf7337080ee252facc3da.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 6, 2025"
+        },
+        "support_info": {
+          "url": "",
+          "email": "junstudio.help@gmail.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930900?t=1765282738",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3930900?t=1765282738",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

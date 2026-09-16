@@ -1,0 +1,77 @@
+{
+  "appid": 3154800,
+  "requested_at": "2026-09-13T19:05:28.241766+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 164,
+      "total_negative": 10,
+      "total_reviews": 174
+    },
+    "reviews": [
+      {
+        "recommendationid": "214179891",
+        "author": {
+          "steamid": "76561198959606072",
+          "personaname": "𝐎𝐁𝐈𝐓𝐎",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198959606072/",
+          "num_games_owned": 96,
+          "num_reviews": 23,
+          "playtime_forever": 528,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 462,
+          "last_played": 1782592560,
+          "avatar": "f9500b05bad9962a946c513fc84c3fb77cf2fdd8"
+        },
+        "language": "turkish",
+        "review": "GÜNCELLENDİ V2\n\n⚽ Football Pitch Simulator: Harika Potansiyel, Acil Cila Gerektiriyor!\nOynanış Süresi: 7+ Saat (Erken Erişim Gözlemleri) Durum: Tavsiye Edilir (Ancak Güncelleme Şart!)\n\nOyunun temel mantığı ve Türkiye'deki \"Halı Saha\" kültürünü simüle etme fikri gerçekten çok başarılı. Ancak oyunun diğer simülasyonlar gibi 1-2 güncelleme ile kaderine terk edilmemesi gerekiyor. Oynadığım süre boyunca tespit ettiğim kritik hataları ve oyunu \"efsane\" yapacak önerilerimi aşağıda listeledim.\n\n🔴 ACİL DÜZELTİLMESİ GEREKEN TEKNİK HATALAR (BUGS & OPTIMIZATION)\nFPS ve Performans Düşüşü: Oyunun başında her şey akıcıyken, oyun içi 7. günden sonra ciddi FPS düşüşleri (kasma) başlıyor. Bir optimizasyon veya memory leak sorunu var gibi duruyor.\n\nMarket ve Fiyatlandırma Sistemi: Ürünlere fiyat biçerken sadece tam sayı (4$, 5$) girebiliyoruz. Ticaretin altın kuralı olan 4.99$ gibi küsuratlı fiyatlandırma (decimal pricing) sisteme eklenmeli.\n\nClipping (İç içe geçme): Müşteriler market raflarının içinden hayalet gibi geçiyor. Fizik motoru burada hatalı.\n\nEtkileşim (Hitbox) Sorunu: Sarhoş adama müdahale etmek tam bir işkence. Etkileşime girmek için karakterin 2-3 kere dibine girmek gerekiyor, vuruşlar algılanmıyor.\n\nGörsel Hata: Yağmur yağdığında ana binanın yanındaki inşaat alanının zeminine yağmur efektleri işlemiyor.\n\n⚠️ OYNANIŞ DENGESİZLİKLERİ (BALANCING)\nTeller Çok Çabuk Kırılıyor: Halı saha tellerini \"Maksimum Seviye\"ye getirmeme rağmen, teller kâğıt gibi çok hızlı yırtılıyor/kırılıyor. Bu kadar sık tamir yapmak oynanışı boğuyor, high-level eşyanın dayanıklılığı hissedilmeli.\n\nSınırsız Sprey: Oda kokusu spreyinin bir \"Durability\" (Dayanıklılık) barı yok, asla bitmiyor. Bunun bitmesi ve yenisini almamız gerek.\n\nTemizlik Angaryası: Temizliğin şu an animasyonları yetersiz. Unity motoruna uygun \"Renovation\" tarzı daha tatmin edici temizlik mekanikleri gelmeli.\n\nSaha Düzeltme Aracı: Araç çok hızlı ve kontrolsüz. Daha ağır, oturaklı olmalı. Ayrıca zemine \"Granül Serme\" mekaniği eklenmeli (Siyah granülleri döküp araçla yaymak gibi).\n\n💡 OYUNU ZİRVEYE TAŞIYACAK ÖNERİLER (FEATURES & WISHLIST)\n1. \"AIKEA\" Tarzı Online Eşya Sistemi Market, Ofis ve özellikle Soyunma Odası eşyalarını (banklar, askılıklar, dolaplar) oyun içindeki bilgisayardan, \"AIKEA\" veya benzeri bir uygulama üzerinden sipariş etmeliyiz. Eşyalar kargoyla kapıya gelmeli ve biz yerleştirmeliyiz. Şu anki sistem çok kısıtlı.\n\n2. Çay Ocağı ve Büfe Kültürü (Çok Önemli!) Burası bir halı saha, sadece market olmaz. Oyuna bir Çay Ocağı eklenmeli.\n\nÇay demleme, Oralet (Kivi/Portakal) ve Tost yapma mekaniği olmalı.\n\nMaçtan çıkanlar hemen gitmemeli, oturup çay içip dinlenmeli.\n\n3. Turnuva Sistemi Oyunun bir amacı (Endgame) olmalı. Hafta sonları 8 takımlı, 10.000$ ödüllü turnuvalar düzenlenmeli.\n\n4. Yaşam Kalitesi (QoL)\n\nPos cihazı ekranındayken sağa sola bakabilmeliyiz (Randevu saatini kontrol etmek için kasadan çıkmak zorunda kalıyoruz).\n\nHalı sahanın telleri, tribünleri ve panelleri daha boyanabilir/özelleştirilebilir olmalı.\n\nAna bina etrafındaki inşaat alanları, biz inşaat başlatmadıysak \"boş arazi\" olarak görünmeli.\n\nSonuç: Incipient Day ekibinden ricam, bu potansiyelli projeyi yarım bırakmamaları. Bu maddeler düzeltilirse türünün en iyisi olur. Takipteyim!",
+        "timestamp_created": 1766693212,
+        "timestamp_updated": 1767349991,
+        "voted_up": true,
+        "votes_up": 28,
+        "votes_funny": 1,
+        "weighted_vote_score": "0.789674937725067139",
+        "comment_count": 7,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "timestamp_dev_responded": 1766696982,
+        "developer_response": "Merhabalar, bu detaylı yorumunuz için öncelikle çok teşekkür ederiz. Oyunla ilgili geliştirmelere devam ediyoruz. Birçok yeni özellik ve özelleştirme için çalışmalar sürüyor ayrıca bu yazdığınız maddeleri de notlarımız arasına ekledik. Tekrardan teşekkür ederiz, iyi eğlenceler..",
+        "app_release_date": "1760097057",
+        "reactions": [
+          {
+            "reaction_type": 32,
+            "count": 1
+          },
+          {
+            "reaction_type": 5,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFUNN0AAAAAFP+lFBIAAAABzg4SxBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.9839999999999236,
+  "transport_error_count": 0
+}

@@ -1,0 +1,214 @@
+{
+  "requested_at": "2026-09-12T13:08:41.783533+00:00",
+  "request_params": {
+    "appids": 1583540,
+    "cc": "us",
+    "l": "english"
+  },
+  "http_status": 200,
+  "appid": 1583540,
+  "payload": {
+    "1583540": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "Meco Rocket Simulator",
+        "steam_appid": 1583540,
+        "required_age": 0,
+        "is_free": false,
+        "dlc": [
+          3924680
+        ],
+        "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/extras/042c1419701512c84ec27d1bc504081d.poster.avif?t=1789052582\" width=360 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/extras/042c1419701512c84ec27d1bc504081d.mp4?t=1789052582\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Design. Test. Fail. Learn.</h2><br><p class=\"bb_paragraph\" >A realistic rocket engine sim you learn by doing. Every number you change answers back, on the live graphs and in the 3D hardware.</p><br><p class=\"bb_paragraph\" >You're an underpaid engineer at Mecodyne, the kind of propulsion company that ships rockets aggressively and has opinions about your eyebrows. On your first day, you accidentally fire up a Vulcain 1 on your coworker's workstation. The graphs come alive. The Vulcain runs. You probably shouldn't be doing this.</p><br><p class=\"bb_paragraph\" >From there, you design real rocket engines using actual physics: cold-gas thrusters, gas generators, full pump-fed turbopump beasts. Combustion. Fluid dynamics. Heat transfer. Component-level engineering. Twist an injector orifice, and the chamber pressure curve responds in real time. Tighten the cooling channels and watch the thermal margin shrink. Reshape the nozzle and see what it does to Isp.</p><br><p class=\"bb_paragraph\" >It's a sim that won't lie to you about the numbers on the graph. Every node is inspectable. Every graph is live. The engine model behind it is described in a publicly available research paper , with a DOI and all, so you can check my work.</p><h2 class=\"bb_tag\" >Three ways to play</h2><br><p class=\"bb_paragraph\" ><strong>Missions (start here)</strong></p><br><p class=\"bb_paragraph\" >Fourteen guided challenges, from &quot;what's a model?&quot; to recreating the Merlin 1D that flies Falcon 9. Senior engineer Miku Aoyama walks you through, deadpan, accurate, mostly patient. You don't need to arrive as an expert. Mission 0 starts you with that accidental engine fire-up on her workstation, and the missions build from there.</p><br><p class=\"bb_paragraph\" ><strong>Free build</strong></p><br><p class=\"bb_paragraph\" >Skip the missions. Empty canvas, node-based editor, live graphs. Drop in components, wire them up, hit run, see what happens. Good for &quot;what if I just…&quot; experiments.</p><br><p class=\"bb_paragraph\" ><strong>Recreate real engines</strong></p><br><p class=\"bb_paragraph\" >Same components, same physics. Build a Merlin 1D from scratch. Or an F-1. Or something that's never existed and probably shouldn't. Push materials, propellants, and geometry until something gives.</p><h2 class=\"bb_tag\" >Key features</h2><br><ul class=\"bb_ul\"><li><strong>Mission Mode with real engineering challenges.</strong> Guided builds with senior engineer Miku Aoyama, from your first model to a complete gas-generator turbopump cycle.<br></li><li><strong>Live performance graphs and samplers.</strong> Chamber pressure, thrust, Isp, and thermal margins update in real time, with pump and turbine performance curves you can sample as you tune.<br></li><li><strong>2D node-graph assembly.</strong> Drop in components, wire them together, and fire the engine on an open canvas.<br></li><li><strong>Engine assemblies in 3D.</strong> Set the handful of numbers that define a Thrust Chamber or Turbopump and watch the hardware materialize: a real Rao bell nozzle contour, regenerative cooling channels, pump and turbine internals, rendered live.<br></li><li><strong>See the flow, not just the hardware.</strong> The supersonic flow field through your bell, rendered as a 3D volume, graying out past the point where the flow separates. Thrust comes from integrating that field, not from a lookup table.<br></li><li><strong>Staged startup sequences.</strong> Author every valve on a schedule: pumps spin up, valves crack open, the gas generator lights, in the order you set. Get the sequence right, and the engine runs nominal.<br></li><li><strong>Real physics, no shortcuts.</strong> Combustion, fluid dynamics, and heat transfer through regenerative cooling channels, all solved in real time.<br></li><li><strong>Recreate real engines.</strong> Build a Merlin 1D, an F-1, or a Vulcain 1 from the same components and physics.<br></li><li><strong>Display Units.</strong> Read every output in the units you actually think in, from kN to bar, across charts, samplers, and mission text.</li></ul><h2 class=\"bb_tag\" >Pro Content (optional add-on)</h2><br><p class=\"bb_paragraph\" >Soundtrack, technical reference PDFs, 3D-printable component models (STL/3MF), and high-resolution wallpapers. For the people who want the lore in their toolbox.</p><h2 class=\"bb_tag\" >What's new</h2><br><ul class=\"bb_ul\"><li><strong>0.6</strong>: Engine assemblies. The Thrust Chamber builds a real Rao bell nozzle from five numbers, cooling channels and all, live in 3D; the Turbopump sizes its own shafts and gears. A brand new Mission 13: test-fire your own Merlin 1D. It also ships as a free-build template, yours to tinker with from the start. And undo/redo, everywhere in the editor.<br></li><li><strong>0.5</strong>: Mission 0, your accidental first day on Miku's workstation. Three new gas-generator cycle missions (Turbopump Integration, Gas Generator Genesis, Injector Insights). Display Units, so you can finally read pressure in bar instead of pascals.<br></li><li><strong>0.4</strong>: Real-time pump and turbine samplers with live performance curves. Auto-run on every edit. Pinned component editor with nudge buttons and mouse-wheel tweaking. Colorblind-safe chart colors (Okabe-Ito).</li></ul><h2 class=\"bb_tag\" >Early Access roadmap</h2><br><p class=\"bb_paragraph\" >Meco is in Early Access and playable today. The full core loop is here: design an engine, fire it, read the graphs, and iterate. I ship updates regularly. Here's what's already in, and what I'm building next.</p><br><p class=\"bb_paragraph\" ><strong>Playable now:</strong></p><br><ul class=\"bb_ul\"><li>Missions Chapters I to IV complete, and Chapter V (Legendary GG Engines) opened with Mission 13: recreate the Merlin 1D<br></li><li>Thrust Chamber and Turbopump assemblies with live 3D hardware, from the nozzle bell to the gear train<br></li><li>Staged startup: author every valve on a schedule<br></li><li>Thrust and engine Isp measurement, the numbers real datasheets quote</li></ul><br><p class=\"bb_paragraph\" ><strong>Building next:</strong></p><br><ul class=\"bb_ul\"><li>The rest of Chapter V: A-7 Redstone and Vulcain 1 recreations<br></li><li>Expander-cycle components<br></li><li>Component mass, for thrust-to-weight numbers<br></li><li>Thermal and load stress limits<br></li><li>Historical campaigns</li></ul><br><p class=\"bb_paragraph\" >I intend to finish the roadmap in 2027. I build Meco solo, so every purchase directly funds the work, and if enough people who think as you do buy it, I can do this full-time. Your support genuinely makes the difference.</p><br><p class=\"bb_paragraph\" ><strong>Dannie Sim</strong></p><p class=\"bb_paragraph\" >Solo Indie Dev, Meco Rocket Simulator (formerly at Activision/Blizzard on Candy Crush and Sony PlayStation on Spider-Man 2)</p><h2 class=\"bb_tag\" >Heads up</h2><br><p class=\"bb_paragraph\" >This isn't a casual arcade game. It's a serious engineering sim with a real learning curve, and honestly, your first designs probably won't hit their targets. That's the point. In the missions, when a build misses, a &quot;Need a hint?&quot; diagnostic tells you what's off and walks you to the fix one item at a time: run the test at least once; your mixture ratio is still stoichiometric, so dial the gas-generator valve richer; that component name looks like a typo. In free build it's you and the graphs. Either way, you figure out which assumption was off, and try again.</p><br><p class=\"bb_paragraph\" >If you've spent time curious about what actually goes on inside a running rocket engine, and why a 5% change in injector geometry can ruin your whole afternoon, Meco was built for you.</p><br><p class=\"bb_paragraph\" >Come build something that works. Or something that doesn't, and work out why. Both are fine outcomes.</p>",
+        "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/extras/042c1419701512c84ec27d1bc504081d.poster.avif?t=1789052582\" width=360 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/extras/042c1419701512c84ec27d1bc504081d.mp4?t=1789052582\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Design. Test. Fail. Learn.</h2><br><p class=\"bb_paragraph\" >A realistic rocket engine sim you learn by doing. Every number you change answers back, on the live graphs and in the 3D hardware.</p><br><p class=\"bb_paragraph\" >You're an underpaid engineer at Mecodyne, the kind of propulsion company that ships rockets aggressively and has opinions about your eyebrows. On your first day, you accidentally fire up a Vulcain 1 on your coworker's workstation. The graphs come alive. The Vulcain runs. You probably shouldn't be doing this.</p><br><p class=\"bb_paragraph\" >From there, you design real rocket engines using actual physics: cold-gas thrusters, gas generators, full pump-fed turbopump beasts. Combustion. Fluid dynamics. Heat transfer. Component-level engineering. Twist an injector orifice, and the chamber pressure curve responds in real time. Tighten the cooling channels and watch the thermal margin shrink. Reshape the nozzle and see what it does to Isp.</p><br><p class=\"bb_paragraph\" >It's a sim that won't lie to you about the numbers on the graph. Every node is inspectable. Every graph is live. The engine model behind it is described in a publicly available research paper , with a DOI and all, so you can check my work.</p><h2 class=\"bb_tag\" >Three ways to play</h2><br><p class=\"bb_paragraph\" ><strong>Missions (start here)</strong></p><br><p class=\"bb_paragraph\" >Fourteen guided challenges, from &quot;what's a model?&quot; to recreating the Merlin 1D that flies Falcon 9. Senior engineer Miku Aoyama walks you through, deadpan, accurate, mostly patient. You don't need to arrive as an expert. Mission 0 starts you with that accidental engine fire-up on her workstation, and the missions build from there.</p><br><p class=\"bb_paragraph\" ><strong>Free build</strong></p><br><p class=\"bb_paragraph\" >Skip the missions. Empty canvas, node-based editor, live graphs. Drop in components, wire them up, hit run, see what happens. Good for &quot;what if I just…&quot; experiments.</p><br><p class=\"bb_paragraph\" ><strong>Recreate real engines</strong></p><br><p class=\"bb_paragraph\" >Same components, same physics. Build a Merlin 1D from scratch. Or an F-1. Or something that's never existed and probably shouldn't. Push materials, propellants, and geometry until something gives.</p><h2 class=\"bb_tag\" >Key features</h2><br><ul class=\"bb_ul\"><li><strong>Mission Mode with real engineering challenges.</strong> Guided builds with senior engineer Miku Aoyama, from your first model to a complete gas-generator turbopump cycle.<br></li><li><strong>Live performance graphs and samplers.</strong> Chamber pressure, thrust, Isp, and thermal margins update in real time, with pump and turbine performance curves you can sample as you tune.<br></li><li><strong>2D node-graph assembly.</strong> Drop in components, wire them together, and fire the engine on an open canvas.<br></li><li><strong>Engine assemblies in 3D.</strong> Set the handful of numbers that define a Thrust Chamber or Turbopump and watch the hardware materialize: a real Rao bell nozzle contour, regenerative cooling channels, pump and turbine internals, rendered live.<br></li><li><strong>See the flow, not just the hardware.</strong> The supersonic flow field through your bell, rendered as a 3D volume, graying out past the point where the flow separates. Thrust comes from integrating that field, not from a lookup table.<br></li><li><strong>Staged startup sequences.</strong> Author every valve on a schedule: pumps spin up, valves crack open, the gas generator lights, in the order you set. Get the sequence right, and the engine runs nominal.<br></li><li><strong>Real physics, no shortcuts.</strong> Combustion, fluid dynamics, and heat transfer through regenerative cooling channels, all solved in real time.<br></li><li><strong>Recreate real engines.</strong> Build a Merlin 1D, an F-1, or a Vulcain 1 from the same components and physics.<br></li><li><strong>Display Units.</strong> Read every output in the units you actually think in, from kN to bar, across charts, samplers, and mission text.</li></ul><h2 class=\"bb_tag\" >Pro Content (optional add-on)</h2><br><p class=\"bb_paragraph\" >Soundtrack, technical reference PDFs, 3D-printable component models (STL/3MF), and high-resolution wallpapers. For the people who want the lore in their toolbox.</p><h2 class=\"bb_tag\" >What's new</h2><br><ul class=\"bb_ul\"><li><strong>0.6</strong>: Engine assemblies. The Thrust Chamber builds a real Rao bell nozzle from five numbers, cooling channels and all, live in 3D; the Turbopump sizes its own shafts and gears. A brand new Mission 13: test-fire your own Merlin 1D. It also ships as a free-build template, yours to tinker with from the start. And undo/redo, everywhere in the editor.<br></li><li><strong>0.5</strong>: Mission 0, your accidental first day on Miku's workstation. Three new gas-generator cycle missions (Turbopump Integration, Gas Generator Genesis, Injector Insights). Display Units, so you can finally read pressure in bar instead of pascals.<br></li><li><strong>0.4</strong>: Real-time pump and turbine samplers with live performance curves. Auto-run on every edit. Pinned component editor with nudge buttons and mouse-wheel tweaking. Colorblind-safe chart colors (Okabe-Ito).</li></ul><h2 class=\"bb_tag\" >Early Access roadmap</h2><br><p class=\"bb_paragraph\" >Meco is in Early Access and playable today. The full core loop is here: design an engine, fire it, read the graphs, and iterate. I ship updates regularly. Here's what's already in, and what I'm building next.</p><br><p class=\"bb_paragraph\" ><strong>Playable now:</strong></p><br><ul class=\"bb_ul\"><li>Missions Chapters I to IV complete, and Chapter V (Legendary GG Engines) opened with Mission 13: recreate the Merlin 1D<br></li><li>Thrust Chamber and Turbopump assemblies with live 3D hardware, from the nozzle bell to the gear train<br></li><li>Staged startup: author every valve on a schedule<br></li><li>Thrust and engine Isp measurement, the numbers real datasheets quote</li></ul><br><p class=\"bb_paragraph\" ><strong>Building next:</strong></p><br><ul class=\"bb_ul\"><li>The rest of Chapter V: A-7 Redstone and Vulcain 1 recreations<br></li><li>Expander-cycle components<br></li><li>Component mass, for thrust-to-weight numbers<br></li><li>Thermal and load stress limits<br></li><li>Historical campaigns</li></ul><br><p class=\"bb_paragraph\" >I intend to finish the roadmap in 2027. I build Meco solo, so every purchase directly funds the work, and if enough people who think as you do buy it, I can do this full-time. Your support genuinely makes the difference.</p><br><p class=\"bb_paragraph\" ><strong>Dannie Sim</strong></p><p class=\"bb_paragraph\" >Solo Indie Dev, Meco Rocket Simulator (formerly at Activision/Blizzard on Candy Crush and Sony PlayStation on Spider-Man 2)</p><h2 class=\"bb_tag\" >Heads up</h2><br><p class=\"bb_paragraph\" >This isn't a casual arcade game. It's a serious engineering sim with a real learning curve, and honestly, your first designs probably won't hit their targets. That's the point. In the missions, when a build misses, a &quot;Need a hint?&quot; diagnostic tells you what's off and walks you to the fix one item at a time: run the test at least once; your mixture ratio is still stoichiometric, so dial the gas-generator valve richer; that component name looks like a typo. In free build it's you and the graphs. Either way, you figure out which assumption was off, and try again.</p><br><p class=\"bb_paragraph\" >If you've spent time curious about what actually goes on inside a running rocket engine, and why a 5% change in injector geometry can ruin your whole afternoon, Meco was built for you.</p><br><p class=\"bb_paragraph\" >Come build something that works. Or something that doesn't, and work out why. Both are fine outcomes.</p>",
+        "short_description": "Design real rocket engines with real physics; learn by doing with interactive feedback. See hardware come to life in 3D as you enter the numbers. So serious, it comes with a research paper. Built solo. Want a story? You're an underpaid engineer at Mecodyne, building without regard for your safety.",
+        "supported_languages": "English<strong>*</strong><br><strong>*</strong>languages with full audio support",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/33688f47b04a0820b1fb43598db2a65306f64d8a/header.jpg?t=1789052582",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/f42297e6f7e8b3a145672d62ba56ec8aa49cfdc9/capsule_231x87.jpg?t=1789052582",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/f42297e6f7e8b3a145672d62ba56ec8aa49cfdc9/capsule_184x69.jpg?t=1789052582",
+        "website": "https://www.mecorocketsimulator.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "mac_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 12<br></li><li><strong>Processor:</strong> Apple M1 or Intel Core M<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 15<br></li><li><strong>Processor:</strong> Apple M4<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 18.04.5 LTS<br></li><li><strong>Processor:</strong> 3 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce 8 series/ATI Radeon 2000 series/Intel HD Graphics 4000 or higher<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+        },
+        "developers": [
+          "Loren Aerospace"
+        ],
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4969,
+          "final": 4969,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$49.69"
+        },
+        "packages": [
+          1384960
+        ],
+        "package_groups": [
+          {
+            "name": "default",
+            "title": "Buy Meco Rocket Simulator",
+            "description": "",
+            "selection_text": "Select a purchase option",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+              {
+                "packageid": 1384960,
+                "percent_savings_text": " ",
+                "percent_savings": 0,
+                "option_text": "Meco Rocket Simulator - $49.69",
+                "option_description": "",
+                "can_get_free_license": "0",
+                "is_free_license": false,
+                "price_in_cents_with_discount": 4969
+              }
+            ]
+          }
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/86ea7d36206c459126ad28069354da4ee3d4920c/ss_86ea7d36206c459126ad28069354da4ee3d4920c.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/86ea7d36206c459126ad28069354da4ee3d4920c/ss_86ea7d36206c459126ad28069354da4ee3d4920c.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/0956b2a4aa7eaa2cfeafa1c6b1f39a38d5982b01/ss_0956b2a4aa7eaa2cfeafa1c6b1f39a38d5982b01.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/0956b2a4aa7eaa2cfeafa1c6b1f39a38d5982b01/ss_0956b2a4aa7eaa2cfeafa1c6b1f39a38d5982b01.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/9755351a59da4e85c41445af18fea73e004678ff/ss_9755351a59da4e85c41445af18fea73e004678ff.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/9755351a59da4e85c41445af18fea73e004678ff/ss_9755351a59da4e85c41445af18fea73e004678ff.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/ae5aa51b16340067c9a46451e1dc96ed89458dc0/ss_ae5aa51b16340067c9a46451e1dc96ed89458dc0.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/ae5aa51b16340067c9a46451e1dc96ed89458dc0/ss_ae5aa51b16340067c9a46451e1dc96ed89458dc0.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/a86325b861c722253704b4b4f15969bcb7326f07/ss_a86325b861c722253704b4b4f15969bcb7326f07.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/a86325b861c722253704b4b4f15969bcb7326f07/ss_a86325b861c722253704b4b4f15969bcb7326f07.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/d760ef0ee01d7543745f8db0f975ec8128c93454/ss_d760ef0ee01d7543745f8db0f975ec8128c93454.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/d760ef0ee01d7543745f8db0f975ec8128c93454/ss_d760ef0ee01d7543745f8db0f975ec8128c93454.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/7a8a62a80874a83e1bfc060fe66f8fa225e2bf5d/ss_7a8a62a80874a83e1bfc060fe66f8fa225e2bf5d.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/7a8a62a80874a83e1bfc060fe66f8fa225e2bf5d/ss_7a8a62a80874a83e1bfc060fe66f8fa225e2bf5d.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/d94024abbe03eea37ba2140df1fc0ac86dbc0d94/ss_d94024abbe03eea37ba2140df1fc0ac86dbc0d94.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/d94024abbe03eea37ba2140df1fc0ac86dbc0d94/ss_d94024abbe03eea37ba2140df1fc0ac86dbc0d94.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/1a71e2655785103fed92e7106cfe7489fb24efac/ss_1a71e2655785103fed92e7106cfe7489fb24efac.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/1a71e2655785103fed92e7106cfe7489fb24efac/ss_1a71e2655785103fed92e7106cfe7489fb24efac.1920x1080.jpg?t=1789052582"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/ae2a1729b0daee4b6ea30014668ed8fff606cabf/ss_ae2a1729b0daee4b6ea30014668ed8fff606cabf.600x338.jpg?t=1789052582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583540/ae2a1729b0daee4b6ea30014668ed8fff606cabf/ss_ae2a1729b0daee4b6ea30014668ed8fff606cabf.1920x1080.jpg?t=1789052582"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257225080,
+            "name": "Four numbers. A real engine bell. Then you fire it.",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257225080/a2a30a07a44c6763112d9b52a809f2b322385748/movie_600x337.jpg?t=1787763717",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1583540/789731730/bc1209e0d95d4a3540d71444d9886c3a51f59304/1787762061/dash_av1.mpd?t=1787763717",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1583540/789731730/bc1209e0d95d4a3540d71444d9886c3a51f59304/1787762061/dash_h264.mpd?t=1787763717",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1583540/789731730/bc1209e0d95d4a3540d71444d9886c3a51f59304/1787762061/hls_264_master.m3u8?t=1787763717",
+            "highlight": true
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 14, 2025"
+        },
+        "support_info": {
+          "url": "https://www.mecorocketsimulator.com",
+          "email": "support@mecorocketsimulator.com"
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1583540?t=1789052582",
+        "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1583540?t=1789052582",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "3",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+          }
+        }
+      }
+    }
+  }
+}

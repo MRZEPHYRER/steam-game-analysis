@@ -1,0 +1,66 @@
+{
+  "appid": 3993060,
+  "requested_at": "2026-09-13T20:09:05.912943+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "2 user reviews",
+      "total_positive": 2,
+      "total_negative": 0,
+      "total_reviews": 2
+    },
+    "reviews": [
+      {
+        "recommendationid": "212353575",
+        "author": {
+          "steamid": "76561198413782734",
+          "personaname": "BIRD",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/id/TheSuitedBirdYT/",
+          "num_games_owned": 430,
+          "num_reviews": 76,
+          "playtime_forever": 49,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 45,
+          "last_played": 1764628821,
+          "avatar": "d9eaf4541ec2cea67c58b3f5f0a66b2625c259d9"
+        },
+        "language": "english",
+        "review": "A great unique take on a Balatro like game that really switches up the gameplay from Balatro to add the joys of playing chess to it as well. Works way better then I was initially expecting! Would definitely recommend if you like chess but are looking for alittle bit of a switchup to the traditional game.",
+        "timestamp_created": 1764614253,
+        "timestamp_updated": 1764614253,
+        "voted_up": true,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": true,
+        "primarily_steam_deck": false,
+        "app_release_date": "1763718907",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3ooiqBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.8909999999996217,
+  "transport_error_count": 0
+}

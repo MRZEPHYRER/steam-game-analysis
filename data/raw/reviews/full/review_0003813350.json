@@ -1,0 +1,71 @@
+{
+  "appid": 3813350,
+  "requested_at": "2026-09-13T19:43:08.855525+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 163,
+      "total_negative": 46,
+      "total_reviews": 209
+    },
+    "reviews": [
+      {
+        "recommendationid": "218196499",
+        "author": {
+          "steamid": "76561198954808866",
+          "personaname": "May",
+          "persona_status": "online",
+          "profile_url": "https://steamcommunity.com/id/stupidchoppedfreak/",
+          "num_games_owned": 511,
+          "num_reviews": 96,
+          "playtime_forever": 179,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 179,
+          "last_played": 1760485683,
+          "avatar": "86701af110f9cb515b15a23d8e4213861dc167f8"
+        },
+        "language": "english",
+        "review": "You can skip the loading screens. What kind of game lets you skip the ♥♥♥♥♥♥♥ loading screens how did they even do that?",
+        "timestamp_created": 1770959763,
+        "timestamp_updated": 1770959763,
+        "voted_up": true,
+        "votes_up": 24,
+        "votes_funny": 31,
+        "weighted_vote_score": "0.749100625514984131",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1753340193",
+        "reactions": [
+          {
+            "reaction_type": 28,
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "cursor": "AoMFQFVBJqAAAAAFP+f4oqAAAABzoa3ABg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.063000000000102,
+  "transport_error_count": 0
+}

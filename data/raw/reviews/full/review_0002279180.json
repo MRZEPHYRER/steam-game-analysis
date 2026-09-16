@@ -1,0 +1,66 @@
+{
+  "appid": 2279180,
+  "requested_at": "2026-09-13T18:48:59.633436+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "6 user reviews",
+      "total_positive": 3,
+      "total_negative": 3,
+      "total_reviews": 6
+    },
+    "reviews": [
+      {
+        "recommendationid": "213715415",
+        "author": {
+          "steamid": "76561198078651411",
+          "personaname": "mrSend",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198078651411/",
+          "num_games_owned": 0,
+          "num_reviews": 12,
+          "playtime_forever": 22,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 17,
+          "last_played": 1766459076,
+          "avatar": "c0d38a3b41708d892e087c53d388b9ed8f9a4047"
+        },
+        "language": "russian",
+        "review": "Хотелось бы поиграть в нее, но она тупо виснет при загрузке новой игры, заценить не смог, потому до исправления ситуации ставлю отрицательную оценку. Возврат пока делать не буду, вроде ее регулярно патчат. Изменю отзыв когда будет возможность поиграть в нее =)",
+        "timestamp_created": 1766227308,
+        "timestamp_updated": 1766227308,
+        "voted_up": false,
+        "votes_up": 0,
+        "votes_funny": 0,
+        "weighted_vote_score": 0.5,
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1722619368",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaAAAAAAAAFP+AAAAAAAAB3naGvBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.109000000000151,
+  "transport_error_count": 0
+}

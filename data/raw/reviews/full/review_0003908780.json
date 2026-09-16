@@ -1,0 +1,67 @@
+{
+  "appid": 3908780,
+  "requested_at": "2026-09-13T19:58:26.092883+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 0,
+      "review_score_desc": "1 user reviews",
+      "total_positive": 1,
+      "total_negative": 0,
+      "total_reviews": 1
+    },
+    "reviews": [
+      {
+        "recommendationid": "225793622",
+        "author": {
+          "steamid": "76561199434428446",
+          "personaname": "CallMeCaptnC",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561199434428446/",
+          "num_games_owned": 0,
+          "num_reviews": 2,
+          "playtime_forever": 9,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 9,
+          "deck_playtime_at_review": 9,
+          "last_played": 1773776662,
+          "avatar": "b53a09d02a36aa459b95ef571caa8bd5d5670f5f"
+        },
+        "language": "english",
+        "review": "This is not a GAME. This is a random encounter generator for the ttrpg Mork Borg. It is a great tool for DMs or solo rpg players. You will need the core rules for Mork Borg (free to download online) and a set of dice for role playing games. I solo play and this is very useful.",
+        "timestamp_created": 1779049261,
+        "timestamp_updated": 1779049261,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.545454561710357666",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": true,
+        "app_release_date": "1763749944",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFaF0UAAAAAFP+F0XgAAAAB25ardBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 1.875,
+  "transport_error_count": 0
+}

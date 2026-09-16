@@ -1,0 +1,66 @@
+{
+  "appid": 2117370,
+  "requested_at": "2026-09-13T18:47:30.685510+00:00",
+  "request_params": {
+    "json": 1,
+    "filter": "all",
+    "cursor": "*",
+    "num_per_page": 1,
+    "language": "all",
+    "purchase_type": "steam",
+    "review_type": "all",
+    "filter_offtopic_activity": 1,
+    "day_range": 365
+  },
+  "http_status": 200,
+  "payload": {
+    "success": 1,
+    "query_summary": {
+      "num_reviews": 1,
+      "review_score": 5,
+      "review_score_desc": "Mixed",
+      "total_positive": 11,
+      "total_negative": 6,
+      "total_reviews": 17
+    },
+    "reviews": [
+      {
+        "recommendationid": "212823698",
+        "author": {
+          "steamid": "76561198069204434",
+          "personaname": "A YA YA",
+          "persona_status": "offline",
+          "profile_url": "https://steamcommunity.com/profiles/76561198069204434/",
+          "num_games_owned": 407,
+          "num_reviews": 105,
+          "playtime_forever": 244,
+          "playtime_last_two_weeks": 0,
+          "playtime_at_review": 57,
+          "last_played": 1770942037,
+          "avatar": "e603c36d83af19cb7f28942ae42614ad5fc81dd3"
+        },
+        "language": "schinese",
+        "review": "其实挺好玩的，我是全世界排行榜第二名哈哈，9快钱你要啥自行车儿啊",
+        "timestamp_created": 1765161862,
+        "timestamp_updated": 1765161862,
+        "voted_up": true,
+        "votes_up": 2,
+        "votes_funny": 0,
+        "weighted_vote_score": "0.519999980926513672",
+        "comment_count": 0,
+        "steam_purchase": true,
+        "received_for_free": false,
+        "refunded": false,
+        "written_during_early_access": false,
+        "primarily_steam_deck": false,
+        "app_release_date": "1719975824",
+        "reactions": []
+      }
+    ],
+    "cursor": "AoMFQFZmZmAAAAAFP+Cj1wAAAABy6e2rBg=="
+  },
+  "request_retry_count": 0,
+  "retryable_status_codes": [],
+  "request_latency_seconds": 2.234000000000151,
+  "transport_error_count": 0
+}
