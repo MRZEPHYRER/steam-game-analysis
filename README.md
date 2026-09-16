@@ -8,6 +8,53 @@
 
 **数据规模：** 3,000 款游戏 · 2,598 款付费游戏 · 402 款免费游戏 · 2,241 款至少获得一条评论
 
+## 项目流程
+
+```mermaid
+flowchart TD
+    A[Steam API / Store Data] --> B[Python 数据采集]
+    B --> C[清洗、校验与样本冻结]
+    C --> D[MySQL 分析数据库]
+    D --> E[R EDA 与统计建模]
+    E --> F[Quarto 可复现报告]
+    F --> G[市场关注度 / 玩家口碑 / 评分可靠性诊断]
+```
+
+## Quick Start
+
+安装 Python 依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+运行自动化测试：
+
+```bash
+pytest -q
+```
+
+项目当前保留了分析和复现所需的冻结数据，原始 API JSON 响应未包含在仓库中。
+
+完整分析报告可通过下方链接查看。
+
+主要目录：
+
+```text
+data/
+├─ interim/       # 数据处理阶段的中间结果
+├─ processed/     # 冻结后的核心分析数据
+└─ analysis/      # 建模与诊断输出
+
+R/                # R 分析与统计建模
+src/              # Python 核心数据处理模块
+scripts/          # 数据采集与处理脚本
+sql/              # MySQL 建表、校验与分析 SQL
+reports/          # Quarto 报告源文件与结果
+tests/            # 自动化测试
+```
+
+
 ---
 
 [在线查看完整分析报告](https://mrzephyrer.github.io/steam-game-analysis/)
