@@ -12,6 +12,8 @@
 
 [在线查看完整分析报告](https://mrzephyrer.github.io/steam-game-analysis/)
 
+[![Python Tests](https://github.com/MRZEPHYRER/steam-game-analysis/actions/workflows/python-tests.yml/badge.svg)](https://github.com/MRZEPHYRER/steam-game-analysis/actions/workflows/python-tests.yml)
+
 ## 项目背景
 
 最初的分析目标是研究 Steam 新游戏的评分和评论表现。
