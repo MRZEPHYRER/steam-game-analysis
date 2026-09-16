@@ -30,3 +30,5 @@ Thumbs.db
 # Logs
 logs/*.log
 '@ | Set-Content .gitignore -Encoding UTF8
+# Temporary test outputs
+/test/
